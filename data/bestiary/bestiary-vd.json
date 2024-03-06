@@ -94,7 +94,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Vecna casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 22}):"
+						"Vecna施展以下一种法术，不需要任何材料成分，并使用智力作为施法能力（法术保存（%0%））。"
 					],
 					"will": [
 						"{@spell animate dead} (as an action)",
@@ -125,25 +125,25 @@
 				{
 					"name": "Legendary Resistance (5/Day)",
 					"entries": [
-						"If Vecna fails a saving throw, he can choose to succeed instead."
+						"如果Vecna的拯救动作失败，他可以选择成功。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Vecna carries a magic dagger named Afterthought. In the hands of anyone other than Vecna, Afterthought is a {@item +2 dagger}."
+						"Vecna携带一把名为Afterthought的魔法匕首。在Vecna以外的人手中，Afterthought是一个（%0%）。"
 					]
 				},
 				{
 					"name": "Undying",
 					"entries": [
-						"If Vecna is slain, his soul refuses to accept its fate and lives on as a disembodied spirit that fashions a new body for itself after {@dice 1d100} years. Vecna's soul can fashion a new body even if its old body was burned to ash or otherwise obliterated. When the new body is complete, Vecna regains all his hit points and becomes active again. Vecna's new body appears anywhere within 100 miles of where Vecna was slain."
+						"如果Vecna被杀，他的灵魂拒绝接受自己的命运，并作为一个没有实体的灵魂继续生存，在{@dice 1d100}年后为自己塑造一个新的身体。Vecna的灵魂可以塑造一个新的身体，即使它的旧身体被烧成灰烬或以其他方式被抹去。当新的身体完成后，Vecna恢复了他所有的命中率并再次变得活跃。Vecna的新身体会出现在Vecna被杀死的地方100英里范围内。"
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries": [
-						"Vecna doesn't require air, food, drink, or sleep."
+						"Vecna不需要空气、食物、饮料或睡眠。"
 					]
 				}
 			],
@@ -151,13 +151,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Vecna uses Flight of the Damned (if available), Rotten Fate, or Spellcasting. He then makes two attacks with {@i Afterthought}."
+						"维克纳使用 \"诅咒者的飞行\"（如果有的话）、\"腐烂的命运 \"或 \"咒语\"。然后他用（%0%）进行两次攻击。"
 					]
 				},
 				{
 					"name": "Afterthought",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage, plus 9 ({@damage 2d8}) necrotic damage. If the target is a creature, it is afflicted by entropic magic, taking 9 ({@damage 2d8}) necrotic damage at the start of each of its turns. Immediately after taking this damage on its turn, the target can make a {@dc 20} Constitution saving throw, ending the effect on itself on a success. Until it succeeds on this save, the afflicted target can't regain hit points."
+						"{@atk mw} {@hit 13}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d4 + 5})穿刺伤害，加上9 ({@damage 2d8})坏死伤害。如果目标是生物，它将受到熵魔法的影响，在其每个回合开始时受到9({@damage 2d8})坏死伤害。在它的回合中受到这种伤害后，目标可以立即做一个{@dc 20}宪法救赎动作，如果成功，则结束对它的影响。在救赎成功之前，受影响的目标不能恢复生命值。"
 					]
 				},
 				{
@@ -169,7 +169,7 @@
 				{
 					"name": "Rotten Fate",
 					"entries": [
-						"Vecna causes necrotic magic to engulf one creature he can see within 120 feet of himself. The target must make a {@dc 22} Constitution saving throw, taking 96 ({@damage 8d8 + 60}) necrotic damage on a failed save, or half as much damage on a successful one. A Humanoid killed by this magic rises as a {@creature zombie} at the start of Vecna's next turn and acts immediately after Vecna in the initiative order. The {@creature zombie} is under Vecna's control."
+						"Vecna使坏死的魔法吞噬他能看到的120英尺内的一个生物。目标必须做一个{@dc 22}宪法救赎，如果救赎失败，将受到96({@damage 8d8 + 60})的坏死伤害，如果救赎成功，将受到一半的伤害。被这个魔法杀死的人形生物会在Vecna的下一个回合开始时上升为{@creature zombie}，并在主动权顺序中紧随Vecna之后行动。这个{@creature zombie}是在Vecna的控制之下。"
 					]
 				}
 			],
@@ -177,7 +177,7 @@
 				{
 					"name": "Vile Teleport",
 					"entries": [
-						"Vecna teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. He can cause each creature of his choice within 15 feet of his destination space to take 10 ({@damage 3d6}) psychic damage. If at least one creature takes this damage, Vecna regains 80 hit points."
+						"Vecna将他和他所穿戴或携带的任何装备一起传送到一个他能看到的未被占用的空间，最远可达30英尺。他可以使目的地空间15英尺内的每个生物受到10（（%0%））的精神伤害。如果至少有一个生物受到这种伤害，Vecna会重新获得80点生命值。"
 					]
 				}
 			],
@@ -188,13 +188,13 @@
 				{
 					"name": "Dread Counterspell",
 					"entries": [
-						"Vecna utters a dread word to interrupt a creature he can see that is casting a spell. If the spell is 4th level or lower, it fails and has no effect. If the spell is 5th level or higher, Vecna makes an Intelligence check ({@dc 10} + the spell's level). On a success, the spell fails and has no effect. Whatever the spell's level, the caster takes 10 ({@damage 3d6}) psychic damage if the spell fails."
+						"Vecna说出一个可怕的词来打断他能看到的正在施法的生物。如果该咒语是4级或更低级的，它就会失败，并且没有效果。如果咒语是5级或更高，Vecna会进行智力检查（（%0%）+咒语等级）。如果成功，该咒语就会失败并且没有效果。无论该咒语的等级如何，如果咒语失败，施法者将受到10（（%1%））的精神伤害。"
 					]
 				},
 				{
 					"name": "Fell Rebuke",
 					"entries": [
-						"In response to being hit by an attack, Vecna utters a fell word, dealing 10 ({@damage 3d6}) necrotic damage to the attacker, and Vecna teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see."
+						"在被攻击击中时，Vecna会说出一个倒下的词，对攻击者造成10（（%0%））的坏死伤害，并且Vecna会将他和他所穿戴或携带的任何装备一起传送到他能看到的一个无人的空间，最远可达30英尺。"
 					]
 				}
 			],
