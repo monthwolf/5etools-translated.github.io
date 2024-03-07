@@ -1,0 +1,1022 @@
+{
+	"monster": [
+		{
+			"name": "Doric",
+			"isNamedCreature": true,
+			"source": "TG",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"druid"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 104,
+				"formula": "16d8 + 32"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 14,
+			"int": 16,
+			"wis": 19,
+			"cha": 10,
+			"save": {
+				"int": "+6",
+				"wis": "+7"
+			},
+			"skill": {
+				"insight": "+7",
+				"nature": "+6",
+				"perception": "+7",
+				"survival": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Druidic",
+				"Elvish",
+				"Infernal",
+				"Sylvan"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"多里克施展以下一种法术，使用智慧作为施法能力（法术保存（%0%））。"
+					],
+					"will": [
+						"{@spell animal messenger}",
+						"{@spell beast sense}",
+						"{@spell speak with animals}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell cure wounds}",
+							"{@spell entangle}",
+							"{@spell faerie fire}",
+							"{@spell thunderwave}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"多里克进行两次形爪或吊索攻击。她可以通过使用法术攻击来代替一次攻击。"
+					]
+				},
+				{
+					"name": "Shaped Claw",
+					"entries": [
+						"{@atk ms} {@hit 7}击中，到达5英尺，一个目标。{@h}8 ({@damage 1d8 + 4})砍击伤害。"
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 6}击中，范围30/120英尺，一个目标。{@h}8 ({@damage 2d4 + 3})重击伤害。"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Change Shape (5/Day)",
+					"entries": [
+						"多里克会神奇地变成一只挑战等级为3级或以下的野兽，或者变成一只猫头鹰熊（见怪物手册）。",
+						"多里克可以保持这种状态长达2小时。她可以选择她的装备是掉在地上，还是与她的新形态融为一体，或者被新形态所穿戴。如果她被{@condition incapacitated}或死亡，Doric会恢复到她的真实形态。她可以用一个额外的动作恢复到她的真实形态。",
+						"当Doric变身时，她的状态块被该形态的状态块所取代，除了她保持她当前的命中率、最大命中率、这个奖励动作、她的排列组合、她的智力、智慧和魅力分数。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Fiery Rebuke (3/Day)",
+					"entries": [
+						"当Doric被她能看到的60英尺范围内的生物伤害时，她会用魔法将该生物吞噬在火焰中。该生物必须做一个{@dc 15}灵巧的蓄力动作，蓄力失败时受到16({@damage 3d10})的火焰伤害，蓄力成功时受到一半的伤害。"
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"E",
+				"I",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"S"
+			],
+			"damageTagsSpell": [
+				"T"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"RNG",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Edgin Darvis",
+			"isNamedCreature": true,
+			"source": "TG",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"bard"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "17d8 + 34"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dex": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"deception": "+7",
+				"performance": "+10",
+				"persuasion": "+10",
+				"sleight of hand": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"埃德金施展以下一种法术，使用魅力作为施法能力（法术保存（%0%））。"
+					],
+					"will": [
+						"{@spell friends}",
+						"{@spell message}"
+					],
+					"daily": {
+						"1": [
+							"{@spell suggestion}"
+						],
+						"3e": [
+							"{@spell charm person}",
+							"{@spell disguise self}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"埃德金进行两次强化的琵琶或短剑攻击。"
+					]
+				},
+				{
+					"name": "Reinforced Lute",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d8 + 2})重击伤害加上11 ({@damage 2d10})雷霆伤害。"
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})穿刺伤害加上11 ({@damage 2d10})雷霆伤害。"
+					]
+				},
+				{
+					"name": "Disorienting Words",
+					"entries": [
+						"埃德金对自己周围60英尺范围内所能看到的最多三个生物进行魔法嘲讽。每个生物都必须在{@dc 15}智慧救赎中成功，否则就会受到10({@damage 3d6})的精神伤害，并且在下一回合开始前，它的下一次攻击卷轴会处于不利地位。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Inspiring Words (3/Day)",
+					"entries": [
+						"当埃德金看到自己60英尺范围内的生物在能力检查、攻击卷或拯救动作中失败时，埃德金会给予该生物神奇的鼓励。该生物可以掷出{@dice d8}，并将掷出的数字加入总数，有可能将失败变成成功。"
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"T",
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"charmed"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Forge Fitzwilliam",
+			"isNamedCreature": true,
+			"source": "TG",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"disarming charm"
+					]
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "20d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 13,
+			"int": 15,
+			"wis": 17,
+			"cha": 20,
+			"save": {
+				"dex": "+5",
+				"int": "+5"
+			},
+			"skill": {
+				"acrobatics": "+5",
+				"deception": "+11",
+				"investigation": "+8",
+				"persuasion": "+11",
+				"sleight of hand": "+5",
+				"stealth": "+8"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Thieves' cant"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Disarming Charm",
+					"entries": [
+						"当Forge没有穿戴盔甲时，他的AC包括他的魅力修正值。"
+					]
+				},
+				{
+					"name": "Double-Cross",
+					"entries": [
+						"如果锻造师用攻击卷轴击中对他友好的生物，则该攻击会自动成为关键一击。"
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"如果锻造师受到一个允许他进行灵巧救赎以只受到一半伤害的效果，如果他救赎成功，他不会受到任何伤害，如果他失败，只要他不是（%0%）。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"锻造师进行两次匕首攻击，两次重弩攻击，或各进行一次。"
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw}{@hit 5}击中，达到5英尺或范围20/60英尺，一个目标。{@h}4 ({@damage 1d4 + 2})穿刺伤害加上24 ({@damage 7d6})毒药伤害，并且目标会被{@condition poisoned}直到下一回合结束。"
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 5}击中，范围100/400英尺，一个目标。{@h}7 ({@damage 1d10 + 2})穿刺伤害加上24 ({@damage 7d6})毒药伤害。命中或未命中：如果目标是生物，它在锻造师下一回合开始前的下一次攻击卷轴上有劣势。"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning",
+					"entries": [
+						"锻造师采取冲刺、脱离或隐藏行动，或者他在本回合结束前所做的下一次攻击卷轴上给自己带来优势。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"锻造师从击中他的攻击中获得的伤害减半。他必须能够看到攻击者。"
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TC"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Holga Kilgore",
+			"isNamedCreature": true,
+			"source": "TG",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d8 + 48"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 16,
+			"int": 11,
+			"wis": 16,
+			"cha": 13,
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+7",
+				"intimidation": "+4",
+				"nature": "+3",
+				"survival": "+6"
+			},
+			"passive": 13,
+			"resist": [
+				{
+					"resist": [
+						"lightning"
+					],
+					"note": "(granted by darksteel greataxe)"
+				}
+			],
+			"languages": [
+				"Common",
+				"Halfling"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"在她的回合开始时，霍尔加可以在该回合内获得近战武器攻击卷的优势，但对她的攻击卷有优势，直到她下一回合开始。"
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"霍尔加携带了一把暗钢大斧，这是一件魔法武器，在她携带时可以赋予她对雷电伤害的抵抗力（包括在上面）。"
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"当Holga没有穿戴盔甲时，她的AC包括她的宪法修改器。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"霍尔加可进行三次暗钢大斧或简易武器的攻击，可任意组合。"
+					]
+				},
+				{
+					"name": "Darksteel Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。{@h}10 ({@damage 1d12 + 4})砍击伤害。"
+					]
+				},
+				{
+					"name": "Improvised Weapon",
+					"entries": [
+						"{@atk mw,rw}{@hit 7}击中，达到5英尺，或范围20/60英尺，一个目标。{@h}7 ({@damage 1d6 + 4})重击伤害。"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Wrestle",
+					"entries": [
+						"霍加把一个生物推到自己5英尺以内。该生物必须在一个{@dc 15}力量救赎中成功，或者被移动5英尺到Holga选择的一个无人的空间。"
+					]
+				}
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"H"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Simon Aumar",
+			"isNamedCreature": true,
+			"source": "TG",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"sorcerer"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 99,
+				"formula": "18d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 13,
+			"int": 16,
+			"wis": 12,
+			"cha": 17,
+			"save": {
+				"con": "+4",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+6",
+				"deception": "+6",
+				"history": "+6",
+				"religion": "+6",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"掷一个{@dice d6}。在掷出1时，西蒙必须在《玩家手册》中的野性魔法涌动表上掷出。在掷出2或更高的分数时，西蒙会施展下列法术之一，使用魅力作为施法能力（法术保全（%1%））。"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell minor illusion}",
+						"{@spell prestidigitation}",
+						"{@spell speak with dead} (Simon must be holding his deathly token to cast this spell)"
+					],
+					"daily": {
+						"2e": [
+							"{@spell fog cloud}",
+							"{@spell mage armor}",
+							"{@spell magic missile}",
+							"{@spell spider climb}"
+						],
+						"1e": [
+							"{@spell Bigby's hand}",
+							"{@spell major image}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"西蒙在他为避免或结束自己身上的（%0%）状况而进行的救赎中具有优势，而且魔法不能使他入睡。"
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"西蒙带着一个储物袋，两对发送石，以及一个死亡信物（见法术攻击）。"
+					]
+				},
+				{
+					"name": "Wild Magic",
+					"entries": [
+						"当西蒙从单一来源受到20或更多的伤害，或从关键打击中受到伤害时，他必须在《玩家手册》中的狂野魔法涌动表上滚动。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"西蒙进行了三次四角杖或混沌弹的攻击。他可以用一次法术攻击来代替一次攻击。"
+					]
+				},
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2}击中，到达5英尺，一个目标。{@h}2 ({@damage 1d6 - 1})重击伤害，如果双手使用，则为3 ({@damage 1d8 - 1})重击伤害，外加11 ({@damage 2d10})武力伤害。"
+					]
+				},
+				{
+					"name": "Chaos Bolt",
+					"entries": [
+						"{@atk rs} {@hit 6}击中，范围60英尺，一个目标。{@h}14 ({@damage 2d10 + 3})的伤害为随机类型，由掷骰子{@dice d8}决定。1, 酸；2, 冷；3, 火；4, 力；5, 闪电；6, 毒；7, 精神；8, 雷。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Sheltering Shield (3/Day)",
+					"entries": [
+						"当西蒙或他能看到的10英尺范围内的其他生物会受到伤害时，他就会以自己为中心变出一个闪亮的、半径为10英尺的魔力球体。球体内的生物对触发该反应的伤害有抵抗力。"
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"damageTagsSpell": [
+				"B",
+				"O"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sofina",
+			"isNamedCreature": true,
+			"source": "TG",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"wizard"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 161,
+				"formula": "19d8 + 76"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 18,
+			"int": 20,
+			"wis": 14,
+			"cha": 8,
+			"save": {
+				"int": "+10",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+10",
+				"history": "+10",
+				"insight": "+7"
+			},
+			"passive": 12,
+			"resist": [
+				"necrotic"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic",
+				"Infernal",
+				"Thayan"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"索菲娜施展以下一种法术，使用智力作为施法能力（法术保存（%0%））。"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell message}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell bestow curse}",
+							"{@spell Bigby's hand}",
+							"{@spell dimension door}",
+							"{@spell mage armor}",
+							"{@spell Otiluke's resilient sphere}",
+							"{@spell thunderwave}"
+						],
+						"1e": [
+							"{@spell Evard's black tentacles}",
+							"{@spell finger of death}",
+							"{@spell time stop}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"索菲娜穿着一件魔法长袍，使她获得+2的交流奖励和+1的救赎奖励（包括上述）。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"索菲娜进行了三次Necrotic Strike攻击。"
+					]
+				},
+				{
+					"name": "Necrotic Strike",
+					"entries": [
+						"{@atk ms,rs} {@hit 10}击中，达到5英尺或范围120英尺，一个目标。{@h}32 ({@damage 5d10 + 5})坏死性伤害。"
+					]
+				},
+				{
+					"name": "Swarm of Meteors (1/Day)",
+					"entries": [
+						"索菲娜用魔法召唤出一个流星群，在四个40英尺半径的球体中引爆，每个球体都以她自己1英里范围内能看到的一个点为中心。这些球体可以重叠。在一个或多个球体中的生物必须做一个{@dc 18}灵巧的蓄力动作，如果蓄力动作失败，会受到35({@damage 10d6})的火焰伤害和35({@damage 10d6})的重击伤害，如果蓄力动作成功，则受到一半的伤害。一个在多个球体中的生物只受到一次这种伤害。"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Summon Wraith (1/Day)",
+					"entries": [
+						"索菲娜用魔法召唤出一个塔扬族刺客的灵魂，它以裹尸布的形式出现（见《怪物手册》）。被召唤的缠绕物出现在索菲娜60英尺范围内的一个无人空间，它服从索菲娜的命令。被召唤的裹尸人在索菲娜之后立即轮到自己。它持续1小时，直到它或索菲娜死亡，或索菲娜以额外行动将其解散。e和35((%2%))重击伤害，如果蓄力失败，则伤害为一半。一个在多个球体中的生物只受到一次这种伤害。"
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR",
+				"I",
+				"OTH"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"N"
+			],
+			"damageTagsSpell": [
+				"B",
+				"N",
+				"O",
+				"T"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Xenk Yendar",
+			"isNamedCreature": true,
+			"source": "TG",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"paladin"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item half plate armor|PHB|half plate}"
+					]
+				}
+			],
+			"hp": {
+				"average": 157,
+				"formula": "21d8 + 63"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 16,
+			"int": 14,
+			"wis": 16,
+			"cha": 17,
+			"save": {
+				"str": "+8",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+8",
+				"history": "+6",
+				"insight": "+7",
+				"survival": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Thayan",
+				"Undercommon"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Aura of Protection",
+					"entries": [
+						"Xenk和他10英尺范围内的盟友在蓄力时有优势。蓄力失败时，会受到35((%2%))的重击伤害，蓄力成功时，会受到一半的重击伤害。一个在多个球体中的生物只受到一次这种伤害。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Xenk进行了三次匕首剑攻击，并使用了匕首剑的繁衍。如果有的话，他可以用 \"清洁之触 \"来代替 \"匕首剑之辉\"。"
+					]
+				},
+				{
+					"name": "Daggersword",
+					"entries": [
+						"选择与匕首剑当前形态相对应的攻击（见下面的匕首剑转移）。"
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 8}击中，到达5英尺，一个目标。{@h}8 ({@damage 1d8 + 4})砍击伤害，如果双手使用，则是9 ({@damage 1d10 + 4})砍击伤害，外加6 ({@damage 1d12})辐射伤害。"
+					]
+				},
+				{
+					"name": "Shortsword and Dagger",
+					"entries": [
+						"{@atk mw} {@hit 8}击中，达到5英尺，一个目标。{@h}7 ({@damage 1d6 + 4})穿刺伤害加上6 ({@damage 1d12})辐射伤害。"
+					]
+				},
+				{
+					"name": "Daggersword Flourish",
+					"entries": [
+						"选择与匕首剑当前形态相对应的选项（见下面的匕首剑转移）。"
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"Xenk用魔法将长剑的剑身从剑柄上分离出来，将剑身射向他能看到的自己周围30英尺内的生物。目标必须做一个{@dc 16}灵巧的蓄力动作。如果拯救失败，目标会被剑刃刺穿，受到14（%1%）的穿刺伤害，并被击倒（%2%）。在当前回合结束时，刀刃会神奇地重新连接到刀柄上。"
+					]
+				},
+				{
+					"name": "Shortsword and Dagger",
+					"entries": [
+						"Xenk用两把武器猛烈攻击。在他周围10英尺范围内的每个生物都必须做一个{@dc 16}的灵巧投掷。拯救失败时，该生物将受到7（（%1%））的穿刺伤害，并在攻击卷轴上处于劣势，直到Xenk下一回合开始。拯救成功后，该生物将受到一半的伤害，并且不会受到其他影响。） 在当前回合结束时，刀刃会神奇地重新连接到刀柄上。"
+					]
+				},
+				{
+					"name": "Cleansing Touch (1/Day)",
+					"entries": [
+						"Xenk触碰自己5英尺内的生物。目标神奇地恢复27({@dice 6d8})的命中率，并获得{@spell lesser restoration}的法术伤害，不受其他影响.2%）。在当前回合结束时，刀刃会神奇地重新连接到刀柄上。"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Daggersword Shift",
+					"entries": [
+						"Xenk改变了他的匕首剑的形式，选择了以下形式之一：长剑，或一手拿短剑，另一手拿匕首。"
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"OTH",
+				"U"
+			],
+			"damageTags": [
+				"P",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}
