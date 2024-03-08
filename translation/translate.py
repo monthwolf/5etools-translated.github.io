@@ -127,8 +127,10 @@ class Translator:
 		self._webdriver.get("https://www.deepl.com/en/translator")
 
 		# Click cookie banner
-		WebDriverWait(self._webdriver, 5).until(EC.presence_of_element_located((By.XPATH, '//button[@data-testid="cookie-banner-strict-accept-selected"]'))).click()
-
+		try:
+			WebDriverWait(self._webdriver, 5).until(EC.presence_of_element_located((By.XPATH, '//button[@data-testid="cookie-banner-strict-accept-selected"]'))).click()
+		except:
+			print("no cookie banner")
 		# Select from / to languages
 		WebDriverWait(self._webdriver, 5).until(EC.presence_of_element_located((By.XPATH, '//button[@data-testid="translator-source-lang-btn"]'))).click()
 		# div[@dl-test=translator-source-lang-list]
