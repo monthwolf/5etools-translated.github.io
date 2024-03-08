@@ -37141,13 +37141,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The warlock makes two Dagger attacks."
+						"术士进行两次匕首攻击。"
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 10 ({@damage 3d6}) psychic damage."
+						"{@atk mw,rw}{@hit 6}击中，范围5英尺或20/60英尺，一个目标。{@h}5 ({@damage 1d4 + 3})穿刺伤害加上10 ({@damage 3d6})精神伤害。"
 					]
 				},
 				{
@@ -37273,13 +37273,13 @@
 				{
 					"name": "Indomitable (3/Day)",
 					"entries": [
-						"The warlord can reroll a saving throw it fails. It must use the new roll."
+						"军阀可以重新掷出一个失败的蓄力。它必须使用新的卷轴。"
 					]
 				},
 				{
 					"name": "Survivor",
 					"entries": [
-						"The warlord regains 10 hit points at the start of its turn if it has fewer than half its hit points but at least 1 hit point."
+						"如果战神的命中率低于一半但至少有1个命中率，则在其回合开始时恢复10个命中率。"
 					]
 				}
 			],
@@ -37287,19 +37287,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The warlord makes two Greatsword or Short bow attacks."
+						"战神进行两次大剑或短弓攻击。"
 					]
 				},
 				{
 					"name": "Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+						"{@atk mw} {@hit 9}击中，到达5英尺，一个目标。{@h}12 ({@damage 2d6 + 5})砍击伤害。"
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{@atk rw} {@hit 7}击中，范围80/320英尺，一个目标。{@h}6 ({@damage 1d6 + 3})穿刺伤害。"
 					]
 				}
 			],
@@ -37307,19 +37307,19 @@
 				{
 					"name": "Command Ally",
 					"entries": [
-						"The warlord targets one ally it can see within 30 feet of it. if the target can see and hear the warlord, the target can make one weapon attack as a reaction and gains advantage on the attack roll."
+						"如果目标能看到并听到军阀的声音，目标可以作为反应进行一次武器攻击，并在攻击卷上获得优势。"
 					]
 				},
 				{
 					"name": "Weapon Attack",
 					"entries": [
-						"The warlord makes one Greatsword or Shortbow attack."
+						"战神进行一次大剑或短弓攻击。"
 					]
 				},
 				{
 					"name": "Frighten Foe (Costs 2 Actions)",
 					"entries": [
-						"The warlord targets one creature it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} until the end of warlord's next turn."
+						"军阀的目标是30英尺内它能看到的一个生物。如果目标能看到并听到它，那么目标必须在一个{@dc 16}的智慧救赎上成功，否则就会被{@condition frightened}，直到战神的下一个回合结束。"
 					]
 				}
 			],
@@ -37443,21 +37443,21 @@
 				{
 					"name": "Amphibious",
 					"entries": [
-						"The wastrilith can breathe air and water."
+						"蜡石可以呼吸空气和水。"
 					]
 				},
 				{
 					"name": "Corrupt Water",
 					"entries": [
-						"At the start of each of the wastrilith's turns, exposed water within 30 feet of it is befouled. Underwater, this effect lightly obscures the area until a current clears it away. Water in containers remains corrupted until it evaporates.",
-						"A creature that consumes this foul water or swims in it must make a {@dc 18} Constitution saving throw. On a successful save, the creature is immune to the foul water for 24 hours. On a failed save, the creature takes 14 ({@damage 4d6}) poison damage and is {@condition poisoned} for 1 minute. At the end of this time, the {@condition poisoned} creature must repeat the saving throw. On a failure, the creature takes 18 ({@damage 4d8}) poison damage and is {@condition poisoned} until it finishes a long rest.",
-						"If another demon drinks the foul water as an action, it gains 11 ({@dice 2d10}) temporary hit points."
+						"在wastrilith的每个回合开始时，它周围30英尺内的裸露水域都会被污染。在水下，这个效果会轻度遮蔽该区域，直到水流将其冲走。容器中的水会一直被腐蚀，直到它蒸发。",
+						"饮用这种臭水或在其中游泳的生物必须做一个{@dc 18}宪法救赎动作。拯救成功时，该生物在24小时内对恶水免疫。如果救赎失败，该生物会受到14({@damage 4d6})的毒药伤害，并在1分钟内被{@condition poisoned}。在这段时间结束时，{@condition poisoned}的生物必须重复拯救动作。如果失败，该生物会受到18({@damage 4d8})的毒药伤害，并且{@condition poisoned}直到它完成长期休息。",
+						"如果另一个恶魔以行动喝下恶水，它将获得11({@dice 2d10})个临时打击点数。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The wastrilith has advantage on saving throws against spells and other magical effects."
+						"瓦斯里尔石对法术和其他魔法效果的救赎有优势。"
 					]
 				}
 			],
@@ -37465,25 +37465,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The wastrilith makes one Bite attack and two Claw attacks, and it uses Grasping Spout."
+						"黄石做出一次咬人的攻击和两次爪子的攻击，并使用抓取口器。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}30 ({@damage 4d12 + 4}) piercing damage."
+						"{@atk mw} {@hit 9}击中，到达10英尺，一个目标。{@h}30 ({@damage 4d12 + 4})穿刺伤害。"
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}18 ({@damage 4d6 + 4}) slashing damage."
+						"{@atk mw} {@hit 9}击中，到达10英尺，一个目标。{@h}18 ({@damage 4d6 + 4})砍击伤害。"
 					]
 				},
 				{
 					"name": "Grasping Spout",
 					"entries": [
-						"The wastrilith magically launches a spout of water at one creature it can see within 60 feet of it. The target must make a {@dc 17} Strength saving throw, and it has disadvantage if it's underwater. On a failed save, it takes 22 ({@damage 4d8 + 4}) acid damage and is pulled up to 60 feet toward the wastrilith. On a successful save, it takes half as much damage and isn't pulled."
+						"黄石向它周围60英尺内它能看到的一个生物神奇地喷出一道水柱。目标必须做一个{@dc 17}强度的蓄力动作，如果是在水下，它就有劣势。如果救赎失败，它将受到22({@damage 4d8 + 4})的酸液伤害，并被拉向黄石60英尺。拯救成功时，它将受到一半的伤害，并且不会被拉动。"
 					]
 				}
 			],
@@ -37491,7 +37491,7 @@
 				{
 					"name": "Undertow",
 					"entries": [
-						"If the wastrilith is underwater, it causes all water within 60 feet of it to be {@quickref difficult terrain||3} for other creatures until the start of its next turn."
+						"如果黄石在水下，它会使它周围60英尺内的所有水域对其他生物来说是（%0%），直到它下一个回合开始。"
 					]
 				}
 			],
@@ -37614,19 +37614,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The myrmidon makes three Trident attacks."
+						"暴君进行三次三叉戟攻击。"
 					]
 				},
 				{
 					"name": "Trident",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) force damage, or 8 ({@damage 1d8 + 4}) force damage if used with two hands to make a melee attack."
+						"{@atk mw,rw} {@hit 7}击中，距离5英尺或范围20/60英尺，一个目标。{@h}7 ({@damage 1d6 + 4})武力伤害，如果用双手进行近战攻击，则为8 ({@damage 1d8 + 4})武力伤害。"
 					]
 				},
 				{
 					"name": "Freezing Strikes {@recharge}",
 					"entries": [
-						"The myrmidon uses Multiattack. Each attack that hits deals an extra 5 ({@damage 1d10}) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the myrmidon's next turn."
+						"魔法师使用多重攻击。每次攻击都会造成额外的5({@damage 1d10})寒冷伤害。被一次或多次攻击击中的目标，其速度会降低10英尺，直到密尔曼的下一回合结束。"
 					]
 				}
 			],
@@ -37743,19 +37743,19 @@
 				{
 					"name": "Devil's Sight",
 					"entries": [
-						"Magical darkness doesn't impede the abishai's {@sense darkvision}."
+						"神奇的黑暗不妨碍阿比舍的（%0%）。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The abishai has advantage on saving throws against spells and other magical effects."
+						"abishai在对抗法术和其他魔法效果时有优势。"
 					]
 				},
 				{
 					"name": "Reckless",
 					"entries": [
-						"At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+						"在它的回合开始时，abishai可以在该回合内的所有近战武器攻击卷上获得优势，但对它的攻击卷有优势，直到它下一回合开始。"
 					]
 				}
 			],
@@ -37763,25 +37763,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The abishai makes one Bite attack, one Claw attack, and one Longsword attack."
+						"abishai进行一次咬合攻击，一次爪子攻击，和一次长剑攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 3 ({@damage 1d6}) cold damage."
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d4 + 3})穿刺伤害加上3 ({@damage 1d6})寒冷伤害。"
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}8 ({@damage 1d10 + 3})砍击伤害。"
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) force damage, or 8 ({@damage 1d10 + 3}) force damage if used with two hands."
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d8 + 3})武力伤害，如果双手使用，则为8 ({@damage 1d10 + 3})武力伤害。"
 					]
 				}
 			],
@@ -37789,7 +37789,7 @@
 				{
 					"name": "Vicious Reprisal",
 					"entries": [
-						"In response to taking damage, the abishai makes one Bite attack against a random creature within 5 feet of it. If no creature is within reach, the abishai moves up to half its speed toward an enemy it can see, without provoking {@action opportunity attack||opportunity attacks}."
+						"在受到伤害时，abishai会对它周围5英尺内的一个随机生物进行一次咬合攻击。如果没有生物在其范围内，abishai会以其一半的速度向它能看到的敌人移动，而不需要挑衅（%0%）。"
 					]
 				}
 			],
@@ -37895,7 +37895,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The eladrin casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"埃拉德林施展以下一种法术，不需要任何材料成分，并使用智力作为施法能力（法术保存（%0%））。"
 					],
 					"will": [
 						"{@spell fog cloud}",
@@ -37910,14 +37910,14 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The eladrin has advantage on saving throws against spells and other magical effects."
+						"埃拉德林对法术和其他魔法效果的救赎有优势。"
 					]
 				},
 				{
 					"name": "Sorrowful Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 13} Wisdom saving throw. On a failed save, the creature becomes {@condition charmed} by the eladrin for 1 minute. While {@condition charmed} in this way, the creature has disadvantage on ability checks and saving throws. The {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.",
-						"Whenever the eladrin deals damage to the {@condition charmed} creature, the {@condition charmed} creature can repeat the saving throw, ending the effect on itself on a success."
+						"任何非艾拉德林的生物，如果在艾拉德林60英尺范围内开始其回合，必须做一个{@dc 13}智慧救赎。如果拯救失败，该生物将在1分钟内被艾拉德林变成（%1%）。当{@condition charmed}这种方式时，该生物在能力检查和蓄力投掷方面有劣势。{@condition charmed}的生物可以在它的每个回合结束时重复蓄力，如果成功则结束对它的影响。如果一个生物的救赎成功或效果结束，该生物在接下来的24小时内对任何Eladrin的悲哀存在免疫。",
+						"每当艾拉德林对{@condition charmed}的生物造成伤害时，{@condition charmed}的生物可以重复蓄力，成功时结束对自己的影响。"
 					]
 				}
 			],
@@ -37925,19 +37925,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The eladrin makes two Longsword or Longbow attacks. It can replace one attack with a use of Spellcasting."
+						"eladrin可以进行两次长剑或长弓攻击。它可以通过使用法术攻击来代替一次攻击。"
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) slashing damage, or 5 ({@damage 1d10}) slashing damage if used with two hands, plus 13 ({@damage 3d8}) cold damage."
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}4 ({@damage 1d8})砍击伤害，如果双手使用，则为5 ({@damage 1d10})砍击伤害，外加13 ({@damage 3d8})寒冷伤害。"
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 13 ({@damage 3d8}) cold damage."
+						"{@atk rw} {@hit 7}击中，范围150/600英尺，一个目标。{@h}7 ({@damage 1d8 + 3})穿刺伤害加上13 ({@damage 3d8})寒冷伤害。"
 					]
 				}
 			],
@@ -37945,7 +37945,7 @@
 				{
 					"name": "Fey Step {@recharge 4}",
 					"entries": [
-						"The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
+						"埃拉德林和它所穿戴或携带的任何装备一起被传送到它能看到的无人的空间，最远可达30英尺。"
 					]
 				}
 			],
@@ -37953,7 +37953,7 @@
 				{
 					"name": "Frigid Rebuke",
 					"entries": [
-						"When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to make a {@dc 16} Constitution saving throw. On a failed save, the creature takes 11 ({@damage 2d10}) cold damage."
+						"当艾拉德林在60英尺范围内受到艾拉德林可以看到的生物的伤害时，艾拉德林可以强迫该生物做一个{@dc 16}宪法救赎。如果救赎失败，该生物会受到11（%1%）的寒冷伤害。"
 					]
 				}
 			],
@@ -38086,19 +38086,19 @@
 				{
 					"name": "Plant Camouflage",
 					"entries": [
-						"The wood woad has advantage on Dexterity ({@skill Stealth}) checks it makes in any terrain with ample obscuring vegetation."
+						"在任何有大量遮蔽性植被的地形中，木棉在灵巧性（（%0%））检查上有优势。"
 					]
 				},
 				{
 					"name": "Regeneration",
 					"entries": [
-						"The wood woad regains 10 hit points at the start of its turn if it is in contact with the ground. If the wood woad takes fire damage, this trait doesn't function at the start of the wood woad's next turn. The wood woad dies only if it starts its turn with 0 hit points and doesn't regenerate."
+						"如果木头人与地面接触，在其回合开始时可以恢复10点生命值。如果木头人受到火灾伤害，这个特性在木头人的下一个回合开始时不会发挥作用。只有在它的回合开始时命中率为0并且没有再生的情况下，木狼才会死亡。"
 					]
 				},
 				{
 					"name": "Tree Stride",
 					"entries": [
-						"Once on each of its turns, the wood woad can use 10 feet of its movement to step magically into one living tree within 5 feet of it and emerge from a second living tree within 60 feet of it that it can see, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
+						"在它的每个回合中，木狼可以使用10英尺的移动距离，神奇地踏入它周围5英尺内的一棵活树，并从它能看到的60英尺内的第二棵活树中走出来，出现在第二棵树5英尺内的一个无人空间。两棵树都必须是大型或更大。"
 					]
 				}
 			],
@@ -38106,13 +38106,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The wood woad makes two Club attacks."
+						"木头人进行两次俱乐部攻击。"
 					]
 				},
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 4d4 + 4}) force damage."
+						"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。{@h}14 ({@damage 4d4 + 4})武力伤害。"
 					]
 				}
 			],
@@ -38210,7 +38210,7 @@
 				{
 					"name": "Wretched Pack Tactics",
 					"entries": [
-						"The sorrowsworn has advantage on an attack roll against a creature if at least one of the sorrowsworn's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}. The sorrowsworn otherwise has disadvantage on attack rolls."
+						"如果哀伤者的盟友中至少有一人在该生物的5英尺范围内，而该盟友不在该生物的5英尺范围内，那么哀伤者在对该生物的攻击卷中具有优势（%0%）。否则，在攻击卷上悲鸣者将处于劣势。"
 					]
 				}
 			],
@@ -38218,8 +38218,8 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the sorrowsworn attaches to the target. While attached, the sorrowsworn can't attack, and at the start of each of the sorrowsworn's turns, the target takes 6 ({@damage 1d10 + 1}) necrotic damage.",
-						"The attached sorrowsworn moves with the target whenever the target moves, requiring none of the sorrowsworn's movement. The sorrowsworn can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach the sorrowsworn."
+						"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d10 + 1})的穿刺伤害，并且悲鸣者会附着在目标身上。在附身时，悲鸣者不能攻击，在悲鸣者的每个回合开始时，目标受到6({@damage 1d10 + 1})的坏死伤害。",
+						"每当目标移动时，附身的悲鸣者就会与目标一起移动，不需要悲鸣者的移动。悲鸣者可以在自己的回合中花费5英尺的移动距离来脱离自己。一个生物，包括目标，可以用它的行动来分离悲鸣者。"
 					]
 				}
 			],
@@ -38301,7 +38301,7 @@
 				{
 					"name": "Raxivort's Tongue",
 					"entries": [
-						"The xvart can communicate with ordinary {@creature bat|mm|bats} and {@creature rat|mm|rats}, as well as {@creature giant bat|mm|giant bats} and {@creature giant rat|mm|giant rats}."
+						"xvart可以与普通的（%0%）和（%1%），以及（%2%）和（%3%）进行通信。"
 					]
 				}
 			],
@@ -38309,13 +38309,13 @@
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@dice 1d6 + 2}) piercing damage. If at least one of the xvart's allies is within 5 feet of the target, the xvart can push the target 5 feet if the target is a Medium or smaller creature."
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}5 ({@dice 1d6 + 2})穿刺伤害。如果xvart的盟友中至少有一人在目标的5英尺范围内，如果目标是中型或小型生物，xvart可以将目标推到5英尺。"
 					]
 				},
 				{
 					"name": "Sling",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+						"{@atk rw} {@hit 4}击中，范围30/120英尺，一个目标。{@h}4 ({@damage 1d4 + 2})重击伤害。"
 					]
 				}
 			],
@@ -38323,7 +38323,7 @@
 				{
 					"name": "Low Cunning",
 					"entries": [
-						"The xvart takes the {@action Disengage} action."
+						"xvart采取了（%0%）的行动。"
 					]
 				}
 			],
@@ -38408,7 +38408,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The xvart casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
+						"xvart可以施展以下一种法术，不需要任何材料成分，使用魅力作为施法能力（法术保全（%0%））。"
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -38431,13 +38431,13 @@
 				{
 					"name": "Raxivort's Blessing",
 					"entries": [
-						"When the xvart reduces an enemy to 0 hit points, the xvart gains 4 temporary hit points."
+						"当xvart将敌人的命中率降至0时，xvart会获得4个临时命中率。"
 					]
 				},
 				{
 					"name": "Raxivort's Tongue",
 					"entries": [
-						"The xvart can communicate with ordinary {@creature bat|mm|bats} and {@creature rat|mm|rats}, as well as {@creature giant bat|mm|giant bats} and {@creature giant rat|mm|giant rats}."
+						"xvart可以与普通的（%0%）和（%1%），以及（%2%）和（%3%）进行通信。"
 					]
 				}
 			],
@@ -38445,19 +38445,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The xvart makes two Scimitar or Raxivort's Bite attacks."
+						"xvart进行两次弯刀或Raxivort之咬的攻击。"
 					]
 				},
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@dice 1d6 + 2}) slashing damage."
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}5 ({@dice 1d6 + 2})砍击伤害。"
 					]
 				},
 				{
 					"name": "Raxivort's Bite",
 					"entries": [
-						"{@atk rs} {@hit 3} to hit, range 30 ft., one creature. {@h}7 ({@damage 1d10 + 2}) poison damage."
+						"{@atk rs} {@hit 3}击中，范围30英尺，一个生物。{@h}7 ({@damage 1d10 + 2})毒伤害。"
 					]
 				}
 			],
@@ -38465,7 +38465,7 @@
 				{
 					"name": "Low Cunning",
 					"entries": [
-						"The xvart takes the {@action Disengage} action."
+						"xvart采取了（%0%）的行动。"
 					]
 				}
 			],
@@ -38605,7 +38605,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The yagnoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"Yagnoloth施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力（法术保存（%0%））。"
 					],
 					"will": [
 						"{@spell darkness}",
@@ -38627,7 +38627,7 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The yagnoloth has advantage on saving throws against spells and other magical effects."
+						"Yagnoloth在面对法术和其他魔法效果的时候，有优势。"
 					]
 				}
 			],
@@ -38635,37 +38635,37 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The yagnoloth makes one Electrified Touch attack and one Massive Arm attack, or it makes one Massive Arm attack and uses Battlefield Cunning, if available, or Teleport."
+						"Yagnoloth进行一次电击攻击和一次巨大的手臂攻击，或者它进行一次巨大的手臂攻击并使用战场狡诈（如果有的话）或传送。"
 					]
 				},
 				{
 					"name": "Electrified Touch",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}27 ({@damage 6d8}) lightning damage."
+						"{@atk mw} {@hit 8}击中，到达5英尺，一个目标。{@h}27 ({@damage 6d8})雷电伤害。"
 					]
 				},
 				{
 					"name": "Massive Arm",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}23 ({@damage 3d12 + 4}) force damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or become {@condition stunned} until the end of the yagnoloth's next turn."
+						"{@atk mw} {@hit 8}击中，到达15英尺，一个目标。{@h}23 ({@damage 3d12 + 4})武力伤害。如果目标是生物，它必须成功地进行{@dc 16}体质训练，否则会变成{@condition stunned}，直到yagnoloth的下一个回合结束。"
 					]
 				},
 				{
 					"name": "Battlefield Cunning {@recharge 4}",
 					"entries": [
-						"Up to two allied yugoloths within 60 feet of the yagnoloth that can hear it can use their reactions to make one melee attack each."
+						"在雅格诺尔斯60英尺范围内，最多两个能听到它的盟友雅格诺尔斯可以使用他们的反应来各进行一次近战攻击。"
 					]
 				},
 				{
 					"name": "Life Leech",
 					"entries": [
-						"The yagnoloth touches one {@condition incapacitated} creature within 15 feet of it. The target takes 36 ({@damage 7d8 + 4}) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a {@dc 16} Constitution saving throw, or its hit point maximum is reduced by an amount equal to half the necrotic damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0."
+						"Yagnoloth触碰了15英尺内的一个{@condition incapacitated}生物。目标受到36({@damage 7d8 + 4})的坏死伤害，并且yagnoloth获得相当于所受伤害一半的临时打击点数。目标必须在一个{@dc 16}宪法救赎中成功，否则它的最大命中率会减少，相当于所受坏死伤害的一半。这种减少会持续到目标完成长时间的休息，如果目标的最大命中率被减少到0，则会死亡。"
 					]
 				},
 				{
 					"name": "Teleport",
 					"entries": [
-						"The yagnoloth teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+						"yagnoloth会把它和它所穿戴或携带的任何装备一起传送到它能看到的无人的空间，最远可达60英尺。"
 					]
 				}
 			],
@@ -38817,7 +38817,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Yeenoghu casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+						"Yeenoghu可以施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力（法术保存（%0%））。"
 					],
 					"will": [
 						"{@spell detect magic}"
@@ -38840,13 +38840,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Yeenoghu fails a saving throw, he can choose to succeed instead."
+						"如果Yeenoghu的拯救动作失败，他可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"Yeenoghu has advantage on saving throws against spells and other magical effects."
+						"Yeenoghu在面对法术和其他魔法效果时，在蓄力攻击方面具有优势。"
 					]
 				}
 			],
@@ -38854,13 +38854,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Yeenoghu makes three Flail attacks."
+						"Yeenoghu进行了三次Flail攻击。"
 					]
 				},
 				{
 					"name": "Flail",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}22 ({@damage 2d12 + 9}) force damage. If it's his turn, Yeenoghu can cause the target to suffer one of the following additional effects, each of which he can apply only once per turn",
+						"{@atk mw} {@hit 16}击中，到达15英尺，一个目标。{@h}22 ({@damage 2d12 + 9})武力伤害。如果轮到他，Yeenoghu可以使目标遭受以下一种额外的效果，每种效果他每回合只能应用一次",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -38869,21 +38869,21 @@
 									"type": "item",
 									"name": "Confusion",
 									"entries": [
-										"The target must succeed on a {@dc 17} Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn."
+										"目标必须在一个{@dc 17}的智慧救赎中成功，否则就会受到混乱法术的影响，直到Yeenoghu的下一个回合开始。"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Force",
 									"entries": [
-										"The target takes an extra 13 ({@damage 2d12}) force damage."
+										"目标受到额外的13({@damage 2d12})武力伤害。"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Paralysis",
 									"entries": [
-										"The target must succeed on a {@dc 17} Constitution saving throw or be {@condition paralyzed} until the start of Yeenoghu's next turn."
+										"目标必须成功地进行一个{@dc 17}的宪法救赎，否则就会被{@condition paralyzed}，直到Yeenoghu的下一个回合开始。"
 									]
 								}
 							]
@@ -38893,7 +38893,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}20 ({@damage 2d10 + 9}) acid damage."
+						"{@atk mw} {@hit 16}击中，到达10英尺，一个目标。{@h}20 ({@damage 2d10 + 9})酸性伤害。"
 					]
 				}
 			],
@@ -38901,7 +38901,7 @@
 				{
 					"name": "Rampage",
 					"entries": [
-						"When Yeenoghu reduces a creature to 0 hit points with a melee attack, he moves up to half his speed and makes one Bite attack."
+						"当Yeenoghu用近战攻击将一个生物的命中率降至0时，他可以移动到自己速度的一半，并进行一次咬合攻击。"
 					]
 				}
 			],
@@ -38909,19 +38909,19 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"Yeenoghu moves up to his speed."
+						"Yeenoghu移动到他的速度上。"
 					]
 				},
 				{
 					"name": "Swat Away",
 					"entries": [
-						"Yeenoghu makes one Flail attack. If the attack hits, the target must succeed on a {@dc 24} Strength saving throw or be pushed up to 15 feet in a straight line away from Yeenoghu. If the saving throw fails by 5 or more, the target is also knocked {@condition prone}."
+						"Yeenoghu发动一次Flail攻击。如果攻击命中，目标必须成功进行{@dc 24}的力量储蓄，否则会被推到离Yeenoghu直线距离最远的15英尺。如果蓄力失败5次或以上，目标也会被击倒（%1%）。"
 					]
 				},
 				{
 					"name": "Savage (Costs 2 Actions)",
 					"entries": [
-						"Yeenoghu makes a separate Bite attack against each creature within 10 feet of him."
+						"Yeenoghu对他周围10英尺内的每个生物进行单独的咬合攻击。"
 					]
 				}
 			],
@@ -39064,13 +39064,13 @@
 				{
 					"name": "Sunlight Banishment",
 					"entries": [
-						"If the yeth hound starts its turn in sunlight, it is transported to the Ethereal Plane. While sunlight shines on the spot from which it vanished, the hound must remain in the Deep Ethereal. After sunset, it returns to the Border Ethereal at the same spot, whereupon it typically sets out to find its pack or its master. The hound is visible on the Material Plane while it is in the Border Ethereal, and vice versa, but it can't affect or be affected by anything on the other plane. Once it is adjacent to its master or a pack mate that is on the Material Plane, a yeth hound in the Border Ethereal can return to the Material Plane as an action."
+						"如果yeth猎犬在阳光下开始它的轮回，它就会被传送到虚空界。当阳光照耀在它消失的地方时，猎犬必须留在深空界。日落之后，它回到边界虚空界的同一地点，在那里它通常会出发去寻找它的族群或它的主人。猎犬在边境虚空中时，在物质位面是可见的，反之亦然，但它不能影响或被其他位面的任何东西所影响。一旦它与它的主人或在物质位面的族群伙伴相邻，在边界虚空的猎犬可以作为一个动作返回物质位面。"
 					]
 				},
 				{
 					"name": "Telepathic Bond",
 					"entries": [
-						"While the yeth hound is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically with each other."
+						"当耶斯猎犬与它的主人处于同一存在平面时，它可以用魔法将它所感觉到的东西传达给它的主人，而且两者之间可以用心灵感应进行交流。"
 					]
 				}
 			],
@@ -39078,13 +39078,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, plus 14 ({@damage 4d6}) psychic damage if the target is {@condition frightened}."
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}11 ({@damage 2d6 + 4})穿刺伤害，如果目标是{@condition frightened}，则加14 ({@damage 4d6})精神伤害。"
 					]
 				},
 				{
 					"name": "Baleful Baying",
 					"entries": [
-						"The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} of the hound until the end of the hound's next turn or until the hound is {@condition incapacitated}. A {@condition frightened} target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours."
+						"猎犬会以魔法的方式躲避。每一个在猎犬300英尺范围内的敌人，如果能听到它的声音，就必须在一个{@dc 13}的智慧救赎中成功，或者被猎犬{@condition frightened}，直到猎犬的下一个回合结束，或者直到猎犬{@condition incapacitated}。在猎犬30英尺范围内开始其回合的{@condition frightened}目标必须在该回合使用其所有的移动来尽可能地远离猎犬，必须在采取行动前完成移动，并且必须采取最直接的路线，即使危险在那边。拯救成功的目标在接下来的24小时内对所有yeth猎犬的叫声免疫。"
 					]
 				}
 			],
@@ -39179,13 +39179,13 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果Kruthik的盟友中至少有一个人在生物的5英尺范围内，而盟友不在，则Kruthik在对生物的攻击卷中具有优势（%0%）。"
 					]
 				},
 				{
 					"name": "Tunneler",
 					"entries": [
-						"The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2½-foot-diameter tunnel in its wake."
+						"克鲁斯克能以其一半的钻探速度钻过坚硬的岩石，并在其身后留下一条直径为2.5英尺的隧道。"
 					]
 				}
 			],
@@ -39193,7 +39193,7 @@
 				{
 					"name": "Stab",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d4 + 3})穿刺伤害。"
 					]
 				}
 			],
@@ -39299,7 +39299,7 @@
 				{
 					"name": "Spellcasting (Anathema Form Only)",
 					"headerEntries": [
-						"The anathema casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+						"无神论者会施展以下一种法术，不需要任何物质成分，并使用魅力作为施法能力（法术保全（%0%））。"
 					],
 					"will": [
 						"{@spell animal friendship} (snakes only)"
@@ -39321,19 +39321,19 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The anathema has advantage on saving throws against spells and other magical effects."
+						"诅咒者在对法术和其他魔法效果的救赎中具有优势。"
 					]
 				},
 				{
 					"name": "Ophidiophobia Aura",
 					"entries": [
-						"Any creature of the anathema's choice, other than a snake or a yuan-ti, that starts its turn within 30 feet of the anathema must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} of snakes and yuan-ti. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this anathama's aura for the next 24 hours."
+						"任何被诅咒者选择的生物，除了蛇或元神之外，如果在诅咒者30英尺范围内开始它的回合，必须在一个{@dc 17}智慧救赎上成功，否则就会变成{@condition frightened}的蛇和元神。2%）的目标可以在其每个回合结束时重复蓄力，如果成功则结束对自己的影响。如果目标的救赎成功或效果结束，目标将在接下来的24小时内免疫于这个Anathama的灵气。"
 					]
 				},
 				{
 					"name": "Six Heads",
 					"entries": [
-						"The anathema has advantage on saves against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"诅咒者对被{@condition blinded}、{@condition charmed}、{@condition deafened}、{@condition frightened}、{@condition stunned}或被击倒{@condition unconscious}的救治有优势。"
 					]
 				}
 			],
@@ -39341,25 +39341,25 @@
 				{
 					"name": "Multiattack (Anathema Form Only)",
 					"entries": [
-						"The anathema makes two Claw attacks and one Flurry of Bites attack."
+						"无神论者进行两次爪子攻击和一次扑咬攻击。"
 					]
 				},
 				{
 					"name": "Claw (Anathema Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+						"{@atk mw} {@hit 10}击中，到达10英尺，一个目标。{@h}13 ({@damage 2d6 + 6})砍击伤害。"
 					]
 				},
 				{
 					"name": "Flurry of Bites (Anathema Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one creature. {@h}27 ({@damage 6d6 + 6}) piercing damage plus 14 ({@damage 4d6}) poison damage."
+						"{@atk mw} {@hit 10}击中，到达10英尺，一个生物。{@h}27 ({@damage 6d6 + 6})穿刺伤害加上14 ({@damage 4d6})毒药伤害。"
 					]
 				},
 				{
 					"name": "Constrict (Snake Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 15 ft., one Large or smaller creature. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and it takes 16 ({@damage 3d6 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage at the start of each of its turns. The anathema can constrict only one creature at a time."
+						"{@atk mw} {@hit 10}击中，到达15英尺，一个大型或小型生物。{@h}16 ({@damage 3d6 + 6})重击伤害加上7 ({@damage 2d6})酸液伤害，并且目标是{@condition grappled}(逃跑{@dc 16})。直到这个抓捕结束，目标是{@condition restrained}，并且在它的每个回合开始时受到16({@damage 3d6 + 6})重击伤害加上7({@damage 2d6})酸液伤害。诅咒者一次只能束缚一个生物。"
 					]
 				}
 			],
@@ -39367,7 +39367,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The anathema transforms into a Huge constrictor snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+						"憎恶者会转变为一条巨大的收缩蛇，或回到它的真实形态。它的统计数据在每种形态下都是一样的。它所穿戴或携带的任何装备都不会被转化。"
 					]
 				}
 			],
@@ -39501,7 +39501,7 @@
 				{
 					"name": "Reckless",
 					"entries": [
-						"At the start of its turn, the broodguard can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+						"在它的回合开始时，broodguard可以在它在该回合所做的所有近战武器攻击卷上获得优势，但对它的攻击卷有优势，直到它的下一回合开始。"
 					]
 				}
 			],
@@ -39509,19 +39509,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The broodguard makes one Bite attack and two Claw attacks."
+						"锦衣卫进行一次咬人攻击和两次爪子攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d8 + 2})穿刺伤害。"
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d6 + 2})砍击伤害。"
 					]
 				}
 			],
@@ -39632,7 +39632,7 @@
 				{
 					"name": "Spellcasting (Yuan-ti Form Only)",
 					"headerEntries": [
-						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"元蒂可以施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力（法术保全（%0%））。"
 					],
 					"will": [
 						"{@spell animal friendship} (snakes only)",
@@ -39657,19 +39657,19 @@
 				{
 					"name": "Devil's Sight",
 					"entries": [
-						"Magical darkness doesn't impede the yuan-ti's {@sense darkvision}."
+						"神奇的黑暗并不妨碍元帝的（%0%）。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The yuan-ti has advantage on saving throws against spells and other magical effects."
+						"元帝在面对法术和其他魔法效果时，在救人方面有优势。"
 					]
 				},
 				{
 					"name": "Sseth's Blessing",
 					"entries": [
-						"When the yuan-ti reduces an enemy to 0 hit points, the yuan-ti gains 9 temporary hit points."
+						"当元始天尊将敌人的命中率降至0时，元始天尊会获得9个临时命中率。"
 					]
 				}
 			],
@@ -39677,25 +39677,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The yuan-ti makes two Bite attacks and one Scimitar attack, or it makes two Spectral Fangs attacks."
+						"元蒂进行两次咬合攻击和一次弯刀攻击，或者进行两次光谱獠牙攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d4 + 3})穿刺伤害加上7 ({@damage 2d6})毒药伤害。"
 					]
 				},
 				{
 					"name": "Scimitar (Yuan-ti Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})砍击伤害。"
 					]
 				},
 				{
 					"name": "Spectral Fangs",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}16 ({@damage 3d8 + 3}) psychic damage."
+						"{@atk rs} {@hit 5}击中，范围120英尺，一个目标。{@h}16 ({@damage 3d8 + 3})精神伤害。"
 					]
 				}
 			],
@@ -39703,7 +39703,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The yuan-ti transforms into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. If it dies, it stays in its current form."
+						"元宝会变身为中蛇或变回其真实形态。它在每种形态下的统计数据都是一样的。它所穿戴或携带的任何装备都不会被转化。如果它死了，它将保持其目前的形态。"
 					]
 				}
 			],
@@ -39830,7 +39830,7 @@
 				{
 					"name": "Spellcasting (Yuan-ti Form Only)",
 					"headerEntries": [
-						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"元蒂可以施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力（法术保全（%0%））。"
 					],
 					"will": [
 						"{@spell animal friendship} (snakes only)",
@@ -39855,13 +39855,13 @@
 				{
 					"name": "Devil's Sight",
 					"entries": [
-						"Magical darkness doesn't impede the yuan-ti's {@sense darkvision}."
+						"神奇的黑暗并不妨碍元帝的（%0%）。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The yuan-ti has advantage on saving throws against spells and other magical effects."
+						"元帝在面对法术和其他魔法效果时，在救人方面有优势。"
 					]
 				}
 			],
@@ -39869,32 +39869,32 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The yuan-ti makes one Constrict attack and one Scimitar attack, or it makes two Spectral Fangs attacks."
+						"元蒂进行一次约束攻击和一次弯刀攻击，或者进行两次光谱獠牙攻击。"
 					]
 				},
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 14}) if it is a Large or smaller creature. Until this grapple ends, the target is {@condition restrained}. The yuan-ti can constrict only one creature at a time."
+						"{@atk mw}{@hit 5}击中，到达10英尺，一个目标。{@h}10 ({@damage 2d6 + 3})重击伤害，如果目标是大型或小型生物，则为{@condition grappled}(逃脱{@dc 14})。直到这个抓捕结束，目标是{@condition restrained}。元蒂一次只能抓捕一个生物。"
 					]
 				},
 				{
 					"name": "Scimitar (Yuan-ti Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})砍击伤害。"
 					]
 				},
 				{
 					"name": "Spectral Fangs",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}16 ({@damage 3d8 + 3}) necrotic damage."
+						"{@atk rs} {@hit 5}击中，范围120英尺，一个目标。{@h}16 ({@damage 3d8 + 3})坏死性伤害。"
 					]
 				},
 				{
 					"name": "Invoke Nightmare (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The yuan-ti taps into the nightmares of one creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature's deepest fears, visible only to that creature.",
-						"The target must make a {@dc 13} Intelligence saving throw. On a failed save, the target takes 22 ({@damage 4d10}) psychic damage and is {@condition frightened} of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if {@status concentration||concentrating} on a spell), which lasts for up to 1 minute and can't be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success or taking 11 ({@damage 2d10}) psychic damage on a failure."
+						"元气大伤者在其周围60英尺范围内可以看到一个生物的噩梦，并创造出一个虚幻的、不可移动的生物最深层恐惧的表现，只对该生物可见。",
+						"目标必须做一个{@dc 13}智力储蓄动作。如果救赎失败，目标会受到22({@damage 4d10})的精神伤害，并受到{@condition frightened}的表现，相信它是真的。元气者必须集中精力来维持幻觉（就像{@status concentration||concentrating}施法一样），幻觉持续时间长达1分钟，而且不会受到伤害。目标可以在每个回合结束时重复蓄力，如果成功则结束幻觉，如果失败则受到11（%4%）的精神伤害。"
 					]
 				}
 			],
@@ -39902,7 +39902,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The yuan-ti transforms into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. If it dies, it stays in its current form."
+						"元宝会变身为中蛇或变回其真实形态。它在每种形态下的统计数据都是一样的。它所穿戴或携带的任何装备都不会被转化。如果它死了，它将保持其目前的形态。"
 					]
 				}
 			],
@@ -40039,7 +40039,7 @@
 				{
 					"name": "Spellcasting (Yuan-ti Form Only)",
 					"headerEntries": [
-						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"元蒂可以施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力（法术保全（%0%））。"
 					],
 					"will": [
 						"{@spell animal friendship} (snakes only)",
@@ -40064,13 +40064,13 @@
 				{
 					"name": "Devil's Sight",
 					"entries": [
-						"Magical darkness doesn't impede the yuan-ti's {@sense darkvision}."
+						"神奇的黑暗并不妨碍元帝的（%0%）。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The yuan-ti has advantage on saving throws against spells and other magical effects."
+						"元帝在面对法术和其他魔法效果时，在救人方面有优势。"
 					]
 				}
 			],
@@ -40078,25 +40078,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The yuan-ti makes three Bite attacks or two Spectral Fangs attacks."
+						"元帝进行三次咬人攻击或两次幽灵獠牙攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d4 + 3})穿刺伤害加上7 ({@damage 2d6})毒药伤害。"
 					]
 				},
 				{
 					"name": "Spectral Fangs",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}16 ({@damage 3d8 + 3}) poison damage."
+						"{@atk rs} {@hit 6}击中，范围120英尺，一个目标。{@h}16 ({@damage 3d8 + 3})毒药伤害。"
 					]
 				},
 				{
 					"name": "Merrshaulk's Slumber (1/Day)",
 					"entries": [
-						"The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a {@dc 13} Constitution saving throw or fall into a magical sleep and be {@condition unconscious} for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being {@condition charmed}."
+						"元宝的目标是60英尺范围内它能看到的最多五个生物。每个目标必须成功地进行一次{@dc 13}的宪法救赎，否则就会陷入神奇的睡眠，并在10分钟内被{@condition unconscious}。如果一个沉睡的目标受到伤害，或者有人用动作摇晃或拍打它，它就会醒过来。这种魔法睡眠对免疫于{@condition charmed}的生物没有影响。"
 					]
 				}
 			],
@@ -40104,7 +40104,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The yuan-ti transforms into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+						"元宝会变身为中蛇或变回其真实形态。它在每种形态下的统计数据都是一样的。它所穿戴或携带的任何装备都不会被转化。如果它死了，它也不会改变形态。"
 					]
 				}
 			],
@@ -40239,13 +40239,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the zaratan fails a saving throw, it can choose to succeed instead."
+						"如果扎拉坦的拯救动作失败，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Siege Monster",
 					"entries": [
-						"The elemental deals double damage to objects and structures (included in Earth-Shaking Movement)."
+						"元素对物体和结构造成双倍伤害（包括在撼地运动中）。"
 					]
 				}
 			],
@@ -40253,31 +40253,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The zaratan makes one Bite attack and one Stomp attack."
+						"扎拉坦进行一次咬人攻击和一次踩踏攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}28 ({@damage 4d8 + 10}) force damage."
+						"{@atk mw} {@hit 17}击中，到达20英尺，一个目标。{@h}28 ({@damage 4d8 + 10})武力伤害。"
 					]
 				},
 				{
 					"name": "Stomp",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}26 ({@damage 3d10 + 10}) thunder damage."
+						"{@atk mw} {@hit 17}击中，到达20英尺，一个目标。{@h}26 ({@damage 3d10 + 10})雷霆伤害。"
 					]
 				},
 				{
 					"name": "Spit Rock",
 					"entries": [
-						"{@atk rw} {@hit 17} to hit, range 120 ft./240 ft., one target. {@h}31 ({@damage 6d8 + 10}) force damage."
+						"{@atk rw}{@hit 17}击中，范围120英尺/240英尺，一个目标。{@h}31 ({@damage 6d8 + 10})武力伤害。"
 					]
 				},
 				{
 					"name": "Spew Debris {@recharge 5}",
 					"entries": [
-						"The zaratan exhales rocky debris in a 90-foot cube. Each creature in that area must make a {@dc 25} Dexterity saving throw. A creature takes 33 ({@damage 6d10}) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature that fails the save by 5 or more is knocked {@condition prone}."
+						"扎拉坦在一个90英尺的立方体中呼出岩石碎屑。该区域内的每个生物都必须做一个{@dc 25}灵巧的蓄力动作。蓄力失败时，生物会受到33({@damage 6d10})的重击伤害，蓄力成功时则受到一半的伤害。救赎失败5次以上的生物会被击倒（%2%）。"
 					]
 				}
 			],
@@ -40285,7 +40285,7 @@
 				{
 					"name": "Earth-Shaking Movement",
 					"entries": [
-						"After moving at least 10 feet on the ground, the zaratan sends a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes {@quickref difficult terrain||3} for 1 minute. Each creature on the ground that is {@status concentration||concentrating} must succeed on a {@dc 25} Constitution saving throw or the creature's {@status concentration} is broken. The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a {@dc 25} Dexterity saving throw. On a failed save, the creature takes 17 ({@damage 5d6}) bludgeoning damage, is knocked {@condition prone}, and is trapped in the rubble. A trapped creature is {@condition restrained}, requiring a successful {@dc 20} Strength ({@skill Athletics}) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone} or become trapped."
+						"在地面上移动至少10英尺后，Zaratan在以自己为中心的120英尺半径的圆内发出冲击波穿过地面。该区域变得（%0%），持续1分钟。地面上的每个生物，如果是{@status concentration||concentrating}，必须成功地进行{@dc 25}宪法救赎，否则该生物的{@status concentration}会被打破。冲击波对该区域内所有与地面接触的建筑物造成100次雷霆伤害。如果一个生物靠近一个倒塌的建筑，该生物可能会被埋葬；在该建筑高度一半距离内的生物必须做一个{@dc 25}灵巧的蓄力动作。如果救赎失败，生物会受到17（（%5%））的重击伤害，被击倒（%6%），并被困在废墟中。被困的生物是（%7%），需要一个成功的（%8%）力量（（%9%））检查作为行动来逃脱。另一个在被埋生物5英尺范围内的生物可以用它的行动来清除瓦砾，并在检定中获得优势。如果有三个生物以这种方式使用他们的行动，检查就会自动成功。拯救成功后，该生物会受到一半的伤害，并且不会坠落（%10%）或被困住。"
 					]
 				}
 			],
@@ -40293,37 +40293,37 @@
 				{
 					"name": "Stomp",
 					"entries": [
-						"The zaratan makes one Stomp attack."
+						"扎拉坦进行一次踩踏攻击。"
 					]
 				},
 				{
 					"name": "Move",
 					"entries": [
-						"The zaratan moves up to its speed."
+						"zaratan移动到它的速度。"
 					]
 				},
 				{
 					"name": "Spit (Costs 2 Actions)",
 					"entries": [
-						"The zaratan makes one Spit Rock attack."
+						"扎拉坦进行了一次吐息石攻击。"
 					]
 				},
 				{
 					"name": "Retract (Costs 2 Actions)",
 					"entries": [
-						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is {@condition restrained}. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
+						"扎拉坦缩回它的壳中。在它采取出现行动之前，它对所有的伤害都有抵抗力，而且是（%0%）。下次它采取传奇行动时，它必须采取 \"振兴 \"或 \"出现 \"行动。"
 					]
 				},
 				{
 					"name": "Revitalize (Costs 2 Actions)",
 					"entries": [
-						"The zaratan can use this option only if it is retracted in its shell. It regains 52 ({@dice 5d20}) hit points. The next time it takes a legendary action, it must take its Emerge action."
+						"扎拉坦只有在缩在它的壳里时才能使用这个选项。它重新获得52({@dice 5d20})的打击点数。下次它采取传奇行动时，必须采取 \"出现 \"行动。"
 					]
 				},
 				{
 					"name": "Emerge (Costs 2 Actions)",
 					"entries": [
-						"The zaratan emerges from its shell and makes one Spit Rock attack. It can use this option only if it is retracted in its shell."
+						"扎拉坦从它的壳中出来，进行一次吐石攻击。它只有在缩在壳里的情况下才能使用这个选项。"
 					]
 				}
 			],
@@ -40465,7 +40465,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Zariel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 26}):"
+						"扎里尔施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力（法术保全（%0%））。"
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing her appearance)",
@@ -40490,25 +40490,25 @@
 				{
 					"name": "Devil's Sight",
 					"entries": [
-						"Magical darkness doesn't impede Zariel's {@sense darkvision}."
+						"魔法黑暗并不妨碍扎里尔的（%0%）。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Zariel fails a saving throw, she can choose to succeed instead."
+						"如果扎丽尔的拯救动作失败，她可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"Zariel has advantage on saving throws against spells and other magical effects."
+						"扎里尔在面对法术和其他魔法效果时，在蓄力攻击方面有优势。"
 					]
 				},
 				{
 					"name": "Regeneration",
 					"entries": [
-						"Zariel regains 20 hit points at the start of her turn. If she takes radiant damage, this trait doesn't function at the start of her next turn. Zariel dies only if she starts her turn with 0 hit points and doesn't regenerate."
+						"扎丽尔在她的回合开始时恢复20点生命值。如果她受到辐射伤害，这个特性在她的下一回合开始时不会发挥作用。扎丽尔只有在她的回合开始时生命值为0并且没有再生时才会死亡。"
 					]
 				}
 			],
@@ -40516,31 +40516,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Zariel makes three Flail or Longsword attacks. She can replace one attack with a use of Horrid Touch, if available."
+						"扎里尔可以进行3次大刀或长剑攻击。如果有的话，她可以用 \"恐怖之触 \"来代替一次攻击。"
 					]
 				},
 				{
 					"name": "Flail",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) force damage plus 36 ({@damage 8d8}) fire damage."
+						"{@atk mw} {@hit 16}击中，到达10英尺，一个目标。{@h}17 ({@damage 2d8 + 8})武力伤害加上36 ({@damage 8d8})火焰伤害。"
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) radiant damage, or 19 ({@damage 2d10 + 8}) radiant damage when used with two hands, plus 36 ({@damage 8d8}) fire damage."
+						"{@atk mw} {@hit 16}击中，到达10英尺，一个目标。{@h}17 ({@damage 2d8 + 8})辐射伤害，或在双手使用时造成19 ({@damage 2d10 + 8})辐射伤害，外加36 ({@damage 8d8})火力伤害。"
 					]
 				},
 				{
 					"name": "Horrid Touch {@recharge 5}",
 					"entries": [
-						"Zariel touches one creature within 10 feet of her. The target must succeed on a {@dc 26} Constitution saving throw or take 44 ({@damage 8d10}) necrotic damage and be {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the target is {@condition blinded} and {@condition deafened}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"扎丽尔触碰她10英尺内的一个生物。目标必须成功地进行一次{@dc 26}宪法救赎，否则会受到44({@damage 8d10})的坏死伤害，并在1分钟内受到{@condition poisoned}。当{@condition poisoned}这样做的时候，目标是{@condition blinded}和{@condition deafened}。目标可以在其每个回合结束时重复蓄力，成功后结束对自身的影响。"
 					]
 				},
 				{
 					"name": "Teleport",
 					"entries": [
-						"Zariel teleports, along with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space she can see."
+						"Zariel将她所穿戴或携带的任何设备传送到她所看到的无人空间，最远可达120英尺。"
 					]
 				}
 			],
@@ -40548,13 +40548,13 @@
 				{
 					"name": "Teleport",
 					"entries": [
-						"Zariel uses Teleport."
+						"扎里尔使用传送。"
 					]
 				},
 				{
 					"name": "Immolating Gaze (Costs 2 Actions)",
 					"entries": [
-						"Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to burn. The target must succeed on a {@dc 26} Wisdom saving throw or take 22 ({@damage 4d10}) fire damage."
+						"扎丽尔将她的魔法目光转向她所看到的120英尺内的一个生物，并命令它燃烧。目标必须在{@dc 26}智慧救赎中成功，否则会受到22({@damage 4d10})的火焰伤害。"
 					]
 				}
 			],
@@ -40724,7 +40724,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Zuggtmoy casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
+						"Zuggtmoy施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力（法术保全（%0%））。"
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -40749,13 +40749,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Zuggtmoy fails a saving throw, she can choose to succeed instead."
+						"如果Zuggtmoy的拯救动作失败，她可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"Zuggtmoy has advantage on saving throws against spells and other magical effects."
+						"Zuggtmoy在面对法术和其他魔法效果时，在救赎动作上有优势。"
 					]
 				}
 			],
@@ -40763,13 +40763,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Zuggtmoy makes three Pseudopod attacks."
+						"Zuggtmoy进行了三次假肢攻击。"
 					]
 				},
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw} {@hit +13} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) force damage plus 9 ({@damage 2d8}) poison damage."
+						"{@atk mw} {@hit +13}击中，到达10英尺，一个目标。{@h}15 ({@damage 2d8 + 6})武力伤害加上9 ({@damage 2d8})毒药伤害。"
 					]
 				}
 			],
@@ -40777,13 +40777,13 @@
 				{
 					"name": "Infestation Spores (3/Day)",
 					"entries": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any creature in the cloud when it appears, or that enters it later, must make a {@dc 19} Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy, which lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a {@creature quaggoth spore servant||spore servant} if it's a type of creature that can be."
+						"Zuggtmoy释放孢子，孢子在以她为中心的20英尺半径的球体中迸发，并持续1分钟。当它出现时，任何在云中的生物，或后来进入云中的生物，都必须做一个{@dc 19}宪法救赎动作。如果拯救成功，该生物在24小时内不会被这些孢子感染。如果救赎失败，该生物就会感染一种叫做Zuggtmoy孢子的疾病，这种疾病会持续到该生物被治愈或死亡。在以这种方式感染时，该生物不能再被感染，而且它必须在每24小时结束时重复拯救动作，成功时结束感染。如果失败，被感染的生物的身体会慢慢被真菌生长所占据，在三次这样的拯救失败后，该生物就会死亡，如果它是一种可以复活的生物，就会被复活为（%1%）。"
 					]
 				},
 				{
 					"name": "Mind Control Spores {@recharge 5}",
 					"entries": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and Beasts in the cloud when it appears, or that enter it later, must make a {@dc 19} Wisdom saving throw. On a successful save, a creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected in this way, the creature is {@condition charmed} by her and can't be reinfected by these spores."
+						"Zuggtmoy会释放孢子，这些孢子会在以她为中心的20英尺半径的范围内爆发出一团云，并且会持续1分钟。当云层出现时，在云层中的人类和野兽，或者后来进入云层的人类和野兽，必须做一个{@dc 19}智慧救赎动作。拯救成功时，生物在24小时内不会被这些孢子感染。如果救赎失败，该生物会被一种叫做Zuggtmoy影响的疾病感染，持续24小时。当以这种方式感染时，该生物会被她影响（%1%），并且不能被这些孢子重新感染。"
 					]
 				}
 			],
@@ -40791,7 +40791,7 @@
 				{
 					"name": "Protective Thrall",
 					"entries": [
-						"When Zuggtmoy is hit by an attack roll, one creature within 10 feet of her that is {@condition charmed} by her is hit by the attack instead."
+						"当Zuggtmoy被攻击卷击中时，在她10英尺范围内被她击中的一个生物（%0%）会被攻击代替。"
 					]
 				}
 			],
@@ -40799,13 +40799,13 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"Zuggtmoy makes one Pseudopod attack."
+						"Zuggtmoy进行一次假肢攻击。"
 					]
 				},
 				{
 					"name": "Exert Will",
 					"entries": [
-						"One creature {@condition charmed} by Zuggtmoy that she can see must use its reaction, if a available, to move up to its speed as she directs or to make one weapon attack against a target that she designates."
+						"Zuggtmoy所看到的一个生物（%0%）必须使用它的反应，如果有的话，按照她的指示移动到它的速度，或者对她指定的目标进行一次武器攻击。"
 					]
 				}
 			],

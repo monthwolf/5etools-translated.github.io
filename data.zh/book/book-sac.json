@@ -2118,7 +2118,7 @@
 											"name": "How does barkskin work with shields, cover, and other modifiers to AC?",
 											"id": "0eb",
 											"entries": [
-												"{@spell Barkskin} specifies that your AC can't be lower than 16 while you are affected by the spell. This means you effectively ignore any modifiers to your AC—including your Dexterity modifier, your armor, a shield, and cover—unless your AC is higher than 16. For example, if your AC is normally 14, it's 16 while {@spell barkskin} is on you. If your AC is normally 15 and you have half cover, your AC is 17; {@spell barkskin} isn't relevant in this case."
+												"{@spell Barkskin}规定，当你受到法术影响时，你的AC不能低于16。这意味着你有效地忽略了对你AC的任何修饰--包括你的灵巧修饰、你的盔甲、盾牌和掩护--除非你的AC高于16。例如，如果你的AC值通常是14，当(1%)在你身上时，它就是16。如果你的AC通常是15，而你有一半的掩护，你的AC是17；{@spell barkskin}在这种情况下并不相关。"
 											]
 										},
 										{
@@ -2126,7 +2126,7 @@
 											"name": "Does the blinding smite spell deal extra radiant damage on every successful attack I make while I'm concentrating on the spell, or only on the first one?",
 											"id": "0ec",
 											"entries": [
-												"\"The next time\" in the spell description indicates that the extra damage applies only once, the first time you hit a creature after you finish casting the spell."
+												"法术描述中的 \"下一次 \"表示额外伤害只适用一次，就是你完成施法后第一次击中生物的时候。"
 											]
 										},
 										{
@@ -2134,7 +2134,7 @@
 											"name": "Is the chill touch spell intended as a way of foiling any creature that has Regeneration?",
 											"id": "0ed",
 											"entries": [
-												"{@spell Chill touch} does, indeed, stop the target it hits from regaining hit points until the spell ends. This is true even if the target takes none of the necrotic damage, whether because of immunity or some other reason."
+												"{@spell Chill touch}确实能阻止它所击中的目标恢复命中率，直到法术结束。即使目标没有受到坏死伤害，无论是因为免疫还是其他原因，这也是真的。"
 											]
 										},
 										{
@@ -2142,14 +2142,14 @@
 											"name": "Using 5-foot squares, does cloud of daggers affect a single square?",
 											"id": "0ee",
 											"entries": [
-												"{@spell Cloud of daggers} (5 ft. cube) can affect more than one square on a grid, unless the DM says effects snap to the grid. There are many ways to position that cube."
+												"{@spell Cloud of daggers}(5英尺的立方体)可以影响网格上的一个以上的方块，除非DM说效果是固定在网格上的。有许多方法可以定位这个立方体。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Can a creature under the effect of compelled duel teleport more than 30 feet away from the caster?",
 											"entries": [
-												"No. You can't move farther than 30 feet away from the caster of compelled duel by any means, including teleportation."
+												"不，你不能以任何方式远离蛊惑决斗的施法者超过30英尺的距离，包括传送。"
 											],
 											"id": "150"
 										},
@@ -2158,14 +2158,14 @@
 											"name": "Is the damage dealt by a beast from conjure animals considered magical?",
 											"id": "0ef",
 											"entries": [
-												"The stat block of a conjured creature determines the nature of the creature's damage, unless the spell says otherwise."
+												"被召唤的生物的状态块决定了该生物的伤害性质，除非咒语另有说明。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Can conjure animals summon a swarm?",
 											"entries": [
-												"No. Conjure animals summons individual creatures, and swarms are groups of creatures."
+												"不，召唤动物可以召唤单个的生物，而动物群是一群生物。"
 											],
 											"id": "151"
 										},
@@ -2174,25 +2174,25 @@
 											"name": "When you cast a spell like conjure woodland beings, does the spellcaster or the DM choose the creatures that are conjured?",
 											"id": "0f0",
 											"entries": [
-												"A number of spells in the game let you summon creatures. {@spell Conjure animals}, {@spell conjure celestial}, {@spell conjure minor elementals}, and {@spell conjure woodland beings} are just a few examples.",
-												"Some spells of this sort specify that the spellcaster chooses the creature conjured. For example, {@spell find familiar} gives the caster a list of animals to choose from.",
-												"Other spells of this sort let the spellcaster choose from among several broad options. For example, {@spell conjure minor elementals} offers four options. Here are the first two:",
+												"游戏中的许多法术都可以让你召唤生物。{@spell Conjure animals}, {@spell conjure celestial}, {@spell conjure minor elementals}, 和{@spell conjure woodland beings}只是几个例子。",
+												"有些这类法术规定施法者要选择所变出的生物。例如，{@spell find familiar}给施法者提供了一个可供选择的动物名单。",
+												"其他这类法术让施法者从几个广泛的选项中选择。例如，{@spell conjure minor elementals}提供四个选项。这里是前两个。",
 												{
 													"type": "list",
 													"items": [
-														"One elemental of challenge rating 2 or lower",
-														"Two elementals of challenge rating 1 or lower"
+														"一个挑战等级为2级或以下的元素",
+														"两个挑战等级为1或更低的元素"
 													]
 												},
-												"The design intent for options like these is that the spellcaster chooses one of them, and then the DM decides what creatures appear that fit the chosen option. For example, if you pick the second option, the DM chooses the two elementals that have a challenge rating of 1 or lower.",
-												"A spellcaster can certainly express a preference for what creatures shows up, but it's up to the DM to determine if they do. The DM will often choose creatures that are appropriate for the campaign and that will be fun to introduce in a scene."
+												"像这样的选项的设计意图是，施法者选择其中之一，然后由DM决定出现哪些符合所选选项的生物。例如，如果你选择第二个选项，DM就会选择两个挑战等级为1或更低的元素。",
+												"施法者当然可以表达对出现的生物的偏好，但要由DM来决定他们是否这样做。DM通常会选择适合活动的生物，而且在场景中介绍这些生物会很有趣。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Does counterspell target the caster or the spell you're trying to counter?",
 											"entries": [
-												"Counterspell targets the other spellcaster."
+												"反咒的目标是另一个施法者。"
 											],
 											"id": "152"
 										},
@@ -2200,7 +2200,7 @@
 											"type": "entries",
 											"name": "If a wizard with Inured to Undeath spends Hit Dice to raise the hit point maximum of a homunculus created by the create homunculus spell, does it still decrease the wizard's hit point maximum?",
 											"entries": [
-												"Spending the Hit Dice affects the homunculus as described in the spell, but the wizard's hit point maximum isn't decreased."
+												"花费命中率会影响到同形体，正如法术中所描述的那样，但巫师的最大命中率并没有减少。"
 											],
 											"id": "153"
 										},
@@ -2209,7 +2209,7 @@
 											"name": "Can you cast darkness with a higher-level slot to end a spell of 3rd level or higher that creates light?",
 											"id": "0f1",
 											"entries": [
-												"No. The {@spell darkness} spell can dispel only a light-creating spell of 2nd level or lower, no matter what spell slot is used for {@spell darkness}. Similarly, the {@spell daylight} spell can dispel only a darkness-creating spell of 3rd level or lower, regardless of the spell slot used."
+												"不，{@spell darkness}的咒语只能驱散二级或更低级的创造光明的咒语，无论{@spell darkness}使用的是什么咒语槽。同样地，{@spell daylight}的咒语只能驱散一个3级或更低级的创造黑暗的咒语，无论使用的是什么咒语槽。"
 											]
 										},
 										{
@@ -2217,7 +2217,7 @@
 											"name": "If the damage from disintegrate reduces a half-orc to 0 hit points, can Relentless Endurance prevent the orc from turning to ash?",
 											"id": "0f2",
 											"entries": [
-												"Yes. The {@spell disintegrate} spell turns you into dust only if the spell's damage leaves you with 0 hit points. If you're a half-orc, Relentless Endurance can turn the 0 into a 1 before the spell can disintegrate you."
+												"是的，{@spell disintegrate}咒语只有在咒语的伤害使你的生命值为0时才会将你变成尘埃。如果你是半兽人，无情的耐力可以在法术将你瓦解之前将0变成1。"
 											]
 										},
 										{
@@ -2225,7 +2225,7 @@
 											"name": "What happens if a druid using Wild Shape is reduced to 0 hit points by disintegrate ? Does the druid simply leave beast form?",
 											"id": "0f3",
 											"entries": [
-												"The druid leaves beast form. As usual, any leftover damage then applies to the druid's normal hit points. If the leftover damage leaves the druid with 0 hit points, the druid is {@spell Disintegrate||disintegrated}."
+												"德鲁伊离开野兽形态。像往常一样，任何剩余的伤害都会作用于德鲁伊的正常命中率。如果剩余的伤害使德鲁伊的命中率为0，则德鲁伊的命中率为（%0%）。"
 											]
 										},
 										{
@@ -2233,9 +2233,9 @@
 											"name": "Can you use dispel magic to dispel a magical effect like a vampire's Charm ability or a druid's Wild Shape?",
 											"id": "0f4",
 											"entries": [
-												"{@spell Dispel magic} has a particular purpose: to break other spells. It has no effect on a vampire's Charm ability or any other magical effect that isn't a spell. It also does nothing to the properties of a magic item. It can, however, end a spell cast from a magic item or from another source. Spells—they're what {@spell dispel magic} is about. For example, if you cast {@spell dispel magic} on a {@item staff of power}, the spell fails to disrupt the staff's magical properties, but if the staff's wielder casts {@spell hold monster} from the staff, {@spell dispel magic} can end that spell if cast on the target of {@spell hold monster}.",
-												"There are abilities and other spells that can end or suspend magical effects that aren't spells. For example, the {@spell greater restoration} spell can end a charm effect of any sort on a target (such as a {@creature Vampire||vampire's} Charm or a {@creature Dryad||dryad's} Fey Charm), and a paladin's Aura of Devotion can prevent or suspend such an effect.",
-												"Three of the most versatile spells for ending certain magical effects are {@spell lesser restoration}, {@spell greater restoration}, and {@spell remove curse}."
+												"{@spell Dispel magic}有一个特殊的目的：破解其他法术。它对吸血鬼的魅惑能力或任何其他不是咒语的魔法效果没有影响。它对魔法物品的属性也没有任何作用。然而，它可以结束一个从魔法物品或其他来源施放的咒语。法术--它们是{@spell dispel magic}的内容。例如，如果你在一个{@spell dispel magic}的法杖上施放{@item staff of power}，这个法术不能破坏法杖的魔法属性，但是如果法杖的持有者从法杖上施放{@spell hold monster}，如果对{@spell hold monster}的目标施放，{@spell dispel magic}可以结束这个法术。",
+												"有一些能力和其他法术可以结束或暂停不是法术的魔法效果。例如，{@spell greater restoration}法术可以结束对目标的任何种类的魅惑效果（如{@creature Vampire||vampire's}魅惑或{@creature Dryad||dryad's}魅惑），而圣骑士的奉献光环可以阻止或暂停这种效果。",
+												"三个最通用的结束某些魔法效果的法术是（%0%）、（%1%）和（%2%）。"
 											]
 										},
 										{
@@ -2243,9 +2243,9 @@
 											"name": "Can you use dispel magic on the creations of a spell like animate dead or affect those creations with antimagic field?",
 											"id": "0f5",
 											"entries": [
-												"Whenever you wonder whether a spell's effects can be dispelled or suspended, you need to answer one question: is the spell's duration instantaneous? If the answer is yes, there is nothing to dispel or suspend. Here's why: the effects of an {@book instantaneous spell|PHB|10|Instantaneous} are brought into being by magic, but the effects aren't sustained by magic. The magic flares for a split second and then vanishes. For example, the instantaneous spell {@spell animate dead} harnesses magical energy to turn a corpse or a pile of bones into an undead creature. That necromantic magic is present for an instant and is then gone. The resulting undead now exists without the magic's help. Casting {@spell dispel magic} on the creature can't end its mockery of life, and the undead can wander into an {@spell antimagic field} with no adverse effect.",
-												"Another example: {@spell cure wounds} instantaneously restores hit points to a creature. Because the spell's duration is instantaneous, the restoration can't be later dispelled. And you don't suddenly lose hit points if you step into an {@spell antimagic field} !",
-												"In contrast, a spell like {@spell conjure woodland beings} has a non-instantaneous duration, which means its creations can be ended by {@spell dispel magic} and they temporarily disappear within an {@spell antimagic field}."
+												"每当你想知道一个法术的效果是否可以被驱散或中止时，你需要回答一个问题：这个法术的持续时间是瞬时的吗？如果答案是肯定的，就没有什么可以驱除或中止的。这就是原因：一个（%0%）的效果是由魔法带来的，但效果并不是由魔法维持的。魔力在一瞬间爆发，然后就消失了。例如，瞬发咒语（%1%）利用魔法能量将一具尸体或一堆骨头变成不死生物。这种亡灵魔法只存在一瞬间，然后就消失了。产生的亡灵现在没有魔法的帮助而存在。对该生物施放{@spell dispel magic}不能结束它对生命的嘲弄，而且该亡灵可以游荡到{@spell antimagic field}的地方，没有任何不良影响。",
+												"另一个例子。{@spell cure wounds} 瞬间恢复一个生物的命中率。因为该法术的持续时间是瞬时的，所以该恢复不能在之后被驱散。而且，如果你踏入一个{@spell antimagic field}！你也不会突然失去命中率。",
+												"相比之下，像{@spell conjure woodland beings}这样的法术有一个非瞬时的持续时间，这意味着它的创造可以被{@spell dispel magic}结束，它们在{@spell antimagic field}内暂时消失。"
 											]
 										},
 										{
@@ -2253,8 +2253,8 @@
 											"name": "Can you ready dispel magic to stop another spell from taking effect?",
 											"id": "0f6",
 											"entries": [
-												"The easiest way to stop a spell is to cast {@spell counterspell} on its caster while it's being cast. If successful, {@spell counterspell} interrupts the other spell's casting, and that spell fails to take effect. {@spell Counterspell} works against any spell, regardless of a spell's casting time or duration.",
-												"With the {@action Ready} action, dispel magic can be cast in response to another spell being cast, yet {@spell dispel magic} can't substitute for {@spell counterspell}. The main reason is that {@spell dispel magic} removes a spell that is already on a target, whether that target is a creature, an object, or some other phenomenon. {@spell Dispel magic} can't dispel something in advance. If a spell isn't already present on a target, {@spell dispel magic} does nothing to that target. The best that a readied {@spell dispel magic} can do is dispel a spell immediately after the spell has been cast to prevent it from having any effect after the action used to cast it. For example, on your turn you could say something like this: \"I ready {@spell dispel magic}, and if the high priest casts a spell on anyone, I cast {@spell dispel magic} on the target if the spell takes hold.\" If the high priest then cast {@spell hold person} on your companion who fails the save against it, you could unleash your readied {@spell dispel magic} and end {@spell hold person}."
+												"阻止一个法术的最简单的方法是在它被施放的时候对它的施法者施放（%0%）。如果成功，{@spell counterspell}会打断另一个法术的施放，并且该法术无法生效。{@spell Counterspell}对任何法术都有效，不管法术的施法时间或持续时间。",
+												"通过{@action Ready}动作，驱散魔法可以对另一个正在施放的法术做出反应，然而{@spell dispel magic}不能代替{@spell counterspell}。主要原因是，{@spell dispel magic}会移除已经在目标上的咒语，无论目标是生物、物体还是其他现象。{@spell Dispel magic}不能提前驱除一些东西。如果目标上还没有咒语，（%5%）对该目标没有任何作用。已准备好的{@spell dispel magic}能做的最好的事是在施法后立即驱散一个咒语，以防止它在施法的行动后产生任何影响。例如，在你的回合，你可以这样说。\"我准备好了（%7%），如果大祭司对任何人施法，我对目标施法（%8%），如果该法术生效。\" 如果大祭司对你的同伴施放（%9%），而你的同伴对它的拯救失败，你可以释放你准备好的（%10%）并结束（%11%）。"
 											]
 										},
 										{
@@ -2262,7 +2262,7 @@
 											"name": "Can dispel magic end globe of invulnerability?",
 											"id": "0f7",
 											"entries": [
-												"Yes, {@spell dispel magic} can dispel the barrier created by {@spell globe of invulnerability}, but not any magical effects that are active inside the barrier."
+												"是的，{@spell dispel magic}可以驱除{@spell globe of invulnerability}所创造的屏障，但不能驱除任何在屏障内活动的魔法效果。"
 											]
 										},
 										{
@@ -2270,7 +2270,7 @@
 											"name": "If dispel magic targets the magical effect from bless cast by a cleric, does it remove the effect on all the targets?",
 											"id": "0f8",
 											"entries": [
-												"{@spell Dispel magic} ends a spell on one target. It doesn't end the same spell on other targets."
+												"{@spell Dispel magic}结束一个目标的法术。它不会对其他目标结束相同的法术。"
 											]
 										},
 										{
@@ -2278,7 +2278,7 @@
 											"name": "Can the familiar you conjure with the find familiar spell use the Help action to grant you advantage on your attack roll?",
 											"id": "0f9",
 											"entries": [
-												"A {@spell Find Familiar||familiar} can't attack, but it can take non-attack actions, including {@action Help}. As the text of the {@action Help} action indicates, the action doesn't require you to be able to attack; you simply need to be able to provide some sort of distraction."
+												"一个（%0%）不能攻击，但它可以采取非攻击行动，包括（%1%）。正如{@action Help}行动的文字所示，该行动并不要求你能够攻击，你只需要能够提供某种分心。"
 											]
 										},
 										{
@@ -2286,14 +2286,14 @@
 											"name": "Does the familiar of find familiar count as an ally for the purposes of Sneak Attack?",
 											"id": "0fa",
 											"entries": [
-												"A {@spell Find Familiar||familiar} is an allied creature. Its proximity to a target can allow you to use the Sneak Attack feature or any other feature that requires the presence of an ally."
+												"一个{@spell Find Familiar||familiar}是一个盟友生物。它接近目标可以让你使用偷袭功能或任何其他需要盟友在场的功能。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "When you dismiss the familiar you conjure with the find familiar spell to its pocket dimension, can it take any objects it's wearing or carrying with it?",
 											"entries": [
-												"No, the intent of find familiar is that any objects are left behind when the familiar vanishes. This intent will be reflected in future printings of the Player's Handbook."
+												"不，寻找熟悉物的意图是，当熟悉物消失时，任何物体都会被留下。这一意图将反映在未来出版的《玩家手册》中。"
 											],
 											"id": "154"
 										},
@@ -2302,7 +2302,7 @@
 											"name": "Can a spell such as fireball go past its 20-foot radius if the point of origin is set in an enclosed space that's less than 40 feet across?",
 											"id": "0fb",
 											"entries": [
-												"The fire of the {@spell fireball} spell can spread around corners, but it's limited by the spell's 20-foot radius. It doesn't extend farther than 20 feet from the point of origin no matter where it is cast."
+												"{@spell fireball}法术的火焰可以在角落里蔓延，但它受到法术的20英尺半径的限制。无论在哪里施法，它都不会从起源点延伸到20英尺以外的地方。"
 											]
 										},
 										{
@@ -2310,7 +2310,7 @@
 											"name": "If I'm a cleric/druid with the Disciple of Life feature, does the goodberry spell benefit from the feature?",
 											"id": "0fc",
 											"entries": [
-												"Yes. The Disciple of Life feature would make each berry restore 4 hit points, instead of 1, assuming you cast {@spell goodberry} with a 1st-level spell slot."
+												"是的，\"生命的门徒 \"特征会使每颗浆果恢复4点生命值，而不是1点，假设你用1级法术槽施放（%0%）。"
 											]
 										},
 										{
@@ -2318,17 +2318,17 @@
 											"name": "Can you use green-flame blade and booming blade with Extra Attack, opportunity attacks, Sneak Attack, and other weapon attack options?",
 											"id": "0fd",
 											"entries": [
-												"Introduced in the {@book Sword Coast Adventurer's Guide|SCAG}, the {@spell green-flame blade|TCE} and {@spell booming blade|TCE} spells pose a number of questions, because they each do something unusual: require you to make a melee attack with a weapon as part of the spell's casting.",
-												"First, each of these spells involves a normal melee weapon attack, not a spell attack, so you use whatever ability modifier you normally use with the weapon. (A spell tells you if it includes a spell attack, and neither of these spells do.) For example, if you use a {@item longsword|PHB} with {@spell green-flame blade|TCE}, you use your Strength modifier for the weapon's attack and damage rolls.",
-												"Second, neither {@spell green-flame blade|TCE} nor {@spell booming blade|TCE} works with Extra Attack or any other feature that requires the {@action Attack} action. Like other spells, these cantrips require the {@action Cast a Spell} action, not the Attack action, and they can't be used to make an opportunity attack, unless a special feature allows you to do so.",
-												"Third, these weapon attacks work with Sneak Attack if they fulfill the normal requirements for that feature. For example, if you have the Sneak Attack feature and cast {@spell green-flame blade|TCE} with a finesse weapon, you can deal Sneak Attack damage to the target of the weapon attack if you have advantage on the attack roll and hit."
+												"在{@book Sword Coast Adventurer's Guide|SCAG}中引入的{@spell green-flame blade|TCE}和{@spell booming blade|TCE}法术提出了一些问题，因为它们都做了一些不寻常的事情：要求你用武器进行近战攻击，作为施法的一部分。",
+												"首先，这些法术中的每一个都涉及到普通的近战武器攻击，而不是法术攻击，所以你使用你通常对武器使用的任何能力修改器。(一个法术会告诉你它是否包括法术攻击，而这些法术都没有）。例如，如果你用{@item longsword|PHB}和{@spell green-flame blade|TCE}，你用你的力量修正器来进行武器的攻击和伤害卷。",
+												"其次，{@spell green-flame blade|TCE}和{@spell booming blade|TCE}都不能与额外攻击或任何其他需要{@action Attack}动作的功能一起使用。和其他法术一样，这些咒语需要{@action Cast a Spell}动作，而不是攻击动作，而且它们不能被用来进行机会攻击，除非有特殊功能允许你这样做。",
+												"第三，如果这些武器攻击满足了偷袭的正常要求，它们就可以与偷袭一起使用。例如，如果你有偷袭功能，并使用精巧的武器施放（%0%），如果你在攻击卷上有优势并命中，你可以对武器攻击的目标造成偷袭伤害。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "When a creature successfully saves against guardian of faith and takes 10 radiant damage, how much damage does that count against the total amount of damage the spell can deal?",
 											"entries": [
-												"Is it 20 because that's how much it dealt or 10 because that's how much the target took? It dealt 10 damage to the creature, so 10 is subtracted from the total."
+												"是20，因为它造成了多少伤害，还是10，因为目标承受了多少伤害？它对生物造成的伤害是10，所以从总数中减去了10。"
 											],
 											"id": "155"
 										},
@@ -2337,7 +2337,7 @@
 											"name": "For the spell hail of thorns, does it last for the initial attack or as long as you maintain concentration?",
 											"id": "0fe",
 											"entries": [
-												"{@spell Hail of thorns} lasts until you hit a creature with a ranged weapon attack or your {@book concentration|PHB|10|Concentration} ends, whichever comes first."
+												"{@spell Hail of thorns}持续到你用远程武器攻击击中一个生物或你的{@book concentration|PHB|10|Concentration}结束，以先到者为准。"
 											]
 										},
 										{
@@ -2345,7 +2345,7 @@
 											"name": "Can the extra action granted by haste be used to activate a magic item?",
 											"id": "0ff",
 											"entries": [
-												"No. Activating a magic item isn't a function of the {@action Use an Object} action ({@i DMG}, \"{@book Activating an Item|DMG|7|Activating an Item}\")."
+												"不，激活一个魔法物品并不是{@action Use an Object}动作的功能（{@i DMG}, \"{@book Activating an Item|DMG|7|Activating an Item}\"）。"
 											]
 										},
 										{
@@ -2353,7 +2353,7 @@
 											"name": "Does the heroes' feast spell grant immunity to poison damage or just the poison condition?",
 											"id": "100",
 											"entries": [
-												"The {@spell heroes' feast} spell grants immunity to poison in any form—damage and the {@condition poisoned|phb|condition}."
+												"{@spell heroes' feast}的法术给予对任何形式的毒药-伤害和{@condition poisoned|phb|condition}的豁免权。"
 											]
 										},
 										{
@@ -2361,7 +2361,7 @@
 											"name": "Do the temporary hit points from heroism accumulate each round?",
 											"id": "101",
 											"entries": [
-												"Temporary hit points aren't cumulative. The spell would tell you if you were meant to add together the temporary hit points it provides. At the start of each of your turns, the spell, effectively, refreshes the number of temporary hit points you have from it; if you lost some or all of the temporary hit points, the spell gives them back to you."
+												"临时命中率是不能累积的。咒语会告诉你，如果你是要把它提供的临时命中率加在一起的话。在你每个回合开始时，该咒语，有效地，从它那里刷新了你的临时命中点数；如果你失去了部分或全部临时命中点数，该咒语会把它们还给你。"
 											]
 										},
 										{
@@ -2369,7 +2369,7 @@
 											"name": "If the heroism spell is cast on a character that is already frightened, does it remove the frightened effect?",
 											"id": "102",
 											"entries": [
-												"The {@spell heroism} spell would suppress a frightening effect that was already on its target. When the spell ends, the target's immunity goes away and the frightening effect resumes if it has not expired or been removed."
+												"{@spell heroism}的法术会抑制已经在目标身上的惊吓效果。当咒语结束时，目标的免疫力会消失，如果惊吓效果没有过期或被移除，则会重新开始。"
 											]
 										},
 										{
@@ -2377,7 +2377,7 @@
 											"name": "Does the extra damage from hex only apply if there is an attack roll?",
 											"id": "103",
 											"entries": [
-												"The extra damage in the {@spell hex} spell requires an attack that hits."
+												"{@spell hex}的法术中的额外伤害需要有一次击中的攻击。"
 											]
 										},
 										{
@@ -2385,7 +2385,7 @@
 											"name": "Since resting identifies magic items, and the identify spell doesn't spot curses, what is the role of the identify spell?",
 											"id": "104",
 											"entries": [
-												"The most important factors are time and convenience. During a short rest, which takes at least 1 hour, a character who meets the qualifications can determine the properties of one magic item (see \"{@book Identifying a Magic Item|DMG|7|Identifying a Magic Item}\" in the {@book Dungeon Master's Guide|DMG}). In contrast, casting the {@spell identify} spell takes only 1 minute (or 11 minutes if it is cast as a ritual) and can be done when a quick determination is needed."
+												"最重要的因素是时间和方便。在至少需要1小时的短暂休息中，符合条件的角色可以确定一件魔法物品的属性（见{@book Dungeon Master's Guide|DMG}中的\"（%0%）\"）。相比之下，施展{@spell identify}法术只需要1分钟（如果是作为仪式施展，则需要11分钟），可以在需要快速确定时进行。"
 											]
 										},
 										{
@@ -2393,8 +2393,8 @@
 											"name": "What happens when a jump spell gives a creature a jump distance greater than its walking speed?",
 											"id": "105",
 											"entries": [
-												"Your jump is limited by how far you can move; each foot jumped uses a foot of movement. You can take the {@action Dash} action if you want to extend how far you can move on your turn.",
-												"For example, if you have a Strength score of 15, you can normally leap 15 feet when you make a long jump if you move at least 10 feet immediately beforehand. If the {@spell jump} spell is cast on you, that potential jump distance is tripled. That's a jump of 45 feet! If your speed is 30 feet, you can use only 30 feet of that jump distance on your turn, unless you take the {@action Dash} action, which allows you to leap the full 45 feet."
+												"你的跳跃受到你能移动的距离的限制；每跳一英尺就会使用一英尺的移动。如果你想在你的回合中延长你能移动的距离，你可以采取{@action Dash}行动。",
+												"例如，如果你的力量得分是15分，当你进行远跳时，如果你在紧接之前移动了至少10英尺，你通常可以跃过15英尺。如果{@spell jump}的法术被施加在你身上，这个潜在的跳跃距离会增加三倍。这就是45英尺的跳跃! 如果你的速度是30英尺，你在你的回合中只能使用30英尺的跳跃距离，除非你采取{@action Dash}的行动，这样你可以跳满45英尺。"
 											]
 										},
 										{
@@ -2402,7 +2402,7 @@
 											"name": "Can you use a shield with mage armor?",
 											"id": "106",
 											"entries": [
-												"{@spell Mage armor} works with a {@item shield|PHB}. Shields are grouped with armor in the equipment rules in the {@book Player's Handbook|PHB}, but various game features distinguish between the armor you wear and a shield you wield. Take a look at the monk's Unarmored Defense feature and compare it to the barbarian's version. In the monk's version, you must both forgo wearing armor and forgo wielding a shield if you want to benefit from the feature, whereas a barbarian must only forgo wearing armor."
+												"{@spell Mage armor}与{@item shield|PHB}一起工作。盾牌在装备规则中与盔甲归为{@book Player's Handbook|PHB}，但各种游戏特性区分了你穿的盔甲和你挥舞的盾牌。看看僧侣的无甲防御功能，并将其与野蛮人的版本进行比较。在僧侣的版本中，如果你想从该功能中获益，你必须同时放弃穿戴盔甲和放弃挥舞盾牌，而野蛮人则必须只放弃穿戴盔甲。"
 											]
 										},
 										{
@@ -2410,7 +2410,7 @@
 											"name": "Does Unarmored Defense work with a spell like mage armor?",
 											"id": "107",
 											"entries": [
-												"Unarmored Defense doesn't work with {@spell mage armor}. You might be asking yourself, \"Why don't they work together? {@spell Mage armor} specifies that it works on a creature who isn't wearing armor.\" It's true that the target of {@spell mage armor} must be unarmored, but {@spell mage armor} gives you a new way to calculate your AC (13 + your Dexterity modifier) and is therefore incompatible with Unarmored Defense or any other feature that provides an AC calculation."
+												"无装甲防御不与（%0%）合作。你可能会问自己，\"为什么它们不能一起使用？{@spell Mage armor}规定它对没有穿戴盔甲的生物有效\"。的确，{@spell mage armor}的目标必须是无甲的，但{@spell mage armor}给了你一个新的方法来计算你的攻击力（13+你的灵巧修饰），因此与无甲防御或任何其他提供攻击力计算的特性不兼容。"
 											]
 										},
 										{
@@ -2418,7 +2418,7 @@
 											"name": "I find it confusing that the mage armor spell is named that when it doesn't count as armor",
 											"id": "108",
 											"entries": [
-												"Some spells and class features have figurative, not literal, names. The text of the spell or class feature explains what it does. In this case, {@spell mage armor} surrounds the target with \"protective magical force\"; the spell doesn't provide armor."
+												"有些法术和类特性的名称是比喻性的，而不是字面的。咒语或类特性的文字解释了它的作用。在这个例子中，{@spell mage armor}用 \"保护性的魔法力量 \"包围目标；该法术不提供护甲。"
 											]
 										},
 										{
@@ -2426,7 +2426,7 @@
 											"name": "Can an object created with minor illusion move? For example, a wall sliding down a corridor?",
 											"id": "109",
 											"entries": [
-												"An illusory object created by {@spell minor illusion} doesn't move. Compare to spells like {@spell major image} and {@spell mislead}, which talk about moving."
+												"由（%0%）创造的虚幻物体不会移动。与{@spell major image}和{@spell mislead}这样的法术相比，后者谈论的是移动。"
 											]
 										},
 										{
@@ -2434,15 +2434,15 @@
 											"name": "Could minor illusion create a fog cloud? If so, would shooting an arrow through it cancel the illusion?",
 											"id": "10a",
 											"entries": [
-												"An illusory object made by {@spell minor illusion} is meant to be like a stool or a rock, not an atmospheric effect."
+												"由{@spell minor illusion}制造的虚幻物体是为了像凳子或石头一样，而不是一种大气效果。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Misty step doesn't say the caster can bring worn or carried equipment with them. Are they intended to leave everything, including their clothes, behind?",
 											"entries": [
-												"No, the caster's worn and carried equipment are intended to go with them.",
-												"Some teleportation effects do specify that you teleport with your gear; such specification is an example of a rule being needlessly fastidious, since no teleportation effect in the game assumes that you teleport without your clothes, just as the general movement rules don't assume that you drop everything when you walk."
+												"不，施法者的穿戴和携带的装备都是为了配合他们。",
+												"有些传送效果确实规定你要带着装备传送；这种规定是一个规则不必要地急功近利的例子，因为游戏中没有任何传送效果是假定你不穿衣服就传送的，就像一般的移动规则不假定你走路时放下所有东西一样。"
 											],
 											"id": "156"
 										},
@@ -2451,9 +2451,9 @@
 											"name": "Does moonbeam deal damage when you cast it? What about when its effect moves onto a creature?",
 											"id": "10b",
 											"entries": [
-												"The answer to both questions is no. Here's some elaboration on that answer.",
-												"Some spells and other game features create an area of effect that does something when a creature enters that area for the first time on a turn or when a creature starts its turn in that area. On the turn when you cast such a spell, you're primarily setting up hurt for your foes on later turns. {@spell Moonbeam}, for example, creates a beam of light that can damage a creature who enters the beam or who starts its turn in the beam.",
-												"Here are some spells with the same timing as {@spell moonbeam} for their areas of effect:",
+												"这两个问题的答案都是否定的。下面是对这个答案的一些阐述。",
+												"有些法术和其他游戏功能创造了一个效应区域，当一个生物在某一回合第一次进入该区域时，或当一个生物在该区域开始其回合时，该效应区域就会发生作用。在你施放这种法术的那一回合，你主要是为你的敌人在以后的回合中设置伤害。例如，{@spell Moonbeam}创造了一道光束，可以伤害进入该光束的生物或在该光束中开始其回合的生物。",
+												"下面是一些法术，其作用区域的时间与（%0%）相同。",
 												{
 													"type": "list",
 													"items": [
@@ -2468,16 +2468,16 @@
 													],
 													"columns": 2
 												},
-												"Reading the description of any of those spells, you might wonder whether a creature is considered to be entering the spell's area of effect if the area is created on the creature's space. And if the area of effect can be moved—as the beam of {@spell moonbeam} can—does moving it into a creature's space count as the creature entering the area? Our design intent for such spells is this: a creature enters the area of effect when the creature passes into it. Creating the area of effect on the creature or moving it onto the creature doesn't count. If the creature is still in the area at the start of its turn, it is subjected to the area's effect.",
-												"Entering such an area of effect needn't be voluntary, unless a spell says otherwise. You can, therefore, hurl a creature into the area with a spell like {@spell thunderwave}. We consider that clever play, not an imbalance, so hurl away! Keep in mind, however, that a creature is subjected to such an area of effect only the first time it enters the area on a turn. You can't move a creature in and out of it to damage it over and over again on the same turn.",
-												"In summary, a spell like {@spell moonbeam} affects a creature when the creature passes into the spell's area of effect and when the creature starts its turn there. You're essentially creating a hazard on the battlefield."
+												"在阅读这些法术的描述时，你可能会想，如果该区域是在生物的空间上建立的，那么生物是否会被视为进入法术的效果区域。如果效果区域可以被移动--就像{@spell moonbeam}的光束一样--那么将它移动到生物的空间中是否算作生物进入该区域？我们对这类法术的设计意图是这样的：当生物进入效果区域时，该生物就进入了该区域。在生物上创造效果区或将其移到生物上并不算数。如果该生物在其回合开始时仍在该区域内，它就会受到该区域的效果影响。",
+												"进入这样的效果区不必是自愿的，除非法术另有规定。因此，你可以用一个类似（%0%）的法术将一个生物投掷到该区域。我们认为这是一种聪明的玩法，而不是一种不平衡，所以请投掷吧! 然而，请记住，一个生物只有在一个回合中第一次进入该区域时才会受到这样的效果区域。你不能在同一回合内将一个生物移入和移出该区域以重复伤害它。",
+												"总之，像（%0%）这样的法术，当生物进入法术的作用区域时，以及当生物在那里开始回合时，就会影响该生物。你本质上是在战场上制造一个危险。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "What happens to objects brought inside and left inside Mordenkainen's magnificent mansion when the spell ends?",
 											"entries": [
-												"The intent is that the objects are ejected from the mansion when the spell ends and appear in unoccupied spaces closest to where the door was. This intent will be reflected in future printings of the Player's Handbook."
+												"这样做的目的是，当咒语结束时，这些物品会被弹出宅邸，并出现在最靠近门的地方的无人空间。这一意图将反映在未来出版的《玩家手册》中。"
 											],
 											"id": "157"
 										},
@@ -2486,7 +2486,7 @@
 											"name": "Does planar binding summon the creature to be bound, or is that done separately?",
 											"id": "10c",
 											"entries": [
-												"{@spell Planar binding} doesn't summon a creature. It attempts to bind a creature that is within the spell's range."
+												"{@spell Planar binding}不会召唤一个生物。它试图束缚一个在法术范围内的生物。"
 											]
 										},
 										{
@@ -2494,7 +2494,7 @@
 											"name": "Can you concentrate on a spell while transformed by polymorph?",
 											"id": "10d",
 											"entries": [
-												"You can't cast spells while you're transformed by {@spell polymorph}, but nothing in the spell prevents you from concentrating on a spell that you previously cast before being transformed."
+												"当你被转化时，你不能施展法术（%0%），但法术中没有任何内容可以阻止你集中精力施展你在被转化前曾施展过的法术。"
 											]
 										},
 										{
@@ -2502,14 +2502,14 @@
 											"name": "Does a willing creature under the effects of polymorph have to take the mental stats of the new form?",
 											"id": "10e",
 											"entries": [
-												"Yes. Unless a spell tells you otherwise, its effect is no different for a willing creature than it is for an unwilling one."
+												"是的。除非某个法术告诉你，它对自愿的生物的效果与对不自愿的生物没有区别。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "If a creature under the effects of polymorph takes enough fire damage to revert to its true form and that form has fire resistance, does the true form take the full remaining damage or only half due to resistance?",
 											"entries": [
-												"When the creature reverts to its true form, any leftover damage is subject to that form's damage resistances, if any."
+												"当该生物恢复到它的真实形态时，任何剩余的伤害都会受到该形态的伤害抵抗力的影响，如果有的话。"
 											],
 											"id": "158"
 										},
@@ -2517,7 +2517,7 @@
 											"type": "entries",
 											"name": "Can a creature under the effects of polymorph have other spell effects on them, or are those game statistics also replaced by the those of the beast form?",
 											"entries": [
-												"Polymorph replaces only the target's character sheet or stat block with the stat block of the chosen form. Other effects, such as other spells, still exist."
+												"多形性只将目标的角色表或状态块替换为所选形态的状态块。其他效果，如其他法术，仍然存在。"
 											],
 											"id": "159"
 										},
@@ -2525,7 +2525,7 @@
 											"type": "entries",
 											"name": "What happens if I'm polymorphed or Wild Shaped into a creature with fewer than 100 hit points and then I'm targeted by power word kill?",
 											"entries": [
-												"You die."
+												"你死了。"
 											],
 											"id": "15a"
 										},
@@ -2534,7 +2534,7 @@
 											"name": "What kinds of things count as \"nonmagical trinkets\" for prestidigitation?",
 											"id": "10f",
 											"entries": [
-												"{@spell Prestidigitation} can create a little bauble, the nature of which is up to the spellcaster and the DM. See the {@book Trinkets table|PHB|5|Trinkets} in the {@book Player's Handbook|PHB} for examples."
+												"{@spell Prestidigitation}可以创造一个小玩意，其性质由施法者和DM决定。例子见{@book Trinkets table|PHB|5|Trinkets}中的{@book Player's Handbook|PHB}。"
 											]
 										},
 										{
@@ -2542,14 +2542,14 @@
 											"name": "If you grapple or shove an enemy creature, does that end a sanctuary spell cast on you?",
 											"id": "110",
 											"entries": [
-												"If you use the {@book grapple|PHB|9|Grappling} or {@book shove|PHB|9|Shoving a Creature} option in the combat rules, the {@spell sanctuary} spell does end on you, since you have made an attack."
+												"如果你在战斗规则中使用{@book grapple|PHB|9|Grappling}或{@book shove|PHB|9|Shoving a Creature}选项，{@spell sanctuary}法术确实在你身上结束，因为你已经进行了一次攻击。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Can I hand a shadow blade to another PC?",
 											"entries": [
-												"It only says the blade dissipates as I throw or drop it. No. The intent is the blade vanishes when you let go of it (that's one of the meanings of the word \"drop\")."
+												"它只是说，当我扔掉或丢掉它时，刀刃会消散。不，它的意图是，当你放开它的时候，刀就会消失（这就是 \"放下 \"这个词的含义之一）。"
 											],
 											"id": "15b"
 										},
@@ -2558,14 +2558,14 @@
 											"name": "If I cast shillelagh on my quarterstaff and have the Polearm Master feat, does the bonus attack use a d4 or a d8 for damage?",
 											"id": "111",
 											"entries": [
-												"The benefit from {@feat Polearm Master} applies to the opposite end of the weapon and always uses a {@dice d4} for damage rather than the weapon's normal damage die. This is true for a {@item quarterstaff|PHB} enhanced with {@spell shillelagh} just as it is for a normal one."
+												"来自{@feat Polearm Master}的好处适用于武器的另一端，并且总是使用{@dice d4}的伤害，而不是武器的正常伤害值。这对于用{@item quarterstaff|PHB}增强的{@spell shillelagh}武器来说是正确的，就像对普通武器一样。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "If a spellcaster is affected by slow and takes two turns to finish casting a spell, what happens if their target has moved out of range or out of sight?",
 											"entries": [
-												"You choose the targets of a spell when you complete casting a spell, not when you start."
+												"你在完成施法时选择法术的目标，而不是在开始施法时。"
 											],
 											"id": "15c"
 										},
@@ -2574,7 +2574,7 @@
 											"name": "The stinking cloud spell says that a creature wastes its action on a failed save. So can it still use a move or a bonus action or a reaction?",
 											"id": "112",
 											"entries": [
-												"Correct. The gas doesn't immobilize a creature or prevent it from acting altogether, but the effect of the spell does limit what it can accomplish while the cloud lingers."
+												"正确。气体并不能使生物不能动弹，也不能完全阻止它的行动，但咒语的效果确实限制了它在云雾缭绕时能完成的事情。"
 											]
 										},
 										{
@@ -2582,7 +2582,7 @@
 											"name": "Do the effects of storm of vengeance stack? Or do the effects change each turn?",
 											"id": "113",
 											"entries": [
-												"In the spell {@spell storm of vengeance}, each new effect replaces the effect of the previous round."
+												"在法术中（%0%），每一个新的效果都会取代前一轮的效果。"
 											]
 										},
 										{
@@ -2590,7 +2590,7 @@
 											"name": "Is the sentence of suggestion in the suggestion spell the verbal component, or is the verbal component separate?",
 											"id": "114",
 											"entries": [
-												"{@book Verbal components|PHB|10|Verbal (V)} are mystic words, not normal speech. The spell's suggestion is an intelligible utterance that is separate from the verbal component. The {@spell command} spell is the simplest example of this principle. The utterance of the verbal component is separate from, and precedes, any verbal utterance that would bring about the spell's effect."
+												"{@book Verbal components|PHB|10|Verbal (V)}是神秘的话语，不是正常的语言。咒语的暗示是一种可理解的话语，与言语成分分开。{@spell command}咒语是这一原则的最简单的例子。言语成分的表述与任何会带来咒语效果的言语表述是分开的，并在其之前。"
 											]
 										},
 										{
@@ -2598,14 +2598,14 @@
 											"name": "The wording in Tasha's hideous laughter implies that the incapacitated effect applies only if the target is made prone. Is this right?",
 											"id": "115",
 											"entries": [
-												"Failing a save against {@spell Tasha's hideous laughter} means you're {@condition incapacitated} even if you can't fall {@condition prone}."
+												"对{@spell Tasha's hideous laughter}的救赎失败意味着你是{@condition incapacitated}，即使你不能倒下{@condition prone}。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "If you are affecting a target with telekinesis and an ally put you inside Otiluke's resilient sphere, can you continue affecting the target or other targets with the existing telekinesis spell?",
 											"entries": [
-												"You can maintain your telekinetic grip on a target you were already affecting, but you can't affect a new target. The sphere provides total cover that stops you from targeting anything outside it."
+												"你可以在你已经影响的目标上保持你的心灵感应，但你不能影响一个新的目标。球体提供了全面的掩护，使你无法瞄准球体外的任何东西。"
 											],
 											"id": "15d"
 										},
@@ -2622,7 +2622,7 @@
 											"name": "Can I use unseen servant to act as an ally when using a class feature like Sneak Attack?",
 											"id": "116",
 											"entries": [
-												"{@spell Unseen servant} creates \"an {@condition invisible}, mindless, shapeless force\". In combat, it doesn't act as a creature, an enemy, or an ally."
+												"{@spell Unseen servant}创造了 \"一种{@condition invisible}、无意识、无形状的力量\"。在战斗中，它不像生物、敌人或盟友那样行动。"
 											]
 										},
 										{
@@ -2630,7 +2630,7 @@
 											"name": "Whenever you cast wish, do you always have a 33 percent chance of never casting it again?",
 											"id": "117",
 											"entries": [
-												"If you cast {@spell wish} to duplicate a spell of level 0–8, there are no detrimental effects. However, if you do anything other than duplicate a spell of level 0–8, you suffer the stress described in the final paragraph of the spell. As soon as that stress affects you, there is a {@chance 33|33 percent} chance that you are unable to cast {@spell wish} again."
+												"如果你施放（%0%）来复制一个0-8级的法术，没有任何不利的影响。然而，如果你除了复制一个0-8级的法术外，还做其他任何事情，你就会受到法术最后一段中描述的压力。只要这种压力影响到你，就有{@chance 33|33 percent}的机会让你无法再次施展{@spell wish}。"
 											]
 										}
 									]
@@ -2651,7 +2651,7 @@
 											"name": "Is natural armor considered light armor?",
 											"id": "11a",
 											"entries": [
-												"No. Natural armor doesn't fit into the categories of light, medium, and heavy armor, and when you have it, it isn't considered to be an armor you're wearing."
+												"不，天然盔甲不符合轻、中、重盔甲的类别，当你拥有它时，它并不被认为是你所穿的盔甲。"
 											]
 										},
 										{
@@ -2659,7 +2659,7 @@
 											"name": "Does natural armor cap a creature's Dexterity bonus?",
 											"id": "11b",
 											"entries": [
-												"Natural armor doesn't limit a creature's Dexterity bonus."
+												"自然盔甲不会限制生物的灵巧加成。"
 											]
 										},
 										{
@@ -2667,7 +2667,7 @@
 											"name": "A monster is immune to damage from nonmagical bludgeoning weapons. Does it still take damage from falling?",
 											"id": "11c",
 											"entries": [
-												"Yes, that monster is still going to feel the hurt of a fall, because a fall is not a weapon."
+												"是的，那个怪物仍然会感受到坠落的伤害，因为坠落不是一种武器。"
 											]
 										},
 										{
@@ -2675,7 +2675,7 @@
 											"name": "What actions can monsters use to make opportunity attacks? Are Multiattack and breath weapon actions allowed?",
 											"id": "11d",
 											"entries": [
-												"A monster follows the normal {@book opportunity attack rules|PHB|9|Opportunity Attacks}, which specify that an attack of opportunity is one melee attack. That means a monster must choose a single melee attack to make, either an attack in its stat block or a generic attack, like an unarmed strike. Multiattack doesn't qualify, not only because it's more than one attack, but also because the rule on Multiattack ({@i MM}, \"{@book Multiattack|MM|0|Multiattack}\") states that this action can't be used for opportunity attacks. An action, such as a breath weapon, that doesn't include an attack roll is also not eligible."
+												"怪物遵循正常的（%0%），其中规定机会攻击是一次近战攻击。这意味着怪物必须选择一次近战攻击，要么是其状态块中的攻击，要么是通用攻击，如徒手攻击。多重攻击不符合条件，不仅因为它不止一次攻击，还因为多重攻击的规则（{@i MM}, \"{@book Multiattack|MM|0|Multiattack}\"）规定，这个动作不能用于机会攻击。一个不包括攻击卷的动作，如呼吸武器，也不符合条件。"
 											]
 										},
 										{
@@ -2683,7 +2683,7 @@
 											"name": "The bite attacks of ghouls and ghasts don't appear to have proficiency bonus added in. Intentional or mistake?",
 											"id": "11e",
 											"entries": [
-												"Intentional; it's a {@creature ghoul}/{@creature ghast} thing. They're exceptionally bad at biting, compared to their claw attacks. Monsters sometimes have stat quirks like that."
+												"故意的；这是一个{@creature ghoul}/{@creature ghast}的事情。与它们的爪子攻击相比，它们特别不擅长咬人。怪兽有时会有这样的状态怪癖。"
 											]
 										},
 										{
@@ -2691,7 +2691,7 @@
 											"name": "The Monster Manual says gnolls speak Gnoll, but the Player's Handbook doesn't mention that language. What is correct?",
 											"id": "11f",
 											"entries": [
-												"The {@book Player's Handbook|PHB} language tables don't list every language in the D&D multiverse. The {@book Monster Manual|MM} mentions other languages, including Gnoll, Modron, Sahuagin, and Slaad."
+												"{@book Player's Handbook|PHB}的语言表并没有列出D&D多元宇宙中的每一种语言。{@book Monster Manual|MM}提到了其他语言，包括Gnoll, Modron, Sahuagin和Slaad。"
 											]
 										},
 										{
@@ -2699,7 +2699,7 @@
 											"name": "Does a monster with at-will spellcasting ability mean it can cast a spell as an action or as a bonus action?",
 											"id": "120",
 											"entries": [
-												"If a monster has the ability to cast a spell at will, that spell is cast using its normal casting time."
+												"如果一个怪物具有随意施法的能力，那么该法术的施法时间为其正常施法时间。"
 											]
 										},
 										{
@@ -2707,7 +2707,7 @@
 											"name": "If a monster makes a melee attack that uses its Dexterity modifier, is it considered to have used a finesse weapon?",
 											"id": "121",
 											"entries": [
-												"A weapon doesn't have the finesse property unless its description says so, and using Dexterity for an attack doesn't confer the finesse property. If a weapon does have that property, you can use Strength or Dexterity with it."
+												"除非武器的描述有说明，否则它不具备精巧的属性，而且使用灵巧进行攻击也不会赋予精巧的属性。如果一件武器确实有这种属性，你可以用力量或灵巧来使用它。"
 											]
 										},
 										{
@@ -2715,7 +2715,7 @@
 											"name": "The Monster Manual notes that a Mezzoloth exhales toxic fumes that can choke and kill whole groups of creatures. However, its cloudkill is listed under Innate Spellcasting. Because of that, would a paladin's Aura of Warding resist it?",
 											"id": "122",
 											"entries": [
-												"Yes, because {@spell cloudkill} is a spell, Aura of Warding would be able to grant you and friendly creatures within 10 feet of you resistance to it."
+												"是的，因为（%0%）是一个法术，守护光环将能够赋予你和你周围10英尺内的友好生物对它的抗性。"
 											]
 										},
 										{
@@ -2723,28 +2723,28 @@
 											"name": "Is the breath weapon of a dragon magical?",
 											"id": "123",
 											"entries": [
-												"If you cast {@spell antimagic field}, don {@item armor of invulnerability}, or use another feature of the game that protects against magical or nonmagical effects, you might ask yourself, \"Will this protect me against a dragon's breath?\" The breath weapon of a typical dragon isn't considered magical, so {@spell antimagic field} won't help you but {@item armor of invulnerability} will.",
-												"You might be thinking, \"Dragons seem pretty magical to me.\" And yes, they are extraordinary! Their description even says they're magical. But our game makes a distinction between two types of magic:",
+												"如果你施放{@spell antimagic field}，捐献{@item armor of invulnerability}，或使用游戏中其他保护魔法或非魔法效果的功能，你可能会问自己：\"这能保护我免受龙的呼吸吗？\" 典型的龙的呼吸武器不被认为是有魔力的，所以（%2%）不会帮助你，但（%3%）会。",
+												"你可能在想，\"龙对我来说似乎很神奇\"。是的，他们是不平凡的！他们的描述甚至说他们是神奇的。他们的描述甚至说他们是有魔法的。但我们的游戏对两种类型的魔法进行了区分。",
 												{
 													"type": "list",
 													"items": [
-														"the background magic that is part of the D&D multiverse's physics and the physiology of many D&D creatures",
-														"the concentrated magical energy that is contained in a magic item or channeled to create a spell or other focused magical effect"
+														"作为D&D多元宇宙的物理学和许多D&D生物的生理学的一部分的背景魔法",
+														"浓缩的魔法能量，它包含在一个魔法物品中，或被用来创造一个咒语或其他集中的魔法效果。"
 													]
 												},
-												"In D&D, the first type of magic is part of nature. It is no more dispellable than the wind. A monster like a dragon exists because of that magic-enhanced nature. The second type of magic is what the rules are concerned about. When a rule refers to something being magical, it's referring to that second type. Determining whether a game feature is magical is straightforward. Ask yourself these questions about the feature:",
+												"在D&D中，第一类魔法是自然的一部分。它不比风更容易被驱散。像龙这样的怪物之所以存在，是因为这种魔法强化了自然。第二种类型的魔法是规则所关注的。当一条规则提到某样东西有魔力时，它指的是第二种类型。判断一个游戏特征是否具有魔力是很简单的。问问自己关于该特征的这些问题。",
 												{
 													"type": "list",
 													"items": [
-														"Is it a magic item?",
-														"Is it a spell? Or does it let you create the effects of a spell that's mentioned in its description?",
-														"Is it a spell attack?",
-														"Is it fueled by the use of spell slots?",
-														"Does its description say it's magical?"
+														"它是一个魔法物品吗？",
+														"它是一个法术吗？还是说它让你创造出描述中提到的法术的效果？",
+														"是法术攻击吗？",
+														"它是通过使用法术槽来推动的吗？",
+														"它的描述是否说它有魔力？"
 													]
 												},
-												"If your answer to any of those questions is yes, the feature is magical.",
-												"Let's look at a {@creature Adult White Dragon||white dragon's} Cold Breath and ask ourselves those questions. First, Cold Breath isn't a magic item. Second, its description mentions no spell. Third, it's not a spell attack. Fourth, the word \"magical\" appears nowhere in its description. Our conclusion: Cold Breath is not considered a magical game effect, even though we know that dragons are amazing, supernatural beings."
+												"如果你对这些问题的任何一个回答是肯定的，那么这个功能就很神奇。",
+												"让我们看一下{@creature Adult White Dragon||white dragon's}冷气，并问自己这些问题。首先，\"冷气 \"不是一个魔法物品。第二，它的描述中没有提到法术。第三，它不是一个法术攻击。第四，\"魔法 \"一词在其描述中没有出现。我们的结论是。冷气不被认为是一种神奇的游戏效果，尽管我们知道龙是神奇的、超自然的生物。"
 											]
 										},
 										{
@@ -2752,7 +2752,7 @@
 											"name": "Does the movement from a dragon's Wing Attack legendary action draw attacks of opportunity if it moves out of reach?",
 											"id": "124",
 											"entries": [
-												"Yes. Wing Attack does not protect the dragon from opportunity attacks."
+												"是的。翅膀攻击并不能保护龙免受机会攻击。"
 											]
 										},
 										{
@@ -2760,7 +2760,7 @@
 											"name": "Does a creature with Magic Resistance have advantage on saving throws against Channel Divinity abilities, such as Turn the Faithless?",
 											"id": "125",
 											"entries": [
-												"Channel Divinity creates magical effects (as stated in both the cleric and the paladin). Magic Resistance applies."
+												"通道神性创造魔法效果（如牧师和圣骑士所述）。魔法抵抗适用。"
 											]
 										},
 										{
@@ -2768,7 +2768,7 @@
 											"name": "Do air, fire, and water elementals suffer any penalties for fighting or using skills while they are squeezing into a space that's 5 feet wide or less?",
 											"id": "126",
 											"entries": [
-												"An {@creature Air Elemental||air}/{@creature Fire Elemental||fire}/{@creature water elemental} ignores the movement part of the {@book squeezing rule|PHB|9|Squeezing into a Smaller Space} in a 1+ inch space, as a result of its special trait, Air Form, Fire Form, or Water Form."
+												"一个{@creature Air Elemental||air}/{@creature Fire Elemental||fire}/{@creature water elemental}在1英寸以上的空间内，由于其特殊特性、空气形态、火形态或水形态，而忽略了{@book squeezing rule|PHB|9|Squeezing into a Smaller Space}的移动部分。"
 											]
 										},
 										{
@@ -2776,7 +2776,7 @@
 											"name": "Can an earth elemental grapple with a creature and then pull it underground and leave it there to die?",
 											"id": "127",
 											"entries": [
-												"No. An {@creature Earth Elemental||earth elemental's} Earth Glide is meant to apply to itself only. The elemental doesn't take other creatures with it when it moves in this way."
+												"不，{@creature Earth Elemental||earth elemental's}大地滑行只适用于它自己。当元素以这种方式移动时，它不会带着其他生物。"
 											]
 										},
 										{
@@ -2784,7 +2784,7 @@
 											"name": "Does the lich's Disrupt Life ability affect animated objects and other constructs?",
 											"id": "128",
 											"entries": [
-												"The ability targets creatures that aren't undead, so yes, it does affect constructs (as well as all other kinds of creatures)."
+												"该能力的目标是不属于亡灵的生物，所以是的，它确实影响到构装体（以及所有其他种类的生物）。"
 											]
 										},
 										{
@@ -2792,14 +2792,14 @@
 											"name": "If a shadow rolls a critical hit, does it reduce the target's Strength by 2d4, as well dealing the extra necrotic damage?",
 											"id": "129",
 											"entries": [
-												"No. A critical hit lets you roll damage dice twice. An effect that deals damage is one that reduces the target's hit points. The {@creature Shadow||shadow's} Strength reduction isn't damage, because it has no effect on the target's hit points."
+												"不，关键一击让你掷出两次伤害骰子。一个造成伤害的效果是一个减少目标命中率的效果。{@creature Shadow||shadow's} 力量减少不是伤害，因为它对目标的命中率没有影响。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Since game features of the same name don't stack, does that mean a target can't be affected by a shadow's Strength Drain more than once between rests?",
 											"entries": [
-												"The intended function of Strength Drain is that it stacks with itself, as signaled by the fact that you die if your Strength is reduced to 0 by it."
+												"力量耗尽的预期功能是它会与自己叠加，正如你的力量被它降低到0时就会死亡这一事实所表明的。"
 											],
 											"id": "15f"
 										},
@@ -2808,7 +2808,7 @@
 											"name": "Is a vampire affected by hold person or calm emotions?",
 											"id": "12a",
 											"entries": [
-												"Many spells affect not just any creatures, but only certain types, as specified in the spell. {@spell Hold person} and {@spell calm emotions} work only on humanoids, and a {@creature vampire} is not a humanoid."
+												"许多法术不只是影响任何生物，而是只影响某些类型，如法术中所规定的。{@spell Hold person}和{@spell calm emotions}只对人形生物有效，而{@creature vampire}不是人形生物。"
 											]
 										},
 										{
@@ -2816,7 +2816,7 @@
 											"name": "Is there a limit to the number of creatures a vampire can charm at once?",
 											"id": "12b",
 											"entries": [
-												"No, there is no limit on the number of creatures a {@creature vampire} can have charmed at once. A vampire can target a different humanoid each time it uses its Charm action, potentially causing an entire group of enemies to become charmed if their saving throws aren't successful."
+												"不，一个（%0%）可以同时魅惑的生物数量是没有限制的。吸血鬼可以在每次使用魅惑行动时以不同的人形生物为目标，如果他们的拯救动作不成功，就有可能使整群敌人都被魅惑。"
 											]
 										},
 										{
@@ -2824,7 +2824,7 @@
 											"name": "How does a monster's Leadership ability work?",
 											"id": "12c",
 											"entries": [
-												"A creature turns on Leadership as an action. Until the benefit ends, the creature can grant a die whenever a visible ally in range makes an attack roll or a saving throw."
+												"一个生物将领导力作为一个行动。在该益处结束之前，每当范围内的可见盟友进行攻击卷或蓄力投掷时，该生物可以授予一个骰子。"
 											]
 										},
 										{
@@ -2839,7 +2839,7 @@
 											"type": "entries",
 											"name": "Can a creature that burrows grapple a target and drag them into the ground by burrowing?",
 											"entries": [
-												"No. A burrowing creature can drag another creature with them only if they have the ability to leave a tunnel. For example, a purple worm has the Tunneler trait, so it can drag a {@condition grappled} creature into a tunnel it creates when burrowing. Conversely, an earth elemental can't drag a creature into the ground with it."
+												"不，只有当钻地生物具有离开隧道的能力时，它们才能拖动另一个生物。例如，一只紫色的蠕虫具有隧道者的特性，所以它可以将一个（%0%）的生物拖入它在钻洞时创造的隧道中。相反，一个土元素不能把一个生物一起拖进地里。"
 											],
 											"id": "161"
 										},
@@ -2847,7 +2847,7 @@
 											"type": "entries",
 											"name": "Can a hydra use Reactive Heads to make multiple opportunity attacks against one creature at the same time when it provokes?",
 											"entries": [
-												"Yes. For that reason, we recommend taking the {@action Disengage} action when you're going to move away from a hydra."
+												"是的。出于这个原因，当你要远离九头蛇时，我们建议采取（%0%）的行动。"
 											],
 											"id": "162"
 										}
@@ -2869,7 +2869,7 @@
 											"name": "Can potions be administered to unconscious characters as an action?",
 											"id": "12f",
 											"entries": [
-												"Yes, you can administer a potion to someone else as an action ({@i DMG}, \"{@book Potions|DMG|7|Potions}\")."
+												"是的，你可以把药水作为一个动作给别人服用（（%0%），\"（%1%）\"）。"
 											]
 										},
 										{
@@ -2877,7 +2877,7 @@
 											"name": "If a potion doesn't duplicate a spell, does it require concentration?",
 											"id": "130",
 											"entries": [
-												"A potion's effect requires {@book concentration|PHB|10|Concentration} only if its description says so or if it duplicates a spell that requires concentration."
+												"一个药水的效果需要（%0%），只有在它的描述中这样说，或者它复制了一个需要集中注意力的咒语。"
 											]
 										},
 										{
@@ -2885,7 +2885,7 @@
 											"name": "For the hat of disguise, how do I set the spell save DC for disguise self ? Does the wearer have to be a caster?",
 											"id": "131",
 											"entries": [
-												"Use your spellcasting ability modifier to set the DC. If you don't have a spellcasting ability, use your proficiency bonus to set it (see the rule in the {@i DMG}, under \"{@book Spells|DMG|7|Spells}\")."
+												"使用你的法术能力修改器来设定DC。如果你没有法术能力，就用你的熟练度加成来设定（见\"{@i DMG} \"下的规则）。"
 											]
 										},
 										{
@@ -2893,9 +2893,9 @@
 											"name": "Which is correct in the Dungeon Master's Guide, the rule for scrolls or the rule for a spell scroll?",
 											"id": "132",
 											"entries": [
-												"They're both correct. The rule for scrolls ({@i DMG} \"{@book Scrolls|DMG|7|Scrolls}\") is for scrolls in general, including a {@item scroll of protection}, and it allows you to try to activate a spell if you're literate. The rule for a {@item spell scroll} is specific to that type of scroll and introduces an additional requirement: the spell on the scroll must be on your class's spell list for you to read the scroll.",
-												"A {@item spell scroll} can be named in a variety of ways: spell scroll, scroll of X (where X is the name of a spell), or spell scroll of X (where X, again, is the name of a spell). No matter how its name appears, a {@item spell scroll} follows the same rule.",
-												"For you to meet a {@item Spell Scroll||spell scroll's} requirement, the spell on the scroll needs to be on whatever spell list is used by your class. Here are two examples. If you're a cleric, the spell must be on the cleric spell list, and if you're a fighter with the Eldritch Knight archetype, the spell must be on the wizard spell list, because that is the spell list used by your class."
+												"它们都是正确的。卷轴的规则（{@i DMG}\"{@book Scrolls|DMG|7|Scrolls}\"）适用于一般的卷轴，包括{@item scroll of protection}，它允许你在识字的情况下尝试激活一个法术。{@item spell scroll}的规则是专门针对这种卷轴的，并且引入了一个额外的要求：卷轴上的咒语必须在你的等级的咒语列表中，你才能阅读卷轴。",
+												"{@item spell scroll}可以有多种命名方式：法术卷轴、X卷轴（其中X是一个法术的名称），或X的法术卷轴（其中X也是一个法术的名称）。无论其名称如何出现，{@item spell scroll}都遵循同样的规则。",
+												"为了满足{@item Spell Scroll||spell scroll's}的要求，卷轴上的咒语需要在你的等级所使用的任何咒语列表上。这里有两个例子。如果你是一个牧师，那么这个咒语必须在牧师的咒语列表中，如果你是一个拥有长生骑士原型的战士，那么这个咒语必须在巫师的咒语列表中，因为这是你的等级所使用的咒语列表。"
 											]
 										},
 										{
@@ -2903,7 +2903,7 @@
 											"name": "Do the AC bonuses from a ring of protection and bracers of defense stack?",
 											"id": "133",
 											"entries": [
-												"Yes. In general, bonuses stack, unless they're from the same spell (see \"{@book Combining Magical Effects|PHB|10|Combining Magical Effects}\" in the {@book Player's Handbook|PHB}). You also can't benefit from more than one {@item ring of protection}, for instance, since you can't attune to more than one copy of an item at a time."
+												"是的，一般来说，奖励是可以叠加的，除非它们是来自同一个法术（见{@book Player's Handbook|PHB}中的\"{@book Combining Magical Effects|PHB|10|Combining Magical Effects}\"）。你也不能从一个以上的{@item ring of protection}中受益，例如，因为你不能同时与一个物品的一个以上的副本相适应。"
 											]
 										},
 										{
@@ -2911,8 +2911,8 @@
 											"name": "Do magic weapons give you a bonus to attack and damage rolls?",
 											"id": "134",
 											"entries": [
-												"A magic weapon gives you a bonus to attack rolls and damage rolls only if its description says it does. Every magic weapon can bypass resistances and immunities to damage from nonmagical attacks, but only certain magic weapons are more accurate and damaging than their nonmagical counterparts. For example, a {@item +1 longsword} and a {@item giant slayer} both give you a +1 bonus to attack rolls and damage rolls, whereas neither a {@item flame tongue} nor a {@item frost brand} provides such a bonus. All four weapons, however, can bypass an {@creature Earth Elemental||earth elemental's} resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-												"In short, a bonus to attack rolls and damage rolls is considered a special property of a magic weapon, not something that all magic weapons provide automatically."
+												"只有在描述中提到的情况下，魔法武器才会为你的攻击卷和伤害卷提供奖励。每个魔法武器都可以绕过对非魔法攻击的抵抗力和免疫力，但只有某些魔法武器比非魔法武器更精确、更有伤害性。例如，{@item +1 longsword}和{@item giant slayer}都能为你的攻击卷和伤害卷提供+1的奖励，而{@item flame tongue}和{@item frost brand}都没有提供这样的奖励。然而，所有这四种武器都可以绕过对非魔法攻击的击打、穿刺和切割伤害的{@creature Earth Elemental||earth elemental's}抵抗。",
+												"简而言之，对攻击卷和伤害卷的奖励被认为是魔法武器的特殊属性，而不是所有魔法武器自动提供的东西。"
 											]
 										},
 										{
@@ -2920,7 +2920,7 @@
 											"name": "My fighter attacks a creature with a magical longbow and nonmagical arrows. Is the attack magical?",
 											"id": "135",
 											"entries": [
-												"The attacks made by a magical ranged weapon are magical, even if the ammunition isn't magical. (This point was clarified in the errata for the {@book Dungeon Master's Guide|DMG}.)"
+												"魔法远程武器的攻击是魔法性的，即使弹药不是魔法性的。(这一点在{@book Dungeon Master's Guide|DMG}的勘误表中得到了澄清）。"
 											]
 										},
 										{
@@ -2928,7 +2928,7 @@
 											"name": "Are magic weapons with the thrown property (javelins and the like) assumed to return to their owner after being thrown?",
 											"id": "136",
 											"entries": [
-												"If a magic weapon returns to you after you throw it, its description says so, as in the {@item dwarven thrower}."
+												"如果一件法宝在你投掷后回到你身边，它的描述中会这样说，如（%0%）。"
 											]
 										},
 										{
@@ -2936,7 +2936,7 @@
 											"name": "If a rogue with the Assassinate feature uses a vorpal sword, isn't the surprise attack an instant kill?",
 											"id": "137",
 											"entries": [
-												"No. A {@item vorpal sword} requires you to roll a 20 on the attack roll to decapitate someone. A rogue with the Assassin archetype that attacks a {@quickref Surprise|PHB|3|0|surprised} target using a {@item vorpal sword} scores an automatic critical hit if the attack roll is successful, but unless the attack roll was a 20, the target gets to keep its head."
+												"不，{@item vorpal sword}需要你在攻击卷上掷出20分来斩杀某人。一个刺客原型的流氓使用（%2%）攻击一个（%1%）的目标时，如果攻击卷成功，会自动获得一个关键打击，但除非攻击卷是20，否则目标可以保留其头部。"
 											]
 										},
 										{
@@ -2944,14 +2944,14 @@
 											"name": "Would an elf get a saving throw versus a philter of love as it's a charm? The description implies there is no save",
 											"id": "138",
 											"entries": [
-												"There is no save against the {@item philter of love}. The love is just that strong."
+												"对{@item philter of love}没有拯救。这种爱就是这么强烈。"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Does the ring of the ram use spell attacks or weapon attacks?",
 											"entries": [
-												"The text doesn't specify. The attack of the ring of the ram is a ranged spell attack. Future printings of the Dungeon Master's Guide will reflect that intent."
+												"文中并没有说明。公羊之环的攻击是一种范围性的法术攻击。未来印刷的《地下城主指南》将反映这一意图。"
 											],
 											"id": "163"
 										},
@@ -2959,7 +2959,7 @@
 											"type": "entries",
 											"name": "When using a rope of entanglement, do I keep holding one end in my hand, or does the entire rope wrap around the target?",
 											"entries": [
-												"You are still holding the rope while the other end entangles the target."
+												"你仍然拿着绳子，而另一端则缠绕着目标。"
 											],
 											"id": "164"
 										},
@@ -2967,7 +2967,7 @@
 											"type": "entries",
 											"name": "Can a sphere of annihilation enter a Leomund's tiny hut?",
 											"entries": [
-												"Yes. The sphere destroys the dome."
+												"是的，球体破坏了穹顶。"
 											],
 											"id": "165"
 										},
@@ -2975,7 +2975,7 @@
 											"type": "entries",
 											"name": "Can you gain the magical bonus of a +2 shield if you are holding the shield without taking an action to don it?",
 											"entries": [
-												"Yes, but only the magical +2, which says you gain it when holding the shield. You gain the shield's base AC bonus only if you use your action to don the shield as normal (see \"Getting Into and Out of Armor\" in chapter 5 of the Player's Handbook)."
+												"是的，但只有神奇的+2，说的是你在持有盾牌时获得。只有当你使用你的行动来穿戴盾牌时，你才会获得盾牌的基本AC加成（见《玩家手册》第5章的 \"穿戴盔甲\"）。"
 											],
 											"id": "166"
 										},
@@ -2983,7 +2983,7 @@
 											"type": "entries",
 											"name": "If a character hits a monk with a dwarven thrower and the monk uses Deflect Missiles, does the hammer return to the attacker first, or can the monk catch it?",
 											"entries": [
-												"The monk can catch it."
+												"和尚能抓住它。"
 											],
 											"id": "167"
 										}

@@ -784,8 +784,8 @@
 									"page": 10,
 									"entries": [
 										"A monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise. an innate spell of 1st level or higher is always cast at its lowest possible level and can't be cast at a higher level. If a monster has a cantrip where its level matters and no level is given, use the monster's challenge rating.",
-										"An innate spell can have special rules or restrictions. For example, a drow mage can innately cast the {@spell levitate} spell, but the spell has a \"self only\" restriction, which means that the spell affects only the drow mage.",
-										"A monster's innate spells can't be swapped out with other spells. If a monster's innate spells don't require attack rolls, no attack bonus is given for them."
+										"一个天生的法术可以有特殊的规则或限制。例如，一个乌鸦法师可以先天施展（%0%）法术，但该法术有一个 \"只对自己 \"的限制，这意味着该法术只影响到乌鸦法师本人。",
+										"怪物的先天法术不能与其他法术互换。如果一个怪物的先天法术不需要攻击卷轴，则不会为其提供攻击奖励。"
 									],
 									"id": "027"
 								},
@@ -806,7 +806,7 @@
 									"name": "Psionics",
 									"page": 10,
 									"entries": [
-										"A monster that casts spells using only the power of its mind has the psionics tag added to its Spellcasting or Innate Spellcasting special trait. This tag carries no special rules of its own, but other parts of the game might refer to it. A monster that has this tag typically doesn't require any components to cast its spells."
+										"一个只用心灵力量施法的怪物，在其施法或先天施法的特殊属性中加入了幻术标签。这个标签本身不带有任何特殊规则，但游戏的其他部分可能会提到它。拥有这个标签的怪物通常不需要任何组件来施展它的法术。"
 									],
 									"id": "029"
 								}
@@ -818,19 +818,19 @@
 							"name": "Actions",
 							"page": 10,
 							"entries": [
-								"When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the {@action Dash} or {@action Hide} action, as described in the {@i Player's Handbook.}",
+								"当一个怪物采取其行动时，它可以从其状态块的行动部分的选项中选择，或者使用所有生物都可以使用的行动之一，例如{@action Dash}或{@action Hide}行动，如{@i Player's Handbook.}中所述。",
 								{
 									"type": "entries",
 									"name": "Melee and Ranged Attacks",
 									"page": 10,
 									"entries": [
-										"The most common actions that a monster will take in combat are melee and ranged attacks. These can be spell attacks or weapon attacks, where the \"weapon\" might be a manufactured item or a natural weapon, such as a claw or tail spike. For more information on different kinds of attacks, see the {@i Player's Handbook.}",
+										"怪物在战斗中最常见的行动是近战和远程攻击。这些攻击可以是法术攻击，也可以是武器攻击，其中 \"武器 \"可能是人造物品或天然武器，例如爪子或尾刺。关于不同种类的攻击的更多信息，见{@i Player's Handbook.}。",
 										{
 											"type": "entries",
 											"name": "Creature vs. Target",
 											"page": 11,
 											"entries": [
-												"The target of a melee or ranged attack is usually either one creature or one target, the difference being that a \"target\" can be a creature or an object."
+												"近战或远程攻击的目标通常是一个生物或一个目标，区别在于 \"目标 \"可以是一个生物或一个物体。"
 											],
 											"id": "02c"
 										},
@@ -839,7 +839,7 @@
 											"name": "Hit",
 											"page": 11,
 											"entries": [
-												"Any damage dealt or other effects that occur as a result of an attack hitting a target are described after the \"Hit\" notation. You have the option of taking average damage or rolling the damage; for this reason, both the average damage and the die expression are presented."
+												"任何因攻击击中目标而造成的伤害或其他效果，都会在 \"击中 \"符号之后描述。你可以选择接受平均伤害或滚动伤害；为此，平均伤害和骰子的表达方式都会呈现。"
 											],
 											"id": "02d"
 										},
@@ -848,7 +848,7 @@
 											"name": "Miss",
 											"page": 11,
 											"entries": [
-												"If an attack has an effect that occurs on a miss, that information is presented after the \"Miss:\" notation."
+												"如果一个攻击有一个发生在失误上的效果，该信息就会在 \"失误：\"符号之后呈现。"
 											],
 											"id": "02e"
 										}
@@ -860,7 +860,7 @@
 									"name": "Multiattack",
 									"page": 11,
 									"entries": [
-										"A creature that can make multiple attacks on its turn has the Multiattack ability. A creature can't use Multiattack when making an opportunity attack, which must be a single melee attack."
+										"一个可以在其回合中进行多次攻击的生物具有多重攻击的能力。一个生物在进行机会攻击时不能使用多重攻击，机会攻击必须是一次近战攻击。"
 									],
 									"id": "02f"
 								},
@@ -869,7 +869,7 @@
 									"name": "Ammunition",
 									"page": 11,
 									"entries": [
-										"A monster carries enough ammunition to make its ranged attacks. You can assume that a monster has {@dice 2d4} pieces of ammunition for a thrown weapon attack, and {@dice 2d10} pieces of ammunition for a projectile weapon such as a bow or crossbow."
+										"一个怪物携带足够的弹药来进行其远程攻击。你可以假设一个怪物有{@dice 2d4}件弹药用于投掷武器的攻击，{@dice 2d10}件弹药用于投射武器，如弓或弩。"
 									],
 									"id": "030"
 								}
@@ -881,7 +881,7 @@
 							"name": "Reactions",
 							"page": 11,
 							"entries": [
-								"If a monster can do something special with its reaction, that information is contained here. If a creature has no special reaction, this section is absent."
+								"如果一个怪物可以用它的反应做一些特别的事情，那么这些信息就包含在这里。如果一个生物没有特殊的反应，这部分就没有。"
 							],
 							"id": "031"
 						},
@@ -890,7 +890,7 @@
 							"name": "Limited Usage",
 							"page": 11,
 							"entries": [
-								"Some special abilities have restrictions on the number of times they can be used.",
+								"有些特殊能力对其使用次数有限制。",
 								{
 									"type": "entries",
 									"entries": [
@@ -899,7 +899,7 @@
 											"name": "X/Day",
 											"page": 11,
 											"entries": [
-												"The notation \"X/Day\" means a special ability can be used X number of times and that a monster must finish a long rest to regain expended uses. For example, \"1/Day\" means a special ability can be used once and that the monster must finish a long rest to use it again."
+												"X/Day \"表示一个特殊能力可以使用X次，而且怪物必须完成一次长时间的休息才能重新获得已消耗的使用次数。例如，\"1/天 \"意味着一个特殊能力可以使用一次，并且怪物必须完成一次长时间的休息才能再次使用它。"
 											],
 											"id": "034"
 										},
@@ -908,7 +908,7 @@
 											"name": "Recharge X-Y",
 											"page": 11,
 											"entries": [
-												"The notation \"Recharge X-Y\" means a monster can use a special ability once and that the ability then has a random chance of recharging during each subsequent round of combat. At the start of each of the monster's turns, roll a {@dice d6}. If the roll is one of the numbers in the recharge notation, the monster regains the use of the special ability. The ability also recharges when the monster finishes a short or long rest. For example, \"Recharge 5-6\" means a monster can use the special ability once. Then, at the start of the monster's turn, it regains the use of that ability if it rolls a 5 or 6 on a {@dice d6}."
+												"充电X-Y \"的符号意味着怪物可以使用一次特殊能力，然后该能力在随后的每一轮战斗中都有随机的机会进行充电。在怪物的每个回合开始时，滚动一个（%0%）。如果掷出的数字是充能符号中的一个，那么怪物就会重新获得该特殊能力的使用权。当怪物完成短期或长期休息时，该能力也会被充能。例如，\"充能5-6 \"意味着怪物可以使用一次该特殊能力。然后，在怪物的回合开始时，如果它在（1%）上掷出5或6，它就会重新获得该能力的使用。"
 											],
 											"id": "035"
 										},
@@ -917,7 +917,7 @@
 											"name": "Recharge after a Short or Long Rest",
 											"page": 11,
 											"entries": [
-												"This notation means that a monster can use a special ability once and then must finish a short or long rest to use it again."
+												"这种记号意味着怪物可以使用一次特殊能力，然后必须完成一次短暂或长时间的休息才能再次使用它。"
 											],
 											"id": "036"
 										}
@@ -932,8 +932,8 @@
 							"name": "Grapple Rules for Monsters",
 							"page": 11,
 							"entries": [
-								"Many monsters have special attacks that allow them to quickly grapple prey. When a monster hits with such an attack, it doesn't need to make an additional ability check to determine whether the grapple succeeds, unless the attack says otherwise.",
-								"A creature {@condition grappled} by the monster can use its action to try to escape. To do so, it must succeed on a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against the escape DC in the monster's stat block. If no escape DC is given, assume the DC is 10 + the monster's Strength ({@skill Athletics}) modifier."
+								"许多怪物有特殊的攻击方式，可以让它们快速抓取猎物。当怪物用这样的攻击命中时，它不需要进行额外的能力检查来确定抓捕是否成功，除非该攻击另有说明。",
+								"怪物身边的生物（%0%）可以用它的行动来尝试逃跑。要做到这一点，它必须在力量（{@skill Athletics}）或灵巧（{@skill Acrobatics}）的检查中成功地对抗怪物状态块中的逃脱DC。如果没有给出逃跑的DC，则假设DC是10+怪物的力量（{@skill Athletics}）修正值。"
 							],
 							"id": "037"
 						},
@@ -942,9 +942,9 @@
 							"name": "Equipment",
 							"page": 11,
 							"entries": [
-								"A stat block rarely refers to equipment, other than armor or weapons used by a monster. A creature that customarily wears clothes, such as a humanoid, is assumed to be dressed appropriately.",
-								"You can equip monsters with additional gear and trinkets however you like, using the equipment chapter of the {@i Player's Handbook} for inspiration, and you decide how much of a monster's equipment is recoverable after the creature is slain and whether any of that equipment is still usable. A battered suit of armor made for a monster is rarely usable by someone else, for instance.",
-								"If a spellcasting monster needs material components to cast its spells, assume that it has the material components it needs to cast the spells in its stat block."
+								"状态块很少提到装备，除了怪物使用的盔甲或武器。一个习惯于穿衣服的生物，如人形生物，被认为是穿着合适的。",
+								"你可以随心所欲地为怪物装备额外的装备和饰品，以{@i Player's Handbook}的装备章节为灵感，你决定怪物被杀后有多少装备可以恢复，以及这些装备中是否还有可用的。例如，为怪物制作的一套破烂的盔甲很少能被其他人使用。",
+								"如果一个施法的怪物需要物质成分来施展它的法术，那么假设它在其状态块中拥有施展法术所需的物质成分。"
 							],
 							"id": "038"
 						}
@@ -956,14 +956,14 @@
 					"name": "Legendary Creatures",
 					"page": 11,
 					"entries": [
-						"A legendary creature can do things that ordinary creatures can't. Legendary creatures can take special actions outside their turns, and a few can exert power over their environment, causing extraordinary magical effects to occur in their vicinity.",
-						"If a creature assumes the form of a legendary creature, such as through a spell, it doesn't gain that form's legendary actions, lair actions, or regional effects.",
+						"传说中的生物可以做普通生物不能做的事情。传说中的生物可以在他们的回合之外采取特殊行动，少数生物可以对他们的环境施加力量，使其附近发生非凡的魔法效果。",
+						"如果一个生物拥有一个传奇生物的形态，例如通过法术，它不会获得该形态的传奇行动、巢穴行动或区域效果。",
 						{
 							"type": "entries",
 							"name": "Legendary Actions",
 							"page": 11,
 							"entries": [
-								"A legendary creature can take a certain number of special actions-called legendary actions-outside its turn. Only one legendary action option can be used at a time and only at the end of another creature's turn. A legendary creature regains spent legendary actions at the start of its turn. It can forgo using them, and it can't use them while {@condition incapacitated} or otherwise unable to take actions. If {@quickref Surprise|PHB|3|0|surprised}, it can't use them until after its first turn in the combat."
+								"一个传奇生物可以在其回合之外采取一定数量的特殊行动--即传奇行动。每次只能使用一个传奇行动选项，而且只能在另一个生物的回合结束时使用。传奇生物在其回合开始时可以重新获得已使用的传奇行动。它可以放弃使用它们，而且在{@condition incapacitated}或其他不能行动的情况下，它不能使用它们。如果是（1%），它要在战斗的第一个回合之后才能使用它们。"
 							],
 							"id": "03a"
 						},
@@ -972,13 +972,13 @@
 							"name": "A Legendary Creature's Lair",
 							"page": 11,
 							"entries": [
-								"A legendary creature might have a section describing its lair and the special effects it can create while there, either by act of will or simply by being present. Not all legendary creatures have lairs. This section only applies to legendary creatures that spend a great deal of time in their lairs and are most likely to be encountered there.",
+								"一个传说中的生物可能会有一个部分描述它的巢穴，以及它在那里可以创造的特殊效果，无论是通过意志行为还是仅仅通过在场。并非所有的传奇生物都有巢穴。本节只适用于那些在巢穴中花费大量时间，并且最有可能在那里被遇到的传奇生物。",
 								{
 									"type": "entries",
 									"name": "Lair Actions",
 									"page": 11,
 									"entries": [
-										"If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can't do so while {@condition incapacitated} or otherwise unable to take actions. If {@quickref Surprise|PHB|3|0|surprised}, it can't use one until after its first turn in the combat."
+										"如果一个传奇生物有巢穴行动，它可以用它们来驾驭巢穴中的环境魔法。在主动权计数为20时（失去所有主动权联系），它可以使用它的巢穴行动选项之一。在{@condition incapacitated}或无法采取行动的情况下，它不能这样做。如果是（%1%），它要在战斗的第一个回合之后才能使用一个。"
 									],
 									"id": "03c"
 								},
@@ -987,7 +987,7 @@
 									"name": "Regional Effects",
 									"page": 11,
 									"entries": [
-										"The mere presence of a legendary creature can have strange and wondrous effects on its environment, as noted in this section. Regional effects end abruptly or dissipate over time when the legendary creature dies."
+										"正如本节所指出的，仅仅是传奇生物的存在就能对其环境产生奇怪和奇妙的影响。区域性的影响在传奇生物死亡时突然结束或随着时间的推移而消散。"
 									],
 									"id": "03d"
 								}
@@ -1348,8 +1348,8 @@
 					"name": "Shadow Dragon Template",
 					"page": 84,
 					"entries": [
-						"Only a true dragon can transform into a shadow dragon, and only if it is born in the Shadowfell or remains there for several years. A dracolich can't be turned into a shadow dragon, since it loses its draconic nature when it becomes undead.",
-						"When a dragon becomes a shadow dragon, it retains its statistics except as described below. The shadow dragon might retain or lose any or all of its lair actions or inherit new ones, as the DM sees fit.",
+						"只有真正的龙才能转变为影子龙，而且只有当它出生在影子城或在那里呆了几年的时候。龙人不能变成影龙，因为当它变成不死之身时，它就失去了龙的本性。",
+						"当一条龙成为影子龙时，它保留了它的统计数据，除了下面描述的情况。影子龙可能会保留或失去它的任何或所有巢穴行动，或继承新的行动，如DM认为合适。",
 						{
 							"type": "entries",
 							"entries": [
@@ -1358,7 +1358,7 @@
 									"name": "Damage Resistances",
 									"page": 85,
 									"entries": [
-										"The dragon has resistance to necrotic damage."
+										"龙对坏死的伤害有抵抗力。"
 									],
 									"id": "04c"
 								},
@@ -1367,7 +1367,7 @@
 									"name": "Skill Proficiency: Stealth",
 									"page": 85,
 									"entries": [
-										"The dragon's proficiency bonus is doubled for its Dexterity ({@skill Stealth}) checks."
+										"龙的熟练度奖励在其灵巧（（%0%））检查中翻倍。"
 									],
 									"id": "04d"
 								},
@@ -1376,7 +1376,7 @@
 									"name": "Living Shadow",
 									"page": 85,
 									"entries": [
-										"While in dim light or darkness, the dragon has resistance to damage that isn't force, psychic, or radiant."
+										"在昏暗的光线或黑暗中，龙对非武力、精神或辐射的伤害有抵抗力。"
 									],
 									"id": "04e"
 								},
@@ -1385,7 +1385,7 @@
 									"name": "Shadow Stealth",
 									"page": 85,
 									"entries": [
-										"While in dim light or darkness, the dragon can take the {@action Hide} action as a bonus action."
+										"在昏暗的光线或黑暗中，龙可以采取{@action Hide}的行动作为额外行动。"
 									],
 									"id": "04f"
 								},
@@ -1394,7 +1394,7 @@
 									"name": "Sunlight Sensitivity",
 									"page": 85,
 									"entries": [
-										"While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+										"当在阳光下时，龙在攻击卷轴以及依靠视觉的智慧（（%0%））检查上有劣势。"
 									],
 									"id": "050"
 								},
@@ -1403,7 +1403,7 @@
 									"name": "New Action: Bite",
 									"page": 85,
 									"entries": [
-										"If the dragon deals acid, cold, fire, lightning, or poison damage with its bite, change that damage type to necrotic."
+										"如果龙用它的咬力造成酸、冷、火、闪电或毒伤害，则将该伤害类型改为坏死。"
 									],
 									"id": "051"
 								},
@@ -1412,7 +1412,7 @@
 									"name": "New Action: Shadow Breath",
 									"page": 85,
 									"entries": [
-										"Any damage-dealing breath weapon possessed by the dragon deals necrotic damage instead of its original damage type. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow rises from its corpse and acts immediately after the dragon in the initiative count. The shadow is under the dragon's control."
+										"龙所拥有的任何造成伤害的呼吸武器都会造成坏死的伤害，而不是其原来的伤害类型。被这种伤害降低到0点的人形生物会死亡，一个不死的影子会从它的尸体上升起，并在主动权计算中紧随龙的步伐。这个影子是在龙的控制之下。"
 									],
 									"id": "052"
 								}
@@ -1427,7 +1427,7 @@
 					"name": "Half-Dragon Template",
 					"page": 180,
 					"entries": [
-						"A beast, humanoid, giant, or monstrosity can become a half-dragon. When a creature becomes a half-dragon, it retains all its statistics except as noted below.",
+						"野兽、人形生物、巨人或畸形生物都可以成为半龙人。当一个生物成为半龙人时，它保留了所有的统计数据，除了下面提到的。",
 						{
 							"type": "entries",
 							"entries": [
@@ -1436,7 +1436,7 @@
 									"name": "Challenge",
 									"page": 180,
 									"entries": [
-										"To avoid recalculating the creature's challenge rating, apply the template only to a creature that meets the optional prerequisite in the Breath Weapon table below. Otherwise, use the guidelines in the Dungeon Master's Guide to recalculate the rating after you apply the template."
+										"为了避免重新计算生物的挑战等级，请只将模板应用于符合下面呼吸武器表中可选先决条件的生物。否则，请使用《地下城管理员指南》中的指南，在你应用模板后重新计算等级。"
 									],
 									"id": "055"
 								},
@@ -1445,7 +1445,7 @@
 									"name": "Senses",
 									"page": 180,
 									"entries": [
-										"The half-dragon gains {@sense blindsight} with a radius of 10 feet and {@sense darkvision} with a radius of 60 feet."
+										"半龙人获得半径为10英尺的{@sense blindsight}和半径为60英尺的{@sense darkvision}。"
 									],
 									"id": "056"
 								},
@@ -1454,7 +1454,7 @@
 									"name": "Resistances",
 									"page": 180,
 									"entries": [
-										"The half-dragon gains resistance to a type of damage based on its color.",
+										"半龙人获得对基于其颜色的一种伤害的抵抗。",
 										{
 											"type": "table",
 											"colLabels": [
@@ -1467,23 +1467,23 @@
 											],
 											"rows": [
 												[
-													"Black or copper",
+													"黑色或铜色",
 													"Acid"
 												],
 												[
-													"Blue or bronze",
-													"Lightning"
+													"蓝色或青铜色",
+													"閃電"
 												],
 												[
-													"Brass, gold, or red",
+													"黄铜色、金色或红色",
 													"Fire"
 												],
 												[
-													"Green",
-													"Poison"
+													"绿色",
+													"毒药"
 												],
 												[
-													"Silver or white",
+													"银色或白色",
 													"Cold"
 												]
 											]
@@ -1496,7 +1496,7 @@
 									"name": "Languages",
 									"page": 180,
 									"entries": [
-										"The half-dragon speaks Draconic in addition to any other languages it knows."
+										"半龙人除了会说其他语言外，还会说德拉康语。"
 									],
 									"id": "058"
 								},
@@ -1505,7 +1505,7 @@
 									"name": "New Action: Breath Weapon",
 									"page": 180,
 									"entries": [
-										"The half-dragon has the breath weapon of its dragon half. The half-dragon's size determines how this action functions.",
+										"半龙人拥有其半龙人的呼吸武器。半龙的体型决定了这个动作的作用。",
 										{
 											"type": "table",
 											"colLabels": [
@@ -1520,19 +1520,19 @@
 											],
 											"rows": [
 												[
-													"Large or smaller",
-													"As a wyrmling",
-													"Challenge 2 or higher"
+													"大或小",
+													"作为一个巫师",
+													"挑战2或更高"
 												],
 												[
 													"Huge",
-													"As a young dragon",
-													"Challenge 7 or higher"
+													"作为一条年轻的龙",
+													"挑战7或更高"
 												],
 												[
-													"Gargantuan",
-													"As an adult dragon",
-													"Challenge 8 or higher"
+													"巨大的",
+													"作为一条成年龙",
+													"挑战8或更高"
 												]
 											]
 										}
@@ -1550,7 +1550,7 @@
 					"name": "Spore Servant Template",
 					"page": 230,
 					"entries": [
-						"A spore servant is any Large or smaller creature brought back to life by the animating spores of a myconid sovereign. A creature that was never flesh and blood to begin with (such as a construct, elemental, ooze, plant, or undead) can't be turned into a spore servant. The following characteristics change or are added to a creature that becomes a spore servant.",
+						"孢子仆人是任何大型或小型生物，通过菌类君主的灵动孢子而复活。一个从一开始就没有血肉之躯的生物（如构筑物、元素、渗出物、植物或亡灵）不能被变成孢子仆从。成为孢子仆从的生物会改变或增加以下特征。",
 						{
 							"type": "entries",
 							"entries": [
@@ -1559,7 +1559,7 @@
 									"name": "Retained Characteristics",
 									"page": 230,
 									"entries": [
-										"The servant retains its Armor Class, hit points, Hit Dice, Strength, Dexterity, Constitution, vulnerabilities, resistances, and immunities."
+										"仆人保留其护甲等级、命中率、命中率、力量、灵巧、体质、弱点、抵抗力和免疫力。"
 									],
 									"id": "05c"
 								},
@@ -1568,7 +1568,7 @@
 									"name": "Lost Characteristics",
 									"page": 230,
 									"entries": [
-										"The servant loses its original saving throw and skill bonuses, special senses, and special traits. It loses any action that isn't Multiattack or a melee weapon attack that deals bludgeoning, piercing, or slashing damage. If it has an action or a melee weapon attack that deals some other type of damage, it loses the ability to deal damage of that type, unless the damage comes from a piece of equipment, such as a magic item."
+										"仆人失去了它原来的救赎和技能奖励、特殊感觉和特殊特征。它失去了任何不是多重攻击的行动，或者不是造成打击、穿刺或砍击伤害的近战武器攻击。如果它有一个动作或近战武器攻击能造成其他类型的伤害，它就失去了造成该类型伤害的能力，除非该伤害来自一件装备，例如魔法物品。"
 									],
 									"id": "05d"
 								},
@@ -1577,7 +1577,7 @@
 									"name": "Type",
 									"page": 230,
 									"entries": [
-										"The servant's type is plant, and it loses any tags."
+										"仆人的类型是植物，它失去了任何标签。"
 									],
 									"id": "05e"
 								},
@@ -1586,7 +1586,7 @@
 									"name": "Alignment",
 									"page": 230,
 									"entries": [
-										"The servant is unaligned."
+										"仆人是不结盟的。"
 									],
 									"id": "05f"
 								},
@@ -1595,7 +1595,7 @@
 									"name": "Speed",
 									"page": 230,
 									"entries": [
-										"Reduce all the servant's speeds by 10 feet, to a minimum of 5 feet."
+										"将所有仆人的速度降低10英尺，最低为5英尺。"
 									],
 									"id": "060"
 								},
@@ -1604,7 +1604,7 @@
 									"name": "Ability Scores",
 									"page": 230,
 									"entries": [
-										"The servant's ability scores change as follows: Int 2 (−4), Wis 6 (−2), Cha 1 (−5)."
+										"仆人的能力分数变化如下。Int 2（-4），Wis 6（-2），Cha 1（-5）。"
 									],
 									"id": "061"
 								},
@@ -1613,7 +1613,7 @@
 									"name": "Senses",
 									"page": 230,
 									"entries": [
-										"The servant has {@sense blindsight} with a radius of 30 feet, and it is blind beyond this radius."
+										"仆人有{@sense blindsight}，半径为30英尺，超过这个半径就会失明。"
 									],
 									"id": "062"
 								},
@@ -1622,7 +1622,7 @@
 									"name": "Condition Immunities",
 									"page": 230,
 									"entries": [
-										"The servant can't be {@condition blinded}, {@condition charmed}, {@condition frightened}, or {@condition paralyzed}."
+										"仆人不能是（%0%）、（%1%）、（%2%）或（%3%）。"
 									],
 									"id": "063"
 								},
@@ -1631,7 +1631,7 @@
 									"name": "Languages",
 									"page": 230,
 									"entries": [
-										"The servant loses all known languages, but it responds to orders given to it by myconids using rapport spores. The servant gives highest priority to orders received from the most powerful myconid."
+										"仆人失去了所有已知的语言，但它会对菌类使用默契孢子给它的命令做出反应。仆人最优先考虑从最强大的菌类那里收到的命令。"
 									],
 									"id": "064"
 								},
@@ -1640,7 +1640,7 @@
 									"name": "Attacks",
 									"page": 230,
 									"entries": [
-										"If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to {@dice 1d4} + the servant's Strength modifier, or, if the servant is Large, {@dice 2d4} + its Strength modifier."
+										"如果仆人没有其他的伤害手段，它可以用它的拳头或四肢来进行徒手打击。一旦命中，徒手攻击会造成相当于{@dice 1d4}+ 仆人力量修正值的打击伤害，如果仆人是大块头，则为{@dice 2d4}+ 其力量修正值。"
 									],
 									"id": "065"
 								}
@@ -1667,13 +1667,13 @@
 					"width": 1700,
 					"height": 971
 				},
-				"This appendix contains statistics for various animals, vermin, and other critters. The stat blocks are organized alphabetically by creature name.",
+				"本附录包含各种动物、害虫和其他小动物的统计数据。这些数据块是按生物名称的字母顺序排列的。",
 				{
 					"type": "inset",
 					"name": "Other Animals",
 					"page": 317,
 					"entries": [
-						"A book of this size can't contain statistics for every animal inhabiting your D&D campaign world. However, you can use the stat block of one animal to represent another easily enough. For example, you can use the panther statistics to represent a jaguar, the giant goat statistics to represent a buffalo, and the hawk statistics to represent a falcon."
+						"这么大的一本书不可能包含居住在你的D&D战役世界中的每一种动物的统计数据。不过，你可以用一种动物的统计资料来代表另一种动物，这很容易。例如，你可以用豹子的统计数据来代表美洲豹，用大山羊的统计数据来代表水牛，用鹰的统计数据来代表猎鹰。"
 					],
 					"id": "03f"
 				},
@@ -1792,7 +1792,7 @@
 			"name": "Appendix B: Nonplayer Characters",
 			"page": 342,
 			"entries": [
-				"This appendix contains statistics for various humanoid nonplayer characters (NPCs) that adventurers might encounter during a D&D campaign, including lowly commoners and mighty archmages. These stat blocks can be used to represent both human and nonhuman NPCs.",
+				"本附录包含了冒险者在D&D战役中可能遇到的各种人形非玩家角色（NPC）的统计数据，包括卑微的平民和强大的大法师。这些数据块可以用来表示人类和非人类的NPC。",
 				{
 					"type": "entries",
 					"name": "Customizing NPCs",
@@ -1801,13 +1801,13 @@
 						{
 							"type": "entries",
 							"entries": [
-								"There are many easy ways to customize the NPCs in this appendix for your home campaign.",
+								"有许多简单的方法可以为你的家庭活动定制本附录中的NPC。",
 								{
 									"type": "entries",
 									"name": "Racial Traits",
 									"page": 342,
 									"entries": [
-										"You can add racial traits to an NPC. For example, a halfling druid might have a speed of 25 feet and the Lucky trait. Adding racial traits to an NPC doesn't alter its challenge rating. For more on racial traits, see the Player's Handbook."
+										"你可以给NPC添加种族特性。例如，一个半身人德鲁伊可能有25英尺的速度和幸运特性。给NPC添加种族特征并不改变其挑战等级。关于种族特征的更多信息，请参见《玩家手册》。"
 									],
 									"id": "042"
 								},
@@ -1816,7 +1816,7 @@
 									"name": "Spell Swaps",
 									"page": 342,
 									"entries": [
-										"One way to customize an NPC spellcaster is to replace one or more of its spells. You can substitute any spell on the NPC's spell list with a different spell of the same level from the same spell list. Swapping spells in this manner doesn't alter an NPC's challenge rating."
+										"定制NPC施法者的一个方法是替换其一个或多个法术。你可以用同一个法术列表中相同等级的不同法术来替代NPC法术列表中的任何法术。以这种方式替换法术并不会改变NPC的挑战等级。"
 									],
 									"id": "043"
 								},
@@ -1825,7 +1825,7 @@
 									"name": "Armor and Weapon Swaps",
 									"page": 342,
 									"entries": [
-										"You can upgrade or downgrade an NPC's armor, or add or switch weapons. Adjustments to Armor Class and damage can change an NPC's challenge rating, as explained in the Dungeon Master's Guide."
+										"你可以升级或降级NPC的盔甲，或者增加或更换武器。对盔甲等级和伤害的调整可以改变NPC的挑战等级，这一点在《地下城主指南》中有所解释。"
 									],
 									"id": "044"
 								},
@@ -1834,7 +1834,7 @@
 									"name": "Magic Items",
 									"page": 342,
 									"entries": [
-										"The more powerful an NPC, the more likely it has one or more magic items in its possession. An archmage, for example, might have a magic staff or wand, as well as one or more potions and scrolls. Giving an NPC a potent damage-dealing magic item could alter its challenge rating. Magic items, as well as adjusting a creature's challenge rating, are described in the Dungeon Master's Guide."
+										"一个NPC越强大，它就越有可能拥有一个或多个魔法物品。例如，一个大法师可能有一根魔法杖或魔杖，以及一个或多个药水和卷轴。给一个NPC一个强大的伤害性魔法物品可以改变其挑战等级。魔法物品，以及调整生物的挑战等级，在《地下城管理员指南》中有描述。"
 									],
 									"id": "045"
 								}
