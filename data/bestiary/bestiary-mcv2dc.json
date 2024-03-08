@@ -70,19 +70,19 @@
 				{
 					"name": "Ghastly Visions",
 					"entries": [
-						"每个在食梦者30英尺范围内开始其回合的生物必须做一个{@dc 16}智慧救赎的动作。如果救赎失败，该生物将受到食梦者的{@condition frightened}影响，直到该生物的下一回合开始。如果生物的救赎成功，该生物在接下来的24小时内对该食梦者的可怕幻觉特性免疫。"
+						"Each creature that starts its turn within 30 feet of the dream eater must make a {@dc 16} Wisdom saving throw. On a failed save, the creature is {@condition frightened} of the dream eater until the start of the creature's next turn. If a creature's saving throw is successful, the creature is immune to this dream eater's Ghastly Visions trait for the next 24 hours."
 					]
 				},
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"食梦者可以在其他生物和物体中移动，就像它们是困难的地形一样。如果它在一个物体内结束它的回合，它会受到5({@damage 1d10})力的伤害。"
+						"The dream eater can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"食梦者在面对法术和其他魔法效果时，在蓄力攻击方面具有优势。"
+						"The dream eater has advantage on saving throws against spells and other magical effects."
 					]
 				}
 			],
@@ -90,13 +90,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"食梦者进行了两次 \"咆哮尖叫 \"攻击。"
+						"The dream eater makes two Ensnaring Shriek attacks."
 					]
 				},
 				{
 					"name": "Ensnaring Shriek",
 					"entries": [
-						"{@atk ms,rs} {@hit 8}击中，到达15英尺或范围60英尺，一个目标。{@h}12 ({@damage 2d6 + 5})精神伤害，如果目标是中等或较小的生物，目标必须在{@dc 16}魅力救赎中成功，否则会被拉向食梦者达15英尺。"
+						"{@atk ms,rs} {@hit 8} to hit, reach 15 ft. or range 60 ft., one target. {@h}12 ({@damage 2d6 + 5}) psychic damage, and if the target is a Medium or smaller creature, the target must succeed on a {@dc 16} Charisma saving throw or be pulled up to 15 feet toward the dream eater."
 					]
 				}
 			],
@@ -104,9 +104,9 @@
 				{
 					"name": "Engulfing Nightmare",
 					"entries": [
-						"食梦者的目标是自己周围5英尺内的一个生物。目标必须在一个{@dc 16}的智慧救赎中成功，否则就会被食梦者吞噬，因为食梦者会将该生物笼罩在它最恐惧的瘴气中。",
-						"当食梦者吞噬一个目标时，食梦者会进入其空间，而目标会立即受到10（（%0%））的精神伤害。被吞噬的目标是{@condition restrained}和{@condition blinded}，在食梦者的每个回合开始时，它会受到额外的10({@damage 3d6})精神伤害。当食梦者移动时，被吞噬的目标也随之移动。",
-						"食梦者每次只能让一个目标被吞噬。被吞噬的目标在其回合开始时通过做一个{@dc 16}的智慧救赎来逃脱。如果救赎成功，目标就能逃脱；目标不再被吞噬，并进入一个在食梦者5英尺内自己选择的空间。在食梦者15英尺范围内的生物也可以用它的行动来尝试释放被吞噬的目标。这样做需要该生物用它的行动做一个{@dc 16}的魅力(说服力)检验，以说服被吞噬的目标相信噩梦不是真的，如果成功，目标就能逃脱。进行检定的生物会受到10({@damage 3d6})的精神伤害，无论检定的成功与否，因为它的思想与恶梦擦身而过。"
+						"The dream eater targets one creature within 5 feet of itself. The target must succeed on a {@dc 16} Wisdom saving throw or be engulfed by the dream eater, as the dream eater envelops the creature in a miasma of its worst fears.",
+						"When the dream eater engulfs a target, the dream eater enters its space, and the target immediately takes 10 ({@damage 3d6}) psychic damage. An engulfed target is {@condition restrained} and {@condition blinded}, and it takes an additional 10 ({@damage 3d6}) psychic damage at the start of each of the dream eater's turns. When the dream eater moves, the engulfed target moves with it.",
+						"The dream eater can have only one target engulfed at a time. An engulfed target escapes at the start of its turn by making a {@dc 16} Wisdom saving throw. On a successful save, the target escapes; the target is no longer engulfed, and it enters a space of its choice within 5 feet of the dream eater. A creature within 15 feet of the dream eater also can use its action to attempt to free an engulfed target. Doing so requires the creature to use its action to make a {@dc 16} Charisma (Persuasion) check to convince the engulfed target the nightmare isn't real, with the target escaping on a success. The creature making the check takes 10 ({@damage 3d6}) psychic damage, regardless of the check's success or failure, as its mind brushes against the nightmare."
 					]
 				}
 			],
@@ -214,19 +214,19 @@
 				{
 					"name": "Calescent Aura",
 					"entries": [
-						"在微光城的回合开始时，微光城可以强迫自己身边10英尺范围内的任何数量的生物做一个{@dc 22}宪法救赎动作。拯救失败时，生物会受到7({@damage 2d6})的火焰伤害，并被微光{@condition frightened}，直到其下一回合开始。"
+						"At the start of Ember's turn, Ember can force any number of creatures of his choice within 10 feet of himself to make a {@dc 22} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) fire damage and is {@condition frightened} of Ember until the start of its next turn."
 					]
 				},
 				{
 					"name": "Legendary Resistance (5/Day)",
 					"entries": [
-						"如果微光的拯救动作失败，他可以选择成功。"
+						"If Ember fails a saving throw, he can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"在战斗中，微光穿上了为他定制的魔法板甲。穿着这套盔甲时，微光在他的武器伤害卷上加上他的魅力修饰（包括在攻击描述中），而且他的AC不能低于20。"
+						"In battle, Ember dons magical plate armor custom-forged for his use. While wearing the armor, Ember adds his Charisma modifier to his weapon damage rolls (included in the attack descriptions), and his AC can't be lower than 20."
 					]
 				}
 			],
@@ -234,25 +234,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"微光做出一次咬人攻击和两次爪子攻击。"
+						"Ember makes one Bite attack and two Claw attacks."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 16}击中，到达10英尺，一个目标。{@h}26 ({@damage 2d10 + 15})穿刺伤害加上13 ({@damage 2d6 + 6})火焰伤害。"
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}26 ({@damage 2d10 + 15}) piercing damage plus 13 ({@damage 2d6 + 6}) fire damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 16}击中，到达5英尺，一个目标。{@h}22 ({@damage 2d6 + 15})砍击伤害。"
+						"{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}22 ({@damage 2d6 + 15}) slashing damage."
 					]
 				},
 				{
 					"name": "Firestorm Breath {@recharge 5}",
 					"entries": [
-						"琥珀在90英尺的范围内呼出咆哮的火焰和灰烬。该区域内的每个生物都必须做一个{@dc 22}灵巧的蓄力动作。如果救赎失败，生物会受到56({@damage 16d6})的火焰伤害，并被推到离微光城最远的30英尺处，并被击倒{@condition prone}。拯救成功时，生物会受到一半的伤害，但没有其他影响。如果一个生物被这个效果降低到0命中率，这个生物会立即死亡，其身体会化为灰烬。"
+						"Ember exhales roiling flames and ash in a 90-foot cone. Each creature in that area must make a {@dc 22} Dexterity saving throw. On a failed save, a creature takes 56 ({@damage 16d6}) fire damage and is pushed up to 30 feet away from Ember and knocked {@condition prone}. On a successful save, a creature takes half as much damage with no other effects. If a creature is reduced to 0 hit points by this effect, the creature immediately dies, and its body is reduced to ash."
 					]
 				}
 			],
@@ -260,7 +260,7 @@
 				{
 					"name": "Alter Shape",
 					"entries": [
-						"微光神奇地转变为秃鹰或法师，并保留他的排列组合、伤害免疫、命中率和命中率，以及他的智力、智慧和魅力分数。如果微光的命中率降至0，或者他使用另一个额外的行动来结束这个转变，这个转变就会结束。"
+						"Ember magically transforms into a vulture or a mage and retains his alignment, damage immunities, hit points, and Hit Dice, as well as his Intelligence, Wisdom, and Charisma scores. This transformation ends if Ember is reduced to 0 hit points or if he uses another bonus action to end it."
 					]
 				}
 			],
@@ -268,13 +268,13 @@
 				{
 					"name": "Pursuit",
 					"entries": [
-						"微光在一条直线上向他能看到的一个生物移动最多40英尺。这种移动无视机会攻击。"
+						"Ember moves up to 40 feet in a straight line toward one creature he can see. This movement ignores opportunity attacks."
 					]
 				},
 				{
 					"name": "Searing Bite (Costs 2 Actions)",
 					"entries": [
-						"微光做出一次咬人攻击。如果攻击命中，会造成额外的7({@damage 2d6})火焰伤害。"
+						"Ember makes one Bite attack. If the attack hits, it deals an additional 7 ({@damage 2d6}) fire damage."
 					]
 				}
 			],
@@ -386,7 +386,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"森林法师可以施展以下一种法术，不需要任何材料成分，并使用智慧作为施法能力（法术保存（%0%））。"
+						"The Forest Master casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
 						"{@spell druidcraft}",
@@ -409,19 +409,19 @@
 				{
 					"name": "Legendary Resistance (2/Day)",
 					"entries": [
-						"如果森林法师的拯救动作失败，他可以选择成功。"
+						"If the Forest Master fails a saving throw, he can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"森林法师在面对法术和其他魔法效果时，在救赎上有优势。"
+						"The Forest Master has advantage on saving throws against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Master of Beasts",
 					"entries": [
-						"森林大师可以理解并与任何野兽沟通，即使野兽不懂语言。"
+						"The Forest Master can comprehend and communicate with any Beast, even if the Beast knows no languages."
 					]
 				}
 			],
@@ -429,19 +429,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"森林法师要么进行两次铁蹄攻击，要么进行两次月光弹攻击，要么各进行一次。"
+						"The Forest Master makes either two Hooves attacks, two Moon Bolt attacks, or one of each."
 					]
 				},
 				{
 					"name": "Hooves",
 					"entries": [
-						"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。{@h}11 ({@damage 2d6 + 4})重击伤害。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Moon Bolt",
 					"entries": [
-						"{@atk rs} {@hit 7}击中，范围60英尺，一个目标。{@h}11 ({@damage 2d6 + 4}) 辐射伤害。"
+						"{@atk rs} {@hit 7} to hit, range 60 ft., one target. {@h}11 ({@damage 2d6 + 4}) radiant damage."
 					]
 				}
 			],
@@ -449,8 +449,8 @@
 				{
 					"name": "Erupting Briars {@recharge 4}",
 					"entries": [
-						"森林法师将他的角触及大地，使一道5英尺高的石楠墙在90英尺的范围内爆发，宽度为10英尺。当墙出现时，其区域内的每个生物都会被推到墙边最近的空地上，并且必须做一个{@dc 15}灵巧的蓄力动作，如果蓄力失败会受到27({@damage 6d8})的穿刺伤害，如果蓄力成功会受到一半的伤害。",
-						"荆棘墙会持续到森林管理员的下一回合开始。这堵墙阻挡了视线，对除森林主人之外的所有生物来说，都算作困难地形。在一个回合中，第一次有生物进入墙的区域，该生物必须在一个{@dc 15}灵巧的蓄力动作上成功，否则会受到13({@damage 3d8})的穿刺伤害。"
+						"The Forest Master touches his horn to the earth and causes a 5-foot-tall wall of briars to erupt in a 90-foot line that is 10 feet wide. When the wall appears, each creature in its area is pushed into the nearest unoccupied space adjacent to the wall and must make a {@dc 15} Dexterity saving throw, taking 27 ({@damage 6d8}) piercing damage on a failed save or half as much damage on a successful one.",
+						"The wall of briars lasts until the start of the Forest Master's next turn. The wall blocks line of sight and counts as difficult terrain for all creatures except the Forest Master. The first time a creature enters the wall's area on a turn, that creature must succeed on a {@dc 15} Dexterity saving throw or take 13 ({@damage 3d8}) piercing damage."
 					]
 				}
 			],
@@ -458,7 +458,7 @@
 				{
 					"name": "Misty Escape",
 					"entries": [
-						"如果森林大师受到近战攻击的伤害，他和他所穿戴或携带的任何装备会被传送到他能看到的30英尺内的一个无人空间。"
+						"If the Forest Master takes damage from a melee attack, he, along with any equipment he is wearing or carrying, teleports to an unoccupied space within 30 feet that he can see."
 					]
 				}
 			],
@@ -573,7 +573,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Foresworn可以施展以下一种法术，不需要任何材料成分，并使用智慧作为施法能力（法术保存（%0%））。"
+						"The foresworn casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"daily": {
 						"1": [
@@ -592,19 +592,19 @@
 				{
 					"name": "Duty-Bound",
 					"entries": [
-						"预言者必须履行它生前所承诺的一个单一的职责。当这个责任还未完成时，每当预言者被摧毁时，它将在3天后在之前的地点重新形成，并恢复所有的命中率。"
+						"The foresworn is bound to enacting a singular duty it pledged itself to in life. While this duty is incomplete, whenever the foresworn is destroyed, it re-forms at its previous location after 3 ({@dice 1d6}) days, with all its hit points restored."
 					]
 				},
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"预言者可以在其他生物和物体中移动，就像它们是困难的地形一样。如果它在物体内结束其回合，会受到5({@damage 1d10})力的伤害。"
+						"The foresworn can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries": [
-						"预言者不需要空气、食物、饮料或睡眠。"
+						"The foresworn doesn't require air, food, drink, or sleep."
 					]
 				}
 			],
@@ -612,13 +612,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"预言家会进行三次光谱极臂攻击。"
+						"The foresworn makes three Spectral Polearm attacks."
 					]
 				},
 				{
 					"name": "Spectral Polearm",
 					"entries": [
-						"{@atk mw} {@hit 8}击中，到达5英尺，一个目标。{@h}12 ({@damage 2d6 + 5})武力伤害。"
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) force damage."
 					]
 				}
 			],
@@ -626,7 +626,7 @@
 				{
 					"name": "Phantasmic Battalion {@recharge 5}",
 					"entries": [
-						"前驱者召唤一个营的鬼魂士兵来帮助它。这些鬼魂士兵填满了以前驱者为中心的10英尺立方体，当前驱者移动时，他们会与前驱者一起移动，并持续到前驱者的下一回合开始。当鬼魂士兵存在时，他们所占据的区域对所有生物来说都是困难的地形，除了前驱者，前驱者的近战武器攻击范围增加10英尺。"
+						"The foresworn summons a battalion of ghostly soldiers to its aid. The ghostly soldiers fill a 10-foot-cube centered on the foresworn, move with the foresworn when the foresworn moves, and last until the start of the foresworn's next turn. While the ghostly soldiers are present, the area they occupy is considered difficult terrain for all creatures except the foresworn, and the foresworn's reach for melee weapon attacks increases by 10 feet."
 					]
 				}
 			],
@@ -714,25 +714,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"寻求者使用增强体能（如果有的话），并进行两次水晶刀攻击。"
+						"The seeker uses Augment Physicality, if available, and makes two Crystal Blade attacks."
 					]
 				},
 				{
 					"name": "Crystal Blade",
 					"entries": [
-						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d6 + 2}) 力量伤害，如果求救者是大块头，再加上7 ({@damage 2d6}) 力量伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) force damage, plus 7 ({@damage 2d6}) force damage if the seeker is Large."
 					]
 				},
 				{
 					"name": "Augment Physicality (1/Day)",
 					"entries": [
-						"在1分钟内，探索者会神奇地增强自己的体能，并增大自己的体型，同时也会增加自己所穿戴或携带的东西。在被增强的时候，探索者是大型的，并且在力量和灵活性方面有优势。如果探索者没有足够的空间变成大型，它就会在现有的空间里达到最大的尺寸。"
+						"For 1 minute, the seeker magically heightens its physical ability and increases in size, along with anything it is wearing or carrying. While augmented, the seeker is Large, and makes Strength and Dexterity saving throws with advantage. If the seeker lacks the room to become Large, it attains the maximum size possible in the space available."
 					]
 				},
 				{
 					"name": "Change Shape (1/Day)",
 					"entries": [
-						"寻路者神奇地变身为它所见过的一个中型人形物体的样子和感觉。求助者所穿戴或携带的任何装备都不会被转化，而且求助者的统计数据也不会改变。如果求救者的命中率降至0，或者求救者使用一个动作来结束变身，求救者就会恢复其真实形态。"
+						"The seeker magically transforms to look and feel like a Medium Humanoid it has seen. Any equipment the seeker is wearing or carrying isn't transformed, and the seeker's statistics don't change. The seeker reverts to its true form if the seeker is reduced to 0 hit points or if the seeker uses an action to end the transformation."
 					]
 				}
 			],
@@ -740,7 +740,7 @@
 				{
 					"name": "Veil Walk {@recharge 4}",
 					"entries": [
-						"追踪者，连同它所穿戴或携带的任何装备，转身（%0%）并传送到它能看到的30英尺内的一个无人空间。在下一回合开始之前，或者在它做出攻击卷轴之后，以先到者为准，追寻者会保持（1%）。"
+						"The seeker, along with any equipment it is wearing or carrying, turns {@condition invisible} and teleports to an unoccupied space it can see within 30 feet of itself. The seeker remains {@condition invisible} until the start of its next turn or until immediately after the seeker makes an attack roll, whichever comes first."
 					]
 				}
 			],
@@ -828,7 +828,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"面纱守护者可以施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力（法术保全（%0%））。"
+						"The veil keeper casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -852,25 +852,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"如果可以的话，面纱守护者使用 \"增强体质\"，并进行两次幻影闪电攻击。"
+						"The veil keeper uses Augment Physicality, if available, and makes two Mirage Flare attacks."
 					]
 				},
 				{
 					"name": "Mirage Flare",
 					"entries": [
-						"{@atk ms,rs} {@hit 6}击中，到达5英尺或范围60英尺，一个目标。{@h}11 ({@damage 2d6 + 4})辐射伤害，并且目标必须成功进行{@dc 14}智慧救赎，否则会被面纱守护者{@condition charmed}，直到面纱守护者的下一个回合开始。当{@condition charmed}这样做的时候，生物会被{@condition incapacitated}催眠的、虚幻的幻觉所困扰。"
+						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 60 ft., one target. {@h}11 ({@damage 2d6 + 4}) radiant damage, and the target must succeed on a {@dc 14} Wisdom saving throw or be {@condition charmed} by the veil keeper until the start of the veil keeper's next turn. While {@condition charmed} in this way, a creature is {@condition incapacitated} as it is beset by hypnotic, illusory visions."
 					]
 				},
 				{
 					"name": "Augment Physicality (1/Day)",
 					"entries": [
-						"在1分钟内，面纱守护者会用魔法掩盖它的位置，增强它的体能，并增加它的体型，以及它所穿戴或携带的东西。当面纱守护者被增强时，对它的攻击卷有劣势，它是大型的，并且它做力量和灵巧的拯救动作有优势。如果面纱守护者没有空间变成大型，它就会在现有的空间里达到最大的尺寸。如果面纱守护者是（%0%），这些增强功能就会结束。"
+						"For 1 minute, the veil keeper magically obscures it location, heightens its physical ability, and increases in size, along with anything it is wearing or carrying. While the veil keeper is augmented, attack rolls against it have disadvantage, it is Large, and it makes Strength and Dexterity saving throws with advantage. If the veil keeper lacks the room to become Large, it attains the maximum size possible in the space available. These augmentations end if the veil keeper is {@condition incapacitated}."
 					]
 				},
 				{
 					"name": "Change Shape (3/Day)",
 					"entries": [
-						"面纱守护者神奇地变身为它所见过的中型人形生物的模样和感觉。面纱守护者所穿戴或携带的任何装备都不会被转化，而且面纱守护者的统计数据也不会改变。如果面纱守护者的命中率降至0，或者面纱守护者使用行动结束变身，那么面纱守护者将恢复其真实形态。"
+						"The veil keeper magically transforms to look and feel like a Medium Humanoid it has seen. Any equipment the veil keeper is wearing or carrying isn't transformed, and the veil keeper's statistics don't change. The veil keeper reverts to its true form if the veil keeper is reduced to 0 hit points or if the veil keeper uses an action to end the transformation."
 					]
 				}
 			],
@@ -878,7 +878,7 @@
 				{
 					"name": "Obscuring Mist",
 					"entries": [
-						"如果面纱守护者能看到的30英尺范围内的生物被攻击到，面纱守护者会用虚幻的雾气包围该生物，给予该生物一半的掩护，直到面纱守护者的下一回合开始。"
+						"If a creature that the veil keeper can see within 30 feet of itself is targeted by an attack, the veil keeper surrounds the creature with illusory mist, granting the creature half cover until the start of the veil keeper's next turn."
 					]
 				}
 			],
@@ -975,7 +975,7 @@
 				{
 					"name": "Always Thinking Ahead",
 					"entries": [
-						"发明者在主动出击方面有优势。"
+						"The inventor has advantage on initiative rolls."
 					]
 				}
 			],
@@ -983,19 +983,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"发明者会进行两次飞行方块的攻击。如果有的话，它可以用Thunderscream Gadget代替其中一个攻击。"
+						"The inventor makes two Flying Fangtrap attacks. It can replace one of these attacks with Thunderscream Gadget if it's available."
 					]
 				},
 				{
 					"name": "Flying Fangtrap",
 					"entries": [
-						"{@atk mw,rw} {@hit 5}击中，达到5英尺或范围60英尺，一个目标。{@h}8 ({@damage 1d10 + 3})穿刺伤害，并且该生物必须在{@dc 14}灵巧救赎中成功，否则其速度将降至0，直到发明者的下一回合开始。"
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 60 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage, and the creature must succeed on a {@dc 14} Dexterity saving throw or have its speed reduced to 0 until the start of the inventor's next turn."
 					]
 				},
 				{
 					"name": "Thunderscream Gadget {@recharge 5}",
 					"entries": [
-						"发明者制造一个小工具，在从发明者开始的30英尺范围内发出刺耳的声浪。该区域内的每个生物都必须做一个{@dc 14}体质判定，如果判定失败，将受到10({@damage 3d6})的雷霆伤害，如果判定成功，将受到一半的伤害。"
+						"The inventor produces a gadget that emits a screeching wave of sound in a 30-foot cone originating from the inventor. Each creature in that area must make a {@dc 14} Constitution saving throw, taking 10 ({@damage 3d6}) thunder damage on a failed save or half as much damage on a successful one."
 					]
 				}
 			],
@@ -1003,7 +1003,7 @@
 				{
 					"name": "Flash Powder",
 					"entries": [
-						"如果发明者在自己15英尺范围内被它能看到的生物所伤害，发明者会向该生物投掷绚丽的爆炸性粉末作为报复。该生物必须在一个{@dc 14}的灵巧救赎中成功，否则就会被{@condition blinded}，直到其下一回合结束。"
+						"If the inventor is damaged by a creature it can see within 15 feet of itself, the inventor retaliates by flinging brilliantly explosive powder at the creature. The creature must succeed on a {@dc 14} Dexterity saving throw or be {@condition blinded} until the end of its next turn."
 					]
 				}
 			],
@@ -1093,13 +1093,13 @@
 				{
 					"name": "Always Thinking Ahead",
 					"entries": [
-						"主谋者在主动性卷轴上有优势。"
+						"The mastermind has advantage on initiative rolls."
 					]
 				},
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"主谋者可以攀爬困难的表面，包括倒挂在天花板上，而不需要进行能力检查。如果主脑用它的两只发条爪子抓取生物，这个特性就不起作用。"
+						"The mastermind can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. This trait doesn't function if the mastermind is grappling creatures in both of its clockwork claws."
 					]
 				}
 			],
@@ -1107,37 +1107,37 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"主谋进行两次发条爪子攻击。如果可以的话，主谋可以用 \"生成小工具 \"替换其中一次攻击。"
+						"The mastermind makes two Clockwork Claw attacks. The mastermind can replace one of these attacks with Generate Gadget if it's available."
 					]
 				},
 				{
 					"name": "Clockwork Claw",
 					"entries": [
-						"{@atk mw} {@hit 7}击中，到达20英尺，一个目标。{@h}11({@damage 2d6 + 4})穿刺伤害，如果目标是中型或小型生物，则目标{@condition grappled}(逃脱{@dc 15})。直到这个抓捕结束，目标在主脑的每个回合开始时受到10（（%6%））的穿刺伤害。主谋有两个爪子，每个爪子只能抓取一个目标。"
+						"{@atk mw} {@hit 7} to hit, reach 20 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, and if the target is a Medium or smaller creature, the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target takes 10 ({@damage 3d6}) piercing damage at the start of each of the mastermind's turns. The mastermind has two claws, each of which can grapple only one target."
 					]
 				},
 				{
 					"name": "Generate Gadget {@recharge 5}",
 					"entries": [
-						"主谋迅速组装一个发条小工具，产生以下效果之一（由主谋选择）。"
+						"The mastermind quickly assembles a clockwork gadget, producing one of the following effects (the mastermind's choice):"
 					]
 				},
 				{
 					"name": "Chattergrab",
 					"entries": [
-						"这个小工具的一部分看起来像咬碎的金属牙齿。这个装置会向一个主脑在60英尺范围内看到的生物投掷。该生物必须在一个{@dc 16}的灵巧救赎中成功，否则会受到31({@damage 7d8})的穿刺伤害，并被{@condition incapacitated}，直到主脑下一回合的开始。"
+						"Parts of this gadget look like gnashing metal teeth. This gadget hurtles toward a creature the mastermind can see within 60 feet of itself. The creature must succeed on a {@dc 16} Dexterity saving throw or take 31 ({@damage 7d8}) piercing damage and be {@condition incapacitated} until the start of the mastermind's next turn."
 					]
 				},
 				{
 					"name": "Phasmoball",
 					"entries": [
-						"主谋将这个小工具发射到主谋能看到的30英尺范围内，在那里，小工具会在10英尺半径的范围内释放出一团心灵扭曲的气体。球体内的每一个生物都必须在一个{@dc 16}的智慧救赎中成功，否则就会受到11({@damage 2d10})的精神伤害，并且在主脑的{@condition frightened}，直到主脑的下一个回合开始。"
+						"The mastermind launches this gadget to a point the mastermind can see within 30 feet of itself, where the gadget unleashes a cloud of mind-warping gases in a 10-foot-radius sphere. Each creature within the sphere must succeed on a {@dc 16} Wisdom saving throw or take 11 ({@damage 2d10}) psychic damage and be {@condition frightened} of the mastermind until the start of the mastermind's next turn."
 					]
 				},
 				{
 					"name": "Thunderscream",
 					"entries": [
-						"这个装置会在30英尺的范围内发出刺耳的声浪，从主脑发出。该区域内的每个生物都必须做一个{@dc 16}体质判定，如果判定失败，将受到21({@damage 6d6})的雷霆伤害，如果判定成功，将受到一半的伤害。"
+						"This gadget emits a screeching wave of sound in a 30-foot cone originating from the mastermind. Each creature in that area must make a {@dc 16} Constitution saving throw, taking 21 ({@damage 6d6}) thunder damage on a failed save or half as much damage on a successful one."
 					]
 				}
 			],
@@ -1233,13 +1233,13 @@
 				{
 					"name": "Hold Breath",
 					"entries": [
-						"猎人可以屏住呼吸长达10分钟。"
+						"The hunter can hold its breath for up to 10 minutes."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"如果猎人的盟友中至少有一人在生物的5英尺范围内，而盟友不在该生物的5英尺范围内，则猎人在对该生物的攻击卷中具有优势（％0％）。"
+						"The hunter has advantage on an attack roll against a creature if at least one of the hunter's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
 					]
 				}
 			],
@@ -1247,19 +1247,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"猎人进行一次骨质鱼叉攻击和一次獠牙攻击。"
+						"The hunter makes one Bone Harpoon attack and one Tusk attack."
 					]
 				},
 				{
 					"name": "Bone Harpoon",
 					"entries": [
-						"{@atk mw,rw}{@hit 6}命中，距离10英尺或范围20/60英尺，一个目标。{@h}8 ({@damage 1d8 + 4})穿刺伤害。命中或未命中：鱼叉回到猎人的手中。"
+						"{@atk mw,rw} {@hit 6} to hit, reach 10 ft. or range 20/60 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage. Hit or Miss: The harpoon returns to the hunter's hand."
 					]
 				},
 				{
 					"name": "Tusk",
 					"entries": [
-						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d4 + 4})砍击伤害。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage."
 					]
 				}
 			],
@@ -1342,19 +1342,19 @@
 				{
 					"name": "Blood Frenzy",
 					"entries": [
-						"龙人在对任何没有全部命中率的生物进行近战攻击时具有优势。"
+						"The draconian has advantage on melee attack rolls against any creature that doesn't have all its hit points."
 					]
 				},
 				{
 					"name": "Controlled Fall",
 					"entries": [
-						"如果龙人坠落而不是{@condition incapacitated}，在计算坠落的伤害时，它最多可以减去50英尺。"
+						"If the draconian falls and isn't {@condition incapacitated}, it subtracts up to 50 feet from the fall when calculating the fall's damage."
 					]
 				},
 				{
 					"name": "Death Throes",
 					"entries": [
-						"如果龙人的生命值降至0，它的身体就会爆发出淤泥，填满一个半径为10英尺的球体。该区域内的每个生物都必须在一个{@dc 14}的灵巧救赎中成功，否则就会被淤泥覆盖1分钟。当被淤泥覆盖时，生物的速度会减半。一个生物可以用它的行动将污泥从它自己或它周围5英尺内的另一个生物身上刮掉。"
+						"If the draconian is reduced to 0 hit points, its body erupts into sludge that fills a 10-foot-radius sphere. Each creature within that area must succeed on a {@dc 14} Dexterity saving throw or be covered in the sludge for 1 minute. While covered in the sludge, a creature's speed is halved. A creature can use its action to scrape the sludge off itself or another creature within 5 feet of itself."
 					]
 				}
 			],
@@ -1362,19 +1362,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"龙人做出两次爪子攻击。"
+						"The draconian makes two Claw attacks."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8}击中，到达10英尺，一个目标。{@h}14 ({@damage 2d8 + 5})砍击伤害。"
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage."
 					]
 				},
 				{
 					"name": "Flaming Carnage {@recharge 5}",
 					"entries": [
-						"龙人放纵自己的愤怒，将自己包裹在火中并以自己的速度移动。在这个动作中，龙人可以进入生物的空间。在这个移动过程中，当龙人进入一个生物的空间时，该生物必须做一个{@dc 14}灵巧的拯救动作。如果救赎失败，该生物会受到22({@damage 4d10})的火焰伤害并被击倒{@condition prone}。如果救赎成功，该生物会受到一半的伤害，并被推到离龙人路径最近的空间。一个生物在一个回合内只能被这个龙人的火焰狂欢影响一次。"
+						"The draconian indulges its rage, wreathing itself in fire and moving up to its speed. The draconian can enter creatures' spaces during this move. During this movement, when the draconian enters a creature's space, the creature must make a {@dc 14} Dexterity saving throw. On a failed save, the creature takes 22 ({@damage 4d10}) fire damage and is knocked {@condition prone}. On a successful save, the creature takes half as much damage and is pushed to the nearest space out of the draconian's path. A creature can be affected by this draconian's Flaming Carnage only once during a turn."
 					]
 				}
 			],
@@ -1382,7 +1382,7 @@
 				{
 					"name": "Violent Retaliation",
 					"entries": [
-						"如果龙人10英尺内的生物用攻击击中它，龙人可以对该生物进行一次爪击攻击。如果爪击命中，会造成额外的4({@damage 1d8})的斩击伤害。"
+						"If a creature within 10 feet of the draconian hits it with an attack, the draconian can make one Claw attack against that creature. If the Claw attack hits, it deals an additional 4 ({@damage 1d8}) slashing damage."
 					]
 				}
 			],
@@ -1487,7 +1487,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Verminaard可以施展以下一种法术，不需要任何材料成分，并使用智慧作为施法能力（法术保全（%0%））。"
+						"Verminaard casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
 					"will": [
 						"{@spell light}",
@@ -1511,19 +1511,19 @@
 				{
 					"name": "Draconic Command",
 					"entries": [
-						"每当维米娜德30英尺范围内的龙或具有Draconic Devotion特质的生物进行攻击卷时，该生物可以掷出（%0%），并将掷出的数字加入攻击卷。"
+						"Whenever a Dragon or a creature with the Draconic Devotion trait within 30 feet of Verminaard makes an attack roll, the creature can roll a {@dice d4} and add the number rolled to the attack roll."
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"如果Verminaard的拯救动作失败，他可以选择成功。"
+						"If Verminaard fails a saving throw, he can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Verminaard穿戴{@item +2 plate armor}并挥舞长矛{@item Nightbringer|MCV2DC}，长矛赋予他黑暗视觉，以及对火灾伤害和{@condition charmed}和{@condition frightened}条件的免疫力（包括在上面）。"
+						"Verminaard wears {@item +2 plate armor} and wields the mace {@item Nightbringer|MCV2DC}, which grants him darkvision as well as immunity to fire damage and to the {@condition charmed} and {@condition frightened} conditions (included above)."
 					]
 				}
 			],
@@ -1531,19 +1531,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"弗米纳德进行了两次 \"夜行者 \"攻击，并使用 \"诅咒\"。"
+						"Verminaard makes two Nightbringer attacks and uses Malediction."
 					]
 				},
 				{
 					"name": "Nightbringer",
 					"entries": [
-						"{@atk mw} {@hit 15}击中，到达5英尺，一个目标。{@h}12 ({@damage 1d6 + 9})重击伤害加上10 ({@damage 4d4})辐射伤害。如果目标是生物，目标必须在{@dc 20}体质训练中成功，否则会被{@condition blinded}，直到Verminaard的下一回合开始。"
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d6 + 9}) bludgeoning damage plus 10 ({@damage 4d4}) radiant damage. If the target is a creature, the target must succeed on a {@dc 20} Constitution saving throw or be {@condition blinded} until the start of Verminaard's next turn."
 					]
 				},
 				{
 					"name": "Malediction",
 					"entries": [
-						"弗米纳德说出一个邪恶的词语，使亵渎之火降临到弗米纳德在自己60英尺范围内看到的一个生物身上。该生物必须做一个{@dc 18}灵巧的蓄力动作，在蓄力失败时受到11({@damage 2d10})的坏死伤害和11({@damage 2d10})的辐射伤害，在蓄力成功时受到一半的伤害。"
+						"Verminaard utters an unholy word, causing profane fire to descend on one creature Verminaard can see within 60 feet of himself. The creature must make a {@dc 18} Dexterity saving throw, taking 11 ({@damage 2d10}) necrotic damage plus 11 ({@damage 2d10}) radiant damage on a failed save or half as much damage on a successful one."
 					]
 				}
 			],
@@ -1551,7 +1551,7 @@
 				{
 					"name": "Dragon Queen's Favor (5/Day)",
 					"entries": [
-						"Verminaard或他能看到的60英尺范围内的一个生物神奇地恢复17（（%0%））的命中率。"
+						"Verminaard or one creature he can see within 60 feet of himself magically regains 17 ({@dice 2d12 + 4}) hit points."
 					]
 				}
 			],
@@ -1559,19 +1559,19 @@
 				{
 					"name": "Tactical Movement",
 					"entries": [
-						"Verminaard以自己的速度移动或命令他所骑的坐骑以其速度移动。这种移动不会激起机会攻击。"
+						"Verminaard moves up to his speed or commands a mount he is riding to move up to its speed. This movement doesn't provoke opportunity attacks."
 					]
 				},
 				{
 					"name": "Fervent Strike (Costs 2 Actions)",
 					"entries": [
-						"维米娜德进行一次夜行者攻击。如果这次攻击命中，会造成额外的7({@damage 2d6})重击伤害。"
+						"Verminaard makes one Nightbringer attack. If this attack hits, it deals an additional 7 ({@damage 2d6}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Cast a Spell (Costs 3 Actions)",
 					"entries": [
-						"Verminaard使用施法术。"
+						"Verminaard uses Spellcasting."
 					]
 				}
 			],
