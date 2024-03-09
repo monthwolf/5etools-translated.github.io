@@ -119,6 +119,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Auril's innate spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
 					],
@@ -704,6 +705,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Avarice is a 10th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 14}; {@hit 6} to hit with spell attacks). She has the following wizard spells prepared:"
 					],
@@ -940,10 +942,12 @@
 			"_copy": {
 				"name": "Scout",
 				"source": "MM",
-				"_trait": {
-					"name": "Mountain Dwarf",
-					"source": "PHB"
-				},
+				"_templates": [
+					{
+						"name": "Mountain Dwarf",
+						"source": "PHB"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -1804,6 +1808,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The simulacrum is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following wizard spells prepared:"
 					],
@@ -1970,7 +1975,7 @@
 				{
 					"name": "Keen Hearing",
 					"entries": [
-						"狐狸在依靠听觉的智慧（感知）检查中具有优势。"
+						"The fox has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
 					]
 				}
 			],
@@ -2075,6 +2080,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Humanoid Form Only)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The druid is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}; {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
 					],
@@ -2573,7 +2579,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"吸血鬼在依靠嗅觉的智慧（感知）检查中具有优势。"
+						"The vampire has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
@@ -2743,6 +2749,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The ceremorph's innate spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no components:"
 					],
@@ -2883,6 +2890,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The squidling's innate spellcasting ability is Intelligence (spell save {@dc 7}). It can innately cast {@spell levitate} at will, requiring no components."
 					],
@@ -3161,7 +3169,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"狼人在依靠嗅觉的智慧（感知）检查中具有优势。"
+						"The werebear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
@@ -3298,6 +3306,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Grandolpha's innate spellcasting ability is Wisdom (spell save {@dc 13}). She can innately cast the following spells, requiring no material components:"
 					],
@@ -3329,7 +3338,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"在阳光下，Grandolpha在攻击卷上有劣势，在依靠视觉的智慧（感知）检查上也是如此。"
+						"While in sunlight, Grandolpha has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -3801,7 +3810,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"冰雪巨魔在依靠嗅觉的智慧（感知）检查中具有优势。"
+						"The ice troll has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
@@ -3925,7 +3934,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"当在阳光下时，哥布林在攻击卷轴以及依靠视觉的智慧（感知）检查上有劣势。"
+						"While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -4139,7 +4148,7 @@
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"Isarr在依靠听觉或嗅觉的智慧（感知）检查中具有优势。"
+						"Isarr has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
 					]
 				}
 			],
@@ -4316,10 +4325,12 @@
 			"_copy": {
 				"name": "Cult Fanatic",
 				"source": "MM",
-				"_trait": {
-					"name": "Tiefling",
-					"source": "PHB"
-				},
+				"_templates": [
+					{
+						"name": "Tiefling",
+						"source": "PHB"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -5188,6 +5199,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The ghost is a 6th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}). The ghost has the following wizard spells prepared:"
 					],
@@ -5356,6 +5368,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Prisoner 237 is a 5th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}; {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
 					],
@@ -5625,7 +5638,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"海豹在依靠嗅觉的智慧（感知）检查中具有优势。"
+						"The seal has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				}
 			],
@@ -5703,6 +5716,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Sephek can innately cast {@spell misty step} up to three times per day, requiring no components. His innate spellcasting ability is Charisma."
 					],
@@ -5968,6 +5982,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Spellix's spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
@@ -6102,7 +6117,7 @@
 				{
 					"name": "Keen Hearing",
 					"entries": [
-						"鲸鱼在依靠听觉的智慧（感知）检查方面具有优势。"
+						"The whale has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
 					]
 				}
 			],
@@ -6561,6 +6576,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Vellynne is an 8th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She has the following wizard spells prepared:"
 					],
@@ -6614,7 +6630,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"薇琳戴着防御手镯，并携带一根魔法飞弹的魔杖（见下文 \"行动\"）。"
+						"Vellynne wears {@item bracers of defense} and carries a {@item wand of magic missiles} (see \"Actions\" below)."
 					]
 				}
 			],
@@ -6721,6 +6737,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"verbeeg的先天法术能力是智慧。它可以天生施展以下法术，不需要任何组件。"
 					],
@@ -7018,6 +7035,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Xardorok's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
@@ -7044,7 +7062,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"在阳光下时，Xardorok在攻击卷上有劣势，在依靠视觉的智慧（感知）检查上也是如此。"
+						"While in sunlight, Xardorok has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -7180,13 +7198,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"雪人在依靠嗅觉的智慧（感知）检查中具有优势。"
+						"The yeti has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
 					"name": "Snow Camouflage",
 					"entries": [
-						"雪人在雪地上躲藏时，对灵巧（隐身）的检查有优势。"
+						"The yeti has advantage on Dexterity ({@skill Stealth}) checks made to hide in snowy terrain."
 					]
 				}
 			],

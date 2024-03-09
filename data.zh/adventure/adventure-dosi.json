@@ -6,6 +6,16 @@
 			"page": 2,
 			"id": "000",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "adventure/DoSI/00-001.opening-splash.webp"
+					},
+					"credit": "Karl Kopinski",
+					"width": 1700,
+					"height": 1377
+				},
 				"这是为地下城主准备的。它包含一个完整的龙与地下城的冒险，以及冒险中的魔法物品和生物的描述。它还教你如何运行一个D&D游戏。",
 				{
 					"type": "section",
@@ -134,7 +144,8 @@
 											"title": "Map 1: Stormwreck Isle",
 											"width": 1700,
 											"height": 1214,
-											"id": "0cd"
+											"id": "0ef",
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
@@ -155,8 +166,9 @@
 											"width": 1700,
 											"height": 1214,
 											"mapParent": {
-												"id": "0cd"
-											}
+												"id": "0ef"
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								},
@@ -271,6 +283,136 @@
 							]
 						}
 					]
+				},
+				{
+					"type": "section",
+					"name": "Voyage to Stormwreck Isle",
+					"entries": [
+						"{@note This \"Voyage to Stormwreck Isle\" section was originally distributed as part of an in-store introductory pack for {@i Dragons of Stormwreck Isle}, and later digitally published. It is included here for convenience.}",
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/DoSI/00-005.voyage-intro-art.webp"
+							},
+							"credit": "Linda Lithén",
+							"width": 1700,
+							"height": 1100
+						},
+						"Before play starts, introduce yourself and welcome the players:",
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								"Hi everyone. I'm going to be running you through a quick demo on how to play D&D. I'm the Dungeon Master, so it's my job to tell you what's happening in the world around you and rolling any dice for the monster. You're playing the heroes!"
+							],
+							"id": "0ce"
+						},
+						"Read this text to set the scene:",
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								"Your journey has been smooth sailing so far. You left the bustling port of Neverwinter a few days ago, heading for an island with the foreboding name of Stormwreck Isle. But you woke this morning to a blood-red sunrise, and dark clouds overhead threaten a violent storm."
+							],
+							"id": "0cf"
+						},
+						"Show the players the illustration of their ship at sea.",
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								"As lightning flashes across the sky, a monster hauls itself up onto the deck!"
+							],
+							"id": "0d0"
+						},
+						"Show the players the illustration of the {@creature Merrow Extortionist|DoSI|merrow} and adopt a different voice for it. You can use any voice you like, but try to sound intimidating! Read this text in the merrow's voice:",
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								"\"These waters belong to the Scaled Queen. I'm here to collect her tribute.\""
+							],
+							"id": "0d1"
+						},
+						{
+							"type": "entries",
+							"name": "Explaining the Game",
+							"entries": [
+								"Read or paraphrase this boxed text:",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"I've just told you the situation you're in. What happens next is up to you. You're all trained for combat, so if you want to fight this monster, which is called a merrow, I can help you do that. But you can also try to negotiate with the merrow, or trick it, or anything else you can imagine.",
+										"Just about anything you can think of to try will require some combination of skill, natural ability, and luck to pull off. And the D&D game represents that by having you roll one of these 20-sided dice and add a number from your sheet. So... what do you want to do?"
+									],
+									"id": "0e8"
+								}
+							],
+							"id": "0d2"
+						},
+						{
+							"type": "entries",
+							"name": "Run the Encounter",
+							"entries": [
+								"Let the players take the lead! They can try anything they can imagine.",
+								"Encourage the players to tell you their ideas. Ask them to let you know what they are thinking, and then run with it!",
+								"Whatever the characters try and whatever their die rolls indicate, use vivid descriptions to keep things exciting.",
+								"Here are some of the most likely approaches.",
+								{
+									"type": "entries",
+									"name": "Negotiate with the Merrow",
+									"entries": [
+										"The players might agree to pay tribute to the Scaled Queen. The {@creature Merrow Extortionist|DoSI|merrow} initially demands a payment of 400 gold pieces (gp) or its equivalent in goods. This is the value of all the goods in the hold. The characters can use Charisma checks (applying {@skill Persuasion}, {@skill Intimidation}, or perhaps {@skill Deception} skills, as appropriate) to get it to accept a lower amount; each successful {@dc 15} check reduces the amount he asks for by 100 gp.",
+										"If the players ask about the Scaled Queen, the merrow says that she is a huge, two-headed merrow who carries the special blessing of the Prince of Demons, Demogorgon."
+									],
+									"id": "0ea"
+								},
+								{
+									"type": "entries",
+									"name": "Attack the Merrow",
+									"entries": [
+										"Lots of players will attack first. Other players will decide their characters attack if other approaches fail. When a player decides that their character attacks, their character acts first in combat. Then play passes to the right. Take the merrow's turn when it passes around to you.",
+										"On each player's turn, talk through the different actions their character can take, such as attacking with weapons and casting spells. Explain the character's different weapons and spell attacks.",
+										"This {@creature Merrow Extortionist|DoSI|merrow} looks fearsome but doesn't present too much of a threat to the characters. They should be able to defeat it in 1–2 rounds."
+									],
+									"id": "0eb"
+								}
+							],
+							"id": "0e9"
+						},
+						{
+							"type": "entries",
+							"name": "Shenanigans",
+							"entries": [
+								"The players might think of creative ideas for dealing with the merrow:",
+								{
+									"type": "list",
+									"items": [
+										"Can I roll a barrel to push the merrow overboard?",
+										"Can I drop a sail on it so it can't see?",
+										"Can I persuade the crew to rush it?",
+										"Can I..."
+									]
+								},
+								"Whatever the players ask, the answer should (almost) always be something like, \"You can try!\" If a character has a specific spell or ability that will let them accomplish what they want to do, help the player use that spell or ability. Otherwise, ask the player to make a ability check that's appropriate to their character's tactics, such as a Strength ({@skill Athletics}) check for trying to roll the barrel at the merrow, a Dexterity check to fling a sail over it, or a Charisma ({@skill Intimidation}) check to convince it that the crew is about to attack."
+							],
+							"id": "0ec"
+						},
+						{
+							"type": "entries",
+							"name": "Wrap Up",
+							"entries": [
+								"When the characters have dealt with the {@creature Merrow Extortionist|DoSI|merrow}, one way or another, read this text to wrap up:",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"With a splash, the merrow disappears into the ocean deeps and the ship continues on its way. The sailors raise a cheer, and the storm brewing overhead seems not quite so threatening now.",
+										"And that brings us to the end of your first taste of adventure."
+									],
+									"id": "0ee"
+								}
+							],
+							"id": "0ed"
+						}
+					],
+					"id": "0cd"
 				}
 			]
 		},
@@ -287,7 +429,8 @@
 						"path": "adventure/DoSI/002-01-001.splash-art.webp"
 					},
 					"width": 1700,
-					"height": 1176
+					"height": 1176,
+					"credit": "David Auden Nash"
 				},
 				"冒险开始于一个名为 \"龙的休息 \"的小修道院，一个让厌倦了世界的人们来寻求和平、和解和启蒙的天堂。在那里，人物了解到风暴残骸岛面临的危险。",
 				"每个角色都有一个来到回廊的具体原因，如{@area the character sheets|002|x}上所示。你也可以让玩家自己编造理由，让他们的角色寻求（%%）的智慧和帮助。",
@@ -426,7 +569,8 @@
 											},
 											"title": "Ever since an unfortunate incident in the kitchen, Laylee is no longer allowed to handle {@creature Myla|DoSI}'s alchemical fire.",
 											"width": 850,
-											"height": 1203
+											"height": 1203,
+											"credit": "Christopher Burdett"
 										},
 										"The kobolds of Dragon's Rest are lawful good, sharing {@creature Runara|DoSI}'s ideals of justice and compassion. Since they are sensitive to sunlight, they work at night and avoid moving about during the day. Unless otherwise noted, the kobolds are initially friendly toward the adventurers.",
 										"哥布林的情况总结如下。他们可以提供一个当地的视角，或者在玩家遇到困难时，你可以通过这种方式向他们传递提示。但是，不要觉得你需要把这九个哥布林都变成活的！你可以从这些哥布林中挑选一两个你和玩家认为合适的。从这些哥布林中挑选一两个你和人物最喜欢的，让他们成为人物与哥布林互动的焦点。",
@@ -451,7 +595,7 @@
 										"他是一位狂热的植物学家，{@creature Tarak|DoSI}负责照料回廊的花园地块，种植花卉、草药和蔬菜。他说话温和，乐于助人，渴望分享他的草药学知识。但他和善的举止掩盖了他作为盗贼公会无情的投毒者的过去。在他的工作导致了他爱人的死亡后，他逃离了公会，并计划用他的余生来为他过去的罪恶赎罪。",
 										"{@creature Tarak|DoSI}最初对来访者很友好，但如果一个角色探究他的过去，他的态度就会转变--首先是冷漠，然后是敌对，如果这个角色继续逼迫的话。当他有敌意时，他的举止会变得冷漠和急躁，如果可以的话，他会避开这些人物。",
 										"A gold hangman's noose is worked into the design of {@creature Tarak|DoSI}'s visible tattoos. A character who studies the tattoos and succeeds on a DC 15 Intelligence ({@skill History}) check recognizes the mark as a symbol associated with the Gilded Gallows, a thieves' guild that operates in a country far to the southeast called Elturgard. A character with the {@background Variant Criminal (Spy)||criminal background} automatically succeeds on this check. {@creature Tarak|DoSI} does not willingly discuss the details of his past with anyone but trusted friends.",
-										"{@creature Tarak|DoSI} frequently visits the sea caves on the south side of the island to acquire heart cap mushrooms from the myconids that live there. He uses the mushrooms to make {@item Potion of Healing||potions of healing}. But the myconids have installed a fearsome guardian at their caves\u2014a fungus-covered octopus monster\u2014that has turned him away on his latest visits, and he is worried (see \"{@area Cloister Quests|02f|x}\")."
+										"{@creature Tarak|DoSI} frequently visits the sea caves on the south side of the island to acquire heart cap mushrooms from the myconids that live there. He uses the mushrooms to make {@item Potion of Healing||potions of healing}. But the myconids have installed a fearsome guardian at their caves—a fungus-covered octopus monster—that has turned him away on his latest visits, and he is worried (see \"{@area Cloister Quests|02f|x}\")."
 									]
 								},
 								{
@@ -496,7 +640,7 @@
 											"title": "Map 2: Dragons Rest",
 											"width": 1700,
 											"height": 1214,
-											"id": "0ce",
+											"id": "0f0",
 											"mapRegions": [
 												{
 													"area": "022",
@@ -1479,7 +1623,8 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DoSI/thumbnail/004-map-1.01-dragons-rest.webp"
-											}
+											},
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
@@ -1499,8 +1644,9 @@
 											"width": 1700,
 											"height": 1214,
 											"mapParent": {
-												"id": "0ce"
-											}
+												"id": "0f0"
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								},
@@ -1524,7 +1670,7 @@
 											"page": 10,
 											"id": "024",
 											"entries": [
-												"The star-in-a-circle symbol on the map represents the dragon statue. A character who examines the statue and succeeds on a DC 10 Intelligence ({@skill Arcana}) check recognizes that it depicts a bronze dragon\u2014a member of the metallic family. If characters ask {@creature Runara|DoSI} about the statue, she tells them it depicts Astalagan, who died on these cliffs centuries ago. She doesn't tell them that Astalagan was her father."
+												"The star-in-a-circle symbol on the map represents the dragon statue. A character who examines the statue and succeeds on a DC 10 Intelligence ({@skill Arcana}) check recognizes that it depicts a bronze dragon—a member of the metallic family. If characters ask {@creature Runara|DoSI} about the statue, she tells them it depicts Astalagan, who died on these cliffs centuries ago. She doesn't tell them that Astalagan was her father."
 											]
 										},
 										{
@@ -1603,7 +1749,7 @@
 										},
 										"The temple is very simple, with the statue (represented by the star-in-a-circle symbol on the map) as its only furnishing. The statue depicts Bahamut, the Platinum Dragon, in mortal disguise, surrounded by seven canaries that represent gold dragons who accompany him on his travels. A character who examines the statue and succeeds on a DC 10 Intelligence ({@skill Religion}) check recognizes Bahamut, and any resident of Dragon's Rest identifies the god if asked.",
 										"雕像基座上四个方向的凹陷处放着向巴哈姆特献上的香火。{@creature Runara|DoSI}大约有一半的时间在这里，照料和维护寺庙，提供祈祷和香火，或者静静地沉思。回廊里的其他居民也会帮助她，最常见的是（1%）和哥布林（Rix）。",
-										"The feeling of serenity that pervades the temple is the result of protective magic. A non-evil creature who makes a {@book saving throw|PHB|7|Saving Throws} within the temple can roll a {@dice d4} and add the number rolled to the saving throw. If a character casts {@spell detect magic} in the temple, the spell reveals a faint aura around the statue. {@creature Runara|DoSI} is the only inhabitant of Dragon's Rest who knows that this is a lingering effect of the death of a dragon on this site\u2014her father, Astalagan.",
+										"The feeling of serenity that pervades the temple is the result of protective magic. A non-evil creature who makes a {@book saving throw|PHB|7|Saving Throws} within the temple can roll a {@dice d4} and add the number rolled to the saving throw. If a character casts {@spell detect magic} in the temple, the spell reveals a faint aura around the statue. {@creature Runara|DoSI} is the only inhabitant of Dragon's Rest who knows that this is a lingering effect of the death of a dragon on this site—her father, Astalagan.",
 										{
 											"type": "entries",
 											"name": "About Bahamut",
@@ -1696,7 +1842,7 @@
 									"page": 13,
 									"id": "037",
 									"entries": [
-										"The fighter has come to Dragon's Rest in the hope that {@creature Runara|DoSI} can help the character understand the sense of destiny that weighs on their shoulders. If the character talks to {@creature Runara|DoSI} about this on first arriving at the cloister, {@creature Runara|DoSI} invites the character to consider how their reaction to the zombies on the beach might reflect their destiny\u2014or not. If the character talks to {@creature Runara|DoSI} after having completed one or more of the adventure's quests, she encourages the character to consider whether their heroic actions might be the first manifestations of that destiny taking shape. At the end of the adventure, {@creature Runara|DoSI} encourages the character to continue on their path: \"If your destiny is not clear to you yet, I'm confident it soon will be.\""
+										"The fighter has come to Dragon's Rest in the hope that {@creature Runara|DoSI} can help the character understand the sense of destiny that weighs on their shoulders. If the character talks to {@creature Runara|DoSI} about this on first arriving at the cloister, {@creature Runara|DoSI} invites the character to consider how their reaction to the zombies on the beach might reflect their destiny—or not. If the character talks to {@creature Runara|DoSI} after having completed one or more of the adventure's quests, she encourages the character to consider whether their heroic actions might be the first manifestations of that destiny taking shape. At the end of the adventure, {@creature Runara|DoSI} encourages the character to continue on their path: \"If your destiny is not clear to you yet, I'm confident it soon will be.\""
 									]
 								},
 								{
@@ -1803,7 +1949,7 @@
 											"page": 14,
 											"id": "043",
 											"entries": [
-												"A character who examines the mushrooms lining the spring and succeeds on a DC 15 Intelligence ({@skill Nature}) check identifies these mushrooms as wind spores\u2014a rare fungus with a unique magical property. When a creature squeezes a wind spore mushroom's cap, it releases a small cloud of spores. For 1 hour, the creature doesn't need to breathe, as the spores provide it with oxygen. A wind spore is worth 30 gp, and at any given time {@dice 2d4} wind spores are ready to be harvested."
+												"A character who examines the mushrooms lining the spring and succeeds on a DC 15 Intelligence ({@skill Nature}) check identifies these mushrooms as wind spores—a rare fungus with a unique magical property. When a creature squeezes a wind spore mushroom's cap, it releases a small cloud of spores. For 1 hour, the creature doesn't need to breathe, as the spores provide it with oxygen. A wind spore is worth 30 gp, and at any given time {@dice 2d4} wind spores are ready to be harvested."
 											]
 										}
 									]
@@ -1829,7 +1975,8 @@
 												"path": "adventure/DoSI/006-01-003.owlbear.webp"
 											},
 											"width": 1700,
-											"height": 1201
+											"height": 1201,
+											"credit": "Ilse Gort"
 										},
 										"This {@creature owlbear} is hostile toward the characters. It views them as intruders in its territory, though its goal is to drive them away rather than kill them. Originally a part of a performing troupe, the owlbear was stranded here after the ship carrying the troupe crashed on the northern rocks.",
 										"Any character within 5 feet of the owlbear notices a small wooden whistle hanging around its neck. This whistle was (and still can be) used to train and command the owlbear. A character within 5 feet of the owlbear can use their action to attempt to grab the whistle. If the character succeeds on a DC 12 Strength check, the whistle comes free. With the whistle in hand, a character can take an action to blow into it and make a DC 10 Wisdom ({@skill Animal Handling}) check. On a success, the owlbear calms and immediately becomes friendly toward the whistle holder and indifferent toward the other characters. However, it won't leave the area it now considers its territory, and any attempt to force it to leave makes it hostile again."
@@ -1902,7 +2049,8 @@
 						"path": "adventure/DoSI/007-02-001.splash-art.webp"
 					},
 					"width": 1700,
-					"height": 1099
+					"height": 1099,
+					"credit": "Linda Lithén"
 				},
 				"本章假设人物在去{@i Compass Rose}的沉船前来到这里，而且他们仍然是第一级。它还包括简单的说明，如果人物在来这里之前完成了第三章\"{@adventure Cursed Shipwreck|DoSI|3}\"，并且现在是第二级，那么在战斗中遇到的危险就会加大。",
 				{
@@ -1911,7 +2059,7 @@
 					"page": 16,
 					"id": "04c",
 					"entries": [
-						"The sea caves on the southwest side of Stormwreck Isle are inhabited by an unusual colony of myconids\u2014fungus people who normally live deep underground. Though they can't abide sunlight, these myconids used to welcome visitors now and then. In particular, they traded with {@creature Tarak|DoSI} from Dragon's Rest, giving him rare fungi that grow in their caves in exchange for food scraps and other waste from the cloister, which nourished the fungi in the caves. Recently, though, the myconids have rejected {@creature Tarak|DoSI}'s visits and placed a monstrous guardian at the entrance to their caves that keeps all visitors away.",
+						"The sea caves on the southwest side of Stormwreck Isle are inhabited by an unusual colony of myconids—fungus people who normally live deep underground. Though they can't abide sunlight, these myconids used to welcome visitors now and then. In particular, they traded with {@creature Tarak|DoSI} from Dragon's Rest, giving him rare fungi that grow in their caves in exchange for food scraps and other waste from the cloister, which nourished the fungi in the caves. Recently, though, the myconids have rejected {@creature Tarak|DoSI}'s visits and placed a monstrous guardian at the entrance to their caves that keeps all visitors away.",
 						"The reason for this sudden shift in the myconids' behavior is that a blight has spread through the caves and is poisoning the myconids, twisting their gardens, and even laying low their leader, {@creature Sinensa|DoSI}. The source of the blight is the tomb of the red dragon Sharruth deep beneath the island. Noxious fumes from the dragon's tomb normally filter up through the rock and vent to the surface through a cavern at the back of Seagrow Caves that the myconids avoid, but the vent has become blocked, and the fumes have spilled into the myconids' caves.",
 						"除了这种阴险的毒药之外，海草洞的游客还必须面对一个额外的威胁：在洞穴中筑巢的海螺。这些吸血的怪物单个并没有什么威胁，也不会打扰到没有血的菌类，但它们数量多了就会致命。",
 						{
@@ -2054,7 +2202,7 @@
 							"entries": [
 								"菌类对外来者的最初态度是敌对的（见{@book Basic Rules|PHB}中的\"{@book Social Interaction|PHB|8|Social Interaction}\"）。不过他们并不恶意，也不会立即诉诸暴力。{@creature Myconid Adult||Adults}使用他们的和睦孢子以心灵感应方式警告访客离开。(参见下面的 \"和睦孢子\"，了解这种交流方式的细节。) {@creature Myconid Sprout||Sprouts}逃向最近的成年人，警告他们有入侵者。如果角色攻击，菌类会自我防御。",
 								"为了说服敌方菌类交谈，或允许角色做任何事，而不是离开洞穴，角色必须在DC20魅力检查中取得成功。根据角色的方法，{@skill Deception}、{@skill Intimidation}或{@skill Persuasion}的技能可以适用于该检查。提及{@creature Tarak|DoSI}的名字或出示他送给菌类的祭品，可在此检定中获得优势。",
-								"An indifferent myconid is willing to explain what is going on in Seagrow Caves. The sprouts know only that their leader, {@creature Sinensa|DoSI}, has fallen ill\u2014and that a nasty smell pervades their caves. Adult myconids know that the \"crystal cave\" ({@area area B6|06b|x}) is the source of the foul odor and that {@creature Sinensa|DoSI} fell ill after going into that cave to investigate the issue. The myconids normally avoid that cave because sunlight filters into it by way of the vent at the western end of the cave, and even diffuse sunlight is unpleasant to these cave-dwelling creatures.",
+								"An indifferent myconid is willing to explain what is going on in Seagrow Caves. The sprouts know only that their leader, {@creature Sinensa|DoSI}, has fallen ill—and that a nasty smell pervades their caves. Adult myconids know that the \"crystal cave\" ({@area area B6|06b|x}) is the source of the foul odor and that {@creature Sinensa|DoSI} fell ill after going into that cave to investigate the issue. The myconids normally avoid that cave because sunlight filters into it by way of the vent at the western end of the cave, and even diffuse sunlight is unpleasant to these cave-dwelling creatures.",
 								{
 									"type": "entries",
 									"name": "Rapport Spores",
@@ -2103,7 +2251,7 @@
 											"title": "Map 3: Seagrow Caves",
 											"width": 1700,
 											"height": 1214,
-											"id": "0cf",
+											"id": "0f1",
 											"mapRegions": [
 												{
 													"area": "058",
@@ -4455,7 +4603,8 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DoSI/thumbnail/008-map-2.01-seagrow-caves.webp"
-											}
+											},
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
@@ -4475,8 +4624,9 @@
 											"width": 1700,
 											"height": 1214,
 											"mapParent": {
-												"id": "0cf"
-											}
+												"id": "0f1"
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								},
@@ -4616,7 +4766,8 @@
 												"path": "adventure/DoSI/010-02-002.myconids.webp"
 											},
 											"width": 1700,
-											"height": 1099
+											"height": 1099,
+											"credit": "Caroline Gariba"
 										},
 										{
 											"type": "insetReadaloud",
@@ -4740,7 +4891,8 @@
 						"path": "adventure/DoSI/011-03-001.splash-art.webp"
 					},
 					"width": 1700,
-					"height": 1230
+					"height": 1230,
+					"credit": "Linda Lithén"
 				},
 				"本章假设人物在海草洞之前来到这里，并且仍然是1级。如果角色在来这里之前完成了第2章\"{@adventure Seagrow Caves|DoSI|2}\"，并且现在是2级的话，本章还包括在战斗遭遇中提高危险程度的说明。",
 				{
@@ -4841,7 +4993,7 @@
 											"title": "Map 4: The Wreck of Compass Rose",
 											"width": 1700,
 											"height": 1214,
-											"id": "0d0",
+											"id": "0f2",
 											"mapRegions": [
 												{
 													"area": "080",
@@ -5408,7 +5560,8 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DoSI/thumbnail/012-map-3.01-wreck-of-compass-rose.webp"
-											}
+											},
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
@@ -5428,8 +5581,9 @@
 											"width": 1700,
 											"height": 1214,
 											"mapParent": {
-												"id": "0d0"
-											}
+												"id": "0f2"
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								},
@@ -5506,7 +5660,7 @@
 												"一根断裂的桅杆残骸从这个后甲板上伸出来，像一根断裂的长矛。这艘船的轮子是歪的，从它的装置上移开了。"
 											]
 										},
-										"The wheel bears the name of the ship\u2014{@i Compass Rose}\u2014engraved and inlaid with mother-of-pearl, though in the wheel's current position the name is upside down. If a character turns the wheel, it snaps free of its axle and falls. If the character tries to catch the wheel before it hits the deck, ask the player to make a DC 10 Dexterity {@book saving throw|PHB|7|Saving Throws}. On a successful save, the character catches the wheel. On a failed save, the wheel hits the deck with a loud thud that catches the attention of the {@creature Zombie||zombies} in area C4. A moment later, the thud is answered by a loud crash against the door to C4, which repeats every 10 to 15 seconds."
+										"The wheel bears the name of the ship—{@i Compass Rose}—engraved and inlaid with mother-of-pearl, though in the wheel's current position the name is upside down. If a character turns the wheel, it snaps free of its axle and falls. If the character tries to catch the wheel before it hits the deck, ask the player to make a DC 10 Dexterity {@book saving throw|PHB|7|Saving Throws}. On a successful save, the character catches the wheel. On a failed save, the wheel hits the deck with a loud thud that catches the attention of the {@creature Zombie||zombies} in area C4. A moment later, the thud is answered by a loud crash against the door to C4, which repeats every 10 to 15 seconds."
 									]
 								},
 								{
@@ -5582,7 +5736,7 @@
 												"这间小屋的边缘有六张双层床铺。房间里散落着个人物品，一面墙上挂着一幅褪色的画像。"
 											]
 										},
-										"The portrait shows a young couple smiling and embracing. Written across the bottom of the portrait are the words \"Aleitha and Brastos\u2014together forever.\" The black-haired woman wears a sailor's uniform similar to the tatters worn by the zombies aboard this ship. The blond-haired man wears a merchant's {@item fine clothes|PHB}.",
+										"The portrait shows a young couple smiling and embracing. Written across the bottom of the portrait are the words \"Aleitha and Brastos—together forever.\" The black-haired woman wears a sailor's uniform similar to the tatters worn by the zombies aboard this ship. The blond-haired man wears a merchant's {@item fine clothes|PHB}.",
 										{
 											"type": "entries",
 											"name": "Floorboard Stash",
@@ -5722,7 +5876,8 @@
 												"path": "adventure/DoSI/014-03-002.seaweed.webp"
 											},
 											"width": 850,
-											"height": 841
+											"height": 841,
+											"credit": "Jenn Ravenna"
 										},
 										{
 											"type": "entries",
@@ -5867,7 +6022,8 @@
 						"path": "adventure/DoSI/015-04-001.splash-art.webp"
 					},
 					"width": 1700,
-					"height": 1099
+					"height": 1099,
+					"credit": "Alex Stone"
 				},
 				"本章假设人物在探索了海草洞和{@i Compass Rose}的残骸后访问了天文台，因此已经达到了第三级。如果他们在参观其他冒险地点之前来到这里，那么战斗遭遇对他们来说可能太难了。这就是{@creature Runara|DoSI}在他们处理完岛上的其他问题后才会给人物月光石钥匙或关于天文台的信息的原因。如果有必要，你可以让{@creature Runara|DoSI}警告角色，他们还没有准备好面对冒险的这一部分。",
 				{
@@ -5935,7 +6091,7 @@
 									]
 								},
 								"蓝色的形状是Sparkrender飞过。对龙的这一瞥是一个机会，可以让你的玩家对他们即将面对的敌人感到紧张。你可以对Sparkrender的描述进行详细说明，并利用角色对他可能会发现他们的担心进行发挥，但最终他没有注意到他们就经过了。角色们看到他在海岸边的岩石尖顶上休息，因为他回到了废墟中的囤积物（{@adventure area {@dice D5}|DoSI|4|D5: 天文台塔}）。",
-								"A character who examines the crystalline protrusions or the scarred vegetation can make a DC 10 Intelligence ({@skill Nature}) check. On a success, the character recognizes the phenomenon as a sign of lightning strikes\u2014or the lightning breath of a blue or bronze dragon.",
+								"A character who examines the crystalline protrusions or the scarred vegetation can make a DC 10 Intelligence ({@skill Nature}) check. On a success, the character recognizes the phenomenon as a sign of lightning strikes—or the lightning breath of a blue or bronze dragon.",
 								"假设人物继续向天文台前进，他们很快就会到达{@adventure area {@dice D1}|DoSI|4|D1: 俯瞰}，如下所述。"
 							]
 						},
@@ -6022,7 +6178,7 @@
 											"title": "Map 5: Clifftop Observatory",
 											"width": 1700,
 											"height": 1214,
-											"id": "0d1",
+											"id": "0f3",
 											"mapRegions": [
 												{
 													"area": "0ab",
@@ -6550,7 +6706,8 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DoSI/thumbnail/016-map-4.01-clifftop-observatory.webp"
-											}
+											},
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
@@ -6570,8 +6727,9 @@
 											"width": 1700,
 											"height": 1214,
 											"mapParent": {
-												"id": "0d1"
-											}
+												"id": "0f3"
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								},
@@ -6588,7 +6746,7 @@
 												"一条断裂且杂草丛生的小路蜿蜒至悬崖边缘。悬崖边上有两座大理石雕像，每座雕像都雕刻成龙的形状，张着嘴发出无声的咆哮。"
 											]
 										},
-										"At the base of each statue is a small hexagonal indentation, about 1 inch wide and 2 inches deep\u2014perfectly sized to accommodate the moonstone key {@creature Runara|DoSI} gave them.",
+										"At the base of each statue is a small hexagonal indentation, about 1 inch wide and 2 inches deep—perfectly sized to accommodate the moonstone key {@creature Runara|DoSI} gave them.",
 										"When the key is inserted into the base of either statue, magical light sparks to life in both statues' open mouths, and a shimmering bridge made of iridescent magical energy extends from the overlook to the observatory ruins (area {@dice D2}). The bridge is sturdy and lasts until the key is removed from the statue."
 									]
 								},
@@ -6832,7 +6990,7 @@
 												"浓重的陈旧羊皮纸气味的陈旧空气充斥着你的鼻孔。墙壁上的书架上塞满了旧书和发黄的卷轴。玻璃柜子被推倒后破碎，里面的东西散落在石头地板上。木头碎裂的声音在空间里回荡，片刻之后，你看到一条像熊一样大小的激动的青铜龙，从他显然是撞到的旧桌子的残骸中拾起自己。"
 											]
 										},
-										"Aidron the {@creature bronze dragon wyrmling} excitedly greets the characters when they enter. He has spent days trying to dig his way out through the caved-in wall, but his efforts from the inside only caused further collapse. He is eager to escape, but if the characters ask, he explains his conflict with Sparkrender. He expresses regret over his inability to defeat the blue wyrmling and concern for the safety of the island's other inhabitants. And he is terrified of the fate Sparkrender has in store for him\u2014the blue dragon plans to use Aidron's death to claim the power of all the dead dragons on the island, transforming himself into a mighty draconic avatar.",
+										"Aidron the {@creature bronze dragon wyrmling} excitedly greets the characters when they enter. He has spent days trying to dig his way out through the caved-in wall, but his efforts from the inside only caused further collapse. He is eager to escape, but if the characters ask, he explains his conflict with Sparkrender. He expresses regret over his inability to defeat the blue wyrmling and concern for the safety of the island's other inhabitants. And he is terrified of the fate Sparkrender has in store for him—the blue dragon plans to use Aidron's death to claim the power of all the dead dragons on the island, transforming himself into a mighty draconic avatar.",
 										"如果角色们还没有打败斯帕克雷德，艾德隆决定亲自面对这条蓝龙。他飞到瞭望塔的顶端（{@adventure area {@dice D5}|DoSI|4|D5: Observatory Tower}），再次与Sparkrender对峙。然而，艾德隆太弱了，他无法独自击败斯帕克雷德；他需要角色们的帮助。",
 										"一旦斯帕克雷德被打败，青铜巫妖就会兴奋地和人物一起回到龙之谷。",
 										{
@@ -6896,23 +7054,23 @@
 													],
 													"rows": [
 														[
-															"1\u20132",
+															"1–2",
 															"阿斯塔拉根的祝福。艾德隆和角色们各自恢复了{@dice 1d4 + 4}的命中率，因为青铜色的光芒以温暖的方式包围着他们。"
 														],
 														[
-															"3\u20134",
+															"3–4",
 															"克利萨瓦尔的火焰。斯帕克雷德必须在DC12的灵巧救赎中成功，否则在金光撞向他的时候会受到7({@dice 2d6}的火焰伤害。"
 														],
 														[
-															"5\u20136",
+															"5–6",
 															"埃尔德内米尔的礼物。当蓝光笼罩着他时，斯帕克雷德的呼吸武器充能了。"
 														],
 														[
-															"7\u20138",
+															"7–8",
 															"沙鲁斯的怒火。每个角色都必须在DC12的灵巧救赎上成功，否则在红光爆发时受到3({@dice 1d6})的火焰伤害。"
 														],
 														[
-															"9\u201310",
+															"9–10",
 															"Turadaer's Tricks. Aidron and the characters gain {@book advantage|PHB|7|Advantage and Disadvantage} on attack rolls and saving throws until initiative count 0 of the next round, as the brass light shimmers and sparks around them."
 														]
 													]
@@ -7030,7 +7188,8 @@
 						"path": "adventure/DoSI/019-06-001.zombies-attack.webp"
 					},
 					"width": 1700,
-					"height": 1025
+					"height": 1025,
+					"credit": "Suzanne Helmigh"
 				},
 				"本附录包含出现在{@i Dragons of Stormwreck Isle}的生物的状态块和简短描述。",
 				{
@@ -7142,7 +7301,7 @@
 							"id": "0dd",
 							"entries": [
 								"蓄力投掷条目是为精通一种或多种蓄力投掷的生物保留的。",
-								"Saving throws in a stat block are shown with the total modifier\u2014the creature's ability modifier plus its proficiency bonus. If a creature's stat block says \"Con +4,\" roll a {@dice d20} and add 4 when the creature makes a saving throw using Constitution."
+								"Saving throws in a stat block are shown with the total modifier—the creature's ability modifier plus its proficiency bonus. If a creature's stat block says \"Con +4,\" roll a {@dice d20} and add 4 when the creature makes a saving throw using Constitution."
 							]
 						},
 						{
@@ -7253,7 +7412,7 @@
 										}
 									]
 								},
-								"{@b Recharge X\u2013Y}. The notation \"Recharge X\u2013Y\" means a creature can use a special ability once, and then the ability has a random chance of recharging during each subsequent round of combat. At the start of each of the creature's turns, roll a {@dice d6}. If the roll is one of the numbers in the recharge notation, the creature regains the use of that special ability. The ability also recharges when the creature finishes a short or long rest. For example, \"Recharge 5\u20136\" means a creature can use the special ability once. Then, at the start of the creature's turn each round, it regains the use of the ability if it rolls a 5 or 6 on a {@dice d6}."
+								"{@b Recharge X–Y}. The notation \"Recharge X–Y\" means a creature can use a special ability once, and then the ability has a random chance of recharging during each subsequent round of combat. At the start of each of the creature's turns, roll a {@dice d6}. If the roll is one of the numbers in the recharge notation, the creature regains the use of that special ability. The ability also recharges when the creature finishes a short or long rest. For example, \"Recharge 5–6\" means a creature can use the special ability once. Then, at the start of the creature's turn each round, it regains the use of the ability if it rolls a 5 or 6 on a {@dice d6}."
 							]
 						}
 					]
@@ -7289,6 +7448,133 @@
 								"{@creature Violet Fungus}",
 								"{@creature Winged Kobold}",
 								"{@creature Zombie}"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Credits",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"columns": 2,
+					"items": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Lead Designer",
+									"entries": [
+										"James Wyatt"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Designers",
+									"entries": [
+										"Sydney Adams, Makenzie De Armas, Dan Dillon"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Rules Developers",
+									"entries": [
+										"Jeremy Crawford, Ben Petrisor"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Art Director",
+									"entries": [
+										"Kate Irwin"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Cover Illustrator",
+									"entries": [
+										"Karl Kopinski"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Interior Illustrators",
+									"entries": [
+										"Olivier Bernard, Christopher Burdett, Conceptopolis, Caroline Gariba, Ilse Gort, Suzanne Helmigh, Daniel Landerman, Linda Lithén, Brynn Metheney, David Auden Nash, Hector Ortiz, Ryan Pancoast, Jenn Ravenna, Alex Stone"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Cartographer",
+									"entries": [
+										"Mike Schley"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Graphic Designer",
+									"entries": [
+										"Bob Jordan"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Editors",
+									"entries": [
+										"Judy Bauer, Michele Carter"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Product Manager",
+									"entries": [
+										"Natalie Egan"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Producer",
+									"entries": [
+										"Rob Hawkey"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "D&D Beyond",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Senior Producer",
+													"entries": [
+														"Faith Elisabeth Lilley"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Digital Design Team",
+													"entries": [
+														"Jay Jani, Adam Walton, Joseph Keen, Cameron Powell"
+													]
+												}
+											]
+										}
+									]
+								}
 							]
 						}
 					]

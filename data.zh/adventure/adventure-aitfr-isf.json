@@ -15,7 +15,8 @@
 						"path": "adventure/AitFR-ISF/image-007.webp"
 					},
 					"width": 1242,
-					"height": 1296
+					"height": 1296,
+					"credit": "Kasia 'Kafis' Zielińska"
 				},
 				{
 					"type": "entries",
@@ -383,7 +384,7 @@
 							],
 							"id": "028"
 						},
-						"The walls are quite solid to the touch. Anyone in this room can focus their attention to see and hear into areas 5 and 6. The passive {@skill Perception} scores of creatures in this chamber suffer a\u20135 penalty while observing the adjoining chambers."
+						"The walls are quite solid to the touch. Anyone in this room can focus their attention to see and hear into areas 5 and 6. The passive {@skill Perception} scores of creatures in this chamber suffer a–5 penalty while observing the adjoining chambers."
 					],
 					"id": "027"
 				},
@@ -392,7 +393,7 @@
 					"name": "8. Second-Level Passageways",
 					"page": 6,
 					"entries": [
-						"These passages of fitted stone blocks are sturdy and intact throughout much of the second level\u2014but not all of it. Between the ritual chambers (areas 10, 11, and 12), the floor has been shaken and cracked by side effects from the sinkhole collapse nearby. Everything in area 8 is capable of supporting the weight of the adventurers but can also reveal light and carry sound to {@creature Exul|AitFR-ISF} in the grand library below (area 14).",
+						"These passages of fitted stone blocks are sturdy and intact throughout much of the second level—but not all of it. Between the ritual chambers (areas 10, 11, and 12), the floor has been shaken and cracked by side effects from the sinkhole collapse nearby. Everything in area 8 is capable of supporting the weight of the adventurers but can also reveal light and carry sound to {@creature Exul|AitFR-ISF} in the grand library below (area 14).",
 						"在14号区域的生物，在智慧({@skill Perception})检查中处于劣势，无法窥视这个区域，被动{@skill Perception}也会受到5的惩罚，无法静心注意这个区域的事物。",
 						"试图通过这里的地板观察大图书馆的冒险者在检查时也有劣势，除非他们趴在地板上通过缝隙来观察。"
 					],
@@ -624,7 +625,8 @@
 								"path": "adventure/AitFR-ISF/image-064.webp"
 							},
 							"width": 1243,
-							"height": 1636
+							"height": 1636,
+							"credit": "Bram Sels"
 						},
 						"这里是遗址的核心，多年前巫师们使用它的时候就是如此。随着教派力量的减弱，许多文字被逐渐移走，但大部分文字仍留在这里。最后一批巫师在最后一次离开时，并不知道他们再也回不来了。",
 						"泰勒斯和莫维娜在几个小时前离开了，之前他们命令名为{@creature Exul|AitFR-ISF}的火热人形元素摧毁图书馆的收藏。(Tyreus只是在掩盖他的踪迹。)这个命令是Tyreus对{@creature Exul|AitFR-ISF}所下的格拉斯的一部分。",
@@ -637,7 +639,7 @@
 									"name": "The Fire Spirit",
 									"page": 10,
 									"entries": [
-										"{@creature Exul|AitFR-ISF} kills time here while he can, reading what he is about to burn. He sits atop a pile of scrolls and books in the middle of the room and allows himself to be distracted by his reading unless intruders catch his attention. He thinks {@creature Malivar|AitFR-ISF} has died or fled and acts as if he has the barrow to himself and his elementals. While distracted by his reading, he has a\u20135 penalty to his passive {@skill Perception} score.",
+										"{@creature Exul|AitFR-ISF} kills time here while he can, reading what he is about to burn. He sits atop a pile of scrolls and books in the middle of the room and allows himself to be distracted by his reading unless intruders catch his attention. He thinks {@creature Malivar|AitFR-ISF} has died or fled and acts as if he has the barrow to himself and his elementals. While distracted by his reading, he has a–5 penalty to his passive {@skill Perception} score.",
 										"如果他怀疑自己不再是一个人，他就会继续无所事事地阅读和刻录文本，但不再允许自己分心。",
 										"如果他知道有入侵者，他就会召唤一个元素来保护他--最好是一个火元素，因为它可以帮助他烧掉图书馆，或者根据需要溜进15区来帮助那里的元素。当他可以的时候，{@creature Exul|AitFR-ISF}继续他的任务，烧掉图书馆，这样他就可以离开，而不会受到他身上的地气的伤害。",
 										"{@creature Exul|AitFR-ISF} is a cunning, unfair combatant. He uses invisibility to protect himself. He hurls fire and casts {@spell wall of fire} to accelerate his work. If either he or the library has fewer than 25 percent of their hit point maximum, {@creature Exul|AitFR-ISF} may attempt to flee by casting plane shift and traveling alone to the Elemental Plane of Fire. He might do this even if his task is incomplete, risking damage from Tyreus's geas. {@creature Exul|AitFR-ISF} is smart but reckless. He leaves any elementals behind to combat the adventurers."
@@ -698,15 +700,15 @@
 									],
 									"rows": [
 										[
-											"0\u201350 hp",
+											"0–50 hp",
 											"轻微损失。只有传说和传奇被烧毁，收藏品的价值减少500gp。"
 										],
 										[
-											"51\u2013100 hp",
+											"51–100 hp",
 											"中度损失。一个{@item spell scroll}被摧毁，收藏品的价值减少1,500gp。"
 										],
 										[
-											"101\u2013200 hp",
+											"101–200 hp",
 											"主要损失。两个法术卷轴被毁，收藏品的价值减少了3,000金币。"
 										]
 									]
@@ -753,7 +755,7 @@
 					"name": "16. Honored Crypts",
 					"page": 11,
 					"entries": [
-						"The ceremonial hall was meant to end in a fresco depicting a starry sky, the moon, and its tail. Much of that fresco has fallen away with Tyreus's arrival, revealing bare, gray stone underneath\u2014a wall that hides a door, which was never meant to be opened. A successful DC 15 Intelligence ({@skill Investigation}) or Wisdom ({@skill Perception}) check reveals the door amid the rubble.",
+						"The ceremonial hall was meant to end in a fresco depicting a starry sky, the moon, and its tail. Much of that fresco has fallen away with Tyreus's arrival, revealing bare, gray stone underneath—a wall that hides a door, which was never meant to be opened. A successful DC 15 Intelligence ({@skill Investigation}) or Wisdom ({@skill Perception}) check reveals the door amid the rubble.",
 						{
 							"type": "insetReadaloud",
 							"entries": [
@@ -786,7 +788,8 @@
 								"path": "adventure/AitFR-ISF/image-075.webp"
 							},
 							"width": 656,
-							"height": 699
+							"height": 699,
+							"credit": "Alayna Danner"
 						}
 					],
 					"id": "04c"
@@ -799,7 +802,7 @@
 			"name": "Part 3: What's Next?",
 			"page": 12,
 			"entries": [
-				"The adventurers may have treasure to sell and lore to lend, or questions in mind and wounds to tend. The aftermath of this adventure is a bundle of questions, so focus on the characters and what they want to do next, perhaps with downtime activities. If they want to chase down Tyreus and Morwena, that trail might simply go cold\u2014for now. Their threads reappear in the next adventure: {@adventure The Hidden Page|AitFR-THP}.",
+				"The adventurers may have treasure to sell and lore to lend, or questions in mind and wounds to tend. The aftermath of this adventure is a bundle of questions, so focus on the characters and what they want to do next, perhaps with downtime activities. If they want to chase down Tyreus and Morwena, that trail might simply go cold—for now. Their threads reappear in the next adventure: {@adventure The Hidden Page|AitFR-THP}.",
 				{
 					"type": "entries",
 					"name": "The Barrow Wizards",
@@ -866,7 +869,8 @@
 						"path": "adventure/AitFR-ISF/image-090.webp"
 					},
 					"width": 1129,
-					"height": 458
+					"height": 458,
+					"credit": "Will Hindmarch"
 				},
 				{
 					"type": "image",
@@ -1184,7 +1188,8 @@
 						"type": "internal",
 						"path": "adventure/AitFR-ISF/thumbnail/image-093.webp"
 					},
-					"id": "056"
+					"id": "056",
+					"credit": "Will Hindmarch"
 				},
 				{
 					"type": "image",
@@ -1313,7 +1318,8 @@
 						"type": "internal",
 						"path": "adventure/AitFR-ISF/thumbnail/image-095.webp"
 					},
-					"id": "057"
+					"id": "057",
+					"credit": "Will Hindmarch"
 				},
 				{
 					"type": "image",
@@ -1445,7 +1451,8 @@
 						"type": "internal",
 						"path": "adventure/AitFR-ISF/thumbnail/image-097.webp"
 					},
-					"id": "058"
+					"id": "058",
+					"credit": "Will Hindmarch"
 				}
 			],
 			"id": "055"

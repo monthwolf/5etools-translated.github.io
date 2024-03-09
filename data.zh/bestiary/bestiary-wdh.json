@@ -221,6 +221,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Ammalia is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She has the following wizard spells prepared:"
 					],
@@ -375,7 +376,7 @@
 				"G"
 			],
 			"speed": {
-				"walk": 25,
+				"walk": 30,
 				"swim": 30
 			},
 			"resist": [
@@ -529,6 +530,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Barnibus is a 7th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks) He has the following wizard spells prepared:"
 					],
@@ -931,6 +933,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Davil is a 12th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks) He has the following bard spells prepared:"
 					],
@@ -1255,6 +1258,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The drow's spellcasting ability is Charisma (spell save {@dc 12}) It can innately cast the following spells, requiring no material components:"
 					],
@@ -1287,7 +1291,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"在阳光下时，乌鸦在攻击卷轴以及依靠视觉的智慧（感知）检查上都处于劣势。"
+						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -1475,32 +1479,6 @@
 					"human"
 				]
 			},
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"special": "1"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"languages": [
-				"Common"
-			],
-			"cr": "Unknown",
-			"languageTags": [
-				"C"
-			],
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -1545,6 +1523,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"安布里克的法术能力是宪法（{@hit 4}用法术攻击命中）。他可以天生施展以下法术，不需要任何物质成分。"
 					],
@@ -1644,6 +1623,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"侏儒是一个1级的施法者。它的法术能力是智力。它准备了以下巫师法术。"
 					],
@@ -1773,6 +1753,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"法拉是一个四级的施法者。他们的法术能力是智慧。他们有以下德鲁伊法术准备。"
 					],
@@ -2203,6 +2184,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Grum'shar是一个1级的施法者。他的法术能力是智力。他准备了以下巫师法术。"
 					],
@@ -2370,6 +2352,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Hlam is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks) He has the following cleric spells prepared:"
 					],
@@ -2719,6 +2702,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Istrid is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks) She has the following cleric spells prepared:"
 					],
@@ -3033,6 +3017,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"詹达的法术能力是魅力。他可以天生施展以下法术，不需要任何物质成分。"
 					],
@@ -3043,6 +3028,7 @@
 				},
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"詹达是一个4级的施法者。他的法术能力是智慧。Jandar准备了以下的牧师法术。"
 					],
@@ -3204,6 +3190,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Jarlaxle's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks) He can innately cast the following spells, requiring no material components:"
 					],
@@ -3266,7 +3253,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"当不戴他的骑士眼罩时，Jarlaxle在攻击卷轴上有劣势，在依靠视觉的智慧（感知）检查上也是如此。"
+						"When not wearing his knave's eye patch, Jarlaxle has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -3362,26 +3349,6 @@
 					"human"
 				]
 			},
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"special": "1"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "Unknown",
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -3447,6 +3414,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"凯芙佳是一个9级的施法者。她的法术能力是智力。凯芙佳准备了以下巫师法术。"
 					],
@@ -3504,7 +3472,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"凯芙佳携带一颗黄色的元素宝石。作为一个行动，她可以打破宝石，释放出一个在她指挥下的土元素。"
+						"Kaevja carries a yellow {@item elemental gem}. As an action she can break the gem releasing an earth elemental under her command."
 					]
 				}
 			],
@@ -3610,6 +3578,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"卡莱恩是一个四级的施法者。她的法术能力是魅力。她准备了以下的吟游诗人法术。"
 					],
@@ -3934,6 +3903,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Laeral is a 19th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). Laeral has the following wizard spells prepared:"
 					],
@@ -4201,6 +4171,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Laiba的法术能力是魅力。她可以天生施展以下法术，不需要任何材料成分。"
 					],
@@ -4211,6 +4182,7 @@
 				},
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Laiba是一个4级的施法者。她的法术能力是智慧。Laiba准备了以下的牧师法术。"
 					],
@@ -4363,6 +4335,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"法师是一个9级的施法者。它的法术能力是智力。法师准备了以下巫师法术。"
 					],
@@ -4629,6 +4602,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"法师是一个9级的施法者。它的法术能力是智力。法师准备了以下巫师法术。"
 					],
@@ -4807,6 +4781,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Manshoon is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 15} to hit with spell attacks). He has the following wizard spells prepared:"
 					],
@@ -5026,6 +5001,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Manshoon is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 15} to hit with spell attacks). He has the following wizard spells prepared:"
 					],
@@ -5318,6 +5294,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"梅兰诺是一个4级的施法者。他的法术能力是智慧。他准备了以下德鲁伊的法术。"
 					],
@@ -5700,26 +5677,6 @@
 					"human"
 				]
 			},
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"special": "1"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "Unknown",
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -6391,6 +6348,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"矮人是一个1级的施法者。它的法术能力是智力。它有以下的巫师法术准备。"
 					],
@@ -6521,6 +6479,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Remallia is a 13th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). She has the following wizard spells prepared:"
 					],
@@ -6838,6 +6797,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Rishaal是一个9级的施法者。他的法术能力是智力。Rishaal准备了以下巫师法术。"
 					],
@@ -7058,10 +7018,12 @@
 			"_copy": {
 				"name": "Spy",
 				"source": "MM",
-				"_trait": {
-					"name": "Stout Halfling",
-					"source": "PHB"
-				},
+				"_templates": [
+					{
+						"name": "Stout Halfling",
+						"source": "PHB"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -7156,7 +7118,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"碎片顺手牵羊者在依靠嗅觉的智慧（感知）检查中具有优势。"
+						"The Shard Shunner has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
@@ -7296,6 +7258,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Skeemo is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks) He has the following wizard spells prepared:"
 					],
@@ -7464,6 +7427,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"索鲁恩的法术能力是魅力。它可以天生施展以下法术，不需要任何材料成分。"
 					],
@@ -7496,7 +7460,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"在阳光下时，索卢恩在攻击卷上有劣势，在依靠视觉的智慧（感知）检查上也是如此。"
+						"While in sunlight, Soluun has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				},
 				{
@@ -7508,7 +7472,7 @@
 				{
 					"name": "Boots of Elvenkind",
 					"entries": [
-						"在穿上这双靴子时，Soluun的脚步不会发出任何声音，而且他在任何依赖无声移动的灵巧（隐身）检查中都有优势。"
+						"Whilst wearing these boots Soluun's steps make no sound and he has advantage on any Dexterity ({@skill Stealth}) checks that rely on moving silently."
 					]
 				}
 			],
@@ -7584,26 +7548,9 @@
 					"tiefling"
 				]
 			},
-			"alignment": [
-				"N"
+			"senses": [
+				"darkvision 60 ft."
 			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"special": "1"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "Unknown",
 			"hasToken": true,
 			"hasFluffImages": true
 		},
@@ -8085,32 +8032,6 @@
 					"human"
 				]
 			},
-			"alignment": [
-				"N"
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"special": "1"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"languages": [
-				"Common"
-			],
-			"cr": "Unknown",
-			"languageTags": [
-				"C"
-			],
 			"hasToken": true
 		},
 		{
@@ -8356,6 +8277,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Tissina的法术能力是魅力。她可以天生施展以下法术，不需要任何物质成分。"
 					],
@@ -8366,6 +8288,7 @@
 				},
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Tissina是一个4级的施法者。她的法术能力是智慧。Tissina准备了以下的牧师法术。"
 					],
@@ -8658,6 +8581,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Vajra is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 12} to hit with spell attacks). She has the following wizard spells prepared:"
 					],
@@ -8868,6 +8792,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"瓦莱塔是一个5级的施法者。她的法术能力是智慧。瓦莱塔准备了以下的牧师法术。"
 					],
@@ -9032,6 +8957,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Victoro is a 15th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Victoro has the following cleric spells prepared:"
 					],
@@ -9956,6 +9882,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"齐拉伊是一个10级的施法者。他的法术能力是魅力。他准备了以下的圣骑士法术。"
 					],

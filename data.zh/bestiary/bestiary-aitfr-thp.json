@@ -71,7 +71,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"当在阳光下时，恐怖者在攻击卷和依靠视觉的智慧（感知）检查上有劣势。"
+						"While in sunlight, the horror has disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -203,6 +203,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Morwena is a 10th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 6} to hit with spell attacks). She has the following wizard spells prepared:"
 					],
@@ -378,6 +379,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The usagt's innate spellcasting ability is Charisma (spell save {@dc 15}). It can cast the following spells, requiring no spell components:"
 					],
@@ -419,7 +421,7 @@
 				{
 					"name": "Personal Insight",
 					"entries": [
-						"The usagt targets one creature it can see within 30 feet of it. The target must contest its Charisma ({@skill Deception}) check against the usagt's Wisdom (Insight) check.",
+						"The usagt targets one creature it can see within 30 feet of it. The target must contest its Charisma ({@skill Deception}) check against the usagt's Wisdom ({@skill Insight}) check.",
 						"如果目标对被{@condition charmed}免疫，则在掷骰子上有优势。目标可以选择不通过这个检查。",
 						"如果usagt赢了，它就会神奇地学到目标人物过去的身份，目标人物希望能再次与之交谈，或者目标人物对其有话未说。如果目标的过去没有这样的生物存在，那么usagt就会学到这个生物。"
 					]

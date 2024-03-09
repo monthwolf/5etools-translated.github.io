@@ -18,23 +18,6 @@
 			]
 		},
 		{
-			"name": "Cult of Asmodeus",
-			"source": "UAFiendishOptions",
-			"page": 3,
-			"type": "Diabolical",
-			"entries": [
-				"{@deity Asmodeus|faerûnian|scag}要求所有在九大邪教中获得权力和领导权的邪教徒效忠。他的邪教凌驾于其他所有的邪教之上。",
-				"任何领导邪恶邪教的NPC也必须承认阿斯莫德的力量。作为回报，这些邪教领袖中最有能力和价值的人将获得内瑟斯的要求。",
-				{
-					"type": "entries",
-					"name": "Demands of Nessus",
-					"entries": [
-						"At the start of each of this creature's turns, this creature can choose one ally it can see within 30 feet of it. The chosen ally loses 10 hit points, and this creature regains the same number of hit points. If the creature is {@condition incapacitated}, it makes no choice; instead, the closest ally within 30 feet is the chosen ally."
-					]
-				}
-			]
-		},
-		{
 			"name": "Cult of Atropus, the World Born Dead",
 			"source": "MTF",
 			"page": 237,
@@ -72,32 +55,6 @@
 			"entries": [
 				"巴尔泽布尔通常招募的是个人而不是邪教。他为那些失败促使他们寻求救赎的人提供希望。",
 				"他给予了一个好处，即 \"巴勒泽布之路\"（Path of Baalzebul）的特性，让一个受宠的邪教徒在盟友失败后看起来很好。",
-				{
-					"type": "entries",
-					"name": "Path of Baalzebul",
-					"entries": [
-						"作为其回合的额外行动，这个生物可以选择一个它能看到的30英尺内的盟友。直到这个生物的下一个回合开始时，它在所有的能力检查和攻击卷上获得优势，而被选择的盟友在所有的能力检查、攻击卷和蓄势待发上受到不利影响。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Cult of Baalzebul",
-			"source": "UAFiendishOptions",
-			"page": 3,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "恢复荣誉和尊重，以窃取荣誉的人为代价"
-			},
-			"cultists": {
-				"entry": "任何遭受堕落的NPC或怪物"
-			},
-			"signaturespells": {
-				"entry": "{@spell Minor illusion}(咒语), {@spell disguise self}(第一层), {@spell phantasmal force}(第二层), {@spell major image}(第三层)"
-			},
-			"entries": [
-				"巴尔泽布尔通常招募的是个人而不是邪教。他为那些失败促使他们寻求救赎的人提供希望。",
-				"巴尔泽布尔有时会增加追随他的人的魅力。他还给予一种恩惠，即巴勒泽布之路特性，使一个受宠的邪教徒在盟友失败的情况下看起来很好。",
 				{
 					"type": "entries",
 					"name": "Path of Baalzebul",
@@ -271,40 +228,6 @@
 			]
 		},
 		{
-			"name": "Cult of Dispater",
-			"source": "UAFiendishOptions",
-			"page": 3,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "秘密获得和使用权力，通过敲诈施加影响，通过了解人们和组织的弱点和耻辱来控制他们"
-			},
-			"cultists": {
-				"entry": "{@creature Acolyte}, {@creature bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}"
-			},
-			"signaturespells": {
-				"entry": "{@spell Guidance}(咒语), {@spell identify}(第一层), {@spell see invisibility}(第二层), {@spell clairvoyance}(第三层)"
-			},
-			"entries": [
-				"迪斯派特以秘密为交易对象，以生物的灵魂作为交换。他的教派通常用秘密来换取魔鬼的其他信息。他们经常策划阴谋，旨在推翻和取代政府或宗教组织。",
-				"Renegade {@creature mind flayer||mind flayers} sometimes strike pacts with Dispater in search of the secrets needed to forever escape an {@creature Elder Brain|vgm}'s domination.",
-				"崇拜者可以获得地狱洞察力的特质。邪教领袖也可能拥有 \"令人厌恶的逃亡 \"特质。",
-				{
-					"type": "entries",
-					"name": "Infernal Insight (Recharges after a Short or Long Rest)",
-					"entries": [
-						"作为一个额外的行动，这个生物在它所做的所有能力检查和攻击卷上获得优势，直到当前回合结束。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Vexing Escape (1/Day)",
-					"entries": [
-						"当这种生物受到伤害时，作为反应，它可以将伤害减少到0，并传送到它能看到的未被占领的空间，最多可以传送60英尺。"
-					]
-				}
-			]
-		},
-		{
 			"name": "Cult of Fierna",
 			"source": "MTF",
 			"page": 21,
@@ -321,39 +244,6 @@
 			"entries": [
 				"菲尔娜是个操纵大师。渴望爱情成功的凡人，或寻求成为受人爱戴的领袖，成为一群狂热者的首领，都会被吸引到与她进行交易。",
 				"她的崇拜者可以获得地狱忠诚的特质。邪教领袖也可以获得超越死亡的忠诚特质。",
-				{
-					"type": "entries",
-					"name": "Infernal Loyalty",
-					"entries": [
-						"当它能看到30英尺范围内具有 \"死亡之外的忠诚 \"特性的生物时，该生物在拯救动作上具有优势。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Loyalty beyond Death (Recharges after a Short or Long Rest)",
-					"entries": [
-						"作为反应，当这个生物可以看到的盟友被降低到0命中率时，该盟友反而被降低到1命中率，并获得相当于这个生物的魅力值+其命中率一半的临时命中率。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Cult of Fierna",
-			"source": "UAFiendishOptions",
-			"page": 3,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "控制他人的情绪，把他们变成木偶和玩物"
-			},
-			"cultists": {
-				"entry": "{@creature Acolyte}, {@creature archmage}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature priest}, {@creature spy}"
-			},
-			"signaturespells": {
-				"entry": "{@spell Friends}(咒语), {@spell charm person}(第一层), {@spell suggestion}(第二层), {@spell hypnotic pattern}(第三层)"
-			},
-			"entries": [
-				"菲尔娜是个操纵大师。渴望爱情成功的凡人，或寻求成为受人爱戴的领袖，成为一群狂热者的首领，都会被吸引到与她进行交易。",
-				"Fierna grants gifts that allow her cultists to manipulate emotions; they gain increases to Charisma, as well as proficiency with skills such as {@skill Persuasion} and {@skill Intimidation}. In addition, cultists can gain the Infernal Loyalty trait. Cult leaders can also gain the Loyalty beyond Death trait.",
 				{
 					"type": "entries",
 					"name": "Infernal Loyalty",
@@ -450,40 +340,6 @@
 			]
 		},
 		{
-			"name": "Cult of Geryon",
-			"source": "UAFiendishOptions",
-			"page": 4,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "体力上的优势，通过力量支配他人，摧毁所有反对者"
-			},
-			"cultists": {
-				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature thug}, {@creature tribal warrior}, {@creature veteran||veterans}"
-			},
-			"signaturespells": {
-				"entry": "{@spell Shillelagh}(咒语), {@spell wrathful smite}(第一层), {@spell enhance ability}(第二层), {@spell aura of vitality}(第三层)"
-			},
-			"entries": [
-				"Despite being deposed, Geryon still has the ability to strike bargains. He deals especially with those who seek brute strength. Any warlike monster-such as {@creature orc||orcs}, {@creature ogre||ogres}, and {@creature troll||trolls}-can be lured into Geryon's cult.",
-				"格里昂的邪教徒通常会组成战斗连队和强盗团伙，通过在战斗中击败他人并拿走他们想要的战利品来证明自己的实力。",
-				"Geryon给予力量和体质的提升。此外，邪教成员可以获得粉碎性打击的特性。邪教领袖也可以获得不屈不挠的力量特质。",
-				{
-					"type": "entries",
-					"name": "Crushing Blow (Recharges after a Short or Long Rest)",
-					"entries": [
-						"作为一个奖励动作，该生物在其下一次近战武器攻击的伤害卷中获得一个奖励。该奖励等于它的力量修正值（最小值为+1）。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Indomitable Strength {@recharge 5}",
-					"entries": [
-						"当这个生物受到伤害时，作为反应，它可以掷出{@dice d10}并从伤害中减去掷出的数字。"
-					]
-				}
-			]
-		},
-		{
 			"name": "Cult of Glasya",
 			"source": "MTF",
 			"page": 21,
@@ -513,40 +369,6 @@
 					"name": "Infernal Ring Leader",
 					"entries": [
 						"作为反应，当这个生物被攻击击中时，它可以选择它能看到的5英尺范围内的一个盟友，并使该盟友被该攻击击中。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Cult of Glasya",
-			"source": "UAFiendishOptions",
-			"page": 4,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "通过将一个系统与自己对立起来而获得的权力，产生的权力不仅是绝对的，而且在文化和法律基础上是合法的"
-			},
-			"cultists": {
-				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature spy}, {@creature thug}"
-			},
-			"signaturespells": {
-				"entry": "{@spell Friends}(咒语), {@spell charm person}(第一层), {@spell invisibility}(第二层), {@spell haste}(第三层)"
-			},
-			"entries": [
-				"作为寻找漏洞和利用法律为自己谋利的专家，格拉西亚是小偷和其他罪犯的赞助人，尤其是腐败的贵族。她的影响应该是加强家庭纽带，但她对这一点做了自由的解释，并提供了可以用来对付家庭成员的礼物。",
-				"{@creature goblin||Goblins}冒着叛乱的风险反对他们的{@creature hobgoblin}主人，与格拉西亚达成协议，{@creature kenku}组成犯罪团伙的人也是如此。",
-				"格拉西亚给予魅力和灵巧的提升。此外，邪教成员可以获得 \"步入阴影 \"的特质。邪教领袖也可以获得地狱之环领袖的特质。",
-				{
-					"type": "entries",
-					"name": "Step into Shadows (Recharges after a Short or Long Rest)",
-					"entries": [
-						"As an action, this creature, along with anything it is wearing and carrying, magically becomes {@condition invisible} until the end of its next turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Infernal Ring Leader",
-					"entries": [
-						"作为反应，当这个生物被攻击卷击中时，它可以选择一个它能看到的5英尺内的盟友，并使该盟友成为该攻击卷的目标。"
 					]
 				}
 			]
@@ -657,34 +479,6 @@
 			]
 		},
 		{
-			"name": "Cult of Levistus",
-			"source": "UAFiendishOptions",
-			"page": 4,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "生存，并最终对那些伤害他们的人进行报复"
-			},
-			"cultists": {
-				"entry": "{@creature Assassin}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}, {@creature thug}"
-			},
-			"signaturespells": {
-				"entry": "{@spell Blade ward}(咒语), {@spell expeditious retreat}(第一层), {@spell spider climb}(第二层), {@spell gaseous form}(第三层)"
-			},
-			"entries": [
-				"莱维斯特没有传统意义上的邪教。",
-				"相反，他向那些急于摆脱似乎不可避免的命运的人提供帮助。",
-				"{@creature Drow}有时是莱维斯特的崇拜者，因为他们残酷的社会经常把他们推入他们觉得无法逃脱的境地。",
-				"莱维斯托斯通常会给那些把灵魂交给他的人一次逃离危险的机会，但是一些狡猾的人与莱维斯托斯达成了交易，把他们的灵魂交给他，以换取在未来的日子里逃离。这种恩惠以莱维斯特之路特性的形式出现。",
-				{
-					"type": "entries",
-					"name": "Path of Levistus",
-					"entries": [
-						"这个生物会神奇地传送到Levistus选择的1英里内的地点。这个能力也会恢复该生物的所有生命值。它可以作为生物的一个行动被调用，也可以在生物死亡时调用。一旦生物使用它，就不能再使用了。"
-					]
-				}
-			]
-		},
-		{
 			"name": "Cult of Mammon",
 			"source": "MTF",
 			"page": 21,
@@ -700,41 +494,6 @@
 			},
 			"entries": [
 				"玛门的贪婪压倒了其他一切。他与那些渴望物质财富的凡人打交道，并为他们提供了像感染一样传播这种贪婪的能力。",
-				"The greedy {@creature duergar} and even some dragons are prone to falling prey to Mammon's temptations, and merchants and trade guilds are vulnerable to his bargains.",
-				"玛门的崇拜者可以获得 \"掌握之手 \"的特质。邪教领袖也可以获得 \"财富的承诺 \"的特质。",
-				{
-					"type": "entries",
-					"name": "Grasping Hands (Recharges after a Short or Long Rest)",
-					"entries": [
-						"作为一个额外的动作，这个生物可以用它能看到的15英尺范围内的生物的智慧（洞察力）检查来进行灵巧（灵巧的手）检查。如果这个生物成功了，它所选择的一件在目标身上可以看到的手持物品就会神奇地传送到它张开的手上。该物品不能是目标正在持有的物品，而且其重量不能超过10磅。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Promise of Wealth (Recharges after a Short or Long Rest)",
-					"entries": [
-						"作为一个额外的行动，这个生物选择一个它能看到的生物。它所选择的最多五个盟友会相信目标携带巨大财富。直到这个生物的下一个回合结束，这些盟友在所有针对目标的攻击卷上都获得优势。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Cult of Mammon",
-			"source": "UAFiendishOptions",
-			"page": 5,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "财富，不仅保证了个人的舒适和权力，而且剥夺了财富及其对他人的好处。"
-			},
-			"cultists": {
-				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature noble}, {@creature spy}, {@creature thug}"
-			},
-			"signaturespells": {
-				"entry": "{@spell Mending}(咒语), {@spell Tenser's floating disk}(第一层), {@spell arcane lock}(第二层), {@spell glyph of warding}(第三层)"
-			},
-			"entries": [
-				"玛门的贪婪压倒了其他一切。",
-				"他与那些渴望物质财富的凡人打交道，并为他们提供了像感染一样传播这种贪婪的能力。",
 				"The greedy {@creature duergar} and even some dragons are prone to falling prey to Mammon's temptations, and merchants and trade guilds are vulnerable to his bargains.",
 				"玛门的崇拜者可以获得 \"掌握之手 \"的特质。邪教领袖也可以获得 \"财富的承诺 \"的特质。",
 				{
@@ -770,39 +529,6 @@
 			"entries": [
 				"作为一个奥术大师，梅菲斯特在那些研究魔法的人中找到了热心的新兵。任何使用法术的怪物，如{@creature storm giant||storm giants}和{@creature oni}，都可能追随他，而巫师行会和圣人小会最有可能受到他的影响。",
 				"梅菲斯特的崇拜者可以获得法术护盾的特性。邪教领袖也可以获得法术诅咒的特性。",
-				{
-					"type": "entries",
-					"name": "Spell Shield",
-					"entries": [
-						"这种生物在对法术的蓄力攻击中获得优势。如果它的蓄力动作成功，它将获得相当于该法术等级的临时命中率。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spell Leech",
-					"entries": [
-						"作为一个额外的行动，这个生物选择一个它能看到的30英尺内的盟友。目标失去其最低等级的法术槽，而这个生物获得它。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Cult of Mephistopheles",
-			"source": "UAFiendishOptions",
-			"page": 5,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "神奇的技能和力量，并以使用它来粉碎对手的意志为后盾"
-			},
-			"cultists": {
-				"entry": "{@creature Archmage}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature priest}"
-			},
-			"signaturespells": {
-				"entry": "{@spell Fire bolt}(咒语), {@spell burning hands}(第一层), {@spell flaming sphere}(第二层), {@spell fireball}(第三层)"
-			},
-			"entries": [
-				"作为一个奥术大师，梅菲斯特在研究魔法的人中找到了热心的新兵。任何使用法术的怪物，如{@creature storm giant||storm giants}和{@creature oni}，都可能追随他，而巫师行会和圣人小会最有可能受到他的影响。",
-				"梅菲斯特赋予他的许多追随者以法术能力。此外，邪教成员可以获得法术护盾的特性。邪教领袖也可以获得法术吸血的特质。",
 				{
 					"type": "entries",
 					"name": "Spell Shield",
@@ -1252,40 +978,6 @@
 			]
 		},
 		{
-			"name": "Cult of Zariel",
-			"source": "UAFiendishOptions",
-			"page": 5,
-			"type": "Diabolical",
-			"goal": {
-				"entry": "征服，战斗的荣耀，从军事征服中获得的名和利"
-			},
-			"cultists": {
-				"entry": "{@creature Berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature guard}, {@creature knight}, {@creature veteran}"
-			},
-			"signaturespells": {
-				"entry": "{@spell True strike}(咒语), {@spell heroism}(第一层), {@spell spiritual weapon}(第二层), {@spell crusader's mantle}(第三层)"
-			},
-			"entries": [
-				"扎里尔的邪教提供武术训练和人才。它在被战争蹂躏的地区蓬勃发展。有战斗意志但缺乏经验的难民被吸引到扎里尔，因为她可以为他们提供生存所需的技能。另外，寻求优势的成熟战士也是她最常见的招募对象。",
-				"骑士团、战士行会和雇佣兵公司最容易受到她的影响。{@creature hobgoblin||Hobgoblins}有时会求助于她，但前提是他们已经摆脱了马格鲁比耶特及其牧师的影响。",
-				"扎丽尔赋予她的追随者以武功。例如，一个普通的农民可以获得老兵的能力。此外，邪教成员可以获得凶猛的突击特性。邪教领袖也可以获得地狱战术的特质。",
-				{
-					"type": "entries",
-					"name": "Ferocious Surge (Recharges after a Short or Long Rest)",
-					"entries": [
-						"当这种生物的攻击没有击中要害时，它可以将击中的目标变成要害。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Infernal Tactics",
-					"entries": [
-						"This creature has a keen eye for seizing a tactical advantage. Immediately after rolling initiative, it can choose itself and up to three allies it can see if it isn't {@condition incapacitated}. It can swap the initiative results of the chosen creatures among them."
-					]
-				}
-			]
-		},
-		{
 			"name": "Cult of Zuggtmoy",
 			"source": "MPMM",
 			"page": 281,
@@ -1367,42 +1059,6 @@
 			]
 		},
 		{
-			"name": "Demonic Boon of Baphomet",
-			"source": "UAFiendishOptions",
-			"page": 6,
-			"type": "Demonic",
-			"ability": {
-				"entry": "力量、智慧或两者最多可获得+4的奖励"
-			},
-			"signaturespells": {
-				"entry": "{@spell Hunter's mark}(第一层), {@spell beast sense}(第二层), {@spell slow}(第三层)"
-			},
-			"entries": [
-				"巴弗灭赋予了他们狡猾和体力的天赋。他给予他的普通追随者无误的追踪特质，而邪教领袖则获得煽动猎手的特质。他的所有信徒也都获得了迷宫般的回忆特质。",
-				{
-					"type": "entries",
-					"name": "Unerring Tracker",
-					"entries": [
-						"作为一个额外的行动，这个生物用魔法与它能看到的一个生物建立一个精神联系。在接下来的一小时内，如果目标在同一平面上，作为奖励动作，这个生物可以了解到当前与目标的距离和方向。如果这个生物是{@condition incapacitated}或者它对不同的目标使用这个能力，这个链接就会结束。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Incite the Hunters (Recharges after a Short or Long Rest)",
-					"entries": [
-						"作为一个行动，这个生物允许它周围30英尺内的每个具有无敌追踪者特质的盟友对该盟友的无敌追踪者的目标进行一次武器攻击作为反应。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Labyrinthine Recall",
-					"entries": [
-						"这种生物可以完美地回忆它所走过的任何道路。"
-					]
-				}
-			]
-		},
-		{
 			"name": "Demonic Boon of Demogorgon",
 			"source": "MTF",
 			"page": 30,
@@ -1431,28 +1087,6 @@
 			]
 		},
 		{
-			"name": "Demonic Boon of Demogorgon",
-			"source": "UAFiendishOptions",
-			"page": 6,
-			"type": "Demonic",
-			"ability": {
-				"entry": "对力量、魅力或两者都有高达+4的奖励"
-			},
-			"signaturespells": {
-				"entry": "{@spell Charm person}(第一层), {@spell enlarge/reduce}(第二层), {@spell vampiric touch}(第三层)"
-			},
-			"entries": [
-				"德摩根的追随者通常是被他们主人的低语声所驱使的孤独的杀手。他最有福气的追随者会获得 \"疯狂的两颗心 \"的特质。",
-				{
-					"type": "entries",
-					"name": "Two Minds of Madness",
-					"entries": [
-						"这种生物在所有智力、智慧和魅力方面都有优势。"
-					]
-				}
-			]
-		},
-		{
 			"name": "Demonic Boon of Fraz-Urb'luu",
 			"source": "MTF",
 			"page": 30,
@@ -1462,29 +1096,6 @@
 					"uid": "Cult of Fraz-Urb'luu|MPMM"
 				}
 			],
-			"type": "Demonic",
-			"ability": {
-				"entry": "智慧、魅力或两者最多可获得+4的奖励"
-			},
-			"signaturespells": {
-				"entry": "{@spell Minor illusion}(咒语), {@spell disguise self}(第一层), {@spell invisibility}(第二层), {@spell hypnotic pattern}(第三层)"
-			},
-			"entries": [
-				"作为一个欺骗大师，弗雷兹-乌尔布鲁向他的入门者传授谎言和幻觉的秘密。他们也可以获得 \"说谎者之眼 \"的特质。",
-				{
-					"type": "entries",
-					"name": "Liar's Eye",
-					"entries": [
-						"This creature has advantage on Wisdom ({@skill Insight} or {@skill Perception}) checks.",
-						"作为一个额外的行动，它能自动探测到它周围15英尺内所有幻象和隐藏生物的位置。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Demonic Boon of Fraz-Urb'luu",
-			"source": "UAFiendishOptions",
-			"page": 6,
 			"type": "Demonic",
 			"ability": {
 				"entry": "智慧、魅力或两者最多可获得+4的奖励"
@@ -1556,35 +1167,6 @@
 			]
 		},
 		{
-			"name": "Demonic Boon of Graz'zt",
-			"source": "UAFiendishOptions",
-			"page": 6,
-			"type": "Demonic",
-			"ability": {
-				"entry": "对体质、魅力或两者都有+4的奖励"
-			},
-			"signaturespells": {
-				"entry": "{@spell False life}(第一层), {@spell hold person}(第二层), {@spell fear}(第三层)"
-			},
-			"entries": [
-				"禁忌之主赋予他的崇拜者将最可怕的痛苦转化为快乐的能力。他的崇拜者获得了从痛苦中获得快乐的特质，而他的邪教领袖则获得了快乐大师的特质。",
-				{
-					"type": "entries",
-					"name": "Joy from Pain",
-					"entries": [
-						"每当这种生物受到关键打击时，它可以进行一次近战武器攻击作为反应。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Master of Pleasures",
-					"entries": [
-						"当这种生物受到伤害时，作为一种反应，它可以用魔法给自己和30英尺内最多三个盟友提供5个临时命中率。"
-					]
-				}
-			]
-		},
-		{
 			"name": "Demonic Boon of Juiblex",
 			"source": "MTF",
 			"page": 30,
@@ -1616,33 +1198,6 @@
 					"entries": [
 						"这种生物对来自非魔法攻击的击打、穿刺和切割伤害有抵抗力。",
 						"每当这个生物受到关键打击或被降低到0命中率时，它周围5英尺内的所有生物都会受到相当于其命中率的酸性伤害。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Demonic Boon of Juiblex",
-			"source": "UAFiendishOptions",
-			"page": 7,
-			"type": "Demonic",
-			"ability": {
-				"entry": "对体质的奖励最多为+8，对智力、智慧和魅力的惩罚相等"
-			},
-			"entries": [
-				"无面者的追随者是怪异的独行侠，比起其他生物，他们更喜欢与粘液和渗出物为伴。他们获得了粘液的坚韧，但却牺牲了他们的思想。较小的追随者获得液体运动的特性。最虔诚的渗出物信徒也会获得粘液器官的特质。",
-				{
-					"type": "entries",
-					"name": "Liquid Movement",
-					"entries": [
-						"作为一个动作，这种生物可以在直径不超过一英寸的空间内移动20英尺。它必须在一个可以容纳其全尺寸的空间内结束这次移动。否则，它将受到5点力量伤害，并返回到它开始移动的空间。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Slimy Organs",
-					"entries": [
-						"这种生物对来自非魔法攻击的击打、穿刺和切割伤害有抵抗力。",
-						"每当它受到关键打击或被降低到0命中率时，它周围5英尺内的所有生物都会受到相当于其命中率的酸液伤害。"
 					]
 				}
 			]
@@ -1715,35 +1270,6 @@
 			]
 		},
 		{
-			"name": "Demonic Boon of Orcus",
-			"source": "UAFiendishOptions",
-			"page": 7,
-			"type": "Demonic",
-			"ability": {
-				"entry": "智力、智慧或两者最多可获得+4的奖励"
-			},
-			"signaturespells": {
-				"entry": "{@spell False life}(第一层), {@spell ray of enfeeblement}(第二层), {@spell animate dead}(第三层)"
-			},
-			"entries": [
-				"在大多数情况下，奥库斯将他的追随者转化为不死生物，如食尸鬼和巫师。有时他需要他的追随者保留他们的凡人形态，以便更容易渗透到一个王国或城市。他赋予普通的崇拜者以不死的灵魂特质，而他的崇拜者领袖则获得死亡光环特质。",
-				{
-					"type": "entries",
-					"name": "Undying Soul (Recharges after a Short or Long Rest)",
-					"entries": [
-						"如果这个生物被降低到0命中率，它立即做一个DC 10的宪法救赎动作。如果它成功了，它反而被降低到1点生命值。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Aura of Death",
-					"entries": [
-						"This creature emanates a deathly aura that extends 30 feet in every direction from its space while it isn't {@condition incapacitated}. The aura is blocked by total cover. While in the aura, the creature and any friendly undead are immune to the {@condition frightened} condition and have resistance to radiant damage. Enemies suffer disadvantage on death saving throws while in the aura."
-					]
-				}
-			]
-		},
-		{
 			"name": "Demonic Boon of Yeenoghu",
 			"source": "MTF",
 			"page": 31,
@@ -1786,42 +1312,6 @@
 			]
 		},
 		{
-			"name": "Demonic Boon of Yeenoghu",
-			"source": "UAFiendishOptions",
-			"page": 7,
-			"type": "Demonic",
-			"ability": {
-				"entry": "对力量和灵巧有高达+4的奖励，对智力和魅力有相同的惩罚"
-			},
-			"signaturespells": {
-				"entry": "{@spell Tasha's hideous laughter}(第一层), {@spell crown of madness}(第二层), {@spell fear}(第三层)"
-			},
-			"entries": [
-				"Yeenoghu's followers form roving packs of cannibalistic marauders. They grow more like {@creature gnoll||gnolls} in temperament and action with each passing day. His most devoted followers gain the Gnashing Jaws action option and the Rampage trait, while cult leaders gain the Aura of Bloodthirst trait.",
-				{
-					"type": "entries",
-					"name": "Gnashing Jaws",
-					"entries": [
-						"{@i Melee Weapon Attack}: 命中奖励等于该生物的熟练度奖励加上其力量修正值，范围5英尺，一个目标。命中：{@dice 1d4}+该生物的力量修正值的穿刺伤害。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Rampage",
-					"entries": [
-						"当这个生物在它的回合中用近战攻击将一个生物的命中率降低到0时，它可以采取一个额外的行动，移动到它的一半速度，并进行一次咬牙切齿的攻击。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Aura of Bloodthirst",
-					"entries": [
-						"If this creature isn't {@condition incapacitated}, any creature with the Rampage trait can make its Gnashing Jaws attack as a bonus action while within 10 feet of this creature."
-					]
-				}
-			]
-		},
-		{
 			"name": "Demonic Boon of Zuggtmoy",
 			"source": "MTF",
 			"page": 31,
@@ -1840,25 +1330,6 @@
 			},
 			"entries": [
 				"Zuggtmoy的追随者主要是她的孩子的奇怪孢子的无意识受害者。孢子钻入受害者的大脑，将其变成一个狂热的仆人。每个受害者都会获得 \"孢子之吻 \"特性。",
-				{
-					"type": "entries",
-					"name": "Spore Kissed",
-					"entries": [
-						"这个生物对{@condition charmed}和{@condition frightened}的状况免疫。此外，如果它的命中率降至0，在它周围10英尺内的每个生物都会受到相当于其命中率的毒害。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Demonic Boon of Zuggtmoy",
-			"source": "UAFiendishOptions",
-			"page": 7,
-			"type": "Demonic",
-			"ability": {
-				"entry": "对体质的加成高达+4，对智力、智慧和魅力的惩罚相等"
-			},
-			"entries": [
-				"Zuggtmoy的追随者主要是她的孩子的奇怪孢子的无意识受害者。孢子钻入受害者的大脑，将其变成一个狂热的仆人。他们获得了 \"孢子之吻 \"的特性。",
 				{
 					"type": "entries",
 					"name": "Spore Kissed",

@@ -75,7 +75,7 @@
 				{
 					"name": "False Object",
 					"entries": [
-						"如果扫帚在战斗开始时是静止的，那么它在主动权卷上有优势。此外，如果一个生物没有观察到扫帚的动作或行动，该生物必须通过{@dc 15}智慧(感知)检查来辨别扫帚是否有生命。"
+						"If the broom is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the broom move or act, that creature must succeed on a {@dc 15} Wisdom ({@skill Perception}) check to discern that the broom is animate."
 					]
 				},
 				{
@@ -169,7 +169,7 @@
 				{
 					"name": "False Object",
 					"entries": [
-						"如果图书馆在战斗开始时是静止的，那么它在主动权卷上有优势。此外，如果一个生物没有观察到图书馆的移动或行动，该生物必须通过{@dc 15}智慧(感知)检查来成功辨别图书馆是否有生命。"
+						"If the library is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the library move or act, that creature must succeed on a {@dc 15} Wisdom ({@skill Perception}) check to discern that the library is animate."
 					]
 				}
 			],
@@ -263,6 +263,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Quill casts one of the following spells using Charisma as the spellcasting ability (save {@dc 17}):"
 					],
@@ -721,6 +722,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"鬼魂会施展以下一种法术，使用魅力作为施法能力，并且不需要任何物质成分。"
 					],
@@ -1210,6 +1212,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The fungal servant is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The fungal servant has the following cleric spells prepared:"
 					],
@@ -1968,6 +1971,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"K'Tulah is a 4th-level spellcaster. K'Tulah's spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). K'Tulah has the following druid spells prepared:"
 					],
@@ -2226,6 +2230,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The lich casts one of the following spells using Wisdom as the spellcasting ability (save {@dc 19}):"
 					],
@@ -2424,7 +2429,7 @@
 					"name": "Berserk",
 					"entries": [
 						"Whenever the golem starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.",
-						"如果巨魔的创造者在狂暴巨魔的60英尺范围内，可以通过坚定而有说服力的说话来试图使它平静下来。巨魔必须能够听到它的创造者，创造者必须采取一个行动来做一个{@dc 15}魅力（说服力）的检查。如果检定成功，巨魔将不再狂暴。如果它在40点或更少的命中率下受到伤害，巨魔可能会再次狂暴。"
+						"The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a {@dc 15} Charisma ({@skill Persuasion}) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again."
 					]
 				},
 				{
@@ -2536,6 +2541,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The sage casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 14}, {@hit 6} to hit with spell attacks):"
 					],
@@ -2722,6 +2728,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Miirym casts one of the following spells, using Charisma as the spellcasting ability (save {@dc 21}) and requiring no material components:"
 					],
@@ -3060,6 +3067,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Nintra casts one of the following spells, using Charisma as the spellcasting ability (save {@dc 20}) and requiring no material components:"
 					],
@@ -3351,6 +3359,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Ram Sugar is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). Ram Sugar has the following cleric spells prepared:"
 					],
@@ -3498,6 +3507,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The sage casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 14}, {@hit 6} to hit with spell attacks):"
 					],
@@ -4260,7 +4270,7 @@
 				{
 					"name": "False Objects",
 					"entries": [
-						"如果虫群在战斗开始时是静止的，它在主动性卷轴上有优势。此外，如果一个生物没有观察到虫群的移动或行动，该生物必须通过{@dc 15}智慧(感知)检查来成功辨别虫群是否有生命。"
+						"If the swarm is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the swarm move or act, that creature must succeed on a {@dc 15} Wisdom ({@skill Perception}) check to discern that the swarm is animate."
 					]
 				},
 				{
@@ -4370,6 +4380,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Valin Sarnaster is a 10th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Valin has the following cleric spells prepared:"
 					],
@@ -4693,10 +4704,12 @@
 			"_copy": {
 				"name": "Archmage",
 				"source": "MM",
-				"_trait": {
-					"name": "Water Genasi",
-					"source": "EEPC"
-				},
+				"_templates": [
+					{
+						"name": "Water Genasi",
+						"source": "EEPC"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -4869,7 +4882,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"Zikzokrishka做了一个智慧（感知）检查。"
+						"Zikzokrishka makes a Wisdom ({@skill Perception}) check."
 					]
 				},
 				{

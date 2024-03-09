@@ -1,4 +1,9 @@
 {
+	"_meta": {
+		"internalCopies": [
+			"itemType"
+		]
+	},
 	"baseitem": [
 		{
 			"name": "Antimatter Rifle",
@@ -31,7 +36,8 @@
 			"type": "A",
 			"rarity": "none",
 			"weight": 0.05,
-			"value": 5
+			"value": 5,
+			"arrow": true
 		},
 		{
 			"name": "Arrows (20)",
@@ -43,6 +49,7 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 100,
+			"arrow": true,
 			"packContents": [
 				{
 					"item": "arrow|phb",
@@ -95,6 +102,17 @@
 			"ammoType": "modern bullet"
 		},
 		{
+			"name": "Bagpipes",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 6,
+			"value": 3000
+		},
+		{
 			"name": "Battleaxe",
 			"source": "PHB",
 			"page": 149,
@@ -113,6 +131,16 @@
 			"dmg2": "1d10",
 			"axe": true,
 			"weapon": true
+		},
+		{
+			"name": "Birdpipes",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"Pan pipes or satyr pipes, also known as the shalm, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards."
+			]
 		},
 		{
 			"name": "Blowgun",
@@ -144,7 +172,8 @@
 			"type": "A",
 			"rarity": "none",
 			"weight": 0.02,
-			"value": 2
+			"value": 2,
+			"needleBlowgun": true
 		},
 		{
 			"name": "Blowgun Needles (50)",
@@ -156,6 +185,7 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 100,
+			"needleBlowgun": true,
 			"packContents": [
 				{
 					"item": "blowgun needle|phb",
@@ -241,7 +271,8 @@
 			"type": "A",
 			"rarity": "none",
 			"weight": 0.075,
-			"value": 5
+			"value": 5,
+			"bolt": true
 		},
 		{
 			"name": "Crossbow Bolts (20)",
@@ -253,6 +284,7 @@
 			"rarity": "none",
 			"weight": 1.5,
 			"value": 100,
+			"bolt": true,
 			"packContents": [
 				{
 					"item": "crossbow bolt|phb",
@@ -318,12 +350,6 @@
 			"name": "Double-Bladed Scimitar",
 			"source": "ERLW",
 			"page": 21,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 74
-				}
-			],
 			"type": "M",
 			"rarity": "none",
 			"weight": 6,
@@ -347,6 +373,28 @@
 				}
 			],
 			"hasFluff": true
+		},
+		{
+			"name": "Drum",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 3,
+			"value": 600
+		},
+		{
+			"name": "Dulcimer",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 10,
+			"value": 2500
 		},
 		{
 			"name": "Energy Cell",
@@ -373,6 +421,17 @@
 			"weapon": true
 		},
 		{
+			"name": "Flute",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200
+		},
+		{
 			"name": "Glaive",
 			"source": "PHB",
 			"page": 149,
@@ -390,7 +449,18 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
+			"polearm": true,
 			"weapon": true
+		},
+		{
+			"name": "Glaur",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
+			]
 		},
 		{
 			"name": "Greataxe",
@@ -469,6 +539,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
+			"polearm": true,
 			"weapon": true
 		},
 		{
@@ -510,6 +581,16 @@
 			"crossbow": true,
 			"weapon": true,
 			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Hand Drum",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A double-headed skin drum fitted with handles along its side."
+			]
 		},
 		{
 			"name": "Handaxe",
@@ -619,7 +700,19 @@
 					]
 				}
 			],
-			"ammoType": "sling bullet|phb"
+			"ammoType": "sling bullet|phb",
+			"hasFluffImages": true
+		},
+		{
+			"name": "Horn",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 2,
+			"value": 300
 		},
 		{
 			"name": "Hunting Rifle",
@@ -704,7 +797,7 @@
 				"AF",
 				"RLD"
 			],
-			"range": "30/120",
+			"range": "40/120",
 			"reload": 50,
 			"dmg1": "3d6",
 			"dmgType": "R",
@@ -840,6 +933,16 @@
 			"ammoType": "arrow|phb"
 		},
 		{
+			"name": "Longhorn",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A Faerûnian flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves."
+			]
+		},
+		{
 			"name": "Longsword",
 			"source": "PHB",
 			"page": 149,
@@ -858,6 +961,28 @@
 			"dmg2": "1d10",
 			"sword": true,
 			"weapon": true
+		},
+		{
+			"name": "Lute",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3500
+		},
+		{
+			"name": "Lyre",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3000
 		},
 		{
 			"name": "Mace",
@@ -1013,6 +1138,17 @@
 			"entries": [
 				"填充式盔甲由布和蝙蝠的绗缝层组成。"
 			]
+		},
+		{
+			"name": "Pan Flute",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1200
 		},
 		{
 			"name": "Pike",
@@ -1225,6 +1361,27 @@
 			"weapon": true
 		},
 		{
+			"name": "Shawm",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200
+		},
+		{
+			"name": "Shawm",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
+			]
+		},
+		{
 			"name": "Shield",
 			"source": "PHB",
 			"page": 144,
@@ -1349,7 +1506,8 @@
 			"type": "A",
 			"rarity": "none",
 			"weight": 0.075,
-			"value": 0.2
+			"value": 0.2,
+			"bulletSling": true
 		},
 		{
 			"name": "Sling Bullets (20)",
@@ -1361,11 +1519,22 @@
 			"rarity": "none",
 			"weight": 1.5,
 			"value": 4,
+			"bulletSling": true,
 			"packContents": [
 				{
 					"item": "sling bullet|phb",
 					"quantity": 20
 				}
+			]
+		},
+		{
+			"name": "Songhorn",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A recorder, a simple type of flute, usually carved from wood."
 			]
 		},
 		{
@@ -1460,6 +1629,36 @@
 			]
 		},
 		{
+			"name": "Tantan",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A tambourine, a popular instrument with halflings and humans south of the Dalelands."
+			]
+		},
+		{
+			"name": "Thelarr",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children—to the parents' delight or regret."
+			]
+		},
+		{
+			"name": "Tocken",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
+			]
+		},
+		{
 			"name": "Trident",
 			"source": "PHB",
 			"page": 149,
@@ -1479,6 +1678,17 @@
 			"dmgType": "P",
 			"dmg2": "1d8",
 			"weapon": true
+		},
+		{
+			"name": "Viol",
+			"source": "PHB",
+			"page": 154,
+			"srd": true,
+			"basicRules": true,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 1,
+			"value": 3000
 		},
 		{
 			"name": "Wand",
@@ -1506,6 +1716,16 @@
 			"dmg1": "1d8",
 			"dmgType": "P",
 			"weapon": true
+		},
+		{
+			"name": "Wargong",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark."
+			]
 		},
 		{
 			"name": "Warhammer",
@@ -1566,6 +1786,16 @@
 			"dmg2": "1d8"
 		},
 		{
+			"name": "Yarting",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A southern instrument from Amn and Calimshan that is a Faerûnian analog to the guitar. Numerous variations have spread across the continent."
+			]
+		},
+		{
 			"name": "Yklwa",
 			"source": "ToA",
 			"page": 32,
@@ -1583,6 +1813,16 @@
 			"weapon": true,
 			"entries": [
 				"yklwa（发音为YICK-ul-wah）是一种简单的近战武器，是Chultan战士的传统武器。yklwa由一个3英尺长的木轴组成，上面有一个长达18英寸的钢制或石制的刀片。虽然它具有投掷武器的特性，但Yklwa在投掷时并不平衡。"
+			]
+		},
+		{
+			"name": "Zulkoon",
+			"source": "SCAG",
+			"page": 124,
+			"type": "INS",
+			"rarity": "none",
+			"entries": [
+				"A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
 			]
 		}
 	],
@@ -1617,7 +1857,7 @@
 					]
 				}
 			],
-			"template": "{{prop_name}} ({{item.reach}}\u00A0ft.)"
+			"template": "{{prop_name}} ({{item.reach}} ft.)"
 		},
 		{
 			"abbreviation": "A",
@@ -1633,7 +1873,7 @@
 					]
 				}
 			],
-			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)"
+			"template": "{{prop_name}} ({{item.range}} ft.)"
 		},
 		{
 			"abbreviation": "AF",
@@ -1649,7 +1889,7 @@
 					]
 				}
 			],
-			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)"
+			"template": "{{prop_name}} ({{item.range}} ft.)"
 		},
 		{
 			"abbreviation": "BF",
@@ -1769,7 +2009,7 @@
 					]
 				}
 			],
-			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)"
+			"template": "{{prop_name}} ({{item.range}} ft.)"
 		},
 		{
 			"abbreviation": "2H",
@@ -1866,7 +2106,7 @@
 			"abbreviation": "SHP",
 			"source": "DMG",
 			"page": 119,
-			"name": "Vehicle",
+			"name": "Vehicle (Water)",
 			"entries": [
 				{
 					"type": "entries",
@@ -1907,6 +2147,16 @@
 					]
 				}
 			]
+		},
+		{
+			"abbreviation": "AIR",
+			"source": "DMG",
+			"page": 119,
+			"name": "Vehicle (Air)",
+			"_copy": {
+				"abbreviation": "SHP",
+				"source": "DMG"
+			}
 		}
 	],
 	"itemTypeAdditionalEntries": [

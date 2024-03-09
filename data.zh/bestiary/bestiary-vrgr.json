@@ -306,6 +306,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The brain's innate spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
@@ -544,7 +545,7 @@
 				{
 					"name": "False Object",
 					"entries": [
-						"如果腐尸在战斗开始时是静止的，它在主动权卷上有优势。此外，如果一个生物没有观察到腐尸的动作或行动，该生物必须通过{@dc 15}智慧(感知)检查来成功辨别腐尸是否有生命。"
+						"If the carrionette is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the carrionette move or act, that creature must succeed on a {@dc 15} Wisdom ({@skill Perception}) check to discern that the carrionette is animate."
 					]
 				},
 				{
@@ -1396,6 +1397,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The inquisitor casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -1543,6 +1545,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The inquisitor casts one of the following spells, requiring no components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -1679,6 +1682,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The inquisitor casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -1856,6 +1860,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Isolde's spellcasting ability is Charisma (spell save {@dc 14}). Isolde can innately cast the following spells, requiring no material components:"
 					],
@@ -1882,7 +1887,7 @@
 				{
 					"name": "Magic Resistance Aura",
 					"entries": [
-						"当持有Nepenthe时，Isolde会在她周围10英尺的范围内产生一个光环。当这个光环处于激活状态时，伊索德和所有在光环中对她友好的生物在对抗法术和其他魔法效果时都有优势。"
+						"While holding {@item Nepenthe|VRGR}, Isolde creates an aura in a 10-foot radius around her. While this aura is active, Isolde and all creatures friendly to her in the aura have advantage on saving throws against spells and other magical effects."
 					]
 				}
 			],
@@ -2419,6 +2424,11 @@
 			"name": "Necrichor",
 			"source": "VRGR",
 			"page": 238,
+			"otherSources": [
+				{
+					"source": "AATM"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -2739,7 +2749,7 @@
 				{
 					"name": "Semblance of Life",
 					"entries": [
-						"豆荚虫是一个被造物主植物消化的生物的物理拷贝。豆荚虫拥有被消化的生物的记忆，行为与该生物一样，但偶尔会有一些失误。熟悉被消化生物的观察者可以通过成功的{@dc 20}智慧(洞察力)检查来识别这些差异，或者如果小豆荚做了一些与被消化生物的既定信仰或行为直接相悖的事情，则会自动识别。当小豆荚死亡时，当创造它的造物主植物死亡时，或者当造物主植物解雇它时，小豆荚就会融化成浆液（不需要行动）。"
+						"The podling is a physical copy of a creature digested by a bodytaker plant. The podling has the digested creature's memories and behaves like that creature, but with occasional lapses. An observer familiar with the digested creature can recognize the discrepancies with a successful {@dc 20} Wisdom ({@skill Insight}) check, or automatically if the podling does something in direct contradiction to the digested creature's established beliefs or behavior. The podling melts into a slurry when it dies, when the bodytaker plant that created it dies, or when the bodytaker plant dismisses it (no action required)."
 					]
 				},
 				{
@@ -3205,7 +3215,7 @@
 				{
 					"name": "Scything Shrapnel",
 					"entries": [
-						"目标受到14({@damage 4d6})的砍击伤害，并且该工具消失。在其每个回合开始时，目标从弹片留下的伤口中受到10({@damage 3d6})的坏死伤害。如果目标重新获得任何命中率，或者如果一个生物使用行动来固定伤口，伤口就会结束，这需要成功的（2%）智慧（医学）检查。"
+						"The target takes 14 ({@damage 4d6}) slashing damage, and the implement vanishes. At the start of each of its turns, the target takes 10 ({@damage 3d6}) necrotic damage from the wound left by the shrapnel. The wound ends if the target regains any hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom ({@skill Medicine}) check."
 					]
 				}
 			],
@@ -3335,7 +3345,7 @@
 				{
 					"name": "Slasher's Knife",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 30/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 ({@damage 2d6}) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 ({@dice 1d6}). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom (Medicine) check."
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 30/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 ({@damage 2d6}) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 ({@dice 1d6}). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom ({@skill Medicine}) check."
 					]
 				}
 			],
@@ -4332,7 +4342,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"当在阳光下时，噬心者在攻击卷上有劣势，在依靠视觉的智慧（感知）检查上也是如此。"
+						"While in sunlight, the mind flayer has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				},
 				{
@@ -4478,7 +4488,7 @@
 				{
 					"name": "Mimicry",
 					"entries": [
-						"The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom (Insight) check."
+						"The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom ({@skill Insight}) check."
 					]
 				},
 				{

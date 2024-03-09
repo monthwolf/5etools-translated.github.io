@@ -46,6 +46,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Bandit Captain",
 				"source": "MM",
@@ -74,6 +75,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Knight",
 				"source": "MM",
@@ -102,6 +104,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Mage",
 				"source": "MM",
@@ -385,6 +388,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Charmayne casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 17}):"
 					],
@@ -436,7 +440,7 @@
 			],
 			"reaction": [
 				{
-					"name": "Charmayne can take up to three reactions per round but only one per turn",
+					"name": "Charmayne can take up to three reactions per round but only one per turn.",
 					"entries": []
 				},
 				{
@@ -687,6 +691,7 @@
 		{
 			"name": "Conservatory Student",
 			"source": "KftGV",
+			"page": 110,
 			"_copy": {
 				"name": "Noble",
 				"source": "MM",
@@ -708,10 +713,53 @@
 			"hasToken": true
 		},
 		{
+			"name": "Crimson Helmed Horror",
+			"source": "KftGV",
+			"_copy": {
+				"name": "Helmed Horror",
+				"source": "MM",
+				"_mod": {
+					"trait": [
+						{
+							"mode": "replaceArr",
+							"replace": "Spell Immunity",
+							"items": {
+								"name": "Spell Immunity",
+								"entries": [
+									"The helmed horror is immune to {@spell burning hands}, {@spell fireball}, and {@spell scorching ray}."
+								]
+							}
+						}
+					],
+					"action": [
+						{
+							"mode": "replaceArr",
+							"replace": "Longsword",
+							"items": {
+								"name": "Flaming Longsword",
+								"entries": [
+									"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) fire damage, or 9 ({@damage 1d10 + 4}) fire damage if used with two hands."
+								]
+							}
+						}
+					]
+				}
+			},
+			"bonus": [
+				{
+					"name": "Conjure Sword",
+					"entries": [
+						"As a bonus action on its first turn in combat, the helmed horror conjures a longsword-sized blade of fire, which appears in its free hand. This sword disappears in a cloud of smoke when the helmed horror drops to 0 hit points."
+					]
+				}
+			]
+		},
+		{
 			"name": "Dr. Cassee Dannell",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 12,
 			"_copy": {
 				"name": "Commoner",
 				"source": "MM"
@@ -778,6 +826,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Humanoid or Hybrid Form Only)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Eliphas casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 15}):"
 					],
@@ -813,6 +862,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Bandit",
 				"source": "MM",
@@ -841,6 +891,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Spy",
 				"source": "MM",
@@ -869,6 +920,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Assassin",
 				"source": "MM",
@@ -975,6 +1027,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 105,
 			"_copy": {
 				"name": "Zombie",
 				"source": "MM",
@@ -1002,6 +1055,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Bandit",
 				"source": "MM",
@@ -1031,6 +1085,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Thug",
 				"source": "MM",
@@ -1060,6 +1115,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Veteran",
 				"source": "MM",
@@ -1089,6 +1145,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 51,
 			"_copy": {
 				"name": "Knight",
 				"source": "MM",
@@ -1110,6 +1167,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 169,
 			"_copy": {
 				"name": "Mind Flayer",
 				"source": "MM",
@@ -1134,6 +1192,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 155,
 			"_copy": {
 				"name": "Smoke Mephit",
 				"source": "MM",
@@ -1157,6 +1216,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 200,
 			"_copy": {
 				"name": "Efreeti",
 				"source": "MM",
@@ -1177,6 +1237,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 107,
 			"_copy": {
 				"name": "Incubus",
 				"source": "MM",
@@ -1212,6 +1273,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The eldritch horror casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (save {@dc 14}):"
 					],
@@ -1238,6 +1300,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 78,
 			"_copy": {
 				"name": "Deep Gnome (Svirfneblin)",
 				"source": "MM",
@@ -1253,7 +1316,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"卡沃达带着{@item spell scroll}的{@spell magic weapon}和{@item Potion of Hill Giant Strength||potion of giant strength (hill)}。"
+								"Kavoda carries a {@item Spell Scroll (2nd Level)||spell scroll} of {@spell magic weapon} and a {@item Potion of Hill Giant Strength||potion of giant strength (hill)}."
 							]
 						}
 					}
@@ -1405,6 +1468,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Markos casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -1494,6 +1558,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 7,
 			"_copy": {
 				"name": "Commoner",
 				"source": "MM"
@@ -1516,6 +1581,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 150,
 			"_copy": {
 				"name": "Knight",
 				"source": "MM",
@@ -1555,6 +1621,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 130,
 			"_copy": {
 				"name": "Assassin",
 				"source": "MM",
@@ -1577,7 +1644,8 @@
 				"C",
 				"N"
 			],
-			"hasToken": true
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Prisoner 13",
@@ -1753,6 +1821,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 147,
 			"_copy": {
 				"name": "Ghost",
 				"source": "MM",
@@ -1773,6 +1842,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Bandit",
 				"source": "MM",
@@ -1802,6 +1872,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Thug",
 				"source": "MM",
@@ -1831,6 +1902,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Veteran",
 				"source": "MM",
@@ -1920,6 +1992,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Sythian casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -2035,6 +2108,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 173,
 			"_copy": {
 				"name": "Archmage",
 				"source": "MM",
@@ -2067,6 +2141,7 @@
 		{
 			"name": "Tiefling Acrobat",
 			"source": "KftGV",
+			"page": 37,
 			"_copy": {
 				"name": "Commoner",
 				"source": "MM"
@@ -2140,6 +2215,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Tockworth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -2246,6 +2322,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 80,
 			"_copy": {
 				"name": "Shield Guardian",
 				"source": "MM",
@@ -2263,6 +2340,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Bandit",
 				"source": "MM",
@@ -2292,6 +2370,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Thug",
 				"source": "MM",
@@ -2321,6 +2400,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Veteran",
 				"source": "MM",
@@ -2350,6 +2430,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Scout",
 				"source": "MM",
@@ -2378,6 +2459,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Spy",
 				"source": "MM",
@@ -2406,6 +2488,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 8,
 			"_copy": {
 				"name": "Veteran",
 				"source": "MM",
@@ -2434,6 +2517,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 47,
 			"_copy": {
 				"name": "Nothic",
 				"source": "MM",
@@ -2459,6 +2543,7 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "KftGV",
+			"page": 184,
 			"_copy": {
 				"name": "Archmage",
 				"source": "MM",

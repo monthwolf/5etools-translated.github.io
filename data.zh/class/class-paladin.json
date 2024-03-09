@@ -102,7 +102,9 @@
 					{
 						"_": [
 							"Chain mail|phb",
-							"holy symbol|phb"
+							{
+								"equipmentType": "focusSpellcastingHoly"
+							}
 						]
 					}
 				]
@@ -283,7 +285,6 @@
 				"Lay on Hands|Paladin||1",
 				"Divine Smite|Paladin||2",
 				"Fighting Style|Paladin||2",
-				"Martial Versatility|Paladin||2|UAClassFeatureVariants",
 				"Spellcasting|Paladin||2",
 				"Divine Health|Paladin||3",
 				{
@@ -292,7 +293,6 @@
 					"gainSubclassFeatureHasContent": true
 				},
 				"Ability Score Improvement|Paladin||4",
-				"Proficiency Versatility|Paladin||4|UAClassFeatureVariants",
 				"Martial Versatility|Paladin||4|TCE",
 				"Extra Attack|Paladin||5",
 				"Aura of Protection|Paladin||6",
@@ -301,21 +301,17 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Paladin||8",
-				"Proficiency Versatility|Paladin||8|UAClassFeatureVariants",
 				"Aura of Courage|Paladin||10",
 				"Improved Divine Smite|Paladin||11",
 				"Ability Score Improvement|Paladin||12",
-				"Proficiency Versatility|Paladin||12|UAClassFeatureVariants",
 				"Cleansing Touch|Paladin||14",
 				{
 					"classFeature": "Sacred Oath feature|Paladin||15",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Paladin||16",
-				"Proficiency Versatility|Paladin||16|UAClassFeatureVariants",
 				"Aura improvements|Paladin||18",
 				"Ability Score Improvement|Paladin||19",
-				"Proficiency Versatility|Paladin||19|UAClassFeatureVariants",
 				{
 					"classFeature": "Sacred Oath feature|Paladin||20",
 					"gainSubclassFeature": true
@@ -894,169 +890,6 @@
 			]
 		},
 		{
-			"name": "Oath of Conquest (UA)",
-			"shortName": "Conquest (UA)",
-			"source": "UAPaladin",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"armor of Agathys",
-							"command"
-						],
-						"5": [
-							"hold person",
-							"spiritual weapon"
-						],
-						"9": [
-							"bestow curse",
-							"fear"
-						],
-						"13": [
-							"blight",
-							"dominate beast"
-						],
-						"17": [
-							"dominate person",
-							"insect plague"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Oath of Conquest|Paladin||Conquest (UA)|UAPaladin|3",
-				"Aura of Conquest|Paladin||Conquest (UA)|UAPaladin|7",
-				"Implacable Spirit|Paladin||Conquest (UA)|UAPaladin|15",
-				"Invincible Conqueror|Paladin||Conquest (UA)|UAPaladin|20"
-			]
-		},
-		{
-			"name": "Oath of Treachery (UA)",
-			"shortName": "Treachery (UA)",
-			"source": "UAPaladin",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"page": 2,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"charm person",
-							"expeditious retreat"
-						],
-						"5": [
-							"invisibility",
-							"mirror image"
-						],
-						"9": [
-							"gaseous form",
-							"haste"
-						],
-						"13": [
-							"confusion",
-							"greater invisibility"
-						],
-						"17": [
-							"dominate person",
-							"passwall"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Oath of Treachery|Paladin||Treachery (UA)|UAPaladin|3",
-				"Aura of Treachery|Paladin||Treachery (UA)|UAPaladin|7",
-				"Blackguard's Escape|Paladin||Treachery (UA)|UAPaladin|15",
-				"Icon of Deceit|Paladin||Treachery (UA)|UAPaladin|20"
-			]
-		},
-		{
-			"name": "Oath of Redemption (UA)",
-			"shortName": "Redemption (UA)",
-			"source": "UAATrioOfSubclasses",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"shield",
-							"sleep"
-						],
-						"5": [
-							"hold person",
-							"ray of enfeeblement"
-						],
-						"9": [
-							"counterspell",
-							"hypnotic pattern"
-						],
-						"13": [
-							"Otiluke's resilient sphere",
-							"stoneskin"
-						],
-						"17": [
-							"hold monster",
-							"wall of force"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Oath of Redemption|Paladin||Redemption (UA)|UAATrioOfSubclasses|3",
-				"Aura of the Guardian|Paladin||Redemption (UA)|UAATrioOfSubclasses|7",
-				"Protective Spirit|Paladin||Redemption (UA)|UAATrioOfSubclasses|15",
-				"Emissary of Redemption|Paladin||Redemption (UA)|UAATrioOfSubclasses|20"
-			]
-		},
-		{
-			"name": "Oath of Conquest v2 (UA)",
-			"shortName": "Conquest v2 (UA)",
-			"source": "UARevisedClassOptions",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"page": 3,
-			"isReprinted": true,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"armor of Agathys",
-							"command"
-						],
-						"5": [
-							"hold person",
-							"spiritual weapon"
-						],
-						"9": [
-							"bestow curse",
-							"fear"
-						],
-						"13": [
-							"dominate beast",
-							"stoneskin"
-						],
-						"17": [
-							"cloudkill",
-							"dominate person"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Oath of Conquest v2|Paladin||Conquest v2 (UA)|UARevisedClassOptions|3",
-				"Aura of Conquest|Paladin||Conquest v2 (UA)|UARevisedClassOptions|7",
-				"Scornful Rebuke|Paladin||Conquest v2 (UA)|UARevisedClassOptions|15",
-				"Invincible Conqueror|Paladin||Conquest v2 (UA)|UARevisedClassOptions|20"
-			]
-		},
-		{
 			"name": "Oath of Conquest",
 			"shortName": "Conquest",
 			"source": "XGE",
@@ -1134,88 +967,6 @@
 				"Aura of the Guardian|Paladin||Redemption|XGE|7",
 				"Protective Spirit|Paladin||Redemption|XGE|15",
 				"Emissary of Redemption|Paladin||Redemption|XGE|20"
-			]
-		},
-		{
-			"name": "Oath of Heroism (UA)",
-			"shortName": "Heroism (UA)",
-			"source": "UABardAndPaladin",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"page": 2,
-			"isReprinted": true,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"expeditious retreat",
-							"guiding bolt"
-						],
-						"5": [
-							"enhance ability",
-							"enthrall"
-						],
-						"9": [
-							"haste",
-							"protection from energy"
-						],
-						"13": [
-							"compulsion",
-							"freedom of movement"
-						],
-						"17": [
-							"commune",
-							"conjure volley"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Oath of Heroism|Paladin||Heroism (UA)|UABardAndPaladin|3",
-				"Mighty Deed|Paladin||Heroism (UA)|UABardAndPaladin|7",
-				"Glorious Defense|Paladin||Heroism (UA)|UABardAndPaladin|15",
-				"Living Myth|Paladin||Heroism (UA)|UABardAndPaladin|20"
-			]
-		},
-		{
-			"name": "Oath of the Watchers (UA)",
-			"shortName": "Watchers (UA)",
-			"source": "UA2020SubclassesPt1",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"page": 3,
-			"isReprinted": true,
-			"additionalSpells": [
-				{
-					"prepared": {
-						"3": [
-							"alarm",
-							"chromatic orb"
-						],
-						"5": [
-							"augury",
-							"moonbeam"
-						],
-						"9": [
-							"counterspell",
-							"nondetection"
-						],
-						"13": [
-							"aura of purity",
-							"banishment"
-						],
-						"17": [
-							"hold monster",
-							"hallow"
-						]
-					}
-				}
-			],
-			"subclassFeatures": [
-				"Oath of the Watchers|Paladin||Watchers (UA)|UA2020SubclassesPt1|3",
-				"Aura of the Sentinel|Paladin||Watchers (UA)|UA2020SubclassesPt1|7",
-				"Vigilant Rebuke|Paladin||Watchers (UA)|UA2020SubclassesPt1|15",
-				"Mortal Bulwark|Paladin||Watchers (UA)|UA2020SubclassesPt1|20"
 			]
 		},
 		{
@@ -1403,10 +1154,6 @@
 					"entries": [
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Close Quarters Shooter|UALightDarkUnderdark"
-						},
-						{
-							"type": "refOptionalfeature",
 							"optionalfeature": "Defense"
 						},
 						{
@@ -1419,35 +1166,7 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Mariner|UAWaterborneAdventures"
-						},
-						{
-							"type": "refOptionalfeature",
 							"optionalfeature": "Protection"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Tunnel Fighter|UALightDarkUnderdark"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Blind Fighting|UAClassFeatureVariants"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Interception|UAClassFeatureVariants"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Thrown Weapon Fighting|UAClassFeatureVariants"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Unarmed Fighting|UAClassFeatureVariants"
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Blessed Warrior|UAClassFeatureVariants"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -1463,19 +1182,6 @@
 						}
 					]
 				}
-			]
-		},
-		{
-			"name": "Martial Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 12,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"level": 2,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 2nd-level feature (enhances Fighting Style)}",
-				"每当你在这个班级中获得一个等级，你就可以用你班级中可用的另一种风格取代你所知道的一种战斗风格。这种变化代表着你的武术训练和练习重点的转移，使你失去一种风格的好处而获得另一种风格的好处。"
 			]
 		},
 		{
@@ -1559,22 +1265,6 @@
 			]
 		},
 		{
-			"name": "Channel Divinity: Harness Divine Power",
-			"source": "UAClassFeatureVariants",
-			"page": 6,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"level": 3,
-			"isClassFeatureVariant": true,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
-			"entries": [
-				"{@i 3rd-level paladin feature (enhances Channel Divinity)}",
-				"你可以使用你的 \"神性通道 \"来助长你的法术。作为一个额外的动作，你触摸你的神圣符号，说出一个祈祷词，并重新获得一个已消耗的一级法术槽。"
-			]
-		},
-		{
 			"name": "Divine Health",
 			"source": "PHB",
 			"page": 82,
@@ -1608,10 +1298,6 @@
 				{
 					"type": "refClassFeature",
 					"classFeature": "Channel Divinity|Paladin||3"
-				},
-				{
-					"type": "refClassFeature",
-					"classFeature": "Channel Divinity: Harness Divine Power|Paladin||3|UAClassFeatureVariants"
 				},
 				{
 					"type": "refClassFeature",
@@ -1652,20 +1338,6 @@
 			"entries": [
 				"{@i 4th-level paladin {@variantrule optional class features|tce|optional feature}}",
 				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a {@filter fighting style|optionalfeatures|feature type=FS:P} you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"level": 4,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
 			]
 		},
 		{
@@ -1719,20 +1391,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"level": 8,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Aura of Courage",
 			"source": "PHB",
 			"page": 82,
@@ -1768,20 +1426,6 @@
 			"entries": [
 				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"level": 12,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
 			]
 		},
 		{
@@ -1823,20 +1467,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"level": 16,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Aura improvements",
 			"source": "PHB",
 			"page": 82,
@@ -1859,20 +1489,6 @@
 			"entries": [
 				"当你达到19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"level": 19,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
 			]
 		},
 		{
@@ -2089,9 +1705,6 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
@@ -2114,6 +1727,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be {@condition restrained}. While {@condition restrained} by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish."
 			]
@@ -2238,6 +1854,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"你可以使用你的 \"神性通道\"，说出让异族和魔族听起来很痛苦的古语。作为一个行动，你展示你的神圣符号，在你周围30英尺内的每个能听到你的异族或魔族必须做一个智慧救赎动作。如果救赎失败，该生物将被转化1分钟或直到它受到伤害。",
 				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action.",
@@ -2335,9 +1954,6 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
@@ -2410,6 +2026,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"作为一个动作，你可以使用你的通道神性，给你持有的一件武器注入正能量。在1分钟内，你在用该武器进行的攻击卷中加入你的魅力修正值（最低奖励为+1）。该武器还能在20英尺的范围内发出亮光，并在20英尺以外发出暗光。如果该武器还没有魔力，它将在持续时间内变成魔力。",
 				"You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall {@condition unconscious}, this effect ends."
@@ -2501,6 +2120,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"作为一个行动，你展示你的神圣符号，并使用你的通道神性说出一个谴责恶魔和亡灵的祷告。在你周围30英尺内能看到或听到你的每个魔物或亡灵都必须做一个智慧救赎。如果该生物没有完成蓄力动作，它将在1分钟内被转化，或者直到它受到伤害。",
 				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action."
@@ -2590,6 +2212,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being {@condition frightened}. Fiends and undead have disadvantage on this saving throw.",
 				"On a failed save, the creature is {@condition frightened} for 1 minute or until it takes any damage. While {@condition frightened}, the creature's speed is 0, and it can't benefit from any bonus to its speed.",
@@ -2606,9 +2231,6 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
@@ -2741,6 +2363,9 @@
 			"subclassSource": "PHB",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls {@condition unconscious}."
 			]
@@ -2830,6 +2455,9 @@
 			"subclassSource": "SCAG",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are {@condition incapacitated} or die or if the creature is more than 30 feet away from you."
 			]
@@ -2844,9 +2472,6 @@
 			"subclassSource": "SCAG",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
@@ -2979,6 +2604,9 @@
 			"subclassSource": "SCAG",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to {@dice 1d6} + your Charisma modifier (minimum of 1) if it has no more than half of its hit points."
 			]
@@ -3081,9 +2709,6 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"{@i 3rd-level Oath of Glory feature}",
 				"你获得以下两个通道神性选项。关于通道神性的作用，请参见神圣誓言类特征。",
@@ -3216,6 +2841,9 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"Immediately after you deal damage to a creature with your Divine Smite feature, you can use your Channel Divinity as a bonus action and distribute temporary hit points to creatures of your choice within 30 feet of you, which can include you. The total number of temporary hit points equals {@dice 2d8} + your level in this class, divided among the chosen creatures however you like."
 			]
@@ -3236,6 +2864,9 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"As a bonus action, you can use your Channel Divinity to augment your athleticism. For the next 10 minutes, you have advantage on Strength ({@skill Athletics}) and Dexterity ({@skill Acrobatics}) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal)."
 			]
@@ -3350,26 +2981,16 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"{@i 3rd-level Oath of the Watchers feature}",
 				"你获得以下通道神性选项。关于通道神性的作用，请参见神圣誓言类特征。",
 				{
-					"type": "entries",
-					"name": "Watcher's Will",
-					"entries": [
-						"你可以使用你的通道神性，将你的存在与你的信仰的守护力量相结合。作为一个行动，你可以选择30英尺范围内你能看到的一些生物，数量与你的魅力修饰值相等（最少一个生物）。在1分钟内，你和被选中的生物在智力、智慧和魅力方面有优势。"
-					]
+					"type": "refSubclassFeature",
+					"subclassFeature": "Watcher's Will|Paladin||Watchers|TCE|3"
 				},
 				{
-					"type": "entries",
-					"name": "Abjure the Extraplanar",
-					"entries": [
-						"你可以使用你的 \"神性通道 \"来谴责非世俗的生命。作为一个行动，你展示你的神圣符号，在你30英尺范围内的每个异形、天人、元素、精灵或魔物，如果能听到你的声音，就必须做一个智慧救赎动作。如果救赎失败，该生物将在1分钟内被转化，或者直到它受到伤害。",
-						"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the {@action Dodge} action."
-					]
+					"type": "refSubclassFeature",
+					"subclassFeature": "Abjure the Extraplanar|Paladin||Watchers|TCE|3"
 				}
 			]
 		},
@@ -3455,6 +3076,41 @@
 						"你是抵御星空之外的无尽恐怖的盾牌。你的刀锋必须永远锋利，你的头脑必须敏锐，才能在外面的世界生存。"
 					]
 				}
+			]
+		},
+		{
+			"name": "Abjure the Extraplanar",
+			"source": "TCE",
+			"page": 54,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Watchers",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"你可以使用你的 \"神性通道 \"来谴责非世俗的生命。作为一个行动，你展示你的神圣符号，在你30英尺范围内的每个异形、天人、元素、精灵或魔物，如果能听到你的声音，就必须做一个智慧救赎动作。如果救赎失败，该生物将在1分钟内被转化，或者直到它受到伤害。",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the {@action Dodge} action."
+			]
+		},
+		{
+			"name": "Watcher's Will",
+			"source": "TCE",
+			"page": 54,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Watchers",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"你可以使用你的通道神性，将你的存在与你的信仰的守护力量相结合。作为一个行动，你可以选择30英尺范围内你能看到的一些生物，数量与你的魅力修饰值相等（最少一个生物）。在1分钟内，你和被选中的生物在智力、智慧和魅力方面有优势。"
 			]
 		},
 		{
@@ -3549,26 +3205,15 @@
 			"subclassSource": "TDCSR",
 			"level": 3,
 			"header": 2,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
-					"type": "entries",
-					"name": "Marine Layer",
-					"page": 175,
-					"entries": [
-						"As an action, you channel the sea to create a thick cloud of fog that surrounds you for 20 feet in all directions. The fog moves with you, remaining centered on you and making its area heavily obscured. You and each creature within 5 feet of you instead treat the area as lightly obscured. This fog lasts for 10 minutes, spreads around corners, and cannot be dispersed unless you choose to end this effect (no action required)."
-					]
+					"type": "refSubclassFeature",
+					"subclassFeature": "Marine Layer|Paladin||Open Sea|TDCSR|3"
 				},
 				{
-					"type": "entries",
-					"name": "Fury of the Tides",
-					"page": 175,
-					"entries": [
-						"As a bonus action, you channel the powerful might of the waves to bolster your attacks for 1 minute. Once per turn for the duration, when you hit a creature with a weapon attack, you can choose to push the target 10 feet away from you. If pushed into an obstacle or another creature, the target takes bludgeoning damage equal to your Charisma modifier."
-					]
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fury of the Tides|Paladin||Open Sea|TDCSR|3"
 				},
 				{
 					"type": "inset",
@@ -3579,6 +3224,40 @@
 						"Creatures in a lightly obscured area have {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} only on Wisdom ({@skill Perception}) checks that rely on sight. The rules for when your vision is obscured are described completely in the fifth edition core rules."
 					]
 				}
+			]
+		},
+		{
+			"name": "Fury of the Tides",
+			"source": "TDCSR",
+			"page": 175,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Sea",
+			"subclassSource": "TDCSR",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a bonus action, you channel the powerful might of the waves to bolster your attacks for 1 minute. Once per turn for the duration, when you hit a creature with a weapon attack, you can choose to push the target 10 feet away from you. If pushed into an obstacle or another creature, the target takes bludgeoning damage equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Marine Layer",
+			"source": "TDCSR",
+			"page": 175,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Sea",
+			"subclassSource": "TDCSR",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As an action, you channel the sea to create a thick cloud of fog that surrounds you for 20 feet in all directions. The fog moves with you, remaining centered on you and making its area heavily obscured. You and each creature within 5 feet of you instead treat the area as lightly obscured. This fog lasts for 10 minutes, spreads around corners, and cannot be dispersed unless you choose to end this effect (no action required)."
 			]
 		},
 		{
@@ -3662,7 +3341,7 @@
 					"name": "Adapt Like the Water",
 					"page": 175,
 					"entries": [
-						"The waters of the ocean can shift around any obstacle\u2014or become the most impassable obstacle of all. They carve away the land to reveal the secrets of the past, or swallow the truth and hide it forever. To embrace this fluidity is to be ready for any challenge."
+						"The waters of the ocean can shift around any obstacle—or become the most impassable obstacle of all. They carve away the land to reveal the secrets of the past, or swallow the truth and hide it forever. To embrace this fluidity is to be ready for any challenge."
 					]
 				},
 				{
@@ -3742,1362 +3421,6 @@
 			]
 		},
 		{
-			"name": "Oath of the Watchers",
-			"source": "UA2020SubclassesPt1",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 3,
-			"entries": [
-				"发誓遵守守望者誓言的圣骑士寻求保护凡人界免受星外生物的掠夺，其中许多生物可以浪费凡人士兵。因此，守望者磨练自己的思想、精神和身体，使之成为对抗此类威胁的终极武器。",
-				"遵循守望者誓言的圣骑士在发现星外势力的影响方面始终保持警惕，经常建立一个间谍和线人网络来收集可疑邪教的信息。对守望者来说，保持对周围环境的健康怀疑和意识，就像在战斗中穿戴盔甲一样自然。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Watchers|Paladin||Watchers (UA)|UA2020SubclassesPt1|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Watchers (UA)|UA2020SubclassesPt1|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin||Watchers (UA)|UA2020SubclassesPt1|3"
-				}
-			]
-		},
-		{
-			"name": "Channel Divinity",
-			"source": "UA2020SubclassesPt1",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 3,
-			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
-			"entries": [
-				"{@i 3rd-level Oath of the Watchers feature}",
-				"你获得以下通道神性选项。关于通道神性的作用，请参见神圣誓言类特征。",
-				{
-					"type": "entries",
-					"name": "Watcher's Will",
-					"entries": [
-						"你可以使用你的通道神性，将你的存在与你的信仰的守护力量相结合。作为一个行动，你可以选择30英尺范围内你能看到的一些生物，数量与你的魅力修饰值相等（最少一个生物）。在1分钟内，所有被选中的生物在智力、智慧和魅力方面有优势。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Abjure the Extraplanar",
-					"entries": [
-						"你可以使用你的 \"神性通道 \"来诅咒非世俗的生命。作为一个行动，你展示你的神圣符号，在你30英尺范围内的每个元素、妖怪、魔物或畸形人，如果能听到你的声音，必须做一个智慧救赎。如果救赎失败，该生物将在1分钟内被转化，或者直到它受到伤害。",
-						"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action."
-					]
-				}
-			]
-		},
-		{
-			"name": "Oath Spells",
-			"source": "UA2020SubclassesPt1",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"{@i 3rd-level Oath of the Watchers feature}",
-				"你在 \"守望者之誓 \"表中所列的圣骑士等级获得誓言法术。关于誓言法术的作用，请参见神圣誓言类特征。",
-				{
-					"type": "table",
-					"caption": "Oath of the Watchers Spells",
-					"colLabels": [
-						"Paladin Level",
-						"Spells"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3rd",
-							"{@spell alarm}, {@spell chromatic orb}"
-						],
-						[
-							"5th",
-							"{@spell augury}, {@spell moonbeam}"
-						],
-						[
-							"9th",
-							"{@spell counterspell}, {@spell nondetection}"
-						],
-						[
-							"13th",
-							"{@spell aura of purity}, {@spell banishment}"
-						],
-						[
-							"17th",
-							"{@spell hold monster}, {@spell hallow}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Tenets of the Watchers",
-			"source": "UA2020SubclassesPt1",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"承担守望者之誓的圣骑士发誓要保护凡人界免受其他世界的威胁。",
-				{
-					"type": "entries",
-					"name": "Vigilance",
-					"entries": [
-						"你所面临的威胁是狡猾的、强大的、颠覆性的。要时刻警惕他们的腐败。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Loyalty",
-					"entries": [
-						"永远不要接受恶魔或与他们同车的人的礼物或恩惠。要忠于你的命令，你的战友，和你的职责。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Discipline",
-					"entries": [
-						"你是抵御星空之外的无尽恐怖的盾牌。你的刀锋必须永远锋利，你的头脑必须敏锐，才能在外面的世界生存。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Aura of the Sentinel",
-			"source": "UA2020SubclassesPt1",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"{@i 7th- and 18th-level Oath of the Watchers feature}",
-				"You emit an aura of alertness while you aren't {@condition incapacitated}. When you and any creature of your choice within 10 feet of you rolls initiative, you each gain a bonus to initiative equal to your Charisma modifier (minimum of +1). At 18th level, the range of this aura increases to 30 feet."
-			]
-		},
-		{
-			"name": "Vigilant Rebuke",
-			"source": "UA2020SubclassesPt1",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"{@i 15th-level Oath of the Watchers feature}",
-				"You've learned how to magically chastise anyone who dares cast unwanted spells at you and your wards. Whenever you or a creature you can see within 30 feet of you succeeds on a saving throw against a spell, you can use your reaction to deal {@damage 2d8} + your Charisma modifier force damage to the spellcaster."
-			]
-		},
-		{
-			"name": "Mortal Bulwark",
-			"source": "UA2020SubclassesPt1",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Watchers (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"{@i 20th-level Oath of the Watchers feature}",
-				"你显现出你的神力的火花来捍卫你的神圣誓言。作为一个额外的行动，你获得以下好处，持续1分钟。",
-				{
-					"type": "list",
-					"items": [
-						"You gain {@sense truesight} in a 120-foot radius.",
-						"你对元素、妖怪、魔人和畸形人的攻击卷有优势。",
-						"当你用攻击击中一个生物并对其造成伤害时，你也可以强迫它做一个魅力拯救动作。如果救赎失败，该生物会被神奇地放逐到它的本位面，如果它目前不在那里。拯救成功后，该生物在24小时内不能被此功能放逐。"
-					]
-				},
-				"一旦你使用这个奖励动作，你就不能再使用它，直到你完成一个长时间的休息。"
-			]
-		},
-		{
-			"name": "Oath of Redemption",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 3,
-			"entries": [
-				"救赎之誓使圣骑士走上了一条艰难的道路，这条道路要求圣武士只在不得已的情况下使用暴力。献身于这个誓言的圣骑士相信任何人都可以被救赎，仁慈和正义的道路是任何人都可以走的。这些圣骑士面对邪恶的生物，希望能让他们转向光明，只有在这种行为能明显拯救其他生命时，圣骑士才会杀死他们。走这条路的圣骑士被称为救赎者。",
-				"虽然救赎者是理想主义者，但他们也不是傻瓜。赎罪者知道，亡灵、恶魔、魔鬼和其他超自然的威胁可能是内在的邪恶。对付这样的敌人，圣骑士们会将他们的武器和法术的愤怒完全发挥出来。然而，救赎者仍然祈祷，有一天，即使是邪恶的生物也会邀请他们自己进行救赎。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Redemption|Paladin||Redemption (UA)|UAATrioOfSubclasses|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Redemption (UA)|UAATrioOfSubclasses|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Armor of Peace|Paladin||Redemption (UA)|UAATrioOfSubclasses|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior of Reconciliation|Paladin||Redemption (UA)|UAATrioOfSubclasses|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin||Redemption (UA)|UAATrioOfSubclasses|3"
-				}
-			]
-		},
-		{
-			"name": "Armor of Peace",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"从3级开始，你对和平的承诺使你可以不穿盔甲进入最危险的环境。当你没有穿戴盔甲或挥舞盾牌时，你的基本攻击力是16+你的灵巧修正值。"
-			]
-		},
-		{
-			"name": "Channel Divinity",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 3,
-			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
-			"entries": [
-				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Emissary of Peace|Paladin||Redemption (UA)|UAATrioOfSubclasses|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Rebuke the Violent|Paladin||Redemption (UA)|UAATrioOfSubclasses|3"
-				}
-			]
-		},
-		{
-			"name": "Emissary of Peace",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"You can use your Channel Divinity to augment your presence with divine power. As a bonus action, you grant yourself a +5 bonus to the next Charisma ({@skill Persuasion}) check you make within the next minute."
-			]
-		},
-		{
-			"name": "Oath Spells",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"你在所列的圣骑士等级中获得誓言法术。",
-				{
-					"type": "table",
-					"caption": "Oath of Redemption Spells",
-					"colLabels": [
-						"Paladin Level",
-						"Spells"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3rd",
-							"{@spell shield}, {@spell sleep}"
-						],
-						[
-							"5th",
-							"{@spell hold person}, {@spell ray of enfeeblement}"
-						],
-						[
-							"9th",
-							"{@spell counterspell}, {@spell hypnotic pattern}"
-						],
-						[
-							"13th",
-							"{@spell Otiluke's resilient sphere}, {@spell stoneskin}"
-						],
-						[
-							"17th",
-							"{@spell hold monster}, {@spell wall of force}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Rebuke the Violent",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"你可以使用你的通道神性来斥责那些使用暴力的人。作为反应，当在你10英尺范围内的敌人对你以外的一个生物进行近身攻击造成伤害时，你会强迫那个攻击者做一个智慧救赎动作。如果救赎失败，攻击者会受到与刚才的伤害相等的辐射伤害。拯救成功时，它将受到一半的伤害。"
-			]
-		},
-		{
-			"name": "Tenets of Redemption",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"救赎之誓的信条要求圣骑士遵守和平与正义的高标准。",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Peace",
-							"entries": [
-								"暴力是一种最后的武器。外交和理解是通向持久和平的道路。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Innocence",
-							"entries": [
-								"所有的人在开始生活时都是无辜的，是他们的环境或黑暗力量的影响促使他们走向邪恶。通过树立正确的榜样，并努力医治这个漏洞百出的世界的创伤，你可以让任何人走上正道。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Patience",
-							"entries": [
-								"改变需要时间。必须给那些走过恶人之路的人以提醒，使他们保持诚实和真实。一旦你在一个生物身上种下了正义的种子，你必须日复一日地工作，让它生存下去，然后茁壮成长。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Wisdom",
-							"entries": [
-								"你的心和头脑必须保持清醒，因为最终你将被迫承认失败。虽然每个生物都可以被救赎，但有些生物在邪恶的道路上走得太远，以至于你别无选择，只能为了更大的利益而结束他们的生命。任何这样的行动都必须仔细权衡，并充分了解其后果，但一旦你做出决定，就要坚持下去，因为你的道路是公正的。"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Warrior of Reconciliation",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"At 3rd level, you foreswear the weapons of war in favor of simple tools. While wielding a simple weapon that deals bludgeoning damage, you gain a special benefit if you reduce a creature to 0 hit points with that weapon and decide to spare the creature's life. Instead of falling {@condition unconscious}, the creature is {@condition charmed} by you for 1 minute. During that time, the {@condition charmed} creature is peaceful and docile, refusing to move or to take actions or reactions, unless you command it to. You can't order the creature to attack, force someone to make a saving throw, or cause damage to itself or others. This {@condition charmed} effect ends early if you are {@condition incapacitated} or if you or your companions attack the creature, deal damage to it, or force it to make a saving throw. When the effect ends, the creature falls {@condition unconscious} if it still has 0 hit points."
-			]
-		},
-		{
-			"name": "Aura of the Guardian",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"从第七级开始，你可以以自己的健康为代价保护你的盟友免受伤害。作为反应，当你身边10英尺内的盟友受到伤害时，你反而会神奇地承受这种伤害。这个功能不会转移任何可能伴随伤害的其他效果。"
-			]
-		},
-		{
-			"name": "Protective Spirit",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"Starting at 15th level, a holy presence mends your wounds in combat. You regain hit points equal to {@dice 1d6} + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren't {@condition incapacitated}."
-			]
-		},
-		{
-			"name": "Emissary of Redemption",
-			"source": "UAATrioOfSubclasses",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Redemption (UA)",
-			"subclassSource": "UAATrioOfSubclasses",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"在20级时，你成为和平的化身，这给你带来两个好处。",
-				{
-					"type": "list",
-					"items": [
-						"你对其他生物造成的所有伤害（他们的攻击、法术和其他效果）有抵抗力。",
-						"每当一个生物对你造成伤害时，它所受到的伤害等于它对你造成伤害的一半。"
-					]
-				},
-				"如果你攻击一个生物，对它造成伤害，或者强迫它做一个蓄力动作，在你完成长期休息之前，这两个好处都对该生物无效。"
-			]
-		},
-		{
-			"name": "Oath of Heroism",
-			"source": "UABardAndPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "UABardAndPaladin",
-			"level": 3,
-			"entries": [
-				"英雄主义的誓言是对一条命中注定的道路的肯定，一条由神圣之手为你安排的道路。无论出于什么原因，一位神或一群神将你纳入了他们的计划。你不是一个不情愿的英雄，而是一个完全接受了伟大的事迹由你来实现的想法的人。你勤奋训练，雕塑你的身体，完善你的技能，以便在命运召唤时做好准备。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Heroism|Paladin||Heroism (UA)|UABardAndPaladin|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Heroism (UA)|UABardAndPaladin|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin||Heroism (UA)|UABardAndPaladin|3"
-				}
-			]
-		},
-		{
-			"name": "Channel Divinity",
-			"source": "UABardAndPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "UABardAndPaladin",
-			"level": 3,
-			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
-			"entries": [
-				"{@i 3rd-level Oath of Heroism feature}",
-				"你获得以下两个通道神性选项。",
-				{
-					"type": "entries",
-					"name": "Peerless Athlete",
-					"entries": [
-						"You can use your Channel Divinity to augment your athleticism with divine favor. As a bonus action, you gain advantage on all Strength ({@skill Athletics}) and Dexterity ({@skill Acrobatics}) checks for the next 10 minutes. "
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Legendary Strike",
-					"entries": [
-						"You can use your Channel Divinity as a bonus action to guide your attacks: for 1 minute, your weapon attacks score a critical hit on a roll of 19 or 20 on the {@dice d20}. "
-					]
-				}
-			]
-		},
-		{
-			"name": "Oath Spells",
-			"source": "UABardAndPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "UABardAndPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"{@i 3rd-level Oath of Heroism feature}",
-				"你在《英雄之誓》法术表所列的圣骑士等级中获得誓言法术。",
-				{
-					"type": "table",
-					"caption": "Oath of Heroism Spells",
-					"colLabels": [
-						"Paladin Level",
-						"Spells"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3rd",
-							"{@spell expeditious retreat}, {@spell guiding bolt}"
-						],
-						[
-							"5th",
-							"{@spell enhance ability}, {@spell enthrall}"
-						],
-						[
-							"9th",
-							"{@spell haste}, {@spell protection from energy}"
-						],
-						[
-							"13th",
-							"{@spell compulsion}, {@spell freedom of movement}"
-						],
-						[
-							"17th",
-							"{@spell commune}, {@spell conjure volley}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Tenets of Heroism",
-			"source": "UABardAndPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "UABardAndPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"英雄主义誓言的信条反映了圣骑士对完成他们作为值得传说的英雄的使命的承诺。",
-				{
-					"type": "entries",
-					"name": "Actions over Words",
-					"entries": [
-						"努力以行动而不是以言语闻名。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Challenges Are but Tests",
-					"entries": [
-						"每一个困难都是为了挑战你的能力，磨练你的决心。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Embrace Destiny",
-					"entries": [
-						"你没有选择这条道路，但它是你要走的。它将带你进入传奇。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Hone the Body",
-					"entries": [
-						"就像原石一样，你的身体必须得到锻炼，这样它的潜力才能得到发挥。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Mighty Deed",
-			"source": "UABardAndPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "UABardAndPaladin",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"{@i 7th-level Oath of Heroism feature}",
-				"你在战场上的行动可以超自然地支持你的盟友，打击你的敌人。每当你打出关键一击或将一个生物的命中率降至0时，你可以选择一个或多个在你周围30英尺内你能看到的生物，数量与你的魅力修饰值相等（至少一个生物）。所有被选中的生物都会受到你选择的下列效果之一的影响。",
-				{
-					"type": "list",
-					"items": [
-						"The creature gains temporary hit points equal to {@dice 1d6} + your Charisma modifier (minimum of 1 temporary hit point).",
-						"The creature must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of you until the start of your next turn."
-					]
-				},
-				"一旦你使用这个功能，你就不能再使用它，直到你下一个回合开始。"
-			]
-		},
-		{
-			"name": "Glorious Defense",
-			"source": "UABardAndPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "UABardAndPaladin",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"{@i 15th-level Oath of Heroism feature}",
-				"你在战场上受祝福的荣耀可以误导一次攻击。当一个你能看到的生物用攻击卷击中你时，你可以用你的反应来获得对该攻击的攻击力加成，可能会使它错过你。该奖励等于你的魅力修改器（最小值为+1）。如果攻击失误，你可以对攻击者进行一次武器攻击，作为该反应的一部分。"
-			]
-		},
-		{
-			"name": "Living Myth",
-			"source": "UABardAndPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Heroism (UA)",
-			"subclassSource": "UABardAndPaladin",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"{@i 20th-level Oath of Heroism feature}",
-				"你现在可以用关于你伟大事迹的传说--不管是真实的还是夸张的--来赋予自己力量。作为一个额外动作，你在10分钟内获得以下好处。",
-				{
-					"type": "list",
-					"items": [
-						"你被赐予超凡脱俗的魅力，在所有的魅力检查中获得优势。",
-						"在你的每个回合中，当你进行武器攻击而未击中时，你可以使该攻击改为击中。",
-						"如果你的拯救动作失败，你可以用你的反应来代替成功。"
-					]
-				},
-				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
-			]
-		},
-		{
-			"name": "Oath of Conquest",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"entries": [
-				"征服之誓呼唤那些在战斗中寻求荣耀和征服敌人的圣骑士。对这些圣骑士来说，建立秩序是不够的。他们必须粉碎混乱的力量。有时被称为骑士暴君或铁匠，那些宣誓的人聚集成严峻的秩序，为神或战争哲学和有秩序的力量服务。其中一些圣骑士甚至与九层地狱的力量交好。大恶魔贝尔，阿弗纳斯的军阀，将许多被称为地狱骑士的圣骑士视为他最热心的支持者。地狱骑士在他们的盔甲上覆盖着从倒下的敌人身上取得的战利品，这是对任何敢于反对他们和他们的领主的法令的人的严峻警告。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Conquest|Paladin||Conquest (UA)|UAPaladin|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Conquest (UA)|UAPaladin|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin||Conquest (UA)|UAPaladin|3"
-				}
-			]
-		},
-		{
-			"name": "Channel Divinity",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
-			"entries": [
-				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Conquering Strike|Paladin||Conquest (UA)|UAPaladin|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Guided Strike|Paladin||Conquest (UA)|UAPaladin|3"
-				}
-			]
-		},
-		{
-			"name": "Conquering Strike",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"You can use your Channel Divinity to break a foe's will. When you hit a creature with a melee weapon attack as part of the {@action Attack} action, you can also use your Channel Divinity to force the target to make a Wisdom saving throw. On a failed save, the target becomes {@condition frightened} of you for 1 minute. The {@condition frightened} creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
-			]
-		},
-		{
-			"name": "Guided Strike",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
-			]
-		},
-		{
-			"name": "Oath Spells",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"你在所列的圣骑士等级中获得誓言法术。",
-				{
-					"type": "table",
-					"caption": "Oath of Conquest Spells",
-					"colLabels": [
-						"Paladin Level",
-						"Spells"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3rd",
-							"{@spell armor of Agathys}, {@spell command}"
-						],
-						[
-							"5th",
-							"{@spell hold person}, {@spell spiritual weapon}"
-						],
-						[
-							"9th",
-							"{@spell bestow curse}, {@spell fear}"
-						],
-						[
-							"13th",
-							"{@spell blight}, {@spell dominate beast}"
-						],
-						[
-							"17th",
-							"{@spell dominate person}, {@spell insect plague}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Tenets of Conquest",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"A paladin who takes this oath has the tenets of conquest seared on the upper arm. A hell knight's oath appears in {@language Infernal} runes, a brutal reminder of vows to the Lords of Hell.",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Douse the Flame of Hope",
-							"entries": [
-								"仅仅在战斗中击败敌人是不够的。你的胜利必须是压倒性的，以至于你的敌人的战斗意志被永远粉碎了。一把刀可以结束一个人的生命。恐惧可以结束一个帝国。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Rule with an Iron Fist",
-							"entries": [
-								"一旦你征服了，就不能容忍任何异议。你的话就是法律。服从它的人将会得到宠爱。违抗者将受到惩罚，作为所有可能追随者的榜样。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Strength Above All",
-							"entries": [
-								"你将统治，直到一个更强大的人出现。然后你必须变得更强大，迎接挑战，否则就会陷入自己的毁灭。"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Aura of Conquest",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"Starting at 7th level, you emanate a menacing aura while you're not {@condition incapacitated}. The aura includes your space, extends 10 feet from you in every direction, and is blocked by total cover. Any enemy in the aura has disadvantage on saving throws against being {@condition frightened}.",
-				"18级时，这个光环的范围增加到30英尺。"
-			]
-		},
-		{
-			"name": "Implacable Spirit",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"Once you reach 15th level, you can no longer be {@condition charmed}."
-			]
-		},
-		{
-			"name": "Invincible Conqueror",
-			"source": "UAPaladin",
-			"page": 1,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"在20级时，你获得了驾驭非凡武功的能力。作为一项行动，你可以神奇地成为征服者的化身，获得以下好处，持续1分钟。",
-				{
-					"type": "list",
-					"items": [
-						"你对所有的伤害都有抵抗力。",
-						"When you take the {@action Attack} action on your turn, you can make one additional attack as part of that action.",
-						"你的近战武器攻击在掷出19或20的情况下可以获得关键打击。"
-					]
-				},
-				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
-			]
-		},
-		{
-			"name": "Oath of Treachery",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"entries": [
-				"背叛之誓是那些放弃其他誓言或只关心自己的权力和生存的圣骑士们所遵循的道路。这些人通常被称为黑衣人，他们只对自己忠诚。任何不顾一切地追随这些圣骑士的人都会这样做，因为这些圣骑士虽然狡猾，但却拥有强大的力量。那些追随他们而不被他们的背叛所迷惑的人，希望能沉溺于肆意的暴力并积累大量的财宝。许多圣骑士向恶魔领主致敬，尤其是格拉兹特和奥库斯。即使是地狱领主也不愿意与这些混乱的拥护者结盟，但有时巴尔泽布尔和格拉西亚会在黑衣人的双重交易和背叛的嗜好中找到同类的精神。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Treachery|Paladin||Treachery (UA)|UAPaladin|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Treachery (UA)|UAPaladin|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin||Treachery (UA)|UAPaladin|3"
-				}
-			]
-		},
-		{
-			"name": "Channel Divinity",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
-			"entries": [
-				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Conjure Duplicate|Paladin||Treachery (UA)|UAPaladin|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Poison Strike|Paladin||Treachery (UA)|UAPaladin|3"
-				}
-			]
-		},
-		{
-			"name": "Conjure Duplicate",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"As an action, you create a visual illusion of yourself that lasts for 1 minute, or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell). The illusion appears in an unoccupied space of your choice that you can see within 30 feet of you. The illusion looks exactly like you; it is silent; it is your size, is insubstantial, doesn't occupy its space; and it is unaffected by attacks and damage. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but the illusion must remain within 120 feet of you.",
-				"在持续时间内，你可以像在幻象的空间内一样施法，但你必须使用自己的感官。此外，当你和你的幻象都在一个能看到幻象的生物的5英尺范围内时，考虑到幻象的不可思议，你在对该生物的攻击卷中具有优势。"
-			]
-		},
-		{
-			"name": "Oath Spells",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"你在所列的圣骑士等级中获得誓言法术。",
-				{
-					"type": "table",
-					"caption": "Oath of Treachery Spells",
-					"colLabels": [
-						"Paladin Level",
-						"Spells"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3rd",
-							"{@spell charm person}, {@spell expeditious retreat}"
-						],
-						[
-							"5th",
-							"{@spell invisibility}, {@spell mirror image}"
-						],
-						[
-							"9th",
-							"{@spell gaseous form}, {@spell haste}"
-						],
-						[
-							"13th",
-							"{@spell confusion}, {@spell greater invisibility}"
-						],
-						[
-							"17th",
-							"{@spell dominate person}, {@spell passwall}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Poison Strike",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"You can use your Channel Divinity to make a weapon deadlier. As a bonus action, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison lasts for 1 minute. The next time you hit a target with an attack using that weapon or ammunition, the target takes poison damage immediately after the attack. The poison damage equals {@dice 2d10} + your paladin level, or 20 + your paladin level if you had advantage on the attack roll."
-			]
-		},
-		{
-			"name": "Tenets of Treachery",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"拥护背叛誓言的圣骑士不对任何人效忠。这个誓言没有任何信条，因为它缺乏任何实质内容。那些不幸与黑衣人有过亲密接触的人观察到，黑衣人最关心的是权力和安全，特别是如果这两者都能以牺牲他人的利益为代价获得。"
-			]
-		},
-		{
-			"name": "Aura of Treachery",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"从第7级开始，你会散发出不和谐的光环，这让你获得以下好处。",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Cull the Herd",
-							"entries": [
-								"你对任何有一个或多个盟友在其5英尺范围内的生物的近战攻击卷有优势。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Treacherous Strike",
-							"entries": [
-								"If a creature within 5 feet of you misses you with a melee attack, you can use your reaction to force the attacker to reroll that attack against a creature of your choice that is also within 5 feet of the attacker. The ability fails and is wasted if the attacker is immune to being {@condition charmed}.",
-								"你可以使用这个能力三次。当你完成短期或长期休息时，你会重新获得已消耗的能力。"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Blackguard's Escape",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"At 15th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn {@condition invisible} and teleport up to 60 feet to a spot you can see. You remain {@condition invisible} until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again."
-			]
-		},
-		{
-			"name": "Icon of Deceit",
-			"source": "UAPaladin",
-			"page": 2,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Treachery (UA)",
-			"subclassSource": "UAPaladin",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"在20级时，你获得了散发出背叛感的能力。作为一项行动，你可以神奇地成为欺骗的化身，获得以下好处，持续1分钟。",
-				{
-					"type": "list",
-					"items": [
-						"You are {@condition invisible}.",
-						"If a creature damages you on its turn, it must succeed on a Wisdom saving throw (DC equal to your spell save DC) or you control its next action, provided that you aren't {@condition incapacitated} when it takes the action. A creature automatically succeeds on the save if the creature is immune to being {@condition charmed}.",
-						"如果你在攻击卷上有优势，你在其伤害卷上获得与你的圣骑士等级相等的奖励。"
-					]
-				},
-				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
-			]
-		},
-		{
-			"name": "Oath of Conquest v2",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 3,
-			"entries": [
-				"征服之誓呼唤那些在战斗中寻求荣耀和征服敌人的圣骑士。对这些圣骑士来说，建立秩序是不够的。他们必须粉碎混乱的力量。有时被称为骑士暴君或铁匠，那些宣誓的人聚集成严峻的秩序，服务于神或战争哲学和有秩序的力量。",
-				"其中一些圣骑士甚至与九层地狱的势力勾结，把法律规则看得比仁慈的药水还重要。大恶魔贝尔，阿弗纳斯的军阀，把许多这样的圣骑士--即地狱骑士--视为他最热心的支持者。地狱骑士在他们的盔甲上覆盖着从倒下的敌人身上取下的战利品，这是对任何敢于反对他们和他们领主的法令的人的严峻警告。这些骑士往往受到其他宣誓的圣骑士最激烈的抵制，他们认为地狱骑士在黑暗中走得太远。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of Conquest|Paladin||Conquest v2 (UA)|UARevisedClassOptions|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Conquest v2 (UA)|UARevisedClassOptions|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin||Conquest v2 (UA)|UARevisedClassOptions|3"
-				}
-			]
-		},
-		{
-			"name": "Channel Divinity",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 3,
-			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
-			"entries": [
-				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Conquering Presence|Paladin||Conquest v2 (UA)|UARevisedClassOptions|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Guided Strike|Paladin||Conquest v2 (UA)|UARevisedClassOptions|3"
-				}
-			]
-		},
-		{
-			"name": "Conquering Presence",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} of you for 1 minute. The {@condition frightened} creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
-			]
-		},
-		{
-			"name": "Guided Strike",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
-			]
-		},
-		{
-			"name": "Oath Spells",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"你在所列的圣骑士等级中获得誓言法术。",
-				{
-					"type": "table",
-					"caption": "Oath of Conquest Spells",
-					"colLabels": [
-						"Paladin Level",
-						"Spells"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"3rd",
-							"{@spell armor of Agathys}, {@spell command}"
-						],
-						[
-							"5th",
-							"{@spell hold person}, {@spell spiritual weapon}"
-						],
-						[
-							"9th",
-							"{@spell bestow curse}, {@spell fear}"
-						],
-						[
-							"13th",
-							"{@spell dominate beast}, {@spell stoneskin}"
-						],
-						[
-							"17th",
-							"{@spell cloudkill}, {@spell dominate person}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Tenets of Conquest",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"A paladin who takes this oath has the tenets of conquest seared on the upper arm. A hell knight's oath appears in {@language Infernal} runes, a brutal reminder of vows to the Lords of Hell.",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Douse the Flame of Hope",
-							"entries": [
-								"仅仅在战斗中击败敌人是不够的。你的胜利必须是如此压倒性的，以至于你的敌人的战斗意志被永远粉碎了。一把刀可以结束一个人的生命。恐惧可以结束一个帝国。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Rule with an Iron Fist",
-							"entries": [
-								"一旦你征服了，就不能容忍任何异议。你的话就是法律。服从它的人将会得到宠爱。违抗者将受到惩罚，作为所有可能追随者的榜样。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Strength Above All",
-							"entries": [
-								"你将统治，直到一个更强大的人出现。然后你必须变得更强大，迎接挑战，否则就会陷入自己的毁灭。"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Aura of Conquest",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"Starting at 7th level, you constantly emanate a menacing aura while you're not {@condition incapacitated}. The aura includes your space, extends 10 feet from you in every direction, and is blocked by total cover.",
-				"If a creature is {@condition frightened} of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there. At 18th level, the range of this aura increases to 30 feet."
-			]
-		},
-		{
-			"name": "Scornful Rebuke",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 0) if you're not {@condition incapacitated}."
-			]
-		},
-		{
-			"name": "Invincible Conqueror",
-			"source": "UARevisedClassOptions",
-			"page": 3,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Conquest v2 (UA)",
-			"subclassSource": "UARevisedClassOptions",
-			"level": 20,
-			"header": 2,
-			"entries": [
-				"在20级时，你获得了驾驭非凡武功的能力。作为一项行动，你可以神奇地成为征服者的化身，获得以下好处，持续1分钟。",
-				{
-					"type": "list",
-					"items": [
-						"你对所有的伤害都有抵抗力。",
-						"When you take the {@action Attack} action on your turn, you can make one additional attack as part of that action.",
-						"Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the {@dice d20}."
-					]
-				},
-				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
-			]
-		},
-		{
 			"name": "Oath of Conquest",
 			"source": "XGE",
 			"page": 37,
@@ -5133,9 +3456,6 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
@@ -5158,6 +3478,9 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} of you for 1 minute. The {@condition frightened} creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success."
 			]
@@ -5172,6 +3495,9 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
 			]
@@ -5353,9 +3679,6 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
-			"consumes": {
-				"name": "Channel Divinity"
-			},
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
@@ -5378,6 +3701,9 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"You can use your Channel Divinity to augment your presence with divine power. As a bonus action, you grant yourself a +5 bonus to Charisma ({@skill Persuasion}) checks for the next 10 minutes."
 			]
@@ -5440,6 +3766,9 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"header": 1,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
 				"你可以使用你的通道神性来斥责那些使用暴力的人。在你周围30英尺内的攻击者对你以外的生物造成攻击伤害后，你可以立即使用你的反应来迫使攻击者做一个智慧救赎动作。如果救赎失败，攻击者会受到与刚才的伤害相等的辐射伤害。拯救成功时，它将受到一半的伤害。"
 			]

@@ -250,7 +250,6 @@
 				"Rage|Barbarian||1",
 				"Unarmored Defense|Barbarian||1",
 				"Danger Sense|Barbarian||2",
-				"Survival Instincts|Barbarian||2|UAClassFeatureVariants",
 				"Reckless Attack|Barbarian||2",
 				{
 					"classFeature": "Primal Path|Barbarian||3",
@@ -258,10 +257,8 @@
 				},
 				"Primal Knowledge|Barbarian||3|TCE",
 				"Ability Score Improvement|Barbarian||4",
-				"Proficiency Versatility|Barbarian||4|UAClassFeatureVariants",
 				"Extra Attack|Barbarian||5",
 				"Fast Movement|Barbarian||5",
-				"Instinctive Pounce|Barbarian||5|UAClassFeatureVariants",
 				{
 					"classFeature": "Path Feature|Barbarian||6",
 					"gainSubclassFeature": true
@@ -269,7 +266,6 @@
 				"Feral Instinct|Barbarian||7",
 				"Instinctive Pounce|Barbarian||7|TCE",
 				"Ability Score Improvement|Barbarian||8",
-				"Proficiency Versatility|Barbarian||8|UAClassFeatureVariants",
 				"Brutal Critical (1 die)|Barbarian||9",
 				{
 					"classFeature": "Path feature|Barbarian||10",
@@ -277,7 +273,6 @@
 				},
 				"Relentless Rage|Barbarian||11",
 				"Ability Score Improvement|Barbarian||12",
-				"Proficiency Versatility|Barbarian||12|UAClassFeatureVariants",
 				"Brutal Critical (2 dice)|Barbarian||13",
 				{
 					"classFeature": "Path feature|Barbarian||14",
@@ -285,11 +280,9 @@
 				},
 				"Persistent Rage|Barbarian||15",
 				"Ability Score Improvement|Barbarian||16",
-				"Proficiency Versatility|Barbarian||16|UAClassFeatureVariants",
 				"Brutal Critical (3 dice)|Barbarian||17",
 				"Indomitable Might|Barbarian||18",
 				"Ability Score Improvement|Barbarian||19",
-				"Proficiency Versatility|Barbarian||19|UAClassFeatureVariants",
 				"Primal Champion|Barbarian||20"
 			],
 			"subclassTitle": "Primal Path",
@@ -307,7 +300,7 @@
 							"type": "entries",
 							"name": "Primal Instinct",
 							"entries": [
-								"People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one's own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature\u2014keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt.",
+								"People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one's own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature—keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt.",
 								"野蛮人在混乱的战斗中变得活跃起来。他们可以进入狂暴状态，愤怒占据了他们的身体，赋予他们超人的力量和韧性。野蛮人只能在不休息的情况下利用这个愤怒的水库，但这几次的愤怒通常足以打败任何出现的威胁。"
 							]
 						},
@@ -650,67 +643,6 @@
 			]
 		},
 		{
-			"name": "Path of the Ancestral Guardian (UA)",
-			"shortName": "Ancestral Guardian (UA)",
-			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Ancestral Guardian|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|3",
-				"Ancestral Shield|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|6",
-				"Consult the Spirits|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|10",
-				"Vengeful Ancestors|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|14"
-			]
-		},
-		{
-			"name": "Path of the Storm Herald (UA)",
-			"shortName": "Storm Herald (UA)",
-			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Storm Herald|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|3",
-				"Storm Soul|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|6",
-				"Shield of the Storm|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|10",
-				"Raging Storm|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|14"
-			]
-		},
-		{
-			"name": "Path of the Zealot (UA)",
-			"shortName": "Zealot (UA)",
-			"source": "UABarbarianPrimalPaths",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 2,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Zealot|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|3",
-				"Zealous Focus|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|6",
-				"Zealous Presence|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|10",
-				"Rage Beyond Death|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|14"
-			]
-		},
-		{
-			"name": "Path of the Ancestral Guardian v2 (UA)",
-			"shortName": "Ancestral Guardian v2 (UA)",
-			"source": "UARevisedSubclasses",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"spellcastingAbility": "wis",
-			"subclassFeatures": [
-				"Path of the Ancestral Guardian v2|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3",
-				"Ancestral Shield|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|6",
-				"Consult the Spirits|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|10",
-				"Vengeful Ancestors|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|14"
-			]
-		},
-		{
 			"name": "Path of the Ancestral Guardian",
 			"shortName": "Ancestral Guardian",
 			"source": "XGE",
@@ -764,37 +696,6 @@
 			]
 		},
 		{
-			"name": "Path of the Wild Soul (UA)",
-			"shortName": "Wild Soul (UA)",
-			"source": "UABarbarianAndMonk",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Wild Soul|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3",
-				"Magic Reserves|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|6",
-				"Arcane Rebuke|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|10",
-				"Chaotic Fury|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14",
-				"Improved Magic Reserves|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14"
-			]
-		},
-		{
-			"name": "Path of the Beast (UA)",
-			"shortName": "Beast (UA)",
-			"source": "UA2020SubclassesPt1",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Beast|Barbarian||Beast (UA)|UA2020SubclassesPt1|3",
-				"Bestial Soul|Barbarian||Beast (UA)|UA2020SubclassesPt1|6",
-				"Infectious Fury|Barbarian||Beast (UA)|UA2020SubclassesPt1|10",
-				"Call the Hunt|Barbarian||Beast (UA)|UA2020SubclassesPt1|14"
-			]
-		},
-		{
 			"name": "Path of the Beast",
 			"shortName": "Beast",
 			"source": "TCE",
@@ -836,21 +737,6 @@
 				"Thunderous Blows (10th Level)|Barbarian|PHB|Juggernaut|TDCSR|10",
 				"Hurricane Strike|Barbarian|PHB|Juggernaut|TDCSR|10",
 				"Unstoppable|Barbarian|PHB|Juggernaut|TDCSR|14"
-			]
-		},
-		{
-			"name": "Path of the Giant (UA)",
-			"shortName": "Giant (UA)",
-			"source": "UA2022GiantOptions",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"page": 1,
-			"isReprinted": true,
-			"subclassFeatures": [
-				"Path of the Giant|Barbarian||Giant (UA)|UA2022GiantOptions|3",
-				"Elemental Cleaver|Barbarian||Giant (UA)|UA2022GiantOptions|6",
-				"Mighty Impel|Barbarian||Giant (UA)|UA2022GiantOptions|10",
-				"Demiurgic Colossus|Barbarian||Giant (UA)|UA2022GiantOptions|14"
 			]
 		},
 		{
@@ -947,20 +833,6 @@
 			]
 		},
 		{
-			"name": "Survival Instincts",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"level": 2,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 2nd-level barbarian feature (replaces Danger Sense)}",
-				"You become proficient in your choice of two of the following skills: {@skill Animal Handling}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, or {@skill Survival}.",
-				"在你使用这些技能的任何能力检查中，你的熟练度加成都会翻倍。"
-			]
-		},
-		{
 			"name": "Primal Knowledge",
 			"source": "TCE",
 			"page": 24,
@@ -999,20 +871,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"level": 4,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Extra Attack",
 			"source": "PHB",
 			"page": 46,
@@ -1034,19 +892,6 @@
 			"level": 5,
 			"entries": [
 				"从5级开始，当你不穿重甲时，你的速度增加10英尺。"
-			]
-		},
-		{
-			"name": "Instinctive Pounce",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"level": 5,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 5th-level barbarian feature (replaces Fast Movement)}",
-				"当一个生物在你15英尺范围内结束它的回合时，你可以使用你的反应，以你一半的速度移动到一个更接近该生物的空间。这种移动不会引起机会攻击。"
 			]
 		},
 		{
@@ -1101,20 +946,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"level": 8,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Brutal Critical (1 die)",
 			"source": "PHB",
 			"page": 46,
@@ -1163,20 +994,6 @@
 			"entries": [
 				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"level": 12,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
 			]
 		},
 		{
@@ -1230,20 +1047,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"level": 16,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Brutal Critical (3 dice)",
 			"source": "PHB",
 			"page": 46,
@@ -1281,20 +1084,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"level": 19,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Primal Champion",
 			"source": "PHB",
 			"page": 46,
@@ -1311,6 +1100,7 @@
 		{
 			"name": "Giant Power",
 			"source": "BGG",
+			"page": 11,
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Giant",
@@ -1324,6 +1114,7 @@
 		{
 			"name": "Giant's Havoc",
 			"source": "BGG",
+			"page": 11,
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Giant",
@@ -1353,6 +1144,7 @@
 		{
 			"name": "Path of the Giant",
 			"source": "BGG",
+			"page": 11,
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Giant",
@@ -1373,6 +1165,7 @@
 		{
 			"name": "Elemental Cleaver",
 			"source": "BGG",
+			"page": 11,
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Giant",
@@ -1389,6 +1182,7 @@
 		{
 			"name": "Mighty Impel",
 			"source": "BGG",
+			"page": 12,
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Giant",
@@ -1404,6 +1198,7 @@
 		{
 			"name": "Demiurgic Colossus",
 			"source": "BGG",
+			"page": 12,
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassShortName": "Giant",
@@ -1796,7 +1591,7 @@
 				"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, {@item spiked armor|scag} and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Restriction\u2014Dwarves Only|Barbarian||Battlerager|SCAG|3"
+					"subclassFeature": "Restriction—Dwarves Only|Barbarian||Battlerager|SCAG|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -1821,7 +1616,7 @@
 			]
 		},
 		{
-			"name": "Restriction\u2014Dwarves Only",
+			"name": "Restriction—Dwarves Only",
 			"source": "SCAG",
 			"page": 121,
 			"className": "Barbarian",
@@ -2191,7 +1986,7 @@
 			"subclassSource": "TDCSR",
 			"level": 3,
 			"entries": [
-				"追随\"重甲战士\"之路的野蛮人如此坚定，无人能阻挡他们，并他们挥舞武器的力量如此之大，使得所有敌人都被甩开。在力量和精神上，\"重甲战士\"既是不可移动的物体，又是不可阻挡的力量。",
+				"追随“重甲战士”之路的野蛮人如此坚定，无人能阻挡他们，并他们挥舞武器的力量如此之大，使得所有敌人都被甩开。在力量和精神上，“重甲战士”既是不可移动的物体，又是不可阻挡的力量。",
 				"Juggernaut barbarians can be found all over Tal'Dorei, and are common among the goliath warriors of the {@book Rivermaw herd|TDCSR|3|Rivermaw Herd} that wanders the {@book Dividing Plains|TDCSR|3|Dividing Plains}. Some {@book dwarves|TDCSR|4|dwarves} and humanoid survivalists of the {@book Cliffkeep Mountains|TDCSR|3|Cliffkeep Mountains} adopt this fighting style as an extension of their rugged determinism. And a number of stalwart juggernauts hail from the jungles of the {@book Rifenmist Peninsula|TDCSR|3|Rifenmist Peninsula}, having cast off the oppressive yoke of the {@book Iron Authority|TDCSR|3|Tz'Arrm, Helm of the Emperor}.",
 				{
 					"type": "refSubclassFeature",
@@ -2234,7 +2029,7 @@
 					"name": "Rules Tip: Forced Movement",
 					"page": 166,
 					"entries": [
-						"Usually when one creature moves out of a hostile creature's reach, the hostile creature can use its reaction to make an {@action opportunity attack}. However, forced movement\u2014such as being pushed by a Path of the Juggernaut barbarian's {@subclassFeature Thunderous Blows|Barbarian|PHB|Juggernaut|TDCSR|3} feature\u2014doesn't provoke {@action opportunity attack|PHB|opportunity attacks}.",
+						"Usually when one creature moves out of a hostile creature's reach, the hostile creature can use its reaction to make an {@action opportunity attack}. However, forced movement—such as being pushed by a Path of the Juggernaut barbarian's {@subclassFeature Thunderous Blows|Barbarian|PHB|Juggernaut|TDCSR|3} feature—doesn't provoke {@action opportunity attack|PHB|opportunity attacks}.",
 						"Likewise, a juggernaut barbarian's {@subclassFeature Hurricane Strike|Barbarian|PHB|Juggernaut|TDCSR|10} feature allows an ally to make a melee weapon attack as a reaction only if the foe ends its forced movement within 5 feet of the ally. If a foe is pushed through other spaces within 5 feet of your allies, those allies can't make normal {@action opportunity attack|PHB|opportunity attacks} against the foe."
 					]
 				}
@@ -2310,808 +2105,6 @@
 			"entries": [
 				"At 14th level, your fury in battle makes you unstoppable. While you're raging, your speed cannot be reduced, and you are immune to the {@condition frightened}, {@condition paralyzed}, {@condition prone}, and {@condition stunned} conditions.",
 				"If you are {@condition frightened}, {@condition paralyzed}, or {@condition stunned}, you can still use a bonus action to enter a rage (even if you can't otherwise take actions). You aren't affected by any of these conditions while you're raging."
-			]
-		},
-		{
-			"name": "Path of the Beast",
-			"source": "UA2020SubclassesPt1",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 3,
-			"entries": [
-				"走 \"野兽之路 \"的野蛮人从他们灵魂深处燃烧的兽性火花中汲取怒气。那只野兽嚎叫着要被释放，并在愤怒的阵痛中迸发出来。",
-				"踏上这条道路的人可能是原始精神的居住者或变形者的后代。你可以选择你的野性力量的起源，或者通过在野兽起源表上滚动来随机确定它。",
-				{
-					"type": "table",
-					"caption": "Origin of the Beast",
-					"colLabels": [
-						"d4",
-						"Origin"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1",
-							"你的父母之一是狼人，你也继承了一些诅咒。"
-						],
-						[
-							"2",
-							"你是一个传奇德鲁伊的后裔，这一事实体现在你有部分改变形状的能力。"
-						],
-						[
-							"3",
-							"一个精灵赋予了你采用不同兽性的能力。"
-						],
-						[
-							"4",
-							"一个古老的动物精神居住在你体内，使你能够走这条路。"
-						]
-					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Form of the Beast|Barbarian||Beast (UA)|UA2020SubclassesPt1|3"
-				}
-			]
-		},
-		{
-			"name": "Form of the Beast",
-			"source": "UA2020SubclassesPt1",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"{@i 3rd-level Path of the Beast feature}",
-				"当你进入愤怒状态时，你可以变身，展现出你体内的兽性力量。在你的愤怒结束之前，你会显现出一种天然的近战武器，每次你愤怒的时候可以从以下选项中选择一个。",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Bite",
-							"entry": "Your mouth transforms into a bestial snout or great mandibles (your choice). Your bite deals {@damage 1d8} piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain a number of hit points equal to your Constitution modifier (minimum of 1 hit point)."
-						},
-						{
-							"type": "item",
-							"name": "Claws",
-							"entry": "Your hands transform into claws, which deal {@damage 1d6} slashing damage on a hit. When you take the {@action Attack} action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action."
-						},
-						{
-							"type": "item",
-							"name": "Tail",
-							"entry": "You grow a lashing, spiny tail, which deals {@damage 1d12} piercing damage on a hit and has the reach property."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Bestial Soul",
-			"source": "UA2020SubclassesPt1",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"{@i 6th-level Path of the Beast feature}",
-				"你体内的野性精神增长了力量，使你的野兽形态的自然武器被算作魔法武器，以克服对非魔法攻击和伤害的抵抗和免疫。",
-				"你也可以呼唤野性的精神来帮助你适应周围的环境。当你完成一次短时或长时休息时，选择以下一种好处，这种好处持续到你完成一次短时或长时休息。",
-				{
-					"type": "list",
-					"items": [
-						"你获得的游泳速度等于你的步行速度，并且你可以在水下呼吸。",
-						"你获得的攀爬速度等于你的步行速度，你可以攀爬困难的表面，包括倒立在天花板上，而不需要进行能力检查。",
-						"When you jump, you can make a Strength ({@skill Athletics}) check and extend your jump by a number of feet equal to the check's total. You can make this special check only once per turn."
-					]
-				}
-			]
-		},
-		{
-			"name": "Infectious Fury",
-			"source": "UA2020SubclassesPt1",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"{@i 10th-level Path of the Beast feature}",
-				"When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):",
-				{
-					"type": "list",
-					"items": [
-						"目标必须使用它的反应来对你所选择的另一个你能看到的生物进行近战攻击。",
-						"Target takes {@damage 2d12} psychic damage."
-					]
-				},
-				"你可以使用这个功能的次数等于你的体质修正值（最少一次）。当你完成长时间的休息时，你会重新获得所有已消耗的使用次数。"
-			]
-		},
-		{
-			"name": "Call the Hunt",
-			"source": "UA2020SubclassesPt1",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Beast (UA)",
-			"subclassSource": "UA2020SubclassesPt1",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"{@i 14th-level Path of the Beast feature}",
-				"The beast within grows so powerful that you can spread its ferocity to your allies. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). Until your rage ends, the chosen creatures gain the Reckless {@action Attack} feature and you have advantage on saving throws against being {@condition frightened}. You also gain 5 temporary hit points for each creature that accepts the benefit. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest."
-			]
-		},
-		{
-			"name": "Giant Power",
-			"source": "UA2022GiantOptions",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Giant (UA)",
-			"subclassSource": "UA2022GiantOptions",
-			"level": 3,
-			"entries": [
-				"{@i 3rd-Level Path of the Giant Feature}",
-				"When you choose this path, you learn to speak, read, and write Giant or one other language of your choice if you already know Giant. Additionally, you learn either the druidcraft or {@spell thaumaturgy} cantrip (your choice). Wisdom is your spellcasting ability for this spell."
-			]
-		},
-		{
-			"name": "Giant's Havoc",
-			"source": "UA2022GiantOptions",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Giant (UA)",
-			"subclassSource": "UA2022GiantOptions",
-			"level": 3,
-			"entries": [
-				"{@i 3rd-Level Path of the Giant Feature}",
-				"你的愤怒从巨人的原始力量中汲取力量，将你转化为一个巨大的破坏力。愤怒时，你会获得以下好处。",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Crushing Hurl",
-							"entries": [
-								"当你使用力量的投掷武器进行成功的远程攻击时，你可以在攻击的伤害卷上加上你的狂暴伤害奖励。"
-							]
-						},
-						{
-							"type": "item",
-							"name": "Giant Stature",
-							"entries": [
-								"你的触角会增加5英尺，如果你比大号小，你就会变成大号，连同你穿的任何东西一起。如果没有足够的空间让你变成大号，你的尺寸就不会改变。"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Path of the Giant",
-			"source": "UA2022GiantOptions",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Giant (UA)",
-			"subclassSource": "UA2022GiantOptions",
-			"level": 3,
-			"entries": [
-				"走巨人之路的野蛮人从巨人和他们的元素同类的原始力量中汲取力量。他们的怒火涌动着元素的力量，使这些野蛮人的体型越来越大，将他们变成原始力量的化身。",
-				"在他们的愤怒中，野蛮人可能会效仿传说中的风暴巨人，头发变成白色，眼睛里闪烁着闪电。其他人则采用世界末日巨头的畸形特征，撕裂他们周围的世界，使之重新焕发生机。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Giant Power|Barbarian||Giant (UA)|UA2022GiantOptions|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Giant's Havoc|Barbarian||Giant (UA)|UA2022GiantOptions|3"
-				}
-			]
-		},
-		{
-			"name": "Elemental Cleaver",
-			"source": "UA2022GiantOptions",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Giant (UA)",
-			"subclassSource": "UA2022GiantOptions",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"{@i 6th-Level Path of the Giant Feature}",
-				"你与巨人及其同类的元素力量的联系不断增强，你学会了用原始的能量注入武器。",
-				"When you enter your rage, you can infuse one weapon of your choice that you are holding with one of the following damage types: acid, cold, fire, thunder, or lightning. While you wield the infused weapon during your rage, the weapon's damage type changes to the chosen type, it deals an extra {@damage 1d6} damage of the chosen type when it hits, and it gains the thrown property, with a normal range of 20 feet and a long range of 60 feet. If you throw the weapon, it reappears in your hand the instant after it hits or misses a target. The infused weapon's benefits are suppressed while a creature other than you wields it.",
-				"在愤怒并持有被注入的武器时，你可以使用一个额外的动作来改变被注入的武器的当前伤害类型，使其与上述伤害类型不同。"
-			]
-		},
-		{
-			"name": "Mighty Impel",
-			"source": "UA2022GiantOptions",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Giant (UA)",
-			"subclassSource": "UA2022GiantOptions",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"{@i 10th-Level Path of the Giant Feature}",
-				"Your connection to giant strength now allows you to hurl both allies and enemies on the battlefield. As a bonus action while raging, you can choose one Medium or smaller creature within your reach and move it to an unoccupied space you can see within 30 feet of yourself. An unwilling creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) to avoid the effect.",
-				"If, at the end of this movement, the thrown creature isn't on a surface or liquid that can support it, the creature falls, taking damage as normal and landing {@condition prone}."
-			]
-		},
-		{
-			"name": "Demiurgic Colossus",
-			"source": "UA2022GiantOptions",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Giant (UA)",
-			"subclassSource": "UA2022GiantOptions",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"{@i 14th-Level Path of the Giant Feature}",
-				"你愤怒的原始力量增强了。当你愤怒的时候，你的范围现在增加了10英尺，你的体型可以增加到巨大，而且你现在可以使用你的强大推动力来移动大型或小型生物。",
-				"In addition, the extra damage dealt by your Elemental Cleaver feature increases to {@dice 2d6}."
-			]
-		},
-		{
-			"name": "Path of the Wild Soul",
-			"source": "UABarbarianAndMonk",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Wild Soul (UA)",
-			"subclassSource": "UABarbarianAndMonk",
-			"level": 3,
-			"entries": [
-				"翡冷翠的境界充满了美丽、不可预测的情感和猖獗的魔法。暴露在这一领域的野蛮人会强烈地感受到情感，而魔法则充满了他们的身体。",
-				"当遵循这条道路的野蛮人发怒时，它是对自由的咆哮，是表达的爆发，以不可预测的方式表现出来。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Lingering Magic|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Surge|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3"
-				}
-			]
-		},
-		{
-			"name": "Lingering Magic",
-			"source": "UABarbarianAndMonk",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Wild Soul (UA)",
-			"subclassSource": "UABarbarianAndMonk",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"At 3rd level, your body reacts to the presence of magic. You can cast the {@spell detect magic} spell without using a spell slot or components. Constitution is your spellcasting ability for this spell. You faintly glow a color corresponding to the school of magic you detect (you choose the colors).",
-				"你可以使用这个功能的次数等于你的体质修正值（最少一次）。当你完成一个长时间的休息时，你会恢复所有已消耗的使用。"
-			]
-		},
-		{
-			"name": "Wild Surge",
-			"source": "UABarbarianAndMonk",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Wild Soul (UA)",
-			"subclassSource": "UABarbarianAndMonk",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"从3级开始，当你愤怒的时候，魔法会从你身上爆发出来。当你进入愤怒状态时，在 \"狂飙 \"表上滚动，以确定产生的魔法效果。",
-				"If the wild surge requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
-				{
-					"type": "table",
-					"caption": "Wild Surge",
-					"colLabels": [
-						"d8",
-						"Effect"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							1,
-							"Necrotic energy bursts from you. Each creature within 30 feet of you takes {@damage 1d10} necrotic damage, and you gain temporary hit points equal to the sum of the necrotic damage dealt to the creatures."
-						],
-						[
-							2,
-							"你最多可以传送20英尺到一个你能看到的未被占领的空间。在你的愤怒结束之前，你可以在你的每个回合中再次激活这个效果，作为一个额外动作。"
-						],
-						[
-							3,
-							"You conjure {@dice 1d4} intangible spirits that look like {@creature flumph||flumphs} in unoccupied spaces within 30 feet of you. Each spirit immediately flies 30 feet in a random direction. At the end of your turn, all spirits explode and each creature within 5 feet of one or more of them must succeed on a Dexterity saving throw or take {@damage 2d8} force damage."
-						],
-						[
-							4,
-							"魔法能量笼罩着你。在你的愤怒结束之前，你会获得一个+2的额外攻击力，并且每当一个在你10英尺范围内的生物用攻击击中你时，那个生物会受到相当于你宪法修改器的力量伤害。"
-						],
-						[
-							5,
-							"Plant life temporarily grows around you: until your rage ends, the ground within 10 feet of you is {@quickref difficult terrain||3}."
-						],
-						[
-							6,
-							"奥术能量可以接触到你周围人的思想。在你30英尺范围内的每个生物都必须在智慧救赎中获得成功，否则你就会看到该生物的想法，了解它打算如何攻击你。结果是，该生物在对你进行攻击时处于劣势，直到你下一回合开始。"
-						],
-						[
-							7,
-							"阴影围绕着你所持的武器。在你的愤怒结束之前，你的武器会造成精神伤害，而不是砸伤、砍伤或刺伤，并且获得光和投掷属性，普通范围为20英尺，远程范围为60英尺。如果你丢掉武器或投掷它，武器会消散，并在你的回合结束时重新出现在你手中。"
-						],
-						[
-							8,
-							"A beam of brilliant light lances from your chest in a 5-foot-wide, 60-foot-long line. Each creature in the line must succeed on a Constitution saving throw or take {@damage 2d8} radiant damage and be {@condition blinded} until the start of your next turn."
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Magic Reserves",
-			"source": "UABarbarianAndMonk",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Wild Soul (UA)",
-			"subclassSource": "UABarbarianAndMonk",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"At 6th level, you can channel the magic surging inside you into other creatures. As an action, you can touch a creature and roll a {@dice d4}. The creature recovers an expended spell slot of a level equal to the number rolled. If the creature you touch can't recover a spell slot of that level, the creature instead gains temporary hit points equal to five times the number rolled.",
-				"你所受的武力伤害等于所卷数字的五倍。",
-				"When you reach 14th level in this class, you increase the die to a {@dice d6}."
-			]
-		},
-		{
-			"name": "Arcane Rebuke",
-			"source": "UABarbarianAndMonk",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Wild Soul (UA)",
-			"subclassSource": "UABarbarianAndMonk",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"At 10th level, the magic crackling within your soul lashes out. When a creature forces you to make a saving throw while you are raging, you can use your reaction to deal {@damage 3d6} force damage to that creature."
-			]
-		},
-		{
-			"name": "Chaotic Fury",
-			"source": "UABarbarianAndMonk",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Wild Soul (UA)",
-			"subclassSource": "UABarbarianAndMonk",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"14级时，你在狂暴时成为野性魔法的源泉。作为一个额外的动作，你可以在野性涌动表上重新投票，用新的效果取代你当前的效果。"
-			]
-		},
-		{
-			"name": "Improved Magic Reserves",
-			"source": "UABarbarianAndMonk",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Wild Soul (UA)",
-			"subclassSource": "UABarbarianAndMonk",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"At 14th level, you increase your magic reserves die to a {@dice d6}."
-			]
-		},
-		{
-			"name": "Path of the Ancestral Guardian",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 3,
-			"entries": [
-				"一些野蛮人来自崇尚祖先的文化。这些部落教导说，过去的战士作为强大的精神在这个世界上徘徊，他们可以指导和保护活人。当遵循这条道路的野蛮人暴怒时，他们会跨越障碍进入精神世界，并向这些守护神求援。",
-				"汲取祖先守护者的野蛮人为保护他们的部落和盟友而战。在神灵的帮助下，他们可以阻碍敌人，即使他们对敌人进行了强有力的打击。",
-				"为了巩固与祖先守护者的联系，走这条路的野蛮人在自己身上纹上精致的纹身，颂扬他们祖先的事迹。这些纹身讲述了战胜可怕怪物和其他可怕对手的史诗般的传奇故事。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Barbarian||Ancestral Guardian (UA)|UABarbarianPrimalPaths|3"
-				}
-			]
-		},
-		{
-			"name": "Ancestral Protectors",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Starting when you choose this path at 3rd level, spectral warriors appear when you rage. These warriors distract a foe you designate and hinder its attempts to evade you. While you're raging, you can use a bonus action on your turn to choose one creature you can see within 5 feet of you. Until the start of your next turn or until your rage ends, the chosen creature has disadvantage on any attack roll that doesn't target you, and if the creature takes the {@action Disengage} action within 5 feet of you, its speed is halved until the end of its turn."
-			]
-		},
-		{
-			"name": "Ancestral Shield",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"从6级开始，帮助你的守护神可以为你的盟友提供保护。如果你正在发怒，而你能看到的30英尺范围内的盟友受到打击、穿刺或砍击伤害，你可以用你的反应将你对这些伤害类型的抵抗转移到盟友身上。该抗性适用于传入的伤害。在你下一回合开始之前，盟友保持抵抗力，而你则缺乏抵抗力，除非你也从愤怒以外的其他来源获得抵抗力。"
-			]
-		},
-		{
-			"name": "Consult the Spirits",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"在10级的时候，你获得了与你的祖先的灵魂协商的能力。在你进行智力或智慧检查之前，你可以让自己在检查中获得优势。你可以使用这个功能三次，当你完成一次长时间的休息时，你会重新获得已消耗的使用权。"
-			]
-		},
-		{
-			"name": "Vengeful Ancestors",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"At 14th level, your ancestral spirits grow powerful enough to strike your foes. When you or an ally you can see within 30 feet of you is damaged by a melee attack while you're raging, you can use your reaction to cause the attacker to take {@damage 2d8} force damage from the spirits."
-			]
-		},
-		{
-			"name": "Path of the Storm Herald",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Storm Herald (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 3,
-			"entries": [
-				"典型的野蛮人怀有一种居住在体内的怒火。他们的愤怒赋予他们超强的力量、耐久力和速度。遵循风暴先驱之路的野蛮人则学会了将他们的愤怒转化为围绕他们的原始魔法。在愤怒的时候，走这条路的野蛮人可以利用自然创造出强大的魔法效果。",
-				"风暴使者通常是精英冠军，他们与德鲁伊、游侠和其他发誓要保护自然界的人一起训练。其他风暴使者在精英旅馆中磨练他们的技艺，这些旅馆建立在被风暴蹂躏的地区，在世界尽头的冰冻地带，或者在最热的沙漠深处。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Storm of Fury|Barbarian||Storm Herald (UA)|UABarbarianPrimalPaths|3"
-				}
-			]
-		},
-		{
-			"name": "Storm of Fury",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Storm Herald (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"When you select this path at 3rd level, choose one of the following options: desert, sea, or tundra. The environment you choose shapes the nature of the storm you conjure when you rage. While raging, you emanate an aura in a 10-foot radius. The effects of this aura depend on your chosen environment.",
-				{
-					"type": "entries",
-					"name": "Desert",
-					"entries": [
-						"任何在你的光环中结束其回合的敌人都会受到相当于2+你的野蛮人等级除以4的火焰伤害。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sea",
-					"entries": [
-						"At the end of each of your turns, you can choose a creature in your aura other than yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier. The target takes {@damage 2d6} lightning damage on a failed save, and half as much damage on a successful one. This damage increases to {@dice 3d6} at 10th level and to {@dice 4d6} at 15th level."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tundra",
-					"entries": [
-						"任何在你光环中结束回合的敌人都会受到相当于2+你的野蛮人等级除以4的寒冷伤害。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Storm Soul",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Storm Herald (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"在6级时，你与风暴之力的联系会根据你在3级时选择的环境赋予你额外的能力。",
-				{
-					"type": "entries",
-					"name": "Desert",
-					"entries": [
-						"你获得对火灾伤害的抵抗力，并且不会受到极端高温的影响。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sea",
-					"entries": [
-						"你获得对雷电伤害的抵抗力，并能在水下呼吸。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tundra",
-					"entries": [
-						"苔原。你获得对寒冷伤害的抵抗力，不会受到极度寒冷的影响。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Shield of the Storm",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Storm Herald (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"在10级时，你学会使用你对风暴的掌握来保护你的盟友。当你在暴怒时，在你光环内的盟友会获得你的风暴之魂特性的好处。"
-			]
-		},
-		{
-			"name": "Raging Storm",
-			"source": "UABarbarianPrimalPaths",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Storm Herald (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"在14级时，你所引导的风暴的力量会变得更加强大。",
-				{
-					"type": "entries",
-					"name": "Desert",
-					"entries": [
-						"The ground around you becomes like shifting sand. Any enemy that attempts to move more than 5 feet per turn on the ground while in your aura must make a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature's speed drops to 0 until the start of its next turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sea",
-					"entries": [
-						"Roaring winds tear through the area around you. Any creature in your aura that you hit with an attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tundra",
-					"entries": [
-						"The air around you coldly slows your foes. The area within your aura is {@quickref difficult terrain||3} for your enemies."
-					]
-				}
-			]
-		},
-		{
-			"name": "Path of the Zealot",
-			"source": "UABarbarianPrimalPaths",
-			"page": 2,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 3,
-			"entries": [
-				"一些神灵激励他们的追随者将自己投入到凶猛的战斗中。这些野蛮人是狂热的战士，他们将自己的愤怒转化为强大的神力展示。",
-				"A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Fury|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Warrior of the Gods|Barbarian||Zealot (UA)|UABarbarianPrimalPaths|3"
-				}
-			]
-		},
-		{
-			"name": "Divine Fury",
-			"source": "UABarbarianPrimalPaths",
-			"page": 2,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Starting when you choose this path at 3rd level, you can channel divine fury when you start to rage. If you do so, you become cloaked in an aura of divine power until the rage ends. At the end of each of your turns for that duration, each creature within 5 feet of you takes damage equal to {@dice 1d6} + half your barbarian level. The damage is necrotic or radiant; you choose the type of damage when you gain this feature."
-			]
-		},
-		{
-			"name": "Warrior of the Gods",
-			"source": "UABarbarianPrimalPaths",
-			"page": 2,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"三级时，你的灵魂被标记为无尽的战斗。如果一个法术的唯一效果是使你恢复生命（但不是不死），施法者不需要物质成分就能对你施法。"
-			]
-		},
-		{
-			"name": "Zealous Focus",
-			"source": "UABarbarianPrimalPaths",
-			"page": 2,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"6级时，激发你愤怒的神力可以保护你免受伤害。如果你在暴怒时救赎失败，你可以在救赎中获得成功，作为一种反应。然而，这样做会立即结束你的愤怒，在你完成短期或长期的休息之前，你不能再次愤怒。"
-			]
-		},
-		{
-			"name": "Zealous Presence",
-			"source": "UABarbarianPrimalPaths",
-			"page": 2,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"10级时，你学会引导神力来激发他人的狂热。作为一项行动，你会发出愤怒的嚎叫，并释放出充满神力的战吼。在你60英尺范围内的每一个盟友都会在攻击和蓄力上获得优势，直到你下一个回合开始。",
-				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
-			]
-		},
-		{
-			"name": "Rage Beyond Death",
-			"source": "UABarbarianPrimalPaths",
-			"page": 2,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Zealot (UA)",
-			"subclassSource": "UABarbarianPrimalPaths",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"从14级开始，助长你愤怒的神力使你能够摆脱致命的打击。",
-				"While raging, having 0 hit points doesn't knock you {@condition unconscious}. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don't die until your rage ends."
-			]
-		},
-		{
-			"name": "Path of the Ancestral Guardian v2",
-			"source": "UARevisedSubclasses",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian v2 (UA)",
-			"subclassSource": "UARevisedSubclasses",
-			"level": 3,
-			"entries": [
-				"一些野蛮人来自崇尚祖先的文化。这些部落教导说，过去的战士作为强大的精神在这个世界上徘徊，他们可以指导和保护活人。当遵循这条道路的野蛮人暴怒时，他们会跨越障碍进入精神世界，并向这些守护神求援。",
-				"汲取祖先守护者的野蛮人为保护他们的部落和盟友而战。在神灵的帮助下，他们可以阻碍敌人，即使他们对敌人进行了强有力的打击。",
-				"为了巩固与祖先守护者的联系，走这条路的野蛮人在自己身上纹上精致的纹身，颂扬他们祖先的事迹。这些纹身讲述了战胜可怕怪物和其他可怕对手的史诗般的传奇故事。",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Ancestral Protectors|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3"
-				}
-			]
-		},
-		{
-			"name": "Ancestral Protectors",
-			"source": "UARevisedSubclasses",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian v2 (UA)",
-			"subclassSource": "UARevisedSubclasses",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"从你3级时选择这条道路开始，幽灵战士会在你愤怒的时候出现。这些战士会分散你指定的敌人的注意力，并阻碍其试图躲避你。当你愤怒时，在你的回合中，你用攻击击中的第一个生物会成为这些战士的目标。直到你下一回合开始或你的愤怒结束，该目标在任何不以你为目标的攻击卷中都有劣势，而除你之外的生物对该生物的攻击伤害有抵抗力。"
-			]
-		},
-		{
-			"name": "Ancestral Shield",
-			"source": "UARevisedSubclasses",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian v2 (UA)",
-			"subclassSource": "UARevisedSubclasses",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Beginning at 6th level, the guardian spirits that aid you can provide protection for your allies. If you are raging and a creature you can see within 30 feet of you takes damage, you can use your reaction and reduce that damage by {@dice 2d8}. When you reach certain levels in this class, you can reduce the damage by more: by {@dice 3d8} at 10th level and by {@dice 4d8} at 14th level."
-			]
-		},
-		{
-			"name": "Consult the Spirits",
-			"source": "UARevisedSubclasses",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian v2 (UA)",
-			"subclassSource": "UARevisedSubclasses",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"At 10th level, you gain the ability to consult with your ancestral spirits and use them to scout far-off lands. When you do so, you cast the {@spell clairvoyance} spell, without needing a spell slot. Rather than creating a spherical sensor, the spell invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for the spell. After you cast the spell in this way, you can't do so again until you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Vengeful Ancestors",
-			"source": "UARevisedSubclasses",
-			"page": 1,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Guardian v2 (UA)",
-			"subclassSource": "UARevisedSubclasses",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"在14级时，你的祖先之魂变得足够强大，可以打击那些敢于伤害你所保护的人的敌人。当你使用你的精神护盾能力保护一个被攻击伤害的生物时，攻击者会受到与精神护盾所保护的相同数量的伤害。"
 			]
 		},
 		{

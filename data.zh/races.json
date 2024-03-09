@@ -832,124 +832,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Astral Elf",
-			"source": "UA2021TravelersOfTheMultiverse",
-			"page": 1,
-			"reprintedAs": [
-				"Astral Elf|AAG"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"darkvision": 60,
-			"traitTags": [
-				"Improved Resting"
-			],
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
-			],
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"dancing lights#c"
-						]
-					},
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					}
-				},
-				{
-					"known": {
-						"1": [
-							"light#c"
-						]
-					},
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					}
-				},
-				{
-					"known": {
-						"1": [
-							"sacred flame#c"
-						]
-					},
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Astral Fire",
-					"entries": [
-						"你知道以下一个你选择的咒语。{@spell dancing lights}, {@spell light}, 或 {@spell sacred flame}。智力、智慧或魅力是你对它的施法能力（在你选择这个种族时选择）。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"你可以在你周围60英尺内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西，就像暗光一样。你在黑暗中只能分辨出灰色的深浅。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fey Ancestry",
-					"entries": [
-						"你在为避免或结束自己身上的{@condition charmed}状况而进行的拯救动作上有优势。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Keen Senses",
-					"entries": [
-						"你对{@skill Perception}的技能有熟练的掌握。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Radiant Soul",
-					"entries": [
-						"当你的死亡救赎成功时，你可以恢复相当于你的熟练度加成+你的智力、智慧或魅力修饰的命中率（在你选择这个种族时选择）。在你完成长时间的休息之前，你不能再次使用这个特性。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Trance",
-					"entries": [
-						"你不需要睡觉，魔法也不能让你睡觉。你可以在4个小时内完成长时间的休息，如果你把这几个小时花在类似于恍惚的冥想中，在这期间你保持清醒。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Trance Proficiencies",
-					"entries": [
-						"Whenever you finish a long rest using your Trance trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the \"{@book Equipment|PHB|5}\" chapter of the Player's Handbook). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest."
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "Autognome",
 			"source": "AAG",
 			"page": 11,
@@ -1030,90 +912,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Autognome",
-			"source": "UA2021TravelersOfTheMultiverse",
-			"page": 2,
-			"reprintedAs": [
-				"Autognome|AAG"
-			],
-			"lineage": "VRGR",
-			"creatureTypes": [
-				"construct"
-			],
-			"size": [
-				"S"
-			],
-			"speed": 30,
-			"traitTags": [
-				"Improved Resting",
-				"Natural Armor"
-			],
-			"toolProficiencies": [
-				{
-					"any": 2
-				}
-			],
-			"resist": [
-				"poison"
-			],
-			"conditionImmune": [
-				"disease"
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Creature Type",
-					"entries": [
-						"你是一个结构体。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Armored Casing",
-					"entries": [
-						"你被包裹在薄金属或其他耐用材料中。当你没有穿戴盔甲时，你的基本装甲等级是13+你的灵巧修正值。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Built for Success",
-					"entries": [
-						"You can add a {@dice d4} to one attack roll, ability check, or saving throw you make, and you can do so after seeing the {@dice d20} but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mechanical Nature",
-					"entries": [
-						"你对毒物伤害有抵抗力，对疾病有免疫力，对被{@condition paralyzed}或{@condition poisoned}的拯救有优势。你不需要吃、喝、或呼吸。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sentry's Rest",
-					"entries": [
-						"When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you aren't {@condition unconscious}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Specialized Design",
-					"entries": [
-						"你获得两个你选择的工具熟练度。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "True Life",
-					"entries": [
-						"如果{@spell mending}的法术被施放在你身上，你可以消耗一个命中率，滚动它，并恢复等于滚动加你的体质修正值的命中率数量（最小为1个命中率）。",
-						"此外，你的创造者设计了你，让你受益于保护生命的普通法术，但这些法术通常不会影响结构体。{@spell cure wounds}, {@spell healing word}, 和 {@spell spare the dying}。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Aven",
@@ -1864,43 +1662,21 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Centaur",
-			"source": "UACentaursMinotaurs",
-			"page": 1,
-			"reprintedAs": [
-				"Centaur|GGR"
-			],
-			"creatureTypes": [
-				"humanoid",
-				"monstrosity"
-			],
+			"name": "Cervan",
+			"source": "HWCS",
+			"page": 22,
 			"size": [
 				"M"
 			],
-			"speed": 40,
+			"speed": 30,
 			"ability": [
 				{
-					"str": 2,
-					"wis": 1
-				}
-			],
-			"age": {
-				"mature": 20,
-				"max": 100
-			},
-			"traitTags": [
-				"Natural Weapon",
-				"Powerful Build"
-			],
-			"skillProficiencies": [
-				{
-					"survival": true
+					"con": 2
 				}
 			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"sylvan": true
+					"other": true
 				}
 			],
 			"entries": [
@@ -1908,78 +1684,59 @@
 					"name": "Age",
 					"type": "entries",
 					"entries": [
-						"半人马的成熟和衰老速度与人类大致相同。"
+						"Cervans reach maturity around 12 years. They live long lives compared to the rest of the Humblefolk, between 100 and 150 years, something they attribute as much to their way of life as the blessing of Cairith. Pronghorns generally live longer than grove cervans, which is considered a sign of Cairith's favor."
 					]
 				},
 				{
 					"name": "Alignment",
 					"type": "entries",
 					"entries": [
-						"半人马倾向于保持中立。"
+						"Cervans are pragmatic in their thinking, and generally prefer to keep their philosophies flexible in order to prioritize what they believe is important for both themselves and their communities. They lean towards neutral alignments."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"你的体型是中等的，但你却比其他大多数人形动物高大。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Charge",
-					"entries": [
-						"如果你向一个目标直线移动至少20英尺，然后在同一回合内用近战武器攻击击中该目标，就会将武器的伤害骰子滚动两次，并将它们加在一起。一旦你使用这个能力，你就不能再使用它，直到你完成一个短期或长期休息。"
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Hooves",
-					"entries": [
-						"你的蹄子是天然的近战武器，你对它很精通。如果你用蹄子击中目标，目标会受到相当于{@dice 1d6}+你力量修正值的重击伤害。"
+						"Grove cervans stand between 5 and 6 feet tall, and have light builds, weighing between 130 and 180 pounds. Pronghorn cervans are taller and tend toward heavier, more muscular builds, standing around 7 feet tall, and sometimes weighing over 200 pounds. Your size is Medium."
 					]
 				},
 				{
+					"name": "Speed",
 					"type": "entries",
-					"name": "Equine Build",
 					"entries": [
-						"在确定你的运载能力和你能推动或拖动的重量时，你算大一码。此外，由于你的蹄子，任何需要手和脚的攀登对你来说都特别困难。当你进行这样的攀爬时，每移动一英尺就要多花4英尺，而不是正常的多花1英尺。最后，如果你允许的话，一个中型或小型生物可以骑在你的马背上。在这种情况下，你继续独立行动，而不是作为一个受控的坐骑。"
+						"你的基本行走速度是30英尺。"
 					]
 				},
 				{
+					"name": "Practical",
 					"type": "entries",
-					"name": "Survivor",
 					"entries": [
-						"你对{@skill Survival}的技能有熟练的掌握。"
+						"Cervans are eminently practical and like to spend their time learning useful skills for life in their woodland villages. You gain proficiency in one of the following skills: {@skill Athletics}, {@skill Medicine}, {@skill Nature}, or {@skill Survival}."
 					]
 				},
 				{
+					"name": "Surge of Vigor",
 					"type": "entries",
-					"name": "Hybrid Nature",
 					"entries": [
-						"你有两种生物类型：人形和畸形。如果一个游戏效果对你的任何一种生物类型有效，你就能受到它的影响。"
+						"All cervans possess a great tenacity and will to survive, which allows them to bounce back from even the most devastating blows. If an attack deals over half of your current remaining hit points in damage, (even if your hit points are reduced to 0 by the attack) you immediately regain hit points equal to {@dice 1d12} + your Constitution Modifier. You can't use this feature again until you have completed a long rest."
 					]
 				},
 				{
 					"name": "Languages",
+					"type": "entries",
 					"entries": [
-						"你能说、读、写普通话和希尔文。"
-					],
-					"type": "entries"
+						"You can speak, read, and write Birdfolk, and speak Cervan (Cervan has no written component)."
+					]
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Changeling",
 			"source": "ERLW",
 			"page": 17,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 60
-				}
-			],
 			"reprintedAs": [
 				"Changeling|MPMM"
 			],
@@ -2141,173 +1898,91 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Changeling",
-			"source": "UAEberron",
-			"page": 1,
-			"reprintedAs": [
-				"Changeling|UARacesOfEberron"
-			],
+			"name": "Corvum",
+			"source": "HWCS",
+			"page": 12,
 			"size": [
 				"M"
 			],
 			"speed": 30,
 			"ability": [
 				{
-					"dex": 1,
-					"cha": 1
-				}
-			],
-			"skillProficiencies": [
-				{
-					"deception": true
+					"int": 2
 				}
 			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"anyStandard": 2
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"变种人的身材很像人类，但更瘦小一些。你的体型是中等"
-					]
-				},
-				{
-					"name": "Duplicity",
-					"entries": [
-						"你获得对{@skill Deception}技能的熟练度。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Shapechanger",
-					"entries": [
-						"作为一个动作，你可以多态化为你所见过的任何体型的人形，或者回到你的真实形态。然而，你的装备并不随你改变。如果你死亡，你会恢复到你的自然形态。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你可以说、读、写普通话和你选择的另外两种语言。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Changeling",
-			"source": "UARacesOfEberron",
-			"page": 1,
-			"reprintedAs": [
-				"Changeling|ERLW"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"cha": 2,
-					"choose": {
-						"from": [
-							"int",
-							"dex"
-						],
-						"count": 1
-					}
-				}
-			],
-			"age": {
-				"mature": 20,
-				"max": 100
-			},
-			"traitTags": [
-				"Tool Proficiency"
-			],
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"deception",
-							"insight",
-							"intimidation",
-							"persuasion"
-						],
-						"count": 2
-					}
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 2
+					"other": true,
+					"auran": true
 				}
 			],
 			"entries": [
 				{
 					"name": "Age",
+					"type": "entries",
 					"entries": [
-						"变种人的成熟速度比人类稍快，但寿命相似--通常为一个世纪或更短。虽然变种人可以通过变形来掩盖他们的年龄，但衰老的影响还是会追上他们。"
-					],
-					"type": "entries"
+						"Corvums reach adulthood at around 18 years. They live slightly shorter lives than other birdfolk, approximately 70 years."
+					]
 				},
 				{
-					"type": "entries",
 					"name": "Alignment",
+					"type": "entries",
 					"entries": [
-						"昌吉人讨厌以任何方式被束缚，那些走旅行者道路的人相信混乱和变化是生活的重要方面。大多数人倾向于务实的中立性，而不是关注崇高的理想。很少有变革者拥抱邪恶。"
+						"Shrewd and capable, corvums prefer moral flexibility and are more likely to be neutral than either good or evil. Nonetheless, corvums see the benefit of rules, even if many attempt to turn them to their own advantage. Because of this they favor lawful alignments."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"在他们的自然形态下，变种人平均身高在5到6英尺之间，身材纤细。你的体型是中等。"
+						"Corvums cut imposing figures, standing between 4 and a half and 5 and a half feet tall, encompassing a variety of different builds. They weigh around 100 pounds. Your size is Medium."
 					]
 				},
 				{
+					"name": "Speed",
 					"type": "entries",
-					"name": "Change Appearance",
 					"entries": [
-						"作为一个动作，你可以改变你的外表或恢复到你的自然形态。你不能复制你从未见过的生物的外表，而且如果你死了，你会恢复到你的自然形态。",
-						"你决定你的长相，包括你的身高、体重、面部特征、你的声音、肤色、头发长度、性别，以及其他任何区别性特征。你可以让自己变成另一个种族的成员，但你的游戏统计数据不会改变。你也不能变成与你体型不同的生物，而且你的基本形状保持不变；例如，如果你是两足动物，你就不能用这个特征来变成四足动物。你的衣服和其他装备不会因为你的新形态而在外观、大小或形状上发生变化，这就要求你在手头多准备几件衣服，以尽可能地进行最引人注目的伪装。",
-						"Even to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something is amiss, you have advantage on any Charisma ({@skill Deception}) check you make to avoid detection."
+						"你的基本行走速度是30英尺。"
 					]
 				},
 				{
+					"name": "Glide",
 					"type": "entries",
-					"name": "Changeling Instincts",
 					"entries": [
-						"你获得对以下两个技能的熟练度，你可以选择。{@skill Deception}, {@skill Insight}, {@skill Intimidation}, 或 {@skill Persuasion}"
+						"Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
 					]
 				},
 				{
+					"name": "Talons",
 					"type": "entries",
-					"name": "Unsettling Visage",
 					"entries": [
-						"当一个你能看到的生物对你进行攻击时，你可以用你的反应来对该攻击施加不利条件。你必须在知道攻击命中或未命中之前使用这一特性。使用这个特性会让30英尺内能看到你的任何生物看到你的变形本质。一旦你使用这个特性，你就不能再使用它，直到你完成一个短或长的休息。"
+						"Your sharp claws aid you in unarmed combat and while climbing. Your damage for an unarmed strike is {@damage 1d4} piercing damage. Additionally, you have advantage on Strength ({@skill Athletics}) checks made to climb any surface your talons could reasonably grip."
 					]
 				},
 				{
+					"name": "Learned",
 					"type": "entries",
-					"name": "Divergent Persona",
 					"entries": [
-						"You gain proficiency with one {@book tool|phb|5|tools} of your choice. Define a persona associated with that proficiency: establish the name, race, gender, age, and other details. While you are in the form of this persona, the related proficiency bonus is doubled for any ability check you make that uses that proficiency."
+						"You gain proficiency in one of the following skills: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}."
+					]
+				},
+				{
+					"name": "Appraising Eye",
+					"type": "entries",
+					"entries": [
+						"You have an almost supernatural ability to appraise objects. By spending an action examining any object, you can determine any magical properties the item has, how they might be used or activated, as well as a fair estimation of market price. Using this skill strains the eyes, and you must complete a long or short rest before you can use it again."
 					]
 				},
 				{
 					"name": "Languages",
+					"type": "entries",
 					"entries": [
-						"你可以说、读、写普通话和你选择的另外两种语言。"
-					],
-					"type": "entries"
+						"You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
+					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Custom Lineage",
@@ -2518,80 +2193,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Dhampir",
-			"source": "UA2021GothicLineages",
-			"page": 2,
-			"reprintedAs": [
-				"Dhampir|VRGR"
-			],
-			"lineage": "UA1",
-			"creatureTypes": [
-				"humanoid",
-				"undead"
-			],
-			"size": [
-				"S",
-				"M"
-			],
-			"speed": {
-				"walk": 35,
-				"climb": true
-			},
-			"darkvision": 60,
-			"traitTags": [
-				"Natural Weapon"
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Type:",
-							"entry": "人形和亡灵"
-						},
-						{
-							"type": "item",
-							"name": "Size:",
-							"entry": "中型或小型（在你获得这一血统时选择）"
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"你可以在60英尺范围内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西就像昏暗光线一样。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spider Climb",
-					"entries": [
-						"你的攀爬速度等同于你的步行速度。此外，在第三级时，你可以向上、向下和穿过垂直表面，并沿着天花板倒立移动，同时让你的双手保持自由。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Vampiric Bite",
-					"entries": [
-						"你的獠牙之咬是一种自然武器，算作你精通的简单近战武器。当你用獠牙攻击时，你会在攻击和伤害卷中加入你的体质修正值。你的咬合在命中时造成{@damage 1d4}的穿刺伤害。当你缺少一半或更多的命中率时，你在用这个咬合进行的攻击卷中具有优势。",
-						"当你使用你的咬伤并击中一个非构筑物或不死族的生物时，你可以用你选择的下列方式之一赋予自己力量。",
-						{
-							"type": "list",
-							"items": [
-								"重新获得与被咬的伤害相等的命中点",
-								"在你的下一次能力检查或攻击卷中获得一个奖励；该奖励等于被咬的伤害。"
-							]
-						},
-						"你可以用你的咬合力增强自己的能力，次数与你的熟练度加成相等，当你完成长时间休息时，你会恢复所有消耗的使用。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Dhampir",
@@ -2924,7 +2525,7 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"_template": {
+					"_abstract": {
 						"name": "Dragonborn (Chromatic; {{color}})",
 						"source": "FTD",
 						"_mod": {
@@ -2993,98 +2594,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Dragonborn (Chromatic)",
-			"source": "UA2021DraconicOptions",
-			"page": 2,
-			"reprintedAs": [
-				"Dragonborn (Chromatic)|FTD"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"resist": [
-				{
-					"choose": {
-						"from": [
-							"acid",
-							"lightning",
-							"poison",
-							"fire",
-							"cold"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Chromatic Ancestry",
-					"entries": [
-						"你的祖先是一条色龙，赋予你一种特殊的魔法亲和力。从色龙的祖先表中选择一种龙的类型。这决定了你其他特质的伤害类型，如表中所示。",
-						{
-							"type": "table",
-							"caption": "Chromatic Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type"
-							],
-							"colStyles": [
-								"col-6 text-center",
-								"col-6 text-center"
-							],
-							"rows": [
-								[
-									"黑色",
-									"Acid"
-								],
-								[
-									"Blue",
-									"閃電"
-								],
-								[
-									"绿色",
-									"毒药"
-								],
-								[
-									"Red",
-									"Fire"
-								],
-								[
-									"白",
-									"Cold"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Breath Weapon",
-					"entries": [
-						"当你采取{@action Attack}行动时，你可以在5英尺宽的30英尺范围内，用呼出的魔法能量代替你的一次攻击。该区域内的每个生物都必须做一个灵巧的蓄力动作，其DC等于8+你的宪法修改器+你的熟练度奖励。蓄力失败时，生物会受到与你的色系血统相关的1%的伤害，蓄力成功时则会受到一半的伤害。当你达到5级（3%）、11级（4%）和17级（5%）时，这个伤害会增加（2%）。",
-						"你可以使用这个特质的次数与你的熟练度加成相等，当你完成长时间的休息时，你会恢复所有消耗的使用。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Resistance",
-					"entries": [
-						"你对与你的色系祖先有关的伤害类型有抵抗力。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Chromatic Warding",
-					"entries": [
-						"从第三级开始，作为一个动作，你可以引导你的龙族能量来保护自己。在10分钟内，你会对与你的色系祖先有关的伤害类型产生免疫。一旦你使用这个特性，你就不能再这样做了，直到你完成一个长时间的休息。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Dragonborn (Gem)",
@@ -3184,7 +2693,7 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"_template": {
+					"_abstract": {
 						"name": "Dragonborn (Gem; {{color}})",
 						"source": "FTD",
 						"_mod": {
@@ -3268,105 +2777,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Dragonborn (Gem)",
-			"source": "UA2021DraconicOptions",
-			"page": 3,
-			"reprintedAs": [
-				"Dragonborn (Gem)|FTD"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"resist": [
-				{
-					"choose": {
-						"from": [
-							"force",
-							"radiant",
-							"psychic",
-							"thunder",
-							"necrotic"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Gem Ancestry",
-					"entries": [
-						"你的祖先是一只宝石龙，赋予你一种特殊的魔法亲和力。从宝石祖先表中选择一种龙的类型。这决定了你其他特质的伤害类型，如表中所示。",
-						{
-							"type": "table",
-							"caption": "Gem Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type"
-							],
-							"colStyles": [
-								"col-6 text-center",
-								"col-6 text-center"
-							],
-							"rows": [
-								[
-									"紫晶石",
-									"力量"
-								],
-								[
-									"水晶",
-									"辐射"
-								],
-								[
-									"绿宝石",
-									"通灵"
-								],
-								[
-									"蓝宝石",
-									"雷霆"
-								],
-								[
-									"黄玉",
-									"坏死的"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Breath Weapon",
-					"entries": [
-						"当你采取{@action Attack}行动时，你可以在15英尺的范围内用一种魔法能量的呼气来代替你的一次攻击。该区域内的每个生物都必须做一个灵巧的蓄力动作，其DC等于8+你的宪法修改器+你的熟练度奖励。如果救赎失败，生物会受到与你的宝石血统相关的1%的伤害，如果救赎成功，则会受到一半的伤害。当你达到5级（3%）、11级（4%）和17级（5%）时，这个伤害会增加（2%）。",
-						"你可以使用这个特质的次数与你的熟练度加成相等，当你完成长时间的休息时，你会恢复所有消耗的使用。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Resistance",
-					"entries": [
-						"你对与你的宝石血统相关的伤害类型有抵抗力。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Psionic Mind",
-					"entries": [
-						"你可以用心灵感应与你周围30英尺内你能看到的任何生物说话。你不需要与该生物共享一种语言，但该生物必须能够理解至少一种语言。你的交流并不能让生物有能力对你做出心灵感应。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Gem Flight",
-					"entries": [
-						"从3级开始，你可以使用你的额外行动来暂时召唤一系列符合你宝石血统的幽灵宝石，形状如翅膀，持续1分钟。在持续时间内，你获得与你的步行速度相等的飞行速度，并且可以悬停。一旦你使用这个特质，你就不能再这样做，直到你完成一个长时间的休息。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Dragonborn (Metallic)",
@@ -3479,7 +2889,7 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"_template": {
+					"_abstract": {
 						"name": "Dragonborn (Metallic; {{color}})",
 						"source": "FTD",
 						"_mod": {
@@ -3563,105 +2973,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Dragonborn (Metallic)",
-			"source": "UA2021DraconicOptions",
-			"page": 2,
-			"reprintedAs": [
-				"Dragonborn (Metallic)|FTD"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"resist": [
-				{
-					"choose": {
-						"from": [
-							"fire",
-							"lightning",
-							"acid",
-							"cold"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Metallic Ancestry",
-					"entries": [
-						"你的祖先是一条金属龙，赋予你一种特殊的魔法亲和力。从金属龙的祖先表中选择一种龙的类型。这决定了你其他特质的伤害类型，如表中所示。",
-						{
-							"type": "table",
-							"caption": "Metallic Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type"
-							],
-							"colStyles": [
-								"col-6 text-center",
-								"col-6 text-center"
-							],
-							"rows": [
-								[
-									"黄铜",
-									"Fire"
-								],
-								[
-									"铜质",
-									"閃電"
-								],
-								[
-									"铜",
-									"Acid"
-								],
-								[
-									"Gold",
-									"Fire"
-								],
-								[
-									"银色",
-									"Cold"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Breath Weapon",
-					"entries": [
-						"当你采取{@action Attack}行动时，你可以在15英尺的范围内用一种魔法能量的呼气来代替你的一次攻击。该区域内的每个生物都必须做一个灵巧的蓄力动作，其DC等于8+你的宪法修改器+你的熟练度奖励。如果救赎失败，生物会受到与你的金属血统相关的1%的伤害，如果救赎成功，则会受到一半的伤害。当你达到5级（3%）、11级（4%）和17级（5%）时，这个伤害会增加（2%）。",
-						"你可以使用这个特质的次数与你的熟练度加成相等，当你完成长时间的休息时，你会恢复所有消耗的使用。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Resistance",
-					"entries": [
-						"你对与你的金属血统相关的伤害类型有抵抗力。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Metallic Breath Weapon",
-					"entries": [
-						"在3级时，你获得第二个呼吸武器。当你采取{@action Attack}行动时，你可以在15英尺的范围内用呼出的魔法气体来代替你的一次攻击。这个呼吸的救赎DC是8+你的宪法修改器+你的熟练度奖励。当你使用这个能力时，请选择一个。",
-						{
-							"type": "list",
-							"items": [
-								"Each creature in the area must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked {@condition prone}.",
-								"Each creature in the area must succeed on a Constitution saving throw or become {@condition incapacitated} until the start of your next turn."
-							]
-						},
-						"一旦你使用你的金属呼吸武器，你就不能再这样做，直到你完成一个长时间的休息。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Duergar",
@@ -4271,7 +3582,7 @@
 				{
 					"name": "Elf Culture",
 					"entries": [
-						"The elves of Kaladesh don't organize themselves into nations or tribes. Still, they recognize three distinct cultural groups among their kind\u2014though in truth these groupings are more like attitudes or alignments with regard to the rest of society and the use of technology. Choose one of these cultures."
+						"The elves of Kaladesh don't organize themselves into nations or tribes. Still, they recognize three distinct cultural groups among their kind—though in truth these groupings are more like attitudes or alignments with regard to the rest of society and the use of technology. Choose one of these cultures."
 					],
 					"type": "entries"
 				}
@@ -4435,81 +3746,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Fairy",
-			"source": "UA2021FolkOfTheFeywild",
-			"page": 2,
-			"reprintedAs": [
-				"Fairy|WBtW"
-			],
-			"lineage": "VRGR",
-			"creatureTypes": [
-				"fey"
-			],
-			"size": [
-				"S"
-			],
-			"speed": {
-				"walk": 30,
-				"fly": true
-			},
-			"additionalSpells": [
-				{
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"1": [
-							"druidcraft#c"
-						]
-					},
-					"innate": {
-						"1": {
-							"daily": {
-								"1": [
-									"faerie fire"
-								]
-							}
-						}
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Creature Type",
-					"entries": [
-						"你是一个费伊人。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fairy Flight",
-					"entries": [
-						"你的飞行速度等同于你的步行速度，并且可以悬停。这种飞行是神奇的，不需要使用你的翅膀（如果你有的话）。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fairy Magic",
-					"entries": [
-						"You know the {@spell druidcraft} and {@spell faerie fire} spells. You can cast faerie fire without expending a spell slot, and you must finish a long rest before you can cast it this way again. You can also cast this spell using any spell slots you have. Your spellcasting ability for these spells is your choice of Intelligence, Wisdom, or Charisma."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fey Passage",
-					"entries": [
-						"你可以挤过1英寸宽的狭窄空间。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Fairy",
@@ -4772,6 +4008,100 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Gallus",
+			"source": "HWCS",
+			"page": 14,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"wis": 2
+				}
+			],
+			"languageProficiencies": [
+				{
+					"other": true,
+					"auran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"While ages fluctuate, gallus reach maturity around 18 and can live anywhere between 70 and 100 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most gallus are lawful good. They are a salt-of-the-earth sort of folk who believe in justice, the value of hard work, and the importance of respecting others."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Gallus are the most varied of the birdfolk races, ranging from just under 4 feet to just over 5 feet tall, and showing many unique builds. The variety of shapes and sizes means they also encompass a variety of weights, but most average around 90 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"你的基本行走速度是30英尺。"
+					]
+				},
+				{
+					"name": "Glide",
+					"type": "entries",
+					"entries": [
+						"Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
+					]
+				},
+				{
+					"name": "Wing Flap",
+					"type": "entries",
+					"entries": [
+						"As a bonus action, you can use your powerful feathered arms to propel yourself upward a distance equal to half your movement speed. You can use it in conjunction with a regular jump, but not while gliding."
+					]
+				},
+				{
+					"name": "Communal",
+					"type": "entries",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the history of your race, culture, or community, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					]
+				},
+				{
+					"name": "Militia Training",
+					"type": "entries",
+					"entries": [
+						"You have proficiency in {@filter simple weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=u~u~sand}."
+					]
+				},
+				{
+					"name": "Of the People",
+					"type": "entries",
+					"entries": [
+						"You gain proficiency with the {@filter artisan tools|items|source=phb|category=basic|type=artisan's tools} of your choice: {@item brewer's supplies|PHB}, {@item carpenter's tools|PHB}, or {@item smith's tools|PHB}."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Genasi",
 			"source": "EEPC",
 			"page": 9,
@@ -4933,42 +4263,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Giff",
-			"source": "UA2021TravelersOfTheMultiverse",
-			"page": 2,
-			"reprintedAs": [
-				"Giff|AAG"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"M"
-			],
-			"speed": {
-				"walk": 30,
-				"swim": true
-			},
-			"traitTags": [
-				"Powerful Build"
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Damage Dealer",
-					"entries": [
-						"就像水晶店里的河马一样，你天生善于破坏东西。当你在近战攻击的伤害骰子上掷出1时，你可以重掷骰子并使用新的骰子。你每回合可以这样做不超过一次。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Hippo Build",
-					"entries": [
-						"你在基于力量的能力检查和力量投掷方面具有优势。此外，在确定你的运载能力和你可以推动、拖动或举起的重量时，你算作大一号。"
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "Gith",
 			"source": "MTF",
 			"page": 96,
@@ -5015,53 +4309,6 @@
 				}
 			],
 			"hasFluff": true
-		},
-		{
-			"name": "Gith",
-			"source": "UAEladrinAndGith",
-			"page": 2,
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"int": 1
-				}
-			],
-			"age": {
-				"mature": 20,
-				"max": 100
-			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"other": true
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"吉斯人在十几岁时达到成年，寿命约为一个世纪。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"吉斯人比人类更高更瘦，大多数人的身高是6英尺，很苗条。"
-					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话和吉斯语。"
-					],
-					"type": "entries"
-				}
-			]
 		},
 		{
 			"name": "Githyanki",
@@ -5219,67 +4466,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Glitchling",
-			"source": "UA2022WondersOfTheMultiverse",
-			"page": 1,
-			"lineage": "VRGR",
-			"creatureTypes": [
-				"construct"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"traitTags": [
-				"Natural Armor"
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Creature Type",
-					"entries": [
-						"你是一个结构体。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Armored Plating",
-					"entries": [
-						"你的金属皮肤被装甲板加固。当你没有穿戴盔甲时，你的基本护甲等级是14+你的灵巧修正值。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Balance Chaos",
-					"entries": [
-						"When you make an attack roll or a saving throw and roll a 9 or lower on the {@dice d20}, you can balance chaos and treat the roll as a 10. You can balance chaos in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Living Construct",
-					"entries": [
-						"你被创造出来是为了受益于几种保护生命的法术，但这些法术通常不会影响到结构体。{@spell cure wounds}, {@spell healing word}, {@spell mass cure wounds}, {@spell mass healing word}, 和 {@spell spare the dying}。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ordered Mind",
-					"entries": [
-						"你在智慧({@skill Insight})检查和为避免或结束自己身上的{@condition charmed}状况而进行的拯救动作上具有优势。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Vestigial Wings",
-					"entries": [
-						"你有残存的翅膀，可以进行有限的飞行。当你移动时，你可以使用你的翅膀来获得相当于你的步行速度的飞行速度，直到当前回合结束。如果你在该回合结束时仍在高空，没有其他东西支撑你，你就会坠落。你可以使用这个特性的次数等于你的熟练度加成，当你完成长时间的休息时，你会恢复所有已消耗的使用。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Gnoll",
@@ -6278,54 +5464,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hadozee",
-			"source": "UA2021TravelersOfTheMultiverse",
-			"page": 3,
-			"reprintedAs": [
-				"Hadozee|AAG"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"S",
-				"M"
-			],
-			"speed": {
-				"walk": 30,
-				"climb": true
-			},
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"你是中型或小型。你在获得这一血统时选择大小。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dexterous Feet",
-					"entries": [
-						"你可以采取{@action Use an Object}的行动作为奖励行动。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Glide",
-					"entries": [
-						"如果你没有{@condition incapacitated}或穿着重甲，你可以扩展你的皮膜并滑行。当你这样做时，你可以进行以下空中机动。",
-						{
-							"type": "list",
-							"items": [
-								"当你坠落时，你每下降1英尺，就可以在水平方向上移动5英尺。",
-								"当你会受到坠落的伤害时，你可以用你的反应将坠落的伤害减少到0。"
-							]
-						}
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "Half-Elf",
 			"source": "PHB",
 			"page": 38,
@@ -6719,89 +5857,105 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hexblood",
-			"source": "UA2021GothicLineages",
-			"page": 3,
-			"reprintedAs": [
-				"Hexblood|VRGR"
-			],
-			"lineage": "UA1",
-			"creatureTypes": [
-				"humanoid",
-				"fey"
-			],
+			"name": "Hedge",
+			"source": "HWCS",
+			"page": 24,
 			"size": [
-				"S",
-				"M"
+				"S"
 			],
-			"speed": 30,
-			"darkvision": 60,
-			"additionalSpells": [
+			"speed": {
+				"walk": 25,
+				"burrow": 15
+			},
+			"ability": [
 				{
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"1": [
-							"disguise self",
-							"hex"
-						]
-					}
+					"cha": 2,
+					"wis": 1
+				}
+			],
+			"traitTags": [
+				"Natural Armor"
+			],
+			"languageProficiencies": [
+				{
+					"other": true
 				}
 			],
 			"entries": [
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Type:",
-							"entry": "妖怪和人形"
-						},
-						{
-							"type": "item",
-							"name": "Size:",
-							"entry": "中型或小型（在你获得这一血统时选择）"
-						}
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Hedges take longer to mature than most other races, reaching adulthood around 20 years. They also live for a long time, with many reaching 120 years or more."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Hedges are compassionate, empathetic, and diplomatic, tending towards good alignments. They also favor neutral alignments, as hedges have a great respect for the balance of nature."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Size",
 					"entries": [
-						"你可以在60英尺范围内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西就像昏暗光线一样。"
+						"Hedges have short, rounded body shapes, standing between 3 and 4 feet in height, and weighing between 40 and 70 pounds. Your size is Small."
 					]
 				},
 				{
+					"name": "Speed",
 					"type": "entries",
-					"name": "Fey Resilience",
 					"entries": [
-						"你在为避免或结束自己身上的{@condition charmed}状况而进行的拯救动作上有优势。"
+						"Your base walking speed is 25 feet."
 					]
 				},
 				{
+					"name": "Natural Burrowers",
 					"type": "entries",
-					"name": "Hex Magic",
 					"entries": [
-						"You can cast the {@spell disguise self} and {@spell hex} spells with this trait. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you gain this lineage). Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spells slots you have."
+						"You have a burrowing speed of 15 feet. You are capable of burrowing through soil, but are unable to dig through anything more substantial with just your clawed hands."
 					]
 				},
 				{
+					"name": "Spiny Quills",
 					"type": "entries",
-					"name": "Magic Token",
 					"entries": [
-						"作为一个动作，你可以无害地拔出你的一个指甲、一颗牙齿或一绺头发。这个令牌会被赋予魔法，直到你完成一个长时间的休息。当令牌以这种方式被灌注时，你可以用一个动作向持有或携带令牌的生物发送心灵感应的信息，只要你们在同一个存在平面上并且在它的10英里范围内。信息最多可以包含二十五个字。",
-						"In addition, while you are within 10 miles of the token, you can use an action to enter a trance for 1 minute, during which you can see and hear from the token as if you were located where it is. While you are using your senses at the token's location, you are {@condition blinded} and {@condition deafened} in regard to your own surroundings. Afterward, the token is harmlessly destroyed.",
-						"一旦你用这个功能创造了一个令牌，你就不能再这样做了，直到你完成一个长时间的休息，在那个时候你缺少的部分会重新生长。"
+						"The backs of hedges are covered with spiny quills, which makes it impossible for hedges to wear armor. These quills provide exceptional protection, therefore you have a base armor class of 14 + your Dexterity modifier. Even though you can't wear armor, you can still benefit from the armor class bonus provided by shields so long as you are proficient with them."
+					]
+				},
+				{
+					"name": "Curl Up",
+					"type": "entries",
+					"entries": [
+						"You can use your action to curl up, exposing attackers to a wall of your toughened quills. While curled up you cannot move, attack, or cast spells with somatic components, and your base armor class becomes 19. You cannot benefit from any Dexterity bonus to armor class while curled up, but you can still use shields.",
+						"Any creature that misses you with a melee attack while you are curled up takes {@dice 2d4} points of piercing damage from your sharp quills. If a creature hits you while you are curled up, you are knocked {@condition prone} in your space at the end of the turn. You may uncurl yourself at any point during your turn."
+					]
+				},
+				{
+					"name": "Forest Magic",
+					"type": "entries",
+					"entries": [
+						"You have a deep connection to the magic of the Wood. You know the {@spell druidcraft} cantrip. Additionally, you can cast {@spell animal messenger} as a 2nd level spell once with this trait, and regain the ability to do so after a short or long rest. Charisma is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"name": "Speak With Bugs",
+					"type": "entries",
+					"entries": [
+						"Through sounds and gestures, you can communicate simple ideas with creatures of the beast subtype that represent insects, spiders, worms, and other creepy crawlies, regardless of their size."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Birdfolk and Hedge."
 					]
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Hexblood",
@@ -7069,73 +6223,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Hobgoblin",
-			"source": "UA2021FolkOfTheFeywild",
-			"page": 2,
-			"reprintedAs": [
-				"Hobgoblin|MPMM"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"darkvision": 60,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"你可以在你周围60英尺内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西，就像暗光一样。你在黑暗中只能分辨出灰色的深浅。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fey Ancestry",
-					"entries": [
-						"你在为避免或结束自己身上的{@condition charmed}状况而进行的拯救动作上有优势。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fey Gift",
-					"entries": [
-						"你可以使用这个特质来采取{@action Help}的行动作为奖励行动，而且你可以这样做的次数与你的熟练度奖励相等。当你完成一个长时间的休息时，你会恢复所有消耗的使用。",
-						"Starting at 3rd level, choose one of the options below each time you take the {@action Help} action, whether as a bonus action or an action:",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Hospitality",
-									"entry": "你和你的{@action Help}行动的目标各自获得相当于{@dice 1d6}加上你的熟练度加成的临时打击点数。"
-								},
-								{
-									"type": "item",
-									"name": "Passage",
-									"entry": "你和你的{@action Help}行动的目标各自增加你的行走速度10英尺，直到你下一个回合开始。"
-								},
-								{
-									"type": "item",
-									"name": "Spite",
-									"entry": "直到你下一回合开始，你或你的{@action Help}行动的目标第一次用攻击卷击中一个生物时，该生物在接下来的一分钟内进行的下一次攻击卷有劣势。"
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fortune from the Many",
-					"entries": [
-						"如果你的攻击卷没有命中，或者能力检查或蓄力投掷失败，你可以利用你的互惠纽带，获得与你在30英尺范围内能看到的盟友数量相同的卷轴奖励（最大奖励为+5）。你可以使用这个特质的次数与你的熟练度加成相等，并且你在完成长时间休息后会恢复所有的消耗。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Hobgoblin",
@@ -7595,15 +6682,96 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Jerbeen",
+			"source": "HWCS",
+			"page": 27,
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Jerbeens grow quickly, reaching maturity around 5 years. They are the shortest lived of all the humblefolk races, living just about 40 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Being small and facing many threats in the world, jerbeens are sensitive to the feelings of others, and tend towards good alignments. They also lean more towards lawful alignments due to their co-operative nature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Jerbeens have incredibly small and light bodies, standing between 2 and 3 feet tall, and weighing between 20 and 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"你的基本行走速度是30英尺。"
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"type": "entries",
+					"entries": [
+						"Your base long jump is 30 feet, and your base high jump is 15 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Nimbleness",
+					"type": "entries",
+					"entries": [
+						"你可以在任何体型比你大的生物的空间中移动。"
+					]
+				},
+				{
+					"name": "Take Heart",
+					"type": "entries",
+					"entries": [
+						"You have advantage on Strength saving throws and saving throws against being frightened as long as you are within 5 feet of an ally who isn't {@condition frightened} or {@condition incapacitated} that you can both see and hear."
+					]
+				},
+				{
+					"name": "Team Tactics",
+					"type": "entries",
+					"entries": [
+						"You can use the {@action Help} action as a bonus action."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Birdfolk and Jerbeen."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Kalashtar",
 			"source": "ERLW",
 			"page": 29,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 62
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -7697,115 +6865,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Kalashtar",
-			"source": "UARacesOfEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Kalashtar|ERLW"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"cha": 1,
-					"wis": 1,
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 1
-					}
-				}
-			],
-			"age": {
-				"mature": 20,
-				"max": 100
-			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"other": true,
-					"anyStandard": 1
-				}
-			],
-			"resist": [
-				"psychic"
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"entries": [
-						"卡拉什塔人的身体发育速度与人类相同，寿命也相似。"
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"绑在卡拉什塔身上的高尚精神驱使它走向合法和良好的行为。大多数卡拉斯塔将自律与对所有众生的怜悯结合起来，但有些卡拉斯塔抵制其精神的良性影响。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"卡拉什塔人的身材与人类相似，不过他们通常要高几英寸。你的体型是中等。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dual Mind",
-					"entries": [
-						"当你进行智慧救赎的时候，你可以使用你的反应来获得掷骰子的优势。你可以在投掷前或投掷后立即使用这个特性，但要在投掷的任何效果发生之前。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mental Discipline",
-					"entries": [
-						"你对精神伤害有抵抗力。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mind Link",
-					"entries": [
-						"你可以对你周围60英尺内任何你能看到的生物进行心灵感应。你不需要与该生物共享一种语言，它就能理解你的心灵感应信息，但该生物必须能够理解至少一种语言，或者本身就有心灵感应。",
-						"当你与一个生物进行心灵感应时，作为一个额外的动作，你可以让那个生物具有与你进行心灵感应的能力，直到你下一个回合开始。要使用这个能力，该生物必须在你的60英尺范围内并能看到你。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Psychic Glamour",
-					"entries": [
-						"从以下技能中选择一项。{@skill Insight}, {@skill Intimidation}, {@skill Performance}, 或 {@skill Persuasion}。你在用该技能进行的所有能力检查中具有优势。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Severed from Dreams",
-					"entries": [
-						"卡拉什塔人在睡觉，但他们并不像其他生物那样与梦境相连。相反，他们的头脑在睡眠时从他们的异世界精神的记忆中汲取营养。因此，你对需要你做梦的法术和其他魔法效果，如梦境法术，是免疫的，但对让你睡觉的法术和效果，如睡眠法术，却是免疫的。"
-					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话、科里语和你选择的一种其他语言。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
 			"name": "Kender",
 			"source": "DSotDQ",
 			"page": 27,
@@ -7853,138 +6912,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Kender",
-			"source": "UA2022HeroesOfKrynn",
-			"page": 1,
-			"reprintedAs": [
-				"Kender|UA2022HeroesOfKrynnRevisited"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"S"
-			],
-			"speed": 30,
-			"skillProficiencies": [
-				{
-					"stealth": true
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Brave",
-					"entries": [
-						"你在为避免或结束自己身上的{@condition frightened}状况而进行的拯救动作上有优势。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Kender Ace",
-					"entries": [
-						"从3级开始，你拥有一种神奇的能力，可以从袋子或其他容器中拿出一件物品；作为奖励动作，你可以将手伸进你携带的容器中，在坎德人王牌表上滚动，以决定你拿出的是什么物品。该物品会闪烁着柔和的光芒，并在1小时后消失。你可以使用这个奖励动作的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有已消耗的使用。",
-						{
-							"type": "table",
-							"caption": "Kender Aces",
-							"colLabels": [
-								"d6",
-								"Item"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"{@dice 5d6} 金块"
-								],
-								[
-									"2",
-									"1个{@filter simple weapon|items|source=phb|category=basic|type=simple weapon|property=light}你所选择的具有光属性的物品"
-								],
-								[
-									"3",
-									"1 item of your choice from the {@table Adventuring Gear|PHB} table in the Player's Handbook. The item must cost no more than 1 gp and weigh no more than 1 lb."
-								],
-								[
-									"4",
-									"从《玩家手册》中的{@item Trinket|PHB|Trinkets}表中随机抽取1项。"
-								],
-								[
-									"5",
-									"您可以选择一个{@item crowbar|PHB}或一个{@item grappling hook|PHB}。"
-								],
-								[
-									"6",
-									"从《玩家手册》的{@table Tools|PHB}表中选择1件物品。该物品的价格必须不超过10戈比。"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Taunt",
-					"entries": [
-						"你有一种超自然的能力，可以在一个生物的情绪中找到原始的神经，并制作一个嘲讽，让该生物感到不安。作为一个额外的动作，你可以对60英尺范围内能听到并理解你的生物发动一连串的侮辱。目标必须在智慧救赎中成功（DC等于8+你的熟练度加成+你的魅力修饰），否则它在攻击卷中处于劣势，直到你下一回合开始。",
-						"你可以使用这个额外动作的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的动作。"
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Kender",
-			"source": "UA2022HeroesOfKrynnRevisited",
-			"page": 1,
-			"reprintedAs": [
-				"Kender|DSotDQ"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"S"
-			],
-			"speed": 30,
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"insight",
-							"investigation",
-							"sleight of hand",
-							"stealth",
-							"survival"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Fearless",
-					"entries": [
-						"你对{@condition frightened}条件免疫。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Kender Curiosity",
-					"entries": [
-						"由于你的民族的神秘起源，你获得了以下技能的熟练度：{@skill Insight}、{@skill Investigation}、{@skill Sleight of Hand}、{@skill Stealth}或{@skill Survival}。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Taunt",
-					"entries": [
-						"你有一种惊吓生物的特殊能力。作为一个额外的动作，你可以对你周围60英尺内能听到并理解你的生物释放一串挑衅性的语言。目标必须在智慧救赎中成功，否则它在对你以外的目标进行攻击时将处于劣势，直到你下一个回合开始。判断力等于8+你的熟练度加成+你的智力、智慧或魅力修正值（在你选择这个种族时选择）。",
-						"你可以使用这个额外动作的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的动作。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Kenku",
@@ -8468,52 +7395,6 @@
 					"skillProficiencies": null
 				}
 			]
-		},
-		{
-			"name": "Kobold",
-			"source": "UA2021DraconicOptions",
-			"page": 3,
-			"reprintedAs": [
-				"Kobold|MPMM"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"S"
-			],
-			"speed": 30,
-			"darkvision": 60,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"你可以在你周围60英尺内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西，就像暗光一样。你在黑暗中只能分辨出灰色的深浅。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Legacy",
-					"entries": [
-						"哥布林与龙的联系在单个哥布林身上会以不可预知的方式表现出来。当你选择这个种族时，请选择以下遗产选项之一。",
-						{
-							"type": "list",
-							"items": [
-								"你在避免或结束自己身上的{@condition frightened}条件的拯救动作上有优势。",
-								"You know one {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).",
-								"你可以用你的尾巴进行徒手攻击。当你用它攻击时，攻击会造成{@dice 1d6}+你的力量修正值的破坏性伤害，而不是非武装攻击的正常破坏性伤害。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Roar",
-					"entries": [
-						"作为一个额外的动作，你对你周围10英尺内的敌人发出一声龙吼。直到你的下一个回合结束，你和你的盟友在对任何能听到吼声的敌人进行攻击时有优势。你可以使用这个特质的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有已消耗的使用。"
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Kobold",
@@ -9339,115 +8220,197 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Loxodon",
-			"source": "UARacesOfRavnica",
-			"page": 1,
-			"reprintedAs": [
-				"Loxodon|GGR"
-			],
+			"name": "Luma",
+			"source": "HWCS",
+			"page": 16,
 			"size": [
-				"M"
+				"S"
 			],
-			"speed": 30,
+			"speed": 25,
 			"ability": [
 				{
-					"con": 2,
-					"wis": 1
+					"cha": 2
 				}
-			],
-			"age": {
-				"mature": 20,
-				"max": 450
-			},
-			"traitTags": [
-				"Natural Armor",
-				"Powerful Build"
 			],
 			"languageProficiencies": [
 				{
-					"common": true
+					"other": true,
+					"auran": true
 				}
 			],
 			"entries": [
 				{
-					"type": "entries",
 					"name": "Age",
+					"type": "entries",
 					"entries": [
-						"狐狸的身体成熟速度与人类相同，但它们的寿命约为450年。他们高度重视智慧和经验的分量，在达到60岁之前被认为是年轻的。"
+						"Lumas are short-lived reaching adulthood around 20 years. Few lumas live beyond 70 years."
 					]
 				},
 				{
-					"type": "entries",
 					"name": "Alignment",
+					"type": "entries",
 					"entries": [
-						"大多数loxodons是合法的，相信和平、有序的生活的价值。他们也倾向于善良。"
+						"Spurred by personal interests and flights of fancy, lumas lean towards chaotic alignments. While generally good natured, those that have been spurned by society find it hard to see the benefits of altruism, but even under such circumstances lumas are rarely evil."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"狐狸的身高在7至8英尺之间。它们庞大的身体重量在300到400磅之间。你的体型是中等。"
+						"Lumas are the shortest and lightest of the birdfolk, standing roughly 3 feet tall and weighing only around 30 pounds. Your size is Small."
 					]
 				},
 				{
+					"name": "Speed",
 					"type": "entries",
-					"name": "Powerful Build",
 					"entries": [
-						"在确定你的运载能力和你能推动、拖动或举起的重量时，你算大一码。"
+						"Your base walking speed is 25 feet."
 					]
 				},
 				{
+					"name": "Glide",
 					"type": "entries",
-					"name": "Loxodon Bravery",
 					"entries": [
-						"You have advantage on saving throws against being {@condition frightened}."
+						"Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
 					]
 				},
 				{
+					"name": "Wing Flap",
 					"type": "entries",
-					"name": "Natural Armor",
 					"entries": [
-						"你有厚实的、皮革般的皮肤。当你不穿盔甲时，你的攻击力是13+你的灵巧修正值。如果你穿的盔甲会使你的攻击力降低，你可以用你的自然盔甲来决定你的攻击力。当你使用你的自然护甲时，盾牌的好处照常适用。",
-						{
-							"type": "inset",
-							"name": "Tip: AC Calculations Don't Stack",
-							"entries": [
-								"当游戏给你一个以上的方法来计算你的装甲等级时，你只能使用其中之一。你选择使用哪一种。例如，如果你有loxodon的自然护甲特性和僧侣的无护甲防御特性，你不能把它们混在一起。相反，你选择哪一个来决定你的攻击力。"
-							]
-						}
+						"As a bonus action, you can use your powerful feathered arms to propel yourself upward a distance equal to half your movement speed. You can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
+					"name": "Touched",
 					"type": "entries",
-					"name": "Mason's Proficiency",
 					"entries": [
-						"You gain proficiency with {@item mason's tools|phb}."
+						"You know one {@filter cantrip from the sorcerer spell list|spells|level=0|class=sorcerer}. Charisma is your spellcasting ability for this cantrip."
 					]
 				},
 				{
+					"name": "Fated",
 					"type": "entries",
-					"name": "Stonecunning",
 					"entries": [
-						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the {@skill History} skill and add double your normal proficiency bonus to the check, instead of your normal proficiency bonus."
+						"Whether by luck or a guiding presence, you always seem to find your way. You can choose to reroll any attack, skill check, or saving throw. You can decide to do this after your roll, but only before the outcome of the roll has been determined. You can't use this feature again until you have completed a long rest."
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Keen Smell",
-					"entries": [
-						"Thanks to your sensitive trunk, you have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks that rely on smell."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Languages",
+					"type": "entries",
 					"entries": [
-						"你能说、读、写普通话。"
+						"You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
 					]
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mapach",
+			"source": "HWCS",
+			"page": 28,
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"ability": [
+				{
+					"wis": 2,
+					"con": 1
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Tool Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"other": true
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Mapachs mature quickly, reaching adulthood around 8 years. Despite this they have fairly average lifespans, the oldest among them living just past 60 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Mapachs don't favour good over evil, with most choosing to remain neutral. They also lean towards the freedom of chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Mapachs stand between 4 and 5 feet tall, and encompass a variety of builds from svelt to wide, weighing between 90 and 160 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"你的基本行走速度是30英尺。"
+					]
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. Mapachs are most comfortable under the cloak of night."
+					]
+				},
+				{
+					"name": "Expert Climbers",
+					"type": "entries",
+					"entries": [
+						"You have a climb speed of 20 feet."
+					]
+				},
+				{
+					"name": "Resilience",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws against poison and resistance against poison damage."
+					]
+				},
+				{
+					"name": "Scroungecraft",
+					"type": "entries",
+					"entries": [
+						"You are proficient with {@item tinker's tools|PHB}. Additionally, you have the ability to construct crude but functional versions of common items using materials present in your surroundings. You may spend 10 minutes to craft these materials into any tool or piece of adventuring gear worth 30 gold pieces or less. The item will be completely functional, even capable of passing for a disguise (if you crafted an article of clothing). Tools, along with any other item that would logically break on its first use (caltrops, arrows), will become useless afterward. Scroungecrafted items will otherwise last 1 hour before falling apart.",
+						"Depending on the materials available, a Game Master (GM) may rule that you cannot craft an item in this way. For example, a vial of acid might be easy to make if you happen to be near a nest of acidic beetle larvae, or bark can be bound into a makeshift flask, but it would be difficult to create a passable facsimile of silken robes from a pile of leaves.",
+						"Should you have access to the proper materials, you can spend 8 hours converting an item you have scroungecrafted in this way into a permanent version, so long as you start this process before the item falls apart. Items crafted in such a way will function exactly as a normal version of the item, and if you have proficiency in the tools used to craft them, they can even look professionally-crafted. Otherwise, they retain a rather rough, cobbled-together appearance. You can also use scroungecraft to repair broken equipment, provided you have the materials on hand. Though, how long your repairs hold together is up to the GM."
+					]
+				},
+				{
+					"name": "Skulker",
+					"type": "entries",
+					"entries": [
+						"You have advantage on {@skill Stealth} checks made in dim light and darkness."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Birdfolk and Mapach."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Merfolk",
@@ -9769,117 +8732,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Minotaur",
-			"source": "UACentaursMinotaurs",
-			"page": 2,
-			"reprintedAs": [
-				"Minotaur|GGR"
-			],
-			"creatureTypes": [
-				"humanoid",
-				"monstrosity"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"str": 2,
-					"con": 1
-				}
-			],
-			"age": {
-				"mature": 17,
-				"max": 150
-			},
-			"traitTags": [
-				"Natural Weapon"
-			],
-			"skillProficiencies": [
-				{
-					"intimidation": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"other": true
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						"{@note In 2015, minotaurs appeared as a playtest option in Unearthed Arcana. Here is a revised set of traits for minotaur player characters. These traits are suitable for minotaurs on Krynn and in other D&D worlds where these people have avoided the demonic influence of Baphomet.}"
-					]
-				},
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"牛头人在17岁左右进入成年期，可以活到150岁。"
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"大多数牛头人都倾向于合法的取向。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"牛头人的平均身高超过6英尺，他们有强壮、粗壮的身材。你的体型是中等。"
-					]
-				},
-				{
-					"name": "Horns",
-					"entries": [
-						"你的角是天然的近战武器，你对它很精通。当你用它们击中目标时，目标会受到相当于{@dice 1d6}+你力量修正值的穿刺伤害。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Goring Rush",
-					"entries": [
-						"在你使用{@action Dash}行动的回合中，并至少移动到与你的速度相同的距离后，你可以用你的角进行一次近战攻击，作为奖励行动。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Hammering Horns",
-					"entries": [
-						"Immediately after you hit a creature with a melee attack as part of the {@action Attack} action on your turn, you can attempt to shove that creature with your horns using your reaction. The creature must be no more than one size larger than you and within 5 feet of you. It must make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier. If it fails, you push it up to 5 feet away from you."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Menacing",
-					"entries": [
-						"你对{@skill Intimidation}的技能有熟练的掌握。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Hybrid Nature",
-					"entries": [
-						"你有两种生物类型：人形和畸形。如果一个游戏效果对你的任何一种生物类型有效，你就能受到它的影响。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话和牛头人。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
 			"name": "Minotaur (Amonkhet)",
 			"source": "PSA",
 			"page": 19,
@@ -9971,113 +8823,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Minotaur (Krynn)",
-			"source": "UAWaterborneAdventures",
-			"page": 1,
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"str": 1,
-					"choose": {
-						"from": [
-							"str",
-							"int",
-							"wis"
-						],
-						"count": 1
-					}
-				}
-			],
-			"age": {
-				"mature": 17,
-				"max": 150
-			},
-			"traitTags": [
-				"Natural Weapon",
-				"Tool Proficiency"
-			],
-			"languageProficiencies": [
-				{
-					"common": true
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"牛头人在17岁左右进入成年期，可以活到150岁。"
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"牛头人相信严格的荣誉准则，因此倾向于法律。他们至死不渝，并成为不可逾越的敌人，即使他们残酷的文化和对弱点的蔑视将他们推向邪恶。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"牛头人通常身高超过6英尺，体重平均为300磅。你的体型是中等。"
-					]
-				},
-				{
-					"name": "Conqueror's Virtue",
-					"entries": [
-						"从年轻时起，你就专注于力量、狡猾或智慧这三种美德中的一种。你选择的力量、智力或智慧得分增加1。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Horns",
-					"entries": [
-						"你从来都是徒手的。你精通你的角，它是一种近战武器，可以造成{@dice 1d10}的穿刺伤害。你的角使你在所有推搡生物的检查中获得优势，但不能避免自己被推搡。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Goring Rush",
-					"entries": [
-						"当你在你的回合中使用{@action Dash}行动时，你可以用你的角作为额外行动进行一次近战攻击。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Hammering Horns",
-					"entries": [
-						"When you use the {@action Attack} action during your turn to make a melee attack, you can attempt to shove a creature with your horns as a bonus action. You cannot use this shove attempt to knock a creature {@condition prone}."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Labyrinthine Recall",
-					"entries": [
-						"你可以完美地回忆你走过的任何道路。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Sea Reaver",
-					"entries": [
-						"You gain proficiency with {@item navigator's tools|phb} and {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话。"
-					],
-					"type": "entries"
-				}
-			]
 		},
 		{
 			"name": "Naga",
@@ -10665,85 +9410,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Owlfolk",
-			"source": "UA2021FolkOfTheFeywild",
-			"page": 3,
-			"reprintedAs": [
-				"Owlin|SCC"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"S",
-				"M"
-			],
-			"speed": {
-				"walk": 30,
-				"fly": 30
-			},
-			"darkvision": 90,
-			"skillProficiencies": [
-				{
-					"stealth": true
-				}
-			],
-			"additionalSpells": [
-				{
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"1": {
-							"ritual": [
-								"detect magic"
-							]
-						}
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"你是中型或小型。你在获得这个种族时选择大小。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"你可以在你周围90英尺内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西就像暗光一样。你在黑暗中只能辨别出灰暗的颜色。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Magic Sight",
-					"entries": [
-						"Your keen senses can focus to see the presence of magic. You gain the ability to cast the {@spell detect magic} spell, but only as a ritual. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma. You can also cast this spell normally with any spell slots you have."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Nimble Flight",
-					"entries": [
-						"由于你的翅膀，你的飞行速度与你的步行速度相等。当你坠落时，你可以用你的反应做一个灵巧的蓄力动作（DC10）来停止坠落并在原地飞行，直到你下一个回合开始。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Silent Feathers",
-					"entries": [
-						"你对{@skill Stealth}的技能有熟练的掌握。"
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "Owlin",
 			"source": "SCC",
 			"page": 29,
@@ -10869,215 +9535,98 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Plasmoid",
-			"source": "UA2021TravelersOfTheMultiverse",
-			"page": 3,
-			"reprintedAs": [
-				"Plasmoid|AAG"
-			],
-			"lineage": "VRGR",
-			"creatureTypes": [
-				"ooze"
-			],
+			"name": "Raptor",
+			"source": "HWCS",
+			"page": 18,
 			"size": [
-				"S",
-				"M"
+				"S"
 			],
-			"speed": 30,
-			"darkvision": 60,
-			"resist": [
-				"acid",
-				"poison"
+			"speed": 25,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"languageProficiencies": [
+				{
+					"other": true,
+					"auran": true
+				}
 			],
 			"entries": [
 				{
+					"name": "Age",
 					"type": "entries",
-					"name": "Creature Type",
 					"entries": [
-						"你是乌鸦嘴。"
+						"Raptors reach maturity around 20 years. They can live longer than any other birdfolk race, over 100 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Raptors tend towards neutral alignments. Preferring the path of naturalists and hunters, raptors rarely see value in order for the sake of order, and are often more pragmatic than idealistic."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"你是中型或小型。你在获得这个种族时选择大小。"
+						"Raptors are lean, muscular hunters, but they stand less than 4 feet tall. Their light builds usually lend themselves to bodies that weigh far less than one would expect for their height, averaging around only 35 pounds. Your size is Small."
 					]
 				},
 				{
+					"name": "Speed",
 					"type": "entries",
-					"name": "Amorphous",
 					"entries": [
-						"你可以挤过1英寸宽的空间，只要你没有穿戴和携带任何东西。你在发动或逃脱抓捕的能力检查上也有优势。"
+						"Your base walking speed is 25 feet."
 					]
 				},
 				{
+					"name": "Glide",
 					"type": "entries",
-					"name": "Darkvision",
 					"entries": [
-						"你可以在你周围60英尺内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西，就像暗光一样。你在黑暗中只能分辨出灰色的深浅。"
+						"Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
 					]
 				},
 				{
+					"name": "Talons",
 					"type": "entries",
-					"name": "Hold Breath",
 					"entries": [
-						"你可以屏住呼吸1小时。"
+						"Your sharp claws aid you in unarmed combat and while climbing. Your damage for an unarmed strike is {@damage 1d4} piercing damage. Additionally, you have advantage on Strength ({@skill Athletics}) checks made to climb any surface your talons could reasonably grip."
 					]
 				},
 				{
+					"name": "Keen Senses",
 					"type": "entries",
-					"name": "Natural Resilience",
-					"entries": [
-						"You have resistance to acid and poison damage, and you have advantage on saving throws against being {@condition poisoned}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Shape Self",
-					"entries": [
-						"If you are not {@condition incapacitated}, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required).",
-						"作为一个额外动作，你可以挤出一个宽6英寸、长10英尺的假肢，或将其重新吸收到你的身体中。你可以用这个假肢来操纵一个物体，打开一扇没有上锁的门或容器，从一个打开的容器中存放或取回一个物品，或者倒出容器中的物品。伪道具不能攻击，不能激活魔法物品，也不能携带超过10磅的东西。"
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Rabbitfolk",
-			"source": "UA2021FolkOfTheFeywild",
-			"page": 3,
-			"reprintedAs": [
-				"Harengon|WBtW"
-			],
-			"lineage": "VRGR",
-			"size": [
-				"S",
-				"M"
-			],
-			"speed": 30,
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"你是中型或小型。你在获得这个种族时选择大小。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Hare-Trigger",
-					"entries": [
-						"你将你的熟练度加到你的主动权卷上。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Leporine Senses",
 					"entries": [
 						"你对{@skill Perception}的技能有熟练的掌握。"
 					]
 				},
 				{
+					"name": "Woodland Hunter",
 					"type": "entries",
-					"name": "Lucky Footwork",
 					"entries": [
-						"当你的灵巧救赎失败时，你可以用你的反应来掷出一个{@dice d4}，并把它加到结果上，有可能把失败变成成功。"
+						"Your accuracy allows you to treat three-quarters cover as half cover and half cover as no cover."
 					]
 				},
 				{
+					"name": "Hunter's Training",
 					"type": "entries",
-					"name": "Rabbit Hop",
 					"entries": [
-						"Once during each of your turns when you walk at least 5 feet, you can hop, rolling a {@dice d12} and moving that many feet in a direction of your choice. This extra distance doesn't cost movement, but you can hop only if your speed isn't 0."
+						"You have proficiency with the {@item longbow|PHB}, {@item shortbow|PHB}, and {@item spear|PHB}. Additionally, your familiarity with the longbow means that it is not considered a heavy weapon for you."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
 					]
 				}
 			],
-			"hasFluff": true
-		},
-		{
-			"name": "Reborn",
-			"source": "UA2021GothicLineages",
-			"page": 4,
-			"reprintedAs": [
-				"Reborn|VRGR"
-			],
-			"lineage": "UA1",
-			"creatureTypes": [
-				"humanoid",
-				{
-					"choose": [
-						"construct",
-						"undead"
-					]
-				}
-			],
-			"size": [
-				"S",
-				"M"
-			],
-			"speed": 30,
-			"darkvision": 60,
-			"traitTags": [
-				"Improved Resting"
-			],
-			"resist": [
-				"poison"
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Type:",
-							"entry": "人形，以及构筑物或亡灵（在你获得这个血统时选择）。"
-						},
-						{
-							"type": "item",
-							"name": "Size:",
-							"entry": "中型或小型（在你获得这一血统时选择）"
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"你可以在60英尺范围内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西就像昏暗光线一样。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Deathless Nature",
-					"entries": [
-						"你已经逃脱了死亡，这一事实由以下福利代表。",
-						{
-							"type": "list",
-							"items": [
-								"You have advantage on saving throws against disease and being {@condition poisoned}, and you have resistance to poison damage.",
-								"你在救死扶伤方面有优势。",
-								"你不需要吃，不需要喝，不需要呼吸。",
-								"你不需要睡觉，魔法也不能使你入睡。你可以在4个小时内完成长时间的休息，如果你在不活动、不动的状态下度过这几个小时，在此期间你会保持意识。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Knowledge from a Past Life",
-					"entries": [
-						"You temporarily remember sporadic glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a {@dice d6} and add the number rolled to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-					]
-				}
-			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Reborn",
@@ -11137,94 +9686,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Revenant",
-			"source": "UAGothicHeroes",
-			"page": 1,
-			"size": [
-				"V"
-			],
-			"speed": "Varies",
-			"ability": [
-				{
-					"con": 1
-				}
-			],
-			"resist": [
-				"necrotic"
-			],
-			"entries": [
-				{
-					"name": "Revenant Subrace",
-					"entries": [
-						"在遭遇了一个残酷的、不应有的结局之后，你回到了活人的世界。作为一个复仇者，你渴望对那些生前对你不利的人进行报复，或者寻求完成你未完成的最后一项关键任务。",
-						"复仇者子种族可以应用于任何有子种族的种族，并取代该种族现有的子种族选项。另外，你也可以使用下面提供的修改选项将这个新的亚种族应用于没有亚种族选项的种族。",
-						"你的管理员也可能允许你为被杀的角色采取这种亚种。在这种情况下，你的角色从死里复活时，其原来的亚种被取代（或对其基本特征进行必要的修改），充满了寻求复仇或完成任务的决心。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Racial Adjustments",
-					"entries": [
-						"对于没有亚种族选项的种族，接受复仇者亚种族意味着对你的角色的基本特征进行改变，如下所示。(本游戏测试文章只为人类和龙裔角色提供了选项。任何其他没有亚种族选项的种族都不应使用这些复仇者亚种族规则）。",
-						{
-							"name": "Human Revenant",
-							"entries": [
-								"如果你想扮演一个人类复仇者，请将人类的能力得分增加特性修改为：你选择的两个不同的能力得分增加1。如果你使用人类的变体特质，请删除技能特质和属性特质。"
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Dragonborn Revenant",
-							"entries": [
-								"如果你想扮演一个龙裔复仇者，请将龙裔的能力得分增加特性修改为以下内容。你的力量值增加1，你的魅力值增加1。此外，你的龙族血统特质使用坏死伤害作为其伤害类型，取代适用于你的呼吸武器和你的伤害抵抗的伤害类型。"
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Tiefling Revenant",
-							"entries": [
-								"上一期的《出土法术》（That Old Black Magic）概述了两个利用子种族的Tiefling变体。使用那篇文章来制作一个复仇者盗贼，用复仇者的子种族选项来取代子种族选项。该文章中的基本盗贼特征如下。",
-								{
-									"type": "list",
-									"style": "list-hang",
-									"items": [
-										{
-											"type": "item",
-											"name": "Ability Score Increase",
-											"entry": "你的魅力值增加2。"
-										},
-										{
-											"type": "item",
-											"name": "Languages",
-											"entry": "你能说、读、写普通话。"
-										}
-									]
-								}
-							],
-							"type": "entries"
-						}
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Relentless Nature",
-					"entries": [
-						"你的管理员给你指定了一个目标--通常是与你的角色的死亡有关的目标。这个目标必须是一个你可以完成的具体任务，例如杀死一个敌人或解放一个地区及其人民。在你完成这个目标之前，你会获得以下好处。",
-						{
-							"type": "list",
-							"items": [
-								"如果你在你的回合开始时低于你最大命中率的一半，你会重新获得1个命中率。",
-								"如果你死了，你会在死后24小时内恢复生命。如果你的身体被摧毁，你会在死亡地点1英里范围内的一个由DM决定的地点进行改造。如果你的装备也被摧毁了，你不会重新获得它。",
-								"你知道你和任何与你的目标有关的生物之间的距离和方向，例如你要复仇的人或你承诺要保护的人。如果该生物是在另一个存在的平面上，这种意识就会失效。"
-							]
-						},
-						"当你的目标完成后，你终于找到了休息。你死了，不能再恢复生命。"
-					],
-					"type": "entries"
-				}
-			]
 		},
 		{
 			"name": "Satyr",
@@ -11602,12 +10063,6 @@
 			"name": "Shifter",
 			"source": "ERLW",
 			"page": 33,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 64
-				}
-			],
 			"reprintedAs": [
 				"Shifter|MPMM"
 			],
@@ -11836,143 +10291,6 @@
 			]
 		},
 		{
-			"name": "Shifter",
-			"source": "UAEberron",
-			"page": 2,
-			"reprintedAs": [
-				"Shifter|ERLW"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
-			"darkvision": 60,
-			"languageProficiencies": [
-				{
-					"common": true,
-					"sylvan": true
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"移居者的大小与人类差不多。你的体型是中等"
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"你的狼人血统赋予你在黑暗条件下的观察能力。你可以在60英尺范围内看到昏暗的光线，就像亮光一样，而在黑暗中就像昏暗的光线一样。你在黑暗中无法辨别颜色，只有灰色的阴影。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Shifting",
-					"entries": [
-						"在你的回合中，你可以将移位作为一个额外动作。转移持续1分钟，或者直到你在你的回合中作为奖励动作结束它。",
-						"在移形换影时，你获得相当于你的等级+你的体质加成的临时命中率（最低为1）。你还会获得一个取决于你的变身亚种的特征，如下所述。",
-						"你必须完成短期或长期的休息，然后才能再次转移。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话和希尔文。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Shifter",
-			"source": "UARacesOfEberron",
-			"page": 4,
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
-			"age": {
-				"mature": 10,
-				"max": 70
-			},
-			"darkvision": 60,
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"entries": [
-						"移居者在身体和情感上都成熟得很快，10岁就能达到年轻的成年人。他们很少活到70岁以上。"
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"移居者倾向于中立，更注重生存而不是善恶的概念。对个人自由的热爱会驱使移居者走向混乱的结盟。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"移居者的身高从5英尺到近7英尺不等，这取决于他们的亚种族。你的体型是中等。"
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"你在黑暗和昏暗的条件下有卓越的视觉。你能在60英尺内的昏暗光线下看清东西，就像亮光一样，在黑暗中看清东西，就像暗光一样。你在黑暗中无法辨别颜色，只有灰色的阴影。"
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Keen Senses",
-					"entries": [
-						"你已经熟练掌握了{@skill Perception}的技能。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Shifting",
-					"entries": [
-						"作为一个奖励动作，你可以呈现出更多的兽性外观。这种转变持续1分钟，直到你死亡，或者直到你作为奖励动作恢复到你的正常外表。当你变身时，你会获得相当于你的等级+你的体质修饰的临时命中率（最低为1个临时命中率）。你还会获得额外的好处，这些好处取决于你的变异者亚种，如下所述。",
-						"一旦你转移，你就不能再这样做，直到你完成一个短期或长期的休息。"
-					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
 			"name": "Simic Hybrid",
 			"source": "GGR",
 			"page": 20,
@@ -12107,136 +10425,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Simic Hybrid",
-			"source": "UARacesOfRavnica",
-			"page": 2,
-			"reprintedAs": [
-				"Simic Hybrid|GGR"
-			],
-			"size": [
-				"M"
-			],
-			"speed": {
-				"walk": 30
-			},
-			"ability": [
-				{
-					"con": 2,
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 1
-					}
-				}
-			],
-			"darkvision": 60,
-			"traitTags": [
-				"Amphibious",
-				"Natural Armor",
-				"Natural Weapon"
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"elvish": true
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Age",
-					"entries": [
-						"混血儿开始他们的生活时是成年的人类、精灵或维达肯人。他们表现出轻微加速衰老的迹象，因此他们的最大寿命可能会有所减少，但守护者项目运作的时间还不够长，无法观察到这种现象的全部影响。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"大多数混血儿与整个西米克联合体一样具有普遍的中立观点。他们对科学研究和他们公会的地位更感兴趣，而不是对道德或伦理问题感兴趣。然而，那些离开联合体的人往往是因为他们的哲学观和联盟更符合不同公会的观点。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"你的体型是中等，在你的人形基础种族的正常范围内。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"你能在60英尺内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西，就像暗光一样。你在黑暗中不能辨别颜色，只能辨别灰色的深浅。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Animal Enhancement",
-					"entries": [
-						"你的身体已经被改变，融入了某些动物特征。你现在选择一种动物强化，在5级时选择第二种强化。",
-						"在1级的时候，从以下选项中选择一个。",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Manta Glide",
-									"entry": "Your ray-like wings can slow your fall and allow you to glide. When you fall and aren't {@condition incapacitated}, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend."
-								},
-								{
-									"type": "item",
-									"name": "Nimble Climber",
-									"entry": "你的爬升速度等于你的步行速度。"
-								},
-								{
-									"type": "item",
-									"name": "Underwater Adaptation",
-									"entry": "你可以呼吸空气和水，你的游泳速度与你的步行速度相等。"
-								}
-							]
-						},
-						"在5级时，从以下选项中选择一个，或者从你在1级时没有的选项中选择一个。",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Grappling Appendage",
-									"entry": "你有两个特殊的附属物与你的手臂一起生长。选择它们是爪子还是触角。每条附肢都是一种天然武器，你可以用它来进行徒手打击。如果你用它打中了，目标会受到相当于{@dice 1d6}+你力量修正值的重击伤害，而不是徒手打击的正常重击伤害。命中后，你可以立即尝试抓取目标作为一个额外动作。这些附肢不能精确地操纵任何东西，也不能挥舞武器、魔法物品或其他专门设备。"
-								},
-								{
-									"type": "item",
-									"name": "Carapace",
-									"entry": "你的皮肤在某些地方被一层厚厚的外壳所覆盖。当你不穿重甲时，你会获得一个+1的交流奖励。"
-								},
-								{
-									"type": "item",
-									"name": "Acid Spit",
-									"entry": "作为一个动作，你可以从你口中的腺体喷出一股酸液，目标是你周围30英尺内你能看到的一个生物或物体。目标会受到{@dice 2d10}的酸液伤害，除非它对DC等于8+你的宪法修改器+你的熟练度加成的灵巧反射成功。当你达到11级（（2%））和17级（（3%））时，这个伤害增加（1%）。"
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话和精灵语。"
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "Siren",
 			"source": "PSX",
 			"page": 17,
@@ -12311,6 +10499,9 @@
 			"name": "Skeleton",
 			"source": "DMG",
 			"page": 282,
+			"creatureTypes": [
+				"undead"
+			],
 			"size": [
 				"M"
 			],
@@ -12340,6 +10531,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are Undead."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Brittle Bones",
 					"entries": [
 						"你容易受到击打伤害。"
@@ -12367,6 +10565,94 @@
 					"type": "entries"
 				}
 			]
+		},
+		{
+			"name": "Strig",
+			"source": "HWCS",
+			"page": 20,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"other": true,
+					"auran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Strigs reach maturity faster than most birdfolk races, around 15 years. They can reach a respectable old age by birdfolk standards, living around 80 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Strigs are normally good aligned, having a strong sense of fair play as well as a tendency to see the best in others. They also favor chaotic alignments, as strigs are a freedom-loving people who will usually put their personal morals above any imposed system of governance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Strigs are muscular, imposing folk ranging from 4 to over 5 feet tall and weighing around 110 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"你的基本行走速度是30英尺。"
+					]
+				},
+				{
+					"name": "Glide",
+					"type": "entries",
+					"entries": [
+						"Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
+					]
+				},
+				{
+					"name": "Talons",
+					"type": "entries",
+					"entries": [
+						"Your sharp claws aid you in unarmed combat and while climbing. Your damage for an unarmed strike is {@damage 1d4} piercing damage. Additionally, you have advantage on Strength ({@skill Athletics}) checks made to climb any surface your talons could reasonably grip."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"You are adept at hunting under the cover of night. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Patterned Feathers",
+					"type": "entries",
+					"entries": [
+						"You have advantage on Dexterity ({@skill Stealth}) checks when you attempt to hide in a forest."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Tabaxi",
@@ -12620,88 +10906,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Thri-kreen",
-			"source": "UA2021TravelersOfTheMultiverse",
-			"page": 4,
-			"reprintedAs": [
-				"Thri-kreen|AAG"
-			],
-			"lineage": "VRGR",
-			"creatureTypes": [
-				"monstrosity"
-			],
-			"size": [
-				"S",
-				"M"
-			],
-			"speed": 30,
-			"darkvision": 60,
-			"traitTags": [
-				"Improved Resting",
-				"Natural Armor"
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Creature Type",
-					"entries": [
-						"你是个怪胎。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"你是中号或小号。你在选择这项比赛时选择尺寸。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Chameleon Carapace",
-					"entries": [
-						"当你不穿盔甲时，你的盔甲使你的基本护甲等级为13+你的灵巧修正值。",
-						"As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity ({@skill Stealth}) checks made to hide in those surroundings."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"你可以在你周围60英尺内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西，就像暗光一样。你在黑暗中只能分辨出灰色的深浅。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Secondary Arms",
-					"entries": [
-						"你的主臂下面有两个稍小的副臂。副臂的功能与你的主臂一样，但有以下例外。",
-						{
-							"type": "list",
-							"items": [
-								"你可以用副臂挥舞具有光属性的武器，但你不能用副臂挥舞其他种类的武器。",
-								"你不能用副臂挥舞盾牌。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sleepless Revitalization",
-					"entries": [
-						"你不需要睡眠，可以选择在长时间的休息中保持清醒，尽管你仍然必须避免剧烈活动以获得休息的好处。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Thri-kreen Telepathy",
-					"entries": [
-						"You have the magical ability to communicate mentally with any number of willing creatures you can see within 120 feet of you. A contacted creature doesn't need to share a language with you, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is {@condition incapacitated}, or if either of you mentally breaks the contact (no action required)."
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Tiefling",
@@ -13618,83 +11822,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Vedalken",
-			"source": "UARacesOfRavnica",
-			"page": 4,
-			"reprintedAs": [
-				"Vedalken|GGR"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"int": 2,
-					"wis": 1
-				}
-			],
-			"age": {
-				"mature": 40,
-				"max": 500
-			},
-			"traitTags": [
-				"Skill Bonus Dice",
-				"Tool Bonus Dice"
-			],
-			"languageProficiencies": [
-				{
-					"common": true
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"维达肯人的成熟速度与人类相同，大多数人有望在40岁左右安定下来，过上成年生活。他们可以活到350岁到近500岁。"
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"维达肯人通常是合法的，很少是邪恶的。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"维达肯人比人类高，但更苗条。他们平均身高6至6.5英尺，但体重通常低于200磅。你的体型是中等。"
-					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Vedalken Dispassion",
-					"entries": [
-						"你在所有智力、智慧和魅力方面都有优势。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Tireless Precision",
-					"entries": [
-						"You are proficient in one of the following skills of your choice: {@skill Arcana}, {@skill History}, {@skill Investigation}, {@skill Medicine}, {@skill Performance}, or {@skill Sleight of Hand}. You are also proficient with one {@book tool|phb|5|tools} of your choice.",
-						"Whenever you make an ability check with the chosen skill or tool, roll a {@dice d4}, and add the number rolled to the check's total."
-					],
-					"type": "entries"
-				}
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "Verdan",
 			"source": "AI",
 			"page": 72,
@@ -13786,105 +11913,121 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Viashino",
-			"source": "UARacesOfRavnica",
-			"page": 5,
+			"name": "Vulpin",
+			"source": "HWCS",
+			"page": 30,
 			"size": [
 				"M"
 			],
 			"speed": 30,
 			"ability": [
 				{
-					"dex": 2,
-					"str": 1
+					"int": 2,
+					"cha": 1
 				}
 			],
-			"age": {
-				"mature": 13,
-				"max": 60
-			},
+			"darkvision": 60,
 			"traitTags": [
 				"Natural Weapon"
 			],
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"acrobatics",
-							"stealth"
-						]
-					}
-				}
-			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"draconic": true
+					"other": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"ambush prey|HWCS"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"fear"
+								]
+							}
+						}
+					}
 				}
 			],
 			"entries": [
 				{
-					"type": "entries",
 					"name": "Age",
+					"type": "entries",
 					"entries": [
-						"Viashino成熟得很快，在十几岁时就达到成年。他们过着暴力的生活，很少老死，但无论如何他们很少能活过60岁。"
+						"Vulpins mature at an average pace, and can be comparatively long-lived. They reach adulthood at 15 years, and live well past 90 years."
 					]
 				},
 				{
-					"type": "entries",
 					"name": "Alignment",
+					"type": "entries",
 					"entries": [
-						"Viashino强烈倾向于混乱的排列。他们没有特别倾向于善或恶。"
+						"Vulpins aren't innately evil, but their difficulty empathizing with others means they are only rarely good aligned. Most vulpins find strict authority distasteful, preferring chaotic alignments over lawful ones."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"Viashino和人类一样高，但他们有轻盈的身体。你的体型是中等。"
+						"Vulpins cut dashing figures and are usually lean and muscular. They stand between 4 and a half and 5 and a half feet tall, but are relatively lightweight, weighing between 90 and 140 pounds. Your size is Medium."
 					]
 				},
 				{
+					"name": "Speed",
 					"type": "entries",
+					"entries": [
+						"你的基本行走速度是30英尺。"
+					]
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. Mapachs are most comfortable under the cloak of night."
+					]
+				},
+				{
 					"name": "Bite",
+					"type": "entries",
 					"entries": [
-						"你的獠牙之嘴是一种自然武器，你可以用它来进行徒手攻击。如果你用它攻击，你会造成相当于{@damage 1d4}+你力量修饰值的穿刺伤害，而不是徒手攻击时的重击伤害。"
+						"You have sharp fangs that enable you to make natural bite attacks. You can choose to bite as an unarmed strike that deals {@damage 1d6} points of piercing damage, which can be calculated using either your Strength or Dexterity modifier for both the attack roll and damage bonus."
 					]
 				},
 				{
+					"name": "Evasive",
 					"type": "entries",
-					"name": "Lashing Tail",
 					"entries": [
-						"你的半截尾巴上有一个骨质的刀片。在你周围5英尺内的生物用近战攻击对你造成伤害后，你可以用你的反应用你的尾巴对该生物进行一次徒手攻击。如果你击中了，你会造成相当于{@damage 1d4}+你力量修饰的砍击伤害，而不是徒手攻击时的重击伤害。"
+						"You add your Intelligence modifier as a bonus on all Dexterity saving throws."
 					]
 				},
 				{
+					"name": "Bewitching Guile",
 					"type": "entries",
-					"name": "Wiry Frame",
 					"entries": [
-						"你获得{@skill Acrobatics}或{@skill Stealth}技能的熟练度（你选择）。"
+						"You can cast {@spell charm person} as a 1st level spell with this trait, and regain the ability to do so when you finish a long rest. When you reach 3rd level, you can cast {@spell ambush prey|HWCS} as a 2nd level spell with this trait, and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast {@spell fear} with this trait, and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells."
 					]
 				},
 				{
-					"type": "entries",
 					"name": "Languages",
+					"type": "entries",
 					"entries": [
-						"你能说、读、写普通话和德拉科尼语。"
+						"You can speak, read, and write Birdfolk and Vulpin."
 					]
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Warforged",
 			"source": "ERLW",
 			"page": 35,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 67
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -14017,196 +12160,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Warforged",
-			"source": "UAEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Warforged|UARacesOfEberron"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"str": 1,
-					"con": 1
-				}
-			],
-			"traitTags": [
-				"Improved Resting",
-				"Natural Armor"
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 1
-				}
-			],
-			"conditionImmune": [
-				"disease"
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"战神一般比人类更宽大、更沉重。你的体型是中等"
-					]
-				},
-				{
-					"name": "Composite Plating",
-					"entries": [
-						"你的建筑融合了木材和金属，使你的护甲等级获得+1的奖励。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Living Construct",
-					"entries": [
-						"尽管你是被建造的，但你是一个活的生物。你对疾病有免疫力。你不需要吃或呼吸，但如果你愿意，你可以摄取食物和饮料。",
-						"你不是在睡觉，而是每天进入4小时的不活动状态。在这种状态下，你不会做梦；你完全意识到你的周围环境，并注意到接近的敌人和其他正常的事件。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你可以说、读、写普通话和你选择的其他一种语言。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Warforged",
-			"source": "UARacesOfEberron",
-			"page": 7,
-			"reprintedAs": [
-				"Warforged|ERLW"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"con": 1
-				}
-			],
-			"age": {
-				"mature": 2,
-				"max": 30
-			},
-			"traitTags": [
-				"Improved Resting",
-				"Natural Armor"
-			],
-			"languageProficiencies": [
-				{
-					"common": true
-				}
-			],
-			"resist": [
-				"poison"
-			],
-			"conditionImmune": [
-				"disease"
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"entries": [
-						"一个典型的warforged是在两到三十岁之间。战神的最大寿命仍然是个谜；到目前为止，战神没有显示出因年龄而退化的迹象。"
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"大多数战友在秩序和纪律中得到安慰，倾向于法律和中立，但有些战友吸收了他们所服务的生命的道德，或缺乏道德。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"你的体型是中等。大多数战神的身高在5到6英尺半之间。体型受你的亚种影响。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Warforged Resilience",
-					"entries": [
-						"你被创造为具有非凡的毅力，表现为以下好处。",
-						{
-							"type": "list",
-							"items": [
-								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
-								"你对疾病有免疫力。",
-								"你不需要吃，不需要喝，不需要呼吸。",
-								"You don't need to sleep and don't suffer the effects of {@condition exhaustion} due to lack of rest, and magic can't put you to sleep."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sentry's Rest",
-					"entries": [
-						"When you take a long rest, you must spend at least six hours of it in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious}, and you can see and hear as normal."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Integrated Protection",
-					"entries": [
-						"你的身体有内置的保护层，这决定了你的护甲等级。你不会从穿戴盔甲中获得任何好处，但如果你使用盾牌，你就会照常应用其奖励。",
-						"你可以改变你的身体，进入不同的防御模式；每次你完成长时间的休息，从综合保护表中选择一种模式来采用，只要你满足该模式的先决条件。",
-						{
-							"type": "table",
-							"caption": "Integrated protection",
-							"colLabels": [
-								"Mode",
-								"Prerequisite",
-								"Armor Class"
-							],
-							"colStyles": [
-								"col-4",
-								"col-4",
-								"col-4"
-							],
-							"rows": [
-								[
-									"黑木核心（无装甲）",
-									"None",
-									"11+你的灵巧修改器（如果精通轻甲，则增加熟练度奖励）"
-								],
-								[
-									"复合镀层（装甲）",
-									"中型装甲熟练度",
-									"13+你的灵巧修正值（最多2）+你的熟练度奖励"
-								],
-								[
-									"重型镀层（装甲）",
-									"重装甲熟练度",
-									"16 + your proficiency bonus; disadvantage on Dexterity ({@skill Stealth}) checks"
-								]
-							]
-						}
-					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话。"
-					],
-					"type": "entries"
-				}
-			]
 		},
 		{
 			"name": "Yuan-Ti",
@@ -14419,6 +12372,9 @@
 			"name": "Zombie",
 			"source": "DMG",
 			"page": 282,
+			"creatureTypes": [
+				"undead"
+			],
 			"size": [
 				"M"
 			],
@@ -14444,6 +12400,13 @@
 				"poisoned"
 			],
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are Undead."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Undead Fortitude",
@@ -14603,6 +12566,146 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Grove",
+			"source": "HWCS",
+			"raceName": "Cervan",
+			"raceSource": "HWCS",
+			"page": 22,
+			"speed": 35,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Swift",
+					"type": "entries",
+					"entries": [
+						"你的基本行走速度增加到35英尺。"
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"type": "entries",
+					"entries": [
+						"Your base long jump is 30 feet, and your base high jump is 15 feet, with or without a running start."
+					]
+				},
+				{
+					"name": "Nimble Step",
+					"type": "entries",
+					"entries": [
+						"Opportunity attacks made against you are rolled with disadvantage."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pronghorn",
+			"source": "HWCS",
+			"raceName": "Cervan",
+			"raceSource": "HWCS",
+			"page": 22,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon",
+				"Powerful Build"
+			],
+			"entries": [
+				{
+					"name": "Robust Build",
+					"type": "entries",
+					"entries": [
+						"Your carrying capacity is doubled, as is the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"name": "Antlers",
+					"type": "entries",
+					"entries": [
+						"You have a set of large, strong antlers that can be used to make devastating charge attacks. You can use your unarmed strike to gore opponents, dealing {@damage 1d6} + your Strength Modifier piercing damage on a hit.",
+						"Additionally, if you move at least 20 feet in a straight line towards an opponent, you can spend a bonus action to charge them, dealing an extra 1d6 points of piercing damage. If the target of your charge is Large or smaller, they must make a Strength saving throw against a DC of your Proficiency Bonus + 8 + your Strength Modifier. On failure, the target is pushed 10 feet away from you into a space of your choice."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dusk",
+			"source": "HWCS",
+			"raceName": "Corvum",
+			"raceSource": "HWCS",
+			"page": 12,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Skulker",
+					"type": "entries",
+					"entries": [
+						"You have advantage on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
+					]
+				},
+				{
+					"name": "Street Smarts",
+					"type": "entries",
+					"entries": [
+						"You gain proficiency in the {@skill Insight} skill."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Kindled",
+			"source": "HWCS",
+			"raceName": "Corvum",
+			"raceSource": "HWCS",
+			"page": 12,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon",
+				"Tool Proficiency"
+			],
+			"entries": [
+				{
+					"name": "Convincing",
+					"type": "entries",
+					"entries": [
+						"Kindled corvums have a way with words, and are accomplished at saying what someone wants or needs to hear. You have proficiency in either the {@skill Deception} or {@skill Persuasion} skill. Additionally, you have advantage on all Charisma checks made to convince someone of your exceptional knowledge on any topic related to the skill you selected with your learned trait ({@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion})."
+					]
+				},
+				{
+					"name": "Sharp Mind",
+					"type": "entries",
+					"entries": [
+						"You learn one additional language of your choice, gain proficiency in a {@book tool|PHB|5|Tools} of your choice, and are able to accurately recall with perfect clarity anything you have seen or heard within the past month."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"source": "PHB",
 			"raceName": "Dragonborn",
 			"raceSource": "PHB",
@@ -14612,7 +12715,7 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"_template": {
+					"_abstract": {
 						"name": "Dragonborn ({{color}})",
 						"source": "PHB",
 						"_mod": {
@@ -14880,7 +12983,7 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"_template": {
+					"_abstract": {
 						"name": "Dragonborn (Draconblood; {{color}})",
 						"source": "EGW",
 						"_mod": {
@@ -15107,7 +13210,7 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"_template": {
+					"_abstract": {
 						"name": "Dragonborn (Ravenite; {{color}})",
 						"source": "EGW",
 						"_mod": {
@@ -15358,12 +13461,6 @@
 			"raceName": "Dwarf",
 			"raceSource": "PHB",
 			"page": 51,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 108
-				}
-			],
 			"ability": [
 				{
 					"int": 1
@@ -15499,38 +13596,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Avariel",
-			"source": "UAElfSubraces",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 1,
-			"speed": {
-				"walk": 30,
-				"fly": 30
-			},
-			"languageProficiencies": [
-				{
-					"auran": true
-				}
-			],
-			"entries": [
-				{
-					"name": "Extra Language",
-					"entries": [
-						"你能说、读、写奥兰语。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Flight",
-					"entries": [
-						"你有一个30英尺的飞行速度。要使用这个速度，你不能穿着中型或重型盔甲。"
-					],
-					"type": "entries"
-				}
-			]
 		},
 		{
 			"name": "Drow",
@@ -15735,156 +13800,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Eladrin",
-			"source": "UAEladrinAndGith",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 1,
-			"reprintedAs": [
-				"Elf (Eladrin)|MTF"
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"int",
-							"cha"
-						],
-						"count": 1
-					}
-				}
-			],
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"friends#c",
-							"chill touch#c",
-							"minor illusion#c",
-							"fire bolt#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Fey Step",
-					"entries": [
-						"作为一个额外的动作，你可以用魔法传送到一个你能看到的无人的空间，最多可以传送30英尺。一旦你使用这个特性，你就不能再这样做了，直到你完成一个短暂或长时间的休息。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Shifting Seasons",
-					"entries": [
-						"在每次短休或长休结束时，你可以将自己与一个季节的魔法结合起来，不管是哪个季节在主导你的个性。这样做可以让你施展某种咒语，如转换季节的咒语表所示。当你与一个季节的魔法结盟时，你会失去与前一个季节相关的咒语，而获得与新季节相关的咒语。",
-						"你对这些咒语的施法能力是智力或魅力，以较高者为准。",
-						{
-							"type": "table",
-							"caption": "Shifting Seasons Cantrips",
-							"colLabels": [
-								"Season",
-								"Cantrip"
-							],
-							"colStyles": [
-								"col-6 text-center",
-								"col-6 text-center"
-							],
-							"rows": [
-								[
-									"秋季",
-									"{@spell Friends}"
-								],
-								[
-									"冬季",
-									"{@spell Chill touch}"
-								],
-								[
-									"春天",
-									"{@spell Minor illusion}"
-								],
-								[
-									"夏天",
-									"{@spell Fire bolt}"
-								]
-							]
-						}
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Grugach",
-			"source": "UAElfSubraces",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 1,
-			"ability": [
-				{
-					"str": 1
-				}
-			],
-			"languageProficiencies": [
-				{
-					"sylvan": true,
-					"elvish": true,
-					"anyStandard": 1
-				}
-			],
-			"weaponProficiencies": [
-				{
-					"spear|phb": true,
-					"shortbow|phb": true,
-					"longbow|phb": true,
-					"net|phb": true
-				}
-			],
-			"additionalSpells": [
-				{
-					"ability": "wis",
-					"known": {
-						"1": {
-							"_": [
-								{
-									"choose": "level=0|class=Druid"
-								}
-							]
-						}
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Languages",
-					"entries": [
-						"你可以说、读、写希尔凡语、精灵语，以及一种你选择的额外语言。精灵语很流畅，有微妙的语调和复杂的语法。精灵文学丰富多样，他们的歌曲和诗歌在其他种族中很有名。许多吟游诗人学习他们的语言，以便在他们的剧目中加入精灵民谣。"
-					],
-					"data": {
-						"overwrite": "Languages"
-					},
-					"type": "entries"
-				},
-				{
-					"name": "Grugach Weapon Training",
-					"entries": [
-						"You have proficiency with the {@item spear|phb}, {@item shortbow|phb}, {@item longbow|phb}, and {@item net|phb}."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Cantrip",
-					"entries": [
-						"You know one cantrip of your choice from the {@filter druid spell list|spells|class=druid|level=0}. Wisdom is your spellcasting ability for it."
-					],
-					"type": "entries"
-				}
-			],
-			"overwrite": {
-				"languageProficiencies": true
-			}
-		},
-		{
 			"name": "High",
 			"source": "PHB",
 			"raceName": "Elf",
@@ -15963,141 +13878,11 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "High; Aereni",
-			"source": "UAWGE",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 73,
-			"speed": 30,
-			"ability": [
-				{
-					"int": 1
-				}
-			],
-			"traitTags": [
-				"Skill Proficiency",
-				"Tool Proficiency"
-			],
-			"skillToolLanguageProficiencies": [
-				{
-					"choose": [
-						{
-							"from": [
-								"anySkill",
-								"anyTool"
-							]
-						}
-					]
-				}
-			],
-			"additionalSpells": [
-				{
-					"ability": "int",
-					"known": {
-						"1": {
-							"_": [
-								{
-									"choose": "level=0|class=Wizard"
-								}
-							]
-						}
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Aereni Training",
-					"entries": [
-						"Choose one skill or {@book tool|phb|5|tools} proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Cantrip",
-					"entries": [
-						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Extra Language",
-					"entries": [
-						"你可以说、读、写一种你选择的额外语言。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "High; Valenar",
-			"source": "UAWGE",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 73,
-			"speed": 30,
-			"ability": [
-				{
-					"int": 1
-				}
-			],
-			"weaponProficiencies": [
-				{
-					"scimitar|phb": true,
-					"double-bladed scimitar|erlw": true,
-					"longbow|phb": true,
-					"shortbow|phb": true
-				}
-			],
-			"additionalSpells": [
-				{
-					"ability": "int",
-					"known": {
-						"1": {
-							"_": [
-								{
-									"choose": "level=0|class=Wizard"
-								}
-							]
-						}
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Valenar Weapon Training",
-					"entries": [
-						"A Valenar elf gains proficiency with the {@item scimitar|phb}, {@item Double-Bladed Scimitar|erlw|double scimitar}, {@item longbow|phb}, and {@item shortbow|phb}."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Cantrip",
-					"entries": [
-						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Extra Language",
-					"entries": [
-						"你可以说、读、写一种你选择的额外语言。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
 			"name": "Mark of Shadow",
 			"source": "ERLW",
 			"raceName": "Elf",
 			"raceSource": "PHB",
 			"page": 49,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 105
-				}
-			],
 			"ability": [
 				{
 					"cha": 1
@@ -16348,70 +14133,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Sea",
-			"source": "UAElfSubraces",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 1,
-			"speed": {
-				"walk": 30,
-				"swim": 30
-			},
-			"ability": [
-				{
-					"con": 1
-				}
-			],
-			"traitTags": [
-				"Amphibious"
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"elvish": true,
-					"aquan": true
-				}
-			],
-			"weaponProficiencies": [
-				{
-					"spear|phb": true,
-					"trident|phb": true,
-					"light crossbow|phb": true,
-					"net|phb": true
-				}
-			],
-			"entries": [
-				{
-					"name": "Extra Language",
-					"entries": [
-						"你可以说、读、写阿肯语。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Sea Elf Weapon Training",
-					"entries": [
-						"You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Child of the Sea",
-					"entries": [
-						"你的游泳速度为30英尺，你可以呼吸空气和水。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Friend of the Sea",
-					"entries": [
-						"使用手势和声音，你可以与小型或更小的野兽交流简单的想法，它们有天生的游泳速度。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
 			"name": "Shadar-kai",
 			"source": "MTF",
 			"raceName": "Elf",
@@ -16452,83 +14173,6 @@
 				}
 			],
 			"hasFluff": true
-		},
-		{
-			"name": "Shadar-kai",
-			"source": "UAElfSubraces",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 2,
-			"reprintedAs": [
-				"Elf (Shadar-kai)|MTF"
-			],
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"elvish": true,
-					"anyStandard": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"ability": "cha",
-					"known": {
-						"1": [
-							"chill touch#c"
-						]
-					}
-				},
-				{
-					"ability": "cha",
-					"known": {
-						"1": [
-							"spare the dying#c"
-						]
-					}
-				},
-				{
-					"ability": "cha",
-					"known": {
-						"1": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Languages",
-					"entries": [
-						"你可以说、读、写普通话、精灵语和一种你选择的额外语言。精灵语很流畅，有微妙的语调和复杂的语法。精灵文学丰富多样，他们的歌曲和诗歌在其他种族中很有名。许多吟游诗人学习他们的语言，以便在他们的剧目中加入精灵民谣。"
-					],
-					"data": {
-						"overwrite": "Languages"
-					},
-					"type": "entries"
-				},
-				{
-					"name": "Cantrip",
-					"entries": [
-						"你知道以下一个你选择的咒语。{@spell chill touch}, {@spell spare the dying}, 或 {@spell thaumaturgy}。魅力是你对它的施法能力。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Blessing of the Raven Queen",
-					"entries": [
-						"作为一个额外的动作，你可以用魔法传送到一个你能看到的无人空间，最多15英尺，并且你获得对所有伤害的抵抗，直到你下一个回合开始。在那段时间里，你会出现幽灵般的半透明状态。一旦你使用这个能力，你就不能再使用它，直到你完成一个短暂或长时间的休息。"
-					],
-					"type": "entries"
-				}
-			],
-			"overwrite": {
-				"languageProficiencies": true
-			}
 		},
 		{
 			"name": "Wood",
@@ -16582,86 +14226,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Wood; Aereni",
-			"source": "UAWGE",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 73,
-			"speed": 35,
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
-			"entries": [
-				{
-					"name": "Aereni Training",
-					"entries": [
-						"Choose one skill or {@book tool|phb|5|tools} proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Fleet of Foot",
-					"entries": [
-						"你的基本行走速度增加到35英尺。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Mask of the Wild",
-					"entries": [
-						"即使你只是被树叶、大雨、落雪、薄雾和其他自然现象轻度遮挡，你也可以尝试隐藏。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Wood; Valenar",
-			"source": "UAWGE",
-			"raceName": "Elf",
-			"raceSource": "PHB",
-			"page": 73,
-			"speed": 35,
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
-			"weaponProficiencies": [
-				{
-					"scimitar|phb": true,
-					"double-bladed scimitar|erlw": true,
-					"longbow|phb": true,
-					"shortbow|phb": true
-				}
-			],
-			"entries": [
-				{
-					"name": "Valenar Weapon Training",
-					"entries": [
-						"A Valenar elf gains proficiency with the {@item scimitar|phb}, {@item Double-Bladed Scimitar|erlw|double scimitar}, {@item longbow|phb}, and {@item shortbow|phb}."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Fleet of Foot",
-					"entries": [
-						"你的基本行走速度增加到35英尺。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Mask of the Wild",
-					"entries": [
-						"即使你只是被树叶、大雨、落雪、薄雾和其他自然现象轻度遮挡，你也可以尝试隐藏。"
-					],
-					"type": "entries"
-				}
-			]
 		},
 		{
 			"name": "Bishatar and Tirahar",
@@ -16900,6 +14464,72 @@
 						"你对其他两个技能的任何组合或你选择的{@book tools|phb|5|tools}的熟练程度。"
 					],
 					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bright",
+			"source": "HWCS",
+			"raceName": "Gallus",
+			"raceSource": "HWCS",
+			"page": 14,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Tool Proficiency"
+			],
+			"entries": [
+				{
+					"name": "Inspiring",
+					"type": "entries",
+					"entries": [
+						"By spending an action and giving words of advice or encouragement, you can inspire an ally who is able to see and hear you. The ally can roll a {@dice d4} and add the number rolled to their next ability check, attack roll, or saving throw."
+					]
+				},
+				{
+					"name": "Understanding",
+					"type": "entries",
+					"entries": [
+						"You gain proficiency in the {@skill Insight} skill."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Huden",
+			"source": "HWCS",
+			"raceName": "Gallus",
+			"raceSource": "HWCS",
+			"page": 14,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"traitTags": [
+				"Tool Proficiency"
+			],
+			"entries": [
+				{
+					"name": "One With the Wood",
+					"type": "entries",
+					"entries": [
+						"You have proficiency in the {@skill Nature} skill."
+					]
+				},
+				{
+					"name": "Seedspeech",
+					"type": "entries",
+					"entries": [
+						"Your connection to the Great Rhythm is such that you can speak with the greenery of the forest itself. Through speech and touch you can communicate simple ideas to living plants. You are able to interpret their responses in simple language. Plants in the Wood do not experience the world in terms of sight, but most can feel differences in temperature, describe things that have touched them, as well as hear vibrations that happened around them (including speech)."
+					]
 				}
 			],
 			"hasFluff": true,
@@ -17574,168 +15204,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Githyanki",
-			"source": "UAEladrinAndGith",
-			"raceName": "Gith",
-			"raceSource": "UAEladrinAndGith",
-			"page": 2,
-			"reprintedAs": [
-				"Gith (Githyanki)|MTF"
-			],
-			"ability": [
-				{
-					"str": 2
-				}
-			],
-			"traitTags": [
-				"Skill Proficiency",
-				"Tool Proficiency"
-			],
-			"armorProficiencies": [
-				{
-					"light": true,
-					"medium": true
-				}
-			],
-			"skillToolLanguageProficiencies": [
-				{
-					"choose": [
-						{
-							"from": [
-								"anySkill",
-								"anyTool"
-							]
-						}
-					]
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"jump"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"misty step"
-								]
-							}
-						}
-					},
-					"ability": "int",
-					"known": {
-						"1": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"吉特扬基人倾向于合法的邪恶。他们以自我为中心、暴力、傲慢，但他们仍然是他们的女皇--弗拉基斯的忠实仆人。叛逆的吉蒂亚克人倾向于混乱，因为他们已经抛弃了她的意志。"
-					]
-				},
-				{
-					"name": "Decadent Mastery",
-					"entries": [
-						"You learn one language of your choice, and you are proficient with one skill or {@book tool|phb|5|tools} of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Martial Prodigy",
-					"entries": [
-						"你精通轻型和中型装甲。你的人民永远为战争做好准备。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Githyanki Psionics",
-					"entries": [
-						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast {@spell jump} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell misty step} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
-						"智力是你对这些法术的施法能力。你可以在没有组件的情况下施展所有这些法术。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Githzerai",
-			"source": "UAEladrinAndGith",
-			"raceName": "Gith",
-			"raceSource": "UAEladrinAndGith",
-			"page": 3,
-			"reprintedAs": [
-				"Gith (Githzerai)|MTF"
-			],
-			"ability": [
-				{
-					"wis": 2
-				}
-			],
-			"traitTags": [
-				"Natural Armor"
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"shield"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"detect thoughts"
-								]
-							}
-						}
-					},
-					"ability": "wis",
-					"known": {
-						"1": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Githzerai倾向于合法的中立。他们在通灵能力方面的严格训练要求他们有坚定的精神纪律。"
-					]
-				},
-				{
-					"name": "Monastic Training",
-					"entries": [
-						"当你不穿中型或重型盔甲且不使用盾牌时，你会获得+1的交流奖励。所有的吉斯泽拉人都接受过僧侣的基本训练，他们中的僧侣在防御能力方面是无与伦比的。"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Githzerai Psionics",
-					"entries": [
-						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast {@spell shield} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell detect thoughts} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
-						"智慧是你对这些法术的施法能力。你可以在没有组件的情况下施展所有这些法术。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
 			"name": "Deep",
 			"source": "MTF",
 			"raceName": "Gnome",
@@ -17966,12 +15434,6 @@
 			"raceName": "Gnome",
 			"raceSource": "PHB",
 			"page": 47,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 103
-				}
-			],
 			"ability": [
 				{
 					"cha": 1
@@ -18489,12 +15951,6 @@
 			"raceName": "Half-Elf",
 			"raceSource": "PHB",
 			"page": 40,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 96
-				}
-			],
 			"ability": [
 				{
 					"wis": 2,
@@ -18624,12 +16080,6 @@
 			"raceName": "Half-Elf",
 			"raceSource": "PHB",
 			"page": 50,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 106
-				}
-			],
 			"ability": [
 				{
 					"cha": 2,
@@ -19029,12 +16479,6 @@
 			"raceName": "Half-Orc",
 			"raceSource": "PHB",
 			"page": 41,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 98
-				}
-			],
 			"traitTags": [
 				"Dragonmark",
 				"Skill Bonus Dice"
@@ -19284,12 +16728,6 @@
 			"raceName": "Halfling",
 			"raceSource": "PHB",
 			"page": 43,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 99
-				}
-			],
 			"ability": [
 				{
 					"wis": 1
@@ -19402,12 +16840,6 @@
 			"raceName": "Halfling",
 			"raceSource": "PHB",
 			"page": 44,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 100
-				}
-			],
 			"ability": [
 				{
 					"cha": 1
@@ -19657,12 +17089,6 @@
 			"raceName": "Human",
 			"raceSource": "PHB",
 			"page": 42,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 98
-				}
-			],
 			"ability": [
 				{
 					"wis": 2,
@@ -19789,12 +17215,6 @@
 			"raceName": "Human",
 			"raceSource": "PHB",
 			"page": 45,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 101
-				}
-			],
 			"ability": [
 				{
 					"int": 2,
@@ -19923,12 +17343,6 @@
 			"raceName": "Human",
 			"raceSource": "PHB",
 			"page": 46,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 102
-				}
-			],
 			"speed": 35,
 			"ability": [
 				{
@@ -20050,12 +17464,6 @@
 			"raceName": "Human",
 			"raceSource": "PHB",
 			"page": 48,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 104
-				}
-			],
 			"ability": [
 				{
 					"con": 2,
@@ -20499,6 +17907,69 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Sable",
+			"source": "HWCS",
+			"raceName": "Luma",
+			"raceSource": "HWCS",
+			"page": 16,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"entries": [
+				{
+					"name": "Hard to Read",
+					"type": "entries",
+					"entries": [
+						"Your innate eccentricities make it hard for other folk to figure you out. When someone performs a Wisdom ({@skill Insight}) check against you, they have disadvantage on their roll. Additionally, you gain advantage on Charisma ({@skill Deception}) checks made against creatures that are not lumas."
+					]
+				},
+				{
+					"name": "Resilience",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws against poison and resistance against poison damage."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sera",
+			"source": "HWCS",
+			"raceName": "Luma",
+			"raceSource": "HWCS",
+			"page": 16,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Center of Attention",
+					"type": "entries",
+					"entries": [
+						"You have proficiency in the {@skill Performance} skill."
+					]
+				},
+				{
+					"name": "Songbird",
+					"type": "entries",
+					"entries": [
+						"When you perform, you can demonstrate the innate and mystical power of your Charisma. You may cast the {@spell charm person} spell once per long rest. This spell does not require any somatic components to cast. Charisma is your spellcasting ability for this spell."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Ixalan; Blue",
 			"source": "PSX",
 			"raceName": "Merfolk",
@@ -20785,6 +18256,75 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Maran",
+			"source": "HWCS",
+			"raceName": "Raptor",
+			"raceSource": "HWCS",
+			"page": 18,
+			"speed": {
+				"swim": 30
+			},
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Swimmer",
+					"type": "entries",
+					"entries": [
+						"You have a swimming speed of 25 feet."
+					]
+				},
+				{
+					"name": "Patient",
+					"type": "entries",
+					"entries": [
+						"When you react with a readied action, you have advantage on the first attack roll, skill check, or ability check you make as a part of that action."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mistral",
+			"source": "HWCS",
+			"raceName": "Raptor",
+			"raceSource": "HWCS",
+			"page": 18,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Agile",
+					"type": "entries",
+					"entries": [
+						"你对{@skill Acrobatics}的技能有熟练的掌握。"
+					]
+				},
+				{
+					"name": "Aerial Defense",
+					"type": "entries",
+					"entries": [
+						"Creatures that attack you while you are falling, gliding, or jumping have disadvantage on their attack roll."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Beasthide",
 			"source": "ERLW",
 			"raceName": "Shifter",
@@ -20935,311 +18475,71 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Beasthide",
-			"source": "UAEberron",
-			"raceName": "Shifter",
-			"raceSource": "UAEberron",
-			"page": 2,
-			"reprintedAs": [
-				"Shifter (Beasthide)|UARacesOfEberron"
-			],
+			"name": "Stout",
+			"source": "HWCS",
+			"raceName": "Strig",
+			"raceSource": "HWCS",
+			"page": 20,
 			"ability": [
 				{
 					"con": 1
 				}
 			],
 			"traitTags": [
-				"Natural Armor"
-			],
-			"entries": [
-				{
-					"name": "Shifting Feature",
-					"entries": [
-						"在转移时，你获得一个+1的交流奖励。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Cliffwalk",
-			"source": "UAEberron",
-			"raceName": "Shifter",
-			"raceSource": "UAEberron",
-			"page": 2,
-			"ability": [
-				{
-					"dex": 2
-				}
-			],
-			"entries": [
-				{
-					"name": "Shifting Feature",
-					"entries": [
-						"在换位时，你获得30英尺的攀爬速度。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Longstride",
-			"source": "UAEberron",
-			"raceName": "Shifter",
-			"raceSource": "UAEberron",
-			"page": 2,
-			"ability": [
-				{
-					"dex": 2
-				}
-			],
-			"entries": [
-				{
-					"name": "Shifting Feature",
-					"entries": [
-						"在移位时，你可以使用{@action Dash}的动作作为额外的动作。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Longtooth",
-			"source": "UAEberron",
-			"raceName": "Shifter",
-			"raceSource": "UAEberron",
-			"page": 2,
-			"reprintedAs": [
-				"Shifter (Longtooth)|UARacesOfEberron"
-			],
-			"ability": [
-				{
-					"str": 1
-				}
-			],
-			"entries": [
-				{
-					"name": "Shifting Feature",
-					"entries": [
-						"While shifting, you can make a bite attack as an action. This is a melee weapon attack that uses Strength for its attack roll and damage bonus and deals {@dice 1d6} piercing damage. If this attack hits a target that is your size or smaller, the target is also {@condition grappled}."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Razorclaw",
-			"source": "UAEberron",
-			"raceName": "Shifter",
-			"raceSource": "UAEberron",
-			"page": 2,
-			"ability": [
-				{
-					"dex": 2
-				}
-			],
-			"traitTags": [
 				"Natural Weapon"
 			],
 			"entries": [
 				{
-					"name": "Shifting Feature",
-					"entries": [
-						"在变身时，你可以作为一个奖励动作进行一次徒手攻击。你可以用你的灵巧来做攻击卷和伤害奖励，这次攻击造成砍伤。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Wildhunt",
-			"source": "UAEberron",
-			"raceName": "Shifter",
-			"raceSource": "UAEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Shifter (Wildhunt)|UARacesOfEberron"
-			],
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
-			"entries": [
-				{
-					"name": "Shifting Feature",
-					"entries": [
-						"在转移过程中，你在所有基于智慧的检查和拯救动作上获得优势。"
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Beasthide",
-			"source": "UARacesOfEberron",
-			"raceName": "Shifter",
-			"raceSource": "UARacesOfEberron",
-			"page": 6,
-			"reprintedAs": [
-				"Shifter (Beasthide)|ERLW"
-			],
-			"ability": [
-				{
-					"con": 2
-				}
-			],
-			"traitTags": [
-				"Natural Armor"
-			],
-			"skillProficiencies": [
-				{
-					"athletics": true
-				}
-			],
-			"entries": [
-				{
+					"name": "Imposing",
 					"type": "entries",
-					"name": "Tough",
 					"entries": [
-						"你已经熟练掌握了{@skill Athletics}的技能。"
+						"你对{@skill Intimidation}的技能有熟练的掌握。"
 					]
 				},
 				{
+					"name": "Brawler",
 					"type": "entries",
-					"name": "Shifting Feature",
 					"entries": [
-						"每当你转移时，你会获得{@dice 1d6}额外的临时命中率，并且在转移时，你有一个+1的AC奖励。"
+						"When you successfully attack a target with your talons, you can choose to grapple that target as a bonus action."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
-			"name": "Longtooth",
-			"source": "UARacesOfEberron",
-			"raceName": "Shifter",
-			"raceSource": "UARacesOfEberron",
-			"page": 6,
-			"reprintedAs": [
-				"Shifter (Longtooth)|ERLW"
-			],
-			"ability": [
-				{
-					"str": 2
-				}
-			],
-			"traitTags": [
-				"Natural Weapon"
-			],
-			"skillProficiencies": [
-				{
-					"intimidation": true
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Fierce",
-					"entries": [
-						"你已经熟练掌握了{@skill Intimidation}的技能。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Shifting Feature",
-					"entries": [
-						"在变身时，你可以使用你拉长的獠牙进行一次徒手攻击，作为一个额外动作。如果你用你的獠牙击中，你可以造成相当于{@dice 1d6}+你力量修饰值的穿刺伤害，而不是徒手攻击的破坏性伤害。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Swiftstride",
-			"source": "UARacesOfEberron",
-			"raceName": "Shifter",
-			"raceSource": "UARacesOfEberron",
-			"page": 6,
-			"reprintedAs": [
-				"Shifter (Swiftstride)|ERLW"
-			],
+			"name": "Swift",
+			"source": "HWCS",
+			"raceName": "Strig",
+			"raceSource": "HWCS",
+			"page": 20,
 			"speed": 35,
 			"ability": [
 				{
-					"dex": 2,
-					"cha": 1
+					"dex": 1
 				}
 			],
-			"skillProficiencies": [
-				{
-					"acrobatics": true
-				}
+			"traitTags": [
+				"Natural Weapon"
 			],
 			"entries": [
 				{
+					"name": "Swift",
 					"type": "entries",
-					"name": "Graceful",
 					"entries": [
-						"你已经熟练掌握了{@skill Acrobatics}的技能。"
+						"你的基本行走速度增加到35英尺。"
 					]
 				},
 				{
+					"name": "Survivor",
 					"type": "entries",
-					"name": "Swift Stride",
 					"entries": [
-						"你的行走速度增加5英尺。"
+						"你对{@skill Survival}的技能有熟练的掌握。"
 					]
-				},
-				{
-					"type": "entries",
-					"name": "Shifting Feature",
-					"entries": [
-						"当移位时，你的行走速度增加5英尺。此外，当敌人在你5英尺范围内结束其回合时，你可以作为一个反应，最多移动10英尺。这种移动不会激起机会攻击。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Wildhunt",
-			"source": "UARacesOfEberron",
-			"raceName": "Shifter",
-			"raceSource": "UARacesOfEberron",
-			"page": 6,
-			"reprintedAs": [
-				"Shifter (Wildhunt)|ERLW"
-			],
-			"ability": [
-				{
-					"wis": 2
 				}
 			],
-			"skillProficiencies": [
-				{
-					"survival": true
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Natural Tracker",
-					"entries": [
-						"你已经熟练掌握了{@skill Survival}的技能。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mark the Scent",
-					"entries": [
-						"作为一个额外动作，你可以在你10英尺范围内标记一个你能看到的生物。直到你下一次长休结束，你为寻找被标记的生物而进行的任何能力检查的熟练度加成都会翻倍，而且如果该生物在你60英尺范围内，你总是知道它的位置。在你完成一次短时或长时休息之前，你不能再次使用这个特性。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Shifting Feature",
-					"entries": [
-						"在移位时，你在智慧检查上有优势。"
-					]
-				}
-			]
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"source": "PHB",
@@ -21251,162 +18551,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Abyssal",
-			"source": "UAThatOldBlackMagic",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 1,
-			"ability": [
-				{
-					"cha": 2,
-					"con": 1
-				}
-			],
-			"traitTags": [
-				"Uncommon Race"
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"abyssal": true
-				}
-			],
-			"resist": null,
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"burning hands",
-									"charm person",
-									"magic missile",
-									"cure wounds",
-									"tasha's hideous laughter",
-									"thunderwave"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"alter self",
-									"darkness",
-									"invisibility",
-									"levitate",
-									"mirror image",
-									"spider climb"
-								]
-							}
-						}
-					},
-					"known": {
-						"1": [
-							"dancing lights#c",
-							"true strike#c",
-							"light#c",
-							"message#c",
-							"spare the dying#c",
-							"prestidigitation#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Abyssal Arcana",
-					"entries": [
-						"每当你完成一次长时间的休息，你就会获得从一个简短的列表中随机确定的施放咒语和法术的能力。在1级的时候，你可以施放一个咒语。当你达到3级时，你也可以施放一个1级的法术。在5级的时候，你可以施放一个2级的法术。",
-						"在你完成下一次长时间休息之前，你只能施放一次由该特性获得的法术。你可以随心所欲地施放从这个特质中获得的咒语，和平常一样。对于1级法术，如果使用2级或更高等级的法术槽施放，其效果会发生改变，你就像使用2级法术槽一样施放该法术。二级法术的施放如同使用二级法术槽。",
-						"在每次长休结束时，你都会失去之前由这个特征赋予的咒语和法术，即使你没有施放它们。你可以通过在深渊奥术法术表上掷出新的咒语和法术来替换这些咒语和法术。对每个咒语和法术都要分别进行滚动。如果你掷出的是你在上一次长休结束时获得的相同的法术或咒语，则再次掷出，直到你得到不同的结果。",
-						{
-							"type": "table",
-							"caption": "Abyssal Arcana Spells",
-							"colLabels": [
-								"d6",
-								"1st Level",
-								"3rd Level",
-								"5th Level"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-3-67",
-								"col-3-67",
-								"col-3-67"
-							],
-							"rows": [
-								[
-									"1",
-									"{@spell Dancing lights}",
-									"{@spell Burning hands}",
-									"{@spell Alter self}"
-								],
-								[
-									"2",
-									"{@spell True strike}",
-									"{@spell Charm person}",
-									"{@spell Darkness}"
-								],
-								[
-									"3",
-									"{@spell Light}",
-									"{@spell Magic missile}",
-									"{@spell Invisibility}"
-								],
-								[
-									"4",
-									"{@spell Message}",
-									"{@spell Cure wounds}",
-									"{@spell Levitate}"
-								],
-								[
-									"5",
-									"{@spell Spare the dying}",
-									"{@spell Tasha's hideous laughter}",
-									"{@spell Mirror Image}"
-								],
-								[
-									"6",
-									"{@spell Prestidigitation}",
-									"{@spell Thunderwave}",
-									"{@spell Spider climb}"
-								]
-							]
-						}
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				},
-				{
-					"name": "Abyssal Fortitude",
-					"entries": [
-						"你的最大命中率增加你等级的一半（最少1）。"
-					],
-					"data": {
-						"overwrite": "Hellish Resistance"
-					},
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"你能说、读、写普通话和深渊语。"
-					],
-					"data": {
-						"overwrite": "Languages"
-					},
-					"type": "entries"
-				}
-			],
-			"overwrite": {
-				"languageProficiencies": true,
-				"ability": true,
-				"traitTags": true
-			}
-		},
-		{
 			"name": "Asmodeus",
 			"source": "MTF",
 			"raceName": "Tiefling",
@@ -21414,16 +18558,6 @@
 			"page": 21,
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Asmodeus",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 1,
-			"reprintedAs": [
-				"Tiefling (Asmodeus)|MTF"
-			]
 		},
 		{
 			"name": "Baalzebul",
@@ -21471,54 +18605,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Baalzebul",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 1,
-			"reprintedAs": [
-				"Tiefling (Baalzebul)|MTF"
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"ray of sickness#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"crown of madness"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Maladomini",
-					"entries": [
-						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell ray of sickness} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell crown of madness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			]
 		},
 		{
 			"name": "Dispater",
@@ -21577,63 +18663,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Dispater",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 1,
-			"reprintedAs": [
-				"Tiefling (Dispater)|MTF"
-			],
-			"ability": [
-				{
-					"cha": 2,
-					"dex": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"disguise self"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"invisibility"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Dis",
-					"entries": [
-						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell disguise self} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			}
-		},
-		{
 			"name": "Fierna",
 			"source": "MTF",
 			"raceName": "Tiefling",
@@ -21690,63 +18719,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Fierna",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 1,
-			"reprintedAs": [
-				"Tiefling (Fierna)|MTF"
-			],
-			"ability": [
-				{
-					"cha": 2,
-					"wis": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"charm person#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"suggestion"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"friends#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Phlegethos",
-					"entries": [
-						"You know the {@spell friends} cantrip. When you reach 3rd level, you can cast the {@spell charm person} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell suggestion} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			}
-		},
-		{
 			"name": "Glasya",
 			"source": "MTF",
 			"raceName": "Tiefling",
@@ -21801,63 +18773,6 @@
 			},
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Glasya",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 2,
-			"reprintedAs": [
-				"Tiefling (Glasya)|MTF"
-			],
-			"ability": [
-				{
-					"cha": 2,
-					"dex": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"disguise self"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"invisibility"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"minor illusion#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Malbolge",
-					"entries": [
-						"You know the {@spell minor illusion} cantrip. When you reach 3rd level, you can cast the {@spell disguise self} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			}
 		},
 		{
 			"name": "Levistus",
@@ -21916,63 +18831,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Levistus",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 2,
-			"reprintedAs": [
-				"Tiefling (Levistus)|MTF"
-			],
-			"ability": [
-				{
-					"cha": 2,
-					"con": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"armor of agathys#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"darkness"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"ray of frost#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Stygia",
-					"entries": [
-						"You know the {@spell ray of frost} cantrip. When you reach 3rd level, you can cast the {@spell armor of Agathys} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			}
-		},
-		{
 			"name": "Mammon",
 			"source": "MTF",
 			"raceName": "Tiefling",
@@ -22018,54 +18876,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Mammon",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 2,
-			"reprintedAs": [
-				"Tiefling (Mammon)|MTF"
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"tenser's floating disk"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"arcane lock"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Minauros",
-					"entries": [
-						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast the {@spell Tenser's floating disk} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell arcane lock} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			]
 		},
 		{
 			"name": "Mephistopheles",
@@ -22113,54 +18923,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Mephistopheles",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 2,
-			"reprintedAs": [
-				"Tiefling (Mephistopheles)|MTF"
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"magic missile#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"web"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Cania",
-					"entries": [
-						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast the {@spell magic missile} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell web} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			]
 		},
 		{
 			"name": "Variant; Devil's Tongue",
@@ -22472,63 +19234,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Zariel",
-			"source": "UAFiendishOptions",
-			"raceName": "Tiefling",
-			"raceSource": "PHB",
-			"page": 2,
-			"reprintedAs": [
-				"Tiefling (Zariel)|MTF"
-			],
-			"ability": [
-				{
-					"cha": 2,
-					"str": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"searing smite#2"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"branding smite"
-								]
-							}
-						}
-					},
-					"ability": "cha",
-					"known": {
-						"1": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Legacy of Avernus",
-					"entries": [
-						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell searing smite} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell branding smite} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries",
-					"data": {
-						"overwrite": "Infernal Legacy"
-					}
-				}
-			],
-			"overwrite": {
-				"ability": true
-			}
-		},
-		{
 			"name": "Ixalan",
 			"source": "PSX",
 			"raceName": "Vampire",
@@ -22615,124 +19320,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Envoy",
-			"source": "UARacesOfEberron",
-			"raceName": "Warforged",
-			"raceSource": "UARacesOfEberron",
-			"page": 69,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 2
-					}
-				}
-			],
-			"traitTags": [
-				"Tool Proficiency"
-			],
-			"skillProficiencies": [
-				{
-					"any": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Specialized Design",
-					"entries": [
-						"你获得一个你选择的技能熟练度，一个你选择的{@book tool|phb|5|tools}熟练度，以及你选择的一种语言的流利程度。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Integrated Tool",
-					"entries": [
-						"选择一种你所精通的工具。这个工具与你的身体融为一体，你用它进行的任何能力检查都会得到双倍的熟练度奖励。你必须腾出双手来使用这个综合工具。"
-					]
-				},
-				{
-					"type": "inset",
-					"name": "Envoys: Specialized Design",
-					"entries": [
-						"顾名思义，大多数战争锻造者都是为了在最后的战争中作战。绝大多数的战争锻造者是杂兵或小兵--在五国之一的旗帜下作战的士兵和侦察兵。然而，战神特使被设计来执行其他功能。作为一个特使，你有一个技能，一个工具熟练度，以及一个作为你身体一部分的工具。当你制造一个特使角色时，请考虑以下问题。你的目的是什么？你的技能和你的工具如何反映这个目的？你的综合工具是什么形式的？例如，如果你有嵌入式的盗贼工具，你的手指实际上是锁匙，还是你能从你身体的各个部位产生钥匙？下面的人物是拥有综合工具的战神的例子。",
-						"{@b Lute}是一个有艺人背景的吟游诗人；他的同名乐器从他的左臂折出。",
-						"{@b Compass Rose}是一个具有外乡人背景的巫师。她是一个敏锐的探险家，用她内置的{@item cartographer's tools|phb}来记录她所走过的道路。",
-						"{@b Masque} is an infiltrator. A rogue with the charlatan background and an integrated {@item disguise kit|phb}, she was built to blend in and assassinate. Cannith built six warforged of her design, and Masque has vowed to hunt down and destroy the other five.",
-						"在开发你的综合工具时，请记住，你必须腾出双手来使用它。上面提到的潜入者马斯克，并不像变身者那样变身，她必须手动调整自己的外表。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Juggernaut",
-			"source": "UARacesOfEberron",
-			"raceName": "Warforged",
-			"raceSource": "UARacesOfEberron",
-			"page": 70,
-			"ability": [
-				{
-					"str": 2
-				}
-			],
-			"traitTags": [
-				"Natural Weapon",
-				"Powerful Build"
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Iron Fists",
-					"entries": [
-						"当你用徒手攻击时，你可以造成{@dice 1d4}+你力量修饰的重击伤害，而不是徒手攻击的正常伤害。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Powerful Build",
-					"entries": [
-						"在确定你的运载能力和你能推动、拖动或举起的重量时，你算大一码。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Skirmisher",
-			"source": "UARacesOfEberron",
-			"raceName": "Warforged",
-			"raceSource": "UARacesOfEberron",
-			"page": 70,
-			"speed": 35,
-			"ability": [
-				{
-					"dex": 2
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Swift",
-					"entries": [
-						"你的行走速度增加5英尺。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Light Step",
-					"entries": [
-						"When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace. (See {@book chapter 8|PHB|8|Travel Pace} of the Player's Handbook for information about travel pace.)"
-					]
-				}
-			]
 		}
 	]
 }

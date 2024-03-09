@@ -72,7 +72,7 @@
 													"name": "RAI",
 													"id": "008",
 													"entries": [
-														"你们中的一些人对了解一项规则背后的意图特别感兴趣。这就是RAI的作用。\"规则的意图\"。这种方法是关于设计者写东西时的意思。在一个完美的世界里，RAW和RAI完全一致，但有时页面上的文字并不能成功传达设计者的意图。或者说，这些文字在一群玩家中成功了，但在另一群玩家中却没有。",
+														"{@note (\"Rules as Intended.\")} Some of you are especially interested in knowing the intent behind a rule. That's where RAI comes in: \"rules as intended.\" This approach is all about what the designers meant when they wrote something. In a perfect world, RAW and RAI align perfectly, but sometimes the words on the page don't succeed at communicating the designers' intent. Or perhaps the words succeed with one group of players but not with another.",
 														"当我写到RAI对一条规则的解释时，我将拉开帷幕，让你知道D&D团队在编写某条规则时是什么意思。"
 													]
 												},
@@ -81,7 +81,7 @@
 													"name": "RAF",
 													"id": "009",
 													"entries": [
-														"无论页面上的内容或设计者的意图是什么，D&D都是为了好玩，而DM是每个游戏桌上的指挥者。最好的管理人在飞行中塑造游戏，给他们的玩家带来最大的快乐。这种DM的目标是RAF，即 \"作为乐趣的规则\"。我们希望DM在运行一个特定的活动时，或者在为某一群玩家寻求最大的快乐时，能够偏离规则。有时，我的规则答案会包括关于为你的团体实现规则的RAF解释的建议。",
+														"{@note (\"Rules as Fun.\")} Regardless of what's on the page or what the designers intended, D&D is meant to be fun, and the DM is the ringmaster at each game table. The best DMs shape the game on the fly to bring the most delight to their players. Such DMs aim for RAF, \"rules as fun.\" We expect DMs to depart from the rules when running a particular campaign or when seeking the greatest happiness for a certain group of players. Sometimes my rules answers will include advice on achieving the RAF interpretation of a rule for your group.",
 														"我建议将RAW、RAI和RAF健康地混合在一起!"
 													]
 												}
@@ -201,7 +201,7 @@
 											"type": "entries",
 											"name": "How long do a shifter's temporary hit points last?",
 											"entries": [
-												"除非特征另有规定，临时命中率会持续到你完成一次长时休息（PH，198）。"
+												"Unless a feature says otherwise, temporary hit points last until you finish a long rest ({@book PHB, 198|PHB|9|Temporary Hit Points})."
 											],
 											"id": "139"
 										},
@@ -282,7 +282,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "For the barbarian's Reckless Attack, do you grant advantage to all enemies, or only to the target of your attack? ",
+											"name": "For the barbarian's Reckless Attack, do you grant advantage to all enemies, or only to the target of your attack?",
 											"id": "01d",
 											"entries": [
 												"如果你使用野蛮人的鲁莽攻击，所有的攻击卷都对你有利，直到你下一回合开始。"
@@ -321,10 +321,10 @@
 										},
 										{
 											"type": "entries",
-											"name": "Which spell scrolls can bards understand\u2014spells from the bard list only, or spells from the bard list plus spells from Magical Secrets?",
+											"name": "Which spell scrolls can bards understand—spells from the bard list only, or spells from the bard list plus spells from Magical Secrets?",
 											"id": "022",
 											"entries": [
-												"A bard can use any {@item spell scroll} that has a bard spell on it\u2014including spells gained from the Magical Secrets feature, which are treated as bard spells for that character."
+												"A bard can use any {@item spell scroll} that has a bard spell on it—including spells gained from the Magical Secrets feature, which are treated as bard spells for that character."
 											]
 										},
 										{
@@ -611,7 +611,7 @@
 											"name": "Can my paladin use a smite spell along with Divine Smite? As in, I cast wrathful smite, hit, then use Divine Smite on the same attack?",
 											"id": "043",
 											"entries": [
-												"Yes, you can use Divine Smite on the same weapon attack that benefits from a smite spell, such as {@spell wrathful smite}\u2014as long as the attack you make after casting the smite spell is a melee weapon attack. Divine Smite doesn't work with any other kind of attack."
+												"Yes, you can use Divine Smite on the same weapon attack that benefits from a smite spell, such as {@spell wrathful smite}—as long as the attack you make after casting the smite spell is a melee weapon attack. Divine Smite doesn't work with any other kind of attack."
 											]
 										},
 										{
@@ -649,7 +649,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Does a Monster Slayer ranger's Supernatural Defense feature apply if a creature damages the ranger, thus causing the ranger to make a Constitution saving throw to maintain concentration on a spell? ",
+											"name": "Does a Monster Slayer ranger's Supernatural Defense feature apply if a creature damages the ranger, thus causing the ranger to make a Constitution saving throw to maintain concentration on a spell?",
 											"entries": [
 												"Yes."
 											],
@@ -988,7 +988,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "If you attack with a shield\u2014most likely as an improvised weapon\u2014do you keep the +2 bonus to AC?",
+											"name": "If you attack with a shield—most likely as an improvised weapon—do you keep the +2 bonus to AC?",
 											"id": "06c",
 											"entries": [
 												"用盾牌攻击并不会使你失去盾牌对AC的奖励。"
@@ -1546,7 +1546,7 @@
 											"id": "0af",
 											"entries": [
 												"{@condition prone}的条件并不推翻阻止你在敌人的空间中移动的规则，除非那个敌人至少比你大两号或小两号。",
-												"If you do move through the space of another creature\u2014whether a friend or an enemy\u2014the space is {@quickref difficult terrain||3} for you, and you can't willingly end your move there. See the {@book Player's Handbook|PHB}, ({@i PHB} \"{@book Movement and Position|PHB|9|Movement and Position}\"), for more on movement in combat."
+												"If you do move through the space of another creature—whether a friend or an enemy—the space is {@quickref difficult terrain||3} for you, and you can't willingly end your move there. See the {@book Player's Handbook|PHB}, ({@i PHB} \"{@book Movement and Position|PHB|9|Movement and Position}\"), for more on movement in combat."
 											]
 										},
 										{
@@ -1669,7 +1669,7 @@
 												"**加上你的熟练度奖励。你的法术攻击能力是由你的等级或赋予你法术攻击能力的任何特征决定的。",
 												"例如，如果你用长剑进行近战武器攻击，你在攻击和伤害卷上加上你的力量修饰。相比之下，如果你进行{@spell fire bolt}cantrip的法术攻击，你在攻击卷上加上你的法术能力修饰。如果你是一个巫师，智力是你的法术能力，所以要加上你的智力修饰值。(1%)并没有告诉你要在它的伤害卷上加上你的修正值，所以你不会这样做。",
 												"游戏中的各种功能对这一规则做出了明确的例外。例如，具有精巧属性的武器可以让你选择使用你的力量或灵巧修改器。另一个例子：当你使用{@book Player's Handbook|PHB}({@i PHB}\"{@book Two-Weapon Fighting|PHB|9|Two-Weapon Fighting}\")中的双武器战斗选项时，你不会将你的能力修改器加入到额外攻击的伤害中，除非该修改器为负值。然而，你仍然将你的能力修改器加入到攻击卷中，因为这个选项没有告诉你不要这样做。换句话说，你要遵循一般的规则，直到游戏中的一个例外告诉你不要这样做。",
-												"What about unusual cases like the {@spell green-flame blade|TCE} spell? The spell, which appears in the {@book Sword Coast Adventurer's Guide|SCAG}, tells you to make a melee attack with a weapon. Look at the table above, and you see that, under normal circumstances, you use your Strength modifier when you make a melee weapon attack. It doesn't matter that a spell told you to attack. If a spell expects you to make a spell attack, the spell's description says so. For examples, take a look at {@spell fire bolt} and {@spell ray of frost}. Both say it\u2014\"spell attack.\""
+												"What about unusual cases like the {@spell green-flame blade|TCE} spell? The spell, which appears in the {@book Sword Coast Adventurer's Guide|SCAG}, tells you to make a melee attack with a weapon. Look at the table above, and you see that, under normal circumstances, you use your Strength modifier when you make a melee weapon attack. It doesn't matter that a spell told you to attack. If a spell expects you to make a spell attack, the spell's description says so. For examples, take a look at {@spell fire bolt} and {@spell ray of frost}. Both say it—\"spell attack.\""
 											]
 										},
 										{
@@ -1686,7 +1686,7 @@
 											"name": "How does a reach weapon work with opportunity attacks?",
 											"id": "0bc",
 											"entries": [
-												"An {@book opportunity attack|PHB|9|Opportunity Attacks} is normally triggered when a creature you can see moves beyond your reach. If you want to make an opportunity attack with a reach weapon, such as a glaive or a halberd, you can do so when a creature leaves the reach you have with that weapon. For example, if you're wielding a {@item halberd|PHB}, a creature that is right next to you could move 5 feet away without triggering an opportunity attack. If that creature tries to move an additional 5 feet\u2014beyond your 10-foot reach\u2014the creature then triggers an opportunity attack."
+												"An {@book opportunity attack|PHB|9|Opportunity Attacks} is normally triggered when a creature you can see moves beyond your reach. If you want to make an opportunity attack with a reach weapon, such as a glaive or a halberd, you can do so when a creature leaves the reach you have with that weapon. For example, if you're wielding a {@item halberd|PHB}, a creature that is right next to you could move 5 feet away without triggering an opportunity attack. If that creature tries to move an additional 5 feet—beyond your 10-foot reach—the creature then triggers an opportunity attack."
 											]
 										},
 										{
@@ -1757,7 +1757,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Target at range caught in melee combat\u2014does that target get some kind of cover or do I get disadvantage?",
+											"name": "Target at range caught in melee combat—does that target get some kind of cover or do I get disadvantage?",
 											"id": "0c5",
 											"entries": [
 												"如果有其他生物在你和目标之间，你的目标有一半的掩护。"
@@ -1815,7 +1815,7 @@
 											"type": "entries",
 											"name": "Can I make an attack with one weapon, then draw a second weapon with my other hand and qualify to use two-weapon fighting?",
 											"entries": [
-												"要使用双武器战斗奖励动作（PH，195），你在进行第一次攻击时必须有两件武器在手。如果你用两件或更多的武器作战，作为额外攻击功能的一部分，那么双武器作战奖励动作的规则就不适用。该奖励动作的规则只适用于它本身，而不适用于游戏中任何其他使用两件或更多武器的情况。"
+												"To use the two-weapon fighting bonus action (PHB, 195), you must have both weapons in hand when you make the first attack. If you're instead fighting with two or more weapons as part of the Extra Attack feature, the rule for the two-weapon fighting bonus action doesn't apply. The rule for that bonus action applies only to itself, not to any other use of two or more weapons in the game."
 											],
 											"id": "14c"
 										}
@@ -1931,7 +1931,7 @@
 											"entries": [
 												"You can't if the spell attack is created by casting a spell. When a creature triggers an opportunity attack from you, you can use your {@book reaction|PHB|9|Reactions} to make a melee attack against it. The opportunity attack doesn't suddenly give you the ability to cast a spell, such as {@spell shocking grasp}.",
 												"每个法术都有一个施法时间。一个游戏特征，例如机会攻击，不会让你绕过施法时间，除非该特征另有说明。{@feat War Caster}特技就是一个例子，它确实可以让你绕过1个行动的施法时间来施法，而不是进行机会攻击。",
-												"A few monsters can make opportunity attacks with melee spell attacks. Here's how: certain monsters\u2014including the {@creature banshee}, the {@creature lich}, and the {@creature specter}\u2014have a melee spell attack that isn't delivered by a spell. For example, the banshee's Corrupting Touch action is a melee spell attack but no spell is cast to make it. The {@creature banshee} can, therefore, make opportunity attacks with Corrupting Touch."
+												"A few monsters can make opportunity attacks with melee spell attacks. Here's how: certain monsters—including the {@creature banshee}, the {@creature lich}, and the {@creature specter}—have a melee spell attack that isn't delivered by a spell. For example, the banshee's Corrupting Touch action is a melee spell attack but no spell is cast to make it. The {@creature banshee} can, therefore, make opportunity attacks with Corrupting Touch."
 											]
 										},
 										{
@@ -2630,7 +2630,7 @@
 											"name": "Whenever you cast wish, do you always have a 33 percent chance of never casting it again?",
 											"id": "117",
 											"entries": [
-												"If you cast {@spell wish} to duplicate a spell of level 0\u20138, there are no detrimental effects. However, if you do anything other than duplicate a spell of level 0\u20138, you suffer the stress described in the final paragraph of the spell. As soon as that stress affects you, there is a {@chance 33|33 percent} chance that you are unable to cast {@spell wish} again."
+												"If you cast {@spell wish} to duplicate a spell of level 0–8, there are no detrimental effects. However, if you do anything other than duplicate a spell of level 0–8, you suffer the stress described in the final paragraph of the spell. As soon as that stress affects you, there is a {@chance 33|33 percent} chance that you are unable to cast {@spell wish} again."
 											]
 										}
 									]

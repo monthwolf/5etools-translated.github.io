@@ -252,6 +252,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The firetamer is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following druid spells prepared:"
 					],
@@ -415,6 +416,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The skydancer is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
 					],
@@ -593,6 +595,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The stoneguard is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following druid spells prepared:"
 					],
@@ -738,6 +741,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The waverider is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
 					],
@@ -866,9 +870,9 @@
 			"languages": [
 				"Common"
 			],
+			"hasToken": true,
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"hasToken": true
+			"hasFluffImages": true
 		},
 		{
 			"name": "Blighted Sapling",
@@ -1221,6 +1225,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The Champion's innate spellcasting ability is Charisma ({@hit 10} to hit with spell attacks, save {@dc 18}). He can innately cast the following spells, requiring no material components:"
 					],
@@ -2038,6 +2043,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The cyclops's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The cyclops can innately cast the following spells, requiring no material components:"
 					],
@@ -2372,6 +2378,7 @@
 		{
 			"name": "Diseased Grick",
 			"source": "TDCSR",
+			"page": 122,
 			"_copy": {
 				"name": "Grick",
 				"source": "MM",
@@ -2386,6 +2393,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The grick's spellcasting ability is Wisdom (spell save {@dc 12} {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -2400,9 +2408,9 @@
 			"savingThrowForcedSpell": [
 				"constitution"
 			],
+			"hasToken": true,
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"hasToken": true
+			"hasFluffImages": true
 		},
 		{
 			"name": "Doty X",
@@ -2536,9 +2544,9 @@
 			"languages": [
 				"Common"
 			],
+			"hasToken": true,
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"hasToken": true
+			"hasFluffImages": true
 		},
 		{
 			"name": "Ember Roc",
@@ -3078,7 +3086,7 @@
 				{
 					"name": "Melee Master",
 					"entries": [
-						"Grog can take a \u22125 penalty to any melee attack roll to gain a +10 bonus to the damage roll."
+						"Grog can take a −5 penalty to any melee attack roll to gain a +10 bonus to the damage roll."
 					]
 				},
 				{
@@ -3294,6 +3302,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Jourrael's spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells, requiring no material components:"
 					],
@@ -3485,6 +3494,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Keyleth is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 22}, {@hit 14} to hit with spell attacks). She has the following druid spells prepared:"
 					],
@@ -3728,6 +3738,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The goat-knight is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following paladin spells prepared:"
 					],
@@ -4442,7 +4453,7 @@
 				{
 					"name": "Ranged Master",
 					"entries": [
-						"Percy's ranged weapon attacks have a +2 bonus to hit (included in attacks), ignore {@quickref cover|PHB|3|0|half cover} and {@quickref cover|PHB|3|0|three-quarters cover}, and have no range penalty. Additionally, Percy can take a \u22125 penalty to any ranged attack roll to gain a +10 bonus to the damage roll."
+						"Percy's ranged weapon attacks have a +2 bonus to hit (included in attacks), ignore {@quickref cover|PHB|3|0|half cover} and {@quickref cover|PHB|3|0|three-quarters cover}, and have no range penalty. Additionally, Percy can take a −5 penalty to any ranged attack roll to gain a +10 bonus to the damage roll."
 					]
 				},
 				{
@@ -4613,6 +4624,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Pike is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 19}, {@hit 11} to hit with spell attacks). She has the following cleric spells prepared:"
 					],
@@ -4889,8 +4901,8 @@
 			"conditionInflict": [
 				"prone"
 			],
-			"hasFluff": true,
-			"hasToken": true
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Platinum Golem",
@@ -5114,6 +5126,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The Slaughter Lord's innate spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -5423,6 +5436,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The chosen is an 18th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It has the following sorcerer spells prepared:"
 					],
@@ -5620,6 +5634,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The remnant cultist is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The cultist has the following wizard spells prepared:"
 					],
@@ -5945,6 +5960,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The stormborn's innate spellcasting ability is Charisma (spell save {@dc 12}). The stormborn can innately cast the following spells, requiring no material components:"
 					],
@@ -6030,6 +6046,7 @@
 			"name": "Sagacitous Erusaire",
 			"isNpc": true,
 			"source": "TDCSR",
+			"page": 122,
 			"_copy": {
 				"name": "Guardian Naga",
 				"source": "MM",
@@ -6055,9 +6072,9 @@
 					}
 				}
 			},
+			"hasToken": true,
 			"hasFluff": true,
-			"hasFluffImages": true,
-			"hasToken": true
+			"hasFluffImages": true
 		},
 		{
 			"name": "Scanlan Shorthalt",
@@ -6133,6 +6150,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Scanlan is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). He has the following bard spells prepared:"
 					],
@@ -6392,6 +6410,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Tary is a 15th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). He has the following spells prepared:"
 					],
@@ -6741,6 +6760,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Vex is a 13th-level spellcaster. Her spell-casting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). She has the following ranger spells prepared:"
 					],
@@ -6799,7 +6819,7 @@
 				{
 					"name": "Ranged Master",
 					"entries": [
-						"Vex's ranged weapon attacks have a +2 bonus to hit (included in attacks), and ignore {@quickref cover|PHB|3|0|half cover} and {@quickref cover|PHB|3|0|three-quarters cover}, and have no range penalty. Additionally, Vex can take a \u22125 penalty to any ranged attack roll to gain a +10 bonus to the damage roll."
+						"Vex's ranged weapon attacks have a +2 bonus to hit (included in attacks), and ignore {@quickref cover|PHB|3|0|half cover} and {@quickref cover|PHB|3|0|three-quarters cover}, and have no range penalty. Additionally, Vex can take a −5 penalty to any ranged attack roll to gain a +10 bonus to the damage roll."
 					]
 				},
 				{
@@ -6963,6 +6983,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The serpentfolk's innate spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
 					],

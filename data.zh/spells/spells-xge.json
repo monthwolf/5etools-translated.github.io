@@ -825,6 +825,7 @@
 				"如果你多次施展这个法术，你最多可以有三个由它创造的非瞬时效果同时激活，而且你可以把这样的效果作为一个行动来解除。"
 			],
 			"miscTags": [
+				"LGT",
 				"SGT"
 			],
 			"areaTags": [
@@ -1242,8 +1243,8 @@
 				"dexterity"
 			],
 			"areaTags": [
-				"ST",
-				"N"
+				"N",
+				"ST"
 			]
 		},
 		{
@@ -2049,10 +2050,6 @@
 					"page": 19
 				},
 				{
-					"source": "UAWGE",
-					"page": 107
-				},
-				{
 					"source": "ERLW",
 					"page": 50
 				},
@@ -2453,7 +2450,7 @@
 			"entries": [
 				"Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil's type, which must be one of {@filter challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|tag=devil|miscellaneous=!swarm}, such as a {@creature barbed devil} or a {@creature bearded devil}. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.",
 				"The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master's control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature's statistics.",
-				"On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma ({@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}) check contested by its Wisdom ({@skill Insight}) check. You make the check with advantage if you say the devil's true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command\u2014such as \"attack my enemies,\" \"explore the room ahead,\" or \"bear this message to the queen\"\u2014until it completes the activity, at which point it returns to you to report having done so.",
+				"On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma ({@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}) check contested by its Wisdom ({@skill Insight}) check. You make the check with advantage if you say the devil's true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command—such as \"attack my enemies,\" \"explore the room ahead,\" or \"bear this message to the queen\"—until it completes the activity, at which point it returns to you to report having done so.",
 				"If your {@status concentration} ends before the spell reaches its full duration, the devil doesn't disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for {@dice 3d6} minutes, and then it disappears.",
 				"If you possess an individual devil's talisman, you can summon that devil if it is of the appropriate challenge rating plus 1, and it obeys all your commands, with no Charisma checks required."
 			],
@@ -3199,7 +3196,7 @@
 				}
 			],
 			"entries": [
-				"You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell\u2014and as a bonus action on each of your turns thereafter\u2014you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes {@damage 2d6} fire damage on a failed save, or half as much damage on a successful one."
+				"You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell—and as a bonus action on each of your turns thereafter—you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes {@damage 2d6} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
@@ -4294,9 +4291,9 @@
 				"humanoid"
 			],
 			"miscTags": [
+				"ADV",
 				"HL",
-				"UBA",
-				"ADV"
+				"UBA"
 			]
 		},
 		{
@@ -4416,8 +4413,8 @@
 				"UBA"
 			],
 			"areaTags": [
-				"ST",
-				"S"
+				"S",
+				"ST"
 			],
 			"hasFluffImages": true
 		},
@@ -4683,6 +4680,7 @@
 			],
 			"miscTags": [
 				"HL",
+				"LGT",
 				"PRM",
 				"SGT"
 			]
@@ -5232,6 +5230,7 @@
 				"constitution"
 			],
 			"miscTags": [
+				"LGT",
 				"SGT"
 			],
 			"areaTags": [
@@ -5306,8 +5305,7 @@
 					"page": 116
 				},
 				{
-					"source": "MOT",
-					"page": 0
+					"source": "MOT"
 				}
 			],
 			"level": 3,
@@ -5681,8 +5679,8 @@
 				"UBA"
 			],
 			"areaTags": [
-				"ST",
-				"C"
+				"C",
+				"ST"
 			]
 		},
 		{

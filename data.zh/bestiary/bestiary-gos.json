@@ -61,7 +61,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The amphisbaena has advantage on Wisdom (Perception) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+						"The amphisbaena has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
 					]
 				}
 			],
@@ -209,7 +209,7 @@
 				{
 					"name": "Swamp Camouflage",
 					"entries": [
-						"大黄鱼在沼泽地中躲藏时，对灵巧（隐身）的检查有优势。"
+						"The croaker has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
 					]
 				}
 			],
@@ -357,7 +357,7 @@
 				{
 					"name": "Swamp Camouflage",
 					"entries": [
-						"在沼泽地中隐藏时，皇室在灵巧（隐身）检查方面具有优势。"
+						"The royal has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
 					]
 				}
 			],
@@ -426,10 +426,12 @@
 			"_copy": {
 				"name": "Priest",
 				"source": "MM",
-				"_trait": {
-					"name": "Tiefling",
-					"source": "PHB"
-				},
+				"_templates": [
+					{
+						"name": "Tiefling",
+						"source": "PHB"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -1744,10 +1746,12 @@
 			"_copy": {
 				"name": "Druid",
 				"source": "MM",
-				"_trait": {
-					"name": "Half-Orc",
-					"source": "PHB"
-				},
+				"_templates": [
+					{
+						"name": "Half-Orc",
+						"source": "PHB"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -1853,6 +1857,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Kysh's spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He can cast the following spell, requiring only verbal components:"
 					],
@@ -2414,6 +2419,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The subchief is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following cleric spells prepared:"
 					],
@@ -2857,7 +2863,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"塞科拉的大嘴做了一个智慧（感知）检查。"
+						"The maw of Sekolah makes a Wisdom ({@skill Perception}) check."
 					]
 				},
 				{
@@ -3008,10 +3014,12 @@
 			"_copy": {
 				"name": "Scout",
 				"source": "MM",
-				"_trait": {
-					"name": "Merfolk",
-					"source": "DMG"
-				},
+				"_templates": [
+					{
+						"name": "Merfolk",
+						"source": "DMG"
+					}
+				],
 				"_mod": {
 					"action": {
 						"mode": "removeArr",
@@ -3220,7 +3228,7 @@
 				{
 					"name": "Keen Sight and Smell",
 					"entries": [
-						"在依靠视觉或嗅觉的智慧（感知）检查中，peryton具有优势。"
+						"The peryton has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
 					]
 				},
 				{
@@ -3260,7 +3268,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"鲈鱼做一个智慧（感知）检查。"
+						"The peryton makes a Wisdom ({@skill Perception}) check."
 					]
 				},
 				{
@@ -3368,6 +3376,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Mr. Dory's innate spellcasting ability is Charisma (save {@dc 15}, {@hit 7} to hit with spell attacks). Mr. Dory can innately cast the following spells, requiring no material components:"
 					],
@@ -3876,6 +3885,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The deck wizard is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following wizard spells prepared:"
 					],
@@ -4096,6 +4106,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It knows the following sorcerer spells:"
 					],
@@ -4621,7 +4632,7 @@
 				{
 					"name": "Brine Lurker",
 					"entries": [
-						"深度潜水员在浸泡在水中时进行灵巧（隐身）检查具有优势。"
+						"The deep diver has advantage on Dexterity ({@skill Stealth}) checks made while submerged in water."
 					]
 				},
 				{
@@ -4875,6 +4886,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The high priestess is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She has the following cleric spells prepared:"
 					],
@@ -5056,6 +5068,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The wave shaper's spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can cast the following spells, requiring only verbal components:"
 					],
@@ -5112,8 +5125,8 @@
 				{
 					"name": "Whirlpool (1/Day)",
 					"entries": [
-						"造浪者的目标是一个至少50英尺见方、25英尺深的水体，使该区域的中心形成一个漩涡。漩涡形成一个底部宽5英尺、顶部宽达50英尺、高25英尺的漩涡，并持续1分钟或直到波浪塑造者{@condition incapacitated}。水中的任何生物或物体，在漩涡的25英尺范围内，会被拉向它10英尺。生物可以通过对力量（竞技）的检查，成功地游离漩涡。",
-						"当一个生物在一个回合中第一次进入漩涡或开始它的回合时，它必须做一个{@dc 14}力量救赎。如果救赎失败，该生物会受到9({@damage 2d8})的重击伤害，并被卷入漩涡中直到结束。成功时，该生物受到一半的伤害，并且不会被卷入漩涡。被卷入漩涡的生物可以用它的行动试图游离漩涡，如上所述，但是它在力量（竞技）检查上有劣势。",
+						"The wave shaper targets a body of water at least 50 feet square and 25 feet deep, causing a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, 25 feet tall, and lasts for 1 minute or until the wave shaper is {@condition incapacitated}. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by succeeding on a {@dc 14} Strength ({@skill Athletics}) check.",
+						"When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a {@dc 14} Strength saving throw. On a failed save, the creature takes 9 ({@damage 2d8}) bludgeoning damage and is caught in the vortex until it ends. On a success, the creature takes half damage and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but it has disadvantage on the Strength ({@skill Athletics}) check to do so.",
 						"物体每回合第一次进入漩涡时，会受到9({@damage 2d8})的击打伤害。这个伤害在它留在漩涡中的每一回合都会发生。"
 					]
 				}
@@ -5191,6 +5204,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Sanbalet is a 3rd-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
 					],
@@ -5268,10 +5282,12 @@
 			"_copy": {
 				"name": "Noble",
 				"source": "MM",
-				"_trait": {
-					"name": "Lizardfolk",
-					"source": "DMG"
-				},
+				"_templates": [
+					{
+						"name": "Lizardfolk",
+						"source": "DMG"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -5935,7 +5951,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"千牙做了一个智慧（感知）检查。"
+						"Thousand Teeth makes a Wisdom ({@skill Perception}) check."
 					]
 				},
 				{

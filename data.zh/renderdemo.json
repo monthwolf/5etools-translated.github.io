@@ -22,8 +22,8 @@
 					"type": "list",
 					"items": [
 						"Style tags; {@bold some text to be bolded} (alternative {@b shorthand}), {@italic some text to be italicised} (alternative {@i shorthand}), {@underline some text to be underlined} (alternative {@u shorthand}), {@strike some text to strike-through}, (alternative {@s shorthand}), {@color color|e40707}/{@color color variable|--rgb-name} tags, {@highlight highlight} tags, {@sup superscript} tags, {@sub subscript} tags, {@kbd keyboard} tags, {@code print(&quot;hello world&quot;)} tags, misc {@style Style|small-caps;small;capitalize;dnd-font} tags, {@font alternate font|Comic Sans MS} tags",
-						"此外，{@note note tags}，用于添加勘误表或Twitter \"设计师脚注\"。",
-						"Dice roller tags; {@dice 1d2-2+2d3+5} for regular dice rolls ({@dice 1d6;2d6} for multiple options; {@dice 1d6 + #$prompt_number:min=1,title=Enter a Number!,default=123$#} for input prompts), with extended {@dice 1d20+2|display text} and {@dice 1d20+2|display text|rolled by name}, and a special 'hit' version which assumes a d20 is to be rolled {@hit +7} (and rolls advantage on shift-click, disadvantage on alt-click). There's also {@damage 1d12+3} which will roll critical hits on shift-click and half damage (rounding down) on alt-click, and {@d20 -4} which will also roll advantage/disadvantage, although @hit tags are preferred where appropriate. Spells can have scaling-dice tags, (damage of 2d6 or 3d6 at level 1, add an extra {@scaledamage 2d6;3d6|2-9|1d6} for each level beyond 2nd; or, roll 2d6 when using 1 psi point, add an {@scaledice 2d6|1,3,5,7,9|1d6|psi|extra amount} for each additional psi point spent), for when a spell effect scales at higher levels. {@ability str 20}, {@savingThrow str 5}, and {@skillCheck animal_handling 5} are used as internal shorthand, but may be useful elsewhere.",
+						"Additionally, {@note note tags}, used for adding errata or Twitter \"designer footnotes,\" and {@tip tooltip tags|a note}.",
+						"Dice roller tags; {@dice 1d2-2+2d3+5} for regular dice rolls ({@dice 1d6;2d6} for multiple options; {@dice 1d6 + #$prompt_number:min=1,title=Enter a Number!,default=123$#} for input prompts), with extended {@dice 1d20+2|display text} and {@dice 1d20+2|display text|rolled by name}, and a special 'hit' version which assumes a d20 is to be rolled {@hit +7} (and rolls advantage on {@kbd SHIFT}+click, disadvantage on {@kbd ALT}+click). There's also {@damage 1d12+3} which will roll critical hits on {@kbd SHIFT}+click and half damage (rounding down) on {@kbd ALT}+click, and {@d20 -4} which will also roll advantage/disadvantage, although @hit tags are preferred where appropriate. Spells can have scaling-dice tags, (damage of 2d6 or 3d6 at level 1, add an extra {@scaledamage 2d6;3d6|2-9|1d6} for each level beyond 2nd; or, roll 2d6 when using 1 psi point, add an {@scaledice 2d6|1,3,5,7,9|1d6|psi|extra amount} for each additional psi point spent), for when a spell effect scales at higher levels. {@ability str 20}, {@savingThrow str 5}, and {@skillCheck animal_handling 5} are used as internal shorthand, but may be useful elsewhere.",
 						"Auto dice tags; as above, but a result is automatically rolled upon rendering: {@autodice 2d10+2}.",
 						"机会标签；类似于掷骰子的标签，但输出成功/失败。语法与骰子标签相似：{@chance 50}; {@chance 50|display text}; {@chance 50|display text|rolled by name}; {@chance 50|display text|rolled by name|on success text}; {@chance 50|display text|rolled by name|on success text|on failure text}。",
 						"Summon/companion-specific tags: {@hitYourSpellAttack} ({@hitYourSpellAttack with optional display text}), {@dcYourSpellSave} ({@dcYourSpellSave with optional display text}).",
@@ -43,9 +43,9 @@
 								"背景。{@background Charlatan}默认为PHB，{@background Anthropologist|toa}可以用管道添加来源，{@background Anthropologist|ToA|and optional link text added with another pipe}。",
 								"种族。{@race Human}默认为PHB，{@race Aarakocra|eepc}可以用管道添加来源，{@race Aarakocra|eepc|and optional link text added with another pipe}。",
 								"调用和其他可选功能。{@optfeature Agonizing Blast}默认为PHB，{@optfeature Aspect of the Moon|xge}可以用管道添加来源，{@optfeature Aspect of the Moon|xge|and optional link text added with another pipe}。",
-								"类。{@class fighter}默认为PHB，{@class artificer|uaartificer}可以用管道添加来源，{@class fighter|phb|optional link text added with another pipe}，{@class fighter|phb|subclasses added|Eldritch Knight}用另一个管道，{@class fighter|phb|and class feature added|Eldritch Knight|phb|2-0}用另一个管道（第一个数字是级别指数（0-19），第二个数字是特征指数（0-n））。",
-								"班级特点。{@classFeature Rage|Barbarian||1}, {@classFeature Infuse Item|Artificer|TCE|2}, {@classFeature Survival Instincts|Barbarian||2|UAClassFeatureVariants}, {@classFeature Rage|Barbarian||1||optional display text}. 班级来源被认为是PHB。班级特征来源被假定为与班级来源相同。",
-								"子类特征。{@subclassFeature Path of the Berserker|Barbarian||Berserker||3}, {@subclassFeature Alchemist|Artificer|TCE|Alchemist|TCE|3}, {@subclassFeature Path of the Battlerager|Barbarian||Battlerager|SCAG|3}, {@subclassFeature Blessed Strikes|Cleric||Life||8|UAClassFeatureVariants}, {@subclassFeature Path of the Berserker|Barbarian||Berserker||3||optional display text}. 类的来源被认为是PHB。子类来源被假定为PHB。子类特征来源被假定为与子类来源相同。",
+								"Classes: {@class fighter} assumes PHB by default, {@class artificer|tce} can have sources added with a pipe, {@class fighter|phb|optional link text added with another pipe}, {@class fighter|phb|subclasses added|Eldritch Knight} with another pipe, {@class fighter|phb|and class feature added|Eldritch Knight|phb|2-0} with another pipe (first number is level index (0-19), second number is feature index (0-n)).",
+								"Class Features: {@classFeature Rage|Barbarian||1}, {@classFeature Infuse Item|Artificer|TCE|2}, {@classFeature Primal Knowledge|Barbarian||3|TCE}, {@classFeature Rage|Barbarian||1||optional display text}. Class source is assumed to be PHB. Class feature source is assumed to be the same as class source.",
+								"Subclass Features: {@subclassFeature Path of the Berserker|Barbarian||Berserker||3}, {@subclassFeature Alchemist|Artificer|TCE|Alchemist|TCE|3}, {@subclassFeature Path of the Battlerager|Barbarian||Battlerager|SCAG|3}, {@subclassFeature Blessed Strikes|Cleric||Life||8|TCE}, {@subclassFeature Path of the Berserker|Barbarian||Berserker||3||optional display text}. Class source is assumed to be PHB. Subclass source is assumed to be PHB. Subclass feature source is assumed to be the same as subclass source.",
 								"条件。{@condition stunned}默认为PHB，{@condition stunned|PHB}可以用管道添加来源（不是说它永远有用），{@condition stunned|PHB|and optional link text added with another pipe}。",
 								"疾病。{@disease cackle fever}默认为DMG，{@disease cackle fever}可以用管道添加来源，{@disease cackle fever|DMG|and optional link text added with another pipe}。",
 								"其他奖励。{@reward Blessing of Health}默认为DMG，{@reward Blessing of Health}可以用管道添加来源，{@reward Blessing of Health|DMG|and optional link text added with another pipe}。",
@@ -58,13 +58,13 @@
 								"危害。{@hazard brown mold}默认为DMG，{@hazard russet mold|vgm}可以用管道添加来源，{@hazard russet mold|vgm|and optional link text added with another pipe}。",
 								"神祗。{@deity Gond}默认为PHB《被遗忘的国度》万神殿，{@deity Gruumsh|nonhuman}可以用管道添加万神殿，{@deity Ioun|dawn war|dmg}可以用另一个管道添加来源，{@deity Ioun|dawn war|dmg|and optional link text added with another pipe}。",
 								"变化的规则。{@variantrule Diagonals}默认为DMG，{@variantrule Multiclassing|phb}可以用管道添加来源，{@variantrule Multiclassing|phb|and optional link text added with another pipe}。",
-								"车辆。{@vehicle Galley}默认为GoS，{@vehicle Galley|UAOfShipsAndSea}可以用管道添加来源，{@vehicle Galley|GoS|and optional link text added with another pipe}。",
+								"Vehicles: {@vehicle Galley} assumes GoS by default, {@vehicle Galley|GoS} can have sources added with a pipe, {@vehicle Galley|GoS|and optional link text added with another pipe}.",
 								"车辆升级。{@vehupgrade Guardian Figurehead}默认为GoS，{@vehicle Gilded Death Armor|BGDIA}可以用管道添加来源，{@vehicle Guardian Figurehead|GoS|and optional link text added with another pipe}。",
 								"表格。{@table 25 gp Art Objects}默认为DMG，{@table Adventuring Gear|phb}可以用管道添加来源，{@table Adventuring Gear|phb|and optional link text added with another pipe}。",
 								"行动。{@action Attack}默认为PHB，{@action Tumble|DMG}可以用管道添加来源，{@action Tumble|DMG|and optional link text added with another pipe}。",
 								"语言。{@language common}默认为PHB，{@language Dambrathan|SCAG}可以用管道添加来源，{@language Dambrathan|SCAG|and optional link text added with another pipe}。",
 								"其他角色创建选项。{@charoption Anvilwrought}默认为MOT，{@charoption Hollow One|EGW}可以用管道添加来源，{@charoption Hollow One|EGW|and optional link text added with another pipe}。",
-								"食谱。{@recipe Elven Bread}默认为英雄盛宴，{@recipe Elven Bread|HF}可以用管道添加来源，{@recipe Elven Bread|HF|and optional link text added with another pipe}。",
+								"Recipes: {@recipe Elven Bread} assumes Heroes' Feast by default, {@recipe Barovian Garlic Bread|HFFotM} can have sources added with a pipe, {@recipe Barovian Garlic Bread|HFFotM|and optional link text added with another pipe}.",
 								"牌组：{@deck Deck of Many Things}默认为DMG，{@deck Deck of Many Things|DMG}可以用管道添加来源，{@deck Deck of Many Things|DMG|and optional link text added with another pipe}。",
 								"卡片：{@card Vizier|Deck of Many Things}默认为DMG，{@card Vizier|Deck of Many Things|DMG}可以用管道添加来源，{@card Vizier|Deck of Many Things|DMG|and optional link text added with another pipe}。"
 							]
@@ -73,10 +73,10 @@
 							"type": "inset",
 							"name": "Filter Tag",
 							"entries": [
-								"另一个偶尔出现在数据中的标签是@filter标签。这个标签的使用可能很棘手，而且通常依赖于对每个页面内部的了解。因此，请谨慎使用，如果你对某件事情不确定，不要害怕到我们的{@link Discord|https://discord.gg/5etools}来问问题。请注意，你可以在列表页上CTRL+点击 \"获取过滤器的链接\"（magnet）按钮，为你当前选择的过滤器复制@过滤器标签。",
+								"Another tag that appears occasionally in the data is the @filter tag. This tag can be tricky to use, and generally relies on knowledge of the internals of each page. As such, use with caution, and if you're not sure about something, don't be afraid to drop by our {@link Discord|https://discord.gg/5etools} and ask questions. Note that you can {@kbd CTRL}+click the \"Get link to filters\" (magnet) button on a list page to copy the @filter tag for your current filter selection.",
 								"@filter标签的语法如下。",
 								"(打开大括号)@filter display text|page_without_file_extension|filter_name_1=filter_1_value_1;filter_1_value_2;...filter_1_value_n|...|filter_name_m=filter_m_value_1;filter_m_value_2;... (关闭大括号)",
-								"这个标签的目的是打开给定的页面，用指定的过滤选项进行预过滤。有一个主要的注意事项，使得有抱负的JSONtranauts使用起来很棘手--过滤值使用{@i internal}版本，就像你在数据中发现的那样。因此，例如，.|school=D|...会将法术过滤为占卜学校的法术，因为'D'是数据中的占卜标识。试图这样做，例如...|school=Divination|...，是行不通的。",
+								"这个标签的目的是打开给定的页面，用指定的过滤选项进行预过滤。有一个主要的注意事项，使得有抱负的JSONtranauts使用起来很棘手--过滤值使用{@i internal}版本，就像你在数据中发现的那样。因此，例如，.|school=D|...会将法术过滤为占卜学校的法术，因为'D'是数据中的占卜标识。试图这样做，例如 ...|school=Divination|...，是行不通的。",
 								"这里的'filter_name_X'与下拉菜单中显示的过滤器的字面文本名称相匹配。",
 								"该标签在行动中的一些例子。",
 								"{@filter Races that have a bonus to Intelligence|races|Ability Scores (Including Subrace)=Intelligence +any}",
@@ -247,7 +247,7 @@
 					],
 					"colStyles": [
 						"col-6 text-center",
-						"col-4-5 text-right ",
+						"col-4-5 text-right",
 						"col-1-5"
 					],
 					"rows": [
@@ -266,7 +266,7 @@
 								"type": "list",
 								"items": [
 									"嵌套条目（一般）也可以。",
-									"尽管我不明白为什么你要把清单放在一个表格里。"
+									"Although layout may start to deteriorate with more exotic nesting."
 								]
 							},
 							"{@spell bless||Spells, on the other hand, make sense.}",
@@ -451,11 +451,10 @@
 							"type": "item",
 							"name": "Multiple entry version",
 							"entries": [
-								"这也是专门为XGE的复杂陷阱所要求的，这些陷阱可能有多行文字；由于其庞大和复杂的性质，人们不得不推测。",
-								"说到行，这一行非常长（就像上面那行一样，为了把它垫到一个合适的字数，特意塞满了多余的信息），希望能证明必须把一个段落包进柱子里的效果，它应该只缩进该段的第一行。当然，如果你在一个宽得吓人的显示器上看这篇文章，这将没有什么影响，所以如果你在未来，10k显示器是标准的，那么恭喜你。否则，像我们其余的平民一样，你应该看到所需的布局。",
-								"对于大多数用途来说，单次输入版本是首选。",
-								"这里还有一个很长的上行句子，只是为了真正强调{@s drugs}过多文字的影响，我相信我的英语老师会有一些意见；幸运的是，他们不怎么喜欢龙与地下城，甚至一般的幻想（不用说，他们对我青少年时期的绝大多数文学兴趣顶多是矛盾的；至少，就像英语老师对一个喜欢阅读并且会自愿选择阅读的学生那样）。",
-								"我到底写了什么"
+								"This was, again, required specifically for XGE's complex traps, which can have multiple lines of text, often long enough to wrap into multiple rows in the same column. For example:",
+								"Either portal can be neutralized with three successful DC 20 Intelligence ({@skill Arcana}) checks, but the process of analyzing a portal to disrupt it takes time. Faint runes in the ceiling and floor at both ends of the hallway are involved in the functioning of the portals. A creature must first use an action to examine a set of runes, then use a subsequent action to attempt to vandalize the runes. Each successful check reduces the sphere's damage by 11 ({@dice 2d10}), as the disrupted sphere loses speed moving through the failing portal.",
+								"Alternatively, a set of runes can be disabled with three successful castings of {@spell dispel magic} (DC 19) targeting any of the runes in the set.",
+								"If the southern portal is destroyed, the sphere slams into the south wall and comes to a halt. It blocks the door to the tomb, but the characters can escape."
 							]
 						}
 					]
@@ -601,7 +600,7 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "blank.png"
+						"path": "blank.webp"
 					},
 					"title": "Optional Title",
 					"credit": "Optional credit"
@@ -741,6 +740,7 @@
 								"spellcasting": [
 									{
 										"name": "Innate Spellcasting",
+										"type": "spellcasting",
 										"headerEntries": [
 											"The unicorn's innate spellcasting ability is Charisma (spell save {@dc 14}). The unicorn can innately cast the following spells, requiring no components:"
 										],

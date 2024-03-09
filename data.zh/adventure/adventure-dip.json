@@ -10,10 +10,11 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/DIP/000-rta-01.png"
+						"path": "adventure/DIP/000-rta-01.webp"
 					},
 					"width": 1572,
-					"height": 1000
+					"height": 1000,
+					"credit": "Claudio Pozas"
 				},
 				"本书是为地下城管理员编写的。它包含一个完整的龙与地下城冒险，以及冒险中出现的每一种生物的描述。它还教你如何运行一个D&D游戏。",
 				"The other book that accompanies this one (called \"{@book the rulebook|PHB}\") contains the information the players need to create and advance their characters (the adventurers and heroes of the story), as well as the rules you need to adjudicate situations that arise during the adventure.",
@@ -23,7 +24,7 @@
 					"page": 2,
 					"id": "001",
 					"entries": [
-						"A D&D adventure is a collection of locations, quests, and challenges that inspires you to tell a story. The outcome of that story is determined by the actions and decisions of the adventurers\u2014and, of course, the luck of the dice. You can run {@i Dragon of Icespire Peak} for as few as one player or as many as five players. Each player starts with a 1st-level character.",
+						"A D&D adventure is a collection of locations, quests, and challenges that inspires you to tell a story. The outcome of that story is determined by the actions and decisions of the adventurers—and, of course, the luck of the dice. You can run {@i Dragon of Icespire Peak} for as few as one player or as many as five players. Each player starts with a 1st-level character.",
 						"这场冒险的背景是离永夜城不远的被遗忘国度背景中的剑海岸地区。剑海岸是北方的一部分--一个由自由定居点组成的广阔领域，周围是无法无天的荒野。你不需要成为被遗忘的领域的专家来运行这个冒险，因为你需要知道的关于这个设定的一切都包含在这本书中。",
 						"如果这是你第一次进行D&D冒险，请阅读 \"地下城主的角色 \"部分。",
 						{
@@ -127,13 +128,13 @@
 									"id": "00b",
 									"entries": [
 										"盒子里有以下卡片。",
-										"{@b Combat Step by Step Cards}. 这些相同的卡片概述了战斗的顺序，如规则手册中所述。",
-										"{@b Condition Cards}. 这些卡片描述了游戏中可能影响生物的各种状况。角色受到某种状况影响的玩家可以保留这张卡作为提醒，当该角色的状况结束时再把它还给你。",
-										"{@b Initiative Cards}. 在参与战斗的角色和每组怪物掷出主动权后，将这些卡片在战斗参与者之间分配，从最高到最低的主动权计数。例如，谁掷出的主动权最高，谁就得到 \"1 \"牌并首先行动，谁掷出的主动权第二高，谁就得到 \"2 \"牌，以此类推。为你正在运行的生物保留编号的卡片。",
-										"{@b Magic Charm Card}. This card describes a special charm (see \"{@area Charm of the Storm|194|x}.\" You become charged with the power of the storm, to the extent that tiny sparks crackle in your eyes. You can cast the {@spell lightning bolt} spell (3rd-level version) as an action. Once used three times, the charm vanishes from you.). Give the card to the player whose character receives the charm. Collect the card when the charm ends for that character.",
-										"{@b Magic Item Cards}. 当角色获得一个魔法物品并识别它时，给玩家该物品的卡片。让拥有该物品的玩家保留该卡片作为参考，直到该物品被消耗或不再由该角色拥有。",
-										"{@b Quest Cards}. 当一个新的任务对人物可用时，将该任务的卡片交给玩家。如果角色们完成了任务或决定不想完成任务，就收集卡片。",
-										"{@b Sidekick Cards}. 如果你是为单个玩家进行游戏，给玩家这些牌，让他们选择一个伙伴。伙伴的相应状态块可以在规则手册中找到。如果这个伙伴死了，就把牌收起来；玩家就不能再选择这个伙伴了。",
+										"{@deck Combat Step by Step Cards|ESK}. These identical cards outline the order of combat, as described in the rulebook.",
+										"{@deck Condition Cards|ESK}. These cards describe various conditions that can affect creatures in the game. A player whose character is suffering from a condition can keep the card as a reminder, giving it back to you when the condition ends for that character.",
+										"{@deck Initiative Cards|ESK}. After the characters and each group of monsters involved in a combat roll initiative, distribute these cards among the combat participants, from the highest to lowest initiative count. For example, whoever rolls the highest initiative gets the \"1\" card and acts first, whoever rolls the second highest initiative gets the \"2\" card, and so on. Keep the numbered cards for the creatures you're running.",
+										"{@deck Magic Charm Cards|DIP|Magic Charm Card}. This card describes a special charm (see \"{@area Charm of the Storm|194|x}.\" You become charged with the power of the storm, to the extent that tiny sparks crackle in your eyes. You can cast the {@spell lightning bolt} spell (3rd-level version) as an action. Once used three times, the charm vanishes from you.). Give the card to the player whose character receives the charm. Collect the card when the charm ends for that character.",
+										"{@deck Magic Item Cards|DIP}. When the characters acquire a magic item and identify it, give the players the card for that item. Let the player whose character has the item keep the card for reference until the item is expended or no longer in that character's possession.",
+										"{@deck Quest Cards|DIP}. When a new quest becomes available to the characters, give that quest's card to the players. Collect the card if the characters complete the quest or decide they don't want to complete it.",
+										"{@deck Sidekick Cards|DIP}. If you're running the game for a single player, give the player these cards and let them choose a sidekick. The sidekick's corresponding stat block can be found in the rulebook. If the sidekick dies, collect the card; the player can't choose that sidekick again.",
 										{
 											"type": "inset",
 											"name": "Adventure Maps",
@@ -174,7 +175,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/001-map-sc.jpg"
+												"path": "adventure/DIP/001-map-sc.webp"
 											},
 											"title": "Map: The Sword Coast",
 											"width": 2105,
@@ -187,13 +188,14 @@
 												"offsetY": -80,
 												"units": "miles"
 											},
-											"id": "25b"
+											"id": "25b",
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/002-map-sword-coast-pc.jpg"
+												"path": "adventure/DIP/002-map-sword-coast-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2153,
@@ -209,7 +211,8 @@
 											"mapParent": {
 												"id": "25b",
 												"autoScale": true
-											}
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								},
@@ -411,7 +414,7 @@
 							"page": 6,
 							"id": "01f",
 							"entries": [
-								"如果你是为一个玩家进行这个冒险，你可以给这个玩家一个副手作为次要角色。让玩家从副角卡的选择中选择一个预先生成的副角。副角的规则和状态块出现在规则手册中。你可能需要在最初的几节课上帮助玩家管理这个副角。如果跟班丢失或不再需要，角色可以返回范达林并获得一个新的跟班。",
+								"If you're running this adventure for a single player, you can give that player a sidekick as a secondary character. Let the player choose one of the pregenerated sidekicks from the selection of {@deck Sidekick Cards|DIP}. Rules and stat blocks for sidekicks appear in the rulebook. You might need to help the player run the sidekick for the first few sessions. If a sidekick is lost or no longer needed, the character can return to Phandalin and acquire a new one.",
 								{
 									"type": "entries",
 									"name": "Using Sidekicks",
@@ -496,10 +499,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/003-rta-02.png"
+										"path": "adventure/DIP/003-rta-02.webp"
 									},
 									"width": 1448,
-									"height": 1000
+									"height": 1000,
+									"credit": "Craig J Spearing"
 								}
 							]
 						}
@@ -520,7 +524,7 @@
 							"id": "029",
 							"entries": [
 								"在更强大的龙的驱使下，一个名为Cryovain的{@creature young white dragon}从更北的地方来到了剑山，将这片白雪皑皑的山脉作为自己的领域。作为其同类的典型代表，Cryovain智力低下，而且很残忍。这条龙在冰火峰周围的天空中巡逻，一边监视它的领地，一边猎取食物和容易得到的财宝。随着时间的推移，这条龙的领地越来越大，它的活动范围也越来越广，它可以用爪子抓取任何东西，也可以用冰冷的气息将其冻死。龙的踪迹越来越多，它的攻击也越来越普遍。",
-								"A crumbling fortress on the northeast spur of Icespire Peak serves as the dragon's lair. Cryovain seized the icy fortress from a tribe of savage {@creature Orc||orcs}, killing the orc war chief and forcing the tribe's survivors to flee into the foothills and forests. Enraged by the death of their war chief, the orcs have called upon ancient allies\u2014evil, shapechanging, half-orc spellcasters who bless and advise them. These half-orcs worship Talos, an evil god of storms, and many dwell in the dark depths of Neverwinter Wood. In stormy weather, they gather on remote hilltops to summon {@creature Gorthok the Thunder Boar|DIP}, a primal entity that serves Talos. Like the god it serves, Gorthok delights in destruction.",
+								"A crumbling fortress on the northeast spur of Icespire Peak serves as the dragon's lair. Cryovain seized the icy fortress from a tribe of savage {@creature Orc||orcs}, killing the orc war chief and forcing the tribe's survivors to flee into the foothills and forests. Enraged by the death of their war chief, the orcs have called upon ancient allies—evil, shapechanging, half-orc spellcasters who bless and advise them. These half-orcs worship Talos, an evil god of storms, and many dwell in the dark depths of Neverwinter Wood. In stormy weather, they gather on remote hilltops to summon {@creature Gorthok the Thunder Boar|DIP}, a primal entity that serves Talos. Like the god it serves, Gorthok delights in destruction.",
 								"The orcs aren't the only creatures thrown into upheaval by Cryovain's sudden arrival. A {@creature manticore} driven from its mountaintop nest by the roaming white dragon has migrated to the foothills and begun terrorizing folk living on the outskirts of the mining town of Phandalin. Other monsters in the region have been similarly displaced."
 							]
 						},
@@ -559,7 +563,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/004-map-phandalin.jpg"
+												"path": "adventure/DIP/004-map-phandalin.webp"
 											},
 											"title": "Map: Phandalin",
 											"width": 2550,
@@ -783,13 +787,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/004-map-phandalin.webp"
-											}
+											},
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/005-map-phandalin-pc.jpg"
+												"path": "adventure/DIP/005-map-phandalin-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 3000,
@@ -803,7 +808,8 @@
 											"mapParent": {
 												"id": "25c",
 												"autoScale": true
-											}
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								},
@@ -934,7 +940,7 @@
 							"page": 10,
 							"id": "036",
 							"entries": [
-								"The job board outside the townmaster's hall is where adventurers can learn about quests. Each quest is printed on a card, which you can give to the players when that quest becomes available (see \"{@area Starting Quests|03a|x}\" and \"{@area Follow-Up Quests|03b|x}\" below). Let the players choose which quest to complete first, second, third, and so on. If the players don't like a particular quest, they are under no obligation to complete it. However, completing quests helps the characters become more powerful (see \"{@area Leveling Up|03c|x}\").",
+								"The job board outside the townmaster's hall is where adventurers can learn about quests. Each quest is {@deck quest cards|DIP|printed on a card}, which you can give to the players when that quest becomes available (see \"{@area Starting Quests|03a|x}\" and \"{@area Follow-Up Quests|03b|x}\" below). Let the players choose which quest to complete first, second, third, and so on. If the players don't like a particular quest, they are under no obligation to complete it. However, completing quests helps the characters become more powerful (see \"{@area Leveling Up|03c|x}\").",
 								{
 									"type": "entries",
 									"name": "Harbin Wester, Quest Giver",
@@ -971,12 +977,12 @@
 									"page": 10,
 									"id": "03a",
 									"entries": [
-										"当角色们第一次访问求职板时，有三个任务发布。把这些任务的卡片给玩家，让他们选择要做的任务。",
+										"When the characters first visit the job board, there are three quests posted. Give the players the {@deck quest cards|DIP|cards for these quests} so that they can choose which to pursue.",
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/006-rta-03.png"
+												"path": "adventure/DIP/006-rta-03.webp"
 											},
 											"width": 849,
 											"height": 1000
@@ -1268,7 +1274,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/007-map-axeholm-dm.jpg"
+												"path": "adventure/DIP/007-map-axeholm-dm.webp"
 											},
 											"title": "Map: Axeholm",
 											"width": 2888,
@@ -4809,13 +4815,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/007-map-axeholm-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/008-map-axeholm-pc.jpg"
+												"path": "adventure/DIP/008-map-axeholm-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -4830,7 +4837,8 @@
 											},
 											"mapParent": {
 												"id": "25d"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -5045,7 +5053,7 @@
 													"type": "list",
 													"items": [
 														"A platinum amulet on a thin but sturdy gold chain. This amulet is a holy symbol of Moradin (the dwarven god of creation) and bears his symbol: a hammer and anvil. Any dwarf character recognizes the symbol immediately, while a non-dwarf recognizes it with a successful DC 10 Intelligence ({@skill Religion}) check.",
-														"An unlocked steel coffer weighing 5 pounds. This small box is packed with silt, nestled in which is a {@item potion of superior healing}. Give the players the {@item Potion of Superior Healing} card when they find this magic item or they can reference it in the {@5etools Magic Items Listing|items.html}."
+														"An unlocked steel coffer weighing 5 pounds. This small box is packed with silt, nestled in which is a {@item potion of superior healing}. Give the players the {@item Potion of Superior Healing} {@card potion of superior healing|Magic Item Cards|DIP|card} when they find this magic item or they can reference it in the {@5etools Magic Items Listing|items.html}."
 													]
 												}
 											]
@@ -5124,7 +5132,7 @@
 									"page": 15,
 									"id": "06b",
 									"entries": [
-										"Several {@creature Ghoul||ghouls} gather here\u2014a total of two ghouls plus one additional ghoul for each member of the party, not including sidekicks. The ghouls enter and leave the room through a 2-foot-diameter hole in the east wall, which breaks into the chimney of {@area area A14|05a|x}.",
+										"Several {@creature Ghoul||ghouls} gather here—a total of two ghouls plus one additional ghoul for each member of the party, not including sidekicks. The ghouls enter and leave the room through a 2-foot-diameter hole in the east wall, which breaks into the chimney of {@area area A14|05a|x}.",
 										"在这个房间的中央矗立着一个雕刻的石盆，里面装满了被啃食的矮人骨头。浴缸里有一个水龙头，转动后会喷出从自然加热的地下泉水中引来的热水。一个石塞封住了浴缸底部的排水口。"
 									]
 								},
@@ -5168,7 +5176,7 @@
 											"page": 15,
 											"id": "070",
 											"entries": [
-												"The chest contains a {@item dread helm|XGE} and a pair of {@item gauntlets of ogre power}. Give the players the {@item Dread Helm|XGE} and {@item Gauntlets of Ogre Power} cards when they find and identify these two magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"The chest contains a {@item dread helm|XGE} and a pair of {@item gauntlets of ogre power}. Give the players the {@item Dread Helm|XGE} and {@item Gauntlets of Ogre Power} {@deck magic item cards|DIP|cards} when they find and identify these two magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -5272,7 +5280,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/009-map-br-dm.jpg"
+										"path": "adventure/DIP/009-map-br-dm.webp"
 									},
 									"title": "Map: Butterskull Ranch",
 									"width": 2888,
@@ -5663,13 +5671,14 @@
 									"hrefThumbnail": {
 										"type": "internal",
 										"path": "adventure/DIP/thumbnail/009-map-br-dm.webp"
-									}
+									},
+									"credit": "Jason A. Engle"
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/010-map-br-pc.jpg"
+										"path": "adventure/DIP/010-map-br-pc.webp"
 									},
 									"title": "Player Version",
 									"width": 2888,
@@ -5684,7 +5693,8 @@
 									},
 									"mapParent": {
 										"id": "25e"
-									}
+									},
+									"credit": "Jason A. Engle"
 								}
 							]
 						},
@@ -5754,7 +5764,7 @@
 											"page": 17,
 											"id": "082",
 											"entries": [
-												"任何搜索衣柜并成功通过DC15智慧（{@skill Perception}）检查的角色都会在底部发现一个秘密的隔间，里面塞着一副{@item mithral chain mail}。(如果人物获得并识别了这个魔法物品，请给他们{@item Mithral Chain Mail}的卡片，或者他们可以在{@5etools Magic Items Listing|items.html}中参考。)"
+												"Any character who searches the wardrobe and succeeds on a DC 15 Wisdom ({@skill Perception}) check finds a secret compartment at the bottom, stuffed inside which is a suit of {@item mithral chain mail}. (If the characters acquire and identify this magic item, give them the {@item Mithral Chain Mail} {@card Mithral Chain Mail|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}.)"
 											]
 										}
 									]
@@ -5951,7 +5961,7 @@
 											"page": 18,
 											"id": "098",
 											"entries": [
-												"Yargath携带了一个{@item potion of greater healing}。如果角色获得了这种药水，请给玩家{@item Potion of Greater Healing}的卡片，或者他们可以在{@5etools Magic Items Listing|items.html}中引用它。"
+												"Yargath carries a {@item potion of greater healing}. If the characters acquire this potion, give the players the {@item Potion of Greater Healing} {@card potion of greater healing|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -5989,7 +5999,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/011-map-cot-dm.jpg"
+												"path": "adventure/DIP/011-map-cot-dm.webp"
 											},
 											"title": "Map: Circle of Thunder",
 											"width": 2888,
@@ -6830,13 +6840,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/011-map-cot-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/012-map-cot-pc.jpg"
+												"path": "adventure/DIP/012-map-cot-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -6851,7 +6862,8 @@
 											},
 											"mapParent": {
 												"id": "25f"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -6862,7 +6874,7 @@
 									"id": "09c",
 									"entries": [
 										"在山顶上有一圈8个直立的石头结构，每个都是由两块10英尺高的垂直石板组成，间隔5英尺，上面有一块3英尺厚的平门楣石。这些立柱可以被综合力量达到80分以上的生物所推翻。",
-										"In the middle of the circle, two humanoid figures dance around a deer carcass, each wearing the rotting head of a boar as a mask. These foes are Flenz and Narux, two {@creature Anchorite of Talos|DIP|anchorites of Talos}. They are joined by frolicking {@creature Twig Blight||twig blights}\u2014two blights for each character in the party, including sidekicks. Flenz and Narux are either performing a ritual to summon {@creature Gorthok the Thunder Boar|DIP}, or they are making a sacrifice to appease Talos and call forth a storm. If the characters have not yet defeated Gorthok, the boar arrives once both anchorites are dead, appearing out of nowhere in the middle of the circle with a thunderclap. Gorthok fights to the death.",
+										"In the middle of the circle, two humanoid figures dance around a deer carcass, each wearing the rotting head of a boar as a mask. These foes are Flenz and Narux, two {@creature Anchorite of Talos|DIP|anchorites of Talos}. They are joined by frolicking {@creature Twig Blight||twig blights}—two blights for each character in the party, including sidekicks. Flenz and Narux are either performing a ritual to summon {@creature Gorthok the Thunder Boar|DIP}, or they are making a sacrifice to appease Talos and call forth a storm. If the characters have not yet defeated Gorthok, the boar arrives once both anchorites are dead, appearing out of nowhere in the middle of the circle with a thunderclap. Gorthok fights to the death.",
 										{
 											"type": "entries",
 											"name": "Secret Trapdoors",
@@ -6887,7 +6899,7 @@
 											"page": 19,
 											"id": "09f",
 											"entries": [
-												"Flenz hides a {@item potion of invulnerability} in his quarters, buried in a random square beneath the floor. If the characters obtain the potion, give the players the {@item Potion of Invulnerability} card or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Flenz hides a {@item potion of invulnerability} in his quarters, buried in a random square beneath the floor. If the characters obtain the potion, give the players the {@item Potion of Invulnerability} {@card potion of invulnerability|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -6905,7 +6917,7 @@
 											"page": 19,
 											"id": "0a1",
 											"entries": [
-												"Narux在他的宿舍里藏了一个{@item +1 shield}，埋在地板下面。如果角色获得并识别了它，就给玩家{@item +1 Shield}的卡片，或者他们可以在{@5etools Magic Items Listing|items.html}中参考它。"
+												"Narux hides a {@item +1 shield} in his quarters, buried beneath the floor. If the characters obtain and identify it, give the players the {@item +1 Shield} {@card +1 Shield|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -7051,7 +7063,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/013-map-db-dm.jpg"
+												"path": "adventure/DIP/013-map-db-dm.webp"
 											},
 											"title": "Map: Dragon Barrow",
 											"width": 2888,
@@ -8143,13 +8155,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/013-map-db-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/014-map-db-pc.jpg"
+												"path": "adventure/DIP/014-map-db-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -8164,7 +8177,8 @@
 											},
 											"mapParent": {
 												"id": "260"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -8236,7 +8250,7 @@
 											"page": 21,
 											"id": "0b7",
 											"entries": [
-												"The northwest sarcophagus contains the dead bard, who was buried with a {@item Instrument of Illusions|XGE|lute of illusions}. Sealed with the dead wizard in the southeast sarcophagus is a {@item necklace of fireballs}. If the characters acquire and identify these magic items, give them the {@item Instrument of Illusions|XGE|Lute of Illusions} and {@item Necklace of Fireballs} cards or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"The northwest sarcophagus contains the dead bard, who was buried with a {@item Instrument of Illusions|XGE|lute of illusions}. Sealed with the dead wizard in the southeast sarcophagus is a {@item necklace of fireballs}. If the characters acquire and identify these magic items, give them the {@item Instrument of Illusions|XGE|Lute of Illusions} and {@item Necklace of Fireballs} {@deck magic item cards|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -8254,7 +8268,7 @@
 											"page": 21,
 											"id": "0b9",
 											"entries": [
-												"The sword is Lady Alagondar's {@item Dragon Slayer Longsword||dragon slayer}. Give the {@item Dragon Slayer Longsword||Dragon Slayer} card to whoever takes it or they can reference it in the {@5etools Magic Items Listing|items.html}. If the sword is taken, an {@creature invisible stalker} appears and attacks anyone in this area until the sword is put back, or until that guardian is destroyed."
+												"The sword is Lady Alagondar's {@item Dragon Slayer Longsword||dragon slayer}. Give the {@item Dragon Slayer Longsword||Dragon Slayer} {@card dragon slayer|Magic Item Cards|DIP|card} to whoever takes it or they can reference it in the {@5etools Magic Items Listing|items.html}. If the sword is taken, an {@creature invisible stalker} appears and attacks anyone in this area until the sword is put back, or until that guardian is destroyed."
 											]
 										}
 									]
@@ -8320,7 +8334,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/015-map-de-dm.jpg"
+												"path": "adventure/DIP/015-map-de-dm.webp"
 											},
 											"title": "Map: Dwarven Excavation",
 											"width": 2888,
@@ -9506,13 +9520,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/015-map-de-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/016-map-de-pc.jpg"
+												"path": "adventure/DIP/016-map-de-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -9527,7 +9542,8 @@
 											},
 											"mapParent": {
 												"id": "261"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -9565,7 +9581,7 @@
 											]
 										},
 										"If they haven't been encountered yet, Dazlyn and Norbus are eating rations behind the easternmost rubble pile while keeping an eye on the temple entrance ({@area area E4|0c9|x}). Each is a shield dwarf {@creature commoner} who speaks Common and Dwarvish, and who has {@sense darkvision} out to a range of 60 feet. Dazlyn is forthright and honest to a fault. Norbus is gruff and excessively cautious. They banter like an old married couple.",
-										"Each dwarf has ten days of {@item Rations (1 day)|PHB|rations}, a {@item waterskin|PHB}, mining tools, and one of two matching {@item sending stones}. The dwarves offer these magic items to anyone willing to kill the {@creature Ochre Jelly||ochre jellies} in {@area area E5|0ca|x}, search the temple for other obvious threats, and make it safe. If the characters obtain these stones, give the players both {@item Sending Stones||Sending Stone} cards or they can reference them in the {@5etools Magic Items Listing|items.html}. Eager to resume their excavation, the dwarves offer to split what they find with characters who help them.",
+										"Each dwarf has ten days of {@item Rations (1 day)|PHB|rations}, a {@item waterskin|PHB}, mining tools, and one of two matching {@item sending stones}. The dwarves offer these magic items to anyone willing to kill the {@creature Ochre Jelly||ochre jellies} in {@area area E5|0ca|x}, search the temple for other obvious threats, and make it safe. If the characters obtain these stones, give the players both {@item Sending Stones||Sending Stone} {@card sending stone|Magic Item Cards|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}. Eager to resume their excavation, the dwarves offer to split what they find with characters who help them.",
 										{
 											"type": "inset",
 											"name": "Temple Features",
@@ -9775,7 +9791,7 @@
 									"page": 24,
 									"id": "0d9",
 									"entries": [
-										"如果角色有资格进行{@area Woodland Manse Quest|03b|x}，Falcon提供一双{@item boots of elvenkind}作为完成它的奖励。一旦获得靴子，就给玩家{@item Boots of Elvenkind}卡，或者他们可以在{@5etools Magic Items Listing|items.html}中参考。",
+										"If the characters are eligible to undertake the {@area Woodland Manse Quest|03b|x}, Falcon offers a pair of {@item boots of elvenkind} as a reward for completing it. Give the players the {@item Boots of Elvenkind} {@card Boots of Elvenkind|Magic Item Cards|DIP|card} once the boots are acquired or they can reference them in the {@5etools Magic Items Listing|items.html}.",
 										"猎鹰礼貌地拒绝了任何与人物一起探险的提议，他说他必须留在小屋，以防永夜城的贵族们来找他的服务。",
 										{
 											"type": "inset",
@@ -9849,7 +9865,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/017-map-fhl-dm.jpg"
+												"path": "adventure/DIP/017-map-fhl-dm.webp"
 											},
 											"title": "Falcon's Hunting Lodge",
 											"width": 2888,
@@ -10370,13 +10386,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/017-map-fhl-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/018-map-fhl-pc.jpg"
+												"path": "adventure/DIP/018-map-fhl-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -10391,7 +10408,8 @@
 											},
 											"mapParent": {
 												"id": "262"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -10619,7 +10637,7 @@
 									"page": 26,
 									"id": "0f9",
 									"entries": [
-										"如果人物救出格纳克利并结束了科尔博兹的疯狂，感激的地精们会给他们一个{@item clockwork amulet|XGE}和{@item pole of collapsing|XGE}（来自{@area area G13|10f|x}）。角色们还从每个国王那里得到一份礼物：格纳克利的{@item wand of pyrotechnics|XGE}和科尔博兹的{@item hat of wizardry|XGE}。当角色获得并识别每件物品时，将{@item Clockwork Amulet|XGE}、{@item Hat of Wizardry|XGE}、{@item Pole of Collapsing|XGE}和{@item Wand of Pyrotechnics|XGE}卡片交给玩家，或者他们可以在{@5etools Magic Items Listing|items.html}中参考这些卡片。"
+										"If the characters rescue Gnerkli and end Korboz's madness, the grateful gnomes give them a {@item clockwork amulet|XGE} and {@item pole of collapsing|XGE} (from {@area area G13|10f|x}). The characters also receive a gift from each king: a {@item wand of pyrotechnics|XGE} from Gnerkli and a {@item hat of wizardry|XGE} from Korboz. Give the players the {@item Clockwork Amulet|XGE}, {@item Hat of Wizardry|XGE}, {@item Pole of Collapsing|XGE}, and {@item Wand of Pyrotechnics|XGE} {@deck magic item cards|DIP|cards} as their characters obtain and identify each item or they can reference them in the {@5etools Magic Items Listing|items.html}."
 									]
 								}
 							]
@@ -10678,23 +10696,23 @@
 									],
 									"rows": [
 										[
-											"1\u20136",
+											"1–6",
 											"None"
 										],
 										[
-											"7\u201310",
+											"7–10",
 											"施法者的皮肤会变成一种鲜艳的蓝色。"
 										],
 										[
-											"11\u201314",
+											"11–14",
 											"微小的、无实体的光斑围绕着施法者，在10英尺范围内发出亮光，在另外10英尺范围内发出暗光。"
 										],
 										[
-											"15\u201317",
+											"15–17",
 											"施法者长出像蝴蝶一样的翅膀。翅膀使施法者的飞行速度达到30英尺。"
 										],
 										[
-											"18\u201319",
+											"18–19",
 											"施法者最多可以传送60英尺到DM选择的一个随机的无人空间。"
 										],
 										[
@@ -10723,7 +10741,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/019-map-gnomegarde-dm.jpg"
+												"path": "adventure/DIP/019-map-gnomegarde-dm.webp"
 											},
 											"title": "Map: Gnomengarde",
 											"width": 2888,
@@ -13273,13 +13291,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/019-map-gnomegarde-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/020-map-gnomegarde-pc.jpg"
+												"path": "adventure/DIP/020-map-gnomegarde-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -13294,7 +13313,8 @@
 											},
 											"mapParent": {
 												"id": "263"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -13459,7 +13479,7 @@
 									"page": 29,
 									"id": "10e",
 									"entries": [
-										"The floor of this cave is strewn with the remnants of old campfires. Four side caves serve as sleeping areas, with five small wooden cots crammed into each one. Eight {@creature Rock Gnome Recluse|DIP|rock gnome recluses} sleep soundly here when the characters first arrive, with two gnomes in each side cave\u2014Caramip, Jabby, Nyx, and Quippy (females), and Anverth, Delebean, Pallabar, and Zook (males). Characters can move through the area without waking the sleeping gnomes, who defend themselves if attacked but pose no danger otherwise. They avoid talking about the recent troubles, but advise visitors to speak with Fibblestib and Dabbledob (see {@area area G11|10c|x}), Gnomengarde's two most gifted rock gnome inventors."
+										"The floor of this cave is strewn with the remnants of old campfires. Four side caves serve as sleeping areas, with five small wooden cots crammed into each one. Eight {@creature Rock Gnome Recluse|DIP|rock gnome recluses} sleep soundly here when the characters first arrive, with two gnomes in each side cave—Caramip, Jabby, Nyx, and Quippy (females), and Anverth, Delebean, Pallabar, and Zook (males). Characters can move through the area without waking the sleeping gnomes, who defend themselves if attacked but pose no danger otherwise. They avoid talking about the recent troubles, but advise visitors to speak with Fibblestib and Dabbledob (see {@area area G11|10c|x}), Gnomengarde's two most gifted rock gnome inventors."
 									]
 								},
 								{
@@ -13475,7 +13495,7 @@
 											"page": 29,
 											"id": "110",
 											"entries": [
-												"在杂乱的环境中，人物可以找到一个{@item clockwork amulet|XGE}和一个{@item pole of collapsing|XGE}，用{@spell detect magic}法术扫描房间最容易。否则需要1小时才能找到每件物品。如果玩家的角色获得并识别了这些魔法物品，就给他们{@item Clockwork Amulet|XGE}和{@item Pole of Collapsing|XGE}牌，或者他们可以在{@5etools Magic Items Listing|items.html}中参考这些物品。"
+												"Amid the clutter, the characters can find a {@item clockwork amulet|XGE} and a {@item pole of collapsing|XGE}, most easily by scanning the room with a {@spell detect magic} spell. It otherwise takes 1 hour to find each item. Give the players the {@item Clockwork Amulet|XGE} and {@item Pole of Collapsing|XGE} {@deck magic item cards|DIP|cards} if their characters acquire and identify these magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -13503,7 +13523,7 @@
 											"page": 29,
 											"id": "113",
 											"entries": [
-												"A small unlocked chest under the gnomes' bed contains a {@item hat of wizardry|XGE} and a fully charged {@item wand of pyrotechnics|XGE}. Give the players the {@item Hat of Wizardry|XGE} and {@item Wand of Pyrotechnics|XGE} cards if their characters acquire and identify these magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"A small unlocked chest under the gnomes' bed contains a {@item hat of wizardry|XGE} and a fully charged {@item wand of pyrotechnics|XGE}. Give the players the {@item Hat of Wizardry|XGE} and {@item Wand of Pyrotechnics|XGE} {@deck Magic Item Cards|DIP|cards} if their characters acquire and identify these magic items or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -13631,7 +13651,7 @@
 											"page": 31,
 											"id": "121",
 											"entries": [
-												"如果角色的治疗魔法不足，他们会在食人魔的袋子里找到三张{@item Potion of Healing||potions of healing}以及上面的无价值物品。(给玩家三张{@item Potion of Healing||Potions of Healing}牌，或者他们可以在{@5etools Equipment Items Listing|items.html}中参考。)"
+												"If the characters are low on healing magic, they find three {@item Potion of Healing||potions of healing} in the ogre's sack along with the worthless items above. (Give the players three {@item Potion of Healing||Potions of Healing} {@card potion of healing|Magic Item Cards|DIP|cards} or they can reference them in the {@5etools Equipment Items Listing|items.html}.)"
 											]
 										}
 									]
@@ -13678,7 +13698,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/021-map-ih-dm.jpg"
+												"path": "adventure/DIP/021-map-ih-dm.webp"
 											},
 											"title": "Map: Icespire Hold",
 											"width": 2888,
@@ -16464,13 +16484,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/021-map-ih-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/022-map-ih-pc.jpg"
+												"path": "adventure/DIP/022-map-ih-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -16485,7 +16506,8 @@
 											},
 											"mapParent": {
 												"id": "264"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -16895,7 +16917,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/023-map-lc-dm.jpg"
+												"path": "adventure/DIP/023-map-lc-dm.webp"
 											},
 											"title": "Map: Logger's Camp",
 											"width": 2888,
@@ -17305,13 +17327,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/023-map-lc-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/024-map-lc-pc.jpg"
+												"path": "adventure/DIP/024-map-lc-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -17326,7 +17349,8 @@
 											},
 											"mapParent": {
 												"id": "265"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -17527,7 +17551,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/025-map-mtgm-dm.jpg"
+												"path": "adventure/DIP/025-map-mtgm-dm.webp"
 											},
 											"title": "Map: Mountain's Toe Gold Mine",
 											"width": 2888,
@@ -19538,13 +19562,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/025-map-mtgm-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/026-map-mtgm-pc.jpg"
+												"path": "adventure/DIP/026-map-mtgm-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -19559,7 +19584,8 @@
 											},
 											"mapParent": {
 												"id": "266"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -19604,7 +19630,7 @@
 											"page": 37,
 											"id": "168",
 											"entries": [
-												"Characters who search the cave find two sacks hidden under debris. One sack contains ten fist-sized chunks of gold ore worth 10 gp each. The other holds 82 sp, 450 cp, and a pair of {@item goggles of night}. If the characters obtain and identify the goggles, give the {@item Goggles of Night} card to the players or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Characters who search the cave find two sacks hidden under debris. One sack contains ten fist-sized chunks of gold ore worth 10 gp each. The other holds 82 sp, 450 cp, and a pair of {@item goggles of night}. If the characters obtain and identify the goggles, give the {@item Goggles of Night} {@card Goggles of Night|Magic Item Cards|DIP|card} to the players or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -19692,7 +19718,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "M14\u2013M15. Miners' Retreat",
+									"name": "M14–M15. Miners' Retreat",
 									"page": 37,
 									"id": "172",
 									"entries": [
@@ -19789,7 +19815,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/027-map-sos-dm.jpg"
+												"path": "adventure/DIP/027-map-sos-dm.webp"
 											},
 											"title": "Map: Shrine of Savras",
 											"width": 2888,
@@ -20422,13 +20448,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/027-map-sos-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/028-map-sos-pc.jpg"
+												"path": "adventure/DIP/028-map-sos-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -20443,7 +20470,8 @@
 											},
 											"mapParent": {
 												"id": "267"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -20558,7 +20586,7 @@
 											"page": 39,
 											"id": "185",
 											"entries": [
-												"任何搜索祭坛并成功通过DC10智慧({@skill Perception})检查的角色都会意识到，祭坛的底部并没有完全接触到地板。祭坛上有石滚子，可以向南推3英尺，露出一个未上锁的木棺，藏在地板上一个1英尺见方的空洞里。这个棺材里有57戈比和一个（1%）。如果人物获得并识别了{@item mystery key|XGE}，请给玩家{@item Mystery Key|XGE}卡，或者他们可以在{@5etools Magic Items Listing|items.html}中参考。"
+												"Any character who searches the altar and succeeds on a DC 10 Wisdom ({@skill Perception}) check realizes that the altar's base doesn't quite touch the floor. The altar has stone rollers built into it and can be pushed 3 feet to the south, revealing an unlocked wooden coffer tucked inside a 1-foot-square cavity in the floor. This coffer contains 57 gp and a {@item mystery key|XGE}. If the characters acquire and identify the {@item mystery key|XGE}, give the players the {@item Mystery Key|XGE} {@card Mystery Key|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -20583,7 +20611,7 @@
 					"page": 40,
 					"id": "187",
 					"entries": [
-						"The Tower of Storms is more than just a lighthouse\u2014it's a temple dedicated to Talos, the evil god of storms. Moesko, the half-orc {@creature Anchorite of Talos|DIP|anchorite} who guards the lighthouse, uses its pulsing beacon to draw ships to their doom, for the light acts as an irresistible lure to passing seafarers who sail too close to shore. The source of the beacon's eerie green light is Moesko's own heart, which was torn from his chest in a ritual. If the heart is destroyed, the beacon's light goes out.",
+						"The Tower of Storms is more than just a lighthouse—it's a temple dedicated to Talos, the evil god of storms. Moesko, the half-orc {@creature Anchorite of Talos|DIP|anchorite} who guards the lighthouse, uses its pulsing beacon to draw ships to their doom, for the light acts as an irresistible lure to passing seafarers who sail too close to shore. The source of the beacon's eerie green light is Moesko's own heart, which was torn from his chest in a ritual. If the heart is destroyed, the beacon's light goes out.",
 						"这座灯塔建在一块80英尺高的荒芜岩石之上。退潮时，一条狭窄的堤道从岸边延伸到这块突出的岩石上，使人们可以很容易地到达灯塔。这条堤道在低潮时高于海平面5英尺。涨潮时，堤道和沙滩被淹没在5英尺的水下。"
 					]
 				},
@@ -20649,7 +20677,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/029-map-tos-dm.jpg"
+												"path": "adventure/DIP/029-map-tos-dm.webp"
 											},
 											"title": "Map: Tower of Storms",
 											"width": 2888,
@@ -21775,13 +21803,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/029-map-tos-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/030-map-tos-pc.jpg"
+												"path": "adventure/DIP/030-map-tos-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -21796,7 +21825,8 @@
 											},
 											"mapParent": {
 												"id": "268"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -21851,7 +21881,7 @@
 											"page": 41,
 											"id": "193",
 											"entries": [
-												"屋顶上的避雷针({@area area T8|19a|x})将电力导入祭坛，将原始元素力量转化为魔法能量。第一个接触祭坛的角色获得风暴之符，如下所述。给该角色的玩家一张 \"风暴之符 \"牌。"
+												"The lightning rod on the roof ({@area area T8|19a|x}) channels electricity into the altar, which converts that raw elemental power into magical energy. The first character to touch the altar gains the {@reward Charm of the Storm|DIP}, described below. Give that character's player the {@card Charm of the Storm|Magic Charm Cards|DIP|Charm of the Storm card}."
 											]
 										},
 										{
@@ -21879,7 +21909,7 @@
 											"page": 41,
 											"id": "196",
 											"entries": [
-												"Characters who search through the harpies' nest find a {@item potion of water breathing}. If the characters acquire this potion, give them the {@item Potion of Water Breathing} card or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"Characters who search through the harpies' nest find a {@item potion of water breathing}. If the characters acquire this potion, give them the {@item Potion of Water Breathing} {@card potion of Water Breathing|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -21954,14 +21984,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "T10\u2013T14. Shipwrecks",
+									"name": "T10–T14. Shipwrecks",
 									"page": 42,
 									"id": "19e",
 									"entries": [
 										"这五艘船的船员在灯塔的邪恶之光迫使他们撞向岩石峭壁时丧生。鱼儿们把他们的骸骨捡得干干净净，这些骸骨散落在这些注定失败的船只中。三条鲨鱼在残骸上巡逻（见 \"探索残骸 \"侧边栏）。",
 										"The Shipwrecks table below gives the name of each ship and the treasure that can be found within it. A character can spend an action searching the inside of a shipwreck. As part of that action, the character makes a DC 15 Wisdom ({@skill Perception}) check, finding the ship's treasure on a success. Once a ship's treasure is found, nothing else of value can be retrieved from that wreck.",
 										"如果找到的物品是一个上了锁的箱子，角色可以用一个动作在残骸中寻找箱子的钥匙，在成功通过DC20智慧（{@skill Perception}）检查后找到它。反之，角色可以使用盗贼的工具，通过DC15的灵巧检定来撬开箱子的坚固的锁。",
-										"When a magic item is found and identified, give the players the corresponding magic item card or they can reference it in the {@5etools Magic Items Listing|items.html}. In the case of the {@item +1 weapon} in area T10, choose from among the weapons available ({@item +1 battleaxe}, {@item +1 longbow}, {@item +1 mace}, or {@item +1 shortsword}). Only one {@item +1 weapon} can be found, so choose a weapon with which at least one party member has proficiency.",
+										"When a magic item is found and identified, give the players the corresponding {@deck magic item cards|DIP|magic item card} or they can reference it in the {@5etools Magic Items Listing|items.html}. In the case of the {@item +1 weapon} in area T10, choose from among the weapons available ({@item +1 battleaxe}, {@item +1 longbow}, {@item +1 mace}, or {@item +1 shortsword}). Only one {@item +1 weapon} can be found, so choose a weapon with which at least one party member has proficiency.",
 										{
 											"type": "table",
 											"caption": "Shipwrecks",
@@ -22058,7 +22088,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/031-map-uh-dm.jpg"
+												"path": "adventure/DIP/031-map-uh-dm.webp"
 											},
 											"title": "Map: Umbrage Hill",
 											"width": 2888,
@@ -22282,13 +22312,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/031-map-uh-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/032-map-uh-pc.jpg"
+												"path": "adventure/DIP/032-map-uh-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -22303,7 +22334,8 @@
 											},
 											"mapParent": {
 												"id": "269"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -22327,7 +22359,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "U3\u2013U5. Stone Windmill",
+									"name": "U3–U5. Stone Windmill",
 									"page": 43,
 									"id": "1a6",
 									"entries": [
@@ -22338,7 +22370,7 @@
 											"page": 43,
 											"id": "1a7",
 											"entries": [
-												"阿达布拉出售{@item Potion of Healing||potions of healing}，售价50金币。给任何角色获得这些药水的玩家一张{@item Potion of Healing}卡，或者他们可以在{@5etools Magic Items Listing|items.html}中参考。如果你的卡片用完了，阿达布拉就没有药水可卖了。({@note There are six cards included with the physical product})."
+												"Adabra sells {@item Potion of Healing||potions of healing} for 50 gp. Give a {@item Potion of Healing} {@card potion of healing|Magic Item Cards|DIP|card} to any player whose character acquires one of these potions or they can reference it in the {@5etools Magic Items Listing|items.html}. If you run out of cards, Adabra has no potions left to sell. ({@note There are six cards included with the physical product})."
 											]
 										}
 									]
@@ -22459,7 +22491,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/033-map-wm-dm.jpg"
+												"path": "adventure/DIP/033-map-wm-dm.webp"
 											},
 											"title": "Map: Woodland Manse",
 											"width": 2888,
@@ -24255,13 +24287,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/DIP/thumbnail/033-map-wm-dm.webp"
-											}
+											},
+											"credit": "Jason A. Engle"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/DIP/034-map-wm-pc.jpg"
+												"path": "adventure/DIP/034-map-wm-pc.webp"
 											},
 											"title": "Player Version",
 											"width": 2888,
@@ -24276,7 +24309,8 @@
 											},
 											"mapParent": {
 												"id": "26a"
-											}
+											},
+											"credit": "Jason A. Engle"
 										}
 									]
 								},
@@ -24286,7 +24320,7 @@
 									"page": 44,
 									"id": "1b4",
 									"entries": [
-										"Nine boars graze in the pumpkin patches\u2014one per patch. Of these, six are actual {@creature Boar||boars}. The other three are {@creature Anchorite of Talos|DIP|anchorites of Talos} in boar form. The anchorites ignore the characters until they try to leave (see \"{@area Leaving the Manse|1d9|x}\"). If the characters attack a boar, it flees on its turn by darting into the nearby woods. If the characters attack an anchorite, all of the boars and anchorites retaliate. If you need to determine whether a boar is an anchorite or not, roll a {@dice d6}. On a 5 or 6, the boar is an anchorite in disguise.",
+										"Nine boars graze in the pumpkin patches—one per patch. Of these, six are actual {@creature Boar||boars}. The other three are {@creature Anchorite of Talos|DIP|anchorites of Talos} in boar form. The anchorites ignore the characters until they try to leave (see \"{@area Leaving the Manse|1d9|x}\"). If the characters attack a boar, it flees on its turn by darting into the nearby woods. If the characters attack an anchorite, all of the boars and anchorites retaliate. If you need to determine whether a boar is an anchorite or not, roll a {@dice d6}. On a 5 or 6, the boar is an anchorite in disguise.",
 										{
 											"type": "entries",
 											"name": "Pumpkins",
@@ -24409,7 +24443,7 @@
 											"id": "1c2",
 											"entries": [
 												"这口井有30英尺深，里面有一棵Gulthias树，它的根部深入地下。由于没有什么空间可以伸展，这棵树已经长成了一个畸形的扭曲木柱，其卷曲的树枝之间有狭窄的缝隙。",
-												"Hidden in the shaft are a number of {@creature Vine Blight||vine blights}\u2014one blight plus one additional blight for each member of the party, not including sidekicks (maximum five blights). The blights form a descending column, with the closest one 5 feet below the well's mouth. With their {@sense blindsight}, they can sense intruders in the courtyard. However, they emerge to attack only when they or the Gulthias tree take damage, or when Grannoc (see {@area area W10|1c6|x}) commands them to do so. Once the blights are out of the shaft, a Medium or smaller character can climb down it, slipping between the branches of the tree with ease (no ability check needed).",
+												"Hidden in the shaft are a number of {@creature Vine Blight||vine blights}—one blight plus one additional blight for each member of the party, not including sidekicks (maximum five blights). The blights form a descending column, with the closest one 5 feet below the well's mouth. With their {@sense blindsight}, they can sense intruders in the courtyard. However, they emerge to attack only when they or the Gulthias tree take damage, or when Grannoc (see {@area area W10|1c6|x}) commands them to do so. Once the blights are out of the shaft, a Medium or smaller character can climb down it, slipping between the branches of the tree with ease (no ability check needed).",
 												"古尔蒂亚斯树是一种巨大的植物，汁液为血。它有15点攻击力，250点命中率，易受火灾伤害，没有行动、反应或防御。像普通的树一样，它是不动的。然而，除非它被完全连根拔起，否则即使它的命中率降至0，它也会从根部重新生长，每24小时恢复1个命中率。",
 												"On any night when the moon is blood red, the Gulthias tree can spawn {@dice 2d6} {@creature Twig Blight||twig blights}, {@dice 1d6} {@creature Needle Blight||needle blights}, or {@dice 1d4} {@creature Vine Blight||vine blights}. These blights split from the tree and crawl out of the well, ready to do Grannoc's bidding."
 											]
@@ -24475,7 +24509,7 @@
 												"在闪电汇聚的地方，一个身穿皮甲的半兽人在吞食一只死去的负鼠的内脏时表演了一段阴森的舞蹈。站在半兽人周围的是几个小树枝人。"
 											]
 										},
-										"The half-orc, Grannoc, is an {@creature anchorite of Talos|DIP}. Under his command are a number of {@creature Twig Blight||twig blights}\u2014three blights for each character in the party, not including sidekicks. Characters who watch Grannoc without alerting or interrupting him can determine that he's performing a ritual with a successful DC 15 Intelligence ({@skill Religion}) check. Grannoc hopes Talos will answer his prayers and rain destruction down upon Falcon's Hunting Lodge. Any interruption by the characters spoils the ritual and incurs Grannoc's wrath.",
+										"The half-orc, Grannoc, is an {@creature anchorite of Talos|DIP}. Under his command are a number of {@creature Twig Blight||twig blights}—three blights for each character in the party, not including sidekicks. Characters who watch Grannoc without alerting or interrupting him can determine that he's performing a ritual with a successful DC 15 Intelligence ({@skill Religion}) check. Grannoc hopes Talos will answer his prayers and rain destruction down upon Falcon's Hunting Lodge. Any interruption by the characters spoils the ritual and incurs Grannoc's wrath.",
 										{
 											"type": "entries",
 											"name": "Map",
@@ -24516,7 +24550,7 @@
 											"page": 47,
 											"id": "1cd",
 											"entries": [
-												"The books found here are old texts written in Elvish that describe long-lost elven kingdoms and civilizations. They are too damaged to be worth anything. Additionally, one desk has a small book tucked under one of its back legs to level it off. The book is titled {@i Elvish Idioms}, and its pages have been cut out to conceal a tiny leather packet containing {@item dust of disappearance}. If the characters find the packet and identify the dust, give the players the {@item Dust of Disappearance} card or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"The books found here are old texts written in Elvish that describe long-lost elven kingdoms and civilizations. They are too damaged to be worth anything. Additionally, one desk has a small book tucked under one of its back legs to level it off. The book is titled {@i Elvish Idioms}, and its pages have been cut out to conceal a tiny leather packet containing {@item dust of disappearance}. If the characters find the packet and identify the dust, give the players the {@item Dust of Disappearance} {@card Dust of Disappearance|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -24534,7 +24568,7 @@
 											"page": 47,
 											"id": "1cf",
 											"entries": [
-												"A {@spell detect magic} spell reveals an aura of conjuration magic emanating from the fireplace mantel. Any character who searches it and succeeds on a DC 10 Wisdom ({@skill Perception}) check discovers that the mantelpiece is actually a lid concealing a long, hidden compartment. The wizard who built the manse hid her {@item staff of birdcalls|XGE} here. If the characters obtain and identify the staff, give the players the {@item Staff of Birdcalls|XGE} card or they can reference it in the {@5etools Magic Items Listing|items.html}."
+												"A {@spell detect magic} spell reveals an aura of conjuration magic emanating from the fireplace mantel. Any character who searches it and succeeds on a DC 10 Wisdom ({@skill Perception}) check discovers that the mantelpiece is actually a lid concealing a long, hidden compartment. The wizard who built the manse hid her {@item staff of birdcalls|XGE} here. If the characters obtain and identify the staff, give the players the {@item Staff of Birdcalls|XGE} {@card Staff of Birdcalls|Magic Item Cards|DIP|card} or they can reference it in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -24560,7 +24594,7 @@
 											"page": 47,
 											"id": "1d2",
 											"entries": [
-												"The garment hanging on the hook is a {@item cloak of billowing|XGE}, and the chest contains an {@item immovable rod} wrapped in a black cloth. If the characters acquire and identify these magic items, give the players the {@item Cloak of Billowing|XGE} and {@item Immovable Rod} cards  or they can reference them in the {@5etools Magic Items Listing|items.html}."
+												"The garment hanging on the hook is a {@item cloak of billowing|XGE}, and the chest contains an {@item immovable rod} wrapped in a black cloth. If the characters acquire and identify these magic items, give the players the {@item Cloak of Billowing|XGE} and {@item Immovable Rod} {@deck Magic Item Cards|DIP|cards} or they can reference them in the {@5etools Magic Items Listing|items.html}."
 											]
 										}
 									]
@@ -24581,7 +24615,7 @@
 										},
 										"The wooden staircase that leads downstairs is trapped (see {@area area W3|1b8|x}).",
 										"安装在壁炉上方的头像是一个{@creature ankheg}(见{@adventure Creatures|DIP|16}章节中的\"{@area Ankheg|208|x} \"图示)。",
-										"The hallway leading to {@area area W12|1ce|x} is dark. {@creature Stirge||Stirges} hang from the rafters here\u2014three stirges per party member, not including sidekicks (maximum twelve stirges). The hungry stirges attack any warm-blooded creature that enters the area."
+										"The hallway leading to {@area area W12|1ce|x} is dark. {@creature Stirge||Stirges} hang from the rafters here—three stirges per party member, not including sidekicks (maximum twelve stirges). The hungry stirges attack any warm-blooded creature that enters the area."
 									]
 								},
 								{
@@ -24655,11 +24689,12 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/DIP/035-eta-01.png"
+						"path": "adventure/DIP/035-eta-01.webp"
 					},
-					"title": "ROCK GNOME RECLUSE",
+					"title": "Rock Gnome Recluse",
 					"width": 800,
-					"height": 1000
+					"height": 1000,
+					"credit": "Olga Drebas"
 				},
 				"The adventure can end in one of several ways. Ideally, it concludes with the defeat of Cryovain the white dragon, the completion of all the Phandalin quests, or both. By then, the characters should be 6th level. Give the players a chance to wrap up loose ends before declaring the adventure over. For example, the characters might need to return to {@area Phandalin|02a|x} to collect an outstanding reward or notify townsfolk that the dragon has been dealt with. Armed with such good news, Townmaster {@area Harbin Wester|037|x} might plan a feast in the heroes' honor. What happens next is up to you.",
 				"如果最坏的情况发生了，人物死了，他们的冒险也就结束了。你可以让玩家卷起新的角色，继续他们上一个角色的工作，或者你也可以用新的角色重新开始，按照你认为合适的方式调整任务，让那些可能熟悉的玩家感到惊讶。",
@@ -24673,13 +24708,13 @@
 					"entries": [
 						"如果你的玩家想把他们的角色提升到6级以上，他们就需要{@book Player's Handbook|PHB}来做到这一点。",
 						"If you plan to run more D&D for your players, you'll also need the {@book Dungeon Master's Guide|DMG}, the {@book Monster Manual|MM}, and new adventures. Many DMs like to create their own adventures. Others prefer to run published adventures like this one. You'll find fun, inexpensive adventures for characters of all levels and groups of all sizes in the DMs Guild ({@link www.dmsguild.com|https://www.dmsguild.com}). Wizards of the Coast also publishes hardcover books that contain stand-alone adventures that can entertain you and your players for months. You can run these adventures as written, or you can do what many experienced DMs do: use the parts you like, ignore the rest, and add a few surprises of your own. Here are brief descriptions of some of these published adventures, to help you choose the one that's right for you.",
-						"{@adventure Curse of Strahd|CoS} {@b (for levels 1\u201310)}. 阴森的迷雾吞噬了冒险者，并将他们带到了巴罗维亚，一个由吸血鬼斯特拉赫-冯-扎罗维奇统治的哥特式恐怖之地。为了逃离巴罗维亚，人物必须在吸血鬼的恐怖城堡中对抗并击败他。",
-						"{@adventure Hoard of the Dragon Queen|HotDQ} {@b (for levels 1\u20137)} 和 {@adventure The Rise of Tiamat|RoT} {@b (for levels 8\u201315)}。恶龙女王提亚马特被困在九层地狱--但如果她的仆人积累了足够的财宝来购买她的自由，那么她就不会被困太久。这次冒险分为两本书。",
-						"{@adventure Out of the Abyss|OotA} {@b (for levels 1\u201315)}. 角色们被困在一个名为 \"地下城 \"的巨大地下迷宫中，他们必须与怪物搏斗并建立联盟才能生存。一路上，他们遇到了流浪的恶魔，他们所到之处都在传播着疯狂。",
-						"{@adventure Princes of the Apocalypse|PotA} {@b (for levels 1\u201315)}. 范达林的东部是和平的德萨林谷，那里有四个邪恶的元素邪教已经站稳了脚跟。为了保护山谷和它的定居点，人物必须根除并摧毁这些邪教和他们的领袖。",
-						"{@adventure Storm King's Thunder|SKT} {@b (for levels 1\u201310)}. 邪恶的巨人想要征服剑海岸。如果角色们能找到风暴巨人王海卡顿，他就能结束巨人的肆虐，但有一个秘密的敌人挡在他们面前。",
-						"{@adventure Tomb of Annihilation|ToA} {@b (for levels 1\u201311)}. 一个陷阱重重的坟墓里有一个装置，正在捕捉和吞噬死者的灵魂。为了拯救这些可怜的灵魂，人物必须穿越大片丛林，进入坟墓，并打败里面的恐怖。",
-						"{@adventure Waterdeep: Dungeon of the Mad Mage|WDMM} {@b (for levels 5\u201320)}. 在沃特迪普城的下面是地下山的地牢，由疯狂的巫师哈拉斯特-黑袍统治着。许多英雄进入，但很少有人能逃脱",
+						"{@adventure Curse of Strahd|CoS} {@b (for levels 1–10)}. 阴森的迷雾吞噬了冒险者，并将他们带到了巴罗维亚，一个由吸血鬼斯特拉赫-冯-扎罗维奇统治的哥特式恐怖之地。为了逃离巴罗维亚，人物必须在吸血鬼的恐怖城堡中对抗并击败他。",
+						"{@adventure Hoard of the Dragon Queen|HotDQ} {@b (for levels 1–7)} 和 {@adventure The Rise of Tiamat|RoT} {@b (for levels 8–15)}。恶龙女王提亚马特被困在九层地狱--但如果她的仆人积累了足够的财宝来购买她的自由，那么她就不会被困太久。这次冒险分为两本书。",
+						"{@adventure Out of the Abyss|OotA} {@b (for levels 1–15)}. 角色们被困在一个名为 \"地下城 \"的巨大地下迷宫中，他们必须与怪物搏斗并建立联盟才能生存。一路上，他们遇到了流浪的恶魔，他们所到之处都在传播着疯狂。",
+						"{@adventure Princes of the Apocalypse|PotA} {@b (for levels 1–15)}. 范达林的东部是和平的德萨林谷，那里有四个邪恶的元素邪教已经站稳了脚跟。为了保护山谷和它的定居点，人物必须根除并摧毁这些邪教和他们的领袖。",
+						"{@adventure Storm King's Thunder|SKT} {@b (for levels 1–10)}. 邪恶的巨人想要征服剑海岸。如果角色们能找到风暴巨人王海卡顿，他就能结束巨人的肆虐，但有一个秘密的敌人挡在他们面前。",
+						"{@adventure Tomb of Annihilation|ToA} {@b (for levels 1–11)}. 一个陷阱重重的坟墓里有一个装置，正在捕捉和吞噬死者的灵魂。为了拯救这些可怜的灵魂，人物必须穿越大片丛林，进入坟墓，并打败里面的恐怖。",
+						"{@adventure Waterdeep: Dungeon of the Mad Mage|WDMM} {@b (for levels 5–20)}. 在沃特迪普城的下面是地下山的地牢，由疯狂的巫师哈拉斯特-黑袍统治着。许多英雄进入，但很少有人能逃脱",
 						{
 							"type": "inset",
 							"name": "Playtesters",
@@ -25079,11 +25114,11 @@
 										},
 										{
 											"type": "entries",
-											"name": "Recharge X\u2013Y",
+											"name": "Recharge X–Y",
 											"page": 50,
 											"id": "205",
 											"entries": [
-												"The notation \"Recharge X\u2013Y\" means a creature can use a special ability once and that the ability then has a random chance of recharging during each subsequent round of combat. At the start of each of the creature's turns, roll a {@dice d6}. If the roll is one of the numbers in the recharge notation, the creature regains the use of that special ability. The ability also recharges when the creature finishes a short or long rest."
+												"The notation \"Recharge X–Y\" means a creature can use a special ability once and that the ability then has a random chance of recharging during each subsequent round of combat. At the start of each of the creature's turns, roll a {@dice d6}. If the roll is one of the numbers in the recharge notation, the creature regains the use of that special ability. The ability also recharges when the creature finishes a short or long rest."
 											]
 										}
 									]
@@ -25110,10 +25145,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/036-636960342199103296.png"
+										"path": "adventure/DIP/036-636960342199103296.webp"
 									},
 									"width": 400,
-									"height": 389
+									"height": 389,
+									"credit": "Claudio Pozas"
 								}
 							]
 						},
@@ -25128,10 +25164,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/037-636460582309128084.png"
+										"path": "adventure/DIP/037-636460582309128084.webp"
 									},
 									"width": 400,
-									"height": 526
+									"height": 526,
+									"credit": "Christopher Burdett"
 								}
 							]
 						},
@@ -25147,10 +25184,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/038-636460867586552503.png"
+										"path": "adventure/DIP/038-636460867586552503.webp"
 									},
 									"width": 400,
-									"height": 660
+									"height": 660,
+									"credit": "Tomas Giorello"
 								}
 							]
 						},
@@ -25165,10 +25203,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/039-blights-v3-corrected-foot.png"
+										"path": "adventure/DIP/039-blights-v3-corrected-foot.webp"
 									},
 									"width": 1098,
-									"height": 1000
+									"height": 1000,
+									"credit": "Brynn Metheney"
 								},
 								{
 									"type": "entries",
@@ -25219,10 +25258,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/040-636460892787682128.png"
+										"path": "adventure/DIP/040-636460892787682128.webp"
 									},
 									"width": 400,
-									"height": 323
+									"height": 323,
+									"credit": "Brynn Metheney"
 								}
 							]
 						},
@@ -25237,10 +25277,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/041-636460662223625909.png"
+										"path": "adventure/DIP/041-636460662223625909.webp"
 									},
 									"width": 399,
-									"height": 308
+									"height": 308,
+									"credit": "Wesley Burt"
 								}
 							]
 						},
@@ -25273,10 +25314,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/042-636960517654418879.png"
+										"path": "adventure/DIP/042-636960517654418879.webp"
 									},
 									"width": 380,
-									"height": 475
+									"height": 475,
+									"credit": "Olga Drebas"
 								}
 							]
 						},
@@ -25291,10 +25333,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/043-636960516130812600.png"
+										"path": "adventure/DIP/043-636960516130812600.webp"
 									},
 									"width": 380,
-									"height": 406
+									"height": 406,
+									"credit": "Claudio Pozas"
 								}
 							]
 						},
@@ -25309,10 +25352,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/044-ghoul.png"
+										"path": "adventure/DIP/044-ghoul.webp"
 									},
 									"width": 350,
-									"height": 445
+									"height": 445,
+									"credit": "Christopher Burdett"
 								}
 							]
 						},
@@ -25345,10 +25389,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/045-636460723371288078.png"
+										"path": "adventure/DIP/045-636460723371288078.webp"
 									},
 									"width": 399,
-									"height": 302
+									"height": 302,
+									"credit": "Brynn Metheney"
 								}
 							]
 						},
@@ -25363,10 +25408,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/046-636960495200331563.png"
+										"path": "adventure/DIP/046-636960495200331563.webp"
 									},
 									"width": 400,
-									"height": 418
+									"height": 418,
+									"credit": "Claudio Pozas"
 								}
 							]
 						},
@@ -25381,10 +25427,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/047-636460790974137538.png"
+										"path": "adventure/DIP/047-636460790974137538.webp"
 									},
 									"width": 300,
-									"height": 313
+									"height": 313,
+									"credit": "Jesper Ejsing"
 								}
 							]
 						},
@@ -25417,10 +25464,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/048-636460819451261614.png"
+										"path": "adventure/DIP/048-636460819451261614.webp"
 									},
 									"width": 399,
-									"height": 305
+									"height": 305,
+									"credit": "Zack Stella"
 								}
 							]
 						},
@@ -25435,10 +25483,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/049-636460814187935933.png"
+										"path": "adventure/DIP/049-636460814187935933.webp"
 									},
 									"width": 400,
-									"height": 318
+									"height": 318,
+									"credit": "Eric Belisle"
 								}
 							]
 						},
@@ -25453,10 +25502,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/050-636460820040081881.png"
+										"path": "adventure/DIP/050-636460820040081881.webp"
 									},
 									"width": 400,
-									"height": 341
+									"height": 341,
+									"credit": "Conceptopolis"
 								}
 							]
 						},
@@ -25471,10 +25521,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/051-636460821919719183.png"
+										"path": "adventure/DIP/051-636460821919719183.webp"
 									},
 									"width": 379,
-									"height": 458
+									"height": 458,
+									"credit": "Mark Behm"
 								}
 							]
 						},
@@ -25489,10 +25540,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/052-636460824964500193.png"
+										"path": "adventure/DIP/052-636460824964500193.webp"
 									},
 									"width": 230,
-									"height": 377
+									"height": 377,
+									"credit": "Conceptopolis"
 								}
 							]
 						},
@@ -25525,10 +25577,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/053-636460847348942387.png"
+										"path": "adventure/DIP/053-636460847348942387.webp"
 									},
 									"width": 400,
-									"height": 285
+									"height": 285,
+									"credit": "Brynn Metheney"
 								}
 							]
 						},
@@ -25587,10 +25640,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/054-636460866443987084.png"
+										"path": "adventure/DIP/054-636460866443987084.webp"
 									},
 									"width": 399,
-									"height": 201
+									"height": 201,
+									"credit": "Lars Grant-West"
 								}
 							]
 						}
@@ -25615,508 +25669,115 @@
 					"page": 65,
 					"entries": [
 						{
-							"type": "inset",
-							"name": "Donnabella Fiasco",
-							"page": 66,
-							"entries": [
-								"{@i Human Spellcaster}",
-								"多纳贝拉是一个年轻的魔法使用者，她戴着一个纸糊的独角兽面具，因为这让她觉得更有魔力。",
-								"用{@creature Spellcaster|esk}的副手状态块来代表她。",
+							"type": "gallery",
+							"images": [
 								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"比起大多数人，我更愿意和书交谈。\""
-									],
-									"id": "22e"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"我们都有一个小魔法。诀窍是找到它并把它发挥出来。\""
-									],
-									"id": "22f"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"我希望有一天能加入一所著名的巫师学院。我只希望他们接受独角兽！\""
-									],
-									"id": "230"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"我无法保守秘密以挽救我的生命--或者其他人的生命。\""
-									],
-									"id": "231"
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DIP/056-ynkgo-donnabella.webp"
+									},
+									"width": 850,
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Donnabella Fiasco"
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/DIP/056-ynkgo-donnabella.png"
+										"path": "adventure/DIP/057-leeom-galandro.webp"
 									},
 									"width": 850,
-									"height": 1000
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Galandro Luna"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DIP/058-l3v6r-inverna.webp"
+									},
+									"width": 850,
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Inverna Nightbreeze"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DIP/059-3krsm-nib.webp"
+									},
+									"width": 850,
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Nib Addlespur"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DIP/060-pu4f2-pete.webp"
+									},
+									"width": 850,
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Pickled Pete"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DIP/061-gttxp-quinn.webp"
+									},
+									"width": 850,
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Quinn Hightopple"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DIP/062-1qyge-ruby.webp"
+									},
+									"width": 850,
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Ruby Hammerwhacker"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DIP/063-nemem-shanjan.webp"
+									},
+									"width": 850,
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Shanjan Kwan"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DIP/064-nrqv1-talon.webp"
+									},
+									"width": 850,
+									"height": 1000,
+									"credit": "Shawn Wood",
+									"title": "Talon Thornwild"
 								}
-							],
-							"id": "22d"
+							]
 						},
 						{
-							"type": "inset",
-							"name": "Galandro Luna",
-							"page": 6,
-							"entries": [
-								"{@i Human Expert}",
-								"加兰德罗最珍视的财产是一把小提琴，他不断地调整和拨动。",
-								"用{@creature Expert|esk}的副手状态块来代表他。",
-								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"我喜欢一个好的侮辱，即使是针对我的侮辱。\""
-									],
-									"id": "233"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"我喜欢看到我表演时人们脸上的笑容。这一点加上他们的崇拜就足够了\"。"
-									],
-									"id": "234"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"我的小提琴是一个好朋友送给我的。我对它的珍视超过了所有其他东西\"。"
-									],
-									"id": "235"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"为了赢得名声和声誉，我愿意做任何事情。\""
-									],
-									"id": "236"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "internal",
-										"path": "adventure/DIP/057-leeom-galandro.png"
-									},
-									"width": 850,
-									"height": 1000
-								}
-							],
-							"id": "232"
-						},
-						{
-							"type": "inset",
-							"name": "Inverna Nightbreeze",
-							"page": 66,
-							"entries": [
-								"{@i Moon Elf Warrior}",
-								"因维尔纳的脸颊上有一道疤痕，是她被兽人的标枪擦伤的地方。她生性谨慎，对陌生人充满疑虑。",
-								"用{@creature Warrior|esk}的副手状态块来代表她。",
-								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"我非常谨慎地选择我的词语。讽刺，我被告知，是我最锋利的武器。\""
-									],
-									"id": "238"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"所有的人都应该得到尊严的对待，无论其地位如何。当然，兽人不是人。\""
-									],
-									"id": "239"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"半兽人是这片土地上的一个污点。为了自然界和文明世界，我对他们格杀勿论。\""
-									],
-									"id": "23a"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"我不能承认我错了。\""
-									],
-									"id": "23b"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "internal",
-										"path": "adventure/DIP/058-l3v6r-inverna.png"
-									},
-									"width": 850,
-									"height": 1000
-								}
-							],
-							"id": "237"
-						},
-						{
-							"type": "inset",
-							"name": "Nib Addlespur",
-							"page": 66,
-							"entries": [
-								"{@i Lightfoot Halfling Spellcaster}",
-								"尼布是一个快乐的赌徒，她的背心口袋里放着一副三龙安特牌。她还有一只叫小莉的金翅雀。",
-								"用{@creature Spellcaster|esk}的副手状态块来代表她。",
-								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"我不能拒绝一个肯定的赌注或一个友好的赌注。\""
-									],
-									"id": "23d"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"计划越复杂越好\"。"
-									],
-									"id": "23e"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"我爱鸟，并将尽我所能照顾它们。\""
-									],
-									"id": "23f"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"深水让我感到害怕。我宁愿被龙吞掉，也不愿坐船或去游泳。\""
-									],
-									"id": "240"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "internal",
-										"path": "adventure/DIP/059-3krsm-nib.png"
-									},
-									"width": 850,
-									"height": 1000
-								}
-							],
-							"id": "23c"
-						},
-						{
-							"type": "inset",
-							"name": "Pickled Pete",
-							"page": 66,
-							"entries": [
-								"{@i Human Expert}",
-								"皮特喜欢喝啤酒，而且在醉酒的情况下往往能更好地发挥作用。在他最好的时候，他是一个相当好的杂工，想出了各种疯狂的方法来完成事情。",
-								"用{@creature Expert|esk}的副手状态块来代表他。",
-								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"我的朋友们知道他们可以依靠我，不管是什么。\""
-									],
-									"id": "242"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"我喜欢想出新的方法来做事。有什么问题是不能用一点小聪明来解决的？\""
-									],
-									"id": "243"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"一整瓶酒抵得上十个装满黄金的口袋\"。"
-									],
-									"id": "244"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"所有这些酒对我的记忆力不好。说真的，我不记得我的姓了。\""
-									],
-									"id": "245"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "internal",
-										"path": "adventure/DIP/060-pu4f2-pete.png"
-									},
-									"width": 850,
-									"height": 1000
-								}
-							],
-							"id": "241"
-						},
-						{
-							"type": "inset",
-							"name": "Quinn Hightopple",
-							"page": 66,
-							"entries": [
-								"{@i Lightfoot Halfling Warrior}",
-								"奎因是一个快乐的小斗士，喜欢打人的腹股沟。",
-								"用{@creature Warrior|esk}的副手状态块来代表他。",
-								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"你的牙齿不错。如果它们发生什么不好的事情，那就太可惜了。\""
-									],
-									"id": "247"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"没有什么挑战是无法克服的。正如帕帕-巴托总是说，他们越大，就越难摔倒。"
-									],
-									"id": "248"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"没有什么比友谊更重要。这就是为什么我永远不会丢下一个朋友。\""
-									],
-									"id": "249"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"我忍不住要打高个子的人的腹股沟。我称它为 \"半身人你好\"。"
-									],
-									"id": "24a"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "internal",
-										"path": "adventure/DIP/061-gttxp-quinn.png"
-									},
-									"width": 850,
-									"height": 1000
-								}
-							],
-							"id": "246"
-						},
-						{
-							"type": "inset",
-							"name": "Ruby Hammerwhacker",
-							"page": 66,
-							"entries": [
-								"{@i Shield Dwarf Warrior}",
-								"鲁比缺乏矮人惯有的拘谨，他每天都带着温暖的微笑和新的乐观精神迎接新的一天。",
-								"用{@creature Warrior|esk}的副手状态块来代表她。",
-								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"没有什么能动摇我的乐观态度\"。"
-									],
-									"id": "24c"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"我们都应该寻求更好的自我。总是有改进的余地。\""
-									],
-									"id": "24d"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"我为那些不能为自己战斗的人而战\""
-									],
-									"id": "24e"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"\"告诉我我不能做什么，我必须证明你错了。"
-									],
-									"id": "24f"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "internal",
-										"path": "adventure/DIP/062-1qyge-ruby.png"
-									},
-									"width": 850,
-									"height": 1000
-								}
-							],
-							"id": "24b"
-						},
-						{
-							"type": "inset",
-							"name": "Shanjan Kwan",
-							"page": 66,
-							"entries": [
-								"{@i Human Spellcaster}",
-								"阿关死后，作为一个婴儿被从死里复活，在他的额头上出现了一个小小的黑色石刻--亡灵魔法的象征。",
-								"用{@creature Spellcaster|esk}的副手状态块来代表他。",
-								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"我已经骗过一次死亡。我可以再做一次。\""
-									],
-									"id": "251"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"巨大的美丽可以掩盖巨大的丑陋。反之亦然\"。"
-									],
-									"id": "252"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"我一生都在寻找一个简单问题的答案。我是一个神吗？\""
-									],
-									"id": "253"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"我不喜欢谜团。解开它们让我夜不能寐。\""
-									],
-									"id": "254"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "internal",
-										"path": "adventure/DIP/063-nemem-shanjan.png"
-									},
-									"width": 850,
-									"height": 1000
-								}
-							],
-							"id": "250"
-						},
-						{
-							"type": "inset",
-							"name": "Talon Thornwild",
-							"page": 66,
-							"entries": [
-								"{@i Human Expert}",
-								"塔伦喜欢黄金和冒险，梦想成为一个著名的淘金者。",
-								"使用{@creature Expert|esk}副手状态块来代表他们。",
-								{
-									"type": "entries",
-									"name": "Personality",
-									"page": 66,
-									"entries": [
-										"\"是的，我吃东西像猪一样，而且没有礼貌，但这些是我唯一的缺陷，我发誓。其他方面我几乎是完美的。\""
-									],
-									"id": "256"
-								},
-								{
-									"type": "entries",
-									"name": "Ideal",
-									"page": 66,
-									"entries": [
-										"\"卑贱的人被抬起来，高大的人被打倒。变化是事物的本质\"。"
-									],
-									"id": "257"
-								},
-								{
-									"type": "entries",
-									"name": "Bond",
-									"page": 66,
-									"entries": [
-										"\"我喜欢黄金。我喜欢它的颜色，它的质地，它雄伟的光芒。\""
-									],
-									"id": "258"
-								},
-								{
-									"type": "entries",
-									"name": "Flaw",
-									"page": 66,
-									"entries": [
-										"\"如果我比别人更需要它，这就不是偷窃。\""
-									],
-									"id": "259"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "internal",
-										"path": "adventure/DIP/064-nrqv1-talon.png"
-									},
-									"width": 850,
-									"height": 1000
-								}
-							],
-							"id": "255"
+							"type": "statblock",
+							"tag": "deck",
+							"source": "DIP",
+							"name": "Sidekick Cards",
+							"page": 66
 						}
 					],
 					"id": "22c"
@@ -26126,7 +25787,14 @@
 					"name": "Sidekick Stat Blocks",
 					"page": 66,
 					"entries": [
-						"见{@variantrule Sidekicks|ESK}规则条目。"
+						"见{@variantrule Sidekicks|ESK}规则条目。",
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "ESK",
+							"name": "Sidekicks",
+							"page": 66
+						}
 					],
 					"id": "25a"
 				}
@@ -26134,10 +25802,24 @@
 		},
 		{
 			"type": "section",
-			"name": "Quest Cards",
+			"name": "Printable Assets",
 			"page": 66,
 			"id": "22b",
 			"entries": [
+				"{@note This section provides printable assets for the decks that can be found on the decks page:}",
+				{
+					"type": "list",
+					"columns": 3,
+					"items": [
+						"{@deck Initiative Cards|ESK}",
+						"{@deck Condition Cards|ESK}",
+						"{@deck Combat Step by Step Cards|ESK}",
+						"{@deck Sidekick Cards|DIP}",
+						"{@deck Quest Cards|DIP}",
+						"{@deck Magic Item Cards|DIP}",
+						"{@deck Magic Charm Cards|DIP}"
+					]
+				},
 				{
 					"type": "gallery",
 					"images": [
@@ -26145,82 +25827,377 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/055-1.png"
+								"path": "adventure/DIP/QuestsFront.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Quest Card Faces",
+							"width": 5078,
+							"height": 6560
 						},
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/056-2.png"
+								"path": "adventure/DIP/QuestsBack.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Quest Card Backs",
+							"width": 5057,
+							"height": 6554
 						},
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/057-3.png"
+								"path": "adventure/DIP/MagicItemsFront1.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Magic Item Card Faces 1",
+							"width": 5064,
+							"height": 6564
 						},
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/058-4.png"
+								"path": "adventure/DIP/MagicItemsFront2.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Magic Item Card Faces 2",
+							"width": 5054,
+							"height": 6538
 						},
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/059-5.png"
+								"path": "adventure/DIP/MagicItemsFront3.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Magic Item Card Faces 3",
+							"width": 5053,
+							"height": 6553
 						},
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/060-6.png"
+								"path": "adventure/DIP/MagicItemsFront4.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Magic Item Card Faces 4",
+							"width": 5053,
+							"height": 6540
 						},
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/061-7.png"
+								"path": "adventure/DIP/MagicItemsBack.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Magic Item Card Backs",
+							"width": 5064,
+							"height": 6555
 						},
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/062-8.png"
+								"path": "adventure/DIP/SidekicksFront.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Sidekick Card Faces",
+							"credit": "Shawn Wood",
+							"width": 5053,
+							"height": 6564
 						},
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/DIP/063-9.png"
+								"path": "adventure/DIP/SidekicksBack.webp"
 							},
-							"width": 838,
-							"height": 1103
+							"title": "Sidekick Card Backs",
+							"width": 5051,
+							"height": 6537
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/DIP/ConditionsFront.webp"
+							},
+							"title": "Condition Card Faces",
+							"credit": "Richard Whitters",
+							"width": 5070,
+							"height": 6554
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/DIP/ConditionsBack.webp"
+							},
+							"title": "Condition Card Backs",
+							"width": 5045,
+							"height": 6566
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/DIP/MixedFront.webp"
+							},
+							"title": "Mixed Condition, Combat and Charm Card Faces",
+							"credit": "Richard Whitters",
+							"width": 5039,
+							"height": 6540
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/DIP/MixedBack.webp"
+							},
+							"title": "Mixed Condition, Combat and Charm Card Backs",
+							"width": 5060,
+							"height": 6552
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/DIP/InitiativeFront.webp"
+							},
+							"title": "Initiative Card Faces",
+							"width": 5052,
+							"height": 6550
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/DIP/InitiativeBack.webp"
+							},
+							"title": "Initiative Card Backs",
+							"width": 5062,
+							"height": 6544
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Credits",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"columns": 2,
+					"items": [
+						{
+							"type": "item",
+							"name": "Rulebook Designer",
+							"entries": [
+								"Jeremy Crawford"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Adventure Designer",
+							"entries": [
+								"Christopher Perkins"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Additional Adventure Design",
+							"entries": [
+								"Richard Baker"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Adventure Development",
+							"entries": [
+								"Ben Petrisor"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Adventure Editing",
+							"entries": [
+								"Scott Fitzgerald Gray"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Playtest Coordinator",
+							"entries": [
+								"Christopher Lindsay"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Art Directors",
+							"entries": [
+								"Kate Irwin, Shauna Narciso"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Graphic Designer",
+							"entries": [
+								"Trish Yochum"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Cover Illustrator",
+							"entries": [
+								"Grzegorz Rutkowski"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Illustrators",
+							"entries": [
+								"Mark Behm, Eric Belisle, Christopher Burdett, Wesley Burt, Conceptopolis, Olga Drebas, Jesper Ejsing, Craig Elliot, Tomás Giorello, Lars Grant-West, Suzanne Helmigh, Brynn Metheney, Claudio Pozas, Craig J Spearing, Zack Stella, Richard Whitters, Shawn Wood"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Cartographers",
+							"entries": [
+								"Jason A. Engle, Mike Schley"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Original 5th Edition Design",
+							"entries": [
+								"Jeremy Crawford, Mike Mearls, Christopher Perkins, James Wyatt, Rodney Thompson, Robert J. Schwalb, Peter Lee, Steve Townshend, Bruce R. Cordell"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Original 5th Edition Editing",
+							"entries": [
+								"Chris Sims, Michele Carter, Scott Fitzgerald Gray, Kim Mohan"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Based on the original D&D game by",
+							"entries": [
+								"E. Gary Gygax and Dave Arneson"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Producer",
+							"entries": [
+								"Dan Tovar"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Product Concept",
+							"entries": [
+								"Mark Price"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Production Services",
+							"entries": [
+								"Cynda Callaway, Kevin Yee, David Gershman, Jefferson Dunlap"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Senior Director Global Brand Strategy",
+							"entries": [
+								"Nathan Stewart"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Director Licensing & Publishing",
+							"entries": [
+								"Liz Schuh"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Licensing Manager",
+							"entries": [
+								"Hilary Ross"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Digital Marketing Manager",
+							"entries": [
+								"Bart Carroll"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Senior Communications Manager",
+							"entries": [
+								"Greg Tito"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Manager Global Brand Marketing",
+							"entries": [
+								"Anna Vo"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Brand Manager",
+							"entries": [
+								"Shelly Mazzanoble"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Associate Brand Manager",
+							"entries": [
+								"Pelham Greene"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Narrative Designers",
+							"entries": [
+								"Adam Lee, Ari Levitch"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Game Designer",
+							"entries": [
+								"Kate Welch"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Graphic Designer",
+							"entries": [
+								"Emi Tanji"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Project Manager",
+							"entries": [
+								"Bill Benham"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Editor",
+							"entries": [
+								"F. Wesley Schneider"
+							]
 						}
 					]
 				}

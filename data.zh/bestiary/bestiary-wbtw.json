@@ -121,7 +121,7 @@
 				{
 					"name": "Quick Fingers",
 					"entries": [
-						"阿格登的目标是他能看到的5英尺范围内的一个生物，并进行灵巧（灵巧）检查，检查难度等于1+目标的被动智慧（感知）得分。如果检定成功，Aggon将偷取目标持有的一件重量不超过1磅的物品，但不在其手中，而目标不会注意到他的偷窃。"
+						"Agdon targets one creature within 5 feet of him that he can see and makes a Dexterity ({@skill Sleight of Hand}) check, with a DC equal to 1 + the target's passive Wisdom ({@skill Perception}) score. On a successful check, Agdon pilfers one object weighing 1 pound or less that the target has in its possession but not in its grasp, without the target noticing the theft."
 					]
 				}
 			],
@@ -428,6 +428,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Bavlorna casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -586,6 +587,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The brigganock casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
 					],
@@ -1028,6 +1030,11 @@
 			"name": "Displacer Beast Kitten",
 			"source": "WBtW",
 			"page": 108,
+			"otherSources": [
+				{
+					"source": "BMT"
+				}
+			],
 			"size": [
 				"S"
 			],
@@ -1290,6 +1297,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Endelyn casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -1537,7 +1545,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"如果摇摆马在战斗开始时是静止的，它在主动性的卷轴上有优势。此外，如果一个生物没有观察到摇摆马的动作或行动，该生物必须通过{@dc 18}智力(调查)检查来成功辨别摇摆马是否有生命。"
+						"If the rocking horse is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the rocking horse move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the rocking horse is animate."
 					]
 				},
 				{
@@ -1761,7 +1769,7 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"天鹅在依靠视觉的智慧（感知）检查方面具有优势。"
+						"The swan has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -1934,7 +1942,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"如果魔像在战斗开始时被嵌在窗户里，并且一动不动，那么它在主动权卷轴上有优势。此外，如果一个生物没有观察到巨魔的动作或行动，该生物必须通过{@dc 18}智力(调查)检查来辨别巨魔是否有生命。"
+						"If the golem is embedded in a window and motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the golem move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the golem is animate."
 					]
 				},
 				{
@@ -2053,7 +2061,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"猫在依靠嗅觉的智慧（感知）检查中具有优势。"
+						"The cat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				}
 			],
@@ -2338,6 +2346,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Iggwilv casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 24}, {@hit 16} to hit with spell attacks):"
 					],
@@ -2847,6 +2856,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Kelek casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -2871,7 +2881,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"凯莱克穿戴防御手镯，携带一根有10个电荷的攻击法杖。该法杖每天在黎明时分恢复{@dice 1d6 + 4}已消耗的电荷。如果它的最后一次充电被耗尽，请掷出{@dice d20}；如果是1，法杖就会变成一根非魔法的四分法杖。"
+						"Kelek wears {@item bracers of defense} and carries a {@item staff of striking} with 10 charges. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}; on a 1, the staff becomes a nonmagical quarterstaff."
 					]
 				}
 			],
@@ -3003,6 +3013,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Kettlesteam casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -3027,7 +3038,7 @@
 				{
 					"name": "Mimicry",
 					"entries": [
-						"Kettlesteam可以模仿她听到的任何声音，包括声音。听到这些声音的生物只有在成功通过智慧（洞察力）检查后才能知道它们是模仿的。"
+						"Kettlesteam can mimic any sounds she has heard, including voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 13} Wisdom ({@skill Insight}) check."
 					]
 				}
 			],
@@ -3149,7 +3160,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"如果玩偶在战斗开始时是静止的，它在主动权卷上有优势。此外，如果一个生物没有观察到娃娃的动作或行动，该生物必须通过{@dc 18}智力(调查)检查来辨别娃娃是否有生命。"
+						"If the doll is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the doll move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the doll is animate."
 					]
 				},
 				{
@@ -3267,6 +3278,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Mercion casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -3432,6 +3444,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"在携带{@item Witchlight vane|WbtW}的时候，光会施展以下一种法术，不需要法术组件，并使用魅力作为施法能力（法术保全{@dc 13}，{@hit 5}以法术攻击命中）。"
 					],
@@ -3575,6 +3588,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"在携带{@item Witchlight watch|WbtW}时，女巫可以施展以下一种法术，不需要法术组件，并使用智力作为施法能力（法术保存{@dc 13}，{@hit 5}以法术攻击命中）。"
 					],
@@ -3721,7 +3735,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"莫利弗穿着+1皮甲和浮空靴。"
+						"Molliver wears +1 leather armor and {@item boots of levitation}."
 					]
 				}
 			],
@@ -3832,7 +3846,7 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"纸鸟在依靠视觉的智慧（感知）检查方面具有优势。"
+						"The paper bird has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -4102,6 +4116,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Ringlerun casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -4378,6 +4393,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Sir Talavar's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below."
 					],
@@ -4565,6 +4581,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Skabatha casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -4621,7 +4638,7 @@
 					"name": "Alter Size",
 					"entries": [
 						"Skabatha神奇地将自己缩小到小尺寸（4至8英寸高）或恢复到正常尺寸。如果Skabatha没有足够的空间恢复到她的正常大小，她就会在现有的空间里达到可能的最大尺寸。她所穿戴或携带的任何东西都会随着她而改变大小。",
-						"作为一个微小的生物，当Skabatha用爪子攻击时，她会造成2({@damage 1d4})的毒药伤害。她在灵巧（隐身）检查上有优势，在力量检查和力量投掷上有劣势。她的其他统计数据保持不变。"
+						"As a Tiny creature, Skabatha deals 2 ({@damage 1d4}) poison damage when she hits with a Claw attack. She has advantage on Dexterity ({@skill Stealth}) checks, and disadvantage on Strength checks and Strength saving throws. Her statistics otherwise remain unchanged."
 					]
 				}
 			],
@@ -4715,6 +4732,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Skylla casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -4856,7 +4874,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"如果小松鼠在战斗开始时是静止的，它在主动权卷上有优势。此外，如果一个生物没有观察过小松鼠的动作或行动，该生物必须成功地进行智力（调查）检查，以辨别小松鼠是有生命的。"
+						"If Squirt is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed Squirt move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that Squirt is animate."
 					]
 				},
 				{
@@ -4967,6 +4985,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Strongheart casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -5361,7 +5380,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"如果树人在战斗开始时是静止的，它在主动性的卷轴上有优势。此外，如果一个生物没有观察到树人的动作或行动，该生物必须在智力（调查）检查中成功，以辨别树人是有生命的。"
+						"If the treant is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the treant move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the treant is animate."
 					]
 				}
 			],
@@ -5471,7 +5490,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Warduke戴着可怕的头盔（见附录A），挥舞着火焰舌长剑。"
+						"Warduke wears a dread helm (see appendix A) and wields a {@item flame tongue} longsword."
 					]
 				}
 			],
@@ -5602,6 +5621,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"这只手可以施展以下一种法术，使用魅力作为施法能力。"
 					],
@@ -5743,7 +5763,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"扎拉克携带了一种隐形药水。"
+						"Zarak carries a {@item potion of invisibility}."
 					]
 				}
 			],
@@ -5870,6 +5890,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Zargash casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -5900,7 +5921,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"扎尔加什戴着一个蝙蝠形状的护身符，该护身符具有羽落环的特性。"
+						"Zargash wears a bat-shaped amulet that has the properties of a {@item ring of feather falling}."
 					]
 				}
 			],

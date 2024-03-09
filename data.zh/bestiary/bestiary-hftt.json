@@ -52,7 +52,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"妖怪在依靠嗅觉的智慧（感知）检查中具有优势。"
+						"The demogorgon has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
@@ -225,8 +225,8 @@
 				"dexterity",
 				"wisdom"
 			],
-			"hasFluff": true,
-			"hasToken": true
+			"hasToken": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Thessalhydra",
@@ -306,7 +306,7 @@
 				{
 					"name": "Tail Pincer",
 					"entries": [
-						"{@atk mw}{@hit 7}击中，到达10英尺，一个目标。{@h}10 ({@damage 1d12 + 4})的砍击伤害，并且目标是{@condition grappled}。作为一个动作，目标可以通过{@dc 14}力量(竞技)或灵巧(杂技)检定(自己选择)成功逃脱抓捕。在这个抓捕结束之前，沙蜥不能使用它的尾钳。"
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) slashing damage, and the target is {@condition grappled}. As an action, the target can escape the grapple by succeeding on a {@dc 14} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (its choice). Until this grapple ends, the thessalhydra can't use its tail pincer."
 					]
 				},
 				{
@@ -321,7 +321,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"蛇头人进行智慧（感知）检查，取得优势。"
+						"The thessalhydra makes a Wisdom ({@skill Perception}) check with advantage."
 					]
 				},
 				{

@@ -191,7 +191,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/000-00-004.divider.png"
+												"path": "adventure/CM/000-00-004.divider.webp"
 											},
 											"width": 1700,
 											"height": 222
@@ -206,7 +206,7 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/map-poster.jpg"
+						"path": "adventure/CM/map-poster.webp"
 					},
 					"title": "Poster Map",
 					"width": 5000,
@@ -216,7 +216,8 @@
 						"type": "none",
 						"size": 85,
 						"distance": 25
-					}
+					},
+					"credit": "Mike Schley"
 				}
 			]
 		},
@@ -230,12 +231,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/001-01-001.book-of-the-avowed.png"
+						"path": "adventure/CM/001-01-001.book-of-the-avowed.webp"
 					},
 					"title": "Book of the Avowed",
 					"maxWidth": 300,
 					"width": 850,
-					"height": 836
+					"height": 836,
+					"credit": "Irina Nordsol"
 				},
 				{
 					"type": "list",
@@ -375,11 +377,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/002-01-002.birds-eye-view-of-candlekeep.png"
+														"path": "adventure/CM/002-01-002.birds-eye-view-of-candlekeep.webp"
 													},
 													"title": "Bird's-eye View of Candlekeep",
 													"width": 1700,
-													"height": 1136
+													"height": 1136,
+													"credit": "Julian Kok"
 												}
 											]
 										}
@@ -460,11 +463,12 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/003-637514193172693473.png"
+								"path": "adventure/CM/003-637514193172693473.webp"
 							},
 							"title": "{@creature Sage|CM}",
 							"width": 260,
-							"height": 447
+							"height": 447,
+							"credit": "Brian Valeza"
 						}
 					]
 				},
@@ -574,7 +578,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/004-map-1.01-Candlekeep.png"
+										"path": "adventure/CM/004-map-1.01-Candlekeep.webp"
 									},
 									"imageType": "map",
 									"grid": {
@@ -583,13 +587,14 @@
 									"title": "Map 1.1: Candlekeep",
 									"width": 1710,
 									"height": 2316,
-									"id": "426"
+									"id": "426",
+									"credit": "Mike Schley"
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/005-map-1.01-Candlekeep-player.jpg"
+										"path": "adventure/CM/005-map-1.01-Candlekeep-player.webp"
 									},
 									"imageType": "mapPlayer",
 									"grid": {
@@ -601,7 +606,8 @@
 									"mapParent": {
 										"id": "426",
 										"autoScale": true
-									}
+									},
+									"credit": "Mike Schley"
 								}
 							]
 						},
@@ -663,7 +669,7 @@
 													"page": 12,
 													"id": "029",
 													"entries": [
-														"烛台镇的一个客人从其他人群中脱颖而出：一个穿着{@item headband of intellect}的混沌好{@creature ogre}。他最常被发现独自坐在壁炉间的一个角落里，看书。",
+														"One of Candlekeep's guests stands out from the rest of the crowd: a chaotic good {@creature ogre} wearing a {@item headband of intellect}. He's most often found sitting by himself in a corner of the Hearth's taproom, reading a book.",
 														"几年前，这个食人魔和他的许多同类一样--野蛮而残忍。他遇到了一个戴着闪亮的金头带的半身人冒险家，并为了它杀死了这个矮小的家伙。当食人魔适应了它之后，头带变大了，使他能够佩戴它。随着推理和思考能力的提高，食人魔感到不得不认识到自己的错误并寻求更好的生活。他采用了 \"小家伙 \"这个名字，以纪念那个被他砍掉生命的半身人。",
 														"Shunned by polite society, Little One came to Candlekeep hoping to learn as much as he could. He's a quiet but popular fixture in the keep, and the Avowed are always saying hello to him and recommending new books for him to read. He is currently reading {@i Storm King's Thunder}, by Scriers Phink. This book follows the exploits of a band of adventurers searching for a storm giant king named Hekaton, whose sudden disappearance caused great upheaval up and down the Sword Coast some years ago.",
 														"你可以用 \"小一 \"来向你的玩家角色介绍一些稀有书籍，比如这本冒险文集中所描述的那些。小家伙并不介意分享他目前正在享受的任何书籍。"
@@ -765,7 +771,7 @@
 									"page": 13,
 									"id": "033",
 									"entries": [
-										"The Emerald Door\u2014the main point of access to the Inner Ward\u2014stands at the western end of the Court of Air. It is fifteen feet tall and made of a translucent dark green stone that glows with an inner light. An {@spell arcane lock} spell seals the door, which is further warded against all damage. Here, a Keeper of the Emerald Door (a {@creature mage}) stands at all times to welcome newly arrived seekers. The Keeper uses runners to help seekers secure lodgings at the House of Rest and places to study in the Pillars of Pedagogy.",
+										"The Emerald Door—the main point of access to the Inner Ward—stands at the western end of the Court of Air. It is fifteen feet tall and made of a translucent dark green stone that glows with an inner light. An {@spell arcane lock} spell seals the door, which is further warded against all damage. Here, a Keeper of the Emerald Door (a {@creature mage}) stands at all times to welcome newly arrived seekers. The Keeper uses runners to help seekers secure lodgings at the House of Rest and places to study in the Pillars of Pedagogy.",
 										"翡翠门的守卫者礼貌地消除了寻求者对通过翡翠门和探索大图书馆的任何错误想法。如果没有特别的许可，内院是不允许寻求者进入的，这必须来自于通书守护者、第一阅读者或八位大阅读者中的一位。当这样的人允许进入内院时，按照惯例，这种同意的受益人会收到一封签名和盖章的许可信。当信被提交给翡翠门的守卫者时，蜡封必须完好无损，没有破损。守护者通过打开和阅读信件来确定信件的真实性。如果信件通过了审查，守门人就会将其归还，打开翡翠门，并允许信的主人进入内院。除非信中指定了较短或较长的时间，否则占用内院的许可将持续一个工作日，在此期间，收信人可以随意进出。",
 										"守护者可以通过成功的智慧({@skill Insight})检查和伪造者的灵巧({@skill Deception})检查来发现一封伪造的入场信。任何被发现出示伪造信件的人都会被无限期地拒绝进入内院。",
 										"被拒绝进入内院的探索者仍然可以享受烛龙镇的大部分作品。寻道者只需请一位 \"神职 \"副官取来所需的作品，并将它们送到寻道者在烛龙镇的首选学习地点（通常是教育学之柱中的一个房间）。然而，并不是所有的藏书都能以这种方式借出；最稀有和最危险的书籍只能由获准通过翡翠门的生物获取。",
@@ -774,11 +780,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/006-01-004.the-emerald-door.png"
+												"path": "adventure/CM/006-01-004.the-emerald-door.webp"
 											},
 											"title": "The Emerald Door",
 											"width": 1700,
-											"height": 1136
+											"height": 1136,
+											"credit": "Katerina Ladon"
 										}
 									]
 								}
@@ -807,7 +814,7 @@
 									"page": 14,
 									"id": "036",
 									"entries": [
-										"阿维德人将大图书馆的塔楼从其他地方零散地运来，并费尽心思地将它们重新组装起来，形成了一条由各种建筑风格的尖顶组成的天际线。在这些石头结构中，有几座塔是由奇怪的材料制成的，比如地狱之铁和早已死去的巨大红龙的骨头。",
+										"The Avowed transported the towers of the Great Library piecemeal from other locations and painstakingly reassembled them, creating a skyline of bristling spires in a panoply of architectural styles. Among the stone structures are a few towers made of stranger materials, such as infernal iron and the bones of a long-dead colossal red dragon.",
 										"Non-Avowed rarely enter the Great Library, but senior staff members occasionally bestow letters of admittance upon individuals of remarkable talent and impeccable reputation (including adventurers). These visitors may peruse the contents within, with an Avowed adjutant (a {@creature commoner}) serving as their guide. Visitors are required to stay with their guide, since those unfamiliar with the library might become lost in its labyrinthine halls and extradimensional spaces.",
 										"The oldest of the library's buildings are soaring stone affairs with floors crafted from lustrous dark wood and floor-to-ceiling shelves. Ceiling heights vary, ranging from as low as ten feet to as high as one hundred feet in the tallest towers. The Avowed use floating disks, each one large enough to hold three Medium creatures, to reach the highest shelves. {@spell Continual flame} spells light the well-traveled areas, and the Avowed employ {@item Driftglobe||driftglobes} when visiting remote sections. An intricate arrangement of mounted mirrors lights the upper reaches of the tallest chambers, reflecting sunlight by day or a {@spell continual flame} spell on cloudy days or at nights.",
 										{
@@ -835,11 +842,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/007-01-005.miirym-the-sentinel-wyrm.png"
+												"path": "adventure/CM/007-01-005.miirym-the-sentinel-wyrm.webp"
 											},
 											"title": "{@creature Miirym|CM} The Sentinel Wyrm",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Mark Behm"
 										}
 									]
 								}
@@ -900,12 +908,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/009-02-001.book.png"
+						"path": "adventure/CM/009-02-001.book.webp"
 					},
 					"title": "The Joy of Extradimensional Spaces",
 					"maxWidth": 300,
 					"width": 850,
-					"height": 880
+					"height": 880,
+					"credit": "Kieran Yanner"
 				},
 				{
 					"type": "list",
@@ -917,7 +926,7 @@
 					]
 				},
 				"{@i The Joy of Extradimensional Spaces} was donated to Candlekeep with the rest of the library of the mage Fistandia, following her untimely disappearance. In her will, Fistandia bequeathed her collection to Candlekeep in appreciation for the many years she spent in its hallowed halls. This book is a treatise on extradimensional spaces similar to those created by the {@spell Mordenkainen's magnificent mansion} spell. This information alone would make it worthy of note, but Fistandia's additions in the margins are even more interesting. In arcane shorthand, she details how she created a permanent {@spell Mordenkainen's magnificent mansion} spell and records the command word to open the mansion's doorway.",
-				"Many researchers perused this book over the years it spent in Candlekeep, but knowledge of the command word was useless without the location of the gateway to the mansion\u2014until a chance discovery by the sage Matreous, an expert in the application and removal of curses. Upon arriving at Candlekeep to further his expertise, Matreous cast {@spell detect magic}, as was his habit. The spell revealed a gateway in the very study room he had been assigned!",
+				"Many researchers perused this book over the years it spent in Candlekeep, but knowledge of the command word was useless without the location of the gateway to the mansion—until a chance discovery by the sage Matreous, an expert in the application and removal of curses. Upon arriving at Candlekeep to further his expertise, Matreous cast {@spell detect magic}, as was his habit. The spell revealed a gateway in the very study room he had been assigned!",
 				"马特鲁斯忘记了他先前的目的，他要求了解谁可能创造了这样一个通道。阿凡提的研究显示，菲斯坦迪娅每次访问城堡时都会要求这个房间。他们还发现了神秘的报告，说她很少离开这个房间，每次都是几个星期。谣言说，在她访问期间，甚至没有人看到她吃饭或睡觉。然而，她每次都会失踪好几个小时。马特鲁斯得出结论，在这些失踪的时间里，她一定是穿过了那道门。通过搜索菲斯坦迪亚捐赠给图书馆的书籍，他找到了打开门户的命令词，并走了进去。",
 				{
 					"type": "section",
@@ -998,7 +1007,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/010-map-2.01-fistandias-mansion.jpg"
+												"path": "adventure/CM/010-map-2.01-fistandias-mansion.webp"
 											},
 											"imageType": "map",
 											"title": "Map 2.1: Fistandia's Mansion",
@@ -1515,13 +1524,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/010-map-2.01-fistandias-mansion.webp"
-											}
+											},
+											"credit": "Dyson Logos"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/011-map-2.01-fistandias-mansion-player.jpg"
+												"path": "adventure/CM/011-map-2.01-fistandias-mansion-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -1535,7 +1545,8 @@
 											"height": 2135,
 											"mapParent": {
 												"id": "47b"
-											}
+											},
+											"credit": "Dyson Logos"
 										}
 									]
 								}
@@ -1628,11 +1639,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/012-637514193195635246.png"
+														"path": "adventure/CM/012-637514193195635246.webp"
 													},
 													"title": "{@creature Swarm of Animated Books|CM}",
 													"width": 400,
-													"height": 481
+													"height": 481,
+													"credit": "Kieran Yanner"
 												}
 											]
 										}
@@ -1737,9 +1749,9 @@
 											"type": "list",
 											"items": [
 												"小茴香是由菲斯坦迪亚创造的，而芫荽则说是一个叫弗里约特的法师创造的。",
-												"他们的主人很早就走了。",
+												"Their masters went away a long time ago.",
 												"他们的主人警告他们不要碰任何书脊上有单个字母的书。(同体人不知道这些有字母的书的意义）。",
-												"Fistandia曾经进入天文馆({@area area M12|069|x})，之后消失了很长一段时间。",
+												"Fistandia used to go into the planetarium ({@area area M12|069|x}) and disappear for a long time afterward.",
 												"有东西一直在图书馆里堆积书籍。(同体人没有意识到{@area area M3|04a|x}里有成群的动画书。)",
 												"菲斯坦迪亚召唤的那个小恶魔已经有一段时间没有出现了。",
 												"树木园里的小精灵龙({@area area M9|060|x})很调皮但无害。尽量避开它们的视线。"
@@ -1829,7 +1841,7 @@
 												"建筑物的这一端是一个植物园，有开放式的拱形墙。开花的灌木和小树生长在铺好的小路之间，这些小路在一个半圆形的天井中相遇。这里没有太阳，但有两个发光的球体悬挂在植物上方，让它们沐浴在光线中。到处都是五颜六色的花朵，空气中充满了它们的香味。"
 											]
 										},
-										"Two {@condition invisible} {@creature Faerie Dragon (Red)||orange faerie dragons} are perched in the trees. They are mischievous creatures, always looking for fun, but the homunculi and the cats provide little entertainment, so they hope to keep the characters in the arboretum for as long as possible so they can play with them. Giggling incessantly, they fly toward the characters, use their Euphoria Breath, and flit out of danger, still {@condition invisible}. If they are attacked, they {@action disengage} and retreat to a safe place, becoming {@condition invisible} again if their concentration is broken.",
+										"Two {@condition invisible} {@creature Faerie Dragon (Orange)||orange faerie dragons} are perched in the trees. They are mischievous creatures, always looking for fun, but the homunculi and the cats provide little entertainment, so they hope to keep the characters in the arboretum for as long as possible so they can play with them. Giggling incessantly, they fly toward the characters, use their Euphoria Breath, and flit out of danger, still {@condition invisible}. If they are attacked, they {@action disengage} and retreat to a safe place, becoming {@condition invisible} again if their concentration is broken.",
 										{
 											"type": "entries",
 											"name": "Treasure",
@@ -1933,7 +1945,7 @@
 												"这个房间里除了靠墙的一个布满锁链的书架、一张普通的木质长椅和一张建在书架上的阅读桌外，其他地方都是光秃秃的。书桌上放着一本书，封面上有一个法师的半身像。"
 											]
 										},
-										"The three shelves are filled with books bound in iron covers, which are attached to chains that secure them to the shelves\u2014a chained library. The reading desk is used to support the chained books while they are being read. This chained library has been enchanted to be jealously possessive of its contents. It attacks any creature that comes within its reach (use the accompanying {@creature animated chained library|CM} stat block).",
+										"The three shelves are filled with books bound in iron covers, which are attached to chains that secure them to the shelves—a chained library. The reading desk is used to support the chained books while they are being read. This chained library has been enchanted to be jealously possessive of its contents. It attacks any creature that comes within its reach (use the accompanying {@creature animated chained library|CM} stat block).",
 										"翡冷翠最珍贵的知识就保存在这里。这里有关于科学、奥术和炼金术的罕见书目，以及关于星球传说和召唤神奇生物的书籍。所有的书都被施了魔法的锁链牢牢地固定在书架上，不被破坏就无法解开。",
 										{
 											"type": "entries",
@@ -1955,11 +1967,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/013-02-002.the-chained-library.png"
+														"path": "adventure/CM/013-02-002.the-chained-library.webp"
 													},
 													"title": "The Chained Library",
 													"width": 1700,
-													"height": 1135
+													"height": 1135,
+													"credit": "Kieran Yanner"
 												}
 											]
 										}
@@ -1978,7 +1991,7 @@
 												"这个令人愉快的客厅的每个角落都有一把猩红的扶手椅和一张堆满书籍的阅读桌。壁炉里燃烧着欢快的火焰。壁炉上方的架子上放着一对剑，墙上挂着各种动物的头像。"
 											]
 										},
-										"The books are all poetry or heroic fiction meant for entertainment. The trophy heads\u2014a stag, a wolf, a peryton, a hell hound, and a black dragon wyrmling\u2014are purely decorative. The fire is an illusion that looks pleasant but provides no heat. The swords above the mantel are two {@creature Flying Sword||flying swords} that attack if anything in the room is touched.",
+										"The books are all poetry or heroic fiction meant for entertainment. The trophy heads—a stag, a wolf, a peryton, a hell hound, and a black dragon wyrmling—are purely decorative. The fire is an illusion that looks pleasant but provides no heat. The swords above the mantel are two {@creature Flying Sword||flying swords} that attack if anything in the room is touched.",
 										{
 											"type": "entries",
 											"name": "Puzzle Book",
@@ -2114,7 +2127,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Assembling the Books ",
+							"name": "Assembling the Books",
 							"page": 25,
 							"id": "081",
 							"entries": [
@@ -2156,12 +2169,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/015-03-001.mazfroths-mighty-digressions.png"
+						"path": "adventure/CM/015-03-001.mazfroths-mighty-digressions.webp"
 					},
 					"title": "Mazfroth's Mighty Digressions",
 					"width": 850,
 					"height": 675,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Mark Behm"
 				},
 				{
 					"type": "list",
@@ -2324,11 +2338,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/016-03-002.amberdune-books.png"
+												"path": "adventure/CM/016-03-002.amberdune-books.webp"
 											},
 											"title": "Amberdune Books",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Nikki Dawes"
 										}
 									]
 								}
@@ -2435,7 +2450,7 @@
 							"id": "099",
 							"entries": [
 								"Amberdune族群的豺狼人是Nidalia的仆人，Nidalia是一个异常善良和博学的拉米亚。豺狼人的定位是中性的邪恶，而不是混乱的邪恶，他们的目标是为自己服务，而不是主动的恶意。",
-								"因为这群人最初居住在安姆国，所以他们的人形皮肤呈暗褐色，眼睛呈褐色或蓝色，头发呈深浅不一的褐色，就像许多安姆国人一样。如果需要一个姓氏，他们使用Amberdune。",
+								"Because the pack originally resided in the nation of Amn, their humanoid forms have dusky brown skin, brown or blue eyes, and varying shades of brown hair, like many of the Amnian people. If a surname is required, they use Amberdune.",
 								"There are seven {@creature Jackalwere||jackalweres} in the Amberdune Pack, including the leader, Korvala. The other pack members are as follows:",
 								{
 									"type": "list",
@@ -2443,7 +2458,7 @@
 										"阿瓦尼，一个中年豺狼人，她认为她的职责是不让她的族群中的其他人做任何吸引观察者注意的事情。",
 										"Inbar，一个安静、矜持的豺狼人，在人类和混血儿的形态下都戴着眼镜。",
 										"Marliza，一个娇小的豺狼人，宽大的眼睛和长长的辫子掩盖了她的狡猾。",
-										"拉玛，英巴的直言不讳的弟弟，他更喜欢在安柏杜恩书店值班，大声宣讲一本小册子以吸引潜在的顾客。",
+										"Ramah, Inbar's outspoken brother, who prefers to spend his shift at Amberdune Books loudly orating from a tome to entice potential customers",
 										"泰林，一个年轻的豺狼人，有一双灵巧的手，善于修理损坏的书籍或从富人的口袋里掏出几个硬币。",
 										"瓒，最年长的群体成员，在他们整理书籍的时候安静地哼唱着"
 									]
@@ -2460,11 +2475,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/017-03-003.Korvala.png"
+												"path": "adventure/CM/017-03-003.Korvala.webp"
 											},
 											"title": "Korvala",
 											"width": 850,
-											"height": 1058
+											"height": 1058,
+											"credit": "Ernanda Souza"
 										}
 									]
 								},
@@ -2475,7 +2491,7 @@
 									"id": "09b",
 									"entries": [
 										"科瓦拉是一个32岁的{@creature jackalwere}。她身材高大，气宇轩昂，自从尼达利亚死后，她一直是这个族群的领袖。她有一种权威的气质，给她的盟友带来信心，给她的敌人带来恐惧。虽然平时很冷静，但当回忆起她和她的族群所经历的斗争，包括尼达利亚的死，科瓦拉就会变得愤怒和好斗。虽然她本身是一个有能力的领导者，但从尼达利亚手中接过来的负担是很重的。",
-										"在她活着的时候，尼达利亚教给了科瓦拉创造 \"Gingwatzims \"的仪式。狼群的其他成员知道这个仪式，但当Korvala进行这个仪式时，他们从不在场。尼达利亚的{@spell geas}咒语迫使科瓦拉保守这个仪式的秘密，虽然她不再受咒语的影响，但科瓦拉拒绝透露关于这个仪式的信息。",
+										"While she was alive, Nidalia taught Korvala the ritual to create gingwatzims. The other members of the pack know of the ritual but are never present when Korvala performs it. Nidalia's {@spell geas} spell forced Korvala to keep the ritual a secret, and although she's no longer under the spell's effect, Korvala refuses to divulge information about the ritual.",
 										{
 											"type": "entries",
 											"name": "Personality Trait",
@@ -2531,7 +2547,7 @@
 							"page": 31,
 							"id": "0a1",
 							"entries": [
-								"如果角色们在冒险的早期让{@creature wererat}Mushika逃脱，那么当他们穿过黑门向Amberdune的藏身处前进时，他就会试图进行报复。但是，如果角色们有一个或多个安柏杜恩族群的成员陪同，穆希卡就会让他们单独行动。他知道科瓦拉和她的同伙是豺狼人，而且他听到了一些谣言，说他们为一种叫做拉米亚的更强大的生物服务。",
+								"If the characters allowed the {@creature wererat} Mushika to escape earlier in the adventure, he tries to get his revenge as they make their way through Blackgate toward the Amberdune hideout. But if the characters are accompanied by one or more members of the Amberdune Pack, Mushika leaves them alone. He knows Korvala and her associates are jackalweres, and he's heard rumors that they serve a more powerful creature called a lamia.",
 								"穆希卡变成了人形，身边有一个{@creature swarm of rats}和两个人类{@creature Thug||thugs}，名叫Alaspar和Sufeni。穆希卡承诺将这两个暴徒变成狼人，但首先他们必须通过帮助他杀死这些人物来证明自己的价值。如果虫群或两个打手被打败了，穆希卡会试图逃离战斗。他和打手们都没有任何财宝。"
 							]
 						}
@@ -2543,7 +2559,7 @@
 					"page": 31,
 					"id": "0a2",
 					"entries": [
-						"安柏杜恩的藏身之处是一个破旧的木墙小屋，位于黑门区的一个角落里，隐藏在一条狭窄的街道上。",
+						"The Amberdune hideout, a dilapidated hovel with wooden walls, is located on a narrow street tucked away in a corner of the Blackgate district.",
 						{
 							"type": "gallery",
 							"images": [
@@ -2551,7 +2567,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/018-map-3.01-amberdune-hideout.jpg"
+										"path": "adventure/CM/018-map-3.01-amberdune-hideout.webp"
 									},
 									"imageType": "map",
 									"grid": {
@@ -2799,13 +2815,14 @@
 									"hrefThumbnail": {
 										"type": "internal",
 										"path": "adventure/CM/thumbnail/018-map-3.01-amberdune-hideout.webp"
-									}
+									},
+									"credit": "Sean MacDonald"
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/019-map-3.01-amberdune-hideout-player.jpg"
+										"path": "adventure/CM/019-map-3.01-amberdune-hideout-player.webp"
 									},
 									"imageType": "mapPlayer",
 									"grid": {
@@ -2819,7 +2836,8 @@
 									"height": 3000,
 									"mapParent": {
 										"id": "47c"
-									}
+									},
+									"credit": "Sean MacDonald"
 								}
 							]
 						},
@@ -3116,12 +3134,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/021-04-001.book-of-the-raven.png"
+						"path": "adventure/CM/021-04-001.book-of-the-raven.webp"
 					},
 					"title": "Book of the Raven",
 					"width": 850,
 					"height": 811,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Irina Nordsol"
 				},
 				{
 					"type": "list",
@@ -3203,7 +3222,7 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/022-04-002.map-handout.png"
+								"path": "adventure/CM/022-04-002.map-handout.webp"
 							},
 							"width": 2213,
 							"height": 3000,
@@ -3211,7 +3230,8 @@
 							"grid": {
 								"type": "none"
 							},
-							"title": "Map of Mystery"
+							"title": "Map of Mystery",
+							"credit": "Claudio Pozas"
 						},
 						{
 							"type": "entries",
@@ -3456,11 +3476,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/023-04-003.Chalet-Brantifax.png"
+												"path": "adventure/CM/023-04-003.Chalet-Brantifax.webp"
 											},
 											"title": "Chalet Brantifax",
 											"width": 1700,
-											"height": 1098
+											"height": 1098,
+											"credit": "Julian Kok"
 										},
 										{
 											"type": "table",
@@ -3541,7 +3562,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/024-map-4.01-chalet-brantifax.jpg"
+												"path": "adventure/CM/024-map-4.01-chalet-brantifax.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -4689,13 +4710,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/024-map-4.01-chalet-brantifax.webp"
-											}
+											},
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/025-map-4.01-chalet-brantifax-player.jpg"
+												"path": "adventure/CM/025-map-4.01-chalet-brantifax-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -4709,7 +4731,8 @@
 											"height": 2042,
 											"mapParent": {
 												"id": "47d"
-											}
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								}
@@ -4895,7 +4918,7 @@
 											"entries": [
 												"{@i Baron Brantifax}",
 												"{@i Husband, Father, Hunter}",
-												"{@i \"Let No Man Stand Above Another\"} ",
+												"{@i \"Let No Man Stand Above Another\"}",
 												"{@i BRORN}",
 												"{@i Hound of Brantifax}",
 												"{@i Faithful to the End}",
@@ -5062,10 +5085,11 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/026-04-004.Orcus-Figurine.png"
+														"path": "adventure/CM/026-04-004.Orcus-Figurine.webp"
 													},
 													"width": 850,
-													"height": 1544
+													"height": 1544,
+													"credit": "Christopher Burdett"
 												},
 												{
 													"type": "inset",
@@ -5186,7 +5210,7 @@
 					"page": 46,
 					"id": "112",
 					"entries": [
-						"Sylphene, the baron's deformed daughter, was a tortured soul. After she was interred, her grave became a shadow crossing\u2014a gateway to the Shadowfell. To use this gate, the characters must first open Sylphene's grave and remove the coffin (see {@area area C9|0f4|x}). In the darkest hours of the night, fog leaches into the open grave and fills it. Any creature that lies down in the fog-filled grave at night is instantly transported to a similar dug-up grave in the Shadowfell. There's nothing on the Shadowfell side of the crossing as grand as Chalet Brantifax, but the topography is similar, with a matching burial site situated in the middle of a large necropolis full of open graves, tilted headstones worn bare of inscriptions, and plundered mausoleums. The necropolis, which is roughly circular and 300 feet in diameter, is home to a host of creatures that attack the characters in waves:",
+						"Sylphene, the baron's deformed daughter, was a tortured soul. After she was interred, her grave became a shadow crossing—a gateway to the Shadowfell. To use this gate, the characters must first open Sylphene's grave and remove the coffin (see {@area area C9|0f4|x}). In the darkest hours of the night, fog leaches into the open grave and fills it. Any creature that lies down in the fog-filled grave at night is instantly transported to a similar dug-up grave in the Shadowfell. There's nothing on the Shadowfell side of the crossing as grand as Chalet Brantifax, but the topography is similar, with a matching burial site situated in the middle of a large necropolis full of open graves, tilted headstones worn bare of inscriptions, and plundered mausoleums. The necropolis, which is roughly circular and 300 feet in diameter, is home to a host of creatures that attack the characters in waves:",
 						{
 							"type": "list",
 							"items": [
@@ -5221,7 +5245,7 @@
 															"type": "image",
 															"href": {
 																"type": "internal",
-																"path": "adventure/CM/027-map-4.02-harrn-mausoleum.jpg"
+																"path": "adventure/CM/027-map-4.02-harrn-mausoleum.webp"
 															},
 															"imageType": "map",
 															"grid": {
@@ -5233,13 +5257,14 @@
 															"title": "Map 4.02: Harrn Mausoleum",
 															"width": 2207,
 															"height": 3000,
-															"id": "563"
+															"id": "563",
+															"credit": "Mike Schley"
 														},
 														{
 															"type": "image",
 															"href": {
 																"type": "internal",
-																"path": "adventure/CM/028-map-4.02-harrn-mausoleum-player.jpg"
+																"path": "adventure/CM/028-map-4.02-harrn-mausoleum-player.webp"
 															},
 															"imageType": "mapPlayer",
 															"grid": {
@@ -5253,7 +5278,8 @@
 															"height": 3000,
 															"mapParent": {
 																"id": "563"
-															}
+															},
+															"credit": "Mike Schley"
 														}
 													]
 												}
@@ -5342,12 +5368,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/030-05-001.book.png"
+						"path": "adventure/CM/030-05-001.book.webp"
 					},
 					"title": "A Deep and Creeping Darkness",
 					"width": 850,
 					"height": 931,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Mark Behm"
 				},
 				{
 					"type": "list",
@@ -5447,11 +5474,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/031-05-002.Lukas-Grosvenor.png"
+												"path": "adventure/CM/031-05-002.Lukas-Grosvenor.webp"
 											},
 											"title": "Lukas Grosvenor",
 											"width": 830,
-											"height": 766
+											"height": 766,
+											"credit": "Mark Behm"
 										},
 										"{@i Neutral good human tavernkeeper (age 95)}",
 										"卢卡斯很有耐心，尽管他不受愚弄。他对任何给他好话或好小费的人都有一个迷人的微笑。他驼背的肩膀上只有一丝曾经拥有的力量，他的手因为多年的工作而长满了茧。",
@@ -5513,11 +5541,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/032-05-003.Astra-Vorn.png"
+												"path": "adventure/CM/032-05-003.Astra-Vorn.webp"
 											},
 											"title": "Astra Vorn",
 											"width": 850,
-											"height": 1155
+											"height": 1155,
+											"credit": "Mark Behm"
 										},
 										"{@i Lawful good half-elf florist (age 78)}",
 										"阿斯特拉有苍白的皮肤，齐肩的红发中夹杂着白色的条纹，还有一双浑浊的蓝眼睛。他们在市场上经营一个鲜花摊位。阿斯特拉友善而又有点怀念，她与任何在其摊位前停留的人聊天，就像听到最近的消息一样高兴，因为她要做一笔买卖。",
@@ -5644,7 +5673,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/033-map-5.01-vermeillon.jpg"
+												"path": "adventure/CM/033-map-5.01-vermeillon.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -5893,13 +5922,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/033-map-5.01-vermeillon.webp"
-											}
+											},
+											"credit": "Time Hartin"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/034-map-5.01-vermeillon-player.jpg"
+												"path": "adventure/CM/034-map-5.01-vermeillon-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -5914,7 +5944,8 @@
 											"height": 2062,
 											"mapParent": {
 												"id": "564"
-											}
+											},
+											"credit": "Time Hartin"
 										}
 									]
 								},
@@ -6058,11 +6089,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/035-05-004.Dead-tree.png"
+												"path": "adventure/CM/035-05-004.Dead-tree.webp"
 											},
 											"title": "Dead Tree, Old House",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Robin Olausson"
 										}
 									]
 								}
@@ -6083,7 +6115,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/036-map-5.02-mayor-duvezins-house.jpg"
+												"path": "adventure/CM/036-map-5.02-mayor-duvezins-house.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -6524,13 +6556,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/036-map-5.02-mayor-duvezins-house.webp"
-											}
+											},
+											"credit": "Time Hartin"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/037-map-5.02-mayor-duvezins-house-player.jpg"
+												"path": "adventure/CM/037-map-5.02-mayor-duvezins-house-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -6544,7 +6577,8 @@
 											"height": 3000,
 											"mapParent": {
 												"id": "565"
-											}
+											},
+											"credit": "Time Hartin"
 										}
 									]
 								},
@@ -6764,7 +6798,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/038-map-5.03-platinum-mine.jpg"
+												"path": "adventure/CM/038-map-5.03-platinum-mine.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -8115,13 +8149,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/038-map-5.03-platinum-mine.webp"
-											}
+											},
+											"credit": "Time Hartin"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/039-map-5.03-platinum-mine-player.jpg"
+												"path": "adventure/CM/039-map-5.03-platinum-mine-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -8135,7 +8170,8 @@
 											"height": 2132,
 											"mapParent": {
 												"id": "566"
-											}
+											},
+											"credit": "Time Hartin"
 										}
 									]
 								},
@@ -8352,11 +8388,12 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/040-636463380268253619.png"
+								"path": "adventure/CM/040-636463380268253619.webp"
 							},
 							"title": "{@creature Meenlock|VGM}",
 							"width": 399,
-							"height": 408
+							"height": 408,
+							"credit": "Filip Burburan"
 						},
 						{
 							"type": "entries",
@@ -8421,12 +8458,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/042-06-001.Book.png"
+						"path": "adventure/CM/042-06-001.Book.webp"
 					},
 					"title": "{@creature Shemshime|CM}'s Bedtime Rhyme",
 					"width": 850,
 					"height": 673,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Zoltan Boros"
 				},
 				{
 					"type": "list",
@@ -8480,7 +8518,7 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/043-06-002.handout.png"
+								"path": "adventure/CM/043-06-002.handout.webp"
 							},
 							"width": 850,
 							"height": 1888
@@ -8816,11 +8854,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/044-06-003.Crinkle.png"
+										"path": "adventure/CM/044-06-003.Crinkle.webp"
 									},
 									"title": "Crinkle",
 									"width": 850,
-									"height": 1244
+									"height": 1244,
+									"credit": "Tyler Walpole"
 								},
 								"{@i Chaotic neutral kenku custodian (age 55)}",
 								"在过去的二十二年里，这只年迈的Kenku一直住在萤火虫地窖里，作为其监护人和萤火虫的看护人。她已经失去了许多羽毛，剩下的那些羽毛也被折断了，变得凌乱不堪。她拿着一根末端有钩子的长杖，用它来更换悬挂在天花板上的萤火虫灯。",
@@ -9136,11 +9175,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/045-06-004.scenes-in-the-opened-book.png"
+										"path": "adventure/CM/045-06-004.scenes-in-the-opened-book.webp"
 									},
 									"title": "Scenes in the Opened Book",
 									"width": 1700,
-									"height": 1135
+									"height": 1135,
+									"credit": "Zoltan Boros"
 								}
 							]
 						},
@@ -9192,11 +9232,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/046-637514193181534197.png"
+												"path": "adventure/CM/046-637514193181534197.webp"
 											},
 											"title": "{@creature Shemshime|CM}",
 											"width": 350,
-											"height": 495
+											"height": 495,
+											"credit": "Tyler Walpole"
 										}
 									]
 								},
@@ -9265,7 +9306,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/047-map-6.01-firefly-cellar.jpg"
+										"path": "adventure/CM/047-map-6.01-firefly-cellar.webp"
 									},
 									"imageType": "map",
 									"grid": {
@@ -10189,13 +10230,14 @@
 									"hrefThumbnail": {
 										"type": "internal",
 										"path": "adventure/CM/thumbnail/047-map-6.01-firefly-cellar.webp"
-									}
+									},
+									"credit": "Dyson Logos"
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/048-map-6.01-firefly-cellar-player.jpg"
+										"path": "adventure/CM/048-map-6.01-firefly-cellar-player.webp"
 									},
 									"imageType": "mapPlayer",
 									"grid": {
@@ -10209,7 +10251,8 @@
 									"height": 3000,
 									"mapParent": {
 										"id": "567"
-									}
+									},
+									"credit": "Dyson Logos"
 								}
 							]
 						},
@@ -10560,12 +10603,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/050-07-001.Book.png"
+						"path": "adventure/CM/050-07-001.Book.webp"
 					},
 					"title": "The Price of Beauty",
 					"width": 850,
 					"height": 1072,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Caroline Gariba"
 				},
 				{
 					"type": "list",
@@ -10643,11 +10687,12 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/051-07-002.azirssa.png"
+								"path": "adventure/CM/051-07-002.azirssa.webp"
 							},
 							"title": "Azirssa, Greensong, and Morganna",
 							"width": 1700,
-							"height": 1135
+							"height": 1135,
+							"credit": "Caroline Gariba"
 						},
 						{
 							"type": "entries",
@@ -10706,7 +10751,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Vile Sazha ",
+									"name": "Vile Sazha",
 									"page": 77,
 									"id": "1fc",
 									"entries": [
@@ -11048,7 +11093,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/052-map-7.01-temple-of-the-restful-lily.jpg"
+												"path": "adventure/CM/052-map-7.01-temple-of-the-restful-lily.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -11640,13 +11685,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/052-map-7.01-temple-of-the-restful-lily.webp"
-											}
+											},
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/053-map-7.01-temple-of-the-restful-lily-player.jpg"
+												"path": "adventure/CM/053-map-7.01-temple-of-the-restful-lily-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -11660,7 +11706,8 @@
 											"height": 3000,
 											"mapParent": {
 												"id": "568"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								},
@@ -11809,11 +11856,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/054-637266349920661945.png"
+														"path": "adventure/CM/054-637266349920661945.webp"
 													},
-													"title": "{@creature Naiad|MOT}",
-													"width": 250,
-													"height": 250
+													"title": "{@creature Naiad|CM}",
+													"width": 489,
+													"height": 1000,
+													"credit": "Caroline Gariba"
 												}
 											]
 										}
@@ -12040,7 +12088,7 @@
 															"type": "image",
 															"href": {
 																"type": "internal",
-																"path": "adventure/CM/055-map-7.02-temple-of-the-restful-lily.jpg"
+																"path": "adventure/CM/055-map-7.02-temple-of-the-restful-lily.webp"
 															},
 															"imageType": "map",
 															"grid": {
@@ -12049,7 +12097,7 @@
 																"offsetX": 6,
 																"offsetY": 14
 															},
-															"title": "Map 7.2: Temple of the Restful Lily\u2014Tower Floors",
+															"title": "Map 7.2: Temple of the Restful Lily—Tower Floors",
 															"width": 2063,
 															"height": 1425,
 															"id": "569",
@@ -12486,13 +12534,14 @@
 															"hrefThumbnail": {
 																"type": "internal",
 																"path": "adventure/CM/thumbnail/055-map-7.02-temple-of-the-restful-lily.webp"
-															}
+															},
+															"credit": "Sean MacDonald"
 														},
 														{
 															"type": "image",
 															"href": {
 																"type": "internal",
-																"path": "adventure/CM/056-map-7.02-temple-of-the-restful-lily-player.jpg"
+																"path": "adventure/CM/056-map-7.02-temple-of-the-restful-lily-player.webp"
 															},
 															"imageType": "mapPlayer",
 															"grid": {
@@ -12506,7 +12555,8 @@
 															"height": 1425,
 															"mapParent": {
 																"id": "569"
-															}
+															},
+															"credit": "Sean MacDonald"
 														}
 													]
 												}
@@ -12516,7 +12566,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "T13\u2013T18. Tower",
+									"name": "T13–T18. Tower",
 									"page": 88,
 									"id": "238",
 									"entries": [
@@ -12676,7 +12726,7 @@
 											"page": 90,
 											"id": "249",
 											"entries": [
-												"Scratched into the floor at the top of the stairs is a glyph created by a {@spell glyph of warding} spell. The hags use this glyph to eliminate intruders. It can be detected with a successful DC 13 Intelligence ({@skill Investigation}) check and triggers when any creature except the hags or their minions passes over it. When triggered, the glyph splashes acid in a 20-foot-radius sphere centered on it\u2014big enough to splatter the whole room and the central staircase, top to bottom. This sphere spreads around corners. Each creature in the area must make a DC 13 Dexterity saving throw, taking 22 ({@dice 5d8}) acid damage on a failed save, or half as much damage on a successful one."
+												"Scratched into the floor at the top of the stairs is a glyph created by a {@spell glyph of warding} spell. The hags use this glyph to eliminate intruders. It can be detected with a successful DC 13 Intelligence ({@skill Investigation}) check and triggers when any creature except the hags or their minions passes over it. When triggered, the glyph splashes acid in a 20-foot-radius sphere centered on it—big enough to splatter the whole room and the central staircase, top to bottom. This sphere spreads around corners. Each creature in the area must make a DC 13 Dexterity saving throw, taking 22 ({@dice 5d8}) acid damage on a failed save, or half as much damage on a successful one."
 											]
 										},
 										{
@@ -12743,12 +12793,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/058-08-001.Book-of-cylinders.png"
+						"path": "adventure/CM/058-08-001.Book-of-cylinders.webp"
 					},
 					"title": "Book of Cylinders",
 					"width": 850,
 					"height": 668,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Sam Keiser"
 				},
 				{
 					"type": "list",
@@ -12790,7 +12841,7 @@
 							"page": 91,
 							"id": "253",
 							"entries": [
-								"如果人物同意承担任务，佩尔克就把{@i Book of Cylinders}交给他们并说。",
+								"If the characters agree to undertake the quest, Pelk hands them the {@i Book of Cylinders} and says:",
 								{
 									"type": "insetReadaloud",
 									"id": "254",
@@ -12803,11 +12854,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/059-08-002.wooden-cylinders.png"
+										"path": "adventure/CM/059-08-002.wooden-cylinders.webp"
 									},
 									"title": "Wooden Cylinders",
 									"width": 850,
-									"height": 648
+									"height": 648,
+									"credit": "Sam Keiser"
 								},
 								"每个圆筒的外面都写满了文字和简单的图像，显然是在讲述一个三部分的故事。如果人物无法弄清楚圆筒所要表达的内容，佩尔克或烛台镇的其他工作人员可以给他们提供指导。",
 								"第一步是将一些粘土从袋子里取出来，与水混合成厚厚的糊状，然后将湿粘土在一个平面上铺成薄薄的一层。将其中一个圆柱体在这个表面上滚动，将文字压入粘土中，使其可读。对每个圆柱体重复这一过程后，人物就有了完整的故事，并可以利用这些知识来决定他们接下来的行动。",
@@ -12953,11 +13005,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/060-08-003.Crab-maze.png"
+												"path": "adventure/CM/060-08-003.Crab-maze.webp"
 											},
 											"title": "Crab Maze",
 											"width": 1700,
-											"height": 1099
+											"height": 1099,
+											"credit": "Sam Keiser"
 										}
 									]
 								}
@@ -12986,7 +13039,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/061-map-8.01-grippli-village.jpg"
+												"path": "adventure/CM/061-map-8.01-grippli-village.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -12998,13 +13051,14 @@
 											"title": "Map 8.1: Grippli Village",
 											"width": 3000,
 											"height": 2134,
-											"id": "56a"
+											"id": "56a",
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/062-map-8.01-grippli-village-player.jpg"
+												"path": "adventure/CM/062-map-8.01-grippli-village-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -13018,7 +13072,8 @@
 											"height": 2134,
 											"mapParent": {
 												"id": "56a"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								},
@@ -13094,7 +13149,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/063-map-8.02-temple.jpg"
+												"path": "adventure/CM/063-map-8.02-temple.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -13154,13 +13209,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/063-map-8.02-temple.webp"
-											}
+											},
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/064-map-8.02-temple-player.jpg"
+												"path": "adventure/CM/064-map-8.02-temple-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -13174,13 +13230,14 @@
 											"height": 3000,
 											"mapParent": {
 												"id": "56b"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "T1. Courtyard ",
+									"name": "T1. Courtyard",
 									"page": 97,
 									"id": "26a",
 									"entries": [
@@ -13278,11 +13335,12 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/065-637514193136770284.png"
+								"path": "adventure/CM/065-637514193136770284.webp"
 							},
 							"title": "{@creature Grippli Warrior|CM}",
 							"width": 399,
-							"height": 633
+							"height": 633,
+							"credit": "April Prime"
 						},
 						{
 							"type": "entries",
@@ -13329,12 +13387,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/067-09-001.book.png"
+						"path": "adventure/CM/067-09-001.book.webp"
 					},
 					"title": "Sarah of Yellowcrest Manor",
 					"width": 850,
 					"height": 906,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Irina Nordsol"
 				},
 				{
 					"type": "list",
@@ -13432,11 +13491,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/068-09-002.sarahs-ghost.png"
+										"path": "adventure/CM/068-09-002.sarahs-ghost.webp"
 									},
 									"title": "Sarah's Ghost",
 									"width": 850,
-									"height": 1320
+									"height": 1320,
+									"credit": "Katerina Ladon"
 								}
 							]
 						}
@@ -13487,7 +13547,7 @@
 							"page": 102,
 							"id": "283",
 							"entries": [
-								"The crude sketch composed by Sarah shows the monster on the leather-bound cover of the book Lord Viallis was reading. This creature is a representation of the statue in {@area area B7|2bb|x} of the temple of the Burnt Tongue Cult. Knowing that Candlekeep is the best possible place to learn about a mysterious book, the characters can spend a day or two in diligent research to turn up references in other works to a book whose cover matches Sarah's sketch\u2014a tome called {@i Retribution of the Ancients}.",
+								"The crude sketch composed by Sarah shows the monster on the leather-bound cover of the book Lord Viallis was reading. This creature is a representation of the statue in {@area area B7|2bb|x} of the temple of the Burnt Tongue Cult. Knowing that Candlekeep is the best possible place to learn about a mysterious book, the characters can spend a day or two in diligent research to turn up references in other works to a book whose cover matches Sarah's sketch—a tome called {@i Retribution of the Ancients}.",
 								"这部作品不属于烛台镇的收藏品，但有几个 \"神赐者 \"知道它的名声。它是一部黑暗的仪式性魔法作品，其内容在错误的人手中可能是致命的。"
 							]
 						}
@@ -13521,7 +13581,7 @@
 										{
 											"type": "list",
 											"items": [
-												"这座庄园以前属于Yellowcrest家族，他们中的大多数人在一个晚上被杀。",
+												"The manor was previously owned by the Yellowcrest family, most of whom were killed one night.",
 												"虽然事件的全部细节从未公开，但有传言说，玛丽亚夫人、她的三个孩子和四个仆人都被刺死了，然后被割掉了舌头。",
 												"该家族唯一的幸存者是维阿里斯勋爵，据说他那天不在城里。",
 												"谋杀案发生后，Viallis卖掉了庄园和他所有的家庭财产，然后搬到了乡下的一个小村庄。",
@@ -13540,16 +13600,17 @@
 							"entries": [
 								"通过几个小时在贸易区的打听，这些人物得以确认Viallis勋爵仍然拥有的三家鞋匠店、两家皮革加工店和两家制革厂。Yellowcrest的企业都是不伦不类的，没有一个工人或经理认识Viallis勋爵本人，也不知道他的行踪，只知道他住在 \"乡下的某个地方\"。",
 								"The characters can get on the good side of one of the cobblers or tannery managers working for Viallis with a successful DC 15 Charisma ({@skill Persuasion}) check or 10 gp in bribes. Doing so earns them the knowledge that Lord Viallis has an overseer who comes once every second tenday to check the books of each enterprise, pay wages, and collect profits. The overseer, an elf named {@creature Faerl|CM}, lives in the village of Greenfast southeast of Waterdeep, and is expected in the city in two days.",
-								"The characters are free to head for the village in search of more clues, in which you can case skip to the \"{@area Greenfast|298|x}\" section later in the adventure. They can also wait in Waterdeep to try to talk to {@creature Faerl|CM}. The overseer arrives two days later, and spends that day visiting each business in turn. Characters who stake out any of those locations can see {@creature Faerl|CM} as he arrives just after noon in a private coach, which barely fits along the narrow Trades Ward streets where the Yellowcrest businesses are located. His bodyguards include two {@creature Cult Fanatic||cult fanatics}, three {@creature Thug||thugs}, and two {@creature Veteran||veterans}\u2014all on horseback. The driver of the coach is an unarmed {@creature commoner}. The characters can easily perceive that this is an unusually large entourage, even for someone carrying money.",
+								"The characters are free to head for the village in search of more clues, in which you can case skip to the \"{@area Greenfast|298|x}\" section later in the adventure. They can also wait in Waterdeep to try to talk to {@creature Faerl|CM}. The overseer arrives two days later, and spends that day visiting each business in turn. Characters who stake out any of those locations can see {@creature Faerl|CM} as he arrives just after noon in a private coach, which barely fits along the narrow Trades Ward streets where the Yellowcrest businesses are located. His bodyguards include two {@creature Cult Fanatic||cult fanatics}, three {@creature Thug||thugs}, and two {@creature Veteran||veterans}—all on horseback. The driver of the coach is an unarmed {@creature commoner}. The characters can easily perceive that this is an unusually large entourage, even for someone carrying money.",
 								{
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/069-09-003.faerl.png"
+										"path": "adventure/CM/069-09-003.faerl.webp"
 									},
 									"title": "{@creature Faerl|CM}",
 									"width": 850,
-									"height": 982
+									"height": 982,
+									"credit": "Nikki Dawes"
 								},
 								{
 									"type": "entries",
@@ -13606,7 +13667,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Speaking of the Past ",
+									"name": "Speaking of the Past",
 									"page": 104,
 									"id": "28d",
 									"entries": [
@@ -13637,7 +13698,7 @@
 											"page": 104,
 											"id": "28f",
 											"entries": [
-												"If the characters overcome {@creature Faerl|CM} and the bodyguards and prevent {@creature Faerl|CM} from leaving, a search of the coach turns up a locked iron strongbox. {@creature Faerl|CM} carries the key. As an action, a character can try to pick the lock using thieves' tools, doing so with a successful DC 15 Dexterity check, or pry the box open with a successful DC 18 Strength ({@skill Athletics}) check. Inside are the profits from the establishments {@creature Faerl|CM} has already visited that day\u201435 gp and 400 sp.",
+												"If the characters overcome {@creature Faerl|CM} and the bodyguards and prevent {@creature Faerl|CM} from leaving, a search of the coach turns up a locked iron strongbox. {@creature Faerl|CM} carries the key. As an action, a character can try to pick the lock using thieves' tools, doing so with a successful DC 15 Dexterity check, or pry the box open with a successful DC 18 Strength ({@skill Athletics}) check. Inside are the profits from the establishments {@creature Faerl|CM} has already visited that day—35 gp and 400 sp.",
 												"{@creature Faerl|CM}在他的腰带上带着一个{@item Potion of Superior Healing||potion of healing (superior)}，在一个皮袋里带着20金币。他佩戴的珠宝总价值为20戈比。"
 											]
 										}
@@ -13657,11 +13718,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/070-09-004.Sir-vecken.png"
+										"path": "adventure/CM/070-09-004.Sir-vecken.webp"
 									},
 									"title": "Sir Vecken",
 									"width": 850,
-									"height": 813
+									"height": 813,
+									"credit": "Nikki Dawes"
 								},
 								{
 									"type": "entries",
@@ -13719,7 +13781,7 @@
 										{
 											"type": "list",
 											"items": [
-												"谋杀案发生后，莎拉和其他三名仆人的遗体被安葬在公共墓地--沃特德普的死亡之城。而玛丽亚夫人和她的孩子们的遗体则没有。",
+												"After the murders, the remains of Sarah and the other three servants were interred in the public cemetery, Waterdeep's City of the Dead. The remains of Lady Maria and her children were not.",
 												"维肯记得有人说过，维阿里斯大人希望他的妻子和孩子被安葬在他的新家附近，这样他就不需要再回到沃特德普去看他们了。"
 											]
 										},
@@ -13762,7 +13824,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/071-map-9.01-greenfast.jpg"
+												"path": "adventure/CM/071-map-9.01-greenfast.webp"
 											},
 											"imageType": "map",
 											"title": "Map 9.1: Greenfast",
@@ -13970,13 +14032,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/071-map-9.01-greenfast.webp"
-											}
+											},
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/072-map-9.01-greenfast-player.jpg"
+												"path": "adventure/CM/072-map-9.01-greenfast-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -13987,7 +14050,8 @@
 											"height": 2134,
 											"mapParent": {
 												"id": "56c"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								},
@@ -14076,7 +14140,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Temple of the Burnt Tongue Cult ",
+					"name": "Temple of the Burnt Tongue Cult",
 					"page": 108,
 					"id": "2a1",
 					"entries": [
@@ -14112,7 +14176,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Temple Locations ",
+							"name": "Temple Locations",
 							"page": 108,
 							"id": "2a5",
 							"entries": [
@@ -14124,7 +14188,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/073-map-9.02-temple-of-the-burnt-tongue-cult.jpg"
+												"path": "adventure/CM/073-map-9.02-temple-of-the-burnt-tongue-cult.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -14809,13 +14873,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/073-map-9.02-temple-of-the-burnt-tongue-cult.webp"
-											}
+											},
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/074-map-9.02-temple-of-the-burnt-tongue-cult-player.jpg"
+												"path": "adventure/CM/074-map-9.02-temple-of-the-burnt-tongue-cult-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -14829,7 +14894,8 @@
 											"height": 3000,
 											"mapParent": {
 												"id": "56d"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								}
@@ -14855,7 +14921,7 @@
 												"楼梯下降了30英尺，然后通向一个由加工过的石头组成的房间。入口两侧有两个火炉，燃烧着非自然的海蓝色的光。柱子站成两排，每根柱子上都雕刻着其他世界的生物的面孔。一个喷泉在房间的远端静静地流淌，在一扇双门前。另一扇门沿西墙而立，对面的墙似乎已经倒塌，露出了外面的一条粗糙的通道。"
 											]
 										},
-										"Two {@creature Grell||grells} and four {@creature Cultist||cultists} stand guard in this chamber. If the characters made any obvious noise as they descended the stairs (including talking), these guardians try to hide along the walls adjacent to the stairs, behind the braziers\u2014the cultists on the ground and the grells in the air. Combat here alerts the {@creature cult fanatic} in {@area area B3|2b1|x}, who flees to {@area area B7|2bb|x} to warn Lord Viallis of intruders.",
+										"Two {@creature Grell||grells} and four {@creature Cultist||cultists} stand guard in this chamber. If the characters made any obvious noise as they descended the stairs (including talking), these guardians try to hide along the walls adjacent to the stairs, behind the braziers—the cultists on the ground and the grells in the air. Combat here alerts the {@creature cult fanatic} in {@area area B3|2b1|x}, who flees to {@area area B7|2bb|x} to warn Lord Viallis of intruders.",
 										{
 											"type": "entries",
 											"name": "Fountain",
@@ -15030,11 +15096,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/075-09-005.Viallis-yellowcrest.png"
+												"path": "adventure/CM/075-09-005.Viallis-yellowcrest.webp"
 											},
 											"title": "Viallis Yellowcrest",
 											"width": 850,
-											"height": 980
+											"height": 980,
+											"credit": "Nikki Dawes"
 										},
 										"Lord Viallis Yellowcrest (a chaotic evil human {@creature mage}) is performing a lengthy ritual that requires his undivided attention. He is surrounded by servants (see below), a bloodstained knife in his hand. The bodies of two adult humans lie dead on the altar in front of the statue, having just been sacrificed. See the \"Lord Viallis\" sidebar for additional guidance on how to portray this mad villain.",
 										"一个{@creature grell}和两个{@creature Cultist||cultists}站在Viallis大人身边，但为了击退入侵者而脱离了仪式，让他独自完成。",
@@ -15329,12 +15396,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/077-10-001.lore-of-lurue.png"
+						"path": "adventure/CM/077-10-001.lore-of-lurue.webp"
 					},
 					"title": "Lore of Lurue",
 					"width": 850,
 					"height": 727,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Katerina Ladon"
 				},
 				{
 					"type": "list",
@@ -15468,27 +15536,27 @@
 											],
 											"rows": [
 												[
-													"1\u20135",
+													"1–5",
 													"没有遇到过。"
 												],
 												[
-													"6\u20137",
+													"6–7",
 													"Three {@creature Swarm of Ravens||swarms of ravens} fly overhead. A successful DC 14 Dexterity ({@skill Stealth}) group check allows the party to pass them by without being noticed. If the group check fails, the swarms attack."
 												],
 												[
-													"8\u20139",
+													"8–9",
 													"两个饥饿的{@creature Wereboar||wereboars}人从灌木丛中闯出来，袭击队伍。"
 												],
 												[
-													"10\u201313",
+													"10–13",
 													"附近的一棵树流淌着金色的汁液。成功通过DC16智力({@skill Nature})或智慧({@skill Survival})检查，可以发现树液有治疗的特性。(萨提尔知道这些特性。)任何吃了树液的人都会恢复{@dice 2d4 + 2}的生命值。这棵树有足够的树液供四次服用。"
 												],
 												[
-													"14\u201316",
+													"14–16",
 													"Three human {@creature Berserker||berserkers} pass nearby while on a hunt, pursuing a family of deer. If the characters make their presence known, the berserkers attack them instead."
 												],
 												[
-													"17\u201320",
+													"17–20",
 													"四个受伤的人{@creature Wolf||wolves}来到队伍中，但保持距离。每个人都有(1%)的剩余生命值。如果接近它们，它们会本能地咆哮，但很快又痛苦地呜咽。它们沾满血迹的皮毛是最近狼群被攻击的证据（它们被猎人打伤但逃脱了）。如果一个角色成功地进行了DC14智慧({@skill Animal Handling})检查，狼群就会变得平静，并允许角色处理它们的伤口。如果它们得到了援助，狼群会跟在队伍后面，如果需要的话，会协助战斗。"
 												]
 											]
@@ -15537,11 +15605,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/078-10-002.dewlight.png"
+												"path": "adventure/CM/078-10-002.dewlight.webp"
 											},
 											"title": "Dewlight",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Katerina Ladon"
 										}
 									]
 								}
@@ -15609,7 +15678,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/079-map-10.01-hags-hovel.jpg"
+												"path": "adventure/CM/079-map-10.01-hags-hovel.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -15689,13 +15758,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/079-map-10.01-hags-hovel.webp"
-											}
+											},
+											"credit": "Tim Hartin"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/080-map-10.01-hags-hovel-player.jpg"
+												"path": "adventure/CM/080-map-10.01-hags-hovel-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -15708,7 +15778,8 @@
 											"height": 2133,
 											"mapParent": {
 												"id": "56e"
-											}
+											},
+											"credit": "Tim Hartin"
 										}
 									]
 								},
@@ -15720,7 +15791,7 @@
 									"entries": [
 										"人物可能会正确地认为这个地方就是它的样子：一口井的遗址（现在已经废弃了）。如果他们靠近石墙5英尺以内，他们可以越过2英尺高的墙，看到洞口，里面一片漆黑，但他们不知道这个洞有多深，也不知道里面有什么。",
 										"If a character comes up to the stone wall and looks down inside the hole, this activity attracts the attention of a {@creature grick alpha} that uses the place as a lair. The water source at the bottom of the 30-foot-deep hole has long since dried up, making it an ideal place for the grick to lurk when it's not out hunting.",
-										"The grick's Stone Camouflage trait prevents the characters from realizing its presence\u2014unless they shine a light source down into the hole or have some other way of seeing the bottom of the pit. If they don't see the grick at the same time it sees them, the monster lurches out of the well to confront its prey. A character who can see into the hole and has a passive Wisdom ({@skill Perception}) score of 14 or higher notices the grick before it attacks; any other characters start the encounter {@quickref Surprise|PHB|3|0|surprised}."
+										"The grick's Stone Camouflage trait prevents the characters from realizing its presence—unless they shine a light source down into the hole or have some other way of seeing the bottom of the pit. If they don't see the grick at the same time it sees them, the monster lurches out of the well to confront its prey. A character who can see into the hole and has a passive Wisdom ({@skill Perception}) score of 14 or higher notices the grick before it attacks; any other characters start the encounter {@quickref Surprise|PHB|3|0|surprised}."
 									]
 								},
 								{
@@ -15766,7 +15837,7 @@
 												"在这个怪诞的动物园里，墙上挂着18个笼子，其中大部分都有人。"
 											]
 										},
-										"The door to each cage is barred on the outside and features a small window through which the characters can see what's inside. Seven of the cages are empty (though their doors are still barred). Ten of them hold single specimens of various animals\u2014a {@creature baboon}, a {@creature hyena}, a {@creature boar}, an {@creature ape}, a {@creature vulture}, a {@creature blood hawk}, an {@creature eagle}, a {@creature giant rat}, a {@creature hawk}, and an {@creature owl}. All of them are weakened from minor wounds and insufficient nourishment, but they are still able to fend for themselves. If the door is opened on an occupied cage, the animal inside immediately bolts (or flies) for freedom, doing what it must to foil any attempts to keep it from escaping.",
+										"The door to each cage is barred on the outside and features a small window through which the characters can see what's inside. Seven of the cages are empty (though their doors are still barred). Ten of them hold single specimens of various animals—a {@creature baboon}, a {@creature hyena}, a {@creature boar}, an {@creature ape}, a {@creature vulture}, a {@creature blood hawk}, an {@creature eagle}, a {@creature giant rat}, a {@creature hawk}, and an {@creature owl}. All of them are weakened from minor wounds and insufficient nourishment, but they are still able to fend for themselves. If the door is opened on an occupied cage, the animal inside immediately bolts (or flies) for freedom, doing what it must to foil any attempts to keep it from escaping.",
 										"最后一个笼子的门，在建筑物的东南角，没有窗户。人物需要打开门才能看到里面的东西。",
 										{
 											"type": "insetReadaloud",
@@ -15815,7 +15886,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/081-map-10.02-pool-of-eternal-spring.jpg"
+												"path": "adventure/CM/081-map-10.02-pool-of-eternal-spring.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -15827,13 +15898,14 @@
 											"title": "Map 10.2: Pool of Eternal Spring",
 											"width": 3000,
 											"height": 2044,
-											"id": "56f"
+											"id": "56f",
+											"credit": "Tim Hartin"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/082-map-10.02-pool-of-eternal-spring-player.jpg"
+												"path": "adventure/CM/082-map-10.02-pool-of-eternal-spring-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -15847,7 +15919,8 @@
 											"height": 2044,
 											"mapParent": {
 												"id": "56f"
-											}
+											},
+											"credit": "Tim Hartin"
 										}
 									]
 								},
@@ -15899,17 +15972,18 @@
 						},
 						"在不那么麻烦的时候，永生泉池是地球上的一小片天山。它晶莹剔透的水滋润着附近的土地，孕育着可以想象到的最丰富的植物和动物生命。从池子里飘出的通常令人愉快的香味现在被金属和血的气味所取代。",
 						"马拉尔邪教为迎接冬至而准备了这个水池。通过在永恒之泉池中填入献给马拉尔的祭品--那些被残忍杀害的森林生物，然后被扔进水里，邪教组织玷污了它，以示对其神灵的敬畏。他们不知道的是，至日的到来触发了马拉尔计划的最后阶段。",
-						"The cultists at the edge of the pool are six {@creature Werewolf||werewolves}. Five begin the encounter in hybrid form, and the one leading the chant is in humanoid form. The characters have come on the scene just in time to witness the final stage of the ceremony, which culminates at midnight. Before the characters can do anything to prevent it, a bolt of red lightning splits the sky and strikes the surface of the pool. When the resulting steam cloud dissipates, the {@creature corrupted avatar of Lurue|CM} (see the accompanying stat block) materializes at the edge of the pool\u2014and suddenly, the characters and the cultists have a common enemy (see \"The Corrupted Avatar\" for more information).",
+						"The cultists at the edge of the pool are six {@creature Werewolf||werewolves}. Five begin the encounter in hybrid form, and the one leading the chant is in humanoid form. The characters have come on the scene just in time to witness the final stage of the ceremony, which culminates at midnight. Before the characters can do anything to prevent it, a bolt of red lightning splits the sky and strikes the surface of the pool. When the resulting steam cloud dissipates, the {@creature corrupted avatar of Lurue|CM} (see the accompanying stat block) materializes at the edge of the pool—and suddenly, the characters and the cultists have a common enemy (see \"The Corrupted Avatar\" for more information).",
 						"如果任何生物喝了池子里的腐化水，它必须做一个DC15的魅力拯救动作。拯救失败后，该生物会获得一种随机决定的短期疯狂状态（见\"{@book Madness|DMG|8|Madness} \"中的{@book Dungeon Master's Guide|DMG}）。",
 						{
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/083-637514193128459607.png"
+								"path": "adventure/CM/083-637514193128459607.webp"
 							},
 							"title": "{@creature Corrupted Avatar of Lurue|CM}",
 							"width": 399,
-							"height": 529
+							"height": 529,
+							"credit": "Katerina Ladon"
 						},
 						{
 							"type": "entries",
@@ -15973,12 +16047,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/085-11-001.kandlekeep-dekonstruktion.png"
+						"path": "adventure/CM/085-11-001.kandlekeep-dekonstruktion.webp"
 					},
 					"title": "Kandlekeep Dekonstruktion",
 					"width": 850,
 					"height": 921,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Claudio Pozas"
 				},
 				{
 					"type": "list",
@@ -16021,7 +16096,7 @@
 									"page": 124,
 									"id": "308",
 									"entries": [
-										"Any character who studies the book comes across a bookmark at an unusual set of renderings for a tower known as the Barn Door. How it got that name is not explained. On the facing page is a floor plan detailing the tower's lowest level (a small dungeon complex), which contains an array of odd mechanical devices. Any character viewing these diagrams who succeeds on a DC 25 Intelligence ({@skill Arcana}) check can ascertain that the devices are designed to launch the tower into the sky\u2014perhaps all the way to the stars."
+										"Any character who studies the book comes across a bookmark at an unusual set of renderings for a tower known as the Barn Door. How it got that name is not explained. On the facing page is a floor plan detailing the tower's lowest level (a small dungeon complex), which contains an array of odd mechanical devices. Any character viewing these diagrams who succeeds on a DC 25 Intelligence ({@skill Arcana}) check can ascertain that the devices are designed to launch the tower into the sky—perhaps all the way to the stars."
 									]
 								}
 							]
@@ -16061,7 +16136,7 @@
 											"type": "list",
 											"items": [
 												"伯伦是一名监护工程师，是一个名为 \"牲畜 \"的秘密Candlekeep邪教的成员。在邪教中，这个侏儒被称为 \"公鸡松饼\"。",
-												"牲畜组织的领导人是一位地精族的远见卓识者和阿凡达的狂热者，名叫斯通基-J-诺普帕。他的目标是防止烛龙镇最有价值的书籍落入不值得的人（任何非神赐者）手中。",
+												"The leader of the Livestock is a gnome visionary and Avowed zealot named Stonky J. Noptopper. He aims to keep Candlekeep's most valuable tomes from falling into the hands of the unworthy (anyone who is not an Avowed).",
 												"读完{@i Kandlekeep Dekonstruktion}后，斯通基意识到，烛台镇的一个塔--谷仓门--实际上是一个由称为火箭的奥术装置驱动的飞行器。",
 												"在几个结构体的帮助下，石基花了几个月时间秘密修理谷仓门，目的是将其发射到太空。侏儒计划带着图书馆的精选书籍。",
 												"一旦他意识到斯通基是个疯子，伯伦就偷了{@i Kandlekeep Dekonstruktion}，希望能把塔的发射时间推迟到足够长的时间，以便有人能挫败斯通基的疯狂计划。"
@@ -16282,7 +16357,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/086-map-11.01-the-barn-door.jpg"
+												"path": "adventure/CM/086-map-11.01-the-barn-door.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -16864,13 +16939,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/086-map-11.01-the-barn-door.webp"
-											}
+											},
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/087-map-11.01-the-barn-door-player.jpg"
+												"path": "adventure/CM/087-map-11.01-the-barn-door-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -16884,7 +16960,8 @@
 											"height": 2068,
 											"mapParent": {
 												"id": "570"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								},
@@ -17155,7 +17232,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/088-map-11.01-under-the-barn-door.jpg"
+												"path": "adventure/CM/088-map-11.01-under-the-barn-door.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -17680,13 +17757,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/088-map-11.01-under-the-barn-door.webp"
-											}
+											},
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/089-map-11.01-under-the-barn-door-player.jpg"
+												"path": "adventure/CM/089-map-11.01-under-the-barn-door-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -17700,7 +17778,8 @@
 											"height": 1415,
 											"mapParent": {
 												"id": "571"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								},
@@ -17863,7 +17942,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "U6. Workshop ",
+									"name": "U6. Workshop",
 									"page": 132,
 									"id": "340",
 									"entries": [
@@ -18001,7 +18080,7 @@
 											"page": 133,
 											"id": "34f",
 											"entries": [
-												"The iron safe is empty. It sports a combination lock with a dial that displays tiny images of farm animals in place of numerals\u2014bull, cat, cow, dog, donkey, falcon, goat, hen, horse, llama, ox, pig, pigeon, rabbit, rooster, sheep, and turtle. Only Stonky knows the safe's combination: pig, goat, llama, hen, rooster. The safe's door locks automatically when it closes and can't be opened from the inside except by a {@spell knock} spell or similar magic. A character outside the safe can spend 1 minute trying to find the combination with a successful DC 25 Dexterity ({@skill Perception}) check. Thieves' tools are of no benefit in opening the combination lock, since its mechanisms are inaccessible; what's needed here is a delicate touch and a keen ear.",
+												"The iron safe is empty. It sports a combination lock with a dial that displays tiny images of farm animals in place of numerals—bull, cat, cow, dog, donkey, falcon, goat, hen, horse, llama, ox, pig, pigeon, rabbit, rooster, sheep, and turtle. Only Stonky knows the safe's combination: pig, goat, llama, hen, rooster. The safe's door locks automatically when it closes and can't be opened from the inside except by a {@spell knock} spell or similar magic. A character outside the safe can spend 1 minute trying to find the combination with a successful DC 25 Dexterity ({@skill Perception}) check. Thieves' tools are of no benefit in opening the combination lock, since its mechanisms are inaccessible; what's needed here is a delicate touch and a keen ear.",
 												"请参阅{@book Player's Handbook|PHB}中的\"{@book Variant: Skills with Different Abilities|PHB|7|Variant: Skills with Different Abilities} \"部分，了解如何进行灵巧（{@skill Perception}）检查。"
 											]
 										},
@@ -18017,9 +18096,9 @@
 													"id": "351",
 													"style": "text-center",
 													"entries": [
-														"{@i Coop\u2014Abort}",
-														"{@i Shed\u2014Delay}",
-														"{@i Stable\u2014Blastoff}!"
+														"{@i Coop—Abort}",
+														"{@i Shed—Delay}",
+														"{@i Stable—Blastoff}!"
 													]
 												},
 												"这些词为{@area area B4|327|x}中的杠杆如何运作提供了线索。斯通基把它们写下来作为对自己的提醒。",
@@ -18027,11 +18106,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/090-11-002.blastoff.png"
+														"path": "adventure/CM/090-11-002.blastoff.webp"
 													},
 													"title": "Blastoff!",
 													"width": 1700,
-													"height": 1135
+													"height": 1135,
+													"credit": "Sam Keiser"
 												}
 											]
 										}
@@ -18099,11 +18179,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/091-637514193186284468.png"
+										"path": "adventure/CM/091-637514193186284468.webp"
 									},
 									"title": "{@creature Skitterwidget|CM}",
 									"width": 399,
-									"height": 448
+									"height": 448,
+									"credit": "Christopher Burdett"
 								},
 								{
 									"type": "entries",
@@ -18151,11 +18232,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/092-637514193149301393.png"
+										"path": "adventure/CM/092-637514193149301393.webp"
 									},
 									"title": "{@creature Kiddywidget|CM}",
 									"width": 260,
-									"height": 373
+									"height": 373,
+									"credit": "Christopher Burdett"
 								},
 								{
 									"type": "entries",
@@ -18197,12 +18279,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/094-12-001.Zikrans-zephyrean-tome.png"
+						"path": "adventure/CM/094-12-001.Zikrans-zephyrean-tome.webp"
 					},
 					"title": "{@creature Zikran|CM}'s Zephyrean Tome",
 					"width": 850,
 					"height": 818,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Irina Nordsol"
 				},
 				{
 					"type": "list",
@@ -18300,7 +18383,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/095-map-12.01-zikrans-laboratory.jpg"
+												"path": "adventure/CM/095-map-12.01-zikrans-laboratory.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -19551,13 +19634,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/095-map-12.01-zikrans-laboratory.webp"
-											}
+											},
+											"credit": "Dyson Logos"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/096-map-12.01-zikrans-laboratory-player.jpg"
+												"path": "adventure/CM/096-map-12.01-zikrans-laboratory-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -19571,7 +19655,8 @@
 											"height": 2069,
 											"mapParent": {
 												"id": "572"
-											}
+											},
+											"credit": "Dyson Logos"
 										}
 									]
 								},
@@ -19679,11 +19764,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/097-12-002.ashgarlyth.png"
+														"path": "adventure/CM/097-12-002.ashgarlyth.webp"
 													},
 													"title": "Ashgarlyth the Bronze Dragon in Its Lair",
 													"width": 1700,
-													"height": 1099
+													"height": 1099,
+													"credit": "Andrew Mar"
 												}
 											]
 										}
@@ -19844,7 +19930,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/098-map-12.02-cloud-giants-keep.jpg"
+												"path": "adventure/CM/098-map-12.02-cloud-giants-keep.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -20314,13 +20400,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/098-map-12.02-cloud-giants-keep.webp"
-											}
+											},
+											"credit": "Dyson Logos"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/099-map-12.02-cloud-giants-keep-player.jpg"
+												"path": "adventure/CM/099-map-12.02-cloud-giants-keep-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -20335,7 +20422,8 @@
 											"height": 3000,
 											"mapParent": {
 												"id": "573"
-											}
+											},
+											"credit": "Dyson Logos"
 										}
 									]
 								},
@@ -20516,11 +20604,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/100-12-003.zikran.png"
+												"path": "adventure/CM/100-12-003.zikran.webp"
 											},
 											"title": "{@creature Zikran|CM}",
 											"width": 850,
-											"height": 1080
+											"height": 1080,
+											"credit": "Andrew Mar"
 										},
 										"{@creature Zikran|CM} stands in front of the crystal when the party arrives. He is a chaotic evil water genasi {@creature archmage} with these changes:",
 										{
@@ -20564,11 +20653,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/101-637514193119728875.png"
+														"path": "adventure/CM/101-637514193119728875.webp"
 													},
 													"title": "{@creature Cloud Giant Ghost|CM}",
 													"width": 380,
-													"height": 475
+													"height": 475,
+													"credit": "Andrew Mar"
 												}
 											]
 										}
@@ -20600,12 +20690,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/103-13-001.book.png"
+						"path": "adventure/CM/103-13-001.book.webp"
 					},
 					"title": "The Curious Tale of Wisteria Vale",
 					"width": 850,
 					"height": 656,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Zuzanna Wuzyk"
 				},
 				{
 					"type": "list",
@@ -20744,11 +20835,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/104-637514193124229281.png"
+										"path": "adventure/CM/104-637514193124229281.webp"
 									},
 									"title": "{@creature Constructed Commoner|CM}",
 									"width": 270,
-									"height": 519
+									"height": 519,
+									"credit": "Zuzanna Wuzyk"
 								}
 							]
 						},
@@ -20773,7 +20865,7 @@
 									],
 									"rows": [
 										[
-											"1\u20132",
+											"1–2",
 											"None."
 										],
 										[
@@ -20829,7 +20921,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/105-map-13.01-wisteria-vale.jpg"
+												"path": "adventure/CM/105-map-13.01-wisteria-vale.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -21171,13 +21263,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/105-map-13.01-wisteria-vale.webp"
-											}
+											},
+											"credit": "Tim Hartin"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/106-map-13.01-wisteria-vale-player.jpg"
+												"path": "adventure/CM/106-map-13.01-wisteria-vale-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -21192,7 +21285,8 @@
 											"height": 2044,
 											"mapParent": {
 												"id": "574"
-											}
+											},
+											"credit": "Tim Hartin"
 										}
 									]
 								},
@@ -21291,19 +21385,19 @@
 											"Roll twice more on this table, using {@dice 2d10} instead of a {@dice d20} for each roll."
 										],
 										[
-											"2\u20139",
+											"2–9",
 											"两套{@creature animated armor}（见下文\"{@area Servants|3b7|x}\"）。"
 										],
 										[
-											"10\u201312",
+											"10–12",
 											"一个{@creature stone golem}（见下文\"{@area Servants|3b7|x}\"）。"
 										],
 										[
-											"13\u201317",
+											"13–17",
 											"The fake Quill (see \"{@creature Arrant Quill|CM} and the Fake Quill\" below)"
 										],
 										[
-											"18\u201320",
+											"18–20",
 											"雷内科 {@creature beholder}"
 										]
 									]
@@ -21367,7 +21461,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/107-map-13.02-the-manor.jpg"
+												"path": "adventure/CM/107-map-13.02-the-manor.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -21619,13 +21713,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/107-map-13.02-the-manor.webp"
-											}
+											},
+											"credit": "Tim Hartin"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/108-map-13.02-the-manor-player.jpg"
+												"path": "adventure/CM/108-map-13.02-the-manor-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -21639,7 +21734,8 @@
 											"height": 2044,
 											"mapParent": {
 												"id": "575"
-											}
+											},
+											"credit": "Tim Hartin"
 										}
 									]
 								},
@@ -21836,9 +21932,9 @@
 										{
 											"type": "list",
 											"items": [
-												"奎尔在被囚禁的头几个月里曾经经常写作，直到雷内克的到来，条目变得更加零散。",
+												"Quill used to write frequently during the first few months of his captivity, with the entries becoming more sporadic until the arrival of Renekor.",
 												"奎尔认为在紫藤谷已经过了一年，而在物质界确实已经过了三年。(奎尔不知道这个事实）。",
-												"奎尔知道，除非他同意，否则他在紫藤谷是不会受到伤害的。",
+												"Quill knows that he can't be harmed in Wisteria Vale unless he gives his consent.",
 												"奎尔认为哈珀人说要找到治愈他的方法是在撒谎，他担心哈珀人只是在等待时机，直到他们能够杀死他。",
 												"奎尔指出，看守者可能是他逃离紫藤谷的关键。"
 											]
@@ -21913,15 +22009,15 @@
 									],
 									"rows": [
 										[
-											"1\u20132",
+											"1–2",
 											"宴会（在{@area area M3|3be|x}的画后面）。"
 										],
 										[
-											"3\u20134",
+											"3–4",
 											"奎尔的监狱（在{@area area M6|3c7|x}的画后面）。"
 										],
 										[
-											"5\u20136",
+											"5–6",
 											"Roc (behind the painting in {@area area M9|3ce|x})"
 										]
 									]
@@ -21939,15 +22035,15 @@
 									],
 									"rows": [
 										[
-											"1\u20132",
+											"1–2",
 											"森林（在{@area area M1|3b9|x}的画后面）。"
 										],
 										[
-											"3\u20134",
+											"3–4",
 											"奎尔的监狱（在{@area area M6|3c7|x}的画后面）。"
 										],
 										[
-											"5\u20136",
+											"5–6",
 											"Roc (behind the painting in {@area area M9|3ce|x})"
 										]
 									]
@@ -21965,15 +22061,15 @@
 									],
 									"rows": [
 										[
-											"1\u20132",
+											"1–2",
 											"森林（在{@area area M1|3b9|x}的画后面）。"
 										],
 										[
-											"3\u20134",
+											"3–4",
 											"宴会（在{@area area M3|3be|x}的画后面）。"
 										],
 										[
-											"5\u20136",
+											"5–6",
 											"Roc (behind the painting in {@area area M9|3ce|x})"
 										]
 									]
@@ -21991,15 +22087,15 @@
 									],
 									"rows": [
 										[
-											"1\u20132",
+											"1–2",
 											"森林（在{@area area M1|3b9|x}的画后面）。"
 										],
 										[
-											"3\u20134",
+											"3–4",
 											"宴会（在{@area area M3|3be|x}的画后面）。"
 										],
 										[
-											"5\u20136",
+											"5–6",
 											"奎尔的监狱（在{@area area M6|3c7|x}的画后面）。"
 										]
 									]
@@ -22092,11 +22188,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/109-13-002.the-bard-and-the-beholder.png"
+												"path": "adventure/CM/109-13-002.the-bard-and-the-beholder.webp"
 											},
 											"title": "The Bard and the Beholder",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Zuzanna Wuzyk"
 										}
 									]
 								}
@@ -22150,12 +22247,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/111-14-001.the-book-of-inner-alchemy.png"
+						"path": "adventure/CM/111-14-001.the-book-of-inner-alchemy.webp"
 					},
-					"title": "The book of inner alchemy",
+					"title": "The Book of Inner Alchemy",
 					"width": 850,
 					"height": 1272,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Nikki Dawes"
 				},
 				{
 					"type": "list",
@@ -22217,7 +22315,7 @@
 								{
 									"type": "list",
 									"items": [
-										"虽然修道会以外的人通常认为气是神秘的能量，但气与空气元素有着密切的联系，因为呼吸是连接一个人的灵魂和一个人的本质（身体）的东西。",
+										"Though commonly thought of by those outside the monastic orders as mystical energy, ki has strong ties to elemental air, for breath is what connects one's soul to one's essence (body).",
 										"淇是存在于所有生物中的一种生命力。医学技术和训练可以用来控制气的流动。",
 										"所有的生命都是由两个 \"生命 \"组成的，身体和精神。当这些方面处于和谐状态时，可以获得巨大的力量。"
 									]
@@ -22247,7 +22345,7 @@
 										"\"我很抱歉，寻求者们，但{@i The Book of Inner Alchemy}已经被破坏了。这本手册据说能给任何能掌握其秘密的人带来超越生死的力量......而昨晚，有人竟敢来到这个神圣的地方，亵渎了它！\""
 									]
 								},
-								"Though they might not understand the intricacies of the concepts in the book, the Avowed know that the stolen pages contain instructions for creating {@item gloves of soul catching|CM} (see the item's description {@adventure at the end of the adventure|CM|14|{@item Gloves of Soul Catching|CM}}). They want the characters to retrieve the stolen pages so that, in addition to restoring the tome to its original state, a magic item of such power will never be created.",
+								"Though they might not understand the intricacies of the concepts in the book, the Avowed know that the stolen pages contain instructions for creating {@item gloves of soul catching|CM} (see the item's description {@adventure at the end of the adventure|CM|14}). They want the characters to retrieve the stolen pages so that, in addition to restoring the tome to its original state, a magic item of such power will never be created.",
 								"神圣的圣徒陪同人物到大图书馆，查看袭击和随后的盗窃发生的地方。",
 								{
 									"type": "insetReadaloud",
@@ -22308,7 +22406,7 @@
 								"{@creature Bak Mei|CM}是这个组织无可争议的领导者，他依靠两个学徒--{@creature Steel Crane|CM}和{@creature Jade Tigress|CM}--来帮助训练初级成员。{@creature Steel Crane|CM}和{@creature Jade Tigress|CM}也是{@creature Bak Mei|CM}受托攻击坎德雷普并从{@i The Book of Inner Alchemy}那里获得他需要的书页的人。",
 								{
 									"type": "entries",
-									"name": "Bak Mei ",
+									"name": "Bak Mei",
 									"page": 161,
 									"id": "3e9",
 									"entries": [
@@ -22482,12 +22580,12 @@
 									]
 								},
 								"两个{@creature Black Pudding||black puddings}住在空心的石化树里。{@creature Bak Mei|CM}用这些渗出物来处理那些不能接受严格训练的入会者、干涉他事务的间谍以及意外发现他的寺庙的迷途者。",
-								"The white-robed figures are two {@creature Immortal Lotus Monk|CM|Immortal Lotus monks} (see their stat block {@area later in the adventure|40f|x}). Their wheelbarrow contains four bodies\u2014the remains of two adult humans (monks) who were killed in training exercises, and the remains of two forest gnomes who were caught stealing from the temple's garden. If the characters do nothing but watch, the monks dump the bodies within 5 feet of the tree trunk. As the bodies tumble out of the wheelbarrow, the puddings seep out of the tree and begin consuming the remains. Each black pudding can devour one gnome corpse in 2 rounds or one human corpse in 4 rounds. The puddings ignore creatures that leave them alone.",
+								"The white-robed figures are two {@creature Immortal Lotus Monk|CM|Immortal Lotus monks} (see their stat block {@area later in the adventure|40f|x}). Their wheelbarrow contains four bodies—the remains of two adult humans (monks) who were killed in training exercises, and the remains of two forest gnomes who were caught stealing from the temple's garden. If the characters do nothing but watch, the monks dump the bodies within 5 feet of the tree trunk. As the bodies tumble out of the wheelbarrow, the puddings seep out of the tree and begin consuming the remains. Each black pudding can devour one gnome corpse in 2 rounds or one human corpse in 4 rounds. The puddings ignore creatures that leave them alone.",
 								"僧侣们没有留下来观看布丁的盛宴；他们引导独轮车回到寺庙，大约在垃圾场以东500码的地方。如果人物出现，僧侣们就会放弃独轮车，躲在树后面，希望把人物引到近战范围内。也许是愚蠢的，他们留下来战斗--渴望将他们的新训练付诸实践。如果他们被抓住了，僧侣们仍然守口如瓶，不愿意透露信息。然而，一个{@spell suggestion}的咒语或类似的魔法，可以迫使他们分享关于寺庙的位置、配置、防御和领导人的信息。",
 								"No ability check is needed to follow the monks' tracks back the way they came, since the wheelbarrow leaves a deep furrow in the earth. Characters who follow these tracks arrive at {@area area L1|402|x}.",
 								{
 									"type": "entries",
-									"name": "Friendly Dryads ",
+									"name": "Friendly Dryads",
 									"page": 163,
 									"id": "3fc",
 									"entries": [
@@ -22522,7 +22620,7 @@
 															"type": "image",
 															"href": {
 																"type": "internal",
-																"path": "adventure/CM/112-map-14.01-temple-of-the-immortal-lotus.jpg"
+																"path": "adventure/CM/112-map-14.01-temple-of-the-immortal-lotus.webp"
 															},
 															"imageType": "map",
 															"grid": {
@@ -22830,13 +22928,14 @@
 															"hrefThumbnail": {
 																"type": "internal",
 																"path": "adventure/CM/thumbnail/112-map-14.01-temple-of-the-immortal-lotus.webp"
-															}
+															},
+															"credit": "Sean MacDonald"
 														},
 														{
 															"type": "image",
 															"href": {
 																"type": "internal",
-																"path": "adventure/CM/113-map-14.01-temple-of-the-immortal-lotus-player.jpg"
+																"path": "adventure/CM/113-map-14.01-temple-of-the-immortal-lotus-player.webp"
 															},
 															"imageType": "mapPlayer",
 															"grid": {
@@ -22851,7 +22950,8 @@
 															"height": 2075,
 															"mapParent": {
 																"id": "576"
-															}
+															},
+															"credit": "Sean MacDonald"
 														}
 													]
 												}
@@ -22899,7 +22999,7 @@
 									"entries": [
 										"\"很少有人敢来这里，\"一个声音从上面说。栖息在你上方20英尺处的是一个男人，他的双腿支撑在两根较大的石柱之间，保持平衡。他身材苗条，体格健壮，用刺眼的绿色眼睛盯着你。在他周围有四个年轻的人，他们同样在其他石板上保持平衡。",
 										"他以鸟的优雅姿态从栖息地飘下来，静静地落在地上，同时从腰间抽出一根九节的链鞭。",
-										"\"You've got courage. I'll give you that. But before you get a chance to fight {@creature Bak Mei|CM}, you'll have to deal with me\u2014{@creature Steel Crane|CM}!\""
+										"\"You've got courage. I'll give you that. But before you get a chance to fight {@creature Bak Mei|CM}, you'll have to deal with me—{@creature Steel Crane|CM}!\""
 									]
 								},
 								"当{@creature Steel Crane|CM}按下他的攻击时，僧侣们以石碑为掩护，在石碑之间跳跃，与人物进行近距离的战斗。",
@@ -22918,11 +23018,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/114-637514193190724965.png"
+														"path": "adventure/CM/114-637514193190724965.webp"
 													},
 													"title": "{@creature Steel Crane|CM}",
 													"width": 400,
-													"height": 494
+													"height": 494,
+													"credit": "Nikki Dawes"
 												}
 											]
 										}
@@ -23140,11 +23241,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/115-637514193144180851.png"
+														"path": "adventure/CM/115-637514193144180851.webp"
 													},
 													"title": "{@creature Jade Tigress|CM}",
 													"width": 320,
-													"height": 455
+													"height": 455,
+													"credit": "Nikki Dawes"
 												}
 											]
 										}
@@ -23204,11 +23306,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/116-637514193109257956.png"
+														"path": "adventure/CM/116-637514193109257956.webp"
 													},
 													"title": "{@creature Bak Mei|CM}",
 													"width": 400,
-													"height": 482
+													"height": 482,
+													"credit": "Nikki Dawes"
 												}
 											]
 										}
@@ -23231,10 +23334,10 @@
 							"items": [
 								"原先的 \"开放之手 \"的大师们怎么了？",
 								"法鲁恩以东{@creature Bak Mei|CM}的故乡的僧侣们会想知道他的命运吗？",
-								"考虑到{@i The Book of Inner Alchemy}中包含的知识，它在Candlekeep中是否安全？它是否应该被销毁，如果是的话，如何销毁？",
+								"Considering the knowledge contained in {@i The Book of Inner Alchemy}, is it safe in Candlekeep? Should it be destroyed—and if so, how?",
 								"还有谁可能知道这本书的秘密？",
-								"现在被遗弃的仙莲寺应该如何处理？是否有幸存的教团成员会试图为{@creature Bak Mei|CM}的死亡报仇？",
-								"The last breaths (souls) of three individuals\u2014one of great intellect, one of strong body, and one of a pure heart\u2014are required to craft {@item gloves of soul catching|CM}. How can this be accomplished?"
+								"What should happen to the now-abandoned Temple of the Immortal Lotus? Are there surviving members of the order who will try to avenge {@creature Bak Mei|CM}'s death?",
+								"The last breaths (souls) of three individuals—one of great intellect, one of strong body, and one of a pure heart—are required to craft {@item gloves of soul catching|CM}. How can this be accomplished?"
 							]
 						},
 						"不管这些人物的选择如何，他们现在已经接触到了许多人愿意为之杀人的武术秘密。他们被打上了烙印，拥有这样的知识会产生影响。",
@@ -23262,12 +23365,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/118-15-001.the-canopic-being.png"
+						"path": "adventure/CM/118-15-001.the-canopic-being.webp"
 					},
 					"title": "The Canopic Being",
 					"width": 850,
 					"height": 1067,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Sidharth Chaturvedi"
 				},
 				{
 					"type": "list",
@@ -23362,7 +23466,7 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/119-15-002.handout.png"
+								"path": "adventure/CM/119-15-002.handout.webp"
 							},
 							"width": 850,
 							"height": 1822
@@ -23381,11 +23485,12 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/120-15-003.house-of-the-all-seeing-orb.png"
+								"path": "adventure/CM/120-15-003.house-of-the-all-seeing-orb.webp"
 							},
 							"title": "House of the All-Seeing Orb",
 							"width": 1700,
-							"height": 1135
+							"height": 1135,
+							"credit": "Sidharth Chaturvedi"
 						},
 						{
 							"type": "entries",
@@ -23427,8 +23532,8 @@
 											"items": [
 												"Mayastan arrived yesterday, intending to speak with the oracle {@creature Valin Sarnaster|CM}. The sage was taken to Valin's sanctum and has not returned.",
 												"{@creature Valin Sarnaster|CM}是所有为萨弗拉斯服务的人都知道的，她的作品长期以来一直是一种灵感。她已经独自生活了几十年，所以外界的影响不会对她的占卜能力产生影响。",
-												"If {@i The Canopic Being} is discussed, Shir doesn't recognize the name of the book. If its contents are described, she is horrified, but she says that the dark rituals the book describes have nothing to do with Savras's work. If she is told that Xemru Thaal sent the book to Candlekeep nine months ago, she has no idea why that happened. ",
-												"如果人物要求见Xemru，Shir说大祭司八个月前通过传送门去拜访Valin，现在还没有回来。他通过瓦林的侍从阿莱西亚收到的信息说，他继续和瓦林一起学习，并计划在可预见的未来继续和她在一起。(Xemru接受了他看到自己成为瓦林的仆人的未来。但一种忧虑感使他把{@i The Canopic Being}送到烛台镇，作为瓦林成为的证据--正如瓦林已经预见到的那样)。",
+												"If {@i The Canopic Being} is discussed, Shir doesn't recognize the name of the book. If its contents are described, she is horrified, but she says that the dark rituals the book describes have nothing to do with Savras's work. If she is told that Xemru Thaal sent the book to Candlekeep nine months ago, she has no idea why that happened.",
+												"If the characters ask to see Xemru, Shir says that the high priest went through the portal to visit Valin eight months ago and has not come back. Messages received from him through Valin's attendant, Alessia, say that he continues to study with Valin and plans to remain with her for the foreseeable future. (Xemru accepted the future in which he saw himself becoming Valin's servant. But a sense of misgiving caused him to send {@i The Canopic Being} to Candlekeep as evidence of what Valin had become—as Valin had already foreseen.)",
 												"瓦林住在一个秘密的圣殿里，因为否则会有太多的人找她寻求智慧和建议。隐藏在神庙中的一个传送门是接触她的唯一途径。神谕者派她的侍者阿莱西亚定期通过传送门传达和接收信息。",
 												"在过去三个月里，还有三个人通过传送门寻求瓦林的指导。Zeren Zoradius，一个人类法师；Okuzor，一个铁皮人角斗士；以及Mayastan Sadaar，Candlekeep的圣人。与谢姆鲁-泰尔一样，其他访客都还没有回来。"
 											]
@@ -23509,7 +23614,7 @@
 							"page": 174,
 							"id": "43b",
 							"entries": [
-								"Three of the creatures that have received Valin's organs\u2014Okuzor, Xemru Thaal, and Zeren Zoradius\u2014have been transformed into canopic golems by the dark rituals the oracle learned from {@i The Canopic Being}. Valin can see through these golems' eyes and can speak through them as she wishes. Mayastan Sadaar, the Candlekeep sage, would have become a golem if she had not destroyed her transplanted organ and died. Her body is in {@area area T7|460|x}.",
+								"Three of the creatures that have received Valin's organs—Okuzor, Xemru Thaal, and Zeren Zoradius—have been transformed into canopic golems by the dark rituals the oracle learned from {@i The Canopic Being}. Valin can see through these golems' eyes and can speak through them as she wishes. Mayastan Sadaar, the Candlekeep sage, would have become a golem if she had not destroyed her transplanted organ and died. Her body is in {@area area T7|460|x}.",
 								{
 									"type": "table",
 									"caption": "Organ Recipients",
@@ -23600,7 +23705,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/121-map-15.01-tomb-of-valin-sarnaster.jpg"
+												"path": "adventure/CM/121-map-15.01-tomb-of-valin-sarnaster.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -24085,13 +24190,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/121-map-15.01-tomb-of-valin-sarnaster.webp"
-											}
+											},
+											"credit": "Dyson Logos"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/122-map-15.01-tomb-of-valin-sarnaster-player.jpg"
+												"path": "adventure/CM/122-map-15.01-tomb-of-valin-sarnaster-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -24107,7 +24213,8 @@
 											"height": 2840,
 											"mapParent": {
 												"id": "577"
-											}
+											},
+											"credit": "Dyson Logos"
 										}
 									]
 								},
@@ -24246,7 +24353,7 @@
 											]
 										},
 										"这个密室曾经被寺庙的祭司们用来进行冥想，其魔力仍然完好无损。沿着这个区域的外墙设置的两面镜子反映了它内部和外部的一切，导致这个区域从外面看是空的。从里面看，镜子挡住了萨弗拉斯的眼睛，使瓦林无法看到里面。",
-										"The magic mirrors that cover this area and hang as freestanding walls inside it show a super-realistic reflection of everything in the room, including the other mirrors\u2014quickly creating a confusing cascade of images. Any creature that enters the area and can see normally is overwhelmed by multiple visions of itself. Each creature that passes through this area must succeed on a DC 20 Dexterity saving throw or accidentally make contact with a mirror. A creature that makes contact with a mirror for the first time on a turn or starts its turn in contact with one takes 22 ({@dice 4d10}) psychic damage.",
+										"The magic mirrors that cover this area and hang as freestanding walls inside it show a super-realistic reflection of everything in the room, including the other mirrors—quickly creating a confusing cascade of images. Any creature that enters the area and can see normally is overwhelmed by multiple visions of itself. Each creature that passes through this area must succeed on a DC 20 Dexterity saving throw or accidentally make contact with a mirror. A creature that makes contact with a mirror for the first time on a turn or starts its turn in contact with one takes 22 ({@dice 4d10}) psychic damage.",
 										"A creature that passes through the area without taking damage earns a gift of supernatural insight that lasts until it finishes a long rest. While it has this gift, the creature can roll a {@dice d8} and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the {@dice d20} before deciding to use the number, but it must decide before the DM says whether the roll succeeds or fails. A creature can't gain this gift again until it finishes a long rest.",
 										"拥有{@sense blindsight}或{@sense truesight}的生物可以在这个区域正常移动，阿莱西亚也可以。如果服务员带领角色通过该区域，她会告诉他们紧紧跟随她，这样做会使他们在救赎时获得优势。",
 										{
@@ -24313,7 +24420,7 @@
 											"page": 178,
 											"id": "453",
 											"entries": [
-												"The hilt in the dais is a {@item sun blade} placed there by Valin. It came into her possession years before, after she had received two visions about it\u2014one in which she used the weapon to slay a great enemy, and one in which it was used to slay her. Not willing to destroy the weapon for fear of thwarting the first vision, she has kept the hilt hidden in an attempt to keep the second vision from coming to pass.",
+												"The hilt in the dais is a {@item sun blade} placed there by Valin. It came into her possession years before, after she had received two visions about it—one in which she used the weapon to slay a great enemy, and one in which it was used to slay her. Not willing to destroy the weapon for fear of thwarting the first vision, she has kept the hilt hidden in an attempt to keep the second vision from coming to pass.",
 												"每个道士都戴着一条金色的镶有宝石的项链，价值2,500金币。"
 											]
 										}
@@ -24340,11 +24447,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/123-637514193114938363.png"
+												"path": "adventure/CM/123-637514193114938363.webp"
 											},
 											"title": "{@creature Canopic Golem|CM}",
 											"width": 400,
-											"height": 546
+											"height": 546,
+											"credit": "Tyler Walpole"
 										},
 										{
 											"type": "entries",
@@ -24522,11 +24630,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/124-15-004.valin-sarnaster.png"
+												"path": "adventure/CM/124-15-004.valin-sarnaster.webp"
 											},
 											"title": "{@creature Valin Sarnaster|CM}",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Nikki Dawes"
 										}
 									]
 								},
@@ -24800,12 +24909,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/126-16-001.the-scriveners-tale.png"
+						"path": "adventure/CM/126-16-001.the-scriveners-tale.webp"
 					},
 					"title": "The Scrivener's Tale",
 					"width": 850,
 					"height": 1179,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Robin Olausson"
 				},
 				{
 					"type": "list",
@@ -24904,7 +25014,7 @@
 								{
 									"type": "list",
 									"items": [
-										"任何精通{@skill Arcana}技能的人物在检查了这些文字后，都确认{@spell dispel magic}、{@spell greater restoration}和{@spell remove curse}等法术的威力不足以消除它。",
+										"Any character who has proficiency in the {@skill Arcana} skill and inspects the writing confirms that spells such as {@spell dispel magic}, {@spell greater restoration}, and {@spell remove curse} aren't powerful enough to remove it.",
 										"With a successful DC 18 Intelligence ({@skill Arcana}) check, a character determines that the affliction is progressive but double-edged, granting benefits as well as negative effects. (The characters would be correct to assume that the drawbacks outweigh the benefits, but there's no way to know until the benefits and drawbacks are bestowed.)"
 									]
 								}
@@ -24917,7 +25027,7 @@
 							"id": "489",
 							"entries": [
 								"Knowing that {@i The Scrivener's Tale} came to them from Ramilir, the characters are likely to question him about the book's origins. Horrified at having mistakenly given the characters the tome, the acolyte does what he can to make amends.",
-								"Ramilir (a human {@creature commoner}) is a hardworking, earnest man in his mid-forties. He takes great pride in his work\u2014and is mortified by his mistake. He explains how {@i The Scrivener's Tale} came to Candlekeep under the condition that no one ever open it, and that it has been shelved with other dangerous volumes for ten years. While collecting books for several scholars at the same time, Ramilir guesses that he must have accidentally taken {@i The Scrivener's Tale} instead of a book intended for another scholar, then placed the unrecognized tome in with the characters' books. A successful DC 10 Wisdom ({@skill Insight}) check confirms that the acolyte's mistake was an honest one.",
+								"Ramilir (a human {@creature commoner}) is a hardworking, earnest man in his mid-forties. He takes great pride in his work—and is mortified by his mistake. He explains how {@i The Scrivener's Tale} came to Candlekeep under the condition that no one ever open it, and that it has been shelved with other dangerous volumes for ten years. While collecting books for several scholars at the same time, Ramilir guesses that he must have accidentally taken {@i The Scrivener's Tale} instead of a book intended for another scholar, then placed the unrecognized tome in with the characters' books. A successful DC 10 Wisdom ({@skill Insight}) check confirms that the acolyte's mistake was an honest one.",
 								"针对任何关于人物身上出现的标记的讨论，拉米勒建议他们与烛台镇的一位大阅读者交谈。Teles Ahvoste，一个专门研究诅咒的学者。圣徒安排了这次会面，然后在几小时后护送人物去见泰勒斯。",
 								{
 									"type": "inset",
@@ -25108,11 +25218,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/127-16-002.yvandre-rillyn.png"
+										"path": "adventure/CM/127-16-002.yvandre-rillyn.webp"
 									},
 									"title": "Yvandre Rillyn",
 									"width": 850,
-									"height": 2062
+									"height": 2062,
+									"credit": "Ernanda Souza"
 								},
 								"The characters' status as seasoned adventurers means they have no difficulty entering the Upper City, finding Rillyn House, and arranging an audience with Yvandre Rillyn. Taresson the butler (a human {@creature commoner}) meets them at the gate and takes their message to Yvandre. If he can see the writing on their skin resulting from the scrivener's mark, Taresson recognizes the mark from having seen it on Machil Rillyn and promptly brings the characters to see Yvandre.",
 								{
@@ -25193,7 +25304,7 @@
 											"type": "list",
 											"items": [
 												"一张标有 \"德林拜伦和周边地区 \"的牛皮纸地图显示了城市地上废墟的几个地点。地图上有一张用精灵语写的纸条，标明其中一个地点为 \"红羽毛天堂\"。笔迹与{@i The Scriven}{@i er's Tale}中的笔迹一致。",
-												"从一本不知名的书上撕下的对开页，详细介绍了德林拜伦和法洛姆的历史。法罗姆也被称为三冠之国，是北方众多古老王国中的一个。当三冠之国衰落时，德林拜伦王国在它之后崛起。",
+												"A folio torn from an unknown tome details the history of Delimbiyran and Phalorm. Also called the Realm of Three Crowns, Phalorm was one of the many kingdoms of old in the North. When the Realm of Three Crowns fell, the kingdom of Delimbiyran rose after it.",
 												"夹在对开本里的是马奇尔写的一叠笔记。笔记中谈到了这位冒险家在寻找 \"影子玻璃\"，他认为那是一个巨大的宝藏。",
 												"在一叠标有 \"逾期 \"字样的旧钞票中，主人公发现了一封没有署名、显然没有寄出的马奇尔的信，信中写道。\"致我的家人。请原谅我的虚荣心，它把我从你身边带走，而且很快就要夺走我的生命或灵魂。你知道野心如何腐蚀了我对你的爱。我祈求有人为{@creature Nintra Siotta|CM}，影子玻璃的公主，可怕预言的女士，三冠王的寻求者所做的恶行报仇。但不要用你自己的生命去对抗它。文士把她绑在他的避难所里，只有在那里我才能摆脱她。但这对我来说已经太晚了。\" (马奇尔在知道自己被阴阳师法庭的特工追捕时写了这封信，但在寄出之前就被杀了。)",
 												"一张羊皮纸被干腐射穿，一经处理就会碎裂。之后剩下的羊皮纸上显示出马奇尔的笔迹，上面写道 \"......在德林拜伦的地表废墟中的楼梯，下到了红羽毛的灵堂深处。在门被打开之前，守护者几乎解决了我们。诸神啊，我多么希望......\""
@@ -25214,11 +25325,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/128-16-003.entrance-to-the-haven.png"
+												"path": "adventure/CM/128-16-003.entrance-to-the-haven.webp"
 											},
 											"title": "Entrance to the Haven of the Red Quill",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Robin Olausson"
 										}
 									]
 								}
@@ -25308,7 +25420,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/129-map-16.01-haven-of-the-red-quill.jpg"
+												"path": "adventure/CM/129-map-16.01-haven-of-the-red-quill.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -25994,13 +26106,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/129-map-16.01-haven-of-the-red-quill.webp"
-											}
+											},
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/130-map-16.01-haven-of-the-red-quill-player.jpg"
+												"path": "adventure/CM/130-map-16.01-haven-of-the-red-quill-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -26014,7 +26127,8 @@
 											"height": 2071,
 											"mapParent": {
 												"id": "578"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								},
@@ -26411,11 +26525,12 @@
 													"type": "image",
 													"href": {
 														"type": "internal",
-														"path": "adventure/CM/131-637514193168543010.png"
+														"path": "adventure/CM/131-637514193168543010.webp"
 													},
 													"title": "{@creature Nintra Siotta|CM}",
 													"width": 369,
-													"height": 571
+													"height": 571,
+													"credit": "Ernanda Souza"
 												}
 											]
 										}
@@ -26433,7 +26548,7 @@
 								{
 									"type": "list",
 									"items": [
-										"Nintra的目标是她巢穴中的一块阴影玻璃，使其爆炸成碎片。爆炸的玻璃窗格周围20英尺内的每个生物都必须做一个DC18的灵巧救赎，救赎失败会受到13({@dice 3d8})的穿刺伤害，救赎成功则受到一半的伤害。碎片会逐渐消失，变成水蒸气，窗格会在下一次行动次数20时恢复正常。",
+										"Nintra targets one pane of shadow glass in her lair, causing it to explode into shards. Each creature within 20 feet of the exploding pane must make a DC 18 Dexterity saving throw, taking 13 ({@dice 3d8}) piercing damage on a failed save, or half as much damage on a successful one. The shards fade away to vapor and the pane is restored to normal at the next initiative count 20.",
 										"Nintra targets one pane of shadow glass in her lair, briefly transforming it into a swirling vortex. One creature of her choice within 20 feet of the pane must succeed on a DC 20 Strength saving throw or be drawn into the vortex, taking 11 ({@dice 2d10}) necrotic damage. The creature is then teleported to an unoccupied space within 5 feet of another pane of shadow glass in Nintra's lair (determined randomly)."
 									]
 								}
@@ -26453,12 +26568,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/133-17-001.book.png"
+						"path": "adventure/CM/133-17-001.book.webp"
 					},
 					"title": "Alkazaar's Appendix and Alkazaar's Thrilling Tales",
 					"width": 850,
 					"height": 790,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Irina Nordsol"
 				},
 				{
 					"type": "list",
@@ -26542,7 +26658,7 @@
 					"page": 199,
 					"id": "4dd",
 					"entries": [
-						"Long ago, the wizards of Netheril created a magnificent stone golem to guard one of the {@i Nether Scrolls}\u2014a collection of dangerous scrolls that described the creation of magic and the nature of the Weave. The wizards gave the golem a sapphire heart and magically bound a sliver from the gem to the right palm of its master, Hamukai. They charged the young wizard-prince of the ancient nation of Anauria with guarding the priceless scroll. The sapphires allowed both Hamukai and the golem (whether together or separate) to unlock a magically sealed vault that held the {@item Nether Scroll of Azumar|CM|Nether Scroll}.",
+						"Long ago, the wizards of Netheril created a magnificent stone golem to guard one of the {@i Nether Scrolls}—a collection of dangerous scrolls that described the creation of magic and the nature of the Weave. The wizards gave the golem a sapphire heart and magically bound a sliver from the gem to the right palm of its master, Hamukai. They charged the young wizard-prince of the ancient nation of Anauria with guarding the priceless scroll. The sapphires allowed both Hamukai and the golem (whether together or separate) to unlock a magically sealed vault that held the {@item Nether Scroll of Azumar|CM|Nether Scroll}.",
 						"The blue dragon {@creature Zikzokrishka|CM} discovered the scroll's location, and she arrived at the vault ready to destroy any and all in her path. In the ensuing battle, the golem gravely wounded {@creature Zikzokrishka|CM}, but she blasted the golem with eldritch magic that damaged its memory and hurled it to a far corner of Faerûn. Thinking his golem destroyed, Hamukai put a shield around the vault containing the scroll that could be opened only by the sapphire's power. Too weak to continue the fight, {@creature Zikzokrishka|CM} limped away to heal her wounds. But as she left, she incanted a powerful Netherese curse: when the prince died, the shield would disappear and the scroll would be hers for the taking.",
 						"知道{@creature Zikzokrishka|CM}的诅咒已经注定了他的命运，哈穆凯做出了一个决定。王子违背了深爱他的臣民的意愿，命令他的巫师们举行一个仪式，让他在死亡的边缘保持千年之久。他以魔法维持的生命力将维持将他封在金库中的盾牌，并保护{@item Nether Scroll of Azumar|CM|Nether Scroll}。由于打开金库需要他右手掌中的蓝宝石碎片或巨魔的蓝宝石心脏（他认为这颗心脏已经和巨魔一起被摧毁了），哈姆凯觉得卷轴的安全是有把握的。",
 						"{@creature Zikzokrishka|CM}带着一支军队回来了，打算把蓝宝石从王子的头上扯下来。她驱散了民众，将王子的阿苏玛尔城变成了废墟。令她失望的是，她发现王子的坟墓是坚不可摧的。她愤怒地嚎叫着，(1%)知道让王子活着的咒语会阻挠她的诅咒数千年，远远超过她的龙人寿命。在对力量的渴求中，她寻求并实现了对龙人的改造，她愿意等待一个永恒的时间来超越让哈姆凯濒临死亡的咒语，她知道他的生命力总有一天会消散，金库会变得可以打开。",
@@ -26653,11 +26769,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/134-17-002.golem-in-the-desert.png"
+												"path": "adventure/CM/134-17-002.golem-in-the-desert.webp"
 											},
 											"title": "Golem in the Desert",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Irina Nordsol"
 										}
 									]
 								}
@@ -26767,7 +26884,7 @@
 										{
 											"type": "list",
 											"items": [
-												"The characters encounter three {@creature Cyclops||cyclopes} who are bickering at each other while looking for food. They have Bedine prisoners tied up in their lair\u2014a cavernous crack inside a granite escarpment that juts out from the sands.",
+												"The characters encounter three {@creature Cyclops||cyclopes} who are bickering at each other while looking for food. They have Bedine prisoners tied up in their lair—a cavernous crack inside a granite escarpment that juts out from the sands.",
 												"两名伪装成贝丁游牧民的{@creature Rakshasa||rakshasas}名叫伊穆拉和西卡特的人提出要引导他们去一个魔法绿洲。一旦他们放松警惕，罗刹人就会攻击这些人物。"
 											]
 										}
@@ -26833,7 +26950,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/135-map-17.01-haruun.jpg"
+										"path": "adventure/CM/135-map-17.01-haruun.webp"
 									},
 									"imageType": "map",
 									"grid": {
@@ -27438,13 +27555,14 @@
 									"hrefThumbnail": {
 										"type": "internal",
 										"path": "adventure/CM/thumbnail/135-map-17.01-haruun.webp"
-									}
+									},
+									"credit": "Mike Schley"
 								},
 								{
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/136-map-17.01-haruun-player.jpg"
+										"path": "adventure/CM/136-map-17.01-haruun-player.webp"
 									},
 									"imageType": "mapPlayer",
 									"grid": {
@@ -27458,7 +27576,8 @@
 									"height": 3000,
 									"mapParent": {
 										"id": "579"
-									}
+									},
+									"credit": "Mike Schley"
 								}
 							]
 						},
@@ -27679,7 +27798,7 @@
 												"你翻过一个沙丘，看到远处有一个岩石峭壁，其表面到处都是小洞穴入口。几十个微小的人形生物感觉到你的存在而冲回山洞里。"
 											]
 										},
-										"这些微小的生物是居住在沙漠中的{@creature Chwinga|IDRotF|chwingas}（见其状态块{@area the end of the adventure|524|x}），它们生活在一个巨大的龙龟壳上的小洞穴里。如果人物接近悬崖，大地就会发出隆隆声，因为龙龟将它巨大的头颅从沙子里抬起来，对他们说话，并询问他们的意图。",
+										"The tiny creatures are desert-dwelling {@creature Chwinga|IDRotF|chwingas} (see their stat block at {@area the end of the adventure|524|x}) that live in tiny caves built up on the shell of a giant {@creature dragon tortoise|CM}. If the characters approach the escarpment, the earth rumbles as the {@creature dragon tortoise|CM} raises its massive head out of the sand, addresses them, and asks their intentions.",
 										"对于{@creature dragon tortoise|CM}，使用{@creature dragon turtle}统计块，并作如下修改。",
 										{
 											"type": "list",
@@ -27723,7 +27842,7 @@
 							"id": "509",
 							"entries": [
 								"在人物探索尸骨城的过程中，描述现场的情况，让他们保持紧张感--荒凉、烧焦的沙子的气味，以及随着他们的接近，沙暴的嘶嘶声越来越大。除了马斯塔巴（见{@area area V1|50e|x}）之外，这座墓园由一系列从沙地中伸出的废墟石墙和被呼啸的风吹起的成片的铺面街道组成。从墓园的任何地方都可以看到和听到中心的沙暴漩涡。",
-								"The necropolis also contains buried treasures. A character who searches for an hour and succeeds on a DC 20 Intelligence ({@skill Investigation}) check finds some hidden treasure determined by rolling on the {@book Treasure Hoard: Challenge 5\u201310 table|DMG|7|Treasure Hoard: Challenge 5\u201410} in the {@book Dungeon Master's Guide|DMG}. Up to four such hoards can be found before the city is picked clean.",
+								"The necropolis also contains buried treasures. A character who searches for an hour and succeeds on a DC 20 Intelligence ({@skill Investigation}) check finds some hidden treasure determined by rolling on the {@book Treasure Hoard: Challenge 5–10 table|DMG|7|Treasure Hoard: Challenge 5—10} in the {@book Dungeon Master's Guide|DMG}. Up to four such hoards can be found before the city is picked clean.",
 								"为了让人物保持警惕，你可以使用以下一种遭遇。",
 								{
 									"type": "entries",
@@ -27742,7 +27861,7 @@
 									"id": "50b",
 									"entries": [
 										"The party encounters three {@creature Flameskull||flameskulls} floating around the ruins, each wearing an odd, tattered hat. With a successful DC 15 Intelligence ({@skill Investigation}) check, a character recalls the hats worn by the wizards on the murals in the Hall of Rainbows. (One or more players might remember this even if their characters don't.) The flameskulls are startled upon seeing the adventurers and begin chattering to one another, wondering what to do about these strange visitors.",
-										"These are the remains of the Consortium of Three, the Netherese wizards who were loyal to Prince Hamukai. After establishing the refuge at Haruun, they honed their magic and vowed to return to Azumar to defeat {@creature Zikzokrishka|CM}. When they did, they discovered to their horror that {@creature Zikzokrishka|CM} had transformed into a dracolich, becoming even more powerful. They were defeated, transformed into flameskulls by the dracolich, and commanded to guard her necropolis for eternity. Though their minds are warped by their current state, if the characters try to befriend the flameskulls\u2014invoking their names and appealing to their loyalty to the prince\u2014the flameskulls offer to help. A character must succeed on a DC 20 Charisma ({@skill Persuasion}) check to sway the flameskulls. Charisma ({@skill Deception} or {@skill Intimidation}) checks do not work on them.",
+										"These are the remains of the Consortium of Three, the Netherese wizards who were loyal to Prince Hamukai. After establishing the refuge at Haruun, they honed their magic and vowed to return to Azumar to defeat {@creature Zikzokrishka|CM}. When they did, they discovered to their horror that {@creature Zikzokrishka|CM} had transformed into a dracolich, becoming even more powerful. They were defeated, transformed into flameskulls by the dracolich, and commanded to guard her necropolis for eternity. Though their minds are warped by their current state, if the characters try to befriend the flameskulls—invoking their names and appealing to their loyalty to the prince—the flameskulls offer to help. A character must succeed on a DC 20 Charisma ({@skill Persuasion}) check to sway the flameskulls. Charisma ({@skill Deception} or {@skill Intimidation}) checks do not work on them.",
 										"If the characters antagonize the flameskulls or fail to communicate with them, the flameskulls either attack or flee to alert Helmdar, the storm giant skeleton in {@area area V1|50e|x}."
 									]
 								}
@@ -27780,7 +27899,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/137-map-17.02-necropolis-mastaba.jpg"
+												"path": "adventure/CM/137-map-17.02-necropolis-mastaba.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -28159,13 +28278,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/137-map-17.02-necropolis-mastaba.webp"
-											}
+											},
+											"credit": "Mike Schley"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/138-map-17.02-necropolis-mastaba-player.jpg"
+												"path": "adventure/CM/138-map-17.02-necropolis-mastaba-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -28180,7 +28300,8 @@
 											"height": 3000,
 											"mapParent": {
 												"id": "57a"
-											}
+											},
+											"credit": "Mike Schley"
 										}
 									]
 								}
@@ -28347,11 +28468,12 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "adventure/CM/139-17-003.sarcophagus.png"
+										"path": "adventure/CM/139-17-003.sarcophagus.webp"
 									},
 									"title": "Hamukai in His Sarcophagus",
 									"width": 1700,
-									"height": 1135
+									"height": 1135,
+									"credit": "Irina Nordsol"
 								}
 							]
 						},
@@ -28446,11 +28568,12 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/140-17-004.chwinga.png"
+								"path": "adventure/CM/140-17-004.chwinga.webp"
 							},
 							"title": "{@creature Chwinga|IDRotF}",
 							"width": 1200,
-							"height": 1073
+							"height": 1073,
+							"credit": "Irina Nordsol"
 						},
 						{
 							"type": "entries",
@@ -28506,12 +28629,13 @@
 					"type": "image",
 					"href": {
 						"type": "internal",
-						"path": "adventure/CM/142-18-001.xanthoria.png"
+						"path": "adventure/CM/142-18-001.xanthoria.webp"
 					},
 					"title": "Xanthoria",
 					"width": 850,
 					"height": 784,
-					"maxWidth": 300
+					"maxWidth": 300,
+					"credit": "Mark Behm"
 				},
 				{
 					"type": "list",
@@ -28548,7 +28672,7 @@
 							"id": "52d",
 							"entries": [
 								"Xanthoria对Lichdom的研究和她对活体法器的创造导致了瘟疫的出现，并在整个剑海岸蔓延。任何在10英尺范围内的野兽或类人都必须在DC20宪法救赎中成功，否则也会被感染。拯救成功后，生物会在24小时内对瘟疫免疫，任何对疾病免疫的生物都会自动拯救成功。",
-								"After a failed save, a creature experiences the first symptoms\u2014body aches, nausea, slurred speech, and uncontrollable drooling\u2014{@dice 1d4} hours later and gains 1 level of {@condition exhaustion}. Every 24 hours thereafter, the creature automatically gains another level of {@condition exhaustion}. Any creature killed by the saprophytic plague transforms into a lifeless magenta ooze.",
+								"After a failed save, a creature experiences the first symptoms—body aches, nausea, slurred speech, and uncontrollable drooling—{@dice 1d4} hours later and gains 1 level of {@condition exhaustion}. Every 24 hours thereafter, the creature automatically gains another level of {@condition exhaustion}. Any creature killed by the saprophytic plague transforms into a lifeless magenta ooze.",
 								"被滋生性瘟疫感染至少24小时的生物表现得像个僵尸，似乎几乎意识不到周围的环境，因为真菌从它的头部、身体和四肢长出来了。它感到有一种压倒性的冲动，想在未受感染的生物群体周围，以便传播传染病。这时，被感染的人类开始反复说 \"Xanthoria \"这个词，而不理解这个词的含义。这种行为是由孢子的菌丝网络造成的，它在桑托利亚和被瘟疫感染的人类之间形成了一种脆弱的联系。",
 								"暴露在瘟疫孢子中的食物会在{@dice 2d12}小时内腐烂或变酸，留下一块由渗出的真菌组成的鲜艳的洋红色。食用被感染的食物需要进行上述拯救。",
 								"任何可以治疗疾病的魔法都可以使生物摆脱滋生性瘟疫。施放{@spell purify food and drink}可以破坏食物中的感染。"
@@ -28605,7 +28729,7 @@
 												"桑托利亚对亡灵的激增感到恐惧，因为它们侵入了她位于莱科萨沙漠的家附近的森林，那是一个洞穴群。她正在寻找一种方法来阻止它们的蔓延，并保护她所认为的事物的自然秩序。",
 												"这本书的大部分内容讨论了自然界中健康的共生关系。",
 												"作者花时间研究亡灵，希望能深入了解他们的行动，并确定他们可能来自哪里。",
-												"随着作者陷入疯狂，写作变成了几乎无法理解的片段，很多都暗指她想把自然界的生命和亡灵结合起来。",
+												"As the author sinks into madness, the writing turns into almost incomprehensible fragments, many alluding to her desire to combine natural life and the undead.",
 												"这本书的结尾记录了桑托利亚通过类似于成为巫师的过程延长自己生命的几次失败尝试。书中有各种被解剖的动物和人形动物的图画，以及对在费族生物上进行实验的可行性的思考。",
 												"越往后读，草图和边注的颜色就越深。术语 \"Mycorji? Shedaklah？\"和 \"Lady of Lichen \"各出现了几次。此外，数字222在本书的后半部分频繁出现，没有任何解释。"
 											]
@@ -28673,23 +28797,23 @@
 											],
 											"rows": [
 												[
-													"01\u201320",
+													"01–20",
 													"\"我在我周围的世界中看到了别人看不到的幻象。\""
 												],
 												[
-													"21\u201340",
+													"21–40",
 													"\"我周期性地陷入紧张状态，长时间地凝视着远方\"。"
 												],
 												[
-													"41\u201360",
+													"41–60",
 													"\"我看到一个改变了的现实版本，我的头脑说服自己，即使面对大量相反的证据，事情也是真实的。\""
 												],
 												[
-													"61\u201380",
+													"61–80",
 													"\"我的思想正在滑落，我的智力似乎在消退。\""
 												],
 												[
-													"81\u201300",
+													"81–00",
 													"\"我一直在抓挠看不见的真菌感染。\""
 												]
 											]
@@ -28712,7 +28836,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/143-map-18.01-lykortha-expanse.jpg"
+												"path": "adventure/CM/143-map-18.01-lykortha-expanse.webp"
 											},
 											"imageType": "map",
 											"grid": {
@@ -30502,13 +30626,14 @@
 											"hrefThumbnail": {
 												"type": "internal",
 												"path": "adventure/CM/thumbnail/143-map-18.01-lykortha-expanse.webp"
-											}
+											},
+											"credit": "Sean MacDonald"
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/144-map-18.01-lykortha-expanse-player.jpg"
+												"path": "adventure/CM/144-map-18.01-lykortha-expanse-player.webp"
 											},
 											"imageType": "mapPlayer",
 											"grid": {
@@ -30523,7 +30648,8 @@
 											"height": 2073,
 											"mapParent": {
 												"id": "57b"
-											}
+											},
+											"credit": "Sean MacDonald"
 										}
 									]
 								},
@@ -30545,11 +30671,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/145-18-002.Thunderwing.png"
+												"path": "adventure/CM/145-18-002.Thunderwing.webp"
 											},
 											"title": "Thunderwing",
 											"width": 850,
-											"height": 1322
+											"height": 1322,
+											"credit": "Christopher Burdett"
 										},
 										"雷翼哀怨地看着冒险者，大声地打着鼻涕，小鼻子下面冒着鼻涕泡。如果有人对她好，她会告诉他们以下的话。",
 										{
@@ -30680,15 +30807,15 @@
 													],
 													"rows": [
 														[
-															"1\u20132",
+															"1–2",
 															"菌丝对DM选择的目标进行以下近战武器攻击。命中率+10，范围60英尺，一个生物。命中：24({@dice 6d6 + 3})酸伤害。"
 														],
 														[
-															"3\u20134",
+															"3–4",
 															"Spores fill a 20-foot-radius sphere centered on a point in the cavern chosen by the DM. Creatures in the area must make a DC 16 Constitution saving throw. A creature takes 55 ({@dice 10d10}) poison damage and is {@condition poisoned} for 1 hour on a failed save, or takes half as much damage and is not {@condition poisoned} on a successful save."
 														],
 														[
-															"5\u20136",
+															"5–6",
 															"Psychic energy fills a 20-foot-radius sphere centered on a point in the cavern chosen by the DM. Each creature in the area must succeed on a DC 16 Intelligence saving throw or take 31 ({@dice 4d12 + 5}) psychic damage and be {@condition stunned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the {@condition stunned} condition on itself on a success."
 														]
 													]
@@ -30780,11 +30907,12 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "adventure/CM/146-18-003.faerie-ring.png"
+												"path": "adventure/CM/146-18-003.faerie-ring.webp"
 											},
 											"title": "Faerie Ring",
 											"width": 1700,
-											"height": 1135
+											"height": 1135,
+											"credit": "Domenico Sellaro"
 										}
 									]
 								},
@@ -30834,7 +30962,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "L9. Cove of Experimentation ",
+									"name": "L9. Cove of Experimentation",
 									"page": 220,
 									"id": "552",
 									"entries": [
@@ -30870,7 +30998,7 @@
 													"type": "list",
 													"items": [
 														"腐烂的尸体，看起来像一只流离失所的野兽，但它有太多的触角和肢体。",
-														"一条小龙的发黄的骨架，有第二个头，所有的肉都烂掉了。它的身体以不自然的姿势蜷缩着，翅膀奇怪地伸出来，好像在承受某种不知名的痛苦。这些是黄色小精灵龙 \"兔子花 \"的遗体。",
+														"The yellowed skeleton of a tiny dragon with a second head, all its flesh rotted away. Its body is curled up in an unnatural position, and its wings are outstretched oddly as if it were suffering some unknown agony. These are the remains of the yellow faerie dragon Bunny Blossom.",
 														"一个身着色彩鲜艳但破烂不堪的衣服的精灵的骸骨。它的半透明的翅膀已经干瘪，一碰就碎。",
 														"四个哥布林和两个木精灵的腐烂和残缺的遗体。"
 													]
@@ -30899,7 +31027,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "L10. Charnel Pit ",
+									"name": "L10. Charnel Pit",
 									"page": 221,
 									"id": "558",
 									"entries": [
@@ -31007,7 +31135,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Xanthoria's Defeat ",
+					"name": "Xanthoria's Defeat",
 					"page": 222,
 					"id": "560",
 					"entries": [
@@ -31015,18 +31143,19 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "adventure/CM/147-18-004.lichen-lich.png"
+								"path": "adventure/CM/147-18-004.lichen-lich.webp"
 							},
 							"width": 850,
-							"height": 985
+							"height": 985,
+							"credit": "April Prime"
 						},
 						"一旦桑托利亚被打败，角色们在她的财产中发现了她最后几页的笔记。这些笔记详细描述了她对亡灵的日益痴迷，以及她成功地将雷翼变成了她的法器。",
 						"掌握了桑托利亚法器的信息后，人物必须说服雷翼放弃自己的生命，以彻底消灭地衣巫师。以下是人物可能说服雷翼为更大的利益而牺牲自己的一些方法。",
 						{
 							"type": "list",
 							"items": [
-								"承诺将她的朋友，小精灵龙Bunny Blossom，从死里复活。",
-								"有望完成桑托利亚最初的任务，即清除周围森林中的亡灵。",
+								"Promising to raise her friend, Bunny Blossom the faerie dragon, from the dead.",
+								"Promising to complete Xanthoria's original mission to rid the surrounding forest of undead.",
 								"毁掉桑托利亚的笔记，使创造地衣的过程永远无法被其他人复制。"
 							]
 						},
@@ -31060,6 +31189,284 @@
 									]
 								}
 							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Credits",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"columns": 2,
+					"items": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Project Lead",
+									"entries": [
+										"Christopher Perkins"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Art Director",
+									"entries": [
+										"Kate Irwin"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Writing",
+									"entries": [
+										"Graeme Barber, Bill Benham, Kelly Lynne D'Angelo, Alison Huang, Mark Hulmes, Jennifer Kretchmer, Daniel Kwan, Adam Lee, Ari Levitch, Chris Lindsay, Sarah Madsen, Christopher Perkins, Michael Polkinghorn, Taymoor Rehman, Hannah Rose, Derek Ruiz, Kienna Shaw, Brandes Stoddard, Amy Vorpahl, Toni Winslow-Brill"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Rules Development",
+									"entries": [
+										"Jeremy Crawford, Dan Dillon, Ben Petrisor, Taymoor Rehman"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Editing",
+									"entries": [
+										"Michele Carter, Scott Fitzgerald Gray, Kim Mohan, Christopher Perkins, Hannah Rose"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Lead Graphic Designer",
+									"entries": [
+										"Trish Yochum"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Graphic Designer",
+									"entries": [
+										"Trystan Falcone"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Cover Illustrators",
+									"entries": [
+										"Clint Cearley, Simen Meyer"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Interior Illustrators",
+									"entries": [
+										"Mark Behm, Zoltan Boros, Filip Burburan, Christopher Burdett, Sidharth Chaturvedi, Nikki Dawes, Wayne England, Caroline Gariba, Sam Keiser, Julian Kok, Katerina Ladon, Andrew Mar, Irina Nordsol, Robin Olausson, Claudio Pozas, April Prime, Domenico Sellaro, Ernanda Souza, Brian Valeza, Tyler Walpole, Zuzanna Wuzyk, Kieran Yanner"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Cartographers",
+									"entries": [
+										"Tim Hartin, Dyson Logos, Sean Macdonald, Mike Schley"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Project Engineer",
+									"entries": [
+										"Cynda Callaway"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Imaging Technician",
+									"entries": [
+										"Kevin Yee"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Prepress Specialist",
+									"entries": [
+										"Jefferson Dunlap"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "D&D Tabletop Team",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Executive Producer",
+													"entries": [
+														"Ray Winninger"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Principal Designers",
+													"entries": [
+														"Jeremy Crawford, Christopher Perkins"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Design Manager",
+													"entries": [
+														"Steve Scott"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Design Department",
+													"entries": [
+														"Dan Dillon, Adam Lee, Ari Levitch, Ben Petrisor, F. Wesley Schneider, James Wyatt"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Art Team Manager",
+													"entries": [
+														"Richard Whitters"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Art Department",
+													"entries": [
+														"Trystan Falcone, Kate Irwin, Emi Kuioka, Shawn Wood, Trish Yochum"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Senior Producer",
+													"entries": [
+														"Dan Tovar"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Producers",
+													"entries": [
+														"Bill Benham, Robert Hawkey, Lea Heliotis"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Director of Product Management",
+													"entries": [
+														"Liz Schuh"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Product Managers",
+													"entries": [
+														"Natalie Egan, Chris Lindsay, Hilary Ross"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Marketing",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Director of Global Brand Marketing",
+													"entries": [
+														"Brian Perry"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Global Brand Manager",
+													"entries": [
+														"Shelly Mazzanoble"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Senior Marketing Communications Manager",
+													"entries": [
+														"Greg Tito"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Community Manager",
+													"entries": [
+														"Brandy Camel"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						"{@b The map of Candlekeep was inspired by a map design by Marco Bernardini.}",
+						"Special thanks to our hundreds of playtesters!"
+					]
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "adventure/CM/credits.webp"
+					},
+					"width": 850,
+					"height": 1063
+				},
+				{
+					"type": "gallery",
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/CM/credits2.webp"
+							},
+							"title": "On the Cover: Clint Cearley gives us a glimpse of two adventurers trying to solve one of Candlekeep's great mysteries, unaware of the danger looming behind them.",
+							"width": 850,
+							"height": 653
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/CM/credits3.webp"
+							},
+							"title": "On the Alt-Cover: Simen Meyer's cover incorporates the symbol of Candlekeep and various creatures into its design, creating what looks like a book one might find in the library's vaults.",
+							"width": 850,
+							"height": 653
 						}
 					]
 				}

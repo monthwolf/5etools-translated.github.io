@@ -84,6 +84,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The abhorrent overlord's spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
 					],
@@ -329,6 +330,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The alseid's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
 					],
@@ -351,7 +353,7 @@
 				{
 					"name": "Hide in Plain Sight",
 					"entries": [
-						"当它在草原上时，在灵巧（隐身）检查中具有优势，可以隐藏。"
+						"The alseid has advantage on Dexterity ({@skill Stealth}) checks made to hide while it is in grassland."
 					]
 				},
 				{
@@ -462,13 +464,13 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"猛禽在依靠视觉的智慧（感知）检查方面具有优势。"
+						"The raptor has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				},
 				{
 					"name": "Recorded Mimicry",
 					"entries": [
-						"猛禽可以模仿它在过去24小时内听到的任何声音，包括声音。听到这些声音的生物可以通过成功的智慧（洞察力）检查来判断它们是模仿的。"
+						"The raptor can mimic any sound, including voices, it has heard in the last 24 hours. A creature that hears the sounds can tell they are imitations with a successful {@dc 12} Wisdom ({@skill Insight}) check."
 					]
 				}
 			],
@@ -955,6 +957,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The archon's spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The archon can innately cast the following spells, requiring no material components:"
 					],
@@ -1134,6 +1137,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The ashen rider's spellcasting ability is Wisdom (spell save {@dc 18}). The rider can innately cast the following spells, requiring no material components:"
 					],
@@ -1424,7 +1428,7 @@
 				{
 					"name": "Amphora",
 					"entries": [
-						"{@atk mw}{@hit 6}击中，到达5英尺，一个中型或小型生物。{@h}8 ({@damage 1d8 + 4})重击伤害。如果安瓿瓶内还没有生物，目标就会被放入{@condition restrained}。作为一个动作，{@condition restrained}的生物可以做一个{@dc 14}的灵巧（杂技）检查，成功后可以从安瓿瓶中逃脱。如果双耳瓶被摧毁，该效果也会结束。双耳瓶有8点攻击力，20点命中率，对毒药和精神伤害有免疫力。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one Medium or smaller creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If there is not already a creature inside the amphora, the target is {@condition restrained} inside. As an action, the {@condition restrained} creature can make a {@dc 14} Dexterity ({@skill Acrobatics}) check, escaping from the amphora on a success. The effect also ends if the amphora is destroyed. The amphora has AC 8, 20 hit points, and immunity to poison and psychic damage."
 					]
 				}
 			],
@@ -2157,7 +2161,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"狮子在依靠嗅觉的智慧（感知）检查方面具有优势。"
+						"The lion has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
@@ -2892,6 +2896,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Hythonia's spellcasting ability is Charisma (spell save {@dc 18}). She can innately cast {@spell animate objects} once per day requiring no material components."
 					],
@@ -3215,6 +3220,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Lampad的法术能力是魅力（{@hit 6}用法术攻击命中）。它可以天生施展以下法术，不需要任何材料成分。"
 					],
@@ -3342,6 +3348,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The leonin's spellcasting ability is Wisdom (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
 					],
@@ -3427,6 +3434,17 @@
 			"name": "Medusa",
 			"source": "MOT",
 			"page": 206,
+			"otherSources": [
+				{
+					"source": "SatO"
+				},
+				{
+					"source": "BMT"
+				},
+				{
+					"source": "DoDk"
+				}
+			],
 			"_copy": {
 				"name": "Medusa",
 				"source": "MM",
@@ -3512,6 +3530,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The hoplite is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following wizard spells prepared:"
 					],
@@ -3677,6 +3696,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The naiad's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
 					],
@@ -3831,6 +3851,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The shepherd's spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
 					],
@@ -4057,6 +4078,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The oracle's spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -4187,6 +4209,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The oread's spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -4530,7 +4553,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"Polukranos做了一个智慧（感知）检查。"
+						"Polukranos makes a Wisdom ({@skill Perception}) check."
 					]
 				},
 				{
@@ -4629,7 +4652,7 @@
 				{
 					"name": "Unreadable Face",
 					"entries": [
-						"回归者对任何能感知其情绪或读取其想法的效果都是免疫的。用智慧（洞察力）检查来确定回归者的意图或诚意的做法是不利的。"
+						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Insight}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
 					]
 				}
 			],
@@ -4740,7 +4763,7 @@
 				{
 					"name": "Unreadable Face",
 					"entries": [
-						"回归者对任何能感知其情绪或读取其想法的效果都是免疫的。用智慧（洞察力）检查来确定回归者的意图或诚意的做法是不利的。"
+						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Insight}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
 					]
 				}
 			],
@@ -4848,7 +4871,7 @@
 				{
 					"name": "Unreadable Face",
 					"entries": [
-						"回归者对任何能感知其情绪或读取其想法的效果都是免疫的。用智慧（洞察力）检查来确定回归者的意图或诚意的做法是不利的。"
+						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Insight}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
 					]
 				}
 			],
@@ -4954,7 +4977,7 @@
 				{
 					"name": "Unreadable Face",
 					"entries": [
-						"回归者对任何能感知其情绪或读取其想法的效果都是免疫的。用智慧（洞察力）检查来确定回归者的意图或诚意的做法是不利的。"
+						"The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom ({@skill Insight}) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
 					]
 				}
 			],
@@ -5508,6 +5531,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The triton's spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -5654,6 +5678,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The triton's spellcasting ability is Wisdom (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
 					],
@@ -6035,7 +6060,7 @@
 				{
 					"name": "Breath Weapon {@recharge 5}",
 					"entries": [
-						"The cerberus exhales a 15-foot cone of molten rock. Each creature in the cone must make a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 12} Strength (Athletics) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 10 hit points, and it is immune to fire, poison, and psychic damage."
+						"The cerberus exhales a 15-foot cone of molten rock. Each creature in the cone must make a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 12} Strength ({@skill Athletics}) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 10 hit points, and it is immune to fire, poison, and psychic damage."
 					]
 				}
 			],
@@ -6120,7 +6145,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"在依靠嗅觉的智慧（感知）检查中，typhon具有优势。"
+						"The typhon has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
@@ -6280,7 +6305,7 @@
 				{
 					"name": "Breath Weapon {@recharge 5}",
 					"entries": [
-						"The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 15} Strength (Athletics) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage."
+						"The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 15} Strength ({@skill Athletics}) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage."
 					]
 				}
 			],

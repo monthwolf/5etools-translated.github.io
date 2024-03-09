@@ -51,6 +51,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The aartuk casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 12}):"
 					],
@@ -188,6 +189,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"阿图克人施展以下一种法术，不需要法术成分，以智慧作为施法能力。"
 					],
@@ -520,7 +522,7 @@
 				}
 			],
 			"legendaryGroup": {
-				"name": "Adult Lunar Dragon",
+				"name": "Lunar Dragon",
 				"source": "BAM"
 			},
 			"dragonAge": "adult",
@@ -868,7 +870,7 @@
 				}
 			],
 			"legendaryGroup": {
-				"name": "Ancient Lunar Dragon",
+				"name": "Lunar Dragon",
 				"source": "BAM"
 			},
 			"dragonAge": "ancient",
@@ -1152,6 +1154,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"精灵使用智力作为施法能力，施展以下一种法术。"
 					],
@@ -1176,7 +1179,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"精灵穿上了一套精灵的链子。"
+						"The elf wears a suit of {@item elven chain}."
 					]
 				},
 				{
@@ -1324,6 +1327,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"精灵施展以下法术，以智慧作为施法能力。"
 					],
@@ -1591,6 +1595,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The elf casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
@@ -2086,7 +2091,7 @@
 					"ac": 18,
 					"from": [
 						"natural armor",
-						"{@spell intellect fortress|tce}"
+						"intellect fortress"
 					]
 				}
 			],
@@ -2123,6 +2128,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The braxat casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -2344,6 +2350,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Chwinga施展以下一种法术，不需要物质或语言成分，并使用魅力作为施法能力。"
 					],
@@ -2605,6 +2612,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The dohwar casts the following spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
 					],
@@ -2842,7 +2850,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"如果眼魔在战斗开始时是不动的，并且眼睛和嘴巴都是闭着的，那么它在主动性的掷骰上就有优势。此外，如果一个生物没有观察到眼球怪的动作或行动，该生物必须通过{@dc 18}智力(调查)检查成功，才能辨别出眼球怪是有生命的。"
+						"If the eye monger is motionless and has its eye and mouth closed at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the eye monger move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the eye monger is animate."
 					]
 				},
 				{
@@ -2897,6 +2905,11 @@
 			"name": "Feyr",
 			"source": "BAM",
 			"page": 22,
+			"otherSources": [
+				{
+					"source": "BMT"
+				}
+			],
 			"size": [
 				"L"
 			],
@@ -3604,6 +3617,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -3741,6 +3755,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -3873,6 +3888,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The githyanki casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
@@ -4839,6 +4855,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The mercane casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -5105,6 +5122,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The neh-thalggu casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 11}). It must have consumed the requisite number of brains to cast the spell, as indicated:"
 					],
@@ -5503,6 +5521,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Neogi施展以下一种法术，使用魅力作为施法能力。"
 					],
@@ -6082,6 +6101,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The psurlon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -6223,6 +6243,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The psurlon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
@@ -6377,6 +6398,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The psurlon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -6506,6 +6528,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The reigar casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
 					],
@@ -6800,6 +6823,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"小丑可以施展以下一种法术，不需要任何材料成分，并使用魅力作为施法能力。"
 					],
@@ -6850,7 +6874,7 @@
 				{
 					"name": "Phantasmal Form (3/Day)",
 					"entries": [
-						"The clown veils itself and everything it is wearing and carrying in an illusion that makes it look like some other creature of its size or smaller (such as a child) or an object small enough to fit in the clown's space (such as a floating balloon). Maintaining this effect requires the clown's {@status concentration} (as if {@status concentration||concentrating} on a spell), and the illusion fails to hold up to physical inspection. As an action, a creature that can see the clown's illusory form can make a {@dc 15} Wisdom (Insight) check, piercing the illusion and discerning the clown's true form on a success."
+						"The clown veils itself and everything it is wearing and carrying in an illusion that makes it look like some other creature of its size or smaller (such as a child) or an object small enough to fit in the clown's space (such as a floating balloon). Maintaining this effect requires the clown's {@status concentration} (as if {@status concentration||concentrating} on a spell), and the illusion fails to hold up to physical inspection. As an action, a creature that can see the clown's illusory form can make a {@dc 15} Wisdom ({@skill Insight}) check, piercing the illusion and discerning the clown's true form on a success."
 					]
 				}
 			],
@@ -7272,7 +7296,7 @@
 					"ac": 16,
 					"from": [
 						"natural armor",
-						"{@spell intellect fortress|tce}"
+						"intellect fortress"
 					]
 				}
 			],
@@ -7311,6 +7335,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"瑟兰人施展以下一种法术，不需要法术成分，以智力作为施法能力。"
 					],
@@ -7849,7 +7874,7 @@
 				{
 					"name": "Chameleon Carapace",
 					"entries": [
-						"Thri-kreen会改变其躯壳的颜色，以配合周围环境的颜色和质地，在其进行灵巧（隐身）检查以隐藏在这些环境中时获得优势。"
+						"The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ({@skill Stealth}) checks it makes to hide in those surroundings."
 					]
 				},
 				{
@@ -7943,6 +7968,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting (Psionics)",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Thri-kreen可以施展以下一种法术，不需要法术组件，以智慧作为施法能力。"
 					],
@@ -7990,7 +8016,7 @@
 				{
 					"name": "Chameleon Carapace",
 					"entries": [
-						"Thri-kreen会改变其躯壳的颜色，以配合周围环境的颜色和质地，在其进行灵巧（隐身）检查以隐藏在这些环境中时获得优势。"
+						"The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ({@skill Stealth}) checks it makes to hide in those surroundings."
 					]
 				}
 			],
@@ -8357,6 +8383,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The mage casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],

@@ -184,6 +184,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Aribeth is a 11th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Aribeth has the following paladin spells prepared:"
 					],
@@ -217,7 +218,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"当在阳光下时，Aribeth在攻击卷上有劣势，在依靠视觉的智慧（感知）检查上也是如此。"
+						"While in sunlight, Aribeth has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				},
 				{
@@ -414,6 +415,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Baalzebul's innate spellcasting ability is Charisma (spell save {@dc 24}, {@hit 16} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
@@ -685,6 +687,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"贝比利斯人可以天生施展以下的法术，不需要任何物质成分。"
 					],
@@ -929,7 +932,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"蹂躏者进行一次智慧（感知）检查。"
+						"The ravager makes a Wisdom ({@skill Perception}) check."
 					]
 				},
 				{
@@ -1444,6 +1447,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Borivik is a 11th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Borivik has the following ranger spells prepared:"
 					],
@@ -1619,6 +1623,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Cornelius Watson is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Cornelius Watson has the following wizard spells prepared:"
 					],
@@ -1848,6 +1853,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Cryonax's innate spellcasting ability is Charisma (spell save 21, {@hit 13} to hit with spell attacks). Cryonax can innately cast the following spells, requiring no material components:"
 					],
@@ -2075,6 +2081,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Dagryn's innate spellcasting ability is Charisma (spell save {@dc 13}). Dagryn can innately cast the following spells, requiring no material components:"
 					],
@@ -2088,6 +2095,7 @@
 				},
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Dagryn is a 11th-level spellcaster. His spellcasting ability is Charisma (save {@dc 13}, {@hit 5} to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest. He knows the following warlock spells:"
 					],
@@ -2263,6 +2271,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Darien's innate spellcasting ability is Charisma. She can innately cast the following spells (spell save {@dc 16}, {@hit 8} to hit with spell attacks), requiring no material components:"
 					],
@@ -2285,6 +2294,7 @@
 				},
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Darien is a 15th-level spellcaster. Her spellcasting ability is Charisma (save {@dc 16}, {@hit 8} to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:"
 					],
@@ -2794,6 +2804,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The kelubar's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -3028,6 +3039,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The shator's innate spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -3213,6 +3225,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The dread doppelganger's spellcasting ability is Intelligence (spell save {@dc 14}). It can innately cast the following spells, requiring no components:"
 					],
@@ -3264,7 +3277,7 @@
 				{
 					"name": "Read Thoughts",
 					"entries": [
-						"The dread doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the dread doppelganger can continue reading its thoughts, as long as the dread doppelganger's Concentration isn't broken (as if {@status concentration||concentrating} on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom (Insight) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
+						"The dread doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the dread doppelganger can continue reading its thoughts, as long as the dread doppelganger's Concentration isn't broken (as if {@status concentration||concentrating} on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
 					]
 				}
 			],
@@ -3359,6 +3372,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Edwin is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 12} to hit with spell attacks). Edwin has the following wizard spells prepared:"
 					],
@@ -3589,6 +3603,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Eo Ashmajiir is an 18th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Eo can cast the following spells:"
 					],
@@ -3803,6 +3818,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Faldorn is a 18th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 12} to hit with spell attacks). She has the following druid spells prepared:"
 					],
@@ -4019,6 +4035,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Flimp is a 14th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). Flimp has the following artificer spells prepared:"
 					],
@@ -4294,6 +4311,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The hamadryad's spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no components:"
 					],
@@ -4462,7 +4480,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"在阳光下时，伊莫恩在攻击卷轴以及依靠视觉的智慧（感知）检查上有劣势。"
+						"While in sunlight, Imoen has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -4577,6 +4595,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Jaheira is a 15th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following druid spells prepared:"
 					],
@@ -4815,6 +4834,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Jon Irenicus is an 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). Jon Irenicus has the following wizard spells prepared:"
 					],
@@ -5221,7 +5241,7 @@
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"奇文在依靠听觉或视觉的智慧（感知）检查方面具有优势。"
+						"Kivan has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
 					]
 				},
 				{
@@ -5352,6 +5372,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Lothar's innate spellcasting ability is Charisma (spell save {@dc 12}). Lothar can innately cast the following spells, requiring no material components:"
 					],
@@ -5364,6 +5385,7 @@
 				},
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Lothar is a 5th-level spellcaster. His spellcasting ability is Charisma (save {@dc 12}, {@hit 4} to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest. He knows the following warlock spells:"
 					],
@@ -5401,7 +5423,7 @@
 				{
 					"name": "Mimicry",
 					"entries": [
-						"Lothar can mimic simple sounds he has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 15} Wisdom (Insight) check."
+						"Lothar can mimic simple sounds he has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 15} Wisdom ({@skill Insight}) check."
 					]
 				},
 				{
@@ -5562,6 +5584,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Mephistopheles's innate spellcasting ability is Charisma (spell save {@dc 24}, {@hit 16} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
@@ -5597,6 +5620,7 @@
 				},
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Mephistopheles is a 15th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 26}, {@hit 18} to hit with spell attacks). Mephistopheles has the following spells prepared:"
 					],
@@ -6206,6 +6230,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Naes is a 18th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Naes has the following cleric spells prepared:"
 					],
@@ -6430,7 +6455,7 @@
 				{
 					"name": "Special Items",
 					"entries": [
-						"Nauk wears {@item adamantine plate armor}. He wields a {@item +1 maul} and a {@item +1 heavy crossbow||heavy crossbow +1} which is already factored into his stats. He has 2 {@item potion of cold resistance||potions of resistance\u2014cold}, 2 {@item potion of fire resistance||potions of resistance\u2014fire}, 2 {@item potion of lightning resistance||potions of resistance\u2014lightning}. He has 2 {@item potion of heroism||potions of heroism} and 4 {@item potion of superior healing||potions of superior healing}."
+						"Nauk wears {@item adamantine plate armor}. He wields a {@item +1 maul} and a {@item +1 heavy crossbow||heavy crossbow +1} which is already factored into his stats. He has 2 {@item potion of cold resistance||potions of resistance—cold}, 2 {@item potion of fire resistance||potions of resistance—fire}, 2 {@item potion of lightning resistance||potions of resistance—lightning}. He has 2 {@item potion of heroism||potions of heroism} and 4 {@item potion of superior healing||potions of superior healing}."
 					]
 				}
 			],
@@ -6590,6 +6615,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Pazuzu's innate spellcasting ability is Charisma (spell save {@dc 24}, {@hit 16} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 					],
@@ -6680,7 +6706,7 @@
 				{
 					"name": "Disarm",
 					"entries": [
-						"如果Pazuzu的攻击卷（+14）击败了目标的力量（竞技）或灵巧（杂技）检查，则Pazuzu会将武器从目标手中击落。如果被缴械，目标的武器会向一个随机的方向飞出10英尺。"
+						"Pazuzu knocks a weapon out of a target's hand if his attack roll (+14) beats the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. If disarmed, the target's weapon flies 10 ft. in a random direction."
 					]
 				},
 				{
@@ -6832,6 +6858,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Pelyious is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Pelyious has the following wizard spells prepared:"
 					],
@@ -7053,6 +7080,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The phaerimm is a 15th-level spellcaster. It's innate spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
@@ -7298,6 +7326,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Saemon is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). Saemon has the following wizard spells prepared:"
 					],
@@ -7355,7 +7384,7 @@
 				{
 					"name": "Magical Equipment",
 					"entries": [
-						"塞蒙戴着埃隆纳的箭筒。"
+						"Saemon wears a {@item quiver of ehlonna}."
 					]
 				}
 			],
@@ -7449,6 +7478,12 @@
 			"isNamedCreature": true,
 			"source": "MaBJoV",
 			"page": 124,
+			"otherSources": [
+				{
+					"source": "CoA",
+					"page": 29
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -7513,6 +7548,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Sarevok is a 12th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). Sarevok has the following cleric spells prepared:"
 					],
@@ -7725,6 +7761,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The sirene's spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no components:"
 					],
@@ -8174,6 +8211,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Ssendam's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Ssendam can innately cast the following spells, requiring no material components:"
 					],
@@ -8416,6 +8454,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Suldil Baldoriel is an 16th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Suldil can cast the following spells:"
 					],
@@ -9211,7 +9250,7 @@
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"维林在依靠听觉或视觉的智慧（感知）检查中具有优势。"
+						"Vellin has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
 					]
 				},
 				{
@@ -9343,6 +9382,7 @@
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Viconia's spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells, requiring no material components:"
 					],
@@ -9359,6 +9399,7 @@
 				},
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Viconia is a 16th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Viconia has the following cleric spells prepared:"
 					],
@@ -9450,7 +9491,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"在阳光下时，维康尼亚在攻击卷中处于劣势，在依靠视觉的智慧（感知）检查中也是如此。"
+						"While in sunlight, Viconia has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -9576,6 +9617,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Viktor is a 16th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Viktor has the following paladin spells prepared:"
 					],
@@ -9768,7 +9810,7 @@
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"狼人在依靠听觉或嗅觉的智慧（感知）检查方面具有优势。"
+						"The wolfwere has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
 					]
 				},
 				{
@@ -9917,7 +9959,7 @@
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"狼人在依靠听觉或嗅觉的智慧（感知）检查方面具有优势。"
+						"The wolfwere has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
 					]
 				},
 				{
@@ -10045,6 +10087,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Xan is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Xan has the following wizard spells prepared:"
 					],
@@ -10102,7 +10145,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Xan挥舞着一把月刃。月刃在攻击和伤害卷上有+3的加成（已经计入Xan的攻击），并且有细腻的属性。"
+						"Xan wields a {@item Moonblade}. The Moonblade has a +3 bonus to attack and damage rolls (already factored into Xan's attacks) and has the finesse property."
 					]
 				},
 				{
@@ -10236,6 +10279,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Xzar is an 16th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 12} to hit with spell attacks). Xzar has the following wizard spells prepared:"
 					],

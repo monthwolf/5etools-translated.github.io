@@ -106,7 +106,7 @@
 					"entries": [
 						"食梦者的目标是自己周围5英尺内的一个生物。目标必须在一个{@dc 16}的智慧救赎中成功，否则就会被食梦者吞噬，因为食梦者会将该生物笼罩在它最恐惧的瘴气中。",
 						"When the dream eater engulfs a target, the dream eater enters its space, and the target immediately takes 10 ({@damage 3d6}) psychic damage. An engulfed target is {@condition restrained} and {@condition blinded}, and it takes an additional 10 ({@damage 3d6}) psychic damage at the start of each of the dream eater's turns. When the dream eater moves, the engulfed target moves with it.",
-						"食梦者每次只能让一个目标被吞噬。被吞噬的目标在其回合开始时通过做一个{@dc 16}的智慧救赎来逃脱。如果救赎成功，目标就能逃脱；目标不再被吞噬，并进入一个在食梦者5英尺内自己选择的空间。在食梦者15英尺范围内的生物也可以用它的行动来尝试释放被吞噬的目标。这样做需要该生物用它的行动做一个{@dc 16}的魅力(说服力)检验，以说服被吞噬的目标相信噩梦不是真的，如果成功，目标就能逃脱。进行检定的生物会受到10({@damage 3d6})的精神伤害，无论检定的成功与否，因为它的思想与恶梦擦身而过。"
+						"The dream eater can have only one target engulfed at a time. An engulfed target escapes at the start of its turn by making a {@dc 16} Wisdom saving throw. On a successful save, the target escapes; the target is no longer engulfed, and it enters a space of its choice within 5 feet of the dream eater. A creature within 15 feet of the dream eater also can use its action to attempt to free an engulfed target. Doing so requires the creature to use its action to make a {@dc 16} Charisma ({@skill Persuasion}) check to convince the engulfed target the nightmare isn't real, with the target escaping on a success. The creature making the check takes 10 ({@damage 3d6}) psychic damage, regardless of the check's success or failure, as its mind brushes against the nightmare."
 					]
 				}
 			],
@@ -385,6 +385,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The Forest Master casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -572,6 +573,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The foresworn casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -827,6 +829,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The veil keeper casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -1486,6 +1489,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Verminaard casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],

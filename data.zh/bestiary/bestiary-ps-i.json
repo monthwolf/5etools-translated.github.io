@@ -597,6 +597,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The keeper is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following druid spells prepared:"
 					],
@@ -876,7 +877,7 @@
 							"source": "PSI",
 							"page": 16,
 							"entries": [
-								"Weapons cut from living wood are particularly effective against vampires, though any weapon can harm or kill them. A vampire can't cross running water that shows the reflection of the moon, and water blessed by Avacyn ({@item Holy Water (flask)|PHB|holy water}) burns vampire flesh like acid. A vampire's reflection in silver (including a silver-backed glass mirror) appears as the vampire would have looked without the vampiric condition\u2014neither its true appearance nor its glamer, but a normal human, flaws and all. For that reason, vampires go to great lengths to avoid mirrors, and the presence of silver in any form is unsettling to them."
+								"Weapons cut from living wood are particularly effective against vampires, though any weapon can harm or kill them. A vampire can't cross running water that shows the reflection of the moon, and water blessed by Avacyn ({@item Holy Water (flask)|PHB|holy water}) burns vampire flesh like acid. A vampire's reflection in silver (including a silver-backed glass mirror) appears as the vampire would have looked without the vampiric condition—neither its true appearance nor its glamer, but a normal human, flaws and all. For that reason, vampires go to great lengths to avoid mirrors, and the presence of silver in any form is unsettling to them."
 							]
 						}
 					}
@@ -977,7 +978,7 @@
 				{
 					"name": "Vampiric Glamer",
 					"entries": [
-						"The vampire obscures its form with mind-affecting magic that makes others perceive it as a beautiful human of the same size and shape. The illusion ends if the vampire takes a bonus action to end it or if the vampire dies. A creature that can see the vampire can take an action to visually inspect it, ending the mental effect on itself and seeing the vampire's true form with a successful {@dc 20} Wisdom (Perception) check."
+						"The vampire obscures its form with mind-affecting magic that makes others perceive it as a beautiful human of the same size and shape. The illusion ends if the vampire takes a bonus action to end it or if the vampire dies. A creature that can see the vampire can take an action to visually inspect it, ending the mental effect on itself and seeing the vampire's true form with a successful {@dc 20} Wisdom ({@skill Perception}) check."
 					]
 				},
 				{
@@ -1265,7 +1266,7 @@
 					"variant": null
 				},
 				{
-					"name": "Elder Vampire: Spellcasting\u2014Cleric",
+					"name": "Elder Vampire: Spellcasting—Cleric",
 					"source": "PSI",
 					"spellcasting": [
 						{
@@ -1311,7 +1312,7 @@
 					"variant": null
 				},
 				{
-					"name": "Elder Vampire: Spellcasting\u2014Wizard",
+					"name": "Elder Vampire: Spellcasting—Wizard",
 					"source": "PSI",
 					"spellcasting": [
 						{

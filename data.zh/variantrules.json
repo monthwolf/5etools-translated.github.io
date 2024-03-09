@@ -32,7 +32,7 @@
 					"entries": [
 						"如果一个生物想跳到另一个生物身上，它可以通过抓取来实现。然而，除非魔法赋予抓捕者超自然的力量，否则一个小型或中型生物几乎没有机会成功抓捕一个巨大或巨型生物。",
 						"As an alternative, a suitably large opponent can be treated as terrain for the purpose of jumping onto its back or clinging to a limb. After making any ability checks necessary to get into position and onto the larger creature, the smaller creature uses its action to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check contested by the target's Dexterity ({@skill Acrobatics}) check. If it wins the contest, the smaller creature successfully moves into the target creature's space, the smaller creature moves with the target and has advantage on attack rolls against it.",
-						"The smaller creature can move around within the larger creature's space, treating the space as {@quickref difficult terrain||3}. The larger creature's ability to attack the smaller creature depends on the smaller creature's location, and is left to your discretion. The larger creature can dislodge the smaller creature as an action\u2014knocking it off, scraping it against a wall, or grabbing and throwing it\u2014by making a Strength ({@skill Athletics}) check contested by the smaller creature's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The smaller creature chooses which ability to use."
+						"The smaller creature can move around within the larger creature's space, treating the space as {@quickref difficult terrain||3}. The larger creature's ability to attack the smaller creature depends on the smaller creature's location, and is left to your discretion. The larger creature can dislodge the smaller creature as an action—knocking it off, scraping it against a wall, or grabbing and throwing it—by making a Strength ({@skill Athletics}) check contested by the smaller creature's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The smaller creature chooses which ability to use."
 					]
 				},
 				{
@@ -72,32 +72,6 @@
 						"一个生物可以尝试翻滚通过一个敌对生物的空间，躲避和穿梭过对手。作为一个行动或额外行动，翻滚者做一个灵巧（{@skill Acrobatics}）检查，与敌对生物的灵巧（{@skill Acrobatics}）检查竞争。如果翻滚者赢得比赛，它可以在本回合内通过敌对生物的空间移动一次。"
 					]
 				}
-			]
-		},
-		{
-			"name": "Action Points",
-			"source": "UAEberron",
-			"page": 4,
-			"entries": [
-				{
-					"type": "inlineBlock",
-					"entries": [
-						"Eberron战役设定引入了这个概念，以反映那些注定要做大事的大英雄的角色。行动点允许玩家在任何{@dice d20}的卷轴上增加一个奖励，这样角色就可以躲避或至少减轻坏运气的影响。这一规则激发了\"\"的灵感。",
-						{
-							"type": "link",
-							"href": {
-								"type": "internal",
-								"path": "variantrules.html",
-								"hash": "hero points_dmg"
-							},
-							"text": "Hero Points"
-						},
-						"\"在《地下城管理员指南》第9章中提出的可选规则。"
-					]
-				},
-				"你在1级的时候开始有5个行动点数。每当你获得一个等级，你就会失去任何未使用的行动点数，并获得相当于5+你等级一半的新总数。",
-				"每当你掷出{@dice d20}来进行攻击卷、能力检查或蓄力时，你可以花费一个行动点。你不需要决定，直到你做完卷子，知道它是成功还是失败。如果你花了一个行动点，就可以掷出一个{@dice d6}并把它加到你的{@dice d20}结果中，可能会把失败变成成功。你每次滚动只能花费1个行动点。",
-				"此外，每当你的死亡救赎失败时，你可以花费一个行动点来使其成功。"
 			]
 		},
 		{
@@ -159,7 +133,7 @@
 			"page": 215,
 			"ruleType": "VO",
 			"entries": [
-				"Character death often becomes no more than a minor inconvenience in some campaigns. Once an adventuring party reaches a certain level, the spells available to return fallen comrades from the afterlife\u2014including {@spell revivify}, {@spell raise dead}, and {@spell resurrection}\u2014make death no more than a temporary setback, potentially undermining one of the most significant elements of danger and threat in the campaign story. For players and GMs who wish to elevate the gravity of character death, the optional rules in this section offer three different approaches.",
+				"Character death often becomes no more than a minor inconvenience in some campaigns. Once an adventuring party reaches a certain level, the spells available to return fallen comrades from the afterlife—including {@spell revivify}, {@spell raise dead}, and {@spell resurrection}—make death no more than a temporary setback, potentially undermining one of the most significant elements of danger and threat in the campaign story. For players and GMs who wish to elevate the gravity of character death, the optional rules in this section offer three different approaches.",
 				{
 					"type": "entries",
 					"name": "Fading Spirits",
@@ -181,14 +155,14 @@
 							]
 						},
 						"This house rule is used in the {@i Critical Role} livestream to increase the emotional stakes of bringing a beloved friend back from the dead. It also adds the ever-increasing threat of losing a friend permanently to the game, even with the aid of miraculous magic.",
-						"If magic is used to bring a character back from the dead (except for the {@spell revivify} spell; see below), everyone present becomes part of a resurrection ritual. Up to three characters present for the ritual\u2014typically members of the deceased's adventuring party\u2014can contribute to the ritual by attempting to call their ally's spirit back. This could involve delivering a stirring speech, playing a song from their shared childhood, goading a rival back with a display of sword skills, confessing undying love for them, or anything else that the players or the GM consider emotionally stirring.",
+						"If magic is used to bring a character back from the dead (except for the {@spell revivify} spell; see below), everyone present becomes part of a resurrection ritual. Up to three characters present for the ritual—typically members of the deceased's adventuring party—can contribute to the ritual by attempting to call their ally's spirit back. This could involve delivering a stirring speech, playing a song from their shared childhood, goading a rival back with a display of sword skills, confessing undying love for them, or anything else that the players or the GM consider emotionally stirring.",
 						{
 							"type": "entries",
 							"name": "Participating in the Ritual",
 							"page": 215,
 							"entries": [
 								"Each of the participating characters makes an ability check. A player can tell the GM what kind of check they want to make, but ultimately the GM decides what check is appropriate based on the character's contribution to the ritual. The baseline DC of this check is 15, but the GM can raise or lower the DC (typically anywhere between 10 and 20) if the contribution seems particularly appropriate or particularly insincere.",
-								"For example, praying to a fallen paladin's god for mercy might require a participant to make a {@dc 10} Intelligence ({@skill Religion}) check, whereas shouting at a dead friend's corpse to get back up and stop lazing around might require a {@dc 20} Charisma ({@skill Intimidation}) check. If the contribution is roleplayed in a particularly touching way, the GM can grant {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on the check\u2014even if the check's DC remains high."
+								"For example, praying to a fallen paladin's god for mercy might require a participant to make a {@dc 10} Intelligence ({@skill Religion}) check, whereas shouting at a dead friend's corpse to get back up and stop lazing around might require a {@dc 20} Charisma ({@skill Intimidation}) check. If the contribution is roleplayed in a particularly touching way, the GM can grant {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on the check—even if the check's DC remains high."
 							]
 						},
 						{
@@ -205,7 +179,7 @@
 										"The DC is increased by 1 for each failed contribution to the ritual."
 									]
 								},
-								"If the resurrection check is successful, the character's soul is returned to their body (if the soul is willing, as usual). If the check fails, the soul does not return\u2014and the character is permanently unable to be raised from the dead."
+								"If the resurrection check is successful, the character's soul is returned to their body (if the soul is willing, as usual). If the check fails, the soul does not return—and the character is permanently unable to be raised from the dead."
 							]
 						},
 						{
@@ -213,7 +187,7 @@
 							"name": "True Miracles",
 							"page": 215,
 							"entries": [
-								"If a character is brought back from the dead by the {@spell true resurrection} or the {@spell wish} spell, or by a god, they instantly return to life without the need for a resurrection ritual. Additionally, if a character has been permanently lost due to a failed resurrection ritual, the GM can allow a casting of {@spell true resurrection} or {@spell wish} to begin a last-chance resurrection ritual\u2014one that can't be repeated if failed."
+								"If a character is brought back from the dead by the {@spell true resurrection} or the {@spell wish} spell, or by a god, they instantly return to life without the need for a resurrection ritual. Additionally, if a character has been permanently lost due to a failed resurrection ritual, the GM can allow a casting of {@spell true resurrection} or {@spell wish} to begin a last-chance resurrection ritual—one that can't be repeated if failed."
 							]
 						},
 						{
@@ -234,7 +208,7 @@
 			"page": 213,
 			"ruleType": "VO",
 			"entries": [
-				"Character death often becomes no more than a minor inconvenience in some campaigns. Once an adventuring party reaches a certain level, the spells available to return fallen comrades from the afterlife\u2014including {@spell revivify}, {@spell raise dead}, and {@spell resurrection}\u2014make death no more than a temporary setback, potentially undermining one of the most significant elements of danger and threat in the campaign story. For players and GMs who wish to elevate the gravity of character death, the optional rules in this section offer three different approaches.",
+				"Character death often becomes no more than a minor inconvenience in some campaigns. Once an adventuring party reaches a certain level, the spells available to return fallen comrades from the afterlife—including {@spell revivify}, {@spell raise dead}, and {@spell resurrection}—make death no more than a temporary setback, potentially undermining one of the most significant elements of danger and threat in the campaign story. For players and GMs who wish to elevate the gravity of character death, the optional rules in this section offer three different approaches.",
 				{
 					"type": "entries",
 					"name": "Harrowing Return",
@@ -242,7 +216,7 @@
 					"entries": [
 						"In games that use this house rule, the process of a character dying and being pulled back into their body becomes a traumatic experience. The magic that pulls the spirit from beyond the dark veil of death takes a toll on that spirit each time, changing a person in unexpected and profound ways.",
 						"This rule is best for campaigns with dark and horrific themes. It adds a dose of grim bleakness that might not feel at home in epic and heroic stories. Players and GMs who want to make use of this rule {@book should talk about it beforehand|TDCSR|4|Session Zero}, and if any player says no or doesn't offer enthusiastic support, it's best to not use it. It's also important for GMs to check in with the players whenever this rule comes into play, just to make sure everyone is still having fun with the darker themes.",
-						"When a character is brought back to life by any spell other than {@spell true resurrection}, that character must make a Wisdom {@quickref saving throws|PHB|2|1|saving throw} with a DC equal to 22 \u2212 the level of the spell used to return the character to life. On a failure, the character's experience of death and the afterlife exacts a heavy toll, determined by rolling on the {@table Harrowing Return|TDCSR} table. The consequence lasts until the GM rules that the character has resolved it. Consequences with no clear resolution last for {@dice 1d10 × 10} days, after which the player decides how their character overcame it. Or, to make a campaign even darker, the players and the GM can agree that these consequences last indefinitely.",
+						"When a character is brought back to life by any spell other than {@spell true resurrection}, that character must make a Wisdom {@quickref saving throws|PHB|2|1|saving throw} with a DC equal to 22 − the level of the spell used to return the character to life. On a failure, the character's experience of death and the afterlife exacts a heavy toll, determined by rolling on the {@table Harrowing Return|TDCSR} table. The consequence lasts until the GM rules that the character has resolved it. Consequences with no clear resolution last for {@dice 1d10 × 10} days, after which the player decides how their character overcame it. Or, to make a campaign even darker, the players and the GM can agree that these consequences last indefinitely.",
 						"Alternatively, rather than rolling on the table, a player and a GM can work together to choose a consequence that creates an interesting story for the character. Such a consequence might tie to the character's backstory, the themes of the campaign, or the circumstances under which the character died.",
 						"A {@spell remove curse} spell temporarily suppresses a consequence of being brought back from the dead, but the consequence returns each time the character drops to 0 hit points or finishes a {@quickref resting|PHB|2|0|long rest}, until the consequence is resolved.",
 						{
@@ -252,8 +226,8 @@
 								{
 									"type": "quote",
 									"entries": [
-										"O lady of cold winters and the long night of all souls. O harbinger of all ends and eternal sentinel of the final threshold. I entreat you\u2014nay, I beseech you! You bear within your grasp the soul of one whose fate has not yet reached its end. Bear witness, O queen of night-black feathers; turn your divine gaze to the golden bonds that tie the living to the departed.",
-										"The tears of a brother, who weeps without shame. The blade of a lover, who grieves she did not die while holding it in battle alongside you. A portrait painted by a mother, of an infant, untouched by the sorrows of the world. O Matron of Death, I plead to you\u2014hear their cries! Let not this warrior's fate end here."
+										"O lady of cold winters and the long night of all souls. O harbinger of all ends and eternal sentinel of the final threshold. I entreat you—nay, I beseech you! You bear within your grasp the soul of one whose fate has not yet reached its end. Bear witness, O queen of night-black feathers; turn your divine gaze to the golden bonds that tie the living to the departed.",
+										"The tears of a brother, who weeps without shame. The blade of a lover, who grieves she did not die while holding it in battle alongside you. A portrait painted by a mother, of an infant, untouched by the sorrows of the world. O Matron of Death, I plead to you—hear their cries! Let not this warrior's fate end here."
 									],
 									"by": "Valiq",
 									"from": "Cleric of the Matron of Ravens",
@@ -278,7 +252,7 @@
 			"page": 215,
 			"ruleType": "VO",
 			"entries": [
-				"Character death often becomes no more than a minor inconvenience in some campaigns. Once an adventuring party reaches a certain level, the spells available to return fallen comrades from the afterlife\u2014including {@spell revivify}, {@spell raise dead}, and {@spell resurrection}\u2014make death no more than a temporary setback, potentially undermining one of the most significant elements of danger and threat in the campaign story. For players and GMs who wish to elevate the gravity of character death, the optional rules in this section offer three different approaches.",
+				"Character death often becomes no more than a minor inconvenience in some campaigns. Once an adventuring party reaches a certain level, the spells available to return fallen comrades from the afterlife—including {@spell revivify}, {@spell raise dead}, and {@spell resurrection}—make death no more than a temporary setback, potentially undermining one of the most significant elements of danger and threat in the campaign story. For players and GMs who wish to elevate the gravity of character death, the optional rules in this section offer three different approaches.",
 				{
 					"type": "entries",
 					"name": "Taxing Return",
@@ -340,19 +314,6 @@
 			]
 		},
 		{
-			"name": "Common Languages",
-			"source": "UAWGE",
-			"page": 40,
-			"ruleType": "O",
-			"entries": [
-				"通用语是五国的语言。摩尔矮人说矮人语，艾瑞尼精灵说精灵语，但他们知道通用语是贸易语言。在Eberron，还有一些其他的语言在不同的地区或文化中起着这种作用。DM可以改变分配给怪物或NPC的语言来反映这一点。",
-				"巨人是Xen'drik的通用语言。在Khorvaire很少遇到。Khorvaire的怪物通常说哥布林语。",
-				"妖精是达尔古恩（Darguun）、德拉姆（Droaam）和影子牧场（Shadow Marches）的通用语言，以及霍尔韦尔的大多数 \"畸形 \"生物。在人类到来之前，它是统治该大陆的地精帝国的语言。兽人语是一种死亡的语言；它可能在古代的铭文中遇到，但现代兽人说的是哥布林语。",
-				"无间道是由体现邪恶的精神所讲的。这包含了深渊语；所有的恶魔都说一种共同的语言。无间道有时被称为 \"开伯尔的语言\"，而天道则是 \"西伯利亚人的语言\"。",
-				"里德兰语是萨尔罗纳大陆的通用语言。Kalashtar人说Quori语，他们是Dal Quor的原住民，以及Riedra的Inspired lords。"
-			]
-		},
-		{
 			"name": "Crashing",
 			"source": "AAG",
 			"page": 25,
@@ -390,246 +351,6 @@
 			]
 		},
 		{
-			"name": "Crashing a Ship",
-			"source": "UAOfShipsAndSea",
-			"page": 9,
-			"type": "section",
-			"entries": [
-				"如果一艘船移动到一个生物或物体所占据的空间，它可能会坠毁。如果生物或物体至少比它小两个尺寸，飞船就能避免坠毁。",
-				"当一艘船坠毁时，它必须立即进行DC 10宪法救赎。如果救赎失败，它的船体就会受到基于它所撞上的生物或物体大小的伤害，如碰撞伤害表所示。如果物体或生物比它大或小一号，它也会停止移动。否则，飞船会继续移动，而生物或物体则会移动到最近的、不在飞船路径上的未被占据的空间。根据DM的决定，一个被迫移动但固定在原地的物体反而会被摧毁。",
-				"被击中的生物必须做一个灵巧的蓄力动作，DC等于10+飞船的力量修饰，蓄力失败时受到基于飞船尺寸的伤害（如碰撞伤害表所示），蓄力成功时受到一半的伤害。",
-				{
-					"type": "table",
-					"caption": "Crash Damage",
-					"colLabels": [
-						"Size",
-						"Bludgeoning Damage"
-					],
-					"colStyles": [
-						"col-6",
-						"col-6 text-center"
-					],
-					"rows": [
-						[
-							"小型",
-							"{@dice 1d6}"
-						],
-						[
-							"中型",
-							"{@dice 1d10}"
-						],
-						[
-							"大型",
-							"{@dice 4d10}"
-						],
-						[
-							"Huge",
-							"{@dice 8d10}"
-						],
-						[
-							"巨大的",
-							"{@dice 16d10}"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Creating Magic Items",
-			"source": "UAWGE",
-			"page": 46,
-			"entries": [
-				"坎尼斯家族有一块专门用于制作魔杖的飞地。这个设施配备了可以放大 \"制造标记 \"和引导平面能量的工具；工匠们还可以获得大量的奇异木材和材料。你也可以创造一根魔杖，但你要从头开始，创造你需要的工具。从本质上说，当坎尼斯家族创造魔法物品时，它是在使用工厂；而你的工匠则相当于在车库里工作的修理工。你可以创造魔法物品，你也有可能创造坎尼斯家族无法制造的物品......但你需要花费比他们更多的时间和金币。下面是这个过程的概述。",
-				{
-					"type": "entries",
-					"name": "The Schema",
-					"entries": [
-						"The first step in creating a magic item is to acquire a schema for it. This is the equivalent of a recipe or a blueprint; it explains the process and components required to create the item. If you can obtain a schema\u2014from House Cannith, the mystical library of Arcanix, the collection of an experienced artificer\u2014you're ready to move on. Otherwise, you can create a schema, but this takes time and skill. An arcane spellcaster uses {@skill Arcana} to create schema. A divine caster uses {@skill Religion}, while a druid or ranger relies on {@skill Nature}. You must have a minimum skill bonus\u2014your proficiency bonus plus your ability score bonus\u2014in order to develop a schema. You must maintain the minimum skill bonus for the duration of your work, so an effect that increases an ability score for a few minutes won't help you.",
-						{
-							"type": "table",
-							"caption": "Schema Creation Requirements",
-							"colLabels": [
-								"Item Rarity",
-								"Work weeks",
-								"Minimum Skill"
-							],
-							"colStyles": [
-								"col-4 text-right",
-								"col-4 text-right",
-								"col-4 text-right"
-							],
-							"rows": [
-								[
-									"普通",
-									"3 days",
-									"+2"
-								],
-								[
-									"不常见",
-									1,
-									"+4"
-								],
-								[
-									"Rare",
-									3,
-									"+6"
-								],
-								[
-									"非常罕见",
-									8,
-									"+8"
-								],
-								[
-									"传说中的",
-									16,
-									"+10"
-								]
-							]
-						},
-						"这种开发模式的能力代表了非凡的才能。坎尼斯家族可能需要花费数年或数十年的时间来开发一个特定的模式；你可以在数周内完成这一任务，这反映了玩家角色是创新者的想法。然而，你是否能够创造一个特定的模式，总是由DM来决定的。DM总是可以选择将某个特定的魔法物品排除在活动之外。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Rare Components",
-					"entries": [
-						"任何魔法物品都需要专门的材料--艾伯伦龙石、稀有木材或金属、异国草药或其他物质。虽然很奇特，但这些东西可以在任何大城市购买或获得。但是从头开始创造一个魔法物品往往需要更稀有的部件，而这些部件是无法简单购买的。你可能需要一朵来自Thelanis的花，一根来自couatl的羽毛，或者一个龙的鳞片。更多时候，这样的事情需要冒险。你可能不需要杀死什么东西来获得你需要的东西，但你肯定要克服一个挑战。魔法物品成分表显示了这种挑战的难度。",
-						{
-							"type": "table",
-							"caption": "Magic Item Ingredients",
-							"colLabels": [
-								"Item Rarity",
-								"CR Range"
-							],
-							"colStyles": [
-								"col-6 text-center",
-								"col-6 text-center"
-							],
-							"rows": [
-								[
-									"普通",
-									"1\u20133"
-								],
-								[
-									"不常见",
-									"4\u20138"
-								],
-								[
-									"Rare",
-									"9\u201312"
-								],
-								[
-									"非常罕见",
-									"13\u201318"
-								],
-								[
-									"传说中的",
-									"19+"
-								]
-							]
-						},
-						"It's possible to find a rare component even when you're not looking for one. You could discover an exotic Khyber crystal in the ruins of an artificer's workshop. Time and study could yield suggestions as to what items could be made with the component; for example, that Khyber shard could be used to create an {@item iron flask} or {@item dimensional shackles}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Creation",
-					"entries": [
-						"一旦你有了你的模式和任何罕见的组件，你就可以开始了。DM可以指定这种创造行为所需的技能或工具，使之既需要熟练掌握，又能获得这些工具。你必须支付制造该物品所需的材料和服务的基本费用。而且你必须花大量的时间来做这件事；创造一个传奇物品可能需要一年的努力！\"。",
-						{
-							"type": "table",
-							"caption": "Magic Item Crafting Time and Cost",
-							"colLabels": [
-								"Item Rarity",
-								"Work weeks*",
-								"Cost*"
-							],
-							"colStyles": [
-								"col-4 text-center",
-								"col-4 text-center",
-								"col-4 text-right"
-							],
-							"rows": [
-								[
-									"普通",
-									1,
-									"50 gp"
-								],
-								[
-									"不常见",
-									2,
-									"200 gp"
-								],
-								[
-									"Rare",
-									10,
-									"2,000 gp"
-								],
-								[
-									"非常罕见",
-									25,
-									"20,000 gp"
-								],
-								[
-									"传说中的",
-									20,
-									"100,000 gp"
-								]
-							],
-							"footnotes": [
-								"* Halved for a consumable item"
-							]
-						},
-						"魔法物品制作的时间和成本表提供了一个基本框架，但各种因素都可以减少时间或成本。Eberron的龙石是材料成本的重要部分。一个杰出的龙石可以将制作物品的成本降低10%。一个平面聚合可以减少制作一个具有与该平面相关的效果的物品所需的时间或成本。归根结底，这是一个故事，每个规则都有例外。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Complications",
-					"entries": [
-						"These rules for magic item creation are derived from the system presented in Xanathar's Guide to Everything. This also offers the idea that the creation of a magic item is a complex procedure and that complications can arise. If you use this rule, there's a {@chance 10|10 percent} chance of a complication arising for every five workweeks spent on crafting the item. Xanathar's Guide presents a number of possible complications. Here are few tied to Eberron.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Complications"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									1,
-									"一个有龙纹的房子对你的工作感兴趣。他们是把你看作是一种威胁，还是被你的技术所打动？他们是否想购买该物品，如果你拒绝，会发生什么？"
-								],
-								[
-									2,
-									"一场事故创造了一个临时的清单区。"
-								],
-								[
-									3,
-									"你需要获得一个额外的稀有成分。"
-								],
-								[
-									4,
-									"平面平衡的变化干扰了你的工作；你必须等待当前平面排列的改变。"
-								],
-								[
-									5,
-									"你的努力引起了Eberron的某个阴谋的注意--比如商会、Aurum、Emerald Claw或者Lords of Dust。"
-								],
-								[
-									6,
-									"你的物品意外地变得有知觉。"
-								]
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Crew",
 			"source": "AAG",
 			"page": 24,
@@ -637,53 +358,6 @@
 			"entries": [
 				"咒语干扰船的标准船员编制包括一名船长负责发号施令，一名咒语干扰者负责驾驶船只，以及一名或多名船员负责操作其武器。有些船会携带额外的船员（如部队和后备咒语干扰者）或乘客。一艘有超过标准船员编制的船会更快地降低其空气供应的质量。",
 				"A spellcaster typically charges at least 50 gp per day to operate a {@item spelljamming helm|AAG}."
-			]
-		},
-		{
-			"name": "Custom Alignments",
-			"source": "UAVariantRules",
-			"page": 2,
-			"ruleType": "V",
-			"type": "section",
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"结盟是对角色和怪物的一般态度的一个方便的标签。它是一种分类机制，为哪些生物、派别和NPC是天然的盟友或敌人提供了一种大局观的评估。",
-								"标准排列系统包含了D&D中的基本紧张点：一方面是善与恶的斗争，另一方面是法律与混乱的冲突。这种安排的好处是，它甚至允许在善的一方内部出现紧张。法律与混乱的分界线意味着角色们仍然可以在如何促进世界上的善上产生分歧。",
-								"结盟的目的只是作为一个角色的快速总结，而不是一个僵硬的定义。它是一个起点，但诸如缺陷和纽带等元素会对一个角色的身份进行更详细的描述。",
-								"你可能会发现，善与恶、法律与混乱的结盟选择对你的活动来说太抽象了。你可能更喜欢更细微的态度，没有隐含的英雄是善的，反派是恶的的划分。一个简单的解决方案是放弃结盟，而采用另一种系统，将你的战役中的关键冲突带到最前面。",
-								{
-									"type": "entries",
-									"name": "Identify the Conflict",
-									"entries": [
-										"通过提出以下问题，思考你的运动中的重要对立力量。你能把它们放在一个连续体的两端吗？是否存在多种冲突？关键的冲突是什么，所有独立的冲突是如何相互作用的？",
-										"对于你自己的排列组合系统，试着创建至少两条路径，其中一条允许玩家角色有一系列的选择。另一条道路可以将世界划分为角色（包括他们的盟友）和敌人。",
-										"例如，想象一下这样一个战役背景：一个死灵法师集团设计的生态危机威胁到将世界变成一片死亡的荒地。形成一个排列组合的路径是生命和死亡的对立力量。就像善或恶的选择一样，这种冲突定义了这个环境，你会期望大多数玩家角色与生命结盟，或者至少在支持死灵法师的计划方面保持中立。",
-										"第二条冲突路径可能是保护与破坏。聚集在一起保护土地的人们可能会在是否攻击和摧毁死灵法师上产生分歧，或者转而努力加强自然秩序，以便连死灵法师的力量都无法压倒它。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Multiple Choices",
-									"entries": [
-										"对于那些避免明显的好与坏分类的比较狡猾的游戏，你可以创建有两个以上选择的结盟路径。例如，在一个专注于阴谋和权力斗争的游戏中，结盟可能是一个角色支持哪个派系的快速参考。一个角色的排列组合的一个元素可能表明他或她与某个贵族家族或公会的关系。第二个元素可以指出该角色与哪个神灵或万神殿有联系。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Neutral Alignment",
-									"entries": [
-										"在创建你的对准系统时，考虑中立的作用，并决定是否有一个任何对准路径的中点。中立的生物可能会选择置身于一场斗争之外（正如善与恶的斗争中经常出现的情况），或者看到两种方法的优势（如法律与混乱）。这种选择在你的活动中的作用应该在你的中心冲突方面有意义。"
-									]
-								}
-							]
-						}
-					]
-				}
 			]
 		},
 		{
@@ -823,7 +497,7 @@
 								]
 							]
 						},
-						"For example, high elf adventurers have proficiency with longswords, which are martial weapons. Consulting the Proficiency Swaps table, we see that your high elf can swap that proficiency for proficiency with another weapon or a tool. Your elf might be a musician, who chooses proficiency with a {@item musical instrument|PHB}\u2014a type of tool\u2014instead of with longswords. Similarly, elves start with proficiency in the {@skill Perception} skill. Your elf might not have the keen senses associated with your kin and could take proficiency in a different skill, such as {@skill Performance}.",
+						"For example, high elf adventurers have proficiency with longswords, which are martial weapons. Consulting the Proficiency Swaps table, we see that your high elf can swap that proficiency for proficiency with another weapon or a tool. Your elf might be a musician, who chooses proficiency with a {@item musical instrument|PHB}—a type of tool—instead of with longswords. Similarly, elves start with proficiency in the {@skill Perception} skill. Your elf might not have the keen senses associated with your kin and could take proficiency in a different skill, such as {@skill Performance}.",
 						"{@book Player's Handbook|PHB}的\"{@book Equipment|PHB|5} \"章节包括适合这些交换的武器和工具，你的DM可能会允许更多的选择。"
 					]
 				},
@@ -1006,35 +680,35 @@
 					],
 					"rows": [
 						[
-							"1\u20135",
+							"1–5",
 							"在{@table Magic Item Table A}上滚动{@dice 1d6}次。"
 						],
 						[
-							"6\u201310",
+							"6–10",
 							"在{@table Magic Item Table B}上滚动{@dice 1d4}次。"
 						],
 						[
-							"11\u201315",
+							"11–15",
 							"在{@table Magic Item Table C}上滚动{@dice 1d4}次。"
 						],
 						[
-							"16\u201320",
+							"16–20",
 							"在{@table Magic Item Table D}上滚动{@dice 1d4}次。"
 						],
 						[
-							"21\u201325",
+							"21–25",
 							"在{@table Magic Item Table E}上滚动{@dice 1d4}次。"
 						],
 						[
-							"26\u201330",
+							"26–30",
 							"在{@table Magic Item Table F}上滚动{@dice 1d4}次。"
 						],
 						[
-							"31\u201335",
+							"31–35",
 							"在{@table Magic Item Table G}上滚动{@dice 1d4}次。"
 						],
 						[
-							"36\u201340",
+							"36–40",
 							"在{@table Magic Item Table H}上滚动{@dice 1d4}次。"
 						],
 						[
@@ -1188,7 +862,7 @@
 						],
 						[
 							"31-40",
-							"You are caught up in a whirlwind romance. Roll a {@dice d20}. On a 1\u20135, the romance ends badly. On a 6\u201310, the romance ends amicably. On an 11\u201320, the romance is ongoing. You determine the identity of the love interest, subject to your DM's approval. If the romance ends badly, you might gain a new flaw. If it ends well or is ongoing, your new love interest might represent a new bond."
+							"You are caught up in a whirlwind romance. Roll a {@dice d20}. On a 1–5, the romance ends badly. On a 6–10, the romance ends amicably. On an 11–20, the romance is ongoing. You determine the identity of the love interest, subject to your DM's approval. If the romance ends badly, you might gain a new flaw. If it ends well or is ongoing, your new love interest might represent a new bond."
 						],
 						[
 							"41-80",
@@ -1240,19 +914,19 @@
 							],
 							"rows": [
 								[
-									"1\u20135",
+									"1–5",
 									"角色进行了敌意的接触。"
 								],
 								[
-									"6\u201310",
+									"6–10",
 									"角色没有取得新的联系。"
 								],
 								[
-									"11\u201315",
+									"11–15",
 									"角色已与盟友取得联系。"
 								],
 								[
-									"16\u201320",
+									"16–20",
 									"角色已经取得了两个盟友的联系。"
 								],
 								[
@@ -1584,19 +1258,19 @@
 							"rows": [
 								[
 									"普通",
-									"1\u20133"
+									"1–3"
 								],
 								[
 									"不常见",
-									"4\u20138"
+									"4–8"
 								],
 								[
 									"Rare",
-									"9\u201312"
+									"9–12"
 								],
 								[
 									"非常罕见",
-									"13\u201318"
+									"13–18"
 								],
 								[
 									"传说中的",
@@ -1604,7 +1278,7 @@
 								]
 							]
 						},
-						"If appropriate, pick a monster or a location that is a thematic fit for the item to be crafted. For example, creating {@item mariner's armor} might require the essence of a water weird. Crafting a {@item staff of charming} might require the cooperation of a specific arcanaloth, who will help only if the characters complete a task for it. Making a {@item staff of power} might hinge on acquiring a piece of an ancient stone that was once touched by the god of magic\u2014a stone now guarded by a suspicious androsphinx.",
+						"If appropriate, pick a monster or a location that is a thematic fit for the item to be crafted. For example, creating {@item mariner's armor} might require the essence of a water weird. Crafting a {@item staff of charming} might require the cooperation of a specific arcanaloth, who will help only if the characters complete a task for it. Making a {@item staff of power} might hinge on acquiring a piece of an ancient stone that was once touched by the god of magic—a stone now guarded by a suspicious androsphinx.",
 						"除了面对特定的生物之外，创建一个物品还需要花费金币，包括其他材料、工具等等，这些都是基于物品的稀有程度。这些价值，以及一个角色为了完成物品所需的时间，都显示在魔法物品制作时间和成本表上。任何消耗品的价格和制作时间都要减半。",
 						{
 							"type": "table",
@@ -2179,11 +1853,11 @@
 							],
 							"rows": [
 								[
-									"1\u201310",
+									"1–10",
 									"没有效果。你的努力未能给人留下持久的印象。"
 								],
 								[
-									"11\u201320",
+									"11–20",
 									"你赢得一个人情。"
 								],
 								[
@@ -2279,15 +1953,15 @@
 							],
 							"rows": [
 								[
-									"1\u20135",
+									"1–5",
 									"没有影响。"
 								],
 								[
-									"6\u201310",
+									"6–10",
 									"你学会了一段传说。"
 								],
 								[
-									"11\u201320",
+									"11–20",
 									"你学会了两件传说中的事情。"
 								],
 								[
@@ -2616,11 +2290,11 @@
 							],
 							"rows": [
 								[
-									"1\u201310",
+									"1–10",
 									"基本价格的50%。"
 								],
 								[
-									"11\u201320",
+									"11–20",
 									"基本价格的100%"
 								],
 								[
@@ -2970,11 +2644,11 @@
 									"本周的不良生活方式"
 								],
 								[
-									"10\u201314",
+									"10–14",
 									"本周适度的生活方式"
 								],
 								[
-									"15\u201320",
+									"15–20",
 									"舒适的一周生活方式"
 								],
 								[
@@ -3072,27 +2746,27 @@
 									],
 									"rows": [
 										[
-											"1\u20135",
+											"1–5",
 											"主要威胁*"
 										],
 										[
-											"6\u201310",
+											"6–10",
 											"小威胁*"
 										],
 										[
-											"11\u201315",
+											"11–15",
 											"没有值得注意的发现"
 										],
 										[
-											"16\u201320",
+											"16–20",
 											"自然特征"
 										],
 										[
-											"21\u201325",
+											"21–25",
 											"新客户"
 										],
 										[
-											"26\u201330",
+											"26–30",
 											"盟友或有用的怪物"
 										],
 										[
@@ -3457,7 +3131,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "book/AI/022-02-21.png"
+										"path": "book/AI/022-02-21.webp"
 									},
 									"title": "The Magic Of Marketeering",
 									"width": 792,
@@ -3595,19 +3269,19 @@
 									],
 									"rows": [
 										[
-											"1\u20135",
+											"1–5",
 											"这个慈善事业是一场灾难。该事业被严重削弱，而实际上每个人都指责特许经营。"
 										],
 										[
-											"6\u201310",
+											"6–10",
 											"事业没有显示出真正的改善，人们也迟迟不能接受特许经营权想要帮助的说法。"
 										],
 										[
-											"11\u201315",
+											"11–15",
 											"特许经营权因其对改善所选事业的帮助而受到赞扬。对该事业的捐款纷至沓来，使特许经营权获得了200戈比的酬金。"
 										],
 										[
-											"16\u201320",
+											"16–20",
 											"这项事业显示出了严重的改善，而特许经营权也因其行动而受到欢迎。对这项事业的捐款纷至沓来，使特许经营权获得了500金币的管理费。"
 										],
 										[
@@ -3716,39 +3390,39 @@
 									],
 									"rows": [
 										[
-											"01\u201310",
+											"01–10",
 											"特许经营权有一个破坏性的月份。销售额的下降和支出的增加使专营店的月度成本增加了150%。"
 										],
 										[
-											"11\u201320",
+											"11–20",
 											"特许经营权遭受严重挫折。每月成本增加125%。"
 										],
 										[
-											"21\u201330",
+											"21–30",
 											"特许经营权在挣扎。每月成本增加100%。"
 										],
 										[
-											"31\u201340",
+											"31–40",
 											"特许经营权的表现很差。每月成本增加50%。"
 										],
 										[
-											"41\u201350",
+											"41–50",
 											"特许经营权正常运作。每月的费用没有变化。"
 										],
 										[
-											"51\u201360",
+											"51–60",
 											"特许经营权看到了强劲的销售并削减了开支。每月的费用减少了50%。"
 										],
 										[
-											"61\u201370",
+											"61–70",
 											"特许经营权改善了运营和销售。每月的成本减少了100%。"
 										],
 										[
-											"71\u201380",
+											"71–80",
 											"特许经营权有一个很好的月份。每月的成本减少了110%。"
 										],
 										[
-											"81\u201390",
+											"81–90",
 											"特许经营权有一个奇妙的月份。每月的费用减少了125%。"
 										],
 										[
@@ -3867,19 +3541,19 @@
 									],
 									"rows": [
 										[
-											"1\u20135",
+											"1–5",
 											"角色的讨好失败会使特许经营权变得不光彩。任何为特许经营权而对同一团体或组织的NPC进行的进一步检查都是不利的。"
 										],
 										[
-											"6\u201310",
+											"6–10",
 											"该角色会被他们所结交的人所认识，但不会获得直接的好处。如果该人物在同一团体或社交圈内再次进行这项活动，那么在下一次检查讨好人的时候会有优势。"
 										],
 										[
-											"11\u201315",
+											"11–15",
 											"该人物成功地建立了所需的联系，并被视为他们所结交的人的知己。"
 										],
 										[
-											"16\u201320",
+											"16–20",
 											"该人物建立了所需的联系，并被当作一个值得信赖的朋友对待。"
 										],
 										[
@@ -3981,15 +3655,15 @@
 									],
 									"rows": [
 										[
-											"1\u20135",
+											"1–5",
 											"没有影响。"
 										],
 										[
-											"6\u201310",
+											"6–10",
 											"你学会了一段传说。"
 										],
 										[
-											"11\u201320",
+											"11–20",
 											"你学会了两件传说中的事情。"
 										],
 										[
@@ -4068,7 +3742,7 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "book/AI/023-02-22.png"
+								"path": "book/AI/023-02-22.webp"
 							},
 							"title": "A Suitably Shady Business Practice",
 							"width": 792,
@@ -4223,19 +3897,19 @@
 									],
 									"rows": [
 										[
-											"1\u20135",
+											"1–5",
 											"参与者发现自己与所选伙伴之间的深层问题。如果这是一个角色，他们在伙伴面前进行能力检查时将处于劣势，直到该角色再次进行这项活动。如果这是一个工作人员，他们会受到创伤并离开特许经营权，除非角色能说服他们留下。"
 										],
 										[
-											"6\u201310",
+											"6–10",
 											"参与者没有从团队建设活动中受益，但避免了严重的创伤。"
 										],
 										[
-											"11\u201315",
+											"11–15",
 											"参与者能够解决一个或多个问题。如果这是一个角色，他们在特许经营或停工活动中进行的下一次检查中具有优势。"
 										],
 										[
-											"16\u201320",
+											"16–20",
 											"参与者以一种全新的方式看待自己以及自己与其他参与者的联系。如果这是一个角色，他们在下一次在特许经营或停工活动中进行检查时有优势，并获得一个团队建设记忆（见下文）。"
 										],
 										[
@@ -4525,28 +4199,28 @@
 				"A creature or character whose {@variantrule New Ability Scores: Honor and Sanity||Sanity score} is below 10 can begin to manifest signs of physical corruption, which progresses in stages.",
 				{
 					"type": "entries",
-					"name": "Distorted (Sanity 8\u20139)",
+					"name": "Distorted (Sanity 8–9)",
 					"entries": [
 						"甚至在埃姆拉库尔到来之前，一些邪教徒和那些窥探黑暗秘密太深的人就开始发生变化。在这个早期阶段，身体比例发生了变化，一个或多个生物的四肢或脸部的某些部分变大，几乎总是不对称的。明显的皮肤瑕疵也会出现，最常见的是疖子或菜花状的生长物（尽管这些还不像埃姆拉库尔的肉格）。生物的统计数据没有变化。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Deformed (Sanity 6\u20137)",
+					"name": "Deformed (Sanity 6–7)",
 					"entries": [
 						"在第二阶段，生物可以出现死眼或凸出的眼睛，巨大的肿瘤性生长，手或脚卷曲，剧烈麻痹，皮肤或眼睛有渗出的分泌物，皮肤上有生的红色斑块，以及类似的畸形。皮肤上经常出现成片的格子状生长。在某些情况下，特别是在尼法利亚，邪教徒开始表现出明显的鱼形特征--眼睛瞪得大大的，皮肤上有鳞片或黏糊糊的，手指或脚趾间有蹼，或脸上或脖子上有鳃状的皮瓣。生物的统计数据保持不变。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Disfigured (Sanity 4\u20135)",
+					"name": "Disfigured (Sanity 4–5)",
 					"entries": [
 						"在第三阶段，嘴唇从牙齿上缩走，牙齿会腐烂和脱落。手指和脚趾有时会融合在一起，或开始转变为触角。皮肤上会出现出血的溃疡，或者在皮肤下出现球状的生长物。尼法利亚的崇拜者经常长出鳍状突起或钳状手。在这个阶段，生物可能会表现出改进的天然盔甲或武器，或简单的好处，如{@creature bullywug}的两栖特性，{@creature grimlock}的盲觉，{@creature troglodyte}的变色龙皮肤，{@creature kuo-toa}的滑溜特性，或{@creature ettercap}的蜘蛛攀爬特性。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Misshapen (Sanity 2\u20133)",
+					"name": "Misshapen (Sanity 2–3)",
 					"entries": [
 						"In the fourth stage, a creature's flesh often rots away or grows out of control, either leaving muscle and bone visible beneath or concealing features beneath masses of fleshy lattice or bulbous growths. Bone structure can alter radically, creating additional limbs or turning existing limbs into bizarrely jointed tentacles. Extra eyes can appear in unexpected places, or the head can transform into something resembling a fish or octopus. At this stage, a corrupted creature might begin to transform into an entirely different creature. A human could effectively become any of the creatures mentioned above, or some other vaguely humanoid monster such as a {@creature kenku}, a {@creature lizardfolk}, a {@creature sahuagin}, or a yuan-ti."
 					]
@@ -4575,7 +4249,7 @@
 						"以下表格中给出的等级可以让你雕塑出人物所面临的危险。低级别的表格适用于船只在安全水域航行时，而高级别的表格则适用于远离交通便利的海路的原始水域。这些表格还允许与其他船只相遇，以及发现神秘的、未知的岛屿。在本附录的后面，还包括了进一步详述这种遭遇的附加表格。",
 						{
 							"type": "table",
-							"caption": "Open Water Encounters (Levels 1\u20134)",
+							"caption": "Open Water Encounters (Levels 1–4)",
 							"colLabels": [
 								"d100",
 								"Encounter"
@@ -4586,39 +4260,39 @@
 							],
 							"rows": [
 								[
-									"01\u201303",
+									"01–03",
 									"{@dice 3d6} {@creature Quipper||quippers}"
 								],
 								[
-									"04\u201308",
+									"04–08",
 									"1 {@creature swarm of quippers}"
 								],
 								[
-									"09\u201312",
+									"09–12",
 									"{@dice 3d10} {@creature Dolphin|VGM|dolphins} (see {@adventure appendix C|GoS|10})"
 								],
 								[
-									"13\u201314",
+									"13–14",
 									"1 {@creature giant octopus}"
 								],
 								[
-									"15\u201316",
+									"15–16",
 									"{@dice 1d4} {@creature Killer Whale||killer whales}"
 								],
 								[
-									"17\u201318",
+									"17–18",
 									"{@dice 1d6} {@creature merfolk}"
 								],
 								[
-									"19\u201320",
+									"19–20",
 									"{@dice 1d6} {@creature Giant Sea Horse||giant sea horses}"
 								],
 								[
-									"21\u201324",
+									"21–24",
 									"{@dice 1d8} {@creature Giant Crab||giant crabs}"
 								],
 								[
-									"25\u201328",
+									"25–28",
 									"{@dice 1d4} {@creature Reef Shark||reef sharks}"
 								],
 								[
@@ -4626,55 +4300,55 @@
 									"1 {@creature hunter shark}"
 								],
 								[
-									"30\u201334",
+									"30–34",
 									"{@dice 1d4} {@creature sahuagin}"
 								],
 								[
-									"35\u201337",
+									"35–37",
 									"{@dice 1d4} {@creature koalinth|GoS} (see {@adventure appendix C|GoS|10})"
 								],
 								[
-									"38\u201340",
+									"38–40",
 									"A rank 1 whirlpool connected to the Elemental Plane of Water (see \"{@adventure Whirlpools|GoS|8|Whirlpools}\")"
 								],
 								[
-									"41\u201345",
+									"41–45",
 									"{@dice 1d4} {@creature Locathah|GoS|locathahs} (see {@adventure appendix C|GoS|10})"
 								],
 								[
-									"46\u201351",
+									"46–51",
 									"{@dice 1d3} {@creature Harpy||harpies}"
 								],
 								[
-									"52\u201354",
+									"52–54",
 									"2 {@creature merrow}"
 								],
 								[
-									"55\u201357",
+									"55–57",
 									"1 {@creature sahuagin priestess} and {@dice 1d4} {@creature sahuagin}"
 								],
 								[
-									"58\u201359",
+									"58–59",
 									"1{@creature koalinth sergeant|GoS}和{@dice 2d4}{@creature koalinth|GoS}(见{@adventure appendix C|GoS|10})，两者都有。"
 								],
 								[
-									"60\u201362",
+									"60–62",
 									"1 {@creature plesiosaurus}"
 								],
 								[
-									"63\u201364",
+									"63–64",
 									"{@dice 1d3} {@creature Sea Hag||sea hags}"
 								],
 								[
-									"65\u201367",
+									"65–67",
 									"{@dice 1d4} {@creature Blood Hawk||blood hawks}"
 								],
 								[
-									"68\u201370",
+									"68–70",
 									"1 {@creature sahuagin champion|GoS} (see {@adventure appendix C|GoS|10})"
 								],
 								[
-									"71\u201374",
+									"71–74",
 									"1 {@creature giant shark}"
 								],
 								[
@@ -4682,14 +4356,14 @@
 									"1 {@creature young bronze dragon}"
 								],
 								[
-									"76\u201300",
+									"76–00",
 									"一艘船（随机生成）"
 								]
 							]
 						},
 						{
 							"type": "table",
-							"caption": "Open Water Encounters (Levels 5\u201310)",
+							"caption": "Open Water Encounters (Levels 5–10)",
 							"colLabels": [
 								"d100",
 								"Encounter"
@@ -4700,39 +4374,39 @@
 							],
 							"rows": [
 								[
-									"01\u201303",
+									"01–03",
 									"1 {@creature giant shark}"
 								],
 								[
-									"04\u201307",
+									"04–07",
 									"{@dice 1d4} {@creature Swarm of Quippers||swarms of quippers}"
 								],
 								[
-									"08\u201311",
+									"08–11",
 									"{@dice 1d10} {@creature Killer Whale||killer whales}"
 								],
 								[
-									"12\u201317",
+									"12–17",
 									"{@dice 3d6} {@creature merfolk}"
 								],
 								[
-									"18\u201325",
+									"18–25",
 									"1{@creature sahuagin high priestess|GoS}和1{@creature sahuagin wave shaper|GoS}(见{@adventure appendix C|GoS|10})"
 								],
 								[
-									"26\u201330",
+									"26–30",
 									"{@dice 2d8} {@creature Giant Crab||giant crabs}"
 								],
 								[
-									"31\u201335",
+									"31–35",
 									"{@dice 2d4} {@creature Reef Shark||reef sharks}"
 								],
 								[
-									"36\u201338",
+									"36–38",
 									"{@dice 1d4} {@creature Hunter Shark||hunter sharks}"
 								],
 								[
-									"39\u201340",
+									"39–40",
 									"{@dice 1d4} {@creature Water Elemental||water elementals}"
 								],
 								[
@@ -4740,47 +4414,47 @@
 									"A rank 2 whirlpool connected to the Elemental Plane of Water (see \"{@adventure Whirlpools|GoS|8|Whirlpools}\")"
 								],
 								[
-									"42\u201345",
+									"42–45",
 									"{@dice 2d4} {@creature Locathah|GoS|locathahs} (see {@adventure appendix C|GoS|10})"
 								],
 								[
-									"46\u201347",
+									"46–47",
 									"1 {@creature harpy matriarch|GoS} (see {@adventure appendix C|GoS|10}) and {@dice 1d4} {@creature Harpy||harpies}"
 								],
 								[
-									"48\u201349",
+									"48–49",
 									"{@dice 2d4} {@creature merrow}"
 								],
 								[
-									"50\u201352",
+									"50–52",
 									"1 {@creature sahuagin baron} and {@dice 1d4} {@creature sahuagin}"
 								],
 								[
-									"53\u201357",
+									"53–57",
 									"1{@creature koalinth sergeant|GoS}和{@dice 2d4}{@creature koalinth|GoS}(见{@adventure appendix C|GoS|10})，两者都有。"
 								],
 								[
-									"58\u201359",
+									"58–59",
 									"{@dice 2d8} {@creature Giant Crab||giant crabs}"
 								],
 								[
-									"60\u201361",
+									"60–61",
 									"{@dice 1d4} {@creature Plesiosaurus||plesiosauruses}"
 								],
 								[
-									"62\u201363",
+									"62–63",
 									"一个3人的女巫团 {@creature Sea Hag||sea hags}"
 								],
 								[
-									"64\u201365",
+									"64–65",
 									"{@dice 1d4} {@creature Sahuagin Blademaster|GoS|sahuagin blademasters} (see {@adventure appendix C|GoS|10})"
 								],
 								[
-									"66\u201369",
+									"66–69",
 									"1 {@creature hydra}"
 								],
 								[
-									"70\u201371",
+									"70–71",
 									"1 {@creature marid}"
 								],
 								[
@@ -4796,18 +4470,18 @@
 									"1 {@creature dragon turtle}"
 								],
 								[
-									"75\u201390",
+									"75–90",
 									"一艘船（随机生成）"
 								],
 								[
-									"91\u201300",
+									"91–00",
 									"一个神秘的岛屿（随机生成）。"
 								]
 							]
 						},
 						{
 							"type": "table",
-							"caption": "Open Water Encounters (Levels 11\u201320)",
+							"caption": "Open Water Encounters (Levels 11–20)",
 							"colLabels": [
 								"d100",
 								"Encounter"
@@ -4818,67 +4492,67 @@
 							],
 							"rows": [
 								[
-									"01\u201303",
+									"01–03",
 									"1 {@creature storm giant}"
 								],
 								[
-									"04\u201307",
+									"04–07",
 									"{@dice 2d6} {@creature Giant Shark||giant sharks}"
 								],
 								[
-									"08\u201311",
+									"08–11",
 									"1 {@creature marid}"
 								],
 								[
-									"12\u201318",
+									"12–18",
 									"1{@creature sahuagin high priestess|GoS}和{@dice 2d4}{@creature Sahuagin Champion|GoS|sahuagin champions}(见{@adventure appendix C|GoS|10})，两者都有。"
 								],
 								[
-									"19\u201325",
+									"19–25",
 									"1 {@creature sahuagin baron} and {@dice 1d4} {@creature Sahuagin Blademaster|GoS|sahuagin blademasters} (see {@adventure appendix C|GoS|10})"
 								],
 								[
-									"26\u201328",
+									"26–28",
 									"{@dice 3d6} {@creature Reef Shark||reef sharks}"
 								],
 								[
-									"29\u201332",
+									"29–32",
 									"{@dice 2d6} {@creature Hunter Shark||hunter sharks}"
 								],
 								[
-									"33\u201339",
+									"33–39",
 									"A rank 3 whirlpool connected to the Elemental Plane of Water (see \"{@adventure Whirlpools|GoS|8|Whirlpools}\")"
 								],
 								[
-									"40\u201343",
+									"40–43",
 									"A rank 4 whirlpool connected to the Elemental Plane of Water (see \"{@adventure Whirlpools|GoS|8|Whirlpools}\")"
 								],
 								[
-									"44\u201345",
+									"44–45",
 									"{@dice 1d3} {@creature Hydra||hydras}"
 								],
 								[
-									"46\u201348",
+									"46–48",
 									"{@dice 1d4} {@creature koalinth sergeant|GoS} (见{@adventure appendix C|GoS|10})和{@dice 3d10} {@creature koalinth|GoS} (见{@adventure appendix C|GoS|10})"
 								],
 								[
-									"49\u201350",
+									"49–50",
 									"{@dice 2d4} {@creature Plesiosaurus||plesiosauruses}"
 								],
 								[
-									"51\u201353",
+									"51–53",
 									"{@dice 3d6} {@creature merrow}"
 								],
 								[
-									"54\u201357",
+									"54–57",
 									"1 {@creature harpy matriarch|GoS} (see {@adventure appendix C|GoS|10}) and {@dice 2d8} {@creature Harpy||harpies}"
 								],
 								[
-									"58\u201360",
+									"58–60",
 									"一个3人的女巫团 {@creature Sea Hag||sea hags}"
 								],
 								[
-									"61\u201363",
+									"61–63",
 									"1 {@creature dragon turtle}"
 								],
 								[
@@ -4886,11 +4560,11 @@
 									"1 {@creature ancient bronze dragon}"
 								],
 								[
-									"65\u201375",
+									"65–75",
 									"一艘船（随机生成）"
 								],
 								[
-									"76\u201300",
+									"76–00",
 									"一个神秘的岛屿（随机生成）。"
 								]
 							]
@@ -4908,16 +4582,6 @@
 				"The rules for lifting and carrying are intentionally simple. Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment. When you use this variant, ignore the Strength column of the Armor table in {@book chapter 5|PHB|5|Armor and Shields}.",
 				"如果你携带的重量超过你力量值的5倍，你就会被束缚，这意味着你的速度会下降10英尺。",
 				"如果你携带的重量超过你力量得分的10倍，达到你的最大承载量，你就会被重重地束缚住，这意味着你的速度会下降20英尺，而且你在使用力量、灵巧或体质的能力检查、攻击卷和蓄力时有劣势。"
-			]
-		},
-		{
-			"name": "Environmental Elements",
-			"source": "UAWGE",
-			"page": 8,
-			"ruleType": "O",
-			"entries": [
-				"Combat can feel very mechanical. {@i I move 10 feet. I make an attack roll. I use a reaction.} One way for the DM to encourage more cinematic action is to present a list of Environmental Elements. In a tavern, this list could include Chandelier, Plate Glass Window, Roaring Fireplace, Tray of Drinks, Drunk Patron. If you're fighting in an ancient tomb the list could be Pile of Gold Coins, Scattered Bones, Rotting Tapestry, Moss-Covered Statue. Each turn, a player can work one of these elements into their description of their action. The primary purpose of this is to give players ideas; interesting details to use while describing their actions. But if a player comes up with a particularly clever way to use an element, the DM could grant advantage on a check or attack roll, or some other benefit. The rogue needs to cross a room full of enemies and wants to swing on the chandelier? As the DM, I'd let them make a simple Dexterity ({@skill Acrobatics}) check to avoid opportunity attacks, essentially getting a free {@action Disengage} action.",
-				"环境元素总是可有可无的，而且主要是装饰性的。作为一个管理人，你不必为每一个元素的使用提供奖励。但提供一个清单可以帮助玩家把这个地点看作是地图上的方块，并挑战他们为自己的行动添加更多的电影色彩。"
 			]
 		},
 		{
@@ -5201,21 +4865,7 @@
 				"特技代表一种天赋或一个专业领域，赋予角色特殊能力。它体现了训练、经验和超越阶级的能力。",
 				"在某些级别上，你的等级会给你能力分值提升的特性。使用可选的特技规则，你可以放弃使用该特征，而选择使用一个特技。每项特技你只能选一次，除非特技的描述另有规定。",
 				"你必须满足某项特技中规定的任何先决条件才能使用该特技。如果你失去了一项特技的先决条件，你就不能使用该特技，直到你重新获得该先决条件。例如，\"擒拿手 \"特技要求您的力量达到13或更高。如果你的力量以某种方式降低到13以下--也许是由于枯萎的诅咒--你就不能从擒拿手特技中受益，直到你的力量恢复。",
-				{
-					"type": "inline",
-					"entries": [
-						"请看",
-						{
-							"type": "link",
-							"href": {
-								"type": "internal",
-								"path": "feats.html"
-							},
-							"text": "Feats section"
-						},
-						" 欲了解更多信息。"
-					]
-				}
+				"See the {@5etools Feats section|feats.html} for more information."
 			]
 		},
 		{
@@ -5293,238 +4943,6 @@
 			]
 		},
 		{
-			"name": "Greyhawk Initiative",
-			"source": "UAGreyhawkInitiative",
-			"page": 1,
-			"ruleType": "VO",
-			"type": "section",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Overview",
-					"entries": [
-						"灰鹰主动权变体制定了以下规则，取代了标准主动权系统。",
-						{
-							"type": "entries",
-							"entries": [
-								{
-									"type": "entries",
-									"name": "Rounds",
-									"entries": [
-										"战斗被组织成几轮。每一轮，参与战斗的每个人都有机会移动和采取行动，就像标准的主动权一样。但效果的持续时间是以回合为单位的，而不是在某个特定生物的回合内结束。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Variable Turn Order",
-									"entries": [
-										"每一回合，每个参与战斗的生物都会滚动主动权。生物轮流行动的顺序每轮都会发生变化，因此无法预测战斗中的事件将如何发展。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Initiative Dice",
-									"entries": [
-										"角色和怪物可能会掷出各种主动权骰子，而不是用{@dice d20}来计算主动权，通常是{@dice d4}到{@dice d10}。如果你掷出一个以上的主动权骰子，你就把结果加在一起来决定你的主动权。你掷出的主动权骰子的数量和类型取决于你希望你的角色在下一回合进行的活动类型。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Initiative Count",
-									"entries": [
-										"Under the standard system, creatures with higher initiative have a chance to act each round before creatures with lower initiative. With this variant system, {@b initiative now runs from low to high}. Creatures with a lower initiative roll can act in combat before creatures with a higher initiative roll."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Order of Operations",
-									"entries": [
-										"这些规则使某些行动更有可能在一个回合中较早发生，而其他行动则较晚发生。导弹发射通常先发生，近战攻击接着发生，而施法则最后发生。不过，这只是一个总体模式，而不是一个铁定的规则。与标准的主动权系统一样，骰子的运气总是决定战斗人员何时行动。"
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Rounds",
-							"entries": [
-								"该系统下的战斗被分为几个回合，每个回合继续代表约6秒的行动。",
-								{
-									"type": "entries",
-									"name": "Durations",
-									"entries": [
-										"Any effect that normally lasts until the end of a turn instead lasts until the end of the round during which that turn takes place. Similarly, any effect that normally lasts until the start of a turn now lasts until the start of the round during which that turn takes place. If the order in which effects end is important for some reason, roll a {@dice d20} for each effect (rerolling any ties). The effect with the lowest roll ends first, with the others ending in order of their results from lowest to highest."
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Surprise",
-							"entries": [
-								"一个{@quickref Surprise|PHB|3|0|surprised}的生物在它的主动权结果上增加+10，并且在它处于{@quickref Surprise|PHB|3|0|surprised}时不能做出反应。一个生物是{@quickref Surprise|PHB|3|0|surprised}，直到它是{@quickref Surprise|PHB|3|0|surprised}的那一回合结束。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Determine Action Order",
-							"entries": [
-								"在一个回合开始之前，每个参与战斗的生物都要决定它想做什么，并掷出主动权。你选择的行动决定了你掷出的主动权骰子。",
-								"行动是按速度细分的。因为较低的主动权计数允许生物更快速地行动，所以快速或简单的行动使用较小的骰子，而较复杂的行动使用较大的骰子。",
-								"掷主动权时，你掷出所有代表你行动的骰子，然后将结果相加。你不需要在这一掷中加入任何修改因素（包括你的灵巧修改因素）。",
-								{
-									"type": "table",
-									"caption": "Initiative Dice",
-									"colLabels": [
-										"Die",
-										"Action"
-									],
-									"colStyles": [
-										"col-3",
-										"col-9"
-									],
-									"rows": [
-										[
-											"{@dice d4}",
-											"射程攻击"
-										],
-										[
-											"{@dice d6}",
-											"运动"
-										],
-										[
-											"",
-											"调换齿轮"
-										],
-										[
-											"",
-											"任何其他行动"
-										],
-										[
-											"{@dice d8}",
-											"近战攻击"
-										],
-										[
-											"{@dice d10}",
-											"施展法术"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Multiple Dice",
-									"entries": [
-										"角色为主动权掷出多个骰子是很常见的。如果你想向一个敌人移动并进行近战攻击，你要掷出{@dice 1d6}用于移动，{@dice 1d8}用于攻击。其结果就是你的主动权。"
-									]
-								},
-								{
-									"type": "inset",
-									"name": "Variant: Weapon Speed",
-									"entries": [
-										"如果你想以速度为代价给武器增加更多的区别，可以用以下方法取代滚动{@dice d4}的远程攻击和{@dice d8}的近战攻击。",
-										"当决定主动权时，用武器攻击的生物所掷的主动权骰子等于为该武器所掷的伤害骰子。使用{@book Player's Handbook|PHB}第五章的{@table Weapons|PHB}表中所列的基本伤害，忽略法术、魔法效果、功法等赋予的额外伤害。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Bonus Actions",
-									"entries": [
-										"如果你想在你的回合中使用一个额外的行动，你要掷一个额外的骰子，与你打算用你的额外行动所采取的行动类型相对应。这个骰子会加到你为你的移动和你的正常行动所掷的任何骰子上。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Multiple Actions",
-									"entries": [
-										"如果一个效应在不使用额外行动的情况下给予你一个额外的行动，那么你只为你的一个行动掷一个主动性骰子。使用与你计划采取的任何一个行动相对应的最大骰子。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Reactions and Forced Activities",
-									"entries": [
-										"主动性只包括你在你的回合中所采取的行动，因此使用反应对你的主动性没有影响。你每回合可以采取一个反应，和平常一样，除非有能力赋予你更多的反应。同样地，你在非你的回合中被迫进行的任何活动（通常是为了回应另一个生物的行动）也对你的主动性没有影响。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Delaying",
-									"entries": [
-										"You cannot use the {@action Ready} action under these rules, but you can instead choose to delay your turn. Instead of taking your turn on your initiative count, you simply act on a later initiative count, before or after other creatures as you choose. If more than one creature has chosen to delay, each creature's original initiative needs to be noted. Whenever a delaying creature decides to act, another delaying creature with a lower initiative can decide to act immediately before it."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Swapping Gear",
-									"entries": [
-										"If you want to sheathe or drop a weapon, you roll an additional {@dice 1d6} for your initiative. You can decide to swap your gear at any point during your turn."
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Creatures Unable to Act",
-							"entries": [
-								"Any creature that is unable to take actions (most likely because it is {@condition incapacitated}) does not roll initiative. Any effects that such creatures must resolve, such as death saving throws, are resolved at the end of the round."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Choosing Another Creature's Actions",
-							"entries": [
-								"If you are in a position to choose the actions that another creature takes on its turn (for example, if you have successfully targeted that creature with the {@spell dominate monster} spell), you roll initiative for the actions you plan to have the creature take, then add that result to your initiative. The final result is the creature's initiative.",
-								"一般来说，如果一个效应导致一个生物改变了它的行动，而它还没有进行回合，那么这个生物就会重掷它的主动权，并将结果加到触发该改变的生物或效应的主动权上。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Action Declaration and Resolution",
-							"entries": [
-								"在一个回合开始时，每个战斗人员选择该回合的行动。在这一阶段，行动不需要比确定主动权卷的内容更详细。一个角色可以计划施法，但还不需要选择具体的法术或目标。一个计划移动的角色不需要在心中有一个目的地。",
-								"在它的回合中，每个战斗人员都会为其选择的行动选择特定的目标、法术，等等。唯一的限制是，生物不能选择其主动性卷轴所不包括的行动。因此，你可能会发现，随着行动的展开，你需要改变计划的细节--也就是说，当你选择要掷出的行动时，给自己留下选择权往往是可取的。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Ties",
-							"entries": [
-								"如果两个生物的主动权相同，则这些生物按灵巧程度的顺序行动，灵巧程度高的先行动。如果两个生物的灵巧度相同，则随机掷骰子以决定哪一个先行动。"
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Variant: Spell Disruption",
-							"entries": [
-								"为了增加AD&D的味道，你可以引入法术干扰规则。根据这一规则，如果一个想要施法的生物在它可以行动之前的回合中受到伤害，它就会被限制在其回合中施放咒语。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Special Rules",
-							"entries": [
-								"某些效果可以改变游戏中的主动权卷。",
-								{
-									"type": "entries",
-									"name": "Initiative Bonuses or Penalties",
-									"entries": [
-										"虽然这个系统并不将生物的灵巧修正值应用于它的主动权卷，但是其他的效果可以改变主动权。如果一个效果在标准系统下会给你的主动权卷带来奖励，那么就减少你为主动权卷的一个骰子的大小，这样一个{@dice d6}就变成了一个{@dice d4}，一个{@dice d4}就变成了一个{@dice d3}，以此类推。在你的主动权受到惩罚的情况下，你采用相反的过程，增加所掷的一个骰子的大小。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Advantage or Disadvantage",
-									"entries": [
-										"如果一个效果在标准系统下会给你的主动权卷带来优势或劣势，你就把它应用到你所掷的最大的主动权骰子上（如果你掷了多个相同类型的主动权骰子，则应用到其中的一个）。掷两次主动性骰子，如果你有优势就用最低的骰子，如果你有劣势就用最高的骰子。"
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Haunted Traps",
 			"source": "VRGR",
 			"page": 196,
@@ -5572,7 +4990,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "variantrules/VRGR/110-04-006.faceless-malice.png"
+										"path": "variantrules/VRGR/110-04-006.faceless-malice.webp"
 									},
 									"title": "The faceless malice haunted trap claims a victim",
 									"width": 850,
@@ -5843,7 +5261,7 @@
 					"page": 85,
 					"entries": [
 						"Exandria's most infamous drug, {@item suude|TDCSR} is a glittering powder made from {@book residuum|TDCSR|3|An Enchanting Export}. It was first developed by power-hungry archmages in the {@book Age of Arcanum|TDCSR|1|Age of Arcanum} as an incense burned to enhance focus during ritual spellcasting. The secret to its refinement has been lost and rediscovered a variety of times since the {@book Calamity|TDCSR|1|The Calamity}, and many different types of {@item suude|TDCSR} have been developed by arcanists in search of ever-greater power. It has terrible addictive and mentally degenerative properties, even when used sparingly.",
-						"After burning {@item suude|TDCSR} within a vessel and inhaling its fumes as an action, you take 22 ({@damage 4d10}) psychic damage and must make a {@dc 10} Constitution {@quickref saving throws|PHB|2|1|saving throw}. On a failure, you become {@condition poisoned} for 1 hour and fall {@condition unconscious} for 1 minute, or until you are shaken awake as an action. During this time, the world seems to move in slow motion, and your vision is twisted in kaleidoscopic colors\u2014yet your focus is never distorted. If one dose of {@item suude|TDCSR}, or more, is used within 1 hour of another, the DC of the Constitution {@quickref saving throws|PHB|2|1|saving throw} is increased by 5 per additional dose. If you fail this save by 10 or more, you instantly drop to 0 hit points.",
+						"After burning {@item suude|TDCSR} within a vessel and inhaling its fumes as an action, you take 22 ({@damage 4d10}) psychic damage and must make a {@dc 10} Constitution {@quickref saving throws|PHB|2|1|saving throw}. On a failure, you become {@condition poisoned} for 1 hour and fall {@condition unconscious} for 1 minute, or until you are shaken awake as an action. During this time, the world seems to move in slow motion, and your vision is twisted in kaleidoscopic colors—yet your focus is never distorted. If one dose of {@item suude|TDCSR}, or more, is used within 1 hour of another, the DC of the Constitution {@quickref saving throws|PHB|2|1|saving throw} is increased by 5 per additional dose. If you fail this save by 10 or more, you instantly drop to 0 hit points.",
 						"On a success, you gain the ability to use one of the following Metamagic options as a sorcerer for the next minute, requiring no sorcery points. The type of Metamagic you gain access to depends on the type of {@item suude|TDCSR}, and once you use it, you can't use it again until you inhale {@item suude|TDCSR} again.",
 						"{@item Suude (Brown)|TDCSR|Brown suude} allows you to use the {@optfeature Extended Spell|PHB} Metamagic option, {@item Suude (blue)|TDCSR|blue suude} allows you to use {@optfeature Twinned Spell|PHB}, and {@item Suude (Brown)|TDCSR|red suude} grants {@optfeature Distant Spell|PHB}."
 					]
@@ -6434,617 +5852,6 @@
 			]
 		},
 		{
-			"name": "Magic Tattoos",
-			"source": "UA2020SpellsAndMagicTattoos",
-			"page": 8,
-			"entries": [
-				"魔法纹身将魔法和艺术性与墨水和针融合在一起，为其持有者注入了神奇的效果和能力。魔法纹身最初与魔法针结合，将其魔力转移到生物身上。魔法纹身的设计在外观上差异很大，这取决于创造它的人，但他们有共同的一般特征，暗示着纹身的效果。",
-				"一旦刻在生物的皮肤上，损伤或受伤并不会损害纹身的功能，即使纹身被玷污。",
-				"一个魔法纹身越稀有，它在生物的皮肤上占据的空间就越大。魔法纹身覆盖率表为一个特定的纹身有多大提供了指南。",
-				{
-					"type": "table",
-					"caption": "Magic Tattoo Coverage",
-					"colLabels": [
-						"Tattoo Rarity",
-						"Area Covered"
-					],
-					"colStyles": [
-						"col-6",
-						"col-6"
-					],
-					"rows": [
-						[
-							"普通",
-							"最大6英寸"
-						],
-						[
-							"不常见",
-							"半个肢体或头皮"
-						],
-						[
-							"Rare",
-							"一个肢体"
-						],
-						[
-							"非常罕见",
-							"两个肢体或胸部或上背部"
-						],
-						[
-							"传说中的",
-							"两个肢体和躯干"
-						]
-					]
-				},
-				{
-					"type": "inset",
-					"name": "Variant: Body Modification",
-					"entries": [
-						"这些项目不需要仅限于纹身。它们反而可以表现为其他身体改造，如烙印、疤痕、胎记、鳞片的图案，或任何其他美容性的皮肤装饰或改变。考虑一下魔法身体改造所绑定的物体，而不是纹身针，比如烙铁或附魔的龙鳞。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Descriptions",
-					"entries": [
-						"魔法纹身是按字母顺序排列的。它们遵循魔法物品的规则，如{@book Dungeon Master's Guide|DMG|7|Magic Items}中提出的。",
-						{
-							"type": "list",
-							"columns": 3,
-							"items": [
-								"{@item Absorbing Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Barrier Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Blood Fury Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Coiling Grasp Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Eldritch Claw Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Ghost Step Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Illuminator's Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Lifewell Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Masquerade Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Shadowfell Brand Tattoo|UA2020SpellsAndMagicTattoos}",
-								"{@item Spellwrought Tattoo|UA2020SpellsAndMagicTattoos}"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Mass Combat",
-			"source": "UAMassCombat",
-			"page": 1,
-			"type": "section",
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						"大规模战斗规则的设计是为了让你，DM，能够通过几次掷骰子来决定涉及数百名战斗人员的战斗结果。它还能以足够的细节放大行动，让玩家角色有机会影响战斗的结果。",
-						"该系统的工作原理是根据生物的挑战等级给每个生物一个战斗等级。战斗等级是对一个生物的战斗力的抽象衡量。",
-						"为了使一次管理成百上千的生物更容易，大规模战斗系统中的生物被组织成单元。一个单位可能包括数百个个体。",
-						"每个参与战斗的单位也有一个士气等级。士气衡量单位参与战斗的积极性。士气高的单位愿意战斗到死，而士气低的单位在面对逆境时可能会崩溃。",
-						"指挥官在解决战斗中起着关键作用。每个单位都有一个指挥官，他的魅力修正值适用于主动性和士气。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Battle Rating",
-					"entries": [
-						"大规模战斗规则依靠一个生物的战斗等级（BR）来总结它在战斗中的有效性。一个生物的BR是基于它的挑战等级（CR），如挑战等级的战斗等级表所示。BR包含了一个生物的攻击、命中率、攻击力和特殊能力，依靠CR作为其力量的总结。",
-						"BR开始是一种奖励，从+1到+50。CR值为1或更低的生物太弱，无法单独提供BR。该表显示，当这些生物聚集在足够大的群体中时，它们会提供+1的奖励。例如，五个CR 1/2的生物提供一个+1的BR。较小的CR 1/2生物群组不提供BR。",
-						"在战斗中，一个单位的BR可以因被攻击而降低，低至0或负数。详见本规则后面的 \"攻击 \"部分。",
-						{
-							"type": "table",
-							"caption": "Battle Rating by Challenge Rating",
-							"colLabels": [
-								"CR",
-								"BR"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"1/8",
-									"每20个生物+1"
-								],
-								[
-									"1/4",
-									"每10个生物+1"
-								],
-								[
-									"1/2",
-									"每5个生物+1"
-								],
-								[
-									"1",
-									"每2个生物+1"
-								],
-								[
-									"2",
-									"+1"
-								],
-								[
-									"3",
-									"+2"
-								],
-								[
-									"4",
-									"+3"
-								],
-								[
-									"5",
-									"+4"
-								],
-								[
-									"6",
-									"+5"
-								],
-								[
-									"7",
-									"+6"
-								],
-								[
-									"8",
-									"+8"
-								],
-								[
-									"9",
-									"+10"
-								],
-								[
-									"10",
-									"+12"
-								],
-								[
-									"11",
-									"+16"
-								],
-								[
-									"12",
-									"+18"
-								],
-								[
-									"13",
-									"+22"
-								],
-								[
-									"14",
-									"+26"
-								],
-								[
-									"15",
-									"+30"
-								],
-								[
-									"16",
-									"+34"
-								],
-								[
-									"17",
-									"+38"
-								],
-								[
-									"18",
-									"+42"
-								],
-								[
-									"19",
-									"+46"
-								],
-								[
-									"20",
-									"+50"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Creating Units",
-					"entries": [
-						"一个单位是一个单一的、有凝聚力的士兵团体，它被组织起来一起战斗。一个单位最多可以由400个微小、小型或中型生物组成。较大的生物在计入该限制时占用更多的空间，如单位中生物大小表所示。要计入一个单位的限额，一个生物必须有一个BR。",
-						{
-							"type": "table",
-							"caption": "Creature Size in Units",
-							"colLabels": [
-								"Size",
-								"Space in Unit"
-							],
-							"colStyles": [
-								"col-6",
-								"col-6"
-							],
-							"rows": [
-								[
-									"Tiny",
-									"1"
-								],
-								[
-									"小型",
-									"1"
-								],
-								[
-									"中型",
-									"1"
-								],
-								[
-									"大型",
-									"4"
-								],
-								[
-									"Huge",
-									"9"
-								],
-								[
-									"巨大的",
-									"16"
-								]
-							]
-						},
-						"例如，一个单位可以包括50个大型生物和200个中型生物。占用的总空间是400，其中200是大型生物，200是中型生物。",
-						{
-							"type": "entries",
-							"name": "Commanders",
-							"entries": [
-								"每个单位必须有一个指挥官。指挥官需要是该单位所包含的生物之一，但不计入决定该单位的大小。注意指挥官的魅力修正值。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "BR Total",
-							"entries": [
-								"一旦你创建了一个单位，将其生物的BR值加起来，包括其指挥官。这个总数就是该单位的BR。",
-								"对于有坐骑的生物，比如骑马的骑士，要根据坐骑的CR来增加坐骑的BR，就像你对其他生物一样。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Unit Space",
-							"entries": [
-								"一个单位所占的空间，每边都是100英尺，不管里面有多少生物。单位的大小是一个抽象概念，以便在游戏中容易追踪战场上的单位。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Ranged Attackers",
-							"entries": [
-								"如果一个单位的所有成员，除了它的指挥官之外，都可以随心所欲地进行范围至少为100英尺的攻击，那么它就可以进行远程攻击。如果是这种情况，注意其成员的远程攻击的最短最大范围。这就是该单位的最大范围。"
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Unit Design",
-							"entries": [
-								"最好是将相似或相同的生物组织成一个单元。规则的目的是通过将一个单位的能力减少到最低的共同标准来保持简单。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Morale Rating",
-					"entries": [
-						"Morale is a rating like an ability score modifier. It ranges from -10 to +10. These rules sometimes require a unit to make a check using its morale rating; roll a {@dice d20}, add the unit's morale rating, and compare the total to the relevant DC, just as for an ability check.",
-						"你为每个参与战斗的单位选择一个士气等级。根据该部队被其盟友和指挥官对待的情况、战斗的利害关系、该部队对结果的投资以及你认为应该起作用的任何其他因素来分配等级。",
-						{
-							"type": "table",
-							"caption": "Morale Ratings",
-							"colLabels": [
-								"Morale",
-								"Description"
-							],
-							"colStyles": [
-								"col-6",
-								"col-6"
-							],
-							"rows": [
-								[
-									"-10",
-									"公开反叛的人"
-								],
-								[
-									"-8",
-									"叛变的"
-								],
-								[
-									"-4",
-									"不满的人"
-								],
-								[
-									"-2",
-									"摇摆不定"
-								],
-								[
-									"0",
-									"典型单位"
-								],
-								[
-									"+2",
-									"有动力"
-								],
-								[
-									"+4",
-									"坚守者"
-								],
-								[
-									"+8",
-									"狂热者"
-								],
-								[
-									"+10",
-									"牢不可破"
-								]
-							]
-						},
-						"作为经验法则，在士气等级表上，单位的士气从0开始。每一个降低单位士气的因素，就在表中往上移一行。每提高一个因素，就往下移一行。当你完成这个练习后，你就对该单位的士气等级有了一个很好的概念。或者你可以简单地根据你的判断来给士气评级。",
-						"最后，你要根据部队指挥官的魅力修饰值来改变士气等级。在部队的士气上加上指挥官的魅力修改器，以反映指挥官的激励和领导能力。",
-						{
-							"type": "entries",
-							"name": "Factors Affecting Morale",
-							"entries": [
-								"下面是一些可以降低单位士气等级的因素。",
-								{
-									"type": "list",
-									"items": [
-										"指挥官或盟友的恶劣待遇",
-										"对盟国部队的敌意",
-										"低薪或无薪",
-										"战斗的结果没有利益",
-										"不称职或准备不足的指挥员",
-										"畏首畏尾的敌人",
-										"设备差"
-									]
-								},
-								"这些因素中的任何一个反过来都可以提高士气。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Running Battles",
-					"entries": [
-						"These rules use a structure like the combat rules in the {@book Player's Handbook|PHB|9}. The biggest change centers on resolving attacks, which uses BR rather than attack rolls, AC, and damage.",
-						{
-							"type": "entries",
-							"name": "Time",
-							"entries": [
-								"大规模战斗规则使用的时间尺度与常规战斗规则不同，1回合代表1分钟的行动。这个时间尺度考虑到了操纵数百甚至数千名战斗人员所需的时间和复杂性。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Initiative",
-							"entries": [
-								"你不需要为单位滚动主动权。相反，每个单位都有一个固定的主动权。",
-								{
-									"type": "abilityGeneric",
-									"name": "Initiative",
-									"text": "10 + unit morale rating + commander's",
-									"attributes": [
-										"cha"
-									]
-								},
-								"单位按照主动权的顺序行动，从高到低，如常。在出现平局的情况下，随机决定平局单位的行动顺序。确定一次，然后在剩下的战斗中使用这个顺序。",
-								"与常规战斗规则一样，一个单位在其回合中可以移动并采取一个行动（见下文 \"行动选项\"）。一个单位在采取行动之前可以使用它的部分或全部移动，然后可以在行动之后使用它的其余移动。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Speed",
-							"entries": [
-								"一个单位的速度等于其成员的最低速度的10倍。只有当单位的每个成员都能使用移动模式时，它才能使用移动模式，如飞行。在确定单位的速度和移动类型时，不要计算骑乘生物的速度。骑手使用他们的坐骑来移动。",
-								{
-									"type": "entries",
-									"name": "Movement",
-									"entries": [
-										"A unit must stop moving if it moves adjacent to an enemy unit, and a unit can't move if it is adjacent to an enemy unit, unless it uses the {@action Disengage} action that turn. Otherwise, use the rules for movement from the {@book Player's Handbook|PHB|9|Movement and Position} to resolve how far a unit can move."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Miniatures",
-									"entries": [
-										"使用微缩模型来追踪大规模的战斗是有帮助的。对于这些规则，使用网格或六边形，每个正方形/六边形的边长为100英尺，每个单位有一个微型模型。在移动时，如果一个单位至少有一半的移动量可以进入一个方块/六边形，那么该单位就可以移动到该方块/六边形。"
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Action Options",
-							"entries": [
-								"当一个单位采取其行动时，它选择以下行动选项之一。{@action Attack}, 冲刺, 防御, {@action Disengage}, 或守卫。每个选项的说明如下。",
-								{
-									"type": "entries",
-									"name": "Attack",
-									"entries": [
-										"攻击是一个单位的BR和其目标的BR之间的对抗性检查。一个单位可以在其所有成员都能进行攻击的任何范围内进行攻击。关于解决攻击的全部细节在下面的 \"攻击 \"部分给出。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Dash",
-									"entries": [
-										"一个冲刺的单位在其回合内增加其速度。这种增加等于该单位的速度。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Defend",
-									"entries": [
-										"防御的单位专注于建立一个盾墙或以其他方式使自己更难受到伤害。直到下一回合结束，攻击它的单位在他们的BR检定上受到不利影响。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Disengage",
-									"entries": [
-										"一个与敌方单位相邻的单位通常不能移动。如果该单位采取了{@action Disengage}的行动，它有机会移开。该单位必须立即进行DC10的士气检查。如果它失败了，它就失去了行动并且不能移动。如果它成功了，它可以移动到其速度的一半。在这个移动过程中，如果它与一个敌方单位相邻移动，它不需要停下来。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Guard",
-									"entries": [
-										"一个守卫的单位准备攻击任何靠近它的敌人。下次有敌方单位进入与该单位相邻的空间时，它立即对该敌方单位进行攻击。"
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Attacks",
-							"entries": [
-								"大规模战斗规则中的攻击使用反对的BR检查来确定哪一方占上风。",
-								"如果一个单位中的任何生物在目标的5英尺范围内，该单位可以攻击邻近的敌方单位。如果它的所有成员都能进行能到达目标的远程攻击，它就可以在范围内进行攻击。",
-								"当一个单位攻击一个目标时，攻击单位会掷出{@dice d20}并加上它的BR，目标也是如此。然后你比较结果，以确定战斗的结果。",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Tie",
-											"entry": "如果攻击者和目标打成平手，则不会发生任何事情。"
-										},
-										{
-											"type": "item",
-											"name": "Target Wins",
-											"entry": "如果目标的总数更高，则攻击没有效果。"
-										},
-										{
-											"type": "item",
-											"name": "Attacker Wins by 10 or Less",
-											"entry": "攻击方有伤亡，但不足以击溃目标单位。目标单位的BR减少2。"
-										},
-										{
-											"type": "item",
-											"name": "Attacker Wins by 11 or More",
-											"entry": "攻击方对目标造成重大伤亡。目标的BR减少5，并且必须立即进行DC10的士气检查。如果检定失败，该部队将逃离战斗并被消灭。将其从游戏中移除。"
-										}
-									]
-								},
-								"攻击者可以根据以下因素，在其BR卷中获得优势或遭受劣势。",
-								{
-									"type": "list",
-									"style": "list-hang",
-									"name": "Advantage",
-									"items": [
-										"攻击者在较高的地方，如离防御者的上坡。",
-										"防守方至少与一个敌方单位相邻，而不是进攻方。"
-									]
-								},
-								{
-									"type": "list",
-									"style": "list-hang",
-									"name": "Disadvantage",
-									"items": [
-										"防守者部分在墙或类似的掩体后面。",
-										"防守方与至少两个友好单位相邻。"
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Abstraction and Battle Rating",
-							"entries": [
-								"请记住，大规模战斗规则是为了使运行大型、重要的战斗快速而简单。它使用BR来总结一个生物的法术、特殊能力等等。没有关于抵抗或施法的特殊规则，因为规则假定CR已经考虑到了它们。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Morale Checks",
-							"entries": [
-								"除了由某些行动引起的士气检查外，如果在战斗中发生某些情况，一个单位必须进行士气检查。",
-								{
-									"type": "list",
-									"style": "list-hang",
-									"items": [
-										{
-											"type": "item",
-											"name": "Casualties",
-											"entry": "如果一个单位被减少到其初始BR的一半或更少，它必须立即进行DC15的士气检查。如果它失败了，它将被从战斗中淘汰。将其从游戏中移除。"
-										},
-										{
-											"type": "item",
-											"name": "Friendly Casualties",
-											"entry": "如果该单位500英尺范围内的友好单位被消灭，该单位必须立即进行DC10的士气检查。如果失败，该单位在下一回合不能移动或采取行动。"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Characters in Mass Combat",
-					"entries": [
-						"进行大规模战斗的真正乐趣在于给玩家角色和重要的NPC一个机会来影响结果。你可能会想把这些角色吸收到单位中，而忽略他们的特殊能力。你可以通过使用{@i Dungeon Master's Guide}中确定CR的规则来给角色分配CR。然而，当玩家有机会参与改变战斗进程的英雄主义时，大规模战斗对他们来说更有乐趣。",
-						"你可以通过暂停大规模的战斗，让他们参与常规的战斗（见下面的 \"角色规模的战斗\"），或者让他们在一个单位内使用他们的能力（见下面的 \"单位中的角色\"），来给角色一个发挥的机会。",
-						{
-							"type": "entries",
-							"name": "Character Abilities",
-							"entries": [
-								"无论角色以何种方式参与大规模战斗，都要使用标准规则而不是大规模战斗规则来解决他们的特征、法术和其他能力。例如，一堵冰墙可以挡住100英尺长的队伍。如果一个单位在它旁边移动，则使用单个成员的属性来进行蓄力并施加伤害。如果一个单位的成员被杀，在除去伤亡人员后重新计算该单位的BR。",
-								"判定这些效果需要你作为DM的判断。考虑情况的性质，一个单位如何与法术或其他效果互动，并按你认为合适的方式应用这些效果。回到冰墙的问题上，你可能会判断一个单位有30个生物试图把它砸下来。这些生物会受到冰墙的影响，但它们也有机会对它造成伤害。使用《{@i Dungeon Master's Guide}》第250页的处理暴徒的规则来加速事情。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Character-Scale Combat",
-							"entries": [
-								"你可以把大规模作战规则看作是从高空看一场战斗。你失去了细节，但可以看到并管理大局。当NPC参加战斗时，你的视野可以向下放大，以体验更多的行动细节。",
-								"When characters battle units, you can use the standard combat rules, with the guidelines for resolving mob attacks (see \"Handling Mobs\" in the {@i Dungeon Master's Guide}, page 250).",
-								"你可以决定一个单位的全部或部分人员停下来与NPC作战。暂停大规模战斗，像正常战斗一样解决人物的战斗，直到你满意地得出结论，任何一方被打败或被赶走。然后你就可以恢复大规模战斗了。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Characters in Units",
-							"entries": [
-								"如果角色加入了一个单位，不要把他们包括在单位的大小或BR计算中。相反，当该单位进行攻击时，允许角色自己进行单独的攻击、施法，并使用上述准则对敌方单位使用魔法物品。如果单位是由几种类型的生物组成的，允许他们挑选出他们想要攻击的单位成员。以这种方式攻击的角色只能以目标单位的BR中包括的生物为目标。",
-								"在单位的回合中，每个角色有一个回合可以进行攻击、施法、使用魔法物品等。解决角色的攻击和法术，并确定他们消除了多少个目标。确定这些生物的损失是如何减少单位的BR的，然后像正常一样解决单位的战斗。",
-								"如果一个咒语或效果使一个生物无法移动或采取行动，那么在战斗的其余部分，将该生物算作被消灭。",
-								"如果角色的单位受到攻击，则按常规解决战斗。其结果并不适用于这些人物。如果他们的单位被消灭了，他们仍然留在战场上，可以继续行动。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Critical Events",
-							"entries": [
-								"除了让角色参加单位之间的战斗外，还要考虑战斗中可能发生的关键事件，并让角色有机会参加这些事件。关键事件可以包括以下内容。",
-								{
-									"type": "list",
-									"items": [
-										"防止敌人的侦察兵夺取桥梁或其他阵地。",
-										"刺杀一名敌方指挥官。",
-										"在友军士兵修理大门时，将攻击者挡在门外。",
-										"潜入敌人的据点，破坏其防御系统。",
-										"摧毁一个正在接近的攻城引擎。",
-										"窃取敌人的作战计划。"
-									]
-								},
-								"这些关键事件的发生就像简短的冒险。你应该绘制区域地图，确定对手，并根据需要准备任何NPC。在创建关键事件时，要考虑到成功和失败的后果。如果NPC设法摧毁了敌人过河所需的一座桥，会发生什么？如果NPC没有在黎明前升起城堡的大门，接下来会发生什么？",
-								"冲突开始时的情况可能是由NPC事先的成功或失败决定的。敌人的部队可能会在战斗开始时处于强势地位，潜伏在一个有掩护的村庄里，因为NPC没能超越他们。或者，NPC可能会摧毁一个邪恶巫师的城堡大门，使他的防御工事在即将到来的战斗中失去作用。"
-							]
-						}
-					]
-				},
-				{
-					"type": "inset",
-					"name": "NPCs, PCs, and Battle Rating",
-					"entries": [
-						"你总是可以计算出一个角色的BR，并简单地将其纳入一个单位，尽管规则中的抽象程度使个别行动脱离了玩家的控制。这种方法最适合于作为指挥官的NPC，或者是战斗中的背景角色。",
-						"以管理NPC的方式对待关键的NPC，如重要的恶棍和对手。让玩家去寻找他们，因为他们之间的冲突无疑是决定战斗如何展开的关键事件。"
-					]
-				}
-			]
-		},
-		{
 			"name": "Massive Damage",
 			"source": "DMG",
 			"page": 273,
@@ -7374,7 +6181,7 @@
 								],
 								[
 									"{@class Sorcerer}",
-									"\u2014"
+									"—"
 								],
 								[
 									"{@class Warlock}",
@@ -7382,7 +6189,7 @@
 								],
 								[
 									"{@class Wizard}",
-									"\u2014"
+									"—"
 								]
 							]
 						}
@@ -7474,74 +6281,74 @@
 										[
 											"1st",
 											2,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"2nd",
 											3,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"3rd",
 											4,
 											2,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"4th",
 											4,
 											3,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"5th",
 											4,
 											3,
 											2,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"6th",
 											4,
 											3,
 											3,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"7th",
@@ -7549,11 +6356,11 @@
 											3,
 											3,
 											1,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"8th",
@@ -7561,11 +6368,11 @@
 											3,
 											3,
 											2,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"9th",
@@ -7574,10 +6381,10 @@
 											3,
 											3,
 											1,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"10th",
@@ -7586,10 +6393,10 @@
 											3,
 											3,
 											2,
-											"\u2014",
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"11th",
@@ -7599,9 +6406,9 @@
 											3,
 											2,
 											1,
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"12th",
@@ -7611,9 +6418,9 @@
 											3,
 											2,
 											1,
-											"\u2014",
-											"\u2014",
-											"\u2014"
+											"—",
+											"—",
+											"—"
 										],
 										[
 											"13th",
@@ -7624,8 +6431,8 @@
 											2,
 											1,
 											1,
-											"\u2014",
-											"\u2014"
+											"—",
+											"—"
 										],
 										[
 											"14th",
@@ -7636,8 +6443,8 @@
 											2,
 											1,
 											1,
-											"\u2014",
-											"\u2014"
+											"—",
+											"—"
 										],
 										[
 											"15th",
@@ -7649,7 +6456,7 @@
 											1,
 											1,
 											1,
-											"\u2014"
+											"—"
 										],
 										[
 											"16th",
@@ -7661,7 +6468,7 @@
 											1,
 											1,
 											1,
-											"\u2014"
+											"—"
 										],
 										[
 											"17th",
@@ -7835,7 +6642,7 @@
 											"{@dice 1d6} {@creature Berserker||berserkers} and {@dice 5d10} {@creature Tribal Warrior||tribal warriors}"
 										],
 										[
-											"2\u20133",
+											"2–3",
 											"{@dice 1d6} {@creature Cult Fanatic||cult fanatics} and {@dice 5d10} {@creature Cultist||cultists}"
 										],
 										[
@@ -8780,7 +7587,7 @@
 								],
 								[
 									"10",
-									"在第七章\"{@book Treasure|DMG|7|Treasure} \"的{@table Individual Treasure: Challenge 0\u20144|DMG|Treasure Hoard: Challenge 0\u20134 table}上滚动的宝藏，{@book Dungeon Master's Guide|DMG}"
+									"在第七章\"{@book Treasure|DMG|7|Treasure} \"的{@table Individual Treasure: Challenge 0—4|DMG|Treasure Hoard: Challenge 0–4 table}上滚动的宝藏，{@book Dungeon Master's Guide|DMG}"
 								]
 							]
 						}
@@ -8791,7 +7598,7 @@
 					"name": "Coral Reefs",
 					"entries": [
 						"珊瑚礁生长在整个海底，尽管大多数是在海岸线附近不到150英尺的深度内发现。珊瑚礁的长度和宽度从几英尺到1,000多英里不等。这些丰富多彩的生态系统容纳了小鱼、甲壳类动物和软体动物。因此，捕食者会到珊瑚礁上寻找猎物。",
-						"Uneven and sharp, coral reefs can harm those forced into them. A creature forcibly moved on the reef\u2014without using the creature's action, bonus action, or reaction\u2014takes 3 ({@dice 1d6}) slashing damage per 5 feet of reef that it is pushed over."
+						"Uneven and sharp, coral reefs can harm those forced into them. A creature forcibly moved on the reef—without using the creature's action, bonus action, or reaction—takes 3 ({@dice 1d6}) slashing damage per 5 feet of reef that it is pushed over."
 					]
 				},
 				{
@@ -8804,10 +7611,11 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "variantrules/GoS/096-za-06-ocean-environs-p203.png"
+								"path": "variantrules/GoS/096-za-06-ocean-environs-p203.webp"
 							},
 							"width": 708,
-							"height": 1000
+							"height": 1000,
+							"credit": "Jim Nelson"
 						},
 						{
 							"type": "entries",
@@ -8913,15 +7721,15 @@
 							],
 							"rows": [
 								[
-									"1\u20132",
+									"1–2",
 									"幽灵之雾"
 								],
 								[
-									"3\u20134",
+									"3–4",
 									"阴影城之雾"
 								],
 								[
-									"5\u20136",
+									"5–6",
 									"野生魔雾"
 								]
 							]
@@ -8944,15 +7752,15 @@
 									],
 									"rows": [
 										[
-											"1\u20133",
+											"1–3",
 											"亮度"
 										],
 										[
-											"4\u20137",
+											"4–7",
 											"中等水平"
 										],
 										[
-											"8\u20139",
+											"8–9",
 											"沉重"
 										],
 										[
@@ -9258,7 +8066,7 @@
 								],
 								[
 									"10",
-									"在第七章\"{@book Treasure|DMG|7|Treasure} \"的{@table Individual Treasure: Challenge 5\u201410|DMG|Treasure Hoard: Challenge 5\u201310 table}上滚动的宝藏，{@book Dungeon Master's Guide|DMG}"
+									"在第七章\"{@book Treasure|DMG|7|Treasure} \"的{@table Individual Treasure: Challenge 5—10|DMG|Treasure Hoard: Challenge 5–10 table}上滚动的宝藏，{@book Dungeon Master's Guide|DMG}"
 								]
 							]
 						}
@@ -9319,10 +8127,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "variantrules/GoS/097-za-07-p206.png"
+										"path": "variantrules/GoS/097-za-07-p206.webp"
 									},
 									"width": 1000,
-									"height": 960
+									"height": 960,
+									"credit": "Slawomir Maniak"
 								},
 								"When a creature moves into a whirlpool or starts its turn there, it must make a Strength ({@skill Athletics}) check with a DC determined by the whirlpool's rank. On a success, the creature can move normally. On a failure, the creature is immediately moved toward the vortex's center at the whirlpool's velocity, and the creature is {@condition restrained} by the whirlpool until the start of its next turn. If the creature reaches the whirlpool's center, the creature is pulled under the surface and either appears at a special location (see \"{@adventure Whirlpool Destinations|GoS|8|Whirlpool Destinations}\" below) or plunges a number of feet underwater equal to the whirlpool's velocity."
 							]
@@ -9414,7 +8223,7 @@
 									],
 									"rows": [
 										[
-											"1\u20133",
+											"1–3",
 											"地下城"
 										],
 										[
@@ -9518,84 +8327,6 @@
 				"You gain class features in the {@book Player's Handbook|PHB} when you reach certain levels in your class. An optional feature is an additional feature that you can gain beyond these.",
 				"与{@book Player's Handbook|PHB}中的特征不同，你不会自动获得一个可选特征。如果你符合特征描述中提到的等级要求，你可以与你的管理人协商，决定是否获得一个可选特征。这些功能可以分开选择，你可以使用其中的一部分，全部，或者不使用。",
 				"如果你参加了一个替代另一个功能的可选功能，你就不能从被替代的功能中获得任何好处，也没有资格参加游戏中需要它的东西。"
-			]
-		},
-		{
-			"name": "Owning a Ship",
-			"source": "UAOfShipsAndSea",
-			"page": 9,
-			"type": "section",
-			"entries": [
-				"如果你购买了一艘船，你就解锁了一个令人兴奋的新的冒险场所，并签下了一个巨大的后勤挑战。维持一艘船的运作需要大量的工作。",
-				"该规则使用一个停工活动--管理一艘船--来抽象地表示维持一艘船的运作、储备物资和支付船员工资所需的努力。",
-				"参见{@book Dungeon Master's Guide|DMG|1|downtime activities}和{@book Xanathar's Guide to Everything|XGE|2|downtime revisited}，了解更多关于停机活动的信息。",
-				{
-					"type": "entries",
-					"name": "Downtime: Managing a Ship",
-					"entries": [
-						"通过雇佣一个有能力的船长和船员，让他们从事货物运输或以其他方式提供服务，你可以使船只保持良好的维修状态，甚至在冒险之间为你创造利润。",
-						"管理一艘船是一项停工活动，需要花时间和精力去招募军官和船员。船舶在需要时可以使用。否则，船舶拖运乘客和货物来支付维护船舶和支付船员的费用。",
-						{
-							"type": "entries",
-							"name": "Resources",
-							"entries": [
-								"招募一名船员需要一周时间，并需要{@dice 100 + 4d6}金币来支付招募和供应的费用。一旦你支付了这些费用，你就有一个船长和一个船员来维护这艘船。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Resolution",
-							"entries": [
-								"一旦你有了一艘能用的船，它每个月都会有少量的利润。每四个星期结束时，你会赚到{@dice 5d20}的金币。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Complications",
-							"entries": [
-								"船主面临着恶劣天气、糟糕的贸易协议或叛变的风险。在掷骰子确定你的利润时，如果任何一个{@dice d20}的骰子是1，就在船舶所有权复杂化表上掷骰子（或者DM可以创造一个合适的复杂化）。",
-								{
-									"type": "table",
-									"caption": "Ship Ownership Complications",
-									"colLabels": [
-										"d6",
-										"Complication"
-									],
-									"colStyles": [
-										"col-2 text-center",
-										"col-10"
-									],
-									"rows": [
-										[
-											"1",
-											"你的船员做了一个糟糕的交易。这个月你看不到任何利润。"
-										],
-										[
-											"2",
-											"你的船和船员被征召入伍，猎杀海盗已有{@dice 1d4}个月。"
-										],
-										[
-											"3",
-											"一座与海洋或贸易有关的神庙指责你的船员不尊重神灵，没有人愿意与你的船和船员做生意。你每月损失{@dice 5d20}金币，持续{@dice 1d6}个月或直到神庙被安抚。"
-										],
-										[
-											"4",
-											"你的船和船员失踪了，必须从俘虏那里救出来。"
-										],
-										[
-											"5",
-											"你的船员叛变了，正从你身边逃窜。"
-										],
-										[
-											"6",
-											"你的船员在走私非法货物时被抓。他们被关进监狱，你的船被扣押。"
-										]
-									]
-								}
-							]
-						}
-					]
-				}
 			]
 		},
 		{
@@ -9706,7 +8437,7 @@
 					"type": "entries",
 					"name": "Outer Planes: Psychic Dissonance",
 					"entries": [
-						"Each of the Outer Planes emanates a psychic dissonance that affects visitors of an incompatible alignment\u2014good creatures on the Lower Planes, evil ones on the Upper Planes\u2014if they spend too much time on the plane. You can reflect this dissonance with this optional rule. At the end of a long rest spent on an incompatible plane, a visitor must make a DC 10 Constitution saving throw. On a failed save, the creature gains one level of {@condition exhaustion}. Incompatibility between lawful and chaotic alignments doesn't have the same effect, so Mechanus and Limbo lack this quality."
+						"Each of the Outer Planes emanates a psychic dissonance that affects visitors of an incompatible alignment—good creatures on the Lower Planes, evil ones on the Upper Planes—if they spend too much time on the plane. You can reflect this dissonance with this optional rule. At the end of a long rest spent on an incompatible plane, a visitor must make a DC 10 Constitution saving throw. On a failed save, the creature gains one level of {@condition exhaustion}. Incompatibility between lawful and chaotic alignments doesn't have the same effect, so Mechanus and Limbo lack this quality."
 					]
 				},
 				{
@@ -9989,44 +8720,6 @@
 			]
 		},
 		{
-			"name": "Players Make All Rolls",
-			"source": "UAVariantRules",
-			"page": 1,
-			"ruleType": "V",
-			"type": "section",
-			"entries": [
-				"这个变体让玩家在战斗的所有部分都掷骰子，包括怪物的攻击卷和蓄力投掷等。通过将掷骰子转移到玩家那边，这个选项使你作为管理人的工作更加简单。此外，你能让玩家在游戏中越活跃，他们就会越投入。",
-				"如果你的玩家喜欢掷骰子，而且你不介意在前面做一点工作来实现这一点，这是一个不错的选择。",
-				{
-					"type": "entries",
-					"name": "Attacking and Defending",
-					"entries": [
-						"玩家如常滚动他们角色的攻击，但你不为他们的对手滚动。相反，当一个角色被攻击的时候，玩家要做一个防御卷。",
-						"防御卷的奖励等于人物的AC-10。卷轴的DC等于攻击者的攻击奖励+11。",
-						"在成功的防御卷中，攻击没有击中，因为它被躲避了，被角色的盔甲吸收了，等等。如果一个角色在防御卷中失败，攻击就会击中。",
-						"如果攻击者通常在攻击卷上有优势，你反而对防御卷适用劣势，如果攻击者有劣势，反之亦然。",
-						"如果防御卷在{@dice d20}上显示为1，那么攻击就是一个关键打击。如果攻击者通常会在19或20的卷轴上得到一个关键打击，那么攻击在1或2的时候就是一个关键打击，以此类推，关键范围更广。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Saving Throws",
-					"entries": [
-						"当一个角色强迫对手做一个蓄力动作时，该玩家反而会做一个蓄力动作检查。蓄力检查的{@dice d20}卷的奖励等于该效果的蓄力DC-8。",
-						"该检查的DC等于11+目标的蓄力修改器。检验成功时，角色克服了目标的抵抗力，并将目标视为其救赎失败。在检查失败时，目标会被视为救赎成功的情况。",
-						"如同攻击一样，如果目标在救赎动作上处于劣势，则救赎动作检查具有优势，反之亦然。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Contests and Checks",
-					"entries": [
-						"Whenever an NPC or monster would normally make an ability check, roll initiative, or take part in a contest, neither you nor the players roll the {@dice d20}. Instead, use the rules for passive checks to determine the result. See chapter 7, \"{@book Using Ability Scores|PHB|7|Passive Scores},\" of the {@book Player's Handbook|PHB} for more information on passive checks."
-					]
-				}
-			]
-		},
-		{
 			"name": "Playing on a Grid",
 			"source": "PHB",
 			"page": 192,
@@ -10121,76 +8814,6 @@
 			]
 		},
 		{
-			"name": "Prestige Classes",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 1,
-			"type": "section",
-			"entries": [
-				"许多曾经是D&D早期版本中的威望等级或准绳路径的角色概念，现在都是一级角色可以选择的。总的来说，游戏的设计旨在实现最大的灵活性，使所有角色都可以选择。因此，威望等级建立在游戏中广泛的基本选项之上，代表了专门的选项和独特的训练。",
-				{
-					"type": "section",
-					"name": "Using Prestige Classes",
-					"entries": [
-						"一个声望等级在角色掌握其基本要素之前需要有高水平的技能。声望等级可能会赋予失落的传说，允许使用一种难以捉摸的魔法形式，授予掌握一种异国的战斗风格，或者围绕一个秘密社会所蕴藏的知识而建立。",
-						"从机制上讲，威望类是一个角色类别，需要和其他类别一样的训练和关注。你可以通过正常的多类规则进入一个声望类。然而，你至少要在3级时才能进入一个声望等级--许多声望等级甚至有更高的等级要求。",
-						"大多数声望等级要求角色完成特定的事迹，以获得进入该等级的机会。在一个声望阶级的守门人--通常是那些掌握该阶级传说的人--同意接受你之前，你不能在该阶级中晋升。",
-						"一个声望等级通常提供只有该等级的成员才能使用的独特游戏机制。这种机制反映了特定的传说、秘密或技术，如果不赢得那些已经拥有这些知识的人的尊重和信任，就不可能掌握。",
-						{
-							"type": "entries",
-							"name": "Joining a Prestige Class",
-							"entries": [
-								"为了加入一个声望等级，你必须先向你的地下城管理员确认。管理员可以选择在游戏中加入或不加入声望等级。通常情况下，一个声望等级要求你在游戏中采取特定的行动，以便你的角色可以开始追求这个等级。如果这些行动在你的活动中还不可能实现，请与你的管理员讨论整合你感兴趣的威望等级。",
-								"声望类使用正常的D&D多类规则（见第6章，\"{@book Customization Options|PHB|6|Multiclassing}，\"中的{@book Player's Handbook|PHB}）。当你的角色准备提升一个等级时，你可以选择在威望类中获得一个等级。你在所有等级中的等级，包括声望等级，都会加在一起，以确定你的角色等级。",
-								{
-									"type": "entries",
-									"name": "Prerequisites",
-									"entries": [
-										"通过多类来获得一个声望等级，需要满足一定的先决条件，就像多类进入一个标准等级一样。你必须满足你当前等级和声望等级的能力得分先决条件，才能获得该等级的资格。",
-										"一个声望等级需要最低的角色等级和至少一种能力的最低得分，还需要你完成一个特定的行为--找到一个魔法物品、击败一个怪物、在一个特定的挑战中生存下来，等等--然后才能够接受该等级。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Experience Points",
-									"entries": [
-										"就像多类的标准规则一样，获得一个等级的经验值成本总是基于你的总角色等级，而不是你在某个特定等级中的等级。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Hit Points and Hit Dice",
-									"entries": [
-										"每个声望等级都规定了你从中获得的打击点数。你将你所有的等级和声望等级所赋予的命中率加在一起，以确定你的命中率。如果这些命中率是同一类型的，你可以简单地把它们集中起来。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Proficiency Bonus and Proficiencies",
-									"entries": [
-										"你的熟练度奖励总是基于你的角色总等级，而不是你在某个特定等级中的等级。一个声望等级在你进入该等级时，会指定它是否授予熟练度。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Prestige Class Features",
-									"entries": [
-										"你获得声望等级的特征就像普通等级的特征一样。有时，一个声望等级可以改善你从其他等级获得的特征。如果一个声望阶级授予了 \"神性通道\"、\"额外攻击 \"或 \"无装甲防御\"，那么该特征的处理方式与你从多个标准阶级获得该特征相同。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Spellcasting",
-									"entries": [
-										"有些声望等级会授予法术攻击。每个声望等级都提供了如何确定你的整体法术能力的细节，使用法术和多类角色的规则。"
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Proficiency Dice",
 			"source": "DMG",
 			"page": 263,
@@ -10267,27 +8890,27 @@
 							],
 							"rows": [
 								[
-									"01\u201309",
+									"01–09",
 									"{@vehicle Rowboat|GoS}"
 								],
 								[
-									"10\u201325",
+									"10–25",
 									"{@vehicle Keelboat|GoS}"
 								],
 								[
-									"26\u201338",
+									"26–38",
 									"{@vehicle Longship|GoS}"
 								],
 								[
-									"39\u201360",
+									"39–60",
 									"{@vehicle Sailing ship|GoS}"
 								],
 								[
-									"61\u201379",
+									"61–79",
 									"{@vehicle Galley|GoS}"
 								],
 								[
-									"80\u201300",
+									"80–00",
 									"{@vehicle Warship|GoS}"
 								]
 							]
@@ -10567,31 +9190,31 @@
 							],
 							"rows": [
 								[
-									"01\u201317",
+									"01–17",
 									"货物"
 								],
 								[
-									"18\u201334",
+									"18–34",
 									"乘客"
 								],
 								[
-									"35\u201351",
+									"35–51",
 									"钓鱼"
 								],
 								[
-									"52\u201368",
+									"52–68",
 									"军事"
 								],
 								[
-									"69\u201385",
+									"69–85",
 									"盗版行为"
 								],
 								[
-									"86\u201395",
+									"86–95",
 									"雇佣兵"
 								],
 								[
-									"96\u201300",
+									"96–00",
 									"幽灵"
 								]
 							]
@@ -10646,10 +9269,11 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "variantrules/GoS/098-za-08-ghost-ship-p210.png"
+										"path": "variantrules/GoS/098-za-08-ghost-ship-p210.webp"
 									},
 									"width": 852,
-									"height": 1000
+									"height": 1000,
+									"credit": "Wayne England"
 								}
 							]
 						},
@@ -10691,15 +9315,15 @@
 							],
 							"rows": [
 								[
-									"1\u20132",
+									"1–2",
 									"友好的"
 								],
 								[
-									"3\u20134",
+									"3–4",
 									"中性"
 								],
 								[
-									"5\u20136",
+									"5–6",
 									"敌对的"
 								]
 							]
@@ -10717,31 +9341,31 @@
 							],
 							"rows": [
 								[
-									"01\u201305",
+									"01–05",
 									"龙的传人"
 								],
 								[
-									"06\u201310",
+									"06–10",
 									"矮人"
 								],
 								[
-									"11\u201330",
+									"11–30",
 									"精灵们"
 								],
 								[
-									"31\u201340",
+									"31–40",
 									"侏儒"
 								],
 								[
-									"41\u201350",
+									"41–50",
 									"盗贼"
 								],
 								[
-									"51\u201360",
+									"51–60",
 									"半身人"
 								],
 								[
-									"61\u201300",
+									"61–00",
 									"人类"
 								]
 							]
@@ -10759,31 +9383,31 @@
 							],
 							"rows": [
 								[
-									"01\u201305",
+									"01–05",
 									"龙的传人"
 								],
 								[
-									"06\u201310",
+									"06–10",
 									"矮人"
 								],
 								[
-									"11\u201330",
+									"11–30",
 									"蜥蜴人"
 								],
 								[
-									"31\u201340",
+									"31–40",
 									"霍布林斯人"
 								],
 								[
-									"41\u201350",
+									"41–50",
 									"Orcs"
 								],
 								[
-									"51\u201360",
+									"51–60",
 									"半身人"
 								],
 								[
-									"61\u201300",
+									"61–00",
 									"人类"
 								]
 							]
@@ -10801,31 +9425,31 @@
 							],
 							"rows": [
 								[
-									"01\u201305",
+									"01–05",
 									"霜冻巨人"
 								],
 								[
-									"06\u201310",
+									"06–10",
 									"哥布林"
 								],
 								[
-									"11\u201330",
+									"11–30",
 									"Orcs"
 								],
 								[
-									"31\u201340",
+									"31–40",
 									"霍布林斯人"
 								],
 								[
-									"41\u201350",
+									"41–50",
 									"亡灵"
 								],
 								[
-									"51\u201360",
+									"51–60",
 									"地精"
 								],
 								[
-									"61\u201300",
+									"61–00",
 									"人类"
 								]
 							]
@@ -10868,7 +9492,7 @@
 											"贸易"
 										],
 										[
-											"6\u201310",
+											"6–10",
 											"没有特别的处置方式"
 										]
 									]
@@ -11117,74 +9741,6 @@
 			]
 		},
 		{
-			"name": "Rune Magic",
-			"source": "UAPrestigeClassesRunMagic",
-			"page": 3,
-			"type": "section",
-			"entries": [
-				"符文魔法允许一个角色释放包含在魔法符号和符文中的力量。不是每一个这样的标记都有潜在的力量。只有那些在创世的远古时代铸造的符文仍然与世界的基本魔法产生共鸣。",
-				"符文的作用很像魔法物品。你可以发现它们，适应它们，并以各种方式使用它们的魔法。然而，与魔法物品不同，只有符文师才能使用符文提供的所有好处。",
-				{
-					"type": "entries",
-					"name": "Overview",
-					"entries": [
-						"Runes are powerful icons that you can use for a variety of effects. In order to use a rune, you must normally find and keep a {@b master rune}. A master rune is a rare object\u2014a gem or carved rock, a magical token, a shard of some special material, and so on\u2014engraved with the rune and empowered with magic that allows you to unleash the rune's effects. Those effects are divided into two categories.",
-						"{@b Simple properties}可被任何与主符文相匹配的人使用。",
-						"{@b Complex properties}只有与主符文契合并拥有符文传说类特征的角色才能使用。",
-						"除非另有说明，你必须身上有一个主符文才能使用其属性。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Finding Runes",
-					"entries": [
-						"作为宝物发现的符文是一个主符文，被精心刻画在一个罕见的物体上，可作为训练工具，让未来的符文刻写者解锁其力量。下面讨论的每个符文都作为主符文的一部分进行了详细说明。",
-						"主符文和它们所包含的符文被视为与魔法物品一样。它们的稀有程度从稀有到传奇都有分类，而且只要DM选择放置宝物，就可以在活动中放置。没有普通或不普通的符文。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Buying and Selling Runes",
-					"entries": [
-						"为了在活动中购买和出售，将主符文视为同等稀有度的魔法物品。就像其他魔法物品一样，DM将决定这种物品是否可以在活动中购买以及在什么条件下购买。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Identifying Runes",
-					"entries": [
-						"符文的识别方式与魔法物品类似。只要处理一个主符文，就会在人物的脑海中产生对其符文身份的强烈感觉。例如，触摸一个包含卡尔特符文（寒冷的符文）的主符文物品，可能会使你体验到突然的寒意，因为冰雪的景象在你脑海中闪现。",
-						"{@spell identify}法术能立即显示出一个主符文的简单属性。在与符文保持物理接触的情况下，你也可以在短暂的休息过程中学习其简单属性。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Runes and Attunement",
-					"entries": [
-						"一个符文总是需要调和才能使用它的简单属性。适应一个主符文需要你花一个短暂的休息时间，只专注于该物品，同时与它保持身体接触。这不可能是用来学习符文属性的短暂休息。这种专注的形式是仔细和反复地复制符文，无论是用墨水和羊皮纸还是简单地把它刻在土里。如果短暂的休息时间被打断，调和尝试就会失败。否则，在短暂休息结束后，你会对如何激活符文的魔法属性有一个直观的认识。",
-						"一个主符文一次只能与一个生物相适应，所有的符文都计入你可以适应的魔法物品的上限。任何试图调整第四个魔法物品或符文的行为都会失败（尽管符文师的符文精通功能允许调整一个额外的符文）。你不能与一个以上的符文副本相适应。",
-						"你可以用与其他魔法物品相同的方式结束对符文的调适。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Master Runes",
-					"entries": [
-						"这里有四个符文（以主符文的形式）供你在战役中使用--刚好够一个达到5级的符文抄写员的全部装备。",
-						{
-							"type": "list",
-							"items": [
-								"{@item Opal of the Ild Rune|UAPrestigeClassesRunMagic}",
-								"{@item Orb of the Stein Rune|UAPrestigeClassesRunMagic}",
-								"{@item Pennant of the Vind Rune|UAPrestigeClassesRunMagic}",
-								"{@item Shard of the Kalt Rune|UAPrestigeClassesRunMagic}"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Scroll Mishaps",
 			"source": "DMG",
 			"page": 140,
@@ -11353,47 +9909,47 @@
 									"rows": [
 										[
 											"A",
-											"1\u20134",
+											"1–4",
 											"4"
 										],
 										[
 											"B",
-											"1\u20134",
+											"1–4",
 											"4"
 										],
 										[
 											"C",
-											"1\u20134",
+											"1–4",
 											"4"
 										],
 										[
 											"D",
-											"2\u20134",
+											"2–4",
 											"8"
 										],
 										[
 											"E",
-											"3\u20134",
+											"3–4",
 											"8"
 										],
 										[
 											"F",
-											"1\u20134",
+											"1–4",
 											"8"
 										],
 										[
 											"G",
-											"2\u20134",
+											"2–4",
 											"10"
 										],
 										[
 											"H",
-											"3\u20134",
+											"3–4",
 											"10"
 										],
 										[
 											"I",
-											"3\u20134",
+											"3–4",
 											"12"
 										]
 									]
@@ -11514,85 +10070,6 @@
 							"entries": [
 								"在共享活动中，角色无权出售他们在冒险中发现的物品或用个人资金购买的装备。敌人使用的武器、盔甲和其他装备被认为损坏严重，不具有任何货币价值。"
 							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Ship Crew",
-			"source": "UAOfShipsAndSea",
-			"page": 6,
-			"type": "section",
-			"entries": [
-				"一艘船需要一定数量的健壮的水手来当船员，这在它的状态块中有规定。船员的技能、经验、士气和健康状况由其质量得分来定义。一个船员开始时的质量得分是+4，这个分数会随着时间的推移而变化，低至-10，高至+10。它随着船员的伤亡、困难或健康状况的恶化而减少。如果船员的士气高涨，有良好的医疗保健，并得到清晰、公平的领导，那么它就会增加。",
-				"一个典型的船员使用《怪物手册》中的平民状态块。",
-				{
-					"type": "inset",
-					"name": "Loyalty and Quality",
-					"entries": [
-						"当处理船员中的个别成员时，你可能会发现使用《地下城主指南》第4章中的可选忠诚度规则是很有用的。要将质量得分转换为个人的忠诚得分，请在船员的质量得分上加上10。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mutiny",
-					"entries": [
-						"A poorly led or mistreated crew might turn against its officers. Once per day, if a crew's quality score is lower than 0, the captain must make a Charisma ({@skill Intimidation} or {@skill Persuasion}) check modified by the crew's quality score. If the check total is between 1 and 9, the crew's quality score decreases by 1.",
-						"If the check total is 0 or lower, the crew mutinies. They become hostile to the officers and might attempt to kill them, imprison them, or throw them overboard. The crew can be cowed into obedience through violence, combat, or offers of treasure and other rewards. When the DM ends the mutiny, the crew's quality score increases by {@dice 1d4}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Shore Leave",
-					"entries": [
-						"船上的生活对船员来说是一种持续的磨损。在港口度过的时间可以让船员们放松下来，重新振作起来。",
-						"如果一个船员的质量得分是3分或更低，那么船员在港口或岸上每呆一天，得分就会增加1分。"
-					]
-				}
-			]
-		},
-		{
-			"name": "Ship Officers",
-			"source": "UAOfShipsAndSea",
-			"page": 5,
-			"type": "section",
-			"entries": [
-				"如果你想探索经营一艘船，它需要军官来监督它的运作--那些担任六个不同角色的军官。一个人在同一时间只能扮演一个角色，不过一个人可以被分配到一个角色。船上的一些角色反映了对训练有素的专家的需求，以指导船员的工作。其他角色则侧重于保持船员的健康和士气。",
-				"下面描述了每一个角色，以及帮助一个角色擅长该角色的能力和专长（但不是必须的）。",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Captain",
-							"entry": "船长负责发布命令。最好的队长有很高的智力和魅力分数，以及对水上交通工具和{@skill Intimidation}和{@skill Persuasion}技能的熟练程度。"
-						},
-						{
-							"type": "item",
-							"name": "First Mate",
-							"entry": "这位专家通过提供密切的监督、鼓励和纪律来保持船员的士气。大副有很高的魅力分，以及熟练掌握{@skill Intimidation}和{@skill Persuasion}的技能。"
-						},
-						{
-							"type": "item",
-							"name": "Bosun",
-							"entry": "The bosun (or boatswain) provides technical advice to the captain and crew and leads repair and maintenance efforts. A good bosun has a high Strength score, as well as proficiency with {@item carpenter's tools|PHB} and the {@skill Athletics} skill."
-						},
-						{
-							"type": "item",
-							"name": "Quartermaster",
-							"entry": "The quartermaster plots the ship's course, relying on knowledge of nautical charts and a study of weather and sea conditions. A reliable quartermaster tends to have a high Wisdom score, as well as proficiency with {@item navigator's tools|PHB} and the {@skill Nature} skill."
-						},
-						{
-							"type": "item",
-							"name": "Surgeon",
-							"entry": "船上的外科医生负责处理伤病，防止疾病在船上蔓延，并监督卫生状况。一个有能力的外科医生得益于较高的智力得分，以及对草药包和{@skill Medicine}技能的精通。"
-						},
-						{
-							"type": "item",
-							"name": "Cook",
-							"entry": "A ship's cook works with the limited ingredients aboard a ship to make meals. A skilled cook keeps the crew's morale in top shape, while a poor one drags down the entire crew's performance. A talented cook has a high Constitution score, as well as proficiency with {@item brewer's supplies|PHB} and {@item cook's utensils|PHB}."
 						}
 					]
 				}
@@ -11732,154 +10209,6 @@
 							"name": "Siege Weapons",
 							"entries": [
 								"Some ships are armed with siege weapons, the descriptions of which are in the \"{@book Siege Equipment|DMG|8|Siege Equipment}\" section of chapter 8 in the {@book Dungeon Master's Guide|DMG}. In this appendix, the name of a piece of siege equipment appears in bold with a parenthetical note ({@book DMG, ch. 8|DMG|8|Siege Equipment}), reminding you where to find the object's description."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Ship Stat Blocks",
-			"source": "UAOfShipsAndSea",
-			"page": 1,
-			"type": "section",
-			"entries": [
-				"一艘船的状态块提供了游戏的细节，当一艘船参与战斗或其他与它的防御和进攻能力有关的情况下使用。状态块有三个主要部分：基本统计数据、行动选项和船只的组件。",
-				"船只不能自己采取任何行动。如果没有船员的任何努力，船舶可能会在水面上漂移，停在那里，或者失去控制。",
-				{
-					"type": "entries",
-					"name": "Basic Statistics",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Size",
-							"entries": [
-								"大多数船只是大型、巨大或巨型的。一艘船的尺寸类别是由其长度或宽度决定的，以较长者为准。例如，一艘长10英尺、宽20英尺的船将使用宽度为20英尺的尺寸类别，这意味着该船是巨大的。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Space",
-							"entries": [
-								"一艘船没有一个正方形的空间，除非它的状态块另有规定。例如，一艘长20英尺、宽10英尺的船占据了一个20乘10英尺的空间。",
-								"一艘飞船不能移动到一个太小的空间里。如果它试图这样做，它就会崩溃，正如后面的\"{@variantrule Crashing a Ship|uaofshipsandsea|Crashing} \"部分所描述的。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Capacity",
-							"entries": [
-								"一艘船的状态块显示了它能携带多少生物和多少货物。生物包括操作船只所需的船员和任何可能乘坐的乘客。乘客可以包括击退登船者的海军陆战队员，以及领导对怪物和敌舰的攻击。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Travel Pace",
-							"entries": [
-								"一艘船的旅行速度决定了该船每小时和每天可以移动多远。一艘船的移动相关组件（在后面的状态块中描述）决定了该船每轮可以移动多远。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Ability Scores",
-							"entries": [
-								"一艘船有六个能力分数（力量、灵巧、体质、智力、智慧和魅力）和相应的修改器。一艘船的力量代表其大小和重量。灵巧代表了一艘船的易操作性。一艘船的体质涵盖了它的耐久性和它的结构质量。船只通常在智力、智慧和魅力方面的得分是0。",
-								"如果一艘船的某项分数为0，它就会自动失去任何使用该分数的能力检查或拯救动作。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Vulnerabilities, Resistances, and Immunities",
-							"entries": [
-								"一艘船的脆弱性、抵抗力和免疫力适用于它的所有组件，除非在状态块中另有说明。"
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Typical Ship Immunities",
-							"entries": [
-								"如果你是自己创造的飞船，它们通常对毒药和精神伤害免疫。用金属或石头制作的飞船通常也对坏死的伤害免疫。它们通常也对以下情况免疫。{@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition exhaustion} {@condition frightened}, {@condition incapacitated}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, {@condition prone}, {@condition stunned}, 和 {@condition unconscious}。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Components",
-					"entries": [
-						"一艘船是由不同的部件组成的。",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Hull",
-									"entry": "船体是其基本框架，其他部件都安装在上面。"
-								},
-								{
-									"type": "item",
-									"name": "Control",
-									"entry": "控制部件用于操纵船只。"
-								},
-								{
-									"type": "item",
-									"name": "Movement",
-									"entry": "运动部件是使船舶能够移动的元素，如一组帆或桨。"
-								},
-								{
-									"type": "item",
-									"name": "Weapon",
-									"entry": "一艘能够用于战斗的船有一个或多个武器部件，每个部件都是单独操作的。"
-								}
-							]
-						},
-						"一艘船的组件可能有特殊的规则，如状态块中所描述的。",
-						{
-							"type": "entries",
-							"name": "Armor Class",
-							"entries": [
-								"一个部件有一个装甲等级。它的护甲等级是为了反映它的大小、用于建造它的材料、以及用于增强其韧性的任何防御性镀层或盔甲。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Hit Points",
-							"entries": [
-								"一艘船的部件被摧毁，当它的命中率下降到0时就无法使用。如果一艘船的船体被摧毁，那么它就会被击毁。一艘船的部件没有命中率。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Damage Threshold",
-							"entries": [
-								"如果一个飞船部件有一个伤害阈值，该阈值会出现在其命中率之后。一个部件对所有的伤害都有免疫力，除非它受到的伤害量等于或大于它的伤害阈值，在这种情况下，它就会像正常一样受到伤害。任何没有达到或超过伤害阈值的伤害都被认为是表面的，不会减少组件的命中率。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Actions",
-					"entries": [
-						"状态块的这一部分规定了这艘船在其回合中可以做什么，使用它的特殊行动而不是生物使用的行动。它甚至依靠它的行动来移动；否则它就没有移动。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sample Stat Blocks",
-					"entries": [
-						"以下是船舶状态块的例子。",
-						{
-							"type": "list",
-							"items": [
-								"{@vehicle Airship|UAOfShipsAndSea}",
-								"{@vehicle Galley|UAOfShipsAndSea}",
-								"{@vehicle Keelboat|UAOfShipsAndSea}",
-								"{@vehicle Longship|UAOfShipsAndSea}",
-								"{@vehicle Rowboat|UAOfShipsAndSea}",
-								"{@vehicle Sailing Ship|UAOfShipsAndSea}",
-								"{@vehicle Warship|UAOfShipsAndSea}"
 							]
 						}
 					]
@@ -12048,44 +10377,6 @@
 									"巨大的",
 									"{@dice 16d10}"
 								]
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Ships in Combat",
-			"source": "UAOfShipsAndSea",
-			"page": 8,
-			"type": "section",
-			"entries": [
-				"本节提供了在战斗中使用舰艇的指导。",
-				{
-					"type": "entries",
-					"name": "Ships and Initiative",
-					"entries": [
-						"一艘船用它的灵巧性来掷出主动权，它用它的船员的质量得分作为该掷出的修正值。",
-						"在船只的回合中，船长决定使用船只的哪些行动。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Special Officer Actions",
-					"entries": [
-						"在遭遇战中，船长、大副和水手长都可以使用下面描述的两个特别行动选项。全速前进和随意开火。",
-						{
-							"type": "entries",
-							"name": "Full Speed Ahead",
-							"entries": [
-								"作为在甲板上的一项行动，船长、大副或水手长可以劝说船员更加努力工作，推动船只前进。掷出{@dice d6}，然后将结果乘以5，将总数作为船速的奖励，直到船的下一回合结束。如果这个奖励是在飞船已经比正常速度快的情况下应用于飞船的速度，则使用较高的结果。不要把这两个奖励加在一起。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Fire at Will",
-							"entries": [
-								"作为一个行动，船长、大副或水手长协助船员瞄准船上的一种武器。选择一个在军官10英尺范围内的船上的武器。它在船的下一个回合结束前进行的下一次攻击卷中获得优势。"
 							]
 						}
 					]
@@ -12439,82 +10730,6 @@
 			]
 		},
 		{
-			"name": "Sidekicks",
-			"source": "UASidekicks",
-			"page": 1,
-			"type": "section",
-			"entries": [
-				"本文为你提供了一个直接的方法来玩弄龙与地下城中的副手并提高其等级。这里介绍的规则采用了一个挑战等级较低的生物，并在你获得等级时给予它等级。",
-				"在你的冒险中，你有时会遇到一个镇民、一只动物或另一种生物，并与他们建立起一种特殊的关系。那个生物甚至可能加入你的冒险，这通常会引发这样的问题：当你获得等级时，这个跟班如何变得更好？随着你变得更加强大，你所面对的敌人很可能变得对{@creature guard}维拉、{@creature mastiff}饼干或你在冒险生涯早期结识的另一个伙伴来说太危险了。这篇文章回答了这个问题，给你的伙伴提供了一条清晰的晋升之路。",
-				{
-					"type": "section",
-					"name": "Sidekick Stats",
-					"entries": [
-						"在这些规则中，跟班是一种生物，是你的朋友，在冒险中陪伴着你。它本质上是你扮演的第二个角色。(DM可能会决定用它来代替，或者你可以和桌子上的其他玩家共同扮演它)。",
-						"跟班可以是任何类型的生物，在《怪物手册》或其他D&D书籍中都有统计块，但它必须满足这些先决条件。",
-						{
-							"type": "list",
-							"items": [
-								"Its challenge rating must be {@filter 1 or lower|bestiary|challenge rating=[&0;&1]|miscellaneous=!swarm}. To gain the {@class expert sidekick|UASidekicks|expert} or {@class spellcaster sidekick|UASidekicks|spellcaster} class, the creature must have {@filter at least one language in its stat block that it can speak|bestiary|challenge rating=[&0;&1]|miscellaneous=!swarm|languages=ab;aq;au;c;ce;!cs;d;dr;ds;du;e;g;gi;go;gth;h;i;ig;o;oth;p;s;t;tc;tp;u;x;xx}.",
-								"你们两个人必须是朋友。"
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Customization for Any CR",
-							"entries": [
-								"地下城管理员指南》提供了关于定制怪物的指导，包括给它一个等级。这种方法适用于游戏中的任何怪物，但它可能很复杂，因为它需要重新计算怪物的挑战等级。本文中关于小弟的方法主要是给一个低等级的生物提供等级，而不需要重新计算它的CR。"
-							]
-						}
-					]
-				},
-				{
-					"type": "section",
-					"name": "Gaining a Sidekick Class",
-					"entries": [
-						"当你的副手加入你时，它就会获得一个副手等级。选择它在剩下的职业生涯中的等级。{@class warrior sidekick|uasidekicks|warrior}, {@class expert sidekick|uasidekicks|expert}, 或 {@class spellcaster sidekick|uasidekicks|spellcaster}。它们让人联想到玩家角色可用的等级，但更简单。",
-						"要获得专家或施法者等级，一个生物必须在其属性块中至少有一种它能说的语言。",
-						{
-							"type": "entries",
-							"name": "Leveling Up a Sidekick",
-							"entries": [
-								"每当你获得一个等级，你的小伙伴也会获得一个等级。跟班经历了多少你最近的冒险并不重要；跟班的等级提高是由于它与你分享的冒险和它自己的训练相结合。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Hit Points",
-							"entries": [
-								"每当小跟班获得一个等级，它就会获得一个命中率，其最大命中率也会增加。要确定增加的数量，请掷出命中率骰子（骰子的类型出现在小跟班的状态块中），并加上它的体质修正值。它每级至少获得1点命中率。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Proficiency Bonus",
-							"entries": [
-								"一旦你的同伴拥有一个副手等级，副手的熟练度加成就由其在该等级中的等级决定，如该等级的表格所示。每当小跟班的熟练度加成增加1时，其状态块中所有攻击的命中率都要加1，其状态块中的DC也要增加1。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Ability Score Increases",
-							"entries": [
-								"每当小跟班获得能力分值提升类特性时，记得要调整其属性块中任何依赖于你用该特性增加的能力修改器的东西。例如，如果小跟班有一个使用力量的攻击，如果小跟班的力量修饰值增加，则增加该攻击的命中和伤害修饰值。",
-								"如果不清楚状态块中的近战攻击是使用力量还是灵巧，则该攻击可以使用其中之一。"
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Multiattack vs. Extra Attack",
-							"entries": [
-								"你的跟班可能在其状态块中有多重攻击的动作。如果它有，并且获得了额外攻击的等级特征，请记住额外攻击是与{@action Attack}动作一起使用的，而不是与多重攻击动作一起使用。简而言之，你不能在多重攻击中使用额外攻击。"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Simultaneous Effects",
 			"source": "XGE",
 			"page": 77,
@@ -12641,7 +10856,7 @@
 			"page": 137,
 			"ruleType": "O",
 			"entries": [
-				"Within the {@book Cloudtop District|TDCSR|3|Cloudtop District} lies the {@book Skyport|TDCSR|3|8. Emon Skyport}, a series of landing pads and observation towers that form a raised harbor for docking {@item skyship|TDCSR|skyships}. These beautiful vessels come in a wide variety of sizes, but generally are built to a similar scale as a coaster merchant ship. {@item skyship|TDCSR|Skyships} are held aloft and guided via the levitating power of three or more enchanted crystals, called brumestones, installed along the hull or topside of the ship. The enchantments required to produce and maintain these brumestones is a closely guarded secret by the Alsfarin Union within the Marquesian city of {@book Ank'Harel|TDCSR|3|Marquet}, and while the Alsfarin Union does occasionally sell {@item skyship|TDCSR|skyships} to foreign businesses, they retain absolute control over their maintenance\u2014and of the total number of {@item skyship|TDCSR|skyships} in operation.",
+				"Within the {@book Cloudtop District|TDCSR|3|Cloudtop District} lies the {@book Skyport|TDCSR|3|8. Emon Skyport}, a series of landing pads and observation towers that form a raised harbor for docking {@item skyship|TDCSR|skyships}. These beautiful vessels come in a wide variety of sizes, but generally are built to a similar scale as a coaster merchant ship. {@item skyship|TDCSR|Skyships} are held aloft and guided via the levitating power of three or more enchanted crystals, called brumestones, installed along the hull or topside of the ship. The enchantments required to produce and maintain these brumestones is a closely guarded secret by the Alsfarin Union within the Marquesian city of {@book Ank'Harel|TDCSR|3|Marquet}, and while the Alsfarin Union does occasionally sell {@item skyship|TDCSR|skyships} to foreign businesses, they retain absolute control over their maintenance—and of the total number of {@item skyship|TDCSR|skyships} in operation.",
 				"{@item skyship|TDCSR|Skyships} are generally reserved for goods and individuals who require expedient travel without the hassles of sea-faring dangers, but the cost to utilize a {@item skyship|TDCSR} is prohibitively expensive for anyone but wildly wealthy merchants and landed nobility, fomenting a sense of elitism in those who often make use of their services. Due to the exclusivity of skyports within major metropolises, few {@item skyship|TDCSR|skyships} in service will deviate from dedicated shipping routes between major cities.",
 				"Purchasing a {@item skyship|TDCSR} costs 100,000 gp, and requires a personal connection with the Alsfarin Union in {@book Ank'Harel|TDCSR|3|Marquet}. A {@item skyship|TDCSR} travels at a top speed of 10 miles per hour, can carry total cargo of 10 tons, and requires a crew of six to ten humanoids to operate at peak performance. Most {@item skyship|TDCSR|skyships} have maximum accommodations for up to 30 passengers. Most {@item skyship|TDCSR|skyships} only travel between existing skyports (see \"{@book Emon Skyport|TDCSR|3|8. Emon Skyport},\" below), and charge a fee of 2 gp per mile for a passenger ticket. Chartering a {@item skyship|TDCSR} to a destination off the standard sky routes costs 15 gp per mile, if the captain is available and willing to undertake the journey. Shipping cargo costs 1 gp per mile per 100 pounds of cargo along normal sky routes, and twice that to other destinations.",
 				{
@@ -12936,7 +11151,7 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "variantrules/001.png"
+												"path": "book/XGE/001.webp"
 											}
 										}
 									]
@@ -12959,14 +11174,14 @@
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "variantrules/002.png"
+												"path": "book/XGE/002.webp"
 											}
 										},
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
-												"path": "variantrules/003.png"
+												"path": "book/XGE/003.webp"
 											}
 										}
 									]
@@ -13147,7 +11362,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "variantrules/VRGR/111-04-007.for-survivors.png"
+										"path": "variantrules/VRGR/111-04-007.for-survivors.webp"
 									},
 									"title": "For survivors, any foe might become the focus of its own horror adventure",
 									"width": 850,
@@ -13240,7 +11455,7 @@
 									"type": "image",
 									"href": {
 										"type": "internal",
-										"path": "variantrules/VRGR/112-04-008.survivors.png"
+										"path": "variantrules/VRGR/112-04-008.survivors.webp"
 									},
 									"title": "Survivors are everyday people thrown into terrifying situations",
 									"width": 850,
@@ -13307,170 +11522,6 @@
 						"{@creature Sneak|HoL}",
 						"{@creature Disciple|HoL}",
 						"{@creature Squire|HoL}"
-					]
-				}
-			]
-		},
-		{
-			"name": "Swapping Racial Languages",
-			"source": "UAWGE",
-			"page": 40,
-			"ruleType": "O",
-			"entries": [
-				"这条可选的规则允许你用你的种族所授予的语言来交换一种不同的标准语言。你的管理员必须批准你选择的语言。这是一种反映一个与他们种族的文化没有联系的角色的方式。半身人是塔伦塔平原的语言；如果一个半身人是在莫罗港长大的，他们可以用矮人语代替半身人来反映这一点。"
-			]
-		},
-		{
-			"name": "Three-Pillar Experience",
-			"source": "UAThreePillarExperience",
-			"page": 1,
-			"type": "section",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Gaining Levels",
-					"entries": [
-						"在这个系统下，你每积累100XP就获得一个等级。当你跨过这个门槛并提高你的角色等级时，你就会把你当前的XP总数减少100。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dividing XP",
-					"entries": [
-						"在这个系统下，XP通常不在党员之间划分。一次冒险的奖励对所有党员都是一样的。如果打败一个怪物可以获得10个XP，那么党内的每个成员都可以获得10个XP。",
-						"不过，如果队伍特别大，人数上的安全概念使奖励更容易获得。如果一方有超过六名成员有资格获得XP（包括玩家角色和NPC），则所有经验奖励减半。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Earning Experience Points",
-					"entries": [
-						"你通过代表冒险三大支柱的活动获得经验值：探索、社会互动和战斗。每种类型的游戏都以不同的方式奖励XP。",
-						{
-							"type": "entries",
-							"name": "Exploration",
-							"entries": [
-								"你可以通过找回丢失的魔法物品、认领隐藏的宝藏以及探索被遗弃的地点或权力场所来获得XP。你的角色可以通过从龙的囤积物中找回强大的武器，从邪恶的男爵那里偷取钻石，或者揭开失落的邪恶神殿的位置来获得经验值。",
-								"一个地点或物品的价值与你的等级相比决定了它的XP值。找到一个宝藏或探索一个适合你等级的地点，可以获得10个XP，再加上比你目前等级高的每一个等级的额外10个XP。低于你的等级的探索不会获得XP。",
-								{
-									"type": "entries",
-									"name": "Items",
-									"entries": [
-										"有价值的宝物和魔法物品被分配到以下等级。",
-										{
-											"type": "list",
-											"style": "list-hang",
-											"items": [
-												{
-													"type": "item",
-													"name": "Tier 1:",
-													"entry": "价值100gp或以上的单件物品，或不可消耗的稀有魔法物品"
-												},
-												{
-													"type": "item",
-													"name": "Tier 2:",
-													"entry": "价值1,000金币或以上的单件物品，或不可消耗的非常稀有的魔法物品"
-												},
-												{
-													"type": "item",
-													"name": "Tier 3:",
-													"entry": "价值5000金币或以上的单一物品，或不可消耗的传奇性魔法物品"
-												},
-												{
-													"type": "item",
-													"name": "Tier 4:",
-													"entry": "价值50,000金币或以上的单件物品，或一件工艺品"
-												}
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Locations",
-									"entries": [
-										"被遗忘的地点和权力场所并不是按照任何硬性规定来划分等级的。相反，一个地点的等级取决于它在你的活动中的重要性。你可以通过这种行动的影响范围来衡量发现一个失落的地点，或者将一个地方从一个恶棍或怪物的魔掌中解放出来。",
-										{
-											"type": "list",
-											"style": "list-hang",
-											"items": [
-												{
-													"type": "item",
-													"name": "Tier 1:",
-													"entry": "对一个小城镇或村庄来说很重要的一个地点"
-												},
-												{
-													"type": "item",
-													"name": "Tier 2:",
-													"entry": "对一个王国至关重要的地点"
-												},
-												{
-													"type": "item",
-													"name": "Tier 3:",
-													"entry": "世界各地的重要地点"
-												},
-												{
-													"type": "item",
-													"name": "Tier 4:",
-													"entry": "一个具有宇宙意义的地点"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Social Interaction",
-							"entries": [
-								"你可以通过把重要的NPC变成盟友，让他们与你的事业结盟，或者拒绝他们成为你敌人的资产来获得经验值。当你这样做时，你获得的XP是基于NPC的力量和影响力。",
-								"左右一个适合你的等级的NPC，你会获得10个XP，再加上比你现在的等级每高一个等级的额外10个XP。你影响一个比你低一个等级的NPC，可以获得5个XP，但对于比你低一个等级的NPC，你不会获得XP。",
-								"NPC被分配到以下等级。",
-								{
-									"type": "list",
-									"style": "list-hang",
-									"items": [
-										{
-											"type": "item",
-											"name": "Tier 1:",
-											"entry": "对一个小城镇或村庄有影响力的NPC，或类似的人"
-										},
-										{
-											"type": "item",
-											"name": "Tier 2:",
-											"entry": "对一个城市有影响力的NPC或同等的人"
-										},
-										{
-											"type": "item",
-											"name": "Tier 3:",
-											"entry": "An NPC with influence over a kingdom, a continent, or the equivalent"
-										},
-										{
-											"type": "item",
-											"name": "Tier 4:",
-											"entry": "一个具有宇宙意义或对多个世界有影响的NPC（包括一个神祗）。"
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Combat",
-							"entries": [
-								"你在战斗中击败怪物可以获得XP，无论是杀死它们还是让它们处于不构成威胁的状态。例如，你可能会把一个恶魔逼回深渊，或者把一个不死的恐怖人物囚禁在一个密封的坟墓中。",
-								"你击败怪物获得的XP是通过比较怪物的挑战等级和你的等级来决定的。在大多数情况下，你每打败一个怪物就会获得5XP。如果怪物的挑战等级是你等级的两倍或更多，则奖励增加到15XP。如果它的挑战等级是你等级的一半或更低，则奖励降至2XP。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Focusing on Pillars",
-					"entries": [
-						"作为DM，如果你的活动只关注三个支柱中的一个或两个，你只需为这些支柱授予XP奖励。但是，如果你取消了任何支柱，你要确保给玩家很多机会，让他们在利用其他支柱的挑战中获得成功。另外，你也可以考虑增加你所使用的支柱的XP奖励。",
-						"将剩下的两个支柱的奖励增加50%，是说明失去一个支柱的好办法。如果你只使用一个支柱，可以考虑将其奖励增加三倍。"
 					]
 				}
 			]
@@ -15245,10 +13296,11 @@
 							"type": "image",
 							"href": {
 								"type": "internal",
-								"path": "variantrules/GoS/095-za-05-travel-at-sea-p199.png"
+								"path": "variantrules/GoS/095-za-05-travel-at-sea-p199.webp"
 							},
 							"width": 772,
-							"height": 1000
+							"height": 1000,
+							"credit": "Wayne England"
 						},
 						"船员和乘客可以参加的活动与陆路旅行的团队可以选择的活动有些不同。请参考《{@book Player's Handbook|PHB}》第8章中的\"{@book Activity While Traveling|PHB|8|Activity While Traveling}\"，了解下面讨论的一些主题的更多信息。",
 						"一些活动只限于某些官员，除非DM另有规定。例如，DM可能会允许一个吟游诗人在甲板上演奏放荡不羁的歌曲来提高船员的精神，从而参与提高士气的活动。",
@@ -15338,23 +13390,23 @@
 									],
 									"rows": [
 										[
-											"1\u20133",
+											"1–3",
 											"船员冲突"
 										],
 										[
-											"4\u20136",
+											"4–6",
 											"Fire"
 										],
 										[
-											"7\u20139",
+											"7–9",
 											"Fog"
 										],
 										[
-											"10\u201312",
+											"10–12",
 											"虫害"
 										],
 										[
-											"13\u201320",
+											"13–20",
 											"风暴"
 										]
 									]
@@ -15372,15 +13424,15 @@
 									],
 									"rows": [
 										[
-											"1\u20139",
+											"1–9",
 											"10"
 										],
 										[
-											"10\u201317",
+											"10–17",
 											"15"
 										],
 										[
-											"18\u201319",
+											"18–19",
 											"20"
 										],
 										[
@@ -15880,222 +13932,6 @@
 			]
 		},
 		{
-			"name": "Travel at Sea",
-			"source": "UAOfShipsAndSea",
-			"page": 6,
-			"type": "section",
-			"entries": [
-				"这里有帮助裁决海上旅行的规则，特别是一小时以上的旅行。这个材料是建立在{@book Player's Handbook|PHB|8|travel pace}和{@book Dungeon Master's Guide|DMG|8|Exploration}的旅行规则之上的。",
-				{
-					"type": "entries",
-					"name": "Travel Pace",
-					"entries": [
-						"船只以其状态块的速度行驶。与陆地旅行不同，玩家不能选择以更快的速度移动，尽管他们可以选择更慢的速度。",
-						"如果一艘船的运动模式受到损害，它可能会被减慢。速度每减少10英尺，船的步伐就减少1英里/小时和24英里/天。"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Activity While Traveling",
-					"entries": [
-						"船员和乘客可以参加的活动与陆路旅行的团队可以选择的活动有些不同。请参考《{@book Player's Handbook|PHB}》第8章中的\"{@book Activity While Traveling|PHB|8|Activity While Traveling}\"，了解下面讨论的一些主题的更多信息。",
-						"一些活动只限于某些官员，除非DM另有规定。例如，一个吟游诗人可能被允许从事提高士气的活动，在甲板上演奏放荡不羁的歌曲，以提高船员的精神。",
-						"党的步伐对他们在乘船旅行时可以从事的活动没有影响。",
-						{
-							"type": "entries",
-							"name": "Draw a Map",
-							"entries": [
-								"船长经常进行这项活动，制作一张地图，记录船只的进展，并在船员迷路时帮助他们回到航线上。不需要检查能力。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Forage",
-							"entries": [
-								"The character casts out fishing lines, keeping an eye out for sources of food, making a Wisdom ({@skill Survival}) check when the DM calls for it."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Raise Morale (First Mate Only)",
-							"entries": [
-								"The first mate can manage the crew's time to grant extended breaks, provide instruction, and improve morale. Once per day, if the crew's quality score is 3 or lower, the first mate can make a DC 15 Charisma ({@skill Persuasion}) check. On a successful check, the crew's quality score increases by 1."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Navigate (Quartermaster Only)",
-							"entries": [
-								"The quartermaster can try to prevent the group from becoming lost, making a Wisdom ({@skill Survival}) check when the DM calls for it. (See \"{@book Becoming Lost|dmg|5|becoming lost}\" in chapter 5 of the Dungeon Master's Guide for more information.)"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Noticing Threats",
-							"entries": [
-								"使用人物或船员的被动智慧（{@skill Perception}）得分来确定船上是否有人注意到隐藏的威胁。船员的被动智慧（{@skill Perception}）得分等于10+船员的质量得分。DM可能会决定，只有船上某个特定区域的角色才能注意到威胁。例如，只有甲板下的人物才有机会听到或发现躲在船上的生物。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Repair (Bosun Only)",
-							"entries": [
-								"船上的水手长可以进行这项活动。在一天结束时，水手长可以用{@item carpenter's tools|PHB}进行一次力量检查。在15分或更高的分数上，每个受损的部件都能恢复相当于{@dice 1d6}+船员质量分数的命中率（最低为1个命中率）。除船体外的其他部件，如果命中率为0，则可重新发挥作用。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Stealth (Captain Only)",
-							"entries": [
-								"只有在天气条件限制了能见度的情况下，例如在大雾中，船长才能从事这项活动。船只进行灵巧检查，其奖励等于船员的质量得分，以确定它是否可以隐藏。"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Hazards",
-					"entries": [
-						"危害有两种基本类型：环境危害，如风暴或湍流，以及其他事件，如船上的火灾或瘟疫爆发。",
-						{
-							"type": "entries",
-							"name": "Environmental Hazards",
-							"entries": [
-								"冰山扼住了缥缈的大海。风和高耸的海浪威胁着一艘船的倾覆。暴风雪袭击了在一年中太晚才向北冒险的船只。这些都是环境危险的例子，可以持续数天，需要船员的关注。",
-								"船只在危险中度过的每一天，都需要军官们各自进行一次特殊的能力检查，如危险检查表所示。这个检查代替了军官可能进行的任何其他活动，并代表了军官对保持船只漂浮的贡献。",
-								{
-									"type": "table",
-									"caption": "Hazard Checks",
-									"colLabels": [
-										"Officer",
-										"Check"
-									],
-									"colStyles": [
-										"col-4",
-										"col-8"
-									],
-									"rows": [
-										[
-											"舰长",
-											"情报(水上交通工具)"
-										],
-										[
-											"大副",
-											"伴侣魅力({@skill Intimidation})"
-										],
-										[
-											"水手长",
-											"强度({@item carpenter's tools|PHB})"
-										],
-										[
-											"军需官",
-											"智慧({@skill Nature})"
-										],
-										[
-											"外科医生",
-											"智力({@skill Medicine})"
-										],
-										[
-											"Cook",
-											"宪法({@item cook's utensils|PHB})"
-										]
-									]
-								},
-								"如果没有人可以进行检查，将结果视为0。",
-								"最后，为船员掷出一个{@dice d20}，用它的质量得分作为掷出的修正值。把所有这些检查加起来，然后参考危险检查结果表。该表显示了该船在那一天的危险中是遇到了灾难还是成功地活了下来。",
-								{
-									"type": "table",
-									"caption": "Hazard Check Results",
-									"colLabels": [
-										"Check Total",
-										"Result"
-									],
-									"colStyles": [
-										"col-2 text-center",
-										"col-10"
-									],
-									"rows": [
-										[
-											"140+",
-											"{@b Great Success.}船员的质量得分增加1，持续{@dice 1d4}天。"
-										],
-										[
-											"105\u2013139",
-											"{@b Success.}该船毫发无损。"
-										],
-										[
-											"70\u2013104",
-											"{@b Partial Disaster.}每个部件受到{@dice 4d10}的重击伤害。船员的质量得分减少1。船在挣扎，当天以半速前进。"
-										],
-										[
-											"0\u201369",
-											"{@b Disaster.}船上的部件分别受到{@dice 10d10}的重击伤害。船员的质量得分下降了2分，因为有几个船员被冲到了海里，失去了踪影。船只被吹离航线，并努力恢复其方位，当天未能完成任何距离。"
-										]
-									]
-								},
-								"如果你想增加危险的多样性，可以考虑包括一些有趣的复杂情况。例如，一个漩涡可能会在灾难结果中把一艘船拖到水元素界，而在任何其他结果中，这艘船都会避开这个漩涡。",
-								"你也可以在危险检查结果表中增加或减少成功阈值，以反映危险的危险性。如果你决定这样做，就用35增加或减少一个阈值。"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Other Events",
-							"entries": [
-								"除了波涛汹涌的海面和令人生畏的天气，船舶还可能面临其他一些威胁。",
-								"下面的危险是船舶上可能出错的例子。每一个危险都需要不同的官员用一天的时间来处理这个危险，而不是从事其他活动。作为一个经验法则，每天有{@chance 10|10 percent}的机会发生下列事件之一。",
-								{
-									"type": "entries",
-									"name": "Emergency Maneuvers",
-									"entries": [
-										"船员们必须迅速做出反应，以避免突然的威胁。一条海怪从船的下方经过，威胁着要把船弄翻，或者船要撞上一个未知的礁石。船长必须进行DC15智力（水上交通工具）检查。如果检定失败，船体会因碰撞而受到{@dice 8d10}的重击伤害。检查成功时，船长的快速指挥使船体不受伤害。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Conflict",
-									"entries": [
-										"Life at sea is a mixture of monotony, hard work, and sudden moments of terror. The stress can wear on the stoutest sailor. Sometimes, that stress turns into conflict among the crew. If dissension spreads in the ranks, the first mate's activity that day must be spent making a DC 15 Charisma ({@skill Intimidation}) check to control the crew. On a failed check, the crew's quality score decreases by {@dice 1d4}."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Fire",
-									"entries": [
-										"海上起火会使船只无法运行。随机挑选一个部件。它将受到{@dice 4d10}的火灾伤害，除非水手长成功地进行DC15力量({@item carpenter's tools|PHB})检查。"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Plague",
-									"entries": [
-										"An illness sweeps through the ranks, perhaps caused by rats or insects that made their way aboard. The surgeon must make a DC 15 Wisdom ({@skill Medicine}) check. On a failed check, the crew's quality score decreases by 5 for {@dice 1d6} days."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Infestation",
-									"entries": [
-										"甲虫、老鼠或其他害虫在船上出没，威胁着船上的食物储存。厨师必须进行DC15宪法({@item brewer's supplies|PHB})检查以保存他们所能得到的食物。如果检查失败，船员在涉及其质量得分的任何检查中都处于劣势，直到船有机会重新补充物资。"
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Two-Handed Arcane Focuses",
-			"source": "UAWGE",
-			"page": 114,
-			"ruleType": "O",
-			"entries": [
-				"在Eberron，奥术焦点是一种武器。因此，给一个焦点赋予一些与世俗武器相同的权衡是很有趣的：你要牺牲你的自由手来换取更大的力量吗？",
-				"如果你使用这个可选的规则，当施法者使用双手奥术集中施放攻击性咒语（需要蓄力或攻击卷的咒语）时，咒语的范围会增加50%。",
-				"根据这一规则，法杖总是需要两只手，而棒子可以用一只手或两只手。使用双手的奥术焦点可以满足一个法术的身体成分要求。"
-			]
-		},
-		{
 			"name": "Tying Knots",
 			"source": "XGE",
 			"page": 78,
@@ -16108,165 +13944,12 @@
 			]
 		},
 		{
-			"name": "Vitality",
-			"source": "UAVariantRules",
-			"page": 1,
-			"ruleType": "V",
-			"type": "section",
-			"entries": [
-				"有些管理员觉得命中率很麻烦。一个战士可以在{@spell fireball}、巨魔的撕裂之爪和一百英尺的高空坠落中存活下来，但却因为哥布林的匕首砍击而摔成一堆烂泥。这条可选的规则更真实地反映了一个角色从伤口中遭受的磨损和撕裂。",
-				"每个角色除了命中率外，还有一个生命力池。一个角色的最大生命力等于该角色的体质得分。每当一个角色从攻击或效果中受到10或更多的伤害时，该角色就会失去生命力。将伤害除以10，然后向下取整。其结果就是一个角色失去的生命力有多少。换句话说，一个角色每受到10点攻击或效果的伤害就会失去1个生命力。",
-				"如果一个角色遭受关键一击，损失的生命力加倍，因此该角色每受到10点伤害就会损失2个生命力。如果关键一击造成的伤害小于10，它仍然会减少1的生命力。",
-				"失去生命力会导致一个角色的最大命中率下降。用生命力而不是体质来计算人物当前的最大限度。因此，随着生命力的下降，一个角色用于确定命中率的体质修正值也会下降。",
-				"A character reduced to 0 vitality is immediately reduced to 0 hit points. If a character is reduced to 0 hit points but his or her vitality remains above 0, any additional damage is applied instead to the character's vitality. A character is not {@condition unconscious} until both hit points and vitality reach 0.",
-				"完成长时间的休息会使角色的生命力增加1+角色的体质修正值，最多可增加角色的最大生命力。恢复击中点的效果对生命力没有影响。然而，一个拥有最大命中率的角色在接受治疗时，每10点治疗可以恢复1点生命力。"
-			]
-		},
-		{
 			"name": "Wands That Don't Recharge",
 			"source": "DMG",
 			"page": 141,
 			"ruleType": "V",
 			"entries": [
 				"一个典型的魔杖有可消耗的电荷。如果你想让魔杖成为一种有限的资源，你可以让它们中的一些不能重新获得电荷。可以考虑增加这种魔杖的基本电荷数，最多为25个电荷。这些电荷一旦用完就不会再恢复了。"
-			]
-		},
-		{
-			"name": "Wild Shape Forms",
-			"source": "UADruid",
-			"page": 3,
-			"ruleType": "O",
-			"type": "section",
-			"entries": [
-				"{@book Player's Handbook|PHB}中的{@classFeature Wild Shape|Druid||2}功能可以让你变身为你以前见过的野兽。这条规则给了你极大的灵活性，使你很容易为自己积累大量的野兽形态选择，前提是你要遵守该书中的野兽形状表的限制。",
-				"这里介绍的可选规则是为那些想用一些灵活性来换取使用方便的玩家和管理员设计的。这里的规则也为学习新的野兽形状创造了一个明确的世界内方法。",
-				{
-					"name": "Known Beast Shapes",
-					"type": "entries",
-					"entries": [
-						"当你在2级获得{@classFeature Wild Shape|Druid||2}功能时，你对你选择的三只野兽非常熟悉，并能转化为它们。",
-						"要选择这三种野兽形状，你首先需要确定你的德鲁伊是在温带还是热带地区长大的，并咨询你的DM。然后参考与你选择的地区相对应的常见野兽形状表。该表根据你的德鲁伊等级，列出了你可以选择的野兽。该表列出了德鲁伊最有可能在新手时见到的、通过神秘研究了解的、或与之有特殊亲和力的动物。",
-						"以后你每获得一个德鲁伊等级，你就可以从你2级时使用的同一张表中再选择一个野兽形状。",
-						{
-							"type": "table",
-							"caption": "Common Beast Shapes\u2014Temperate",
-							"colLabels": [
-								"Druid Level Prerequisite",
-								"Beasts"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"2nd",
-									"獾，野猪，猫，鹿，草马，麋鹿，山羊，豺狼，蜥蜴，藏獒，骡子，豹子，小马，老鼠，骑马，蝎子，蜘蛛，黄鼠狼，狼"
-								],
-								[
-									"4th",
-									"黑熊、*螃蟹、青蛙、章鱼、毒蛇、礁鲨、海马、战马*。"
-								],
-								[
-									"8th",
-									"蝙蝠，棕熊，* 鹰，鹰，猫头鹰，乌鸦，秃鹫"
-								]
-							],
-							"footnotes": [
-								"* A member of the Circle of the Moon can choose this beast at 2nd level."
-							]
-						},
-						{
-							"type": "table",
-							"caption": "Common Beast Shapes\u2014Tropical",
-							"colLabels": [
-								"Druid Level Prerequisite",
-								"Beasts"
-							],
-							"colStyles": [
-								"col-2 text-center",
-								"col-10"
-							],
-							"rows": [
-								[
-									"2nd",
-									"狒狒，獾，野猪，骆驼，猫，鹿，草泥马，山羊，鬣狗，豺狼，蜥蜴，骡子，豹，小马，老鼠，骑马，蝎子，蜘蛛，黄鼠狼"
-								],
-								[
-									"4th",
-									"猿猴、*螃蟹、鳄鱼、缢蛇、青蛙、章鱼、毒蛇、礁鲨、海马、战马*。"
-								],
-								[
-									"8th",
-									"蝙蝠，老鹰，鹰，狮子，*猫头鹰，乌鸦，老虎，*秃鹰"
-								]
-							],
-							"footnotes": [
-								"* A member of the Circle of the Moon can choose this beast at 2nd level."
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Starting Beast Shapes",
-							"source": "UADruid",
-							"page": 4,
-							"entries": [
-								"要在2级时迅速开始使用 \"野性之形\"，请选择下列起始套装之一，每个套装都能为你提供战斗、攀爬、隐身和作为坐骑的选择。",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Temperate:",
-											"entry": "猫、麋鹿、狼"
-										},
-										{
-											"type": "item",
-											"name": "Tropical:",
-											"entry": "豹子，骑马，蜘蛛"
-										},
-										{
-											"type": "item",
-											"name": "Temperate (Circle of the Moon):",
-											"entry": "棕熊、猫、战马"
-										},
-										{
-											"type": "item",
-											"name": "Tropical (Circle of the Moon):",
-											"entry": "猿猴、老虎、战马"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"name": "Gaining Extra Beast Shapes",
-					"type": "entries",
-					"entries": [
-						"除了你升级时免费获得的野兽形状外，你还可以在冒险中获得新的形状。你是否看到一只恐龙、一只剑齿虎、一只巨鹰，或者其他一些你想变成的异国动物？这条规则给了你一个学习如何做到这一点的方法。它要求你遵守{@classFeature Wild Shape|Druid||2}功能中的限制（见{@book Player's Handbook|PHB}中的野兽形状表，第66页）。",
-						"当你看到一个你想学习的野兽的形状时，你有两个选择。",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Observation",
-									"entry": "You learn the beast's shape after observing its behavior for at least 1 hour and succeeding on an Intelligence ({@skill Nature}) check with a DC equal to 10 + the beast's challenge rating. For this observation period, your vantage point\u2014whether physical or magical\u2014must be within 150 feet of the beast. If you previously spent at least 1 hour reading a scholarly work about the creature, you have advantage on the check."
-								},
-								{
-									"type": "item",
-									"name": "Interaction",
-									"entry": "You learn the beast's shape after interacting with it peacefully for 10 minutes  and succeeding on a Wisdom ({@skill Animal Handling}) check with a DC equal to 10 + the beast's challenge rating. For this interaction period, you must be within 15 feet of the beast, and if you spend at least a minute petting it, you have advantage on the check."
-								}
-							]
-						},
-						"Either of these options can be assisted by magic. For example, divination magic can be used to provide safe observation of a dangerous animal, and a spell like {@spell animal friendship} can lay the groundwork for peaceful interaction."
-					]
-				}
 			]
 		}
 	]

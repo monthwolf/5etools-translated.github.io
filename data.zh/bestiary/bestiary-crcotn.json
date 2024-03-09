@@ -426,6 +426,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Alyxian casts one of the following spells, requiring no material components and using Charisma as the spellcasting modifier (spell save {@dc 17}):"
 					],
@@ -1031,9 +1032,6 @@
 					]
 				}
 			],
-			"attachedItems": [
-				"ruidium dart|crcotn"
-			],
 			"traitTags": [
 				"Immutable Form",
 				"Magic Resistance",
@@ -1277,7 +1275,7 @@
 				{
 					"name": "Keen Sight and Smell",
 					"entries": [
-						"雕像在依靠视觉或嗅觉的智慧（感知）检查方面具有优势。"
+						"The statue has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
 					]
 				},
 				{
@@ -1339,10 +1337,12 @@
 			"_copy": {
 				"name": "Occult Silvertongue",
 				"source": "CRCotN",
-				"_trait": {
-					"name": "Goliath",
-					"source": "VGM"
-				},
+				"_templates": [
+					{
+						"name": "Goliath",
+						"source": "VGM"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -1468,6 +1468,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Ayo casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 11}):"
 					],
@@ -1611,6 +1612,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Ayo casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -1765,6 +1767,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Ayo casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -2295,6 +2298,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Dermot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -2433,6 +2437,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Dermot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -2577,6 +2582,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Dermot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 16}):"
 					],
@@ -2602,7 +2608,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"德莫特穿着水手盔甲，挥舞着一把鲁伊德姆战锤（见附录B）。如果德莫特在使用战锤的攻击卷上掷出1，他必须在一个{@dc 20}的魅力救赎上成功，或者获得1级的{@condition exhaustion}。"
+						"Dermot wears {@item mariner's armor} and wields a ruidium warhammer (see appendix B). If Dermot rolls a 1 on an attack roll made with the warhammer, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}."
 					]
 				}
 			],
@@ -2700,10 +2706,12 @@
 			"_copy": {
 				"name": "Priest",
 				"source": "MM",
-				"_trait": {
-					"name": "Firbolg",
-					"source": "VGM"
-				},
+				"_templates": [
+					{
+						"name": "Firbolg",
+						"source": "VGM"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -2788,6 +2796,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The extollant casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -2926,6 +2935,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Galsariad casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -3063,6 +3073,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Galsariad casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -3216,6 +3227,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Galsariad casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}):"
 					],
@@ -3251,7 +3263,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Galsariad戴着游泳圈，携带一把Ruidium匕首（见附录B）。如果他在使用匕首的攻击卷上掷出1，他必须在一个{@dc 20}的魅力救赎上成功，或者获得1级的{@condition exhaustion}。"
+						"Galsariad wears a {@item ring of swimming} and carries a ruidium dagger (see appendix B). If he rolls a 1 on an attack roll made with the dagger, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}."
 					]
 				}
 			],
@@ -3349,10 +3361,12 @@
 			"_copy": {
 				"name": "Scholarly Mastermind",
 				"source": "CRCotN",
-				"_trait": {
-					"name": "Goblin",
-					"source": "DMG"
-				},
+				"_templates": [
+					{
+						"name": "Goblin",
+						"source": "DMG"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -3438,8 +3452,9 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
-						"Insight casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"{@skill Insight} casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
 					"will": [
 						"{@spell alter self}",
@@ -3461,7 +3476,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"洞察力进行两次奥术冲击或毒心匕首的攻击。"
+						"{@skill Insight} makes two Arcane Shock or Dagger of the Poisoned Mind attacks."
 					]
 				},
 				{
@@ -3796,7 +3811,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"艾文戴着游泳和攀岩手套，并挥舞着一把瑞德姆短剑（见附录B）。如果艾文在使用短剑的攻击卷上掷出1，他必须在一个{@dc 20}的魅力救赎上成功，或者获得1级的{@condition exhaustion}。",
+						"Irvan wears {@item gloves of swimming and climbing} and wields a ruidium shortsword (see appendix B). If Irvan rolls a 1 on an attack roll made with the shortsword, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}.",
 						"此外，欧文还有一个神奇的假肢。当手臂与他相连时，它的功能与它所替代的身体部分相同。艾文可以把手臂作为一个动作来安装或拆卸，而且其他人也不能把它拆下来。"
 					]
 				}
@@ -3934,10 +3949,12 @@
 			"_copy": {
 				"name": "Assassin",
 				"source": "MM",
-				"_trait": {
-					"name": "Tiefling",
-					"source": "PHB"
-				},
+				"_templates": [
+					{
+						"name": "Tiefling",
+						"source": "PHB"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -4022,6 +4039,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The fanatic has the following cleric spells prepared:"
 					],
@@ -4062,7 +4080,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"劳林挥舞着加法器的法杖，并与之相适应，就像他是个牧师一样。"
+						"Laurin wields a {@item staff of the adder} and is attuned to it as though he were a cleric."
 					]
 				}
 			],
@@ -4721,6 +4739,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The high curator casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
 					],
@@ -4854,6 +4873,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The infiltrator casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -5144,6 +5164,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The extollant casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -5259,6 +5280,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The initiate casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
 					],
@@ -5381,6 +5403,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The silvertongue casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
 					],
@@ -5531,7 +5554,7 @@
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"侦察员在依靠听觉或视觉的智慧（感知）检查中具有优势。"
+						"The scout has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
 					]
 				}
 			],
@@ -5615,10 +5638,12 @@
 			"_copy": {
 				"name": "Scholarly Agent",
 				"source": "CRCotN",
-				"_trait": {
-					"name": "Tiefling",
-					"source": "PHB"
-				},
+				"_templates": [
+					{
+						"name": "Tiefling",
+						"source": "PHB"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -5780,6 +5805,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"代理人使用智力作为施法能力，施展以下一种法术。"
 					],
@@ -5977,6 +6003,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"The mastermind casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
 					],
@@ -6064,10 +6091,12 @@
 			"_copy": {
 				"name": "Scholarly Agent",
 				"source": "CRCotN",
-				"_trait": {
-					"name": "Kenku",
-					"source": "VGM"
-				},
+				"_templates": [
+					{
+						"name": "Kenku",
+						"source": "VGM"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -6229,6 +6258,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Shira casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 10}, {@hit 2} to hit with spell attacks):"
 					],
@@ -6696,6 +6726,7 @@
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries": [
 						"Verin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
 					],
@@ -6723,7 +6754,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"在阳光下时，维林在攻击卷轴以及依靠视觉的智慧（感知）检查上有劣势。"
+						"While in sunlight, Verin has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -6821,10 +6852,12 @@
 			"_copy": {
 				"name": "Scholarly Excavator",
 				"source": "CRCotN",
-				"_trait": {
-					"name": "Goliath",
-					"source": "VGM"
-				},
+				"_templates": [
+					{
+						"name": "Goliath",
+						"source": "VGM"
+					}
+				],
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",

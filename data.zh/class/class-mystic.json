@@ -230,19 +230,16 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Mystic|UATheMysticClass|4",
-				"Proficiency Versatility|Mystic|UATheMysticClass|4|UAClassFeatureVariants",
 				"Strength of Mind|Mystic|UATheMysticClass|4",
 				{
 					"classFeature": "Mystic Order feature|Mystic|UATheMysticClass|6",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Mystic|UATheMysticClass|8",
-				"Proficiency Versatility|Mystic|UATheMysticClass|8|UAClassFeatureVariants",
 				"Potent Psionics (1d8)|Mystic|UATheMysticClass|8",
 				"Consumptive Power|Mystic|UATheMysticClass|10",
 				"Psionic Mastery (1/Day)|Mystic|UATheMysticClass|11",
 				"Ability Score Improvement|Mystic|UATheMysticClass|12",
-				"Proficiency Versatility|Mystic|UATheMysticClass|12|UAClassFeatureVariants",
 				"Psionic Mastery (2/Day)|Mystic|UATheMysticClass|13",
 				{
 					"classFeature": "Mystic Order feature|Mystic|UATheMysticClass|14",
@@ -251,10 +248,8 @@
 				"Potent Psionics (2d8)|Mystic|UATheMysticClass|14",
 				"Psionic Mastery (3/Day)|Mystic|UATheMysticClass|15",
 				"Ability Score Improvement|Mystic|UATheMysticClass|16",
-				"Proficiency Versatility|Mystic|UATheMysticClass|16|UAClassFeatureVariants",
 				"Psionic Mastery (4/Day)|Mystic|UATheMysticClass|17",
 				"Ability Score Improvement|Mystic|UATheMysticClass|19",
-				"Proficiency Versatility|Mystic|UATheMysticClass|19|UAClassFeatureVariants",
 				"Psionic Body|Mystic|UATheMysticClass|20"
 			],
 			"subclassTitle": "Mystic Order",
@@ -664,7 +659,7 @@
 					"type": "entries",
 					"name": "Combining Psionic Effects",
 					"entries": [
-						"The effects of different psionic disciplines add together while the durations of the disciplines overlap. Likewise, different options from a psionic discipline combine if they are active at the same time. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect\u2014usually dependent on how many psi points were used to create the effect\u2014applies while the durations of the effects overlap.",
+						"The effects of different psionic disciplines add together while the durations of the disciplines overlap. Likewise, different options from a psionic discipline combine if they are active at the same time. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect—usually dependent on how many psi points were used to create the effect—applies while the durations of the effects overlap.",
 						"幻术和法术是独立的效果，因此它们的好处和坏处是重叠的。重现法术的幻术效果是这个规则的例外。"
 					]
 				}
@@ -716,20 +711,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Mystic",
-			"classSource": "UATheMysticClass",
-			"level": 4,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Strength of Mind",
 			"source": "UATheMysticClass",
 			"page": 1,
@@ -776,20 +757,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Mystic",
-			"classSource": "UATheMysticClass",
-			"level": 8,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Consumptive Power",
 			"source": "UATheMysticClass",
 			"page": 1,
@@ -824,20 +791,6 @@
 			"level": 12,
 			"entries": [
 				"当你达到4级时，以及在8级、12级、16级和19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。"
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Mystic",
-			"classSource": "UATheMysticClass",
-			"level": 12,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
 			]
 		},
 		{
@@ -896,20 +849,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Mystic",
-			"classSource": "UATheMysticClass",
-			"level": 16,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
-			]
-		},
-		{
 			"name": "Psionic Mastery (4/Day)",
 			"source": "UATheMysticClass",
 			"page": 1,
@@ -929,20 +868,6 @@
 			"level": 19,
 			"entries": [
 				"当你达到4级时，以及在8级、12级、16级和19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。"
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Mystic",
-			"classSource": "UATheMysticClass",
-			"level": 19,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"当你从你的等级中获得能力值提升功能时，你也可以在1级时用你的等级所提供的技能熟练度来替换你的一个技能熟练度（你所替换的熟练度不需要是来自该等级）。",
-				"这种变化代表着你的一项技能萎缩了，因为你专注于另一项技能。"
 			]
 		},
 		{
