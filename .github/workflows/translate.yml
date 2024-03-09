@@ -54,7 +54,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
       with:
-        ref: 'translations'
+        ref: 'main'
     - uses: actions/setup-python@v3
       with:
         python-version: '3.9'
@@ -88,17 +88,17 @@ jobs:
            git status
            git checkout HEAD .
            git pull --rebase --autostash
-           git push origin translations || true
+           git push origin main || true
            # Try again with a short delay in case it fails (conflicting pushes)
            sleep $((1 + $RANDOM % 10 * 10))
            git pull --rebase --autostash
-           git push origin translations || true
+           git push origin main || true
            #sleep $((1 + $RANDOM % 10 * 10))
            #git pull --rebase --autostash
-           #git push origin translations || true
+           #git push origin main || true
            #sleep $((1 + $RANDOM % 10 * 10))
            #git pull --rebase --autostash
-           #git push origin translations || true
+           #git push origin main || true
   deploy:
     needs: translate
     runs-on: ubuntu-latest
