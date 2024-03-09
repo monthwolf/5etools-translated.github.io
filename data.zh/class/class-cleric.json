@@ -1,0 +1,6063 @@
+{
+	"class": [
+		{
+			"name": "Cleric",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"history",
+								"insight",
+								"medicine",
+								"persuasion",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item mace|phb} or (b) a {@item warhammer|phb} (if proficient)",
+					"(a) {@item scale mail|phb}, (b) {@item leather armor|phb}, or (c) {@item chain mail|phb} (if proficient)",
+					"(a) a {@item light crossbow|phb} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item priest's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"A {@item shield|phb} and a {@item holy symbol|phb}"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"mace|phb"
+						],
+						"b": [
+							"warhammer|phb"
+						]
+					},
+					{
+						"a": [
+							"scale mail|phb"
+						],
+						"b": [
+							"leather armor|phb"
+						],
+						"c": [
+							"chain mail|phb"
+						]
+					},
+					{
+						"a": [
+							"light crossbow|phb",
+							"Crossbow Bolts (20)|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"priest's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							"shield|phb",
+							{
+								"equipmentType": "focusSpellcastingHoly"
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"{@item shield|phb|shields}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Cleric}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Cleric}",
+						"{@filter 2nd|spells|level=2|class=Cleric}",
+						"{@filter 3rd|spells|level=3|class=Cleric}",
+						"{@filter 4th|spells|level=4|class=Cleric}",
+						"{@filter 5th|spells|level=5|class=Cleric}",
+						"{@filter 6th|spells|level=6|class=Cleric}",
+						"{@filter 7th|spells|level=7|class=Cleric}",
+						"{@filter 8th|spells|level=8|class=Cleric}",
+						"{@filter 9th|spells|level=9|class=Cleric}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Spellcasting|Cleric||1",
+				{
+					"classFeature": "Divine Domain|Cleric||1",
+					"gainSubclassFeature": true
+				},
+				{
+					"classFeature": "Channel Divinity|Cleric||2",
+					"tableDisplayName": "Channel Divinity (1/rest)"
+				},
+				"Channel Divinity: Harness Divine Power|Cleric||2|TCE",
+				{
+					"classFeature": "Divine Domain feature|Cleric||2",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Cleric||4",
+				"Cantrip Versatility|Cleric||4|TCE",
+				"Destroy Undead (CR 1/2)|Cleric||5",
+				{
+					"classFeature": "Channel Divinity|Cleric||6",
+					"tableDisplayName": "Channel Divinity (2/rest)"
+				},
+				{
+					"classFeature": "Divine Domain feature|Cleric||6",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Cleric||8",
+				"Destroy Undead (CR 1)|Cleric||8",
+				{
+					"classFeature": "Divine Domain feature|Cleric||8",
+					"gainSubclassFeature": true
+				},
+				"Divine Intervention|Cleric||10",
+				"Destroy Undead (CR 2)|Cleric||11",
+				"Ability Score Improvement|Cleric||12",
+				"Destroy Undead (CR 3)|Cleric||14",
+				"Ability Score Improvement|Cleric||16",
+				"Destroy Undead (CR 4)|Cleric||17",
+				{
+					"classFeature": "Divine Domain feature|Cleric||17",
+					"gainSubclassFeature": true
+				},
+				{
+					"classFeature": "Channel Divinity|Cleric||18",
+					"tableDisplayName": "Channel Divinity (3/rest)"
+				},
+				"Ability Score Improvement|Cleric||19",
+				"Divine Intervention Improvement|Cleric||20"
+			],
+			"subclassTitle": "Divine Domain",
+			"fluff": [
+				{
+					"name": "Cleric",
+					"type": "section",
+					"entries": [
+						"手臂和眼睛朝向太阳，嘴里祈祷着，一个精灵开始闪烁着内在的光芒，溢出来治愈他那些饱经战火的同伴们。",
+						"一个矮人吟唱着荣耀之歌，挥舞着他的斧头，大刀阔斧地砍杀着与他对峙的兽人队伍，在每一个敌人倒下的时候，他都高声赞美诸神。",
+						"在对不死的力量发出诅咒的同时，一个人类举起了她的神圣符号，从它身上涌出的光芒驱赶着挤向她同伴的僵尸。",
+						"牧师是凡人世界和遥远的诸神世界之间的中介。和他们所服务的神一样，教士们努力体现他们神的手艺。不是普通的牧师，教士被赋予了神圣的魔法。",
+						{
+							"type": "entries",
+							"name": "Healers and Warriors",
+							"entries": [
+								"神圣的魔法，顾名思义，是诸神的力量，从他们那里流向世界。神职人员是这种力量的管道，将其表现为神奇的效果。诸神并不把这种力量授予每一个寻求它的人，而只授予那些被选中来完成高尚使命的人。",
+								"驾驭神圣的魔法并不依赖于学习或训练。牧师可能会学习公式化的祈祷和古老的仪式，但施展牧师法术的能力依赖于虔诚和对神灵愿望的直觉。",
+								"牧师将治疗和激励盟友的有用魔法与伤害和阻碍敌人的法术相结合。他们可以引起敬畏和恐惧，施加瘟疫或毒药的诅咒，甚至从天上召唤火焰来吞噬他们的敌人。对于那些最能从一记重击中获益的恶人，牧师们依靠他们的战斗训练，让他们在近战中发挥神的力量。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Divine Agents",
+							"entries": [
+								"并非每个神庙或神社的圣徒或司仪都是神职人员。一些牧师被要求过着简单的寺庙服务生活，通过祈祷和祭祀，而不是通过魔法和武器的力量来执行他们的神的意志。在一些城市，神职相当于一种政治职务，被视为通往更高权力职位的垫脚石，根本不涉及与神的交流。真正的神职人员在大多数等级制度中都是罕见的。",
+								"当一个牧师开始冒险生活时，通常是因为他或她的神要求这样做。追求神灵的目标往往涉及到勇敢面对文明之墙以外的危险，打击邪恶或在古墓中寻找神圣的遗迹。许多神职人员还被要求保护他们的神的崇拜者，这可能意味着与猖獗的兽人作战，在交战的国家之间进行和平谈判，或者封印一个允许恶魔王子进入世界的门户。",
+								"大多数冒险的神职人员都与他们信仰的既定神庙和教团保持着某种联系。寺庙可能会请求牧师的帮助，或者大祭司可能会要求牧师提供帮助。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Cleric",
+							"entries": [
+								"As you create a cleric, the most important question to consider is which deity to serve and what principles you want your character to embody. Appendix B includes lists of many of the gods of the multiverse. Check with your DM to learn which deities are in your campaign.",
+								"Once you've chosen a deity, consider your cleric's relationship to that god. Did you enter this service willingly? Or did the god choose you, impelling you into service with no regard for your wishes? How do the temple priests of your faith regard you: as a champion or a troublemaker? What are your ultimate goals? Does your deity have a special task in mind for you? Or are you striving to prove yourself worthy of a great quest?",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a cleric quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Strength or Constitution. Second, choose the {@background acolyte} background."
+									]
+								}
+							]
+						}
+					],
+					"source": "PHB",
+					"page": 56
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"成为教士就是成为众神的信使。神灵提供的力量是伟大的，但它总是伴随着巨大的责任。"
+							],
+							"by": "Riggby the patriarch"
+						},
+						"世界上几乎所有崇尚神灵的人在生活中都没有被神灵直接接触过。因此，他们永远无法体会到成为神职人员的感觉--一个不仅是虔诚的崇拜者，而且还被赋予一定程度的神力的人。",
+						"The question has long been debated: Does a mortal become a cleric as a consequence of deep devotion to one's deity, thereby attracting the god's favor? Or is it the deity who sees the potential in a person and calls that individual into service? Ultimately, perhaps, the answer doesn't matter. However clerics come into being, the world needs clerics as much as clerics and deities need each other.",
+						"如果你扮演的是一个牧师角色，下面的章节提供了为该角色的历史和个性增加一些细节的方法。",
+						{
+							"type": "entries",
+							"name": "Temple",
+							"entries": [
+								"大多数神职人员开始他们的服务生活时是作为一个教团的牧师，后来意识到他们已经得到了他们的神的祝福，具备了成为神职人员所需的素质。为了准备这一新的职责，候选人通常会接受神庙或其他专门研究其神灵的地方的教士的指导。",
+								"有些寺庙与世隔绝，以便其居住者能够专注于奉献，而其他寺庙则敞开大门，为大众提供服务和治疗。你所学习的寺庙有什么值得注意的地方？",
+								{
+									"type": "table",
+									"caption": "Temple",
+									"colLabels": [
+										"{@dice d6}",
+										"Temple"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"你的寺庙据说是现存最古老的建筑，为纪念你的神而建。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"几个志同道合的神灵的信徒都在你的寺庙里一起接受指导。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你来自一个因经营啤酒厂而闻名的寺庙。有人说你闻起来像它的一种啤酒。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"你的寺庙是一个堡垒，也是一个训练战士牧师的试验场。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你的寺庙是一个和平、谦逊的地方，充满了菜园和简单的祭司。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你在外星球的一个神庙中服务。"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Keepsake",
+									"entries": [
+										"许多神职人员的个人装备中都有象征他们信仰的物品，提醒他们的誓言，或以其他方式帮助他们保持他们所选择的道路。即使这样的物品没有被赋予神圣的力量，但由于它所代表的内容，对它的主人来说是至关重要的。",
+										{
+											"type": "table",
+											"caption": "Keepsake",
+											"colLabels": [
+												"{@dice d6}",
+												"Keepsake"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows": [
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 1
+														}
+													},
+													"圣人的指骨"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 2
+														}
+													},
+													"一本金属装订的书，告诉人们如何猎杀和消灭地狱生物"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 3
+														}
+													},
+													"让你想起你卑微而敬爱的导师的猪的哨子"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 4
+														}
+													},
+													"从独角兽的尾巴上编织的发辫"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 5
+														}
+													},
+													"一张描述如何最好地摆脱死灵法师的卷轴"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 6
+														}
+													},
+													"一个据说被你的神所祝福的符石"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Secret",
+									"entries": [
+										"没有一个凡人的灵魂是完全没有第二个想法或怀疑的。即使是教士也必须与黑暗的欲望或违背神灵教义的禁忌吸引力作斗争。",
+										"如果你还没有考虑过你角色的这一方面，请看表格中的条目，了解一些可能性，或者用它们来激发灵感。你内心深处的秘密可能涉及你所做的（或正在做的）事情，也可能植根于你对这个世界和你在其中的角色的感受。",
+										{
+											"type": "table",
+											"caption": "Secret",
+											"colLabels": [
+												"{@dice d6}",
+												"Secret"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows": [
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 1
+														}
+													},
+													"一个小恶魔向你提供建议。你试图忽略这个生物，但有时它的建议是有帮助的。"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 2
+														}
+													},
+													"你相信，归根结底，众神不过是超强的凡人生物。"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 3
+														}
+													},
+													"你承认神的力量，但你认为大多数事件是由纯粹的机会决定的。"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 4
+														}
+													},
+													"即使你能施展神圣的魔法，但你从未真正感受到自己体内神圣本质的存在。"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 5
+														}
+													},
+													"你被噩梦所困扰，你相信这些噩梦是由你的神派来的，作为对某种未知过失的惩罚。"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 6
+														}
+													},
+													"在绝望的时候，你觉得自己不过是众神的玩物，你憎恨他们的遥远。"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Serving a Pantheon, Philosophy, or Force",
+									"entries": [
+										"典型的教士是某一特定神明的仆人，并选择与该神明相关的神域。教士的魔法来自于该神或该神的神圣领域，而且教士往往带有代表该神性的神圣符号。",
+										"Some clerics, especially in a world like Eberron, serve a whole pantheon, rather than a single deity. In certain campaigns, a cleric might instead serve a cosmic force, such as life or death, or a philosophy or concept, such as love, peace, or one of the nine alignments. Chapter 1 of the Dungeon Master's Guide explores options like these, in the section \"Gods of Your World.\"",
+										"Talk with your DM about the divine options available in your campaign, whether they're gods, pantheons, philosophies, or cosmic forces. Whatever being or thing your cleric ends up serving, choose a Divine Domain that is appropriate for it, and if it doesn't have a holy symbol, work with your DM to design one.",
+										"牧师的类别特征通常指的是你的神灵。如果你献身于一个万神殿、宇宙力量或哲学，你的牧师特征仍然按规定对你有效。把对神的提及看作是对你所服务的、赋予你魔法的神圣事物的提及。"
+									]
+								}
+							]
+						}
+					],
+					"source": "XGE",
+					"page": 17
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Knowledge Domain",
+			"shortName": "Knowledge",
+			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 59,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"command",
+							"identify"
+						],
+						"3": [
+							"augury",
+							"suggestion"
+						],
+						"5": [
+							"nondetection",
+							"speak with dead"
+						],
+						"7": [
+							"arcane eye",
+							"confusion"
+						],
+						"9": [
+							"legend lore",
+							"scrying"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Knowledge Domain|Cleric||Knowledge||1",
+				"Channel Divinity: Knowledge of the Ages|Cleric||Knowledge||2",
+				"Channel Divinity: Read Thoughts|Cleric||Knowledge||6",
+				"Potent Spellcasting|Cleric||Knowledge||8",
+				"Blessed Strikes|Cleric||Knowledge||8|TCE",
+				"Visions of the Past|Cleric||Knowledge||17"
+			]
+		},
+		{
+			"name": "Life Domain",
+			"shortName": "Life",
+			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 60,
+			"srd": true,
+			"basicRules": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"bless",
+							"cure wounds"
+						],
+						"3": [
+							"lesser restoration",
+							"spiritual weapon"
+						],
+						"5": [
+							"beacon of hope",
+							"revivify"
+						],
+						"7": [
+							"death ward",
+							"guardian of faith"
+						],
+						"9": [
+							"mass cure wounds",
+							"raise dead"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Life Domain|Cleric||Life||1",
+				"Channel Divinity: Preserve Life|Cleric||Life||2",
+				"Blessed Healer|Cleric||Life||6",
+				"Divine Strike|Cleric||Life||8",
+				"Blessed Strikes|Cleric||Life||8|TCE",
+				"Supreme Healing|Cleric||Life||17"
+			]
+		},
+		{
+			"name": "Light Domain",
+			"shortName": "Light",
+			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 60,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"burning hands",
+							"faerie fire"
+						],
+						"3": [
+							"flaming sphere",
+							"scorching ray"
+						],
+						"5": [
+							"daylight",
+							"fireball"
+						],
+						"7": [
+							"guardian of faith",
+							"wall of fire"
+						],
+						"9": [
+							"flame strike",
+							"scrying"
+						]
+					},
+					"known": {
+						"1": [
+							"light#c"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Light Domain|Cleric||Light||1",
+				"Channel Divinity: Radiance of the Dawn|Cleric||Light||2",
+				"Improved Flare|Cleric||Light||6",
+				"Potent Spellcasting|Cleric||Light||8",
+				"Blessed Strikes|Cleric||Light||8|TCE",
+				"Corona of Light|Cleric||Light||17"
+			]
+		},
+		{
+			"name": "Nature Domain",
+			"shortName": "Nature",
+			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 61,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"1": [
+							"animal friendship",
+							"speak with animals"
+						],
+						"3": [
+							"barkskin",
+							"spike growth"
+						],
+						"5": [
+							"plant growth",
+							"wind wall"
+						],
+						"7": [
+							"dominate beast",
+							"grasping vine"
+						],
+						"9": [
+							"insect plague",
+							"tree stride"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Nature Domain|Cleric||Nature||1",
+				"Channel Divinity: Charm Animals and Plants|Cleric||Nature||2",
+				"Dampen Elements|Cleric||Nature||6",
+				"Divine Strike|Cleric||Nature||8",
+				"Blessed Strikes|Cleric||Nature||8|TCE",
+				"Master of Nature|Cleric||Nature||17"
+			]
+		},
+		{
+			"name": "Tempest Domain",
+			"shortName": "Tempest",
+			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 62,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"fog cloud",
+							"thunderwave"
+						],
+						"3": [
+							"gust of wind",
+							"shatter"
+						],
+						"5": [
+							"call lightning",
+							"sleet storm"
+						],
+						"7": [
+							"control water",
+							"ice storm"
+						],
+						"9": [
+							"destructive wave",
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Tempest Domain|Cleric||Tempest||1",
+				"Channel Divinity: Destructive Wrath|Cleric||Tempest||2",
+				"Thunderbolt Strike|Cleric||Tempest||6",
+				"Divine Strike|Cleric||Tempest||8",
+				"Blessed Strikes|Cleric||Tempest||8|TCE",
+				"Stormborn|Cleric||Tempest||17"
+			]
+		},
+		{
+			"name": "Trickery Domain",
+			"shortName": "Trickery",
+			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 62,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"charm person",
+							"disguise self"
+						],
+						"3": [
+							"mirror image",
+							"pass without trace"
+						],
+						"5": [
+							"blink",
+							"dispel magic"
+						],
+						"7": [
+							"dimension door",
+							"polymorph"
+						],
+						"9": [
+							"dominate person",
+							"modify memory"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Trickery Domain|Cleric||Trickery||1",
+				"Channel Divinity: Invoke Duplicity|Cleric||Trickery||2",
+				"Channel Divinity: Cloak of Shadows|Cleric||Trickery||6",
+				"Divine Strike|Cleric||Trickery||8",
+				"Blessed Strikes|Cleric||Trickery||8|TCE",
+				"Improved Duplicity|Cleric||Trickery||17"
+			]
+		},
+		{
+			"name": "War Domain",
+			"shortName": "War",
+			"source": "PHB",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 63,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"divine favor",
+							"shield of faith"
+						],
+						"3": [
+							"magic weapon",
+							"spiritual weapon"
+						],
+						"5": [
+							"crusader's mantle",
+							"spirit guardians"
+						],
+						"7": [
+							"freedom of movement",
+							"stoneskin"
+						],
+						"9": [
+							"flame strike",
+							"hold monster"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"War Domain|Cleric||War||1",
+				"Channel Divinity: Guided Strike|Cleric||War||2",
+				"Channel Divinity: War God's Blessing|Cleric||War||6",
+				"Divine Strike|Cleric||War||8",
+				"Blessed Strikes|Cleric||War||8|TCE",
+				"Avatar of Battle|Cleric||War||17"
+			]
+		},
+		{
+			"name": "Death Domain",
+			"shortName": "Death",
+			"source": "DMG",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 96,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|school=N",
+									"count": 1
+								}
+							]
+						}
+					},
+					"prepared": {
+						"1": [
+							"false life",
+							"ray of sickness"
+						],
+						"3": [
+							"blindness/deafness",
+							"ray of enfeeblement"
+						],
+						"5": [
+							"animate dead",
+							"vampiric touch"
+						],
+						"7": [
+							"blight",
+							"death ward"
+						],
+						"9": [
+							"antilife shell",
+							"cloudkill"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Death Domain|Cleric||Death|DMG|1",
+				"Channel Divinity: Touch of Death|Cleric||Death|DMG|2",
+				"Inescapable Destruction|Cleric||Death|DMG|6",
+				"Divine Strike|Cleric||Death|DMG|8",
+				"Blessed Strikes|Cleric||Death|DMG|8|TCE",
+				"Improved Reaper|Cleric||Death|DMG|17"
+			]
+		},
+		{
+			"name": "Arcana Domain",
+			"shortName": "Arcana",
+			"source": "SCAG",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 125,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard",
+									"count": 2
+								}
+							]
+						}
+					},
+					"prepared": {
+						"1": [
+							"detect magic",
+							"magic missile"
+						],
+						"3": [
+							"magic weapon",
+							"Nystul's magic aura"
+						],
+						"5": [
+							"dispel magic",
+							"magic circle"
+						],
+						"7": [
+							"arcane eye",
+							"Leomund's secret chest"
+						],
+						"9": [
+							"planar binding",
+							"teleportation circle"
+						],
+						"17": [
+							{
+								"choose": "level=6|class=Wizard"
+							},
+							{
+								"choose": "level=7|class=Wizard"
+							},
+							{
+								"choose": "level=8|class=Wizard"
+							},
+							{
+								"choose": "level=9|class=Wizard"
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Arcana Domain|Cleric||Arcana|SCAG|1",
+				"Channel Divinity: Arcane Abjuration|Cleric||Arcana|SCAG|2",
+				"Spell Breaker|Cleric||Arcana|SCAG|6",
+				"Potent Spellcasting|Cleric||Arcana|SCAG|8",
+				"Blessed Strikes|Cleric||Arcana|SCAG|8|TCE",
+				"Arcane Mastery|Cleric||Arcana|SCAG|17"
+			]
+		},
+		{
+			"name": "Ambition Domain (PSA)",
+			"shortName": "Ambition (PSA)",
+			"source": "PSA",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 27,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"bane",
+							"disguise self"
+						],
+						"3": [
+							"mirror image",
+							"ray of enfeeblement"
+						],
+						"5": [
+							"bestow curse",
+							"vampiric touch"
+						],
+						"7": [
+							"death ward",
+							"dimension door"
+						],
+						"9": [
+							"dominate person",
+							"modify memory"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Ambition Domain (PSA)|Cleric||Ambition (PSA)|PSA|1",
+				"Channel Divinity: Invoke Duplicity|Cleric||Ambition (PSA)|PSA|2",
+				"Channel Divinity: Cloak of Shadows|Cleric||Ambition (PSA)|PSA|6",
+				"Potent Spellcasting|Cleric||Ambition (PSA)|PSA|8",
+				"Blessed Strikes|Cleric||Ambition (PSA)|PSA|8|TCE",
+				"Improved Duplicity|Cleric||Ambition (PSA)|PSA|17"
+			]
+		},
+		{
+			"name": "Knowledge Domain (PSA)",
+			"shortName": "Knowledge (PSA)",
+			"source": "PSA",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 25,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"command",
+							"identify"
+						],
+						"3": [
+							"augury",
+							"suggestion"
+						],
+						"5": [
+							"nondetection",
+							"speak with dead"
+						],
+						"7": [
+							"arcane eye",
+							"confusion"
+						],
+						"9": [
+							"legend lore",
+							"scrying"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Knowledge Domain (PSA)|Cleric||Knowledge (PSA)|PSA|1",
+				"Channel Divinity: Knowledge of the Ages|Cleric||Knowledge||2",
+				"Channel Divinity: Read Thoughts|Cleric||Knowledge||6",
+				"Potent Spellcasting|Cleric||Knowledge||8",
+				"Blessed Strikes|Cleric||Knowledge||8|TCE",
+				"Visions of the Past|Cleric||Knowledge||17"
+			]
+		},
+		{
+			"name": "Solidarity Domain (PSA)",
+			"shortName": "Solidarity (PSA)",
+			"source": "PSA",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 24,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"bless",
+							"guiding bolt"
+						],
+						"3": [
+							"aid",
+							"warding bond"
+						],
+						"5": [
+							"beacon of hope",
+							"crusader's mantle"
+						],
+						"7": [
+							"aura of life",
+							"guardian of faith"
+						],
+						"9": [
+							"circle of power",
+							"mass cure wounds"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Solidarity Domain (PSA)|Cleric||Solidarity (PSA)|PSA|1",
+				"Channel Divinity: Preserve Life|Cleric||Solidarity (PSA)|PSA|2",
+				"Oketra's Blessing|Cleric||Solidarity (PSA)|PSA|6",
+				"Divine Strike|Cleric||Solidarity (PSA)|PSA|8",
+				"Blessed Strikes|Cleric||Solidarity (PSA)|PSA|8|TCE",
+				"Supreme Healing|Cleric||Solidarity (PSA)|PSA|17"
+			]
+		},
+		{
+			"name": "Strength Domain (PSA)",
+			"shortName": "Strength (PSA)",
+			"source": "PSA",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 26,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"1": [
+							"divine favor",
+							"shield of faith"
+						],
+						"3": [
+							"enhance ability",
+							"protection from poison"
+						],
+						"5": [
+							"haste",
+							"protection from energy"
+						],
+						"7": [
+							"dominate beast",
+							"stoneskin"
+						],
+						"9": [
+							"destructive wave",
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Strength Domain (PSA)|Cleric||Strength (PSA)|PSA|1",
+				"Channel Divinity: Feat of Strength|Cleric||Strength (PSA)|PSA|2",
+				"Rhonas's Blessing|Cleric||Strength (PSA)|PSA|6",
+				"Divine Strike|Cleric||Strength (PSA)|PSA|8",
+				"Blessed Strikes|Cleric||Strength (PSA)|PSA|8|TCE",
+				"Avatar of Battle|Cleric||Strength (PSA)|PSA|17"
+			]
+		},
+		{
+			"name": "Zeal Domain (PSA)",
+			"shortName": "Zeal (PSA)",
+			"source": "PSA",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 28,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"searing smite",
+							"thunderous smite"
+						],
+						"3": [
+							"magic weapon",
+							"shatter"
+						],
+						"5": [
+							"haste",
+							"fireball"
+						],
+						"7": [
+							"fire shield|",
+							"freedom of movement"
+						],
+						"9": [
+							"destructive wave",
+							"flame strike"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Zeal Domain (PSA)|Cleric||Zeal (PSA)|PSA|1",
+				"Channel Divinity: Consuming Fervor|Cleric||Zeal (PSA)|PSA|2",
+				"Resounding Strike|Cleric||Zeal (PSA)|PSA|6",
+				"Divine Strike|Cleric||Zeal (PSA)|PSA|8",
+				"Blessed Strikes|Cleric||Zeal (PSA)|PSA|8|TCE",
+				"Blaze of Glory|Cleric||Zeal (PSA)|PSA|17"
+			]
+		},
+		{
+			"name": "Forge Domain",
+			"shortName": "Forge",
+			"source": "XGE",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 18,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"identify",
+							"searing smite"
+						],
+						"3": [
+							"heat metal",
+							"magic weapon"
+						],
+						"5": [
+							"elemental weapon",
+							"protection from energy"
+						],
+						"7": [
+							"fabricate",
+							"wall of fire"
+						],
+						"9": [
+							"animate objects",
+							"creation"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Forge Domain|Cleric||Forge|XGE|1",
+				"Channel Divinity: Artisan's Blessing|Cleric||Forge|XGE|2",
+				"Soul of the Forge|Cleric||Forge|XGE|6",
+				"Divine Strike|Cleric||Forge|XGE|8",
+				"Blessed Strikes|Cleric||Forge|XGE|8|TCE",
+				"Saint of Forge and Fire|Cleric||Forge|XGE|17"
+			]
+		},
+		{
+			"name": "Grave Domain",
+			"shortName": "Grave",
+			"source": "XGE",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 19,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"bane",
+							"false life"
+						],
+						"3": [
+							"gentle repose",
+							"ray of enfeeblement"
+						],
+						"5": [
+							"revivify",
+							"vampiric touch"
+						],
+						"7": [
+							"blight",
+							"death ward"
+						],
+						"9": [
+							"antilife shell",
+							"raise dead"
+						]
+					},
+					"known": {
+						"1": [
+							"spare the dying#c"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Grave Domain|Cleric||Grave|XGE|1",
+				"Channel Divinity: Path to the Grave|Cleric||Grave|XGE|2",
+				"Sentinel at Death's Door|Cleric||Grave|XGE|6",
+				"Potent Spellcasting|Cleric||Grave|XGE|8",
+				"Blessed Strikes|Cleric||Grave|XGE|8|TCE",
+				"Keeper of Souls|Cleric||Grave|XGE|17"
+			]
+		},
+		{
+			"name": "Community Domain",
+			"shortName": "Community",
+			"source": "HWCS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 39,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"bless",
+							"goodberry"
+						],
+						"3": [
+							"aid",
+							"heroism"
+						],
+						"5": [
+							"beacon of hope",
+							"spirit guardians"
+						],
+						"7": [
+							"banishment",
+							"mordenkainen's faithful hound"
+						],
+						"9": [
+							"mass cure wounds",
+							"rary's telepathic bond"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Community Domain|Cleric||Community|HWCS|1",
+				"Channel Divinity: Magnificent Feast|Cleric||Community|HWCS|2",
+				"Channel Divinity: Community Watch|Cleric||Community|HWCS|6",
+				"Divine Strike|Cleric||Community|HWCS|8",
+				"Paragon of the People|Cleric||Community|HWCS|17"
+			]
+		},
+		{
+			"name": "Night Domain",
+			"shortName": "Night",
+			"source": "HWCS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 40,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"sleep",
+							"veil of dusk|HWCS"
+						],
+						"3": [
+							"darkness",
+							"moonbeam"
+						],
+						"5": [
+							"nondetection",
+							"globe of twilight|HWCS"
+						],
+						"7": [
+							"divination",
+							"stellar bodies|HWCS"
+						],
+						"9": [
+							"dream",
+							"seeming"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Night Domain|Cleric||Night|HWCS|1",
+				"Channel Divinity: Invocation of Night|Cleric||Night|HWCS|2",
+				"Improved Ward|Cleric||Night|HWCS|6",
+				"Veil of Dreams|Cleric||Night|HWCS|8",
+				"Creature of the Night|Cleric||Night|HWCS|17"
+			]
+		},
+		{
+			"name": "Order Domain",
+			"shortName": "Order",
+			"source": "TCE",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 31,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 25
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"command",
+							"heroism"
+						],
+						"3": [
+							"hold person",
+							"zone of truth"
+						],
+						"5": [
+							"mass healing word",
+							"slow"
+						],
+						"7": [
+							"compulsion",
+							"locate creature"
+						],
+						"9": [
+							"commune",
+							"dominate person"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Order Domain|Cleric||Order|TCE|1",
+				"Channel Divinity: Order's Demand|Cleric||Order|TCE|2",
+				"Embodiment of the Law|Cleric||Order|TCE|6",
+				"Divine Strike|Cleric||Order|TCE|8",
+				"Blessed Strikes|Cleric||Order|TCE|8|TCE",
+				"Order's Wrath|Cleric||Order|TCE|17"
+			]
+		},
+		{
+			"name": "Peace Domain",
+			"shortName": "Peace",
+			"source": "TCE",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 32,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"heroism",
+							"sanctuary"
+						],
+						"3": [
+							"aid",
+							"warding bond"
+						],
+						"5": [
+							"beacon of hope",
+							"sending"
+						],
+						"7": [
+							"aura of purity",
+							"Otiluke's resilient sphere"
+						],
+						"9": [
+							"greater restoration",
+							"Rary's telepathic bond"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Peace Domain|Cleric||Peace|TCE|1",
+				"Channel Divinity: Balm of Peace|Cleric||Peace|TCE|2",
+				"Protective Bond|Cleric||Peace|TCE|6",
+				"Potent Spellcasting|Cleric||Peace|TCE|8",
+				"Blessed Strikes|Cleric||Peace|TCE|8|TCE",
+				"Expansive Bond|Cleric||Peace|TCE|17"
+			]
+		},
+		{
+			"name": "Twilight Domain",
+			"shortName": "Twilight",
+			"source": "TCE",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 34,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"faerie fire",
+							"sleep"
+						],
+						"3": [
+							"moonbeam",
+							"see invisibility"
+						],
+						"5": [
+							"aura of vitality",
+							"Leomund's tiny hut"
+						],
+						"7": [
+							"aura of life",
+							"greater invisibility"
+						],
+						"9": [
+							"circle of power",
+							"mislead"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Twilight Domain|Cleric||Twilight|TCE|1",
+				"Channel Divinity: Twilight Sanctuary|Cleric||Twilight|TCE|2",
+				"Steps of Night|Cleric||Twilight|TCE|6",
+				"Divine Strike|Cleric||Twilight|TCE|8",
+				"Blessed Strikes|Cleric||Twilight|TCE|8|TCE",
+				"Twilight Shroud|Cleric||Twilight|TCE|17"
+			]
+		},
+		{
+			"name": "Blood Domain",
+			"shortName": "Blood",
+			"source": "TDCSR",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 168,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"false life",
+							"sleep"
+						],
+						"3": [
+							"hold person",
+							"ray of enfeeblement"
+						],
+						"5": [
+							"haste",
+							"slow"
+						],
+						"7": [
+							"blight",
+							"stoneskin"
+						],
+						"9": [
+							"dominate person",
+							"hold monster"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Blood Domain|Cleric|PHB|Blood|TDCSR|1",
+				"Channel Divinity: Crimson Bond|Cleric|PHB|Blood|TDCSR|2",
+				"Channel Divinity: Blood Puppet|Cleric|PHB|Blood|TDCSR|6",
+				"Sanguine Recall|Cleric|PHB|Blood|TDCSR|6",
+				"Divine Strike|Cleric|PHB|Blood|TDCSR|8",
+				"Divine Strike (14th Level)|Cleric|PHB|Blood|TDCSR|14",
+				"Channel Divinity: Blood Puppet (17th Level)|Cleric|PHB|Blood|TDCSR|17",
+				"Vascular Corruption Aura|Cleric|PHB|Blood|TDCSR|17"
+			]
+		},
+		{
+			"name": "Moon Domain",
+			"shortName": "Moon",
+			"source": "TDCSR",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 169,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"faerie fire",
+							"silent image"
+						],
+						"3": [
+							"invisibility",
+							"moonbeam"
+						],
+						"5": [
+							"hypnotic pattern",
+							"major image"
+						],
+						"7": [
+							"greater invisibility",
+							"hallucinatory terrain"
+						],
+						"9": [
+							"dream",
+							"passwall"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Moon Domain|Cleric|PHB|Moon|TDCSR|1",
+				"Channel Divinity: Blessing of the Full Moon|Cleric|PHB|Moon|TDCSR|2",
+				"Channel Divinity: Mind of Two Moons|Cleric|PHB|Moon|TDCSR|6",
+				"Empowered Cantrips|Cleric|PHB|Moon|TDCSR|8",
+				"Eclipse of Ill Omen|Cleric|PHB|Moon|TDCSR|17"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Divine Domain",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"从可用的领域列表中选择一个与你的神灵有关的领域。每个领域都在他们自己的特征中详细说明，每个领域都提供了与之相关的神的例子。当你在1级选择它时，你的选择会赋予你领域法术和其他特征。当你在2级获得该特性时，它还会授予你额外的使用通道神性的方法，并在6级、8级和17级获得额外的好处。",
+				{
+					"type": "entries",
+					"name": "Domain Spells",
+					"entries": [
+						"每个领域都有一个法术列表--它的领域法术--你在领域描述中提到的牧师级别上获得。一旦你获得一个领域法术，你就会一直准备好它，而且它不计入你每天可以准备的法术数量。",
+						"如果你有一个领域法术，但没有出现在牧师法术列表中，那么这个法术对你来说还是一个牧师法术。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"As a conduit for divine power, you can cast cleric spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for a selection of {@filter cleric spells|spells|class=cleric}.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"在1级时，你会从教士的法术列表中选择三个咒语。在更高的等级，你会学习更多你所选择的教士咒语，如教士表的已知咒语栏所示。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"The Cleric table shows how many spell slots you have to cast your {@filter cleric spells|spells|class=cleric} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"你准备好可供你施展的教士法术清单，从教士法术清单中选择。当你这样做时，选择与你的智慧修正值+你的牧师等级相等数量的牧师法术（最少为一个法术）。这些法术的等级必须是你有法术槽的。",
+						"For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual Casting",
+					"entries": [
+						"如果一个牧师的法术有仪式标签，并且你已经准备好了该法术，那么你可以将该法术作为一个仪式来施放。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use a {@item holy symbol|phb} as a spellcasting focus for your cleric spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.",
+				"当你使用你的通道神性时，你选择创造哪种效果。然后你必须完成一个短暂或长时间的休息才能再次使用你的通道神力。",
+				"Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
+				"从6级开始，你可以在两次休息之间使用你的通道神性，从18级开始，你可以在两次休息之间使用它三次。当你完成短时或长时休息时，你会重新获得你已消耗的使用次数。",
+				{
+					"type": "refClassFeature",
+					"classFeature": "Channel Divinity: Turn Undead|Cleric||2"
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Harness Divine Power",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"{@i 2nd-level cleric {@variantrule optional class features|tce|optional feature}}",
+				"You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Turn Undead",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"作为一个行动，你展示你的神圣符号，并说出一个谴责亡灵的祷告。每个在你30英尺范围内能看到或听到你的亡灵必须做一个智慧救赎动作。如果该生物没有完成蓄力动作，它将在1分钟内被转化，或者直到它受到任何伤害。",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action."
+			]
+		},
+		{
+			"name": "Divine Domain feature",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"2级时，你从你的神域中获得一个特性。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 4,
+			"entries": [
+				"当你达到四级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Cantrip Versatility",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4th-level cleric {@variantrule optional class features|tce|optional feature}}",
+				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the {@filter cleric spell list|spells|level=0|class=Cleric}."
+			]
+		},
+		{
+			"name": "Destroy Undead (CR 1/2)",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, when an {@filter undead of CR 1/2 or lower|bestiary|challenge rating=[&0;&1/2]|type=undead|miscellaneous=!swarm} fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"从6级开始，你可以在两次休息之间使用你的通道神性。"
+			]
+		},
+		{
+			"name": "Divine Domain feature",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"在6级时，你从你的神性领域中获得一个特性。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 8,
+			"entries": [
+				"当你达到8级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Destroy Undead (CR 1)",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 8,
+			"entries": [
+				"Starting at 8th level, when an {@filter undead of CR 1 or lower|bestiary|challenge rating=[&0;&1]|type=undead|miscellaneous=!swarm} fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+			]
+		},
+		{
+			"name": "Divine Domain feature",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 8,
+			"entries": [
+				"在8级时，你从你的神性领域中获得一个特性。"
+			]
+		},
+		{
+			"name": "Divine Intervention",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 10,
+			"entries": [
+				"从10级开始，当你的需求很大时，你可以呼唤你的神灵代表你进行干预。",
+				"Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate. If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.",
+				"在20级时，你的干预召唤会自动成功，不需要掷骰子。"
+			]
+		},
+		{
+			"name": "Destroy Undead (CR 2)",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 11,
+			"entries": [
+				"Starting at 11th level, when an {@filter undead of CR 2 or lower|bestiary|challenge rating=[&0;&2]|type=undead|miscellaneous=!swarm} fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 12,
+			"entries": [
+				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Destroy Undead (CR 3)",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, when an {@filter undead of CR 3 or lower|bestiary|challenge rating=[&0;&3]|type=undead|miscellaneous=!swarm} fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 16,
+			"entries": [
+				"当你达到16级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Destroy Undead (CR 4)",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 17,
+			"entries": [
+				"Starting at 17th level, when an {@filter undead of CR 4 or lower|bestiary|challenge rating=[&0;&4]|type=undead|miscellaneous=!swarm} fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+			]
+		},
+		{
+			"name": "Divine Domain feature",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 17,
+			"entries": [
+				"17级时，你从你的神域中获得一个特性。"
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 18,
+			"entries": [
+				"从18级开始，你可以在两次休息之间使用你的神力通道三次。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 19,
+			"entries": [
+				"当你达到19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Divine Intervention Improvement",
+			"source": "PHB",
+			"page": 56,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"level": 20,
+			"entries": [
+				"在20级时，你的干预召唤会自动成功，不需要掷骰子。"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Death Domain",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"entries": [
+				"The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as {@deity Chemosh|Dragonlance}, {@deity Myrkul}, and {@deity Wee Jas|Greyhawk} are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder ({@deity Anubis|Egyptian}, {@deity Bhaal}, and Pyremius), pain ({@deity Iuz|Greyhawk} or {@deity Loviatar}), disease or poison ({@deity Incabulos|Greyhawk}, {@deity Talona}, or {@deity Morgion|Dragonlance}), and the underworld ({@deity Hades|Greek} and {@deity Hel|Norse}).",
+				"在每个指定的牧师等级，将列出的法术加入你的法术准备。它们不计入你的极限。",
+				{
+					"type": "table",
+					"caption": "Death Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell false life}, {@spell ray of sickness}"
+						],
+						[
+							"3rd",
+							"{@spell blindness/deafness}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell animate dead}, {@spell vampiric touch}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell death ward}"
+						],
+						[
+							"9th",
+							"{@spell antilife shell}, {@spell cloudkill}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Death|DMG|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reaper|Cleric||Death|DMG|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"当牧师在第一级选择这个领域时，他或她会获得对武术武器的熟练度。"
+			]
+		},
+		{
+			"name": "Reaper",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, the cleric learns one {@filter necromancy cantrip|spells|level=0|school=N} of his or her choice from any spell list. When the cleric casts a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other."
+			]
+		},
+		{
+			"name": "Channel Divinity: Touch of Death",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，牧师可以使用 \"引导神性\"，通过触摸破坏另一个生物的生命力。",
+				"当教士用近战攻击击中一个生物时，教士可以使用通道神性对目标造成额外的坏死伤害。伤害等于5+他或她的牧师等级的两倍。"
+			]
+		},
+		{
+			"name": "Inescapable Destruction",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，教士引导负能量的能力变得更加强大。角色的牧师法术和通道神性选项造成的坏死伤害会忽略对坏死伤害的抵抗。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra {@damage 1d8} necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Improved Reaper",
+			"source": "DMG",
+			"page": 96,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death",
+			"subclassSource": "DMG",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"从17级开始，当牧师施展1到5级的亡灵法术时，如果只针对一个生物，该法术可以改为针对范围内的两个生物，并且彼此之间在5英尺之内。如果该法术消耗其物质成分，牧师必须为每个目标提供它们。"
+			]
+		},
+		{
+			"name": "Community Domain",
+			"source": "HWCS",
+			"page": 39,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Community",
+			"subclassSource": "HWCS",
+			"level": 1,
+			"entries": [
+				"The community domain focuses on the ties that bind all people together. These are the ties of family and friendship, the ties to ancestors, as well as the ties between elders and the next generation with whom they share their wisdom. The power of the Gods of community is in the security of home and hearth, and the joy of good company. Many such gods teach the value of tradition and simple ways of living in harmony with the natural world. They also tend towards the rule of law, not as a kind of great bureaucracy, but as sacred traditions passed from generation to generation. Some gods advocate the removal of harsh or disruptive forces to this order, and proper sanctions for the violation of the goodwill that any community ought to provide.",
+				"Clerics of such gods value unity, and praise the strength that can be gained when people support each other.",
+				{
+					"type": "table",
+					"caption": "Community Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Bless}, {@spell Goodberry}"
+						],
+						[
+							"3rd",
+							"{@spell Aid}, {@spell Heroism}"
+						],
+						[
+							"5th",
+							"{@spell Beacon of Hope}, {@spell Spirit Guardians}"
+						],
+						[
+							"7th",
+							"{@spell Banishment}, {@spell Mordenkainen's Faithful Hound}"
+						],
+						[
+							"9th",
+							"{@spell Mass Cure Wounds}, {@spell Rary's Telepathic Bond}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blessing of the Hearth|Cleric||Community|HWCS|1"
+				}
+			]
+		},
+		{
+			"name": "Blessing of the Hearth",
+			"source": "HWCS",
+			"page": 39,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Community",
+			"subclassSource": "HWCS",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"From 1st level, you gain the ability to conjure a small flagstone hearth with a simple iron cooking pot whenever you rest. This hearth helps warm you and your companions, and can be used to prepare hearty and nutritious meals on the road. If you or any friendly creatures you make camp with would regain hit points at the end of a short rest by spending one or more hit dice, each of those creatures may choose to re-roll one of their resting dice, taking the higher roll between the two.",
+				"Additionally, you gain proficiency with {@item Cook's Utensils|PHB}."
+			]
+		},
+		{
+			"name": "Channel Divinity: Magnificent Feast",
+			"source": "HWCS",
+			"page": 39,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Community",
+			"subclassSource": "HWCS",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you may use your Channel Divinity to conjure a magical feast for the rough road ahead. By spending 10 minutes, you may create a number of delicious, well-prepared, yet simple food items equal to your Wisdom modifier (minimum of 1). These food items will last up to 8 hours or until the end of a rest, and will never spoil. Eating food created in this way takes an action, providing whomever eats it with healing equal to {@dice 2d4} + your cleric level, and can remove either the {@condition frightened} or {@condition poisoned} condition from that creature (chosen by the creature when consumed)."
+			]
+		},
+		{
+			"name": "Channel Divinity: Community Watch",
+			"source": "HWCS",
+			"page": 39,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Community",
+			"subclassSource": "HWCS",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to instill a feeling of vigilant protection in you and your allies. You grant yourself and a number of allies, up to your Wisdom modifier (minimum of 1), a boon from your deity. Allies must be able to see you and be within 30 feet to receive the boon. Once per round, a creature benefitting from this boon can roll a {@dice d6}, adding the result to a skill check, saving throw, or attack roll. This effect lasts for a number of rounds equal to your Wisdom modifier (minimum of 1 round). A creature can only benefit from this effect if it can see at least one of its allies."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "HWCS",
+			"page": 39,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Community",
+			"subclassSource": "HWCS",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon with the power to punish wrongdoing. Once on each of your turns, when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@dice 1d8} psychic damage to the target. Visions of the evil they have wrought upon others flash before their eyes. You choose whether any foe reduced to 0 hit points by this attack remains stable or dies. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Paragon of the People",
+			"source": "HWCS",
+			"page": 39,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Community",
+			"subclassSource": "HWCS",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your Community Watch grants an additional {@dice d6} to each affected ally. It also grants immunity to fear for the duration of the effect. Additionally, your Magnificent Feast produces twice as many foodstuffs, each of which can, when consumed, remove a single curse or disease affecting the target (including attunement to a cursed item)."
+			]
+		},
+		{
+			"name": "Night Domain",
+			"source": "HWCS",
+			"page": 40,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night",
+			"subclassSource": "HWCS",
+			"level": 1,
+			"entries": [
+				"The night is mysterious, and conceals many unseen dangers. However, the cover of darkness also brings protection from predators and shadows within which one can conceal themselves. The gods of night are varied, encompassing those who would use the cover of darkness to protect others from threats, to those who would use the shadows for wrong doings. The motives of night gods are often shrouded in mystery. Many teach their followers that it is only by peering through the darkness and looking beyond what is hidden that one can attain truth. Clerics of night do their best to keep themselves and their companions safe while journeying through the darkness.",
+				{
+					"type": "table",
+					"caption": "Night Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Sleep}, {@spell Veil of Dusk|HWCS}"
+						],
+						[
+							"3rd",
+							"{@spell Darkness}, {@spell Moonbeam}"
+						],
+						[
+							"5th",
+							"{@spell Nondetection}, {@spell Globe of Twilight|HWCS}"
+						],
+						[
+							"7th",
+							"{@spell Divination}, {@spell Stellar Bodies|HWCS}"
+						],
+						[
+							"9th",
+							"{@spell Dream}, {@spell Seeming}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eye of Twilight|Cleric||Night|HWCS|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ward of Shadows|Cleric||Night|HWCS|1"
+				}
+			]
+		},
+		{
+			"name": "Eye of Twilight",
+			"source": "HWCS",
+			"page": 40,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night",
+			"subclassSource": "HWCS",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Beginning at 1st level, a divine blessing grants you the ability to see more clearly in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in magical or nonmagical darkness as if it were only dim light. You can't discern color in the darkness, only shades of gray.",
+				"When you reach 6th level, you can see in dim light within 120 feet of you as if it were bright light, and in magical or nonmagical darkness as if it were dim light. You can't discern color in the darkness, only shades of gray.",
+				"At 8th level, you can see normally in darkness, both magical and nonmagical within 120 feet.",
+				"Finally, at 17th level, your eyes are able to see the truth hiding within darkness. You gain the ability to call upon the powers of your deity to grant yourself {@sense truesight} within 120 feet of you for a number of minutes equal to your Wisdom modifier (a minimum of 1 minute). Your {@sense truesight} only functions while in conditions of magical or nonmagical darkness. Once you have used this feature, you cannot use it again until you have completed a long rest."
+			]
+		},
+		{
+			"name": "Ward of Shadows",
+			"source": "HWCS",
+			"page": 40,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night",
+			"subclassSource": "HWCS",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you can create a ward of divine shadows to conceal yourself from an attacking enemy. When attacked by a creature you can see within 30 feet of you, you can use your reaction to impose disadvantage on the attack roll, as shadows envelop your form. An attacker that can't be {@condition blinded} is immune to this feature.",
+				"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once), and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Invocation of Night",
+			"source": "HWCS",
+			"page": 40,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night",
+			"subclassSource": "HWCS",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to harness the powers of night, clouding the vision of your foes in a shroud of darkness.",
+				"As an action, you present your holy symbol causing any source of mundane or magical light within 30 feet of you to be extinguished. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature who fails the saving throw is {@condition blinded} for a number of rounds equal to your cleric level. A creature blinded in this way gets a new saving throw at the end of each of its turns to remove the effect. A creature that has total cover from you is not affected."
+			]
+		},
+		{
+			"name": "Improved Ward",
+			"source": "HWCS",
+			"page": 40,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night",
+			"subclassSource": "HWCS",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can use your Ward of Shadows feature whenever a creature you can see within 30 feet of you attacks a creature besides yourself."
+			]
+		},
+		{
+			"name": "Veil of Dreams",
+			"source": "HWCS",
+			"page": 40,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night",
+			"subclassSource": "HWCS",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"When you reach 8th level, you gain mastery over magical sleep. When you cast the {@spell sleep} spell, add your cleric level to the dice you roll to determine how many hit points of creatures the spell can affect.",
+				"You may choose the order in which creatures within the spell's area are affected. If the first target chosen has too many hit points to be affected, the spell will instead target the next creature you have chosen that the spell could affect before affecting other targets.",
+				"Additionally, any creature you put to sleep cannot be woken until the start of your next turn. Otherwise, the {@spell sleep} spell acts as normal."
+			]
+		},
+		{
+			"name": "Creature of the Night",
+			"source": "HWCS",
+			"page": 40,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night",
+			"subclassSource": "HWCS",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you can use your action to activate a supernatural aura of deep night. It lasts for 1 minute, or until you dismiss it using another action. You emit heavily obscuring darkness in a 30-foot radius and lightly obscuring shadows 50 feet beyond that. The darkness and shadows overlap and smother existing sources of light. Only light produced by a 9th level spell or similarly powerful effect can negate the darkness and shadows.",
+				"Enemies within the shadows constantly feel the presence of hungry predators watching them, and become {@condition frightened} as long as they remain inside the affected area. Enemies in the darkness are both {@condition blinded} and {@condition frightened} for as long as they remain within its area."
+			]
+		},
+		{
+			"name": "Knowledge Domain",
+			"source": "PHB",
+			"page": 59,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "PHB",
+			"level": 1,
+			"entries": [
+				"The gods of knowledge—including {@deity Oghma}, {@deity Boccob|Greyhawk}, {@deity Gilean|Dragonlance}, {@deity Aureon|Eberron}, and {@deity Thoth|Egyptian}—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like {@deity Gond}, {@deity Reorx|Dragonlance}, {@deity Onatar|Eberron}, {@deity Moradin|Nonhuman}, {@deity Hephaestus|Greek}, and {@deity Goibhniu|Celtic}.",
+				"在每一个指定的牧师级别，你将列出的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Knowledge Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell command}, {@spell identify}"
+						],
+						[
+							"3rd",
+							"{@spell augury}, {@spell suggestion}"
+						],
+						[
+							"5th",
+							"{@spell nondetection}, {@spell speak with dead}"
+						],
+						[
+							"7th",
+							"{@spell arcane eye}, {@spell confusion}"
+						],
+						[
+							"9th",
+							"{@spell legend lore}, {@spell scrying}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blessings of Knowledge|Cleric||Knowledge||1"
+				}
+			]
+		},
+		{
+			"name": "Blessings of Knowledge",
+			"source": "PHB",
+			"page": 59,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}.",
+				"在你使用这些技能的任何能力检查中，你的熟练度加成都会翻倍。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Knowledge of the Ages",
+			"source": "PHB",
+			"page": 59,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的 \"神性通道 \"来挖掘神圣的知识井。作为一个动作，你选择一个技能或工具。在10分钟内，你可以熟练掌握所选的技能或工具。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Read Thoughts",
+			"source": "PHB",
+			"page": 59,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"在6级时，你可以使用你的通道神性来读取一个生物的思想。然后你可以利用你对该生物的思想的访问来指挥它。",
+				"作为一个行动，选择一个你能看到的60英尺范围内的生物。该生物必须做一个智慧救赎动作。如果该生物救赎成功，你就不能再对它使用这一特性，直到你完成一个长时休息。",
+				"如果该生物的救赎失败，当它在你60英尺范围内时，你可以读取它的表面思想（那些在它脑海中最重要的思想，反映了它当前的情绪和它正在积极思考的问题）。这个效果持续1分钟。",
+				"During that time, you can use your action to end this effect and cast the {@spell suggestion} spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "PHB",
+			"page": 59,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "PHB",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"从第8级开始，你在使用任何牧师咒语的伤害上加上你的智慧修饰。"
+			]
+		},
+		{
+			"name": "Visions of the Past",
+			"source": "PHB",
+			"page": 59,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain {@status concentration} during that time, as if you were casting a spell.",
+				"一旦你使用了这个功能，你就不能再使用它，直到你完成一个短期或长期的休息。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Object Reading",
+							"entries": [
+								"冥想时手持物品，你可以看到该物品前主人的幻象。冥想1分钟后，你会了解物主是如何获得和失去该物品的，以及涉及该物品和该物主的最近的重大事件。如果该物品在最近被另一个生物所拥有（在与你的智慧分数相等的天数内），你可以为每个拥有者额外花费1分钟来了解有关该生物的相同信息。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Area Reading",
+							"entries": [
+								"当你冥想时，你会看到你附近（一个房间、街道、隧道、空地或类似的地方，最多50英尺的立方体）最近发生的事件的幻象，追溯到与你的智慧值相等的天数。你每冥想一分钟，你就会了解一个重要的事件，从最近的开始。重大事件通常涉及强烈的情感，比如战斗和背叛、婚姻和谋杀、出生和葬礼。然而，它们也可能包括更多的世俗事件，但在你目前的情况下却很重要。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Life Domain",
+			"source": "PHB",
+			"page": 60,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Life",
+			"subclassSource": "PHB",
+			"level": 1,
+			"entries": [
+				"The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as {@deity Chauntea}, {@deity Arawai|Eberron}, and {@deity Demeter|Greek}), sun gods (such as {@deity Lathander}, {@deity Pelor|Greyhawk}, and {@deity Re-Horakhty|Egyptian}), gods of healing or endurance (such as {@deity Ilmater}, {@deity Mishakal|Dragonlance}, {@deity Apollo|Greek}, and {@deity Diancecht|Celtic}), and gods of home and community (such as {@deity Hestia|Greek}, {@deity Hathor|Egyptian}, and {@deity Boldrei|Eberron}).",
+				"在每一个指定的牧师级别，你将列出的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Life Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell bless}, {@spell cure wounds}"
+						],
+						[
+							"3rd",
+							"{@spell lesser restoration}, {@spell spiritual weapon}"
+						],
+						[
+							"5th",
+							"{@spell beacon of hope}, {@spell revivify}"
+						],
+						[
+							"7th",
+							"{@spell death ward}, {@spell guardian of faith}"
+						],
+						[
+							"9th",
+							"{@spell mass cure wounds}, {@spell raise dead}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Life||1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Disciple of Life|Cleric||Life||1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "PHB",
+			"page": 60,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Life",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"当你在一阶选择这个领域时，你获得对重甲的熟练度。"
+			]
+		},
+		{
+			"name": "Disciple of Life",
+			"source": "PHB",
+			"page": 60,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Life",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"同样从1级开始，你的治疗法术更加有效。每当你使用一个1级或以上的法术来恢复一个生物的命中率时，该生物会重新获得相当于2+该法术等级的额外命中率。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Preserve Life",
+			"source": "PHB",
+			"page": 60,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Life",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神力来治疗重伤者。",
+				"作为一个行动，你展示你的神圣符号并唤起治疗能量，可以恢复相当于你牧师等级五倍的命中率。选择你周围30英尺内的任何生物，并将这些命中率分给他们。这个功能可以使一个生物恢复到不超过其最大命中率的一半。你不能对不死生物或结构体使用此功能。"
+			]
+		},
+		{
+			"name": "Blessed Healer",
+			"source": "PHB",
+			"page": 60,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Life",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你对他人施展的治疗法术也能治疗你。当你施展一个1级或更高等级的法术来恢复你以外的生物的命中率时，你恢复的命中率等于2+该法术的等级。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Life",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "PHB",
+			"page": 60,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Life",
+			"subclassSource": "PHB",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} radiant damage to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Supreme Healing",
+			"source": "PHB",
+			"page": 60,
+			"srd": true,
+			"basicRules": true,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Life",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring {@dice 2d6} hit points to a creature, you restore 12."
+			]
+		},
+		{
+			"name": "Light Domain",
+			"source": "PHB",
+			"page": 60,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Light",
+			"subclassSource": "PHB",
+			"level": 1,
+			"entries": [
+				"Gods of light—including {@deity Helm}, {@deity Lathander}, {@deity Pholtus|Greyhawk}, {@deity Branchala|Dragonlance}, {@deity the Silver Flame|Eberron}, {@deity Belenus|Celtic}, {@deity Apollo|Greek}, and {@deity Re-Horakhty|Egyptian}—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.",
+				"在每一个指定的牧师级别，你将列出的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Light Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell burning hands}, {@spell faerie fire}"
+						],
+						[
+							"3rd",
+							"{@spell flaming sphere}, {@spell scorching ray}"
+						],
+						[
+							"5th",
+							"{@spell daylight}, {@spell fireball}"
+						],
+						[
+							"7th",
+							"{@spell guardian of faith}, {@spell wall of fire}"
+						],
+						[
+							"9th",
+							"{@spell flame strike}, {@spell scrying}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Cleric||Light||1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Warding Flare|Cleric||Light||1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Cantrip",
+			"source": "PHB",
+			"page": 60,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Light",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you gain the {@spell light} cantrip if you don't already know it. This cantrip doesn't count against the number of cleric cantrips you know."
+			]
+		},
+		{
+			"name": "Warding Flare",
+			"source": "PHB",
+			"page": 60,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Light",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be {@condition blinded} is immune to this feature.",
+				"你可以使用这个功能的次数与你的智慧修饰值相等（最少一次）。当你完成一个长时间的休息时，你会重新获得所有已消耗的使用次数。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Radiance of the Dawn",
+			"source": "PHB",
+			"page": 60,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Light",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神性来驾驭阳光，驱逐黑暗并对你的敌人造成辐射伤害。",
+				"As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to {@dice 2d10} + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected."
+			]
+		},
+		{
+			"name": "Improved Flare",
+			"source": "PHB",
+			"page": 60,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Light",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，当你能看到的30英尺范围内的生物攻击你以外的生物时，你也可以使用你的守护光辉功能。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Light",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "PHB",
+			"page": 60,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Light",
+			"subclassSource": "PHB",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"从第8级开始，你在使用任何牧师咒语的伤害上加上你的智慧修饰。"
+			]
+		},
+		{
+			"name": "Corona of Light",
+			"source": "PHB",
+			"page": 60,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Light",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"从17级开始，你可以用你的行动激活一个阳光光环，持续1分钟或直到你用其他行动解除它。你在半径60英尺的范围内发出亮光，在半径30英尺以外发出暗光。你的敌人在强光下对任何造成火焰或辐射伤害的法术都有不利的判断。"
+			]
+		},
+		{
+			"name": "Nature Domain",
+			"source": "PHB",
+			"page": 61,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Nature",
+			"subclassSource": "PHB",
+			"level": 1,
+			"entries": [
+				"Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as {@deity Silvanus}, {@deity Obad-Hai|Greyhawk}, {@deity Chislev|Dragonlance}, {@deity Balinor|Eberron}, and {@deity Pan|Greek}) to friendly deities associated with particular springs and groves (such as {@deity Eldath}). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.",
+				"在每一个指定的牧师级别，你将列出的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Nature Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell animal friendship}, {@spell speak with animals}"
+						],
+						[
+							"3rd",
+							"{@spell barkskin}, {@spell spike growth}"
+						],
+						[
+							"5th",
+							"{@spell plant growth}, {@spell wind wall}"
+						],
+						[
+							"7th",
+							"{@spell dominate beast}, {@spell grasping vine}"
+						],
+						[
+							"9th",
+							"{@spell insect plague}, {@spell tree stride}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Acolyte of Nature|Cleric||Nature||1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Nature||1"
+				}
+			]
+		},
+		{
+			"name": "Acolyte of Nature",
+			"source": "PHB",
+			"page": 61,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Nature",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you learn one druid cantrip of your choice. This cantrip doesn't count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Nature}, or {@skill Survival}."
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "PHB",
+			"page": 61,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Nature",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"同样在1级，你获得对重甲的熟练度。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Charm Animals and Plants",
+			"source": "PHB",
+			"page": 61,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Nature",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神力来魅惑动物和植物。",
+				"As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is {@condition charmed} by you for 1 minute or until it takes damage. While it is {@condition charmed} by you, it is friendly to you and other creatures you designate."
+			]
+		},
+		{
+			"name": "Dampen Elements",
+			"source": "PHB",
+			"page": 61,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Nature",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，当你或你周围30英尺内的生物受到酸、冷、火、闪电或雷的伤害时，你可以用你的反应来赋予生物对该次伤害的抵抗力。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Nature",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "PHB",
+			"page": 61,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Nature",
+			"subclassSource": "PHB",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Master of Nature",
+			"source": "PHB",
+			"page": 61,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Nature",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you gain the ability to command animals and plant creatures. While creatures are {@condition charmed} by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."
+			]
+		},
+		{
+			"name": "Tempest Domain",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Tempest",
+			"subclassSource": "PHB",
+			"level": 1,
+			"entries": [
+				"Gods whose portfolios include the Tempest domain—including {@deity Talos}, {@deity Umberlee}, {@deity Kord|Greyhawk}, {@deity Zeboim|Dragonlance}, {@deity the Devourer|Eberron}, {@deity Zeus|Greek}, and {@deity Thor|Norse}—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.",
+				"在每一个指定的牧师级别，你将列出的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Tempest Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell fog cloud}, {@spell thunderwave}"
+						],
+						[
+							"3rd",
+							"{@spell gust of wind}, {@spell shatter}"
+						],
+						[
+							"5th",
+							"{@spell call lightning}, {@spell sleet storm}"
+						],
+						[
+							"7th",
+							"{@spell control water}, {@spell ice storm}"
+						],
+						[
+							"9th",
+							"{@spell destructive wave}, {@spell insect plague}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||Tempest||1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wrath of the Storm|Cleric||Tempest||1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Tempest",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"1级时，你获得对武术武器和重甲的熟练度。"
+			]
+		},
+		{
+			"name": "Wrath of the Storm",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Tempest",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes {@damage 2d8} lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.",
+				"你可以使用这个功能的次数与你的智慧修饰值相等（最少一次）。当你完成一个长时间的休息时，你会重新获得所有已消耗的使用次数。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Destructive Wrath",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Tempest",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神性来挥舞风暴的力量，不受限制的凶猛。",
+				"当你掷出闪电或雷电伤害时，你可以使用你的通道神性来造成最大的伤害，而不是滚动。"
+			]
+		},
+		{
+			"name": "Thunderbolt Strike",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Tempest",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，当你对一个大型或小型生物造成闪电伤害时，你也可以将它推到离你10英尺远的地方。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Tempest",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Tempest",
+			"subclassSource": "PHB",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} thunder damage to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Stormborn",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Tempest",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，只要你不在地下或室内，你的飞行速度就等于你当前的步行速度。"
+			]
+		},
+		{
+			"name": "Trickery Domain",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trickery",
+			"subclassSource": "PHB",
+			"level": 1,
+			"entries": [
+				"Gods of trickery—such as {@deity Tymora}, {@deity Beshaba}, {@deity Olidammara|Greyhawk}, {@deity the Traveler|Eberron}, {@deity Garl Glittergold|Nonhuman}, and {@deity Loki|Norse}—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.",
+				"在每一个指定的牧师级别，你将列出的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Trickery Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell charm person}, {@spell disguise self}"
+						],
+						[
+							"3rd",
+							"{@spell mirror image}, {@spell pass without trace}"
+						],
+						[
+							"5th",
+							"{@spell blink}, {@spell dispel magic}"
+						],
+						[
+							"7th",
+							"{@spell dimension door}, {@spell polymorph}"
+						],
+						[
+							"9th",
+							"{@spell dominate person}, {@spell modify memory}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blessing of the Trickster|Cleric||Trickery||1"
+				}
+			]
+		},
+		{
+			"name": "Blessing of the Trickster",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trickery",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity ({@skill Stealth}) checks. This blessing lasts for 1 hour or until you use this feature again."
+			]
+		},
+		{
+			"name": "Channel Divinity: Invoke Duplicity",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trickery",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神性来创造一个自己的虚幻副本。",
+				"As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
+				"在持续时间内，你可以像在幻象的空间内一样施法，但你必须使用自己的感官。此外，当你和你的幻象都在一个能看到幻象的生物的5英尺范围内时，考虑到幻象对目标的分心程度，你在对该生物的攻击卷中具有优势。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Cloak of Shadows",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trickery",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从6级开始，你可以使用你的通道神性来消失。",
+				"As an action, you become {@condition invisible} until the end of your next turn. You become visible if you attack or cast a spell."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trickery",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trickery",
+			"subclassSource": "PHB",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with poison—a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} poison damage to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Improved Duplicity",
+			"source": "PHB",
+			"page": 62,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Trickery",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，当你使用 \"召唤复制 \"时，你最多可以创造四个自己的复制体，而不是一个。作为你回合的额外行动，你可以移动任何数量的复制体，最多 30 英尺，最大范围为 120 英尺。"
+			]
+		},
+		{
+			"name": "War Domain",
+			"source": "PHB",
+			"page": 63,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "War",
+			"subclassSource": "PHB",
+			"level": 1,
+			"entries": [
+				"War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as {@deity Torm}, {@deity Heironeous|Greyhawk}, and {@deity Kiri-Jolith|Dragonlance}) as well as gods of destruction and pillage (such as {@deity Erythnul|Greyhawk}, {@deity the Fury|Eberron}, {@deity Gruumsh|Nonhuman}, and {@deity Ares|Greek}) and gods of conquest and domination (such as {@deity Bane}, {@deity Hextor|Greyhawk}, and {@deity Maglubiyet|Nonhuman}). Other war gods (such as {@deity Tempus}, {@deity Nike|Greek}, and {@deity Nuada|Celtic}) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.",
+				"在每个指定的牧师级别，将所列的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "War Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell divine favor}, {@spell shield of faith}"
+						],
+						[
+							"3rd",
+							"{@spell magic weapon}, {@spell spiritual weapon}"
+						],
+						[
+							"5th",
+							"{@spell crusader's mantle}, {@spell spirit guardians}"
+						],
+						[
+							"7th",
+							"{@spell freedom of movement}, {@spell stoneskin}"
+						],
+						[
+							"9th",
+							"{@spell flame strike}, {@spell hold monster}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||War||1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "War Priest|Cleric||War||1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "PHB",
+			"page": 63,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "War",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"1级时，你获得对武术武器和重甲的熟练度。"
+			]
+		},
+		{
+			"name": "War Priest",
+			"source": "PHB",
+			"page": 63,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "War",
+			"subclassSource": "PHB",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attack} action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Guided Strike",
+			"source": "PHB",
+			"page": 63,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "War",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+			]
+		},
+		{
+			"name": "Channel Divinity: War God's Blessing",
+			"source": "PHB",
+			"page": 63,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "War",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "War",
+			"subclassSource": "PHB",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "PHB",
+			"page": 63,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "War",
+			"subclassSource": "PHB",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Avatar of Battle",
+			"source": "PHB",
+			"page": 63,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "War",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你获得对来自非魔法攻击的重击、穿刺和切割伤害的抵抗。"
+			]
+		},
+		{
+			"name": "Ambition Domain (PSA)",
+			"source": "PSA",
+			"page": 27,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Ambition (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"值得尊敬者应该努力追求伟大——生命中的至高无上会引领通往来世的至高无上。"
+					]
+				},
+				"邦图已经完全接受了这一箴言，虽然她没有花什么力气来教导它，但她肯定以身作则。她的大臣们巧妙地播下种子，使其开花结果，成为神-法老所期望的雄心壮志。通过暗示，他们提醒信徒和入门者，以牺牲他人的利益来实现自己在来世的地位并不可耻，而是证明了入门者的决心和动力。他们建议，没有什么比这种动力更重要，不是作物的纽带，不是友谊或爱情。甚至对神灵的奉献也不重要。",
+				"在每个指定的牧师级别，将所列的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Ambition Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell bane}, {@spell disguise self}"
+						],
+						[
+							"3rd",
+							"{@spell mirror image}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell bestow curse}, {@spell vampiric touch}"
+						],
+						[
+							"7th",
+							"{@spell death ward}, {@spell dimension door}"
+						],
+						[
+							"9th",
+							"{@spell dominate person}, {@spell modify memory}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Warding Flare|Cleric||Ambition (PSA)|PSA|1"
+				}
+			]
+		},
+		{
+			"name": "Warding Flare",
+			"source": "PSA",
+			"page": 27,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Ambition (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be {@condition blinded} is immune to this feature.",
+				"你可以使用这个功能的次数与你的智慧修饰值相等（最少一次）。当你完成一个长时间的休息时，你会重新获得所有已消耗的使用次数。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Invoke Duplicity",
+			"source": "PSA",
+			"page": 27,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Ambition (PSA)",
+			"subclassSource": "PSA",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神性来创造一个自己的虚幻副本。",
+				"As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
+				"在持续时间内，你可以像在幻象的空间内一样施法，但你必须使用自己的感官。此外，当你和你的幻象都在一个能看到幻象的生物的5英尺范围内时，考虑到幻象对目标的分心程度，你在对该生物的攻击卷中具有优势。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Cloak of Shadows",
+			"source": "PSA",
+			"page": 27,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Ambition (PSA)",
+			"subclassSource": "PSA",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to vanish. As an action, you become {@condition invisible} until the end of your next turn. You become visible if you attack or cast a spell."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Ambition (PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "PSA",
+			"page": 27,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Ambition (PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"从第8级开始，你在使用任何牧师咒语的伤害上加上你的智慧修饰。"
+			]
+		},
+		{
+			"name": "Improved Duplicity",
+			"source": "PSA",
+			"page": 27,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Ambition (PSA)",
+			"subclassSource": "PSA",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，当你使用 \"召唤复制 \"时，你最多可以创造四个自己的复制体，而不是一个。作为你回合的额外行动，你可以移动任何数量的复制体，最多 30 英尺，最大范围为 120 英尺。"
+			]
+		},
+		{
+			"name": "Knowledge Domain (PSA)",
+			"source": "PSA",
+			"page": 25,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Knowledge (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"值得的人应培养敏捷的头脑，能够感知在来世等待着的超乎想象的奇迹。"
+					]
+				},
+				"Kefnet's task is to pass on this teaching of the God-Pharaoh and elucidate its meaning. He teaches that the afterlife will be inhabited only by those who have proved by their wits that they are worthy of dwelling in the glorious presence of the God-Pharaoh. He trains acolytes and initiates to push their limits and challenge their mental capacity with spells of ever-greater power.",
+				"Kefnet's domain is identical to the {@class Cleric|PHB|Knowledge domain in the Player's Handbook|Knowledge|PHB}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Knowledge Domain|Cleric||Knowledge||1"
+				}
+			]
+		},
+		{
+			"name": "Solidarity Domain (PSA)",
+			"source": "PSA",
+			"page": 24,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Solidarity (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"凡得到太阳法老认可的人，都必须了解并尊重其他值得的人，因为在来世，所有人将团结一致，同心协力。"
+					]
+				},
+				"Oketra is charged with expounding upon this teaching of the God-Pharaoh, instilling in every initiate the virtue of solidarity. She forges each group of children into a crop of acolytes with just one purpose: to be judged worthy of a glorious afterlife. And she instills in each crop the ability to unite in a single action in pursuit of that purpose. She is fond of poetic imagery to communicate her ideals.",
+				"在每个指定的牧师级别，将所列的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Solidarity Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell bless}, {@spell guiding bolt}"
+						],
+						[
+							"3rd",
+							"{@spell aid}, {@spell warding bond}"
+						],
+						[
+							"5th",
+							"{@spell beacon of hope}, {@spell crusader's mantle}"
+						],
+						[
+							"7th",
+							"{@spell aura of life}, {@spell guardian of faith}"
+						],
+						[
+							"9th",
+							"{@spell circle of power}, {@spell mass cure wounds}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Solidarity (PSA)|PSA|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Solidarity's Action|Cleric||Solidarity (PSA)|PSA|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "PSA",
+			"page": 24,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Solidarity (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"当你在一阶选择这个领域时，你获得对重甲的熟练度。"
+			]
+		},
+		{
+			"name": "Solidarity's Action",
+			"source": "PSA",
+			"page": 24,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Solidarity (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, when you take the {@action Help} action to aid an ally's attack, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Preserve Life",
+			"source": "PSA",
+			"page": 24,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Solidarity (PSA)",
+			"subclassSource": "PSA",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神力来治疗重伤者。",
+				"作为一个行动，你展示你的神圣符号并唤起治疗能量，可以恢复相当于你牧师等级五倍的命中率。选择你周围30英尺内的任何生物，并将这些命中率分给他们。这个功能可以使一个生物恢复到不超过其最大命中率的一半。你不能对不死生物或结构体使用此功能。"
+			]
+		},
+		{
+			"name": "Oketra's Blessing",
+			"source": "PSA",
+			"page": 24,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Solidarity (PSA)",
+			"subclassSource": "PSA",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Solidarity (PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "PSA",
+			"page": 24,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Solidarity (PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Supreme Healing",
+			"source": "PSA",
+			"page": 24,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Solidarity (PSA)",
+			"subclassSource": "PSA",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring {@dice 2d6} hit points to a creature, you restore 12."
+			]
+		},
+		{
+			"name": "Strength Domain (PSA)",
+			"source": "PSA",
+			"page": 26,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Strength (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"值得信任的人应锻炼强健的身体，能够抵御来自来世无穷尽能量的冲击。"
+					]
+				},
+				"向那些将进入来世的人灌输这一教导的任务落在了罗纳斯身上--但在他看来，这些话本身并不重要。力量是教不来的。它必须通过实践和训练来建立。罗纳斯通过他的榜样来证明他的教义，而不是给他的学生任何形式的学术指导。他欢迎纳克塔蒙的人们站在赫克马身边，看着他冲进沙漠与最可怕的东西战斗。他鼓励他们观察他不屈不挠的力量，因为虽然他们永远无法与之相比，但他们可以渴望模仿。他邀请他们仔细观察每一个动作，并实践他们所看到的东西。",
+				"在每个指定的牧师级别，将所列的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Strength Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell divine favor}, {@spell shield of faith}"
+						],
+						[
+							"3rd",
+							"{@spell enhance ability}, {@spell protection from poison}"
+						],
+						[
+							"5th",
+							"{@spell haste}, {@spell protection from energy}"
+						],
+						[
+							"7th",
+							"{@spell dominate beast}, {@spell stoneskin}"
+						],
+						[
+							"9th",
+							"{@spell destructive wave}, {@spell insect plague}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Acolyte of Strength|Cleric||Strength (PSA)|PSA|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Strength (PSA)|PSA|1"
+				}
+			]
+		},
+		{
+			"name": "Acolyte of Strength",
+			"source": "PSA",
+			"page": 26,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Strength (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Athletics}, {@skill Nature}, or {@skill Survival}."
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "PSA",
+			"page": 26,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Strength (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"同样在1级，你获得对重甲的熟练度。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Feat of Strength",
+			"source": "PSA",
+			"page": 26,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Strength (PSA)",
+			"subclassSource": "PSA",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"At 2nd level, you can use your Channel Divinity to enhance your physical might. When you make an attack roll, ability check, or saving throw using Strength, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fails."
+			]
+		},
+		{
+			"name": "Rhonas's Blessing",
+			"source": "PSA",
+			"page": 26,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Strength (PSA)",
+			"subclassSource": "PSA",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, when a creature within 30 feet of you makes an attack roll, ability check, or saving throw using Strength, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fail."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Strength (PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "PSA",
+			"page": 26,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Strength (PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Avatar of Battle",
+			"source": "PSA",
+			"page": 26,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Strength (PSA)",
+			"subclassSource": "PSA",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你获得对来自非魔法攻击的重击、穿刺和切割伤害的抵抗。"
+			]
+		},
+		{
+			"name": "Zeal Domain (PSA)",
+			"source": "PSA",
+			"page": 28,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Zeal (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"那些有资质的人将怀着无尽的热忱冲向神法老身边，不屈不挠地克服路途中的每一个障碍。"
+					]
+				},
+				"神-法老期望那些他欢迎进入来世的人对它的渴望超过所有其他的快乐和成就，并期望他们通过他们的行动来显示他们的奉献、激情和狂热。哈佐雷特负责培养在她照料下的入门者的这种热情，她以适当的热情承担了这项任务。然而，她认识到，教导热情的最佳方式是通过展示它。",
+				"在每个指定的牧师级别，将所列的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Zeal Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell searing smite}, {@spell thunderous smite}"
+						],
+						[
+							"3rd",
+							"{@spell magic weapon}, {@spell shatter}"
+						],
+						[
+							"5th",
+							"{@spell haste}, {@spell fireball}"
+						],
+						[
+							"7th",
+							"{@spell fire shield||fire shield (warm shield only)}, {@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell destructive wave}, {@spell flame strike}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||Zeal (PSA)|PSA|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Priest of Zeal|Cleric||Zeal (PSA)|PSA|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "PSA",
+			"page": 28,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Zeal (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"1级时，你获得对武术武器和重甲的熟练度。"
+			]
+		},
+		{
+			"name": "Priest of Zeal",
+			"source": "PSA",
+			"page": 28,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Zeal (PSA)",
+			"subclassSource": "PSA",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"From 1st level, Hazoret delivers bolts of inspiration to you while you are engaged in battle. When you use the {@action Attack} action, you can make one weapon attack as a bonus action.",
+				"你可以使用这个功能的次数与你的智慧修饰值相等（最少一次）。当你完成一个长时间的休息时，你会重新获得所有已消耗的使用次数。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Consuming Fervor",
+			"source": "PSA",
+			"page": 28,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Zeal (PSA)",
+			"subclassSource": "PSA",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神性，将你的热情转化为不受约束的凶猛。",
+				"当你掷出火或雷的伤害时，你可以使用你的通道神性来造成最大伤害，而不是掷出。"
+			]
+		},
+		{
+			"name": "Resounding Strike",
+			"source": "PSA",
+			"page": 28,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Zeal (PSA)",
+			"subclassSource": "PSA",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，当你对一个大型或小型生物造成雷霆伤害时，你也可以将它推到离你10英尺远的地方。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Zeal (PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "PSA",
+			"page": 28,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Zeal (PSA)",
+			"subclassSource": "PSA",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Blaze of Glory",
+			"source": "PSA",
+			"page": 28,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Zeal (PSA)",
+			"subclassSource": "PSA",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"从17级开始，你可以将死亡延迟一瞬间，以进行最后的英雄行为。",
+				"When you are reduced to 0 hit points by an attacker you can see, even if you would be killed outright, you can use your reaction to move up to your speed toward the attacker and make one melee weapon attack against it, as long as the movement brings it within your reach. You make this attack with advantage. If the attack hits, the creature takes an extra {@damage 5d10} fire damage and an extra {@damage 5d10} damage of the weapon's type. You then fall {@condition unconscious} and begin making death saving throws as normal, or you die if the damage you took would have killed you outright.",
+				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
+			]
+		},
+		{
+			"name": "Arcana Domain",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"entries": [
+				"魔法是一种充斥着多元宇宙的能量，它为破坏和创造提供动力。阿卡纳领域的诸神对魔法的秘密和潜力有着深刻的了解。对其中一些神来说，魔法知识是一种巨大的责任，它伴随着对现实本质的特殊理解。其他阿卡纳之神将魔法视为纯粹的力量，可以按照施法者认为合适的方式使用。",
+				"The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include {@deity Azuth|Faerûnian|SCAG} and {@deity Mystra|Faerûnian|SCAG}, as well as {@deity Corellon Larethian|Elven|SCAG} of the elven pantheon. In other worlds, this domain includes {@deity Hecate|Greek}, {@deity Math Mathonwy|Celtic}, and {@deity Isis|Egyptian}; the triple moon gods of {@deity Solinari|Dragonlance}, {@deity Lunitari|Dragonlance}, and {@deity Nuitari|Dragonlance} of Krynn; and {@deity Boccob|Greyhawk}, {@deity Vecna|Greyhawk}, and {@deity Wee Jas|Greyhawk} of Greyhawk.",
+				"在每个指定的牧师等级，将列出的法术加入你的法术准备。它们不计入你的极限。",
+				{
+					"type": "table",
+					"caption": "Arcana Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell detect magic}, {@spell magic missile}"
+						],
+						[
+							"3rd",
+							"{@spell magic weapon}, {@spell Nystul's magic aura}"
+						],
+						[
+							"5th",
+							"{@spell dispel magic}, {@spell magic circle}"
+						],
+						[
+							"7th",
+							"{@spell arcane eye}, {@spell Leomund's secret chest}"
+						],
+						[
+							"9th",
+							"{@spell planar binding}, {@spell teleportation circle}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Initiate|Cleric||Arcana|SCAG|1"
+				}
+			]
+		},
+		{
+			"name": "Arcane Initiate",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency in the {@skill Arcana} skill, and you gain two cantrips of your choice from the {@filter wizard spell list|spells|class=wizard|level=0}. For you, these cantrips count as cleric cantrips."
+			]
+		},
+		{
+			"name": "Channel Divinity: Arcane Abjuration",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神性来驱除其他世界的生物。",
+				"作为一个行动，你展示你的神圣符号，在你30英尺范围内的一个天人、元素、妖怪或魔物必须进行智慧救赎，条件是该生物能看到或听到你。如果该生物没有完成蓄力投掷，它将被转化为1分钟或直到它受到任何伤害。",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the {@action Dodge} action.",
+				"After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the {@spell banishment} spell, no {@status concentration} required) if it isn't on its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.",
+				{
+					"type": "table",
+					"caption": "Arcane Banishment",
+					"colLabels": [
+						"Cleric level",
+						"Banishes Creatures of CR..."
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"5th",
+							"1/2或更低"
+						],
+						[
+							"8th",
+							"1或更低"
+						],
+						[
+							"11th",
+							"2或更低"
+						],
+						[
+							"14th",
+							"3或更低"
+						],
+						[
+							"17th",
+							"4或更低"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Breaker",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，当你用1级或以上的法术为盟友恢复命中率时，你也可以结束你在该生物身上选择的一个法术。你结束的法术的等级必须等于或低于你用来施展治疗法术的法术槽的等级。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"从第8级开始，你在使用任何牧师咒语的伤害上加上你的智慧修饰。"
+			]
+		},
+		{
+			"name": "Arcane Mastery",
+			"source": "SCAG",
+			"page": 125,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "SCAG",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you choose four spells from the Wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you."
+			]
+		},
+		{
+			"name": "Order Domain",
+			"source": "TCE",
+			"page": 31,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 25
+				}
+			],
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "TCE",
+			"level": 1,
+			"entries": [
+				"The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. On Ravnica, the domain is favored by clerics of the Azorius Senate, who use it to maintain and enforce the law, and of the Orzhov Syndicate, who exploit law and order for their personal gain. On other worlds, gods who grant access to this domain include {@deity Bane}, {@deity Tyr}, {@deity Majere|Dragonlance}, {@deity Erathis|Dawn War|DMG}, {@deity Pholtus|Greyhawk}, {@deity Wee Jas|Greyhawk}, {@deity Aureon|Eberron}, {@deity Maglubiyet|Nonhuman}, {@deity Nuada|Celtic}, {@deity Athena|Greek}, {@deity Anubis|Egyptian}, {@deity Forseti|Norse}, and {@deity Asmodeus|Dawn War|DMG}.",
+				"秩序的理想是对法律的服从高于一切，而不是对特定的个人或情感或民众统治的短暂影响。秩序教士通常关注的是事情如何完成，而不是一个行动的结果是否公正。遵守法律和服从法律的命令是至关重要的，特别是当它有利于这些教士和他们的公会或神灵时。",
+				"法律建立了等级制度。那些被法律选中的领导必须被服从。那些服从的人必须尽最大努力去做。以这种方式，法律创造了一个错综复杂的义务网，使社会在混乱的多元宇宙中形成秩序和安全。",
+				"在每一个指定的牧师级别，你将列出的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Order Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell command}, {@spell heroism}"
+						],
+						[
+							"3rd",
+							"{@spell hold person}, {@spell zone of truth}"
+						],
+						[
+							"5th",
+							"{@spell mass healing word}, {@spell slow}"
+						],
+						[
+							"7th",
+							"{@spell compulsion}, {@spell locate creature}"
+						],
+						[
+							"9th",
+							"{@spell commune}, {@spell dominate person}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||Order|TCE|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Voice of Authority|Cleric||Order|TCE|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "TCE",
+			"page": 31,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 25
+				}
+			],
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "TCE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency with heavy armor. You also gain proficiency in the {@skill Intimidation} or {@skill Persuasion} skill (your choice)."
+			]
+		},
+		{
+			"name": "Voice of Authority",
+			"source": "TCE",
+			"page": 31,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 25
+				}
+			],
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "TCE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"从1级开始，你可以调用法律的力量来驱动一个盟友进行攻击。如果你用1级以上的法术槽施法，并以盟友为目标，该盟友可以在施法后立即使用他们的反应，对你选择的、你能看到的生物进行一次武器攻击。",
+				"如果该法术的目标是一个以上的盟友，你选择可以进行攻击的盟友。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Order's Demand",
+			"source": "TCE",
+			"page": 31,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 25
+				}
+			],
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神性对他人施加一种威慑力。",
+				"As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be {@condition charmed} by you until the end of your next turn or until the {@condition charmed} creature takes any damage. You can also cause any of the {@condition charmed} creatures to drop what they are holding when they fail the saving throw."
+			]
+		},
+		{
+			"name": "Embodiment of the Law",
+			"source": "TCE",
+			"page": 31,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 25
+				}
+			],
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"6级时，你变得非常善于引导魔法能量来蛊惑他人。",
+				"如果你使用一级或以上的法术槽施展魔法学派的法术，你可以将该法术的施法时间改为此次施法的1个额外行动，只要该法术的施法时间通常是1个行动。",
+				"你可以使用这个功能的次数等于你的智慧修改器（最少一次），当你完成一个长时间的休息时，你会重新获得所有消耗的功能。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 31,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "TCE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "TCE",
+			"page": 31,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 25
+				}
+			],
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "TCE",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} psychic damage to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Order's Wrath",
+			"source": "TCE",
+			"page": 31,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 25
+				}
+			],
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "TCE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes {@damage 2d8} psychic damage, and the curse ends. You can curse a creature in this way only once per turn."
+			]
+		},
+		{
+			"name": "Peace Domain",
+			"source": "TCE",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "TCE",
+			"level": 1,
+			"entries": [
+				"和平的药膏在健康社区的中心、友好国家之间以及心地善良的人的灵魂中茁壮成长。和平之神激励各种人解决冲突，反对那些试图阻止和平繁荣的力量。请参阅和平神明表，了解与该领域相关的一些神明的名单。",
+				"和平领域的神职人员主持条约的签署，他们经常被要求对争端进行仲裁。这些神职人员的祝福将人们聚集在一起，帮助他们承担彼此的负担，神职人员的魔法帮助那些被驱使为和平之路而战斗的人。",
+				{
+					"type": "table",
+					"caption": "Peace Deities",
+					"colLabels": [
+						"Example Deity",
+						"Pantheon"
+					],
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"{@deity Angharradh|Elven|SCAG}",
+							"精灵族"
+						],
+						[
+							"{@deity Berronar Truesilver|Dwarven|SCAG}",
+							"矮人族"
+						],
+						[
+							"{@deity Boldrei|Eberron}",
+							"艾伯伦"
+						],
+						[
+							"{@deity Cyrrollalee|Halfling|SCAG}",
+							"半身人"
+						],
+						[
+							"{@deity Eldath}",
+							"被遗忘的国度"
+						],
+						[
+							"{@deity Gaerdal Ironhand|Gnomish|SCAG}",
+							"Gnomish"
+						],
+						[
+							"{@deity Paladine|Dragonlance}",
+							"龙之谷"
+						],
+						[
+							"{@deity Rao|Greyhawk}",
+							"格雷霍克"
+						]
+					]
+				},
+				{
+					"name": "Domain Spells",
+					"type": "entries",
+					"entries": [
+						"{@i 1st-level Peace Domain feature}",
+						"你在和平领域法术表中所列的牧师级别获得领域法术。关于领域法术的作用，请参见神域类特征。",
+						{
+							"type": "table",
+							"caption": "Peace Domain Spells",
+							"colLabels": [
+								"Cleric Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell heroism}, {@spell sanctuary}"
+								],
+								[
+									"3rd",
+									"{@spell aid}, {@spell warding bond}"
+								],
+								[
+									"5th",
+									"{@spell beacon of hope}, {@spell sending}"
+								],
+								[
+									"7th",
+									"{@spell aura of purity}, {@spell Otiluke's resilient sphere}"
+								],
+								[
+									"9th",
+									"{@spell greater restoration}, {@spell Rary's telepathic bond}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Implement of Peace|Cleric||Peace|TCE|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Emboldening Bond|Cleric||Peace|TCE|1"
+				}
+			]
+		},
+		{
+			"name": "Emboldening Bond",
+			"source": "TCE",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "TCE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Peace Domain feature}",
+				"You can forge an empowering bond among people who are at peace with one another. As an action, you choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a {@dice d4} and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the {@dice d4} no more than once per turn.",
+				"你可以使用这个功能的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
+			]
+		},
+		{
+			"name": "Implement of Peace",
+			"source": "TCE",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "TCE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Peace Domain feature}",
+				"You gain proficiency in the {@skill Insight}, {@skill Performance}, or {@skill Persuasion} skill (your choice)."
+			]
+		},
+		{
+			"name": "Channel Divinity: Balm of Peace",
+			"source": "TCE",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"{@i 2nd-level Peace Domain feature}",
+				"You can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to {@dice 2d6} + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action."
+			]
+		},
+		{
+			"name": "Protective Bond",
+			"source": "TCE",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Peace Domain feature}",
+				"你在人与人之间建立的纽带帮助他们互相保护。当一个受你的 \"鼓舞人心的纽带 \"功能影响的生物即将受到伤害时，在第一个生物30英尺范围内的第二个纽带生物可以用它的反应来传送到第一个生物5英尺范围内的一个无人空间。然后，第二个生物会代替它承受所有的伤害。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "TCE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "TCE",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "TCE",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level Peace Domain feature}",
+				"你在使用任何牧师咒语所造成的伤害上加上你的智慧修正值。"
+			]
+		},
+		{
+			"name": "Expansive Bond",
+			"source": "TCE",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "TCE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Peace Domain feature}",
+				"现在，当生物之间的距离在60英尺以内时，你的强化结合和保护结合功能的好处就会发挥作用。此外，当一个生物使用保护性结合来承受别人的伤害时，该生物对该伤害有抵抗力。"
+			]
+		},
+		{
+			"name": "Twilight Domain",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 1,
+			"entries": [
+				"从光明到黑暗的短暂过渡往往带来平静，甚至喜悦，因为一天的劳作结束了，休息的时间开始了。黑暗也会带来恐怖，但黄昏之神会保护人们免受夜晚的恐怖。",
+				"侍奉这些神灵的神职人员--其例子出现在暮色神灵表中--为那些寻求休息的人带来安慰，并通过冒险进入侵袭的黑暗来保护他们，确保黑暗是一种安慰，而不是一种恐怖。",
+				{
+					"type": "table",
+					"caption": "Twilight Deities",
+					"colLabels": [
+						"Example Deity",
+						"Pantheon"
+					],
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"{@deity Boldrei|Eberron}",
+							"艾伯伦"
+						],
+						[
+							"{@deity Celestian|Greyhawk}",
+							"格雷霍克"
+						],
+						[
+							"{@deity Dol Arrah|Eberron}",
+							"艾伯伦"
+						],
+						[
+							"{@deity Helm}",
+							"被遗忘的国度"
+						],
+						[
+							"{@deity Ilmater}",
+							"被遗忘的国度"
+						],
+						[
+							"{@deity Mishakal|Dragonlance}",
+							"龙之谷"
+						],
+						[
+							"{@deity Selûne}",
+							"被遗忘的国度"
+						],
+						[
+							"{@deity Yondalla|Nonhuman}",
+							"半身人"
+						]
+					]
+				},
+				{
+					"name": "Domain Spells",
+					"type": "entries",
+					"entries": [
+						"{@i 1st-level Twilight Domain feature}",
+						"你在黄昏领域法术表中所列的牧师等级获得领域法术。关于领域法术的作用，请参见神域类特征。",
+						{
+							"type": "table",
+							"caption": "Twilight Domain Spells",
+							"colLabels": [
+								"Cleric Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell faerie fire}, {@spell sleep}"
+								],
+								[
+									"3rd",
+									"{@spell moonbeam}, {@spell see invisibility}"
+								],
+								[
+									"5th",
+									"{@spell aura of vitality}, {@spell Leomund's tiny hut}"
+								],
+								[
+									"7th",
+									"{@spell aura of life}, {@spell greater invisibility}"
+								],
+								[
+									"9th",
+									"{@spell circle of power}, {@spell mislead}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||Twilight|TCE|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eyes of Night|Cleric||Twilight|TCE|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vigilant Blessing|Cleric||Twilight|TCE|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Twilight Domain feature}",
+				"你获得对武术武器和重甲的熟练度。"
+			]
+		},
+		{
+			"name": "Eyes of Night",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Twilight Domain feature}",
+				"You can see through the deepest gloom. You have {@sense darkvision} out to a range of 300 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light.",
+				"As an action, you can magically share the {@sense darkvision} of this feature with willing creatures you can see within 10 feet of you, up to a number of creatures equal to your Wisdom modifier (minimum of one creature). The shared {@sense darkvision} lasts for 1 hour. Once you share it, you can't do so again until you finish a long rest, unless you expend a spell slot of any level to share it again."
+			]
+		},
+		{
+			"name": "Vigilant Blessing",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Twilight Domain feature}",
+				"黑夜让你学会了警觉。作为一项行动，你让你所接触的一个生物（可能包括你自己）在该生物所做的下一次主动性卷轴上获得优势。这个好处在掷骰子后立即终止，或者如果你再次使用这个特性。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Twilight Sanctuary",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"{@i 2nd-level Twilight Domain feature}",
+				"你可以使用你的通道神性，用舒缓的暮色来刷新你的盟友。",
+				"As an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are {@condition incapacitated} or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You grant it temporary hit points equal to {@dice 1d6} plus your cleric level.",
+						"You end one effect on it causing it to be {@condition charmed} or {@condition frightened}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Steps of Night",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Twilight Domain feature}",
+				"你可以借助夜晚的神秘力量升到空中。当你在昏暗的光线或黑暗中时，作为一个额外的动作，你可以神奇地给自己一个相当于步行速度的飞行速度，持续1分钟。你可以使用这个额外动作的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有已消耗的使用。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level Twilight Domain feature}",
+				"You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} radiant damage. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Twilight Shroud",
+			"source": "TCE",
+			"page": 34,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Twilight",
+			"subclassSource": "TCE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Twilight Domain feature}",
+				"The twilight that you summon offers a protective embrace: you and your allies have half cover while in the sphere created by your Twilight Sanctuary."
+			]
+		},
+		{
+			"name": "Blood Domain",
+			"source": "TDCSR",
+			"page": 168,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Developed in {@book Wildemount|TDCSR|3|Wildemount} by the {@book Claret Orders|TDCSR|2|Claret Orders}, the Blood Domain centers around the understanding of the natural life force as it exists within the body, and the divine conduit it can become. Those who take up this domain understand that the power of blood is the power of sacrifice, the balance of life and death, and the spirit's anchor within the mortal shell.",
+				"Gods who grant the power of the Blood Domain, including {@deity The Ruiner|Exandria|TDCSR} and {@deity The Matron of Ravens|Exandria|TDCSR}, direct their followers to tap into the connection between body and soul, exploit the hidden reserves of will within one's own vitality, and corrupt the bodies of others through the secret rites of {@variantrule hemocraft|TDCSR}. Clerics of good gods use {@variantrule hemocraft|TDCSR} to fill their self-sacrifice with purpose and power, while clerics with fewer morals use the blood of others to achieve their own malevolent ends.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Domain Spells|Cleric|PHB|Blood|TDCSR|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric|PHB|Blood|TDCSR|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bloodletting Focus|Cleric|PHB|Blood|TDCSR|1"
+				}
+			]
+		},
+		{
+			"name": "Bloodletting Focus",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"从1级开始，你的神圣魔法能够从施加魔法伤害的伤口中汲取血液，加剧你敌人的痛苦。当你施放1级或更高等级、持续时间为瞬间的伤害法术时，任何有血液的生物受到该法术伤害时，都会额外受到等于2加上法术等级的死灵伤害。"
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"当你在1级选择这个领域时，你获得对军事武器的熟练技能。"
+			]
+		},
+		{
+			"name": "Domain Spells",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"你在血脉领域法术表中列出的牧师等级时获得领域法术。",
+				{
+					"type": "table",
+					"caption": "Blood Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell false life}, {@spell sleep}"
+						],
+						[
+							"3rd",
+							"{@spell hold person}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell haste}, {@spell slow}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell stoneskin}"
+						],
+						[
+							"9th",
+							"{@spell dominate person}, {@spell hold monster}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Crimson Bond",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to form a supernatural bond with a creature you can see, or with a creature for which you possess a blood sample. This bond lasts for 1 hour or until your {@condition concentration} is broken (as if concentrating on a spell).",
+				"While the bond is in effect, you can use an action to learn the target's approximate distance and direction from you, as well as its current hit points and any conditions affecting it, as long as the target is within 10 miles of you. Alternatively, you can use your action to attempt to connect with the target's senses. You take {@damage 2d6} necrotic damage and the target makes a Constitution {@quickref saving throws|PHB|2|1|saving throw} against your spell save DC. On a successful save, the bond ends. On a failure, you can choose to either see or hear through the target's senses for a number of minutes equal to your Wisdom modifier (minimum 1 minute). During this time, you are {@condition blinded} or {@condition deafened} (respectively) with regard to your own senses. When the connection ends, the bond is lost.",
+				"无论结果如何，目标在进行这次豁免骰检时都会感到一股不安的感觉。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Blood Puppet",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to briefly control a creature's actions—whether that creature is living or dead. As an action, you target a Large or smaller creature or corpse within 60 feet of you that has blood. A creature you target must succeed on a Wisdom {@quickref saving throws|PHB|2|1|saving throw} against your spell save DC or become {@condition charmed} by you. An {@condition unconscious} creature automatically fails its {@quickref saving throws|PHB|2|1|saving throw}, and isn't {@condition incapacitated} while you control its actions. A corpse targeted by this effect gains a semblance of life that you control.",
+				"在受影响的生物或活尸的回合，你可以命令它（无需行动）移动至多半数速度并使用其动作来执行以下操作之一：",
+				{
+					"type": "list",
+					"items": [
+						"{@action Use an Object|PHB|Interact with an object}",
+						"Make a single {@action attack}",
+						"{什么都不做}"
+					]
+				},
+				"An animated corpse or an {@condition unconscious} creature takes its turn immediately after yours, but can't move or take actions unless you command it to do so. Its statistics are the same as when it was alive or conscious.",
+				"An affected living creature makes a new {@quickref saving throws|PHB|2|1|saving throw} at the end of each of its turns, ending the effect on itself on a success. For any target, your control lasts for 1 minute or until your {@condition concentration} is broken (as if concentrating on a spell)."
+			]
+		},
+		{
+			"name": "Sanguine Recall",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can sacrifice a portion of your own vitality to recover expended spell slots as an action. The spell slots can have a combined level equal to or less than half your cleric level (rounded up), and none of the slots can be 6th level or higher. You take {@damage 1d8} necrotic damage for each spell slot level recovered, which can't be reduced in any way. You can't use this feature again until you finish a {@quickref resting|PHB|2|0|long rest}.",
+				"For example, if you're an 8th-level cleric, you can recover up to four levels of spell slots—a single 4th-level slot, two 2nd-level slots, a 3rd-level slot and a 1st-level slot, or four 1st-level slots. You then take {@damage 4d8} necrotic damage."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to cause the physical wounds you deal out to bleed profusely. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} necrotic damage to the target."
+			]
+		},
+		{
+			"name": "Divine Strike (14th Level)",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you reach 14th level, the extra damage increases to {@damage 2d8}."
+			]
+		},
+		{
+			"name": "Channel Divinity: Blood Puppet (17th Level)",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"在17级时，你可以使用这个特性来瞄准一个巨型或更小的生物或尸体。"
+			]
+		},
+		{
+			"name": "Vascular Corruption Aura",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Blood",
+			"subclassSource": "TDCSR",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can use your action to emit a deathly aura of necrotic energy that causes the veins of nearby foes to burst and bleed. For 1 minute, any hostile creature with blood that moves within 30 feet of you for the first time on a turn or starts its turn there takes {@damage 3d6} necrotic damage. If a hostile creature with blood regains hit points while in the aura, it regains only half as many hit points as expected.",
+				"Once you use this feature, you can't use it again until you finish a {@quickref resting|PHB|2|0|long rest}."
+			]
+		},
+		{
+			"name": "Moon Domain",
+			"source": "TDCSR",
+			"page": 169,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "TDCSR",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Since the {@book Founding|TDCSR|1|The Founding}, all mortal creatures have looked to the skies and sensed the power and mystery carried by {@book Catha and Ruidus|TDCSR|1|Catha and Ruidus}, the two moons of Exandria. The {@deity The Moonweaver|Exandria|TDCSR} herself is said to guide her worshipers from within the pale glow of Catha, revealing hidden paths and granting inspired dreams to those who pray to that moon. Distant, dark Ruidus is often regarded with awe and apprehension, considered a portent for fell deeds and bad luck.",
+				"Clerics of the Moon Domain draw on their divine connection to the moons to wield light and shadow, invoke good fortune and ill favor, and reveal or conceal as they see fit. Most Moon clerics worship the {@deity The Moonweaver|Exandria|TDCSR|Moonweaver} herself, but her followers are as varied as the stars in the sky. Some seek to protect the vulnerable and do good in the world, while others meddle with impunity and distort the truth for selfish gain. Other Moon clerics worship not the gods but the moons themselves, especially those with an innate connection to the lunar cycles through {@variantrule Player Characters as Lycanthropes|MM|lycanthropy}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Domain Spells|Cleric|PHB|Moon|TDCSR|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Clarity of Catha|Cleric|PHB|Moon|TDCSR|1"
+				}
+			]
+		},
+		{
+			"name": "Clarity of Catha",
+			"source": "TDCSR",
+			"page": 170,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "TDCSR",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you learn to shine light upon the mind's most dire moments, shielding those you protect. When a creature within 30 feet of you that you can see makes a Wisdom {@quickref saving throws|PHB|2|1|saving throw}, you can use your reaction to grant that creature {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on the save.",
+				"You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@quickref resting|PHB|2|0|long rest}."
+			]
+		},
+		{
+			"name": "Domain Spells",
+			"source": "TDCSR",
+			"page": 170,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "TDCSR",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"You gain domain spells at the cleric levels listed in the Moon Domain Spells table.",
+				{
+					"type": "table",
+					"caption": "Moon Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell faerie fire}, {@spell silent image}"
+						],
+						[
+							"3rd",
+							"{@spell invisibility}, {@spell moonbeam}"
+						],
+						[
+							"5th",
+							"{@spell hypnotic pattern}, {@spell major image}"
+						],
+						[
+							"7th",
+							"{@spell greater invisibility}, {@spell hallucinatory terrain}"
+						],
+						[
+							"9th",
+							"{@spell dream}, {@spell passwall}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Blessing of the Full Moon",
+			"source": "TDCSR",
+			"page": 170,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "TDCSR",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to infuse your allies with bestial power. As an action, you instill a willing creature of your choice within 30 feet of you that you can see with one of the following blessings of your choice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Blessing of the Watchful Moon",
+							"entries": [
+								"For 1 hour, the blessed creature's speed increases by 10 feet, and it has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Wisdom ({@skill Perception} or {@skill Survival}) checks involving smell or made to track a creature."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Blessing of the Blood-Drenched Moon",
+							"entries": [
+								"For 10 minutes, the blessed creature has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on attack rolls against a target if at least one of the blessed creature's allies is within 5 feet of the target and the ally isn't {@condition incapacitated}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Mind of Two Moons",
+			"source": "TDCSR",
+			"page": 170,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "TDCSR",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to invoke the twofold arcana of Exandria's moons. By expending one use of Channel Divinity, you can cast a second {@condition concentration} spell while already concentrating on a first spell, as long as both spells are on your list of Moon Domain spells. If you need to make a Constitution {@quickref saving throws|PHB|2|1|saving throw} to maintain your {@condition concentration} on both spells, you make the save with {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}. On a failure, you lose {@condition concentration} on both spells."
+			]
+		},
+		{
+			"name": "Empowered Cantrips",
+			"source": "TDCSR",
+			"page": 171,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "TDCSR",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, your cleric cantrips deal extra damage equal to your Wisdom modifier (minimum of 1)."
+			]
+		},
+		{
+			"name": "Eclipse of Ill Omen",
+			"source": "TDCSR",
+			"page": 171,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "TDCSR",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can call upon the vermillion moon Ruidus to flare in the sky above you, eclipsing all other light. Its power surrounds you even where the sky can't be seen, and even on other planes. As a bonus action, you can manifest an area of reddish, dim light in a 60-foot radius around you. In addition to the normal effects of dim light, creatures in the area make {@quickref saving throws|PHB|2|1} with {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}. When you create this eclipse, you can choose any number of creatures that are unaffected by it.",
+				"This eclipse lasts while you concentrate (as if concentrating on a spell) for up to 1 minute. Concentrating on this feature counts as concentrating on a Moon Domain spell for the purpose of your {@subclassFeature Channel Divinity: Mind of Two Moons|Cleric|PHB|Moon|TDCSR|6|TDCSR|Mind of Two Moons} feature.",
+				"Additionally, once per turn when you deal radiant damage to any creatures in this area of dim light, you can curse one of those creatures until the eclipse ends (no action required). A creature cursed in this way has its speed halved and can't regain hit points.",
+				"Once you use this feature, you can't use it again until you finish a {@quickref resting|PHB|2|0|long rest}."
+			]
+		},
+		{
+			"name": "Forge Domain",
+			"source": "XGE",
+			"page": 18,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Forge",
+			"subclassSource": "XGE",
+			"level": 1,
+			"entries": [
+				"The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object. Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include {@deity Gond}, {@deity Reorx|Dragonlance}, {@deity Onatar|Eberron}, {@deity Moradin|Nonhuman}, {@deity Hephaestus|Greek}, and {@deity Goibhniu|Celtic}.",
+				"在每个指定的牧师级别，将所列的法术加入你的法术准备中。",
+				{
+					"type": "table",
+					"caption": "Forge Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell identify}, {@spell searing smite}"
+						],
+						[
+							"3rd",
+							"{@spell heat metal}, {@spell magic weapon}"
+						],
+						[
+							"5th",
+							"{@spell elemental weapon}, {@spell protection from energy}"
+						],
+						[
+							"7th",
+							"{@spell fabricate}, {@spell wall of fire}"
+						],
+						[
+							"9th",
+							"{@spell animate objects}, {@spell creation}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Forge|XGE|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blessing of the Forge|Cleric||Forge|XGE|1"
+				}
+			]
+		},
+		{
+			"name": "Blessing of the Forge",
+			"source": "XGE",
+			"page": 18,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Forge",
+			"subclassSource": "XGE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon}. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if it's armor or a +1 bonus to attack and damage rolls if it's a weapon.",
+				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "XGE",
+			"page": 18,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Forge",
+			"subclassSource": "XGE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency with heavy armor and {@item smith's tools|phb}."
+			]
+		},
+		{
+			"name": "Channel Divinity: Artisan's Blessing",
+			"source": "XGE",
+			"page": 18,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Forge",
+			"subclassSource": "XGE",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神力来创造简单的物品。",
+				"You conduct an hour-long ritual that crafts a nonmagical item that must include some metal: a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon}, a suit of armor, ten pieces of ammunition, a set of tools, or another metal object (see chapter 5, \"Equipment,\" in the Player's Handbook for examples of these items). The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 feet of you.",
+				"你创造的东西可以是价值不超过100戈比的东西。作为这个仪式的一部分，你必须铺设金属，其中可以包括硬币，其价值等同于创造物。在仪式结束时，这些金属会无可挽回地凝聚并转化为创造物，甚至神奇地形成创造物的非金属部分。如果你在仪式中拥有原物，那么该仪式可以创造一个含有金属的非魔法物品的复制品，例如一把钥匙。"
+			]
+		},
+		{
+			"name": "Soul of the Forge",
+			"source": "XGE",
+			"page": 18,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Forge",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你对锻造的掌握赋予你特殊能力。",
+				{
+					"type": "list",
+					"items": [
+						"你获得对火灾伤害的抵抗力。",
+						"While wearing heavy armor, you gain a +1 bonus to AC."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Forge",
+			"subclassSource": "XGE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Divine Strike feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "XGE",
+			"page": 18,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Forge",
+			"subclassSource": "XGE",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with the fiery power of the forge. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} fire damage to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Saint of Forge and Fire",
+			"source": "XGE",
+			"page": 18,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Forge",
+			"subclassSource": "XGE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"17级时，你对火和金属的祝福亲和力变得更加强大。",
+				{
+					"type": "list",
+					"items": [
+						"你获得对火灾伤害的免疫力",
+						"穿着重甲时，你对来自非魔法攻击的击打、穿刺和切割伤害有抵抗力。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Grave Domain",
+			"source": "XGE",
+			"page": 19,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XGE",
+			"level": 1,
+			"entries": [
+				"Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include {@deity Kelemvor}, {@deity Wee Jas|Greyhawk}, the ancestral spirits of {@deity the Undying Court|Eberron}, {@deity Hades|Greek}, {@deity Anubis|Egyptian}, and {@deity Osiris|Egyptian}. Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.",
+				{
+					"type": "table",
+					"caption": "Grave Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell bane}, {@spell false life}"
+						],
+						[
+							"3rd",
+							"{@spell gentle repose}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell revivify}, {@spell vampiric touch}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell death ward}"
+						],
+						[
+							"9th",
+							"{@spell antilife shell}, {@spell raise dead}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle of Mortality|Cleric||Grave|XGE|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eyes of the Grave|Cleric||Grave|XGE|1"
+				}
+			]
+		},
+		{
+			"name": "Circle of Mortality",
+			"source": "XGE",
+			"page": 19,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XGE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"一级时，你获得了操纵生与死之间的界限的能力。当你通常会掷出一个或多个骰子来用法术恢复一个生命值为0的生物时，你会使用每个骰子可能的最高数字。",
+				"In addition, you learn the {@spell spare the dying} cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action."
+			]
+		},
+		{
+			"name": "Eyes of the Grave",
+			"source": "XGE",
+			"page": 19,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XGE",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"一级时，你获得了偶尔感知亡灵存在的能力，它们的存在是对生命自然循环的侮辱。作为一项行动，你可以打开你的意识，用魔法探测亡灵。直到你的下一个回合结束，你会知道你周围60英尺内没有完全遮蔽物且没有受到占卜魔法保护的任何亡灵的位置。这种感知并不能告诉你任何关于生物的能力或身份的信息。",
+				"你可以使用这个功能的次数与你的智慧修饰值相等（最少一次）。当你完成一个长时间的休息时，你会重新获得所有已消耗的使用次数。"
+			]
+		},
+		{
+			"name": "Channel Divinity: Path to the Grave",
+			"source": "XGE",
+			"page": 19,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XGE",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"从2级开始，你可以使用你的通道神性来标记另一个生物的生命力，以便终止。",
+				"作为一个行动，你在你30英尺范围内选择一个你能看到的生物，诅咒它直到你下一个回合结束。下次你或你的盟友用攻击击中被诅咒的生物时，该生物对该攻击的所有伤害都有脆弱性，然后诅咒结束。"
+			]
+		},
+		{
+			"name": "Sentinel at Death's Door",
+			"source": "XGE",
+			"page": 19,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"6级时，你获得了阻碍死亡进程的能力。作为反应，当你或你能看到的30英尺范围内的生物遭受关键打击时，你可以将该打击变成普通打击。任何由关键打击触发的效果都会被取消。",
+				"你可以使用这个功能的次数与你的智慧修饰值相等（最少一次）。当你完成一个长时间的休息时，你会重新获得所有已消耗的使用次数。"
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XGE",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "XGE",
+			"page": 19,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XGE",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"从第8级开始，你在使用任何牧师咒语的伤害上加上你的智慧修饰。"
+			]
+		},
+		{
+			"name": "Keeper of Souls",
+			"source": "XGE",
+			"page": 19,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XGE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature only if you aren't {@condition incapacitated}. Once you use it, you can't do so again until the start of your next turn."
+			]
+		}
+	]
+}

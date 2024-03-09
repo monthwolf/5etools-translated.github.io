@@ -31,8 +31,8 @@
 				}
 			],
 			"entries": [
-				"你掷出一泡酸液。选择一个你能看到的范围内的生物，或选择两个你能看到的距离在 5 英尺以内的生物。目标必须在灵巧蓄力时成功，否则会受到 {@damage 1d6} 酸的伤害。",
-				"这个法术在你达到5级{@damage 2d6}、11级{@damage 3d6}和17级{@damage 4d6}时伤害增加了{@dice 1d6}。"
+				"You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take {@damage 1d6} acid damage.",
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
 				"label": "acid damage",
@@ -100,14 +100,14 @@
 				}
 			],
 			"entries": [
-				"你的法术以坚韧和决心支持你的盟友。选择范围内最多三个生物。每个目标的最大命中率和当前命中率在持续期间增加5。"
+				"Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或以上的法术槽施展此法术时，目标的命中率在2级以上的每一个法术槽等级都会额外增加5。"
+						"When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
 					]
 				}
 			],
@@ -156,9 +156,9 @@
 				"ritual": true
 			},
 			"entries": [
-				"你对不想要的入侵设置了一个警报。选择一扇门，一扇窗，或范围内不大于20英尺立方体的区域。在咒语结束之前，每当一个小个子或更大的生物触及或进入被守护的区域时，就会有警报器提醒你。当你施法时，你可以指定那些不会触发警报的生物。你还可以选择警报是精神的还是声音的。",
-				"如果你在监护区的1英里范围内，精神警报会在你的脑海中发出提示。如果你正在睡觉，这个铃声会唤醒你。",
-				"声音报警器在60英尺范围内产生10秒钟的手铃声。"
+				"You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.",
+				"A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.",
+				"An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet."
 			],
 			"areaTags": [
 				"C"
@@ -198,19 +198,19 @@
 				}
 			],
 			"entries": [
-				"你会变成一个不同的形态。当你施展法术时，从以下选项中选择一个，其效果在法术持续期间持续。在法术持续期间，你可以作为一个动作结束一个选项，以获得另一个选项的好处。",
+				"You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.",
 				{
 					"type": "entries",
 					"name": "Aquatic Adaptation",
 					"entries": [
-						"你使自己的身体适应水生环境，长出了鳃，手指间长出了蹼。你可以在水下呼吸，并获得与你的步行速度相同的游泳速度。"
+						"You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Change Appearance",
 					"entries": [
-						"你改变你的外表。你决定你的样子，包括你的身高、体重、面部特征、你的声音、头发长度、颜色和显著的特征，如果有的话。你可以让自己变成另一个种族的成员，但你的统计数据不会改变。你也不能变成与你体型不同的生物，而且你的基本形状保持不变；比如说，如果你是两足动物，你就不能用这个咒语变成四足动物。在法术持续期间的任何时候，你都可以用你的行动再次以这种方式改变你的外表。"
+						"You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again."
 					]
 				},
 				{
@@ -269,7 +269,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用二级或以上的法术槽施展此法术时，每超过一级的法术槽等级，你可以额外影响一只野兽。"
+						"When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st."
 					]
 				}
 			],
@@ -327,15 +327,15 @@
 				"ritual": true
 			},
 			"entries": [
-				"通过这个法术，你利用动物来传递信息。选择一个你能在范围内看到的微小野兽，如松鼠、蓝鸦或蝙蝠。你指定一个地点，这个地点你必须去过，还有一个符合一般描述的收件人，比如 \"一个穿着城镇卫队制服的男人或女人 \"或 \"一个戴着尖帽的红发侏儒\"。你还会说出一个最多二十五个字的信息。目标野兽在咒语持续期间向指定地点旅行，对于飞行信使来说，每24小时大约能走50英里，对于其他动物来说，则是25英里。",
-				"当信使到达时，它将你的信息传递给你描述的生物，复制你的声音。信使只对符合你所描述的生物说话。如果信使在咒语结束前没有到达目的地，信息就会丢失，而野兽会回到你施放这个咒语的地方。"
+				"By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as \"a man or woman dressed in the uniform of the town guard\" or \"a red-haired dwarf wearing a pointed hat.\" You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.",
+				"When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"如果你使用3级以上的法术槽施放此法术，法术槽等级每超过2级，法术的持续时间就会增加48小时。"
+						"If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd."
 					]
 				}
 			],
@@ -386,7 +386,7 @@
 			"entries": [
 				"Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a {@filter Large or smaller beast with a challenge rating of 4 or lower|bestiary|challenge rating=[&0;&4]|type=beast|size=f;d;t;s;m;l|miscellaneous=!swarm}. On subsequent turns, you can use your action to transform affected creatures into new forms.",
 				"The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked {@condition unconscious}. The creature is limited in the actions it can perform by the nature of its new form, and it can't speak or cast spells.",
-				"目标的装备与新的形态融为一体。目标不能激活、挥舞或以其他方式从其任何装备中获益。"
+				"The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment."
 			],
 			"miscTags": [
 				"SGT"
@@ -427,15 +427,15 @@
 			],
 			"entries": [
 				"This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a {@creature skeleton} if you chose bones or a {@creature zombie} if you chose a corpse (the DM has the creature's game statistics).",
-				"在你的每个回合中，如果你用这个法术制造的任何生物在你的60英尺范围内，你可以使用一个额外的行动在精神上指挥该生物（如果你控制多个生物，你可以同时指挥任何或所有生物，对每个生物发出同样的命令）。你决定该生物在下一回合将采取什么行动以及在哪里移动，或者你可以发出一个一般性的命令，比如说守卫一个特定的房间或走廊。如果你不发出任何命令，该生物只对敌对的生物进行自我防御。一旦下达命令，该生物就会继续遵循它，直到它的任务完成。",
-				"该生物在你的控制下持续24小时，之后它不再服从你给它的任何命令。要想再保持对该生物的控制24小时，你必须在当前的24小时期限结束前对该生物再次施放此法术。这次使用该法术可以重新确认你对最多四个被你用该法术激发的生物的控制，而不是激发一个新的生物。"
+				"On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
+				"The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用四级或更高等级的法术槽施放此法术时，每超过三级的法术槽等级，你就能使两个额外的亡灵生物复活或重新获得控制权。每种生物都必须来自不同的尸体或骨堆。"
+						"When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones."
 					]
 				}
 			],
@@ -483,8 +483,8 @@
 				}
 			],
 			"entries": [
-				"物体听从你的命令而活过来。选择范围内最多十个没有佩戴或携带的非魔法物体。中型目标算作两个物体，大型目标算作四个物体，巨型目标算作八个物体。你不能使任何大于巨大的物体产生动画。每个目标都会成为你控制下的生物，直到法术结束或减少到0点。",
-				"作为一个额外的行动，你可以在精神上指挥你用这个法术制造的任何生物，如果该生物在你的500英尺范围内（如果你控制多个生物，你可以同时指挥任何或所有的生物，对每个生物发出同样的命令）。你决定该生物在下一回合将采取什么行动以及在哪里移动，或者你可以发出一个一般性的命令，比如说守卫一个特定的房间或走廊。如果你不发出任何命令，该生物只对敌对的生物进行自我防御。一旦下达命令，该生物就会继续遵循它，直到它的任务完成。",
+				"Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.",
+				"As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
 				{
 					"type": "table",
 					"caption": "Animated Object Statistics",
@@ -547,15 +547,15 @@
 						]
 					]
 				},
-				"一个有生命的物体是一个结构体，它的攻击力、命中率、攻击力、力量和灵活性由其大小决定。它的体质是10，智力和智慧是3，魅力是1。它的速度是30英尺；如果该物体缺乏腿或其他可以用来运动的附属物，它的飞行速度是30英尺，并且可以盘旋。如果该物体被牢牢地固定在一个表面或更大的物体上，例如用链条栓在墙上，它的速度为0。它有半径为30英尺的盲视，超过这个距离就会失明。当动画物体的命中率下降到0时，它就会恢复到原来的物体形态，任何剩余的伤害都会延续到它原来的物体形态。",
-				"如果你命令一个物体进行攻击，它可以对它周围5英尺内的生物进行一次近战攻击。它进行猛烈攻击，攻击加成和重击伤害由其大小决定。管理员可能会根据物体的形状规定其造成砍击或穿刺伤害。"
+				"An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
+				"If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The DM might rule that a specific object inflicts slashing or piercing damage based on its form."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"如果你使用六级或更高的法术槽施展此法术，每超过五级的法术槽等级，你可以使两个额外的物体产生灵性。"
+						"If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th."
 					]
 				}
 			],
@@ -608,9 +608,9 @@
 				}
 			],
 			"entries": [
-				"一个闪亮的屏障从你身上延伸出10英尺的范围，并随你移动，保持以你为中心，将除亡灵和建筑外的生物挡在外面。屏障持续的时间。",
-				"该屏障阻止受影响的生物通过或到达。受影响的生物可以通过屏障施放法术或用远程或近程武器进行攻击。",
-				"如果你的移动使受影响的生物被迫通过屏障，则咒语结束。"
+				"A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.",
+				"The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.",
+				"If you move so that an affected creature is forced to pass through the barrier, the spell ends."
 			],
 			"affectsCreatureType": [
 				"aberration",
@@ -667,8 +667,8 @@
 				}
 			],
 			"entries": [
-				"一个半径为10英尺的无形的反魔法球环绕着你。这个区域与充斥着多元宇宙的魔法能量相分离。在这个范围内，法术无法被施放，被召唤的生物消失，甚至魔法物品也变得平凡。在咒语结束之前，这个球体与你一起移动，以你为中心。",
-				"法术和其他魔法效果，除了那些由神器或神灵创造的，在球体中被压制，不能突入球体。施放被压制的法术所消耗的槽位会被消耗掉。当一个效果被压制时，它不会起作用，但它被压制的时间会计入其持续时间。",
+				"A 10-foot-radius invisible sphere of antimagic surrounds you. This area is divorced from the magical energy that suffuses the multiverse. Within the sphere, spells can't be cast, summoned creatures disappear, and even magic items become mundane. Until the spell ends, the sphere moves with you, centered on you.",
+				"Spells and other magical effects, except those created by an artifact or a deity, are suppressed in the sphere and can't protrude into it. A slot expended to cast a suppressed spell is consumed. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.",
 				{
 					"type": "entries",
 					"name": "Targeted Effects",
@@ -687,29 +687,29 @@
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"在球体中的生物或物体上的任何活动法术或其他魔法效果在该生物或物体处于其中时都会被抑制。"
+						"Any active spell or other magical effect on a creature or an object in the sphere is suppressed while the creature or object is in it."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Magic Items",
 					"entries": [
-						"魔法物品的属性和力量在球体中被抑制。例如，一把+1的长剑在球体中作为非魔法的长剑使用。",
-						"如果一件魔法武器被用来对付球体中的目标或被球体中的攻击者挥舞，它的属性和力量会被抑制。如果魔法武器或魔法弹药完全离开球体（例如，如果你向球体外的目标发射魔法箭或投掷魔法矛），该物品的魔力在它退出后就不再被抑制。"
+						"The properties and powers of magic items are suppressed in the sphere. For example, a +1 longsword in the sphere functions as a nonmagical longsword.",
+						"A magic weapon's properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or a piece of magic ammunition fully leaves the sphere (for example, if you fire a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Magical Travel",
 					"entries": [
-						"传送和平面旅行在球体中无法运作，无论球体是这种魔法旅行的目的地或出发点。通往另一地点、世界或存在平面的传送门，以及通向超维空间的开口，例如由绳索诡计咒语创造的，在球体中会暂时关闭。"
+						"Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the rope trick spell, temporarily closes while in the sphere."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Creatures and Objects",
 					"entries": [
-						"一个由魔法召唤或创造的生物或物体会暂时在球体中不存在。一旦该生物所占据的空间不再在球体之内，这样的生物就会立刻重新出现。"
+						"A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere."
 					]
 				},
 				{
@@ -762,7 +762,7 @@
 				}
 			],
 			"entries": [
-				"这个法术可以吸引或驱赶你所选择的生物。你的目标是范围内的东西，可以是一个巨大或更小的物体或生物，或者是一个不超过200英尺立方体的区域。然后指定一种智慧生物，如红龙、地精或吸血鬼。你为目标注入一个光环，在持续时间内吸引或排斥指定的生物。选择反感或同情作为光环的效果。",
+				"This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.",
 				{
 					"type": "entries",
 					"name": "Antipathy",
@@ -774,18 +774,18 @@
 					"type": "entries",
 					"name": "Sympathy",
 					"entries": [
-						"该魔法使指定的生物在距离目标60英尺内或能看到目标时，感到有强烈的冲动去接近它。当这样的生物能看到目标或进入它的60英尺范围内时，该生物必须在智慧救赎中成功，或在它的每个回合中使用它的移动来进入该区域或移动到目标范围内。当该生物这样做了，它就不能自愿地离开目标。",
-						"如果目标损害或以其他方式伤害受影响的生物，受影响的生物可以做一个智慧救赎来结束效果，如下面所述。"
+						"The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target.",
+						"If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Ending the Effect",
 					"entries": [
-						"如果受影响的生物在结束其回合时不在目标的60英尺范围内或不能看到它，该生物会进行智慧救赎。拯救成功后，该生物将不再受到目标的影响，并认识到厌恶或吸引的感觉是神奇的。此外，受该法术影响的生物可以在法术持续期间每24小时再进行一次智慧救赎。"
+						"If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists."
 					]
 				},
-				"成功救治的生物在1分钟内对该效果免疫，之后它可以再次受到影响。"
+				"A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again."
 			],
 			"conditionInflict": [
 				"frightened"
@@ -837,9 +837,9 @@
 				}
 			],
 			"entries": [
-				"你在范围内创造一个无形的魔法之眼，在空中盘旋持续。",
+				"You create an invisible, magical eye within range that hovers in the air for the duration.",
 				"You mentally receive visual information from the eye, which has normal vision and {@sense darkvision} out to 30 feet. The eye can look in every direction.",
-				"作为一个动作，你可以在任何方向上移动眼睛达30英尺。眼睛能离开你多远是没有限制的，但它不能进入另一个存在平面。一个坚固的障碍物会阻挡眼睛的移动，但眼睛可以通过一个直径小到1英寸的开口。"
+				"As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter."
 			]
 		},
 		{
@@ -876,9 +876,9 @@
 				}
 			],
 			"entries": [
-				"你创造了链接的传送门，在持续时间内保持开放。在你能看到的地面上选择两个点，一个点在你的10英尺范围内，一个点在你的500英尺范围内。一个直径为10英尺的圆形传送门在每个点上打开。如果传送门会在生物占据的空间内打开，则法术失败，并且施法失败。",
-				"传送门是二维的发光环，里面充满了雾气，在你选择的点上悬停在离地面几英寸的地方，与地面垂直。一个环只能从一侧（你的选择）看到，也就是作为门户的一侧。",
-				"任何进入传送门的生物或物体都会从另一个传送门出来，就像两者相邻一样；从非传送门一侧通过传送门没有任何影响。充满每个传送门的雾气是不透明的，会阻挡通过它的视线。在你的回合中，你可以作为一个额外的动作旋转这些圆环，使活动的一面朝向不同的方向。"
+				"You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.",
+				"The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.",
+				"Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction."
 			],
 			"miscTags": [
 				"OBJ",
@@ -965,14 +965,14 @@
 				}
 			],
 			"entries": [
-				"一种保护性的魔法力量围绕着你，表现为一种幽灵般的冰霜，覆盖着你和你的装备。你在持续时间内获得5个临时命中点。如果在你拥有这些命中率时，有生物用近战攻击击中你，该生物会受到5点寒冷伤害。"
+				"A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用二级以上的法术槽施放此法术时，每超过一级的法术槽等级，临时命中率和寒冷伤害都增加5。"
+						"When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st."
 					]
 				}
 			],
@@ -4141,7 +4141,7 @@
 				}
 			],
 			"entries": [
-				"Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell—called the contingent spell—as part of casting contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with {@spell water breathing} might stipulate that {@spell water breathing} comes into effect when you are engulfed in water or a similar liquid.",
+				"Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell\u2014called the contingent spell\u2014as part of casting contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with {@spell water breathing} might stipulate that {@spell water breathing} comes into effect when you are engulfed in water or a similar liquid.",
 				"The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to, and then contingency ends.",
 				"The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person."
 			]
@@ -4458,7 +4458,7 @@
 				}
 			],
 			"entries": [
-				"You plant four pieces of nonmagical ammunition—{@item arrow|phb|arrows} or {@item crossbow bolt|phb|crossbow bolts}—in the ground within range and lay magic upon them to protect an area. Until the spell ends, whenever a creature other than you comes within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take {@damage 1d6} piercing damage. The piece of ammunition is then destroyed. The spell ends when no ammunition remains.",
+				"You plant four pieces of nonmagical ammunition\u2014{@item arrow|phb|arrows} or {@item crossbow bolt|phb|crossbow bolts}\u2014in the ground within range and lay magic upon them to protect an area. Until the spell ends, whenever a creature other than you comes within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take {@damage 1d6} piercing damage. The piece of ammunition is then destroyed. The spell ends when no ammunition remains.",
 				"When you cast this spell, you can designate any creatures you choose, and the spell ignores them."
 			],
 			"entriesHigherLevel": [
@@ -5477,7 +5477,7 @@
 			],
 			"entries": [
 				"For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
-				"You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.",
+				"You initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.",
 				"Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.",
 				"You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.",
 				"Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range."
@@ -5568,7 +5568,7 @@
 				}
 			],
 			"entries": [
-				"You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.",
+				"You make yourself\u2014including your clothing, armor, weapons, and other belongings on your person\u2014look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.",
 				"The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.",
 				"To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence ({@skill Investigation}) check against your spell save DC."
 			],
@@ -6604,14 +6604,14 @@
 					"name": "Enlarge",
 					"type": "entries",
 					"entries": [
-						"The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal {@damage 1d4} extra damage."
+						"The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category\u2014from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal {@damage 1d4} extra damage."
 					]
 				},
 				{
 					"name": "Reduce",
 					"type": "entries",
 					"entries": [
-						"The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal {@damage 1d4} less damage (this can't reduce the damage below 1)."
+						"The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category\u2014from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal {@damage 1d4} less damage (this can't reduce the damage below 1)."
 					]
 				}
 			],
@@ -7472,7 +7472,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a set of divinatory tools—such as bones, ivory sticks, cards, teeth, or carved runes—worth 100 gp and an object from the location you wish to find",
+					"text": "a set of divinatory tools\u2014such as bones, ivory sticks, cards, teeth, or carved runes\u2014worth 100 gp and an object from the location you wish to find",
 					"cost": 10000
 				}
 			},
@@ -11493,7 +11493,7 @@
 			],
 			"entries": [
 				"Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.",
-				"The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a {@creature unicorn}), so long as you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as being under the effects of a {@spell polymorph} spell, this spell doesn't locate the creature.",
+				"The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a {@creature unicorn}), so long as you have seen such a creature up close\u2014within 30 feet\u2014at least once. If the creature you described or named is in a different form, such as being under the effects of a {@spell polymorph} spell, this spell doesn't locate the creature.",
 				"This spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature."
 			]
 		},
@@ -11533,7 +11533,7 @@
 			],
 			"entries": [
 				"Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.",
-				"The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.",
+				"The spell can locate a specific object known to you, as long as you have seen it up close\u2014within 30 feet\u2014at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.",
 				"This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object."
 			],
 			"miscTags": [
@@ -12636,7 +12636,7 @@
 			"entries": [
 				"You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.",
 				"If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.",
-				"If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.",
+				"If you create an image of an object\u2014such as a chair, muddy footprints, or a small chest\u2014it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.",
 				"If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature."
 			],
 			"abilityCheck": [
@@ -13178,7 +13178,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "an iron blade and a small bag containing a mixture of soils—clay, loam, and sand"
+				"m": "an iron blade and a small bag containing a mixture of soils\u2014clay, loam, and sand"
 			},
 			"duration": [
 				{
@@ -13401,7 +13401,7 @@
 			],
 			"entries": [
 				"A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.",
-				"Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
+				"Nothing\u2014not physical objects, energy, or other spell effects\u2014can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
 				"The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.",
 				"A {@spell disintegrate} spell targeting the globe destroys it without harming anything inside it."
 			],
@@ -13601,7 +13601,7 @@
 				"You craft an illusion that takes root in the mind of a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other visible phenomenon of your choice that is no larger than a 10-foot cube and that is perceivable only to the target for the duration. This spell has no effect on undead or constructs.",
 				"The phantasm includes sound, temperature, and other stimuli, also evident only to the creature.",
 				"The target can use its action to examine the phantasm with an Intelligence ({@skill Investigation}) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.",
-				"While a target is affected by the spell, the target treats the phantasm as if it were real. The target rationalizes any illogical outcomes from interacting with the phantasm. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall—it was pushed, it slipped, or a strong wind might have knocked it off.",
+				"While a target is affected by the spell, the target treats the phantasm as if it were real. The target rationalizes any illogical outcomes from interacting with the phantasm. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall\u2014it was pushed, it slipped, or a strong wind might have knocked it off.",
 				"An affected target is so convinced of the phantasm's reality that it can even take damage from the illusion. A phantasm created to appear as a creature can attack the target. Similarly, a phantasm created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the phantasm can deal {@damage 1d6} psychic damage to the target if it is in the phantasm's area or within 5 feet of the phantasm, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion."
 			],
 			"damageInflict": [
@@ -14458,7 +14458,7 @@
 				}
 			],
 			"entries": [
-				"A shimmering, multicolored plane of light forms a vertical opaque wall—up to 90 feet long, 30 feet high, and 1 inch thick—centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.",
+				"A shimmering, multicolored plane of light forms a vertical opaque wall\u2014up to 90 feet long, 30 feet high, and 1 inch thick\u2014centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.",
 				"The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become {@condition blinded} for 1 minute.",
 				"The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall's layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer's properties as described below.",
 				"The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. An {@spell antimagic field} has no effect on a prismatic wall.",
@@ -14934,8 +14934,8 @@
 			"entries": [
 				"You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.",
 				"This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.",
-				"This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.",
-				"Coming back from the dead is an ordeal. The target takes a −4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears."
+				"This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival\u2014its head, for instance\u2014the spell automatically fails.",
+				"Coming back from the dead is an ordeal. The target takes a \u22124 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears."
 			],
 			"affectsCreatureType": [
 				"aberration",
@@ -15540,7 +15540,7 @@
 				"You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points.",
 				"This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to casting the spell, they afflict the target on its return to life.",
 				"This spell closes all mortal wounds and restores any missing body parts.",
-				"Coming back from the dead is an ordeal. The target takes a −4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.",
+				"Coming back from the dead is an ordeal. The target takes a \u22124 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.",
 				"Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws."
 			],
 			"affectsCreatureType": [
@@ -16824,7 +16824,7 @@
 			],
 			"entries": [
 				"You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.",
-				"An affected target's speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
+				"An affected target's speed is halved, it takes a \u22122 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
 				"If the creature attempts to cast a spell with a casting time of 1 action, roll a {@dice d20}. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.",
 				"A creature affected by this spell makes another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it."
 			],
@@ -17500,7 +17500,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Round 5–10",
+					"name": "Round 5\u201310",
 					"entries": [
 						"Gusts and freezing rain assail the area under the cloud. The area becomes {@quickref difficult terrain||3} and is {@quickref Vision and Light|PHB|2||heavily obscured}. Each creature there takes {@damage 1d6} cold damage. Ranged weapon attacks in the area are impossible. The wind and rain count as a severe distraction for the purposes of maintaining {@status concentration} on spells. Finally, gusts of strong wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical."
 					]
@@ -18077,52 +18077,52 @@
 					"rows": [
 						[
 							"Permanent circle",
-							"—",
-							"—",
-							"—",
-							"01–100"
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"01\u2013100"
 						],
 						[
 							"Associated object",
-							"—",
-							"—",
-							"—",
-							"01–100"
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"01\u2013100"
 						],
 						[
 							"Very familiar",
-							"01–05",
-							"06–13",
-							"14–24",
-							"25–100"
+							"01\u201305",
+							"06\u201313",
+							"14\u201324",
+							"25\u2013100"
 						],
 						[
 							"Seen casually",
-							"01–33",
-							"34–43",
-							"44–53",
-							"54–100"
+							"01\u201333",
+							"34\u201343",
+							"44\u201353",
+							"54\u2013100"
 						],
 						[
 							"Viewed once",
-							"01–43",
-							"44–53",
-							"54–73",
-							"74–100"
+							"01\u201343",
+							"44\u201353",
+							"54\u201373",
+							"74\u2013100"
 						],
 						[
 							"Description",
-							"01–43",
-							"44–53",
-							"54–73",
-							"74–100"
+							"01\u201343",
+							"44\u201353",
+							"54\u201373",
+							"74\u2013100"
 						],
 						[
 							"False destination",
-							"01–50",
-							"51–100",
-							"—",
-							"—"
+							"01\u201350",
+							"51\u2013100",
+							"\u2014",
+							"\u2014"
 						]
 					]
 				},
@@ -18213,7 +18213,7 @@
 			],
 			"entries": [
 				"As you cast the spell, you draw a 10-foot-diameter circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.",
-				"Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence—a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.",
+				"Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence\u2014a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.",
 				"You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way."
 			],
 			"miscTags": [
@@ -18354,7 +18354,7 @@
 			],
 			"entries": [
 				"You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes {@damage 1d6} piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.",
-				"这个法术在你达到5级{@damage 2d6}、11级{@damage 3d6}和17级{@damage 4d6}时伤害增加了{@dice 1d6}。"
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
 				"label": "piercing damage",
@@ -19481,7 +19481,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.",
+				"This spell grants the ability to move across any liquid surface\u2014such as water, acid, mud, snow, quicksand, or lava\u2014as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.",
 				"If you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round."
 			],
 			"miscTags": [

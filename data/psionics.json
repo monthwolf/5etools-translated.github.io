@@ -7,7 +7,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你可以改变自己的身体以适应周围的环境，使你能够承受惩罚性的环境。有了更大的psi能量，你可以把这种保护扩展到其他人身上。"
+				"You can alter your body to match your surroundings, allowing you to withstand punishing environments. With greater psi energy, you can extend this protection to others."
 			],
 			"focus": "While focused on this discipline, you don't need to eat, breathe, or sleep. To gain the benefits of a long rest, you can spend 8 hours engaged in light activity, rather than sleeping during any of it.",
 			"modes": [
@@ -18,7 +18,7 @@
 					},
 					"name": "Environmental Adaptation",
 					"entries": [
-						"作为一个行动，你或你接触的生物在接下来的一小时内无视极热或极冷的影响（但不包括冷或火的伤害）。"
+						"As an action, you or a creature you touch ignores the effects of extreme heat or cold (but not cold or fire damage) for the next hour."
 					]
 				},
 				{
@@ -28,7 +28,7 @@
 					},
 					"name": "Adaptive Shield",
 					"entries": [
-						"当你受到酸、冷、火、闪电或雷电伤害时，你可以使用你的反应来获得对该类型伤害的抗性--包括触发的伤害--直到你下一回合结束。"
+						"When you take acid, cold, fire, lightning, or thunder damage, you can use your reaction to gain resistance to damage of that type\u2014including the triggering damage\u2014until the end of your next turn."
 					]
 				},
 				{
@@ -68,7 +68,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"你重新聚焦你的视线，看到围绕所有生物的能量。你能感知光环，这些能量特征可以揭示生物本质的关键要素。"
+				"You refocus your sight to see the energy that surrounds all creatures. You perceive auras, energy signatures that can reveal key elements of a creature's nature."
 			],
 			"focus": "While focused on this discipline, you have advantage on Wisdom ({@skill Insight}) checks.",
 			"modes": [
@@ -79,7 +79,7 @@
 					},
 					"name": "Assess Foe",
 					"entries": [
-						"作为一个额外的行动，你分析你所看到的一个生物的光环。你可以了解它目前的总命中率以及所有的免疫力、抵抗力和脆弱性。"
+						"As a bonus action, you analyze the aura of one creature you see. You learn its current hit point total and all its immunities, resistances, and vulnerabilities."
 					]
 				},
 				{
@@ -89,7 +89,7 @@
 					},
 					"name": "Read Moods",
 					"entries": [
-						"作为一个奖励动作，你可以学习一个词来概括你能看到的最多六个生物的情绪状态，例如快乐、困惑、恐惧或暴力。"
+						"As a bonus action, you learn a one-word summary of the emotional state of up to six creatures you can see, such as happy, confused, afraid, or violent."
 					]
 				},
 				{
@@ -128,7 +128,7 @@
 			"page": 27,
 			"type": "T",
 			"entries": [
-				"作为一个额外的行动，你可以使亮光从你的身体辐射到20英尺范围内，并使暗光辐射到另外20英尺。光线的颜色可以随你喜欢。光线持续1小时，你可以作为奖励动作提前将其熄灭。"
+				"As a bonus action, you cause bright light to radiate from your body in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. The light lasts for 1 hour, and you can extinguish it earlier as a bonus action."
 			]
 		},
 		{
@@ -138,7 +138,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你改造你的身体，获得不同野兽的特征。"
+				"You transform your body, gaining traits of different beasts."
 			],
 			"focus": "While focused on this discipline, you have advantage on Wisdom ({@skill Animal Handling}) checks.",
 			"modes": [
@@ -149,13 +149,13 @@
 					},
 					"name": "Bestial Claws",
 					"entries": [
-						"你在一瞬间显现出长爪，并对你周围5英尺内的一个生物进行近战武器攻击。一旦命中，这次攻击会对每一个消耗的psi点造成{@scaledamage 1d10|1-7|1d10|psi}的砍伤。"
+						"You manifest long claws for an instant and make a melee weapon attack against one creature within 5 feet of you. On a hit, this attack deals {@scaledamage 1d10|1-7|1d10|psi} slashing damage per psi point spent."
 					]
 				},
 				{
 					"name": "Bestial Transformation",
 					"entries": [
-						"作为一个额外的动作，你可以改变你的身体形态以获得不同的特性。当你使用这个能力时，你可以选择以下一个或多个效果。每个效果都有它自己的psi点成本。把它们加在一起才能确定总成本。这种转变持续1小时，直到你死亡，或者直到你作为奖励动作结束它。"
+						"As a bonus action, you alter your physical form to gain different characteristics. When you use this ability, you can choose one or more of the following effects. Each effect has its own psi point cost. Add them together to determine the total cost. This transformation lasts for 1 hour, until you die, or until you end it as a bonus action."
 					],
 					"submodes": [
 						{
@@ -165,7 +165,7 @@
 							},
 							"name": "Amphibious",
 							"entries": [
-								"你获得了鳃；你可以呼吸空气和水。"
+								"You gain gills; you can breathe air and water."
 							]
 						},
 						{
@@ -175,7 +175,7 @@
 							},
 							"name": "Climbing",
 							"entries": [
-								"你长出微小的钩状爪子，使你获得与你的步行速度相等的攀爬速度。"
+								"You grow tiny hooked claws that give you gain a climbing speed equal to your walking speed."
 							]
 						},
 						{
@@ -185,7 +185,7 @@
 							},
 							"name": "Flight",
 							"entries": [
-								"翅膀从你的背部长出。你获得的飞行速度与你的步行速度相等。"
+								"Wings sprout from your back. You gain a flying speed equal to your walking speed."
 							]
 						},
 						{
@@ -195,7 +195,7 @@
 							},
 							"name": "Keen Senses",
 							"entries": [
-								"你的眼睛和耳朵变得更加敏感。你在智慧({@skill Perception})检查中获得优势。"
+								"Your eyes and ears become more sensitive. You gain advantage on Wisdom ({@skill Perception}) checks."
 							]
 						},
 						{
@@ -205,7 +205,7 @@
 							},
 							"name": "Perfect Senses",
 							"entries": [
-								"你获得敏锐的嗅觉和探测猎物的本能。你可以看到10英尺内的生物和物体，即使你是{@condition invisible}。"
+								"You gain a keen sense of smell and an instinct to detect prey. You can see {@condition invisible} creatures and objects within 10 feet of you, even if you are {@condition blinded}."
 							]
 						},
 						{
@@ -215,7 +215,7 @@
 							},
 							"name": "Swimming",
 							"entries": [
-								"你的手指和脚趾间获得鳍和蹼；你获得的游泳速度与你的步行速度相等。"
+								"You gain fins and webbing between your fingers and toes; you gain a swimming speed equal to your walking speed."
 							]
 						},
 						{
@@ -225,7 +225,7 @@
 							},
 							"name": "Tough Hide",
 							"entries": [
-								"你的皮肤会变得像皮革一样坚韧；你获得一个+2的交流奖励。"
+								"Your skin becomes as tough as leather; you gain a +2 bonus to AC."
 							]
 						}
 					]
@@ -238,7 +238,7 @@
 			"page": 27,
 			"type": "T",
 			"entries": [
-				"作为奖励动作，你持有的单手近战武器与你的手融为一体。在接下来的一分钟内，你不能放开武器，也不能强迫它离开你的手掌。"
+				"As a bonus action, a one-handed melee weapon you hold becomes one with your hand. For the next minute, you can't let go of the weapon nor can it be forced from your grasp."
 			]
 		},
 		{
@@ -257,7 +257,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你用幻术能量增强你的自然力量，使你有能力实现不可思议的力量。"
+				"You augment your natural strength with psionic energy, granting you the ability to achieve incredible feats of might."
 			],
 			"focus": "While focused on this discipline, you have advantage on Strength ({@skill Athletics}) checks",
 			"modes": [
@@ -268,7 +268,7 @@
 					},
 					"name": "Brute Strike",
 					"entries": [
-						"作为一个奖励动作，你对你在当前回合内用近战攻击击中的目标的下一个伤害卷获得一个奖励。奖励等于+{@scaledamage 1d6|1-7|1d6|psi}每一个psi点的花费，并且奖励的伤害与攻击的类型相同。如果攻击有一个以上的伤害类型，你可以选择使用哪一个作为额外伤害。"
+						"As a bonus action, you gain a bonus to your next damage roll against a target you hit with a melee attack during the current turn. The bonus equals +{@scaledamage 1d6|1-7|1d6|psi} per psi point spent, and the bonus damage is the same type as the attack. If the attack has more than one damage type, you choose which one to use for the bonus damage."
 					]
 				},
 				{
@@ -278,7 +278,7 @@
 					},
 					"name": "Knock Back",
 					"entries": [
-						"当你用近战攻击击中一个目标时，你可以作为一个反应激活这个能力。目标必须在力量救赎中成功，否则就会被打到离你10英尺远的地方，每花一个磅数。目标在一条直线上移动。如果它撞上了一个物体，这个移动就会立即结束，并且目标会受到{@scaledamage 1d6|1-7|1d6|psi}的重击伤害，每消耗一个psi点。"
+						"When you hit a target with a melee attack, you can activate this ability as a reaction. The target must succeed on a Strength saving throw or be knocked 10 feet away from you per psi point spent. The target moves in a straight line. If it hits an object, this movement immediately ends and the target takes {@scaledamage 1d6|1-7|1d6|psi} bludgeoning damage per psi point spent."
 					]
 				},
 				{
@@ -288,7 +288,7 @@
 					},
 					"name": "Mighty Leap",
 					"entries": [
-						"作为你运动的一部分，你在任何方向上跳跃，每消耗一个psi点最多20英尺。"
+						"As part of your movement, you jump in any direction up to 20 feet per psi point spent."
 					]
 				},
 				{
@@ -298,7 +298,7 @@
 					},
 					"name": "Feat of Strength",
 					"entries": [
-						"作为一个额外的动作，你获得一个+5的力量检查奖励，直到你下一个回合结束。"
+						"As a bonus action, you gain a +5 bonus to Strength checks until the end of your next turn."
 					]
 				}
 			]
@@ -310,7 +310,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你将幻象力导入你的身体，将你的反应和敏捷性磨练到一个不可思议的程度。世界似乎变慢了，而你却继续正常地移动。"
+				"You channel psionic power into your body, honing your reflexes and agility to an incredible degree. The world seems to slow down while you continue to move as normal."
 			],
 			"focus": "While focused on this discipline, your walking speed increases by 10 feet.",
 			"modes": [
@@ -321,7 +321,7 @@
 					},
 					"name": "Rapid Step",
 					"entries": [
-						"作为一个额外的动作，你每花一个psi点就能增加你的行走速度10英尺，直到当前回合结束。如果你有攀爬或游泳的速度，这种增加也适用于该速度。"
+						"As a bonus action, you increase your walking speed by 10 feet per psi point spent until the end of the current turn. If you have a climbing or swimming speed, this increase applies to that speed as well."
 					]
 				},
 				{
@@ -331,7 +331,7 @@
 					},
 					"name": "Agile Defense",
 					"entries": [
-						"作为一个奖励动作，你可以采取躲避动作。"
+						"As a bonus action, you take the Dodge action."
 					]
 				},
 				{
@@ -351,7 +351,7 @@
 					},
 					"name": "Surge of Speed",
 					"entries": [
-						"作为一个额外的行动，你获得两个好处，直到当前回合结束：你不会挑起机会攻击，并且你有一个等于你步行速度的攀爬速度。"
+						"As a bonus action, you gain two benefits until the end of the current turn: you don't provoke opportunity attacks, and you have a climbing speed equal to your walking speed."
 					]
 				},
 				{
@@ -361,7 +361,7 @@
 					},
 					"name": "Surge of Action",
 					"entries": [
-						"作为一个奖励动作，你可以冲刺或进行一次武器攻击。"
+						"As a bonus action, you can Dash or make one weapon attack."
 					]
 				}
 			]
@@ -373,7 +373,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你对自己身体的控制使你能发出酸或毒的攻击。"
+				"Your control over your body allows you to deliver acid or poison attacks."
 			],
 			"focus": "While focused on this discipline, you have resistance to acid and poison damage",
 			"modes": [
@@ -384,7 +384,7 @@
 					},
 					"name": "Corrosive Touch",
 					"entries": [
-						"作为一个动作，你向你范围内的一个生物提供酸液的接触。目标必须做一个灵巧的蓄力动作，如果蓄力失败，每消耗一个psi点会受到{@scaledamage 1d10|1-7|1d10|psi}酸的伤害，如果蓄力成功，则受到一半的伤害。"
+						"As an action, you deliver a touch of acid to one creature within your reach. The target must make a Dexterity saving throw, taking {@scaledamage 1d10|1-7|1d10|psi} acid damage per psi point spent on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -414,7 +414,7 @@
 					},
 					"name": "Breath of the Black Dragon",
 					"entries": [
-						"你呼出一股酸液，排成60英尺宽的队伍，宽度为5英尺。这条线上的每个生物都必须做一个宪法规定的蓄力动作，蓄力失败会受到{@damage 6d6}酸的伤害，蓄力成功会受到一半的伤害。你每多花一个psi点，就可以增加1%的伤害。"
+						"You exhale a wave of acid in a 60-foot line that is 5 feet wide. Each creature in the line must make a Constitution saving throw, taking {@damage 6d6} acid damage on a failed save, or half as much on a successful one. You can increase the damage by {@scaledamage 6d6|5-7|1d6|psi} per additional psi point spent on it."
 					]
 				},
 				{
@@ -424,7 +424,7 @@
 					},
 					"name": "Breath of the Green Dragon",
 					"entries": [
-						"你在90英尺的范围内呼出一团毒云。队伍中的每个生物都必须做一个宪法救赎动作，如果救赎失败，将受到{@damage 10d6}的毒药伤害，如果救赎成功，将受到一半的伤害。"
+						"You exhale a cloud of poison in a 90-foot cone. Each creature in the line must make a Constitution saving throw, taking {@damage 10d6} poison damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			]
@@ -436,7 +436,7 @@
 			"type": "D",
 			"order": "Avatar",
 			"entries": [
-				"你已经学会了在一个生物的心灵中收获绝望的种子，用自我怀疑和不作为来缠绕它。"
+				"You have learned to harvest seeds of despair in a creature's psyche, wracking it with self-doubt and inaction."
 			],
 			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill Intimidation}) checks.",
 			"modes": [
@@ -447,7 +447,7 @@
 					},
 					"name": "Crowned in Sorrow",
 					"entries": [
-						"作为一个行动，在你60英尺范围内的一个你能看到的生物必须做一个魅力拯救动作。拯救失败时，它每花一个psi点就会受到{@damage 1d8}的精神伤害，并且在下一回合开始前不能做出反应。拯救成功时，它将受到一半的伤害。"
+						"As an action, one creature you can see within 60 feet of you must make a Charisma saving throw. On a failed save, it takes {@damage 1d8} psychic damage per psi point spent, and it can't take reactions until the start of its next turn. On a successful save, it takes half as much damage."
 					]
 				},
 				{
@@ -497,7 +497,7 @@
 			"type": "D",
 			"order": "Avatar",
 			"entries": [
-				"你使一个生物充斥着厌恶的情绪。"
+				"You cause a creature to be flooded with emotions of disgust."
 			],
 			"focus": "While you are focused on this discipline, the area in a 5 foot radius around you is {@quickref difficult terrain||3} for any enemy that isn't immune to being {@condition frightened}.",
 			"modes": [
@@ -508,7 +508,7 @@
 					},
 					"name": "Eye of Horror",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。目标必须做一个魅力拯救动作。拯救失败时，它每消耗一个psi点就会受到{@scaledamage 1d6|1-7|1d6|psi}的精神伤害，并且在下一回合结束前不能再靠近你。拯救成功时，它将受到一半的伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. The target must make a Charisma saving throw. On a failed save, it takes {@scaledamage 1d6|1-7|1d6|psi} psychic damage per psi point spent and can't move closer to you until the end of its next turn. On a successful save, it takes half as much damage."
 					]
 				},
 				{
@@ -550,7 +550,7 @@
 					},
 					"name": "World of Horror",
 					"entries": [
-						"作为一个动作，在你60英尺范围内选择最多六个生物。每个目标必须做一个 \"魅力 \"救赎。拯救失败时，目标会受到{@damage 8d6}的精神伤害，而且是{@condition frightened}，直到你{@status concentration}结束。拯救成功时，目标会受到一半的伤害。当{@condition frightened}受此效果影响时，目标的速度被降低到0，目标可以使用它的行动，以及它可能有的任何额外行动，只进行近战攻击。目标可以在其每个回合结束时重复蓄力，成功后结束对自己的效果。如果目标或它能看到的任何盟友被攻击或受到伤害，这个效果会立即结束。拯救成功时，该生物不受影响，并且对你试图屈服于它的意志毫无察觉。"
+						"As an action, choose up to six creatures within 60 feet of you. Each target must make a Charisma saving throw. On a failed save, a target takes {@damage 8d6} psychic damage, and it is {@condition frightened} until your {@status concentration} ends. On a successful save, a target takes half as much damage. While {@condition frightened} by this effect, a target's speed is reduced to 0, and the target can use its action, and any bonus action it might have, only to make melee attacks. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -562,7 +562,7 @@
 			"type": "D",
 			"order": "Avatar",
 			"entries": [
-				"你在一个生物的脑海中放置一粒纯粹的怒火，使它的嗜血欲望战胜它的感官，让它按照你的意愿行事。"
+				"You place a mote of pure fury within a creature's mind, causing its bloodlust to overcome its senses and for it to act as you wish it to."
 			],
 			"focus": "While you are focused on this discipline, any enemy within 5 feet of you that makes a melee attack roll against creatures other than you does so with disadvantage",
 			"modes": [
@@ -622,9 +622,9 @@
 			"page": 27,
 			"type": "T",
 			"entries": [
-				"作为一个行动，你在你周围60英尺内你能看到的一个生物的脑海中植入一个错误的信念。你可以创造一个声音或一个图像。只有这个天赋的目标能感知到你创造的声音或图像。",
-				"如果你创造一个声音，它的音量可以从耳语到尖叫不等。它可以是你的声音，也可以是别人的声音，也可以是生物的吼叫，也可以是乐器，也可以是你挑选的任何其他声音。它的持续时间为1分钟。",
-				"如果你创造一个物体，它必须适合在5英尺的立方体内，而且不能移动或反射。该影像不能产生任何影响视觉以外的感官的效果。该影像持续1分钟，如果生物触碰它，它就会消失。"
+				"As an action, you plant a false belief in the mind of one creature that you can see within 60 feet of you. You can create a sound or an image. Only the target of this talent perceives the sound or image you create.",
+				"If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a creature's roar, a musical instrument, or any other sound you pick. It lasts for 1 minute.",
+				"If you create an object, it must fit within a 5-foot cube and can't move or be reflective. The image can't create any effect that influences a sense other than sight. The image lasts for 1 minute, and it disappears if the creature touches it."
 			]
 		},
 		{
@@ -634,7 +634,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你操纵构成你身体的物质，在不放弃任何力量的情况下大幅缩小你的尺寸。"
+				"You manipulate the matter that composes your body, drastically reducing your size without surrendering any of your might."
 			],
 			"focus": "While focused on this discipline, you have advantage on Dexterity ({@skill Stealth}) checks.",
 			"modes": [
@@ -669,7 +669,7 @@
 					},
 					"name": "Sudden Shift",
 					"entries": [
-						"当你被攻击击中时，作为一种反应，你会转移到最小的尺寸以避免攻击。攻击不中，你最多可以移动5英尺而不引起机会攻击，然后恢复到正常体型。"
+						"As a reaction when you are hit by an attack, you shift down to minute size to avoid the attack. The attack misses, and you move up to 5 feet without provoking opportunity attacks before returning to normal size."
 					]
 				},
 				{
@@ -695,7 +695,7 @@
 			"type": "T",
 			"entries": [
 				"As an action, you target one creature you can see within 90 feet of you. The target must succeed on a Dexterity saving throw or take {@damage 1d8} acid, cold, fire, lightning, or thunder damage (your choice).",
-				"当你达到5级（{@damage 2d8}）、11级（{@damage 3d8}）和17级（{@damage 4d8}）时，该天赋的伤害增加{@dice 1d8}。"
+				"The talent's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
 			]
 		},
 		{
@@ -705,7 +705,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你为自己注入幻觉能量，使自己长到巨大的尺寸，增强你的力量和耐久性。"
+				"You infuse yourself with psionic energy to grow to tremendous size, bolstering your strength and durability."
 			],
 			"focus": "While focused on this discipline, your reach increases by 5 feet.",
 			"modes": [
@@ -746,7 +746,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"你在你的思想周围铸造了一道不屈不挠的幻觉能量墙--它使你能够对你的对手发起反击。"
+				"You forge an indomitable wall of psionic energy around your mind\u2014one that allows you to launch counterattacks against your opponents."
 			],
 			"focus": "While focused on this discipline, you gain resistance to psychic damage.",
 			"modes": [
@@ -757,7 +757,7 @@
 					},
 					"name": "Psychic Backlash",
 					"entries": [
-						"作为反应，如果你能看到攻击者，你可以在针对你的攻击卷上施加不利条件。如果攻击仍然击中你，攻击者会受到{@damage 2d10}的精神伤害。"
+						"As a reaction, you can impose disadvantage on an attack roll against you if you can see the attacker. If the attack still hits you, the attacker takes {@damage 2d10} psychic damage."
 					]
 				},
 				{
@@ -767,7 +767,7 @@
 					},
 					"name": "Psychic Parry",
 					"entries": [
-						"当你进行智力、智慧或魅力救赎时，作为一种反应，你在这个能力上每花费一个psi点，你就获得一个救赎的+1奖励。你可以在掷骰子之后但在承受结果之前使用这个能力。"
+						"As a reaction when you make an Intelligence, a Wisdom, or a Charisma saving throw, you gain a +1 bonus to that saving throw for each psi point you spend on this ability. You can use this ability after rolling the die but before suffering the results."
 					]
 				},
 				{
@@ -781,7 +781,7 @@
 					},
 					"name": "Psychic Redoubt",
 					"entries": [
-						"作为一个动作，你创造一个保护性的精神能量场。选择你周围30英尺内的任何数量的生物。直到你的{@status concentration}结束，每个目标都对精神伤害有抵抗力，并且在智力、智慧和魅力方面有优势，生物不受影响，也不知道你试图改变它的意志。"
+						"As an action, you create a field of protective psychic energy. Choose any number of creatures within 30 feet of you. Until your {@status concentration} ends, each target has resistance to psychic damage and advantage on Intelligence, Wisdom, and Charisma saving throws."
 					]
 				}
 			]
@@ -793,7 +793,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你将自己的身体转化为活生生的金属，使你能够摆脱那些会使弱小生物致残的攻击。"
+				"You transform your body to become a living metal, allowing you to shrug off attacks that would cripple weaker creatures."
 			],
 			"focus": "While focused on this discipline, you gain a +1 bonus to AC.",
 			"modes": [
@@ -804,7 +804,7 @@
 					},
 					"name": "Iron Hide",
 					"entries": [
-						"当你被攻击击中时，作为一种反应，你在这个能力上每花费一个psi点，你就获得一个+1的AC奖励。该奖励持续到你下一回合结束。该奖励适用于触发的攻击。"
+						"As a reaction when you are hit by an attack, you gain a +1 bonus to AC for each psi point you spend on this ability. The bonus lasts until the end of your next turn. This bonus applies against the triggering attack."
 					]
 				},
 				{
@@ -814,7 +814,7 @@
 					},
 					"name": "Steel Hide",
 					"entries": [
-						"作为一个额外的动作，你获得对打击、穿刺和砍击伤害的抵抗，直到你下一个回合结束。"
+						"As a bonus action, you gain resistance to bludgeoning, piercing, and slashing damage until the end of your next turn."
 					]
 				},
 				{
@@ -839,7 +839,7 @@
 			"page": 27,
 			"type": "T",
 			"entries": [
-				"作为一个额外的动作，你改变你的密度和重量以提高你的移动能力。在你剩下的回合中，你的行走速度增加了10英尺，而且本回合你第一次站起来时，如果你的速度大于0，你就不用消耗任何移动力。"
+				"As a bonus action, you alter your density and weight to improve your mobility. For the rest of your turn, your walking speed increases by 10 feet, and the first time you stand up this turn, you do so without expending any of your movement if your speed is greater than 0."
 			]
 		},
 		{
@@ -849,7 +849,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"你学会了使用幻觉能量，用psi和你自己的自然魅力的微妙组合来操纵他人。"
+				"You learn to use psionic energy to manipulate others with a subtle combination of psi and your own, natural charm."
 			],
 			"focus": "While focused on this discipline, you gain a bonus to Charisma checks. The bonus equals half your Intelligence modifier (minimum of +1).",
 			"modes": [
@@ -860,7 +860,7 @@
 					},
 					"name": "Charming Presence",
 					"entries": [
-						"作为一个行动，你会施加一个同情力量的光环。在这个能力上每花费一个psi点，就会滚动{@dice 2d8}；总数就是这个选项可以影响多少命中率的生物。在你30英尺范围内的生物按其最大命中率升序受到影响，忽略{@condition incapacitated}的生物、对{@condition charmed}免疫的生物以及参与战斗的生物。",
+						"As an action, you exert an aura of sympathetic power. Roll {@dice 2d8} per psi point spent on this ability; the total is how many hit points worth of creatures this option can affect. Creatures within 30 feet of you are affected in ascending order of their hit point maximums, ignoring {@condition incapacitated} creatures, creatures immune to being {@condition charmed}, and creatures engaged in combat.",
 						"Starting with the creature that has the lowest hit point maximum, each creature affected by this option is {@condition charmed} by you for 10 minutes, regarding you as a friendly acquaintance. Subtract each creature's hit point maximum from the total before moving on to the next creature. A creature's hit point maximum must be equal to or less than the remaining total for that creature to be affected."
 					]
 				},
@@ -901,7 +901,7 @@
 			"type": "D",
 			"order": "Avatar",
 			"entries": [
-				"你施加一个信任和权威的光环，加强你的盟友之间的协调。"
+				"You exert an aura of trust and authority, enhancing the coordination among your allies."
 			],
 			"focus": "While focused on this discipline, when you end your turn and didn't move during it, you can use your reaction to allow one ally you can see within 30 feet of you to move up to half their speed, following a path of your choice. To move in this way, the ally mustn't be {@condition incapacitated}.",
 			"modes": [
@@ -912,7 +912,7 @@
 					},
 					"name": "Coordinated Movement",
 					"entries": [
-						"作为一个额外的动作，在你60英尺范围内选择你能看到的最多五个盟友。这些盟友中的每一个都可以使用他们的反应来移动，速度达到他们的一半，沿着你选择的路径。"
+						"As a bonus action, choose up to five allies you can see within 60 feet of you. Each of those allies can use their reaction to move up to half their speed, following a path of your choice."
 					]
 				},
 				{
@@ -926,7 +926,7 @@
 					},
 					"name": "Commander's Sight",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。直到你下一个回合开始，你的盟友在对该目标的攻击卷轴上有优势。"
+						"As an action, choose one creature you can see within 60 feet of you. Until the start of your next turn, your allies have advantage on attack rolls against that target."
 					]
 				},
 				{
@@ -936,7 +936,7 @@
 					},
 					"name": "Command to Strike",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的盟友。该盟友可以使用他们的反应来立即采取攻击行动。你选择目标。"
+						"As an action, choose one ally you can see within 60 feet of you. That ally can use their reaction to immediately take the Attack action. You choose the targets."
 					]
 				},
 				{
@@ -960,7 +960,7 @@
 					},
 					"name": "Overwhelming Attack",
 					"entries": [
-						"作为一个动作，在你的60英尺范围内选择你能看到的最多五个盟友。这些盟友中的每个人都可以使用他们的反应来采取攻击行动。你选择攻击的目标。"
+						"As an action, choose up to five allies you can see within 60 feet of you. Each of those allies can use their reaction to take the Attack action. You choose the target of the attacks."
 					]
 				}
 			]
@@ -972,7 +972,7 @@
 			"type": "D",
 			"order": "Avatar",
 			"entries": [
-				"你把心思集中在勇气上，向你的盟友放射出自信和勇敢。"
+				"You focus your mind on courage, radiating confidence and bravado to your allies."
 			],
 			"focus": "While focused on this discipline, you and allies within 10 feet of you who can see you have advantage on saving throws against being {@condition frightened}.",
 			"modes": [
@@ -1011,7 +1011,7 @@
 					},
 					"name": "Pillar of Confidence",
 					"entries": [
-						"作为一个行动，你和你周围60英尺内最多五个你能看到的生物各获得一个额外的行动，在你的单独回合中使用。如果在你的下一回合结束前没有使用，该动作就会消失。该动作只能用于进行一次武器攻击或采取冲刺或脱离的动作。"
+						"As an action, you and up to five creatures you can see within 60 feet of you each gain one extra action to use on your individual turns. The action goes away if not used before the end of your next turn. the action can be used only to make one weapon attack or to take the Dash or Disengage action."
 					]
 				}
 			]
@@ -1023,7 +1023,7 @@
 			"type": "D",
 			"order": "Avatar",
 			"entries": [
-				"你利用原始的恐惧之井，将自己变成敌人的恐怖灯塔。"
+				"You tap into a well of primal fear and turn yourself into a beacon of terror to your enemies."
 			],
 			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill Intimidation}) checks.",
 			"modes": [
@@ -1052,7 +1052,7 @@
 					},
 					"name": "Unsettling Aura",
 					"entries": [
-						"作为一个额外的动作，你将自己笼罩在令人不安的精神能量中。直到你的{@status concentration}结束，任何在你60英尺范围内能看到你的敌人，每向你移动一英尺就必须多花一英尺的移动距离。如果一个生物对被{@condition frightened}.精灵免疫，就会忽略这个效果。在它的每个回合中，它都可以重复蓄力，在成功的情况下结束对自己的效果。如果这个生物不能再看到或听到你，或者它受到伤害，则ct结束。"
+						"As a bonus action, you cloak yourself in unsettling psychic energy. Until your {@status concentration} ends, any enemy within 60 feet of you that can see you must spend 1 extra foot of movement for every foot it moves toward you. A creature ignores this effect if immune to being {@condition frightened}."
 					]
 				},
 				{
@@ -1078,7 +1078,7 @@
 			"type": "D",
 			"order": "Avatar",
 			"entries": [
-				"你让潜伏在你脑海深处的原始怒火迸发出来，让你和你的盟友陷入不可遏止的嗜血状态。"
+				"You allow the primal fury lurking deep within your mind to burst forth, catching you and you allies in an implacable bloodthirst."
 			],
 			"focus": "While focused on this discipline in combat, you and any ally who starts their turn within 10 feet of you gains a 5 foot increase to their walking speed during that turn.",
 			"modes": [
@@ -1103,7 +1103,7 @@
 					},
 					"name": "Mindless Charge",
 					"entries": [
-						"作为一个额外动作，在你60英尺范围内选择最多3个你能看到的生物。每个目标可以立即使用它的反应，以它的速度在一条直线上向最近的敌人移动。"
+						"As a bonus action, choose up to three creatures you can see within 60 feet of you. Each target can immediately use its reaction to move up to its speed in a straight line toward its nearest enemy."
 					]
 				},
 				{
@@ -1117,7 +1117,7 @@
 					},
 					"name": "Aura of Bloodletting",
 					"entries": [
-						"作为一个额外动作，你释放一个愤怒的光环。直到你的{@status concentration}结束，你和你周围60英尺内的任何生物在该回合的近战攻击卷上都有优势。如果目标对它的三次蓄力攻击成功，这个效果就会结束。在它的每个回合中，它可以重复蓄力攻击，如果成功，就会结束对自己的效果。"
+						"As a bonus action, you unleash an aura of rage. Until your {@status concentration} ends, you and any creature within 60 feet of you has advantage on melee attack rolls."
 					]
 				},
 				{
@@ -1143,7 +1143,7 @@
 			"type": "D",
 			"order": "Avatar",
 			"entries": [
-				"你挖掘你内心的喜悦，以舒缓、通灵的能量向外辐射，给你周围的生物带来希望和安慰。"
+				"You tap into the joy within you, radiating it outward in soothing, psychic energy that brings hope and comfort to creatures around you."
 			],
 			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill Persuasion}) checks",
 			"modes": [
@@ -1154,7 +1154,7 @@
 					},
 					"name": "Soothing Presence",
 					"entries": [
-						"作为一个额外的行动，在你60英尺范围内选择最多三个你能看到的生物。每个目标在此效果上每花费一个psi点就会获得3个临时命中点。"
+						"As a bonus action, choose up to three creatures you can see within 60 feet of you. Each target gains 3 temporary hit points per psi point spent on this effect."
 					]
 				},
 				{
@@ -1168,7 +1168,7 @@
 					},
 					"name": "Comforting Aura",
 					"entries": [
-						"作为一个额外的动作，选择最多三个你能看到的盟友（你可以选择自己来代替其中一个盟友）。在你的{@status concentration}结束之前，每个目标在做拯救动作时可以掷出{@dice d4}，并将掷出的数字加入总数中。如果成功，则结束对自己的影响。如果生物不能再看到或听到你，或受到伤害，则ct结束。"
+						"As a bonus action, choose up to three allies you can see (you can choose yourself in place of one of the allies). Until your {@status concentration} ends, each target can roll a {@dice d4} when making a saving throw and add the number rolled to the total."
 					]
 				},
 				{
@@ -1192,7 +1192,7 @@
 					},
 					"name": "Beacon of Recovery",
 					"entries": [
-						"作为一个额外的行动，你和你周围60英尺范围内的最多五个盟友可以立即对他们正在遭受的每一个允许在回合开始或结束时进行拯救的效果进行拯救。"
+						"As a bonus action, you and up to five allies you can see within 60 feet of you can immediately make saving throws against every effect they're suffering that allows a save at the start or end of their turns."
 					]
 				}
 			]
@@ -1204,7 +1204,7 @@
 			"type": "D",
 			"order": "Wu Jen",
 			"entries": [
-				"你与空气元素的力量融为一体。"
+				"You become one with the power of elemental air."
 			],
 			"focus": "While focused on this discipline, you take no falling damage, and you ignore {@quickref difficult terrain||3} when walking.",
 			"modes": [
@@ -1215,7 +1215,7 @@
 					},
 					"name": "Wind Step",
 					"entries": [
-						"作为你回合中动作的一部分，你每花一个psi点就可以飞到20英尺。如果你在空中结束这次飞行，你就会坠落，除非有其他东西将你固定在高空。"
+						"As part of your move on your turn, you can fly up to 20 feet for each psi point spent. If you end this flight in the air, you fall unless something else holds you aloft."
 					]
 				},
 				{
@@ -1225,7 +1225,7 @@
 					},
 					"name": "Wind Stream",
 					"entries": [
-						"作为一个动作，你创造一条长30英尺、宽5英尺的聚焦空气线。该区域内的每个生物都必须进行一次力量救赎，每消耗一个psi点会受到{@scaledamage 1d8|1-7|1d8|psi}重击伤害，救赎失败则被击倒{@condition prone}，救赎成功则受到一半的伤害。"
+						"As an action, you create a line of focused air that is 30 feet long and 5 feet wide. Each creature in that area must make a Strength saving throw, taking {@scaledamage 1d8|1-7|1d8|psi} bludgeoning damage per psi point spent and being knocked {@condition prone} on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -1293,7 +1293,7 @@
 			"type": "D",
 			"order": "Wu Jen",
 			"entries": [
-				"你将你的思想与火元素的能量结合起来。"
+				"You align your mind with the energy of elemental fire."
 			],
 			"focus": "While focused on this discipline, you gain resistance to fire damage, and you gain a +2 bonus to rolls for fire damage.",
 			"modes": [
@@ -1308,7 +1308,7 @@
 					},
 					"name": "Combustion",
 					"entries": [
-						"作为一个行动，在你120英尺范围内选择一个你能看到的生物或物体。目标必须做一个宪法救赎。如果救赎失败，目标每消耗一个psi点就会受到{@scaledamage 1d10|1-7|1d10|psi}的火焰伤害，并且着火，在每个回合结束时受到{@damage 1d6}的火焰伤害，直到你的{@status concentration}结束，或者直到它或与它相邻的生物用一个行动来熄灭火焰。拯救成功后，目标会受到一半的伤害并且不会着火。关于它的状态块，请参见《怪物手册》。"
+						"As an action, choose one creature or object you can see within 120 feet of you. The target must make a Constitution save. On a failed save, the target takes {@scaledamage 1d10|1-7|1d10|psi} fire damage per psi point spent, and it catches on fire, taking {@damage 1d6} fire damage at the end of each of its turns until your {@status concentration} ends or until it or a creature adjacent to it extinguishes the flames with an action. On a successful save, the target takes half as much damage and doesn't catch on fire."
 					]
 				},
 				{
@@ -1332,7 +1332,7 @@
 					},
 					"name": "Detonation",
 					"entries": [
-						"作为一个动作，你在你周围120英尺范围内可以看到的一个点上制造一个火热的爆炸。以该点为中心的20英尺半径范围内的每个生物都必须做一个宪法救赎，如果救赎失败，将受到{@damage 7d6}的火焰伤害并被击倒{@condition prone}，如果救赎成功，将受到一半的伤害。"
+						"As an action, you create a fiery explosion at a point you can see within 120 feet of you. Each creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw, taking {@damage 7d6} fire damage and being knocked {@condition prone} on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -1372,7 +1372,7 @@
 			"type": "D",
 			"order": "Wu Jen",
 			"entries": [
-				"作为一名幻象能力的学生，你能感知到流经万物的潜在能量。你用你的意念伸出去，将潜能转化为实际。物体和生物在你的指挥下移动。"
+				"As a student of psionic power, you perceive the potential energy that flows through all things. You reach out with your mind, transforming the potential into the actual. Objects and creatures move at your command."
 			],
 			"focus": "While focused on this discipline, you have advantage on Strength checks.",
 			"modes": [
@@ -1383,7 +1383,7 @@
 					},
 					"name": "Push",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。目标必须做一个力量救赎的动作。拯救失败时，它每消耗一个psi点会受到{@scaledamage 1d8|1-7|1d8|psi}力量伤害，并且每消耗一个psi点会被推到离你最远的直线上5英尺。拯救成功时，它将受到一半的伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. The target must make a Strength saving throw. On a failed save, it takes {@scaledamage 1d8|1-7|1d8|psi} force damage per psi point spent and is pushed up to 5 feet per point spent in a straight line away from you. On a successful save, it takes half as much damage."
 					]
 				},
 				{
@@ -1393,8 +1393,8 @@
 					},
 					"name": "Move",
 					"entries": [
-						"在你60英尺范围内选择一个你能看到的、没有被其他生物穿戴或携带的、没有被固定住的物体。它的边长不能超过20英尺，它的最大重量取决于花在这个能力上的psi点数，如下所示。",
-						"作为一个动作，你可以将该物体移动到60英尺，并且在移动过程中你必须保持该物体在视线范围内。如果物体在空中结束这次移动，它就会掉下来。如果该物体会落在一个生物身上，该生物必须在DC 10的灵巧投掷中获得成功，否则会受到下表所列的伤害。",
+						"Choose one object you can see within 60 feet of you that isn't being worn or carried by another creature and that isn't secured in place. It can't be larger than 20 feet on a side, and its maximum weight depends on the psi points spent on this ability, as shown below.",
+						"As an action, you move the object up to 60 feet, and you must keep the object within sight during this movement. If the object ends this movement in the air, it falls. If the object would fall on a creature, the creature must succeed on a DC 10 Dexterity saving throw or take damage as listed on the table below.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -1444,7 +1444,7 @@
 					},
 					"name": "Inertial Armor",
 					"entries": [
-						"作为一个动作，你将自己包裹在一个无形的魔力场中。在8小时内，你的基本攻击力为14+你的灵巧修饰，并且你获得对力量伤害的抵抗。如果你穿着或穿着盔甲，这个效果就会结束。"
+						"As an action, you sheathe yourself in an intangible field of magical force. For 8 hours, your base AC is 14 + your Dexterity modifier, and you gain resistance to force damage. This effect ends if you are wearing or don armor."
 					]
 				},
 				{
@@ -1474,7 +1474,7 @@
 					"entries": [
 						"You attempt to grasp a creature in telekinetic energy and hold it captive. As an action, choose one creature you can see within 60 feet of you. The target must succeed on a Strength saving throw or be {@condition grappled} by you until your {@status concentration} ends or until the target leaves your reach, which is 60 feet for this grapple.",
 						"The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your psionic ability plus your proficiency bonus. When a target attempts to escape in this way, you can spend psi points to boost your check, abiding by your psi limit. You gain a +1 bonus per psi point spent.",
-						"当目标以这种方式被{@condition grappled}时，你以行动的方式创造下列效果之一。"
+						"While a target is {@condition grappled} in this manner, you create one of the following effects as an action:"
 					]
 				},
 				{
@@ -1484,7 +1484,7 @@
 					},
 					"name": "Crush",
 					"entries": [
-						"每消耗一个psi点，目标会受到{@scaledamage 1d6|1-7|1d6|psi}重击伤害。"
+						"The target takes {@scaledamage 1d6|1-7|1d6|psi} bludgeoning damage per psi point spent."
 					]
 				},
 				{
@@ -1494,7 +1494,7 @@
 					},
 					"name": "Move",
 					"entries": [
-						"每消耗一个psi点，你最多可以移动目标5英尺。你可以把它移到空中，并把它固定在那里。如果抓捕结束，它就会坠落。"
+						"You move the target up to 5 feet per psi point spent. You can move it in the air and hold it there. It falls if the grapple ends."
 					]
 				}
 			]
@@ -1506,7 +1506,7 @@
 			"type": "D",
 			"order": "Wu Jen",
 			"entries": [
-				"你掌握冰的力量，塑造它以满足你的要求。"
+				"You master the power of ice, shaping it to meet you demands."
 			],
 			"focus": "While focused on this discipline, you have resistance to cold damage.",
 			"modes": [
@@ -1517,7 +1517,7 @@
 					},
 					"name": "Ice Spike",
 					"entries": [
-						"作为一个动作，你向你周围120英尺内你能看到的一个生物投掷一个冰球。目标必须做一个灵巧的蓄力动作。如果救赎失败，目标会在每一个psi点上受到{@scaledamage 1d8|1-7|1d8|psi}的寒冷伤害，并且其速度减半，直到你下一个回合开始。拯救成功时，目标会受到一半的伤害。"
+						"As an action, you hurl a mote of ice at one creature you can see within 120 feet of you. The target must make a Dexterity saving throw. On a failed save, the target takes {@scaledamage 1d8|1-7|1d8|psi} cold damage per psi point spent and has its speed halved until the start of your next turn. On a successful save, the target takes half as much damage."
 					]
 				},
 				{
@@ -1537,7 +1537,7 @@
 					},
 					"name": "Frozen Sanctuary",
 					"entries": [
-						"作为一个额外的行动，你用冰冷的复原力将自己包裹起来。你获得20个临时命中点。"
+						"As a bonus action, you sheathe yourself with icy resilience. You gain 20 temporary hit points."
 					]
 				},
 				{
@@ -1551,8 +1551,8 @@
 					},
 					"name": "Frozen Rain",
 					"entries": [
-						"作为一个动作，在你120英尺范围内选择一个你能看到的点。以该点为中心的20英尺半径的球体中的空气会变得死一般的寒冷，并被水分所饱和。该区域内的每个生物都必须做一个 \"宪法救赎\"。拯救失败时，目标会受到{@damage 6d6}的寒冷伤害，并且它的速度会降低到0，直到你的{@status concentration}结束。拯救成功时，目标会受到一半的伤害。",
-						"作为一个行动，被降低速度的目标可以提前结束效果，如果它成功地进行力量（竞技）检查，其DC等于这个效果的保存DC。",
+						"As an action, choose a point you can see within 120 feet of you. The air in a 20-foot-radius sphere centered on that point becomes deathly cold and saturated with moisture. Each creature in that area must make a Constitution saving throw. On a failed save, a target takes {@damage 6d6} cold damage, and its speed is reduced to 0 until your {@status concentration} ends. On a successful save, a target takes half as much damage.",
+						"As an action, a target that has its speed reduced can end the effect early if it succeeds on a Strength (Athletics) check with a DC equal to this effect's save DC.",
 						"You can increase this effect's damage by {@scaledamage 6d6|5-7|1d6|psi} per each additional psi point spent on it."
 					]
 				},
@@ -1579,7 +1579,7 @@
 			"type": "D",
 			"order": "Wu Jen",
 			"entries": [
-				"你要求用你的思想支配光明和黑暗。"
+				"You claim dominion over light and darkness with your mind."
 			],
 			"focus": "While focused on this discipline, natural and magical darkness within 30 feet of you has no effect on your vision.",
 			"modes": [
@@ -1590,7 +1590,7 @@
 					},
 					"name": "Darkness",
 					"entries": [
-						"作为一个行动，你创造一个神奇的黑暗区域，使黑暗视觉失效。在你周围60英尺内选择一个你能看到的地方。魔法黑暗从该点辐射出一个半径为10英尺的球体，每花一个psi点在这个能力上。二级或以下的法术所产生的光线在这个区域被抑制。"
+						"As an action, you create an area of magical darkness, which foils darkvision. Choose a spot you can see within 60 feet of you. Magical darkness radiates from that point in a sphere with a 10-foot radius per psi point spent on this ability. The light produced by spells of 2nd level or less is suppressed in this area."
 					]
 				},
 				{
@@ -1632,7 +1632,7 @@
 					},
 					"name": "Radiant Beam",
 					"entries": [
-						"作为一个动作，你向你周围60英尺内你能看到的一个生物投射一道光束。目标必须做一个灵巧的蓄力动作。如果救赎失败，它将受到{@damage 6d6}辐射伤害，并被{@condition blinded}，直到你的{@status concentration}结束。拯救成功时，它将受到一半的伤害。一个{@condition blinded}的目标可以在它的每个回合结束时重复蓄力，在成功时结束对自己的影响。请参考怪物手册中的状态块。拯救成功时，目标会受到一半的伤害。",
+						"As an action, you project a beam of light at one creature you can see within 60 feet of you. The target must make a Dexterity saving throw. On a failed save, it takes {@damage 6d6} radiant damage and is {@condition blinded} until your {@status concentration} ends. On a successful save, it takes half as much damage. A {@condition blinded} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"You can increase this effect's damage by {@scaledamage 6d6|5-7|1d6|psi} per each additional psi point spent on it."
 					]
 				}
@@ -1645,7 +1645,7 @@
 			"type": "D",
 			"order": "Wu Jen",
 			"entries": [
-				"你的思想与水元素融为一体，使你的思想与水的起伏相协调。"
+				"Your mind becomes one with elemental water, attuning your thoughts to its ebb and flow."
 			],
 			"focus": "While focused on this discipline, you have a swimming speed equal to your walking speed, and you can breathe underwater.",
 			"modes": [
@@ -1656,7 +1656,7 @@
 					},
 					"name": "Desiccate",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。目标必须做一个 \"宪法救赎\"，在这个能力上花费的每一个psi点会受到{@scaledamage 1d10|1-7|1d10|psi}坏死伤害，或者在成功的情况下受到一半的伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. The target must make a Constitution saving throw, taking {@scaledamage 1d10|1-7|1d10|psi} necrotic damage per psi point spent on this ability, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -1686,7 +1686,7 @@
 					},
 					"name": "Water Breathing",
 					"entries": [
-						"作为一项行动，你可以赋予自己和你周围60英尺内的最多10个自愿的生物在接下来的24小时内进行水下呼吸的能力。"
+						"As an action, you grant yourself and up to ten willing creatures you can see within 60 feet of you the ability to breathe underwater for the next 24 hours."
 					]
 				},
 				{
@@ -1726,7 +1726,7 @@
 			"type": "D",
 			"order": "Wu Jen",
 			"entries": [
-				"你的思想伸向天空，重塑风暴的东西以满足你的需要。"
+				"Your mind reaches into the sky, reshaping the stuff of storms to serve your needs."
 			],
 			"focus": "While focused on this discipline, you have resistance to lightning and thunder damage.",
 			"modes": [
@@ -1775,7 +1775,7 @@
 					},
 					"name": "Whirlwind",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的点。风在以该点为中心的20英尺半径的范围内呼啸。球体中的每个生物都必须成功地进行力量投掷，否则会受到{@damage 1d6}重击伤害，并被移动到球体中你选择的一个无人空间。球体中任何松散的物体，如果重量不超过100磅，就会被移动到球体中你所选择的一个未被占用的空间。"
+						"As an action, choose a point you can see within 60 feet of you. Winds howl in a 20-foot-radius sphere centered on that point. Each creature in the sphere must succeed on a Strength saving throw or take {@damage 1d6} bludgeoning damage and be moved to an unoccupied space of your choice in the sphere. Any loose object in the sphere is moved to an unoccupied space of your choice within it if the object weighs no more than 100 pounds."
 					]
 				},
 				{
@@ -1785,7 +1785,7 @@
 					},
 					"name": "Lightning Leap",
 					"entries": [
-						"作为一个动作，你放出一条长60英尺、宽5英尺的闪电线。这条线上的每个生物都必须做一个灵巧的蓄力动作，如果蓄力失败，会受到{@damage 6d6}的闪电伤害，如果蓄力成功，会受到一半的伤害。然后你可以瞬移到一个被这条线触及的无人空间。",
+						"As an action, you let loose a line of lightning that is 60 feet long and 5 feet wide. Each creature in the line must make a Dexterity saving throw, taking {@damage 6d6} lightning damage on a failed save, or half as much damage on a successful one. You can then teleport to an unoccupied space touched by the line.",
 						"You can increase this ability's damage by {@scaledamage 6d6|5-7|1d6|psi} per additional psi point spent on it."
 					]
 				},
@@ -1810,7 +1810,7 @@
 					},
 					"name": "Thunder Clap",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的点。雷霆能量在以该点为中心的20英尺半径范围内爆发。该区域内的每个生物都必须做出宪法规定的拯救动作。拯救失败时，目标会受到{@damage 8d6}的雷霆伤害，而且是{@condition stunned}，直到你下一回合结束。拯救成功时，目标会受到一半的伤害。"
+						"As an action, choose a point you can see within 60 feet of you. Thunder energy erupts in a 20-foot-radius sphere centered on that point. Each creature in that area must make Constitution saving throw. On a failed save, a target takes {@damage 8d6} thunder damage, and it is {@condition stunned} until the end of your next turn. On a successful save, a target takes half as much damage."
 					]
 				}
 			]
@@ -1822,7 +1822,7 @@
 			"type": "D",
 			"order": "Wu Jen",
 			"entries": [
-				"你调整你的心智，夺取对木材和土地的控制权。"
+				"You attune your mind to seize control of wood and earth."
 			],
 			"focus": "While focused on this discipline, you have a +1 bonus to AC.",
 			"modes": [
@@ -1843,7 +1843,7 @@
 					},
 					"name": "Warp Weapon",
 					"entries": [
-						"作为一个行动，选择一个你能看到的60英尺范围内的一个生物所持有的非魔法武器。该生物必须成功地进行力量救赎，否则所选择的武器不能用于攻击，直到你下一回合结束。"
+						"As an action, choose one nonmagical weapon held by one creature you can see within 60 feet of you. That creature must succeed on a Strength saving throw, or the chosen weapon can't be used to attack until the end of your next turn."
 					]
 				},
 				{
@@ -1853,7 +1853,7 @@
 					},
 					"name": "Warp Armor",
 					"entries": [
-						"作为一个行动，选择一个你能看到的60英尺范围内的一个生物所穿的非魔法盔甲。该生物必须在宪法救赎中成功，否则该生物的攻击力将变为10+其灵巧修饰，直到你下一回合结束。"
+						"As an action, choose a nonmagical suit of armor worn by one creature you can see within 60 feet of you. That creature must succeed on a Constitution saving throw, or the creature's AC becomes 10 + its Dexterity modifier until the end of your next turn."
 					]
 				},
 				{
@@ -1906,8 +1906,8 @@
 			"page": 27,
 			"type": "T",
 			"entries": [
-				"作为一个额外的动作，你可以与你周围120英尺范围内你能看到的一个自愿的生物进行心灵感应。目标必须有至少2的智力，否则这个天赋就会失败，行动就会被浪费。",
-				"这种交流可以发生在当前回合结束之前。你不需要与目标共享一种语言，它就能理解你的心灵感应，即使它缺乏一种语言，也能理解你。你还可以获得目标所选择的一段记忆，获得它所看到或做过的一件事的完美回忆。"
+				"As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an Intelligence of at least 2, otherwise this talent fails and the action is wasted.",
+				"This communication can occur until the end of the current turn. You don't need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target's choice, gaining perfect recall of one thing it saw or did."
 			]
 		},
 		{
@@ -1917,7 +1917,7 @@
 			"type": "T",
 			"entries": [
 				"As an action, you target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw or take {@damage 1d6} force damage. If it takes any of this damage and is Large or smaller, it is knocked {@condition prone}.",
-				"当你达到5级（{@damage 2d6}）、11级（{@damage 3d6}）和17级（{@damage 4d6}）时，该天赋的伤害增加{@dice 1d6}。"
+				"The talent's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
 			]
 		},
 		{
@@ -1927,7 +1927,7 @@
 			"type": "T",
 			"entries": [
 				"As an action, you target one creature you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take {@damage 1d10} psychic damage.",
-				"当你达到5级（{@damage 2d10}）、11级（{@damage 3d10}）和17级（{@damage 4d10}）时，该天赋的伤害增加{@dice 1d10}。"
+				"The talent's damage increases by {@dice 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
 			]
 		},
 		{
@@ -1945,9 +1945,9 @@
 			"page": 28,
 			"type": "T",
 			"entries": [
-				"你可以用你的行动来操纵或移动你30英尺内的一个物体。该物体的重量不能超过10磅，而且你不能影响一个被其他生物佩戴或携带的物体。如果物体是松散的，你可以在任何方向上移动它达30英尺。",
-				"这种天赋可以让你打开一扇没有上锁的门，倒出一个啤酒罐，等等。",
-				"如果你让它悬浮在半空中，该物体会在你的回合结束时落到地上。"
+				"You can use your action to manipulate or move one object within 30 feet of you. The object can't weigh more than 10 pounds, and you can't affect an object being worn or carried by another creature. If the object is loose, you can move it up to 30 feet in any direction.",
+				"This talent allows you to open an unlocked door, pour out a beer stein, and so on.",
+				"The object falls to the ground at the end of your turn if you leave it suspended in midair."
 			]
 		},
 		{
@@ -1957,7 +1957,7 @@
 			"type": "D",
 			"order": "Nomad",
 			"entries": [
-				"你给远程武器注入了一种奇怪的情感，使它能够准确无误地找到自己的目标。"
+				"You imbue a ranged weapon with a strange semblance of sentience, allowing it to unerringly find its mark."
 			],
 			"focus": "While you are focused on this discipline, any attack roll you make for a ranged weapon attack ignores disadvantage. If disadvantage would normally apply to the roll, that roll also can't benefit from advantage.",
 			"modes": [
@@ -1978,7 +1978,7 @@
 					},
 					"name": "Seeking Missile",
 					"entries": [
-						"当你用远程武器攻击失败时，作为一种反应，你可以对同一目标重复攻击卷。"
+						"As a reaction when you miss with a ranged weapon attack, you can repeat the attack roll against the same target."
 					]
 				},
 				{
@@ -2004,7 +2004,7 @@
 			"type": "D",
 			"order": "Nomad",
 			"entries": [
-				"你创造了一个扭曲你外表的精神力量屏幕，使你能够融入背景，甚至变成隐形人。"
+				"You create a screen of psychic power that distorts your appearance, allowing you to blend into the background or even turn invisible."
 			],
 			"focus": "While focused on this discipline, you have advantage on Dexterity ({@skill Stealth}) checks.",
 			"modes": [
@@ -2015,7 +2015,7 @@
 					},
 					"name": "Chameleon",
 					"entries": [
-						"作为一个行动，你可以尝试隐藏，即使你没有达到所需的要求。在当前回合结束时，只有当你满足正常的隐藏要求时，你才能保持隐藏。"
+						"As an action, you can attempt to hide even if you fail to meet the requirements needed to do so. At the end of the current turn, you remain hidden only if you then meet the normal requirements for hiding."
 					]
 				},
 				{
@@ -2029,7 +2029,7 @@
 					},
 					"name": "Step from Sight",
 					"entries": [
-						"作为一个额外的动作，从视线中隐蔽自己。你在这个能力上每多花一个psi点，就可以多瞄准一个生物。增加的目标必须对你可见，并且在你的60英尺范围内。每个目标都会变成{@condition invisible}，并保持如此，直到你的{@status concentration}结束，或者直到它以攻击、法术或其他能力瞄准、伤害或影响任何生物之后。"
+						"As a bonus action, cloak yourself from sight. You can target one additional creature for every additional psi point you spend on this ability. The added targets must be visible to you and within 60 feet of you. Each target turns {@condition invisible} and remains so until your {@status concentration} ends or until immediately after it targets, damages, or otherwise affects any creature with an attack, a spell, or another ability."
 					]
 				},
 				{
@@ -2055,7 +2055,7 @@
 			"type": "D",
 			"order": "Nomad",
 			"entries": [
-				"你把你的一部分精神派遣到 \"无界\"，这是生物拥有的思想和知识的集体视野。"
+				"You dispatch part of your psyche into the noosphere, the collective vista of minds and knowledge possessed by living things."
 			],
 			"focus": "Whenever you focus on this discipline, you choose one skill or tool and have proficiency with it until your focus ends. Alternatively, you gain the ability to read and write one language of your choice until your focus ends.",
 			"modes": [
@@ -2070,7 +2070,7 @@
 					},
 					"name": "Wandering Mind",
 					"entries": [
-						"你进入了深深的沉思。如果你专注于这个选项的全部持续时间，你就会获得以下最多三个技能的熟练度（每花费2个psi点就有一个技能）。{@skill Animal Handling}, {@skill Arcana}, {@skill History}, {@skill Medicine}, {@skill Nature}, {@skill Performance}, {@skill Religion}, 和 {@skill Survival}。该益处持续1小时，不需要{@status concentration}。"
+						"You enter a deep contemplation. If you concentrate for this option's full duration, you then gain proficiency with up to three of the following skills (one skill for every 2 psi points spent): {@skill Animal Handling}, {@skill Arcana}, {@skill History}, {@skill Medicine}, {@skill Nature}, {@skill Performance}, {@skill Religion}, and {@skill Survival}. The benefit lasts for 1 hour, no {@status concentration} required."
 					]
 				},
 				{
@@ -2084,7 +2084,7 @@
 					},
 					"name": "Find Creature",
 					"entries": [
-						"你用你的意念去寻找关于某个特定生物的信息。如果你在这个选项的整个持续时间内集中注意力，你就会获得对该生物当前位置的大致了解。你会了解它所在的地区、城市、城镇、村庄或地区，确定一个边长在1到3英里之间的区域（由DM选择）。如果该生物是在另一个存在的平面上，你就会了解哪个平面。"
+						"You cast your mind about for information about a specific creature. If you concentrate for this option's full duration, you then gain a general understanding of the creature's current location. You learn the region, city, town, village, or district where it is, pinpointing an area between 1 and 3 miles on a side (DM's choice). If the creature is on another plane of existence, you instead learn which plane."
 					]
 				},
 				{
@@ -2098,7 +2098,7 @@
 					},
 					"name": "Item Lore",
 					"entries": [
-						"你仔细研究一件物品。如果你在这个选项的全部持续时间内集中精力，同时保持在物品的5英尺范围内，你就会获得对该物品施展识别法术的好处。"
+						"You carefully study an item. If you concentrate for this option's full duration while remaining within 5 feet of the item, you then gain the benefits of an identify spell cast on that item."
 					]
 				},
 				{
@@ -2108,7 +2108,7 @@
 					},
 					"name": "Psychic Speech",
 					"entries": [
-						"作为一项行动，你将你的思想与所有语言的精神印记相适应。在1小时内，你获得理解你听到的或试图阅读的任何语言的能力。此外，当你说话时，所有能理解某种语言的生物都能听懂你说的话，不管你用什么语言。"
+						"As an action, you attune your mind to the psychic imprint of all language. For 1 hour, you gain the ability to understand any language you hear or attempt to read. In addition, when you speak, all creatures that can understand a language understand what you say, regardless of what language you use."
 					]
 				},
 				{
@@ -2136,7 +2136,7 @@
 					},
 					"name": "Phasing Eye",
 					"entries": [
-						"如同上面的游荡之眼，除了眼睛可以在固体物体中移动，但不能在其中结束其移动。如果它这样做了，效果立即结束。"
+						"As Wandering Eye above, except the eye can move through solid objects but can't end its movement in one. If it does so, the effect immediately ends."
 					]
 				}
 			]
@@ -2148,7 +2148,7 @@
 			"type": "D",
 			"order": "Nomad",
 			"entries": [
-				"你对你周围的区域施加你的意念，扭曲你所感知到的平面内的路径，以允许瞬间旅行。"
+				"You exert your mind on the area around you, twisting the intraplanar pathways you perceive to allow instantaneous travel."
 			],
 			"focus": "After you teleport on your turn while focused on this discipline, your walking speed increases by 10 feet until the end of the turn, as you are propelled by the magic of your teleportation. You can receive this increase only once per turn.",
 			"modes": [
@@ -2159,7 +2159,7 @@
 					},
 					"name": "Step of a Dozen Paces",
 					"entries": [
-						"如果你在你的回合中还没有移动，你可以采取一个额外的行动，每花费一个psi点就可以传送到一个你能看到的未被占领的空间，并且你的速度会降低到0，直到回合结束。"
+						"If you haven't moved yet on your turn, you take a bonus action to teleport up to 20 feet per psi point spent to an unoccupied space you can see, and your speed is reduced to 0 until the end of the turn."
 					]
 				},
 				{
@@ -2169,7 +2169,7 @@
 					},
 					"name": "Nomadic Anchor",
 					"entries": [
-						"作为一个动作，你在你周围120英尺范围内可以看到的5英尺立方体中创造一个看不见的、无形的传送锚。在接下来的8小时内，每当你使用这种幻术修炼来传送时，你都可以转而传送到锚上，即使你看不到它，但它必须在传送能力的范围内。"
+						"As an action, you create an invisible, intangible teleportation anchor in a 5-foot cube you can see within 120 feet of you. For the next 8 hours, whenever you use this psionic discipline to teleport, you can instead teleport to the anchor, even if you can't see it, but it must be within range of the teleportation ability."
 					]
 				},
 				{
@@ -2179,7 +2179,7 @@
 					},
 					"name": "Defensive Step",
 					"entries": [
-						"当你被攻击击中时，你可以用你的反应来获得一个+4的攻击力加成，可能会把它变成一个失误。然后你会传送到一个你能看到的无人的空间，最多 10 英尺。"
+						"When you are hit by an attack, you can use your reaction to gain a +4 bonus to AC against that attack, possibly turning it into a miss. You then teleport up to 10 feet to an unoccupied space you can see."
 					]
 				},
 				{
@@ -2189,7 +2189,7 @@
 					},
 					"name": "There and Back Again",
 					"entries": [
-						"作为一个额外的动作，你最多可以传送20英尺到一个你能看到的未被占领的空间，然后以你一半的速度移动。在你的回合结束时，你可以传送回你在传送前占据的位置，除非它现在被占据或在不同的存在平面。"
+						"As a bonus action, you teleport up to 20 feet to an unoccupied space you can see and then move up to half your speed. At the end of your turn, you can teleport back to the spot you occupied before teleporting, unless it is now occupied or on a different plane of existence."
 					]
 				},
 				{
@@ -2199,7 +2199,7 @@
 					},
 					"name": "Transposition",
 					"entries": [
-						"如果你在你的回合中还没有移动，选择一个你能看到的在你周围60英尺内的盟友。作为一个额外的行动，你和那个生物会传送，交换位置，你的速度会降低到0，直到该回合结束。如果你们中的任何一个不能进入目的地的空间，这个能力就会失败并被浪费掉。"
+						"If you haven't moved yet on your turn, choose an ally you can see within 60 feet of you. As a bonus action, you and that creature teleport, swapping places, and your speed is reduced to 0 until the end of the turn. This ability fails and is wasted if either of you can't fit in the destination space."
 					]
 				},
 				{
@@ -2209,7 +2209,7 @@
 					},
 					"name": "Baleful Transposition",
 					"entries": [
-						"作为一个行动，在你120英尺范围内选择一个你能看到的生物。该生物必须做一个智慧救赎动作。如果拯救失败，你和那个生物就会被传送，交换位置。如果你们中的任何一个不能进入目的地的空间，这个能力就会失败并被浪费掉。"
+						"As an action, choose one creature you can see within 120 feet of you. That creature must make a Wisdom saving throw. On a failed save, you and that creature teleport, swapping places. This ability fails and is wasted if either of you can't fit in the destination space."
 					]
 				},
 				{
@@ -2219,7 +2219,7 @@
 					},
 					"name": "Phantom Caravan",
 					"entries": [
-						"作为一个行动，你和你所选择的60英尺范围内的最多6个自愿的生物可以传送到你能看到的地方，最多可以传送1英里。如果在到达点没有一个开放的空间让所有的目标占据，这个能力就会失败并被浪费掉。"
+						"As an action, you and up to six willing creatures of your choice that you can see within 60 feet of you teleport up to 1 mile to a spot you can see. If there isn't an open space for all the targets to occupy at the arrival point, this ability fails and is wasted."
 					]
 				},
 				{
@@ -2245,7 +2245,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"通过分析你周围的信息，从微妙的暗示到看似不相干的事实，你学会了在瞬间编织一串概率，给你带来非凡的洞察力。"
+				"By analyzing information around you, from subtle hints to seemingly disconnected facts, you learn to weave a string of probabilities in an instant that gives you extraordinary insights."
 			],
 			"focus": "While focused on this discipline, you have advantage on initiative rolls.",
 			"modes": [
@@ -2270,7 +2270,7 @@
 					},
 					"name": "All-Around Sight",
 					"entries": [
-						"作为对攻击你的回应，你用你的反应对该攻击卷施加不利条件，可能导致其失误。"
+						"In response to an attack hitting you, you use your reaction to impose disadvantage on that attack roll, possibly causing it to miss."
 					]
 				},
 				{
@@ -2294,7 +2294,7 @@
 					},
 					"name": "Victory Before Battle",
 					"entries": [
-						"当你掷出主动权时，你可以使用这个能力给予你自己和60英尺内你所选择的最多五个生物一个+10的主动权奖励。"
+						"When you roll initiative, you can use this ability to grant yourself and up to five creatures of your choice within 60 feet of you a +10 bonus to initiative."
 					]
 				}
 			]
@@ -2306,7 +2306,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你挥舞着幻术能量，为自己和他人治疗伤口并恢复健康。"
+				"You wield psionic energy to cure wounds and restore health to yourself and others."
 			],
 			"focus": "While focused on this discipline, you can use a bonus action to touch a creature that has 0 hit points and stabilize it.",
 			"modes": [
@@ -2327,7 +2327,7 @@
 					},
 					"name": "Restore Health",
 					"entries": [
-						"作为一个行动，你可以接触一个生物，并从它身上移除以下其中一个条件。{@condition blinded}, {@condition deafened}, {@condition paralyzed}, 或 {@condition poisoned}。或者，你可以从该生物身上移除一种疾病。"
+						"As an action, you touch one creature and remove one of the following conditions from it: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}. Alternatively, you remove one disease from the creature."
 					]
 				},
 				{
@@ -2337,7 +2337,7 @@
 					},
 					"name": "Restore Life",
 					"entries": [
-						"作为一个行动，你触摸一个在过去一分钟内死亡的生物。该生物会以1点生命值恢复生命。这个能力不能使因年老而死亡的生物恢复生命，也不能使缺少任何重要身体部位的生物恢复。"
+						"As an action, you touch one creature that has died within the last minute. The creature returns to life with 1 hit point. This ability can't return to life a creature that has died of old age, nor can it restore a creature missing any vital body parts."
 					]
 				},
 				{
@@ -2359,7 +2359,7 @@
 			"type": "D",
 			"order": "Immortal",
 			"entries": [
-				"你已经学会了如何将幻觉能量导入你的攻击，赋予它们破坏性的力量。"
+				"You have learned how to channel psionic energy into your attacks, lending them devastating power."
 			],
 			"focus": "Whenever you focus on this discipline, choose one weapon you're holding or your unarmed strike. When you attack with it while focused on this discipline, its damage is psychic and magical, rather than its normal damage type. Until you reach 6th level as a mystic, you don't add your Strength or Dexterity modifier to the psychic attack's damage rolls.",
 			"modes": [
@@ -2370,7 +2370,7 @@
 					},
 					"name": "Ethereal Weapon",
 					"entries": [
-						"作为奖励动作，你暂时将你持有的一件武器或你的徒手攻击转化为纯粹的灵能。在你的回合结束前，你用它进行的下一次攻击会忽略目标的护甲，不需要攻击卷。取而代之的是，目标对这一纪律进行一个灵巧的救赎。拯救失败时，目标会受到攻击的正常伤害并受到其额外的影响。救赎成功时，目标会受到攻击的一半伤害，但不会受到通常情况下命中后的额外影响。"
+						"As a bonus action, you temporarily transform one weapon you're holding or your unarmed strike into pure psionic energy. The next attack you make with it before the end of your turn ignores the target's armor, requiring no attack roll. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack's normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit."
 					]
 				},
 				{
@@ -2406,7 +2406,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"你像武器一样挥舞着你的思想，释放出幻象的能量。"
+				"You wield your mind like a weapon, unleashing salvos of psionic energy."
 			],
 			"focus": "While focused on this discipline, you gain a +2 bonus to damage rolls with psionic talents that deal psychic damage.",
 			"modes": [
@@ -2417,7 +2417,7 @@
 					},
 					"name": "Psionic Blast",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。目标在此能力上每消耗一个psi点会受到{@scaledamage 1d8|1-7|1d8|psi}的精神伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. The target takes {@scaledamage 1d8|1-7|1d8|psi} psychic damage per psi point spent on this ability."
 					]
 				},
 				{
@@ -2427,7 +2427,7 @@
 					},
 					"name": "Ego Whip",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。目标必须做一个智力救赎动作。拯救失败时，该生物会受到{@damage 3d8}的精神伤害，而且它充满了自我怀疑，使它在下一回合只能使用躲避、脱离或隐藏动作。如果救赎成功，它将受到一半的伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, the creature takes {@damage 3d8} psychic damage, and it is filled with self-doubt, leaving it able to use its action on its next turn only to take the Dodge, Disengage, or Hide action. On a successful saving throw, it takes half as much damage."
 					]
 				},
 				{
@@ -2437,7 +2437,7 @@
 					},
 					"name": "Id Insinuation",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。目标必须做一个智力救赎动作。拯救失败时，该生物会受到{@damage 5d8}的精神伤害，并进入狂暴状态，因为它的意念横冲直撞。在它的下一个回合，它只能使用它的行动来进行躲避或攻击行动。拯救成功后，它将受到一半的伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, the creature takes {@damage 5d8} psychic damage, and it goes into a fury, as its id runs rampant. On its next turn, it can use its action only to take the Dodge or Attack action. On a successful save, it takes half as much damage."
 					]
 				},
 				{
@@ -2457,7 +2457,7 @@
 					},
 					"name": "Psychic Crush",
 					"entries": [
-						"作为一个行动，你在120英尺范围内创造一个20英尺的精神能量立方体。该区域内的每个生物都必须做一个智力救赎动作。拯救失败时，目标会受到{@damage 8d8}的精神伤害，并且是{@condition stunned}，直到你下一回合结束。拯救成功时，目标会受到一半的伤害。"
+						"As an action, you create a 20-foot cube of psychic energy within 120 feet of you. Each creature in that area must make an Intelligence saving throw. On a failed save, a target takes {@damage 8d8} psychic damage and is {@condition stunned} until the end of your next turn. On a successful save, a target takes half as much damage."
 					]
 				}
 			]
@@ -2469,7 +2469,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"你创造的精神静电会扰乱其他生物的清晰思考能力。"
+				"You create psychic static that disrupts other creatures' ability to think clearly."
 			],
 			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill Deception}) checks.",
 			"modes": [
@@ -2484,7 +2484,7 @@
 					},
 					"name": "Distracting Haze",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。该生物必须做一个智力救赎动作。如果救赎失败，它每花一个psi点就会受到{@scaledamage 1d10|1-7|1d10|psi}的精神伤害，并且在你的{@status concentration}结束之前不能看到距离它10英尺以外的任何东西。拯救成功时，它将受到一半的伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. That creature must make an Intelligence saving throw. On a failed save, it takes {@scaledamage 1d10|1-7|1d10|psi} psychic damage per psi point spent and can't see anything more than 10 feet from it until your {@status concentration} ends. On a successful save, it takes half as much damage."
 					]
 				},
 				{
@@ -2494,7 +2494,7 @@
 					},
 					"name": "Daze",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。该生物必须做一个智力拯救动作。在拯救失败的情况下，目标会受到{@condition incapacitated}的影响，直到你的下一个回合结束，或者直到它受到任何伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. That creature must make an Intelligence saving throw. On a failed save, the target is {@condition incapacitated} until the end of your next turn or until it takes any damage."
 					]
 				},
 				{
@@ -2504,7 +2504,7 @@
 					},
 					"name": "Mind Storm",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的点。以该点为中心的20英尺半径范围内的每个生物都必须做一个智慧拯救动作。拯救失败时，目标会受到{@damage 6d8}的精神伤害，并在所有拯救动作中处于劣势，直到你下一回合结束。拯救成功时，生物会受到一半的伤害。你在这个能力上每多花一个psi点，可以增加1%的伤害。"
+						"As an action, choose a point you can see within 60 feet of you. Each creature in a 20-foot-radius sphere centered on that point must make a Wisdom saving throw. On a failed save, a target takes {@damage 6d8} psychic damage and suffers disadvantage on all saving throws until the end of your next turn. On a successful save, a creature takes half as much damage. You can increase the damage by {@scaledamage 6d8|5-7|1d6|psi} per additional psi point spent on this ability."
 					]
 				}
 			]
@@ -2515,8 +2515,8 @@
 			"page": 28,
 			"type": "T",
 			"entries": [
-				"作为一个动作，你试图用一只由心灵感应能量制作的手抓住你周围120英尺内你能看到的一个生物。目标必须在力量救赎中成功，否则会受到{@damage 1d6}力量伤害。如果它受到任何这种伤害，并且是大型或小型的，你可以在你选择的方向上直线移动它最多10英尺。你不能将目标抬离地面，除非它已经在空中或水下了。",
-				"当你达到5级（{@damage 2d6}）、11级（{@damage 3d6}）和17级（{@damage 4d6}）时，该天赋的伤害增加{@dice 1d6}。"
+				"As an action, you try to grasp one creature you can see within 120 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take {@damage 1d6} force damage. If it takes any of this damage and is Large or smaller, you can move it up to 10 feet in a straight line in a direction of your choice. You can't lift the target off the ground unless it is already airborne or underwater.",
+				"The talent's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
 			]
 		},
 		{
@@ -2526,7 +2526,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"你深入生物的头脑，发现信息或在其内部植入想法。"
+				"You reach into a creature's mind to uncover information or plant ideas within it."
 			],
 			"focus": "While focused on this discipline, you know when a creature communicating with you via telepathy is lying.",
 			"modes": [
@@ -2537,7 +2537,7 @@
 					},
 					"name": "Hammer of Inquisition",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。目标必须做一个智慧救赎动作。拯救失败时，它在你的下一回合结束前，每花费一个psi点，就会受到{@scaledamage 1d10|1-7|1d10|psi}的精神伤害，并且在下一次智慧拯救中受到不利影响。拯救成功时，它将受到一半的伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it takes {@scaledamage 1d10|1-7|1d10|psi} psychic damage per psi point spent and suffers disadvantage on its next Wisdom saving throw before the end of your next turn. On a successful save, it takes half as much damage."
 					]
 				},
 				{
@@ -2561,7 +2561,7 @@
 					},
 					"name": "Ransack Mind",
 					"entries": [
-						"当你专注于这个能力时，你可以探测一个生物的思想。该生物必须保持在你的30英尺范围内，而且你必须能够看到它。如果你达到能力的全部持续时间，目标必须进行三次智力测验，你根据它失败的次数从它那里了解信息。如果一次蓄力失败，你就能学到它在过去12小时内的关键记忆。两次蓄力失败，你就能知道它在过去24小时内的主要记忆。三次蓄力失败，你就能知道它在过去48小时内的关键记忆。"
+						"While you concentrate on this ability, you probe one creature's mind. The creature must remain within 30 feet of you, and you must be able to see it. If you reach the ability's full duration, the target must make three Intelligence saving throws, and you learn information from it based on the number of saving throws it fails. With one failed saving throw, you learn its key memories from the past 12 hours. With two failed saving throws, you learn its key memories from the past 24 hours. With three failed saving throws, you learn its key memories from the past 48 hours."
 					]
 				},
 				{
@@ -2575,7 +2575,7 @@
 					},
 					"name": "Phantom Idea",
 					"entries": [
-						"当你专注于这个能力时，你可以探测一个生物的思想。该生物必须保持在你的30英尺范围内，而且你必须能看到它。如果你达到了能力的全部持续时间，目标必须进行三次智力测验，而你会在它体内植入一段记忆或一个想法，这将根据它失败的测验次数而持续数小时之久。你可以选择这个想法或记忆是微不足道的（比如 \"我早餐吃的是粥 \"或 \"啤酒是最糟糕的\"）还是决定个性的（\"我没能从兽人掠夺者手中拯救我的村庄，因此是个懦夫 \"或 \"魔法是一种祸害，所以我放弃它\"）。如果一次救赎失败，这个想法或记忆将在接下来的4小时内持续。两次蓄力失败，它将持续24小时。三次蓄力失败，它将持续48小时。"
+						"While you concentrate on this ability, you probe one creature's mind. The creature must remain within 30 feet of you, and you must be able to see it. If you reach the ability's full duration, the target must make three Intelligence saving throws, and you plant a memory or an idea in it, which lasts for a number of hours based on the number of saving throws it fails. You choose whether the idea or memory is trivial (such as \"I had porridge for breakfast\" or \"Ale is the worst\") or personality-defining (\"I failed to save my village from orc marauders and am therefore a coward\" or \"Magic is a scourge, so I renounce it\"). With one failed saving throw, the idea or memory lasts for the next 4 hours. With two failed saving throws, it lasts for 24 hours. With three failed saving throws, it lasts for 48 hours."
 					]
 				}
 			]
@@ -2587,7 +2587,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"你的力量深入到生物的头脑中，使其产生错误的认知。"
+				"Your power reaches into a creature's mind and causes it false perceptions."
 			],
 			"focus": "While focused on this discipline, you have advantage on Charisma ({@skill Deception}) checks.",
 			"modes": [
@@ -2598,7 +2598,7 @@
 					},
 					"name": "Distracting Figment",
 					"entries": [
-						"作为一个行动，在你60英尺范围内选择一个你能看到的生物。目标必须做一个智力救赎动作。拯救失败时，它每消耗一个psi点就会受到{@scaledamage 1d10|1-7|1d10|psi}的精神伤害，并认为它察觉到一个威胁性的生物就在它的视线之外；直到你的下一个回合结束，它不能使用反应，对它的近身攻击卷有优势。拯救成功时，它将受到一半的伤害。"
+						"As an action, choose one creature you can see within 60 feet of you. The target must make an Intelligence saving throw. On a failed save, it takes {@scaledamage 1d10|1-7|1d10|psi} psychic damage per psi point spent and thinks it perceives a threatening creature just out of its sight; until the end of your next turn, it can't use reactions, and melee attack rolls against it have advantage. On a successful save, it takes half as much damage."
 					]
 				},
 				{
@@ -2652,7 +2652,7 @@
 			"type": "D",
 			"order": "Awakened",
 			"entries": [
-				"通过引导幻觉的力量，你获得了控制其他生物的能力，用你的意志代替他们的意志。"
+				"By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own."
 			],
 			"focus": "While focused on this discipline, you gain the ability to use your Telepathy class feature with up to six creatures at once. If you don't have that feature from the mystic class, you instead gain it while focused on this discipline.",
 			"modes": [
@@ -2723,7 +2723,7 @@
 			"type": "D",
 			"order": "Nomad",
 			"entries": [
-				"你在心中创造出第三只通灵之眼，并将其投向世界。它将思想和知识传回给你，大大增强你的感官。"
+				"You create a third, psychic eye in your mind, which you cast out into the world. It channels thoughts and knowledge back to you, greatly enhancing your senses."
 			],
 			"focus": "While focused on this discipline, you have darkvision with a range of 60 feet. If you already have darkvision with that range or greater, increase its range by 10 feet.",
 			"modes": [
@@ -2748,7 +2748,7 @@
 					},
 					"name": "Unwavering Eye",
 					"entries": [
-						"作为一个额外的行动，你在智慧检查上获得优势，持续1分钟。"
+						"As a bonus action, you gain advantage on Wisdom checks for 1 minute."
 					]
 				},
 				{

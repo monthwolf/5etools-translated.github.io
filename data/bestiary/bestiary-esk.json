@@ -53,7 +53,7 @@
 				{
 					"name": "Helpful",
 					"entries": [
-						"专家可以采取帮助行动作为奖励行动。"
+						"The expert can take the Help action as a bonus action."
 					]
 				},
 				{
@@ -67,19 +67,19 @@
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d6 + 2})穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw}{@hit 4}命中，距离5英尺或范围20/60英尺，一个目标。{@h}4 ({@damage 1d4 + 2})穿刺伤害。"
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 4}击中，范围80/320英尺，一个目标。{@h}5 ({@damage 1d6 + 2})穿刺伤害。"
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				}
 			],
@@ -200,7 +200,7 @@
 				{
 					"name": "Magical Role",
 					"entries": [
-						"为施法者选择一个角色：治疗者或法师。你的选择决定了下面要使用哪种施法特质。"
+						"Choose a role for the spellcaster: healer or mage. Your choice determines which Spellcasting trait to use below."
 					]
 				}
 			],
@@ -208,7 +208,7 @@
 				{
 					"name": "Quarterstaff",
 					"entries": [
-						"{@atk mw} {@hit 2}击中，到达5英尺，一个目标。{@h}3 ({@damage 1d6})重击伤害，如果双手使用，则为4 ({@damage 1d8})重击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d8}) bludgeoning damage if used with two hands."
 					]
 				}
 			],
@@ -296,7 +296,7 @@
 				{
 					"name": "Martial Role",
 					"entries": [
-						"战士拥有你选择的以下特征之一。",
+						"The warrior has one of the following traits of your choice:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -304,12 +304,12 @@
 								{
 									"type": "item",
 									"name": "Attacker",
-									"entry": "战士在攻击卷上获得+2的奖励。"
+									"entry": "The warrior gains a +2 bonus to attack rolls."
 								},
 								{
 									"type": "item",
 									"name": "Defender",
-									"entry": "战士获得以下保护反应。"
+									"entry": "The warrior gains the Protection reaction below."
 								}
 							]
 						}
@@ -320,13 +320,13 @@
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d8 + 2})砍击伤害，如果双手使用，则为7 ({@damage 1d10 + 2})砍击伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 3}击中，范围150/600英尺，一个目标。{@h}5 ({@damage 1d8 + 1})穿刺伤害。"
+						"{@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
 					]
 				}
 			],
@@ -334,7 +334,7 @@
 				{
 					"name": "Protection (Defender Only)",
 					"entries": [
-						"战士对其周围5英尺内的生物的攻击卷轴施加劣势，其目标不是战士。战士必须能够看到攻击者。"
+						"The warrior imposes disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the warrior. The warrior must be able to see the attacker."
 					]
 				}
 			],

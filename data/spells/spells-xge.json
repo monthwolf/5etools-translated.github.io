@@ -36,8 +36,8 @@
 				}
 			],
 			"entries": [
-				"你可以吸取以你选择的点为中心 30 英尺立方体范围内所有生物的水分。该区域内的每种生物都必须进行一次体质蓄力。构装生物和亡灵不受影响，植物和水元素生物则处于劣势。如果蓄力失败，生物会受到 {@damage 12d8} 死灵伤害，如果蓄力成功，则会受到一半的伤害。",
-				"该区域内非生物的非魔法植物，如树木和灌木，会立即枯萎和死亡。"
+				"You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes {@damage 12d8} necrotic damage on a failed save, or half as much damage on a successful one.",
+				"Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -255,7 +255,7 @@
 			],
 			"entries": [
 				"You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where a pillar appears must be wide enough for its diameter, and you can target the ground under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of {@quickref difficult terrain||3} with a 10-foot radius that lasts until the rubble is cleared. Each 5-foot-diameter portion of the area requires at least 1 minute to clear by hand.",
-				"如果一个柱子在一个生物的下面被创造出来，这个生物必须在一个灵巧的救赎上成功，否则就会被柱子抬起。生物可以选择不进行救赎。",
+				"If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.",
 				"If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes {@damage 6d6} bludgeoning damage and is {@condition restrained}, pinched between the pillar and the obstacle. The {@condition restrained} creature can use an action to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer {@condition restrained} and must either move off the pillar or fall off it."
 			],
 			"entriesHigherLevel": [
@@ -263,7 +263,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用七级以上的法术槽施展此法术时，你可以为六级以上的每一个法术槽等级创造两个额外的柱子。"
+						"When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th."
 					]
 				}
 			],
@@ -386,7 +386,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用四级或以上的法术槽施放此法术时，你可以针对三级以上的每一个法术槽等级的一个额外自愿生物。"
+						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd."
 					]
 				}
 			],
@@ -440,7 +440,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用二级或更高等级的法术槽施放此法术时，你可以针对每一个高于一级的法术槽的额外生物。当你瞄准它们时，这些生物必须在30英尺范围内。"
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -507,7 +507,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"你进行一个特殊的宗教仪式，这个仪式被注入了魔法。当你施法时，选择以下仪式之一，其目标在整个施法过程中必须在你10英尺范围内。",
+				"You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
 				{
 					"type": "entries",
 					"name": "Atonement",
@@ -547,7 +547,7 @@
 					"type": "entries",
 					"name": "Wedding",
 					"entries": [
-						"你接触愿意结为夫妻的成年人类。在接下来的7天里，当他们在彼此30英尺范围内时，每个目标都会获得一个+2的交流奖励。一个生物只有在丧偶的情况下才能再次从这个仪式中受益。"
+						"You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed."
 					]
 				}
 			],
@@ -642,7 +642,7 @@
 									"exact": 4
 								}
 							},
-							"力量"
+							"Force"
 						],
 						[
 							{
@@ -651,7 +651,7 @@
 									"exact": 5
 								}
 							},
-							"閃電"
+							"Lightning"
 						],
 						[
 							{
@@ -660,7 +660,7 @@
 									"exact": 6
 								}
 							},
-							"毒药"
+							"Poison"
 						],
 						[
 							{
@@ -669,7 +669,7 @@
 									"exact": 7
 								}
 							},
-							"通灵"
+							"Psychic"
 						],
 						[
 							{
@@ -678,12 +678,12 @@
 									"exact": 8
 								}
 							},
-							"雷霆"
+							"Thunder"
 						]
 					]
 				},
 				"If you roll the same number on both {@dice d8}s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.",
-				"每次施展此法术时，一个生物只能被锁定一次。"
+				"A creature can be targeted only once by each casting of this spell."
 			],
 			"entriesHigherLevel": [
 				{
@@ -754,7 +754,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用五级或以上的法术槽施放此法术时，你可以针对四级以上的每一个法术槽的一个额外生物。当你瞄准它们时，这些生物必须在30英尺范围内。"
+						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -812,17 +812,17 @@
 				}
 			],
 			"entries": [
-				"你选择你能在范围内看到的、适合在5英尺立方体内的非魔法火焰。你以下列方式之一影响它。",
+				"You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:",
 				{
 					"type": "list",
 					"items": [
-						"你可以瞬间将火焰向一个方向扩大5英尺，前提是新的地点有木材或其他燃料。",
-						"你瞬间熄灭了立方体内的火焰。",
-						"你将火焰投射的亮光和暗光的面积加倍或减半，改变它的颜色，或两者都改变。该变化持续1小时。",
-						"你会使简单的形状--比如一个生物的模糊形态、一个无生命的物体或一个地点--出现在火焰中，并按你的意愿进行活动。这些形状会持续1小时。"
+						"You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.",
+						"You instantaneously extinguish the flames within the cube.",
+						"You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.",
+						"You cause simple shapes\u2014such as the vague form of a creature, an inanimate object, or a location\u2014to appear within the flames and animate as you like. The shapes last for 1 hour."
 					]
 				},
-				"如果你多次施展这个法术，你最多可以有三个由它创造的非瞬时效果同时激活，而且你可以把这样的效果作为一个行动来解除。"
+				"If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action."
 			],
 			"miscTags": [
 				"LGT",
@@ -873,7 +873,7 @@
 				}
 			],
 			"entries": [
-				"你可以控制100英尺范围内的空气，你可以看到范围内的空气。在你施法时选择以下效果之一。该效果在法术的持续时间内持续，除非你在以后的回合中使用你的行动来切换到不同的效果。你也可以用你的行动来暂时停止该效果，或者重新启动你已经停止的效果。",
+				"You take control of the air in a 100-foot cube that you can see within range. Choose one of the following effects when you cast the spell. The effect lasts for the spell's duration, unless you use your action on a later turn to switch to a different effect. You can also use your action to temporarily halt the effect or to restart one you've halted.",
 				{
 					"type": "entries",
 					"name": "Gusts",
@@ -892,7 +892,7 @@
 					"type": "entries",
 					"name": "Updraft",
 					"entries": [
-						"你在立方体内造成持续的上升气流，从立方体的底面向上升起。在立方体内结束坠落的生物只受到坠落的一半伤害。当立方体中的生物进行垂直跳跃时，该生物可以跳得比正常情况下高10英尺。"
+						"You cause a sustained updraft within the cube, rising upward from the cube's bottom side. Creatures that end a fall within the cube take only half damage from the fall. When a creature in the cube makes a vertical jump, the creature can jump up to 10 feet higher than normal."
 					]
 				}
 			],
@@ -950,7 +950,7 @@
 			],
 			"entries": [
 				"You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take {@damage 1d8} fire damage. A creature must also make the saving throw when it moves into the bonfire's space for the first time on a turn or ends its turn there.",
-				"篝火点燃了其区域内没有被穿戴或携带的易燃物。",
+				"The bonfire ignites flammable objects in its area that aren't being worn or carried.",
 				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
 			],
 			"scalingLevelDice": {
@@ -1012,7 +1012,7 @@
 			"entries": [
 				"While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking {@damage 2d4} piercing damage that can't be reduced in any way. You then drip your blood on the spell's other components and touch them, transforming them into a special construct called a {@creature homunculus}.",
 				"The statistics of the {@creature homunculus} are in the Monster Manual. It is your faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by the total, and the homunculus's hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point, and the change to your and the homunculus's hit points ends when you finish your next long rest. The reduction to your hit point maximum can't be removed by any means before then, except by the homunculus's death.",
-				"你一次只能拥有一个同体人。如果你在你的同体人活着的时候施展这个法术，那么这个法术就会失败。"
+				"You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails."
 			],
 			"miscTags": [
 				"PRM"
@@ -1051,14 +1051,14 @@
 			],
 			"entries": [
 				"Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes {@damage 4d12} radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.",
-				"如果你有4个或更多的摩特，它们会在30英尺半径内发出亮光，并在另外30英尺范围内发出暗光。如果你有1到3个摩尔，它们会在30英尺的范围内发出暗光。"
+				"If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用8级或以上的法术槽施展此法术时，每超过7级的法术槽等级，所创造的摩尔数量就会增加两个。"
+						"When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th."
 					]
 				}
 			],
@@ -1112,15 +1112,15 @@
 			],
 			"entries": [
 				"Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a {@creature zombie} or a {@creature skeleton} (the statistics for {@creature zombie||zombies} and {@creature skeleton||skeletons} are in the Monster Manual), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.",
-				"你可以使用一个额外的行动，在精神上指挥你用此法术制造的生物，向它们所有人发出相同的命令。要接收命令，生物必须在你的60英尺之内。你决定这些生物在下一回合将采取什么行动，以及它们将在哪里移动，或者你可以发出一个一般性的命令，比如说守住一个房间或通道以防止你的敌人。如果你不发出任何命令，这些生物除了抵御敌对生物外，什么也不做。一旦下达了命令，生物就会继续遵循它，直到它们的任务完成。",
-				"这些生物在你的控制之下，直到咒语结束，之后它们会再次变成无生命的。"
+				"You can use a bonus action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what action the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.",
+				"The creatures are under your control until the spell ends, after which they become inanimate once more."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用六级或以上的法术槽施展此法术时，每超过五级的法术槽，你最多可以使两具额外的尸体复活。"
+						"When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th."
 					]
 				}
 			],
@@ -1169,9 +1169,9 @@
 				}
 			],
 			"entries": [
-				"黎明之光照耀在你指定范围内的一个地点。直到咒语结束，一个半径30英尺、高40英尺的圆柱形亮光在那里闪闪发光。这种光是太阳光。",
+				"The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight.",
 				"When the cylinder appears, each creature in it must make a Constitution saving throw, taking {@damage 4d10} radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.",
-				"如果你在圆柱体的60英尺范围内，你可以在你的回合内将它移动到60英尺，作为一个额外的行动。"
+				"If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn."
 			],
 			"damageInflict": [
 				"radiant"
@@ -1283,14 +1283,14 @@
 				}
 			],
 			"entries": [
-				"你召唤自然之灵来保护户外或地下的一个区域。这个区域可以小到30英尺的立方体，大到90英尺的立方体。建筑物和其他结构不在受影响的范围内。如果你在一年内每天都在同一区域施展这个法术，那么这个法术会一直持续到被驱散。",
-				"该法术在该区域内产生以下效果。当你施展这个法术时，你可以指定生物作为朋友，对这些效果免疫。你也可以指定一个口令，在大声说出时，使说话者对这些效果免疫。",
+				"You invoke the spirits of nature to protect an area outdoors or underground. The area can be as small as a 30-foot cube or as large as a 90-foot cube. Buildings and other structures are excluded from the affected area. If you cast this spell in the same area every day for a year, the spell lasts until dispelled.",
+				"The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.",
 				"The entire warded area radiates magic. A {@spell dispel magic} cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.",
 				{
 					"type": "entries",
 					"name": "Solid Fog",
 					"entries": [
-						"你可以用浓雾填满地面上任意数量的5英尺方块，使其被严重遮蔽。雾气达到10英尺高。此外，在雾中每移动一英尺都要多花2英尺。对于一个对该效果免疫的生物来说，浓雾不会遮蔽任何东西，看起来就像柔和的雾气，空气中漂浮着绿色的光点。"
+						"You can fill any number of 5-foot squares on the ground with thick fog, making them heavily obscured. The fog reaches 10 feet high. In addition, every foot of movement through the fog costs 2 extra feet. To a creature immune to this effect, the fog obscures nothing and looks like soft mist, with motes of green light floating in the air."
 					]
 				},
 				{
@@ -1311,7 +1311,7 @@
 					"type": "entries",
 					"name": "Additional Spell Effect",
 					"entries": [
-						"你可以在被守护的区域内放置你选择的下列魔法效果之一。"
+						"You can place your choice of one of the following magical effects within the warded area:"
 					]
 				},
 				{
@@ -1375,9 +1375,9 @@
 				}
 			],
 			"entries": [
-				"选择一个你能看到的范围内未被占据的5英尺的空气立方体。一个类似尘埃恶魔的元素力量出现在立方体中，并在法术的持续时间内持续存在。",
+				"Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell's duration.",
 				"Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes {@damage 1d8} bludgeoning damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed.",
-				"作为一个额外的动作，你可以在任何方向上移动尘土恶魔达30英尺。如果尘魔在沙子、尘土、松散的泥土或轻质沙砾上移动，它会吸走这些物质，并在自己周围形成一个半径为10英尺的碎片云，持续到你下一个回合开始。这片云会严重遮蔽其区域。"
+				"As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1501,7 +1501,7 @@
 				}
 			],
 			"entries": [
-				"选择一个你能看到的范围内的生物。黄色的魔法能量条围绕着该生物。目标必须成功地进行力量救赎，否则它的飞行速度（如果有的话）会在咒语持续期间降至0英尺。受此法术影响的空中生物以每回合60英尺的速度安全下降，直到它到达地面或法术结束。"
+				"Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw, or its flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell safely descends at 60 feet per round until it reaches the ground or the spell ends."
 			],
 			"savingThrow": [
 				"strength"
@@ -1560,7 +1560,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用五级或以上的法术槽施放此法术时，你可以针对四级以上的每一个法术槽的一个额外生物。当你瞄准它们时，这些生物必须在30英尺范围内。"
+						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -2450,7 +2450,7 @@
 			"entries": [
 				"Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil's type, which must be one of {@filter challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|tag=devil|miscellaneous=!swarm}, such as a {@creature barbed devil} or a {@creature bearded devil}. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.",
 				"The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master's control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature's statistics.",
-				"On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma ({@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}) check contested by its Wisdom ({@skill Insight}) check. You make the check with advantage if you say the devil's true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command—such as \"attack my enemies,\" \"explore the room ahead,\" or \"bear this message to the queen\"—until it completes the activity, at which point it returns to you to report having done so.",
+				"On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma ({@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}) check contested by its Wisdom ({@skill Insight}) check. You make the check with advantage if you say the devil's true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command\u2014such as \"attack my enemies,\" \"explore the room ahead,\" or \"bear this message to the queen\"\u2014until it completes the activity, at which point it returns to you to report having done so.",
 				"If your {@status concentration} ends before the spell reaches its full duration, the devil doesn't disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for {@dice 3d6} minutes, and then it disappears.",
 				"If you possess an individual devil's talisman, you can summon that devil if it is of the appropriate challenge rating plus 1, and it obeys all your commands, with no Charisma checks required."
 			],
@@ -3196,7 +3196,7 @@
 				}
 			],
 			"entries": [
-				"You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell—and as a bonus action on each of your turns thereafter—you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes {@damage 2d6} fire damage on a failed save, or half as much damage on a successful one."
+				"You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell\u2014and as a bonus action on each of your turns thereafter\u2014you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes {@damage 2d6} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{

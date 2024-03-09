@@ -1,0 +1,6993 @@
+{
+	"_meta": {
+		"dependencies": {
+			"monster": [
+				"MM",
+				"VGM"
+			]
+		},
+		"internalCopies": [
+			"monster"
+		],
+		"otherSources": {
+			"monster": {
+				"MM": "ToA"
+			}
+		}
+	},
+	"monster": [
+		{
+			"name": "Acererak",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 209,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 285,
+				"formula": "30d8 + 150"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 20,
+			"int": 27,
+			"wis": 21,
+			"cha": 20,
+			"save": {
+				"con": "+12",
+				"int": "+15",
+				"wis": "+12"
+			},
+			"skill": {
+				"arcana": "+22",
+				"history": "+22",
+				"insight": "+12",
+				"perception": "+12"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 22,
+			"resist": [
+				"cold",
+				"lightning"
+			],
+			"immune": [
+				"necrotic",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Giant",
+				"Infernal",
+				"Primordial",
+				"Undercommon"
+			],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Acererak has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell ray of sickness}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"spells": [
+								"{@spell arcane lock}",
+								"{@spell knock}"
+							]
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell counterspell}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight}",
+								"{@spell ice storm}",
+								"{@spell phantasmal killer}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell cloudkill}",
+								"{@spell hold monster}",
+								"{@spell wall of force}"
+							]
+						},
+						"6": {
+							"slots": 3,
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell circle of death}",
+								"{@spell disintegrate}"
+							]
+						},
+						"7": {
+							"slots": 3,
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell plane shift}",
+								"{@spell teleport}"
+							]
+						},
+						"8": {
+							"slots": 2,
+							"spells": [
+								"{@spell maze}",
+								"{@spell mind blank}"
+							]
+						},
+						"9": {
+							"slots": 2,
+							"spells": [
+								"{@spell power word kill}",
+								"{@spell time stop}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Acererak携带{@item Staff of the Forgotten One|ToA}。他戴着（1%），并有一个（2%）被他控制。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果Acererak的拯救动作失败，他可以选择成功。"
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"当Acererak的生命值下降到0时，他的身体会变成灰尘，他的装备也会被留下。Acererak在{@dice 1d10}天后获得一个新的身体，恢复他所有的命中率并再次变得活跃。新的身体出现在Acerak的法器的5英尺范围内，法器的位置是隐藏的。"
+					]
+				},
+				{
+					"name": "Turn Resistance",
+					"entries": [
+						"Acererak在面对任何变成亡灵的效果时都有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Paralyzing Touch",
+					"entries": [
+						"{@atk ms} {@hit 15}击中，到达5英尺，一个生物。{@h}10 ({@damage 3d6})的寒冷伤害，并且目标必须在{@dc 20}宪法救赎中成功，否则会被{@condition paralyzed}1分钟。目标可以在其每个回合结束时重复蓄力，成功后结束对自己的影响。"
+					]
+				},
+				{
+					"name": "Staff (+3 Quarterstaff)",
+					"entries": [
+						"{@atk mw} {@hit 11}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d6 + 4})重击伤害加10 ({@damage 3d6})坏死伤害，或者双手使用时，8 ({@damage 1d8 + 4})重击伤害加10 ({@damage 3d6})坏死伤害。"
+					]
+				},
+				{
+					"name": "Invoke Curse",
+					"entries": [
+						"在持有被遗忘者之杖的时候，阿克雷拉克会消耗它的一个电荷，并以他周围60英尺内他能看到的一个生物为目标。目标必须在宪法规定的投掷中成功，否则将被诅咒。在诅咒结束之前，目标不能恢复命中率，并且容易受到坏死的伤害。{@spell Greater restoration}, {@spell remove curse}, 或类似的魔法结束对目标的诅咒。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "At-Will Spell",
+					"entries": [
+						"Acererak施展他的一个随心所欲的法术。"
+					]
+				},
+				{
+					"name": "Melee Attack",
+					"entries": [
+						"Acererak使用麻痹之触或用他的法杖进行一次近战攻击。"
+					]
+				},
+				{
+					"name": "Frightening Gaze (Costs 2 Actions)",
+					"entries": [
+						"Acererak将他的目光投向他周围10英尺内他能看到的一个生物。目标必须对这个魔法做一个{@dc 20}的智慧救赎，否则就会变成{@condition frightened}，持续1分钟。2%）的目标可以在每个回合结束时重复蓄力，如果成功则结束对自己的影响。如果一个目标的救赎成功或效果结束，该目标在接下来的24小时内对Acererak的凝视免疫。"
+					]
+				},
+				{
+					"name": "Talisman of the Sphere (Costs 2 Actions)",
+					"entries": [
+						"Acererak使用他的{@item Talisman of the Sphere}将他控制的{@item Sphere of Annihilation}移动至90英尺。"
+					]
+				},
+				{
+					"name": "Disrupt Life (Costs 3 Actions)",
+					"entries": [
+						"在Acererak周围20英尺范围内的每个生物都必须对这个魔法进行一次{@dc 20}的宪法救赎，如果救赎失败，将受到42({@damage 12d6})的坏死伤害，如果救赎成功，将受到一半的伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Rejuvenation",
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"D",
+				"DR",
+				"E",
+				"GI",
+				"I",
+				"P",
+				"U"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"N"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"I",
+				"L",
+				"N",
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Albino Dwarf Spirit Warrior",
+			"source": "ToA",
+			"page": 210,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 13,
+			"dex": 13,
+			"con": 17,
+			"int": 12,
+			"wis": 14,
+			"cha": 11,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"矮人天生的法术能力是智慧。它可以天生施展以下法术，不需要任何材料成分。"
+					],
+					"daily": {
+						"1e": [
+							"{@spell hunter's mark}",
+							"{@spell jump}",
+							"{@spell pass without trace}",
+							"{@spell speak with animals}",
+							"{@spell speak with plants}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"矮人对毒药的蓄力攻击有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Handaxe",
+					"entries": [
+						"{@atk mw,rw}{@hit 3}命中，距离5英尺或范围20/60英尺，一个目标。{@h}4 ({@damage 1d6 + 1})砍击伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"handaxe|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Albino Dwarf Warrior",
+			"source": "ToA",
+			"page": 210,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 13,
+			"dex": 13,
+			"con": 17,
+			"int": 12,
+			"wis": 14,
+			"cha": 11,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"矮人对毒药的蓄力攻击有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Handaxe",
+					"entries": [
+						"{@atk mw,rw}{@hit 3}命中，距离5英尺或范围20/60英尺，一个目标。{@h}4 ({@damage 1d6 + 1})砍击伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"handaxe|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Aldani (Lobsterfolk)",
+			"source": "ToA",
+			"page": 210,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 49,
+				"formula": "9d8 + 9"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 8,
+			"con": 12,
+			"int": 10,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"阿尔达尼人可以呼吸空气和水。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"阿尔达尼用它的爪子进行两次攻击。"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d8 + 1})砍击伤害，目标为{@condition grappled}(逃跑{@dc 11})。阿尔达尼有两个爪子，每个爪子只能抓取一个目标。"
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Almiraj",
+			"source": "ToA",
+			"page": 211,
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d6"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 10,
+			"int": 2,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 14,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"阿尔米拉吉在依靠听觉或视觉的智慧检查中具有优势。"
+					]
+				},
+				{
+					"name": "Familiar",
+					"entries": [
+						"在DM的允许下，{@spell find familiar}法术可以召唤一个almiraj。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Horn",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d4 + 3})穿刺伤害。"
+					]
+				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ankylosaurus Zombie",
+			"source": "ToA",
+			"page": 240,
+			"size": [
+				"H"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 68,
+				"formula": "8d12 + 16"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 19,
+			"dex": 9,
+			"con": 15,
+			"int": 2,
+			"wis": 6,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"如果伤害将僵尸的命中率降至0，它必须做一个宪法救赎动作，DC为5+所受伤害，除非伤害是辐射或来自关键打击。如果成功，僵尸会下降到1点生命值。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw}{@hit 6}击中，达到10英尺，对一个目标造成{@h}18({@damage 4d6 + 4})重击伤害。如果目标是一个生物，它必须在一个{@dc 14}力量救赎中成功，或者被击倒{@condition prone}。"
+					]
+				}
+			],
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Artus Cimber",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 212,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 82,
+				"formula": "15d8 + 15"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 13,
+			"int": 17,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"dex": "+5",
+				"cha": "+7"
+			},
+			"skill": {
+				"deception": "+7",
+				"history": "+9",
+				"insight": "+6",
+				"survival": "+9"
+			},
+			"passive": 13,
+			"immune": [
+				{
+					"immune": [
+						"cold"
+					],
+					"preNote": "While wearing the Ring of Winter:"
+				}
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Goblin"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Artus wears the {@item Ring of Winter|toa}. He and the ring can't be targeted by divination magic or perceived through magical scrying sensors. While attuned to and wearing the ring, Artus ceases to age and is immune to cold damage and the effects of extreme cold.",
+						"阿图斯挥舞着{@item Bookmark|toa}一把具有额外魔法属性的+3匕首。作为一个额外的动作，Artus可以在与匕首配合时激活以下任何一项属性，前提是他已经拔出武器。",
+						{
+							"type": "list",
+							"items": [
+								"使镶嵌在匕首柄上的蓝色宝石在20英尺范围内发出亮光，在另外20英尺范围内发出暗光，或者使宝石变暗。",
+								"把匕首变成一个指南针，放在手掌上时，指向北方。",
+								"Cast {@spell dimension door} from the dagger. Once this property is used, it can't be used again until the next dawn.",
+								"Cast {@spell compulsion} (save {@dc 15}) from the dagger. The range of the spell increases to 90 feet but it targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"阿图斯用书签或他的长弓进行三次攻击。"
+					]
+				},
+				{
+					"name": "Bookmark (+3 Dagger)",
+					"entries": [
+						"{@atk mw} {@hit 8}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d4 + 5})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw}{@hit 5}击中，范围150/600英尺，对一个目标造成{@h}6({@damage 1d8 + 2})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Ring of Winter",
+					"entries": [
+						"冬日之戒有12次充电，每天黎明时分恢复所有已消耗的充电。当阿图斯戴上这枚戒指时，他可以消耗必要数量的电荷来激活以下属性之一。",
+						{
+							"type": "list",
+							"items": [
+								"Artus可以消耗1个电荷并使用戒指来降低以他能看到的300英尺范围内的一个点为中心的120英尺半径的球体的温度。该区域的温度每分钟下降20度，最低为华氏-30度。一旦温度降到32度以下，表面就会开始形成霜和冰。这个效果是永久性的，除非阿图斯使用戒指作为一个动作来结束这个效果，这时该区域的温度会以每分钟10度的速度恢复正常。",
+								"Artus can cast one of the following spells from the ring (spell save {@dc 17}) by expending the necessary number of charges: {@spell Bigby's hand} (2 charges) the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist, {@spell cone of cold} (2 charges), {@spell flesh to stone||flesh to ice} (3 charges); as flesh to stone except that the target turns to solid ice with the density and durability of stone, {@spell ice storm} (2 charges), {@spell Otiluke's freezing sphere} (3 charges), {@spell sleet storm} (1 charge), {@spell spike growth} (1 charge) the spikes are made of ice, or {@spell wall of ice} (2 charges).",
+								"阿图斯可以消耗必要的费用，用戒指创造一个无生命的冰块（2个费用）或一个有生命的冰生物（4个费用）。这个冰块不能有任何活动部件，必须能装进一个10英尺的立方体中，并且具有金属或石头的密度和耐久性（阿图斯选择）。冰雪生物必须以挑战等级为2或以下的野兽为模型。冰雪生物的统计数据与它所模拟的野兽相同，但有以下变化：该生物是一种结构体，易受火灾伤害，对寒冷和毒药伤害免疫，并对以下条件免疫：{@condition charmed}、{@condition exhaustion}、{@condition frightened}、{@condition paralyzed}、{@condition petrified}和{@condition poisoned}。冰雪生物只听从其创造者的命令。该物体或生物出现在阿特斯60英尺范围内的一个无人空间。24小时后或当它的命中率下降到0时，它将融化成一滩普通的水。在极热的情况下，它在融化时每分钟会损失5({@dice 1d10})点命中率。如果有必要的话，可以使用《地下城管理员指南》第8章的指南来确定无生命物体的命中率。"
+							]
+						}
+					]
+				}
+			],
+			"attachedItems": [
+				"bookmark|toa",
+				"longbow|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR",
+				"GO"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Asharra",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 69,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"aarakocra"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 31,
+				"formula": "7d8"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 50
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 14,
+			"wis": 17,
+			"cha": 11,
+			"skill": {
+				"history": "+4",
+				"insight": "+5",
+				"perception": "+7"
+			},
+			"passive": 17,
+			"languages": [
+				"Auran",
+				"Common"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Asharra is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Asharra has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell mending}",
+								"{@spell produce flame}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell faerie fire}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell gust of wind}",
+								"{@spell hold person}",
+								"{@spell lesser restoration}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell call lightning}",
+								"{@spell wind wall}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dive Attack",
+					"entries": [
+						"If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 ({@dice 1d6}) damage to the target."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dance of the Seven Winds",
+					"entries": [
+						"阿夏拉知道一种叫做 \"七风之舞 \"的仪式，它可以暂时赋予多达10个非飞行生物以神奇的飞行能力。这个仪式需要10分钟才能完成，只能由阿拉科克拉长老来完成，并且需要一朵黑兰花作为材料成分。",
+						"阿莎拉必须将兰花磨成粉末，吸入兰花，并在其他七个阿拉科克拉向阿卡的风公爵吟唱祈祷的时候，不间断地围绕仪式的受益人转圈跳舞。舞蹈结束后，阿莎拉的翅膀消失，她失去了飞行的能力。仪式的受益者每人获得30英尺的神奇飞行速度（允许他们每小时飞行4英里）。这个好处持续3天，之后阿莎拉的翅膀重新出现，她重新获得了飞行的能力。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Talon",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}4 ({@damage 1d4 + 2})砍击伤害。"
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw}{@hit 4}命中，距离5英尺或范围30/120英尺，一个目标。{@h}5 ({@damage 1d6 + 2})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Summon Air Elemental",
+					"entries": [
+						"Five aarakocra within 30 feet of each other can magically summon an {@creature air elemental}. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain {@status concentration} while doing so (as if {@status concentration||concentrating} on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
+					]
+				}
+			],
+			"attachedItems": [
+				"javelin|phb"
+			],
+			"languageTags": [
+				"AU",
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"L",
+				"T"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"strength",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Assassin Vine",
+			"source": "ToA",
+			"page": 213,
+			"otherSources": [
+				{
+					"source": "GoS"
+				},
+				{
+					"source": "SDW"
+				}
+			],
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 85,
+				"formula": "10d10 + 30"
+			},
+			"speed": {
+				"walk": 5,
+				"climb": 5
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 1,
+			"wis": 10,
+			"cha": 1,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"cold",
+				"fire"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"当刺客藤蔓保持不动，它与普通植物没有区别。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达20英尺，一个生物。{@h}目标受到11({@damage 2d6 + 4})重击伤害，而且是{@condition grappled}(逃跑{@dc 14})。直到这个抓捕结束，目标是{@condition restrained}，并且在它的每个回合开始时受到21({@damage 6d6})的毒伤害。藤蔓一次只能束缚一个目标。"
+					]
+				},
+				{
+					"name": "Entangling Vines",
+					"entries": [
+						"The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into {@quickref difficult terrain||3}. A creature in that area when the effect begins must succeed on a {@dc 13} Strength saving throw or be {@condition restrained} by entangling vines and roots. A creature {@condition restrained} by the plants can use its action to make a {@dc 13} Strength ({@skill Athletics}) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Atropal",
+			"source": "ToA",
+			"page": 214,
+			"size": [
+				"H"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"titan"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				7
+			],
+			"hp": {
+				"average": 225,
+				"formula": "18d12 + 108"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 19,
+			"dex": 5,
+			"con": 22,
+			"int": 25,
+			"wis": 19,
+			"cha": 24,
+			"save": {
+				"con": "+11",
+				"wis": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"cold",
+				"necrotic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"understands Celestial but utters only obscene nonsense"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"阿托帕尔在面对法术和其他魔法效果时，在蓄力攻击方面具有优势。"
+					]
+				},
+				{
+					"name": "Negative Energy Aura",
+					"entries": [
+						"Creatures within 30 feet of the atropal can't regain hit points, and any creature that starts its turn within 30 feet of the atropal takes 10 ({@damage 3d6}) necrotic damage. If the atropal is struck by a {@item vorpal sword}, the wielder can cut the atropal's umbilical cord instead of dealing damage. If its umbilical cord is cut, the atropal loses this feature."
+					]
+				},
+				{
+					"name": "Turn Resistance Aura",
+					"entries": [
+						"阿托帕尔和它周围30英尺范围内的任何其他亡灵生物在面对任何变成亡灵的效果时都有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Touch",
+					"entries": [
+						"{@atk mw} {@hit 9}击中，到达5英尺，一个目标。{@h}10 ({@damage 3d6})坏死性伤害。"
+					]
+				},
+				{
+					"name": "Ray of Cold",
+					"entries": [
+						"{@atk rs} {@hit 12}击中，范围120英尺，一个目标。{@h}21 ({@damage 6d6})寒冷伤害。"
+					]
+				},
+				{
+					"name": "Life Drain",
+					"entries": [
+						"阿托帕尔的目标是它能看到的120英尺内的一个生物。目标必须在一个{@dc 19}宪法救赎中成功，如果救赎失败，将受到36({@damage 8d8})的坏死伤害，如果救赎成功，将受到一半的伤害。阿托帕尔恢复的点数等于所受伤害的一半。"
+					]
+				},
+				{
+					"name": "Summon Wraith {@recharge}",
+					"entries": [
+						"阿托帕尔召唤一个{@creature wraith}，在它能看到的无人空间里，在它的30英尺范围内实体化。缠绕者服从其召唤者的命令，不能被任何其他生物所控制。当它的生命值下降到0或召唤者死亡时，裹尸人就会消失。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Touch",
+					"entries": [
+						"阿托帕尔进行了一次触摸攻击。"
+					]
+				},
+				{
+					"name": "Ray of Cold (Costs 2 Actions)",
+					"entries": [
+						"阿托帕尔使用它的寒冰之光。"
+					]
+				},
+				{
+					"name": "Wail (Costs 3 Actions)",
+					"entries": [
+						"The atropal lets out a withering wail. Any creature within 120 feet of the atropal that can hear the wail must succeed on a {@dc 19} Constitution saving throw or gain 1 level of {@condition exhaustion}."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"SD",
+				"U"
+			],
+			"languageTags": [
+				"CE"
+			],
+			"damageTags": [
+				"C",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Azaka Stormfang",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 33,
+			"_copy": {
+				"name": "Weretiger",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "weretiger",
+						"with": "Azaka",
+						"flags": "i"
+					}
+				}
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Bag of Nails",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 102,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tabaxi"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 13,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dex": "+6",
+				"int": "+4"
+			},
+			"skill": {
+				"acrobatics": "+6",
+				"deception": "+3",
+				"perception": "+3",
+				"stealth": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Thieves' cant",
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Feline Agility",
+					"entries": [
+						"当钉子袋在其战斗回合中移动时，他的速度可以加倍，直到该回合结束。一旦他使用这个特性，钉子袋就不能再次使用，直到他在某个回合中移动0英尺。"
+					]
+				},
+				{
+					"name": "Assassinate",
+					"entries": [
+						"在他的第一个回合中，钉子袋在对任何还没有进行回合的生物进行攻击时有优势。钉子袋对{@quickref Surprise|PHB|3|0|surprised}的生物的任何一击都是关键一击。"
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"如果 \"钉子袋 \"受到的效果允许他做一个灵巧的蓄力动作，只受到一半的伤害，如果蓄力动作成功，\"钉子袋 \"就不会受到伤害，如果失败，则只受到一半的伤害。"
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Bag of Nails deals an extra 14 ({@dice 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of his that isn't {@condition incapacitated} and Bag of Nails doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"钉子袋进行了两次短剑攻击。"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}2 ({@damage 1d4})砍击伤害。"
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})穿刺伤害，目标必须做一个{@dc 15}宪法救赎，救赎失败时受到24 ({@damage 7d6})的毒药伤害，救赎成功时受到一半的伤害。"
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 6}击中，范围150/600英尺，一个目标。{@h}7 ({@damage 1d8 + 3})穿刺伤害，目标必须做一个{@dc 15}宪法救赎，救赎失败会受到24({@damage 7d6})的毒药伤害，救赎成功会受到一半的伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"TC"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Blind Artist",
+			"isNpc": true,
+			"source": "ToA",
+			"page": 164,
+			"_copy": {
+				"name": "Zombie",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "zombie",
+						"with": "artist"
+					}
+				}
+			},
+			"senses": [
+				"blindsight 30 ft. (blind beyond this radius)"
+			],
+			"conditionImmune": [
+				"blinded",
+				"poisoned"
+			],
+			"cr": "0",
+			"action": null,
+			"senseTags": [
+				"B"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bosco Daggerhand",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 68,
+			"_copy": {
+				"name": "Thug",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the thug",
+						"with": "Bosco",
+						"flags": "i"
+					},
+					"trait": {
+						"mode": "prependArr",
+						"items": {
+							"name": "Special Equipment",
+							"entries": [
+								"Bosco wears a {@item ring of animal influence}."
+							]
+						}
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Chwinga",
+			"source": "ToA",
+			"page": 216,
+			"size": [
+				"T"
+			],
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 5,
+				"formula": "2d4"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20,
+				"swim": 20
+			},
+			"str": 1,
+			"dex": 20,
+			"con": 10,
+			"int": 14,
+			"wis": 16,
+			"cha": 16,
+			"skill": {
+				"acrobatics": "+7",
+				"perception": "+7",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 17,
+			"cr": "0",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Chwinga的先天法术能力是智慧。它可以天生施展以下法术，不需要任何材料或语言成分。"
+					],
+					"will": [
+						"{@spell druidcraft}",
+						"{@spell guidance}",
+						"{@spell pass without trace}",
+						"{@spell resistance}"
+					],
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Chwinga不需要空气、食物或饮料。当它死后，它会变成一把花瓣，一团花粉，一个类似于它以前的石像，一个光滑的小石球，或者一滩淡水（你选择）。"
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"当chwinga受到一个允许它做出灵巧救赎的效果，只受到一半的伤害时，如果救赎成功，它就不会受到伤害，如果失败，就只受到一半的伤害。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Magical Gift (1/Day)",
+					"entries": [
+						"The chwinga targets a humanoid it can see within 5 feet of it. The target gains a {@filter supernatural charm|rewards|type=charm} of the DM's choice. See {@book chapter 7|DMG|7|Other Rewards} of the Dungeon Masters Guide for more information on supernatural charms."
+					]
+				},
+				{
+					"name": "Natural Shelter",
+					"entries": [
+						"温加人在其空间内的岩石、活体植物或天然淡水源中神奇地躲避。在这个庇护所内，温加人不能被任何攻击、法术或其他效果所针对，而且庇护所也不会影响温加人的视线。温加尔人可以使用它的行动来从庇护所中出来。如果它的庇护所被摧毁，那么chwinga会被迫出来并出现在庇护所的空间里，但除此之外没有受到伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Unusual Nature"
+			],
+			"senseTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Clay Gladiator",
+			"source": "ToA",
+			"page": 100,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d8 + 45"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"str": "+7",
+				"dex": "+5",
+				"con": "+6"
+			},
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+5"
+			},
+			"passive": 11,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Climbing",
+					"entries": [
+						"角斗士可以爬上困难的表面，包括倒立在天花板上，而不需要进行能力检查。"
+					]
+				},
+				{
+					"name": "Steadfast",
+					"entries": [
+						"角斗士不能被解除武装，也不能进行远程攻击。"
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"一个近战武器在角斗士用它击中时，会造成一个额外的伤害模子（包括在攻击中）。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"角斗士进行三次近战攻击。"
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。{@h}11 ({@damage 2d6 + 4})穿刺伤害，如果双手使用，则为13 ({@damage 2d8 + 4})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 7}击中，到达5英尺，一个生物。{@h}9 ({@damage 2d4 + 4})重击伤害。如果目标是中等或较小的生物，它必须成功地进行{@dc 15}力量投掷，否则会被击倒{@condition prone}。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"角斗士在对抗一次会击中它的近战攻击时，会在自己的AC上加3。要做到这一点，角斗士必须看到攻击者并挥舞着近战武器。"
+					]
+				}
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Dragonbait",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 218,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"saurial"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item breastplate|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d8 + 48"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 17,
+			"int": 14,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+5",
+				"medicine": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"understands Common but can't speak"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Divine Health",
+					"entries": [
+						"龙饵对疾病有免疫力。"
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"While holding his {@item holy avenger longsword}, Dragonbait creates an aura in a 10-foot radius around him. While this aura is active, Dragonbait and all creatures friendly to him in the aura have advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"龙饵进行两次近战武器攻击。"
+					]
+				},
+				{
+					"name": "Holy Avenger (+3 Longsword)",
+					"entries": [
+						"{@atk mw} {@hit 8}击中，到达5英尺，一个目标。{@h}9 ({@damage 1d8 + 5})的砍击伤害，或在双手使用时造成10 ({@damage 1d10 + 5}) 的砍击伤害。如果目标是魔族或亡灵，则会受到额外的11({@damage 2d10})辐射伤害。"
+					]
+				},
+				{
+					"name": "Sense Alignment",
+					"entries": [
+						"龙饵选择一个他能看到的60英尺范围内的生物，并确定其排列，只要该生物没有被咒语或其他魔法效果隐藏在占卜魔法中。"
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Drufi",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 64,
+			"_copy": {
+				"name": "Frost Giant",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the giant",
+						"with": "Drufi",
+						"flags": "i"
+					}
+				}
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Eblis",
+			"source": "ToA",
+			"page": 219,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d10 + 4"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 40
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 12,
+			"int": 12,
+			"wis": 14,
+			"cha": 11,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"Auran",
+				"Common"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The eblis's innate spellcasting ability is Intelligence (spell save {@dc 11}). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell blur}",
+							"{@spell hypnotic pattern}",
+							"{@spell minor illusion}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"埃布利斯用它的喙攻击两次。"
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw}{@hit 5}击中，达到5英尺，对一个目标造成{@h}5({@damage 1d4 + 3})穿刺伤害。"
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AU",
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ekene-Afa",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 25,
+			"_copy": {
+				"name": "Gladiator",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the gladiator",
+						"with": "Ekene-Afa",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Eku",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 34,
+			"_copy": {
+				"name": "Couatl",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the couatl",
+						"with": "Eku",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Elok Jaharwon",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 67,
+			"_copy": {
+				"name": "Wereboar",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the wereboar",
+						"with": "Elok",
+						"flags": "i"
+					}
+				}
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Faroul",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 34,
+			"_copy": {
+				"name": "Scout",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the scout",
+						"with": "Faroul",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Fenthaza",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 113,
+			"_copy": {
+				"name": "Yuan-ti Nightmare Speaker",
+				"source": "VGM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the yuan-ti",
+						"with": "Fenthaza",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Flask of Wine",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 35,
+			"_copy": {
+				"name": "Tabaxi Hunter",
+				"source": "ToA",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the tabaxi",
+						"with": "Flask of Wine",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Flying Monkey",
+			"source": "ToA",
+			"page": 220,
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d6"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20,
+				"fly": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 11,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"passive": 11,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Familiar",
+					"entries": [
+						"在DM的允许下，{@spell find familiar}法术可以召唤一只飞猴。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw}{@hit 1}击中，达到5英尺，对一个目标造成{@h}1({@damage 1d4 - 1})穿刺伤害。"
+					]
+				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Giant Four-Armed Gargoyle",
+			"source": "ToA",
+			"page": 221,
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 147,
+				"formula": "14d10 + 70"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 19,
+			"dex": 11,
+			"con": 20,
+			"int": 6,
+			"wis": 11,
+			"cha": 9,
+			"save": {
+				"wis": "+4"
+			},
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks not made with adamantine weapons",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Terran"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"虽然巨妖保持不动，但它与无生命的雕像没有区别。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"巨妖会进行五次攻击：一次是咬人，四次是爪子。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8}击中，到达5英尺，一个目标。{@h}11 ({@damage 2d6 + 4})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8}击中，到达5英尺，一个目标。{@h}9 ({@damage 2d4 + 4})砍击伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"T"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Giant Snapping Turtle",
+			"source": "ToA",
+			"page": 222,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 12,
+					"condition": "while prone"
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d10 + 20"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 40
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 12,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"海龟可以呼吸空气和水。"
+					]
+				},
+				{
+					"name": "Stable",
+					"entries": [
+						"Whenever an effect knocks the turtle {@condition prone}, it can make a {@dc 10} Constitution saving throw to avoid being knocked {@condition prone}. A {@condition prone} turtle is upside down. To stand up, it must succeed on a {@dc 10} Dexterity check on its turn and then use all its movement for that turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}18 ({@damage 4d6 + 4})砍击伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Girallon Zombie",
+			"source": "ToA",
+			"page": 240,
+			"size": [
+				"L"
+			],
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10 + 21"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 3,
+			"wis": 7,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"作为一个额外的动作，僵尸可以按照它的速度向它能看到的敌对生物移动。"
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"如果伤害将僵尸的命中率降至0，它必须做一个宪法救赎动作，DC为5+所受伤害，除非伤害是辐射或来自关键打击。如果成功，僵尸会下降到1点生命值。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"僵尸会进行五次攻击：一次是咬人，四次是用爪子。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d6 + 4})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d4 + 4})砍击伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Aggressive",
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Gondolo",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 34,
+			"_copy": {
+				"name": "Scout",
+				"source": "MM",
+				"_templates": [
+					{
+						"name": "Stout Halfling",
+						"source": "PHB"
+					}
+				],
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the scout",
+						"with": "Gondolo",
+						"flags": "i"
+					}
+				}
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d6 + 3"
+			},
+			"languageTags": [
+				"C",
+				"H",
+				"X"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Grabstab",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 89,
+			"_copy": {
+				"name": "Goblin Boss",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the goblin",
+						"with": "Grabstab",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Grandfather Zitembe",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 20,
+			"_copy": {
+				"name": "Priest",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the priest",
+						"with": "Zitembe",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Hew Hackinstone",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 33,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 17,
+			"int": 9,
+			"wis": 11,
+			"cha": 9,
+			"skill": {
+				"survival": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Hew has resistance to poison damage and advantage on saving throws against being {@condition poisoned}."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"在他的回合开始时，休可以在该回合内的所有近战武器攻击卷上获得优势，但对他的攻击卷有优势，直到他下一回合开始。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d8 + 3})砍击伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"battleaxe|phb"
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ifan Talro'a",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 25,
+			"_copy": {
+				"name": "Noble",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the noble",
+						"with": "Ifan",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Jaculi",
+			"source": "ToA",
+			"page": 225,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d10"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 11,
+			"int": 2,
+			"wis": 8,
+			"cha": 3,
+			"skill": {
+				"athletics": "+4",
+				"perception": "+1",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 11,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Camouflage",
+					"entries": [
+						"The jaculi has advantage on Dexterity ({@skill Stealth}) checks made to hide."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The jaculi has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}9 ({@damage 2d6 + 2})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Spring",
+					"entries": [
+						"贾库里在一条直线上弹出30英尺，并对其范围内的目标进行咬人攻击。如果贾库里弹出至少10英尺，则该攻击具有优势。如果攻击命中，咬伤会造成额外的7({@damage 2d6})穿刺伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Jessamine",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 26,
+			"_copy": {
+				"name": "Assassin",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the noble",
+						"with": "Ifan",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Jobal",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 26,
+			"_copy": {
+				"name": "Scout",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the scout",
+						"with": "Jobal",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Kamadan",
+			"source": "ToA",
+			"page": 225,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d10 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 14,
+			"int": 3,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+7"
+			},
+			"passive": 14,
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The kamadan has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"如果卡玛丹向一个生物移动了至少20英尺，并在同一回合内用爪子攻击它，那么该目标必须成功地进行{@dc 13}力量投掷，否则会被击倒{@condition prone}。如果目标被击倒{@condition prone}，卡玛丹可以对其进行两次攻击--一次用咬，一次用蛇--作为额外动作。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"卡马丹有两种攻击方式：一种是用它的咬或爪，一种是用它的蛇。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})砍击伤害。"
+					]
+				},
+				{
+					"name": "Snakes",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个生物。{@h}6 ({@damage 1d6 + 3})穿刺伤害，目标必须做一个{@dc 12}宪法救赎，救赎失败时受到21({@damage 6d6})的毒药伤害，成功时受到一半的伤害。"
+					]
+				},
+				{
+					"name": "Sleep Breath (Recharges after a Short or Long Rest)",
+					"entries": [
+						"卡玛丹在30英尺的范围内呼出睡眠气体。该区域内的每个生物都必须成功地进行一次{@dc 12}宪法救赎，否则会在10分钟内倒下{@condition unconscious}。如果一个生物受到伤害或有人使用行动来唤醒它，这个效果就会结束。"
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pounce"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"prone",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "King of Feathers",
+			"isNpc": true,
+			"source": "ToA",
+			"page": 106,
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 200,
+				"formula": "19d12 + 52"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 25,
+			"dex": 10,
+			"con": 19,
+			"int": 2,
+			"wis": 12,
+			"cha": 9,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"羽毛之王的先天法术能力是智慧。它可以天生施展以下法术，不需要任何物质成分。"
+					],
+					"will": [
+						"{@spell misty step}"
+					],
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Detect Invisibility",
+					"entries": [
+						"羽毛之王可以看到{@condition invisible}的生物和物体，就像它们是可见的一样。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果羽毛之王的拯救动作失败，它可以选择成功。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"羽毛之王会进行两次攻击：一次是咬人，一次是用尾巴。它不能对同一目标进行两次攻击。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10}击中，到达10英尺，一个目标。{@h}33 ({@damage 4d12 + 7})穿刺伤害。如果目标是中型或小型生物，则是{@condition grappled}(逃逸{@dc 17})。直到这个抓取动作结束，目标是{@condition restrained}，暴龙不能咬到其他目标。"
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 10}击中，到达10英尺，一个目标。{@h}20 ({@damage 3d8 + 7})重击伤害。"
+					]
+				},
+				{
+					"name": "Summon Swarm {@recharge 5}",
+					"entries": [
+						"The King of Feathers exhales a {@creature swarm of wasps||swarm of insects (wasps)} that forms in a space within 20 feet of it. The swarm acts as an ally of the King of Feathers and takes its turn immediately after it. The swarm disperses after 1 minute. It can't use the Summon Swarm action while it is grappling a creature with its jaws."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Kupalué",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 35,
+			"_copy": {
+				"name": "Vegepygmy",
+				"source": "VGM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the vegepygmy",
+						"with": "Kupalué",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Kwayothé",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 26,
+			"_copy": {
+				"name": "Priest",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the priest",
+						"with": "Kwayothé",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Laskilar",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 67,
+			"_copy": {
+				"name": "Bandit Captain",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the captain",
+						"with": "Laskilar",
+						"flags": "i"
+					},
+					"trait": {
+						"mode": "prependArr",
+						"items": {
+							"name": "Special Equipment",
+							"entries": [
+								"Laskilar wears a {@item cape of the mountebank}."
+							]
+						}
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Liara Portyr",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 227,
+			"otherSources": [
+				{
+					"source": "BGDIA"
+				}
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "13d8 + 26"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 14,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"con": "+4",
+				"wis": "+4"
+			},
+			"skill": {
+				"athletics": "+5",
+				"deception": "+5",
+				"insight": "+4",
+				"intimidation": "+5"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Liara has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Flaming Fury",
+					"entries": [
+						"Once per turn, when Liara hits a creature with a melee weapon, she can cause fire to magically erupt from her weapon and deal an extra 10 ({@damage 3d6}) fire damage to the target."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"利亚拉进行了三次近战攻击。"
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d8 + 3})砍击伤害，或在双手使用时造成8 ({@damage 1d10 + 3})砍击伤害。"
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 3}击中，范围100/400英尺，一个目标。{@h}6 ({@damage 1d10 + 1})穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"battleaxe|phb",
+				"heavy crossbow|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR"
+			],
+			"damageTags": [
+				"F",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mantrap",
+			"source": "ToA",
+			"page": 227,
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 45,
+				"formula": "7d10 + 7"
+			},
+			"speed": {
+				"walk": 5
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 12,
+			"int": 1,
+			"wis": 10,
+			"cha": 2,
+			"senses": [
+				"tremorsense 30 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Attractive Pollen (1/Day)",
+					"entries": [
+						"当螳螂检测到附近有任何生物时，它可以用它的反应来释放花粉，半径为30英尺。在该区域内的任何野兽或类人动物必须成功地进行智慧救赎，或者被迫在其回合内使用所有的运动来尽可能地接近捕兽器。受影响的目标可以在其每个回合结束时重复蓄力，如果成功则结束对其的影响。"
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"当螳螂保持不动，它与普通的热带植物没有区别。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Engulf",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one Medium or smaller creature. {@h}The target is trapped inside the mantrap's leafy jaws. While trapped in this way, the target is {@condition blinded} and {@condition restrained}, has total cover from an attacks and other effects outside the mantrap, and takes 14 ({@damage 4d6}) acid damage at the start of each of the target's turns. If the mantrap dies, the creature inside it is no longer {@condition restrained} by it. A mantrap can engulf only one creature at a time."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"T"
+			],
+			"damageTags": [
+				"A"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Mister Threadneedle",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 183,
+			"_copy": {
+				"name": "Scarecrow",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the scarecrow",
+						"with": "Mister Threadneedle",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Musharib",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 34,
+			"_copy": {
+				"name": "Albino Dwarf Spirit Warrior",
+				"source": "ToA",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the dwarf",
+						"with": "Musharib",
+						"flags": "i"
+					}
+				}
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Mwaxanaré",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 228,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 6,
+			"dex": 10,
+			"con": 11,
+			"int": 13,
+			"wis": 12,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"nature": "+3",
+				"persuasion": "+5",
+				"religion": "+3"
+			},
+			"passive": 11,
+			"languages": [
+				"Auran",
+				"Common",
+				"telepathy 30 ft."
+			],
+			"cr": "1/8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Mwaxanaré is a 2nd-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast}",
+								"{@spell mage hand}"
+							]
+						},
+						"1": {
+							"lower": 1,
+							"slots": 2,
+							"spells": [
+								"{@spell charm person}",
+								"{@spell protection from evil and good}",
+								"{@spell unseen servant}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw}{@hit 2}击中。到达5英尺或范围20/60英尺，一个目标。{@h}2 ({@damage 1d4})穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"languageTags": [
+				"AU",
+				"C",
+				"TP"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
+			"spellcastingTags": [
+				"CL"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Na",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 228,
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"Common"
+			],
+			"cr": "0",
+			"languageTags": [
+				"C"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Nanny Pu'pu",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 72,
+			"_copy": {
+				"name": "Green Hag",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the hag",
+						"with": "Pu'pu",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Nepartak",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 137,
+			"_copy": {
+				"name": "Flameskull",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the flameskull",
+						"with": "Nepartak",
+						"flags": "i"
+					}
+				}
+			},
+			"languages": [
+				"Common",
+				"telepathy 30 ft."
+			],
+			"languageTags": [
+				"C",
+				"TP"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Niles Breakbone",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 47,
+			"_copy": {
+				"name": "Noble",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the noble",
+						"with": "Niles",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Ortimay Swift and Dark",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 21,
+			"_copy": {
+				"name": "Bandit Captain",
+				"source": "MM",
+				"_templates": [
+					{
+						"name": "Rock Gnome",
+						"source": "PHB"
+					}
+				],
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the captain",
+						"with": "Ortimay",
+						"flags": "i"
+					}
+				}
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"G",
+				"X"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Orvex Ocrammas",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 96,
+			"_copy": {
+				"name": "Spy",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the spy",
+						"with": "Orvex",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"languages": [
+				"Common",
+				"Grung"
+			],
+			"languageTags": [
+				"C",
+				"OTH"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pterafolk",
+			"source": "ToA",
+			"page": 229,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d10 + 4"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 50
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 12,
+			"int": 9,
+			"wis": 10,
+			"cha": 11,
+			"skill": {
+				"perception": "+2",
+				"survival": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Terror Dive",
+					"entries": [
+						"If the pterafolk is flying and dives at least 30 feet straight toward a target, and then hits that target with a melee weapon attack, the target is {@condition frightened} until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"翼手党会进行三次攻击：一次是咬人，两次是用爪子。或者，它可以用标枪进行两次近战攻击。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}7 ({@damage 2d4 + 2})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d6 + 2})砍击伤害。"
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw}{@hit 4}击中，到达5英尺或范围30/120英尺，一个目标。{@h}9 ({@damage 2d6 + 2})穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"javelin|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Qawasha",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 35,
+			"_copy": {
+				"name": "Druid",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the druid",
+						"with": "Qawasha",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Ras Nsi",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 230,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item bracers of defense}"
+					]
+				}
+			],
+			"hp": {
+				"special": "127 ({@dice 17d8 + 51}) reduced to 107; subtract 1 for each day that passes during the adventure"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 16,
+			"con": 17,
+			"int": 18,
+			"wis": 18,
+			"cha": 21,
+			"save": {
+				"con": "+6",
+				"wis": "+7"
+			},
+			"skill": {
+				"deception": "+8",
+				"persuasion": "+8",
+				"religion": "+7",
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Ras Nsi's innate spellcasting ability is Charisma (spell save {@dc 16}). He can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal friendship} (snakes only)"
+					],
+					"daily": {
+						"3": [
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Ras Nsi is an 11th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks).",
+						"Ras Nsi准备了以下巫师法术。"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell poison spray}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell expeditious retreat}",
+								"{@spell false life}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell hold person}",
+								"{@spell misty step}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell counterspell}",
+								"{@spell fireball}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight}",
+								"{@spell polymorph}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell contact other plane}",
+								"{@spell geas}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell create undead}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Ras Nsi wears {@item bracers of defense}, wields a {@item flame tongue longsword}, and carries a {@item sending stones||sending stone} matched to the one carried by the guide Salida (see chapter 1)."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"拉斯恩西可以用他的行动来多态化为一条中蛇或回到他的元神形态。他在每种形态下的统计数据都是一样的。他所穿戴或携带的任何装备都不会被转化。如果他死亡，他也不会改变形态。"
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Ras Nsi对法术和其他魔法效果的蓄力攻击具有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ras Nsi可进行三次近战攻击，但只能使用一次约束。"
+					]
+				},
+				{
+					"name": "Bite (Snake Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d4 + 3})穿刺伤害加上7 ({@damage 2d6})毒药伤害。"
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个生物。{@h}10 ({@damage 2d6 + 3})重击伤害，并且目标是{@condition grappled}(逃跑{@dc 14})。直到此抓捕结束，目标为{@condition restrained}，Ras Nsi不能束缚另一个目标。"
+					]
+				},
+				{
+					"name": "Flame Tongue Longsword (Yuan-ti Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d8 + 3})的砍击伤害，或在双手使用时造成8 ({@damage 1d10 + 3})的砍击伤害，外加7 ({@damage 2d6})的火焰伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"flame tongue longsword|dmg"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"I",
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F",
+				"I",
+				"N",
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"paralyzed"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "River Mist",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 35,
+			"_copy": {
+				"name": "Tabaxi Hunter",
+				"source": "ToA",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the tabaxi",
+						"with": "River Mist",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Salida",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 35,
+			"_copy": {
+				"name": "Yuan-ti Pureblood",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the yuan-ti",
+						"with": "Salida",
+						"flags": "i"
+					}
+				}
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"skill": {
+				"deception": "+6",
+				"perception": "+3",
+				"stealth": "+3",
+				"survival": "+5"
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sekelok",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 120,
+			"_copy": {
+				"name": "Champion",
+				"source": "VGM",
+				"_templates": [
+					{
+						"name": "Yuan-ti Pureblood",
+						"source": "VGM"
+					}
+				],
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the champion",
+						"with": "Sekelok",
+						"flags": "i"
+					}
+				}
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR"
+			],
+			"damageTagsSpell": [
+				"I"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Shago",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 35,
+			"_copy": {
+				"name": "Gladiator",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the gladiator",
+						"with": "Shago",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+5",
+				"survival": "+7"
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Skeleton Key",
+			"source": "ToA",
+			"page": 126,
+			"_copy": {
+				"name": "Skeleton",
+				"source": "MM",
+				"_mod": {
+					"trait": {
+						"mode": "prependArr",
+						"items": {
+							"name": "Spider Climb",
+							"entries": [
+								"骷髅可以爬上困难的表面，包括倒立在天花板上，而不需要进行能力检查。"
+							]
+						}
+					}
+				}
+			},
+			"alignment": [
+				"U"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"骷髅做出两次匕首攻击。"
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}4 ({@damage 1d4 + 2})穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Spiked Tomb Guardian",
+			"source": "ToA",
+			"page": 154,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d8 + 44"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 9,
+			"con": 18,
+			"int": 6,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"lightning",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Berserk",
+					"entries": [
+						"Whenever the tomb guardian starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the tomb guardian goes berserk. On each of its turns while berserk, the tomb guardian attacks the nearest creature it can see. If no creature is near enough to move to and attack, the tomb guardian attacks an object, with preference for an object smaller than itself. Once the tomb guardian goes berserk, it continues to do so until it is destroyed or regains all its hit points. The golem's creator, if within 60 feet of the berserk tomb guardian, can try to calm it by speaking firmly and persuasively. The tomb guardian must be able to hear its creator, who must take an action to make a {@dc 15} Charisma ({@skill Persuasion}) check. If the check succeeds, the tomb guardian ceases being berserk. If it takes damage while still at 40 hit points or fewer, the tomb guardian might go berserk again."
+					]
+				},
+				{
+					"name": "Aversion of Fire",
+					"entries": [
+						"如果古墓守护者受到火的伤害，它在攻击卷和能力检定上有劣势，直到下一回合结束。"
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"古墓守护者对任何改变其形态的法术或效果都是免疫的。"
+					]
+				},
+				{
+					"name": "Lightning Absorption",
+					"entries": [
+						"每当古墓守护者受到雷电伤害时，它不会受到任何伤害，反而会重新获得与所受雷电伤害相等的命中率。"
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"古墓守护者在面对法术和其他魔法效果时，有优势。"
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"傀儡的武器攻击是有魔法的。"
+					]
+				},
+				{
+					"name": "Chained",
+					"entries": [
+						"{@note This trait applies when two guardians are chained together.}",
+						"一条神奇的带刺链条将一对守护者捆绑在一起，防止他们相距超过15英尺。此外，只要链子是完整的，对任何一个守护者造成的伤害都会在他们之间平均分配。带刺的锁链可以被单独攻击，它有18点攻击力，10点伤害阈值，5点命中率，并对毒药和精神伤害免疫。如果链子断裂，两个古墓守护者都会立即狂暴起来。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"古墓守护者进行了两次带刺的铠甲攻击。"
+					]
+				},
+				{
+					"name": "Spiked Gauntlet",
+					"entries": [
+						"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。{@h}13 ({@damage 2d8 + 4})重击伤害加上9 ({@damage 2d6})穿刺伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Absorption",
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Stone Juggernaut",
+			"source": "ToA",
+			"page": 231,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 157,
+				"formula": "15d10 + 75"
+			},
+			"speed": {
+				"walk": {
+					"number": 50,
+					"condition": "(in one direction chosen at the start of its turn)"
+				}
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 14,
+			"wis": 14,
+			"cha": 16,
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks not made with adamantine weapons",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Devastating Roll",
+					"entries": [
+						"The juggernaut can move through the space of a {@condition prone} creature. A creature whose space the juggernaut enters for the first time on a turn must make a {@dc 17} Dexterity saving throw, taking 55 ({@damage 10d10}) bludgeoning damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"杂耍者对任何改变其形态的法术或效果都是免疫的。"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"只要它还有1点命中率，杂耍者就会在每天黎明时分神奇地恢复所有的命中率。如果杂耍者的命中率下降到0，它就会被摧毁，并且不会再生。"
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"杂耍者对物体和结构造成双倍伤害。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 10}击中，到达5英尺，一个目标。{@h}25 ({@damage 3d12 + 6})重击伤害。如果目标是大型或较小的生物，它必须在一个{@dc 17}力量救赎中成功，否则会被击倒{@condition prone}。"
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Regeneration",
+				"Siege Monster"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Su-monster",
+			"source": "ToA",
+			"page": 232,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 12,
+			"int": 9,
+			"wis": 13,
+			"cha": 9,
+			"skill": {
+				"athletics": "+6",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"苏氏怪兽进行两次攻击：一次是咬人，一次是用爪子。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}4 ({@damage 1d4 + 2})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}7 ({@damage 2d4 + 2})的砍击伤害，如果苏系怪物被吊在尾巴上且四肢都是自由的，则为12 ({@damage 4d4 + 2})的砍击伤害。"
+					]
+				},
+				{
+					"name": "Psychic Crush {@recharge 5}",
+					"entries": [
+						"这个怪物的目标是它在30英尺范围内可以看到的一个生物。目标必须在{@dc 11}智慧救赎中成功，否则会受到17({@damage 5d6})的精神伤害并被{@condition stunned}1分钟。目标可以在其每个回合结束时重复蓄力，如果成功则结束对自己的影响。"
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Syndra Silvane",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 8,
+			"_copy": {
+				"name": "Archmage",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the archmage",
+						"with": "Syndra",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Halfling"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"H"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Tabaxi Hunter",
+			"source": "ToA",
+			"page": 232,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tabaxi"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 11,
+			"int": 13,
+			"wis": 14,
+			"cha": 15,
+			"skill": {
+				"athletics": "+2",
+				"perception": "+4",
+				"stealth": "+5",
+				"survival": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common plus any one language"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Feline Agility",
+					"entries": [
+						"当tabaxi在其战斗回合中移动时，它的速度可以加倍，直到该回合结束。一旦它使用这个能力，tabaxi就不能再使用它，直到它在某个回合中移动0英尺。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Tabaxi可以用它的爪子、短剑或短弓进行两次攻击。"
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 2}击中，到达5英尺，一个目标。{@h}2 ({@damage 1d4})砍击伤害。"
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})砍击伤害。"
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5}击中，范围80/320英尺，一个目标。{@h}6 ({@damage 1d6 + 3})穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"shortbow|phb",
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Tabaxi Minstrel",
+			"source": "ToA",
+			"page": 233,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tabaxi"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 11,
+			"int": 14,
+			"wis": 12,
+			"cha": 16,
+			"skill": {
+				"perception": "+3",
+				"performance": "+7",
+				"persuasion": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common plus any two languages"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Feline Agility",
+					"entries": [
+						"当tabaxi在其战斗回合中移动时，它的速度可以加倍，直到该回合结束。一旦它使用这个能力，tabaxi就不能再使用它，直到它在某个回合中移动0英尺。"
+					]
+				},
+				{
+					"name": "Inspire (1/Day)",
+					"entries": [
+						"短暂休息时，Tabaxi可以花1分钟时间唱歌、演奏乐器、讲故事或朗诵诗歌，以抚慰和激励除自己以外的生物。在短时休息结束时，最多可以有五个由塔巴西选择的生物看到和听到它的表演，并获得8个临时命中点。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Tabaxi进行两次爪子攻击或两次飞镖攻击。"
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 2}击中，到达5英尺，一个目标。{@h}2 ({@damage 1d4})砍击伤害。"
+					]
+				},
+				{
+					"name": "Dart",
+					"entries": [
+						"{@atk rw} {@hit 4}击中，范围20/60英尺，一个目标。{@h}4 ({@damage 1d4 + 2})穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"dart|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Terracotta Warrior",
+			"source": "ToA",
+			"page": 161,
+			"_copy": {
+				"name": "Animated Armor",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "armor",
+						"with": "terracotta warrior"
+					},
+					"trait": [
+						{
+							"mode": "replaceArr",
+							"replace": "False Appearance",
+							"items": {
+								"name": "False Appearance",
+								"entries": [
+									"虽然兵马俑保持不动，但它与陶俑雕像没有区别。"
+								]
+							}
+						},
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Fragile",
+								"entries": [
+									"如果兵马俑被击中要害，它就会碎裂并被摧毁。"
+								]
+							}
+						}
+					],
+					"action": {
+						"mode": "replaceArr",
+						"replace": "Slam",
+						"items": {
+							"name": "Shortsword",
+							"entries": [
+								"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d6 + 2})穿刺伤害。"
+							]
+						}
+					}
+				}
+			},
+			"damageTags": [
+				"P"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Tomb Dwarf",
+			"source": "ToA",
+			"page": 135,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the tomb dwarf has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"墓穴矮人进行两次长剑攻击或两次弩箭攻击。它可以使用它的生命耗损来代替一次长剑攻击。"
+					]
+				},
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个生物。{@h}5 ({@damage 1d6 + 2})坏死性的伤害。目标必须在{@dc 13}宪法救赎中成功，否则其最大命中率将减少，减少的量等于所受的伤害。这种减少持续到目标完成长时间休息。如果该效果将其最大命中率降至0，则目标死亡。被该攻击杀死的人形生物在24小时后会在古墓侏儒的控制下作为僵尸复活，除非该人形生物被恢复生命或其身体被摧毁。墓穴矮人在同一时间内可以控制不超过12个僵尸。"
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d8 + 2})砍击伤害，如果双手使用，则为7 ({@damage 1d10 + 2})砍击伤害。"
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4}击中，范围80/320英尺，一个目标。{@h}6 ({@damage 1d8 + 2})穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"battleaxe|phb",
+				"light crossbow|phb"
+			],
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"HPR",
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tomb Guardian",
+			"source": "ToA",
+			"page": 127,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"average": 93,
+				"formula": "11d8 + 44"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 9,
+			"con": 18,
+			"int": 6,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"lightning",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Berserk",
+					"entries": [
+						"Whenever the tomb guardian starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the tomb guardian goes berserk. On each of its turns while berserk, the tomb guardian attacks the nearest creature it can see. If no creature is near enough to move to and attack, the tomb guardian attacks an object, with preference for an object smaller than itself. Once the tomb guardian goes berserk, it continues to do so until it is destroyed or regains all its hit points. The golem's creator, if within 60 feet of the berserk tomb guardian, can try to calm it by speaking firmly and persuasively. The tomb guardian must be able to hear its creator, who must take an action to make a {@dc 15} Charisma ({@skill Persuasion}) check. If the check succeeds, the tomb guardian ceases being berserk. If it takes damage while still at 40 hit points or fewer, the tomb guardian might go berserk again."
+					]
+				},
+				{
+					"name": "Aversion of Fire",
+					"entries": [
+						"如果古墓守护者受到火的伤害，它在攻击卷和能力检定上有劣势，直到下一回合结束。"
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"古墓守护者对任何改变其形态的法术或效果都是免疫的。"
+					]
+				},
+				{
+					"name": "Lightning Absorption",
+					"entries": [
+						"每当古墓守护者受到雷电伤害时，它不会受到任何伤害，反而会重新获得与所受雷电伤害相等的命中率。"
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"古墓守护者在面对法术和其他魔法效果时，有优势。"
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"傀儡的武器攻击是有魔法的。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"古墓守护者进行两次猛烈攻击。"
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。{@h}13 ({@damage 2d8 + 4})重击伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Absorption",
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tri-flower Frond",
+			"source": "ToA",
+			"page": 234,
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 5
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 12,
+			"int": 9,
+			"wis": 13,
+			"cha": 9,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"三瓣花的花穗用它的橙色花，然后用它的黄色花，再用它的红色花。"
+					]
+				},
+				{
+					"name": "Orange Blossom",
+					"entries": [
+						"三叶草选择它能看到的5英尺内的一个生物。目标必须在一个{@dc 11}体质测试中成功，否则将在1小时内被{@condition poisoned}。当{@condition poisoned}这样做的时候，目标是{@condition unconscious}。在每分钟结束时，{@condition poisoned}目标可以重复蓄力，如果成功则结束对自己的影响。"
+					]
+				},
+				{
+					"name": "Yellow Blossom",
+					"entries": [
+						"三叶草选择它能看到的5英尺内的一个生物。目标必须在一个{@dc 11}灵巧的蓄力动作中成功，否则它将被腐蚀的树液覆盖，并在每个回合开始时受到5点酸液伤害。用水浇灌目标，每使用一品脱或一壶水可减少1点酸伤害。"
+					]
+				},
+				{
+					"name": "Red Blossom",
+					"entries": [
+						"{@atk mw} {@hit 2}击中，到达5英尺，一个生物。{@h}2({@damage 1d4})穿刺伤害，目标{@condition grappled}(逃跑{@dc 11})。直到这个抓捕结束，目标在每个回合开始时受到5({@damage 2d4})毒伤害。红花每次只能抓取一个目标。另一个在三叶草范围内的生物可以使用其行动来结束对目标的抓捕。"
+					]
+				}
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"poisoned",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tyrannosaurus Zombie",
+			"source": "ToA",
+			"page": 241,
+			"size": [
+				"H"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "13d12 + 52"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 25,
+			"dex": 6,
+			"con": 19,
+			"int": 1,
+			"wis": 3,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 6,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Disgorge Zombie",
+					"entries": [
+						"As a bonus action, the tyrannosaurus zombie can disgorge a normal {@creature zombie}, which appears in an unoccupied space within 10 feet of it. The disgorged {@creature zombie} acts on its own initiative count. After a zombie is disgorged, roll a {@dice d6}. On a roll of 1, the tyrannosaurus zombie runs out of zombies to disgorge and loses this trait. If the tyrannosaurus zombie still has this trait when it dies, {@dice 1d4} normal zombies erupt from its corpse at the start of its next turn. These zombies act on their own initiative count."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"如果伤害使暴龙僵尸的命中率降至0，它必须做一个宪法救赎动作，DC为5+所受伤害，除非伤害是辐射或来自关键打击。如果成功，该僵尸将下降到1点生命值。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"暴龙僵尸会进行两次攻击：一次是咬人，一次是用尾巴。它不能对同一目标进行两次攻击。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}33 ({@damage 4d12 + 7}) piercing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained} and the tyrannosaurus zombie can't bite another target or disgorge zombies."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 10}击中，到达10英尺，一个目标。{@h}20 ({@damage 3d8 + 7})重击伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Valindra Shadowmantle",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 58,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 135,
+				"formula": "18d8 + 54"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 16,
+			"int": 20,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"con": "+10",
+				"int": "+12",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+19",
+				"history": "+12",
+				"insight": "+9",
+				"perception": "+9"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 19,
+			"resist": [
+				"cold",
+				"lightning",
+				"necrotic"
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Abyssal",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Infernal"
+			],
+			"cr": "21",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Valindra is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Valindra has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell invisibility}",
+								"{@spell Melf's acid arrow}",
+								"{@spell mirror image}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight}",
+								"{@spell dimension door}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell cloudkill}",
+								"{@spell scrying}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell disintegrate}",
+								"{@spell globe of invulnerability}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell plane shift}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell dominate monster}",
+								"{@spell power word stun}"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell power word kill}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Mask",
+					"entries": [
+						"作为奖励动作，瓦林德拉可以掩盖她干瘪的肉体，看起来像个活的精灵。这种神奇的幻觉一直持续到她作为奖励动作结束，或者直到她使用惊恐凝视的传奇动作。如果瓦林德拉的生命值下降到30点或更少，或者如果{@spell dispel magic}被施加在她身上，这个效果也会结束。"
+					]
+				},
+				{
+					"name": "Preparation",
+					"entries": [
+						"在准备她的法术时，瓦林德拉可以将她准备的法术清单上的任何法术换成另一个相同级别的巫师法术。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果瓦林德拉的拯救动作失败，她可以选择成功。"
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"如果被摧毁，瓦林德拉会在{@dice 1d10}天内获得一个新的身体，恢复她所有的命中率并重新变得活跃。新的身体会出现在法器的5英尺范围内。"
+					]
+				},
+				{
+					"name": "Turn Resistance",
+					"entries": [
+						"瓦林德拉在面对任何变成亡灵的效果时都有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Paralyzing Touch",
+					"entries": [
+						"{@atk ms} {@hit 12}击中，到达5英尺，一个生物。{@h}10 ({@damage 3d6})寒冷伤害。目标必须在{@dc 18}体质救赎中成功，否则会被{@condition paralyzed}1分钟。目标可以在其每个回合结束时重复蓄力，如果成功则结束对自己的影响。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"瓦林德拉施展了一个咒语。"
+					]
+				},
+				{
+					"name": "Paralyzing Touch (Costs 2 Actions)",
+					"entries": [
+						"瓦林德拉使用她的麻痹之触。"
+					]
+				},
+				{
+					"name": "Frightening Gaze (Costs 2 Actions)",
+					"entries": [
+						"瓦林德拉将她的目光投向她周围10英尺内她能看到的一个生物。目标必须对这个魔法做一个{@dc 18}的智慧救赎，否则就会变成{@condition frightened}，持续1分钟。目标可以在其每个回合结束时重复蓄力，如果成功则结束对自己的影响。如果目标的蓄力动作成功或效果结束，目标在接下来的24小时内对瓦林德拉的凝视免疫。"
+					]
+				},
+				{
+					"name": "Disrupt Life (Costs 3 Actions)",
+					"entries": [
+						"每个在瓦林德拉20英尺范围内的非亡灵生物都必须对这个魔法进行一次{@dc 18}的宪法救赎，救赎失败会受到21({@damage 6d6})的坏死伤害，救赎成功会受到一半的伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Rejuvenation",
+				"Turn Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"D",
+				"DR",
+				"E",
+				"I"
+			],
+			"damageTags": [
+				"C",
+				"N"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"N",
+				"O",
+				"T"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Volothamp \"Volo\" Geddarm",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 235,
+			"otherSources": [
+				{
+					"source": "WDH"
+				}
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 31,
+				"formula": "7d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 12,
+			"con": 10,
+			"int": 15,
+			"wis": 11,
+			"cha": 16,
+			"save": {
+				"con": "+2",
+				"wis": "+2"
+			},
+			"skill": {
+				"animal handling": "+4",
+				"arcana": "+4",
+				"deception": "+5",
+				"history": "+4",
+				"insight": "+2",
+				"investigation": "+4",
+				"perception": "+2",
+				"performance": "+7",
+				"persuasion": "+7",
+				"sleight of hand": "+3",
+				"survival": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Volo is a 1st-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell friends}",
+								"{@spell mending}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 2,
+							"spells": [
+								"{@spell comprehend languages}",
+								"{@spell detect magic}",
+								"{@spell disguise self}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw}{@hit 3}命中，距离5英尺或范围20/60英尺，一个目标。{@h}3 ({@damage 1d4 + 1})穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Wakanga O'tamu",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 27,
+			"_copy": {
+				"name": "Mage",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the mage",
+						"with": "Wakanga",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Wild Dog",
+			"source": "ToA",
+			"page": 96,
+			"_copy": {
+				"name": "Jackal",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "jackal",
+						"with": "dog"
+					}
+				}
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Wine Weird",
+			"source": "ToA",
+			"page": 141,
+			"_copy": {
+				"name": "Water Weird",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "water weird",
+						"with": "wine weird"
+					}
+				}
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Withers",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 145,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 16,
+			"int": 16,
+			"wis": 13,
+			"cha": 15,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"the languages he knew in life"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Withers is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Withers has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell expeditious retreat}",
+								"{@spell feather fall}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 4,
+							"spells": [
+								"{@spell darkness}",
+								"{@spell hold person}",
+								"{@spell rope trick}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight}",
+								"{@spell wall of fire}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell telekinesis}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Withers carries the {@item amulet of the black skull|ToA}."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Withers has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"威瑟斯进行两次长剑攻击。他可以使用他的生命耗损来代替一次长剑攻击。"
+					]
+				},
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个生物。{@h}5 ({@damage 1d6 + 2})坏死性的伤害。目标必须在{@dc 13}宪法救赎中成功，否则其最大命中率将减少，减少的量等于所受的伤害。这种减少持续到目标完成长时间休息。如果这个效果将其最大命中率降低到0，则目标会死亡。",
+						"被这种攻击杀死的人形生物在24小时后复活，成为威瑟斯控制下的僵尸，除非该人形生物被恢复生命或其身体被摧毁。威瑟斯在同一时间内可以控制不超过12个僵尸。"
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d8 + 2})砍击伤害，如果双手使用，则为7 ({@damage 1d10 + 2})砍击伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"longsword|phb"
+			],
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"damageTagsSpell": [
+				"A",
+				"F",
+				"L",
+				"N",
+				"T"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"HPR",
+				"MLW",
+				"MW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Xandala",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 236,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-elf"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "11d8 + 22"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 11,
+			"con": 14,
+			"int": 18,
+			"wis": 16,
+			"cha": 18,
+			"save": {
+				"int": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+7",
+				"deception": "+10",
+				"history": "+7",
+				"insight": "+6",
+				"survival": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Halfling"
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Xandala is a 9th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Xandala has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell chromatic orb}",
+								"{@spell feather fall}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 4,
+							"spells": [
+								"{@spell invisibility}",
+								"{@spell misty step}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell fireball}",
+								"{@spell fly}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell ice storm}",
+								"{@spell polymorph}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell dominate person}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Quickened Spell (3/Day)",
+					"entries": [
+						"当她施放一个施法时间为1个行动的法术时，Xandala将该施法时间改为1个额外行动。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}3 ({@damage 1d6})重击伤害，或在双手使用时造成4 ({@damage 1d8})重击伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"quarterstaff|phb"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR",
+				"E",
+				"H"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"T"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Yellow Musk Creeper",
+			"source": "ToA",
+			"page": 237,
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				6
+			],
+			"hp": {
+				"average": 60,
+				"formula": "11d8 + 11"
+			},
+			"speed": {
+				"walk": 5,
+				"climb": 5
+			},
+			"str": 12,
+			"dex": 3,
+			"con": 12,
+			"int": 1,
+			"wis": 10,
+			"cha": 3,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"当爬山虎保持不动，它与普通的开花藤蔓没有区别。"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"爬行者在其回合开始时恢复10点生命值。如果爬山虎受到火、坏死或辐射伤害，该特性在其下一回合开始时不会发挥作用。只有当爬山虎在其回合开始时命中率为0并且没有再生时才会死亡。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Touch",
+					"entries": [
+						"{@atk mw} {@hit 3}击中，到达5英尺，一个生物。{@h}13 ({@damage 3d8})精神伤害。如果目标是一个人形生物，由于这个伤害而下降到0命中率，它就会死亡，并被植入一个黄色的麝香爬虫灯泡。除非灯泡被摧毁，否则尸体在死亡24小时后会变成黄麝香僵尸的模样。如果该生物在变成黄麝香僵尸之前被从死里复活，或者如果尸体在复活之前被(4%)法术或类似的魔法锁定，那么灯泡就会被破坏。"
+					]
+				},
+				{
+					"name": "Yellow Musk (3/Day)",
+					"entries": [
+						"The creeper's flowers release a strong musk that targets all humanoids within 30 feet of it. Each target must succeed on a {@dc 11} Wisdom saving throw or be {@condition charmed} by the creeper for 1 minute. A creature {@condition charmed} in this way does nothing on its turn except move as close as it can to the creeper. A creature {@condition charmed} by the creeper can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Yellow Musk Zombie",
+			"source": "ToA",
+			"page": 237,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				9
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 13,
+			"dex": 9,
+			"con": 12,
+			"int": 1,
+			"wis": 6,
+			"cha": 3,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 8,
+			"conditionImmune": [
+				"charmed",
+				"exhaustion"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"如果伤害使僵尸的命中率降至0，它必须做一个宪法救赎动作，DC为5+所受伤害，除非伤害是火或来自关键打击。如果成功，僵尸会下降到1点生命值。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d8 + 1})重击伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Yorb",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 108,
+			"_copy": {
+				"name": "Grung Elite Warrior",
+				"source": "VGM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the grung",
+						"with": "Yorb",
+						"flags": "i"
+					}
+				},
+				"_preserve": {
+					"variant": true
+				}
+			},
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Yuan-ti Priest",
+			"source": "ToA",
+			"page": 118,
+			"_copy": {
+				"name": "Yuan-ti Malison (Type 3)",
+				"source": "MM",
+				"_mod": {
+					"action": {
+						"mode": "removeArr",
+						"names": "Longbow (Yuan-ti Form Only)"
+					}
+				}
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Yuan-ti Form Only)",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The yuan-ti's innate spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The yuan-ti can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal friendship} (snakes only)",
+						"{@spell eldritch blast} (2 beams)",
+						"{@spell minor illusion}",
+						"{@spell poison spray}"
+					],
+					"daily": {
+						"3": [
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"damageTagsSpell": [
+				"I",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"wisdom"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Zalkoré",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 79,
+			"_copy": {
+				"name": "Medusa",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the medusa",
+						"with": "Zalkoré",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Zaroum Al-Saryak",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 67,
+			"_copy": {
+				"name": "Bandit Captain",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the captain",
+						"with": "Zaroum",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Zebra",
+			"source": "ToA",
+			"page": 106,
+			"_copy": {
+				"name": "Riding Horse",
+				"source": "MM"
+			},
+			"hasToken": true
+		},
+		{
+			"name": "Zhanthi",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 27,
+			"_copy": {
+				"name": "Noble",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the noble",
+						"with": "Zhanthi",
+						"flags": "i"
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"hasToken": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Zindar",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "ToA",
+			"page": 239,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-dragon"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 110,
+				"formula": "17d8 + 34"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 14,
+			"int": 16,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"con": "+5",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+6",
+				"history": "+9",
+				"insight": "+5",
+				"investigation": "+9"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Primordial"
+			],
+			"cr": "8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Zindar is a 14th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Zindar knows the following sorcerer spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell message}"
+							]
+						},
+						"1": {
+							"slots": 6,
+							"spells": [
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell sleep}"
+							]
+						},
+						"2": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell knock}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell clairvoyance}",
+								"{@spell tongues}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell dominate beast}",
+								"{@spell stoneskin}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold monster}",
+								"{@spell telekinesis}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell true seeing}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell fire storm}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dragon Wings",
+					"entries": [
+						"作为一个回合的奖励动作，Zindar可以从他的背上长出一对龙翼，获得30英尺的飞行速度，直到他把它们作为一个奖励动作解除。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}5 ({@damage 1d6 + 2})重击伤害，或在双手使用时造成6 ({@damage 1d8 + 2})重击伤害。"
+					]
+				},
+				{
+					"name": "Breath Weapon {@recharge 5}",
+					"entries": [
+						"Zindar使用以下选项之一。"
+					]
+				},
+				{
+					"name": "Fire Breath",
+					"entries": [
+						"Zindar在15英尺的范围内喷火。该区域内的每个生物都必须做一个{@dc 15}灵巧的蓄力动作，蓄力失败会受到22({@damage 4d10})的火焰伤害，蓄力成功则受到一半的伤害。"
+					]
+				},
+				{
+					"name": "Weakening Breath",
+					"entries": [
+						"Zindar在一个15英尺的圆锥体中呼出气体。该区域内的每个生物都必须在一个{@dc 15}力量救赎上取得成功，或者在基于力量的攻击卷、力量检查和力量救赎上处于劣势，持续1分钟。一个生物可以在它的每个回合结束时重复这个蓄力动作，如果成功则结束对它的影响。"
+					]
+				}
+			],
+			"attachedItems": [
+				"quarterstaff|phb"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR",
+				"P"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Zorbo",
+			"source": "ToA",
+			"page": 241,
+			"size": [
+				"S"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"see Natural Armor feature"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d6 + 6"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 13,
+			"dex": 11,
+			"con": 13,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"athletics": "+3"
+			},
+			"passive": 11,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Zorbo对法术和其他魔法效果的救赎有优势。"
+					]
+				},
+				{
+					"name": "Natural Armor",
+					"entries": [
+						"Zorbo神奇地吸收周围环境的自然力量，根据它所站立或攀爬的材料来调整其护甲等级。木头或骨头的AC为15，土或石头的AC为17，金属的AC为19。如果Zorbo没有接触到任何这些物质，它的AC是10。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Destructive Claws",
+					"entries": [
+						"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}8 ({@damage 2d6 + 1})砍击伤害，如果目标是穿戴盔甲、携带盾牌的生物，或拥有能提高其攻击力的魔法物品，它必须做一个{@dc 11}灵巧的救赎动作。在救赎失败的情况下，该生物所穿戴或携带的一件这样的物品（目标选择）会神奇地变质，对其提供的AC进行永久性和累积性的-1惩罚，而Zorbo会获得+1的AC奖励，直到其下一回合开始。降低到AC为10的盔甲或下降到AC增幅为0的盾牌或魔法物品被摧毁。"
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}
