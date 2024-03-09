@@ -31,5 +31,5 @@ jobs:
                 git fetch upstream
                 git config user.name "Automatic translator"
                 git config user.email "<>"
-                git merge upstream/main
+                git merge upstream/main --allow-unrelated-histories
                 git push
