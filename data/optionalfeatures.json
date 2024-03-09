@@ -16,7 +16,7 @@
 				}
 			],
 			"entries": [
-				"When you cast {@spell eldritch blast}, add your Charisma modifier to the damage it deals on a hit."
+				"当你施放{@spell eldritch blast}时，将你的魅力修饰值加到它所造成的命中伤害上。"
 			]
 		},
 		{
@@ -56,14 +56,14 @@
 				}
 			],
 			"entries": [
-				"The wearer of this armor gains these benefits:",
+				"穿戴此盔甲的人获得这些好处。",
 				{
 					"type": "list",
 					"items": [
-						"The wearer's walking speed increases by 5 feet.",
-						"The armor includes gauntlets, each of which is a magic melee weapon that can be wielded only when the hand is holding nothing. The wearer is proficient with the gauntlets, and each one deals {@damage 1d8} force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the gauntlet detaches and flies at the attack's target, then immediately returns to the wearer and reattaches.",
-						"The armor can't be removed against the wearer's will.",
-						"If the wearer is missing any limbs, the armor replaces those limbs\u2014hands, arms, feet, legs, or similar appendages. The replacements function identically to the body parts they replace."
+						"佩戴者的行走速度增加5英尺。",
+						"盔甲包括护手，每个护手都是一件魔法近战武器，只有在手无缚鸡之力时才能挥舞。穿戴者精通这些铠甲，每件铠甲在击中时都会造成{@damage 1d8}武力伤害，并具有投掷属性，普通范围为20英尺，远程范围为60英尺。当被投掷时，铠甲会脱离并飞向攻击目标，然后立即回到穿戴者身边并重新连接起来。",
+						"盔甲不能违背穿戴者的意愿被移除。",
+						"如果穿戴者缺少任何肢体，盔甲会替代这些肢体--手、胳膊、脚、腿或类似的附属物。这些替代物的功能与它们所替代的身体部位相同。"
 					]
 				}
 			]
@@ -84,7 +84,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"You gain a +2 bonus to attack rolls you make with ranged weapons."
+				"你在使用远程武器进行攻击时获得+2的奖励。"
 			]
 		},
 		{
@@ -102,15 +102,15 @@
 				}
 			],
 			"entries": [
-				"This armor has 6 charges. The wearer can expend the armor's charges in the following ways:",
+				"该盔甲有6个电荷。穿戴者可以通过以下方式消耗该盔甲的能量。",
 				{
 					"type": "list",
 					"items": [
-						"When the wearer makes a Strength check or a Strength saving throw, it can expend 1 charge to add a bonus to the roll equal to its Intelligence modifier.",
+						"当穿戴者进行力量检查或力量投掷时，它可以消耗1个电荷来增加相当于其智力修饰的奖励。",
 						"If the creature would be knocked {@condition prone}, it can use its reaction to expend 1 charge to avoid being knocked prone."
 					]
 				},
-				"The armor regains {@dice 1d6} expended charges daily at dawn."
+				"盔甲每天在黎明时分重新获得{@dice 1d6}已消耗的电荷。"
 			]
 		},
 		{
@@ -178,7 +178,7 @@
 				}
 			],
 			"entries": [
-				"You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch."
+				"你不再需要睡觉，也不能用任何方式强迫你睡觉。为了获得长时间休息的好处，你可以用所有的8个小时做一些轻度的活动，比如阅读你的《影子之书》和守夜。"
 			]
 		},
 		{
@@ -194,7 +194,7 @@
 			},
 			"entries": [
 				"When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't {@condition incapacitated}. This movement doesn't provoke opportunity attacks.",
-				"Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled."
+				"掷出优势模子。直到你的下一回合开始，你或另一个生物（你选择）获得与掷出的数字相等的AC奖励。"
 			]
 		},
 		{
@@ -209,7 +209,7 @@
 			},
 			"entries": [
 				"You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, the target's speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
-				"After you reach 18th level in this class, a target also takes {@damage 2d6} force damage when the arrow hits it."
+				"在你达到这个等级的18级后，当箭射中目标时，目标也会受到{@damage 2d6}力的伤害。"
 			]
 		},
 		{
@@ -230,7 +230,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell speak with animals} at will, without expending a spell slot."
+				"你可以随意施展{@spell speak with animals}，而不需要消耗一个法术槽。"
 			]
 		},
 		{
@@ -263,7 +263,7 @@
 				}
 			],
 			"entries": [
-				"You gain proficiency in the {@skill Deception} and {@skill Persuasion} skills."
+				"你获得{@skill Deception}和{@skill Persuasion}技能的熟练度。"
 			]
 		},
 		{
@@ -365,7 +365,7 @@
 				}
 			],
 			"entries": [
-				"While someone else is wearing your talisman, you can use your action to teleport to the unoccupied space closest to them, provided the two of you are on the same plane of existence. The wearer of your talisman can do the same thing, using their action to teleport to you. The teleportation can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest."
+				"当别人戴着你的护身符时，你可以用你的行动传送到离他们最近的无人空间，只要你们两个人在同一个存在平面。佩戴你护身符的人也可以做同样的事情，用他们的行动来传送到你身边。传送的次数与你的熟练度加成相等，所有消耗的次数在你完成长时间休息后会恢复。"
 			]
 		},
 		{
@@ -397,8 +397,8 @@
 				}
 			],
 			"entries": [
-				"You can now inscribe magical rituals in your Book of Shadows. Choose two {@filter 1st-level spells that have the ritual tag from any class's spell list|spells|Components & Miscellaneous=ritual|level=1}. The spells needn't be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.",
-				"On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
+				"你现在可以在你的阴影之书中铭刻神奇的仪式。选择两个{@filter 1st-level spells that have the ritual tag from any class's spell list|spells|Components & Miscellaneous=ritual|level=1}。这些法术不需要来自同一个法术列表。这些法术会出现在书中，并且不计入你所知道的法术数量。有了阴影之书在手，你可以将所选的法术作为仪式施放。除非你已经通过其他方式学会了这些法术，否则你不能以仪式的形式施放这些法术。如果你知道的术士咒语有仪式标签，你也可以把它作为仪式施放。",
+				"在你的冒险中，你可以将其他的仪式性法术加入你的阴影之书。当你发现这样的咒语时，如果该咒语的等级等于或低于你的术士等级的一半（四舍五入），并且你能抽出时间来抄写该咒语，你就可以把它加入书中。每一级的咒语，抄写过程需要2个小时，并且需要花费50金币来购买刻写所需的稀有墨水。"
 			]
 		},
 		{
@@ -429,7 +429,7 @@
 				}
 			],
 			"entries": [
-				"While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn."
+				"当穿上这双靴子时，一个生物可以作为一个额外的动作传送到该生物可以看到的未被占领的空间，最多可以传送15英尺。该生物必须在当前回合的某个时间点占据过该空间。"
 			]
 		},
 		{
@@ -444,7 +444,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When a creature you can see moves into the reach you have with the melee weapon you're wielding, you can use your reaction to expend one superiority die and make one attack against the creature, using that weapon. If the attack hits, add the superiority die to the weapon's damage roll."
+				"当一个你能看到的生物移动到你所挥舞的近战武器的范围内时，你可以使用你的反应来消耗一个优势模子，并使用该武器对该生物进行一次攻击。如果攻击命中，将优势模子加入到武器的伤害卷中。"
 			]
 		},
 		{
@@ -497,7 +497,7 @@
 				"name": "Arcane Shot"
 			},
 			"entries": [
-				"You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take {@damage 2d6} force damage each.",
+				"你用唤起学派的力量能量注入你的箭中。该能量在你的攻击后引爆。箭矢击中生物后，目标和它周围10英尺内的所有其他生物立即受到{@damage 2d6}武力伤害。",
 				"The force damage increases to {@damage 4d6} when you reach 18th level in this class."
 			]
 		},
@@ -513,7 +513,7 @@
 				"name": "Sorcery Point"
 			},
 			"entries": [
-				"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell."
+				"当你施展一个迫使其他生物做出救赎的法术时，你可以保护其中一些生物不受法术的完全影响。要做到这一点，你需要花费1个巫术点，并从这些生物中选择一个数量与你的魅力修饰值相同的生物（至少一个生物）。被选中的生物会自动成功地对该法术进行救赎。"
 			]
 		},
 		{
@@ -549,7 +549,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell hold monster} at will\u2014targeting a celestial, fiend, or elemental\u2014without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
+				"你可以随心所欲地施展{@spell hold monster}--以天人、魔人或元素为目标，而不需要消耗法术槽或材料组件。你必须在完成长时间的休息后才能对同一生物再次使用这个召唤。"
 			]
 		},
 		{
@@ -609,9 +609,9 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're {@condition incapacitated} or you dismiss it as a bonus action.",
+				"作为一个额外动作，你可以用一个神奇的光环包围自己，看起来像嗡嗡作响的苍蝇。光环从你身上向各个方向延伸5英尺，但不能穿过全部遮蔽物。它一直持续到你{@condition incapacitated}或你作为奖励动作将其解除。",
 				"The aura grants you advantage on Charisma ({@skill Intimidation}) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"一旦你使用这个召唤，你就不能再使用它，直到你完成一个短期或长期的休息。"
 			]
 		},
 		{
@@ -622,8 +622,8 @@
 				"RN"
 			],
 			"entries": [
-				"This rune emulates the deceptive magic used by some cloud giants. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity ({@skill Sleight of Hand}) checks and Charisma ({@skill Deception}) checks.",
-				"In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and choose a different creature within 30 feet of you, other than the attacker. The chosen creature becomes the target of the attack, using the same roll. This magic can transfer the attack's effects regardless of the attack's range. Once you invoke this rune, you can't do so again until you finish a short or long rest."
+				"这个符文模仿了一些云端巨人使用的欺骗性魔法。在佩戴或携带刻有此符文的物品时，你在灵巧（{@skill Sleight of Hand}）检查和魅力（{@skill Deception}）检查中具有优势。",
+				"此外，当你或你能看到的30英尺范围内的生物被攻击卷击中时，你可以用你的反应来调用符文，并在你30英尺范围内选择一个不同的生物，而不是攻击者。被选择的生物将成为攻击的目标，使用同样的卷轴。这个魔法可以转移攻击的效果，而不考虑攻击的范围。一旦你调用这个符文，你就不能再这样做了，直到你完成一个短期或长期休息。"
 			]
 		},
 		{
@@ -637,7 +637,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you take the {@action Attack} action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll."
+				"当你在你的回合中采取{@action Attack}行动时，你可以放弃你的一次攻击，并使用一个额外行动来指挥你的一个同伴进行攻击。当你这样做时，选择一个能看到或听到你的友好生物，并消耗一个优势模子。该生物可以立即使用它的反应来进行一次武器攻击，将优势模子加入到攻击的伤害卷中。"
 			]
 		},
 		{
@@ -652,7 +652,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you make a Charisma ({@skill Intimidation}), a Charisma ({@skill Performance}), or a Charisma ({@skill Persuasion}) check, you can expend one superiority die and add the superiority die to the ability check."
+				"当你进行魅力({@skill Intimidation})、魅力({@skill Performance})或魅力({@skill Persuasion})检定时，你可以消耗一个优势模子并将优势模子加入能力检定。"
 			]
 		},
 		{
@@ -676,7 +676,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"While you are wearing armor, you gain a +1 bonus to AC."
+				"当你穿着盔甲时，你会获得一个+1的交流奖励。"
 			]
 		},
 		{
@@ -688,7 +688,7 @@
 				"EI"
 			],
 			"entries": [
-				"You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
+				"你可以在黑暗中正常看清，包括魔法和非魔法，距离为120英尺。"
 			]
 		},
 		{
@@ -702,7 +702,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
+				"当你用武器攻击击中一个生物时，你可以消耗一个优势模子来试图解除目标的武装，迫使它放下一件你选择的它所持有的物品。你将优势模子加到攻击的伤害卷上，而目标必须做一个力量救赎的动作。如果救赎失败，它将丢掉你选择的物品。该物品会落在它的脚下。"
 			]
 		},
 		{
@@ -717,8 +717,8 @@
 				"name": "Sorcery Point"
 			},
 			"entries": [
-				"When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.",
-				"When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet."
+				"当你施展一个范围在5英尺以上的法术时，你可以花费1个巫术点将法术的范围扩大一倍。",
+				"当你施展一个范围为触摸的法术时，你可以花费1个巫术点来使法术的范围达到30英尺。"
 			]
 		},
 		{
@@ -732,7 +732,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
+				"当你用武器攻击击中一个生物时，你可以消耗一个优势模子来分散该生物的注意力，给你的盟友一个机会。你将优势模子加入到攻击的伤害卷中。如果攻击是在你的下一个回合开始之前进行的，那么由你以外的攻击者对目标进行的下一次攻击卷就具有优势。"
 			]
 		},
 		{
@@ -792,7 +792,7 @@
 				}
 			],
 			"entries": [
-				"You learn two cantrips of your choice from the {@filter druid spell list|spells|level=0|class=druid}. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list."
+				"你从{@filter druid spell list|spells|level=0|class=druid}中学习两个你选择的咒语。它们对你来说算作游侠的法术，智慧是你对它们的法术能力。每当你在这个等级中获得一个等级，你可以用德鲁伊法术列表中的另一个咒语来代替其中一个咒语。"
 			]
 		},
 		{
@@ -821,7 +821,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+				"当你单手挥舞近战武器而没有其他武器时，你使用该武器的伤害卷获得+2奖励。"
 			]
 		},
 		{
@@ -854,7 +854,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell detect magic} at will, without expending a spell slot."
+				"你可以随意施展{@spell detect magic}，而不需要消耗一个法术槽。"
 			]
 		},
 		{
@@ -906,14 +906,14 @@
 				"ED"
 			],
 			"entries": [
-				"You can use your action to briefly control elemental forces within 30 feet of you, causing one of the following effects of your choice:",
+				"你可以用你的行动短暂地控制你周围30英尺内的元素力量，造成你选择的下列效果之一。",
 				{
 					"type": "list",
 					"items": [
-						"Create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of light mist, or a gentle rumbling of stone.",
-						"Instantaneously light or snuff out a candle, a torch, or a small campfire.",
-						"Chill or warm up to 1 pound of nonliving material for up to 1 hour.",
-						"Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you designate for 1 minute."
+						"创造一个无害的、与空气、土、火或水有关的瞬时感官效果，如一束火花、一阵风、一束轻雾，或石头的轻轻隆起。",
+						"瞬间点燃或熄灭蜡烛、火把或小营火。",
+						"冷冻或加热多达1磅的非生物材料，最长时间为1小时。",
+						"使土、火、水或雾在1英尺的立方体内形成你指定的粗糙形态，持续1分钟。"
 					]
 				}
 			]
@@ -930,8 +930,8 @@
 				"name": "Sorcery Point"
 			},
 			"entries": [
-				"When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-				"You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
+				"当你为一个法术掷出伤害时，你可以花费1个巫术点来重新掷出伤害骰子的数量，最多为你的魅力修正值（最少为一个）。你必须使用新的卷轴。",
+				"即使你在施法过程中已经使用了不同的法术选项，你也可以使用授权法术。"
 			]
 		},
 		{
@@ -970,8 +970,8 @@
 				}
 			],
 			"entries": [
-				"While holding this item, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.",
-				"The bonus increases to +2 when you reach 10th level in this class."
+				"当持有此物品时，生物获得一个+1的法术攻击卷奖励。此外，该生物在进行法术攻击时可忽略半数的掩护。",
+				"当你在这个等级中达到10级时，该奖励增加到+2。"
 			]
 		},
 		{
@@ -995,8 +995,8 @@
 				}
 			],
 			"entries": [
-				"A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.",
-				"The bonus increases to +2 when you reach 10th level in this class."
+				"生物在穿戴（盔甲）或挥舞（盾牌）被注入的物品时，获得+1的护甲等级奖励。",
+				"当你在这个等级中达到10级时，该奖励增加到+2。"
 			]
 		},
 		{
@@ -1020,8 +1020,8 @@
 				}
 			],
 			"entries": [
-				"This magic weapon grants a +1 bonus to attack and damage rolls made with it.",
-				"The bonus increases to +2 when you reach 10th level in this class."
+				"这个魔法武器对使用它进行的攻击和伤害卷给予+1的奖励。",
+				"当你在这个等级中达到10级时，该奖励增加到+2。"
 			]
 		},
 		{
@@ -1074,7 +1074,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving."
+				"当你移动时，你可以消耗一个优势模子，滚动模子并将所滚动的数字加入你的AC，直到你停止移动。"
 			]
 		},
 		{
@@ -1090,7 +1090,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+				"当你施展持续时间为1分钟或更长的法术时，你可以花费1个巫术点使其持续时间翻倍，最大持续时间为24小时。"
 			]
 		},
 		{
@@ -1102,7 +1102,7 @@
 				"EI"
 			],
 			"entries": [
-				"You can read all writing."
+				"你可以阅读所有的文字。"
 			]
 		},
 		{
@@ -1113,7 +1113,7 @@
 				"ED"
 			],
 			"entries": [
-				"When you use the {@action Attack} action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra {@damage 1d10} fire damage."
+				"当你在你的回合中使用{@action Attack}动作时，你可以花费1点气力使火焰卷轴从你的拳头和脚上伸展出来。你的徒手攻击的范围在该动作以及该回合的其余时间内增加10英尺。如果你在攻击时花费1点气力，它还会造成额外的{@damage 1d10}火焰伤害。"
 			]
 		},
 		{
@@ -1145,9 +1145,9 @@
 				}
 			],
 			"entries": [
-				"A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.",
-				"You can cast the {@spell sending} spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.",
-				"As an action, you can magically erase a name on the page by touching it."
+				"你的阴影之书中会出现一个新的页面。在你的允许下，一个生物可以用它的行动在那一页上写下它的名字，它可以包含与你的熟练度加成相等的名字数量。",
+				"你可以施展{@spell sending}的法术，目标是名字在这页纸上的生物，而不需要使用法术槽和物质成分。要做到这一点，你必须把信息写在纸上。目标会在他们的脑海中听到这个信息，如果目标回复，他们的信息会出现在页面上，而不是在你的脑海中。写的内容会在1分钟后消失。",
+				"作为一个动作，你可以通过触摸页面上的一个名字来神奇地擦除它。"
 			]
 		},
 		{
@@ -1161,7 +1161,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature this turn. If that attack hits, add the superiority die to the attack's damage roll."
+				"你可以消耗一个优势模子，并在你的回合中使用一个额外行动来佯攻，选择一个在你5英尺内的生物作为你的目标。你在本回合对该生物的下一次攻击卷中具有优势。如果那次攻击命中了，就在攻击的伤害卷上加上优势模子。"
 			]
 		},
 		{
@@ -1182,7 +1182,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell false life} on yourself at will as a 1st-level spell, without expending a spell slot or material components."
+				"你可以随心所欲地对自己施展{@spell false life}，作为一个一级法术，不需要消耗法术槽或材料成分。"
 			]
 		},
 		{
@@ -1193,8 +1193,8 @@
 				"RN"
 			],
 			"entries": [
-				"This rune's magic channels the masterful craftsmanship of great smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.",
-				"In addition, when you hit a creature with an attack using a weapon, you can invoke the rune to summon fiery shackles: the target takes an extra {@damage 2d6} fire damage, and it must succeed on a Strength saving throw or be {@condition restrained} for 1 minute. While {@condition restrained} by the shackles, the target takes {@damage 2d6} fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke this rune, you can't do so again until you finish a short or long rest."
+				"这个符文的魔力引导着大铁匠的精湛工艺。在佩戴或携带刻有此符文的物品时，你对任何使用工具熟练度的能力检查的熟练度加成都会加倍。",
+				"此外，当你用武器攻击击中一个生物时，你可以调用符文来召唤火焰枷锁：目标会受到额外的{@damage 2d6}火焰伤害，并且它必须在力量救赎中成功，否则会在1分钟内受到{@condition restrained}。当目标被枷锁锁住时，它在每个回合开始时都会受到{@damage 2d6}的火焰伤害。目标可以在每个回合结束时重复蓄力，如果成功则驱逐枷锁。一旦你调用这个符文，你就不能再这样做，直到你完成一个短期或长期的休息。"
 			]
 		},
 		{
@@ -1270,8 +1270,8 @@
 				"RN"
 			],
 			"entries": [
-				"This rune's magic evokes the might of those who survive in the wintry wilderness, such as frost giants. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom ({@skill Animal Handling}) checks and Charisma ({@skill Intimidation}) checks.",
-				"In addition, you can invoke the rune as a bonus action to increase your sturdiness. For 10 minutes, you gain a +2 bonus to all ability checks and saving throws that use Strength or Constitution. Once you invoke this rune, you can't do so again until you finish a short or long rest."
+				"这个符文的魔力唤起了那些在寒风中生存的人的力量，例如冰霜巨人。在佩戴或携带刻有此符文的物品时，你在智慧（{@skill Animal Handling}）检查和魅力（{@skill Intimidation}）检查上有优势。",
+				"此外，你可以调用符文作为一个额外的动作来增加你的坚固性。在10分钟内，你对所有使用力量或体质的能力检查和蓄力投掷获得+2奖励。一旦你调用这个符文，你就不能再这样做，直到你完成一个短期或长期休息。"
 			]
 		},
 		{
@@ -1305,7 +1305,7 @@
 			],
 			"entries": [
 				"As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have {@sense darkvision} if you don't already have it. This special sight lasts for 1 minute or until your {@status concentration} ends (as if you were {@status concentration||concentrating} on a spell). During that time, you perceive objects as ghostly, transparent images.",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"一旦你使用这个召唤，你就不能再使用它，直到你完成一个短期或长期的休息。"
 			]
 		},
 		{
@@ -1339,7 +1339,7 @@
 				}
 			],
 			"entries": [
-				"You can breathe underwater, and you gain a swimming speed equal to your walking speed.",
+				"你可以在水下呼吸，你获得的游泳速度与你的步行速度相等。",
 				"You can also cast {@spell water breathing} once without expending a spell slot. You regain the ability to do so when you finish a long rest."
 			]
 		},
@@ -1356,7 +1356,7 @@
 				}
 			],
 			"entries": [
-				"Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you."
+				"当你的熟人在你的100英尺范围内时，每当你恢复命中率时，把为确定你恢复的命中率而掷出的任何骰子视为为你掷出了最大值。"
 			]
 		},
 		{
@@ -1379,9 +1379,9 @@
 				}
 			],
 			"entries": [
-				"A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.",
-				"When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.",
-				"As an action, you can magically erase a name on the page by touching it."
+				"你的阴影之书中会出现一个新的页面。在你的允许下，一个生物可以用它的行动在那一页上写下它的名字，它可以包含与你的熟练度加成相等的名字数量。",
+				"当任何名字出现在这一页上的生物被降低到0命中率但没有被直接杀死时，该生物会神奇地降到1命中率。一旦这个魔法被触发，在你完成长时间的休息之前，没有任何生物可以从中受益。",
+				"作为一个动作，你可以通过触摸页面上的一个名字来神奇地擦除它。"
 			]
 		},
 		{
@@ -1395,7 +1395,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
+				"当你用武器攻击击中一个生物时，你可以消耗一个优势模子来试图诱使目标攻击你。你将优势模子加到攻击的伤害卷上，而目标必须做一个智慧救赎动作。如果救赎失败，目标在对你以外的目标的所有攻击卷中都处于劣势，直到你下一个回合结束。"
 			]
 		},
 		{
@@ -1449,7 +1449,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"Immediately after you hit a creature with a melee attack on your turn, you can expend one superiority die and then try to grapple the target as a bonus action (see the Player's Handbook for rules on grappling). Add the superiority die to your Strength ({@skill Athletics}) check."
+				"在你的回合中用近战攻击击中一个生物后，你可以立即消耗一个优势模子，然后尝试抓取目标作为一个额外的行动（关于抓取的规则，见玩家手册）。在你的力量({@skill Athletics}检查中加入优势模子。"
 			]
 		},
 		{
@@ -1501,7 +1501,7 @@
 				"FS:P"
 			],
 			"entries": [
-				"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+				"当你用双手挥舞的近战武器进行攻击时，你可以重新掷骰子，并且必须使用新的骰子，即使新的骰子是1或2。"
 			]
 		},
 		{
@@ -1517,7 +1517,7 @@
 				"amount": 3
 			},
 			"entries": [
-				"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
+				"当你施展一个迫使生物做出救赎以抵抗其效果的法术时，你可以花费3个巫术点数，让一个法术的目标在其第一次对法术做出的救赎中处于劣势。"
 			]
 		},
 		{
@@ -1568,7 +1568,7 @@
 			],
 			"entries": [
 				"This rune's magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object that bears this rune, you have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage.",
-				"In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke this rune, you can't do so again until you finish a short or long rest."
+				"此外，你可以作为额外动作调用该符文，获得对打击、穿刺和砍击伤害的抵抗，持续1分钟。一旦你调用这个符文，你就不能再这样做，直到你完成一个短期或长期休息。"
 			]
 		},
 		{
@@ -1593,10 +1593,10 @@
 			],
 			"entries": [
 				"You learn intricate methods for magically creating a special {@creature Homunculus Servant|TCE|homunculus} that serves you. The item you infuse serves as the creature's heart, around which the creature's body instantly forms.",
-				"You determine the homunculus's appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.",
-				"The homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.",
+				"你决定同形体的外观。有些工匠喜欢机械外观的鸟类，而有些人则喜欢有翅膀的小瓶或微型的、有生命的大锅。",
+				"同体人对你和你的同伴很友好，它听从你的命令。请看这个生物的游戏统计，在同体人仆人的状态块中，它在几个地方使用了你的熟练度奖励（PB）。",
 				"In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the homunculus can take any action of its choice, not just {@action Dodge}.",
-				"The homunculus regains {@dice 2d6} hit points if the {@spell mending} spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space."
+				"如果{@spell mending}的法术被施加在它身上，同体人就会恢复{@dice 2d6}的命中率。如果你或同体人死亡，它就会消失，把它的心脏留在其空间里。"
 			],
 			"hasFluffImages": true
 		},
@@ -1613,8 +1613,8 @@
 				}
 			],
 			"entries": [
-				"You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.",
-				"In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.",
+				"你可以使用你用刀之契约功能召唤的任何武器作为你的术士法术的施法重点。",
+				"此外，该武器在其攻击和伤害卷上获得+1的奖励，除非它是一个魔法武器，已经对这些卷有了奖励。",
 				"Finally, the weapon you conjure can be a {@item shortbow|phb}, {@item longbow|phb}, {@item light crossbow|phb}, or {@item heavy crossbow|phb}."
 			]
 		},
@@ -1645,15 +1645,15 @@
 				}
 			],
 			"entries": [
-				"When you cast {@spell find familiar}, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:",
+				"当你施展{@spell find familiar}时，你将你的长生力量注入被召唤的熟悉生物，给予该生物以下好处。",
 				{
 					"type": "list",
 					"items": [
-						"The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.",
+						"熟悉的人获得飞行速度或40英尺的游泳速度（你选择）。",
 						"As a bonus action, you can command the familiar to take the {@action Attack} action.",
-						"The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.",
-						"If the familiar forces a creature to make a saving throw, it uses your spell save DC.",
-						"When the familiar takes damage, you can use your reaction to grant it resistance against that damage."
+						"为了克服对非魔法攻击的免疫和抵抗，熟悉的人的武器攻击被认为是魔法的。",
+						"如果熟悉的人强迫一个生物做拯救动作，它就会使用你的法术拯救DC。",
+						"当熟悉的人受到伤害时，你可以用你的反应来赋予它对该伤害的抵抗。"
 					]
 				}
 			]
@@ -1696,7 +1696,7 @@
 				}
 			],
 			"entries": [
-				"When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum of 1)."
+				"当你用你的契约武器击中一个生物时，该生物会受到相当于你的魅力修正值的额外坏死伤害（最小为1）。"
 			]
 		},
 		{
@@ -1710,7 +1710,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll."
+				"当你在你的回合中进行近战武器攻击时，你可以消耗一个优势模子来增加你的攻击范围5英尺。如果你命中了，你将优势模子加入到攻击的伤害卷中。"
 			]
 		},
 		{
@@ -1748,7 +1748,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
+				"当你用武器攻击击中一个生物时，你可以消耗一个优势模子来操纵你的一个战友到一个更有利的位置。你将优势模子加到攻击的伤害卷上，并且你选择一个能看到或听到你的友好生物。该生物可以使用它的反应来移动到它的一半速度，而不会引起来自你攻击目标的机会攻击。"
 			]
 		},
 		{
@@ -1769,7 +1769,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell disguise self} at will, without expending a spell slot."
+				"你可以随意施展{@spell disguise self}，而不需要消耗一个法术槽。"
 			]
 		},
 		{
@@ -1800,7 +1800,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell alter self} at will, without expending a spell slot."
+				"你可以随意施展{@spell alter self}，而不需要消耗一个法术槽。"
 			]
 		},
 		{
@@ -1832,7 +1832,7 @@
 				}
 			],
 			"entries": [
-				"The infused item can send a jolt to the wearer to refocus their mind. The item has 4 charges. When the wearer fails a Constitution saving throw to maintain {@status concentration} on a spell, the wearer can use its reaction to expend 1 of the item's charges to succeed instead. The item regains {@dice 1d4} expended charges daily at dawn."
+				"注入的物品可以给佩戴者带来颠簸，使他们的思想重新集中。该物品有4次充电。当穿戴者在保持法术的稳定性方面失败时，穿戴者可以用它的反应来消耗该物品的一个电荷来代替成功。该物品每天在黎明时分重新获得{@dice 1d4}已消耗的能量。"
 			]
 		},
 		{
@@ -1941,7 +1941,7 @@
 				}
 			],
 			"entries": [
-				"You can spend 4 ki points to cast {@spell gaseous form}, targeting yourself."
+				"你可以花费4个基点来施展{@spell gaseous form}，以自己为目标。"
 			]
 		},
 		{
@@ -1962,7 +1962,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell silent image} at will, without expending a spell slot or material components."
+				"你可以随意施展{@spell silent image}，不需要消耗法术槽或材料组件。"
 			]
 		},
 		{
@@ -2027,9 +2027,9 @@
 				"PB"
 			],
 			"entries": [
-				"You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
-				"Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.",
-				"You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks."
+				"你可以用你的行动在你的空手中创造一个契约武器。你可以选择这个近战武器在你每次创造它时的形态（武器选项见第5章）。在你挥舞它的时候，你会熟练掌握它。为了克服对非魔法攻击和伤害的抵抗和免疫，这个武器算作是魔法武器。",
+				"如果你的契约武器在离你5英尺以上的地方停留1分钟以上，它就会消失。如果你再次使用这个功能，如果你解除武器（不需要任何行动），或者你死亡，它也会消失。",
+				"你可以通过在持有武器时执行一个特殊的仪式，将一件魔法武器转化为你的契约武器。你在1小时内完成这个仪式，可以在短暂的休息中完成。然后你可以解除该武器，将其分流到一个超维空间，此后只要你创造你的契约武器，它就会出现。你不能以这种方式影响一个神器或一个有生命的武器。如果你死了，如果你对另一件武器进行了1小时的仪式，或者如果你用1小时的仪式来打破你对它的束缚，该武器就不再是你的契约武器。如果武器在纽带断裂时是在异次元空间，那么它就会出现在你的脚下。"
 			]
 		},
 		{
@@ -2053,9 +2053,9 @@
 				}
 			],
 			"entries": [
-				"You learn the {@spell find familiar} spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
-				"When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, or {@creature sprite}.",
-				"Additionally, when you take the {@action Attack} action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own."
+				"你学会了{@spell find familiar}的法术，并可以把它作为一种仪式来施展。该法术不计入你已知的法术数量。",
+				"当你施法时，你可以为你的熟人选择一个正常的形态，或选择以下的特殊形态之一。{@creature imp}, {@creature pseudodragon}, {@creature quasit}, 或 {@creature sprite}。",
+				"此外，当你采取{@action Attack}行动时，你可以放弃你自己的一次攻击，让你的熟人使用它的反应来进行一次自己的攻击。"
 			]
 		},
 		{
@@ -2068,7 +2068,7 @@
 			],
 			"entries": [
 				"Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a {@dice d4} to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.",
-				"If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die."
+				"如果你丢失了护身符，你可以进行一个1小时的仪式，从你的守护者那里得到一个替代物。这个仪式可以在短期或长期的休息中进行，而且会破坏之前的护身符。当你死亡时，护身符会化为灰烬。"
 			]
 		},
 		{
@@ -2107,7 +2107,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
+				"当另一个生物用近战攻击伤害你时，你可以使用你的反应并消耗一个优势模子，以减少你的优势模子+你的灵巧修饰的数字的伤害。"
 			]
 		},
 		{
@@ -2136,7 +2136,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
+				"当你对一个生物进行武器攻击卷时，你可以消耗一个优势模子，将其加入卷中。你可以在做攻击卷之前或之后使用这个动作，但在攻击的任何效果被应用之前。"
 			]
 		},
 		{
@@ -2155,7 +2155,7 @@
 				"FS:P"
 			],
 			"entries": [
-				"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+				"当一个你能看到的生物攻击一个你以外的、在你5英尺范围内的目标时，你可以用你的反应在攻击卷上施加不利条件。你必须挥舞着一个盾牌。"
 			]
 		},
 		{
@@ -2178,7 +2178,7 @@
 				}
 			],
 			"entries": [
-				"When the wearer of your talisman fails a saving throw, they can add a {@dice d4} to the roll, potentially turning the save into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest."
+				"当佩带你的护身符的人在救赎失败时，他们可以为其增加一个{@dice d4}，有可能将救赎变成成功。这个好处的使用次数等于你的熟练度加成，所有消耗的使用次数在你完成长时间休息时恢复。"
 			]
 		},
 		{
@@ -2192,7 +2192,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
+				"当你用武器攻击击中一个生物时，你可以消耗一个优势模子来试图将目标赶回去。你将优势模子加入到攻击的伤害卷中，如果目标是大型或小型的，它必须做一个力量救赎动作。如果救赎失败，你会将目标推到离你最多15英尺的地方。"
 			]
 		},
 		{
@@ -2207,7 +2207,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"As a bonus action, you can expend one superiority die and make a ranged attack with a weapon that has the thrown property. You can draw the weapon as part of making this attack. If you hit, add the superiority die to the weapon's damage roll."
+				"作为一个奖励动作，你可以消耗一个优势模子，用具有投掷属性的武器进行一次远程攻击。你可以拔出武器作为这次攻击的一部分。如果你击中了，将优势模子加入到武器的伤害卷中。"
 			]
 		},
 		{
@@ -2223,7 +2223,7 @@
 				"amount": 2
 			},
 			"entries": [
-				"When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+				"当你施展一个施法时间为1个行动的法术时，你可以花费2个巫术点数，将这次施法的施法时间改为1个额外行动。"
 			]
 		},
 		{
@@ -2254,8 +2254,8 @@
 				}
 			],
 			"entries": [
-				"This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.",
-				"The weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be {@condition blinded} until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains {@dice 1d4} expended charges daily at dawn."
+				"这个魔法武器对使用它的攻击和伤害卷轴给予+1的奖励。在持有它的时候，施法者可以采取额外行动，使它在30英尺范围内发出亮光，在另外30英尺范围内发出暗光。施法者可以用一个额外的行动来熄灭光线。",
+				"该武器有4次充电。作为被攻击击中后的立即反应，持枪者可以消耗1个电荷，并使攻击者受到{@condition blinded}的伤害，直到攻击者的下一回合结束，除非攻击者对你的法术救赎DC进行宪法救赎成功。该武器每天在黎明时分重新获得{@dice 1d4}已消耗的能量。"
 			]
 		},
 		{
@@ -2269,7 +2269,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier."
+				"在你的回合中，你可以使用一个额外的行动并消耗一个优势模子来支持你的一个同伴的决心。当你这样做时，选择一个能看到或听到你的友好生物。该生物获得的临时命中率等于优势模子卷+你的魅力修改器。"
 			]
 		},
 		{
@@ -2286,7 +2286,7 @@
 				}
 			],
 			"entries": [
-				"When the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your proficiency bonus and push it up to 10 feet away from the talisman's wearer."
+				"当你的护身符佩戴者被30英尺范围内你能看到的攻击者击中时，你可以使用你的反应对攻击者造成相当于你的熟练度加成的精神伤害，并将其推离护身符佩戴者10英尺。"
 			]
 		},
 		{
@@ -2334,8 +2334,8 @@
 				}
 			],
 			"entries": [
-				"This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.",
-				"If the weapon lacks ammunition, it produces its own, automatically creating one piece of magic ammunition when the wielder makes a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target."
+				"当它被用来进行远程攻击时，这个魔法武器对用它进行的攻击和伤害的卷轴给予+1的奖励，如果它有加载属性，它就会忽略。",
+				"如果武器缺乏弹药，它可以自己制造，当持枪者用它进行远程攻击时，会自动制造一个魔法弹药。该武器创造的弹药在击中或未击中目标后瞬间消失。"
 			]
 		},
 		{
@@ -2354,7 +2354,7 @@
 				}
 			],
 			"entries": [
-				"When you hit a creature with {@spell eldritch blast}, you can push the creature up to 10 feet away from you in a straight line."
+				"当你用{@spell eldritch blast}击中一个生物时，你可以将该生物在一条直线上推到离你最远的10英尺。"
 			]
 		},
 		{
@@ -2372,7 +2372,7 @@
 			],
 			"entries": [
 				"Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the {@filter common magic items|items|type=!potion;!scroll|rarity=common} in the game, not including potions or scrolls.",
-				"In the tables, an item's entry tells you whether the item requires attunement. See the item's description in the {@book Dungeon Master's Guide|DMG} for more information about it, including the type of object required for its making.",
+				"在表格中，一个物品的条目告诉你该物品是否需要调和。有关该物品的更多信息，包括制作该物品所需的物品类型，请参见{@book Dungeon Master's Guide|DMG}中对该物品的描述。",
 				{
 					"type": "table",
 					"caption": "Replicable Items (2nd-Level Artificer)",
@@ -2558,7 +2558,7 @@
 							"Yes"
 						],
 						[
-							"{@item Ventilating lungs|ERLW} (detailed in {@book chapter 5|ERLW|13})",
+							"{@item Ventilating lungs|ERLW} (详见{@book chapter 5|ERLW|13})",
 							"Yes"
 						],
 						[
@@ -2584,7 +2584,7 @@
 							"Yes"
 						],
 						[
-							"{@item Arcane propulsion arm|ERLW} (detailed in {@book chapter 5|ERLW|13})",
+							"{@item Arcane propulsion arm|ERLW} (详见{@book chapter 5|ERLW|13})",
 							"Yes"
 						],
 						[
@@ -2663,8 +2663,8 @@
 				}
 			],
 			"entries": [
-				"A creature gains a +1 bonus to Armor Class while wielding this shield.",
-				"The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains {@dice 1d4} expended charges daily at dawn."
+				"生物在挥舞此盾牌时，可获得+1的护甲等级奖励。",
+				"该盾牌有4次充电。持盾时，持盾者可以在被近战攻击击中后立即使用反应，消耗盾牌的一个电荷，将攻击者推到15英尺以外。盾牌每天在黎明时分重新获得{@dice 1d4}已消耗的能量。"
 			]
 		},
 		{
@@ -2695,7 +2695,7 @@
 				}
 			],
 			"entries": [
-				"While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder."
+				"当穿上这件盔甲时，生物对以下一种伤害类型有抵抗力，你在注入物品时选择：酸、冷、火、力量、闪电、坏死、毒、精神、辐射或雷霆。"
 			]
 		},
 		{
@@ -2719,7 +2719,7 @@
 				}
 			],
 			"entries": [
-				"This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack."
+				"这个魔法武器对使用它进行的攻击和伤害卷轴给予+1的奖励，并且在使用它进行远程攻击后，它立即回到施法者手中。"
 			]
 		},
 		{
@@ -2758,7 +2758,7 @@
 				}
 			],
 			"entries": [
-				"You can spend 4 ki points to cast {@spell fly}, targeting yourself."
+				"你可以花费4个基点来施展{@spell fly}，以自己为目标。"
 			]
 		},
 		{
@@ -2772,7 +2772,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
+				"当一个生物的近战攻击没有击中你时，你可以使用你的反应并消耗一个优势模子来对该生物进行近战武器攻击。如果你打中了，你会将优势模子加入到攻击的伤害卷中。"
 			]
 		},
 		{
@@ -2904,7 +2904,7 @@
 			},
 			"entries": [
 				"If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the {@dice d20}, and you must use the new roll.",
-				"You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell."
+				"即使你在施法过程中已经使用了不同的法术选项，你也可以使用寻求法术。"
 			]
 		},
 		{
@@ -2918,7 +2918,7 @@
 				"name": "Arcane Shot"
 			},
 			"entries": [
-				"You weave illusion magic into your arrow, causing it to occlude your foe's vision with shadows. The creature hit by the arrow takes an extra {@damage 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.",
+				"你在你的箭上编织幻象魔法，使它用阴影遮住你敌人的视线。被箭射中的生物会受到额外的{@damage 2d6}精神伤害，而且它必须在智慧救赎中成功，否则无法看到5英尺以外的任何东西，直到你下一个回合开始。",
 				"The psychic damage increases to {@damage 4d6} when you reach 18th level in this class."
 			]
 		},
@@ -2930,7 +2930,7 @@
 				"ED"
 			],
 			"entries": [
-				"As an action, you can spend 1 ki point to choose an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can change water to ice within the area and vice versa, and you can reshape ice in the area in any manner you choose. You can raise or lower the ice's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 30-foot square, you can create a pillar up to 15 feet high. raise or lower the square's elevation by up to 15 feet, dig a trench up to 15 feet deep, and so on. You can't shape the ice to trap or injure a creature in the area."
+				"作为一个行动，你可以花费1个奇异点在你周围120英尺范围内选择一个边长不超过30英尺的冰或水区域。你可以在该区域内将水变成冰，反之亦然，并且你可以以你选择的任何方式重塑该区域的冰。你可以提高或降低冰的高度，创造或填平一条沟渠，竖起或压平一堵墙，或形成一个支柱。任何此类改变的范围都不能超过该区域最大尺寸的一半。例如，如果你影响了一个30英尺的正方形，你可以建立一个15英尺高的柱子，将正方形的高度提高或降低15英尺，挖一个15英尺深的沟渠，等等。你不能塑造冰块来困住或伤害该区域的生物。"
 			]
 		},
 		{
@@ -2960,7 +2960,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell invisibility} at will, without expending a spell slot."
+				"你可以随意施展{@spell invisibility}，而不需要消耗一个法术槽。"
 			]
 		},
 		{
@@ -3020,7 +3020,7 @@
 				}
 			],
 			"entries": [
-				"While wearing this ring, the creature can recover one expended spell slot as an action. The recovered slot can be of 3rd level or lower. Once used, the ring can't be used again until the next dawn."
+				"在佩戴此戒指时，生物可以作为一个动作恢复一个已消耗的法术槽。恢复的法术槽可以是第三级或更低级的。一旦使用，该戒指在下一个黎明前不能再次使用。"
 			]
 		},
 		{
@@ -3036,7 +3036,7 @@
 				}
 			],
 			"entries": [
-				"This rune's magic channels the judiciousness associated with stone giants. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom ({@skill Insight}) checks, and you have {@sense darkvision} out to a range of 120 feet.",
+				"这个符文的魔力引导着与石巨人有关的判断力。在佩戴或携带刻有此符文的物品时，你在智慧（{@skill Insight}）检查中具有优势，并且你的{@sense darkvision}范围为120英尺。",
 				"In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is {@condition charmed} by you for 1 minute. While {@condition charmed} in this way, the creature has a speed of 0 and is {@condition incapacitated}, descending into a dreamy stupor. The creature repeats the saving throw at the end of each of its turns, ending the effect on a success. Once you invoke this rune, you can't do so again until you finish a short or long rest."
 			]
 		},
@@ -3062,7 +3062,7 @@
 				}
 			],
 			"entries": [
-				"Using this rune, you can glimpse the future like a storm giant seer. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence ({@skill Arcana}) checks, and you can't be {@quickref Surprise|PHB|3|0|surprised} as long as you aren't {@condition incapacitated}.",
+				"使用这个符文，你可以像风暴巨人预言家一样瞥见未来。在佩戴或携带刻有此符文的物品时，你在智力({@skill Arcana})检查上有优势，而且只要你不是{@condition incapacitated}，就不会被{@quickref Surprise|PHB|3|0|surprised}。",
 				"In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you're {@condition incapacitated}. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke this rune, you can't do so again until you finish a short or long rest."
 			]
 		},
@@ -3078,7 +3078,7 @@
 				"name": "Sorcery Point"
 			},
 			"entries": [
-				"When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components."
+				"当你施展一个法术时，你可以花费1个巫术点来施展它，而不需要任何身体或语言成分。"
 			]
 		},
 		{
@@ -3101,8 +3101,8 @@
 				}
 			],
 			"entries": [
-				"You learn one {@filter maneuver|optionalfeatures|feature type=MV:B} of your choice from among those available to the {@class fighter|phb|Battle Master|Battle Master|phb|2-0} archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
-				"You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+				"你从{@class fighter|phb|Battle Master|Battle Master|phb|2-0}的原型中选择学习一个{@filter maneuver|optionalfeatures|feature type=MV:B}。如果你使用的动作需要你的目标做一个蓄力动作来抵抗该动作的效果，蓄力动作的DC等于8+你的熟练度加成+你的力量或灵巧修正值（你选择）。",
+				"你获得一个优势骰子，这是一个{@dice d6}（这个骰子会加到你从其他来源获得的任何优势骰子上）。这个骰子被用来助长你的机动性。当你使用一个优势骰子时，它会被消耗掉。当你完成一个短期或长期的休息时，你会重新获得你所消耗的优势骰子。"
 			]
 		},
 		{
@@ -3116,7 +3116,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."
+				"当你用近战武器攻击击中一个生物时，你可以消耗一个优势模子来尝试用同样的攻击伤害另一个生物。在原始目标的5英尺范围内选择另一个生物，并且在你的范围内。如果原来的攻击卷会击中第二个生物，那么它受到的伤害等于你在优势模子上滚动的数字。该伤害与原始攻击造成的伤害类型相同。"
 			]
 		},
 		{
@@ -3157,7 +3157,7 @@
 				"name": "Superiority Die"
 			},
 			"entries": [
-				"When you make an Intelligence ({@skill Investigation}), an Intelligence ({@skill History}), or a Wisdom ({@skill Insight}) check, you can expend one superiority die and add the superiority die to the ability check."
+				"当你进行智力（{@skill Investigation}）、智慧（{@skill History}）或智慧（{@skill Insight}）检查时，你可以消耗一个优势模子，并将优势模子加入能力检查。"
 			]
 		},
 		{
@@ -3205,7 +3205,7 @@
 				}
 			],
 			"entries": [
-				"You can attack with your pact weapon twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"每当你在你的回合采取{@action Attack}行动时，你可以用你的契约武器攻击两次，而不是一次。"
 			]
 		},
 		{
@@ -3218,8 +3218,8 @@
 				"FS:R"
 			],
 			"entries": [
-				"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
-				"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
+				"你可以拔出具有投掷属性的武器，作为你用该武器进行攻击的一部分。",
+				"此外，当你使用投掷武器进行远程攻击时，你会获得一个+2的伤害卷奖励。"
 			]
 		},
 		{
@@ -3241,7 +3241,7 @@
 			],
 			"entries": [
 				"As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are {@condition incapacitated}. These effects, including any remaining temporary hit points, all end when the ice melts.",
-				"Once you use this invocation, you can't use it again until you finish a short or long rest."
+				"一旦你使用这个召唤，你就不能再使用它，直到你完成一个短期或长期的休息。"
 			]
 		},
 		{
@@ -3256,7 +3256,7 @@
 				"name": "Sorcery Point"
 			},
 			"entries": [
-				"When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder."
+				"当你施放一个造成以下类型伤害的法术时，你可以花费1个巫术点将该伤害类型改为其他列出的类型之一：酸、冷、火、闪电、毒、雷。"
 			]
 		},
 		{
@@ -3321,8 +3321,8 @@
 				"amountMax": 9
 			},
 			"entries": [
-				"When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).",
-				"To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, {@spell magic missile} and {@spell scorching ray} aren't eligible, but {@spell ray of frost} and {@spell chromatic orb} are."
+				"当你施展一个只针对一个生物且没有自身范围的法术时，你可以花费与该法术等级相等的巫术点数，以同一法术针对范围内的第二个生物（如果该法术是咒语，则为1巫术点数）。",
+				"要符合条件，一个法术必须在该法术的当前等级不能针对一个以上的生物。例如，{@spell magic missile}和{@spell scorching ray}不符合条件，但{@spell ray of frost}和{@spell chromatic orb}符合条件。"
 			]
 		},
 		{
@@ -3346,7 +3346,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+				"当你进行双武器战斗时，你可以在第二次攻击的伤害上加上你的能力修改值。"
 			]
 		},
 		{
@@ -3358,8 +3358,8 @@
 				"FS:F"
 			],
 			"entries": [
-				"Your unarmed strikes can deal bludgeoning damage equal to {@damage 1d6} + your Strength modifier on a hit. If you aren't wielding any weapons or a {@item shield|phb} when you make the attack roll, the {@damage d6} becomes a {@damage d8}.",
-				"At the start of each of your turns, you can deal {@damage 1d4} bludgeoning damage to one creature {@condition grappled} by you."
+				"你的徒手攻击可以造成相当于{@damage 1d6}+你力量修正值的打击伤害。如果你在进行攻击时没有挥舞任何武器或{@item shield|phb}，{@damage d6}会变成{@damage d8}。",
+				"在你每个回合开始时，你可以对你身边的一个生物造成{@damage 1d4}的重击伤害{@condition grappled}。"
 			]
 		},
 		{
@@ -3436,7 +3436,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell arcane eye} at will, without expending a spell slot."
+				"你可以随意施展{@spell arcane eye}，而不需要消耗一个法术槽。"
 			]
 		},
 		{
@@ -3453,7 +3453,7 @@
 				}
 			],
 			"entries": [
-				"You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech."
+				"只要你们在同一个存在平面上，你就可以与你的熟人进行心灵感应，并通过你熟人的感官进行感知。此外，在通过你熟悉的人的感官进行感知时，你也可以通过你熟悉的人用自己的声音说话，即使你熟悉的人通常无法说话。"
 			]
 		},
 		{
@@ -3534,7 +3534,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell speak with dead} at will, without expending a spell slot."
+				"你可以随意施展{@spell speak with dead}，而不需要消耗一个法术槽。"
 			]
 		},
 		{
@@ -3556,7 +3556,7 @@
 				}
 			],
 			"entries": [
-				"You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."
+				"你可以看到任何变身者或被幻觉或转化魔法掩盖的生物的真实形态，当该生物在你30英尺范围内并在视线范围内。"
 			]
 		}
 	]
