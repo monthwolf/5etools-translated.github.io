@@ -1,0 +1,35 @@
+name: upstream
+
+on:
+  schedule:
+    - cron: "00 5 * * *"
+
+concurrency:
+  group: "translation"
+  cancel-in-progress: true
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+    merge-upstream:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@master
+          with:
+                ref: 'translations'
+                fetch-depth: 0
+        - name: Merge latest upstream
+          continue-on-error: true
+          run: |
+                cd $GITHUB_WORKSPACE
+                mv data data.zh
+                git remote add upstream https://github.com/5etools-mirror-2/5etools-mirror-2.github.io
+                git fetch upstream
+                git config user.name "Automatic translator"
+                git config user.email "<>"
+                git merge upstream/main
+                git push

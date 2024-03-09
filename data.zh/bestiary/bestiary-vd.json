@@ -1,0 +1,259 @@
+{
+	"monster": [
+		{
+			"name": "Vecna the Archlich",
+			"shortName": "Vecna",
+			"isNamedCreature": true,
+			"source": "VD",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"Wizard"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "32d8 + 128",
+				"average": 272
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 18,
+			"int": 22,
+			"wis": 24,
+			"cha": 16,
+			"save": {
+				"con": "+12",
+				"int": "+14",
+				"wis": "+15"
+			},
+			"skill": {
+				"arcana": "+22",
+				"history": "+14",
+				"insight": "+15",
+				"perception": "+15"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 25,
+			"resist": [
+				"cold",
+				"lightning",
+				"necrotic"
+			],
+			"immune": [
+				{
+					"immune": [
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish",
+				"Infernal"
+			],
+			"cr": "26",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Vecna casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 22}):"
+					],
+					"will": [
+						"{@spell animate dead} (as an action)",
+						"{@spell detect magic}",
+						"{@spell dispel magic}",
+						"{@spell fly}",
+						"{@spell lightning bolt}",
+						"{@spell mage hand}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell dimension door}",
+							"{@spell invisibility}",
+							"{@spell scrying} (as an action)"
+						],
+						"1e": [
+							"{@spell dominate monster}",
+							"{@spell globe of invulnerability}",
+							"{@spell plane shift} (self only)"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (5/Day)",
+					"entries": [
+						"如果Vecna的拯救动作失败，他可以选择成功。"
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Vecna carries a magic dagger named Afterthought. In the hands of anyone other than Vecna, Afterthought is a {@item +2 dagger}."
+					]
+				},
+				{
+					"name": "Undying",
+					"entries": [
+						"如果Vecna被杀，他的灵魂拒绝接受自己的命运，并作为一个没有实体的灵魂继续生存，在{@dice 1d100}年后为自己塑造一个新的身体。Vecna的灵魂可以塑造一个新的身体，即使它的旧身体被烧成灰烬或以其他方式被抹去。当新的身体完成后，Vecna恢复了他所有的命中率并再次变得活跃。Vecna的新身体会出现在Vecna被杀死的地方100英里范围内。"
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"Vecna不需要空气、食物、饮料或睡眠。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Vecna uses Flight of the Damned (if available), Rotten Fate, or Spellcasting. He then makes two attacks with {@i Afterthought}."
+					]
+				},
+				{
+					"name": "Afterthought",
+					"entries": [
+						"{@atk mw} {@hit 13}击中，到达5英尺，一个目标。{@h}7 ({@damage 1d4 + 5})穿刺伤害，加上9 ({@damage 2d8})坏死伤害。如果目标是生物，它将受到熵魔法的影响，在其每个回合开始时受到9({@damage 2d8})坏死伤害。在它的回合中受到这种伤害后，目标可以立即做一个{@dc 20}宪法救赎动作，如果成功，则结束对它的影响。在救赎成功之前，受影响的目标不能恢复生命值。"
+					]
+				},
+				{
+					"name": "Flight of the Damned {@recharge 5}",
+					"entries": [
+						"Vecna conjures a torrent of flying, spectral entities that fill a 120-foot cone and pass through all creatures in that area before dissipating. Each creature in that area must make a {@dc 22} Constitution saving throw. On a failed save, the creature takes 36 ({@damage 8d8}) necrotic damage and is {@condition frightened} of Vecna for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition frightened}. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Rotten Fate",
+					"entries": [
+						"Vecna使坏死的魔法吞噬他能看到的120英尺内的一个生物。目标必须做一个{@dc 22}宪法救赎，如果救赎失败，将受到96({@damage 8d8 + 60})的坏死伤害，如果救赎成功，将受到一半的伤害。被这个魔法杀死的人形生物会在Vecna的下一个回合开始时上升为{@creature zombie}，并在主动权顺序中紧随Vecna之后行动。这个{@creature zombie}是在Vecna的控制之下。"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Vile Teleport",
+					"entries": [
+						"Vecna teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. He can cause each creature of his choice within 15 feet of his destination space to take 10 ({@damage 3d6}) psychic damage. If at least one creature takes this damage, Vecna regains 80 hit points."
+					]
+				}
+			],
+			"reactionHeader": [
+				"Vecna can take up to three reactions per round but only one per turn."
+			],
+			"reaction": [
+				{
+					"name": "Dread Counterspell",
+					"entries": [
+						"Vecna utters a dread word to interrupt a creature he can see that is casting a spell. If the spell is 4th level or lower, it fails and has no effect. If the spell is 5th level or higher, Vecna makes an Intelligence check ({@dc 10} + the spell's level). On a success, the spell fails and has no effect. Whatever the spell's level, the caster takes 10 ({@damage 3d6}) psychic damage if the spell fails."
+					]
+				},
+				{
+					"name": "Fell Rebuke",
+					"entries": [
+						"In response to being hit by an attack, Vecna utters a fell word, dealing 10 ({@damage 3d6}) necrotic damage to the attacker, and Vecna teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Vecna",
+				"source": "VD"
+			},
+			"altArt": [
+				{
+					"name": "Vecna the Archlich (Alt)",
+					"source": "VD"
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Unusual Nature"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E",
+				"I"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"Y"
+			],
+			"damageTagsSpell": [
+				"L",
+				"O"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}

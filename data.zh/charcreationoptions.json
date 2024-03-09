@@ -1,0 +1,1887 @@
+{
+	"charoption": [
+		{
+			"name": "Alagondar Scion",
+			"source": "IDRotF",
+			"page": 264,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "human"
+						},
+						{
+							"name": "half-elf"
+						},
+						{
+							"name": "half-orc"
+						}
+					],
+					"note": "If you don't meet this prerequisite, draw a different card."
+				}
+			],
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"I'm a scion of the Alagondar bloodline and the only known heir to the crown of Neverwinter. If Dagult Neverember, the city's lord-regent, learns that I'm alive, he'll send assassins to kill me."
+			]
+		},
+		{
+			"name": "Anvilwrought",
+			"source": "MOT",
+			"page": 12,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"You were forged in the fires of Purphoros's forge. Your appearance bears a metallic sheen and visible joints. The Anvilwrought Characteristics table suggests details of your life or origins. Additionally, you gain the following traits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Constructed Resilience",
+							"entries": [
+								"你被创造为具有非凡的毅力，表现为以下好处。",
+								{
+									"type": "list",
+									"items": [
+										"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
+										"你不需要吃，不需要喝，不需要呼吸。",
+										"你对疾病有免疫力。",
+										"你不需要睡觉，魔法也不能让你睡觉。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sentry's Rest",
+							"page": 12,
+							"entries": [
+								"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious}, and you can see and hear as normal.",
+								{
+									"type": "table",
+									"caption": "Anvilwrought Characteristics",
+									"colLabels": [
+										"d6",
+										"Characteristic"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"An oread who works in Purphoros's forge is the closest thing I have to a parent."
+										],
+										[
+											"2",
+											"珀弗洛斯让我为他服务。"
+										],
+										[
+											"3",
+											"我是几十年前创建的，由于担心自己逐渐被淘汰，最近逃离了维拉斯山。"
+										],
+										[
+											"4",
+											"珀弗罗斯对我的创造感到遗憾，想把我重新锻造成更好的东西。"
+										],
+										[
+											"5",
+											"珀尔福罗打算让我继承他的工作，创造出我自己更伟大的作品。"
+										],
+										[
+											"6",
+											"维鲁斯山有人在我体内植入了一个可怕的秘密，以便把它偷运到外面的世界。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cult of the Dragon Infiltrator",
+			"source": "HotDQ",
+			"page": 87,
+			"otherSources": [
+				{
+					"source": "ToD",
+					"page": 176
+				}
+			],
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"你已经潜入了神龙教的队伍。在对该组织进行了相当长时间的监视后，你对其内部运作和习俗非常熟悉。你有第二个身份，是邪教的入门者，有足够的门面，可以作为一个简单的步兵或仆人混入。"
+			]
+		},
+		{
+			"name": "Deep Delver",
+			"source": "OotA",
+			"page": 221,
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"你有一种在世界深处开路的诀窍。你可以回忆起通道和隧道的曲折，这样你就可以随时追溯你在地下的脚步。你也很熟悉在地下世界的觅食和生存，并能确定食物和水的来源何时可以安全食用。只要该地区有食物，你总能为自己和其他五个人找到足够的食物和水。"
+			]
+		},
+		{
+			"name": "Doppelganger",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"I'm a shapechanger. I have none of the traits of the race I'm imitating, but I retain my class features, background, and alignment. I have {@sense darkvision} out to a range of 60 feet. I can use an action to do either of the following at will:",
+				"I can innately cast {@spell detect thoughts}, requiring no components. My spellcasting ability is Intelligence. The spell's Wisdom save DC is 8 + my proficiency bonus + my Intelligence modifier. I can polymorph into any humanoid I have seen or back into my true form. My statistics, other than my size, don't change. Any equipment I'm wearing or carrying isn't transformed. I revert to my true form when I die."
+			]
+		},
+		{
+			"name": "Dragon Scholar",
+			"source": "HotDQ",
+			"page": 87,
+			"otherSources": [
+				{
+					"source": "ToD",
+					"page": 176
+				}
+			],
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"You have studied dragons and their lore for many years. You can automatically identify locations built or used by dragons and can identify dragon eggs and scales by sight. If you fail an Intelligence check to recall lore relating to dragons, you know someone or some book you can consult for the answer unless the DM rules that the lore is unknown."
+			]
+		},
+		{
+			"name": "Drizzt Fan",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"我曾经见过著名的鸦人游侠德里兹特-多乌尔登！我有一件他著名的绿色斗篷。事实上，我有一件他著名的绿色斗篷的破损部分，而且从未想过要与它分开。"
+			]
+		},
+		{
+			"name": "Echoing Soul",
+			"source": "VRGR",
+			"page": 22,
+			"optionType": [
+				"DG"
+			],
+			"entries": [
+				"你的灵魂不是你自己的，或者，至少，它并不总是你的。无论你是否有前世，你的灵魂被交换到不同的身体，或者你有一个连接你和另一个生命的链接，你都会经历来自另一个生命的回声。这些回声授予你知识、才能，甚至是你不能总是解释的语言，但它们也意外地侵入你的感知和信仰。",
+				"在灵魂回声表中滚动或选择一个选项，以确定这个黑暗礼物的性质。此外，你还会获得以下的特性。",
+				{
+					"type": "table",
+					"caption": "Soul Echoes",
+					"colLabels": [
+						"d6",
+						"Echo"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"我的灵魂与其他地方的人的灵魂相连，也许是另一个领域、世界或平面。"
+						],
+						[
+							"2",
+							"我以前活过很多次，每次死后我的灵魂都会转世，而不是去世。"
+						],
+						[
+							"3",
+							"我的意识被从我原来的身体中移出，植入这个身体中。"
+						],
+						[
+							"4",
+							"我在身体上和精神上与另一个生命融合在一起。"
+						],
+						[
+							"5",
+							"我与一种无形的、其他世界的力量分享我的身体。"
+						],
+						[
+							"6",
+							"时间在我身边断裂，我有时会与自己的过去或未来相撞。"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Channeled Prowess",
+							"entries": [
+								"你获得对你选择的两个技能的熟练度。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Inherent Tongue",
+							"entries": [
+								"你可以说、读、写一种你选择的额外语言。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Intrusive Echoes",
+							"entries": [
+								"Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the {@dice d20}, your soul's memories emerge and overtake your perceptions and experiences. You might see people around you as someone other than who they are, or you become disoriented by a double-experience of the world around you. Roll on the Intrusive Echoes table to determine the effect of these vivid memories and perceptions. Once one of effects occur, these intrusive echoes can't manifest again until you finish a short or long rest.",
+								{
+									"type": "table",
+									"caption": "Intrusive Echoes",
+									"colLabels": [
+										"d6",
+										"Effect"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"You are {@condition charmed} by a creature you can see (of the DM's choice) for 1 minute or until the creature damages you."
+										],
+										[
+											"2",
+											"You are {@condition frightened} by a creature you can see (of the DM's choice) for 1 minute, or until the creature damages you."
+										],
+										[
+											"3",
+											"You perceive another time or place around you until the end of your next turn. During this time, you are {@condition blinded} to your actual surroundings."
+										],
+										[
+											"4",
+											"你感知到一个不同的时间或地点与你周围的环境重叠。你的速度减半，直到你的下一个回合结束。"
+										],
+										[
+											"5",
+											"Memories and sensations overwhelm you. You are {@condition incapacitated} until the start of your next turn."
+										],
+										[
+											"6",
+											"你的记忆是一种胜利。你可以重新计算你刚才所做的能力检查、攻击卷或自救动作。你必须使用新卷。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elusive Paramour",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"卡林山的一个富有的帕夏因为勾引他最喜欢的小妾而悬赏我的头。赏金猎人正在剑海岸搜寻我，但我希望他们不会想到去冰风谷寻找。"
+			]
+		},
+		{
+			"name": "Escaped Prisoner",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"I was brought here from another world by spacefaring mind flayers. The ship in which I was imprisoned crashed in the mountains south of Ten-Towns. After surviving the crash, I nearly froze to death crossing the tundra to reach Ten-Towns. If some friendly trappers hadn't found me, I would have perished. I fear some of my captors also survived the crash and might come looking for me."
+			]
+		},
+		{
+			"name": "Gathered Whispers",
+			"source": "VRGR",
+			"page": 23,
+			"optionType": [
+				"DG"
+			],
+			"entries": [
+				"You are haunted by spiritual beings, whether the souls of the departed or entities from another plane. Their voices endlessly whisper, taunt, or cajole, sometimes rising to unearthly howls. Only you can perceive the spirits, unless you allow them to speak through you. The spirits are intangible and invisible; anyone who can see {@condition invisible} creatures sees only fleeting glimpses of these spirits as they haunt you.",
+				"从 \"低语的灵魂 \"表中滚动或选择一个选项，以确定什么在困扰着你。此外，你还会获得下面的特征。",
+				{
+					"type": "table",
+					"caption": "Whispering Spirits",
+					"colLabels": [
+						"d6",
+						"Spirits"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"一个由我死去的祖先组成的理事会在监视我。"
+						],
+						[
+							"2",
+							"魔鬼般的存在争夺我的灵魂。"
+						],
+						[
+							"3",
+							"不安的灵魂被吸引到我身边，乞求平安。"
+						],
+						[
+							"4",
+							"那些被我杀死的人的灵魂在我身边徘徊。"
+						],
+						[
+							"5",
+							"一个外星智能体侵入了我的思想。"
+						],
+						[
+							"6",
+							"一个我没有的兄弟姐妹分享我的身体。"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spirit Whispers",
+							"entries": [
+								"You learn the {@spell message} cantrip if you don't already know it, and require no components to cast it. When you cast the spell, the messages are delivered by one of your whispering spirits rather than you or the target's voice. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sudden Cacophony",
+							"entries": [
+								"When you are hit by an attack roll, you can use your reaction to channel your haunting spirits, letting their voices howl through you. If the attacker isn't {@condition deafened}, add your proficiency bonus to your AC against that attack, potentially causing it to miss. Once this trait causes an attack to miss, you can't use the trait again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Voices from Beyond",
+							"entries": [
+								"Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the {@dice d20}, the haunting voices grow too loud to ignore. Roll on the Voices from Beyond table to determine the effect of these voices. Once one of these effects occurs, none of these haunting voices manifest again until you finish a short or long rest.",
+								{
+									"type": "table",
+									"caption": "Voices from Beyond",
+									"colLabels": [
+										"d4",
+										"Effect"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"你在接下来的攻击卷、能力检查或蓄力投掷中处于劣势。"
+										],
+										[
+											"2",
+											"You are {@condition deafened} by the voices for 1 minute."
+										],
+										[
+											"3",
+											"You are {@condition frightened} of the creature closest to you, other than yourself, until the end of your next turn. If multiple creatures are closest, the DM chooses which creature you are {@condition frightened} of."
+										],
+										[
+											"4",
+											"Within the next 10 minutes, you can ask your spirits about the results of a specific course of action that you plan to take within the next 30 minutes. You can receive an omen as if you had cast the {@spell augury} spell. The omen manifests as whisperings from your spirits perceptible only to you."
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Heroic Destiny",
+			"source": "MOT",
+			"page": 12,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"伟大的事迹就在你的未来，而在你完成这些事迹之前，需要付出非凡的努力来杀死你。使用英雄命运表选择或滚动一个随机的命运。此外，你还会获得以下特质。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Defy Death",
+							"entries": [
+								"你在救死扶伤方面有优势。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hard to Kill",
+							"entries": [
+								"当你的命中率降至0但没有被直接杀死时，你可以降至1的命中率。一旦你使用了这个特性，你就不能再使用它，直到你完成一个长时间的休息。"
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Heroic Destiny",
+					"colLabels": [
+						"d6",
+						"Destiny"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"我注定要成为某项手艺或贸易的最熟练的从业者。"
+						],
+						[
+							"2",
+							"I'm destined to earn a place among the stars of Nyx."
+						],
+						[
+							"3",
+							"我注定要成为一个神。"
+						],
+						[
+							"4",
+							"我注定要把我的爱人从冥界的魔爪中解放出来。"
+						],
+						[
+							"5",
+							"我出生时正值海怪肆虐湄公河，而我注定要消灭那只海怪。"
+						],
+						[
+							"6",
+							"我注定要揭开众神力量的秘密。"
+						]
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hollow One",
+			"source": "EGW",
+			"page": 182,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"As a Hollow One, the void left behind by your departed soul is filled with the strange magic of Blightshore. Becoming a Hollow One is a supernatural gift that bestows upon you the following traits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ageless",
+							"entries": [
+								"你不会变老，而会导致你变老的效应对你不起作用。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cling to Life",
+							"entries": [
+								"当你进行死亡救赎并掷出16点或更高的分数时，你会重新获得1点生命值。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Revenance",
+							"entries": [
+								"你保留了你的生物类型，但对于检测亡灵生物类型存在的法术和其他效果来说，你会被登记为亡灵。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Unsettling Presence",
+							"entries": [
+								"As an action, you can unsettle a creature you can see within 15 feet of you. The target has disadvantage on the next saving throw it makes within the next minute. Constructs, undead, and creatures that can't be {@condition frightened} are immune to this feature. Once you use this feature, you can't use it again until you finish a long rest."
+							]
+						}
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Iconoclast",
+			"source": "MOT",
+			"page": 12,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"没有人能够否认特洛斯诸神的真实性，他们的存在和行为在夜空中是可见的，有时甚至直接出现在凡人的领域。但有些人驳斥了诸神值得敬畏的观点。这样的圣像破坏者在列宁族中很常见，但任何文化的成员都可以采用这种超自然的天赋。圣像破坏者特征表提出了关于你为什么成为圣像破坏者的建议。",
+				"你对诸神的否定给了你超自然的力量来抵制他们对世界的影响。你获得了以下特质。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Enlightened Protection",
+							"page": 12,
+							"entries": [
+								"You can cast {@spell protection from evil and good} with this trait, targeting only yourself and requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest. Wisdom is your spellcasting ability for this trait."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Reject the Gods",
+							"entries": [
+								"你不能获得或失去对任何神的虔诚。相反，你会在每个特性中列出的人物等级获得以下特性。智慧是你通过这些特质施展任何法术的能力。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iconoclast Hero",
+					"page": 12,
+					"entries": [
+						"{@i 5th-level Iconoclast trait}",
+						"You can cast {@spell dispel magic} with this trait. Once you do so, you can't cast it in this way again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iconoclast Paragon",
+					"page": 13,
+					"entries": [
+						"{@i 11th-level Iconoclast trait}",
+						"You can cast {@spell dispel evil and good} with this trait, requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest.",
+						"In addition, when you cast {@spell dispel magic} using your Iconoclast Hero trait, you cast it as a 4th-level spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Iconoclast Archetype",
+					"page": 13,
+					"entries": [
+						"{@i 17th-level Iconoclast trait}",
+						"You can cast {@spell antimagic field} with this trait, requiring no material components. Once you do so, you can't cast it in this way again until you finish a long rest.",
+						"In addition, when you cast {@spell dispel magic} using your Iconoclast Hero trait, you cast it as a 5th-level spell.",
+						{
+							"type": "table",
+							"caption": "Iconoclast Characteristics",
+							"colLabels": [
+								"d6",
+								"Characteristic"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我把我所关心的人的死亡归咎于诸神。"
+								],
+								[
+									"2",
+									"多个神灵都想利用我达到他们的目的，所以我尽量避免所有的神性纠缠。"
+								],
+								[
+									"3",
+									"很明显，神灵是无常的，不值得崇拜的。"
+								],
+								[
+									"4",
+									"我知道世界的未来在于凡人，而不是神灵。"
+								],
+								[
+									"5",
+									"我相信诸神希望我死。"
+								],
+								[
+									"6",
+									"我拒绝成为神圣计划中的一颗棋子。"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Inheritor",
+			"source": "VRGR",
+			"page": 31,
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"一位祖先或导师的事迹为他们在传奇中赢得了一席之地。现在轮到你了。你是一个著名遗产的明确继承人。你从你的前辈那里继承了一件信物，一些标志着你是他们的继承人的东西，比如一枚签名戒指、一件标志性的衣服或著名的武器。",
+				"此外，任何时候你揭示了你的遗产，你就会迅速了解当地人对你的前任的看法。如果当地人从来没有听说过你的前任，那就没有什么变化。如果他们听说过，关于你的关系的谣言就会迅速传播，许多当地人就会认为你是一个英雄或一个威胁。英雄会受到欢迎，并可能很容易获得当地领导人的接见。威胁者则被鼓励离开，以免招致危险。"
+			]
+		},
+		{
+			"name": "Inscrutable",
+			"source": "MOT",
+			"page": 14,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"像斯芬克斯一样，你有一个像迷宫一样的头脑，凡人无法窥探。这可能是一个真正的斯芬克斯的礼物或训练，一个神的祝福（或诅咒），或者是一种莫名其妙的天赋。不可捉摸的特征表为你提供了使你不可捉摸的选项。此外，你还会获得以下特质。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Psychic Shield",
+							"entries": [
+								"你对精神伤害有抵抗力。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sphinx's Shroud",
+							"page": 14,
+							"entries": [
+								"You are immune to any effect that allows other creatures to sense your emotions or read your thoughts. Wisdom ({@skill Insight}) checks made to ascertain your intentions or sincerity have disadvantage.",
+								{
+									"type": "table",
+									"caption": "Inscrutable Characteristics",
+									"colLabels": [
+										"d6",
+										"Characteristic"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"我在达克拉群岛接受了斯芬克斯的教育。"
+										],
+										[
+											"2",
+											"I am a devout adherent to one of Meletis's schools of philosophy (detailed in {@book chapter 3|MOT|3|Meletis})."
+										],
+										[
+											"3",
+											"我只用过去式说话，仿佛我说的所有事情都已经发生了。"
+										],
+										[
+											"4",
+											"我发过誓，不允许任何活人在任何时候看到覆盖在我脸上的面具后面。"
+										],
+										[
+											"5",
+											"我为什么不把每一句话都表述为一个问题呢？"
+										],
+										[
+											"6",
+											"我生来就是狮身人面像，但一位神将我诅咒成人形，并让我背上了凡人知识的限制。除非我打破诅咒，否则我不会休息。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lifelong Companion",
+			"source": "MOT",
+			"page": 14,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"许多英雄的背后是另一个英雄，他们的伟大来自于他们提供的支持和爱。哈克托斯有他心爱的佩里内斯，雷娜塔有她的仆人卡拉多斯陪伴，西奥娜与她忠实的船员一起航行。就像这些伙伴一样，你是伟大的，也让别人变得伟大。在确定你的传奇关系时，请考虑同伴关系表。与其他玩家的角色的任何关系都需要得到该玩家的同意。此外，你还会获得以下特质。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Boon Aura",
+							"page": 14,
+							"entries": [
+								"Your allies within 5 feet of you have advantage on saving throws against being {@condition frightened} or {@condition charmed}, provided you aren't {@condition incapacitated}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Companion's Protection",
+							"entries": [
+								"当你能看到的5英尺范围内的生物被攻击卷击中时，你可以用你的反应使攻击转而击中你。一旦你使用这个特性，你就不能再这样做了，直到你完成一个长时间的休息。"
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Companion Relationships",
+					"colLabels": [
+						"d6",
+						"Relationship"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"另一个角色是我的爱人或最亲爱的朋友。"
+						],
+						[
+							"2",
+							"另一个角色是我的兄弟姐妹。"
+						],
+						[
+							"3",
+							"另一个角色是我的父母或孩子。"
+						],
+						[
+							"4",
+							"另一个角色是我的神的冠军。"
+						],
+						[
+							"5",
+							"在远远地欣赏另一个人物之后，我终于在他们身边赢得了一个位置。"
+						],
+						[
+							"6",
+							"我最希望的是另一个角色能认识到我的奉献，并爱我作为回报。"
+						]
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Littlest Yeti",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"我是由雪人养大的。虽然我依靠我凶猛的监护人提供食物和温暖，但我从来没有完全适应过寒冷，我会说雪人语，在影响雪人或改善他们的态度的魅力检查中具有优势。"
+			]
+		},
+		{
+			"name": "Living Shadow",
+			"source": "VRGR",
+			"page": 24,
+			"optionType": [
+				"DG"
+			],
+			"entries": [
+				"你投下的影子是活生生的，而且永远存在，即使在照明条件不允许的情况下也是如此。你的影子偶尔会与你不同步地移动。有时，它似乎在执行随机而平凡的任务，而在其他时候，它则表现出你更黑暗的冲动，威胁甚至攻击其他影子。通过努力，你可以使这种影子傀儡术服从你的意志。",
+				"在影子怪癖表中滚动或选择一个选项来决定你的活影子的行为方式。此外，你还会获得以下的特性。",
+				{
+					"type": "table",
+					"caption": "Shadow Quirk",
+					"colLabels": [
+						"d6",
+						"Quirk"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"我的影子经常拿着武器，或承受着不存在的伤口。"
+						],
+						[
+							"2",
+							"当我分心时，我的影子就会惊慌失措，并试图引起其他人的注意，似乎它急于要逃离我。"
+						],
+						[
+							"3",
+							"当它没有被监视的时候，我的影子会做出威胁性的手势或向人爬行。"
+						],
+						[
+							"4",
+							"我的影子的动作不正确地反映了我的动作--当我举起左手的时候，我的影子就会移动它的右手。"
+						],
+						[
+							"5",
+							"我的影子会摆弄或偶尔弄坏微小的、非魔法的物体。"
+						],
+						[
+							"6",
+							"我的动作和我的影子的动作之间有轻微但明显的延迟。"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Grasping Shadow",
+							"entries": [
+								"You learn the {@spell mage hand} cantrip if you don't already know it, and require no components to cast it. The hand created by the spell is shadowy but is not bound to your actual shadow. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Shadow Strike",
+							"entries": [
+								"当你进行近战攻击时，你可以将你的攻击范围增加10英尺。你的影子会伸长并发出攻击，就像你一样。你可以使用这个功能的次数等于你的熟练度加成，当你完成一个长时间的休息时，你会恢复所有已消耗的使用。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ominous Will",
+							"entries": [
+								"Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the {@dice d20}, your shadow exerts a will of its own and might assist or hinder you or those around you. The next time you or a creature within 30 feet of you that you can see makes an attack roll, an ability check, or a saving throw, roll a {@dice d4}. If the number is odd, reduce the total by the number rolled. If the number is even, increase the total by the number rolled. Once this effect occurs, it can't happen again until you finish a short or long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Midwinter Child",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"Auril the Frostmaiden has blessed me, for I was born on the Midwinter holiday. I have resistance to cold damage."
+			]
+		},
+		{
+			"name": "Mist Walker",
+			"source": "VRGR",
+			"page": 24,
+			"optionType": [
+				"DG"
+			],
+			"entries": [
+				"迷雾笼罩着所有踏入恐惧之域的人，但你知道如何滑过它们的手掌。只要有足够的时间和一点运气，你就能成功穿越迷雾，但这种自由是有代价的；如果你在一个区域停留太久，迷雾就会找到你并耗尽你的生命力。",
+				"在迷雾旅行表中滚动或选择一个选项，以确定你是如何开发这个黑暗天赋的。此外，你还会获得以下特质。",
+				{
+					"type": "table",
+					"caption": "Misty Travels",
+					"colLabels": [
+						"d4",
+						"Origin"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"你学会了一个关于迷雾本质的秘密。从那时起，你可以操纵它们，但你所走过的土地却与你作对。"
+						],
+						[
+							"2",
+							"你逃入迷雾中，以逃避追捕你的人或事。你知道自己仍在被追捕，所以永远无法长久地休息。"
+						],
+						[
+							"3",
+							"你是一个组织的一部分，一个家庭，或一个流动的社区，有旅行迷雾的经验。他们教你如何做同样的事。"
+						],
+						[
+							"4",
+							"迷雾把你从你的家偷走了，使你对你的家乡的记忆断裂。从那时起，你就一直在寻找回去的路。"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Misty Step",
+							"entries": [
+								"You can cast the {@spell misty step} spell, requiring no spell slot, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift). If you have spell slots of 2nd level or higher, you can cast this spell with them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mist Traveler",
+							"entries": [
+								"当你进入迷雾中打算到达一个特定的领域时，你会被视为拥有一个以该领域为关键的迷雾护符。要使用这个特性，你必须知道你所选择的目的地的领域名称，但你不需要之前去过那片土地。这个特性不允许你绕过由黑暗领主的意志关闭的领域边界。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Poisoned Roots",
+							"entries": [
+								"When you finish a long rest, the world around you in a 10-mile radius becomes a siphon that will eventually leech away your vitality. You can remain in the area safely for a number of weeks equal to your Constitution modifier (minimum of 1 week). Thereafter, each time you finish a long rest in the area, you must succeed on a DC 15 Constitution saving throw or gain 1 level of {@condition exhaustion} that can't be removed while you remain in the area."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mist Wanderer",
+			"source": "VRGR",
+			"page": 31,
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"The Mists whisper to you and guide you through their mysterious eddies. You immediately know if an object you're touching is a Mist talisman (detailed in {@book chapter 3|VRGR|3|Mist Talismans}). You recognize where the talisman originates from if you have been to its domain of origin."
+			]
+		},
+		{
+			"name": "Nyxborn",
+			"source": "MOT",
+			"page": 14,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"Born from the minds of the gods, the creatures that populate the gods' realm are called Nyxborn. Nyxborn creatures resemble mortal beings, but philosophers debate their true character. Are they idealized forms of mortal beings, free from the imperfections and transience that causes mortals to suffer and die? Or are they hollow and soulless shades, lacking the authenticity and pathos that make mortal existence worthwhile?",
+				"A Nyxborn is like a fragment of divinity, an idea or a dream that is incarnate. You embody an idea\u2014like the way leaves turn toward the sun or the feeling of ocean sand between the toes, the way the heart stirs when the tide of battle changes or the sadness that lingers when remembering a happy moment of childhood.",
+				"These ideas, dreams, memories, and feelings are the stuff Nyx is made of, and a Nyxborn is shaped from that raw material. You might have been specifically crafted by one of the gods to serve a certain purpose. Or your existence could be an accident caused by a confluence of supernatural forces. The Nyxborn Origin table offers a handful of suggestions that might explain how you came to be, and the Nyxborn Quirks table describes some special effects that might linger around your person.",
+				"此外，你还会获得以下特质。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cloak of Stars",
+							"entries": [
+								"作为一个动作，你将自己包裹在一个星空斗篷中，看起来像一个由夜空形成的剪影。当你这样做时，攻击卷对你来说是不利的。这个斗篷持续1分钟，直到你脱下它（不需要行动），或者直到你死亡。一旦你使用了这个特性，你就不能再使用它，直到你完成一个长时间的休息。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Nyxborn Resistance",
+							"entries": [
+								"你对坏死和辐射伤害有抵抗力。"
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Nyxborn Origin",
+					"colLabels": [
+						"d6",
+						"Origin"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"One of my parents is a nyxborn, a nymph, or some other supernatural creature."
+						],
+						[
+							"2",
+							"I was formed from Nyx by one of the gods to serve as a divine emissary."
+						],
+						[
+							"3",
+							"我是其他神圣行动的一个副作用。"
+						],
+						[
+							"4",
+							"一位神见证了我的诞生，使我成为现在的样子。"
+						],
+						[
+							"5",
+							"我从冥界被救出来，回到生活中后就有了超自然的特征。"
+						],
+						[
+							"6",
+							"我是一首歌曲或其他艺术作品，被赋予了生命。"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Nyxborn Quirks",
+					"colLabels": [
+						"d6",
+						"Quirk"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"每当我的武器击中什么东西，武器就会发出一阵星光闪耀的火花。"
+						],
+						[
+							"2",
+							"我的头发在移动，仿佛永远的微风。"
+						],
+						[
+							"3",
+							"我的愤怒闻起来像燃烧的秋叶。"
+						],
+						[
+							"4",
+							"当阳光正好照在我身上时，我就会闪现出许多色彩。"
+						],
+						[
+							"5",
+							"我的笑声使附近的鸟儿爆发出了歌声。"
+						],
+						[
+							"6",
+							"在我附近睡觉的人总是梦到海。"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Old Flame",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"I have a lover in Ten-Towns whom I haven't seen in years. At any time outside of combat, I can decide who the lover is by choosing an NPC in Ten-Towns that I can see. Once I make this choice, I can't change it. This old flame is friendly and helpful toward me, even if our past is checkered."
+			]
+		},
+		{
+			"name": "Oracle",
+			"source": "MOT",
+			"page": 15,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"You possess a precious gift coveted not just by mortals but by the gods themselves: the gift of clear communication between the mortal and divine realms. As an oracle, you can perceive the whims of the gods and petition them for glimpses of their vast insight. This gift also comes with a curse, though, which typically takes the form of dire insights. Consult the Oracle Curse table to determine what unwanted revelations you receive.",
+				"众神寻求凡人的神谕来作为他们的代理人。因此，大多数神谕都致力于为一个神服务，并学会忽略所有其他神的声音。偶尔，两位神明会同意分享一个神谕的服务。试图保持独立的神谕常常发现自己被邪恶的神灵的代理人追捕，如果有必要，他们会把他们绑在神灵的服务上。",
+				"你获得以下特征。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ears of the Oracle",
+							"entries": [
+								"你可以说、读、写天语，即诸神的语言。此外，一个神可能会通过你传递信息，你可以决定是用你自己的声音还是让神的声音通过你的嘴来传递信息，翻译成你所说的任何语言。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Oracle's Insight",
+							"entries": [
+								"The gods give you flashes of insight that help you bring your efforts to fruition. When you make an ability check, you can roll a {@dice d10} and add the number rolled to the check. You can wait until after you roll the {@dice d20} before deciding to add the {@dice d10}, but you must decide before the DM says whether the roll succeeds or fails. Once you use this trait, you can't use it again until you finish a short or long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Oracle's Piety",
+							"page": 16,
+							"entries": [
+								"Your oracular abilities improve as your piety score increases. Instead of gaining the piety benefits associated with any god (as described in {@book chapter 2|MOT|2|Piety}), you gain the following traits when you reach the specified piety score.",
+								"智慧是你的法术能力，适用于你通过这些特征施展的任何法术。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Augur",
+					"page": 16,
+					"entries": [
+						"{@i Piety 3+ Oracle trait}",
+						"You can cast {@spell augury} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seer",
+					"page": 16,
+					"entries": [
+						"{@i Piety 10+ Oracle trait}",
+						"You can cast {@spell divination} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sibyl",
+					"page": 16,
+					"entries": [
+						"{@i Piety 25+ Oracle trait}",
+						"You can cast {@spell commune} as a ritual with this trait. Once you do so, you can't cast it in this way again until you finish a long rest.",
+						"You also can't be {@quickref Surprise|PHB|3|0|surprised}, provided you aren't {@condition incapacitated}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Oracle",
+					"page": 16,
+					"entries": [
+						"{@i Piety 50+ Oracle trait}",
+						"你可以增加你的智力或智慧分数2，以及增加你所选分数的最大值2。",
+						{
+							"type": "table",
+							"caption": "Oracle Curse",
+							"colLabels": [
+								"d8",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"我清楚地知道我将如何死去，而且我无法做或说任何事情来阻止它。"
+								],
+								[
+									"2",
+									"向我咨询信息的人很少相信我给他们的答案。"
+								],
+								[
+									"3",
+									"我被预示着我从未见过的人的死亡的恶梦所困扰。"
+								],
+								[
+									"4",
+									"我经常被别人无法感知的事物的景象和声音所干扰。"
+								],
+								[
+									"5",
+									"尼克斯的一个可怕的怪物一直在看着我，每次我在户外冒险时都会看到它。"
+								],
+								[
+									"6",
+									"任何时候我和某人的关系越来越近，我都会看到他们衰老、垂死或死亡。"
+								],
+								[
+									"7",
+									"每当我收到神圣的异象时，我的头部或胸部就会出现强烈的疼痛。"
+								],
+								[
+									"8",
+									"无论我是否愿意听，其中一位神灵打算把我当作神谕。"
+								]
+							]
+						}
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Orc Stone",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"我救了一个兽人的命，他给了我一块石头，上面刻着多箭部落的标志（一个被三支箭穿透的人形头骨）。这块石头是一种不常见的魔法物品，需要调和，而只有我可以调和它。",
+				"作为一个行动，我可以用这块石头来召唤一个兽人战士的灵魂，它出现在我30英尺范围内。该灵魂使用《怪物手册》中的兽人战争首领状态块，并在10分钟后或当生命值降至0时消失。该灵魂能听懂我说的任何语言，并服从我的命令。",
+				"石头被使用三次后，就会变成灰尘。"
+			]
+		},
+		{
+			"name": "Owlbear Whisperer",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"猫头鹰熊有喜欢我的倾向。",
+				"If I am within 10 feet of an owlbear, I can use an action to make a {@dc 10} Charisma ({@skill Animal Handling}) check. On a success, I change the owlbear's attitude toward me from hostile to indifferent or from indifferent to friendly."
+			]
+		},
+		{
+			"name": "Pious",
+			"source": "MOT",
+			"page": 17,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"你生来就与某个神灵有特殊的联系，你从出生起就一直在赢得你的神的青睐。请参考虔诚的怪癖表，以确定你的信仰会如何影响你的个性。此外，你还会获得以下特质。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Pious Protection",
+							"entries": [
+								"如果你的救赎失败，你可以重新掷骰子，而且你必须使用新的骰子。一旦你使用了这个特性，你就不能再这样做，直到你完成一个长时间的休息。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Religious Study",
+							"page": 17,
+							"entries": [
+								"You have advantage on any Intelligence ({@skill Religion}) check pertaining to your chosen god."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Starting Piety",
+							"entries": [
+								"你开始时对你选择的神的虔诚度为3分。",
+								{
+									"type": "table",
+									"caption": "Pious Quirks",
+									"colLabels": [
+										"d6",
+										"Quirk"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"我经常无意中用我的神（或其他神）的名字称呼别人。"
+										],
+										[
+											"2",
+											"我在夜里熬夜看星星，希望我的上帝能与我分享一个信息。"
+										],
+										[
+											"3",
+											"我深深地嫉妒我的神的神谕，他们似乎与我的神有更亲密的关系，而我永远无法达到。"
+										],
+										[
+											"4",
+											"I dream of one day entering Nyx and being granted a permanent place at my god's side."
+										],
+										[
+											"5",
+											"除了我的神的庙宇，我没有家。"
+										],
+										[
+											"6",
+											"我无法证明这一点，但我怀疑我的上帝实际上可能是我的父母。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pirate Cannibal",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"我在黑暗公爵夫人号上服务，这是一艘来自卢斯坎市的海盗船。船只被困在冰里后，除了船长外，其他人都弃船逃往十镇。我们在沿途的暴风雪中迷路了。我是唯一活下来的人，而且是靠吃我的同伴才活下来的。那艘船和它的财宝还在外面。"
+			]
+		},
+		{
+			"name": "Reghed Heir",
+			"source": "IDRotF",
+			"page": 264,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "human"
+						},
+						{
+							"name": "half-elf"
+						},
+						{
+							"name": "half-orc"
+						}
+					],
+					"note": "If you don't meet this prerequisite, draw a different card."
+				}
+			],
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"我是比约恩希尔德-索尔维格斯多蒂尔女王的后代，老虎部落的领袖。当我还是个孩子的时候，我的母亲就把我扔进了移动的冰海，作为献给冰封女巫奥里尔的祭品。一只北极熊把我从水中拉出来，使我免于冻死。这只熊后来变成了一只巨熊，它把我安全地带到了十镇。我记得那个巨人的名字--奥亚米纳托克，但此后就再也没见过她。我欠她一条命，就像我欠我母亲一个无情的死亡。"
+			]
+		},
+		{
+			"name": "Reincarnation",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"I died and was brought back to life by a friendly human druid using the {@spell reincarnate} spell. I have no idea what became of the druid, whose name I don't know. I retain the memories of my previous life, some or all of which was spent in Icewind Dale. (Roll on the table in the spell's description to determine your character's previous race, or choose a race from the table that you like, then flesh out the story of your previous life.)"
+			]
+		},
+		{
+			"name": "Ring Hunter",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"我正在寻找咬断我父亲手指的那条节头鳟鱼，它上面有一枚标志戒指。为了保护我的遗产，我必须找回丢失的戒指。"
+			]
+		},
+		{
+			"name": "Runaway Author",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"我写了一篇臭名昭著的揭露文章，名为 \"地狱高人\"，指责博德之门的几位知名元老和水底世界的贵族是魔鬼崇拜者。虽然我的指控是有根据的，但我还是树了很多敌人，被迫在冰风谷寻求庇护。"
+			]
+		},
+		{
+			"name": "Second Skin",
+			"source": "VRGR",
+			"page": 25,
+			"optionType": [
+				"DG"
+			],
+			"entries": [
+				"你的另一面是大多数人从未见过的。当你展示自己的这一面时，你可能完全变成另一个人，一个天人般的复仇者，或一个行走的噩梦。无论这种形式的具体内容是什么，它都夸大了你内心的一些驱动力或隐藏的性质。",
+				"在第二形态表中滚动或选择一个选项来确定你的这另一面。此外，你还会获得以下的特征。",
+				{
+					"type": "table",
+					"caption": "Second Form",
+					"colLabels": [
+						"d6",
+						"Form"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"夸张的自己的形式"
+						],
+						[
+							"2",
+							"人形和兽形的混合体"
+						],
+						[
+							"3",
+							"一个天使，一个恶魔，或一个反常的形式"
+						],
+						[
+							"4",
+							"一个由粘液构成的隐约的人形生物"
+						],
+						[
+							"5",
+							"一个类似于精灵的形状，要么是忧郁的，要么是热情的。"
+						],
+						[
+							"6",
+							"由金属、石头或机械构成的身体"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Transformation",
+							"entries": [
+								"You can cast the {@spell alter self} spell to appear in your second form. When you do so, you gain the effects of that spell's Change Appearance option and cannot end it to gain the benefits of a different option. Casting {@spell alter self} in this way requires no spell slot, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift). If you have spell slots of 2nd level or higher, you can cast this spell with them.",
+								"When you cast {@spell alter self} using this feature, some cosmetic aspect of your second form remains after the spell ends. This visibly marks you unless you actively hide or disguise it. The mark is a perceptible change such as scaly skin, stunted wings, eyes without pupils, or horns. The mark fades after you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Involuntary Change",
+							"entries": [
+								"Certain circumstances can activate your Dark Gift. After you experience this catalyst, at the start of your next turn you must succeed on a DC 15 Charisma saving throw or use your action to cast {@spell alter self} as described in the Transformation trait, even if you have already used it.",
+								"滚动或从变化催化剂表中选择一个选项，以确定是什么触发了你的非自愿变化。",
+								{
+									"type": "table",
+									"caption": "Change Catalyst",
+									"colLabels": [
+										"d6",
+										"Catalyst"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"看到一个特定的月相"
+										],
+										[
+											"2",
+											"某种类型的花的气味"
+										],
+										[
+											"3",
+											"寺庙的钟声响起"
+										],
+										[
+											"4",
+											"听到一个特定的旋律"
+										],
+										[
+											"5",
+											"用你的裸体皮肤触摸纯银"
+										],
+										[
+											"6",
+											"看到类似于某个特定个体的人"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Slaad Host",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"在我开始冒险生涯前不久，一只红色的斯拉德在我体内植入了一颗颗粒大小的蛋。如果我不能在接下来的两个月内摆脱它，这颗蛋就会在我体内孕育，一只斯拉达蝌蚪就会从我的胸口迸出，杀死我。然后它将迅速成长为一只成年的斯拉德，并杀死更多的人。"
+			]
+		},
+		{
+			"name": "Spirit Medium",
+			"source": "VRGR",
+			"page": 31,
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"After a fateful experience, you believe you're aligned with spirits and can serve as a conduit for their insights and goals. You have advantage on any {@skill Arcana} or {@skill Religion} check you make to remember or research information about spirits and the afterlife. Additionally, you begin your adventuring career with a custom-made device for communing with otherworldly forces, perhaps a spirit board, a {@deck tarokka deck|CoS}, an automatic writing planchette, dowsing rods, a cup for tea leaves, or a device of your own design. Add your proficiency bonus to any ability check you make using this type of divining tool."
+			]
+		},
+		{
+			"name": "Spy",
+			"source": "IDRotF",
+			"page": 264,
+			"optionType": [
+				"CS"
+			],
+			"entries": [
+				"I'm a spy for the Harpers, a secretive organization that works behind the scenes to thwart tyrants and other evildoers. My mission in Icewind Dale is to safeguard the settlements of Ten-Towns while concealing my Harper affiliation. Credible threats to Ten-Towns include the Arcane Brotherhood, an organization of wizards based in Luskan, and the Zhentarim, an expansive shadow network that wants to control trade throughout the North. Both have threatened Ten-Towns in the past.",
+				"My only Harper contact in Ten-Towns is a human named Beldora, who poses as a homeless woman and spends her days gathering information in Bryn Shander."
+			]
+		},
+		{
+			"name": "Symbiotic Being",
+			"source": "VRGR",
+			"page": 26,
+			"optionType": [
+				"DG"
+			],
+			"entries": [
+				"第二个生命与你一起居住在你的身体里。它在你身上的某个地方显现出来，并依靠你生存。同时，它为你提供知识和其他帮助，或是出于它自己的意愿，或是因为你们相互交织的性质。共生体有它自己的个性和议程，这可能与你不一致。如果你忽视了共生体的欲望，它可能会努力干扰你。在你拥有这种黑暗天赋时，没有办法摆脱共生体。即使你采取了激烈的手段，比如切断你身体中共生体所在的部分，它也会在下一个午夜重新出现在你身体的另一个地方。",
+				"在共生性质表中滚动或选择一个选项，以确定什么样的共生生物与你的身体共享。此外，你还会获得下面的特征。",
+				{
+					"type": "table",
+					"caption": "Symbiotic Nature",
+					"colLabels": [
+						"d6",
+						"Symbiote"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"从你的躯干、手掌或脑后突出的微小人形面部特征"
+						],
+						[
+							"2",
+							"一个未愈合的伤口内的外来附属物"
+						],
+						[
+							"3",
+							"一个会钻洞的、像虫子一样的生物"
+						],
+						[
+							"4",
+							"栖息在你脑海中的一个侵入性的想法"
+						],
+						[
+							"5",
+							"一个活生生的刺青"
+						],
+						[
+							"6",
+							"取代你身体一部分的晶体生长"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Entwined Existence",
+							"entries": [
+								"Your symbiote is a separate entity with its own physical form bound to yours. It isn't a separate creature and relies on you to survive. It has Intelligence, Wisdom, and Charisma scores. The DM sets the symbiote's abilities or determines them randomly (roll {@dice 4d6} for each score, ignoring the lowest roll and totaling the rest). The symbiote can see and hear using your senses.",
+								"The symbiote speaks, reads, and understands two languages; one that you speak, as well as one appropriate to its nature. Choose one of the following skills: {@skill Arcana}, {@skill Deception}, {@skill History}, {@skill Intimidation}, {@skill Insight}, {@skill Investigation}, {@skill Nature}, {@skill Religion}, {@skill Perception}, or {@skill Persuasion}. You gain proficiency in that skill if you don't already have it, representing the symbiote's counsel and guidance.",
+								"如果你死了，你的共生体也会死。如果你后来恢复了生命，你的共生体也会复苏。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sustained Symbiosis",
+							"entries": [
+								"Your symbiote has a vested interest in your survival and takes steps to ensure it. When you fail a saving throw, you can choose to have your symbiote expend one of your Hit Dice to roll it and add the number rolled to the saving throw, potentially turning the failure into a success. If it uses this feature on a death saving throw, you succeed on the save and regain 1 hit point regardless of the number rolled on the {@dice d20}.",
+								"一旦你因这一特性而救人成功，共生体就不能再使用它，直到你完成一个长时间的休息。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Symbiotic Agenda",
+							"entries": [
+								"Your symbiote has an agenda that drives it, and it expects you to assist it in achieving those goals. How permissive or patient it is in resolving its agenda depends on its personality (work with your DM to determine these details). If you have an opportunity to advance its agenda and don't act on it, the symbiote can try to force your hand. You must succeed on a Charisma saving throw (DC 12 + the symbiote's Charisma modifier) or be {@condition charmed} by the symbiote for {@dice 1d12} hours. While {@condition charmed}, you must try to follow the symbiote's commands. If you take damage that is not self-inflicted, you can repeat the saving throw, ending the effect on a success.",
+								"掷骰子或从共生体议程表中选择，以确定共生体的目标，与你的管理员合作，详细说明具体细节或创建另一个议程。",
+								{
+									"type": "table",
+									"caption": "Symbiotic Agenda",
+									"colLabels": [
+										"d6",
+										"Agenda"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"共生体寻求摧毁一种特定类型的存在，如魔族、巨魔或圣骑士。"
+										],
+										[
+											"2",
+											"共生体渴望知识，决心解开一个谜团或了解一个秘密。"
+										],
+										[
+											"3",
+											"共生体想要实现一个预言或挫败一个预言。"
+										],
+										[
+											"4",
+											"共生体寻求维护一个强大存在或组织的仆人和利益。"
+										],
+										[
+											"5",
+											"共生体希望不惜一切代价使你免受伤害，并相信它知道什么对你最好。"
+										],
+										[
+											"6",
+											"共生体寻求体验新的感觉，越离奇越好。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Touch of Death",
+			"source": "VRGR",
+			"page": 26,
+			"optionType": [
+				"DG"
+			],
+			"entries": [
+				"你的触摸是痛苦的，会伤害你所接触到的人。你体内的死亡力量是你无法控制的，使任何接触你裸露皮肤的人受到伤害。同样的道理，你可以用你的触摸给你的敌人带来死亡。",
+				"从 \"致命接触 \"表中选择一个选项来决定这个黑暗天赋如何呈现。此外，你还会获得以下的特性。",
+				{
+					"type": "table",
+					"caption": "Deadly Touch",
+					"colLabels": [
+						"d6",
+						"Manifestation"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"你的身体被炼金术或生物学上的改变，给你注入致命的化学物质。"
+						],
+						[
+							"2",
+							"被轻视的德鲁伊或费伊的魔法使小植物枯萎，昆虫在你面前死亡。"
+						],
+						[
+							"3",
+							"你是一个严峻预言的预言者。任何被你触碰的生物都会被打上一个团体、恶魔、神灵或其他对你有兴趣的力量的临时伤疤。"
+						],
+						[
+							"4",
+							"你在一次濒临死亡的经历中幸存下来，但不应该这样做。从那时起，死亡和不祥的预兆就一直跟着你。"
+						],
+						[
+							"5",
+							"你与时间或现实不同步。你接触的任何东西都被扭曲了。"
+						],
+						[
+							"6",
+							"每当你触摸一个生物，你就会听到你曾经伤害过的人的笑声。"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Death Touch",
+							"entries": [
+								"You can focus your deadly touch against your foes. As an action, make one unarmed strike. On a hit, the target takes an additional {@dice 1d10} necrotic damage. This damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Inescapable Death",
+							"entries": [
+								"当你用攻击卷击中目标并造成坏死伤害时，你会忽略目标对该伤害的抗性。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Withering Contact",
+							"entries": [
+								"When you start your turn grappling a creature or {@condition grappled} by it, the creature takes {@dice 1d10} necrotic damage."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Trauma Survivor",
+			"source": "VRGR",
+			"page": 32,
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"你活下来了。不管是什么，你都挺过来了，而且你可以帮助别人做到这一点。人们把你看作是你所面临的创伤情况的专家--无论是某种特定的暴力、疾病，还是其他。你知道非神奇的恢复技术、普通资源和错误信息。你知道如何与有同情心的医生、神职人员和当地领导人交谈，并能说服他们以适度的生活方式收容一个人（而不是你自己），最长可达1个月。"
+			]
+		},
+		{
+			"name": "Traveler",
+			"source": "VRGR",
+			"page": 32,
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"你来自别的地方，一个别人无法理解的地方。也许你的家是迷雾之地的一个独特角落，或者完全是另一个世界。在任何情况下，你和其他旅行者都有共同的经历。你可以在有同情心的商队、流动的家庭或流离失所的群体中找到一个藏身、休息或休养的地方，只要你不把自己当成一个危险人物。这些团体会把你藏起来，不让法律或寻找你的人发现，尽管他们不会为你冒生命危险。此外，你可以近乎精确地判断你能看到和触摸到的物体是否来自你的故乡。"
+			]
+		},
+		{
+			"name": "Underdark Experience",
+			"source": "OotA",
+			"page": 221,
+			"optionType": [
+				"RF:B"
+			],
+			"entries": [
+				"You are no casual visitor to the Underdark, but instead have spent considerable time there learning its ways. You are familiar with the various races, civilizations, and settlements of the Underdark, as well as its major routes for travel. If you fail an Intelligence check to recall some piece of Underdark lore, you know a source you can consult for the answer unless the DM rules that the lore is unknown."
+			]
+		},
+		{
+			"name": "Unscarred",
+			"source": "MOT",
+			"page": 17,
+			"optionType": [
+				"SG"
+			],
+			"entries": [
+				"像伟大的英雄哈克托斯一样，你对身体伤害有抵抗力。使用 \"无忧起源 \"表来确定你是如何获得传说中的无敌能力的。此外，你还获得了以下特质。",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Unscarred Resilience",
+							"entries": [
+								"When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Unscarred Origin",
+					"colLabels": [
+						"d6",
+						"Origin"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"我在婴儿时期就沐浴在九头蛇的血液中，我的伤口闭合得太快，无法成为致命的伤害。"
+						],
+						[
+							"2",
+							"我吞下了一块从尼克斯掉下来的魔石，这让我的皮肤硬如磐石。"
+						],
+						[
+							"3",
+							"当我小时候受伤的时候，有一位神治愈了我。现在伤口不愿意撤销神的工作。"
+						],
+						[
+							"4",
+							"我被从冥界救出，我不确定我是否完全恢复了生命--它总是那么冷。"
+						],
+						[
+							"5",
+							"我出生在达克拉群岛的一个地方。我的族人都有天生的抗压能力，这个事实直到我失去家园，冒险闯荡世界时才意识到。"
+						],
+						[
+							"6",
+							"我不知道我父母中的一个或多个是谁，但我的复原力（和其他暗示）提供了他们不朽身份的线索。"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Watchers",
+			"source": "VRGR",
+			"page": 27,
+			"optionType": [
+				"DG"
+			],
+			"entries": [
+				"有什么东西一直在观察你，并引来虚无缥缈的精神，这些精神以影子材料制成的生物的形式出现，通常是微小的野兽形状，它们跟随你并聚集在你的周围。这些生物的行为就像他们同类的正常例子，但他们的行为表明有一丝恶意。无论你采取什么预防措施，你都无法永久地赶走这些灵魂。它们总是回来，就在威慑物的范围之外等待，或者后来从你的衣服和设备中爬出来。",
+				"滚动或从观察者表中选择一个选项，以确定鬼魂在跟随你时通常会采取什么样的形式。",
+				{
+					"type": "table",
+					"caption": "Watchers",
+					"colLabels": [
+						"d8",
+						"Watchers"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"食腐动物。豺狼、乌鸦、秃鹰"
+						],
+						[
+							"2",
+							"无法逃避的判决。有生命的惩罚工具、漂移的眼球、宗教图腾"
+						],
+						[
+							"3",
+							"夜间的翅膀。蝙蝠、飞蛾、猫头鹰"
+						],
+						[
+							"4",
+							"鼠疫携带者。跳蚤、老鼠、松鼠"
+						],
+						[
+							"5",
+							"非自然的观察者。有生命的物体、钟表装置、其他世界的窥视者"
+						],
+						[
+							"6",
+							"海上潜行者。螃蟹、鳗鱼、水母"
+						],
+						[
+							"7",
+							"流浪的灵魂。幽灵球、影子、外在的飘浮物"
+						],
+						[
+							"8",
+							"有毒的害虫。蝎子、蛇、蜘蛛"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Borrowed Eyes",
+							"entries": [
+								"As an action, you can influence the presence guiding the watchers for 1 hour. For the duration, you gain advantage on Intelligence ({@skill Investigation}) and Wisdom ({@skill Perception}) checks, and you can't be {@condition blinded}. Once you use this feature, you can't use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dread Presence",
+							"entries": [
+								"You have disadvantage on Charisma ({@skill Deception}), Charisma ({@skill Performance}), and Charisma ({@skill Persuasion}) checks made against creatures that can see the watchers, and you have disadvantage on saving throws made against the {@spell scrying} spell.",
+								"You can temporarily disperse or hide the watchers with some effort. With 1 minute of work and a successful DC 15 Charisma ({@skill Animal Handling}) check, you can suppress your Borrowed Eyes and Dread Presence for 1 hour. Once you successfully suppress these features, you can't do so again until you finish a long rest."
+							]
+						}
+					]
+				}
+			],
+			"hasFluffImages": true
+		}
+	]
+}
