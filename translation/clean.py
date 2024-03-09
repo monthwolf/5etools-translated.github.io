@@ -14,7 +14,7 @@ def clean_files(log:str,logs:list):
 	for file in args.files[start:]:
 		with open(file,"r+") as data:
 			#清理包含未替换变量、输出不完整、未翻译、输出丢失变量的错误翻译映射
-			text=re.sub(r'.*?(%\d+%|%num%).*\n|.*?\{\d\}.*\n|.*?:([^a-zA-Z\n]+).*?(\[\.*\].*|[a-zA-Z]+",?)\n|".*?:[^\u4e00-\u9fa5]+",?\n|.*?\{.*?\}.*?:[^\{\}\n]+",?\n', '', data.read())
+			text=re.sub(r'.*?(%?\d+%|%num%).*\n|.*?\{\d\}.*\n|.*?:([^a-zA-Z\n]+).*?(\[\.*\].*|[a-zA-Z]+",?)\n|".*?:[^\u4e00-\u9fa5]+",?\n|.*?\{.*?\}.*?:[^\{\}\n]+",?\n', '', data.read())
 			text=re.sub(r',\n\}','\n}',text)
 			data.seek(0)
 			data.truncate()
