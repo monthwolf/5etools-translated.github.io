@@ -1,7 +1,6 @@
 name: translate
 
 env:
-  SOURCE_FILES: 'data/spells/*.json data/class/*.json data/*.json data/book/*.json data/adventure/*.json data/bestiary/*.json'
   TRANS_TYPE: 'deepl'
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   APIKEY: ${{ secrets.APIKEY }}
@@ -11,10 +10,6 @@ env:
 on:
   workflow_dispatch:
     inputs:
-      source:
-        description: 'Source files'
-        required: True
-        default: ${SOURCE_FILES}
       apikey:
         description: 'gpt apikey'
         required: False
@@ -48,7 +43,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        language: ['zh']
+        files: ['data/spells/*.json','data/class/*.json','data/*.json','data/book/*.json','data/adventure/*.json','data/bestiary/*.json']
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
@@ -67,9 +62,8 @@ jobs:
       run: |
            cd $GITHUB_WORKSPACE
            rm -rf data.en
-           echo $SOURCE_FILES
-           ./translation/translate.py --language ${{ matrix.language }} --maxrun 18000 --translate --${{ inputs.method }} ${{ inputs.source }}
-           ./translation/translate.py --language ${{ matrix.language }} --translate data/*.json data/*/*.json
+           ./translation/translate.py --language zh --maxrun 18000 --translate --${{ inputs.method }} ${{ matrix.files }}
+           ./translation/translate.py --language zh --translate data/*.json data/*/*.json
            tail -n 1000 geckodriver.log
            mv data data.en
            mv data.${{ matrix.language }} data
@@ -83,6 +77,7 @@ jobs:
            git config user.name "Automatic translator"
            git config user.email "<>"
            git add --ignore-errors all
+           git status -s
            git commit -m 'automatic translation'
            git status
            git checkout HEAD .
