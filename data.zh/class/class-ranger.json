@@ -460,7 +460,7 @@
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the {@background outlander} background."
+										"您可以通过以下建议快速创建一个游侠。首先，将敏捷作为您最高的能力值，其次是感知。 （一些专注于双武器战斗的游侠可能会选择力量高于敏捷。）其次，选择{@background outlander}背景。"
 									]
 								}
 							]
@@ -957,7 +957,7 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level ranger {@variantrule optional class features|tce|optional feature}, which replaces the Natural Explorer feature}",
+				"{@i 1st-level ranger {@variantrule optional class features|tce|optional feature}，替换了自然探索者特性。",
 				"你是一个无与伦比的探险家和幸存者，无论是在荒野中还是在旅行中与他人打交道。你获得以下的 \"狡猾 \"属性，当你达到6级和10级时，你将获得以下的额外属性。",
 				{
 					"name": "Canny",
@@ -979,8 +979,8 @@
 			"level": 1,
 			"entries": [
 				"从1级开始，你有大量研究、追踪、狩猎的经验，甚至可以和某类敌人交谈。",
-				"Choose a type of favored enemy: {@filter aberrations|bestiary|type=aberration}, {@filter beasts|bestiary|type=beast}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter fey|bestiary|type=fey}, {@filter fiends|bestiary|type=fiend}, {@filter giants|bestiary|type=giant}, {@filter monstrosities|bestiary|type=monstrosity}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, or {@filter undead|bestiary|type=undead}. Alternatively, you can select two races of {@filter humanoid|bestiary|type=humanoid} (such as {@creature gnoll||gnolls} and {@creature orc||orcs}) as favored enemies.",
-				"You have advantage on Wisdom ({@skill Survival}) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+				"选择一种偏爱的敌人类型：{@filter aberrations|bestiary|type=aberration}、{@filter beasts|bestiary|type=beast}、{@filter celestials|bestiary|type=celestial}、{@filter constructs|bestiary|type=construct}、{@filter dragons|bestiary|type=dragon}、{@filter elementals|bestiary|type=elemental}、{@filter fey|bestiary|type=fey}、{@filter fiends|bestiary|type=fiend}、{@filter giants|bestiary|type=giant}、{@filter monstrosities|bestiary|type=monstrosity}、{@filter oozes|bestiary|type=ooze}、{@filter plants|bestiary|type=plant} 或 {@filter undead|bestiary|type=undead}。或者，您可以选择两种{@filter humanoid|bestiary|type=humanoid}种族（例如{@creature gnoll||gnolls}和{@creature orc||orcs}）作为偏爱的敌人。",
+				"你在智慧检定中对追踪你的宿敌有优势({@skill Survival})，以及在情报检定中回忆有关它们的信息也有优势。",
 				"当你获得这个功能时，你也会学习一种你所选择的语言，如果他们说的是你所喜欢的敌人的语言。",
 				"你在6级和14级时可以选择一个额外的喜爱的敌人，以及一种相关的语言。随着你等级的提高，你的选择应该反映你在冒险中遇到的怪物类型。"
 			]
@@ -994,11 +994,11 @@
 			"level": 1,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 1st-level ranger {@variantrule optional class features|tce|optional feature}, which replaces the Favored Enemy feature and works with the Foe Slayer feature}",
-				"When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell).",
-				"The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by {@dice 1d4}.",
+				"{@i 1st-level ranger {@variantrule optional class features|tce|optional feature}, 代替了偏爱敌人特性，并与灭敌者特性配合使用。",
+				"当你用攻击骰命中一名生物时，你可以借助与自然的神秘联系，将目标标记为你的宠敌，持续1分钟或直到你失去你的{@status concentration}（就像你对一个法术进行了{@status concentration||concentrating}）。",
+				"每当你的回合第一次命中并对(`favored enemy`)造成伤害时，包括标记它时，你可以将那个伤害增加{@dice 1d4}。",
 				"你可以使用这个功能来标记一个喜欢的敌人，次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。",
-				"This feature's extra damage increases when you reach certain levels in this class: to {@dice 1d6} at 6th level and to {@dice 1d8} at 14th level."
+				"这个特性的额外伤害会在你达到该职业的特定等级时增加：在6级时增加到{@dice 1d6}，在14级时增加到{@dice 1d8}。"
 			]
 		},
 		{
@@ -1010,7 +1010,7 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+				"你对一种特定类型的自然环境非常熟悉，并擅长在这些地区旅行和生存。选择一种偏爱的地形：北极、海岸、沙漠、森林、草原、山脉、沼泽或地下世界（Underdark）。当你进行与你偏爱的地形相关的智力或感知检定时，如果你使用熟练技能，你的熟练加值会加倍。",
 				"当在你喜欢的地形中旅行一小时或更长时间时，你会获得以下好处。",
 				{
 					"type": "list",
@@ -1081,13 +1081,13 @@
 			"classSource": "PHB",
 			"level": 2,
 			"entries": [
-				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter ranger spell list|spells|class=ranger}.",
+				"当你达到2级时，你已经学会了如何利用自然的魔法精华施放法术，就像德鲁伊一样。查看{@book chapter 10|PHB|10}了解施法的一般规则，{@book chapter 11|PHB|11}了解{@filter ranger spell list|spells|class=ranger}。",
 				{
 					"type": "entries",
 					"name": "Spell Slots",
 					"entries": [
-						"The Ranger table shows how many spell slots you have to cast your {@filter ranger spells|spells|class=ranger} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"For example, if you know the 1st-level spell {@spell animal friendship} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship} using either slot."
+						"游侠表格显示了你有多少法术位来施放你的{@filter ranger spells|spells|class=ranger} 1级及更高级别的法术。要施放这些法术之一，你必须消耗一个等级高于或等级相同的法术位。当你完成一次长休后，你会恢复所有已消耗的法术位。",
+						"例如，如果你知道1级法术{@spell animal friendship}，并且有一个1级和一个2级法术位可用，你可以使用任一法术位施放{@spell animal friendship}。"
 					]
 				},
 				{
@@ -1103,7 +1103,7 @@
 					"type": "entries",
 					"name": "Spellcasting Ability",
 					"entries": [
-						"Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.",
+						"智慧是你作为游侠法术的施法能力，因为你的魔法源自于你对自然的调和。每当一个法术提到你的施法能力时，你就使用你的智慧。此外，当你施放游侠法术并设定豁免 DC 或进行攻击检定时，你也使用你的智慧修正值。",
 						{
 							"type": "abilityDc",
 							"name": "Spell",
@@ -1132,7 +1132,7 @@
 			"isClassFeatureVariant": true,
 			"entries": [
 				"{@i 2nd-level ranger {@variantrule optional class features|tce|optional feature}}",
-				"You can use a {@item druidic focus|phb} as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals."
+				"你可以使用{@item druidic focus|phb}作为你游侠法术的施法焦点。德鲁伊焦点可能是一小枝槲寄生或冬青，一根紫杉或其他特殊木材制成的魔杖或法杖，一根完整地从活树上取下的法杖，或者一个融合了神圣动物的羽毛、毛皮、骨头和牙齿的物品。"
 			]
 		},
 		{
@@ -1144,8 +1144,8 @@
 			"level": 3,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 3rd-level ranger {@variantrule optional class features|tce|optional feature}, which replaces the Primeval Awareness feature}",
-				"You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.",
+				"{@i 3rd-level ranger {@variantrule optional class features|tce|optional feature}, 代替原始感知特性 (`Primeval Awareness`)",
+				"你可以通过自然的相互联系来集中你的意识：当你达到特定等级时，你可以学习额外的法术，如原始感知法术表所示。这些法术不计入你已知的游侠法术数量。",
 				{
 					"type": "table",
 					"caption": "Primal Awareness Spells",
@@ -1192,7 +1192,7 @@
 			"classSource": "PHB",
 			"level": 3,
 			"entries": [
-				"Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number."
+				"从3级开始，你可以使用一个游侠法术位并花费一个行动来聚焦你周围的区域。在你花费的法术位等级的每一分钟内，你可以感知到以下类型的生物是否在你周围1英里范围内（或者在你喜爱的地形中最多6英里范围内）：变异体、天神、龙类、元素生物、精灵、恶魔和不死生物。这个特性不会透露生物的位置或数量。"
 			]
 		},
 		{
@@ -1217,7 +1217,7 @@
 			"level": 4,
 			"entries": [
 				"当你达到四级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长，你可以选择取一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1242,7 +1242,7 @@
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+				"从5级开始，每当你在回合中执行{@action Attack}动作时，你可以攻击两次，而不是一次。"
 			]
 		},
 		{
@@ -1299,7 +1299,7 @@
 			"level": 8,
 			"entries": [
 				"当你达到8级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长，你可以选择取一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1311,8 +1311,8 @@
 			"classSource": "PHB",
 			"level": 8,
 			"entries": [
-				"Starting at 8th level, moving through nonmagical {@quickref difficult terrain||3} costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
-				"In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the {@spell entangle} spell."
+				"从8级开始，穿过非魔法的{@quickref difficult terrain||3}不会额外消耗你的移动力。你也可以穿过非魔法植物而不会被它们减速，也不会受到它们带有的荆棘、刺或类似危险的伤害。",
+				"此外，对于那些被魔法创造或操控以阻碍移动的植物，比如{@spell entangle}法术创造的植物，你在豁免投掷时拥有优势。"
 			]
 		},
 		{
@@ -1329,8 +1329,8 @@
 					"type": "entries",
 					"name": "Tireless",
 					"entries": [
-						"As an action, you can give yourself a number of temporary hit points equal to {@dice 1d8} + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
-						"In addition, whenever you finish a short rest, your {@condition exhaustion} level, if any, is decreased by 1."
+						"作为一个动作，你可以给自己{@dice 1d8} + 你的感知调整值（至少为1点临时生命值）的临时生命值。你可以使用这个动作的次数等同于你的熟练加值，并在完成一次长休后，你恢复所有已用次数。",
+						"此外，每当你完成一次短休息时，你的{@condition exhaustion}级别（level），如果有的话，会减少1级。"
 					]
 				}
 			]
@@ -1345,7 +1345,7 @@
 			"level": 10,
 			"entries": [
 				"从10级开始，你可以花1分钟为自己创造伪装。你必须有机会接触到新鲜的泥土、土壤、植物、烟尘和其他自然产生的材料，用它们来创造你的伪装。",
-				"Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity ({@skill Stealth}) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit."
+				"一旦你以这种方式伪装，你可以试图藏匿在一个至少和你一样高和宽的坚固表面上，比如树木或墙壁。只要你保持静止不动或不采取行动，你在敏捷检定上获得+10的加值({@skill Stealth})。一旦你移动、采取行动或反应，你必须再次伪装自己才能获得这个好处。"
 			]
 		},
 		{
@@ -1369,8 +1369,8 @@
 			"level": 10,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 10th-level ranger {@variantrule optional class features|tce|optional feature}, which replaces the Hide in Plain Sight feature}",
-				"You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become {@condition invisible}, along with any equipment you are wearing or carrying, until the start of your next turn.",
+				"{@i 10th-level ranger {@variantrule optional class features|tce|optional feature}, 取代了潜行者特性（Hide in Plain Sight）",
+				"你借助自然的力量，暂时隐藏自己不被发现。作为一个奖励动作，你可以在接下来的回合开始前，魔法地变成{@condition invisible}，连同你穿戴或携带的任何装备一起。",
 				"你可以使用这个功能的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
 			]
 		},
@@ -1396,7 +1396,7 @@
 			"level": 12,
 			"entries": [
 				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长，你可以选择取一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1420,7 +1420,7 @@
 			"classSource": "PHB",
 			"level": 14,
 			"entries": [
-				"Starting at 14th level, you can use the {@action Hide} action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
+				"从14级开始，你可以在你的回合中将{@action Hide}动作作为一个额外动作使用。此外，除非你选择留下踪迹，否则无法通过非魔法手段追踪你。"
 			]
 		},
 		{
@@ -1445,7 +1445,7 @@
 			"level": 16,
 			"entries": [
 				"当你达到16级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长，你可以选择取一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1457,7 +1457,7 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any {@condition invisible} creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't {@condition blinded} or {@condition deafened}."
+				"在18级时，你获得超自然感知能力，帮助你与看不见的生物战斗。当你攻击一个看不见的生物时，你无法看见它不会对你对它的攻击投掷造成劣势。你还能感知到距离你30英尺以内的任何{@condition invisible}生物的位置，前提是该生物对你不是隐形的，而且你不是{@condition blinded}或{@condition deafened}。"
 			]
 		},
 		{
@@ -1470,7 +1470,7 @@
 			"level": 19,
 			"entries": [
 				"当你达到19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长，你可以选择取一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1498,7 +1498,7 @@
 			"level": 3,
 			"entries": [
 				"你与自然界的联系是以龙族精神的形式出现的，它可以以实体形式表现为一只公鸭。随着你力量的增长，你的龙也在增长，从一个四条腿的小伙伴变成了一个强大的有翅膀的生物，大到足以让你骑。一路走来，你获得了越来越多的龙的令人敬畏的力量。",
-				"Consider the source of the draconic spirit you have bonded with. The Drakewarden Origin table offers examples.",
+				"考虑你与结合的龙灵的来源。龙卫者起源表提供了一些例子。",
 				{
 					"type": "table",
 					"caption": "Drakewarden Origin",
@@ -1567,7 +1567,7 @@
 						{
 							"type": "item",
 							"name": "Thaumaturgy",
-							"entry": "You learn the {@spell thaumaturgy} cantrip, which is a ranger spell for you."
+							"entry": "你学会了{@spell thaumaturgy}法术，这是你的一个游侠法术。"
 						},
 						{
 							"type": "item",
@@ -1591,8 +1591,8 @@
 			"entries": [
 				"{@i 3rd-level Drakewarden feature}",
 				"作为一个行动，你可以用魔法召唤与你绑定的公鸭。它出现在你30英尺范围内你选择的一个无人的空间。",
-				"The drake is friendly to you and your companions, and it obeys your commands. See its game statistics in the accompanying {@creature Drake Companion|FTD} stat block, which uses your proficiency bonus (PB) in several places. Whenever you summon the drake, choose a damage type listed in its Draconic Essence trait. You can determine the cosmetic characteristics of the drake, such as its color, its scale texture, or any visible effect of its Draconic Essence; your choice has no effect on its game statistics.",
-				"In combat, the drake shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the drake can take any action of its choice, not just {@action Dodge}.",
+				"这只龙幼崽对你和你的同伴友好，并且会听从你的命令。请查看附带的{@creature Drake Companion|FTD}属性块中的游戏统计数据，其中在多个地方使用了你的熟练加值（PB）。每当你召唤这只龙幼崽时，选择其龙族精华特性中列出的伤害类型。你可以确定龙幼崽的外观特征，比如它的颜色、鳞片质地或其龙族精华的任何可见效果；你的选择不会影响其游戏统计数据。",
+				"在战斗中，飞龙与你共享先攻值，但它会立即在你之后行动。它可以自行移动并使用反应，但除非你在你的回合中使用一个额外动作命令它执行另一个动作，否则它在自己的回合中只能执行{@action Dodge}动作。那个动作可以是它的属性块中的动作，或者其他动作。如果你是{@condition incapacitated}，飞龙可以选择任何动作，而不仅仅是{@action Dodge}。",
 				"这只公龙会一直存在，直到它的生命值降至0，直到你再次使用此功能召唤公龙，或者直到你死亡。德雷克消失时，它所穿戴或携带的任何东西都会被留下。",
 				"一旦你召唤出公鸭，你就不能再这样做，直到你完成一个长时间的休息，除非你消耗一个一级或更高级别的法术槽来召唤它。"
 			]
@@ -1626,7 +1626,7 @@
 							"type": "item",
 							"name": "Magic Fang",
 							"entries": [
-								"The drake's Bite attack deals an extra {@damage 1d6} damage of the type chosen for the drake's Draconic Essence."
+								"飞龙的咬击攻击会额外造成所选择的飞龙本质类型的 {@damage 1d6} 伤害。"
 							]
 						},
 						{
@@ -1652,8 +1652,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 11th-level Drakewarden feature}",
-				"As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence). Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking {@damage 8d6} damage on a failed save, or half as much damage on a successful one.",
-				"This damage increases to {@dice 10d6} when you reach 15th level in this class.",
+				"作为一个动作，你可以呼出一个30英尺锥形的伤害吐息，或让你的龙兽进行吐息。选择酸性、冰冷、火焰、闪电或毒素伤害（你的选择不必与你的龙兽的龙族本质相匹配）。锥形范围内的每个生物必须根据你的法术豁免 DC 进行敏捷豁免检定，未通过检定的生物会受到 {@damage 8d6} 伤害，通过检定的生物则受到一半伤害。",
+				"当你达到15级时，这个伤害会增加到{@dice 10d6}。",
 				"一旦你使用这个功能，你就不能再这样做了，直到你完成一个长时间的休息，除非你消耗一个3级以上的法术槽来再次使用它。"
 			]
 		},
@@ -1678,7 +1678,7 @@
 							"type": "item",
 							"name": "Empowered Bite",
 							"entries": [
-								"The drake's Bite attack deals an extra {@damage 1d6} damage of the type chosen for its Draconic Essence (for a total of {@damage 2d6} extra damage)."
+								"龙兽的咬击攻击会额外造成所选择的龙之精华类型的伤害的{@damage 1d6}（总共额外造成{@damage 2d6}伤害）。"
 							]
 						},
 						{
@@ -1733,8 +1733,8 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Beast Master variant feature, which replaces the Ranger's Companion feature}",
-				"You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block—{@creature Beast of the Land|TCE}, {@creature Beast of the Sea|TCE}, or {@creature Beast of the Sky|TCE}—which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.",
-				"In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the {@action Attack} action to command the beast to take the {@action Attack} action. If you are {@condition incapacitated}, the beast can take any action of its choice, not just {@action Dodge}.",
+				"你施放魔法召唤一只原始野兽，它从你与自然的联系中获得力量。这只野兽对你和你的同伴友好，并遵从你的命令。选择它的属性块—{@creature Beast of the Land|TCE}、{@creature Beast of the Sea|TCE}或{@creature Beast of the Sky|TCE}—在几个地方使用你的熟练加值（PB）。你还要确定这只野兽是什么动物，选择一个适合该属性块的种类。无论你选择什么种类，这只野兽都会带有原始印记，表明它神秘的起源。",
+				"在战斗中，野兽会在你的回合中行动。它可以自行移动并使用其反应，但它所采取的唯一行动是{@action Dodge}行动，除非你在你的回合中采取一个额外行动来命令它采取另一个行动。该行动可以是其属性块中的行动或其他行动。当你采取{@action Attack}行动命令野兽采取{@action Attack}行动时，你也可以牺牲你的其中一个攻击。如果你处于{@condition incapacitated}状态，野兽可以采取任何行动，而不仅仅是{@action Dodge}。",
 				"如果这只野兽在过去一小时内死亡，你可以用你的行动来触摸它，并消耗一个一级或更高级别的法术槽。野兽在1分钟后恢复生命，其所有的命中率都会恢复。",
 				"当你完成一个长时间的休息时，你可以召唤一个不同的原始兽。新的野兽出现在你周围5英尺内的一个无人空间，你可以选择它的状态块和外观。如果你已经有一只来自此功能的野兽，当新的野兽出现时，它就会消失。如果你死亡，该野兽也会消失。"
 			]
@@ -1750,11 +1750,11 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a {@filter beast that is no larger than Medium and that has a challenge rating of 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=beast|size=f;d;t;s;m|miscellaneous=!swarm}. Add your proficiency bonus to the beast's AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher. Like any creature, the beast can spend Hit Dice during a short rest.",
-				"The beast obeys your commands as best as it can. It takes its turn on your initiative. On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the {@action Attack}, {@action Dash}, {@action Disengage}, or {@action Help} action. If you don't issue a command, the beast takes the {@action Dodge} action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the {@action Attack} action.",
-				"If you are {@condition incapacitated} or absent, your beast companion acts on its own, focusing on protecting you and itself. It never requires your command to use its reaction, such as when making an opportunity attack.",
+				"你获得了一只野兽伙伴，它会在冒险中与你同行，并接受过战斗训练。选择一个{@filter beast that is no larger than Medium and that has a challenge rating of 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=beast|size=f;d;t;s;m|miscellaneous=!swarm}。将你的熟练加值加到该野兽的防御等级、攻击骰、伤害骰上，以及它擅长的豁免投骰和技能上。它的生命值上限等于它正常的最大值或你的游侠等级的四倍，以较高者为准。和其他生物一样，该野兽可以在短休息期间使用生命骰。",
+				"野兽尽其所能地听从你的命令。它会在你的先攻顺序上行动。在你的回合，你可以口头命令野兽移动（你无需采取行动）。你可以使用你的动作口头命令它执行{@action Attack}、{@action Dash}、{@action Disengage}或{@action Help}的动作。如果你没有下达命令，野兽会执行{@action Dodge}的动作。一旦你获得额外攻击特性，当你命令野兽执行{@action Attack}的动作时，你可以自己进行一次武器攻击。",
+				"如果你是{@condition incapacitated}或者缺席，你的兽伴会自行行动，专注于保护你和自己。它无需你的命令就可以使用其反应，比如进行机会攻击。",
 				"当只带着野兽在你喜欢的地形上旅行时，你可以以正常的速度隐秘地移动。",
-				"If the beast dies, you can obtain a new companion by spending 8 hours magically bonding with a beast that isn't hostile to you and that meets the requirements."
+				"如果野兽死亡，你可以花费8小时与一只对你不敌对且符合要求的野兽进行魔法结合，从而获得一个新的同伴。"
 			]
 		},
 		{
@@ -1768,7 +1768,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Beginning at 7th level, on any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the {@action Dash}, {@action Disengage}, or {@action Help} action on its turn. In addition, the beast's attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+				"从7级开始，当你的野兽伙伴在你的回合没有攻击时，你可以使用一个奖励动作命令野兽在它的回合执行{@action Dash}、{@action Disengage}或{@action Help}动作。此外，野兽的攻击现在被视为魔法攻击，用于克服对非魔法攻击和伤害的抗性和免疫。"
 			]
 		},
 		{
@@ -1782,7 +1782,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, when you command your beast companion to take the {@action Attack} action, the beast can make two attacks, or it can take the Multiattack action if it has that action."
+				"从11级开始，当你命令你的兽伴执行{@action Attack}动作时，兽伴可以进行两次攻击，或者如果它有该动作的话，它可以执行多重攻击动作。"
 			]
 		},
 		{
@@ -1877,7 +1877,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra {@damage 1d8} damage if it's below its hit point maximum. You can deal this extra damage only once per turn."
+				"你的坚韧可以消磨掉最强大的敌人。当你用武器攻击命中一只生物时，如果它的生命值低于最大值，那么这只生物会受到额外{@damage 1d8}的伤害。你每回合只能造成这额外伤害一次。"
 			]
 		},
 		{
@@ -1970,7 +1970,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"You have advantage on saving throws against being {@condition frightened}."
+				"你在豁免抵抗被{@condition frightened}影响时获得优势。"
 			]
 		},
 		{
@@ -2044,7 +2044,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a {@spell lightning bolt} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+				"你可以灵巧地躲避某些范围效果，比如红龙的火焰吐息或{@spell lightning bolt}法术。当你受到一个效果影响，允许你进行敏捷豁免来减少一半伤害时，如果你成功通过豁免检定，你不会受到伤害，如果你未通过，则只受到一半伤害。"
 			]
 		},
 		{
@@ -2147,8 +2147,8 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Fey Wanderer feature}",
-				"You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra {@damage 1d4} psychic damage to the target, which can take this extra damage only once per turn.",
-				"The extra damage increases to {@dice 1d6} when you reach 11th level in this class."
+				"你可以用来自Feywild幽暗空洞的心灵创伤魔法增强你的武器打击。当你用武器击中一名生物时，你可以对目标造成额外{@damage 1d4}的精神伤害，目标每回合只能受到这个额外伤害一次。",
+				"当你达到11级时，额外伤害增加至{@dice 1d6}。"
 			]
 		},
 		{
@@ -2252,7 +2252,7 @@
 			"entries": [
 				"{@i 3rd-level Fey Wanderer feature}",
 				"你的特质给了你一种超自然的魅力。因此，每当你进行魅力检查时，你会获得与你的智慧修饰值相等的检查奖励（最低为+1）。",
-				"In addition, you gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Performance}, or {@skill Persuasion}."
+				"此外，你可以选择获得以下技能中的一个熟练度：{@skill Deception}，{@skill Performance}，或者{@skill Persuasion}。"
 			]
 		},
 		{
@@ -2267,8 +2267,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 7th-level Fey Wanderer feature}",
-				"The magic of the Feywild guards your mind. You have advantage on saving throws against being {@condition charmed} or {@condition frightened}.",
-				"In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw against being {@condition charmed} or {@condition frightened}, you can use your reaction to force a different creature you can see within 120 feet of you to make a Wisdom saving throw against your spell save DC. If the save fails, the target is {@condition charmed} or {@condition frightened} by you (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save."
+				"精灵界的魔法守护着你的思维。你在对抗被 {@condition charmed} 或 {@condition frightened} 时拥有优势。",
+				"此外，每当你或你能看到的一名生物在你120英尺内成功通过对抗{@condition charmed}或{@condition frightened}的豁免检定时，你可以使用你的反应来强迫另一名你能看到的生物对抗你的法术豁免 DC 的感知豁免检定。如果豁免失败，目标将被你选择的{@condition charmed}或{@condition frightened}，持续1分钟。目标可以在其每个回合结束时重复进行豁免检定，成功豁免将结束自身上的效果。"
 			]
 		},
 		{
@@ -2283,8 +2283,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 11th-level Fey Wanderer feature}",
-				"The royal courts of the Feywild have blessed you with the assistance of fey beings: you know {@spell summon fey|tce}. It doesn't count against the number of ranger spells you know, and you can cast it without a material component. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.",
-				"Whenever you start casting the spell, you can modify it so that it doesn't require {@status concentration}. If you do so, the spell's duration becomes 1 minute for that casting."
+				"精灵界的皇家法庭赐予了你精灵生物的帮助：你了解{@spell summon fey|tce}。这不计入你所了解的游侠法术数量，你可以在没有材料组件的情况下施展它。你还可以在不消耗法术槽的情况下施展它一次，并在完成一次长休后恢复这个能力。",
+				"每当你开始施放这个法术时，你可以修改它，使其不需要{@status concentration}。如果你这样做，该次施法的持续时间变为1分钟。"
 			]
 		},
 		{
@@ -2299,8 +2299,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 15th-level Fey Wanderer feature}",
-				"You can slip in and out of the Feywild to move in a blink of an eye: you can cast {@spell misty step} without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
-				"In addition, whenever you cast {@i misty step}, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space."
+				"你可以在一眨眼间在（Feywild）和现实世界之间穿梭：你可以施放{@spell misty step}而不消耗法术位。你可以这样做的次数等于你的感知调整值（最少1次），当你完成一次长休时，你会恢复所有已用次数。",
+				"此外，每当你施放{@i misty step}时，你可以带上一个愿意的生物，该生物必须在你能看到的5英尺范围内。该生物会传送到你选择的目的地空间内一个未被占据的空间，距离你的目的地不超过5英尺。"
 			]
 		},
 		{
@@ -2371,8 +2371,8 @@
 				{
 					"type": "list",
 					"items": [
-						"The attack's target takes {@damage 1d6} piercing damage from the swarm.",
-						"The attack's target must succeed on a Strength saving throw against your spell save DC or be moved by the swarm up to 15 feet horizontally in a direction of your choice.",
+						"袭击目标受到{@damage 1d6}点穿刺伤害。",
+						"攻击目标必须通过一次力量豁免检定，检定 DC 为你的法术豁免 DC，否则将被虫群移动，最多可向你选择的方向水平移动 15 英尺。",
 						"你会被蜂群在你选择的方向上水平移动5英尺。"
 					]
 				},
@@ -2380,7 +2380,7 @@
 					"type": "inset",
 					"name": "It's Your Swarm",
 					"entries": [
-						"A Swarmkeeper's swarm and spells are reflections of the character's bond with nature spirits. Take the opportunity to describe the swarm and the ranger's magic in play. For example, when your ranger casts gaseous form, they might appear to melt into the swarm, instead of a cloud of mist, or the {@spell arcane eye} spell could create an extension of your swarm that spies for you. Such descriptions don't change the effects of spells, but they are an exciting opportunity to explore your character's narrative through their class abilities. For more guidance on customizing spells, see the \"Personalizing Spells\" section in chapter 3.",
+						"蜂群使者的蜂群和法术反映了角色与自然精灵的联系。抓住机会描述蜂群和游侠的魔法运作方式。例如，当你的游侠施放气态形态时，他们可能会看起来融入蜂群中，而不是化为一团薄雾，或者{@spell arcane eye}法术可以创造一个你的蜂群的延伸，为你侦察。这些描述不会改变法术效果，但它们是一个令人兴奋的机会，通过职业能力来探索你角色的叙事。要了解更多关于定制法术的指导，请参阅第三章中的“个性化法术”部分。",
 						"另外，请记住，精灵群的外观是由你来定制的，不要觉得被限制在一个单一的外观里。也许这些精灵的外观会随着游侠的心情或季节的变化而变化。你自己决定吧。"
 					]
 				}
@@ -2398,7 +2398,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Swarmkeeper feature}",
-				"You learn the {@spell mage hand} cantrip if you don't already know it. When you cast it, the hand takes the form of your swarming nature spirits.",
+				"如果你还不会，你学会{@spell mage hand}的战斗法术。当你施放它时，手会变成你那些疾行的自然精灵的形态。",
 				"当你在这个等级中达到一定级别时，你还会额外学习一个1级或更高的法术，如群居者法术表所示。每个法术对你来说都算作游侠法术，但不计入你所会的游侠法术数量。",
 				{
 					"type": "table",
@@ -2448,7 +2448,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 7th-level Swarmkeeper feature}",
-				"You can condense part of your swarm into a focused mass that lifts you up. As a bonus action, you gain a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until you are {@condition incapacitated}.",
+				"你可以将你的一部分虫群聚集成一个集中的团块，将你抬起。作为一个额外动作，你获得10英尺的飞行速度并可以悬停。这个效果持续1分钟或直到你被{@condition incapacitated}。",
 				"你可以使用这个功能的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
 			]
 		},
@@ -2468,8 +2468,8 @@
 				{
 					"type": "list",
 					"items": [
-						"The damage of Gathered Swarm increases to {@dice 1d8}.",
-						"If a creature fails its saving throw against being moved by Gathered Swarm, you can also cause the swarm to knock the creature {@condition prone}.",
+						"聚群蜂群的伤害增加至{@dice 1d8}。",
+						"如果一个生物未能通过被聚集的虫群的豁免才能来抵抗移动，你也可以让虫群撞击这个生物{@condition prone}。",
 						"当你被集结的蜂群移动时，它能给你一半的掩护，直到你下一回合开始。"
 					]
 				}
@@ -2501,7 +2501,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
+				"阴暗潜行者在最黑暗的地方感到如鱼得水：深入地底、阴暗的小巷、原始森林，以及任何光线黯淡的地方。大多数人进入这样的地方时都心存恐惧，但阴暗潜行者大胆地冒险进入黑暗，寻找机会伏击威胁，防止它们到达更广阔的世界。这样的游侠经常出现在地下世界，但他们会去任何邪恶潜伏在阴影中的地方。",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Gloom Stalker Magic|Ranger||Gloom Stalker|XGE|3"
@@ -2528,7 +2528,7 @@
 			"header": 1,
 			"entries": [
 				"3级时，你掌握了伏击的艺术。你可以给自己的主动性卷轴提供相当于你的智慧修正值的奖励。",
-				"At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the {@action Attack} action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra {@damage 1d8} damage of the weapon's damage type."
+				"在每次战斗的第一个回合开始时，你的移动速度增加10英尺，持续到回合结束。如果你在该回合上采取了{@action Attack}动作，你可以在该动作中额外进行一次武器攻击。如果这次攻击命中，目标会受到额外{@damage 1d8}点武器伤害类型的伤害。"
 			]
 		},
 		{
@@ -2542,7 +2542,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Gloom Stalker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				"从3级开始，当你达到该职业的特定等级时，你将学会额外的一个法术，如《阴影猎手法术》表所示。这个法术对你来说算作游侠法术，但不计入你已知的游侠法术数量。",
 				{
 					"type": "table",
 					"caption": "Gloom Stalker Spells",
@@ -2590,8 +2590,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision} from your race, its range increases by 30 feet.",
-				"You are also adept at evading creatures that rely on {@sense darkvision}. While in darkness, you are {@condition invisible} to any creature that relies on {@sense darkvision} to see you in that darkness."
+				"在3级时，你获得{@sense darkvision}，射程为60英尺。如果你的种族已经提供了{@sense darkvision}，则其射程增加30英尺。",
+				"你也擅长躲避依赖于{@sense darkvision}的生物。在黑暗中，对于任何依赖于{@sense darkvision}来看见你的生物，你是{@condition invisible}。"
 			]
 		},
 		{
@@ -2737,7 +2737,7 @@
 			"header": 1,
 			"entries": [
 				"三级时，你学会利用多元宇宙的能量来增强你的攻击。",
-				"As a bonus action, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra {@damage 1d8} force damage from the attack. When you reach 11th level in this class, the extra damage increases to {@dice 2d8}."
+				"作为一个奖励动作，选择你能看到的30英尺内的一个生物。在本回合内下次用武器攻击命中该生物时，攻击造成的所有伤害变为力量伤害，并且该生物从这次攻击中受到额外{@damage 1d8}的力量伤害。当你在这个职业中达到11级时，额外伤害增加到{@dice 2d8}。"
 			]
 		},
 		{
@@ -2751,7 +2751,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn to step through the Ethereal Plane. As a bonus action, you can cast the {@spell etherealness} spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn.",
+				"在第7级时，你学会了穿越虚空位面。作为一个奖励动作，你可以使用这个特性施放{@spell etherealness}法术，而不消耗法术位，但该法术会在当前回合结束时结束。",
 				"一旦你使用了这个功能，你就不能再使用它，直到你完成一个短期或长期的休息。"
 			]
 		},
@@ -2766,7 +2766,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, you gain the ability to pass between the planes in the blink of an eye. When you take the {@action Attack} action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.",
+				"在11级时，你获得了在眨眼间穿梭于各个位面的能力。当你进行{@action Attack}动作时，你可以在每次攻击前传送至你能看见的一个未被占据的空间，最多传送10英尺。",
 				"如果你用这个动作攻击至少两个不同的生物，你可以用它对第三个生物进行一次额外的攻击。"
 			]
 		},
@@ -2883,7 +2883,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra {@damage 1d6} damage from the weapon.",
+				"从3级开始，你可以将愤怒集中在一个敌人身上，增加你对其造成的伤害。作为一个奖励动作，你可以选择你能看到的距离60英尺内的一个生物作为这个特性的目标。每回合第一次你用武器攻击命中该目标时，它会受到额外{@damage 1d6}的武器伤害。",
 				"这个好处持续到你完成一个短时或长时休息。如果你指定一个不同的生物，它会提前结束。"
 			]
 		},
@@ -2898,7 +2898,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, add {@dice 1d6} to your roll."
+				"在第7级时，你对你的猎物对你身心的攻击获得额外的抵抗力。每当你的猎人之怒的目标强迫你进行豁免检定，以及每当你进行能力检定来摆脱该目标的控制时，在你的骰子点数上增加{@dice 1d6}。"
 			]
 		},
 		{

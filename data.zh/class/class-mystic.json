@@ -391,7 +391,7 @@
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a mystic quickly by following these suggestions. First, make Intelligence your highest ability score, followed by Dexterity or Constitution. Second, choose the {@background hermit} background."
+										"按照当地语言习惯，文本中的(%num%)应保持为(%num%)。遵守dnd running group规则进行翻译，专有名词在翻译后应在括号中保留英文。\n\n你可以通过以下建议快速创建一个神秘职业角色。首先，将智力设为最高属性分数，其次是敏捷或体质。其次，选择{@background hermit}背景。"
 									]
 								}
 							]
@@ -510,7 +510,7 @@
 			"classSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"{@filter Psionic talents|psionics|type=T} and {@filter disciplines|psionics|type=D} are the heart of a mystic's craft. They are the mental exercises and psionic formulae used to forge will into tangible, magical effects.",
+				"{@filter Psionic talents|psionics|type=T} 和 {@filter disciplines|psionics|type=D} 是秘术师工艺的核心。它们是用来将意志铸造成有形的、魔法效果的心理锻炼和灵能公式。",
 				"幻术学科是由不同的教团发现的，并倾向于反映其创造者的专长。然而，一个神秘主义者可以学习任何学科，而不考虑其相关秩序。"
 			]
 		},
@@ -527,14 +527,14 @@
 					"type": "entries",
 					"name": "Psionic Talents",
 					"entries": [
-						"A {@filter psionic talent|psionics|type=T} is a minor psionic effect you have mastered. At 1st level, you know one psionic talent of your choice. You learn additional talents of your choice at higher levels. The Talents Known column of the Mystic table shows the total number of talents you know at each level; when that number goes up for you, choose a new talent."
+						"{@filter psionic talent|psionics|type=T}是你掌握的一种轻微的超能效应。在1级时，你会掌握一项你选择的超能天赋。随着等级的提升，你会学会更多的天赋。《秘术师》表格中的“已知天赋”栏显示了你每个等级所掌握的总天赋数量；当这个数字增加时，你可以选择一个新的天赋。"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Psionic Disciplines",
 					"entries": [
-						"A {@filter psionic discipline|psionics|type=D} is a rigid set of mental exercises that allows a mystic to manifest psionic power. A mystic masters only a few disciplines at a time.",
+						"{@filter psionic discipline|psionics|type=D}是一套严格的心灵锻炼，让一个秘术师能够显化灵能力。一个秘术师一次只能掌握几种学科。",
 						"一级时，你知道一种你所选择的幻术学科。神秘人表格中的 \"知道的修行 \"一栏显示了你在每个等级所知道的修行的总数；当这个数字对你来说上升时，选择一个新修行。",
 						"此外，每当你在这门课上获得一个等级，你可以用你选择的另一门学科取代你知道的一门学科。"
 					]
@@ -543,22 +543,22 @@
 					"type": "entries",
 					"name": "Psi Points",
 					"entries": [
-						"You have an internal reservoir of energy that can be devoted to psionic disciplines you know. This energy is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points.",
-						"The number of psi points you have is based on your mystic level, as shown in the Psi Points column of the Mystic table. The number shown for your level is your psi point maximum. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can't go below 0 or over your maximum."
+						"你拥有一个内在的能量储备，可以用于你所掌握的超能力技能。这种能量用 psi 点来表示。每个超能力技能描述了你可以通过花费一定数量的 psi 点来创造的效果。一个超能力天赋不需要 psi 点。",
+						"你拥有的灵能点数取决于你的秘法师等级，如同《秘法师》表格中的灵能点数栏所示。你等级对应的数字就是你的灵能点数上限。当你完成一次长休后，你的灵能点总数会恢复到最大值。你拥有的灵能点数不能低于0或超过你的最大值。"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Psi Limit",
 					"entries": [
-						"Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. There is a limit on the number of psi points you can spend to activate a psionic discipline. The limit is based on your mystic level, as shown in the Psi Limit column of the Mystic table. For example, as a 3rd-level mystic, you can spend no more than 3 psi points on a discipline each time you use it, no matter how many psi points you have."
+						"尽管你可以获得大量的灵能能量，但需要训练和实践才能引导这种能量。你在激活灵能技能时可以花费的灵能点数是有限制的。这个限制取决于你的秘法师等级，如同在秘法师表中的灵能限制栏中所示。例如，作为一个3级秘法师，每次使用灵能技能时，你最多只能花费3点灵能点数，无论你有多少灵能点数。"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Psychic Focus",
 					"entries": [
-						"You can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline's description. The benefit lasts until you are {@condition incapacitated} or until you use another bonus action to choose a different focus benefit.",
+						"你可以将智能能量集中在你的一个智能学科上，从中获得持续的好处。作为一个奖励动作，你可以选择你的一个智能学科，并获得它的心灵专注好处，具体内容在该学科的描述中有详细说明。这个好处持续到你是{@condition incapacitated}，或者直到你使用另一个奖励动作选择不同的专注好处为止。",
 						"你一次只能有一个精神焦点的好处，而且使用一个学科的精神焦点并不限制你使用其他学科的能力。"
 					]
 				},
@@ -566,7 +566,7 @@
 					"type": "entries",
 					"name": "Psionic Ability",
 					"entries": [
-						"Intelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.",
+						"智力是你的超能力技能对应的属性。在设定超能力技能的豁免 DC 或进行攻击检定时，你会使用你的智力调整值。",
 						{
 							"type": "abilityDc",
 							"name": "Discipline",
@@ -593,7 +593,7 @@
 			"classSource": "UATheMysticClass",
 			"level": 1,
 			"entries": [
-				"Each psionic discipline has several ways you can use it, all contained in its description. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.",
+				"每个超能力学派都有几种你可以使用的方式，所有这些都包含在其描述中。该学派指定了所需的行动类型和灵能点数。它还详细说明了你是否必须集中注意力在其效果上，它影响多少目标，需要进行怎样的豁免才能抵抗等等。",
 				"下面的章节将详细介绍如何使用修行。幻术是魔法，其功能类似于法术。",
 				{
 					"type": "entries",
@@ -606,8 +606,8 @@
 					"type": "entries",
 					"name": "Effect Options and Psi Points",
 					"entries": [
-						"A discipline provides different options for how to use it with your psi points. Each effect option has a name, and the psi point cost of that option appears in parentheses after its name. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.",
-						"Some options show a range of psi points, rather than a specific cost. To use that option, you must spend a number of points within that point range, still abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline; you can't decide to spend additional points once you see the discipline in action.",
+						"一种学科提供了不同的选项，可以用你的灵能点数来使用。每个效果选项都有一个名称，在名称后的括号中显示该选项的灵能点数成本。你必须花费相应数量的灵能点数来使用该选项，同时遵守你的灵能限制。如果你剩余的灵能点数不足，或者成本超过了你的灵能限制，你将无法使用该选项。",
+						"一些选项显示了一系列的灵能点数，而不是具体的消耗。要使用该选项，您必须在该点数范围内花费一定数量的点数，仍然遵守您的灵能限制。一些选项允许您花费额外的灵能点数来增加一个技能的效力。同样，您必须遵守您的灵能限制，并且在首次使用技能时必须花费所有点数；您不能在看到技能效果后再决定花费额外的点数。",
 						"每个选项都注意到有关其效果的具体信息，包括使用它所需要的任何行动和它的范围。"
 					]
 				},
@@ -634,8 +634,8 @@
 							"type": "entries",
 							"name": "Concentration",
 							"entries": [
-								"Some options require {@status concentration} to maintain their effects. This requirement is noted with \"conc.\" after the option's psi point cost. The \"conc.\" notation is followed by the maximum duration of the {@status concentration}. For example, if an option says \"conc., 1 min.,\" you can concentrate on its effect for up to 1 minute.",
-								"Concentrating on a discipline follows the same rules as {@status concentration||concentrating} on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See {@book chapter 10|PHB|10}, \"Spellcasting,\" in the Player's Handbook for how {@status concentration} works."
+								"一些选项需要{@status concentration}来保持它们的效果。这一要求在选项的灵能点成本后面标有“conc.”。\"conc.\" 注释后面是{@status concentration}的最长持续时间。例如，如果一个选项说“conc., 1 min.”，你可以集中精力维持其效果长达1分钟。",
+								"专注于一种技能与{@status concentration||concentrating}法术上的规则相同。这个规则意味着你不能同时专注于一个法术和一个技能，也不能同时专注于两种技能。请参阅玩家手册中的{@book chapter 10|PHB|10}，“施法”，了解{@status concentration}的工作原理。"
 							]
 						}
 					]
@@ -644,7 +644,7 @@
 					"type": "entries",
 					"name": "Targets and Areas of Effect",
 					"entries": [
-						"Psionic disciplines use the same rules as spells for determining targets and areas of effect, as presented in {@book chapter 10|PHB|10}, \"Spellcasting,\" of the Player's Handbook."
+						"灵能技能遵循与法术相同的规则，用于确定目标和影响范围，如《玩家手册》{@book chapter 10|PHB|10}中的“施法”部分所述。"
 					]
 				},
 				{
@@ -659,7 +659,7 @@
 					"type": "entries",
 					"name": "Combining Psionic Effects",
 					"entries": [
-						"The effects of different psionic disciplines add together while the durations of the disciplines overlap. Likewise, different options from a psionic discipline combine if they are active at the same time. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect—usually dependent on how many psi points were used to create the effect—applies while the durations of the effects overlap.",
+						"不同灵能学派的效果在持续时间重叠时会叠加。同样，如果同时激活了来自灵能学派的不同选项，这些选项也会结合起来。然而，如果某个灵能学派的特定选项被多次使用，它不会与自身结合。相反，通常会应用最强大的效果——通常取决于用于创建效果的灵能点数——在效果的持续时间重叠时应用。",
 						"幻术和法术是独立的效果，因此它们的好处和坏处是重叠的。重现法术的幻术效果是这个规则的例外。"
 					]
 				}
@@ -673,8 +673,8 @@
 			"classSource": "UATheMysticClass",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, you can draw vigor from the psi energy you use to power your psionic disciplines.",
-				"Immediately after you spend psi points on a psionic discipline, you can take a bonus action to regain hit points equal to the number of psi points you spent."
+				"从2级开始，你可以从用于激活你超能力技能的灵能中汲取活力。",
+				"在你花费灵能点数在一个（psionic discipline）上之后，你可以采取一个奖励动作来回复等同于你花费的灵能点数的生命值。"
 			]
 		},
 		{
@@ -752,8 +752,8 @@
 			"classSource": "UATheMysticClass",
 			"level": 8,
 			"entries": [
-				"At 8th level, you gain the ability to infuse your weapon attacks with psychic energy. Once on each of your turns when you hit a creature with a weapon, you can deal an extra {@damage 1d8} psychic damage to that target. When you reach 14th level, this extra damage increases to {@dice 2d8}.",
-				"In addition, you add your Intelligence modifier to any damage roll you make for a {@filter psionic talent|psionics|type=T}."
+				"在8级时，你获得了将武器攻击注入心灵能量的能力。每当你在回合中用武器击中一名生物时，你可以对该目标造成额外{@damage 1d8}的心灵伤害。当你达到14级时，这个额外伤害增加到{@dice 2d8}。",
+				"此外，你在进行 {@filter psionic talent|psionics|type=T} 的伤害骰时，可以额外加上你的智力调整值。"
 			]
 		},
 		{
@@ -764,7 +764,7 @@
 			"classSource": "UATheMysticClass",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain the ability to sacrifice your physical durability in exchange for psionic power. When activating a psionic discipline, you can pay its psi point cost with your hit points, instead of using any psi points. Your current hit points and hit point maximum are both reduced by the number of hit points you spend. This reduction can't be lessened in any way, and the reduction to your hit point maximum lasts until you finish a long rest.",
+				"在10级时，你获得了牺牲你的身体耐久度来换取超能力的能力。在激活一个超能力技能时，你可以用你的生命值来支付其灵能点数成本，而不是使用任何灵能点数。你当前的生命值和生命值上限都会减少你花费的生命值数量。这种减少无法以任何方式减轻，并且对你的生命值上限的减少会持续直到你完成一次长休。",
 				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
 			]
 		},
@@ -776,9 +776,9 @@
 			"classSource": "UATheMysticClass",
 			"level": 11,
 			"entries": [
-				"Beginning at 11th level, your mastery of psionic energy allows you to push your mind beyond its normal limits. As an action, you gain 9 special psi points that you can spend only on disciplines that require an action or a bonus action to use. You can use all 9 points on one discipline, or you can spread them across multiple disciplines. You can't also spend your normal psi points on these disciplines; you can spend only the special points gained from this feature. When you finish a long rest, you lose any of these special points that you haven't spent.",
-				"If more than one of the disciplines you activate with these points require {@status concentration}, you can concentrate on all of them. Activating one of them ends any effect you were already {@status concentration||concentrating} on, and if you begin {@status concentration||concentrating} on an effect that doesn't use these special points, the disciplines end that you're {@status concentration||concentrating} on.",
-				"At 15th level, the pool of psi points you gain from this feature increases to 11.",
+				"从11级开始，你对超能能量的掌握使你能够超越正常极限。作为一个动作，你获得9个特殊超能点，只能用于需要动作或奖励动作才能使用的技能。你可以将所有9点用于一个技能，或者分散在多个技能上。你也不能在这些技能上使用你正常的超能点；你只能使用从这个特性获得的特殊点数。当你完成一次长休时，你失去任何你没有使用的这些特殊点数。",
+				"如果你用这些点激活的多个技能需要{@status concentration}，你可以集中精力同时使用它们。激活其中一个会结束你已经{@status concentration||concentrating}的效果，如果你开始{@status concentration||concentrating}一个不使用这些特殊点的效果，那么你正在{@status concentration||concentrating}的技能也会结束。",
+				"在15级时，你从这个特性获得的灵能点池增加到11点。",
 				"你有一次使用这个特性的机会，并且你可以通过长时间的休息来恢复任何已消耗的使用。你在第13、15和17级时获得一次额外的使用该功能的机会。"
 			]
 		},
@@ -823,7 +823,7 @@
 			"classSource": "UATheMysticClass",
 			"level": 14,
 			"entries": [
-				"At 14th level, your Potent Psionics damage increased to {@dice 2d8}."
+				"在14级时，你的强力念力伤害提升至{@dice 2d8}。"
 			]
 		},
 		{
@@ -884,8 +884,8 @@
 					"items": [
 						"你获得对击打、穿刺和砍击伤害的抵抗。",
 						"你不再衰老。",
-						"You are immune to disease, poison damage, and the {@condition poisoned} condition.",
-						"If you die, roll a {@dice d20}. On a 10 or higher, you discorporate with 0 hit points, instead of dying, and you fall {@condition unconscious}. You and your gear disappear. You appear at a spot of your choice {@dice 1d3} days later on the plane of existence where you died, having gained the benefits of one long rest."
+						"你对疾病、毒素伤害和{@condition poisoned}状态免疫。",
+						"如果你死亡，投掷一个{@dice d20}。在10或更高时，你以0点生命值解体，而不是死亡，并且你掉落{@condition unconscious}。你和你的装备消失。{@dice 1d3}天后，你会出现在你选择的地点(Plane of Existence)上，获得一次长休的益处。"
 					]
 				}
 			]
@@ -939,7 +939,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the {@filter Avatar disciplines|psionics|type=D|order=Avatar}."
+				"在1级时，你学会额外选择两种心灵学领域。它们必须从{@filter Avatar disciplines|psionics|type=D|order=Avatar}中选择。"
 			]
 		},
 		{
@@ -953,7 +953,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you project an inspiring aura. While you aren't {@condition incapacitated}, each ally within 30 feet of you who can see you gains a +2 bonus to initiative rolls."
+				"从3级开始，你散发出鼓舞人心的光环。只要你不是{@condition incapacitated}，在你周围30英尺内且能看到你的每个盟友在先攻骰时获得+2的加值。"
 			]
 		},
 		{
@@ -967,7 +967,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Beginning at 6th level, you project an aura of resilience. While you aren't {@condition incapacitated}, each ally within 30 feet of you who can see you regains additional hit points equal to your Intelligence modifier (minimum of 0) whenever they regain hit points from a psionic discipline."
+				"从6级开始，你散发出一种坚韧的光环。当你不是{@condition incapacitated}时，每个能看到你的盟友，在30英尺内，每当他们从一个（psionic discipline）中恢复生命值时，额外恢复相当于你的智力调整值的生命值（最少为0）。"
 			]
 		},
 		{
@@ -981,7 +981,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you project an aura of speed. While you aren't {@condition incapacitated}, any ally within 30 feet of you who can see you can take the {@action Dash} action as a bonus action."
+				"从14级开始，你散发出一股速度光环。只要你不是{@condition incapacitated}，任何能看到你的盟友在你周围30英尺范围内，可以将{@action Dash}动作作为一个奖励动作。"
 			]
 		},
 		{
@@ -1017,7 +1017,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill Animal Handling}, {@skill Deception}, {@skill Insight}, {@skill Intimidation}, {@skill Investigation}, {@skill Perception}, and {@skill Persuasion}."
+				"在1级时，你可以选择获得以下技能中的两项熟练项：{@skill Animal Handling}，{@skill Deception}，{@skill Insight}，{@skill Intimidation}，{@skill Investigation}，{@skill Perception}和{@skill Persuasion}。"
 			]
 		},
 		{
@@ -1031,7 +1031,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the {@filter Awakened disciplines|psionics|type=D|order=Awakened}."
+				"在1级时，你学会额外选择两种你喜欢的灵能技能。它们必须从{@filter Awakened disciplines|psionics|type=D|order=Awakened}中选择。"
 			]
 		},
 		{
@@ -1045,7 +1045,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you can focus your mind to read the psionic imprint left on an object. If you hold an object and concentrate on it for 10 minutes (as if {@status concentration||concentrating} on a psionic discipline), you learn a few basic facts about it. You gain a mental image from the object's point of view, showing the last creature to hold the object within the past 24 hours.",
+				"从3级开始，你可以集中精神读取物品上留下的智能烙印。如果你拿着一个物品并专注于它10分钟（就像{@status concentration||concentrating}在一个智能学科上），你会了解一些基本信息。你会从物品的视角获得一个心理图像，显示过去24小时内最后一个拿着这个物品的生物。",
 				"你还能了解到过去一小时内在该物体20英尺范围内发生的任何事件。你所感知到的事件是从物体的角度展开的。你看到和听到这些事件，就像你在那里一样，但不能使用其他感官。",
 				"此外，你可以在物体中嵌入一个无形的幻觉传感器。在接下来的24小时内，你可以使用一个动作来了解该物体相对于你的位置（它的距离和方向），并从该物体的视角来观察它的周围环境，就好像你在那里一样。这种感知会持续到你下一个回合的开始。",
 				"一旦你使用了这个功能，你就不能再使用它，直到你完成一个短期或长期的休息。"
@@ -1114,7 +1114,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the {@filter Immortal disciplines|psionics|type=D|order=Immortal}."
+				"在1级时，你学会选择两个额外的灵能技能。它们必须从{@filter Immortal disciplines|psionics|type=D|order=Immortal}中选择。"
 			]
 		},
 		{
@@ -1172,7 +1172,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can draw on your reserves of psionic power to survive beyond death. At the end of your turn while at 0 hit points, you can spend 5 psi points to immediately regain a number of hit points equal to your mystic level + your Constitution modifier."
+				"从14级开始，你可以利用你的超能力储备在死亡之后存活。当你的生命值降至0时，在你的回合结束时，你可以花费5点灵能点立即恢复生命值，恢复的生命值等于你的秘法师等级+你的体质调整值。"
 			]
 		},
 		{
@@ -1208,7 +1208,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the {@filter Nomad disciplines|psionics|type=D|order=Nomad}."
+				"在1级时，你学会选择两个额外的灵能技艺。它们必须从{@filter Nomad disciplines|psionics|type=D|order=Nomad}中选择。"
 			]
 		},
 		{
@@ -1222,7 +1222,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain the ability to extend your knowledge. When you finish a long rest, you gain two proficiencies of your choice: two tools, two skills, or one of each. You can replace one or both of these selections with languages. This benefit lasts until you finish a long rest."
+				"在1级时，你获得了扩展知识的能力。当你完成一次长休后，你可以选择获得两种熟练项：两种工具、两种技能或各一种。你可以用语言来替换其中一项或两项选择。这个好处持续直到你完成一次长休。"
 			]
 		},
 		{
@@ -1315,8 +1315,8 @@
 			"header": 1,
 			"entries": [
 				"从1级开始，你获得显化灵能之刃的能力。作为一个额外的动作，你可以创造出闪烁的能量之刀，从你的双拳中投射出来。在显现这些刀时，你不能用手握住任何东西。你可以将它们作为一个额外的动作来解散。",
-				"For you, a soul knife is a martial melee weapon with the light and finesse properties. It deals {@damage 1d8} psychic damage on a hit.",
-				"As a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are {@condition incapacitated}."
+				"对你来说，灵魂匕首是一种具有轻便和灵巧属性的武器。它在命中时造成{@damage 1d8}点心灵伤害。",
+				"作为一个奖励动作，你可以准备使用刀刃进行招架；直到你的下一个回合开始或者直到你被{@condition incapacitated}，你获得+2的AC奖励。"
 			]
 		},
 		{
@@ -1330,7 +1330,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, you can spend psi points to augment your soul knife's attack rolls and damage. You gain a bonus to attack and damage rolls with your soul knives depending on the number of psi points spent, as shown on the table below. This bonus lasts for 10 minutes.",
+				"从3级开始，你可以花费灵能点数来增强你的灵魂匕首的攻击和伤害。根据花费的灵能点数，你的灵魂匕首攻击和伤害骰获得奖励，具体数值见下表。这个奖励持续10分钟。",
 				{
 					"type": "table",
 					"colLabels": [
@@ -1369,7 +1369,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, whenever you slay an enemy creature with a soul knife attack, you immediately regain 2 psi points."
+				"从6级开始，每当你用灵魂匕首攻击杀死一只敌人生物时，你立即恢复2点灵能点数。"
 			]
 		},
 		{
@@ -1383,7 +1383,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can make an attack that phases through most defenses. As an action, you can make one attack with your soul knife. Treat the target's AC as 10 against this attack, regardless of the target's actual AC."
+				"从14级开始，你可以进行一次可以穿透大多数防御的攻击。作为一个动作，你可以使用你的灵魂匕首进行一次攻击。无论目标的实际防御等级是多少，将目标的AC视为10来进行这次攻击。"
 			]
 		},
 		{
@@ -1419,7 +1419,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the {@filter Wu Jen disciplines|psionics|type=D|order=Wu Jen}."
+				"在1级时，你学会选择两种额外的灵能技能。它们必须从{@filter Wu Jen disciplines|psionics|type=D|order=Wu Jen}中选择。"
 			]
 		},
 		{
@@ -1433,7 +1433,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain proficiency with two of the following skills of your choice: {@skill Animal Handling}, {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, {@skill Religion}, or {@skill Survival}."
+				"在1级时，你可以选择获得以下两项技能的熟练加值：{@skill Animal Handling}，{@skill Arcana}，{@skill History}，{@skill Insight}，{@skill Medicine}，{@skill Nature}，{@skill Perception}，{@skill Religion}或{@skill Survival}。"
 			]
 		},
 		{
@@ -1447,7 +1447,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 3rd level, when a creature's resistance reduces the damage dealt by a psionic discipline of yours, you can spend 1 psi point to cause that use of the discipline to ignore the creature's resistance. You can't spend this point if doing so would increase the discipline's cost above your psi limit."
+				"从3级开始，当一名生物的抗性减少了你施展的一个灵能技能造成的伤害时，你可以花费1点灵能点来使该次使用的技能无视该生物的抗性。如果这样做会使技能的成本超过你的灵能上限，则不能花费这一点。"
 			]
 		},
 		{
@@ -1461,8 +1461,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you learn three wizard spells of your choice and always have them prepared. The spells must be of {@filter 1st through 3rd level|spells|level=1;2;3|class=wizard}.",
-				"As a bonus action, you can spend psi points to create spell slots that you can use to cast these spells, as well as other spells you are capable of casting. The psi-point cost of each spell slot is detailed on the table below.",
+				"在6级时，你学会了三个你选择的巫师法术，并且始终准备好它们。这些法术必须是{@filter 1st through 3rd level|spells|level=1;2;3|class=wizard}的。",
+				"作为一个奖励动作，你可以花费灵能点来创造法术位，用来施放这些法术，以及你能够施放的其他法术。每个法术位的灵能点消耗在下表中有详细说明。",
 				{
 					"type": "table",
 					"colLabels": [
@@ -1496,8 +1496,8 @@
 						]
 					]
 				},
-				"The spell slot remains until you use it or finish a long rest. You must observe your psi limit when spending psi points to create a spell slot.",
-				"Whenever you gain a level in this class, you can replace on of the chosen wizard spells with a different {@filter wizard spell of 1st through 3rd level|spells|level=1;2;3|class=wizard}."
+				"法术位保留直到你使用它或完成一次长休。在消耗灵能点来创造法术位时，你必须遵守你的灵能限制。",
+				"每当你在这个职业中升级时，你可以用一个不同的{@filter wizard spell of 1st through 3rd level|spells|level=1;2;3|class=wizard}替换掉选择的巫师法术中的一个。"
 			]
 		},
 		{
@@ -1511,7 +1511,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, if you have resistance to a type of damage, you can spend 2 psi points as a reaction when you take damage of that type to ignore that damage; you gain immunity to that damage type until the end of your next turn."
+				"从14级开始，如果你对某种类型的伤害具有抗性，当你受到该类型伤害时，你可以花费2点灵能点作为一次反应来忽略该伤害；你将获得对该伤害类型的免疫，直到你的下一个回合结束。"
 			]
 		}
 	]
