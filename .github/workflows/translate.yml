@@ -82,7 +82,7 @@ jobs:
       run: |
            git config user.name "Automatic translator"
            git config user.email "<>"
-           git add --ignore-errors data/ translation/cache/${{ matrix.language }}/
+           git add --ignore-errors all
            git commit -m 'automatic translation'
            git status
            git checkout HEAD .
