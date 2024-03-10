@@ -419,14 +419,14 @@
 							"name": "Creating a Warlock",
 							"entries": [
 								"在你塑造你的术士角色时，花些时间思考你的守护者和你的契约对你施加的义务。是什么促使你订立契约，你是如何与你的守护者取得联系的？你是被引诱去召唤一个魔鬼，还是去寻找能让你与一个外星长老神接触的仪式？是你在寻找你的守护神，还是你的守护神找到并选择了你？你是在契约的义务下感到苦恼，还是在期待着承诺给你的回报时快乐地服务？",
-								"Work with your DM to determine how big a part your pact will play in your character's adventuring career. Your patron's demands might drive you into adventures, or they might consist entirely of small favors you can do between adventures.",
+								"与你的DM合作，确定你的契约将在你角色的冒险生涯中扮演多大的角色。你的赞助者的要求可能会驱使你踏上冒险之旅，或者完全由你在冒险之间可以做的小事情组成。",
 								"你和你的赞助人有什么样的关系？是友好的、对立的、不安的，还是浪漫的？你的赞助人认为你有多重要？你在你的赞助人的计划中扮演什么角色？你认识你的赞助人的其他仆人吗？",
 								"你的赞助人如何与你交流？如果你有一个熟悉的人，它可能偶尔会用你守护者的声音说话。有些术士发现他们的守护者的信息刻在树上，混在茶叶中，或漂浮在云端--这些信息只有术士能看到。其他术士在梦中或清醒的幻觉中与他们的守护者交谈，或者只与中间人打交道。",
 								{
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a warlock quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the {@background charlatan} background. Third, choose the {@spell eldritch blast} and {@spell chill touch} cantrips, along with the 1st-level spells {@spell charm person} and {@spell witch bolt}."
+										"你可以通过以下建议快速创建一个术士。首先，魅力应该是你最高的能力值，其次是体质。其次，选择{@background charlatan}背景。第三，选择{@spell eldritch blast}和{@spell chill touch}的零级咒语，以及1级法术{@spell charm person}和{@spell witch bolt}。"
 									]
 								}
 							]
@@ -1147,7 +1147,7 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter warlock spell list|spells|class=warlock}.",
+				"你的奥术研究和你的守护者赋予你的魔法使你精通咒语。查看{@book chapter 10|PHB|10}了解咒语施法的一般规则，{@book chapter 11|PHB|11}了解{@filter warlock spell list|spells|class=warlock}。",
 				{
 					"type": "entries",
 					"name": "Cantrips",
@@ -1159,8 +1159,8 @@
 					"type": "entries",
 					"name": "Spell Slots",
 					"entries": [
-						"The Warlock table shows how many spell slots you have to cast your {@filter warlock spells|spells|class=warlock} of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.",
-						"For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell {@spell witch bolt}, you must spend one of those slots, and you cast it as a 3rd-level spell."
+						"术士表格显示了你有多少法术位来施放你{@filter warlock spells|spells|class=warlock}级别的1级至5级法术。表格还显示了这些位的级别；你所有的法术位都是相同级别的。要施放你的1级或更高级别的术士法术之一，你必须消耗一个法术位。当你完成短休或长休时，你会恢复所有已消耗的法术位。",
+						"例如，当你达到5级时，你拥有两个3级法术位。要施放1级法术{@spell witch bolt}，你必须消耗其中一个法术位，并将其作为3级法术施放。"
 					]
 				},
 				{
@@ -1176,7 +1176,7 @@
 					"type": "entries",
 					"name": "Spellcasting Ability",
 					"entries": [
-						"Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.",
+						"魅力是你作为术士法术的施法能力，因此当一个法术提到你的施法能力时，你会使用你的魅力。此外，当你施放术士法术时设定豁免 DC 或进行攻击检定时，你会使用你的魅力修正值。",
 						{
 							"type": "abilityDc",
 							"name": "Spell",
@@ -1197,7 +1197,7 @@
 					"type": "entries",
 					"name": "Spellcasting Focus",
 					"entries": [
-						"You can use an {@item arcane focus|phb} as a spellcasting focus for your warlock spells."
+						"你可以将{@item arcane focus|phb}作为你的术士法术的施法焦点。"
 					]
 				}
 			]
@@ -1212,7 +1212,7 @@
 			"level": 2,
 			"entries": [
 				"在你对神秘传说的研究中，你发现了长生不老的召唤，这些禁忌知识的碎片给你带来了持久的魔法能力。",
-				"At 2nd level, you gain two eldritch invocations of your choice. A list of the available options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=EI} page. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.",
+				"在2级时，你可以选择获得两个奥术咒文。可以在{@filter Optional Features|optionalfeatures|Feature Type=EI}页找到可用选项列表。当你达到特定的术士等级时，你可以选择获得额外的奥术咒文，如同在术士表格的已知咒文列中所示。",
 				"此外，当你在这个等级中获得一个级别时，你可以从你所知道的召唤中选择一个，并用你在该等级中可以学习的另一个召唤来代替它。",
 				"如果一个长生召唤有先决条件，你必须满足这些条件才能学习它。你可以在满足其先决条件的同时学习该招式。等级先决条件是指你在这个等级中的等级。"
 			]
@@ -1261,7 +1261,7 @@
 			"level": 4,
 			"entries": [
 				"当你达到四级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用特性(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1278,7 +1278,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the {@filter warlock spell list|spells|level=0|class=Warlock}.",
+						"用{@filter warlock spell list|spells|level=0|class=Warlock}中的另一个战斗法术替换你从这个职业的契约魔法特性学会的一个战斗法术。",
 						"用该功能的其他选项之一取代你为契约布恩功能选择的选项。",
 						"如果你是12级或更高等级，用另一个同等级的术士法术替换你的神秘奥术特征中的一个法术。"
 					]
@@ -1308,7 +1308,7 @@
 			"level": 8,
 			"entries": [
 				"当你达到8级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用特性(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1332,9 +1332,9 @@
 			"classSource": "PHB",
 			"level": 11,
 			"entries": [
-				"At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock} as this arcanum.",
+				"在11级时，你的守护者赐予你一个被称为奥秘的魔法秘密。选择一个 {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock} 作为这个奥秘。",
 				"你可以在不消耗法术槽的情况下施展你的奥术法术一次。你必须完成一次长时间的休息才能再次施展。",
-				"At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
+				"在较高等级时，你可以选择更多术士法术，可以这样施放：在13级时获得一个7级法术，在15级时获得一个8级法术，在17级时获得一个9级法术。当你完成一次长休后，你会恢复所有奥术秘奥的使用次数。"
 			]
 		},
 		{
@@ -1347,7 +1347,7 @@
 			"level": 12,
 			"entries": [
 				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用特性(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1359,7 +1359,7 @@
 			"classSource": "PHB",
 			"level": 13,
 			"entries": [
-				"At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock} as this arcanum.",
+				"在13级时，你的守护者赐予你一个被称为奥秘的魔法秘密。选择一个 {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock} 作为这个奥秘。",
 				"你可以在不消耗法术槽的情况下施展你的奥术法术一次。你必须完成一次长时间的休息才能再次施展。"
 			]
 		},
@@ -1384,7 +1384,7 @@
 			"classSource": "PHB",
 			"level": 15,
 			"entries": [
-				"At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock} as this arcanum.",
+				"在15级时，你的守护者赐予你一个被称为奥秘的魔法秘密。选择一个 {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock} 作为这个奥秘。",
 				"你可以在不消耗法术槽的情况下施展你的奥术法术一次。你必须完成一次长时间的休息才能再次施展。"
 			]
 		},
@@ -1398,7 +1398,7 @@
 			"level": 16,
 			"entries": [
 				"当你达到16级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用特性(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1410,7 +1410,7 @@
 			"classSource": "PHB",
 			"level": 17,
 			"entries": [
-				"At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock} as this arcanum.",
+				"在17级时，你的守护者赐予你一个被称为奥秘的魔法秘密。选择一个 {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock} 作为这个奥秘。",
 				"你可以在不消耗法术槽的情况下施展你的奥术法术一次。你必须完成一次长时间的休息才能再次施展。"
 			]
 		},
@@ -1424,7 +1424,7 @@
 			"level": 19,
 			"entries": [
 				"当你达到19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用特性(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1510,7 +1510,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all {@condition charmed} or {@condition frightened} by you (your choice) until the end of your next turn.",
+				"从1级开始，你的守护者赋予你投射出令人着迷和可怕的精灵气息的能力。作为一个动作，你可以让起源于你的一个10英尺立方体内的每个生物，进行一次以你的术士法术豁免 DC 为目标的感知豁免。那些未通过豁免检定的生物在你的下一个回合结束前，都会被你 {@condition charmed} 或 {@condition frightened}（你选择）影响。",
 				"一旦你使用了这个功能，你就不能再使用它，直到你完成一个短期或长期的休息。"
 			]
 		},
@@ -1525,7 +1525,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn {@condition invisible} and teleport up to 60 feet to an unoccupied space you can see. You remain {@condition invisible} until the start of your next turn or until you attack or cast a spell.",
+				"从6级开始，当你受到伤害时，你可以消失在一团薄雾中。你可以使用你的反应来转换{@condition invisible}，并传送到你能看到的一个未被占据的空间，距离最多60英尺。你会保持{@condition invisible}，直到你的下一个回合开始，或者直到你进行攻击或施放法术。",
 				"一旦你使用了这个功能，你就不能再使用它，直到你完成一个短期或长期的休息。"
 			]
 		},
@@ -1540,7 +1540,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being {@condition charmed}, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be {@condition charmed} by you for 1 minute or until the creature takes any damage."
+				"从10级开始，你的守护者教会你如何将敌人的影响心智的魔法反击给他们。你对被 {@condition charmed} 免疫，当另一个生物试图对你施加魅惑时，你可以使用你的反应来试图将魅惑反弹给那个生物。该生物必须通过一次以你的术士法术豁免 DC 为目标的感知豁免才能成功，否则将被你 {@condition charmed} 1分钟，或者直到该生物受到任何伤害。"
 			]
 		},
 		{
@@ -1554,7 +1554,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is {@condition charmed} or {@condition frightened} by you (your choice) for 1 minute or until your {@status concentration} is broken (as if you are {@status concentration||concentrating} on a spell). This effect ends early if the creature takes any damage.",
+				"从14级开始，你可以将一个生物投入一个虚幻的领域。作为一个动作，选择一个你能看到的生物，距离你不超过60英尺。它必须对抗你的术士法术豁免 DC 的感知豁免。如果未能通过豁免，它会被你选择的{@condition charmed}或{@condition frightened}，持续1分钟或直到你的{@status concentration}被打破（就像你被{@status concentration||concentrating}在一个法术上）。如果生物受到任何伤害，这个效果会提前结束。",
 				"在这个幻觉结束之前，这个生物会认为它迷失在一个虚无缥缈的境界中，其外观由你选择。该生物只能看到和听到它自己、你和这个幻象。",
 				"你必须完成短暂或长时间的休息，才能再次使用这一功能。"
 			]
@@ -1645,7 +1645,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a {@dice d10} to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.",
+				"从6级开始，你可以请求你的守护者来改变命运，使其更有利于你。当你进行属性检定或豁免投骰时，你可以使用这个特性，在你的骰面上加上{@dice d10}。你可以在看到初始投骰结果后，但在任何投骰效果发生之前这样做。",
 				"一旦你使用了这个功能，你就不能再使用它，直到你完成一个短期或长期的休息。"
 			]
 		},
@@ -1677,7 +1677,7 @@
 			"header": 2,
 			"entries": [
 				"从14级开始，当你用攻击击中一个生物时，你可以使用这个功能将目标瞬间传送到下层世界。该生物会消失，并在噩梦般的景象中飞驰。",
-				"At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes {@damage 10d10} psychic damage as it reels from its horrific experience.",
+				"在你的下一个回合结束时，目标将返回到它先前所占据的空间，或者最近的未被占据的空间。如果目标不是一个恶魔，它会受到{@damage 10d10}精神伤害，因为它在经历可怕的经历后感到震惊。",
 				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
 			]
 		},
@@ -1691,7 +1691,7 @@
 			"subclassSource": "PHB",
 			"level": 1,
 			"entries": [
-				"Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.",
+				"你的 (patron) 是一个神秘实体，其本质与现实完全不同。它可能来自遥远领域，现实之外的空间，或者是只在传说中出现的上古之神。它的动机对凡人来说是无法理解的，它的知识是如此庞大和古老，以至于即使是最伟大的图书馆也无法与其所掌握的广阔秘密相比。那位伟大的上古之神可能对你的存在毫不知情，或者完全漠不关心，但你所学到的秘密让你能够从中汲取魔法。这类实体包括 (Ghaunadar) ，被称为潜伏者；(Tharizdun)，被束缚的神；(Dendar)，夜蛇；(Zargon)，归来者；大克苏鲁；以及其他难以理解的存在。",
 				{
 					"type": "entries",
 					"name": "Expanded Spell List",
@@ -1793,8 +1793,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an {@condition incapacitated} humanoid. That creature is then {@condition charmed} by you until a {@spell remove curse} spell is cast on it, the {@condition charmed} condition is removed from it, or you use this feature again.",
-				"You can communicate telepathically with the {@condition charmed} creature as long as the two of you are on the same plane of existence."
+				"在14级时，你获得了能力，可以用你的守护者的外星魔法感染一个人类的思维。你可以用一个动作去触摸一个{@condition incapacitated}人类。那个生物会被你支配，直到它被施放了一个{@spell remove curse}法术，{@condition charmed}状态被移除，或者你再次使用这个特性。",
+				"只要你们两个在同一存在平面上，你可以与{@condition charmed}生物进行心灵交流。"
 			]
 		},
 		{
@@ -1807,8 +1807,8 @@
 			"subclassSource": "SCAG",
 			"level": 1,
 			"entries": [
-				"Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize—like all power—comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantalus.",
-				"In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.",
+				"死亡对你的守护者毫无影响，他已经揭开了永生的秘密，尽管这样的奖赏——就像所有的力量一样——是有代价的。曾经是凡人的不朽者见证了凡人的生命如同季节般流逝，如同无尽的白昼和黑夜的闪烁。它拥有分享时代秘密的能力，生与死的秘密。这类存在包括手眼之主维克纳 (Vecna)、可怕的伊乌兹 (Iuz)、巫妖女王沃尔 (Vol)、不朽之庭 (Undying Court) 的阿伦纳尔 (Aerenal)、吉萨奇女王 (Vlaakith)、以及不死巫师费斯坦丹塔卢斯 (Fistandantalus)。",
+				"在诸天中，不朽的（Larloch the Shadow King）保护者包括传奇的《术士之墓》大师和安瑟之神王（Gilgeam）。",
 				{
 					"type": "entries",
 					"name": "Expanded Spell List",
@@ -1867,8 +1867,8 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you learn the {@spell spare the dying} cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.",
-				"Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of {@spell fireball}). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell."
+				"从1级开始，你学会了{@spell spare the dying}零级法术，这对你来说算作一种术士法术。你还对任何疾病的豁免投掷获得优势。",
+				"此外，不死生物很难伤害到你。如果一个不死生物直接以攻击或有害法术瞄准你，那个生物必须对抗你的法术豁免 DC 进行感知豁免检定（当它包括你在范围效果内时，比如 {@spell fireball} 的爆炸时，不死生物不需要进行豁免检定）。在豁免失败时，生物必须选择一个新目标或者放弃瞄准你，可能浪费这次攻击或法术。在豁免成功时，生物对这个效果免疫 24 小时。如果你以攻击或有害法术瞄准一个不死生物，那个不死生物也对这个效果免疫 24 小时。"
 			]
 		},
 		{
@@ -1882,7 +1882,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to {@dice 1d8} + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with {@spell spare the dying}.",
+				"从6级开始，当你逃脱死亡，或帮助他人逃脱死亡时，你可以给自己注入活力。当你成功通过一次死亡豁免投掷或稳定一个拥有{@spell spare the dying}的生物时，你可以恢复相当于{@dice 1d8} + 你的体质调整值（最少1点生命值）的生命值。",
 				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
 			]
 		},
@@ -1897,7 +1897,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce {@condition exhaustion} and still benefit from finishing short and long rests.",
+				"从10级开始，你可以无限期地屏住呼吸，而且不需要食物、水或睡眠，尽管你仍然需要休息来减少{@condition exhaustion}，并且仍然受益于完成短暂和长时间休息。",
 				"此外，你的衰老速度也比较慢。每过10年，你的身体只衰老1年，而且你对被神奇地衰老是免疫的。"
 			]
 		},
@@ -1912,7 +1912,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d8} + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.",
+				"当你达到14级时，你将掌握一些不死者的真正秘密。在你的回合，你可以使用一个奖励动作来恢复相当于{@dice 1d8} + 你的术士等级的生命值。此外，如果你在使用这个特性时将你的某个被切断的身体部位放回原位，那部分将重新连接。",
 				"一旦你使用了这个功能，你就不能再使用它，直到你完成一个短期或长期的休息。"
 			]
 		},
@@ -1928,7 +1928,7 @@
 			"entries": [
 				"你已经陷入了与深海的契约。一个海洋的实体，水元素界，或者另一个世界的海洋，现在允许你利用它的鲸鱼力量。它只是利用你来了解陆地领域，还是想让你打开宇宙的闸门，淹没整个世界？",
 				"也许你出生在一个世代崇尚无底洞和它的后代的邪教中。或者你可能遭遇船难，处于溺水的边缘，这时你的守护者为你提供了一个生命的机会。无论你是出于什么原因，大海和它未知的深处都在召唤着你。",
-				"Entities of the deep that might empower a warlock include krakens, ancient water elementals, godlike hallucinations dreamed into being by kuo-toa, merfolk demigods, and sea hag covens.",
+				"深海实体可能赋予术士力量，包括(%num%)巨章鱼，(%num%)古老水元素，由(%num%)夸夸族梦想中创造出的神秘幻象，(%num%)人鱼半神，以及(%num%)海妖女巫团。",
 				{
 					"type": "entries",
 					"name": "Expanded Spell List",
@@ -1961,11 +1961,11 @@
 								],
 								[
 									"4th",
-									"{@spell control water}, {@spell summon elemental|tce} (water only)"
+									"{@spell control water}, {@spell summon elemental|tce}（仅限饮用水）"
 								],
 								[
 									"5th",
-									"{@spell Bigby's hand} (appears as a tentacle), {@spell cone of cold}"
+									"{@spell Bigby's hand}（看起来像触手）, {@spell cone of cold}"
 								]
 							]
 						}
@@ -2009,7 +2009,7 @@
 			"entries": [
 				"{@i 1st-level Fathomless feature}",
 				"你可以用魔法召唤出一个幽灵触手，对你的敌人进行攻击。作为一个额外的动作，你在你60英尺范围内可以看到的地方创造一个10英尺长的触手。该触手持续1分钟，或者直到你使用此功能创造另一个触手。",
-				"When you create the tentacle, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes {@damage 1d8} cold damage, and its speed is reduced by 10 feet until the start of your next turn. When you reach 10th level in this class, the damage increases to {@dice 2d8}.",
+				"当你创建触手时，你可以对距离它10英尺内的一个生物进行一次近战法术攻击。命中后，目标受到{@damage 1d8}的冷伤害，并且其速度减少10英尺，直到你下个回合开始。当你在这个职业达到10级时，伤害增加到{@dice 2d8}。",
 				"作为你回合中的额外行动，你可以将触手移动到30英尺，并重复攻击。",
 				"你可以召唤触手的次数等于你的熟练度加成，当你完成长时间休息时，你会恢复所有消耗的使用。"
 			]
@@ -2026,7 +2026,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Fathomless feature}",
-				"Your Tentacle of the Deeps can defend you and others, interposing itself between them and harm. When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to that creature by {@dice 1d8}. When you reach 10th level in this class, the damage reduced by the tentacle increases to {@dice 2d8}."
+				"你的深渊触手可以保护你和其他人，将自己置于它们和伤害之间。当你或你能看到的生物在离触手10英尺范围内受到伤害时，你可以使用你的反应来选择其中一个生物，并将伤害减少 {@dice 1d8}。当你在这个职业达到10级时，触手减少的伤害增加到 {@dice 2d8}。"
 			]
 		},
 		{
@@ -2056,8 +2056,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 10th-level Fathomless feature}",
-				"You learn the spell {@spell Evard's black tentacles}. It counts as a warlock spell for you, but it doesn't count against the number of spells you know. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.",
-				"Whenever you cast this spell, your patron's magic bolsters you, granting you a number of temporary hit points equal to your warlock level. Moreover, damage can't break your {@status concentration} on this spell."
+				"你学会了法术{@spell Evard's black tentacles}。对你来说，它算作一种术士法术，但不会计入你所知道的法术数量。你还可以在不消耗法术槽的情况下施展它一次，并在完成一次长休后恢复这个能力。",
+				"每当你施放这个法术时，你的守护者的魔法会增强你，使你获得一个临时生命值，数值等同于你的术士等级。此外，伤害不能打破你在这个法术上的{@status concentration}。"
 			]
 		},
 		{
@@ -2129,7 +2129,7 @@
 					"type": "entries",
 					"entries": [
 						"{@i 1st-level Genie feature}",
-						"The Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.",
+						"当你学习术士法术时，精灵会让你从一个扩展的法术列表中进行选择。精灵扩展法术表格显示了添加到你术士法术列表中的精灵法术，以及与你的守护者种类（(dao), (djinni), (efreeti), 或 (marid)）在表格中相关联的法术。",
 						{
 							"type": "table",
 							"caption": "Genie Expanded Spells",
@@ -2290,7 +2290,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Genie feature}",
-				"You begin to take on characteristics of your patron's kind. You now have resistance to a damage type determined by your patron's kind: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).",
+				"你开始具备你的守护者种族的特征。你现在对守护者种族对应的伤害类型具有抗性：钝击伤害（(dao)刀），雷电伤害（(djinni)巨灵），火焰伤害（(efreeti)伊弗利特），或寒冷伤害（(marid)玛瑞德）。",
 				"此外，作为一个奖励动作，你可以给自己一个30英尺的飞行速度，持续10分钟，在此期间你可以悬停。你可以使用这个额外动作的次数等于你的熟练度加成，当你完成一个长时间的休息时，你会恢复所有已消耗的使用。"
 			]
 		},
@@ -2324,7 +2324,7 @@
 			"entries": [
 				"{@i 14th-level Genie feature}",
 				"你恳求你的守护者给予你一个小小的愿望。作为一个行动，你可以向你的精灵容器说出你的愿望，请求一个6级或更低的法术效果，并且施法时间为1个行动。该法术可以来自任何等级的法术列表，而且你不需要满足该法术中的要求，包括昂贵的组件；该法术只是作为该动作的一部分生效。",
-				"Once you use this feature, you can't use it again until you finish {@dice 1d4} long rests."
+				"一旦你使用这个特性，你必须完成{@dice 1d4}次长休才能再次使用。"
 			]
 		},
 		{
@@ -2338,7 +2338,7 @@
 			"level": 1,
 			"entries": [
 				"你已经和一个不死的生命签订了协议，一个藐视循环和生死的生物，放弃了它的凡人外壳，以便它可以永远追求它深不可测的野心。对于这样的生命来说，时间和道德都是转瞬即逝的东西，是那些沙粒仍然在生命的沙漏中奔跑的人所关心的。由于曾经是凡人，这些古老的亡灵亲身了解野心之路以及穿越死亡之门的路线。他们热切地与那些在活人中实现其意志的人分享这些神圣的知识以及其他秘密。",
-				"Beings of this type include the demilich Acererak, the vampire tyrant Kas the Bloody-Handed, the githyanki lich-queen Vlaakith, the dracolich Dragotha, the undead pharaoh Ankhtepot, and the elusive Darklord, Azalin Rex.",
+				"这类生物包括半巫妖阿塞拉克(Acererak)，吸血鬼暴君卡斯(Kas)血手(Kas the Bloody-Handed)，吉斯亚人巫妖女王弗拉基斯(Vlaakith)，龙巫妖德拉戈萨(Dragotha)，不死法老安克泰波特(Ankhtepot)，以及神秘的黑暗领主阿扎林·雷克斯(Azalin Rex)。",
 				{
 					"type": "entries",
 					"name": "Expanded Spell List",
@@ -2403,9 +2403,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain temporary hit points equal to {@dice 1d10} + your warlock level.",
-						"Once during each of your turns, when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw, and if the saving throw fails, the target is {@condition frightened} of you until the end of your next turn.",
-						"You are immune to the {@condition frightened} condition."
+						"你获得临时生命值，数值为{@dice 1d10} + 你的术士等级。",
+						"在你的每个回合中，当你用攻击骰命中一名生物时，你可以强迫它进行一次感知豁免投骰，如果豁免投骰失败，目标会在你的下一个回合结束前对你产生 {@condition frightened} 的效果。",
+						"你对{@condition frightened}状态免疫。"
 					]
 				},
 				"你可以变身的次数等于你的熟练度加成，当你完成长时间休息时，你会恢复所有消耗的使用。",
@@ -2441,7 +2441,7 @@
 			"entries": [
 				"{@i 10th-level Undead feature}",
 				"你与不死之身和坏死能量的联系现在充满了你的身体。你对坏死的伤害有抵抗力。如果你使用你的恐惧形态进行转化，你就会对坏死的伤害产生免疫。",
-				"In addition, when you would be reduced to 0 hit points, you can use your reaction to drop to 1 hit point instead and cause your body to erupt with deathly energy. Each creature of your choice that is within 30 feet of you takes necrotic damage equal to {@damage 2d10} + your warlock level. You then gain 1 level of {@condition exhaustion}. Once you use this reaction, you can't do so again until you finish {@dice 1d4} long rests."
+				"此外，当你的生命值降至0时，你可以使用你的反应力量，将生命值降至1点，同时使你的身体爆发出死亡能量。你选择的每个生物，距离你30英尺内，会受到等于{@damage 2d10} + 你的术士等级的死灵伤害。然后你获得1级{@condition exhaustion}。一旦你使用了这个反应，你必须完成{@dice 1d4}长休才能再次使用。"
 			]
 		},
 		{
@@ -2456,15 +2456,15 @@
 			"header": 2,
 			"entries": [
 				"{@i 14th-level Undead feature}",
-				"Your spirit can become untethered from your physical form. As an action, you can project your spirit from your body. The body you leave behind is {@condition unconscious} and in a state of suspended animation.",
-				"Your spirit resembles your mortal form in almost every way, replicating your game statistics but not your possessions. Any damage or other effects that apply to your spirit or physical body affects the other. Your spirit can remain outside your body for up to 1 hour or until your {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). When your projection ends, your spirit returns to your body or your body magically teleports to your spirit's space (your choice).",
+				"你的灵魂可以脱离你的肉体。作为一个动作，你可以将你的灵魂投射出你的身体。你留下的身体是{@condition unconscious}，处于悬挂状态。",
+				"你的灵魂几乎与你的肉体形态完全相同，复制了你的游戏统计数据，但没有复制你的所有物品。对你的灵魂或肉体造成的任何伤害或其他效果也会影响到另一方。你的灵魂可以在你的身体外停留最多1小时，或者直到你的{@status concentration}被打破（就像{@status concentration||concentrating}法术一样）。当你的投影结束时，你的灵魂会返回你的身体，或者你的身体会在你的选择下魔法传送到你的灵魂所在的位置。",
 				"在投射你的精神时，你会获得以下好处。",
 				{
 					"type": "list",
 					"items": [
 						"你的精神和身体获得对击打、穿刺和砍击伤害的抵抗。",
 						"当你施展法术或死灵学派的法术时，该法术不需要语言或体质成分或缺乏金币成本的物质成分。",
-						"You have a flying speed equal to your walking speed and can hover. You can move through creatures and objects as if they were {@quickref difficult terrain||3}, but you take {@dice 1d10} force damage if you end your turn inside a creature or an object.",
+						"你的飞行速度等同于你的行走速度，并且可以悬停。你可以如同穿过{@quickref difficult terrain||3}一样穿过生物和物体，但如果你结束回合时在生物或物体内部，你会受到{@dice 1d10}的力量伤害。",
 						"当你使用你的恐惧形态时，在你的每个回合中，当你对一个生物造成坏死伤害时，你会恢复相当于所受坏死伤害量一半的命中率。"
 					]
 				},
@@ -2545,7 +2545,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn the {@spell sacred flame} and {@spell light} cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
+				"在1级时，你学会了{@spell sacred flame}和{@spell light}零度咒语。它们对你来说算作术士零度咒语，但不计入你已知的咒语数量。"
 			]
 		},
 		{
@@ -2559,7 +2559,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of {@dice d6}s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.",
+				"在1级时，你获得了将天界能量引导到治愈伤口的能力。你有一个{@dice d6}s的资源池，用于激发这种治疗能力。资源池中的骰子数量等于1 + 你的术士等级。",
 				"作为一个额外的行动，你可以在你60英尺范围内治疗一个你能看到的生物，花费池中的骰子。你一次所能花费的骰子数量最多相当于你的魅力修饰值（最少为一个骰子）。掷出你所花费的骰子，将它们相加，并恢复与总数相等的命中率。",
 				"当你完成长期休息时，你的池子会重新获得所有消耗的骰子。"
 			]
@@ -2603,7 +2603,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to {@dice 2d8} + your Charisma modifier, and it is {@condition blinded} until the end of the current turn.",
+				"从14级开始，你引导的光辉能量让你能够抵抗死亡。当你在回合开始时需要进行一次死亡豁免投掷时，你可以用一股光辉能量弹跳回到你的脚上。你恢复的生命值等同于你的最大生命值的一半，然后你可以选择站起来。你选择的每个生物，如果在你的30英尺范围内，将受到{@dice 2d8} + 你的魅力调整值的光辉伤害，并且它们在当前回合结束前处于{@condition blinded}状态。",
 				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
 			]
 		},
@@ -2617,7 +2617,7 @@
 			"subclassSource": "XGE",
 			"level": 1,
 			"entries": [
-				"You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.",
+				"你与来自暗影界的神秘实体达成了契约——这种力量体现在由暗影物质雕刻而成的有意识的魔法武器中。强大的剑“黑剑”(Blackrazor)是这些武器中最显著的一把，它们在漫长岁月中散布在多元宇宙中。这些武器背后的暗影力量可以为与之达成契约的术士提供力量。许多符文剑术士创造出模仿在暗影界形成的武器的武器。其他人则放弃这样的武器，满足于将那个位面的黑暗魔法编织到他们的咒语中。",
 				"因为已知乌鸦女王铸造了这些武器中的第一件，许多圣人推测她和力量是一体的，这些武器和六芒星术士一起，是她用来操纵物质世界事件的工具，以达到她不可捉摸的目的。",
 				{
 					"type": "entries",
@@ -2696,12 +2696,12 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are {@condition incapacitated}. Until the curse ends, you gain the following benefits:",
+				"从1级开始，你获得了在某人身上施加邪恶诅咒的能力。作为一个奖励动作，选择你能看到的距离你30英尺内的一个生物。目标被诅咒1分钟。如果目标死亡、你死亡或者你是{@condition incapacitated}，诅咒会提前结束。直到诅咒结束，你获得以下好处：",
 				{
 					"type": "list",
 					"items": [
 						"你对被诅咒的目标的伤害卷获得一个加成。该奖励等于你的熟练度奖励。",
-						"Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the {@dice d20}.",
+						"对被诅咒目标的任何攻击检定，当在{@dice d20}上掷出19或20时，都算是重击。",
 						"如果被诅咒的目标死亡，你会重新获得相当于你的术士等级+你的魅力修正值的命中率（最低为1个命中率）。"
 					]
 				},
@@ -2719,7 +2719,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a {@creature specter}, the statistics for which are in the Monster Manual. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).",
+				"从6级开始，你可以诅咒你杀死的人的灵魂，将其暂时绑定在你的服务之下。当你杀死一个人形生物时，你可以让它的灵魂从尸体中升起，变成一个{@creature specter}，其统计数据在《怪物手册》中。当幽灵出现时，它获得临时生命值，数值等同于你术士等级的一半。为幽灵掷骰子决定先攻，它有自己的回合。它遵从你的口头指令，并且它的攻击加值等同于你的魅力调整值（最低+0）。",
 				"幽灵会一直为你服务，直到你的下一次长时间休息结束，那时它就会消失在来世。",
 				"一旦你用这个功能绑定了一个幽灵，你就不能再使用这个功能，直到你完成一个长时间的休息。"
 			]
@@ -2735,7 +2735,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, you can use your reaction to roll a {@dice d6}. On a 4 or higher, the attack instead misses you, regardless of its roll."
+				"在10级时，你的咒术变得更加强大。如果被你的(咒刃)Hexblade's Curse所诅咒的目标用攻击骰对你进行攻击，你可以使用你的反应来投掷一个{@dice d6}。在4或更高的情况下，无论其点数如何，攻击都会错过你。"
 			]
 		},
 		{
@@ -2749,7 +2749,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition incapacitated}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
+				"从14级开始，你可以将你的(咒剑士诅咒)从一个被杀死的生物传播到另一个生物身上。当被你的(咒剑士诅咒)诅咒的生物死亡时，你可以将诅咒应用于你能看到的距离30英尺内的另一个生物，前提是你不是{@condition incapacitated}。当你以这种方式应用诅咒时，你不会因为先前被诅咒生物的死亡而恢复生命值。"
 			]
 		},
 		{
@@ -2775,7 +2775,7 @@
 			"subclassSource": "TCE",
 			"level": 1,
 			"entries": [
-				"Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid)."
+				"每当你的回合中使用攻击骰命中时，你可以对目标造成额外伤害，伤害值等同于你的熟练加值。这个伤害的类型由你的主母决定：钝击伤害（(dao)刀），雷霆伤害（(djinni)巨灵），火焰伤害（(efreeti)伊弗利提），或寒冷伤害（(marid)玛瑞德）。"
 			]
 		}
 	]

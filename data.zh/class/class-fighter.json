@@ -200,13 +200,13 @@
 							"type": "entries",
 							"name": "Creating a Fighter",
 							"entries": [
-								"As you build your fighter, think about two related elements of your character's background: Where did you get your combat training, and what set you apart from the mundane warriors around you? Were you particularly ruthless? Did you get extra help from a mentor, perhaps because of your exceptional dedication? What drove you to this training in the first place? A threat to your homeland, a thirst for revenge, or a need to prove yourself might all have been factors.",
+								"在打造你的战士角色时，考虑角色背景的两个相关要素：你是在哪里接受战斗训练的，以及你与周围平凡的战士有何不同？你是否特别残忍？你是否得到导师的额外帮助，也许是因为你特别敬业？最初是什么驱使你接受这种训练？对家园的威胁，对复仇的渴望，或者需要证明自己都可能是因素。",
 								"你可能在贵族的军队或地方民兵中接受过正式的训练。也许你在战争学院受训，学习战略、战术和军事历史。或者你可能是自学成才--没有经过打磨，但经过良好的测试。你拿起剑是为了摆脱农场生活的局限性，还是在遵循一个自豪的家族传统？你的武器和盔甲是从哪里获得的？它们可能是军方发行的或家族的传家宝，也可能是你节衣缩食多年买来的。你的武器现在是你最重要的财产之一，是你和死亡的拥抱之间唯一的东西。",
 								{
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a fighter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Constitution, or Intelligence if you plan to adopt the Eldritch Knight martial archetype. Second, choose the {@background soldier} background."
+										"您可以通过以下建议快速创建一名战士。首先，根据您是想专注于近战武器还是弓箭（或灵巧武器），将力量或敏捷作为您的最高能力值。您的次高能力值应该是体质，或者如果您打算选择奥术骑士（Eldritch Knight）战斗职业的话，可以选择智力。其次，选择{@background soldier}背景。"
 									]
 								}
 							]
@@ -225,7 +225,7 @@
 							],
 							"by": "Tordek"
 						},
-						"Of all the adventurers in the worlds of D&D, the fighter is perhaps the greatest paradox. On the one hand, a singular feature of the class is that no two fighters ply their craft in quite the same way; their weapons, armor, and tactics differ across a vast spectrum. On the other hand, regardless of the tools and methods one uses, at the heart of every fighter's motivation lies the same basic truth: it is better to wound than to be wounded.",
+						"在D&D的世界中，冒险者中，战士也许是最大的悖论。一方面，该职业的一个显著特点是没有两个战士以完全相同的方式从事他们的工作；他们的武器、盔甲和战术在广泛的范围内各不相同。另一方面，无论使用什么工具和方法，每个战士动机的核心都是相同的基本真理：伤害别人总比被伤害要好。",
 						"虽然有些冒险战士冒着生命危险为荣誉或财宝而战，但其他人主要关心的是他人的福利。他们把社会、村庄或团体的福祉看得比自己的安全更重要。即使有黄金在手，对大多数战士来说，真正的回报来自于将敌人送上绝路。",
 						"下面的章节提供了为你的战士角色增加一点深度和一些个人修饰的方法。",
 						{
@@ -1109,7 +1109,7 @@
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d10} + your fighter level.",
+				"你有一个有限的耐力池，可以用来保护自己免受伤害。在你的回合，你可以使用一个奖励动作来恢复相当于{@dice 1d10} + 你的战士等级的生命值。",
 				"一旦你使用这个功能，你必须完成一个短期或长期的休息才能再次使用。"
 			]
 		},
@@ -1151,7 +1151,7 @@
 			"level": 4,
 			"entries": [
 				"当你达到四级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1168,8 +1168,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Replace a {@filter fighting style|optionalfeatures|feature type=FS:F} you know with another fighting style available to fighters.",
-						"If you know any {@filter maneuvers|optionalfeatures|feature type=MV:B} from the {@class fighter|phb|Battle Master|Battle Master|phb|2-0} archetype, you can replace one maneuver you know with a different maneuver."
+						"用另一种适用于战士的战斗风格替换你所了解的{@filter fighting style|optionalfeatures|feature type=FS:F}。",
+						"如果你知道{@filter maneuvers|optionalfeatures|feature type=MV:B}来自{@class fighter|phb|Battle Master|Battle Master|phb|2-0}原型，你可以用不同的战技替换你已经学会的一个战技。"
 					]
 				}
 			]
@@ -1184,7 +1184,7 @@
 			"classSource": "PHB",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+				"从5级开始，每当你在你的回合上采取{@action Attack}动作时，你可以攻击两次，而不是一次。",
 				"当你在这个等级达到11级时，攻击次数增加到3次，当你在这个等级达到20级时增加到4次。"
 			]
 		},
@@ -1199,7 +1199,7 @@
 			"level": 6,
 			"entries": [
 				"当你达到6级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1226,7 +1226,7 @@
 			"level": 8,
 			"entries": [
 				"当你达到8级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1266,7 +1266,7 @@
 			"classSource": "PHB",
 			"level": 11,
 			"entries": [
-				"At 11th level, you can attack three times whenever you take the {@action Attack} action on your turn."
+				"在11级时，每当你在你的回合上采取{@action Attack}动作时，你可以进行三次攻击。"
 			]
 		},
 		{
@@ -1280,7 +1280,7 @@
 			"level": 12,
 			"entries": [
 				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1307,7 +1307,7 @@
 			"level": 14,
 			"entries": [
 				"当你达到14级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1334,7 +1334,7 @@
 			"level": 16,
 			"entries": [
 				"当你达到16级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1387,7 +1387,7 @@
 			"level": 19,
 			"entries": [
 				"当你达到19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+				"如果你的DM允许使用专长(feats)，你可以选择取得一个{@5etools feat|feats.html}。"
 			]
 		},
 		{
@@ -1400,7 +1400,7 @@
 			"classSource": "PHB",
 			"level": 20,
 			"entries": [
-				"At 20th level, you can attack four times whenever you take the {@action Attack} action on your turn."
+				"在20级时，每当你在你的回合上采取{@action Attack}动作时，你可以进行四次攻击。"
 			]
 		}
 	],
@@ -1438,14 +1438,14 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Echo Knight feature}",
-				"You can use a bonus action to magically manifest an echo of yourself in an unoccupied space you can see within 15 feet of you. This echo is a magical, translucent, gray image of you that lasts until it is destroyed, until you dismiss it as a bonus action, until you manifest another echo, or until you're {@condition incapacitated}.",
-				"Your echo has AC 14 + your proficiency bonus, 1 hit point, and immunity to all conditions. If it has to make a saving throw, it uses your saving throw bonus for the roll. It is the same size as you, and it occupies its space. On your turn, you can mentally command the echo to move up to 30 feet in any direction (no action required). If your echo is ever more than 30 feet from you at the end of your turn, it is destroyed.",
+				"你可以使用一个奖励动作，在你能看到的15英尺内的一个空地方，魔法地显现出一个你的回音。这个回音是你的一个魔法、半透明的灰色影像，持续直到被摧毁、你用一个奖励动作解散它、你显现另一个回音，或者直到你死亡。",
+				"你的回音具有AC 14 + 你的熟练加值，1点生命值，并对所有状态免疫。如果它需要进行豁免扑，它使用你的豁免扑加值进行投掷。它与你大小相同，占据它的空间。在你的回合，你可以心灵指挥回音向任意方向移动最多30英尺（无需行动）。如果在你的回合结束时你的回音距离你超过30英尺，它将被摧毁。",
 				"你可以通过以下方式使用回声。",
 				{
 					"type": "list",
 					"items": [
 						"作为一个额外的动作，你可以传送，以15英尺的移动距离为代价，与你的回声进行神奇的交换，而不管你们之间的距离如何。",
-						"When you take the {@action Attack} action on your turn, any attack you make with that action can originate from your space or the echo's space. You make this choice for each attack.",
+						"当你在你的回合执行{@action Attack}动作时，你使用该动作进行的任何攻击可以起源于你的位置或回声的位置。你需要为每次攻击做出选择。",
 						"当你能看到的在你的回音5英尺范围内的生物从它身边移动至少5英尺时，你可以用你的反应对该生物进行一次机会攻击，就像你在回音的空间里一样。"
 					]
 				}
@@ -1463,7 +1463,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Echo Knight feature}",
-				"You can heighten your echo's fury. Whenever you take the {@action Attack} action, you can make one additional melee attack from the echo's position.",
+				"你可以增强你回音的愤怒。每当你进行{@action Attack}动作时，你可以从回音的位置再进行一次额外的近战攻击。",
 				"你可以使用这个功能的次数等于你的体质修正值（最少一次）。当你完成长时间的休息时，你会重新获得所有已消耗的使用次数。"
 			]
 		},
@@ -1479,7 +1479,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 7th-level Echo Knight feature}",
-				"You can temporarily transfer your consciousness to your echo. As an action, you can see through your echo's eyes and hear through its ears. During this time, you are {@condition deafened} and {@condition blinded}. You can sustain this effect for up to 10 minutes, and you can end it at any time (requires no action). While your echo is being used in this way, it can be up to 1,000 feet away from you without being destroyed."
+				"你可以暂时将你的意识转移到你的回音体中。作为一个动作，你可以通过你的回音体的眼睛看到，通过它的耳朵听到。在此期间，你是{@condition deafened}和{@condition blinded}。你可以维持这种效果长达10分钟，并可以随时结束它（不需要动作）。在你的回音体以这种方式被使用时，它可以离你最远达1,000英尺而不会被摧毁。"
 			]
 		},
 		{
@@ -1510,7 +1510,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 15th-level Echo Knight feature}",
-				"You've learned to absorb the fleeting magic of your echo. When an echo of yours is destroyed by taking damage, you can gain a number of temporary hit points equal to {@dice 2d6} + your Constitution modifier, provided you don't already have temporary hit points.",
+				"你学会了吸收你的回音所带来的短暂魔法。当你的一个回音因受到伤害而被摧毁时，你可以获得一定数量的临时生命值，数量等于{@dice 2d6} + 你的体质调整值，前提是你目前没有临时生命值。",
 				"你可以使用这个功能的次数等于你的体质修正值（最少一次）。当你完成长时间的休息时，你会重新获得所有已消耗的使用次数。"
 			]
 		},
@@ -1540,30 +1540,30 @@
 			"subclassSource": "HWCS",
 			"level": 3,
 			"entries": [
-				"A fighter who hits hard and fights dirty, the Scofflaw balks at the ideals of honor and tradition, doing what they need to survive. Rules are made to be broken, and the Scofflaw extends this logic to their fighting style. Using every trick at their disposal to gain the upper hand against their foes, the Scofflaw cows their enemy into submission, or overwhelms their defenses with a single cheap shot.",
-				"Scofflaws eventually trust their notorious reputation to do much of the work for them, gaining the ability to cause foes to quake with a single threat. Scofflaws are a diverse bunch that run the gamut from graceful yet deadly knaves to bruiser thugs. What ties them together is their belief that there's no such thing as a bad win.",
+				"一个打击力强且以卑鄙手段战斗的战士，(Scofflaw)蔑法者对荣誉和传统的理念持怀疑态度，他们做任何必要的事情来生存。规则就是用来打破的，(Scofflaw)蔑法者将这种逻辑延伸到他们的战斗风格中。利用一切手段来获得对敌人的优势，(Scofflaw)蔑法者会让敌人屈服，或者用一个卑鄙的击打来压倒他们的防御。",
+				"不法之徒最终相信他们臭名昭著的声誉会为他们做大部分工作，获得能力只需一个威胁就能让敌人发抖。不法之徒是一个多样化的群体，从优雅但致命的无赖到粗暴的暴徒应有尽有。将他们联系在一起的是他们的信念，即没有所谓的坏胜利。",
 				{
 					"type": "entries",
 					"name": "Bonus Proficiency",
 					"entries": [
-						"When you choose this Martial Archetype at 3rd level, you gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Insight}, {@skill Intimidation}, {@skill Sleight of Hand}, or {@skill Stealth}. Alternatively, you may learn {@class rogue|phb|Thieves' Cant||phb|Thieves' Cant 1}."
+						"当你在3级时选择这个武术流派时，你可以选择以下技能中的一个获得熟练：{@skill Deception}，{@skill Insight}，{@skill Intimidation}，{@skill Sleight of Hand}，或{@skill Stealth}。或者，你也可以学会{@class rogue|phb|Thieves' Cant||phb|Thieves' Cant 1}。"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Intimidating Banter",
 					"entries": [
-						"At 3rd level, you are adept at integrating insults and barbs into your fighting style. So long as you are in combat, you may choose to use Strength or Dexterity to make Charisma ability checks."
+						"在3级时，你擅长将侮辱和讽刺融入你的战斗风格中。只要你在战斗中，你可以选择使用力量或敏捷来进行魅力属性检定。"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Brutal Brawler",
 					"entries": [
-						"At 3rd level, your tavernside scuffles have honed your ability to deal damage with just about anything that's handy. You have proficiency with improvised weapons, and treat any improvised weapon you handle as if it has the finesse quality.",
-						"Additionally, whenever you hit with an improvised weapon, you may spend a bonus action to break it over your opponent. Doing this destroys the weapon, but deals the maximum number each of the weapon's damage dice could deal to the target. Any additional dice added to the attack's damage roll are not affected by this ability.",
-						"At 10th level, the improvised weapons you wield become even more lethal in your hands. When you spend your bonus action to break an improvised weapon over your opponent, add an additional {@damage 2d6} to the weapon's base damage dice.",
-						"At 18th level, you have advantage on attacks you make with improvised weapons."
+						"在3级时，你在酒馆里的争斗锻炼了你使用任何手边物品造成伤害的能力。你熟练掌握了临时武器，并且将你使用的任何临时武器视为具有灵巧品质。",
+						"此外，每当你用一件临时武器命中时，你可以花费一个奖励动作将其打碎在对手身上。这样做会摧毁武器，但会对目标造成武器的每个伤害骰子可能造成的最大伤害。攻击伤害骰中额外添加的任何骰子都不受此能力影响。",
+						"在10级时，你手中使用的即兴武器变得更加致命。当你花费一个额外动作将一把即兴武器打碎在对手身上时，将额外增加{@damage 2d6}到武器的基础伤害骰中。",
+						"在18级时，你使用(`Improvised Weapons`)时攻击时获得优势。"
 					]
 				}
 			]
@@ -1579,8 +1579,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you are adept at using words and gestures to taunt or fake-out your opponent, turning their lack of composure against them. This allows you to goad your foe into swinging in ways that can cause them to strike their allies, or which leave them open to a counterattack. As a bonus action you can misdirect an opponent within 5 feet of you. The target must succeed on an Intelligence saving throw against a DC equal to 8 + your proficiency bonus + your Strength or Dexterity modifier. On a failure, they must spend their reaction to attack a creature of your choice within 5 feet of them. If no other creatures are present within 5 feet of them, they waste their reaction attacking the air where you once were.",
-				"In order for you to misdirect a creature in this way they must be able to see, hear, or otherwise be able to understand you."
+				"在7级时，你擅长使用言语和手势来嘲讽或欺骗你的对手，将他们的失态转化为对他们的攻击。这让你能够激怒你的敌人，使他们的攻击可能导致他们攻击他们的盟友，或者使他们暴露于反击之下。作为一个奖励动作，你可以误导一个在你5英尺内的对手。目标必须成功进行一次智力豁免检定，检定 DC 为8+ 你的熟练加值 + 你的力量或敏捷调整值。如果失败，他们必须花费自己的反应来攻击你选择的一个在他们5英尺内的生物。如果在他们周围5英尺内没有其他生物，他们会浪费他们的反应攻击你曾经所在的位置。",
+				"为了以这种方式误导生物，它们必须能够看到、听到或以其他方式理解你。(creature)。"
 			]
 		},
 		{
@@ -1594,9 +1594,9 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you are truly skilled at exploiting the openings you create in combat, hitting off-guard opponents with precise blows that are swift and deadly. You may use this technique against any creature that hasn't yet taken a turn in combat, or who you have successfully misdirected this turn. You may also apply this technique to any attack roll you make with advantage. On a hit, you exploit an opening in the target's defenses, dealing an extra {@damage 5d6} points of damage. Once you use this ability, you can't use it again until you have taken a short or long rest.",
-				"At 15th level, the damage dealt by your blindside increases to {@damage 7d6}.",
-				"At 18th level the damage dealt by your blindside increases to {@damage 9d6}. If you have no uses of this ability at the beginning of combat on your turn, you regain one use of it."
+				"在10级时，你真正擅长利用战斗中制造的空隙，用精准、迅速且致命的打击击中毫无防备的对手。你可以对任何还未在战斗中行动过的生物使用这项技能，或者你本回合成功误导的生物。你也可以将这项技能应用于你获得优势的任何攻击投掷中。命中后，你会利用目标防御的空隙，造成额外{@damage 5d6}点伤害。使用一次后，直到你进行短休或长休之前，你不能再次使用这项能力。",
+				"在15级时，你的（blindside）盲视造成的伤害增加到{@damage 7d6}。",
+				"在18级时，你的（Blindside）盲视攻击造成的伤害增加到{@damage 9d6}。如果在战斗开始时你的回合没有使用这个能力，你会恢复一次使用机会。"
 			]
 		},
 		{
@@ -1610,8 +1610,8 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, your reputation precedes you, making it easy for you to strike fear into the hearts of anyone foolish enough to oppose you. As part of your {@action Attack} action, you can utter deadly threats to a single target within 30 feet of you, causing them to become {@condition frightened} of you for 1 minute on a failed Wisdom saving throw. An affected target may repeat this saving throw at the end of each of their turns, ending the effect on a success. The DC for this saving throw is 8 + your proficiency bonus + your Strength or Dexterity modifier. A creature who has witnessed or heard tales of your ruthlessness makes this saving throw with disadvantage.",
-				"In order for you to use this feature, a creature must be able to see, hear, or otherwise be able to understand you."
+				"在15级时，你的名声已经走在你前面，让你能够轻易地让那些愚蠢到与你对抗的人心生畏惧。作为你的{@action Attack}动作的一部分，你可以向你30英尺内的单个目标发出致命威胁，使其在未通过感知豁免扑克牌时对你产生{@condition frightened}，持续1分钟。受影响的目标可以在他们的每个回合结束时重复进行这次豁免扑克牌，若成功则结束效果。这次豁免扑克牌的 DC 为 8 + 你的熟练加值 + 你的力量或敏捷调整值。已经目睹或听说过你残忍行径的生物进行这次豁免扑克牌时带有劣势。",
+				"为了您能使用这个功能，生物必须能看见、听见或以其他方式理解您。"
 			]
 		},
 		{
@@ -1625,7 +1625,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you have perfected the art of exploiting your opponent's weakness. Whenever you take the attack action against an opponent you have successfully misdirected this turn, or an opponent that is afflicted by a {@book condition|PHB|11}, you may make one additional attack against that opponent. You may only use this feature once per round."
+				"在18级时，你已经完美掌握了利用对手弱点的艺术。每当你对你成功误导的对手采取攻击动作，或对一个受到{@book condition|PHB|11}影响的对手采取攻击动作时，你可以对该对手进行一次额外的攻击。你每回合只能使用这个特性一次。"
 			]
 		},
 		{
@@ -1689,7 +1689,7 @@
 							"type": "entries",
 							"name": "Superiority Dice",
 							"entries": [
-								"You have four superiority dice, which are {@dice d8}s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.",
+								"你有四个优势骰，它们是{@dice d8}s。当你使用一枚优势骰时，它会被消耗掉。当你完成短休或长休时，你会恢复所有已消耗的优势骰。",
 								"你在7级时获得另一个优势模子，在15级时再获得一个。"
 							]
 						}
@@ -1730,7 +1730,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level fighter {@variantrule optional class features|tce|optional feature}}",
-				"If you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters but also to characters who have a special feature like the {@optfeature Superior Technique|TCE} fighting style or the {@feat Martial Adept} feat.",
+				"如果你可以使用战斗技，以下技能将被添加到你可选择的选项列表中。技能可供战斗大师使用，也可供具有特殊特性，如{@optfeature Superior Technique|TCE}战斗风格或{@feat Martial Adept}特性的角色使用。",
 				{
 					"type": "entries",
 					"entries": [
@@ -1866,7 +1866,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you gain proficiency with one type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} of your choice."
+				"在3级时，你可以选择获得一种你选择的{@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}的熟练加值。"
 			]
 		},
 		{
@@ -1908,7 +1908,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:",
+				"如果你至少花费1分钟观察或与另一个生物在战斗外互动，你可以了解关于它的能力与你自己相比的某些信息。DM告诉你，该生物在你选择的两个以下特征方面是你的对手、优势还是劣势：",
 				{
 					"type": "list",
 					"items": [
@@ -1948,7 +1948,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, your superiority dice turn into {@dice d10}s."
+				"在10级时，你的优势骰变成{@dice d10}s。"
 			]
 		},
 		{
@@ -2004,7 +2004,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, your superiority dice turn into {@dice d12}s."
+				"在18级时，你的优势骰变成{@dice d12}s。"
 			]
 		},
 		{
@@ -2139,12 +2139,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter wizard spell list|spells|class=wizard}.",
+				"当你达到3级时，你可以通过施法能力增强你的武术技能。请参阅{@book chapter 10|PHB|10}了解施法的一般规则，{@book chapter 11|PHB|11}了解{@filter wizard spell list|spells|class=wizard}。",
 				{
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"You learn two cantrips of your choice from the {@filter wizard spell list|spells|class=wizard}. You learn an additional wizard cantrip of your choice at 10th level."
+						"你可以从{@filter wizard spell list|spells|class=wizard}中选择两个戏法。在10级时，你可以学习一个额外的巫师戏法。"
 					]
 				},
 				{
@@ -2154,8 +2154,8 @@
 							"type": "entries",
 							"name": "Spell Slots",
 							"entries": [
-								"The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your {@filter wizard spells|spells|class=wizard} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-								"For example, if you know the 1st-level spell {@spell shield} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell shield} using either slot."
+								"奥术骑士施法表显示了你可以使用的法术位数量，用来施放你{@filter wizard spells|spells|class=wizard}及更高等级的法术。要施放这些法术之一，你必须消耗一个等级不低于该法术等级的法术位。当你完成一次长休后，你会恢复所有已消耗的法术位。",
+								"例如，如果你知道1级法术{@spell shield}，并且有一个1级和一个2级法术位可用，你可以使用任一法术位施放{@spell shield}。"
 							]
 						}
 					]
@@ -2182,7 +2182,7 @@
 							"type": "entries",
 							"name": "Spellcasting Ability",
 							"entries": [
-								"Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+								"智力是你作为巫师法术的施法能力，因为你通过学习和记忆来学习法术。每当一个法术提到你的施法能力时，你就使用你的智力。此外，当你施放巫师法术并设定施法难度等级时，以及进行攻击检定时，你也会使用你的智力修正值。",
 								{
 									"type": "abilityDc",
 									"name": "Spell",
@@ -2215,7 +2215,7 @@
 			"header": 1,
 			"entries": [
 				"在3级时，你学习一种仪式，在你和一件武器之间建立一种神奇的联系。你在1小时内完成这个仪式，可以在短暂的休息中完成。在整个仪式过程中，武器必须在你伸手可及的范围内，在仪式结束时，你会接触到武器并建立起纽带。",
-				"Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are {@condition incapacitated}. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.",
+				"一旦你将武器与自己绑定，除非你是{@condition incapacitated}，否则无法被解除武器。如果在同一存在平面上，你可以在你的回合使用奖励动作召唤该武器，使其立即传送到你的手中。",
 				"你最多可以拥有两把绑定的武器，但每次只能用你的额外行动召唤一把。如果你试图与第三把武器结合，你必须与另外两把武器中的一把解除结合。"
 			]
 		},
@@ -2340,8 +2340,8 @@
 			"header": 2,
 			"entries": [
 				"紫龙骑士充当科米雷亚王室的特使。享有崇高地位的骑士被期望以优雅的方式行事。",
-				"At 7th level, you gain proficiency in the {@skill Persuasion} skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Insight}, {@skill Intimidation}, or {@skill Performance}.",
-				"Your proficiency bonus is doubled for any ability check you make that uses {@skill Persuasion}. You receive this benefit regardless of the skill proficiency you gain from this feature."
+				"在第7级时，你获得{@skill Persuasion}技能的熟练加值。如果你已经熟练于该技能，你可以选择获得以下技能中的一个熟练加值：{@skill Animal Handling}，{@skill Insight}，{@skill Intimidation}，或{@skill Performance}。",
+				"你在进行任何使用{@skill Persuasion}的能力检定时，你的熟练加值翻倍。无论你从这个特性获得的技能熟练度如何，你都会获得这个好处。"
 			]
 		},
 		{
@@ -2370,7 +2370,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't {@condition incapacitated}, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll."
+				"从15级开始，你可以将你的不屈特性的好处延伸到一个盟友身上。当你决定使用不屈来重新投掷一次智力、感知或魅力豁免检定，且你不是{@condition incapacitated}时，你可以选择一个在你周围60英尺范围内也未通过相同效果的豁免检定的盟友。如果那个生物能看到或听到你，它可以重新投掷它的豁免检定，并且必须使用新的点数。"
 			]
 		},
 		{
@@ -2397,7 +2397,7 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Awake to the psionic power within, a Psi Warrior is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force. Many githyanki train to become such warriors, as do some of the most disciplined high elves. In the world of Eberron, many young kalashtar dream of becoming Psi Warriors.",
+				"唤醒内心的超能力，一名（Psi Warrior）（普西战士）是一名战士，通过灌注灵能的武器打击、念动鞭笞和精神力场来增强他们的身体力量。许多（githyanki）（吉斯扬奇）训练成为这样的战士，一些纪律最严明的高等精灵也是如此。在艾伯隆的世界中，许多年轻的（kalashtar）（卡拉夏塔）梦想成为（Psi Warriors）（普西战士）。",
 				"作为一名灵媒战士，你可能已经通过单人修炼磨练了你的灵媒能力，在大师的指导下解锁了它，或者在一所致力于将心灵的力量作为武器和盾牌挥舞的学院里完善了它。",
 				{
 					"type": "refSubclassFeature",
@@ -2417,9 +2417,9 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Psi Warrior feature}",
-				"You harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, which are each a {@dice d6}. You have a number of these dice equal to twice your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.",
+				"你体内蕴藏着丰富的灵能能量。这种能量由你的灵能骰子代表，每个骰子都是一个{@dice d6}。你拥有的这些骰子数量等于你熟练加值的两倍，它们为你拥有的各种灵能力量提供能量，具体细节如下。",
 				"你的一些能力会消耗他们所使用的幻能骰子，这在能力的描述中有所说明，如果一个能力要求你在你的骰子都被消耗掉时使用骰子，你就不能使用这个能力。当你完成一个长时间的休息时，你会重新获得你所有消耗的幻能骰子。此外，作为一个额外的动作，你可以重新获得一个已消耗的幻能骰子，但在你完成短时或长时休息之前，你不能再次这样做。",
-				"When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level ({@dice d8}), 11th level ({@dice d10}), and 17th level ({@dice d12}).",
+				"当你在这个职业中达到特定等级时，你的灵能骰子的大小会增加：在5级（{@dice d8}），11级（{@dice d10}），和17级（{@dice d12}）。",
 				"下面的力量使用你的幻觉能量骰子。",
 				{
 					"type": "options",
@@ -2482,7 +2482,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 10th-level Psi Warrior feature}",
-				"The psionic energy flowing through you has bolstered your mind. You have resistance to psychic damage. Moreover, if you start your turn {@condition charmed} or {@condition frightened}, you can expend a Psionic Energy die and end every effect on yourself subjecting you to those conditions."
+				"你体内流动的超能能量增强了你的思维。你对精神伤害具有抗性。此外，如果你在你的回合开始时{@condition charmed}或{@condition frightened}，你可以消耗一个超能能量骰并结束对你施加这些状态的所有效果。"
 			]
 		},
 		{
@@ -2497,8 +2497,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 15th-level Psi Warrior feature}",
-				"You can shield yourself and others with telekinetic force. As a bonus action, you can choose creatures, which can include you, that you can see within 30 feet of you, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures is protected by half cover for 1 minute or until you're {@condition incapacitated}.",
-				"Once you take this bonus action, you can't do so again until you finish a long rest, unless you expend a Psionic Energy die to take it again."
+				"你可以用心灵力场保护自己和他人。作为一个额外动作，你可以选择在你视线范围内、距离你30英尺以内的生物，包括你自己，数量不超过你的智力调整值（至少一个生物）。被选择的每个生物在1分钟内或直到你{@condition incapacitated}时，都受到半掩体的保护。",
+				"一旦你使用这个奖励动作，你就不能再次这样做，直到你完成一次长休，除非你消耗一个灵能骰来再次使用。"
 			]
 		},
 		{
@@ -2513,8 +2513,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 18th-level Psi Warrior feature}",
-				"Your ability to move creatures and objects with your mind is matched by few. You can cast the {@spell telekinesis} spell, requiring no components, and your spellcasting ability for the spell is Intelligence. On each of your turns while you concentrate on the spell, including the turn when you cast it, you can make one attack with a weapon as a bonus action.",
-				"Once you cast the spell with this feature, you can't do so again until you finish a long rest, unless you expend a Psionic Energy die to cast it again."
+				"你能用意念移动生物和物体的能力是少有的。你可以施放{@spell telekinesis}法术，无需材料，该法术的施法能力为智力。在你专注于该法术的每个回合，包括你施放它的回合，你可以将一次武器攻击作为奖励动作。",
+				"一旦你使用这个特性施放了法术，除非你消耗一个灵能骰来再次施放它，否则你在完成一次长休之前不能再次这样做。"
 			]
 		},
 		{
@@ -2527,7 +2527,7 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant's craft and learned how to apply magic runes to empower your equipment.",
+				"符文骑士通过符文的超自然力量增强他们的武术能力，这是一种古老的实践，起源于巨人。在任何巨人家族中都可以找到符文切割者，你很可能是从这样一位神秘的工匠那里直接或间接学到了这些方法。无论是在山丘或洞穴中发现巨人的作品，从智者那里了解符文，还是亲自遇见巨人，你都研究了巨人的手艺，并学会了如何将魔法符文应用于强化你的装备。",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Bonus Proficiencies|Fighter||Rune Knight|TCE|3"
@@ -2554,7 +2554,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Rune Knight feature}",
-				"You gain proficiency with {@item smith's tools|PHB}, and you learn to speak, read, and write {@language Giant}."
+				"你获得{@item smith's tools|PHB}的熟练加值，并学会说、读、写{@language Giant}。"
 			]
 		},
 		{
@@ -2569,16 +2569,16 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Rune Knight feature}",
-				"You have learned how to imbue yourself with the might of giants. As a bonus action, you magically gain the following benefits, which last for 1 minute:",
+				"你学会了如何赋予自己巨人的力量。作为一个奖励动作，你会魔法般地获得以下好处，持续1分钟：",
 				{
 					"type": "list",
 					"items": [
-						"If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn't change.",
-						"You have advantage on Strength checks and Strength saving throws.",
-						"Once on each of your turns, one of your attacks with a weapon or an unarmed strike can deal an extra {@damage 1d6} damage to a target on a hit."
+						"如果你比大型还要小，你会变成大型，连同你穿戴的任何物品一起。如果没有足够的空间变成大型，你的大小不会改变。",
+						"你在力量检定和力量豁免 throws 时具有优势。",
+						"每当你的回合时，你使用武器或徒手攻击之一可以在命中时对目标造成额外{@damage 1d6}的伤害。"
 					]
 				},
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest."
+				"你可以使用这个特性的次数等于你的熟练加值，当你完成一次长休后，你会恢复所有已用次数。"
 			]
 		},
 		{
@@ -2593,8 +2593,8 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Rune Knight feature}",
-				"You can use magic runes to enhance your gear. You learn two runes of your choice, from among the runes described below, and each time you gain a level in this class, you can replace one rune you know with a different one from this feature. When you reach certain levels in this class, you learn additional runes, as shown in the Runes Known table.",
-				"Whenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, a suit of armor, a shield, a piece of jewelry, or something else you can wear or hold in a hand. Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes at a time.",
+				"你可以使用魔法符文来增强你的装备。你可以选择学习两个符文，从下面描述的符文中选择，每次你在这个职业中获得一个等级时，你可以用这个特性中的不同符文替换你已经学会的一个符文。当你在这个职业中达到一定等级时，你会学到额外的符文，如符文了解表所示。",
+				"每当你完成一次长休，你可以触摸数量等同于你所知道符文数量的物体，并在每个物体上刻下一个不同的符文。为符合条件，一个物体必须是武器、一套盔甲、一个盾牌、一件珠宝，或者其他你可以穿戴或手持的物品。你的符文会留在一个物体上，直到你完成一次长休，而一个物体一次只能承载你的一个符文。",
 				{
 					"type": "table",
 					"caption": "Runes Known",
@@ -2625,7 +2625,7 @@
 						]
 					]
 				},
-				"The following runes are available to you when you learn a rune. If a rune has a level requirement, you must be at least that level in this class to learn the rune. If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Constitution modifier.",
+				"当你学习符文时，以下符文将可供选择。如果一个符文有等级要求，你必须至少达到该职业的等级才能学习该符文。如果一个符文需要豁免才能生效，你的符文魔法豁免 DC 等于 8 + 你的熟练加值 + 你的体质调整值。",
 				{
 					"type": "options",
 					"count": 2,
@@ -2672,7 +2672,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 7th-level Rune Knight feature}",
-				"You learn an additional Rune."
+				"你学会了一个额外的符文。"
 			]
 		},
 		{
@@ -2687,8 +2687,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 7th-level Rune Knight feature}",
-				"You learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to force the attacker to reroll the {@dice d20} and use the new roll.",
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"你学会了如何发动你的符文魔法来保护你的盟友。当你能看到的另一个生物在你的60英尺内被攻击命中时，你可以使用你的反应来强迫攻击者重新投掷{@dice d20}并使用新的点数。",
+				"你可以使用这个特性的次数等于你的熟练加值，当你完成一次长休后，你会恢复所有已使用的次数。"
 			]
 		},
 		{
@@ -2703,7 +2703,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 10th-level Rune Knight feature}",
-				"You learn an additional Rune."
+				"你学会了一个额外的符文。"
 			]
 		},
 		{
@@ -2718,8 +2718,8 @@
 			"header": 2,
 			"entries": [
 				"{@i 10th-level Rune Knight feature}",
-				"The magic of your runes permanently alters you. When you gain this feature, roll {@dice 3d4}. You grow a number of inches in height equal to the roll.",
-				"Moreover, the extra damage you deal with your Giant's Might feature increases to {@dice 1d8}."
+				"符文的魔力永久地改变了你。当你获得这个特性时，投掷{@dice 3d4}。你的身高将增加相等于投掷结果的英寸。",
+				"此外，你使用巨人之力特性造成的额外伤害增加至{@dice 1d8}。"
 			]
 		},
 		{
@@ -2734,7 +2734,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 15th-level Rune Knight feature}",
-				"You learn an additional Rune."
+				"你学会了一个额外的符文。"
 			]
 		},
 		{
@@ -2749,7 +2749,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 15th-level Rune Knight feature}",
-				"You can invoke each rune you know from your Rune Carver feature twice, rather than once, and you regain all expended uses when you finish a short or long rest."
+				"你可以从你的符文雕刻者特性中召唤每个你所知道的符文两次，而不是一次，当你完成短休或长休时，你会恢复所有已用次数。"
 			]
 		},
 		{
@@ -2764,7 +2764,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 18th-level Rune Knight feature}",
-				"You learn how to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant's Might feature increases to {@dice 1d10}. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet."
+				"你学会了如何增强你的符文动力转化。因此，你使用巨人之力特性造成的额外伤害增加到{@dice 1d10}。此外，当你使用该特性时，你的体型可以增加到巨大，并且在那种体型下，你的攻击距离增加5英尺。"
 			]
 		},
 		{
@@ -2777,7 +2777,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
+				"一名奥术射手（Arcane Archer）研究一种独特的精灵射箭方法，将魔法融入攻击中，产生超自然效果。奥术射手是精灵中最精锐的战士之一。他们守护着精灵领地的边缘，警惕地守望着入侵者，并使用魔法箭矢击败怪物和侵略者，防止它们接近精灵聚居地。几个世纪以来，其他种族的成员学习了这些精灵射手的方法，他们也能够平衡奥术能力和射箭技巧。",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Arcane Archer Lore|Fighter||Arcane Archer|XGE|3"
@@ -2803,7 +2803,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn magical theory or some of the secrets of nature—typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the {@skill Arcana} or the {@skill Nature} skill, and you choose to learn either the {@spell prestidigitation} or the {@spell druidcraft} cantrip."
+				"在3级时，你学会了魔法理论或一些自然的秘密—这对这个精灵武术传统的从业者来说很典型。你可以选择在{@skill Arcana}或{@skill Nature}技能中获得熟练加成，并且你可以选择学会{@spell prestidigitation}或{@spell druidcraft}这两个戏法。"
 			]
 		},
 		{
@@ -2817,9 +2817,9 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see \"Arcane Shot Options\" below).",
-				"Once per turn when you fire an arrow from a shortbow or longbow as part of the {@action Attack} action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.",
-				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
+				"在3级时，你学会了在一些射击中释放特殊的魔法效果。当你获得这个特性时，你可以选择学习两个你喜欢的奥术射击选项（见下文的“奥术射击选项”）。",
+				"每回合一次，当你在{@action Attack}行动中从短弓或长弓射出箭矢时，你可以将你的奥术射击选项之一应用于该箭矢。除非该选项不涉及攻击骰，否则你决定在箭矢击中生物时使用该选项。你有两次使用这个能力的机会，当你完成短暂休息或长休息时，你会恢复所有已用尽的次数。",
+				"当你达到该职业的特定等级时（第7级，第10级，第15级和第18级），你将获得额外的一个自选奥术射击选项。当你成为18级战士时，每个选项也会得到提升。"
 			]
 		},
 		{
@@ -2833,8 +2833,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.",
-				"If an option requires a saving throw, your Arcane Shot save DC is calculated as follows:",
+				"奥术射击（Arcane Shot）特性允许你在特定等级时为其选择选项。这些选项按字母顺序列在这里。它们都是魔法效果，每一个与魔法学派中的一个相关联。",
+				"如果一个选项需要豁免检定，你的奥术射击豁免 DC 的计算如下：",
 				{
 					"type": "abilityDc",
 					"name": "Arcane Shot",
@@ -2893,7 +2893,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"You gain an additional Arcane Shot option of your choice when you reach 7th level."
+				"当你达到7级时，你将获得额外的一个你选择的奥术射击选项。"
 			]
 		},
 		{
@@ -2907,7 +2907,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target."
+				"在第7级时，你学会了如何将一支偏离的箭矢引向新目标。当你用一支魔法箭进行攻击投掷并未命中时，你可以使用一个奖励动作来对原始目标范围内的另一个目标重新投掷攻击骰。"
 			]
 		},
 		{
@@ -2921,7 +2921,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target."
+				"在第7级时，你获得了将箭矢注入魔法的能力。每当你从短弓或长弓射出一支非魔法箭矢时，你可以使其在克服对非魔法攻击和伤害的抗性和免疫方面变得魔法。箭矢命中或未命中目标后，魔法立即从箭矢上消失。"
 			]
 		},
 		{
@@ -2935,7 +2935,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"You gain an additional Arcane Shot option of your choice when you reach 10th level."
+				"当你达到10级时，你将获得额外的一个自选奥术射击选项。"
 			]
 		},
 		{
@@ -2949,7 +2949,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"You gain an additional Arcane Shot option of your choice when you reach 15th level."
+				"当你达到15级时，你将获得额外的一个自选奥术射击选项。"
 			]
 		},
 		{
@@ -2963,7 +2963,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, your magical archery is available whenever battle starts. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it."
+				"从15级开始，每当战斗开始时，你的魔法射击就可以使用。如果你进行先攻骰判，并且没有剩余的奥术射击使用次数，你会恢复一次使用次数。"
 			]
 		},
 		{
@@ -2977,7 +2977,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"You gain an additional Arcane Shot option of your choice when you reach 18th level. Each option also improves when you become an 18th-level fighter."
+				"当你达到18级时，你将获得一个额外的奥术射击选项，你可以自行选择。每个选项在你成为18级战士时也会得到提升。"
 			]
 		},
 		{
@@ -2990,7 +2990,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Compelled to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure.",
+				"典型的骑士在骑战中表现出色。通常出生于贵族家庭并在宫廷长大，骑士在领导骑兵冲锋或在国宴上交换机智回答时同样游刃有余。骑士还学会如何保护身边的人免受伤害，经常充当上级和弱者的保护者。许多这样的战士被迫纠正错误或赢得声望，他们中的许多人离开舒适的生活踏上光荣的冒险之旅。",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Bonus Proficiency|Fighter||Cavalier|XGE|3"
@@ -3016,7 +3016,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill History}, {@skill Insight}, {@skill Performance}, or {@skill Persuasion}. Alternatively, you learn one language of your choice."
+				"当你在3级时选择这个职业分支时，你可以选择以下技能中的一个获得熟练：{@skill Animal Handling}，{@skill History}，{@skill Insight}，{@skill Performance}，或{@skill Persuasion}。或者，你可以选择学习一门语言。"
 			]
 		},
 		{
@@ -3030,8 +3030,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not {@condition incapacitated}.",
-				"Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
+				"从3级开始，你作为骑手的精通变得显而易见。你在避免从坐骑上摔下的豁免投掷中获得优势。如果你从坐骑上摔下并且下降不超过10英尺，你可以稳稳地落在脚下，如果你不是{@condition incapacitated}。",
+				"最后，骑乘或下马一只生物只需花费5英尺的移动，而不是半个速度。"
 			]
 		},
 		{
@@ -3045,10 +3045,10 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a melee weapon attack, you can mark the creature until the end of your next turn. This effect ends early if you are {@condition incapacitated} or you die, or if someone else marks the creature.",
-				"While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you.",
-				"In addition, if a creature marked by you deals damage to anyone other than you, you can make a special melee weapon attack against the marked creature as a bonus action on your next turn. You have advantage on the attack roll, and if it hits, the attack's weapon deals extra damage to the target equal to half your fighter level.",
-				"Regardless of the number of creatures you mark, you can make this special attack a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+				"从3级开始，你可以威胁你的敌人，挫败他们的攻击并惩罚他们伤害他人。当你用近战武器攻击命中一只生物时，你可以标记这只生物，直到你的下一个回合结束。如果你处于 {@condition incapacitated} 状态，或者你死亡，或者其他人标记了这只生物，这个效果会提前结束。",
+				"当一个生物被你标记时，只要它在你的5英尺范围内，对除了以你为目标的攻击骰有劣势。",
+				"此外，如果你标记的生物对除你以外的任何人造成伤害，你可以在下一个回合的奖励动作中对被标记的生物进行特殊的近战武器攻击。你在攻击检定中获得优势，并且如果命中，该攻击的武器对目标造成额外伤害，数值等于你战士等级的一半。",
+				"无论你标记了多少生物，你都可以使用这个特殊攻击的次数等于你的力量调整值（最少一次），当你完成一次长休时，你会恢复所有已用次数。"
 			]
 		},
 		{
@@ -3062,8 +3062,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can roll {@dice 1d8} as a reaction if you're wielding a melee weapon or a shield. Roll the die, and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.",
-				"You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+				"在第7级时，你学会了抵御针对你、你的坐骑或附近其他生物的攻击。如果你或你能看到的生物在你身边5英尺内被攻击，你可以作为一次反应投掷{@dice 1d8}，前提是你握着近战武器或盾牌。投掷这个骰子，并将投掷的数字加到目标的AC上以抵御那次攻击。如果攻击仍然命中，目标对该攻击的伤害具有抗性。",
+				"你可以使用这个特性的次数等于你的体质调整值（最少一次），当你完成一次长休后，你会恢复所有已用次数。"
 			]
 		},
 		{
@@ -3077,7 +3077,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you become a master of locking down your enemies. Creatures provoke an opportunity attack from you when they move 5 feet or more while within your reach, and if you hit a creature with an opportunity attack, the target's speed is reduced to 0 until the end of the current turn."
+				"在10级时，你成为了锁定敌人的大师。当生物在你的攻击范围内移动5英尺或更多时，它们会触发一次机会攻击，如果你用机会攻击命中一只生物，目标的速度将降低到0，直到当前回合结束。"
 			]
 		},
 		{
@@ -3091,7 +3091,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, you can run down your foes, whether you're mounted or not. If you move at least 10 feet in a straight line right before attacking a creature and you hit it with the attack, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}. You can use this feature only once on each of your turns."
+				"从15级开始，你可以追逐你的敌人，无论你是否骑乘。如果你在攻击生物之前以直线移动至少10英尺，并且成功命中目标，那个目标必须通过一次力量豁免才能避免被击倒（DC为8 + 你的熟练加值 + 你的力量调整值）。你每个回合只能使用这个特性一次。"
 			]
 		},
 		{
@@ -3105,7 +3105,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you respond to danger with extraordinary vigilance. In combat, you get a special reaction that you can take once on every creature's turn, except your turn. You can use this special reaction only to make an opportunity attack, and you can't use it on the same turn that you take your normal reaction."
+				"从18级开始，你对危险作出非凡警惕的反应。在战斗中，你获得一种特殊反应，你可以在每个生物的回合中使用一次，除了你自己的回合。你只能使用这个特殊反应来进行一次机会攻击，而且你不能在同一个回合中使用你的普通反应。"
 			]
 		},
 		{
@@ -3118,7 +3118,7 @@
 			"subclassSource": "XGE",
 			"level": 3,
 			"entries": [
-				"The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's resolve is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.",
+				"武士是一名战士，凭借不屈不挠的战斗精神来战胜敌人。武士的决心几乎是坚不可摧的，站在武士道上的敌人只有两个选择：屈服或者战斗至死。",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Bonus Proficiency|Fighter||Samurai|XGE|3"
@@ -3140,7 +3140,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: {@skill History}, {@skill Insight}, {@skill Performance}, or {@skill Persuasion}. Alternatively, you learn one language of your choice."
+				"当你在3级时选择这个职业原型时，你可以选择以下技能中的一个获得熟练：{@skill History}，{@skill Insight}，{@skill Performance}，或{@skill Persuasion}。或者，你可以学习一种你选择的语言。"
 			]
 		},
 		{
@@ -3154,8 +3154,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, your intensity in battle can shield you and help you strike true. As a bonus action on your turn, you can give yourself advantage on weapon attack rolls until the end of the current turn. When you do so, you also gain 5 temporary hit points. The number of temporary hit points increases when you reach certain levels in this class, increasing to 10 at 10th level and 15 at 15th level.",
-				"You can use this feature three times, and you regain all expended uses of it when you finish a long rest."
+				"从3级开始，你在战斗中的激情可以保护你，并帮助你准确打击目标。作为你回合的一个奖励动作，你可以在当前回合结束前给自己的武器攻击投掷获得优势。当你这样做时，你还会获得5点临时生命值。当你达到这个职业的特定等级时，临时生命值的数量会增加，分别在10级时增加到10点，在15级时增加到15点。",
+				"你可以使用这个特性三次，当你完成一次长休后，你会恢复所有已用次数。"
 			]
 		},
 		{
@@ -3169,8 +3169,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Starting at 7th level, your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma ({@skill Persuasion}) check, you gain a bonus to the check equal to your Wisdom modifier.",
-				"Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+				"从7级开始，你对细节的纪律和关注使你在社交场合中表现出色。每当你进行一个魅力检定时，你获得一个等同于你的感知调整值的奖励。",
+				"你的自控力也让你在感知豁免 throws 中获得熟练加值。如果你已经具备这种熟练加值，你可以选择在智力或魅力豁免 throws 中获得熟练加值。"
 			]
 		},
 		{
@@ -3184,7 +3184,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, when you roll initiative and have no uses of Fighting Spirit remaining, you regain one use."
+				"从10级开始，当你投掷先攻检定并且没有剩余的战斗精神使用次数时，你会恢复1次使用次数。"
 			]
 		},
 		{
@@ -3198,7 +3198,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, you learn to trade accuracy for swift strikes. If you take the {@action Attack} action on your turn and have advantage on an attack roll against one of the targets, you can forgo the advantage for that roll to make an additional weapon attack against that target, as part of the same action. You can do so no more than once per turn."
+				"从15级开始，你学会了用迅捷的打击来换取准确度。如果你在你的回合中采取{@action Attack}动作，并且对一个目标的攻击投掷有优势，你可以放弃这次投掷的优势，来对该目标进行额外的武器攻击，作为同一个动作的一部分。你每回合最多只能这样做一次。"
 			]
 		},
 		{
@@ -3212,8 +3212,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that reduces you to 0 hit points and doesn't kill you outright, you can use your reaction to delay falling {@condition unconscious}, and you can immediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall {@condition unconscious} if you still have 0 hit points.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
+				"从18级开始，你的战斗精神可以延缓死亡的降临。如果你受到的伤害使你的生命值降至0点但没有立即杀死你，你可以使用你的反应来延迟倒下{@condition unconscious}，并立即获得额外的回合，打断当前的回合。在额外回合中，当你的生命值为0时，受到伤害会导致死亡豁免检定失败，三次死亡豁免检定失败仍然会导致你死亡。当额外回合结束时，如果你的生命值仍然为0，你会倒下{@condition unconscious}。",
+				"使用此功能后，直到你完成一次长休（long rest）之前，你无法再次使用它。"
 			]
 		},
 		{
@@ -3229,7 +3229,7 @@
 				"name": "Psionic Energy Die"
 			},
 			"entries": [
-				"When you or another creature you can see within 30 feet of you takes damage, you can use your reaction to expend one Psionic Energy die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force."
+				"当你或你能看到的另一个生物在你身边30英尺内受到伤害时，你可以使用你的反应来消耗一个灵能骰，投掷该骰子，并将投掷的数字加上你的智力调整值减少所受到的伤害（最少减少1点），就像你创造了一层瞬时的念动力护盾。"
 			]
 		},
 		{
@@ -3245,7 +3245,7 @@
 				"name": "Psionic Energy Die"
 			},
 			"entries": [
-				"You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of you with an attack and deal damage to it with a weapon, you can expend one Psionic Energy die, rolling it and dealing force damage to the target equal to the number rolled plus your Intelligence modifier."
+				"你可以用灵能力量推动你的武器。每个回合一次，在你击中距离30英尺内的目标并用武器造成伤害后，你可以消耗一个灵能骰，投掷它并对目标造成等于投掷数加上你的智力调整值的力量伤害。"
 			]
 		},
 		{
@@ -3258,7 +3258,7 @@
 			"subclassSource": "TCE",
 			"level": 3,
 			"entries": [
-				"You can move an object or a creature with your mind. As an action, you target one loose object that is Large or smaller or one willing creature, other than yourself. If you can see the target and it is within 30 feet of you, you can move it up to 30 feet to an unoccupied space you can see. Alternatively, if it is a Tiny object, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both. Once you take this action, you can't do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again."
+				"你可以用意念移动一个物体或生物。作为一个动作，你可以选择一个大或更小的松散物体或一个愿意的生物作为目标，但不能选择自己。如果你能看见目标并且它在你的30英尺内，你可以将其移动最多30英尺到一个你能看见的空地。或者，如果它是一个微小的物体，你可以将其移到你的手中或从你的手中移开。无论哪种方式，你都可以水平、垂直或两者同时移动目标。一旦你使用了这个动作，你必须完成一次短暂或长时间休息才能再次使用，除非你消耗一个灵能骰来再次使用。"
 			]
 		},
 		{
@@ -3271,7 +3271,7 @@
 			"subclassSource": "TCE",
 			"level": 7,
 			"entries": [
-				"As a bonus action, you can propel your body with your mind. You gain a flying speed equal to twice your walking speed until the end of the current turn. Once you take this bonus action, you can't do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again."
+				"作为一个奖励动作，你可以用你的意念推动你的身体。你获得一个飞行速度，等于你的步行速度的两倍，直到当前回合结束。一旦你使用了这个奖励动作，你必须完成一次短休或长休才能再次使用，除非你消耗一个灵能能量骰来再次使用。"
 			]
 		},
 		{
@@ -3284,7 +3284,7 @@
 			"subclassSource": "TCE",
 			"level": 7,
 			"entries": [
-				"When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. If the save fails, you can knock the target {@condition prone} or move it up to 10 feet in any direction horizontally."
+				"当你用你的灵能打击对目标造成伤害时，你可以强迫目标进行一次力量豁免检定，DC值为8 + 你的熟练加值 + 你的智力修正。如果豁免失败，你可以击倒目标 {@condition prone} 或将其沿任意水平方向移动多达10英尺。"
 			]
 		}
 	]
