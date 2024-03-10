@@ -124,7 +124,7 @@
 							"name": "Group Assistance",
 							"page": 6,
 							"entries": [
-								"Each member of the party can grant advantage on an ability check, an attack roll or a saving throw of another member of the party. To grant advantage in this way the character and the chosen target must be able to see or hear each other and neither can be {@condition incapacitated}. Once a party member grants this advantage that individual can't do so again until they finish a long rest."
+								"小组中的每个成员可以为另一个小组成员的能力检定、攻击骰或豁免骰提供优势。为了以这种方式提供优势，角色和被选择的目标必须能够看到或听到彼此，且两者都不能是{@condition incapacitated}。一旦一个小组成员提供了这种优势，该个体在完成一次长休息之前不能再这样做。"
 							],
 							"id": "00c"
 						}
@@ -199,7 +199,7 @@
 							"rows": [
 								[
 									"1",
-									"Athkatla",
+									"阿特卡拉 (Athkatla)",
 									"剑与魔法, 城市",
 									"冒险家协会，苏恩教会，巴哈姆特骑士，翡翠飞地，哈珀斯，影子盗贼"
 								],
@@ -217,7 +217,7 @@
 								],
 								[
 									"4",
-									"Ust Natha",
+									"乌斯纳萨 (Ust Natha)",
 									"黑暗幻想, 地下城",
 									"冒险家协会，巴哈姆特骑士团，影子盗贼"
 								]
@@ -272,7 +272,7 @@
 								[
 									"5",
 									"火焰之拳",
-									"Borivik, {@creature Nauk|MaBJoV}",
+									"波里维克，{@creature Nauk|MaBJoV}",
 									"雇佣兵与战争",
 									"为世界上最可怕的雇佣军工作。"
 								],
@@ -337,7 +337,7 @@
 								],
 								[
 									"2",
-									"Bhaal",
+									"巴哈尔 (Bhaal)",
 									"谋杀之神。被认为已经死亡一个多世纪了。最近他重生了，为了重建他的力量，他试图用血来洗刷世界。",
 									"{@creature Pelyious Avhoste|MaBJoV|Pelyious}, {@creature Kagain|MaBJoV}, {@creature Sarevok|MaBJoV|Sarevok Anchev}"
 								],
@@ -422,7 +422,7 @@
 								{
 									"type": "item",
 									"name": "Religions:",
-									"entry": "Waukeen (dominant), Helm, Sune, Milil, Selûne, Lathander, Cyric"
+									"entry": "瓦金 (Waukeen), 赫尔姆 (Helm), 素妮 (Sune), 米利尔 (Milil), 塞伦尼 (Selûne), 拉瑟德 (Lathander), 赛瑞克 (Cyric)"
 								}
 							]
 						},
@@ -886,7 +886,7 @@
 										],
 										[
 											"5",
-											"{@creature Tasloi|MaBJoV} who have infested a forest or sewer system"
+											"{@creature Tasloi|MaBJoV}已经侵入了森林或下水道系统"
 										],
 										[
 											"6",
@@ -933,7 +933,7 @@
 												],
 												[
 													"16-24",
-													"Simple {@item +1 Weapon||weapon, +1}—{@item +1 dagger||dagger}, {@item +1 mace||mace} or {@item +1 sickle||sickle}",
+													"简单的 {@item +1 Weapon||weapon, +1}—{@item +1 dagger||dagger}，{@item +1 mace||mace} 或 {@item +1 sickle||sickle}",
 													"300 gp"
 												],
 												[
@@ -1066,7 +1066,7 @@
 									"type": "entries",
 									"name": "Shop of the Bizarre",
 									"entries": [
-										"The most powerful items in Athkatla can be found in a shop run by the enigmatic and ruthless neogi. These spider-like monsters are planar travelers that trade in magic items and slaves. Each visit to the shop brings the chance of danger, for sometimes the neogi aren't looking to sell items, but are more interested in acquiring new slaves. When this happens, all of the magical items in the store are illusionary and the neogi have prepared an ambush. For each shopper, there is a neogi and an umber hulk, with a single neogi master leading the ambush. More powerful customers might mean the neogi bring an additional {@dice 1d6} gray renders. Item costs are as follows:",
+										"在阿斯卡特拉（Athkatla）最强大的物品可以在由神秘而残忍的（neogi）经营的商店中找到。这些类似蜘蛛的怪物是平面旅行者，贸易魔法物品和奴隶。每次到店里的访问都带来了危险的可能性，因为有时（neogi）并不是想要出售物品，而是更感兴趣获取新的奴隶。当这种情况发生时，商店里所有的魔法物品都是幻觉，（neogi）已经准备好了伏击。对于每位购物者，都有一个（neogi）和一个土狼（umber hulk），还有一个（neogi）主人领导着伏击。更强大的顾客可能意味着（neogi）会带来额外的{@dice 1d6}灰色渲染者（gray renders）。物品的成本如下：",
 										{
 											"type": "table",
 											"caption": "Shop of the Bizarre Finds",
@@ -1088,22 +1088,22 @@
 												],
 												[
 													"21-30",
-													"Roll {@dice 4d4} times on Table B",
+													"在表B上投掷{@dice 4d4}次。",
 													"10%"
 												],
 												[
 													"31-40",
-													"Roll {@dice 2d4} times on Table B, Roll {@dice 2d4} times on Table C",
+													"在B表上投掷{@dice 2d4}次，在C表上投掷{@dice 2d4}次。",
 													"10%"
 												],
 												[
 													"41-50",
-													"Roll {@dice 3d4} times on Table B, Roll {@dice 1d4} times on Table D",
+													"在B表上投掷{@dice 3d4}次，在D表上投掷{@dice 1d4}次。",
 													"20%"
 												],
 												[
 													"51-60",
-													"Roll {@dice 2d4} times on Table C, Roll {@dice 1d4} times on Table D",
+													"在表C上投掷{@dice 2d4}次，在表D上投掷{@dice 1d4}次。",
 													"20%"
 												],
 												[
@@ -1113,37 +1113,37 @@
 												],
 												[
 													"66-73",
-													"Roll {@dice 1d4} times on Table E, Roll {@dice 2d4} times on Table F",
+													"在E表上掷骰{@dice 1d4}次，在F表上掷骰{@dice 2d4}次。",
 													"20%"
 												],
 												[
 													"74-80",
-													"Roll {@dice 3d4} times on Table F",
+													"在F表上投掷{@dice 3d4}次。",
 													"30%"
 												],
 												[
 													"81-85",
-													"Roll {@dice 2d12} times on Table F",
+													"在F表上投掷{@dice 2d12}次。",
 													"40%"
 												],
 												[
 													"86-90",
-													"Roll {@dice 1d12} times on Table F, Roll {@dice 2d4} times on Table G",
+													"在F表上投掷{@dice 1d12}次，在G表上投掷{@dice 2d4}次。",
 													"50%"
 												],
 												[
 													"91-94",
-													"Roll {@dice 2d12} times on Table G",
+													"在G表上投掷{@dice 2d12}次。",
 													"60%"
 												],
 												[
 													"95-98",
-													"Roll {@dice 2d12} times on Table H",
+													"在H表上投掷{@dice 2d12}次。",
 													"70%"
 												],
 												[
 													"99-00",
-													"Roll {@dice 2d12} times on Table I",
+													"在表格I上投掷{@dice 2d12}次。",
 													"80%"
 												]
 											]
@@ -1687,7 +1687,7 @@
 									"type": "entries",
 									"name": "Sorcerous Sundries",
 									"entries": [
-										"This famed magical shop has had multiple owners over the decades. Currently it is a front for a Red Wizard operation led by Edwin Odeisseron. The Red Wizards are adept at discerning a customer's importance (reflected in the required level for the item) and reserve rarer items to those customers who they consider influential. However, a successful {@skill Deception} check at DC 20 can bypass this restriction. The Red Wizards can have a purchased item teleported from Thay within an hour.",
+										"这家著名的魔法商店在过去几十年里换了多位主人。目前，它是由艾德温·奥迪瑟隆（Edwin Odeisseron）领导的红袍巫师行动的掩护所。红袍巫师擅长识别顾客的重要性（体现在物品所需等级上），并将更稀有的物品保留给他们认为有影响力的顾客。然而，一次成功的{@skill Deception}检定达到DC 20可以绕过这一限制。红袍巫师可以在一小时内将购买的物品从泰国传送过来。",
 										{
 											"type": "table",
 											"caption": "Magic Items at Sorcerous Sundries",
@@ -1932,7 +1932,7 @@
 							"type": "entries",
 							"name": "The Shadowfell",
 							"entries": [
-								"This dismal echo of Suldanessellar exists in the Shadowfell. This realm is lorded over by the siblings Jon and {@creature Bodhi Irenicus|MaBJoV}. In their version of the elven city it is always night. The city is as beautiful as its counterpart, except for a few places that have been twisted to reflect the inhabitants, such as the palace where Jon rules and the tower where Bodhi roosts. The former House of the Horn has become a lair for the Shadar-Kai, a twisted race of elves associated with the Raven Queen—the dark ruler of the entire Shadowfell. Finally, the branches on the borders of the city are black and malformed, becoming the domain of bloodthirsty {@creature wolfwere|MaBJoV|wolfweres}. The branches grow thicker the further one travels, and only with the permission of either Jon or Bodhi will a path open up for someone to escape back into the real world.",
+								"这个阴暗的苏尔达内塞拉的回音存在于暗影界。这个领域由兄妹琼和{@creature Bodhi Irenicus|MaBJoV}统治。在他们的版本中，这个精灵城市永远是黑夜。这座城市和它的对应之处一样美丽，除了一些地方被扭曲以反映居民，比如琼统治的宫殿和博迪栖息的塔楼。前角之家已经变成了沙达凯的巢穴，这是一群与乌鸦女王有关的扭曲种族——整个暗影界的黑暗统治者。最后，城市边界上的树枝是黑色且畸形的，成为了嗜血的{@creature wolfwere|MaBJoV|wolfweres}的领地。随着旅行的深入，树枝变得越来越厚，只有得到琼或博迪的允许，才会为某人打开一条通往现实世界的逃生之路。",
 								"琼恩和菩提引诱泰瑟尔森林各地的旅行者进入他们被诅咒的领域。他们的做法是在塞卢娜的月亮最圆的时候，在森林中开辟通道。这些小路似乎通向超自然的美丽丛林，或者回荡着美丽的精灵之歌。虽然大多数被骗进影子领域的人都是来自苏尔达内塞拉城的年轻精灵，但几乎每个种族都有成员被困在精灵城市的黑暗反射中。",
 								"那些第一次到达的人发现自己在一个让人联想到现实世界对应物的地方。大多数被困在影子城市的人试图重新创造一种正常生活的模样。大多数精灵人口用音乐分散自己的注意力，在星空下跳舞，向塞尔达林祈祷。对于一些精灵来说，这个地方的绝望让他们无法忍受，他们要么加入沙达-凯，要么游荡到黑枝的外面，被{@creature wolfwere|MaBJoV|wolfweres}撕碎。",
 								"乔恩和菩提一直在寻找那些能够帮助他们从监狱中解脱出来的人。他们成立了一个名为伊卡洛斯骑士团的组织。该组织的成员是这对兄妹唯一允许离开他们领域的人。骑士团的成员寻找魔法秘密，或抓捕有学识的圣人或施法者带回给他们的主人。波帝是一个识别那些可能有加入骑士团所需才能的人，他从新被困的旅行者或在影子城长大的孩子中挑选候选人，这些人刚刚成年。",
@@ -2025,7 +2025,7 @@
 									"type": "entries",
 									"name": "1. Hamadryad Nest",
 									"entries": [
-										"Gathering place for cursed {@creature hamadryad|MaBJoV|hamadryads}."
+										"聚集被诅咒者的地方 {@creature hamadryad|MaBJoV|hamadryads}。"
 									],
 									"page": 21,
 									"id": "067"
@@ -2106,7 +2106,7 @@
 									"type": "entries",
 									"name": "10. Palace",
 									"entries": [
-										"Where {@creature Jon Irenicus|MaBJoV} rules."
+										"在{@creature Jon Irenicus|MaBJoV}规则下。"
 									],
 									"page": 21,
 									"id": "070"
@@ -2474,7 +2474,7 @@
 								{
 									"type": "item",
 									"name": "Religions:",
-									"entry": "Lolth"
+									"entry": "蜘蛛女皇 (Lolth)"
 								}
 							]
 						},
@@ -2491,7 +2491,7 @@
 										{
 											"type": "item",
 											"name": "Matron Mother:",
-											"entry": "Phaere Despana"
+											"entry": "菲尔·德斯帕纳 (Phaere Despana)"
 										},
 										{
 											"type": "item",
@@ -2501,12 +2501,12 @@
 										{
 											"type": "item",
 											"name": "Head Wizard:",
-											"entry": "Malavon Despana"
+											"entry": "马拉沃恩·德斯帕纳 (Malavon Despana)"
 										},
 										{
 											"type": "item",
 											"name": "Weapon Master:",
-											"entry": "Chalinthra Despana"
+											"entry": "查琳思拉·德斯帕娜 (Chalinthra Despana)"
 										}
 									]
 								},
@@ -2566,7 +2566,7 @@
 							"type": "inset",
 							"name": "Carcerus",
 							"entries": [
-								"This prison is used not only by Ust Natha, but by other drow cities such as Rilauven and Guallidurth; even non-drow cities such as the nearby dwarven city of Iltkazar use the prison on occasion for their worst criminals. It is considered by most Underdark denizens as unescapable and being consigned to the prison a fate worse than death. The reason for this is that it is run by demodands from the infernal plane of Carceri. A portal to the plane of Carceri is even located in its lower depths. Some of the prisoners rumored to be held in the prison include powerful drider, rogue illithid such as Alhoon and even a few specimens of phaerrim. Worst of all, some believe that the demodands keep a small number of {@creature bebilith|MaBJoV} that they have tortured into serving their needs. These spider-like creatures can unerringly pursue escaped prisoners anywhere across Faerûn."
+								"这座监狱不仅被乌斯特纳萨(Ust Natha)使用，还被其他黑暗精灵城市如瑞劳文(Rilauven)和瓜利杜斯(Guallidurth)使用；甚至像附近的矮人城市伊尔特卡扎尔(Iltkazar)这样的非黑暗精灵城市偶尔也会用来关押他们最恶劣的罪犯。对于大多数地下世界居民来说，这座监狱被认为是无法逃脱的，被关进这里被视为比死亡还要可怕的命运。造成这种情况的原因是监狱由来自地狱位面卡塞里(Carceri)的恶魔主宰。甚至在其更深的地方有一扇通往卡塞里位面的传送门。据传监狱中关押的一些囚犯包括强大的蜘蛛人、流亡的邪恶智能食脑怪（Alhoon）甚至一些法瑞姆(phaerrim)的样本。更糟糕的是，有人相信这些恶魔主宰关押了一小部分{@creature bebilith|MaBJoV}，他们被折磨成为恶魔主宰的仆从。这些类似蜘蛛的生物可以毫无误差地追踪逃脱的囚犯，无论他们逃到法罗(Faerûn)的任何地方。"
 							],
 							"page": 25,
 							"id": "07c"
@@ -2883,7 +2883,7 @@
 											"type": "entries",
 											"name": "2. Achaierai Pen",
 											"entries": [
-												"Captured {@creature achaierai|MaBJoV} are brought here."
+												"被捕获的{@creature achaierai|MaBJoV}被带到这里。"
 											],
 											"page": 26,
 											"id": "082"
@@ -3000,7 +3000,7 @@
 											"type": "entries",
 											"name": "15. Woolanth",
 											"entries": [
-												"Small library and one of the largest collections of knowledge on Netheril in Faerûn, including books that detail the location of {@creature phaerimm|MaBJoV} prison cysts."
+												"在法罗的一个小图书馆中，拥有关于尼瑟里尔的最大收藏之一，其中包括详细描述{@creature phaerimm|MaBJoV}监狱囊肿位置的书籍。"
 											],
 											"page": 26,
 											"id": "08f"
@@ -3225,7 +3225,7 @@
 															"15"
 														],
 														[
-															"Egotistical svirfneblin",
+															"自负的地底侏儒（Svirfneblin）",
 															"2 gp",
 															"15",
 															"15"
@@ -3498,7 +3498,7 @@
 											"name": "Arcane Secrets",
 											"page": 35,
 											"entries": [
-												"Candlekeep has the largest library of magical knowledge in all of Faerûn. This includes books and scrolls describing the secrets of how to build magic items. In order to find the appropriate recipe, you must have an {@skill Arcana} bonus equal to or higher than what is listed. Most recipes have prerequisite material components, often requiring you to hunt down a specific kind of monster. To craft the item, you must spend gold equal to the material cost. Some items require the aid of a powerful assistant to craft. You only need the assistant for a single day. You can either use {@skill Persuasion} or charm magic to get their assistance.",
+												"烛堡(Candlekeep)拥有整个法罗(Faerûn)大陆上最庞大的魔法知识图书馆。其中包括描述如何制造魔法物品的书籍和卷轴。为了找到适当的配方，你必须拥有等于或高于所列数值的{@skill Arcana}奖励。大多数配方都有先决材料成分，通常需要你追踪特定种类的怪物。要制作物品，你必须花费与材料成本相等的金币。一些物品需要一位强大的助手来制作。你只需要这位助手一天的时间。你可以使用{@skill Persuasion}或魅惑魔法来获得他们的帮助。",
 												{
 													"type": "table",
 													"caption": "Adventurer's Guild Arcane Secrets",
@@ -4221,7 +4221,7 @@
 														],
 														[
 															"米塔尔路径",
-															"Myth Rynn in the forest of Tethyr or Myth Drannor in the forest of Cormanthor",
+															"泰西尔森林中的神话林恩（Myth Rynn）或科曼索尔森林中的神话德兰诺（Myth Drannor）",
 															"1",
 															"快餐店"
 														],
@@ -4238,7 +4238,7 @@
 															"Ettercaps和巨型蜘蛛"
 														],
 														[
-															"Tree roots to Ysgard",
+															"通往(Ysgard)的树根",
 															"月亮之门--塞卢娜和苏妮女神的家",
 															"7",
 															"孤独的绿帽子或女巫"
@@ -4250,7 +4250,7 @@
 															"弗莫里亚巨头"
 														],
 														[
-															"Mushroom ring to Bytopia",
+															"蘑菇环到双顶界(Bytopia)",
 															"Whispertree--古老的橡树，是神Baervan Wildwanderer的家。",
 															"7",
 															"孤独的夜行者或女巫"
@@ -5074,7 +5074,7 @@
 														{
 															"type": "item",
 															"name": "Bronze:",
-															"entry": "The egg must be exposed to the sky for 12 hours a day or suffused with electricity once a day. The {@spell shocking grasp} spell could be used."
+															"entry": "蛋必须每天暴露在天空下12小时，或者每天注入电力。可以使用{@spell shocking grasp}咒语。"
 														},
 														{
 															"type": "item",
@@ -5167,7 +5167,7 @@
 											"name": "Mouthpiece",
 											"page": 70,
 											"entries": [
-												"You speak directly for {@creature Jon Irenicus|MaBJoV}. You may use the {@spell sending} spell to communicate with him once per day.",
+												"你直接代表{@creature Jon Irenicus|MaBJoV}发言。你每天可以使用{@spell sending}法术与他交流一次。",
 												{
 													"type": "list",
 													"items": [
@@ -5260,7 +5260,7 @@
 										],
 										[
 											"5",
-											"Mythal. Investigate a recently discovered Mythal"
+											"神秘力量。调查最近发现的神秘力量（Mythal）。"
 										],
 										[
 											"6",
@@ -5631,7 +5631,7 @@
 											"name": "Collect Memories",
 											"page": 79,
 											"entries": [
-												"The Raven Queen collects memories just like a raven collects trinkets. The Raven Queen only seeks the memories of powerful or influential entities, specifically those who have suffered great loss or tragedy. If you can give her the memories from these kinds of people, the Raven Queen will reward you. Collecting memories requires you to obtain an item that is precious to the person whose memories you wish to steal. You must then say a prayer to the Raven Queen with the item in hand and the owner in sight within 100 ft. This infuses the item with all of the target's memories of loss, shame and tragedy. When you give this item to one of your contacts ({@creature Lothar|MaBJoV} or {@creature Viktor|MaBJoV}) everyone in your group gains a devotion token that is either a feather, a gold coin or a gem (so long as the target associated with the item is still alive/undead). Each member of your group can only have one of each token at any given time and cannot give them to anyone else. The tokens you gain are as follows:",
+												"乌鸦女王（The Raven Queen）就像乌鸦收集小玩意一样收集记忆。乌鸦女王只寻求强大或有影响力实体的记忆，特别是那些遭受巨大损失或悲剧的人。如果你能给她这些人的记忆，乌鸦女王会奖赏你。收集记忆需要你获得一个对于你想窃取记忆的人来说珍贵的物品。然后你必须手持这个物品，目标在100英尺内，向乌鸦女王祈祷。这会让这个物品充满目标的所有失落、羞耻和悲剧的记忆。当你把这个物品交给你的联系人（{@creature Lothar|MaBJoV} 或 {@creature Viktor|MaBJoV}）时，你们团队的每个人都会获得一枚虔诚令牌，可以是一根羽毛、一枚金币或一颗宝石（只要与物品相关的目标仍然活着/是不死之身）。你的团队中每个成员一次只能拥有一枚每种令牌，并且不能把它们给其他人。你获得的令牌如下：",
 												{
 													"type": "table",
 													"caption": "Devotion Tokens",
