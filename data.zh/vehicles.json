@@ -24,7 +24,7 @@
 				"psychic"
 			],
 			"entries": [
-				"This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence ({@skill Investigation}) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster.",
+				"这个物品起初看起来是一个重达500磅的大铁桶。这个桶有一个隐藏的开关，可以通过成功的DC 20智力检定({@skill Investigation})找到。释放开关会解锁桶一端的舱口，允许两个中等或更小的生物爬进去。桶的另一端有十个杠杆排成一排，每个都处于中立位置，可以向上或向下移动。当使用特定的杠杆时，这个装置会变形成一个巨大的龙虾。",
 				"作为车辆使用，该设备需要一名驾驶员。当仪器的舱门关闭时，舱内是气密和水密的。舱内有足够的空气供10小时的呼吸，除以里面的呼吸生物数量。",
 				"该仪器漂浮在水面上。它也可以在水下走到900英尺的深度。低于此深度时，车辆每分钟会因压力而受到{@damage 2d6}的击打伤害。",
 				"车厢内的生物可以使用一个动作来向上或向下移动多达两个仪器的杠杆。每次使用后，一个杠杆会回到它的中立位置。每个杠杆，从左到右，其功能如Kwalish杠杆仪器表所示。",
@@ -237,7 +237,7 @@
 					"ac": 15,
 					"hp": 50,
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 120/480 ft., one target. {@h}11 ({@damage 2d10}) piercing damage, and the target is {@condition grappled} (escape DC 16). Until the grapple ends, the target's speed is halved, and it can't move farther away from the battle balloon. Each of the battle balloon's harpoon guns can grapple one target. While it has one or more targets {@condition grappled} with its harpoon gun attack, the battle balloon's speed is not halved."
+						"{@atk rw}进行攻击，射程120/480英尺，目标为一个。造成{@h}11({@damage 2d10})点穿刺伤害，并且目标被{@condition grappled}（逃脱豁免 DC 16）抓住。直到角斗气球结束抓取，目标的速度减半，且不能远离角斗气球。每个角斗气球的鱼叉炮都可以抓取一个目标。当角斗气球用其鱼叉炮攻击抓住一个或多个目标{@condition grappled}时，角斗气球的速度不会减半。"
 					]
 				}
 			],
@@ -266,12 +266,12 @@
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "The battle balloon can use its helm to move using its propeller. If the battle balloon enters a Large or smaller creature's space, that creature is automatically pushed to the edge of the battle balloon's space. The creature must also succeed on a DC 15 Dexterity saving throw or take 5 ({@damage 1d10}) bludgeoning damage."
+							"entry": "战斗气球可以使用其舵轮通过螺旋桨移动。如果战斗气球进入一个大型或更小生物的空间，那个生物会被自动推到战斗气球空间的边缘。该生物还必须成功通过一次DC 15的敏捷豁免才能避免受到5({@damage 1d10})点的钝击伤害。"
 						},
 						{
 							"type": "item",
 							"name": "Harpoon Haul",
-							"entry": "The battle balloon can pull each target {@condition grappled} by it up to 30 feet toward the battle balloon."
+							"entry": "战斗气球可以将每个目标{@condition grappled}朝着战斗气球拉动多达30英尺。"
 						}
 					]
 				}
@@ -513,7 +513,7 @@
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"If the Demon Grinder rolls over and falls {@condition prone}, it can't right itself and is {@condition incapacitated} until flipped upright."
+						"如果恶魔研磨机翻倒并摔倒{@condition prone}，它无法自我矫正，直到被翻正为止，此时它是{@condition incapacitated}。"
 					]
 				}
 			],
@@ -597,13 +597,13 @@
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"If the Devil's Ride falls {@condition prone}, it can't right itself and is {@condition incapacitated} until pulled upright."
+						"如果魔鬼之骑{@condition prone}倒下，它无法自行矫正，直到被拉直为止，它是{@condition incapacitated}。"
 					]
 				},
 				{
 					"name": "Stunt",
 					"entries": [
-						"On its turn, the driver of the Devil's Ride can expend 10 feet of movement to perform one free vehicle stunt, such as a wheelie or a burnout. Before the stunt can be performed, the Devil's Ride must move at least 10 feet in a straight line. If the driver succeeds on a DC 10 Dexterity check using the bike's Dexterity, the stunt is successful. Otherwise, the driver is unable to perform the stunt and can't attempt another stunt until the start of its next turn. If the check fails by 5 or more, the Devil's Ride and all creatures riding it immediately fall {@condition prone} as the bike wipes out and comes to a dead stop."
+						"在其回合中，恶魔之骑驾驶员可以消耗10英尺的移动来执行一个免费的车辆特技，比如单车或者烧胎。在执行特技之前，恶魔之骑必须至少直线移动10英尺。如果驾驶员使用摩托车的敏捷值进行一次DC 10的敏捷检定成功，特技就成功了。否则，驾驶员无法执行特技，并且直到下一个回合开始之前都不能尝试另一个特技。如果检定失败超过5点，恶魔之骑和所有骑乘它的生物立即摔倒{@condition prone}，摩托车失控并停止。"
 					]
 				}
 			],
@@ -847,12 +847,12 @@
 						{
 							"type": "item",
 							"name": "Fire Ballistas",
-							"entry": "The galley can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+							"entry": "船舱可以发射它的{@object ballista||ballistas} (DMG, ch. 8)。"
 						},
 						{
 							"type": "item",
 							"name": "Fire Mangonels",
-							"entry": "The galley can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+							"entry": "舰船可以发射其{@object mangonel||mangonels}（DMG，第8章）。"
 						},
 						{
 							"type": "item",
@@ -1090,7 +1090,7 @@
 						{
 							"type": "item",
 							"name": "Fire Ballista",
-							"entry": "The keelboat can fire its {@object ballista} (DMG, ch. 8)."
+							"entry": "这艘龙骨船可以发射它的{@object ballista}（DMG，第8章）。"
 						},
 						{
 							"type": "item",
@@ -1457,7 +1457,7 @@
 								{
 									"type": "item",
 									"name": "Paralyzing Ray",
-									"entry": "The targeted creature must succeed on a DC 15 Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "目标生物必须成功通过一次 DC 15 的体质豁免才能免疫 {@condition paralyzed} 1 分钟。目标可以在每个回合结束时重复进行豁免才能，成功则结束自身的效果。"
 								}
 							]
 						}
@@ -1914,12 +1914,12 @@
 						{
 							"type": "item",
 							"name": "Fire Ballista",
-							"entry": "The ship can fire its {@object ballista} (DMG, ch. 8)."
+							"entry": "这艘船可以发射它的{@object ballista} (DMG, ch. 8)。"
 						},
 						{
 							"type": "item",
 							"name": "Fire Mangonel",
-							"entry": "The ship can fire its {@object mangonel} (DMG, ch. 8)."
+							"entry": "船只可以发射它的{@object mangonel} (DMG, ch. 8)。"
 						},
 						{
 							"type": "item",
@@ -1988,7 +1988,7 @@
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"If the Scavenger rolls over and falls {@condition prone}, it can't right itself and is {@condition incapacitated} until flipped upright."
+						"如果清道夫翻倒并摔倒了{@condition prone}，它无法自行翻正，直到被翻正为止，它会保持倒立状态{@condition incapacitated}。"
 					]
 				}
 			],
@@ -2467,7 +2467,7 @@
 				{
 					"name": "Pilot",
 					"entries": [
-						"The Stahlmaster requires a Medium humanoid to pilot it. While inside the Stahlmaster, the pilot uses the vehicle's speed and action options and can't take reactions or use bonus actions, and the pilot has total cover. If the Stahlmaster drops to 0 hit points, the pilot is ejected from it and lands {@condition prone} in an unoccupied space within 5 feet of the vehicle."
+						"Stahlmaster需要一个中型人形生物来驾驶。当位于Stahlmaster内部时，驾驶员使用车辆的速度和动作选项，不能进行反应或使用奖励动作，并且驾驶员有完全掩护。如果Stahlmaster的生命值降至0点，驾驶员会从中弹出，并落在车辆附近5英尺内的一个空位中{@condition prone}。"
 					]
 				}
 			],
@@ -2633,7 +2633,7 @@
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"If the Tormentor rolls over and falls {@condition prone}, it can't right itself and is {@condition incapacitated} until flipped upright."
+						"如果折磨者(Tormentor)翻倒并摔倒{@condition prone}，它无法自行翻正，直到被翻正为止，它是{@condition incapacitated}。"
 					]
 				},
 				{
@@ -2954,12 +2954,12 @@
 						{
 							"type": "item",
 							"name": "Fire Ballistas",
-							"entry": "The warship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+							"entry": "这艘军舰可以发射它的{@object ballista||ballistas} (DMG, ch. 8)。"
 						},
 						{
 							"type": "item",
 							"name": "Fire Mangonels",
-							"entry": "The warship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+							"entry": "这艘军舰可以发射它的{@object mangonel||mangonels} (DMG, ch. 8)。"
 						},
 						{
 							"type": "item",
@@ -3073,7 +3073,7 @@
 				"SHP:O"
 			],
 			"entries": [
-				"The bones of ancient, mysterious creatures festoon the ship. Potent runes crawl across these remains, emitting a sickly green radiance. When a humanoid dies aboard the ship, that creature must make a DC 12 Wisdom saving throw. On a successful save, it dies as normal. If it fails, it immediately rises as a {@creature zombie} obedient to the ship's captain. The zombie gains a working knowledge of the ship, allowing it to serve as a member of the crew. A number of creatures equal to the ship's creature capacity can be animated in this manner at any given time."
+				"古老而神秘生物的骨骼装饰着这艘船。强大的符文爬满这些遗骸，散发出一种病态的绿光。当有人型生物在船上死亡时，该生物必须进行一次DC 12的感知豁免检定。若成功通过检定，它会像正常死亡一样死去。如果失败，它会立即升起成为一名(%)，顺从于船长。这具僵尸会获得对船只的工作知识，使其能够作为船员之一。在任何给定时间内，船只的生物容量相等数量的生物可以以这种方式被激活。"
 			]
 		},
 		{
@@ -3096,7 +3096,7 @@
 			],
 			"entries": [
 				"暴风雨在这些刻有符文的铁链中肆虐。在风暴之神的庇佑下行动的突击队员和海盗有时会使用这种升级。",
-				"By draping the chains over a ship's hull, the storm's fury thrashes into the water around it. The water within 210 feet of the ship is {@quickref difficult terrain||3} for everything other than this ship."
+				"当将链条垂挂在船体上时，风暴的狂怒将袭击周围的水域。船舶周围210英尺范围内的水域对于除了这艘船之外的一切都是{@quickref difficult terrain||3}。"
 			]
 		},
 		{
@@ -3118,7 +3118,7 @@
 				"SHP:W"
 			],
 			"entries": [
-				"Enhanced by abjuration magic, this weapon's attacks burst with raucous noise capable of momentarily distracting and disorienting enemy crews. If this weapon hits a vehicle's hull, that vehicle's speed decreases by {@dice 2d10} feet until the start of the attacker's next turn."
+				"这件武器被遗忘魔法强化，其攻击伴随着喧闹的噪音，能够短暂地分散和迷惑敌人。如果这件武器击中了一个载具的船体，那个载具的速度将减少 {@dice 2d10} 英尺，直到攻击者的下一个回合开始。"
 			]
 		},
 		{
@@ -3419,7 +3419,7 @@
 				"IWM:W"
 			],
 			"entries": [
-				"This flexible hose is connected to a tank that holds 30 gallons of water from the {@area River Styx|1a3|x}. Each use of the weapon depletes 10 gallons of the water. Refilling the tank requires access to the Styx.",
+				"这根柔软的软管连接到一个容量为30加仑的水箱{@area River Styx|1a3|x}。每次使用武器会消耗10加仑的水。重新填满水箱需要接触斯提克斯(Styx)。",
 				{
 					"type": "entries",
 					"name": "Styx Sprayer (Requires 1 Crew and Grants Half Cover; 3 Uses)",

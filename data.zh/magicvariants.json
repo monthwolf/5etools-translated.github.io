@@ -507,8 +507,8 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
-					"While wearing this armor, you can use your reaction to give yourself advantage on a saving throw you make against a spell. Once this property is used, it can't be used again until the next dawn.",
-					"In addition, while you wear this armor, you can use it to cast {@spell Antimagic Field}, requiring no spell components. Once this property is used, it can't be used again until the next dawn."
+					"穿上这套盔甲后，你可以利用你的反应，在对抗法术的豁免检定中获得优势。一旦这个特性被使用，直到第二天黎明之前都无法再次使用。",
+					"此外，当你穿戴这件盔甲时，你可以使用它施展{@spell Antimagic Field}，无需法术材料。一旦这个特性被使用，直到第二天黎明之前都无法再次使用。"
 				],
 				"attachedSpells": [
 					"antimagic field"
@@ -658,7 +658,7 @@
 				"page": 65,
 				"rarity": "uncommon",
 				"entries": [
-					"While wearing this armor, you can take a bonus action to make the armor emit poisonous spores, which fill a 10-foot-radius sphere centered on yourself. Each creature in that area must succeed on a DC 15 Constitution saving throw or have the poisoned condition until the end of your next turn. Once this property is used, it can't be used again until the next dawn."
+					"穿上这件盔甲后，你可以花费一个额外动作让盔甲散发出有毒的孢子，填满以自己为中心的一个半径为10英尺的球形范围。该区域内的每个生物必须通过一次 DC 15 的体质豁免才能免疫中毒状态，直到你的下一个回合结束。一旦这个效果被使用，直到第二天黎明前都不能再次使用。"
 				]
 			},
 			"hasFluffImages": true
@@ -825,13 +825,13 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
-					"Set in the center of this armor's chest is a citrine engraved with the shield rune.",
-					"While wearing this armor, your hit point maximum increases by an amount equal to 10 + your level.",
+					"这套盔甲的胸前中央镶嵌着一个刻有盾符文的黄水晶。",
+					"穿上这套盔甲后，你的生命值上限将增加一个数值，该数值等于10 + 你的等级。",
 					{
 						"type": "entries",
 						"name": "Invoking the Rune",
 						"entries": [
-							"As an action, you can invoke the armor's rune to cast the {@spell beacon of hope} spell with it; the spell has a duration of 1 minute and doesn't require {@status concentration}. Once the rune has been invoked, it can't be invoked again until the next dawn."
+							"作为一个动作，你可以激活盔甲上的符文来施放{@spell beacon of hope}法术；该法术持续时间为1分钟，且不需要{@status concentration}。一旦符文被激活，直到第二天黎明之前都不能再次激活。"
 						]
 					}
 				],
@@ -858,8 +858,8 @@
 				"rarity": "uncommon",
 				"reqAttune": true,
 				"entries": [
-					"While wearing this armor, you can use it to cast either {@spell Speak with Dead} or {@spell Animate Dead}. Once the armor has cast a spell in this way, it can't cast either spell until the next dawn.",
-					"Your soul keeps this armor together. If you die while you are attuned to the armor, the armor is destroyed."
+					"穿上这件盔甲后，你可以使用它来施放{@spell Speak with Dead}或{@spell Animate Dead}中的任意一个。一旦盔甲以这种方式施放了一个法术，直到第二天黎明之前它就无法再施放任何法术。",
+					"你的灵魂维系着这套盔甲。如果你在与盔甲保持认同的状态下死亡，那么这套盔甲将被摧毁。"
 				]
 			},
 			"hasFluffImages": true
@@ -913,8 +913,8 @@
 				"rechargeAmount": "{@dice 1d4 + 1}",
 				"charges": 5,
 				"entries": [
-					"This armor has 5 charges. While you wear it, you can use a bonus action to expend 1 or more charges to cast one of the following spells from the armor, targeting yourself: {@spell Jump} (1 charge) or {@spell Levitate} (2 charges).",
-					"This armor regains {@dice 1d4 + 1} expended charges daily at dawn."
+					"这件盔甲有5个充能。当你穿戴它时，你可以使用一个奖励动作来消耗1个或更多充能，从盔甲中施放以下法术之一，以自己为目标：{@spell Jump} (1个充能) 或 {@spell Levitate} (2个充能)。",
+					"这套护甲在每天黎明时恢复{@dice 1d4 + 1}已用尽的充能。"
 				],
 				"attachedSpells": [
 					"jump",
@@ -945,8 +945,8 @@
 			"ammo": true,
 			"entries": [
 				"{@note * This generic variant has the same name and source as the item {@item arrow of slaying}}.",
-				"An {@i arrow of slaying} is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both {@i arrows of dragon slaying} and {@i arrows of blue dragon slaying}. If a creature belonging to the type, race, or group associated with an {@i arrow of slaying} takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra {@dice 6d10} piercing damage on a failed save, or half as much extra damage on a successful one.",
-				"Once an {@i arrow of slaying} deals its extra damage to a creature, it becomes a nonmagical arrow.",
+				"一 {@i arrow of slaying} 是一种魔法武器，旨在杀死特定类型的生物。有些比其他的更专注; 例如，有 {@i arrows of dragon slaying} 和 {@i arrows of blue dragon slaying}。如果属于与 {@i arrow of slaying} 相关的类型、种族或群体的生物受到箭矢伤害，该生物必须进行一次 DC 17 的体质豁免检定，未通过检定则额外受到 {@dice 6d10} 穿刺伤害，通过检定则额外受到一半的伤害。",
+				"一旦一个{@i arrow of slaying}对生物造成额外伤害，它就会变成一支非魔法箭。",
 				"其他类型的此类魔法弹药也存在，比如用于弩箭的杀戮之箭，不过箭是最常见的。"
 			],
 			"inherits": {
@@ -1064,13 +1064,13 @@
 				"reqAttune": true,
 				"curse": true,
 				"entries": [
-					"When you attack a creature with this magic weapon and roll a 20 on the attack roll, the creature must make a DC 15 Constitution saving throw in addition to suffering the attack's normal effects. On a failed save, the creature is restrained and must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this effect three times, the effect ends. If it fails its saves three times, it is turned to stone and subjected to the {@condition petrified} condition for 1 hour.",
+					"当你用这把魔法武器攻击生物并在攻击骰掷出20时，该生物除了遭受攻击的正常效果外，还必须进行一次DC 15的体质豁免才能。如果未通过豁免，该生物将被束缚，并且必须在每个回合结束时进行另一次体质豁免。如果它成功地对抗了这个效果三次，效果将结束。如果它连续三次未能通过豁免，它将变成石头，并且受到{@condition petrified}状态的影响，持续1小时。",
 					"如果一个生物对武器类型的伤害免疫，没有肉体构成的身体，或者有传说中的行动，那么它就对这个效果免疫。",
 					{
 						"name": "Curse",
 						"type": "entries",
 						"entries": [
-							"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon. Whenever you attack a creature with this weapon and roll a 1 on the attack roll, you must succeed on a DC 15 Constitution saving throw or be {@condition restrained} and forced to make additional saves against being {@condition petrified}, as above."
+							"这件武器被诅咒了，与它建立联系会将诅咒传递给你。除非用 {@spell remove curse} 法术或类似魔法解除诅咒，否则你不愿意与这件武器分开。每当你用这件武器攻击生物并在攻击骰掷出1时，你必须通过一次 DC 15 体质豁免检定，否则会 {@condition restrained} 并被迫进行额外的豁免检定以免受到 {@condition petrified} 的影响。"
 						]
 					}
 				]
@@ -1093,10 +1093,10 @@
 				"bonusWeapon": "+1",
 				"charges": 2,
 				"entries": [
-					"A finely crafted sword with delicate etchings, it resonates with a faint hum of life.",
+					"一把精美打造的剑，上面雕刻着精致的花纹，散发着微弱的生命之音。",
 					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
-					"The sword has 2 charges. You can expend a charge and speak the command word to cast {@spell spike growth} (save DC 16) centered on yourself. You can pass through this terrain unaffected.",
-					"The sword regains one charge each day at dawn."
+					"这把剑有2次使用机会。你可以消耗一次使用机会，说出口令，以自己为中心施放{@spell spike growth}（豁免 DC 16）。你可以在这个地形中自由穿行，不受影响。",
+					"每天黎明时，(the sword) 会恢复一次充能。"
 				],
 				"attachedSpells": [
 					"spike growth"
@@ -1122,7 +1122,7 @@
 				"page": 66,
 				"rarity": "very rare",
 				"entries": [
-					"Ranged attack rolls made with this ammunition have advantage against any creature doesn't have all its hit points."
+					"使用这种弹药进行的远程攻击投掷对任何生物都有优势，只要它没有所有的生命值。"
 				]
 			}
 		},
@@ -1142,15 +1142,15 @@
 				"reqAttune": true,
 				"bonusWeaponDamage": "+1",
 				"entries": [
-					"The hilt of this sword bears a carnelian engraved with the blood rune.",
-					"You can add your Constitution modifier (minimum of {=bonusWeaponDamage}) to the damage rolls of attacks made with this weapon.",
+					"这把剑的把手上镶嵌着一块刻有血符的红玉。",
+					"你可以将你的体质调整值（最低为{=bonusWeaponDamage}）加到使用这把武器进行攻击的伤害骰中。",
 					{
 						"type": "entries",
 						"name": "Invoking the Rune",
 						"entries": [
-							"When you target a creature with an attack using this weapon, you can invoke the sword's rune, causing it to flare with crimson light and infusing your attack with bloodthirsty precision. You then spend and roll one of your unspent Hit Dice and add the number rolled to the attack roll. You can choose to invoke the rune after rolling the {@dice d20}.",
-							"If this attack hits, you can also spend and roll any number of your unspent Hit Dice and add the total rolled to the weapon's damage.",
-							"Once the rune has been invoked, it can't be invoked again until the next dawn."
+							"当你用这把武器攻击一个生物时，你可以激活剑上的符文，使其闪耀着深红色的光芒，并注入你的攻击中，增加嗜血的精准度。然后，你花费并投掷你未使用的一个生命骰，并将投掷的数字加到攻击骰上。你可以选择在投掷 {@dice d20} 后激活符文。",
+							"如果这次攻击命中，你还可以花费并投掷你尚未使用的任意数量的命中骰，并将投掷的总数加到武器的伤害上。",
+							"符文一旦被激活，就不能再次激活，直到下一个黎明。"
 						]
 					}
 				]
@@ -1171,7 +1171,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
-					"Ammunition fired from this bow blazes brightly. When you hit with an attack roll using this bow, the target takes an extra {@damage 1d6} fire damage. If the target is a flammable, nonmagical object, it catches fire, taking {@damage 1d6} fire damage at the start of each of your turns until a creature uses an action to extinguish the flames."
+					"这弓发射的弹药燃烧明亮。当你使用这把弓进行攻击检定命中时，目标额外受到{@damage 1d6}火焰伤害。如果目标是易燃的、非魔法物体，它会着火，在你的每个回合开始时受到{@damage 1d6}火焰伤害，直到有生物使用一个动作来扑灭火焰。"
 				]
 			}
 		},
@@ -1190,20 +1190,20 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
-					"This bow has multiple strings and resembles a lyre or small harp. By strumming the strings while setting an arrow to the bow, you imbue the arrow with magic.",
-					"You can play one of the following melodies when you use the bow to make a ranged weapon attack. You must choose to do so before you make the attack roll, and you can play only one melody per attack.",
+					"这弓有多根弦，类似于一个竖琴或小豎琴。当你弹奏弦乐时，同时将箭装在弓上，你会赋予箭矢魔法力量。",
+					"当你使用弓进行远程武器攻击时，你可以演奏以下其中一首旋律。你必须在进行攻击骰前选择演奏，每次攻击只能演奏一首旋律。",
 					{
 						"type": "entries",
 						"name": "Melody of Precision",
 						"entries": [
-							"If you're proficient in {@skill Performance}, you gain a +1 bonus to the attack roll. If you have expertise in {@skill Performance}, you gain a +2 bonus instead."
+							"如果你精通{@skill Performance}，则攻击检定获得+1加值。如果你是专家级别的{@skill Performance}，则加值为+2。"
 						]
 					},
 					{
 						"type": "entries",
 						"name": "Melody of Reverberation",
 						"entries": [
-							"The melody you strum echoes loudly. On a hit, the target takes extra thunder damage equal to your Charisma modifier."
+							"你弹奏的旋律回荡在耳畔。命中时，目标受到额外的雷霆伤害，数值等同于你的魅力调整值。"
 						]
 					}
 				]
@@ -1247,8 +1247,8 @@
 				"rechargeAmount": "{@dice 1d4}",
 				"charges": 4,
 				"entries": [
-					"The outside surface and internal joints of this armor whir with interlocking gears, drawing on the orderly magic of the plane of Mechanus.",
-					"The armor has 4 charges. If you make a {@dice d20} roll while wearing this armor, you can expend 1 charge to change the number rolled to a 10. The armor regains {@dice 1d4} expended charges daily at dawn."
+					"这套盔甲的外表和内部接头上布满了相互咬合的齿轮，利用着机械位面的有序魔法。",
+					"这件盔甲有4个充能。如果你在穿着这件盔甲时进行了一次{@dice d20}检定，你可以消耗1个充能，将掷骰结果改为10。这件盔甲每天在黎明时恢复{@dice 1d4}个已消耗的充能。"
 				]
 			}
 		},
@@ -1268,8 +1268,8 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
-					"The head of this bludgeoning weapon is made from a massive delerium crystal that crackles with arcane energies. When you hit with an attack using this weapon, the target takes an extra ({@dice 3d6}) necrotic damage.",
-					"When you roll a 20 on an attack roll made with this weapon, it unleashes an arcane anomaly (see Dungeons of Drakkenheim). You can roll twice on the table and choose either result."
+					"这个钝击武器的头部是由一个巨大的狂乱水晶制成，闪烁着奥术能量。当你使用这个武器进行攻击命中时，目标会额外受到({@dice 3d6})点死灵伤害。",
+					"当你使用这把武器进行攻击投掷出20时，它会释放出一个奥术异常（见《德拉肯海姆的地牢》）。你可以在表格上投掷两次，然后选择任意一个结果。"
 				]
 			}
 		},
@@ -1290,7 +1290,7 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
-					"When you hit an undead creature with an attack using this weapon, the attack deals an extra {@damage 1d8} damage of the weapon's type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn."
+					"当你用这把武器攻击不死生物时，攻击会额外造成武器类型伤害的{@damage 1d8}，并且该生物在你下个回合开始前对使其变成不死生物的效果的豁免 throws 时有劣势。"
 				]
 			}
 		},
@@ -1312,8 +1312,8 @@
 				"rechargeAmount": "{@dice 1d3}",
 				"charges": 3,
 				"entries": [
-					"This magic sword's blade is fashioned from a horn or spine from a crystal dragon. When you hit with an attack roll using this sword, the target takes an extra {@damage 1d8} radiant damage.",
-					"The sword has 3 charges and regains {@dice 1d3} expended charges daily at dawn. When you hit a creature with an attack roll using the sword, you can expend 1 charge to regain a number of hit points equal to the extra radiant damage the sword dealt.",
+					"这把魔法剑的剑刃是用水晶龙的角或脊椎制成的。当你使用这把剑进行攻击投掷时，目标会受到额外{@damage 1d8}的辐射伤害。",
+					"这把剑有3个充能，并在黎明时每天恢复{@dice 1d3}已用充能。当你用这把剑进行攻击命中生物时，你可以消耗1个充能，恢复等于这把剑额外辐射伤害的生命值。",
 					"当你拿着这把剑时，你可以用一个额外的动作使它在30英尺范围内发出亮光，并在另外30英尺范围内发出暗光，使它在10英尺范围内发出暗光，或使光线熄灭。"
 				]
 			}
@@ -1388,10 +1388,10 @@
 				"rarity": "rare",
 				"bonusWeapon": "+2",
 				"entries": [
-					"This sword has a small delerium sliver encased in glass and set in the hilt like a gemstone. The blade is made of meteoric iron infused with delerium dust, which causes it to softly glow with octarine light.",
-					"You gain a {=bonusWeapon} bonus to attack and damage rolls made with this weapon.",
-					"When you make an attack with this weapon, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls. In addition, you can use this weapon as a spellcasting focus.",
-					"When you roll a 20 on an attack roll made with this weapon against a humanoid, the humanoid must succeed on a DC 15 Constitution saving throw or take an extra ({@dice 3d6}) necrotic damage and gain one {@adventure level of contamination|DoDk|12}."
+					"这把剑的剑柄上镶嵌着一小块被玻璃包裹的疯狂裂片，就像一颗宝石一样。剑身由注入了疯狂尘的陨铁制成，使其轻轻地发出八色光芒。",
+					"你使用这把武器进行的攻击和伤害骰都会获得{=bonusWeapon}的奖励。",
+					"当你使用这个武器进行攻击时，你可以使用你的施法能力调整值，而不是力量或敏捷，来进行攻击和伤害骰。此外，你可以将这个武器作为施法焦点。",
+					"当你使用这把武器进行攻击检定时投掷出20时，对人形生物，该生物必须通过一次DC 15的体质豁免检定，否则将受到额外{@dice 3d6}点死灵伤害，并获得一个{@adventure level of contamination|DoDk|12}。"
 				]
 			},
 			"hasFluffImages": true
@@ -1413,21 +1413,21 @@
 				"curse": true,
 				"bonusWeapon": "+2",
 				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon. In addition, when you're damaged by a creature in reach, you may use your reaction to make one melee attack against it with this weapon.",
+					"你在使用这把魔法武器进行攻击和伤害骰时，获得{=bonusWeapon}的奖励。此外，当你受到范围内生物的伤害时，你可以使用你的反应用这把武器对其进行一次近战攻击。",
 					{
 						"type": "entries",
 						"name": "Curse",
 						"entries": [
-							"You're unwilling to part with this weapon while attuned to it. While attuned, you have disadvantage on attack rolls with weapons other than this one.",
-							"Whenever a hostile creature damages you, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action on each of your turns to attack the creature nearest to you with the weapon. If you can make extra attacks as part of the {@action Attack} action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random.",
-							"You're berserk until you start your turn with no creatures within 60 feet of you that you can see or hear. Alternatively, an ally can use an action to make a DC 15 Charisma ({@skill Persuasion}) check and if successful, you're no longer berserk. Only the {@spell Remove Curse} spell allows you to end attunement to this item."
+							"当你与这个武器相互连接时，你不愿意放弃它。在连接时，除了这把武器外，你使用其他武器进行攻击时有劣势。",
+							"每当一个敌对生物对你造成伤害时，你必须成功通过一次DC 15的感知豁免检定，否则会陷入狂暴状态。在狂暴状态下，你必须在每个回合使用你的动作攻击距离最近的生物。如果你可以在{@action Attack}动作中进行额外的攻击，你将使用这些额外的攻击，移动到攻击下一个最近的生物，如果你击败了当前的目标。如果有多个可能的目标，你会随机选择一个进行攻击。",
+							"当你的回合开始时，你周围60英尺内没有你能看到或听到的生物，你会变得狂暴。或者，盟友可以使用一个动作进行一次DC 15的魅力检定，如果成功，你将不再狂暴。只有{@spell Remove Curse}法术可以让你结束对这件物品的调谐。"
 						]
 					},
 					{
 						"type": "entries",
 						"name": "Corrupting",
 						"entries": [
-							"This item corrupts. See the \"{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}\" section."
+							"这个物品具有腐化效果。请查看“{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}”部分。"
 						]
 					}
 				]
@@ -1451,7 +1451,7 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"你在使用该魔法武器的攻击和伤害卷中获得+1的奖励。",
-					"When you hit a dragon with this weapon, the dragon takes an extra {@dice 3d6} damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns."
+					"当你用这把武器击中一条龙时，龙会受到额外{@dice 3d6}点武器类型的伤害。对于这把武器来说，“龙”指的是任何具有龙类别的生物，包括龙龟和双足飞龙。"
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -1474,7 +1474,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
-					"The limb tips of this magic bow are shaped like a dragon's wings, and the weapon is infused with the essence of a chromatic, gem, or metallic dragon's breath. When you hit with an attack roll using this magic bow, the target takes an extra {@damage 1d6} damage of the same type as the breath infused in the bow—acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.",
+					"这把魔法弓的肢体尖端呈龙翼状，武器蕴含着一条彩虹、宝石或金属龙呼出的气息。当你使用这把魔法弓进行攻击检定命中时，目标会受到额外{@damage 1d6}相同类型的伤害，与弓中蕴含的气息相同——酸性、冰冷、火焰、力量、闪电、死灵、毒素、精神、辐射或雷霆。",
 					"如果你没有在武器中装入弹药，它就会自己产生，当你拉回弓弦时，会自动产生一块魔法弹药。弓所产生的弹药在击中或未击中目标后瞬间消失。"
 				]
 			}
@@ -1506,7 +1506,7 @@
 				"entries": [
 					"龙枪是一种著名的武器，由稀有金属在与巴哈姆特有关的强大神器的帮助下锻造而成。步兵（作为长矛）和骑手（作为长枪）使用的长枪不同，但武器的魔法属性是相同的。",
 					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
-					"When you hit a Dragon with this weapon, the Dragon takes an extra {@damage 3d6} force damage, and any Dragon of your choice that you can see within 30 feet of you can immediately use its reaction to make a melee attack."
+					"当你用这把武器击中一条龙时，龙会受到额外{@damage 3d6}的力量伤害，你可以看到的30英尺内的任何一条你选择的龙都可以立即使用其反应进行一次近战攻击。"
 				]
 			},
 			"hasFluffImages": true
@@ -1532,7 +1532,7 @@
 				"page": 67,
 				"rarity": "uncommon",
 				"entries": [
-					"This leech has been dried and imbued with a mote of animating magic. If you hit a creature with a ranged attack roll using this ammunition, the leech springs to life and sinks its teeth into the target, dealing {@damage 1d4} piercing damage at the start of each of the target's turns. If the leech deals at least 10 damage or the target dies, the leech falls off. A creature, including the target, can use its action to detach the leech. Once a leech is no longer attached to its target, the leech dies and is no longer magical."
+					"这只水蛭已经被晾干并注入了一点点的激活魔法。如果你用这种弹药进行远程攻击并命中一名生物，水蛭就会苏醒并咬住目标，每个目标回合开始时造成{@damage 1d4}点穿刺伤害。如果水蛭造成至少10点伤害或目标死亡，水蛭会脱落。包括目标在内的生物可以用动作来摆脱水蛭。一旦水蛭不再附着在目标身上，水蛭就会死亡并失去魔法效果。"
 				]
 			}
 		},
@@ -1683,9 +1683,9 @@
 				"rechargeAmount": "{@dice 1d3}",
 				"charges": 3,
 				"entries": [
-					"This colorful, flowery armor was forged in the Feywild and is infused with that plane's captivating magic.",
-					"While wearing this armor, you have advantage on saving throws you make to avoid or end the charmed condition on yourself.",
-					"This armor has 3 charges. You can use an action to expend a charge to cast the {@spell Compulsion} spell (save DC 15) from this armor. The armor regains {@dice 1d3} expended charges daily at dawn."
+					"这套色彩斑斓、花纹绚丽的盔甲是在Feywild锻造的，并且融入了那个位面迷人的魔法。",
+					"穿着这套盔甲时，你在进行豁免投掷骰时，对自己避免或结束被魅惑状态的投掷骰获得优势。",
+					"这件盔甲有3个充能。你可以使用一个动作来消耗一个充能，从这件盔甲中施放{@spell Compulsion}法术（豁免 DC 15）。盔甲每天黎明时会恢复{@dice 1d3}已消耗的充能。"
 				],
 				"attachedSpells": [
 					"compulsion"
@@ -1709,7 +1709,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
-					"You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra {@dice 2d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+					"你可以使用一个奖励动作来说出这把魔法剑的口令，使火焰从剑刃上喷发出来。这些火焰在40英尺半径内散发出明亮的光芒，额外再照亮40英尺范围。当剑着火时，它对击中的目标造成额外 {@dice 2d6} 火焰伤害。火焰会持续直到你再次使用奖励动作说出口令，或者放下或收起这把剑。"
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -1733,8 +1733,8 @@
 				"reqAttune": true,
 				"bonusWeapon": "+2",
 				"entries": [
-					"This weapon appears ordinary, but it bears strong illusion magic that allows its wielder to skillfully deceive opponents.",
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon. While wielding it, you also gain the following benefits:",
+					"这件武器看起来普普通通，但它蕴含着强大的幻术魔法，使得持有者能够巧妙地欺骗对手。",
+					"你在使用这把魔法武器进行攻击和伤害骰时会获得{=bonusWeapon}的奖励。持有该武器时，你还会获得以下好处：",
 					{
 						"type": "list",
 						"style": "list-hang-notitle",
@@ -1743,14 +1743,14 @@
 								"type": "item",
 								"name": "Fool's Feint",
 								"entries": [
-									"As a bonus action, you can feint, choosing a creature within 5 feet of you as your target. Until the start of your next turn, you have advantage on attack rolls against the target. Once this bonus action is used, it can't be used again until the next dawn."
+									"作为一个奖励动作，你可以佯攻，选择一个在你5英尺范围内的生物作为目标。直到你的下一个回合开始之前，你对该目标的攻击投掷获得优势。一旦使用了这个奖励动作，直到第二天黎明之前都不能再次使用。"
 								]
 							},
 							{
 								"type": "item",
 								"name": "Misdirect",
 								"entries": [
-									"When a creature within 60 feet of you targets you with an attack roll, you can use your reaction to require that creature to make a DC 15 Intelligence saving throw. On a failed save, the attack instead targets another creature of your choice that is within the attacker's reach. Once this reaction has been used, it can't be used again until the next dawn."
+									"当一个在你60英尺范围内的生物以攻击骰对你进行攻击时，你可以使用你的反应要求该生物进行一次 DC 15 的智力豁免检定。如果未通过豁免检定，该攻击将转而对你选择的另一个在攻击者攻击范围内的生物进行。一旦使用了这个反应，直到次日黎明前都不能再次使用。"
 								]
 							}
 						]
@@ -1774,7 +1774,7 @@
 				"bonusWeapon": "+2",
 				"entries": [
 					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
-					"This weapon was crafted to destroy structures made of force, such as those created by {@spell Forcecage} or {@spell Wall of Force}. Striking a Large or smaller structure of magical force with this weapon automatically shatters that structure. If the target is a Huge or larger structure of force, this weapon shatters a 20-foot-cube portion of it."
+					"这件武器是为了摧毁由{@spell Forcecage}或{@spell Wall of Force}创造的力场结构而打造的。用这把武器攻击一个由魔法力场构成的大型或更小的结构会自动粉碎该结构。如果目标是一个巨大或更大的力场结构，这把武器会粉碎其中一个20英尺立方体的部分。"
 				]
 			}
 		},
@@ -1856,7 +1856,7 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"你在使用该魔法武器的攻击和伤害卷中获得+1的奖励。",
-					"When you hit a giant with it, the giant takes an extra {@dice 2d6} damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall {@condition prone}. For the purpose of this weapon, \"giant\" refers to any creature with the giant type, including ettins and trolls."
+					"当你用它击中一个巨人时，巨人会受到额外 {@dice 2d6} 的武器类型伤害，并必须成功通过 DC 15 的力量豁免才能不倒地 {@condition prone}。对于这个武器而言，“巨人”指的是任何具有巨人类型的生物，包括双头巨人和巨魔。"
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -1885,9 +1885,9 @@
 				"reqAttune": true,
 				"bonusWeapon": "+1",
 				"entries": [
-					"This silver-and-black bow is engraved with the phases of the moon. You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
-					"When you hit with a ranged attack roll using this magic bow, the target takes an extra {@damage 1d6} radiant damage. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the bow vanishes the instant after it hits or misses a target.",
-					"While wielding this magic bow, you can use a bonus action to enter a semi-incorporeal state until the start of your next turn. While semi-incorporeal, you have resistance to bludgeoning, piercing, and slashing damage. Once this bonus action is used, it can't be used again until the next dawn."
+					"这把银色和黑色的弓刻有月相。你使用这把魔法武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励。",
+					"当你使用这把魔法弓进行远程攻击时，目标会额外受到{@damage 1d6}辐射伤害。如果你没有装填弹药在武器中，它会自行生成弹药，在你用它进行远程攻击时自动制造一发魔法弹药。弓制造的弹药在击中或未击中目标后立刻消失。",
+					"当挥舞这把魔法弓时，你可以使用一个奖励动作进入半非实体状态，直到你的下一个回合开始。在半非实体状态下，你对钝击、穿刺和挥砍伤害具有抗性。一旦使用了这个奖励动作，直到第二天黎明之前都不能再次使用。"
 				]
 			}
 		},
@@ -1915,9 +1915,9 @@
 				"rechargeAmount": "{@dice 1d3}",
 				"charges": 3,
 				"entries": [
-					"This intricate grayscale armor was forged in the Shadowfell and is infused with that plane's gloom.",
-					"While you're wearing this armor, you have advantage on saving throws you make to avoid or end the frightened condition on yourself.",
-					"This armor has 3 charges. You can expend a charge to cast the {@spell Calm Emotions} spell (save DC 15) from the armor. This armor regains {@dice 1d3} expended charges daily at dawn."
+					"这套复杂的灰度盔甲是在暗影界锻造的，并且融入了那个位面的阴暗气息。",
+					"当你穿戴这件盔甲时，你在进行豁免投掷来避免或结束自身受到惊恐状态时获得优势。",
+					"这件盔甲有3个充能。你可以消耗一个充能从盔甲中施放{@spell Calm Emotions}法术（豁免 DC 15）。这件盔甲每天黎明时恢复{@dice 1d3}已消耗的充能。"
 				],
 				"attachedSpells": [
 					"calm emotions"
@@ -1941,7 +1941,7 @@
 				"page": 230,
 				"rarity": "rare",
 				"entries": [
-					"This piece of ammunition has a refined delerium arrowtip. A creature hit by a ranged attack using one of these arrows takes an extra ({@dice 3d6}) necrotic damage and must succeed on a DC 15 Constitution saving throw or gain one {@adventure level of contamination|DoDk|12}. Once it hits a target, the delerium tip crumbles to dust and the arrow becomes nonmagical."
+					"这种弹药装备了精致的狂乱箭头。被使用这些箭之一进行远程攻击击中的生物会额外受到({@dice 3d6})点死灵伤害，并必须通过一次 DC 15 的体质豁免才能免疫获得一次{@adventure level of contamination|DoDk|12}。箭矢击中目标后，狂乱箭头就会化为灰尘，箭矢变得非魔法。"
 				]
 			},
 			"hasFluffImages": true
@@ -1989,7 +1989,7 @@
 				],
 				"bonusWeapon": "+3",
 				"entries": [
-					"You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra {@dice 2d10} radiant damage.",
+					"你使用这把魔法武器进行的攻击和伤害骰获得+3的加值。当你用它击中一个恶魔或不死生物时，该生物会额外受到{@dice 2d10}的辐射伤害。",
 					"当你持有拔出的剑时，它会在你周围10英尺的范围内产生一个光环。你和光环中所有对你友好的生物在面对法术和其他魔法效果时都有优势。如果你有17级或以上的圣骑士等级，光环的半径会增加到30英尺。"
 				],
 				"lootTables": [
@@ -2278,7 +2278,7 @@
 						"name": "Symbiotic Nature",
 						"entries": [
 							"在你与盔甲相合的时候，盔甲不能从你身上移开，你也不能主动结束与它的相合。如果你被一个结束诅咒的咒语所针对，你对盔甲的依附就会结束，它就会从你身上分离。",
-							"The armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of {@condition exhaustion}."
+							"这套盔甲需要新鲜的鲜血供养。在你完成任何长休之后，你必须将剩余生命骰的一半喂给盔甲（四舍五入），或者承受{@condition exhaustion}1级。"
 						]
 					}
 				]
@@ -2361,8 +2361,8 @@
 				"rarity": "rare",
 				"bonusWeapon": "+2",
 				"entries": [
-					"Made from the claws, teeth, and bones of lycanthropes, these weapons are particularly effective against other lycanthropes or vampires. You gain a {=bonusWeapon} bonus to attack and damage rolls made with this weapon.",
-					"Additionally, on a successful attack against a lycanthrope, the target is forced back into its human form unless it succeeds on a DC 10 Charisma saving throw. Also, damage done to vampires with lycan weapons cannot be regenerated until the creature finishes a short rest."
+					"由狼人的爪子、牙齿和骨骼制成，这些武器对其他狼人或吸血鬼特别有效。你使用这把武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励。",
+					"此外，在对狼人的成功攻击中，目标将被迫恢复人类形态，除非它在一次 DC 10 魅力豁免检定中成功。此外，对吸血鬼使用狼人武器造成的伤害在该生物完成短休息之前无法再生。"
 				]
 			}
 		},
@@ -2408,7 +2408,7 @@
 				"rarity": "rare",
 				"reqAttune": "by a specific individual",
 				"entries": [
-					"Mind flayers can turn any nonmagical sword into a mind blade. Only one creature can attune to it: either a specific mind flayer or one of its thralls. In the hands of any other creature, the mind blade functions as a normal sword of its kind. In the hands of its intended wielder, the mind blade is a magic weapon that deals an extra {@dice 2d6} psychic damage to any target it hits."
+					"思想吸食者可以将任何非魔法剑变成心灵之刃。只有一个生物可以调谐它：特定的思想吸食者或其奴隶。在其他生物手中，心灵之刃的功能就像其种类的普通剑一样。在其预定使用者手中，心灵之刃是一把魔法武器，对击中的目标造成额外{@dice 2d6}的精神伤害。"
 				]
 			}
 		},
@@ -2427,7 +2427,7 @@
 				"rarity": "uncommon",
 				"reqAttune": "by a specific individual",
 				"entries": [
-					"Any nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intelligence, Wisdom, and Charisma saving throws and makes its wearer immune to the {@condition frightened} condition."
+					"任何一套非魔法的重型盔甲都可以被探脑者转变成心灵甲壳盔甲。只有一个生物可以与之相调谐：特定的探脑者或其奴隶之一。当其他生物穿戴时，心灵甲壳盔甲将作为其种类的普通盔甲运作。对于其预定的穿戴者，这件盔甲可以让其在智力、感知和魅力豁免检定中获得优势，并使穿戴者免疫{@condition frightened}状态。"
 				]
 			}
 		},
@@ -2543,7 +2543,7 @@
 				"stealth": false,
 				"entries": [
 					"这种神奇的盔甲看起来像一壶熔化的青铜。当你适应它时，青铜会附着在你的皮肤上，并与之形成轮廓。盔甲可以穿在普通衣服里面，但它不会妨碍身体机能。一旦你穿上它，它就不能被移除，除非你选择这样做。",
-					"While wearing the armor, you have resistance to fire damage. The armor also doesn't impose disadvantage on Dexterity ({@skill Stealth}) checks."
+					"穿上这件盔甲后，你对火焰伤害具有抗性。该盔甲也不会对敏捷({@skill Stealth})检定造成劣势。"
 				]
 			}
 		},
@@ -2622,8 +2622,8 @@
 				},
 				"recharge": "dawn",
 				"entries": [
-					"This elegant weapon is adorned with engravings depicting leaping dolphins and drifting jellyfish. You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon, and you ignore {@quickref Underwater Combat|PHB|3|0|the normal penalties on ranged weapon attacks while using this weapon underwater}. While holding the weapon in front of you with both hands, you have a swimming speed of 30 feet.",
-					"Additionally, while you hold the weapon, you can use an action to cast the {@spell water breathing} spell. Once this property is used, it can't be used again until the next dawn."
+					"这件优雅的武器上镶嵌着描绘跃动海豚和飘荡水母的雕刻。你使用这把魔法武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励，并且忽略{@quickref Underwater Combat|PHB|3|0|the normal penalties on ranged weapon attacks while using this weapon underwater}。双手握住这把武器放在你面前时，你拥有30英尺的游泳速度。",
+					"此外，当你握住这把武器时，你可以使用一个动作施放{@spell water breathing}法术。一旦这个特性被使用，直到第二天黎明前都无法再次使用。"
 				],
 				"attachedSpells": [
 					"water breathing"
@@ -2655,7 +2655,7 @@
 				"wondrous": true,
 				"entries": [
 					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
-					"If you're holding the orb when you take fire damage, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0)."
+					"如果你在受到火焰伤害时握着(Orb of Dragonkind)，你可以使用你的反应来减少伤害量的{@dice 1d4}(最少减至0)。"
 				]
 			}
 		},
@@ -2684,7 +2684,7 @@
 				"wondrous": true,
 				"entries": [
 					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
-					"If you're holding the orb when you take radiant damage, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0)."
+					"如果你在受到辐射伤害时握着(Orb of Radiance)，你可以使用你的反应来减少伤害量的{@dice 1d4}(最低减少到0)。"
 				]
 			}
 		},
@@ -2713,7 +2713,7 @@
 				"wondrous": true,
 				"entries": [
 					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
-					"If you're holding the orb when you take acid or poison damage, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0)."
+					"如果你在受到酸性或毒素伤害时握着(Orb of the Void)，你可以使用你的反应来减少伤害量的{@dice 1d4}（最少为0）。"
 				]
 			}
 		},
@@ -2742,7 +2742,7 @@
 				"wondrous": true,
 				"entries": [
 					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
-					"If you're holding the orb when you take lightning or thunder damage, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0)."
+					"如果你在受到闪电或雷电伤害时握着(Orb of Thunder and Lightning)，你可以使用你的反应来减少伤害量的{@dice 1d4}(最低至0)。"
 				]
 			}
 		},
@@ -2771,7 +2771,7 @@
 				"wondrous": true,
 				"entries": [
 					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
-					"If you're holding the orb when you take necrotic damage, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0)."
+					"如果你在受到死灵伤害时握着(Orb of the Void)宝珠，你可以使用你的反应来减少伤害量的{@dice 1d4}(最低减少到0)。"
 				]
 			}
 		},
@@ -2800,7 +2800,7 @@
 				"wondrous": true,
 				"entries": [
 					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
-					"If you're holding the orb when you take cold damage, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0)."
+					"如果你在受到冷伤害时握着(Orb of Winter)，你可以使用你的反应来减少伤害量的{@dice 1d4}(最低至0)。"
 				]
 			}
 		},
@@ -2858,7 +2858,7 @@
 				"wondrous": true,
 				"entries": [
 					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
-					"If you're holding the orb when you take psychic damage, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0)."
+					"如果你在受到精神伤害时握着(Orb of the Void)，你可以使用你的反应来减少伤害量的{@dice 1d4}（最少减少到0）。"
 				]
 			}
 		},
@@ -3001,9 +3001,9 @@
 				"bonusWeapon": "+1",
 				"charges": 3,
 				"entries": [
-					"A prized hunting weapon among mistral raptors, this bow is imbued with magic to help the wielder see their prey from afar.",
+					"在米斯特拉猛禽中备受珍爱的狩猎武器，这弓被赋予了魔法，帮助使用者从远处看到猎物。",
 					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
-					"The bow has 3 charges. When you fire an arrow from this bow, you can speak the command word and use a charge to see through the arrow as a bonus action. You can see from the point your arrow lands as if you were there for 1 minute. If the arrow strikes a creature, you see what they see for the same duration."
+					"这把弓有3个充能。当你从这把弓射出箭矢时，你可以说出口令并使用一次充能作为奖励动作来透过箭矢观察。你可以从箭矢着陆的地点观察，就好像你在那里一样，持续1分钟。如果箭矢击中生物，你可以在同样的持续时间内看到它们所看到的。"
 				]
 			},
 			"hasFluffImages": true
@@ -3051,7 +3051,7 @@
 						"type": "entries",
 						"name": "Ruidium Corruption",
 						"entries": [
-							"When you roll a 1 on a saving throw while wearing this armor, you must make a DC 15 Charisma saving throw. On a failed save, you gain 1 level of {@condition exhaustion}. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save."
+							"当你在穿戴这件护甲时投掷出1点的豁免骰时，你必须进行一次 DC 15 的魅力豁免骰。如果豁免失败，你将获得 1 级{@condition exhaustion}。如果你尚未受到拉迪姆腐化的影响，当你在这次豁免中失败时，你将受到腐化的影响。"
 						]
 					},
 					{
@@ -3097,14 +3097,14 @@
 						"type": "entries",
 						"name": "Ruidium Strike",
 						"entries": [
-							"A creature you hit with this weapon takes an extra {@damage 2d6} psychic damage."
+							"你用这把武器击中的生物会受到额外{@damage 2d6}的心灵伤害。"
 						]
 					},
 					{
 						"type": "entries",
 						"name": "Ruidium Corruption",
 						"entries": [
-							"When you roll a 1 on an attack roll made with this weapon, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of {@condition exhaustion}. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save."
+							"当你使用这个武器进行攻击检定时投掷1，你必须进行一次20 DC的魅力豁免检定。如果未通过豁免检定，你会获得1级{@condition exhaustion}。如果你尚未受到魔铁腐蚀的影响，当你未通过这次豁免检定时，你将被腐蚀。"
 						]
 					},
 					{
@@ -3230,8 +3230,8 @@
 				"rechargeAmount": 3,
 				"charges": 3,
 				"entries": [
-					"This magical bow or crossbow has an intricate arrangement of delerium shards and focusing lenses along the stock where a bolt would normally be loaded, and instead magically conjures its own projectiles. You gain a {=bonusWeapon} bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of piercing damage and ignores the ammunition and loading properties.",
-					"The weapon has 3 charges, which are regained each day at dawn. When you hit with a ranged attack using it, you can cause the bolt to explode in a brilliant flash of light. The target you hit and any creatures within 10 feet of it must succeed on a DC 15 Constitution saving throw or become blinded until the end of your next turn."
+					"这把神奇的弓或弩上有一系列精致的狂乱碎片和聚焦透镜，沿着通常装载弩箭的弓弩托部排列，而是通过魔法召唤自己的抛射物。你使用这把武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励，这把武器造成辐射伤害而不是穿刺伤害，并且无视弹药和装填属性。",
+					"这件武器有3次使用机会，每天黎明时都会重新充能。当你使用它进行远程攻击命中时，你可以让弹头爆炸，释放出耀眼的光芒。被你击中的目标和其周围10英尺范围内的任何生物必须通过一次DC 15的体质豁免才能免疫，否则将在你的下一个回合结束前失明。"
 				]
 			}
 		},
@@ -3253,12 +3253,12 @@
 				"rechargeAmount": "{@dice 1d3}",
 				"charges": 3,
 				"entries": [
-					"This crossbow is crafted from blackened wood, and its limbs bear pearl inlays depicting constellations. You ignore the loading property with this crossbow. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target. The crossbow has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
+					"这把弩是由发黑的木头制成的，其弓臂上镶嵌着描绘星座的珍珠。你使用这把弩时可以忽略填装属性。如果你没有在武器中装填弹药，它会自行产生，当你用它进行远程攻击时，自动制造一件魔法弹药。武器产生的弹药在击中或未击中目标后立刻消失。这把弩有3个充能，并在每天黎明时恢复{@dice 1d3}已用充能。",
 					{
 						"type": "entries",
 						"name": "Constellations",
 						"entries": [
-							"The crossbow is decorated with three constellations. As a bonus action, you can tap one of the constellations to invoke it, expending 1 charge and producing one of the following effects:",
+							"这个弩弓上装饰着三个星座。作为一个奖励动作，你可以轻轻触碰其中一个星座来唤醒它，消耗1点能量并产生以下效果之一：",
 							{
 								"type": "list",
 								"style": "list-hang-notitle",
@@ -3267,21 +3267,21 @@
 										"type": "item",
 										"name": "Balance",
 										"entries": [
-											"The next time you hit a creature with a ranged attack roll using this crossbow before the end of your next turn, you or another creature of your choice within 30 feet of you can regain hit points equal to {@dice 1d8} plus your proficiency bonus."
+											"在你的下一个回合结束前，如果你用这把十字弩对生物进行远程攻击检定，你或者你选择的另一名生物可以在你身边30英尺内回复等于{@dice 1d8}加上你的熟练加值的生命值。"
 										]
 									},
 									{
 										"type": "item",
 										"name": "Flames",
 										"entries": [
-											"Until the end of your next turn, when you hit a creature with a ranged attack roll using this crossbow, the attack deals an additional {@damage 2d8} fire damage."
+											"直到你的下一个回合结束，当你用这把十字弩进行远程攻击命中一名生物时，该攻击额外造成{@damage 2d8}火焰伤害。"
 										]
 									},
 									{
 										"type": "item",
 										"name": "Rogue",
 										"entries": [
-											"Until the end of your next turn, you have the invisible condition, and anything you are wearing or carrying is also invisible."
+											"直到你的下一个回合结束，你拥有隐形状态，你穿戴或携带的任何物品也会隐形。"
 										]
 									}
 								]
@@ -3330,21 +3330,21 @@
 				"curse": true,
 				"bonusWeapon": "+2",
 				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon. When you throw it, it deals one extra die of damage on a hit. After you throw it and it hits or misses, it flies back to your hand immediately.",
+					"你在使用这把魔法武器进行攻击和伤害骰时会获得{=bonusWeapon}的奖励。当你投掷它时，击中目标时会额外造成一颗骰子的伤害。投掷后，无论命中与否，它会立即飞回你的手中。",
 					{
 						"type": "entries",
 						"name": "Curse",
 						"entries": [
-							"You're unwilling to part with this weapon while attuned to it. In addition, you have disadvantage on attack rolls made with weapons other than this one.",
-							"Whenever you roll a 1 on an attack roll using this weapon, your target changes to your closest ally.",
-							"If there are multiple allies, randomly determine which is the target. Make a new attack roll with advantage against your ally. If the attack hits, in addition to the standard damage you deal an extra {@damage 2d6} poison damage. Only the {@spell Remove Curse} spell allows you to end attunement to this item."
+							"当你与此武器连接时，你不愿意与它分开。此外，你使用除此武器外的其他武器进行攻击时，攻击检定会受到劣势。",
+							"每当你使用这把武器进行攻击投掷出1时，你的目标会变成你最近的盟友。",
+							"如果有多个盟友，随机确定目标。对你的盟友进行一次带有优势的新攻击检定。如果攻击命中，在标准伤害之外，你还造成额外{@damage 2d6}的毒素伤害。只有{@spell Remove Curse}法术能让你结束对这件物品的调谐。"
 						]
 					},
 					{
 						"type": "entries",
 						"name": "Corrupting",
 						"entries": [
-							"This item corrupts. See the \"{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}\" section."
+							"这个物品具有腐化效果。请查看“{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}”部分。"
 						]
 					}
 				]
@@ -3368,7 +3368,7 @@
 				"reqAttune": true,
 				"entries": [
 					"当你用这个魔法武器攻击一个生物，并在攻击卷上掷出20分时，如果该目标不是构筑物或不死生物，就会受到额外的10点坏死伤害。你还会获得10个临时命中率。",
-					"{@note Note: According to the SRD, it is an extra {@dice 3d6} necrotic damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+					"{@note Note: According to the SRD, it is an extra {@dice 3d6}点死灵伤害，尽管{@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -3393,20 +3393,20 @@
 				"curse": true,
 				"bonusWeapon": "+3",
 				"entries": [
-					"You gain a {=bonusWeapon} bonus to attack and damage rolls made with this sword. Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.",
+					"你使用这把剑进行的攻击和伤害骰获得{=bonusWeapon}的奖励。因为这把武器造成的伤害而失去的生命值只能通过短暂休息或长时间休息来恢复，而不能通过再生、魔法或其他任何方式来恢复。",
 					{
 						"type": "entries",
 						"name": "Curse",
 						"entries": [
-							"You're unwilling to part with this weapon while attuned to it. While attuned to this weapon, you also have disadvantage on attack rolls made with weapons other than this one.",
-							"The vengeful spirit possessing the sword shares its history and lust for vengeance with the wielder. After each successful long rest, you experience nightmares of the spirit's past, culminating in its death. When you wake, you must make a DC 11 Constitution saving throw. On a failed save, you only gain the benefits of a short rest. Only the {@spell Remove Curse} spell allows you to end attunement to this item."
+							"当与这件武器相互连接时，你不愿意与它分开。当与这件武器相互连接时，你使用除这件武器外的其他武器进行攻击时，攻击检定会受到劣势。",
+							"拥有这把剑的复仇之灵与使用者分享它的历史和对复仇的渴望。每次成功完成长休后，你会经历这个灵魂过去的噩梦，最终见证它的死亡。当你醒来时，你必须进行一次DC 11的体质豁免检定。如果豁免失败，你只能获得短休的益处。只有{@spell Remove Curse}法术可以让你结束对这件物品的调谐。"
 						]
 					},
 					{
 						"type": "entries",
 						"name": "Corrupting",
 						"entries": [
-							"This item corrupts. See the \"{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}\" section."
+							"这个物品具有腐化效果。请查看“{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}”部分。"
 						]
 					}
 				]
@@ -3431,8 +3431,8 @@
 				"reqAttune": true,
 				"entries": [
 					"当你用这把魔剑攻击一个物体并击中时，使你对目标的武器伤害骰子最大化。",
-					"When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another {@dice d20}. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.",
-					"{@note Note: According to the SRD, it is an extra {@dice 4d6} slashing damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}}.",
+					"当你用这把武器攻击生物并在攻击检定中掷出20时，该目标会额外受到14点劈砍伤害。然后再掷一个{@dice d20}。如果你掷出20，你会砍掉目标的一条肢体，具体效果由DM决定。如果生物没有肢体可砍，你将砍掉它身体的一部分。",
+					"{@note Note: According to the SRD, it is an extra {@dice 4d6} 斩击伤害，尽管 {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。",
 					"此外，你可以说出剑的命令，使剑在10英尺范围内发出亮光，并在另外10英尺范围内发出暗光。再次说出指令词或将剑出鞘，就会熄灭光芒。"
 				],
 				"lootTables": [
@@ -3457,10 +3457,10 @@
 				"reqAttune": true,
 				"bonusWeapon": "+3",
 				"entries": [
-					"You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic sword.",
-					"This sword can tear the fabric of reality, creating a temporary rift between planes. You can use your action to choose a different plane of existence from the one you're on and slice through an unoccupied space within 5 feet of yourself, creating a rift to that other plane. The rift can be up to 10 feet high and 10 feet wide, and it lasts for 1 minute. Once this property is used, it can't be used again until the next dawn.",
-					"You can specify a target destination, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second layer of the Nine Hells, and the rift opens in or near that destination (DM's discretion). If you are trying to reach the City of Brass, for example, the rift might appear on the Street of Steel, before the Gate of Ashes, or facing the city from across the Sea of Fire, at the DM's discretion.",
-					"Anything that enters the rift is instantly transported to the other plane, appearing in the unoccupied space nearest to the rift."
+					"你使用这把魔法剑进行的攻击和伤害骰投掷获得{=bonusWeapon}的奖励。",
+					"这把剑可以撕裂现实的面纱，创造出一个暂时连接不同位面的裂缝。你可以用你的动作选择一个不同于你所在的位面，并切开你附近5英尺内的一个空地，创造通往另一个位面的裂缝。这个裂缝可以高达10英尺，宽达10英尺，持续1分钟。一旦这个特性被使用，直到第二天黎明之前都不能再次使用。",
+					"你可以指定一个目标地点，比如炎之平面的铜城（City of Brass）或九层地狱的第二层中的迪斯帕特尔（Dispater）宫殿，裂隙会在该目的地附近打开（由DM决定）。例如，如果你想到达铜城，裂隙可能会出现在钢铁街（Street of Steel）、灰烬之门（Gate of Ashes）前，或者在火海（Sea of Fire）对面面朝城市，由DM决定。",
+					"任何进入裂隙的物体都会立即被传送到另一个位面，在离裂隙最近的未被占据的空间中出现。"
 				]
 			},
 			"hasFluffImages": true
@@ -3517,7 +3517,7 @@
 				"reqAttune": true,
 				"entries": [
 					"因该武器的伤害而损失的命中率只能通过短期或长期休息来恢复，而不是通过再生、魔法或任何其他方式。",
-					"Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes {@dice 1d4} necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom ({@skill Medicine}) check, ending the effect of such wounds on it on a success."
+					"每回合一次，当你使用这把魔法武器攻击命中一名生物时，你可以使目标受伤。在每个受伤生物的回合开始时，它会因为你受伤它的次数而受到{@dice 1d4}点死灵伤害，然后它可以进行一次 DC 15 的体质豁免检定，若成功则结束自身所有这类伤口的效果。或者，受伤生物或者它附近5英尺范围内的一名生物可以使用一个动作进行一次 DC 15 的感知({@skill Medicine})检定，若成功则结束自身这类伤口的效果。"
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -3537,7 +3537,7 @@
 			},
 			"entries": [
 				"当你用这个魔法武器掷出20分时，目标会受到该武器类型的额外7次伤害。",
-				"{@note Note: According to the SRD, it is an extra {@dice 2d6} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+				"受到{@note Note: According to the SRD, it is an extra {@dice 2d6}伤害，尽管{@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
 			],
 			"inherits": {
 				"namePrefix": "Vicious +1 ",
@@ -3547,8 +3547,8 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"你在使用该武器进行攻击和伤害的时候有{=bonusWeapon}的奖励。",
-					"When you roll a 20 with this magic weapon, the target takes an extra 7 {=dmgType} damage.",
-					"{@note Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+					"当你用这把魔法武器投掷出20时，目标会受到额外7 {=dmgType} 伤害。",
+					"{@note Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} 伤害，尽管 {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
 				]
 			}
 		},
@@ -3565,7 +3565,7 @@
 			},
 			"entries": [
 				"当你用这个魔法武器掷出20分时，目标会受到该武器类型的额外7次伤害。",
-				"{@note Note: According to the SRD, it is an extra {@dice 2d6} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+				"受到{@note Note: According to the SRD, it is an extra {@dice 2d6}伤害，尽管{@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
 			],
 			"inherits": {
 				"namePrefix": "Vicious ",
@@ -3575,8 +3575,8 @@
 				"tier": "major",
 				"rarity": "rare",
 				"entries": [
-					"When you roll a 20 with this magic weapon, the target takes an extra 7 {=dmgType} damage.",
-					"{@note Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+					"当你用这把魔法武器投掷出20时，目标会受到额外7 {=dmgType} 伤害。",
+					"{@note Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} 伤害，尽管 {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -3604,7 +3604,7 @@
 				"bonusWeapon": "+3",
 				"entries": [
 					"你在使用该魔法武器的攻击和伤害卷中获得+3的奖励。此外，该武器无视对砍伐伤害的抵抗。",
-					"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra {@dice 6d8} slashing damage from the hit."
+					"当你用这个武器攻击至少有一个头的生物并在攻击骰子上掷出20时，你会砍掉生物的一个头。如果生物没有头无法生存，那么它会死亡。如果生物对砍击伤害免疫、没有或不需要头、拥有传奇行动，或者DM认为生物太大以至于用这个武器无法砍掉头部，那么生物对这次攻击会额外受到{@dice 6d8}点砍击伤害。"
 				],
 				"lootTables": [
 					"Magic Item Table I"
@@ -3654,7 +3654,7 @@
 				"tier": "minor",
 				"rarity": "common",
 				"entries": [
-					" This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked {@condition prone}."
+					"这种弹药威力巨大。被这种弹药击中的生物必须成功通过一次 DC 10 的力量豁免才能不被击倒 {@condition prone}。"
 				]
 			}
 		},
@@ -3674,7 +3674,7 @@
 				"reqAttune": true,
 				"bonusWeapon": "+3",
 				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon. When this weapon reduces a creature to 0 hit points, the creature doesn't die. Instead, infernal runes appear as if carved into their flesh and they're healed to 1 hit point. They now have the {@condition paralyzed} condition until the condition is removed by a {@spell Lesser Restoration} spell or similar magic. When the condition is removed, the runes disappear. At the start of each of their turns while they're {@condition paralyzed}, the creature suffers immense pain and gains a level of {@condition exhaustion}."
+					"你在使用这把魔法武器进行攻击和伤害骰时，获得{=bonusWeapon}的奖励。当这把武器将一名生物的生命值降至0时，该生物并不会死亡。相反，地狱符文会出现在它们的皮肤上，它们会被治疗至1点生命值。它们现在拥有{@condition paralyzed}状态，直到被{@spell Lesser Restoration}法术或类似魔法移除。当状态被移除时，符文会消失。在它们处于{@condition paralyzed}状态时的每个回合开始时，该生物会遭受巨大的痛苦并获得{@condition exhaustion}。"
 				]
 			}
 		},
@@ -3719,13 +3719,13 @@
 				"rechargeAmount": "{@dice 1d4}",
 				"charges": 5,
 				"entries": [
-					"This weapon is bedecked in ornate gold filigree and deep-blue and maroon jewels. You gain a {=bonusWeapon} bonus to attack and damage rolls made with this weapon. Additionally, you gain proficiency in the {@skill Intimidation} and {@skill Persuasion} skills if you don't already have it.",
+					"这件武器镶嵌着华丽的金色花饰，深蓝色和褐红色的宝石。你使用这件武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励。此外，如果你还没有，你将获得对{@skill Intimidation}和{@skill Persuasion}技能的熟练加成。",
 					{
 						"type": "entries",
 						"name": "Spellcasting",
 						"entries": [
-							"The weapon has 5 charges. You can use a bonus action and expend 1 or more of its charges to cast one of the following spells (save DC 16): {@spell Command} (1 charge), {@spell Zone of Truth} (2 charges), {@spell Compulsion} (4 charges), {@spell Banishment} (4 charges), or {@spell Dominate Person} (5 charges).",
-							"The weapon regains {@dice 1d4} expended charges daily at dawn."
+							"该武器有5点能量。您可以使用一个奖励动作并消耗1点或更多点能量来施放以下法术之一（豁免 DC 16）：{@spell Command}（1点能量），{@spell Zone of Truth}（2点能量），{@spell Compulsion}（4点能量），{@spell Banishment}（4点能量），或{@spell Dominate Person}（5点能量）。",
+							"武器在每天黎明时恢复{@dice 1d4}已用尽的充能。"
 						]
 					}
 				],
@@ -3754,7 +3754,7 @@
 				"rarity": "uncommon",
 				"reqAttune": true,
 				"entries": [
-					"This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be {@quickref Surprise|PHB|3|0|surprised}, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
+					"这件魔法武器会警告你有危险。当你携带这件武器时，你在先攻检定时获得优势。此外，你和你周围30英尺范围内的任何同伴都无法被{@quickref Surprise|PHB|3|0|surprised}，除非是被非魔法的睡眠所影响。如果你和范围内的同伴在战斗开始时正在自然睡眠，这件武器会在魔法上唤醒你们。"
 				],
 				"lootTables": [
 					"Magic Item Table F"
@@ -3783,7 +3783,7 @@
 				"page": 69,
 				"rarity": "uncommon",
 				"entries": [
-					"Ranged weapon attack rolls made with this ammunition ignore half and three-quarters cover. In addition, attacking at long range doesn't impose disadvantage on ranged weapon attack rolls made with this ammunition."
+					"使用这种弹药进行的远程武器攻击检定可以无视半掩蔽和三分之三掩蔽。此外，使用这种弹药进行的远程武器攻击在远距离时也不会对检定造成劣势。"
 				]
 			}
 		},
@@ -3802,13 +3802,13 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
-					"This fine set of white-and-silver armor bears the wind rune upon its chest.",
-					"While wearing this armor, you have advantage on Dexterity ({@skill Acrobatics}) checks and Dexterity saving throws as your movements are bolstered by gentle currents of wind.",
+					"这套精美的白银盔甲胸前刻有风之符文。",
+					"穿上这套盔甲后，你在敏捷检定和敏捷豁免投掷中获得优势，因为你的动作受到了微风的支持。",
 					{
 						"type": "entries",
 						"name": "Invoking the Rune",
 						"entries": [
-							"As an action, you can invoke the armor's rune to cast the {@spell wind wall} spell (save DC 15) with it. Once the rune has been invoked, it can't be invoked again until the next dawn."
+							"作为一个动作，你可以激活盔甲上的符文，使用它施放{@spell wind wall}法术（豁免 DC 15）。一旦符文被激活，直到第二天黎明前都无法再次激活。"
 						]
 					}
 				],
