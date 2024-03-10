@@ -97,7 +97,7 @@
 					"name": "Spore Cloud",
 					"entries": [
 						"If the ancient corpse walker isn't in sunlight, it can use its action to polymorph into a Large cloud of spores or back into its true form. Anything it's wearing or carrying transforms with it. It reverts to its true form if it dies. In cloud form, the ancient corpse walker can't take any actions, speak, or manipulate objects. It's weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. This cloud spreads around corners. If air can pass through a space, the cloud can do so without squeezing, but it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, except those against wind. The cloud form is immune to nonmagical damage other than that from sunlight.",
-						"A creature that starts its turn in the cloud must make a {@dc 16} Constitution saving throw. If the save fails,\u00A0the creature takes 13 {@dice 3d8} poison and 10 ({@damage 3d6}) necrotic damage and becomes {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half the damage and isn't {@condition poisoned}.",
+						"A creature that starts its turn in the cloud must make a {@dc 16} Constitution saving throw. If the save fails, the creature takes 13 {@dice 3d8} poison and 10 ({@damage 3d6}) necrotic damage and becomes {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half the damage and isn't {@condition poisoned}.",
 						"After 24 hours, corpses of beasts or humanoids that were in the spore area rise as zombies loyal to the ancient corpse walker. If such a corpse is that of an evil humanoid, it instead rises as a corpse walker loyal to the ancient corpse walker. These spores can animate a corpse only once."
 					]
 				},
@@ -5094,7 +5094,7 @@
 					"name": "Infernal Leash {@recharge}",
 					"entries": [
 						"A flaming whip appears in the infernal tormentor's hand or from its greatsword and lashes at a creature the tormentor can see within 30 feet of it. The target must succeed on a {@dc 13} Charisma saving throw. A creature that has signed a fiendish contract has disadvantage on this save. On a failure, the creature takes 14 ({@damage 4d6}) fire damage, is pulled 10 feet closer to the tormentor, and is cursed for 1 minute or until the tormentor uses this action again. This curse also ends if the target enters hallowed ground.",
-						"While cursed, the target can't move more than 30 feet from the tormentor. Also while the curse lasts, the target takes 7 ({@dice 2d6}) extra\u00A0fire damage from the tormentor's greatsword attacks. The tormentor can use a bonus action to move the target 10 feet to an unoccupied space within 30 feet of the tormentor. If this space is dangerous, the target receives a new saving throw before moving, ending the effect on itself on a success."
+						"While cursed, the target can't move more than 30 feet from the tormentor. Also while the curse lasts, the target takes 7 ({@dice 2d6}) extra fire damage from the tormentor's greatsword attacks. The tormentor can use a bonus action to move the target 10 feet to an unoccupied space within 30 feet of the tormentor. If this space is dangerous, the target receives a new saving throw before moving, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -6122,7 +6122,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage and the target must make a {@dc 18} Constitution saving throw, taking\u00A018 ({@damage 4d8}) poison damage on a failed save, or half as much damage on a successful one. On a hit, the target is also {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the lindwyrm can't bite another target."
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage and the target must make a {@dc 18} Constitution saving throw, taking 18 ({@damage 4d8}) poison damage on a failed save, or half as much damage on a successful one. On a hit, the target is also {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the lindwyrm can't bite another target."
 					]
 				},
 				{
