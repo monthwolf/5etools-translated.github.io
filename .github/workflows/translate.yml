@@ -36,7 +36,6 @@ on:
 
 concurrency:
   group: "translation"
-  cancel-in-progress: true
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -83,7 +82,7 @@ jobs:
       run: |
            git config user.name "Automatic translator"
            git config user.email "<>"
-           git add --ignore-errors data/ translation/cache/${{ matrix.language }}/ data.en/
+           git add --ignore-errors data/ translation/cache/${{ matrix.language }}/
            git commit -m 'automatic translation'
            git status
            git checkout HEAD .
