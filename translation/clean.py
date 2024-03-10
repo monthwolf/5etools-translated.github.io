@@ -37,6 +37,8 @@ if __name__ == "__main__":
 				# print(logs[1])
 				# print(args.files.index(logs[1]))
 				start=args.files.index(logs[1])
+				if args.files[-1]==logs[1]:
+					start=0
 			else:
 				logs[0]=str(args.files)
 			clean_files(log,logs)
