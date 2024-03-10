@@ -76,7 +76,7 @@ jobs:
       run: |
            git config user.name "Automatic translator"
            git config user.email "<>"
-           git add --ignore-errors all
+           git add --ignore-errors -A
            git status -s
            git commit -m 'automatic translation'
            git status
