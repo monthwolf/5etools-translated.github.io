@@ -51,7 +51,7 @@
 					"name": "The Core Rules",
 					"page": 5,
 					"entries": [
-						"This book relies on the rules in the three core rulebooks. The game especially makes frequent use of the rules in chapters 7-10 of the player's handbook: \"Using Ability Scores,\" \"Adventuring,\" \"Combat,\" and \"Spellcasting.\" That book's appendix A is also crucial; it contains definitions of conditions, like {@condition invisible} and {@condition prone}. You don't need to know the rules by heart, but it's helpful to know where to find them when you need them.",
+						"这本书依赖于三本核心规则书中的规则。游戏特别经常使用玩家手册第7-10章的规则：\"使用能力分数\"，\"冒险\"，\"战斗\"和\"施法\"。该书的附录A也至关重要；其中包含了条件的定义，比如{@condition invisible}和{@condition prone}。你不需要死记规则，但当需要时知道在哪里找到它们会很有帮助。",
 						"如果你是一个DM，你也应该知道在哪里可以查到地下城主指南中的东西，特别是关于魔法物品如何工作的规则（见该书第7章）。怪物手册的介绍是你关于如何使用怪物的状态块的指南。",
 						{
 							"type": "entries",
@@ -2499,7 +2499,7 @@
 											"rows": [
 												[
 													"1-5",
-													"You were ensorcelled by a fey and enslaved for {@dice 1d6} years before you escaped."
+													"你被一位仙灵施下魔法，被奴役了{@dice 1d6}年才成功逃脱。"
 												],
 												[
 													"6-10",
@@ -2507,7 +2507,7 @@
 												],
 												[
 													"11-15",
-													"A devil tempted you. Make a DC 10 Wisdom saving throw. On a failed save, your alignment shifts one step toward evil (if it's not evil already), and you start the game with an additional {@dice 1d20+50} gp."
+													"一个恶魔诱惑了你。进行一次DC 10的感知豁免检定。如果未通过检定，你的属性方向向邪恶方向移动一步（如果尚未是邪恶的），并且你在游戏开始时额外获得{@dice 1d20+50} gp。"
 												],
 												[
 													"16-20",
@@ -2609,11 +2609,11 @@
 												],
 												[
 													"11",
-													"A romantic relationship ended. Roll a {@dice d6}. An odd number means it ended with bad feelings, while an even number means it ended amicably."
+													"一段浪漫的关系结束了。掷骰子{@dice d6}。如果是奇数，意味着以不愉快的感觉结束，如果是偶数，意味着和平结束。"
 												],
 												[
 													"12",
-													"A current or prospective romantic partner of yours died. Roll on the Cause of Death supplemental table to find out how. If the result is murder, roll a {@dice d12}. On a 1, you were responsible, whether directly or indirectly."
+													"你的一位现任或潜在的浪漫伴侣去世了。在死因补充表上投掷骰子，以找出原因。如果结果是谋杀，投掷{@dice d12}。如果投掷到1，那么无论是直接还是间接的，你都是罪魁祸首。"
 												]
 											]
 										},
@@ -2681,7 +2681,7 @@
 												],
 												[
 													"3",
-													"You were enslaved by a hag, a satyr, or some other being and lived in that creature's thrall for {@dice 1d6} years."
+													"你被一位女巫、半人半兽的仙灵，或其他某种生物奴役，生活在那个生物的控制下{@dice 1d6}年。"
 												],
 												[
 													"4",
@@ -3264,7 +3264,7 @@
 					"name": "Falling",
 					"page": 77,
 					"entries": [
-						"Falling from a great height is a significant risk for adventurers and their foes. The rule given in the player's handbook is simple: at the end of a fall, you take {@dice 1d6} bludgeoning damage for every 10 feet you fell, to a maximum of {@dice 20d6}. You also land {@condition prone}, unless you somehow avoid taking damage from the fall. Here are two optional rules that expand on that simple rule.",
+						"从高处坠落对冒险者和他们的敌人来说是一个重大风险。玩家手册中给出的规则很简单：在一次坠落结束时，你每跌落10英尺，就会受到{@dice 1d6} 钝击伤害，最多不超过{@dice 20d6}。你也会落地{@condition prone}，除非你以某种方式避免了坠落伤害。以下是两个扩展这一简单规则的可选规则。",
 						{
 							"type": "entries",
 							"name": "Rate of Falling",
@@ -3280,9 +3280,9 @@
 							"name": "Flying Creatures and Falling",
 							"page": 77,
 							"entries": [
-								"A flying creature in flight falls if it is knocked {@condition prone}, if its speed is reduced to 0 feet, or if it otherwise loses the ability to move, unless it can hover or it is being held aloft by magic, such as the {@spell fly} spell.",
-								"If you'd like a flying creature to have a better chance of surviving a fall than a non-flying creature does, use this rule: subtract the creature's current flying speed from the distance it fell before calculating falling damage. This rule is helpful to a flier that is knocked {@condition prone} but is still conscious and has a current flying speed that is greater than 0 feet. The rule is designed to simulate the creature flapping its wings furiously or taking similar measures to slow the velocity of its fall.",
-								"If you use the rule for rate of falling in the previous section, a flying creature descends 500 feet on the turn when it falls, just as other creatures do. But if that creature starts any of its later turns still falling and is {@condition prone}, it can halt the fall on its turn by spending half its flying speed to counter the {@condition prone} condition (as if it were standing up in midair)."
+								"一只正在飞行的飞行生物会掉落，如果它被击倒{@condition prone}，速度降至0英尺，或者失去移动能力，除非它可以悬停，或者被魔法支撑在空中，比如{@spell fly}法术。",
+								"如果你希望飞行生物在坠落时比非飞行生物有更好的生存机会，可以使用这个规则：在计算坠落伤害之前，从生物当前的飞行速度中减去它坠落的距离。这个规则对于一个被击晕的飞行生物是有帮助的，但它仍然清醒并且当前的飞行速度大于0英尺。这个规则旨在模拟生物拼命拍打翅膀或采取类似措施来减缓坠落速度。",
+								"如果你使用前一节中关于下落速率的规则，一只飞行生物在下落时会在其转弯时下降500英尺，就像其他生物一样。但如果该生物在后续转弯中仍在下落并且是{@condition prone}，它可以通过花费其飞行速度的一半来对抗{@condition prone}状态，在自己的回合中停止下落（就像它在半空中站立起来一样）。"
 							],
 							"id": "031"
 						}
@@ -3297,14 +3297,14 @@
 					"name": "Sleep",
 					"page": 77,
 					"entries": [
-						"Just as in the real world, D&D characters spend many hours sleeping, most often as part of a long rest. Most monsters also need to sleep. While a creature sleeps, it is subjected to the {@condition unconscious} condition. Here are a few rules that expand on that basic fact.",
+						"就像在现实世界中一样，D&D角色花费许多时间睡觉，通常作为长休的一部分。大多数怪物也需要睡眠。当一个生物睡觉时，它会受到{@condition unconscious}状态的影响。以下是一些扩展这一基本事实的规则。",
 						{
 							"type": "entries",
 							"name": "Waking Someone",
 							"page": 77,
 							"entries": [
 								"一个自然睡眠的生物，而不是处于魔法或化学诱导的睡眠中，如果它受到任何伤害，或者如果其他人使用动作摇晃或拍打该生物，就会醒来。突如其来的巨响--比如大喊大叫、打雷或响铃--也会唤醒自然睡眠的人。",
-								"Whispers don't disturb sleep, unless a sleeper's passive Wisdom ({@skill Perception}) score is 20 or higher and the whispers are within 10 feet of the sleeper. Speech at a normal volume awakens a sleeper if the environment is otherwise silent (no wind, birdsong, crickets, street sounds, or the like) and the sleeper has a passive Wisdom ({@skill Perception}) score of 15 or higher."
+								"悄悄话不会打扰睡眠，除非睡者的被动感知力({@skill Perception})得分达到20或更高，并且悄悄话在睡者身边10英尺内。在环境安静（没有风声、鸟鸣、蟋蟀声、街道声音等）的情况下，以正常音量说话会唤醒睡者，如果睡者的被动感知力({@skill Perception})得分达到15或更高。"
 							],
 							"id": "033"
 						},
@@ -3324,8 +3324,8 @@
 							"page": 78,
 							"entries": [
 								"长时间的休息从来不是强制性的，但不睡觉确实有其后果。如果你想说明睡眠不足对人物和生物的影响，请使用这些规则。",
-								"Whenever you end a 24-hour period without finishing a long rest, you must succeed on a DC 10 Constitution saving throw or suffer one level of {@condition exhaustion}.",
-								"It becomes harder to fight off {@condition exhaustion} if you stay awake for multiple days. After the first 24 hours, the DC increases by 5 for each consecutive 24-hour period without a long rest. The DC resets to 10 when you finish a long rest."
+								"每当你在24小时内没有完成一次长休时，你必须成功通过一次DC 10的体质豁免才能避免受到一级{@condition exhaustion}。",
+								"如果你连续多天不休息，抵抗{@condition exhaustion}会变得更加困难。在第一天后的24小时内，每连续24小时没有进行长休的话，难度等级会增加5点。当你完成一次长休时，难度等级会重置为10。"
 							],
 							"id": "035"
 						}
@@ -3352,8 +3352,8 @@
 					"page": 78,
 					"entries": [
 						"这些规则对打结这样的平凡工作是故意开放的，但有时知道一个结打得有多好，在有人试图解开结或从结中溜走的戏剧性场景中是很重要的。这里有一条确定绳结有效性的可选规则。",
-						"The creature who ties the knot makes an Intelligence ({@skill Sleight of Hand}) check when doing so. The total of the check becomes the DC for an attempt to untie the knot with an Intelligence ({@skill Sleight of Hand}) check or to slip out of it with a Dexterity ({@skill Acrobatics}) check.",
-						"This rule intentionally links {@skill Sleight of Hand} with Intelligence, rather than Dexterity. This is an example of how to apply the rule in the {@variantrule Skills with Different Abilities|phb|\"Variant: Skills with Different Abilities\"} section in chapter 7 of the player's handbook."
+						"系结的生物在这样做时进行一个智力检定（{@skill Sleight of Hand}）。检定的总值成为尝试用智力检定或用敏捷检定来解开结或滑出结的DC。分别为{@skill Sleight of Hand}和{@skill Acrobatics}。",
+						"这个规则故意将{@skill Sleight of Hand}与智力联系起来，而不是敏捷。这是如何在玩家手册第7章的{@variantrule Skills with Different Abilities|phb|\"Variant: Skills with Different Abilities\"}部分应用规则的一个例子。"
 					],
 					"data": {
 						"quickref": 3
@@ -3387,7 +3387,7 @@
 									"name": "Added Benefit",
 									"page": 78,
 									"entries": [
-										"In addition, consider giving characters who have both a relevant skill and a relevant tool proficiency an added benefit on a successful check. This benefit might be in the form of more detailed information or could simulate the effect of a different sort of successful check. For example, a character proficient with {@item mason's tools|phb} makes a successful Wisdom ({@skill Perception}) check to find a secret door in a stone wall. Not only does the character notice the door's presence, but you decide that the tool proficiency entitles the character to an automatic success on an Intelligence ({@skill Investigation}) check to determine how to open the door."
+										"此外，考虑给予那些既具备相关技能又具备相关工具熟练度的角色在成功检定时额外的好处。这个好处可以是提供更详细的信息，或者模拟另一种成功检定的效果。例如，一个擅长使用{@item mason's tools|phb}的角色成功进行了一次智慧检定来找到石墙上的一个秘密门。角色不仅注意到了门的存在，而且你可以决定工具熟练度使角色在进行一次智力检定时自动成功，以确定如何打开这扇门。"
 									],
 									"id": "03b"
 								}
@@ -4707,7 +4707,7 @@
 									"name": "Running a Simple Trap",
 									"page": 113,
 									"entries": [
-										"To prepare for using a simple trap in play, start by making note of the characters' passive Wisdom ({@skill Perception}) scores. Most traps allow Wisdom ({@skill Perception}) checks to detect their triggers or other elements that can tip off their presence. If you stop to ask players for this information, they might suspect a hidden danger.",
+										"为了准备在游戏中使用一个简单的陷阱，首先要记下角色们的被动感知力({@skill Perception})分数。大多数陷阱允许进行感知力({@skill Perception})检定来发现它们的触发器或其他可能暴露它们存在的元素。如果你停下来询问玩家这些信息，他们可能会怀疑有隐藏的危险。",
 										"当一个陷阱被触发时，按照其描述中的规定应用其效果。",
 										"如果角色们发现了一个陷阱，要对他们击败陷阱的想法持开放态度。陷阱的描述是对策的起点，而不是一个完整的定义。",
 										"为了让你更容易描述接下来发生的事情，玩家应该具体说明他们想如何打败陷阱。简单地说明想要做检查对你来说是没有帮助的。问问玩家他们的角色在什么位置，他们打算怎么做才能打败陷阱。",
@@ -4960,8 +4960,8 @@
 											]
 										},
 										"触发器通常需要被隐藏起来才会有效。否则，避开陷阱通常很容易。",
-										"A trigger requires a Wisdom ({@skill Perception}) check if simply spotting it reveals its nature. The characters can foil a pit trap hidden by a leaf-covered net if they spot the pit through a gap in the leaves. A trip wire is foiled if it is spotted, as is a pressure plate.",
-										"Other traps require careful inspection and deduction to notice. A doorknob opens a door when turned to the left, but activates a trap when turned to the right. Such a subtle trap requires a successful Intelligence ({@skill Investigation}) check to notice. The trigger is obvious. Understanding its nature is not.",
+										"如果仅仅发现一个触发器并揭示其本质需要进行一个智力检定({@skill Perception})。角色们可以通过叶子间的缝隙发现坑洞从而破坏被叶子覆盖的陷阱。发现绊线或者压力板也能破坏它们。",
+										"其他陷阱需要仔细检查和推理才能注意到。当向左转动时，门把手会打开门，但当向右转动时会触发陷阱。这样一个微妙的陷阱需要成功的智力检定({@skill Investigation})才能注意到。触发器是显而易见的。理解其本质则不是。",
 										"检查的DC，无论其类型如何，都取决于隐藏陷阱的技巧和小心程度。大多数陷阱都可以通过成功的DC20检定被发现，但是粗制滥造或仓促建造的陷阱的DC为15。特别狡猾的陷阱可能有25的DC。",
 										"然后，你必须对人物在检查成功后学到的东西进行一些思考。在大多数情况下，检查揭示了陷阱。在其他情况下，它发现了一些线索，但是挫败陷阱仍然需要一些推理。角色可能会检查成功，但如果他们不理解他们所学到的东西，仍然会触发陷阱。"
 									],
@@ -5299,7 +5299,7 @@
 										"关闭一个复杂陷阱的一个部分通常需要多次成功。默认情况下，需要三次成功的检查或行动才能使一个元素失效。第一次成功的检查可能会减少元素的蓄力DC或攻击奖励。第二次成功的检查可能会使元素的伤害减半，而最后一次成功的检查则是关闭它。",
 										"对于不攻击的元素，允许每次成功的检查使该元素的效力减少三分之一。一把锁的直流电量减少，或者一扇门开得足够大，使一个小个子的角色能够挤过去。将毒气泵入房间的装置变得有缺陷，导致毒气的伤害增加得更慢或根本没有。",
 										"解除一个复杂的陷阱需要时间。三个角色不可能在几秒钟内连续进行检查来解除一个复杂的陷阱。每个人都会挡住另一个角色的去路，扰乱工作。一旦一个角色检查成功，另一个角色就不能对同一个陷阱元素进行同样的检查，直到成功的角色的下一个回合结束。",
-										"Not all of the characters' options need to be focused on stopping a trap from operating. Think of what characters can do to mitigate or avoid a trap's effects. Making the trap vulnerable to this sort of effort is a way to engage characters who might be ill-suited to confront the trap directly. A successful Intelligence ({@skill Religion}) check might provide insight into the imagery displayed by a trap in a temple or shrine, giving other characters a clue about how and where to direct their efforts. A character could stand in front of a dart trap while holding a shield that the darts can target harmlessly, while other characters trigger that element as they work to disable it.",
+										"并非所有角色的选择都需要专注于阻止陷阱运作。考虑角色可以采取什么行动来减轻或避免陷阱的影响。使陷阱对这种努力脆弱是一种吸引那些可能不适合直接对抗陷阱的角色的方式。成功的智力检定（{@skill Religion}）可能会揭示一个寺庙或神殿中陷阱展示的意象，为其他角色提供线索，指导他们如何以及在哪里集中努力。一个角色可以站在飞镖陷阱前，同时持盾牌，让飞镖可以无害地瞄准，而其他角色则触发该元素，以便他们努力将其解除。",
 										{
 											"type": "inset",
 											"name": "Complex Traps and Legendary Monsters",
@@ -5530,7 +5530,7 @@
 											"name": "Resolution",
 											"page": 126,
 											"entries": [
-												"A character seeking to buy a magic item makes a Charisma ({@skill Persuasion}) check to determine the quality of the seller found. The character gains a +1 bonus on the check for every workweek beyond the first that is spent seeking a seller and a +1 bonus for every additional 100 gp spent on the search, up to a maximum bonus of +10. The monetary cost includes a wealthy lifestyle, for a buyer must impress potential business partners.",
+												"一个角色想要购买一个魔法物品，需要进行一个魅力检定({@skill Persuasion})来确定找到的卖家的质量。角色在寻找卖家的第一个工作周之后，每多花费一个工作周在寻找上就会获得+1的奖励，并且每多花费100金币在搜索上就会获得+1的奖励，最多可以获得+10的奖励。购买的金钱成本包括了富裕的生活方式，因为买家必须给潜在的商业伙伴留下深刻印象。",
 												"如购买魔法物品表所示，检查的总数决定了在《地下城主指南》中的哪张表上滚动来确定哪些物品在市场上。你也可以从任何一个与购买魔法物品表上较低的总数相关的表中滚动购买物品。作为反映你的战役中物品可用性的进一步选择，你可以对低魔法战役进行-10的惩罚，或对高魔法战役进行+10的奖励。此外，你可以在低魔力活动中把魔法物品的成本翻倍。",
 												"使用魔法物品价格表，你就可以根据物品的稀有程度为可用物品定价。在使用该表确定要价时，将任何消耗品的价格减半，如药水或卷轴。",
 												"你有最终决定权，决定哪些物品是要出售的，以及它们的最终价格，不管桌子上怎么说。",
@@ -5732,7 +5732,7 @@
 											"name": "Resolution",
 											"page": 127,
 											"entries": [
-												"After a workweek of carousing, a character stands to make contacts within the selected social class. The character makes a Charisma ({@skill Persuasion}) check using the Carousing table.",
+												"在一周的狂欢之后，角色有机会在所选社交阶层内建立联系。角色使用魅力检定({@skill Persuasion})，参考狂欢表格。",
 												{
 													"type": "table",
 													"caption": "Carousing",
@@ -6088,7 +6088,7 @@
 														"*Halved for a consumable item like a potion or scroll"
 													]
 												},
-												"To complete a magic item, a character also needs whatever tool proficiency is appropriate, as for crafting a nonmagical object, or proficiency in the {@skill Arcana} skill.",
+												"为了完成一个魔法物品，角色还需要相应的工具熟练度，就像制作非魔法物品一样，或者需要{@skill Arcana}技能的熟练度。",
 												"如果上述所有要求都得到满足，那么这个过程的结果就是一个所需种类的魔法物品。"
 											],
 											"id": "0a0"
@@ -6098,7 +6098,7 @@
 											"name": "Complications",
 											"page": 129,
 											"entries": [
-												"Most of the complications involved in creating something, especially a magic item, are linked to the difficulty in finding rare ingredients or components needed to complete the work. The complications a character might face as byproducts of the creation process are most interesting when the characters are working on a magic item: there's a {@chance 10|10 percent} chance for every five workweeks spent on crafting an item that a complication occurs. The Crafting Complications table provides examples of what might happen.",
+												"在创造某物，尤其是魔法物品时，大部分的复杂情况都与寻找完成工作所需的稀有成分或材料的困难有关。角色在创造过程中可能面临的复杂情况最有趣的是当角色们在制作魔法物品时：每经过五个工作周用于制作物品时，都有{@chance 10|10 percent}的几率发生复杂情况。《制作复杂情况表》提供了可能发生的情况示例。",
 												{
 													"type": "table",
 													"caption": "Crafting Complications",
@@ -6213,7 +6213,7 @@
 											"entries": [
 												"角色必须进行一系列的检查，所有检查的DC由角色根据从犯罪中寻求的利润数额来选择。",
 												"选择的DC可以是10、15、20或25。成功完成犯罪可获得一定数量的金币，如战利品价值表所示。",
-												"To attempt a crime, the character makes three checks: Dexterity ({@skill Stealth}), Dexterity using {@item thieves' tools|phb}, and the player's choice of Intelligence ({@skill Investigation}), Wisdom ({@skill Perception}), or Charisma ({@skill Deception}).",
+												"为了尝试犯罪，角色需要进行三次检定：敏捷（{@skill Stealth}），使用{@item thieves' tools|phb}的敏捷检定，以及玩家可以选择使用智力（{@skill Investigation}）、感知（{@skill Perception}）或魅力（{@skill Deception}）进行检定。",
 												"如果检查都不成功，这个角色就会被抓住并被关进监狱。该角色必须支付相当于该罪行所能赚取的利润的罚款，并且每25戈比的罚款必须在监狱中度过一个星期。",
 												"如果只有一个检查是成功的，抢劫就会失败，但该角色会逃脱。",
 												"如果两次检查都成功了，抢劫就会部分成功，人物就会得到一半的报酬。",
@@ -6336,7 +6336,7 @@
 											"page": 130,
 											"entries": [
 												"角色必须做一系列的检查，检查结果根据角色遇到的竞争者的质量随机决定。赌博的部分风险在于，人们永远不知道谁可能最终坐在桌子对面。",
-												"The character makes three checks: Wisdom ({@skill Insight}), Charisma ({@skill Deception}), and Charisma ({@skill Intimidation}). If the character has proficiency with an appropriate gaming set, that tool proficiency can replace the relevant skill in any of the checks. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Gambling Results table to see how the character did.",
+												"角色进行三次检定：感知（{@skill Insight}），魅力（{@skill Deception}），和魅力（{@skill Intimidation}）。如果角色精通适当的游戏工具，该工具熟练可以替代任何检定中相关的技能。每次检定的 DC 是 {@dice 5 + 2d10}；为每个检定生成一个单独的 DC。请查阅赌博结果表，看看角色的表现。",
 												{
 													"type": "table",
 													"caption": "Gambling Results",
@@ -6444,7 +6444,7 @@
 											"page": 131,
 											"entries": [
 												"角色必须进行一系列的检查，检查的DC是根据角色遇到的对手的质量随机决定的。坑道战斗的很大一部分挑战在于角色对手的未知性。",
-												"The character makes three checks: Strength ({@skill Athletics}), Dexterity ({@skill Acrobatics}), and a special Constitution check that has a bonus equal to a roll of the character's largest Hit Die (this roll doesn't spend that die). If desired, the character can replace one of these skill checks with an attack roll using one of the character's weapons. The DC for each of the checks is {@dice 5 + 2d10}; generate a separate DC for each one. Consult the Pit Fighting Results table to see how the character did.",
+												"角色进行三次检定：力量（{@skill Athletics}）、敏捷（{@skill Acrobatics}）和一次特殊的体质检定，其奖励值等于角色最大生命骰的点数（这次检定不消耗该骰）。如果愿意，角色可以用角色的武器之一进行攻击检定来替换其中一次技能检定。每次检定的难度等级为{@dice 5 + 2d10}；为每次检定生成一个单独的难度等级。请查阅擂台格斗结果表，以查看角色的表现。",
 												{
 													"type": "table",
 													"caption": "Pit Fighting Results",
@@ -6587,7 +6587,7 @@
 											"name": "Resolution",
 											"page": 131,
 											"entries": [
-												"At the end of the required time, the character chooses to make either an Intelligence ({@skill Religion}) check or a Charisma ({@skill Persuasion}) check. The total of the check determines the benefits of service, as shown on the Religious Service table.",
+												"在规定时间结束时，角色选择进行智力检定（{@skill Religion}）或魅力检定（{@skill Persuasion}）。检定的总值决定服务的好处，如宗教服务表所示。",
 												{
 													"type": "table",
 													"caption": "Religious Service",
@@ -6802,7 +6802,7 @@
 											"name": "Resources",
 											"page": 133,
 											"entries": [
-												"Scribing a spell scroll takes an amount of time and money related to the level of the spell the character wants to scribe, as shown in the Spell Scroll Costs table. In addition, the character must have proficiency in the {@skill Arcana} skill and must provide any material components required for the casting of the spell. Moreover, the character must have the spell prepared, or it must be among the character's known spells, in order to scribe a scroll of that spell.",
+												"制作咒语卷轴需要一定的时间和金钱，与角色想要制作的咒语等级有关，如咒语卷轴成本表所示。此外，角色必须精通{@skill Arcana}技能，并且必须提供施放咒语所需的任何材料组件。此外，角色必须已经准备好该咒语，或者该咒语必须是角色已知的咒语之一，才能制作该咒语的卷轴。",
 												"如果所写的咒语是一个咒语，卷轴上的版本就像施法者是1级一样有效。",
 												{
 													"type": "table",
@@ -6946,7 +6946,7 @@
 											"name": "Resolution",
 											"page": 133,
 											"entries": [
-												"A character who wants to sell an item must make a Charisma ({@skill Persuasion}) check to determine what kind of offer comes in. The character can always opt not to sell, instead forfeiting the workweek of effort and trying again later. Use the Magic Item Base Prices and Magic Item Offer tables to determine the sale price.",
+												"一个想要出售物品的角色必须进行一个魅力检定（{@skill Persuasion}）来决定会得到什么样的报价。角色可以选择不出售，而是放弃一周的努力，然后稍后再试。使用魔法物品基础价格和魔法物品报价表来确定销售价格。",
 												{
 													"type": "table",
 													"caption": "Magic Item Base Prices",
@@ -7169,7 +7169,7 @@
 											"name": "Resolution",
 											"page": 134,
 											"entries": [
-												"To determine how much money a character earns, the character makes an ability check: Strength ({@skill Athletics}), Dexterity ({@skill Acrobatics}), Intelligence using a set of tools, Charisma ({@skill Performance}), or Charisma using a musical instrument. Consult the Wages table to see how much money is generated according to the total of the check.",
+												"为了确定角色赚取多少钱，角色进行一次能力检定：力量 ({@skill Athletics}), 敏捷 ({@skill Acrobatics}), 使用工具的智力，魅力 ({@skill Performance}), 或者使用乐器的魅力。请查阅工资表，根据检定总值确定赚取多少钱。",
 												{
 													"type": "table",
 													"caption": "Wages",
@@ -7729,7 +7729,7 @@
 			"entries": [
 				"有些玩家和管理人有随心所欲地想出角色名称的诀窍，而另一些人则发现这项任务更具有挑战性。本附录中的表格旨在为这两种人提供便利，无论你是为玩家角色、非玩家角色、怪物，甚至是一个地方命名。",
 				"每个表格都包含了与玩家手册中的非人类角色种族或现实世界中的民族或语言群体有关的名字，重点是古代和中世纪的群体。你可以从这里的可能性中选择，或者用骰子来决定一个名字。",
-				"Even though names are associated with races in this  appendix, a character might not have a name from their  own race. For instance, a half-orc might have grown up  among dwarves and have a dwarven name. Or, as DM,  you might decide that dragonborn in your campaign  have a culture reminiscent of ancient Rome and therefore use Roman names, rather than the dragonborn names suggested here.",
+				"尽管在这个附录中，名字与种族有关，但角色可能并非拥有与自己种族相同的名字。例如，半兽人可能在矮人中长大，拥有一个矮人名字。或者，作为DM，你可能决定你的战役中的龙裔有类似古罗马的文化，因此使用罗马名字，而不是这里建议的龙裔名字。",
 				"参见{@5etools names|names.html}页面，了解名称表的完整集合。",
 				{
 					"type": "image",
@@ -7754,89 +7754,89 @@
 						{
 							"type": "item",
 							"name": "Lead Designers:",
-							"entry": "Jeremy Crawford, Mike Mearls"
+							"entry": "杰里米·克劳福德 (Jeremy Crawford)，迈克·米尔斯 (Mike Mearls)"
 						},
 						{
 							"type": "item",
 							"name": "Designer:",
-							"entry": "Robert J. Schwalb"
+							"entry": "罗伯特·J·施沃布 (Robert J. Schwalb)"
 						},
 						{
 							"type": "item",
 							"name": "Additional Design:",
-							"entry": "Adam Lee, Christopher Perkins, Matt Sernett"
+							"entry": "亚当·李（Adam Lee）, 克里斯托弗·帕金斯（Christopher Perkins）, 马特·瑟内特（Matt Sernett）"
 						},
 						{
 							"type": "item",
 							"name": "Development:",
-							"entry": "Ben Petrisor"
+							"entry": "本·佩特里索尔 (Ben Petrisor)"
 						},
 						{
 							"type": "item",
 							"name": "Managing Editor:",
-							"entry": "Jeremy Crawford"
+							"entry": "杰里米·克劳福德 (Jeremy Crawford)"
 						},
 						{
 							"type": "item",
 							"name": "Editor:",
-							"entry": "Kim Mohan"
+							"entry": "金莫汉 (Kim Mohan)"
 						},
 						{
 							"type": "item",
 							"name": "Additional Editing:",
-							"entry": "Michele Carter, Scott Fitzgerald Gray"
+							"entry": "米歇尔·卡特（Michele Carter），斯科特·菲茨杰拉德·格雷（Scott Fitzgerald Gray）"
 						},
 						{
 							"type": "item",
 							"name": "Art Director:",
-							"entry": "Kate Irwin"
+							"entry": "凯特·欧文 (Kate Irwin)"
 						},
 						{
 							"type": "item",
 							"name": "Additional Art Direction:",
-							"entry": "Shauna Narciso"
+							"entry": "肖娜·纳西索 (Shauna Narciso)"
 						},
 						{
 							"type": "item",
 							"name": "Graphic Designer:",
-							"entry": "Emi Tanji"
+							"entry": "谷井惠美 (Emi Tanji)"
 						},
 						{
 							"type": "item",
 							"name": "Cover Illustrator:",
-							"entry": "Jason Rainville"
+							"entry": "杰森·雷恩维尔 (Jason Rainville)"
 						},
 						{
 							"type": "item",
 							"name": "Cover Illustrator (Alternative Cover):",
-							"entry": "Hydro74"
+							"entry": "Hydro74 (Hydro74)"
 						},
 						{
 							"type": "item",
 							"name": "Interior Illustrators:",
-							"entry": "Rob Alexander, Mark Behm, Eric Belisle, Zoltan Boros, Christopher Bradley, Noah Bradley, Sam Burley, Jedd Chevrier, jD, Olga Drebas, Jesper Ejsing, Wayne England, Leesha Hannigan, Jon Hodgson, Ralph Horsley, Lake Hurwitz, Julian Kok, Raphael Lübke, Warren Mahy, Mark Molnar, Scott Murphy, Adam Paquette, Claudio Pozas, Vincent Proce, A.M. Sartor, Chris Seaman, David Sladek, Craig J Spearing, Cory Trego-Erdner, Beth Trott, Jose Vega, Richard Whitters, Ben Wootten, Min Yum"
+							"entry": "Rob Alexander（罗伯·亚历山大）, Mark Behm（马克·贝姆）, Eric Belisle（埃里克·贝利斯尔）, Zoltan Boros（佐尔坦·博罗斯）, Christopher Bradley（克里斯托弗·布拉德利）, Noah Bradley（诺亚·布拉德利）, Sam Burley（山姆·伯利）, Jedd Chevrier（杰德·谢维尔）, jD, Olga Drebas（奥尔加·德雷巴斯）, Jesper Ejsing（耶斯珀·艾辛）, Wayne England（韦恩·英格兰）, Leesha Hannigan（莉莎·汉尼根）, Jon Hodgson（乔恩·霍奇森）, Ralph Horsley（拉尔夫·霍斯利）, Lake Hurwitz（莱克·赫维茨）, Julian Kok（朱利安·科克）, Raphael Lübke（拉斐尔·吕布克）, Warren Mahy（沃伦·马伊）, Mark Molnar（马克·莫尔纳尔）, Scott Murphy（斯科特·墨菲）, Adam Paquette（亚当·帕奎特）, Claudio Pozas（克劳迪奥·波萨斯）, Vincent Proce（文森特·普罗斯）, A.M. Sartor（A.M. 萨托尔）, Chris Seaman（克里斯·西曼）, David Sladek（大卫·斯拉德克）, Craig J Spearing（克雷格·J·斯皮林）, Cory Trego-Erdner（科里·特雷戈-厄德纳）, Beth Trott（贝丝·特罗特）, Jose Vega（何塞·维加）, Richard Whitters（理查德·惠特斯）, Ben Wootten（本·伍顿）, Min Yum（闵·尹）"
 						},
 						{
 							"type": "item",
 							"name": "Project Management:",
-							"entry": "Stan!, Heather Fleming"
+							"entry": "斯坦！(Stan!)，希瑟·弗莱明(Heather Fleming)"
 						},
 						{
 							"type": "item",
 							"name": "Production Services:",
-							"entry": "Cynda Callaway, Jefferson Dunlap, David Gershman, Kevin Yee"
+							"entry": "Cynda Callaway（Cynda Callaway）, Jefferson Dunlap（Jefferson Dunlap）, David Gershman（David Gershman）, Kevin Yee（Kevin Yee）"
 						},
-						"Includes material from Princes of the Apocalypse (2015) and Sword Coast Adventurer's Guide (2015)",
-						"Special thanks to Jennell Jaquays",
+						"包括来自《风暴王子》(2015)和《剑海岸冒险者指南》(2015)的内容。",
+						"特别感谢詹娜尔·贾奎斯(Jennell Jaquays)。",
 						{
 							"type": "item",
 							"name": "Other D&D Team Members:",
-							"entry": "Bart Carroll, Trevor Kidd, Christopher Lindsay, Shelly Mazzanoble, Hilary Ross, Liz Schuh, Nathan Stewart, Greg Tito"
+							"entry": "巴特·卡罗尔 (Bart Carroll), 特雷弗·基德 (Trevor Kidd), 克里斯托弗·林赛 (Christopher Lindsay), 谢莉·马扎诺布尔 (Shelly Mazzanoble), 希拉里·罗斯 (Hilary Ross), 利兹·舒 (Liz Schuh), 内森·斯图尔特 (Nathan Stewart), 格雷格·提托 (Greg Tito)"
 						},
 						{
 							"type": "item",
 							"name": "Playtesters:",
-							"entry": "Charles Benscoter, Dan Klinestiver, Dave Kovarik, Davena Oaks, Kevin Engling, Teos Abadia, Robert Alaniz, Phil Allison, Robert Allison, Jay Anderson, Paul Aparicio, Paul Van Arcken, Dee Ashe, Andrew Bahls, Chris Balboni, Jason Baxter, Jerry Behrendt, Teddy Benson, Deb Berlin, Stacy Bermes, Jim Berrier, Lauren Bilanko, Jordan Brass, Ken J. Breese, Robert \"Bobby\" Brown, Matthew Budde, Matt Burton, David Callander, Mik Calow, Richard Chamberlain, Wayne Chang, Emre Cihangir, Bruno Cobbi, Garrett Colón, Mark Craddock, Max Cushner, Brian Dahl, Derek DaSilva, Phil Davidson, Krupal Desai, Scott Deschler, Yorcho Diaz, Mario A. DiGirolamo, Adam Dowdy, Curt Duval, Jay Elmore, Russell Engel, Andrew Epps, David M. Ewalt, Justin Faris, Jared Fegan, Frank Foulis, Max Frutig, Travis Fuller, Kyle Garms, Ben Garton, Louis Gentile, Genesis Emanuale Martinez Gonzalez, Derek A. Gray, Richard Green, Kevin Grigsby, Christopher Hackler, Bryan Harris, Gregory Harris, Randall Harris, Fred Harvey, Ian Hawthorne, Adam Hennebeck, Sterling Hershey, Justin Hicks, Will Hoffman, Scott Holmgren, Paul Hughes, Daniel E. Chapman II, Stanislav Ivanov, Matt Jarmak, James Jorstad, Evan Jorstad, Alex Kammer, Joshua Kaufman, Bill Grishnak Kerney, Jake Kiefer, Chet King, Atis Kleinbergs, Steven Knight, David Krolnik, Yan Lacharité, Jon F. Lamkin, Marjorie Lamkin, Shane Leahy, Stephen Lindberg, Tom Lommel, Michael Long, Jonathan Longstaff, Ginny Loveday, Kevin D. Luebke, Michael Lydon, Matthew Maranda, Joel Marsh, Gleb Masaltsev, Chris McDaniel, Chris McGovern, Jim McKay, Mark Meredith, Mark Merida, Lou Michelli, David Middleton, Mike Mihalas, Mark A. Miller, Paige Miller, Ian Mills, Stacy Mills, David Milman, Daren Mitchell, TL Frasqueri-Molina, Scott Moore, David Morris, Tim Mottishaw, JoDee Murch, Joshua Murdock, William Myers, Walter Nau, Kevin Neff, Daniel \"KBlin\" Oliveira, Grigory Parovichnikov, Alan Patrick, Russ Paulsen, Matt Petruzzelli, Zachary Pickett, Chris Presnall, Nel Pulanco, Jack Reid, Joe Reilly, Renout van Rijn, Sam Robertson, Carlos Robles, Evan Rodarte, Matthew Roderick, Zane Romine, Nathan Ross, Dave Rosser, David Russell, Ruty Rutenberg, A.C. Ryder, Arthur Saucier, Benjamin Schindewolf, Ken Schreur, James Schweiss, the Seer, Jonathan Connor Self, Nicholas Sementelli, Arthur Severance, Ben Siekert, Jimmy Spiva, the Dead Squad, Francois P. Lefebvre Sr., Keaton Stamps, Matthew Talley, Dan Taylor, Kirsten A. Thomas, Laura Thompson, Jia Jian Tin, Kyle Turner, Justin Turner, Alex Vine, Yoerik de Voogd, Shane Walker, Matthew Warwick, Chris \"Waffles\" Wathen, Eric Weberg, Werebear, Gary West, Andy Wieland, Keith Williams, David Williamson, Travis Woodall, Arthur Wright, Keoki Young"
+							"entry": "查尔斯·本斯科特 (Charles Benscoter), 丹·克林斯蒂弗 (Dan Klinestiver), 戴夫·科瓦里克 (Dave Kovarik), 达维娜·奥克斯 (Davena Oaks), 凯文·恩格林 (Kevin Engling), 特奥斯·阿巴迪亚 (Teos Abadia), 罗伯特·阿拉尼兹 (Robert Alaniz), 菲尔·艾利森 (Phil Allison), 罗伯特·艾利森 (Robert Allison), 杰伊·安德森 (Jay Anderson), 保罗·阿帕里西奥 (Paul Aparicio), 保罗·范·阿肯 (Paul Van Arcken), 迪·阿什 (Dee Ashe), 安德鲁·巴尔斯 (Andrew Bahls), 克里斯·巴尔博尼 (Chris Balboni), 杰森·巴克斯特 (Jason Baxter), 杰瑞·贝伦特 (Jerry Behrendt), 泰迪·本森 (Teddy Benson), 黛布·柏林 (Deb Berlin), 斯泰西·贝尔梅斯 (Stacy Bermes), 吉姆·贝里尔 (Jim Berrier), 劳伦·比兰科 (Lauren Bilanko), 乔丹·布拉斯 (Jordan Brass), 肯·J·布里斯 (Ken J. Breese), 罗伯特“鲍比”布朗 (Robert \"Bobby\" Brown), 马修·巴迪 (Matthew Budde), 马特·伯顿 (Matt Burton), 大卫·卡兰德 (David Callander), 米克·卡洛 (Mik Calow), 理查德·张伯伦 (Richard Chamberlain), 韦恩·张 (Wayne Chang), 埃姆雷·奇汉吉尔 (Emre Cihangir), 布鲁诺·科比 (Bruno Cobbi), 加勒特·科隆 (Garrett Colón), 马克·克拉多克 (Mark Craddock), 马克斯·库什纳 (Max Cushner), 布莱恩·达尔 (Brian Dahl), 德里克·达希尔瓦 (Derek DaSilva), 菲尔·戴维森 (Phil Davidson), 克鲁帕尔·德赛 (Krupal Desai), 斯科特·德施勒 (Scott Deschler), 约尔乔·迪亚兹 (Yorcho Diaz), 马里奥·A·迪吉罗拉莫 (Mario A. DiGirolamo), 亚当·道迪 (Adam Dowdy), 柯特·杜瓦尔 (Curt Duval), 杰伊·埃尔莫尔 (Jay Elmore), 罗素·恩格尔 (Russell Engel), 安德鲁·埃普斯 (Andrew Epps), 大卫·M·伊瓦尔特 (David M. Ewalt), 贾斯汀·法里斯 (Justin Faris), 贾里德·费根 (Jared Fegan), 弗兰克·福利斯 (Frank Foulis), 马克斯·弗鲁提格 (Max Frutig), 特拉维斯·富勒 (Travis Fuller), 凯尔·加姆斯 (Kyle Garms), 本·加顿 (Ben Garton), 路易斯·根提尔 (Louis Gentile), 创世纪·埃马努埃尔·马丁内斯·冈萨雷斯 (Genesis Emanuale Martinez Gonzalez), 德里克·格雷 (Derek A. Gray), 理查德·格林 (Richard Green), 凯文·格里格斯比 (Kevin Grigsby), 克里斯托弗·哈克勒 (Christopher Hackler), 布赖恩·哈里斯 (Bryan Harris), 格雷戈里·哈里斯 (Gregory Harris), 兰德尔·哈里斯 (Randall Harris), 弗雷德·哈维 (Fred Harvey), 伊恩·霍桑 (Ian Hawthorne), 亚当·亨内贝克 (Adam Hennebeck), 斯特林·赫尔希 (Sterling Hershey), 贾斯汀·希克斯 (Justin Hicks), 威尔·霍夫曼 (Will Hoffman), 斯科特·霍尔姆格伦 (Scott Holmgren), 保罗·休斯 (Paul Hughes), 丹尼尔·E·查普曼二世 (Daniel E. Chapman II), 斯坦尼斯拉夫·伊万诺夫 (Stanislav Ivanov), 马特·贾马克 (Matt Jarmak), 詹姆斯·乔斯塔德 (James Jorstad), 埃文·乔斯塔德 (Evan Jorstad), 亚历克斯·卡默 (Alex Kammer), 乔舒亚·考夫曼 (Joshua Kaufman), 比尔·格里什纳克·科尼 (Bill Grishnak Kerney), 杰克·基弗 (Jake Kiefer), 切特·金 (Chet King), 阿蒂斯·克莱因贝格斯 (Atis Kleinbergs), 史蒂文·奈特 (Steven Knight), 大卫·克罗尔尼克 (David Krolnik), 伊恩·拉沙里特 (Yan Lacharité), 乔恩·F·兰金 (Jon F. Lamkin), 玛乔里·兰金 (Marjorie Lamkin), 谢恩·利希 (Shane Leahy), 斯蒂芬·林德伯格 (Stephen Lindberg), 汤姆·洛梅尔 (Tom Lommel), 迈克尔·朗 (Michael Long), 乔纳森·朗斯塔夫 (Jonathan Longstaff), 金妮·洛夫代 (Ginny Loveday), 凯文·D·吕布克 (Kevin D. Luebke), 迈克尔·莱登 (Michael Lydon), 马修·马兰达 (Matthew Maranda), 乔尔·马什 (Joel Marsh), 格列布·马萨尔采夫 (Gleb Masaltsev), 克里斯·麦克丹尼尔 (Chris McDaniel), 克里斯·麦格文 (Chris McGovern), 吉姆·麦凯 (Jim McKay), 马克·梅雷迪斯 (Mark Meredith), 马克·梅里达 (Mark Merida), 卢·米凯利 (Lou Michelli), 大卫·米德尔顿 (David Middleton), 迈克·米哈拉斯 (Mike Mihalas), 马克·A·米勒 (Mark A. Miller), 佩奇·米勒 (Paige Miller), 伊恩·米尔斯 (Ian Mills), 斯泰西·米尔斯 (Stacy Mills), 大卫·米尔曼 (David Milman), 达伦·米切尔 (Daren Mitchell), TL·弗拉斯克里-莫利纳 (TL Frasqueri-Molina), 斯科特·摩尔 (Scott Moore), 大卫·莫里斯 (David Morris), 蒂姆·莫蒂肖 (Tim Mottishaw), 乔迪·默奇 (JoDee Murch), 乔舒亚·默多克 (Joshua Murdock), 威廉·迈尔斯 (William Myers), 沃尔特·诺 (Walter Nau), 丹尼尔“KBlin”奥利维拉 (Daniel \"KBlin\" Oliveira), 格里戈里·帕罗维奇尼科夫 (Grigory Parovichnikov), 艾伦·帕特里克 (Alan Patrick), 鲁斯·保尔森 (Russ Paulsen), 马特·佩特鲁泽利 (Matt Petruzzelli), 扎卡里·皮克特 (Zachary Pickett), 克里斯·普雷斯纳尔 (Chris Presnall), 内尔·普兰科 (Nel Pulanco), 杰克·里德 (Jack Reid), 乔·莱利 (Joe Reilly), 雷诺特·范·雷恩 (Renout van Rijn), 萨姆·罗伯逊 (Sam Robertson), 卡洛斯·罗布莱斯 (Carlos Robles), 埃文·罗达特 (Evan Rodarte), 马修·罗德里克 (Matthew Roderick), 赞恩·罗明 (Zane Romine), 内森·罗斯 (Nathan Ross), 戴夫·罗瑟 (Dave Rosser), 大卫·罗素 (David Russell), 鲁蒂·鲁滕贝格 (Ruty Rutenberg), A.C.赖德 (A.C. Ryder), 阿瑟·索西耶 (Arthur Saucier), 本杰明·辛德沃夫 (Benjamin Schindewolf), 肯·施罗尔 (Ken Schreur), 詹姆斯·施韦斯 (James Schweiss), 先知 (the Seer), 乔纳森·康纳·塞尔夫 (Jonathan Connor Self), 尼古拉斯·塞门特利 (Nicholas Sementelli), 阿瑟·塞弗朗斯 (Arthur Severance), 本·西克特 (Ben Siekert), 吉米·斯皮瓦 (Jimmy Spiva), 死亡小队 (the Dead Squad), 弗朗索瓦·P·勒菲布尔夫 (Francois P. Lefebvre Sr.), 基顿·斯坦普斯 (Keaton Stamps), 马修·塔利 (Matthew Talley), 丹·泰勒 (Dan Taylor), 克尔斯滕·A·托马斯 (Kirsten A. Thomas), 劳拉·汤普森 (Laura Thompson), 甲健·廷 (Jia Jian Tin), 凯尔·特纳 (Kyle Turner), 贾斯汀·特纳 (Justin Turner), 亚历克斯·维恩 (Alex Vine), 尤里克·德·福赫德 (Yoerik de Voogd), 谢恩·沃克 (Shane Walker), 马修·沃里克 (Matthew Warwick), 克里斯“华夫饼”瓦森 (Chris \"Waffles\" Wathen), 埃里克·韦伯格 (Eric Weberg), 熊人 (Werebear), 加里·韦斯特 (Gary West), 安迪·维兰德 (Andy Wieland), 基思·威廉斯 (Keith Williams), 大卫·威廉森 (David Williamson), 特拉维斯·伍德尔"
 						}
 					]
 				}

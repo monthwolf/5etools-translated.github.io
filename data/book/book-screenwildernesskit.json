@@ -23,7 +23,7 @@
 								{
 									"type": "item",
 									"name": "2. Pace",
-									"entry": "the players choose the groups travel pace for the cycle: slow, normal, or fast. See the {@table Travel Pace|PHB} table on the DM screen for details about each pace."
+									"entry": "玩家选择小组的旅行速度周期：慢速，正常或快速。有关每种速度的详细信息，请参见DM屏幕上的表格{@table Travel Pace|PHB}。"
 								},
 								{
 									"type": "item",
@@ -33,7 +33,7 @@
 								{
 									"type": "item",
 									"name": "4. Encounter",
-									"entry": "Roll a {@dice d10}. On a 1, the characters encounter something this cycle. The DM either decides what happens or rolls on the Wilderness Encounter table."
+									"entry": "投掷一个{@dice d10}。如果投掷到1，角色们会在这个周期中遭遇某事。DM可以决定发生什么，或者在荒野遭遇表上投掷。"
 								},
 								{
 									"type": "item",
@@ -60,7 +60,7 @@
 							"type": "list",
 							"items": [
 								"遮蔽该地区的天气，如大雨、大雪或大雾。",
-								"Traveling at night, even with light sources or {@sense darkvision}.",
+								"即使有光源或{@sense darkvision}，夜间旅行也要小心。",
 								"茂密的森林",
 								"地下旅行",
 								"在海上旅行时，无法看到天空或任何熟悉的陆地。"
@@ -205,7 +205,7 @@
 						],
 						[
 							"3",
-							"Wild magic zone (roll on the {@table Wild Magic Surge|PHB} table in the Player's Handbook whenever a spell is cast within the zone)"
+							"野生魔法区域（每当在该区域内施放法术时，在《玩家手册》中的{@table Wild Magic Surge|PHB}表上掷骰子）"
 						],
 						[
 							"4",
@@ -352,7 +352,7 @@
 							"name": "Tracking Supplies",
 							"entries": [
 								"使用随附的 \"供应追踪器\"，记下你是在追踪一个短周期还是长周期的旅程，以及你携带了多少单位的食物和水。在每个周期的供应步骤中，为每一单位的食物或水的消耗标记一个方框。",
-								"A character unable to eat or drink gains 1 level of {@condition exhaustion} for each requirement they fail to meet. Exhaustion gained in this way can't be removed until the character is able to consume sufficient food and water."
+								"一个角色无法进食或饮水时，每个未满足的需求会使其获得{@condition exhaustion}级别。以这种方式获得的疲劳不能被移除，直到角色能够摄入足够的食物和水。"
 							],
 							"id": "006"
 						},
@@ -360,7 +360,7 @@
 							"type": "entries",
 							"name": "Foraging",
 							"entries": [
-								"Characters can hunt or gather food and water while the party travels at a normal or slow pace. A foraging character makes a Wisdom ({@skill Survival}) check against a DC determined by the terrain (see the Foraging table on the DM's screen). On a successful check, the character gathers units of food equal to {@dice 1d6} + their Wisdom modifier. Repeat the roll for drinkable water."
+								"角色可以在队伍以正常或缓慢的速度行进时狩猎或采集食物和水。一个进行觅食的角色根据地形决定的DC进行一次感知检定（参见DM屏幕上的觅食表）。在成功检定后，角色收集到的食物单位数等于{@dice 1d6} + 他们的感知调整值。再次进行检定以获取可饮用水。"
 							],
 							"id": "007"
 						}
@@ -430,7 +430,7 @@
 								],
 								[
 									2,
-									"Uneven ground threatens to slow your progress. Make a DC 10 Dexterity ({@skill Acrobatics}) check to navigate the area. On failed check, the ground counts as 10 feet of {@quickref difficult terrain||3}."
+									"不平整的地面威胁着你的前进速度。进行一次 DC 10 敏捷度检定来穿越这个区域。如果检定失败，这块地面将被视为 10 英尺的(`Dexterity`)。"
 								],
 								[
 									3,
@@ -438,7 +438,7 @@
 								],
 								[
 									4,
-									"A stream, ravine, or rock bed blocks your path. Make a DC 10 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (your choice) to cross the impediment. On a failed check, the impediment counts as 10 feet of {@quickref difficult terrain||3}."
+									"一条小溪、峡谷或岩石块挡住了你的道路。进行一次 DC 10 力量（{@skill Athletics}）或敏捷（{@skill Acrobatics}）检定（由你选择）以跨越这个障碍。如果检定失败，这个障碍等同于 10 英尺的{@quickref difficult terrain||3}。"
 								],
 								[
 									5,
@@ -450,7 +450,7 @@
 								],
 								[
 									7,
-									"You blunder into a snare. Make a DC 15 Dexterity saving throw. On failed save, you are caught in the snare and {@condition restrained}. As an action, you or someone within 5 feet of you can make a DC 10 Strength check, freeing you on a success. The snare can also be destroyed; it has an AC of 10 and 5 hit points, and it is immune to poison and psychic damage. Complication"
+									"你不小心走入了一个陷阱。进行一次 DC 15 的敏捷豁免检定。如果检定失败，你被陷入陷阱并{@condition restrained}。作为一个动作，你或者你附近5英尺范围内的人可以进行一次 DC 10 的力量检定，如果成功则解救你。这个陷阱也可以被摧毁；它的防御等级为10，拥有5点生命值，并且免疫毒素和精神伤害。复杂化"
 								],
 								[
 									8,
@@ -474,8 +474,8 @@
 							"type": "entries",
 							"name": "Dashing",
 							"entries": [
-								"Over the course of a chase, you can take the {@action Dash} action a limited number of times before you risk {@condition exhaustion}. That number equals 3 + your Constitution modifier. Each additional {@action Dash} action you take after that number during the chase requires you to succeed on a DC 10 Constitution check at the end of your turn or gain 1 level of {@condition exhaustion}.",
-								"You drop out of the chase if your {@condition exhaustion} reaches level 5, since your speed becomes0. By finishing a short or long rest, you can remove all the levels of {@condition exhaustion} you gained by taking the {@action Dash} action additional times during the chase."
+								"在追逐过程中，你可以在冒风险之前有限次数地采取{@action Dash}行动。这个次数等于3 + 你的体质调整值。在追逐中超过这个次数后，每额外的{@action Dash}行动都需要你在回合结束时成功进行一次DC 10的体质检定，否则就会获得1级的{@condition exhaustion}。",
+								"如果你的{@condition exhaustion}达到5级，你就会退出追逐，因为你的速度变为0。通过完成短暂或长时间休息，你可以移除在追逐中通过额外进行{@action Dash}行动而获得的所有{@condition exhaustion}级别。"
 							],
 							"id": "00a"
 						},
@@ -495,7 +495,7 @@
 					"name": "Ending a Chase",
 					"entries": [
 						"当一方或另一方停止时，当猎物逃脱时，或当至少一个追捕者在猎物的5英尺范围内时，追捕就会结束。",
-						"If neither side gives up the chase, the quarry can make a Dexterity ({@skill Stealth}) check at the end of each round, after every participant in the chase has taken a turn. An {@condition incapacitated} quarry can't make this check, nor can a quarry without anything to hide behind. The check's total is compared to the passive Wisdom ({@skill Perception}) scores of the pursuers. If the quarry consists of multiple creatures, they all make the check. If the total of a quarry's check is greater than the highest passive score, that quarry escapes and is no longer in the chase.",
+						"如果双方都不放弃追逐，猎物可以在每轮结束后，在每个参与者都轮流后，进行一个敏捷度检定（{@skill Stealth}）。一个{@condition incapacitated}猎物不能进行这个检定，也没有任何掩护的猎物不能进行。检定的总值与追捕者的被动感知度检定（{@skill Perception}）进行比较。如果猎物由多个生物组成，它们都要进行检定。如果猎物的检定总值大于最高被动分数，那么猎物逃脱并不再参与追逐。",
 						"采石场根据当时的情况在检查中获得优势或劣势，如逃跑因素表所示。如果有一个或多个因素使采石场在检查中同时获得优势和劣势，采石场就会像往常一样，两者都没有。",
 						{
 							"type": "table",
@@ -526,7 +526,7 @@
 									"劣势"
 								],
 								[
-									"The lead pursuer is a ranger or has proficiency in {@skill Survival}",
+									"主追捕者是一名游侠或者具备{@skill Survival}熟练度。",
 									"劣势"
 								]
 							]

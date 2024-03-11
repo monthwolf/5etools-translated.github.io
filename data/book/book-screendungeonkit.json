@@ -230,7 +230,7 @@
 							"5 ({@dice 2d4})"
 						],
 						[
-							"Small ({@item chest|phb}, {@item lute|phb})",
+							"小型({@item chest|phb}, {@item lute|phb})",
 							"3 ({@dice 1d6})",
 							"10 ({@dice 3d6})"
 						],
@@ -361,7 +361,7 @@
 					"type": "entries",
 					"name": "Concentration",
 					"entries": [
-						"If a spell must be maintained with {@status concentration|PHB}, its description specifies how long you can concentrate on it. You can end concentration at any time (no action required). The following factors can break concentration:",
+						"如果一个法术必须通过{@status concentration|PHB}来维持，其描述会指定你可以集中精力维持的时间。你可以随时结束集中（无需动作）。以下因素可能会打断集中：",
 						{
 							"type": "list",
 							"items": [
@@ -482,7 +482,7 @@
 								[
 									"1",
 									"岌岌可危",
-									"The area is dangerously worn and prone to collapse. Any impacts or damage to the structure, including from spells and other areas of effect, have a 50 percent chance of causing a collapse (see the {@table Improvising Damage|DMG} table)."
+									"该区域破损严重，容易坍塌。对结构造成的任何冲击或损坏，包括来自法术和其他影响范围的影响，有50%的几率导致坍塌（参见表格{@table Improvising Damage|DMG}）。"
 								],
 								[
 									"2",
@@ -497,7 +497,7 @@
 								[
 									"4",
 									"被遗弃的",
-									"Most of the dungeon is deserted and quiet as a tomb. Dexterity ({@skill Stealth}) checks have disadvantage because any sounds stand out as unusual."
+									"大部分地牢都荒无人烟，宁静得像坟墓一样。敏捷度检定({@skill Stealth})因为任何声音都会显得异常而具有劣势。"
 								],
 								[
 									"5",
@@ -831,7 +831,7 @@
 							"400 feet",
 							"4英里",
 							"30英里",
-							"-5 penalty to passive Wisdom ({@skill Perception}) scores"
+							"被动感知力（{@skill Perception}）得分减少5点。"
 						],
 						[
 							"正常",
@@ -949,12 +949,12 @@
 					"rows": [
 						[
 							"轻度遮蔽",
-							"Creatures have disadvantage on Wisdom ({@skill Perception}) checks that rely on sight.",
+							"生物在依赖视觉的感知({@skill Perception})检定上有劣势。",
 							"昏暗的光线，斑驳的雾气，适度的树叶"
 						],
 						[
 							"严重遮蔽",
-							"Vision is blocked; creatures are effectively {@condition blinded}.",
+							"视觉受阻；生物被有效地{@condition blinded}。",
 							"黑暗、不透明的雾气、茂密的树叶"
 						]
 					]
