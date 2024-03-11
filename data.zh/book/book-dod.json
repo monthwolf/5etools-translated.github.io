@@ -195,7 +195,7 @@
 										],
 										[
 											"6",
-											"The sky fills with iridescent bubbles that lazily fall to the ground. Giggling pixie children chase and pop the bubbles but turn {@condition invisible} and flee if spoken to or approached."
+											"天空中充满了闪烁的泡泡，慢慢地落到地面上。咯咯笑着的小精灵孩子们追逐着泡泡，但如果被搭话或接近，他们会转身{@condition invisible}逃走。"
 										],
 										[
 											"7",
@@ -203,7 +203,7 @@
 										],
 										[
 											"8",
-											"A howling wind blows through the party, and each party member must roll a {@dice d8}. Anyone who rolls an 8 has a trinket or some other tiny, nonmagical item (such as a coin) stolen from them by weather spirits."
+											"一阵呼啸的风吹过队伍，每位队员都必须投掷一个{@dice d8}。任何掷出8的人都会被天气精灵偷走一个小玩意儿或其他微不足道的非魔法物品（比如一枚硬币）。"
 										]
 									]
 								}
@@ -252,7 +252,7 @@
 									"rows": [
 										[
 											"1",
-											"Fetter"
+											"束缚"
 										],
 										[
 											"2",
@@ -571,7 +571,7 @@
 												{
 													"type": "item",
 													"name": "Inspiration",
-													"entry": "You gain inspiration each day at dawn for {@dice 2d4} days."
+													"entry": "你在每天黎明时获得灵感，持续{@dice 2d4}天。"
 												},
 												{
 													"type": "item",
@@ -581,12 +581,12 @@
 												{
 													"type": "item",
 													"name": "Minor Magic Item",
-													"entry": "You gain a common magic item that is yours to keep, or an uncommon magic item for {@dice 5d6} days."
+													"entry": "你获得一个普通魔法物品，属于你自己保管，或者一个不常见的魔法物品，持续{@dice 5d6}天。"
 												},
 												{
 													"type": "item",
 													"name": "Proficiency",
-													"entry": "You gain proficiency in a skill of your choice for {@dice 2d4} days."
+													"entry": "你在选择的技能上获得熟练度，持续{@dice 2d4}天。"
 												},
 												{
 													"type": "item",
@@ -705,7 +705,7 @@
 									"type": "entries",
 									"name": "Breaking a Contract",
 									"entries": [
-										"The Feywild can punish a creature for breaking a fey contract, but the creature must be on the plane to be affected. The penalty imposed on a creature who breaks a lesser contract can be removed by any magic that ends a curse; a {@spell wish} spell is needed to remove the penalty for breaking a greater contract.",
+										"Feywild（精灵界）可以惩罚违反精灵契约的生物，但生物必须在该位面上才会受到影响。违反较轻契约的生物所受的惩罚可以通过任何结束诅咒的魔法来解除；需要使用{@spell wish}法术来解除违反较重契约的惩罚。",
 										"破坏大契约和破坏小契约的表格可以用来确定破坏费恩契约的魔法惩罚。",
 										{
 											"type": "table",
@@ -835,7 +835,7 @@
 										],
 										[
 											"6",
-											"Moonlight burns your flesh. You take {@damage 1d10} radiant damage when you start your turn in moonlight."
+											"月光灼烧着你的肌肤。当你在月光下开始你的回合时，你会受到{@damage 1d10}辐射伤害。"
 										],
 										[
 											"7",
@@ -976,7 +976,7 @@
 										],
 										[
 											"9",
-											"A tower that used to be the trunk of a giant {@condition petrified} tree, with rope bridges connecting it to the giant living trees that surround it"
+											"一个曾经是巨大{@condition petrified}树干的塔楼，用绳桥连接着周围巨大的活树。"
 										],
 										[
 											"10",
@@ -1180,7 +1180,7 @@
 										],
 										[
 											"7",
-											"{@b Reclusive.} The archfey prefers to be left alone and seldom, if ever, leaves their domain. They might adopt disguises or turn {@condition invisible} when they travel, and they might use magic to conceal their lair."
+											"{@b Reclusive.} 这位大妖精更喜欢独处，很少甚至从未离开他们的领域。他们在旅行时可能会采用伪装或变身，也可能会使用魔法来隐藏他们的巢穴。"
 										],
 										[
 											"8",
@@ -1263,7 +1263,7 @@
 							"type": "entries",
 							"name": "Signature Magic",
 							"entries": [
-								"Almost every archfey has a signature magical power, and this power might be tied to their appearance or personality; for example, a metallic archfey might have the power to corrode or heat metal, while a madcap archfey might have the power to cause wild magic effects similar to those described the {@table Wild Magic Surge|PHB} table in the \"Sorcerer\" section of the Player's Handbook. The Signature Magic table presents some other possibilities.",
+								"几乎每个大妖都有一个独特的魔法能力，这种能力可能与他们的外表或个性有关；例如，一个金属大妖可能拥有腐蚀或加热金属的能力，而一个疯帽大妖可能拥有引发类似于“术士”部分玩家手册中描述的{@table Wild Magic Surge|PHB}表中的狂野魔法效果的能力。签名魔法表格提供了一些其他可能性。",
 								{
 									"type": "table",
 									"caption": "Signature Magic",
@@ -1389,7 +1389,7 @@
 											"type": "entries",
 											"name": "Fey Rebirth",
 											"entries": [
-												"If the archfey dies in its Domain of Delight, it revives with all its hit points {@dice 1d4} days later in a safe location in that domain."
+												"如果(archfey)在其乐园领域中死亡，它会在{@dice 1d4}天后以满血复活，出现在该领域的一个安全位置。"
 											],
 											"page": 15,
 											"id": "02a"
@@ -1775,15 +1775,15 @@
 								],
 								[
 									"4",
-									"Each character who spends 1 hour in the region undergoes a magical transformation, gaining fur, a tail, and large ears reminiscent of a donkey's, goat's, or llama's. This effect ends on a character {@dice 3d8} hours after the character leaves the region. Any magic that ends a curse also restores the character's normal appearance."
+									"每个角色在该地区度过1小时后会经历一次神奇的变身，长出毛发、尾巴和类似驴、山羊或羊驼的大耳朵。这种效果在角色离开该地区后{@dice 3d8}小时结束。任何结束诅咒的魔法也会恢复角色的正常外貌。"
 								],
 								[
 									"5",
-									"Harmless fireflies gather and flit around one character in the region, sharing that character's space for 1 hour. The fireflies generate bright light out to a range of 10 feet and dim light for an additional 10 feet. While surrounded by the fireflies, the character feels a profound sense of purpose and gains the benefit of the {@spell bless} spell."
+									"无害的萤火虫聚集并飞舞在该地区的一个角色周围，与该角色共享空间1小时。萤火虫产生明亮光，范围为10英尺，额外的10英尺为微弱光。当被萤火虫包围时，角色会感到一种深刻的目的感，并获得{@spell bless}法术的益处。"
 								],
 								[
 									"6",
-									"Creatures in the region can't leave it and find themselves covering the same ground over and over. By the time they realize this, {@dice 3d8} hours have passed, during which they have made no progress in their effort to leave. The effect then ends."
+									"该地区的生物无法离开，并发现自己一遍又一遍地覆盖相同的地面。当它们意识到这一点时，已经过去了{@dice 3d8}小时，在这段时间里它们没有取得任何离开的进展。然后效果结束。"
 								],
 								[
 									"7",
@@ -1791,7 +1791,7 @@
 								],
 								[
 									"8",
-									"One character in the region triggers a wild magic effect that is determined by rolling on the {@table Wild Magic Surge|PHB} table in the \"Sorcerer\" section of the Player's Handbook. If the effect duplicates a spell, the character's spellcasting ability for that spell is Charisma."
+									"该地区的一个角色触发了一种狂野魔法效应，由“术士”部分的玩家手册中的{@table Wild Magic Surge|PHB}表决定。如果效果复制了一个法术，那么该角色施法的能力属性为魅力。"
 								]
 							]
 						},
@@ -1812,7 +1812,7 @@
 					"type": "section",
 					"name": "Domain Denizens",
 					"entries": [
-						"The Feywild Creatures table can help you populate a Domain of Delight. Stat blocks for the listed creatures appear in the {@book Monster Manual|MM} or {@adventure The Wild Beyond the Witchlight|WBtW}.",
+						"精灵界生物表可以帮助你填充一个（Domain of Delight）的领域。列出的生物的属性块出现在{@book Monster Manual|MM}或{@adventure The Wild Beyond the Witchlight|WBtW}中。",
 						"一个生物没有出现在 \"仙境生物 \"表中，并不意味着它不能出现在欢乐之域中。任何D&D生物都可以找到进入仙境的途径，有时让玩家感到惊讶的是，他们的角色不会想到会在仙境中遇到的生物，例如一队吉特亚基人或一个吸血鬼，这很有趣。",
 						{
 							"type": "table",
@@ -1938,11 +1938,11 @@
 										],
 										[
 											"4",
-											"An elf (use the {@creature noble} stat block) from the Material Plane who is researching their Fey ancestry"
+											"一个来自物质位面的精灵（使用{@creature noble}属性块），正在研究他们的精灵血统。"
 										],
 										[
 											"5",
-											"A hunter (use the {@creature gladiator} or {@creature scout} stat block) who was lured into the Feywild by their prey"
+											"一个猎人（使用{@creature gladiator}或{@creature scout}属性块）被猎物引诱进入了Feywild。"
 										],
 										[
 											"6",
@@ -1994,13 +1994,13 @@
 			"page": 24,
 			"name": "Adventure Aids",
 			"entries": [
-				"The following pages provide easy-to-use versions of appendices {@adventure D|WBtW|9} and {@adventure E|WBtW|10} from {@adventure The Wild Beyond the Witchlight|WBtW}, as well as the adventure's {@adventure Story Tracker|WBtW|11}.",
+				"以下页面提供了易于使用的附录{@adventure D|WBtW|9}和{@adventure E|WBtW|10}，以及来自{@adventure The Wild Beyond the Witchlight|WBtW}的冒险{@adventure Story Tracker|WBtW|11}。",
 				{
 					"type": "list",
 					"items": [
-						"{@note See the {@deck Roleplaying Cards|WBtW} deck entry for individual cards, or {@adventure Appendix D of Wild Beyond the Witchlight|WBtW|9} for printable assets.}",
-						"{@note See the {@table Stagefright's Lines|WBtW} table to roll, or {@adventure Appendix E of Wild Beyond the Witchlight|WBtW|10} for printable assets.}",
-						"{@note See the {@adventure Story Tracker Appendix of Wild Beyond the Witchlight|WBtW|11} for printable story tracker assets.}"
+						"个人卡牌的{@note See the {@deck Roleplaying Cards|WBtW}卡组入口，或者可打印资料的{@adventure Appendix D of Wild Beyond the Witchlight|WBtW|9}。",
+						"掷骰表{@note See the {@table Stagefright's Lines|WBtW}，或者打印资料{@adventure Appendix E of Wild Beyond the Witchlight|WBtW|10}。",
+						"{@note See the {@adventure Story Tracker Appendix of Wild Beyond the Witchlight|WBtW|11} 用于可打印的故事追踪器资料。"
 					]
 				}
 			],
@@ -2026,49 +2026,49 @@
 											"type": "item",
 											"name": "Writer",
 											"entries": [
-												"Adam Lee"
+												"亚当·李 (Adam Lee)"
 											]
 										},
 										{
 											"type": "item",
 											"name": "Art Director",
 											"entries": [
-												"Kate Irwin"
+												"凯特·欧文 (Kate Irwin)"
 											]
 										},
 										{
 											"type": "item",
 											"name": "Developers",
 											"entries": [
-												"Jeremy Crawford, Ben Petrisor, Christopher Perkins"
+												"杰里米·克劳福德 (Jeremy Crawford), 本·佩特里索 (Ben Petrisor), 克里斯托弗·帕金斯 (Christopher Perkins)"
 											]
 										},
 										{
 											"type": "item",
 											"name": "Editors",
 											"entries": [
-												"Judy Bauer, Jeremy Crawford, Christopher Perkins"
+												"朱迪·鲍尔 (Judy Bauer), 杰里米·克劳福德 (Jeremy Crawford), 克里斯托弗·帕金斯 (Christopher Perkins)"
 											]
 										},
 										{
 											"type": "item",
 											"name": "Proofreader",
 											"entries": [
-												"Ari Levitch"
+												"阿里·莱维奇 (Ari Levitch)"
 											]
 										},
 										{
 											"type": "item",
 											"name": "Graphic Designer",
 											"entries": [
-												"Trish Yochum"
+												"特里什·约克姆 (Trish Yochum)"
 											]
 										},
 										{
 											"type": "item",
 											"name": "Consultants",
 											"entries": [
-												"Shiaw-Ling Lai, Omar Ramadan-Santiago"
+												"赖小玲 (Shiaw-Ling Lai), 奥马尔·拉马丹-圣地亚哥 (Omar Ramadan-Santiago)"
 											]
 										},
 										{
@@ -2082,21 +2082,21 @@
 											"type": "item",
 											"name": "Concept Art Director",
 											"entries": [
-												"Shawn Wood"
+												"肖恩·伍德 (Shawn Wood)"
 											]
 										},
 										{
 											"type": "item",
 											"name": "Concept Illustrators",
 											"entries": [
-												"Jedd Chevier, Daarken, Toma Feizo Gas, Titus Lunter, April Prime, Ilya Shkipin, Cory Trego-Erdner, Shawn Wood, Kieran Yanner"
+												"杰德·谢维尔 (Jedd Chevier), 达肯 (Daarken), 托马·费佐·加斯 (Toma Feizo Gas), 提图斯·伦特 (Titus Lunter), 艾普里尔 (April Prime), 伊利亚·施基平 (Ilya Shkipin), 科里·特雷戈-厄德纳 (Cory Trego-Erdner), 肖恩·伍德 (Shawn Wood), 基兰·亚纳 (Kieran Yanner)"
 											]
 										},
 										{
 											"type": "item",
 											"name": "Imaging Technician",
 											"entries": [
-												"Kevin Yee"
+												"基文·伊 (Kevin Yee)"
 											]
 										}
 									]
@@ -2113,77 +2113,77 @@
 													"type": "item",
 													"name": "Executive Producer",
 													"entries": [
-														"Ray Winninger"
+														"雷·温宁格 (Ray Winninger)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Game Design Architects",
 													"entries": [
-														"Jeremy Crawford, Christopher Perkins"
+														"杰里米·克劳福德 (Jeremy Crawford), 克里斯托弗·珀金斯 (Christopher Perkins)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Design Manager",
 													"entries": [
-														"Steve Scott"
+														"史蒂夫·斯科特(Steve Scott)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Design Department",
 													"entries": [
-														"Sydney Adams, Judy Bauer, Makenzie De Armas, Dan Dillon, Amanda Hamon, Ari Levitch, Ben Petrisor, Taymoor Rehman, F. Wesley Schneider, James Wyatt"
+														"悉尼·亚当斯（Sydney Adams）, 朱迪·鲍尔（Judy Bauer）, 马肯齐·迪·阿尔马斯（Makenzie De Armas）, 丹·迪隆（Dan Dillon）, 阿曼达·哈蒙（Amanda Hamon）, 阿里·莱维奇（Ari Levitch）, 本·佩特里索尔（Ben Petrisor）, 泰默尔·雷曼（Taymoor Rehman）, F.韦斯利·施耐德（F. Wesley Schneider）, 詹姆斯·怀亚特（James Wyatt）"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Art Department Manager",
 													"entries": [
-														"Richard Whitters"
+														"理查德·惠特斯 (Richard Whitters)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Principal Art Director",
 													"entries": [
-														"Kate Irwin"
+														"凯特·欧文 (Kate Irwin)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Art Department",
 													"entries": [
-														"Trystan Falcone, Emi Tanji, Shawn Wood, Trish Yochum"
+														"特里斯坦·法尔科内 (Trystan Falcone), 惠美·丹治 (Emi Tanji), 肖恩·伍德 (Shawn Wood), 特里什·约哈姆 (Trish Yochum)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Senior Producer",
 													"entries": [
-														"Dan Tovar"
+														"丹·托瓦(Dan Tovar)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Producers",
 													"entries": [
-														"Bill Benham, Robert Hawkey, Lea Heleotis"
+														"比尔·本汉姆（Bill Benham），罗伯特·霍克（Robert Hawkey），莉娅·赫利奥提斯（Lea Heleotis）"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Director of Product Management",
 													"entries": [
-														"Liz Schuh"
+														"Liz Schuh (利兹·舒)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Product Managers",
 													"entries": [
-														"Natalie Egan, Chris Lindsay, Hilary Ross, Chris Tulach"
+														"娜塔莉·伊根 (Natalie Egan), 克里斯·林赛 (Chris Lindsay), 希拉里·罗斯 (Hilary Ross), 克里斯·图拉赫 (Chris Tulach)"
 													]
 												}
 											]
@@ -2203,28 +2203,28 @@
 													"type": "item",
 													"name": "Director of Global Brand Marketing",
 													"entries": [
-														"Brian Perry"
+														"布莱恩·佩里 (Brian Perry)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Global Brand Manager",
 													"entries": [
-														"Shelly Mazzanoble"
+														"谢莉·马扎诺布勒 (Shelly Mazzanoble)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Senior Marketing Communications Manager",
 													"entries": [
-														"Greg Tito"
+														"格雷格·蒂托 (Greg Tito)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "Community Manager",
 													"entries": [
-														"Brandy Camel"
+														"白兰地骆驼 (Brandy Camel)"
 													]
 												}
 											]
@@ -2244,14 +2244,14 @@
 													"type": "item",
 													"name": "D&D Beyond Product Manager",
 													"entries": [
-														"Patrick Backmann"
+														"帕特里克·巴克曼 (Patrick Backmann)"
 													]
 												},
 												{
 													"type": "item",
 													"name": "D&D Beyond Digital Design Team",
 													"entries": [
-														"Jay Jani, Adam Walton, Cameron Powell, Joseph Keen"
+														"杰伊·贾尼 (Jay Jani), 亚当·沃尔顿 (Adam Walton), 卡梅伦·鲍威尔 (Cameron Powell), 约瑟夫·基恩 (Joseph Keen)"
 													]
 												}
 											]
