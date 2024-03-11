@@ -67,7 +67,7 @@
 						"items": {
 							"name": "Bite",
 							"entries": [
-								"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage, and the target must make on a {@dc 16} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save, or half as much damage on a successful one."
+								"{@atk mw} {@hit 8} 进行攻击，射程10英尺，一个目标。造成{@h}7 ({@damage 1d4 + 5}) 穿刺伤害，并且目标必须进行一次{@dc 16} 体质豁免才能，未通过则受到7 ({@damage 2d6}) 毒素伤害，通过则减半。"
 							]
 						}
 					}
@@ -301,7 +301,7 @@
 				{
 					"name": "Inscrutable",
 					"entries": [
-						"The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom ({@skill Insight}) checks made to ascertain the sphinx's intentions or sincerity have disadvantage."
+						"狮身人面像对任何试图感知其情绪或读取其思想的效果免疫，以及任何它拒绝的占卜法术。用来判断狮身人面像意图或真诚的感知检定有劣势，需要进行感知（{@skill Insight}）检定。"
 					]
 				},
 				{
@@ -451,7 +451,7 @@
 							"items": {
 								"name": "Trampling Charge",
 								"entries": [
-									"If the hippopotamus moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the hippopotamus can make one stomp attack against it as a bonus action."
+									"如果河马向一个生物直线移动至少20英尺，然后在同一回合用咬击攻击命中它，那个目标必须成功进行一次{@dc 12}力量豁免才能不被击倒{@condition prone}。如果目标是{@condition prone}，河马可以作为一个奖励动作对其进行一次踩踏攻击。"
 								]
 							}
 						}
@@ -660,7 +660,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The serpopard has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"serpopard在依赖嗅觉的智力检定上有优势({@skill Perception})。"
 					]
 				},
 				{

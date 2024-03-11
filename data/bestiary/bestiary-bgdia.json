@@ -397,7 +397,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Arkhan's spellcasting ability is Charisma (spell save {@dc 17}). He can cast the following spells, requiring no material components:"
+						"阿坎的施法能力是魅力（法术豁免{@dc 17}）。他可以施放以下法术，无需材料组件："
 					],
 					"daily": {
 						"3e": [
@@ -417,19 +417,19 @@
 				{
 					"name": "Aura of Hate",
 					"entries": [
-						"While Arkhan isn't {@condition incapacitated}, he and all fiends and undead within 30 feet of him deal 4 extra damage whenever they hit with a melee weapon attack (already factored into Arkhan's attacks). This extra damage is of the same type as the weapon's damage type."
+						"虽然阿坎不是{@condition incapacitated}，但是他和他周围30英尺范围内的所有恶魔和不死生物在进行近战武器攻击命中时额外造成4点伤害（已计入阿坎的攻击中）。这额外伤害的类型与武器的伤害类型相同。"
 					]
 				},
 				{
 					"name": "Hand of Vecna",
 					"entries": [
-						"The {@item Hand of Vecna} has 8 charges and regains {@dice 1d4 + 4} expended charges daily at dawn. Arkhan can cast the following spells from the hand by expending the specified number of charges (spell save {@dc 18}): {@spell finger of death} (5 charges), {@spell sleep} (1 charge), {@spell slow} (2 charges), and {@spell teleport} (3 charges)."
+						"这个{@item Hand of Vecna}有8个充能，并在黎明时每天恢复{@dice 1d4 + 4}已用充能。Arkhan可以通过消耗指定数量的充能从手中施放以下咒语（法术豁免{@dc 18}）：{@spell finger of death}（5个充能），{@spell sleep}（1个充能），{@spell slow}（2个充能），和{@spell teleport}（3个充能）。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Arkhan wields {@item Fane-Eater|bgdia} and wears a suit of {@item Obsidian Flint Dragon Plate|bgdia}. The armor gives Arkhan advantage on ability checks and saving throws made to avoid or end the {@condition grappled} condition on him."
+						"阿坎手持{@item Fane-Eater|bgdia}，身穿一套{@item Obsidian Flint Dragon Plate|bgdia}。这套盔甲让阿坎在避免或结束其身上的{@condition grappled}状态时获得优势。"
 					]
 				}
 			],
@@ -582,7 +582,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Bel's spellcasting ability is Charisma (spell save {@dc 23}). Bel can innately cast the following spells, requiring no material components:"
+						"贝尔的施法能力是魅力（法术豁免{@dc 23}）。贝尔可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -610,7 +610,7 @@
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"Any creature hostile to Bel that starts its turn within 20 feet of him must make a {@dc 23} Wisdom saving throw, unless Bel is {@condition incapacitated}. Unless the save succeeds, the creature is {@condition frightened} until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Bel's Fear Aura for the next 24 hours."
+						"任何对贝尔(Bel)敌对的生物，如果在他的20英尺内开始其回合，必须进行一次{@dc 23}感知豁免才能避免受到影响，除非贝尔(Bel)处于{@condition incapacitated}状态。如果豁免失败，该生物将在其下一个回合开始前处于{@condition frightened}状态。如果生物的豁免成功，那么该生物在接下来的24小时内对贝尔(Bel)的恐惧光环免疫。"
 					]
 				},
 				{
@@ -812,7 +812,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The black gauntlet is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following cleric spells prepared:"
+						"黑色铁手是一名5级咒术师。它的咒术能力是魅力（法术豁免 {@dc 15}，法术攻击命中加值 {@hit 7}）。它准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -966,7 +966,7 @@
 				{
 					"name": "Adhesive",
 					"entries": [
-						"The bone whelk can cause Medium or smaller objects to adhere to it. A Medium or smaller creature that touches the bone whelk is {@condition grappled} by it (escape {@dc 10})."
+						"骨螺可以使中型或更小的物体粘附在其上。接触骨螺的中型或更小生物被其{@condition grappled}（逃脱{@dc 10}）。"
 					]
 				},
 				{
@@ -1466,7 +1466,7 @@
 				{
 					"name": "Dark Devotion",
 					"entries": [
-						"Thalamra has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"萨拉玛对免疫{@condition charmed}或{@condition frightened}效果的豁免检定获得优势。"
 					]
 				},
 				{
@@ -1685,7 +1685,7 @@
 				{
 					"name": "Berserk",
 					"entries": [
-						"Whenever the golem starts its turn with 100 hit points or fewer, roll a {@dice d6}. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points. If the golem's creator is within 60 feet of the berserk golem, the creator can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a {@dc 15} Charisma ({@skill Persuasion}) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 100 hit points or fewer, the golem might go berserk again."
+						"每当傀儡在其回合开始时拥有100点生命值或更少时，投掷一个{@dice d6}。在掷出6时，傀儡会变得狂暴。在狂暴状态下的每个回合，傀儡会攻击它能看到的最近的生物。如果没有足够接近的生物可以移动并攻击，傀儡会攻击一个物体，优先选择比自己小的物体。一旦傀儡变得狂暴，它会持续这样直到被摧毁或恢复所有生命值。如果傀儡的创造者在狂暴的傀儡附近60英尺内，创造者可以通过坚定而有说服力的讲话来尝试平息它。傀儡必须能听到它的创造者，创造者必须采取行动进行一个{@dc 15} 魅力 ({@skill Persuasion}) 检定。如果检定成功，傀儡停止狂暴。如果在仍然拥有100点生命值或更少时受到伤害，傀儡可能会再次变得狂暴。"
 					]
 				},
 				{
@@ -2232,7 +2232,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The hollyphant's innate spellcasting ability is Wisdom (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+						"圣象的天生施法能力是感知（法术豁免{@dc 15}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell light}"
@@ -2258,7 +2258,7 @@
 				{
 					"name": "Aura of Invulnerability",
 					"entries": [
-						"An {@condition invisible} aura forms a 10-foot-radius sphere around the hollyphant for as long as it lives. Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells. The hollyphant can use an action to suppress this trait until its {@status concentration} ends (as if {@status concentration||concentrating} on a spell)."
+						"一股{@condition invisible}光环在圣象天使周围形成一个半径为10英尺的球体，只要它活着就会存在。从屏障外施放的任何5级或更低级别的法术都无法影响到屏障内的生物或物体，即使使用更高级别的法术位施放。这样的法术可以瞄准屏障内的生物和物体，但对它们没有任何效果。同样地，屏障内的区域不受这些法术影响的范围之内。圣象天使可以使用一个动作来抑制这个特性，直到它的{@status concentration}结束（就像{@status concentration||concentrating}上的法术一样）。"
 					]
 				},
 				{
@@ -2284,7 +2284,7 @@
 				{
 					"name": "Trumpet of Blasting",
 					"entries": [
-						"Each creature in the cone must make a {@dc 14} Constitution saving throw. On a failed save, a creature takes 17 ({@damage 5d6}) thunder damage and is {@condition deafened} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition deafened}. Nonmagical objects in the cone that aren't being held or worn take 35 ({@damage 10d6}) thunder damage."
+						"锥形范围内的每个生物必须进行一次 {@dc 14} 体质豁免投。未通过豁免的生物会受到 17 ({@damage 5d6}) 点雷属性伤害，并在接下来的1分钟内处于 {@condition deafened} 状态。通过豁免的生物只会受到一半伤害，并且不会被 {@condition deafened}。锥形范围内未被握持或穿戴的非魔法物品会受到 35 ({@damage 10d6}) 点雷属性伤害。"
 					]
 				},
 				{
@@ -2519,7 +2519,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Kostchtchie's innate spellcasting ability is Charisma (spell save {@dc 20}). He can innately cast the following spells, requiring no material components:"
+						"科斯特奇的天生施法能力是魅力（法术豁免{@dc 20}）。他可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell command}",
@@ -2697,7 +2697,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Krull is a 14th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). He has the following cleric spells prepared:"
+						"克鲁尔是一名14级法术施展者。他的法术能力是智力（法术豁免 {@dc 16}，施法命中加值 {@hit 8}）。他准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -2979,7 +2979,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Mahadi's innate spellcasting ability is Charisma (spell save {@dc 18}, {@hit 9} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+						"马哈迪的天生施法能力是魅力（法术豁免 {@dc 18}，用法术攻击命中 {@hit 9}）。他可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell detect thoughts}",
@@ -3134,7 +3134,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The master of souls is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following wizard spells prepared:"
+						"灵魂大师是一名5级法术施法者。它的法术施法能力是智力（法术豁免 DC {@dc 14}，用法术攻击命中加值为 {@hit 6}）。它已经准备好以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -3203,7 +3203,7 @@
 				{
 					"name": "Ray of Sickness (1st-Level Spell; Requires a Spell Slot)",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 60 ft., one creature. {@h}9 ({@damage 2d8}) poison damage, and the target must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} until the end of the master of souls' next turn. If the master of souls casts this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+						"{@atk rs} {@hit 6} 进行攻击，射程60英尺，一个生物。受到{@h}9 ({@damage 2d8}) 毒素伤害，并且目标必须在一次{@dc 14} 体质豁免检定中成功，否则将在灵魂主宰者的下一个回合结束前处于被{@condition poisoned}状态。如果灵魂主宰者使用2级或更高级的法术位施放此法术，则每超过1级的位数伤害增加{@dice 1d8}。"
 					]
 				},
 				{
@@ -3459,7 +3459,7 @@
 				{
 					"name": "Necrotic Body",
 					"entries": [
-						"A creature that touches the centipede or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) necrotic damage."
+						"当有生物接触到蜈蚣或在它附近5英尺内用近战攻击命中它时，会受到10 ({@damage 3d6}) 点死灵伤害。"
 					]
 				}
 			],
@@ -3784,7 +3784,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The reaper's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+						"死神的天生施法能力是魅力（法术豁免 {@dc 13}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"daily": {
 						"1e": [
@@ -4048,7 +4048,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The skull lasher is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following wizard spells prepared:"
+						"头骨鞭笞者是一名3级法术施展者。它的法术施展能力是感知（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。它已准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -4094,7 +4094,7 @@
 				{
 					"name": "Ray of Sickness (1st-Level Spell; Requires a Spell Slot)",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 60 ft., one creature. {@h}9 ({@damage 2d8}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} until the end of the skull lasher's next turn. If the skull lasher casts this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+						"{@atk rs} {@hit 5} 进行攻击，射程60英尺，一个生物。造成{@h}9 ({@damage 2d8}) 毒素伤害，并且目标必须在一次{@dc 13} 体质豁免检定中成功，否则将在骷髅鞭笞者的下一个回合结束前处于{@condition poisoned}状态。如果骷髅鞭笞者使用2级或更高级别的法术位施放此法术，则每超过1级的位级，伤害增加{@dice 1d8}。"
 					]
 				}
 			],
@@ -4206,7 +4206,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Smiler's innate spellcasting ability is Charisma (spell save {@dc 15}). He can innately cast the following spells, requiring no material components:"
+						"微笑者的天生施法能力是魅力（法术豁免{@dc 15}）。他可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell charm person}",
@@ -4487,7 +4487,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Thurstwell is a 2nd-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 13}). He has the following cleric spells prepared:"
+						"瑟斯韦尔是一名2级法术施展者。他的法术施展能力是智力（法术豁免{@dc 13}）。他准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -4617,7 +4617,7 @@
 				{
 					"name": "Rage (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, Torogar can enter a rage that lasts for 1 minute. The rage ends early if Torogar is knocked {@condition unconscious} or if his turn ends and he hasn't attacked a hostile creature or taken damage since his last turn. While raging, Torogar gains the following benefits:",
+						"作为一个奖励动作，托洛加(Torogar)可以进入持续1分钟的愤怒状态。如果托洛加被击倒{@condition unconscious}，或者他的回合结束时，自上个回合以来他既没有攻击敌对生物也没有受到伤害，愤怒状态会提前结束。在愤怒状态下，托洛加获得以下好处：",
 						"他在力量检查和力量投掷方面具有优势。",
 						"当他用近战武器攻击击中目标时，会造成额外的3次伤害。",
 						"他对重击、穿刺和砍击伤害有抵抗力。"
@@ -4626,7 +4626,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Torogar wears {@item gauntlets of flaming fury|bgdia} and a {@item belt of fire giant strength}. Without the belt, his Strength is 21. He also carries a {@item soul coin|bgdia}."
+						"Torogar穿着{@item gauntlets of flaming fury|bgdia}和一个{@item belt of fire giant strength}。没有腰带，他的力量值是21。他还携带一个{@item soul coin|bgdia}。"
 					]
 				}
 			],

@@ -57,7 +57,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the spider is motionless, has its eyes and mouth closed, and has its legs wrapped around its body at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the spider move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the spider is anything other than an asteroid."
+						"如果在战斗开始时，蜘蛛静止不动，眼睛和嘴巴闭合，腿部紧贴身体，它在先攻骰时获得优势。此外，如果一个生物没有观察到蜘蛛移动或行动，那个生物必须成功进行一次{@dc 18}智力({@skill Investigation})检定，才能辨别蜘蛛不是一颗小行星。"
 					]
 				},
 				{
@@ -95,7 +95,7 @@
 				{
 					"name": "Reel",
 					"entries": [
-						"The spider pulls each creature {@condition grappled} by it up to 60 feet straight toward itself."
+						"蜘蛛将每个生物{@condition grappled}朝自己拉动，最多可拉动60英尺。"
 					]
 				}
 			],
@@ -343,7 +343,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The lich casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+						"巫妖施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 17}）："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -396,7 +396,7 @@
 				{
 					"name": "Parasitic Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h}25 ({@damage 6d6 + 4}) piercing damage plus 25 ({@damage 6d6 + 4}) necrotic damage. The target must succeed on a {@dc 17} Constitution saving throw or be {@condition poisoned}. The {@condition poisoned} target can repeat the save at the end of each of its turns, ending the effect on itself on a success. The third time the target fails the save, the target dies and dissolves into a {@creature gibbering mouther} that obeys the lich and uses the target's initiative."
+						"{@atk mw} {@hit 9} 进行攻击，射程10英尺，一名生物。造成{@h}25 ({@damage 6d6 + 4}) 穿刺伤害加上25 ({@damage 6d6 + 4}) 死灵伤害。目标必须成功通过一次{@dc 17} 体质豁免才能免疫。受影响的{@condition poisoned} 目标可以在自己的回合结束时重复进行豁免检定，成功则结束效果。目标连续三次未通过豁免检定，将死亡并化为{@creature gibbering mouther}，服从巫妖的命令并使用目标的先攻值。"
 					]
 				},
 				{
@@ -542,7 +542,7 @@
 				{
 					"name": "Two-Dimensionality",
 					"entries": [
-						"The fractine can occupy another creature's space and vice versa. It can move through other creatures and objects as if they were difficult terrain, but it takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"分形体可以占据另一个生物的空间，反之亦然。它可以像通过艰难地形一样穿过其他生物和物体，但如果它在物体内结束回合，就会受到5({@damage 1d10})点力场伤害。"
 					]
 				},
 				{
@@ -574,7 +574,7 @@
 				{
 					"name": "Mirrored Damage",
 					"entries": [
-						"In response to being damaged by a creature it can see within 120 feet of itself, the fractine forces that creature to make a {@dc 16} Constitution saving throw. On a failed save, the creature takes 24 ({@damage 8d6}) force damage. On a successful save, the creature takes half as much damage."
+						"当受到在自身120英尺内可见的生物伤害时，Fractine迫使该生物进行一次{@dc 16}体质豁免投掷。未通过豁免的生物会受到24({@damage 8d6})点力场伤害。通过豁免的生物会受到一半伤害。"
 					]
 				},
 				{
@@ -686,7 +686,7 @@
 				{
 					"name": "Wrap",
 					"entries": [
-						"The gadabout enters the space of a willing Medium or Small creature within 5 feet of itself and gently wraps its branches around the target. The target is {@condition grappled} (escape {@dc 0}). Any attempt by the target to escape the grapple causes the gadabout to use its reaction to move into the nearest unoccupied space. While {@condition grappled} by the gadabout, the target determines where the gadabout moves on the gadabout's turns and accompanies the gadabout wherever it goes."
+						"游荡者进入其周围5英尺范围内的一名愿意的中型或小型生物的空间，并轻轻地用树枝缠绕目标。目标是{@condition grappled}（逃脱{@dc 0}）。目标任何试图摆脱这种控制的行为都会导致游荡者使用其反应移动到最近的未占据空间。当被游荡者{@condition grappled}时，目标决定游荡者在其回合中移动到何处，并随游荡者一同前往。"
 					]
 				}
 			],
@@ -798,7 +798,7 @@
 				{
 					"name": "Float",
 					"entries": [
-						"The goon balloon moves up to 20 feet vertically in one direction without provoking opportunity attacks. If it ends this movement suspended in the air, it hovers in place. It can't be knocked {@condition prone} while airborne."
+						"气球喽移动到20英尺的垂直方向，不会引发机会攻击。如果它在空中停止移动，它会悬停在原地。它在空中时无法被击倒。"
 					]
 				}
 			],
@@ -1166,7 +1166,7 @@
 				{
 					"name": "Invisibility Cloak (3/Day)",
 					"entries": [
-						"The star lancer and one creature riding it (chosen by the star lancer) magically turn {@condition invisible}. This effect lasts until the star lancer or a creature riding it attacks or casts a spell, or until the star lancer's {@status concentration} ends (as if {@status concentration||concentrating} on a spell). Any equipment worn or carried by the {@condition invisible} creatures is also {@condition invisible} for the duration of the Invisibility Cloak."
+						"星际突击者和骑乘其上的生物（由星际突击者选择）在魔法下变为不可见状态{@condition invisible}。此效果持续直到星际突击者或骑乘者进行攻击或施放法术，或者直到星际突击者的{@status concentration}结束（就像法术上的{@status concentration||concentrating}）。在隐形斗篷的持续时间内，{@condition invisible}生物穿戴或携带的任何装备也会变为不可见状态{@condition invisible}。"
 					]
 				}
 			],
@@ -1257,7 +1257,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the yggdrasti is motionless and rooted in the ground at the start of combat, it looks just like a dead tree and has advantage on its initiative roll. Moreover, if a creature hasn't observed the rooted yggdrasti move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the yggdrasti is animate."
+						"如果在战斗开始时，世界之树 (yggdrasti) 静止不动，深深扎根于地面，看起来就像一棵枯树，并且在其先攻骰投掷时获得优势。此外，如果一只生物没有看到根深蒂固的世界之树移动或行动过，那只生物必须成功进行一次 {@dc 18} 智力 ({@skill Investigation}) 检定，才能辨别出世界之树是有生命的。"
 					]
 				},
 				{

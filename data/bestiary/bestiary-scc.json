@@ -74,7 +74,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The archaic casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 22}):"
+						"古老的角色施放以下其中一个咒语，无需材料成分，使用智力作为施法能力（法术豁免{@dc 22}）："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -426,7 +426,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d6 + 9}) slashing damage. If the target is a Huge or smaller creature, it is knocked {@condition prone}."
+						"{@atk mw} 近战攻击，射程10英尺，一目标。造成{@h}12 ({@damage 1d6 + 9}) 钝击伤害。如果目标是一个巨大或更小的生物，它被击倒 {@condition prone}。"
 					]
 				},
 				{
@@ -438,7 +438,7 @@
 				{
 					"name": "Miasmal Flow",
 					"entries": [
-						"Beledros becomes a swirling cloud of green mist and can move up to half her flying speed without provoking opportunity attacks, then resumes her true form. During this movement, she can move through creatures and objects as if they were {@quickref difficult terrain||3}. If she moves through a creature, it must succeed on a {@dc 23} Constitution saving throw or become {@condition poisoned} until the end of its next turn. If Beledros ends this move inside an object, she takes 5 ({@damage 1d10}) force damage and is shunted to the nearest unoccupied space."
+						"贝勒德洛斯(Belledros)化为一团绿雾旋涡，可以移动至多半个她的飞行速度而不会引发机会攻击，然后恢复她的真实形态。在这段移动过程中，她可以如同穿过{@quickref difficult terrain||3}一般穿过生物和物体。如果她穿过一个生物，那个生物必须通过一次{@dc 23}体质豁免才能免疫{@condition poisoned}效果，直到其下一个回合结束。如果贝勒德洛斯在移动结束时位于一个物体内部，她会受到5点{@damage 1d10}力场伤害，并被传送到最近的未被占据的空间。"
 					]
 				}
 			],
@@ -458,7 +458,7 @@
 				{
 					"name": "Teeming with Life (Costs 3 Actions)",
 					"entries": [
-						"Beledros magically summons {@dice 1d4} {@creature pest mascot|SCC|pest mascots} in unoccupied spaces she can see within 60 feet of herself. The pests obey her commands and take their turns immediately after hers. Any creature, other than a pest, takes 9 ({@damage 2d8}) poison damage if it starts its turn within 5 feet of one or more of these pests. When one of these pests drops to 0 hit points, Beledros regains 9 hit points. These pests disappear after 10 minutes, when Beledros dies, or when she uses this action again."
+						"贝勒德洛丝在她能看到的距离60英尺内的未被占据的空间中，魔法召唤{@dice 1d4}个{@creature pest mascot|SCC|pest mascots}。这些害虫听从她的命令，并在她之后立即行动。除了害虫之外的任何生物，如果它在这些害虫中的一个或多个身边5英尺内开始它的回合，将受到9({@damage 2d8})点毒害伤害。当这些害虫中的一个降至0点生命值时，贝勒德洛丝恢复9点生命值。这些害虫在10分钟后消失，贝勒德洛丝死亡时消失，或者她再次使用这个动作时消失。"
 					]
 				}
 			],
@@ -682,7 +682,7 @@
 				{
 					"name": "Grasping Limb",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 14}). The archivist can have no more than two targets {@condition grappled} at a time."
+						"{@atk mw} 使用 {@hit 6} 进行攻击，射程15英尺，目标为一个。造成{@h}13({@damage 2d8 + 4})点钝击伤害，并使目标被{@condition grappled} (逃脱{@dc 14})。档案管理员一次最多只能有两个目标{@condition grappled}。"
 					]
 				}
 			],
@@ -785,7 +785,7 @@
 					"name": "Pact of Pain",
 					"entries": [
 						"使用一个10分钟的仪式，daemogoth可以与它在整个仪式中接触到的愿意的生物建立一个神奇的联系。该生物会被契约所束缚，直到它死亡，daemogoth死亡，或者该契约被任何可以消除诅咒的效果所打破。",
-						"The daemogoth chooses one spell from the {@filter necromancy or enchantment school that is 3rd level or lower|spells|level=0;1;2;3|school=N;E}. The bound creature can cast that spell using this pact, requiring no material components and using Intelligence as the spellcasting ability. When it casts the spell, the creature takes 7 ({@damage 2d6}) psychic damage, which can't break the creature's {@status concentration} on a spell. Once the bound creature casts the spell in this way, it can't do so again until it finishes a long rest."
+						"恶魔戈斯选择{@filter necromancy or enchantment school that is 3rd level or lower|spells|level=0;1;2;3|school=N;E}中的一个咒语。被束缚的生物可以使用这个契约施放该咒语，无需材料成分，使用智力作为施法能力。当它施放咒语时，生物会受到7({@damage 2d6})点心灵伤害，这不会打破生物的{@status concentration}。一旦被束缚的生物以这种方式施放了咒语，它在完成一次长休息之前不能再这样做。"
 					]
 				}
 			],
@@ -910,7 +910,7 @@
 					"name": "Pact of Suffering",
 					"entries": [
 						"使用一个长达10分钟的仪式，泰坦可以与它在整个仪式过程中接触到的一个愿意的生物建立一个神奇的联系。该生物会被契约所束缚，直到它死亡，泰坦死亡，或者契约被{@spell wish}的法术所打破。",
-						"The titan chooses one spell from the {@filter necromancy or enchantment school that is 8th level or lower|spells|level=0;1;2;3;4;5;6;7;8|school=N;E}. The bound creature can cast that spell using this pact, requiring no material components and using Intelligence as the spellcasting ability. When it casts the spell, the creature takes 21 ({@damage 6d6}) psychic damage, which can't break the creature's {@status concentration} on a spell. Once the bound creature casts the spell in this way, it can't do so again until it finishes a long rest."
+						"泰坦从{@filter necromancy or enchantment school that is 8th level or lower|spells|level=0;1;2;3;4;5;6;7;8|school=N;E}中选择一个法术。被绑定的生物可以使用这个契约施放该法术，无需材料成分，并使用智力作为施法能力。当它施放该法术时，该生物会受到21({@damage 6d6})点心灵伤害，这不会打破生物的{@status concentration}。一旦被绑定的生物以这种方式施放了法术，它在完成一次长休息之前不能再这样做。"
 					]
 				}
 			],
@@ -1031,7 +1031,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The student casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 11}):"
+						"学生施放以下其中一个咒语，使用智力作为施法能力（法术豁免 {@dc 11}）："
 					],
 					"will": [
 						"{@spell mage hand}",
@@ -1066,7 +1066,7 @@
 				{
 					"name": "Beginner's Luck (2/Day)",
 					"entries": [
-						"When the student fails a saving throw, it can reroll the {@dice d20}. It must use the new roll."
+						"当学生未能通过豁免投掷时，可以重新投掷{@dice d20}。必须使用新的点数。"
 					]
 				}
 			],
@@ -1127,7 +1127,7 @@
 				{
 					"name": "Relative Density",
 					"entries": [
-						"The fractal can move through creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"这个分形可以像穿过{@quickref difficult terrain||3}一样穿过生物和物体。如果它在物体内结束回合，它会受到5点({@damage 1d10})力量伤害。"
 					]
 				}
 			],
@@ -1240,7 +1240,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Galazeth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
+						"加拉泽斯施放以下其中一个咒语，无需材料组件，使用魅力作为施法能力（咒语豁免{@dc 23}）："
 					],
 					"daily": {
 						"1e": [
@@ -1303,7 +1303,7 @@
 				{
 					"name": "Flowing Creation (Costs 3 Actions)",
 					"entries": [
-						"Galazeth magically summons {@dice 1d4} {@creature art elemental mascot|SCC|elemental mascots} in unoccupied spaces he can see within 60 feet of himself. The art elementals obey his commands and take their turns immediately after his. Any creature, other than an art elemental, takes 5 ({@damage 1d10}) cold, fire, or lightning damage (Galazeth's choice) if it ends its turn within 5 feet of one or more of these elementals. When one of these elementals drops to 0 hit points, Galazeth can fly up to 20 feet without provoking opportunity attacks. These elementals disappear after 10 minutes, when Galazeth dies, or when he uses this action again."
+						"加拉泽斯在他能看到的60英尺范围内的未被占据的空间中魔法召唤{@dice 1d4}个{@creature art elemental mascot|SCC|elemental mascots}。这些艺术元素遵从他的命令，并在他之后立即行动。除了艺术元素之外的任何生物，如果结束回合时距离其中一个或多个这些元素5英尺以内，将受到5({@damage 1d10})点冷、火或闪电伤害（加拉泽斯选择）。当其中一个元素的生命值降至0时，加拉泽斯可以飞行20英尺而不会引发机会攻击。这些元素会在10分钟后消失，加拉泽斯死亡时或他再次使用此动作时消失。"
 					]
 				}
 			],
@@ -1399,7 +1399,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the groff is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the groff move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the groff isn't an ordinary moss-covered bog patch."
+						"如果格罗夫在战斗开始时静止不动，它在先攻骰中获得优势。此外，如果一只生物没有看到格罗夫移动或行动，那只生物必须成功进行一次{@dc 18}智力({@skill Investigation})检定，才能辨别格罗夫不是普通的长满苔藓的沼泽区块。"
 					]
 				},
 				{
@@ -1617,7 +1617,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The apprentice casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 12}):"
+						"学徒施放以下其中一个咒语，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 12}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -1732,7 +1732,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pledgemage casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"誓约法师施放以下其中一个法术，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -1904,7 +1904,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The professor makes two Spectral Scroll attacks. It can also use Weight of {@skill History}, if available."
+						"教授进行两次幽灵卷轴(Spectral Scroll)攻击。如果可用，还可以使用{@skill History}的重量(Weight)。"
 					]
 				},
 				{
@@ -2004,7 +2004,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"教授施放以下其中一个咒语，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell comprehend languages}",
@@ -2322,7 +2322,7 @@
 				{
 					"name": "Oriq Mask",
 					"entries": [
-						"Murgaxor wears an Oriq mask. While wearing the mask, Murgaxor can't be targeted by any divination magic or perceived through magical scrying sensors, and he adds double his proficiency bonus to Charisma ({@skill Deception}) checks (included above)."
+						"穆尔加克斯戴着奥瑞克(Oriq)面具。戴着这个面具时，穆尔加克斯不能被任何占卜魔法所瞄准，也无法通过魔法窥探传感器感知到，而且他在魅力检定中将他的熟练加值翻倍（包括上面提到的）{@skill Deception}。"
 					]
 				},
 				{
@@ -2348,7 +2348,7 @@
 				{
 					"name": "Blood Boil {@recharge 4}",
 					"entries": [
-						"Murgaxor chooses a point within 150 feet of himself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Murgaxor's choice that he can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition incapacitated} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition incapacitated}. A creature dies if reduced to 0 hit points by this necrotic damage."
+						"穆尔加克索尔(Murgaxor)选择距离自己150英尺以内的一个点，以该点为中心的一个半径为20英尺的球体充满了灼热的、血红色的雾气。穆尔加克索尔能看到的该区域内每个他选择的生物必须进行一次{@dc 17}体质豁免才能。未能通过豁免的生物会受到38({@damage 7d10})点死灵伤害，并且在其下一个回合结束前处于{@condition incapacitated}状态。通过豁免的生物只会受到一半伤害，并且不会被{@condition incapacitated}。如果一名生物因这次死灵伤害降至0点生命值，那么它会死亡。"
 					]
 				}
 			],
@@ -2450,7 +2450,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Oracle casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 18}):"
+						"神谕者施放以下其中一个咒语，无需材料组件，使用智力作为施法能力（法术豁免 {@dc 18}）："
 					],
 					"will": [
 						"{@spell detect magic}"
@@ -2632,7 +2632,7 @@
 				{
 					"name": "Oriq Mask",
 					"entries": [
-						"The blood mage wears an Oriq mask. While wearing the mask, the blood mage can't be targeted by any divination magic or perceived through magical scrying sensors, and it adds double its proficiency bonus to Charisma ({@skill Deception}) checks (included above)."
+						"血法师戴着奥瑞克(Oriq)面具。戴着面具时，血法师不能被任何占卜魔法所瞄准，也无法通过魔法监视传感器感知到，而且在魅力( {@skill Deception} )检定中，其熟练加值翻倍（已包含在上述内容中）。"
 					]
 				},
 				{
@@ -2658,7 +2658,7 @@
 				{
 					"name": "Blood Boil {@recharge 4}",
 					"entries": [
-						"The blood mage chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of the blood mage's choice that it can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition incapacitated} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition incapacitated}. A creature dies if reduced to 0 hit points by this necrotic damage."
+						"血法师选择距离自己150英尺内的一个点，一个以该点为中心的半径20英尺的球体充满了灼热的、血红色的雾气。血法师能看到该区域内的每个生物必须进行一次{@dc 17}体质豁免才能。未能通过豁免的生物会受到38点({@damage 7d10})死灵伤害，并且在其下一个回合结束前处于{@condition incapacitated}状态。通过豁免的生物只会受到一半伤害，并且不会被{@condition incapacitated}。如果一名生物因此死灵伤害降至0点生命值，它将死亡。"
 					]
 				}
 			],
@@ -2753,7 +2753,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The recruiter casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"招聘人员施放以下其中一个法术，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 14}）："
 					],
 					"will": [
 						"{@spell disguise self}",
@@ -2781,7 +2781,7 @@
 				{
 					"name": "Oriq Mask",
 					"entries": [
-						"The recruiter wears an Oriq mask. While wearing the mask, the recruiter can't be targeted by any divination magic or perceived through magical scrying sensors, and it adds double its proficiency bonus to Charisma ({@skill Deception}) checks (included above)."
+						"招募者戴着奥瑞克(Oriq)面具。在戴着面具的时候，招募者不能被任何占卜魔法所瞄准，也无法通过魔法窥探传感器感知到，而且在魅力检定中（包括上面提到的）它的熟练加值翻倍。"
 					]
 				}
 			],
@@ -2872,7 +2872,7 @@
 				{
 					"name": "Spiny Hide",
 					"entries": [
-						"At the start of each of its turns, the pest deals 2 ({@damage 1d4}) piercing damage to any creature grappling it or that it is grappling."
+						"在每个回合开始时，这只害虫对任何与其搏斗或被其搏斗的生物造成2点穿刺伤害。"
 					]
 				}
 			],
@@ -2953,7 +2953,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The apprentice casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"学徒施放以下其中一个法术，无需材料组件，使用魅力作为施法能力（法术豁免{@dc 12}）："
 					],
 					"will": [
 						"{@spell minor illusion}"
@@ -2981,7 +2981,7 @@
 				{
 					"name": "Surge of Artistry {@recharge 4}",
 					"entries": [
-						"The apprentice moves up to its speed, surrounding itself with elemental magic as it moves. Until the end of its turn, the apprentice can move through the space of other creatures. The first time the apprentice enters a creature's space on a turn, that creature must succeed on a {@dc 12} Dexterity saving throw or be knocked {@condition prone}. If the apprentice ends its turn in another creature's space, the apprentice takes 5 ({@damage 1d10}) force damage and is pushed into the nearest unoccupied space."
+						"学徒移动速度，随着移动周围环绕着元素魔法。直到回合结束，学徒可以穿过其他生物的空间。学徒在一个回合内第一次进入一个生物的空间时，该生物必须成功进行一次{@dc 12}敏捷豁免才能不被推倒。如果学徒在另一个生物的空间结束其回合，学徒会受到5({@damage 1d10})力量伤害并被推到最近的未占用空间中。"
 					]
 				}
 			],
@@ -3062,7 +3062,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"誓约法师施放以下其中一个咒语，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell minor illusion}"
@@ -3085,7 +3085,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the pledgemage is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the pledgemage instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't {@condition incapacitated}."
+						"如果誓约法师受到影响，使其进行敏捷豁免才能仅受一半伤害，那么如果誓约法师成功通过豁免检定，他将不受伤害，如果失败，则只受一半伤害，前提是它不是{@condition incapacitated}。"
 					]
 				}
 			],
@@ -3206,7 +3206,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"教授施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力（法术豁免{@dc 15}）："
 					],
 					"will": [
 						"{@spell minor illusion}"
@@ -3336,7 +3336,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"教授施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力（法术豁免{@dc 15}）："
 					],
 					"will": [
 						"{@spell minor illusion}"
@@ -3469,7 +3469,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The apprentice casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 12}):"
+						"学徒施放以下其中一个咒语，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 12}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -3571,7 +3571,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pledgemage casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"誓约法师施放以下其中一个法术，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -3607,7 +3607,7 @@
 				{
 					"name": "Vortex Calculus {@recharge 4}",
 					"entries": [
-						"The pledgemage teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 60 feet of itself. Immediately after it teleports, each creature within 20 feet of the space it left must make a {@dc 13} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) force damage and is moved 10 feet in a random horizontal direction. On a successful save, a creature takes half as much damage and isn't moved."
+						"誓约法师传送，连同其穿戴或携带的任何装备，传送到其能看到的距离不超过60英尺的未被占据的空间。在传送后，离开的空间内每个距离不超过20英尺的生物必须进行一次{@dc 13}体质豁免才能。未通过豁免的生物会受到7({@damage 2d6})点力场伤害，并随机向水平方向移动10英尺。通过豁免的生物只会受到一半伤害且不会被移动。"
 					]
 				}
 			],
@@ -3697,7 +3697,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"教授施放以下其中一个咒语，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -3843,7 +3843,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The professor casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"教授施放以下其中一个咒语，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -3963,7 +3963,7 @@
 				{
 					"name": "Slow but Sturdy",
 					"entries": [
-						"When the relic sloth is subjected to an effect that would move it out of its current space or knock it {@condition prone}, it is neither moved nor knocked {@condition prone}."
+						"当遗物树懒受到会将其移出当前空间或击倒它{@condition prone}的效果时，它既不会被移动也不会被击倒{@condition prone}。"
 					]
 				}
 			],
@@ -4225,7 +4225,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Shadrix casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
+						"沙德里克施放以下其中一个咒语，不需要材料组件，并使用魅力作为施法能力（法术豁免 {@dc 23}）："
 					],
 					"daily": {
 						"1e": [
@@ -4284,13 +4284,13 @@
 				{
 					"name": "Shadow Slip (Costs 2 Actions)",
 					"entries": [
-						"Shadrix becomes an inky cloud of shadow and can move up to half his flying speed without provoking opportunity attacks, then resumes his true form. During this movement, he can move through creatures and objects as if they were {@quickref difficult terrain||3}. If he moves through a creature, it must succeed on a {@dc 21} Constitution saving throw or become {@condition blinded} until the end of its next turn. If Shadrix ends this move inside an object, he takes 5 ({@damage 1d10}) force damage and is shunted to the nearest unoccupied space."
+						"沙德里克变成一团墨黑的阴影，可以以飞行速度的一半移动而不会引发机会攻击，然后恢复真实形态。在这段移动过程中，他可以如同穿过生物和物体一样穿过它们{@quickref difficult terrain||3}。如果他穿过一个生物，那个生物必须成功进行一次{@dc 21}体质豁免才能在其下一个回合结束前成为{@condition blinded}。如果沙德里克在一个物体内结束这段移动，他会受到5点{@damage 1d10}力场伤害，并被推到最近的未占用空间。"
 					]
 				},
 				{
 					"name": "Flash of Inspiration (Costs 3 Actions)",
 					"entries": [
-						"Shadrix magically summons {@dice 1d4} {@creature inkling mascot|SCC|inkling mascots} in unoccupied spaces he can see within 60 feet of himself. The inklings obey his commands and take their turns immediately after his. While any of these inklings live, Shadrix has advantage on attack rolls and saving throws. These inklings disappear after 10 minutes, when Shadrix dies, or when he uses this action again."
+						"夏德里克在他能看到的距离60英尺内的空地上魔法召唤{@dice 1d4} {@creature inkling mascot|SCC|inkling mascots}。这些墨迹遵从他的命令，并在他之后立即行动。只要这些墨迹中有任何一个存活，夏德里克在攻击投掷和豁免投掷上获得优势。这些墨迹在10分钟后消失，夏德里克死亡时，或者他再次使用这个动作时。"
 					]
 				}
 			],
@@ -4391,7 +4391,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The apprentice casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"学徒施放以下其中一个法术，无需材料组件，使用魅力作为施法能力（法术豁免{@dc 12}）："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -4497,7 +4497,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pledgemage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"誓约法师施放以下其中一个咒语，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -4624,7 +4624,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"教授施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力（法术豁免{@dc 15}）："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -4752,7 +4752,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The professor casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"教授施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力（法术豁免{@dc 15}）："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -5130,7 +5130,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Tanazir casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 24}):"
+						"塔纳兹尔施放以下其中一个法术，无需材料成分，并使用智力作为施法能力（法术豁免 {@dc 24}）："
 					],
 					"daily": {
 						"1e": [
@@ -5202,7 +5202,7 @@
 				{
 					"name": "Fractal Refraction (Costs 3 Actions)",
 					"entries": [
-						"Tanazir magically summons {@dice 1d4} {@creature fractal mascot|SCC|fractal mascots} in unoccupied spaces she can see within 120 feet of herself. The fractals obey her commands and take their turns immediately after hers. While any of these fractals remain, attack rolls made against Tanazir have disadvantage. A summoned fractal disappears after 1 minute, when it or Tanazir dies, or when she uses this action again."
+						"Tanazir在自己能看到的距离120英尺内的未被占据的空间中魔法召唤{@dice 1d4}个{@creature fractal mascot|SCC|fractal mascots}。这些分形体听从她的命令，并在她之后立即行动。只要这些分形体中任何一个仍然存在，对Tanazir的攻击投掷都会有劣势。召唤的分形体在1分钟后消失，或者当它或Tanazir死亡，或者当她再次使用这个动作时。"
 					]
 				}
 			],
@@ -5356,7 +5356,7 @@
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}13 ({@damage 1d6 + 10}) slashing damage. If the target is a Huge or smaller creature, it is knocked {@condition prone}."
+						"{@atk mw} 使用 {@hit 18} 进行攻击，射程10英尺，目标为一个。造成 {@h}13 ({@damage 1d6 + 10}) 斩击伤害。如果目标是一个巨大或更小的生物，它被击倒 {@condition prone}。"
 					]
 				},
 				{
@@ -5382,7 +5382,7 @@
 				{
 					"name": "Repeating History (Costs 3 Actions)",
 					"entries": [
-						"Velomachus magically summons {@dice 1d4} {@creature spirit statue mascot|SCC|statue mascots} in unoccupied spaces she can see within 60 feet of herself. The spirit statues obey her commands and take their turns immediately after hers. Any creature, other than a spirit statue or Velomachus, is {@condition restrained} if it starts its turn within 5 feet of one or more of these spirit statues. This {@condition restrained} condition lasts until the end of the creature's turn. These spirit statues disappear after 10 minutes, when Velomachus dies, or when she uses this action again."
+						"维洛玛库斯(Velomachus)在她能看到的距离60英尺内的未被占据的空间中魔法召唤{@dice 1d4}个{@creature spirit statue mascot|SCC|statue mascots}。这些灵魂雕像服从她的命令，并在她之后立即行动。任何生物，除了灵魂雕像或维洛玛库斯之外，如果它在一个或多个这些灵魂雕像的5英尺范围内开始其回合，则会受到{@condition restrained}。这种{@condition restrained}状态持续到生物的回合结束。这些灵魂雕像在10分钟后消失，维洛玛库斯死亡，或她再次使用此动作时。"
 					]
 				}
 			],
@@ -5511,7 +5511,7 @@
 				{
 					"name": "Verdant Talisman",
 					"entries": [
-						"At the end of a 10-minute ritual, the apprentice can touch one willing creature (including itself) and bestow upon it a small talisman imbued with magic. Upon receiving the talisman, the creature gains 10 temporary hit points, and it can add {@dice 1d6} to its initiative rolls while it wears the talisman. These benefits last for 1 hour or until the apprentice conducts another ritual to bestow another talisman. When the benefits expire, the talisman crumbles to dust."
+						"在一场持续10分钟的仪式结束时，学徒可以触摸一个愿意的生物（包括自己），赋予它一个注入了魔法的小护身符。接收护身符后，生物获得10点临时生命值，并且在佩戴护身符时可以在其先攻骰中添加{@dice 1d6}。这些好处持续1小时，或者直到学徒进行另一个仪式赋予另一个护身符为止。当好处消失时，护身符会化为尘埃。"
 					]
 				}
 			],
@@ -5648,7 +5648,7 @@
 				{
 					"name": "Verdant Talisman",
 					"entries": [
-						"At the end of a 10-minute ritual, the pledgemage can touch one willing creature (including itself) and bestow upon it a small talisman imbued with magic. Upon receiving the talisman, the creature gains 10 temporary hit points, and it can add {@dice 1d6} to its initiative rolls while it wears the talisman. These benefits last for 1 hour or until the pledgemage conducts another ritual to bestow another talisman. When the benefits expire, the talisman crumbles to dust."
+						"在进行10分钟仪式的结束时，誓约法师可以触摸一个愿意的生物（包括自己），并赋予它一个注入了魔法的小护身符。接收护身符后，生物获得10点临时生命值，并在佩戴护身符时可以在其先攻检定中添加{@dice 1d6}。这些好处持续1小时，或直到誓约法师进行另一个仪式赋予另一个护身符为止。当好处消失时，护身符会化为灰尘。"
 					]
 				}
 			],
@@ -5766,7 +5766,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The professor casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
+						"教授施放以下其中一个法术，不需要材料组件，使用智力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell druidcraft}",
@@ -5788,7 +5788,7 @@
 				{
 					"name": "Essence Transfer (1/Day)",
 					"entries": [
-						"The professor can cast the {@spell animate dead} spell, using Wisdom as the spellcasting ability."
+						"这位教授可以施展{@spell animate dead}法术，使用智力作为施法能力。"
 					]
 				}
 			],
@@ -6043,7 +6043,7 @@
 				{
 					"name": "Oriq Mask",
 					"entries": [
-						"Y'demi wears an Oriq mask. While wearing the mask, Y'demi can't be targeted by any divination magic or perceived through magical scrying sensors, and she adds double her proficiency bonus to Charisma ({@skill Deception}) checks (included above)."
+						"Y'demi戴着一个Oriq面具。当戴着这个面具时，Y'demi不能被任何占卜魔法所瞄准，也不能通过魔法侦查传感器感知到，她在魅力检定中（包括上面提到的）添加双倍的熟练加值（{@skill Deception}）。"
 					]
 				},
 				{
@@ -6069,7 +6069,7 @@
 				{
 					"name": "Blood Boil {@recharge 4}",
 					"entries": [
-						"Y'demi chooses a point within 150 feet of itself, and a 20-foot radius sphere centered on that point fills with a burst of searing, blood-red mist. Each creature of Y'demi's choice that she can see in that area must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes 38 ({@damage 7d10}) necrotic damage and is {@condition incapacitated} until the end of its next turn. On a success, a creature takes half as much damage and isn't {@condition incapacitated}. A creature dies if reduced to 0 hit points by this necrotic damage."
+						"Y'demi选择自身以内150英尺范围内的一个点，以该点为中心的一个半径20英尺的球体充满了灼热的、鲜红色的雾气。Y'demi能看到的该区域内每个她选择的生物必须进行一次{@dc 17}体质豁免投掷。未通过豁免的生物会受到38点({@damage 7d10})死灵伤害，并且在其下一个回合结束前处于{@condition incapacitated}状态。通过豁免的生物只会受到一半伤害，并且不会被{@condition incapacitated}。如果一名生物因此死灵伤害降至0点生命值，那么它会死亡。"
 					]
 				}
 			],
@@ -6077,7 +6077,7 @@
 				{
 					"name": "Sanguine Tentacles (1/Day)",
 					"entries": [
-						"The blood in the copper basin disappears as tentacles of congealed blood fill a 10-foot cube centered at a point on the ground that Y'demi can see within 15 feet of her. The effect lasts for 1 minute, during which time that area is {@quickref difficult terrain||3}. Any creature entering that area for the first time on a turn or starting its turn there must succeed on a {@dc 13} Dexterity saving throw or be {@condition restrained} by the tentacles. A creature that starts its turn {@condition restrained} by the tentacles takes 10 ({@damage 3d6}) bludgeoning damage. A creature {@condition restrained} by the tentacles can use its action to make either a {@dc 13} Strength ({@skill Athletics}) check or a {@dc 13} Dexterity ({@skill Acrobatics}) check, ending the {@condition restrained} condition on itself on a success."
+						"当Y'demi看到距离她15英尺以内的地面上的一个点时，铜盆中的血液消失了，凝结的血液触手填满一个以该点为中心的10英尺立方体。效果持续1分钟，在此期间该区域为{@quickref difficult terrain||3}。任何生物在一个回合内第一次进入该区域或者在那里开始它的回合时，必须成功通过一个{@dc 13}的敏捷豁免才能避免被{@condition restrained}触手所{@condition restrained}。开始回合时被触手{@damage 3d6}的生物会受到10点({@damage 3d6})的殴打伤害。被触手{@condition restrained}的生物可以使用其动作进行{@dc 13}力量({@skill Athletics})检定或者{@dc 13}敏捷({@skill Acrobatics})检定，成功则结束自身的{@condition restrained}状态。"
 					]
 				}
 			],

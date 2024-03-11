@@ -84,7 +84,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Amble is a 12th-level spellcaster. Their spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). Amble has the following druid spells prepared:"
+						"安博（Amble）是一名12级的法术施展者。他的法术施展能力是智力（法术豁免 {@dc 16}，法术攻击命中加值 {@hit 8}）。安博已准备了以下德鲁伊法术："
 					],
 					"spells": {
 						"0": {
@@ -150,7 +150,7 @@
 					"name": "Hearth of Moonlight and Shadow",
 					"entries": [
 						"在短时或长时休息开始时，安博可以触摸空间中的一个点，一个{@condition invisible}，半径为30英尺的魔法球出现，以该点为中心。完全的覆盖物会阻挡该球体。",
-						"While within the sphere, Amble and their allies gain a +5 bonus to Dexterity ({@skill Stealth}) and Wisdom ({@skill Perception}) checks, and any light from open flames in the sphere isn't visible outside it.",
+						"在这个领域内，安布尔(Amble)和他们的盟友在敏捷度检定中获得+5的加值({@skill Stealth})，并且在智慧检定中也获得+5的加值({@skill Perception})，而且在领域内的明火光线在领域外是不可见的。",
 						"球体在休息结束时或安博离开球体时消失。"
 					]
 				},
@@ -163,7 +163,7 @@
 				{
 					"name": "Balm of the Summer Court (12d6)",
 					"entries": [
-						"(As a Bonus Action) Amble can choose one creature they can see within 120 feet of them and spend up to {@dice 6d6} of their die pool. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent. Amble regains all expended dice when they finish a long rest."
+						"(作为奖励动作) Amble 可以选择一个在他们视线范围内，距离他们不超过120英尺的生物，并消耗其骰池中的最多{@dice 6d6}。掷出已消耗的骰子并将结果相加。目标回复等同于总和的生命值。目标还会因每个消耗的骰子获得1点临时生命值。Amble 在完成一次长休后会恢复所有已消耗的骰子。"
 					]
 				},
 				{
@@ -177,10 +177,10 @@
 				{
 					"name": "Change Shape (2/Day)",
 					"entries": [
-						"Amble magically polymorphs into a beast with a challenge rating of 1 or less, and can remain in this form for up to 6 hours. Amble's equipment melds with their new form. Amble reverts to their true form if they die or fall {@condition unconscious}. Amble can revert to their true form using a bonus action on their turn.",
+						"安博（Amble）神奇地变形成一个挑战等级为1或更低的野兽，可以保持这种形态长达6小时。安博的装备与他们的新形态融为一体。如果安博死亡或跌倒{@condition unconscious}，他们将恢复到真实形态。安博可以在他们的回合使用一个奖励动作恢复到真实形态。",
 						"Amble的游戏数据被野兽的数据所取代，但他们保留了他们的排列组合、个性、智力、智慧和魅力的分数。Amble也保留了他们所有的技能和蓄力的熟练程度，此外还获得了该生物的熟练程度。如果该生物具有与Amble相同的熟练度，而其状态块中的奖励更高，则使用该生物的奖励而不是Amble的。",
 						"当Amble变身时，他们会承担野兽的打击点数和命中率。当Amble恢复到他们的正常形态时，他们会恢复到他们变身前的命中率。然而，如果Amble因为命中率下降到0而恢复，任何多余的伤害都会延续到他们的正常形态。",
-						"Amble can't cast spells, and their ability to speak or take any action that requires hands is limited to the capabilities of their beast form. Transforming doesn't break Amble's {@status concentration} on a spell they've already cast however, or prevent them from taking actions that are part of a spell."
+						"安博(Amble)无法施放法术，他们在野兽形态下的行动能力受限于需要使用手的动作。但是，变形不会打断安博已经施放的法术{@status concentration}，也不会阻止他们执行法术中的行动。"
 					]
 				},
 				{
@@ -387,7 +387,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Gar is a 13th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following druid spells prepared:"
+						"加尔是一名13级法术施展者。他的法术施展能力是智力（法术豁免 {@dc 18}，用法术攻击命中加值为 {@hit 10}）。他准备了以下德鲁伊法术："
 					],
 					"spells": {
 						"0": {
@@ -497,7 +497,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Gar makes two melee attacks, one with his claw and one with {@item Wave}."
+						"Gar 进行两次近战攻击，一次使用他的爪子，另一次使用 {@item Wave}。"
 					]
 				},
 				{
@@ -668,7 +668,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Shoalar's innate spellcasting ability is Constitution (spell save {@dc 14}, {@hit 6} to hit with spell attacks). He can innately cast the following spells:"
+						"肖拉的天生施法能力是体质（法术豁免 {@dc 14}，法术攻击命中加值 {@hit 6}）。他天生可以施展以下法术："
 					],
 					"will": [
 						"{@spell shape water|XGE}"
@@ -684,7 +684,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Shoalar is a 7th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He knows the following sorcerer spells:"
+						"肖拉尔是一名7级咒术师。他的咒术能力是魅力（法术豁免 {@dc 15}，施法攻击命中加值 {@hit 7}）。他会以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -956,7 +956,7 @@
 					"name": "Bite",
 					"entries": [
 						"{@atk mw} {@hit 12}击中，到达5英尺，一个目标。{@h}20 ({@damage 3d8 + 7})穿刺伤害。",
-						"If the target is a Medium or smaller creature {@condition grappled} by the kraken, that creature is swallowed and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the kraken, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the kraken's turns. One Medium or two smaller creatures can be swallowed at the same time.",
+						"如果目标是中型或更小的生物{@condition grappled}被深渊章鱼吞噬，那个生物被吞噬且抓取结束。被吞噬时，生物被{@condition blinded}和{@condition restrained}，对于来自深渊章鱼外部的攻击和其他效果具有完全掩护，并且在深渊章鱼的每个回合开始时受到21({@damage 6d6})点酸性伤害。可以同时吞食一个中型生物或两个更小的生物。",
 						"如果海怪在一个回合内受到35次以上的伤害，海怪必须在该回合结束时做一个{@dc 23}宪法救赎动作，否则会反刍所有被吞食的生物，这些生物会落在海怪10英尺范围内的{@condition prone}空间。如果海怪死亡，被吞食的生物不再是它的{@condition restrained}，可以用10英尺的移动距离逃离尸体，离开{@condition prone}。"
 					]
 				},
@@ -969,7 +969,7 @@
 				{
 					"name": "Fling",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the kraken is thrown up to 40 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"当巨章鱼抓住一个中型或更小的物体或生物({@condition grappled})时，将其朝一个随机方向抛出，最远可达40英尺，并使其受到击倒效果({@condition prone})。如果被抛出的目标撞到坚实表面，那么目标每被抛出10英尺就会受到3点({@damage 1d6})的钝击伤害。如果目标被抛向另一个生物，那个生物必须进行一次{@dc 13}敏捷豁免才能避免受到相同伤害并被击倒({@condition prone})。"
 					]
 				},
 				{

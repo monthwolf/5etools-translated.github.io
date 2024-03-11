@@ -67,7 +67,7 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"Coral has advantage on saving throws against spells and other magical effects."
+						"珊瑚在豁免魔法和其他魔法效果时具有优势。"
 					]
 				}
 			],
@@ -75,19 +75,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Coral makes two Hoof attacks and uses Tail Thump."
+						"珊瑚进行两次蹄攻击，并使用尾巴重击（Tail Thump）。"
 					]
 				},
 				{
 					"name": "Hoof",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 9} 进行攻击，射程5英尺，目标一个。造成{@h}12 ({@damage 2d6 + 5}) 钝击伤害。"
 					]
 				},
 				{
 					"name": "Tail Thump",
 					"entries": [
-						"Coral slams her tail down, unleashing a burst of magical force toward one creature she can see within 60 feet of her. The target must make a {@dc 16} Dexterity saving throw. On a failed save, the target takes 22 ({@damage 4d10}) force damage and has the {@condition prone} condition. On a successful save, the target takes half as much damage only. If this damage reduces the target to 0 hit points, the target dies, and its body is reduced to fine dust."
+						"珊瑚猛地摔下尾巴，向她能看到的60英尺内的一个生物释放了一股魔力冲击。目标必须进行一次{@dc 16} 敏捷豁免。未通过豁免的目标将受到22点伤害({@damage 4d10})，并获得{@condition prone}状态。通过豁免的目标只会受到一半伤害。如果这次伤害使目标的生命值降至0，目标将死亡，并其尸体化为细小的尘埃。"
 					]
 				}
 			],
@@ -95,7 +95,7 @@
 				{
 					"name": "Bubbles of Whimsy (2/Day)",
 					"entries": [
-						"Coral produces a stream of magical bubbles from her horn. These bubbles float toward a creature Coral can see within 60 feet of herself. Roll a {@dice d6} to determine the bubbles' effect:",
+						"珊瑚从她的角上产生一股魔法泡泡流。这些泡泡飘向珊瑚能看到的在她身边60英尺内的生物。投掷一个{@dice d6}来确定泡泡的效果：",
 						{
 							"type": "list",
 							"items": [
@@ -103,21 +103,21 @@
 									"name": "1-2: Bolstering Treat",
 									"type": "item",
 									"entries": [
-										"The bubbles transform into {@dice 1d4} cookies that appear in the target's space. The target gains 11 ({@dice 2d8 + 2}) temporary hit points if it immediately uses its reaction to eat one of the cookies. Any leftover cookies are delicious but confer no benefits."
+										"泡泡会变成{@dice 1d4}饼干，出现在目标的空间中。如果目标立即使用其反应吃掉其中一个饼干，它会获得11({@dice 2d8 + 2})临时生命值。任何剩余的饼干都很美味，但不会带来任何好处。"
 									]
 								},
 								{
 									"name": "3-4: Sparkle Burst",
 									"type": "item",
 									"entries": [
-										"The bubbles transform into glitter that swirls around the target before bursting outward. Each creature within 5 feet of the target must succeed on a {@dc 16} Constitution saving throw or have the {@condition blinded} condition until the start of Coral's next turn."
+										"泡泡变成闪闪发光的粉末，围绕目标旋转然后向外迸发。目标周围5英尺内的每个生物必须成功通过一个{@dc 16} 体质豁免才能免疫{@condition blinded}状态，直到珊瑚的下一个回合开始。"
 									]
 								},
 								{
 									"name": "5-6: Stink Bomb Shield",
 									"type": "item",
 									"entries": [
-										"The bubbles transform into a foul-smelling cloud of gas that surrounds and shields the target. The target has half cover until the gas disappears at the start of Coral's next turn."
+										"气泡变成一团恶臭的气体云，环绕并保护目标。目标在气体在(Coral)的下一个回合开始时消失前拥有半掩护。"
 									]
 								}
 							]
@@ -127,7 +127,7 @@
 				{
 					"name": "Gift of Speech (1/Day)",
 					"entries": [
-						"Coral targets one Beast she can see within 10 feet of herself. The target gains the ability to understand and speak Common or Sylvan (Coral's choice) for 10 minutes."
+						"珊瑚(Coral)瞄准自己身边10英尺内的一只野兽。目标获得理解并说出普通语或森林语(Coral选择)的能力，持续10分钟。"
 					]
 				}
 			],
@@ -217,7 +217,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dandylion casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"蒲公英施放以下其中一个法术，无需材料成分，使用魅力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell druidcraft}",
@@ -241,13 +241,13 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The dandylion has advantage on saving throws against spells and other magical effects."
+						"蒲公英在豁免魔法和其他魔法效果时具有优势。"
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The dandylion has advantage on an attack roll against a creature if at least one of the dandylion's allies is within 5 feet of the creature and the ally doesn't have the {@condition incapacitated} condition."
+						"如果蒲公英(dandylion)的盟友中有至少一人在离生物5英尺范围内且该盟友没有{@condition incapacitated}状态，蒲公英在对该生物进行攻击检定时具有优势。"
 					]
 				}
 			],
@@ -255,25 +255,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The dandylion makes one Bite attack and one Claws attack."
+						"蒲公英(dandylion)进行一次咬击(Bite)攻击和一次爪击(Claws)攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+						"{@atk mw} {@hit 9}攻击，射程5英尺，目标一个。造成{@h}13 ({@damage 2d6 + 6})点穿刺伤害。"
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) slashing damage. If the dandylion moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a {@dc 17} Strength saving throw or have the {@condition prone} condition. If the target has the {@condition prone} condition, the dandylion can make one Bite attack against it as a bonus action."
+						"{@atk mw} {@hit 9} 进行攻击，射程5英尺，目标一个。造成{@h}20 ({@damage 4d6 + 6}) 点割伤伤害。如果蒲公英在命中目标前至少直线移动了20英尺，目标必须在强韧豁免检定中成功，否则将获得{@condition prone}状态。如果目标已经有{@condition prone}状态，蒲公英可以作为一个奖励动作对其进行一次咬击攻击。"
 					]
 				},
 				{
 					"name": "Rejuvenating Seedpods (2/Day)",
 					"entries": [
-						"The dandylion releases a burst of seedpods from its tail, filling a 10-foot-radius sphere centered on itself. Each creature of the dandylion's choice in the sphere can immediately end one of the following conditions on itself (creature's choice): {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}. In addition, all soil in the sphere's area is enriched, restoring withered vegetation in the area to full health and causing all crops in the area to produce twice the normal harvest for the next year."
+						"蒲公英从它的尾部释放一阵种子囊，填满以自身为中心的半径10英尺的球体范围。在球体范围内，蒲公英选择的每个生物可以立即结束自身的以下一种状态（生物自行选择）：{@condition blinded}，{@condition deafened}，{@condition paralyzed}，或{@condition poisoned}。此外，球体范围内的所有土壤都被滋养，使该区域的枯萎植被恢复健康，并导致该区域的所有农作物在接下来的一年内产量翻倍。"
 					]
 				}
 			],
@@ -281,7 +281,7 @@
 				{
 					"name": "Roar of Pride",
 					"entries": [
-						"When a creature within 60 feet of the dandylion hits it with an attack roll, the dandylion can unleash a furious roar. The creature that triggered this reaction must succeed on a {@dc 15} Wisdom saving throw or have the {@condition frightened} condition until the end of the dandylion's next turn."
+						"当距离蒲公英60英尺内的生物用攻击骰命中它时，蒲公英可以发出一声愤怒的咆哮。触发此反应的生物必须成功通过一次 {@dc 15} 智力豁免检定，否则将患上 {@condition frightened} 状态，直到蒲公英的下一个回合结束。"
 					]
 				}
 			],
@@ -403,13 +403,13 @@
 				{
 					"name": "Fiery Wings",
 					"entries": [
-						"Rain's wings are made of flame, and they shed bright light out to 15 feet and dim light for an additional 15 feet. At the start of each of Rain's turns, each creature of Rain's choice within 5 feet of her takes 3 ({@damage 1d6}) fire damage. A creature that hits Rain with a melee attack takes 3 ({@damage 1d6}) fire damage."
+						"雷恩的翅膀由火焰构成，向外散发出15英尺的明亮光芒，再额外15英尺的微光。在每一轮雷恩的回合开始时，雷恩可以选择范围内的每个生物，对其造成3({@damage 1d6})火焰伤害。对雷恩进行近战攻击的生物会受到3({@damage 1d6})火焰伤害。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"Rain has advantage on saving throws against spells and other magical effects."
+						"下雨时在豁免魔法和其他魔法效果时具有优势。(Rain)"
 					]
 				}
 			],
@@ -417,31 +417,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Rain makes two Hoof attacks."
+						"Rain 进行两次 蹄 攻击。"
 					]
 				},
 				{
 					"name": "Hoof",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d4}) bludgeoning damage."
+						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}5 ({@damage 2d4}) 钝击伤害。"
 					]
 				},
 				{
 					"name": "Haloed Horn Burst {@recharge 5}",
 					"entries": [
-						"Rain uses her haloed horn to produce one of the following magical effects:"
+						"雨使用她的光环角来产生以下其中一个魔法效果："
 					]
 				},
 				{
 					"name": "Glitterstorm",
 					"entries": [
-						"Rain emits a rainbow beam in a 30-foot line that is 5 feet wide. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) radiant damage on a failed saving throw, or half as much damage on a successful one; creatures of evil alignment have disadvantage on this saving throw. If the damage from this effect reduces a creature to 0 hit points, the creature dies, and its body turns into glittery flowers."
+						"雨在一个30英尺长、5英尺宽的线上发射出一道彩虹光束。该区域内的每个生物必须进行一次{@dc 15}敏捷豁免检定，未通过豁免检定的生物将受到21({@damage 6d6})辐射伤害，通过豁免检定的生物则只受到一半伤害；邪恶属性的生物在这次豁免检定中有劣势。如果这个效果造成的伤害将一个生物的生命值降至0，那个生物将死亡，并且它的身体会变成闪闪发光的花朵。"
 					]
 				},
 				{
 					"name": "Healing Rainbows",
 					"entries": [
-						"Rain releases a wave of rejuvenating multicolored light in a 30-foot cone. Each creature of Rain's choice in that area regains 18 ({@dice 4d8}) hit points."
+						"Rain释放出一波具有恢复作用的多彩光芒，覆盖30英尺的锥形区域。在那个区域内，Rain选择的每个生物都恢复18 ({@dice 4d8}) 点生命值。"
 					]
 				}
 			],
@@ -449,7 +449,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"Rain takes either the Disengage or the Hide action."
+						"Rain采取躲避（Disengage）或隐匿（Hide）动作。"
 					]
 				}
 			],
@@ -541,7 +541,7 @@
 				{
 					"name": "Electrified Chassis",
 					"entries": [
-						"A creature that hits the scrapper with a melee attack while within 5 feet of it takes 19 ({@damage 3d12}) lightning damage."
+						"当一个生物在距离机械拆解者5英尺内用近战攻击命中它时，会受到19 ({@damage 3d12}) 闪电伤害。"
 					]
 				}
 			],
@@ -549,25 +549,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The scrapper makes two Spike Punch attacks. It can replace one of those with a Wires attack."
+						"机械拳击手进行两次尖刺拳击攻击。它可以用一次电线攻击替换其中一次攻击。"
 					]
 				},
 				{
 					"name": "Spike Punch",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage plus 5 ({@damage 1d10}) piercing damage."
+						"{@atk mw} {@hit 8} 进行攻击，射程5英尺，一个目标。造成{@h}14 ({@damage 2d8 + 5}) 钝击伤害加上5 ({@damage 1d10}) 刺伤伤害。"
 					]
 				},
 				{
 					"name": "Wires",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 20 ft., one Large or smaller creature. {@h}The target has the {@condition grappled} condition (escape {@dc 16}) and must succeed on a {@dc 16} Strength saving throw or be pulled into an unoccupied space within 5 feet of the scrapper and take 19 ({@damage 3d12}) lightning damage. The scrapper can have only one creature {@condition grappled} in this way at a time."
+						"{@atk mw} {@hit 8} 命中，射程20英尺，一个体型为大型或更小的生物。{@h}目标患有{@condition grappled}状态（逃脱{@dc 16}）并必须成功通过一次{@dc 16}力量豁免才能被拉到距离斗殴者5英尺的未占据空间内，并受到19({@damage 3d12})点闪电伤害。斗殴者一次只能以这种方式控制一个生物{@condition grappled}。"
 					]
 				},
 				{
 					"name": "Eye Beam {@recharge 5}",
 					"entries": [
-						"The scrapper shoots a magical beam from its extended eye at one creature it can see within 120 feet of itself. The target must make a {@dc 16} Dexterity saving throw, taking 44 ({@damage 8d10}) force damage on a failed save, or half as much damage on a successful one."
+						"刮削者从其伸出的眼睛向其能看到的120英尺内的一只生物发射了一道魔法光束。目标必须进行一次{@dc 16}敏捷豁免才能，未通过则受到44（{@damage 8d10}）点力量伤害，通过则只受到一半伤害。"
 					]
 				}
 			],
@@ -663,13 +663,13 @@
 				{
 					"name": "Amphibious",
 					"entries": [
-						"Seth can breathe air and water."
+						"Seth可以呼吸空气和水。"
 					]
 				},
 				{
 					"name": "Invisible in Water",
 					"entries": [
-						"Seth has the {@condition invisible} condition while fully immersed in water."
+						"Seth在水中完全浸泡时有{@condition invisible}状况。"
 					]
 				}
 			],
@@ -677,25 +677,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Seth makes one Bite attack and two Claw attacks."
+						"Seth 进行一次咬击攻击和两次爪击攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d6 + 7}) piercing damage plus 9 ({@damage 2d8}) cold damage."
+						"{@atk mw} 使用攻击命中，达到10英尺，一个目标。造成{@h}10 ({@damage 1d6 + 7}) 点穿刺伤害加上9 ({@damage 2d8}) 点冰冷伤害。"
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage."
+						"{@atk mw} {@hit 11}攻击，达到5英尺，一个目标。造成{@h}14 ({@damage 2d6 + 7})点斩击伤害。"
 					]
 				},
 				{
 					"name": "Riptide Breath {@recharge 5}",
 					"entries": [
-						"Seth exhales a torrent of frigid water in a 30-foot cone. Each creature in that area must make a {@dc 16} Constitution saving throw. On a failed save, the creature takes 36 ({@damage 8d8}) cold damage and has the {@condition incapacitated} condition until the end of its next turn. On a successful save, the creature takes half as much damage only."
+						"Seth在一个30英尺锥形范围内呼出一股寒冷的洪流。该区域内的每个生物必须进行一次{@dc 16}体质豁免。未通过豁免的生物会受到36({@damage 8d8})点冰冷伤害，并且在其下一个回合结束前患有{@condition incapacitated}状态。通过豁免的生物只会受到一半伤害。"
 					]
 				}
 			],
@@ -703,13 +703,13 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"Seth magically transforms into a Small Humanoid or a Beast that is Tiny or Small, while retaining his game statistics (other than his size). This transformation ends if Seth is reduced to 0 hit points or uses another bonus action to end it."
+						"Seth在保留游戏属性（除了体型）的情况下，魔法变身为一个小型人形生物或一个微小或小型野兽。如果Seth的生命值降低到0或使用另一个奖励动作来结束变身，则这种变身会结束。"
 					]
 				},
 				{
 					"name": "Superspeed (2/Day)",
 					"entries": [
-						"Seth's speed is doubled for as long as he maintains {@status concentration} (as if {@status concentration||concentrating} on a spell). While his speed is increased in this way, all attack rolls against him are made with disadvantage, and he becomes partially incorporeal, allowing him to move through creatures and objects as if they were difficult terrain. Seth takes 5 ({@damage 1d10}) force damage if he ends his turn inside an object."
+						"塞斯的速度在他保持{@status concentration}（就像{@status concentration||concentrating}上的法术）的时间内加倍。在这种方式下，所有对他的攻击投掷都带有劣势，并且他变得部分非实体化，使他能够穿过生物和物体，就像它们是艰难地形一样。如果塞斯在物体内结束他的回合，他会受到5({@damage 1d10})的力量伤害。"
 					]
 				}
 			],
@@ -816,7 +816,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sheldon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+						"谢尔顿施放以下其中一个法术，无需法术材料，使用智力作为施法能力（法术豁免 {@dc 14}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -836,7 +836,7 @@
 				{
 					"name": "Space Dweller",
 					"entries": [
-						"Sheldon can breathe normally in a vacuum."
+						"谢尔顿在真空中可以正常呼吸。"
 					]
 				}
 			],
@@ -844,25 +844,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Sheldon makes either two Bite attacks, two Blueberry Fling attacks, or one of each."
+						"谢尔顿进行两次咬击攻击，两次蓝莓投掷攻击，或者各进行一次。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 4 ({@damage 1d8}) psychic damage."
+						"{@atk mw} {@hit 7} 进行攻击，射程5英尺，一个目标。造成{@h}7 ({@damage 1d6 + 4}) 穿刺伤害加上4 ({@damage 1d8}) 精神伤害。"
 					]
 				},
 				{
 					"name": "Blueberry Fling",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 30 ft., one creature. {@h}11 ({@damage 2d6 + 4}) blueberry damage."
+						"{@atk rw} 使用 {@hit 7} 命中，射程30英尺，一个生物。造成{@h}11 ({@damage 2d6 + 4}) 蓝莓伤害。"
 					]
 				},
 				{
 					"name": "Jetstream Breath {@recharge 5}",
 					"entries": [
-						"Sheldon exhales a line of magical wind that is 60 feet long and 5 feet wide. Each creature in that area must make a {@dc 15} Strength saving throw. On a failed save, the creature takes 21 ({@damage 6d6}) force damage, is pushed 15 feet away from Sheldon, and has the {@condition prone} condition. On a successful save, the creature takes half as much damage only."
+						"谢尔顿呼出一道神奇的风，长60英尺，宽5英尺。该区域内的每个生物必须进行一次{@dc 15}力量豁免投骰。未通过豁免的生物会受到21点({@damage 6d6})力量伤害，并被推开15英尺，同时获得{@condition prone}状态。通过豁免的生物只会受到一半伤害。"
 					]
 				}
 			],
@@ -870,7 +870,7 @@
 				{
 					"name": "Wind Dash (2/Day)",
 					"entries": [
-						"Sheldon summons a powerful gust of wind and flies up to his speed. This movement doesn't provoke opportunity attacks. At the end of this movement, each creature within 5 feet of Sheldon must succeed on a {@dc 15} Strength saving throw or have the {@condition prone} condition, as the wind bursts around Sheldon."
+						"谢尔顿召唤一股强大的风，飞行速度上升。这次移动不会引发机会攻击。在移动结束时，每个距离谢尔顿5英尺内的生物必须成功通过一次{@dc 15}力量豁免检定，否则将获得{@condition prone}状态，因为风围绕着谢尔顿爆发。"
 					]
 				}
 			],

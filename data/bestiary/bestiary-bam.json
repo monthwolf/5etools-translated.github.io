@@ -53,7 +53,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The aartuk casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 12}):"
+						"这只阿尔图克施放以下其中一个法术，无需法术材料，并使用智力作为施法能力（法术豁免 {@dc 12}）："
 					],
 					"daily": {
 						"1e": [
@@ -235,7 +235,7 @@
 				{
 					"name": "Rally the Troops (1/Day)",
 					"entries": [
-						"The aartuk magically ends the {@condition charmed} and {@condition frightened} conditions on itself and each creature of its choice that it can see within 30 feet of itself."
+						"aartuk 在自身和其能看到的每个生物身上，魔法地结束 {@condition charmed} 和 {@condition frightened} 状态。"
 					]
 				},
 				{
@@ -1173,13 +1173,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"精灵在进行豁免投掷以避免或结束自身{@condition charmed}状态时具有优势，并且魔法无法使其入睡。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"The elf wears a suit of {@item elven chain}."
+						"这位精灵穿着一套{@item elven chain}。"
 					]
 				},
 				{
@@ -1219,7 +1219,7 @@
 				{
 					"name": "Summon Solar Dragon (1/Day)",
 					"entries": [
-						"The elf has a 50 percent chance of magically summoning a {@creature young solar dragon|BAM}. A summoned dragon appears in an unoccupied space that the summoner can see, acts on its own initiative count, and is an ally of its summoner. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+						"这个精灵有50%的几率魔法召唤一个{@creature young solar dragon|BAM}。一个被召唤的龙会出现在召唤者能看到的未被占据的空间中，它会在自己的主动顺序中行动，并且是召唤者的盟友。它会持续10分钟，直到它或召唤者死亡，或者直到召唤者将其作为一个动作解散。"
 					]
 				}
 			],
@@ -1344,7 +1344,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"精灵在进行豁免投掷以避免或结束自身{@condition charmed}状态时具有优势，并且魔法无法使其入睡。"
 					]
 				},
 				{
@@ -1471,7 +1471,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"精灵在进行豁免投掷以避免或结束自身{@condition charmed}状态时具有优势，并且魔法无法使其入睡。"
 					]
 				},
 				{
@@ -1597,7 +1597,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The elf casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 16}):"
+						"精灵施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 16}）："
 					],
 					"daily": {
 						"2e": [
@@ -1618,7 +1618,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"精灵在进行豁免投掷以避免或结束自身{@condition charmed}状态时具有优势，并且魔法无法使其入睡。"
 					]
 				},
 				{
@@ -1757,7 +1757,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The elf has advantage on saving throws it makes to avoid or end the {@condition charmed} condition on itself, and magic can't put it to sleep."
+						"精灵在进行豁免投掷以避免或结束自身{@condition charmed}状态时具有优势，并且魔法无法使其入睡。"
 					]
 				},
 				{
@@ -1884,7 +1884,7 @@
 				{
 					"name": "Malfunction",
 					"entries": [
-						"Whenever the autognome takes 15 damage or more from a single source and isn't reduced to 0 hit points by that damage, roll a {@dice d20} to determine if it suffers a malfunction:",
+						"每当自赋者从单一来源受到15点或更多伤害，且未被该伤害降至0点生命值时，投掷一个{@dice d20}来确定它是否发生故障：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -1900,7 +1900,7 @@
 									"type": "item",
 									"name": "11-12: \"My Mind Is Going. I Can Feel It.\"",
 									"entries": [
-										"The autognome is {@condition incapacitated} for 1 minute."
+										"自我命名术 (autognome) 持续 1 分钟。"
 									]
 								},
 								{
@@ -1914,7 +1914,7 @@
 									"type": "item",
 									"name": "15-16: \"Who Turned Out the Lights?\"",
 									"entries": [
-										"The autognome's head falls off and deactivates, causing the autognome to be {@condition blinded} and {@condition deafened} until a creature uses an action to reattach the head, which reactivates it."
+										"自动识别仪的头部掉落并停止运作，导致自动识别仪变为{@condition blinded}和{@condition deafened}，直到有生物使用一个动作重新连接头部，重新激活它。"
 									]
 								},
 								{
@@ -2044,7 +2044,7 @@
 				{
 					"name": "Hideous Rend",
 					"entries": [
-						"The b'rohg uses all four of its hands to target one Large or smaller creature it can see within 10 feet of itself. The target must succeed on a {@dc 16} Dexterity saving throw or be {@condition grappled} (escape {@dc 16}). Until this grapple ends, the b'rohg can't make Fist attacks or Rock attacks, and the target takes 49 ({@damage 8d10 + 5}) bludgeoning damage at the start of each of its turns. A creature reduced to 0 hit points by this damage is ripped into four pieces."
+						"b'rohg使用它的四只手来瞄准一个在其可见的10英尺范围内的大型或更小生物。目标必须成功进行一次{@dc 16}敏捷豁免才能避免被{@condition grappled}（逃脱{@dc 16}）。直到这次擒抱结束，b'rohg不能进行拳击攻击或岩石攻击，目标在其回合开始时每次受到49（{@damage 8d10 + 5}）点钝击伤害。被这个伤害降至0点生命值的生物会被撕成四块。"
 					]
 				}
 			],
@@ -2130,7 +2130,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The braxat casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+						"布拉萨特(braxat)施放以下其中一个法术，无需法术材料，使用智力作为施法能力（法术豁免{@dc 14}）："
 					],
 					"daily": {
 						"1e": [
@@ -2275,7 +2275,7 @@
 					"entries": [
 						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}11 ({@damage 2d6 + 4})穿刺伤害。如果目标是一个中型或小型生物，它必须在一个{@dc 13}灵巧的投掷中成功，否则会被食腐动物吞下。拾荒者一次可以吞下一个生物。",
 						"被吞下的生物是{@condition blinded}和{@condition restrained}，对清道夫以外的攻击和其他效果有完全的掩护，并在清道夫的每个回合开始时受到13({@damage 3d8})的毒气伤害，因为清道夫胃里的毒气。",
-						"If the scavver takes 15 damage or more on a single turn from a creature inside it, the scavver must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls {@condition prone} in a space within 10 feet of the scavver. If the scavver dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition prone}."
+						"如果清道夫在一回合内受到来自其内部生物的15点或更多伤害，清道夫必须在回合结束时成功进行一次{@dc 20}体质豁免才能不将吞噬的生物吐出，被吞噬的生物掉落在距离清道夫不超过10英尺的空间内。如果清道夫死亡，被吞噙的生物不再受其影响，可以使用10英尺的移动从尸体中逃脱，离开{@condition restrained}。"
 					]
 				}
 			],
@@ -2382,7 +2382,7 @@
 				{
 					"name": "Magical Gift (1/Day)",
 					"entries": [
-						"The chwinga targets a Humanoid it can see within 5 feet of itself. The target gains a {@filter supernatural charm|rewards|type=charm} of the DM's choice. See {@book chapter 7|DMG|7|Other Rewards} for more information on supernatural charms."
+						"chwinga瞄准一个它能看到的距离自己5英尺以内的人形生物。目标获得{@filter supernatural charm|rewards|type=charm}，由DM选择。有关超自然魅力的更多信息，请参阅{@book chapter 7|DMG|7|Other Rewards}。"
 					]
 				},
 				{
@@ -2614,7 +2614,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dohwar casts the following spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
+						"多瓦尔（Dohwar）施放以下咒语，无需法术材料，使用魅力作为施法能力（法术豁免{@dc 11}）："
 					],
 					"daily": {
 						"3": [
@@ -2850,7 +2850,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the eye monger is motionless and has its eye and mouth closed at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the eye monger move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the eye monger is animate."
+						"如果眼珠贩子在战斗开始时静止不动，且眼睛和嘴巴都闭合，它在先攻骰掷中获得优势。此外，如果一名生物没有观察到眼珠贩子移动或行动，那名生物必须成功进行一次{@dc 18}智力({@skill Investigation})检定，才能辨别出眼珠贩子是有生命的。"
 					]
 				},
 				{
@@ -2991,13 +2991,13 @@
 				{
 					"name": "Invisibility",
 					"entries": [
-						"The feyr becomes {@condition invisible} until it attacks, uses Nightmare Fuel, or uses a bonus action to become visible."
+						"Feyr在攻击、使用噩梦燃料，或者使用一个奖励动作变得可见之前，会保持{@condition invisible}状态。"
 					]
 				},
 				{
 					"name": "Nightmare Fuel (1/Day)",
 					"entries": [
-						"The feyr targets one {@condition unconscious} creature it can see within 10 feet of itself. The target must succeed on a {@dc 13} Wisdom saving throw or take 27 ({@damage 5d10}) psychic damage, and the feyr gains temporary hit points equal to the damage dealt."
+						"feyr瞄准在自身10英尺内可见的一个生物{@condition unconscious}。目标必须成功进行一次{@dc 13}感知豁免才能免受27({@damage 5d10})点精神伤害，并且feyr获得等同于所造成伤害的临时生命值。"
 					]
 				}
 			],
@@ -3099,7 +3099,7 @@
 				{
 					"name": "Mind-Probing Antennae",
 					"entries": [
-						"The gaj targets one creature {@condition grappled} by it. The target must make a {@dc 12} Wisdom saving throw. On a failed save, the target takes 16 ({@damage 3d10}) psychic damage, and the gaj magically pulls one piece of information from the target's mind that the gaj wants to know. On a successful save, the target takes half as much damage, and the gaj learns nothing."
+						"这只gaj以{@condition grappled}为目标。目标必须进行一次{@dc 12}感知豁免投骰。未通过豁免的目标将受到16({@damage 3d10})点心灵伤害，并且gaj会从目标的思维中魔法地获取一条它想知道的信息。通过豁免的目标只会受到一半伤害，而gaj则一无所获。"
 					]
 				},
 				{
@@ -3236,7 +3236,7 @@
 				{
 					"name": "Steady as She Goes",
 					"entries": [
-						"On the deck of a ship, the giff has advantage on ability checks and saving throws made against effects that would knock it {@condition prone} or shove it overboard."
+						"在船的甲板上，吉夫 (giff) 在针对会将其推倒 {@condition prone} 或推入海中的效果进行的能力检定和豁免投掷中拥有优势。"
 					]
 				}
 			],
@@ -3521,7 +3521,7 @@
 				{
 					"name": "Rallying Cry",
 					"entries": [
-						"The giff ends the {@condition frightened} condition on itself and each creature of its choice that it can see within 30 feet of it."
+						"这个gif结束了自身和它能看见的每个生物身上的{@condition frightened}状态。"
 					]
 				},
 				{
@@ -3619,7 +3619,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"几萨安基施放以下其中一个法术，无需法术材料，使用智力作为施法能力（法术豁免{@dc 13}）:"
 					],
 					"will": [
 						"{@spell light}",
@@ -3757,7 +3757,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"几萨安基施放以下其中一个法术，无需法术材料，并使用智力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -3890,7 +3890,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 16}):"
+						"几思燕客施放以下其中一个法术，无需法术材料，并使用智力作为施法能力（法术豁免{@dc 16}）："
 					],
 					"will": [
 						"{@spell druidcraft}",
@@ -4764,7 +4764,7 @@
 				{
 					"name": "Psychic Bomb",
 					"entries": [
-						"The megapede targets one creature it can see within 60 feet of itself. The target must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 22 ({@damage 5d8}) psychic damage and is {@condition incapacitated} until the end of its next turn. On a successful save, the target takes half as much damage and isn't {@condition incapacitated}."
+						"巨蜈蚣瞄准在其视线范围内的一个生物，距离不超过60英尺。目标必须进行一次{@dc 15}感知豁免检定。未通过检定的目标会受到22点({@damage 5d8})精神伤害，并在其下一个回合结束前处于{@condition incapacitated}状态。通过检定的目标会受到一半伤害且不会被{@condition incapacitated}。"
 					]
 				}
 			],
@@ -4857,7 +4857,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mercane casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"商人施放以下其中一个咒语，无需咒语材料，并使用智力作为施法能力（咒语豁免{@dc 15}）:"
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -5124,7 +5124,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The neh-thalggu casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 11}). It must have consumed the requisite number of brains to cast the spell, as indicated:"
+						"涅萨古（Neh-thalggu）施放以下其中一个法术，无需法术材料，并使用智力作为施法能力（法术豁免{@dc 11}）。它必须消耗了所需数量的大脑才能施放法术，如下所示："
 					],
 					"daily": {
 						"1e": [
@@ -5188,7 +5188,7 @@
 				{
 					"name": "Mind Blast {@recharge 5}",
 					"entries": [
-						"The neh-thalggu magically emits psychic energy at one Humanoid it can see within 10 feet of itself. The target must make a {@dc 14} Wisdom saving throw. On a failed save, the target takes 9 ({@damage 2d8}) psychic damage and is {@condition incapacitated} until the end of its next turn. On a successful save, the target takes half as much damage and isn't {@condition incapacitated}."
+						"这个内萨尔古(Neh-thalggu)在自身周围10英尺内可以看到的一个人形生物，魔法般地释放出精神能量。目标必须进行一次{@dc 14}感知豁免投骰。未能通过豁免的目标会受到9点({@damage 2d8})精神伤害，并在其下一个回合结束前处于{@condition incapacitated}状态。若成功通过豁免，目标会受到一半伤害且不会被{@condition incapacitated}。"
 					]
 				}
 			],
@@ -6103,7 +6103,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The psurlon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"普苏隆(psurlon)施放以下其中一个法术，无需法术材料，使用智力作为施法能力（法术豁免{@dc 13}）："
 					],
 					"daily": {
 						"1": [
@@ -6245,7 +6245,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The psurlon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"普苏隆(psurlon)施放以下法术之一，无需法术材料，并使用智力作为施法能力（法术豁免{@dc 16}）："
 					],
 					"daily": {
 						"2e": [
@@ -6297,7 +6297,7 @@
 				{
 					"name": "Pacify {@recharge 5}",
 					"entries": [
-						"The psurlon targets one creature it can see within 120 feet of itself. The target must succeed on a {@dc 16} Wisdom saving throw or fall {@condition unconscious} for 10 minutes. The condition ends if the target takes any damage or if another creature uses its action to shake the target awake."
+						"psurlon瞄准自身视线范围内120英尺内的一名生物。目标必须成功通过{@dc 16}的感知豁免才能免疫在10分钟内陷入{@condition unconscious}状态。如果目标受到任何伤害，或者另一生物使用其动作来唤醒目标，该状态将结束。"
 					]
 				},
 				{
@@ -6400,7 +6400,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The psurlon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"普苏隆(psurlon)施放以下其中一个法术，无需法术材料，使用智力作为施法能力（法术豁免{@dc 13}）："
 					],
 					"daily": {
 						"1": [
@@ -6530,7 +6530,7 @@
 					"name": "Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The reigar casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
+						"雷加尔施放以下其中一个法术，无需法术材料，并使用魅力作为施法能力（法术豁免 {@dc 18}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -6866,7 +6866,7 @@
 				{
 					"name": "Ray Gun",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one creature. {@h}7 ({@damage 2d6}) psychic damage, and if the target is a Humanoid with an Intelligence score of 3 or higher, it must make a {@dc 12} Wisdom saving throw. On a failed save, the target perceives everything it sees or hears as hilariously funny and is {@condition incapacitated} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk rs} 使用 {@hit 5} 进行攻击，射程120英尺，作用于一个生物。造成{@h}7 ({@damage 2d6}) 精神伤害，如果目标是一个智力分数为3或更高的人形生物，它必须进行{@dc 12} 感知豁免。未通过豁免的目标会认为所见或所听到的一切都非常滑稽，并且会 {@condition incapacitated} 1分钟。目标可以在自己的回合结束时重复进行豁免才能，成功则结束效果。"
 					]
 				}
 			],
@@ -6874,7 +6874,7 @@
 				{
 					"name": "Phantasmal Form (3/Day)",
 					"entries": [
-						"The clown veils itself and everything it is wearing and carrying in an illusion that makes it look like some other creature of its size or smaller (such as a child) or an object small enough to fit in the clown's space (such as a floating balloon). Maintaining this effect requires the clown's {@status concentration} (as if {@status concentration||concentrating} on a spell), and the illusion fails to hold up to physical inspection. As an action, a creature that can see the clown's illusory form can make a {@dc 15} Wisdom ({@skill Insight}) check, piercing the illusion and discerning the clown's true form on a success."
+						"小丑可以用幻术将自己及身上穿戴的一切掩盖起来，使自己看起来像是某种与自己大小相仿或更小的生物（比如一个孩子），或者是足够小以适应小丑空间的物体（比如一个漂浮的气球）。维持这种效果需要小丑的{@status concentration}（就像{@status concentration||concentrating}上的一个法术），而幻觉无法经受物理检查。作为一个动作，能看到小丑幻象形态的生物可以进行一个{@dc 15}感知（{@skill Insight}）检定，成功则穿透幻象，识别出小丑的真实形态。"
 					]
 				}
 			],
@@ -7627,7 +7627,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The apparition can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"幽灵可以像通过艰难地形一样穿过其他生物和物体。如果它在物体内结束回合，它会受到5 ({@damage 1d10}) 点力场伤害。"
 					]
 				},
 				{
@@ -7647,7 +7647,7 @@
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One Humanoid that the apparition can see within 5 feet of itself must succeed on a {@dc 14} Charisma saving throw or be possessed by the apparition; the apparition then disappears, and the target is {@condition incapacitated} and loses control of its body. The apparition now controls the body but doesn't deprive the target of awareness. The apparition can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"幽灵可以看到自己5英尺范围内的一个人形生物，必须成功通过一个{@dc 14} 魅力豁免才能不被幽灵附身；然后幽灵消失，目标被{@condition incapacitated} 并失去对自己身体的控制。幽灵现在控制着身体，但不剥夺目标的意识。幽灵不能成为任何攻击、法术或其他效果的目标，并保留其属性、智力、感知、魅力和免疫力，使其免疫被{@condition charmed} 和 {@condition frightened}。除此之外，它使用被附身目标的统计数据，但不获得目标的知识、职业特性或熟练加值。",
 						"附身持续到身体下降到0点，幽灵以额外行动结束它，身体离开星界，或者幽灵被像{@spell dispel evil and good}法术那样的效果逼出来。当附身结束时，幽灵会重新出现在离身体5英尺内的一个无人的空间。如果它重新出现在一个不在星界的地方，这个幽灵就会被摧毁。目标在救赎成功后或附身结束后的24小时内对这个幽灵的附身免疫。"
 					]
 				}
@@ -7874,7 +7874,7 @@
 				{
 					"name": "Chameleon Carapace",
 					"entries": [
-						"The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ({@skill Stealth}) checks it makes to hide in those surroundings."
+						"三螳人改变其甲壳的颜色以匹配周围环境的颜色和质地，从而在进行潜藏时获得对敏捷度检定（{@skill Stealth}）的优势。"
 					]
 				},
 				{
@@ -8016,7 +8016,7 @@
 				{
 					"name": "Chameleon Carapace",
 					"entries": [
-						"The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ({@skill Stealth}) checks it makes to hide in those surroundings."
+						"三螳人改变其甲壳的颜色以匹配周围环境的颜色和质地，从而在进行潜藏时获得对敏捷度检定（{@skill Stealth}）的优势。"
 					]
 				}
 			],
@@ -8277,7 +8277,7 @@
 				{
 					"name": "Ship Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"A ship upon which the captain stands, along with all creatures and objects aboard it, becomes {@condition invisible} to creatures not aboard the ship. The captain must concentrate on this magical effect to maintain it (as if {@status concentration||concentrating} on a spell), and it lasts for up to 1 hour. The effect ends if the captain leaves the ship."
+						"船上的船长、以及船上的所有生物和物体，对于不在船上的生物来说变得{@condition invisible}。船长必须集中精力维持这个魔法效果（就像对一个法术进行{@status concentration||concentrating}一样），持续时间最长为1小时。如果船长离开船只，效果就会结束。"
 					]
 				}
 			],
@@ -8385,7 +8385,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mage casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"法师施放以下其中一个咒语，使用魅力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell mage hand}",
@@ -8540,7 +8540,7 @@
 					"entries": [
 						"{@atk mw} {@hit 10}击中，到达10英尺，一个目标。{@h}45 ({@damage 6d12 + 6})穿刺伤害。如果目标是大型或较小的生物，它必须在一个{@dc 16}灵巧的投掷中成功，否则会被食腐动物吞下。拾荒者一次可以吞下一个生物。",
 						"被吞下的生物是{@condition blinded}和{@condition restrained}，对清道夫以外的攻击和其他效果有完全的掩护，并在清道夫的每个回合开始时受到11({@damage 2d10})的酸性伤害，来自清道夫胃里的消化液。",
-						"If the scavver takes 25 damage or more on a single turn from a creature inside it, the scavver must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls {@condition prone} in a space within 10 feet of the scavver. If the scavver dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 10 feet of movement, exiting {@condition prone}."
+						"如果清道夫在一回合内受到25点或更多伤害，来自其内部的生物，清道夫必须在回合结束时成功进行一次{@dc 20}体质豁免才能不吐出被吞噬的生物，被吞噬的生物会掉落在距离清道夫不超过10英尺的空间内。如果清道夫死亡，被吞噬的生物不再受其影响，可以使用10英尺的移动速度从尸体中逃脱，离开{@condition restrained}。"
 					]
 				}
 			],

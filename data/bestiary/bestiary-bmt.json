@@ -37,7 +37,7 @@
 							"items": {
 								"name": "Detention Orb",
 								"entries": [
-									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+									"这个无人机向30英尺内它能看到的生物发射一个微小的魔法力量球。生物必须通过一次{@dc 15}体质豁免才能不被包裹在这个球体中，球体会扩张到刚好足够容纳这个生物的大小。被包裹的生物在内部不需要呼吸、进食或饮水，也不会变老。没有任何东西可以穿过这个球体，也没有任何生物可以通过传送或使用平面旅行进入或离开这个球体。作为一个奖励动作，无人机可以将球体及其内容向任意方向移动30英尺。对球体施放{@spell Dispel Magic}法术({@dc 15})会摧毁它。否则，球体会保持完整，直到无人机花费一个动作来结束效果或无人机被摧毁。一个无人机一次只能有一个拘留球体处于活动状态；如果无人机在已经有一个活动的拘留球体时创建了另一个拘留球体，第一个球体会消失，释放内部的生物。"
 								]
 							}
 						}
@@ -122,7 +122,7 @@
 				{
 					"name": "Legendary Resistance (2/Day)",
 					"entries": [
-						"If the assassin fails a saving throw, it can choose to succeed instead."
+						"如果刺客未能通过豁免检定，它可以选择成功。"
 					]
 				}
 			],
@@ -130,13 +130,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The assassin makes two Poison Blade attacks."
+						"刺客进行两次毒刃攻击。"
 					]
 				},
 				{
 					"name": "Poison Blade",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 5 ({@damage 1d10}) poison damage."
+						"{@atk mw,rw} {@hit 7}攻击，射程5英尺或60英尺，一个目标。造成{@h}6 ({@damage 1d4 + 4})穿刺伤害加上5 ({@damage 1d10})毒素伤害。"
 					]
 				}
 			],
@@ -144,7 +144,7 @@
 				{
 					"name": "Uncanny Dodge",
 					"entries": [
-						"When an attacker the assassin can see hits the assassin with an attack, the assassin halves the attack's damage against it."
+						"当一个攻击者对刺客使用攻击时，刺客可以将攻击对其造成的伤害减半。"
 					]
 				}
 			],
@@ -152,19 +152,19 @@
 				{
 					"name": "Cunning",
 					"entries": [
-						"The assassin escapes nonmagical restraints and ends the {@condition grappled} condition on itself, then moves up to its speed without provoking opportunity attacks."
+						"刺客摆脱非魔法约束，并结束自身的{@condition grappled}状态，然后移动其速度，而不会引发机会攻击。"
 					]
 				},
 				{
 					"name": "Stab (Costs 2 Actions)",
 					"entries": [
-						"The assassin makes one Poison Blade attack."
+						"刺客进行一次毒刃攻击。"
 					]
 				},
 				{
 					"name": "Vanishing Escape (Costs 3 Actions)",
 					"entries": [
-						"The assassin creates a sudden distraction, such as a cloud of disorienting smoke or flash of dazzling light, filling a 10-foot cube within 5 feet of the assassin. Each creature of the assassin's choice in that area takes 9 ({@damage 2d8}) psychic damage, and the assassin has the {@condition invisible} condition. This invisibility lasts until the end of the assassin's next turn."
+						"刺客制造突如其来的干扰，比如一团令人迷惑的烟雾或一道耀眼的闪光，在距离刺客5英尺内的一个10英尺立方体内。在该区域内，刺客选择的每个生物受到9 ({@damage 2d8}) 精神伤害，并且刺客获得隐形 {@condition invisible} 状态。这种隐形持续到刺客的下一个回合结束。"
 					]
 				}
 			],
@@ -222,7 +222,7 @@
 							"items": {
 								"name": "Detention Orb",
 								"entries": [
-									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+									"这个无人机向30英尺内它能看到的生物发射一个微小的魔法力量球。生物必须通过一次{@dc 15}体质豁免才能不被包裹在这个球体中，球体会扩张到刚好足够容纳这个生物的大小。被包裹的生物在内部不需要呼吸、进食或饮水，也不会变老。没有任何东西可以穿过这个球体，也没有任何生物可以通过传送或使用平面旅行进入或离开这个球体。作为一个奖励动作，无人机可以将球体及其内容向任意方向移动30英尺。对球体施放{@spell Dispel Magic}法术({@dc 15})会摧毁它。否则，球体会保持完整，直到无人机花费一个动作来结束效果或无人机被摧毁。一个无人机一次只能有一个拘留球体处于活动状态；如果无人机在已经有一个活动的拘留球体时创建了另一个拘留球体，第一个球体会消失，释放内部的生物。"
 								]
 							}
 						}
@@ -277,13 +277,13 @@
 				{
 					"name": "Hunger of the Void",
 					"entries": [
-						"When the aspirant is reduced to 0 hit points, its body and everything it is wearing or carrying, except for magic items, are sucked into a void and destroyed. Creatures in a 15-foot-radius sphere centered on the aspirant must make a {@dc 11} Strength saving throw. On a failed save, a creature takes 10 ({@damage 3d6}) necrotic damage and is pulled 10 feet straight toward the aspirant's space. On a successful save, a creature takes half as much damage only."
+						"当渴望者的生命值降至0点时，其身体和身上携带的所有物品，除了魔法物品外，都被吸入虚空并摧毁。以渴望者为中心的15英尺半径范围内的生物必须进行一次{@dc 11}力量豁免投掷。未能通过豁免的生物会受到10({@damage 3d6})点死灵伤害，并被拉向渴望者的位置10英尺。通过豁免的生物只会受到一半伤害。"
 					]
 				},
 				{
 					"name": "Sinister Devotion",
 					"entries": [
-						"The aspirant has advantage on saving throws against the {@condition charmed} and {@condition frightened} conditions."
+						"该热衷者在豁免投掷中对{@condition charmed}和{@condition frightened}状态有优势。"
 					]
 				}
 			],
@@ -291,7 +291,7 @@
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
+						"{@atk mw,rw} {@hit 3}攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4 ({@damage 1d6 + 1})穿刺伤害，如果用双手进行近战攻击，则造成5 ({@damage 1d8 + 1})穿刺伤害。"
 					]
 				}
 			],
@@ -399,7 +399,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Asteria casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 19}):"
+						"阿斯泰利亚施放以下其中一个法术，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 19}）："
 					],
 					"will": [
 						"{@spell Guidance}",
@@ -424,19 +424,19 @@
 				{
 					"name": "Guardian Aura",
 					"entries": [
-						"Whenever a creature of Asteria's choice within 30 feet of her makes a saving throw, Asteria can give the creature advantage on the saving throw (no action required). This trait doesn't function if Asteria has the {@condition incapacitated} condition."
+						"每当阿斯泰里亚（Asteria）选择的一个生物在她30英尺内进行豁免投掷时，阿斯泰里亚可以让这个生物在豁免投掷上获得优势（无需行动）。如果阿斯泰里亚有{@condition incapacitated}状态，则此特性不起作用。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Asteria fails a saving throw, she can choose to succeed instead."
+						"如果阿斯泰利亚（Asteria）失败了一次豁免投掷，她可以选择成功。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Asteria wears {@item Winged Boots}, which grant her a flying speed (included in her statistics). She also carries one half of a pair of {@item Sending Stones}; the other half of the pair is held by Euryale."
+						"阿斯泰利亚穿着{@item Winged Boots}，使她拥有飞行速度（包含在她的属性中）。她还携带着一半{@item Sending Stones}；另一半由尤瑞阿莱持有。"
 					]
 				}
 			],
@@ -444,19 +444,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Asteria makes two Radiant Blade attacks and uses Bursting Benediction."
+						"阿斯泰利亚进行两次辉光之刃攻击，并使用爆裂祝福(Bursting Benediction)。"
 					]
 				},
 				{
 					"name": "Radiant Blade",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 13 ({@damage 3d8}) radiant damage."
+						"{@atk mw} {@hit 11}攻击，达到5英尺，一个目标。造成{@h}9 ({@damage 1d8 + 5})点劈砍伤害加上13 ({@damage 3d8})点光辉伤害。"
 					]
 				},
 				{
 					"name": "Bursting Benediction",
 					"entries": [
-						"Asteria causes a burst of magical energy to envelop one creature she can see within 60 feet of herself. The target must make a {@dc 19} Dexterity saving throw, taking 40 ({@damage 9d8}) force damage on a failed save, or half as much damage on a successful one. Asteria or another creature that she can see within 60 feet of herself then regains 10 hit points."
+						"阿斯泰利娅引发一股魔法能量爆发，笼罩在她能看到的距离60英尺内的一只生物身上。目标必须进行一次{@dc 19}敏捷豁免检定，未通过检定则受到40（{@damage 9d8}）点力量伤害，通过检定则只受一半伤害。阿斯泰利娅或她能看到的距离60英尺内的另一生物随后恢复10点生命值。"
 					]
 				}
 			],
@@ -464,7 +464,7 @@
 				{
 					"name": "Empowering Aegis {@recharge 4}",
 					"entries": [
-						"Asteria summons a spectral version of her shield, which orbits and bolsters one creature of Asteria's choice that she can see within 60 feet of herself. The spectral shield lasts until the start of Asteria's next turn. While the shield is orbiting the creature, the creature has half cover, is immune to the {@condition frightened} condition, and makes weapon attack rolls with advantage."
+						"阿斯泰利娅召唤了一个幽灵版本的盾牌，它围绕着阿斯泰利娅能看到的60英尺内的一个生物，并增强该生物。幽灵盾牌持续到阿斯泰利娅的下一个回合开始。当盾牌围绕着生物时，该生物获得半掩护，免疫{@condition frightened}状态，并用优势进行武器攻击检定。"
 					]
 				}
 			],
@@ -472,19 +472,19 @@
 				{
 					"name": "Brazen Strike",
 					"entries": [
-						"Asteria makes one Radiant Blade attack."
+						"阿斯泰利娅进行一次辉光之刃攻击。"
 					]
 				},
 				{
 					"name": "Nimble Sprint",
 					"entries": [
-						"Asteria moves up to her speed. This movement doesn't provoke opportunity attacks."
+						"阿斯泰利亚移动她的速度。这次移动不会引发机会攻击。"
 					]
 				},
 				{
 					"name": "Cast a Spell (Costs 2 Actions)",
 					"entries": [
-						"Asteria uses Spellcasting."
+						"阿斯泰利亚使用施法能力。(Asteria)"
 					]
 				}
 			],
@@ -605,7 +605,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Aurnozci casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
+						"奥诺兹奇(Aurnozci) 施放以下其中一个咒语，无需材料成分，使用智力作为施法能力（咒语豁免{@dc 20}）："
 					],
 					"will": [
 						"{@spell Detect Magic}",
@@ -626,19 +626,19 @@
 				{
 					"name": "Heat Regeneration",
 					"entries": [
-						"If the temperature around it is 100 degrees Fahrenheit or higher, Aurnozci regains 15 hit points at the start of its turn. If it takes cold or radiant damage, this trait doesn't function at the start of its next turn. Aurnozci dies only if it starts its turn with 0 hit points and doesn't regenerate."
+						"如果周围的温度达到100华氏度或更高，奥诺兹奇在回合开始时恢复15点生命值。如果它受到冰冷或辐射伤害，这个特性在下一回合开始时不会生效。奥诺兹奇只有在回合开始时生命值为0且无法再生时才会死亡。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Aurnozci fails a saving throw, it can choose to succeed instead."
+						"如果奥诺兹奇(Aurnozci)未能通过豁免投骰，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"Aurnozci has advantage on saving throws against spells and other magical effects."
+						"奥诺兹奇(Aurnozci)在对抗法术和其他魔法效果的豁免投掷中具有优势。"
 					]
 				}
 			],
@@ -646,25 +646,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Aurnozci makes one Bite attack and two Tail attacks."
+						"奥尔诺兹西进行一次咬击攻击和两次尾部攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}21 ({@damage 2d12 + 8}) slashing damage plus 9 ({@damage 2d8}) fire damage."
+						"{@atk mw} 使用攻击命中，达到10英尺，一个目标。造成{@h}21 ({@damage 2d12 + 8}) 斩击伤害加上9 ({@damage 2d8}) 火焰伤害。"
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+						"{@atk mw} 使用攻击命中，达到10英尺，一个目标。造成{@h}17 ({@damage 2d8 + 8}) 钝击伤害。"
 					]
 				},
 				{
 					"name": "Mucus Spray {@recharge 5}",
 					"entries": [
-						"Aurnozci sprays mucus in a 60-foot cone. Each creature in that cone must make a {@dc 20} Dexterity saving throw, taking 42 ({@damage 12d6}) acid damage on a failed save, or half as much damage on a successful one."
+						"奥诺兹西(Aurnozci)向一个60英尺锥形范围内喷射粘液。在该范围内的每个生物必须进行一次{@dc 20}敏捷豁免，未能通过则受到42({@damage 12d6})酸性伤害，豁免成功则伤害减半。"
 					]
 				}
 			],
@@ -672,25 +672,25 @@
 				{
 					"name": "Move",
 					"entries": [
-						"Aurnozci moves up to its speed."
+						"Aurnozci 移动到它的速度。"
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"Aurnozci makes one Tail attack."
+						"奥尔诺兹西进行一次尾部攻击。"
 					]
 				},
 				{
 					"name": "Cast a Spell (Costs 2 Actions)",
 					"entries": [
-						"Aurnozci uses Spellcasting."
+						"奥尔诺兹奇使用了施法能力。(Aurnozci)"
 					]
 				},
 				{
 					"name": "Conflagration (Costs 2 Actions)",
 					"entries": [
-						"Flames momentarily surround Aurnozci. Each creature within 15 feet of Aurnozci must make a {@dc 20} Dexterity saving throw, taking 18 ({@damage 4d8}) fire damage on a failed save, or half as much damage on a successful one."
+						"烈焰瞬间围绕着奥诺兹奇。在奥诺兹奇周围15英尺范围内的每个生物必须进行一次{@dc 20}敏捷豁免，未能通过则受到18({@damage 4d8})火焰伤害，通过则只受一半伤害。"
 					]
 				}
 			],
@@ -792,13 +792,13 @@
 				{
 					"name": "Regeneration",
 					"entries": [
-						"Augustus regains 10 hit points at the start of his turn. If he takes damage from a silver weapon, this trait doesn't function at the start of his next turn. Augustus dies only if he starts his turn with 0 hit points and doesn't regenerate."
+						"奥古斯都在他的回合开始时恢复10点生命值。如果他受到银武器的伤害，这个特性在他的下一个回合开始时不起作用。奥古斯都只有在回合开始时生命值为0且无法再生时才会死亡。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Augustus wields a +2 Longsword."
+						"奥古斯都挥舞着一把+2长剑。"
 					]
 				}
 			],
@@ -806,25 +806,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Augustus makes any combination of two Bite, Claw, or Magic Longsword attacks."
+						"奥古斯都(Augustus)可以进行任意组合的两次咬咬、抓抓或者魔法长剑(Magic Longsword)攻击。"
 					]
 				},
 				{
 					"name": "Bite (Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 15} Constitution saving throw or be cursed with lycanthropy. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the werewolf stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A {@spell Remove Curse} spell or similar magic ends this curse."
+						"{@atk mw} 近战攻击，射程5英尺，一目标。造成{@h}26 ({@damage 5d8 + 4}) 穿刺伤害。如果目标是一个人形生物，它必须成功通过一次{@dc 15} 体质豁免才能免受狼人诅咒。在这种诅咒下，目标保留其阵营、语言和装备，但除此之外使用狼人的属性块，不包括需要目标没有的装备的动作。在任何有满月的夜晚，目标将成为DM控制下的NPC，并保持这种状态直到夜晚结束。一次{@spell Remove Curse} 法术或类似魔法可以解除这个诅咒。"
 					]
 				},
 				{
 					"name": "Claw (Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}21 ({@damage 5d6 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}21 ({@damage 5d6 + 4}) 穿刺伤害。如果目标是生物，必须通过一次{@dc 16} 力量豁免检定，否则陷入{@condition prone}状态。"
 					]
 				},
 				{
 					"name": "Magic Longsword (Humanoid or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}28 ({@damage 4d10 + 6}) slashing damage."
+						"{@atk mw} 使用攻击命中，达到5英尺，一个目标。造成28({@damage 4d10 + 6})点割伤伤害。"
 					]
 				}
 			],
@@ -832,13 +832,13 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"Augustus polymorphs into a wolf-humanoid hybrid, a wolf, or his humanoid form. His statistics, other than his speed, are the same in each form. Any equipment he is wearing or carrying isn't transformed. He reverts to his humanoid form if he dies."
+						"奥古斯都(Augustus)可以变形成狼人混合体，狼形态，或人类形态。除了速度之外，他在每种形态下的属性都保持不变。他身上穿戴的任何装备都不会被转化。如果他死亡，他会恢复成人类形态。"
 					]
 				},
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"Augustus takes the Dash, Disengage, or Hide action."
+						"奥古斯都(Augustus)选择进行冲刺(Dash)、脱离(Disengage)或者隐藏(Hide)动作。"
 					]
 				}
 			],
@@ -924,19 +924,19 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If Delour is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw and only half damage if he fails, provided he doesn't have the {@condition incapacitated} condition."
+						"如果Delour受到一个效果的影响，允许他进行敏捷豁免来减少伤害，那么如果他成功通过豁免，他将不会受到伤害，如果他失败了，只会受到一半伤害，前提是他没有{@condition incapacitated}状态。"
 					]
 				},
 				{
 					"name": "Nimbleness",
 					"entries": [
-						"Delour can move through the space of a Medium or larger creature."
+						"Delour可以穿过一个中型或更大生物的空间。"
 					]
 				},
 				{
 					"name": "Regeneration",
 					"entries": [
-						"Delour regains 10 hit points at the start of his turn. If he takes damage from a silver weapon, this trait doesn't function at the start of his next turn. Delour dies only if he starts his turn with 0 hit points and doesn't regenerate."
+						"Delour在他的回合开始时回复10点生命值。如果他受到银武器的伤害，这个特性在他的下一个回合开始时不会生效。Delour只有在回合开始时生命值为0且无法再生时才会死亡。"
 					]
 				}
 			],
@@ -944,25 +944,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Delour makes any combination of three Bite, Shortsword, or Hand Crossbow attacks."
+						"Delour 进行任意组合的三次 Bite（咬击）, Shortsword（短剑）, 或 Hand Crossbow（手弩） 攻击。"
 					]
 				},
 				{
 					"name": "Bite (Rat or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 14} Constitution saving throw or be cursed with lycanthropy. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the wererat stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A {@spell Remove Curse} spell or similar magic ends this curse."
+						"{@atk mw} 近战攻击，射程5英尺，一目标。造成{@h}26({@damage 5d8 + 4})点穿刺伤害。如果目标是一个人形生物，它必须成功通过一次{@dc 14} 体质豁免才能免受狼人诅咒。在这种诅咒下，目标保留其阵营、语言和装备，但以狼人的属性块进行行动，不包括需要目标没有的装备的行动。在任何有满月的夜晚，目标将成为DM控制下的NPC，并保持这种状态直到夜晚结束。一次{@spell Remove Curse}法术或类似魔法可以解除这个诅咒。"
 					]
 				},
 				{
 					"name": "Shortsword (Humanoid or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}11({@damage 2d6 + 4})点穿刺伤害加上10({@damage 3d6})点毒素伤害。"
 					]
 				},
 				{
 					"name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+						"{@atk rw} 进行攻击，射程30/120尺，一个目标。造成{@h}11 ({@damage 2d6 + 4}) 穿刺伤害加上10 ({@damage 3d6}) 毒素伤害。"
 					]
 				}
 			],
@@ -970,13 +970,13 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"Delour polymorphs into a rat-humanoid hybrid, a Medium giant rat, or his humanoid form. His statistics, other than his size and speed, are the same in each form. Any equipment he is wearing or carrying isn't transformed. He reverts to his humanoid form if he dies."
+						"Delour可以变形成为一个鼠人混合体，一个中型巨鼠，或者他的人形形态。 除了体型和速度之外，他的统计数据在每种形态下都是相同的。 他穿戴的任何装备都不会被转变。 如果他死亡，他会恢复到他的人形形态。"
 					]
 				},
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"Delour takes the Dash, Disengage, or Hide action."
+						"Delour 进行 Dash（冲刺）, Disengage（脱离战斗）, 或 Hide（隐藏） 动作。"
 					]
 				}
 			],
@@ -1107,13 +1107,13 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The breath drinker can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"吸气者可以像穿越艰难地形一样穿过其他生物和物体。如果它在物体内结束回合，会受到5 ({@damage 1d10}) 点力场伤害。"
 					]
 				},
 				{
 					"name": "Radiant Absorption",
 					"entries": [
-						"When the breath drinker is subjected to radiant damage, it takes no damage and instead regains a number of hit points equal to the radiant damage dealt."
+						"当吸气者受到辐射伤害时，它不会受到伤害，而是恢复的生命值等于所受到的辐射伤害量。"
 					]
 				}
 			],
@@ -1121,25 +1121,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The breath drinker makes two Enervating Claw attacks. It can also use Drink Breath."
+						"吸气者进行两次耗竭之爪（Enervating Claw）攻击。它还可以使用吸气（Drink Breath）。"
 					]
 				},
 				{
 					"name": "Enervating Claw",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}12 ({@damage 2d6 + 5}) necrotic damage, and if the target is Large or smaller, it has the {@condition grappled} condition (escape {@dc 18}). The target must succeed on a {@dc 18} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"{@atk mw} {@hit 10}进行攻击，射程5英尺，一名生物。受到{@h}12({@damage 2d6 + 5})点死灵伤害，如果目标是大型或更小，则获得{@condition grappled}状态（逃脱{@dc 18}）。目标必须成功通过一次{@dc 18}体质豁免才能避免其最大生命值减少与受到伤害相等的数值。这种减少效果持续直到目标完成一次长休。如果这个效果将目标的最大生命值减少到0，目标将死亡。"
 					]
 				},
 				{
 					"name": "Drink Breath",
 					"entries": [
-						"The breath drinker targets a creature that has the {@condition incapacitated} condition or that the breath drinker is grappling and that isn't a Construct or an Undead. The target must make a {@dc 18} Charisma saving throw. On a failed save, the target takes 36 ({@damage 8d8}) necrotic damage, and its Charisma score is reduced by {@dice 1d6}. This reduction lasts until the target finishes a short or long rest. If this reduces the target's Charisma to 0, the target dies. Until the breath drinker dies, the dead target can't be returned to life by any means short of divine intervention. On a successful save, the target takes half as much necrotic damage only. On a successful or failed save, the breath drinker regains a number of hit points equal to the necrotic damage dealt."
+						"吸息者选择一个拥有{@condition incapacitated}状态或者吸息者正在搏斗并且不是构装或不死生物的生物作为目标。目标必须进行{@dc 18}魅力豁免检定。未通过豁免检定的目标会受到36({@damage 8d8})点死灵伤害，并且其魅力属性值减少{@dice 1d6}点。这个减少效果持续直到目标完成一次短休或长休。如果这将目标的魅力属性值降至0，目标将死亡。直到吸息者死亡，死去的目标无法通过任何手段复活，除非是神圣干预。通过豁免检定的目标只会受到一半的死灵伤害。无论豁免检定是否通过，吸息者都会回复等同于造成的死灵伤害的生命值。"
 					]
 				},
 				{
 					"name": "Invisibility",
 					"entries": [
-						"The breath drinker has the {@condition invisible} condition. This invisibility ends immediately after the breath drinker hits or misses with an attack roll or uses Drink Breath."
+						"吸气者拥有{@condition invisible}状态。在吸气者进行攻击检定命中或未命中，或使用吸气时，隐形效果立即结束。"
 					]
 				}
 			],
@@ -1237,7 +1237,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Brusipha casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"布鲁西法（Brusipha）施放以下其中一个咒语，使用魅力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell Prestidigitation}",
@@ -1258,13 +1258,13 @@
 				{
 					"name": "Demonic Ritual",
 					"entries": [
-						"Brusipha can spend 3 hours performing a ritual that summons {@dice 1d3 + 1} barlguras or 1 hezrou. She must sacrifice a Medium or larger living creature to Baphomet during this ritual, and the ritual can be performed only at night. The demons vanish at dawn."
+						"Brusipha可以花费3小时进行一个仪式，召唤{@dice 1d3 + 1}巴尔古拉或1个赫兹鲁。在这个仪式中，她必须向巴尔福梅特献祭一个中等或更大的活物，并且这个仪式只能在夜晚进行。这些恶魔在黎明时消失。"
 					]
 				},
 				{
 					"name": "Labyrinthine Recall",
 					"entries": [
-						"Brusipha can perfectly recall any path she has traveled."
+						"布鲁西法 (Brusipha) 能够完美地回忆任何她走过的路径。"
 					]
 				}
 			],
@@ -1272,25 +1272,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Brusipha makes two Eldritch Blast attacks."
+						"布鲁西法进行两次奥术射线(Eldritch Blast)攻击。"
 					]
 				},
 				{
 					"name": "Eldritch Blast",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}8 ({@damage 1d10 + 3}) force damage."
+						"{@atk rs} {@hit 5} 进行攻击，射程120英尺，目标为一名敌人。造成{@h}8 ({@damage 1d10 + 3}) 点力场伤害。"
 					]
 				},
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 4 ({@damage 1d8}) necrotic damage. If Brusipha moved at least 10 feet straight toward the target immediately before she hit, the target takes an extra 4 ({@damage 1d8}) piercing damage, and if the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be pushed up to 10 feet from Brusipha and have the {@condition prone} condition."
+						"{@atk mw} {@hit 6} 进行攻击，射程5英尺，目标一个。造成{@h}8 ({@damage 1d8 + 4}) 穿刺伤害加上4 ({@damage 1d8}) 死灵伤害。如果布鲁西法在命中目标前至少直线移动了10英尺，目标额外受到4 ({@damage 1d8}) 穿刺伤害，如果目标是生物，它必须成功通过一次{@dc 15} 力量豁免才能不被布鲁西法推开至多10英尺，并陷入{@condition prone}状态。"
 					]
 				},
 				{
 					"name": "Incite the Hunters (Recharges after a Short or Long Rest)",
 					"entries": [
-						"Brusipha allows each ally within 30 feet of herself that has the Unerring Tracker trait to make one weapon attack as a reaction against the target of that ally's Unerring Tracker."
+						"Brusipha允许她周围30英尺范围内每个具有（Unerring Tracker）特质的盟友作为反应对(Unerring Tracker)的目标进行一次武器攻击。"
 					]
 				}
 			],
@@ -1298,7 +1298,7 @@
 				{
 					"name": "Unerring Tracker",
 					"entries": [
-						"Brusipha magically creates a psychic link with one creature she can see. For the next hour, Brusipha knows the current distance and direction to the target if it is on the same plane of existence. The link ends if Brusipha has the {@condition incapacitated} condition or uses this ability on a different target."
+						"布鲁西法与她能看到的一只生物建立了一种神秘的心灵联系。在接下来的一小时内，如果目标在同一存在平面上，布鲁西法将知道目标的当前距离和方向。如果布鲁西法有{@condition incapacitated}状态或者使用这个能力对不同的目标，这个联系就会结束。"
 					]
 				}
 			],
@@ -1306,7 +1306,7 @@
 				{
 					"name": "Baphomet's Blessing",
 					"entries": [
-						"When Brusipha reduces a hostile creature to 0 hit points, she gains 8 temporary hit points."
+						"当布鲁西法(Brusipha)将一个敌对生物的生命值降至0点时，她获得8点临时生命值。"
 					]
 				}
 			],
@@ -1405,19 +1405,19 @@
 				{
 					"name": "Allied Knight",
 					"entries": [
-						"Some of the deck defender's statistics are based on the character who drew the Knight card. Where the deck defender stat block refers to \"you,\" it refers to that character."
+						"一些卡牌守卫的统计数据是基于抽取了骑士卡的角色。在卡牌守卫的属性块中提到“你”时，指的是那个角色。"
 					]
 				},
 				{
 					"name": "Folded Versatility",
 					"entries": [
-						"After finishing a long rest, you can refold the deck defender's shape, changing it to acrobat form, berserker form, or guardian form."
+						"完成长休后，你可以重新调整卡牌守护者的形态，将其变为杂技师形态，狂战士形态，或守护者形态。"
 					]
 				},
 				{
 					"name": "Fragile",
 					"entries": [
-						"If the deck defender is reduced to 0 hit points, it collapses into a haphazard pile of nonmagical playing cards and can't be resurrected or reconstructed."
+						"如果牌堆守护者的生命值降低到0点，它将倒塌成一堆杂乱的非魔法扑克牌，无法复活或重建。"
 					]
 				}
 			],
@@ -1425,19 +1425,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The deck defender makes a number of attacks equal to half its proficiency bonus (rounded down)."
+						"牌堆守卫者进行攻击次数等于其熟练加值的一半（向下取整）(Deck Defender)。"
 					]
 				},
 				{
 					"name": "Paper Cut",
 					"entries": [
-						"{@atk mw} PB + {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+						"{@atk mw} PB + {@hit 3}命中，射程5英尺，一个目标。造成{@h}7 ({@damage 1d8 + 3})点割伤伤害。"
 					]
 				},
 				{
 					"name": "Reckless Strike (Berserker Form Only)",
 					"entries": [
-						"{@atk mw} PB + {@hit 3} to hit (with advantage), reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage, and attacks made against the deck defender until the start of its next turn have advantage."
+						"{@atk mw} PB + {@hit 3}命中（具有优势攻击），射程5英尺，单个目标。造成{@h}10 ({@damage 2d6 + 3})斩击伤害，并且直到其下一回合开始前对甲板防御者的攻击具有优势。"
 					]
 				}
 			],
@@ -1445,7 +1445,7 @@
 				{
 					"name": "Swift Step (Acrobat Form Only)",
 					"entries": [
-						"The deck defender takes the Dash or Disengage action."
+						"牌堆守卫者选择进行冲刺或脱离战斗的动作。"
 					]
 				}
 			],
@@ -1453,7 +1453,7 @@
 				{
 					"name": "Protection (Guardian Form Only)",
 					"entries": [
-						"When a creature the deck defender can see attacks a target other than the deck defender and is within 5 feet of the deck defender, the deck defender imposes disadvantage on the attack roll."
+						"当一个生物（牌组守卫）能看见攻击除（牌组守卫）之外目标的生物，并且距离（牌组守卫）在5英尺内时，（牌组守卫）对攻击骰投掷施加劣势。"
 					]
 				}
 			],
@@ -1540,13 +1540,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the infiltrator fails a saving throw, it can choose to succeed instead."
+						"如果渗透者失败了豁免投掷，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Veiled Presence",
 					"entries": [
-						"The infiltrator's AC includes its Wisdom modifier, and the infiltrator can't be targeted by divination magic or features that would read its mind or determine its creature type."
+						"渗透者的AC包括其感知调整值，渗透者不能被占卜魔法或能读取其思维或确定其生物类型的特征所瞄准。"
 					]
 				}
 			],
@@ -1554,19 +1554,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The infiltrator makes two Poison Blade attacks and can use Beguiling Whisper."
+						"渗透者进行两次毒刃攻击，并可以使用（Beguiling Whisper）妖媚低语。"
 					]
 				},
 				{
 					"name": "Poison Blade",
 					"entries": [
-						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 60 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage plus 11 ({@damage 2d10}) poison damage."
+						"{@atk mw,rw} {@hit 9}攻击，射程5英尺或60英尺，目标一个。造成{@h}7({@damage 1d4 + 5})点穿刺伤害加上11({@damage 2d10})点毒素伤害。"
 					]
 				},
 				{
 					"name": "Beguiling Whisper",
 					"entries": [
-						"The infiltrator magically whispers to a creature it can see within 30 feet of itself. The target must succeed on a {@dc 17} Wisdom saving throw or have the {@condition stunned} condition due to fear or delight (the infiltrator's choice) until the end of the target's next turn, after which the target is immune to this Beguiling Whisper for 24 hours."
+						"渗透者对自己能看到的30英尺内的生物进行魔法低语。目标必须成功通过一次{@dc 17}感知豁免才能免受{@condition stunned}状态的影响，可以是恐惧或愉悦（渗透者选择），持续到目标的下一个回合结束，之后目标对这个迷人低语免疫24小时。"
 					]
 				}
 			],
@@ -1574,7 +1574,7 @@
 				{
 					"name": "Uncanny Dodge",
 					"entries": [
-						"When an attacker the infiltrator can see hits the infiltrator with an attack, the infiltrator halves the attack's damage against it."
+						"当一个攻击者对渗透者发动攻击时，渗透者可以减半攻击对其造成的伤害。"
 					]
 				}
 			],
@@ -1582,19 +1582,19 @@
 				{
 					"name": "Cunning",
 					"entries": [
-						"The infiltrator escapes nonmagical restraints and ends the {@condition grappled} condition on itself, then moves up to its speed without provoking opportunity attacks."
+						"渗透者摆脱非魔法约束，并结束自身的{@condition grappled}状态，然后移动其速度，而不会引发机会攻击。"
 					]
 				},
 				{
 					"name": "Stab (Costs 2 Actions)",
 					"entries": [
-						"The infiltrator makes one Poison Blade attack."
+						"渗透者进行一次毒刃攻击。"
 					]
 				},
 				{
 					"name": "Misdirecting Escape (Costs 3 Actions)",
 					"entries": [
-						"The infiltrator magically has the {@condition invisible} condition and creates an illusory duplicate of itself in its space, then teleports, along with any equipment it is wearing or carrying, to an unoccupied space within 15 feet of itself. The image flings illusory blades at two creatures of the infiltrator's choice within 20 feet of the image. Each target must make a {@dc 17} Wisdom saving throw, taking 13 ({@damage 3d8}) psychic damage on a failed save, or half as much damage on a successful one. The invisibility lasts until the end of the infiltrator's next turn."
+						"渗透者使用魔法获得{@condition invisible}状态，并在自身空间内制造一个幻象副本，然后与其携带的任何装备一起传送到距离自己不超过15英尺的未占据空间。幻象会向距离幻象不超过20英尺的两个生物投掷幻象刀片。每个目标必须进行{@dc 17}感知豁免，未通过则受到13({@damage 3d8})点精神伤害，通过则伤害减半。隐形效果持续到渗透者的下一个回合结束。"
 					]
 				}
 			],
@@ -1736,7 +1736,7 @@
 					"name": "Spellcasting (Medusa Form Only)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Euryale casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 19}):"
+						"尤瑞亚莉施放以下其中一个法术，无需材料组件，使用智力作为施法能力（法术豁免{@dc 19}）："
 					],
 					"will": [
 						"{@spell Druidcraft}",
@@ -1759,13 +1759,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Euryale fails a saving throw, she can choose to succeed instead."
+						"如果尤瑞亚莉 (Euryale) 在豁免投掷中失败，她可以选择成功。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Euryale carries one half of a pair of {@item Sending Stones}; the other half of the pair is held by Asteria."
+						"尤拉莉（Euryale）携带着一对(%0%）的一半；另一半由阿斯特里亚（Asteria）持有。"
 					]
 				}
 			],
@@ -1773,25 +1773,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Euryale makes three attacks. If she is in serpent form, only one of these attacks can be Constrict."
+						"尤瑞亚莉(Euryale)进行三次攻击。如果她处于蛇形态，其中只有一次攻击可以是缠绕(Constrict)。"
 					]
 				},
 				{
 					"name": "Constrict (Serpent Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 15 ft., one Large or smaller creature. {@h}16 ({@damage 2d10 + 5}) bludgeoning damage, and the target has the {@condition grappled} condition (escape {@dc 19}). Until this grapple ends, the target takes 11 ({@damage 2d10}) bludgeoning damage at the start of each of its turns, and Euryale can't constrict another target."
+						"{@atk mw} {@hit 11}命中，达到15英尺，一个大型或更小的生物。造成{@h}16 ({@damage 2d10 + 5}) 钝击伤害，并使目标陷入{@condition grappled}状态（逃脱{@dc 19}）。直到这次擒抱结束，目标在其每个回合开始时受到11 ({@damage 2d10}) 钝击伤害，Euryale 无法再压制另一个目标。"
 					]
 				},
 				{
 					"name": "Snake Bite",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage, and the target must succeed on a {@dc 18} Constitution saving throw or have the {@condition poisoned} condition until the start of Euryale's next turn."
+						"{@atk mw} {@hit 11}攻击，射程10英尺，一个目标。造成{@h}12({@damage 2d6 + 5})点穿刺伤害，并且目标必须在一次{@dc 18}体质豁免检定中成功，否则将在尤里亚莱(Euryale)的下一个回合开始前拥有{@condition poisoned}状态。"
 					]
 				},
 				{
 					"name": "Verdant Bolt (Medusa Form Only)",
 					"entries": [
-						"{@atk rs} {@hit 11} to hit, range 120 ft., one target. {@h}18 ({@damage 4d8}) acid damage."
+						"{@atk rs} {@hit 11}攻击，射程120英尺，目标一个。造成{@h}18 ({@damage 4d8})点酸性伤害。"
 					]
 				}
 			],
@@ -1799,13 +1799,13 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"Euryale changes shape into her Huge serpent form or back into her Medium medusa form. Euryale's game statistics are the same in each form except where noted in this stat block. Any equipment she is wearing or carrying isn't transformed. Euryale reverts to her medusa form if she dies."
+						"尤瑞亚莉（Euryale）可以变形成她的巨大蛇形态，或者变回她的中等美杜莎形态。尤瑞亚莉在每种形态下的游戏统计数据都相同，除非在此统计数据块中另有说明。她穿戴或携带的任何装备不会被转变。如果尤瑞亚莉死亡，她会恢复成美杜莎形态。"
 					]
 				},
 				{
 					"name": "Petrifying Gaze {@recharge 4}",
 					"entries": [
-						"Euryale unleashes petrifying magic from her eyes in a 30-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw if it doesn't have the {@condition blinded} condition. If the saving throw fails by 5 or more, the creature has the {@condition petrified} condition. Otherwise, on a failed save, the creature takes 14 ({@damage 4d6}) force damage, begins to turn to stone, and has the {@condition restrained} condition. The {@condition restrained} creature must repeat the saving throw at the end of its next turn. On a failed save, it has the {@condition petrified} condition, and on a successful save, the effect ends on it, The petrification lasts until the creature is freed by the {@spell Greater Restoration} spell or other magic A creature can use its reaction, if available, to shut its eyes to avoid the saving throw. If the creature does so, it has the {@condition blinded} condition until the end of its next turn."
+						"尤拉莉(Euryale) 从她的眼睛释放出石化魔法，形成一个30英尺的锥形区域。该区域内的每个生物必须进行一次 {@dc 18} 体质豁免才能避免 {@condition blinded} 状态。如果豁免失败超过5点，生物将获得 {@condition petrified} 状态。否则，未通过豁免的生物将受到14点 ({@damage 4d6}) 精力伤害，开始变成石头，并获得 {@condition restrained} 状态。被影响的生物在其下一个回合结束时必须重复进行豁免检定。如果再次失败，它将获得 {@condition petrified} 状态；如果成功通过，则效果消失。石化状态将持续，直到生物被 {@spell Greater Restoration} 法术或其他魔法解救。生物可以利用其反应（如果可用）来闭上眼睛以避免豁免检定。如果生物这样做，它将获得 {@condition blinded} 状态，直到其下一个回合结束。"
 					]
 				}
 			],
@@ -1813,13 +1813,13 @@
 				{
 					"name": "Move",
 					"entries": [
-						"Euryale moves up to her speed."
+						"尤拉莉移动了她的速度。"
 					]
 				},
 				{
 					"name": "Venomous Strike (Costs 2 Actions)",
 					"entries": [
-						"Euryale makes one Snake Bite attack. If the target has the {@condition poisoned} condition, the attack deals an extra 16 ({@damage 3d10}) poison damage."
+						"尤拉莉发动一次蛇咬攻击。如果目标有{@condition poisoned}状态，攻击额外造成16({@damage 3d10})点毒性伤害。"
 					]
 				}
 			],
@@ -1923,7 +1923,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"While holding its shears, the hag casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
+						"当持着它的剪刀时，女巫施放以下其中一个咒语，不需要材料成分，并使用智力作为施法能力（法术豁免 {@dc 14}）："
 					],
 					"will": [
 						"{@spell Bless}",
@@ -1946,13 +1946,13 @@
 				{
 					"name": "Legendary Resistance (2/Day)",
 					"entries": [
-						"If the hag fails a saving throw, it can choose to succeed instead."
+						"如果女巫失败了豁免投掷，她可以选择成功。"
 					]
 				},
 				{
 					"name": "Trace the Threads (1/Day)",
 					"entries": [
-						"The hag can cast the {@spell Legend Lore} spell, requiring no material components and using Wisdom as the spellcasting ability."
+						"这个女巫可以施放{@spell Legend Lore}法术，不需要任何材料组件，并且使用智慧作为施法能力。"
 					]
 				}
 			],
@@ -1960,13 +1960,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The hag makes two Shears attacks. It can replace one attack with a use of Spellcasting."
+						"这个女巫使用两次剪刀攻击。它可以用一次法术施法来替换其中一次攻击。"
 					]
 				},
 				{
 					"name": "Shears",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) force damage. If the target is a creature, it has disadvantage on attack rolls until the end of the hag's next turn."
+						"{@atk mw} {@hit 6} 进行攻击，射程5英尺，目标一个。{@h}8 ({@damage 1d8 + 4}) 点力场伤害。如果目标是生物，其在接下来的女巫回合结束前攻击检定有劣势。"
 					]
 				}
 			],
@@ -1974,19 +1974,19 @@
 				{
 					"name": "Destined Jaunt",
 					"entries": [
-						"The hag magically teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 30 feet of itself."
+						"巫婆使用魔法传送，连同其穿戴或携带的任何装备，传送到其能看到的距离不超过30英尺的未被占据的空间。"
 					]
 				},
 				{
 					"name": "Tangle Threads",
 					"entries": [
-						"The hag magically tangles a creature it can see within 60 feet of itself in spectral silver threads. The creature must succeed on a {@dc 14} Strength saving throw, or its speed is reduced to 0 until the end of its next turn."
+						"这个女巫用魔法将其能看到的距离60英尺内的生物缠绕在幻影银丝中。生物必须成功进行一次{@dc 14}力量豁免才能使其速度降低至0，直到其下一个回合结束。"
 					]
 				},
 				{
 					"name": "Destiny Curse (Costs 2 Actions)",
 					"entries": [
-						"The hag magically curses a creature it can see within 60 feet of itself. The creature must make a {@dc 14} Wisdom saving throw, and the creature has disadvantage on this save if it has damaged the hag within the last minute. On a failed save, the creature has disadvantage on ability checks, attack rolls, and saving throws until the curse ends. Once per turn, when the cursed creature fails one of those {@dice d20} rolls, it takes 7 ({@damage 2d6}) force damage. The curse ends after 1 minute; when the creature succeeds on a total of three ability checks, attack rolls, or saving throws in any combination; or when the hag uses this action again."
+						"这个女巫可以在自身60英尺内看到的生物施加魔法诅咒。生物必须进行一次{@dc 14}感知豁免检定，如果生物在过去一分钟内对女巫造成了伤害，则此豁免检定有劣势。如果未通过检定，则生物在诅咒结束前在能力检定、攻击检定和豁免检定上有劣势。每个回合一次，当被诅咒的生物未通过其中一个{@dice d20}检定时，它会受到7({@damage 2d6})点力量伤害。诅咒在1分钟后结束；当生物在任意组合中成功进行了三次能力检定、攻击检定或豁免检定；或女巫再次使用此行动时，诅咒也会结束。"
 					]
 				}
 			],
@@ -2114,7 +2114,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Gremorly casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"格雷莫利施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 16}）："
 					],
 					"will": [
 						"{@spell Dancing Lights}",
@@ -2138,19 +2138,19 @@
 				{
 					"name": "Ethereal Sight",
 					"entries": [
-						"Gremorly can see 60 feet into the Ethereal Plane when he is on the Material Plane, and vice versa."
+						"格雷莫利在物质位面时可以看到60英尺内的虚空位面，反之亦然。"
 					]
 				},
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"Gremorly can move through other creatures and objects as if they were difficult terrain. He takes 5 ({@damage 1d10}) force damage if he ends his turn inside an object."
+						"Gremorly可以像穿越困难地形一样穿过其他生物和物体。如果他在物体内结束回合，他会受到5点力量伤害。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Gremorly fails a saving throw, he can choose to succeed instead."
+						"如果格雷莫利 (Gremorly) 失败了豁免投骰，他可以选择成功。"
 					]
 				}
 			],
@@ -2158,26 +2158,26 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Gremorly makes three Withering Strike attacks."
+						"格雷莫利 (Gremorly) 进行三次凋零打击 (Withering Strike) 攻击。"
 					]
 				},
 				{
 					"name": "Withering Strike",
 					"entries": [
-						"{@atk ms} {@hit 8} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d12}) necrotic damage."
+						"{@atk ms} 近战攻击，达到5英尺，一个目标。{@h}19 ({@damage 3d12}) 死灵伤害。"
 					]
 				},
 				{
 					"name": "Fell Necromancy",
 					"entries": [
-						"Gremorly targets one creature he can see within 60 feet of himself. The target must make a {@dc 16} Constitution saving throw, taking 61 ({@damage 7d8 + 30}) necrotic damage on a failed save, or half as much damage on a successful one. In addition, Gremorly regains 9 ({@dice 2d8}) hit points."
+						"格雷莫利(Gremorly)瞄准自己能看到的距离60英尺内的一名生物。目标必须进行一次{@dc 16}体质豁免才能，未能通过则受到61({@damage 7d8 + 30})点死灵伤害，通过则只受一半伤害。此外，格雷莫利回复9({@dice 2d8})点生命值。"
 					]
 				},
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One Humanoid Gremorly can see within 5 feet of himself must succeed on a {@dc 15} Charisma saving throw or be possessed by him; Gremorly disappears, and the target has the {@condition incapacitated} condition and loses control of its body. Gremorly can't be targeted by any attack, spell, or other effect, except ones that turn Undead, and he retains his alignment, Intelligence, Wisdom, Charisma, and immunity to the {@condition charmed} and {@condition frightened} conditions. He otherwise uses the target's game statistics, but Gremorly doesn't gain access to the target's knowledge, class features, or proficiencies.",
-						"The possession lasts until the target drops to 0 hit points, Gremorly ends it as a bonus action, or Gremorly is turned or forced out by an effect like the {@spell Dispel Evil and Good} spell. When the possession ends, Gremorly reappears in an unoccupied space within 5 feet of the target. The target is immune to this Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+						"一个人形格雷莫利(Gremorly)可以在自己周围5英尺范围内看到的生物必须成功进行一次{@dc 15}魅力豁免才能不被他附身；格雷莫利消失，目标获得{@condition incapacitated}状态并失去对自己身体的控制。格雷莫利不能被任何攻击、法术或其他效果所瞄准，除非是用于使其成为不死生物的效果，他保留自己的属性、智力、感知、魅力和对{@condition charmed}和{@condition frightened}状态的免疫力。除此之外，他使用目标的游戏统计数据，但格雷莫利无法获得目标的知识、职业特性或熟练加值。",
+						"拥有者持续到目标降至0点生命值，格雷莫利（Gremorly）可以在奖励动作中结束它，或者格雷莫利被像{@spell Dispel Evil and Good}法术那样的效果所转移或驱逐。当拥有结束时，格雷莫利会重新出现在距离目标5英尺的未被占据的空间内。目标在成功豁免检定后或拥有结束后的24小时内对此拥有免疫。"
 					]
 				}
 			],
@@ -2185,7 +2185,7 @@
 				{
 					"name": "Ethereal Step {@recharge 4}",
 					"entries": [
-						"Gremorly teleports up to 30 feet to an unoccupied space he can see."
+						"格雷莫利（Gremorly）传送到他能看到的一个未被占据的空间，最多可达30英尺。"
 					]
 				}
 			],
@@ -2307,7 +2307,7 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the champion fails a saving throw, it can choose to succeed instead."
+						"如果冠军未能通过豁免投掷检定，它可以选择成功。"
 					]
 				}
 			],
@@ -2315,19 +2315,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The champion makes four Blazing Morningstar attacks. It can replace one of these attacks with Blade Storm, if available."
+						"这位冠军进行四次炽炎晨星（Blazing Morningstar）攻击。如果可用，它可以用刀刃风暴（Blade Storm）替换其中一次攻击。"
 					]
 				},
 				{
 					"name": "Blazing Morningstar",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage plus 14 ({@damage 4d6}) fire damage."
+						"{@atk mw} 使用攻击命中，达到5英尺，一个目标。造成{@h}10 ({@damage 1d8 + 6}) 穿刺伤害加上14 ({@damage 4d6}) 火焰伤害。"
 					]
 				},
 				{
 					"name": "Blade Storm {@recharge 5}",
 					"entries": [
-						"The champion conjures a churning storm of spectral blades that fills a 20-foot cube centered on a point it can see within 120 feet of itself. The storm lasts until the start of the champion's next turn. While the storm is active, the area of the storm is difficult terrain. Whenever a creature enters the storm for the first time on a turn or starts its turn there, it must make a {@dc 19} Dexterity saving throw, taking 27 ({@damage 6d8}) slashing damage on a failed saving throw, or half as much damage on a successful one."
+						"冠军召唤了一场旋转的幽灵刀锋风暴，填满一个以其能看到的点为中心的20英尺立方体，距离自身120英尺。风暴持续到冠军的下一个回合开始。当风暴激活时，风暴区域成为艰难地形。每当一个生物在回合中第一次进入风暴或在那里开始回合时，它必须进行一次{@dc 19}敏捷豁免，如果未通过豁免，则受到27（{@damage 6d8}）点割伤伤害，通过豁免则受到一半伤害。"
 					]
 				}
 			],
@@ -2335,19 +2335,19 @@
 				{
 					"name": "Furious Pursuit",
 					"entries": [
-						"The champion moves up to its speed or commands its mount to move up to its speed. This movement doesn't provoke opportunity attacks."
+						"冠军移动其速度，或命令其坐骑移动其速度。这次移动不会引发机会攻击。"
 					]
 				},
 				{
 					"name": "Induce Violence",
 					"entries": [
-						"The champion targets one creature it can see within 60 feet of itself. The target must succeed on a {@dc 19} Wisdom saving throw or immediately make one melee weapon attack against another creature of the champion's choice that is within the target's reach. If no creature is within the target's reach or if the target has the {@condition incapacitated} condition, the target instead takes 11 ({@damage 2d10}) psychic damage."
+						"冠军选择自己能看见的距离60英尺内的一名生物。目标必须成功通过一次{@dc 19}感知豁免才能，否则立即对冠军选择的另一名生物进行一次近战武器攻击，该生物必须在目标的攻击范围内。如果目标的攻击范围内没有生物，或者目标有{@condition incapacitated}状态，则目标受到11({@damage 2d10})点精神伤害。"
 					]
 				},
 				{
 					"name": "Menace (Costs 2 Actions)",
 					"entries": [
-						"The champion chooses any number of creatures it can see within 30 feet of itself. Each target must succeed on a {@dc 19} Wisdom saving throw or have the {@condition frightened} condition until the end of its next turn."
+						"冠军选择在自身30英尺内能看到的任意数量生物。每个目标必须成功通过一个{@dc 19}感知豁免才能免疫{@condition frightened}状态，直到其下一个回合结束。"
 					]
 				}
 			],
@@ -2468,7 +2468,7 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the champion fails a saving throw, it can choose to succeed instead."
+						"如果冠军未能通过豁免投掷检定，它可以选择成功。"
 					]
 				}
 			],
@@ -2476,19 +2476,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The champion makes two Leeching Blade attacks and uses Hollow Void."
+						"这位冠军进行了两次吸血之刃（Leeching Blade）攻击，并使用了虚空（Hollow Void）。"
 					]
 				},
 				{
 					"name": "Leeching Blade",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 33 ({@damage 6d10}) cold damage, and the champion regains 10 hit points."
+						"{@atk mw} {@hit 14} 进行攻击，达到5英尺，一个目标。造成{@h}13 ({@damage 2d6 + 6}) 斩击伤害加上33 ({@damage 6d10}) 冰冷伤害，并且英雄回复10点生命值。"
 					]
 				},
 				{
 					"name": "Hollow Void",
 					"entries": [
-						"The champion summons a hungering rift around a creature it can see within 120 feet of itself. The creature must make a {@dc 22} Constitution saving throw. On a failed save, the creature takes 49 ({@damage 11d8}) force damage and has the {@condition stunned} condition until the start of the champion's next turn. On a successful save, the creature takes half as much damage only. If a creature is reduced to 0 hit points by this effect, the creature dies, and its body crumbles to dust."
+						"冠军在自身周围120英尺内召唤一个饥渴裂隙，围绕着一个它能看到的生物。该生物必须进行一次{@dc 22}体质豁免才能。未能通过豁免的生物将受到49({@damage 11d8})力量伤害，并且将处于{@condition stunned}状态，直到冠军下一个回合开始。通过豁免的生物只会受到一半伤害。如果一个生物因此效果而被降至0点生命值，那么该生物死亡，其身体会化为尘埃。"
 					]
 				}
 			],
@@ -2496,7 +2496,7 @@
 				{
 					"name": "Step into Nothing {@recharge 4}",
 					"entries": [
-						"The champion, along with any equipment it is wearing or carrying, has the {@condition invisible} condition and teleports to an unoccupied space it can see within 30 feet of itself. The champion remains {@condition invisible} until the start of its next turn or immediately after it deals damage."
+						"冠军，连同其穿戴或携带的任何装备，获得{@condition invisible}状态并传送到其所能看到的距离不超过30英尺的未被占据的空间。冠军将保持{@condition invisible}状态，直到其下一个回合开始或在造成伤害后立即结束。"
 					]
 				}
 			],
@@ -2504,19 +2504,19 @@
 				{
 					"name": "Crush",
 					"entries": [
-						"The champion unleashes a burst of crushing force on a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 22} Strength saving throw or take 14 ({@damage 4d6}) force damage and have the {@condition prone} condition."
+						"冠军对自己能看到的30英尺内的生物释放了一股毁灭性的力量。生物必须成功通过一个{@dc 22}力量豁免才能免受14({@damage 4d6})力量伤害，并获得{@condition prone}状态。"
 					]
 				},
 				{
 					"name": "Fearsome Pursuit",
 					"entries": [
-						"The champion moves up to its speed or commands its mount to move up to its speed. This movement doesn't provoke opportunity attacks."
+						"冠军移动其速度，或命令其坐骑移动其速度。这次移动不会引发机会攻击。"
 					]
 				},
 				{
 					"name": "Nullify (Costs 2 Actions)",
 					"entries": [
-						"The champion emits a magic wave in a 60-foot cone. Every spell of 5th level or lower ends on creatures and objects of the champion's choice in that area."
+						"冠军在一个60英尺锥形范围内释放魔法波。该区域内冠军选择的生物和物体上的每个5级或更低级的法术都会结束。"
 					]
 				}
 			],
@@ -2636,7 +2636,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The champion casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
+						"冠军施放以下其中一个法术，无需材料组件，并使用魅力作为施法能力（法术豁免 {@dc 18}）:"
 					],
 					"will": [
 						"{@spell Detect Magic}",
@@ -2660,13 +2660,13 @@
 				{
 					"name": "Halo of Pestilence",
 					"entries": [
-						"The champion is surrounded by an aura of deadly magic that takes the form of a host of glowing white insects. Each creature that starts its turn within 10 feet of the champion must succeed on a {@dc 18} Constitution saving throw or have the {@condition incapacitated} condition until the start of its next turn, as the insects ravage its body."
+						"这位冠军被一股致命魔法的光环所包围，化为一群发光的白色昆虫。每个生物在距离冠军10英尺内开始其回合时，必须通过一次{@dc 18}体质豁免才能免受{@condition incapacitated}状态影响，直到其下一个回合开始，因为昆虫正在摧残它的身体。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the champion fails a saving throw, it can choose to succeed instead."
+						"如果冠军未能通过豁免投掷检定，它可以选择成功。"
 					]
 				}
 			],
@@ -2674,19 +2674,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The champion makes two Blight Staff attacks, two Plague Bolt attacks, or one of each."
+						"冠军进行两次枯萎法杖攻击，两次瘟疫箭攻击，或者各进行一次。"
 					]
 				},
 				{
 					"name": "Blight Staff",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage."
+						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}8({@damage 1d8 + 4})点钝击伤害加上21({@damage 6d6})点死灵伤害。"
 					]
 				},
 				{
 					"name": "Plague Bolt",
 					"entries": [
-						"{@atk rs} {@hit 10} to hit, range 120 ft., one target. {@h}23 ({@damage 4d8 + 5}) poison damage, and the target has the {@condition poisoned} condition until the start of the champion's next turn."
+						"{@atk rs}进行攻击，射程120英尺，目标为一名敌人。造成{@h}23({@damage 4d8 + 5})点毒性伤害，并使目标带有{@condition poisoned}状态，直到冒险者下一回合开始。"
 					]
 				}
 			],
@@ -2694,19 +2694,19 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"The champion makes one Blight Staff or Plague Bolt attack."
+						"冠军进行一次枯萎法杖或瘟疫箭攻击。"
 					]
 				},
 				{
 					"name": "Furious Pursuit",
 					"entries": [
-						"The champion moves up to its speed or commands its mount to move up to its speed. This movement doesn't provoke opportunity attacks."
+						"冠军移动其速度，或命令其坐骑移动其速度。这次移动不会引发机会攻击。"
 					]
 				},
 				{
 					"name": "Cast a Spell (Costs 2 Actions)",
 					"entries": [
-						"The champion uses Spellcasting."
+						"这位冠军使用施法能力。(Spellcasting)"
 					]
 				}
 			],
@@ -2802,13 +2802,13 @@
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage plus 3 ({@damage 1d6}) necrotic damage."
+						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 2d4 + 3}) 斩击伤害加上3 ({@damage 1d6}) 死灵伤害。"
 					]
 				},
 				{
 					"name": "Plane Shift (2/Day)",
 					"entries": [
-						"The hawk casts {@spell Plane Shift} on itself, requiring no spell components and using Wisdom as the spellcasting ability."
+						"鹰在自己身上施放{@spell Plane Shift}，无需法术材料，并使用智力作为施法能力。"
 					]
 				}
 			],
@@ -2816,7 +2816,7 @@
 				{
 					"name": "Shadow Dash",
 					"entries": [
-						"When the hawk is in dim light or darkness, it teleports up to 30 feet to an unoccupied space it can see that is also in dim light or darkness. The hawk then has advantage on the first melee attack it makes before the end of the turn."
+						"当鹰在昏暗或黑暗中时，它可以传送到一个它能看到且也处于昏暗或黑暗中的未被占据的空间，最多30英尺。然后，在回合结束前，鹰对第一次近战攻击获得优势。"
 					]
 				}
 			],
@@ -2905,13 +2905,13 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The hound has advantage on attack rolls against a creature if at least one of the hound's allies is within 5 feet of the target and the ally doesn't have the {@condition incapacitated} condition."
+						"如果猎犬的至少一个盟友在目标身边5英尺内且该盟友没有{@condition incapacitated}状态，猎犬对该生物的攻击投掷获得优势。"
 					]
 				},
 				{
 					"name": "Supernatural Tracker",
 					"entries": [
-						"The hound knows the distance to and direction of any creature that has come within 30 feet of it, even if that creature is on a different plane of existence. If the creature being tracked by the hound dies, the hound knows."
+						"猎犬知道任何接近它30英尺范围内的生物的距离和方向，即使这些生物在不同的存在平面上。如果被猎犬追踪的生物死亡，猎犬会知道。"
 					]
 				}
 			],
@@ -2919,7 +2919,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage plus 3 ({@damage 1d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} {@hit 5} 进行攻击，射程5英尺，一个目标。造成{@h}10 ({@damage 2d6 + 3}) 穿刺伤害加上3 ({@damage 1d6}) 死灵伤害。如果目标是生物，它必须成功进行一次{@dc 13} 力量豁免才能免受{@condition prone} 状态影响。"
 					]
 				}
 			],
@@ -2927,7 +2927,7 @@
 				{
 					"name": "Shadow Step {@recharge 4}",
 					"entries": [
-						"The hound magically teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space it can see."
+						"猎犬在魔法的作用下，连同它所穿戴或携带的任何装备，可以传送到它能看到的未被占据的空间，最远可达40英尺。"
 					]
 				}
 			],
@@ -2975,7 +2975,7 @@
 							"items": {
 								"name": "Detention Orb",
 								"entries": [
-									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+									"这个无人机向30英尺内它能看到的生物发射一个微小的魔法力量球。生物必须通过一次{@dc 15}体质豁免才能不被包裹在这个球体中，球体会扩张到刚好足够容纳这个生物的大小。被包裹的生物在内部不需要呼吸、进食或饮水，也不会变老。没有任何东西可以穿过这个球体，也没有任何生物可以通过传送或使用平面旅行进入或离开这个球体。作为一个奖励动作，无人机可以将球体及其内容向任意方向移动30英尺。对球体施放{@spell Dispel Magic}法术({@dc 15})会摧毁它。否则，球体会保持完整，直到无人机花费一个动作来结束效果或无人机被摧毁。一个无人机一次只能有一个拘留球体处于活动状态；如果无人机在已经有一个活动的拘留球体时创建了另一个拘留球体，第一个球体会消失，释放内部的生物。"
 								]
 							}
 						}
@@ -3058,7 +3058,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The medusa casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
+						"美杜莎施放以下其中一个法术，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 20}）："
 					],
 					"will": [
 						"{@spell Light}",
@@ -3083,13 +3083,13 @@
 				{
 					"name": "Devotion's Call (1/Day)",
 					"entries": [
-						"The medusa can cast the {@spell Resurrection} spell, requiring no material components and using Wisdom as the spellcasting ability."
+						"美杜莎可以施放{@spell Resurrection}法术，无需任何材料组件，并使用智力作为施法能力。(Medusa)"
 					]
 				},
 				{
 					"name": "Legendary Resistance (4/Day)",
 					"entries": [
-						"If the medusa fails a saving throw, it can choose to succeed instead."
+						"如果美杜莎未能通过豁免投骰，它可以选择成功。"
 					]
 				}
 			],
@@ -3097,31 +3097,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The medusa makes one Constrict attack, one Final Blade attack, and one Snake Hair attack. Alternatively, it makes two Wrathful Strike attacks."
+						"美杜莎进行一次缠绕攻击，一次终极之刃攻击，和一次蛇发攻击。或者，它进行两次愤怒打击攻击。"
 					]
 				},
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage, and if the target is a Medium or smaller creature, it has the {@condition grappled} condition (escape {@dc 20}). Until this grapple ends, the target has the {@condition restrained} condition, and the medusa can't constrict another creature."
+						"{@atk mw} 使用近战武器攻击，射程10英尺，目标为一名敌人。造成{@h}16({@damage 3d6 + 6})点钝击伤害，如果目标是中型或更小的生物，则陷入{@condition grappled}状态（逃脱{@dc 20}）。直到这次擒抱结束，目标将处于{@condition restrained}状态，并且美杜莎无法缠绕其他生物。"
 					]
 				},
 				{
 					"name": "Final Blade",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage plus 21 ({@damage 6d6}) force damage. If the target has at least one head and the medusa rolled a 20 on the attack roll, the target is decapitated and dies if it fails a {@dc 20} Constitution saving throw and can't survive without that head. A target is immune to this effect if it takes none of the damage, has legendary actions, or is Huge or larger. Such a creature takes an extra 28 ({@damage 8d6}) force damage from the hit."
+						"{@atk mw} {@hit 12}攻击，射程5英尺，目标一个。{@h}13 ({@damage 2d6 + 6})挥砍伤害加上21 ({@damage 6d6})力量伤害。如果目标至少有一个头部，美杜莎在攻击检定中掷出20，目标被斩首并在未通过{@dc 20}体质豁免检定的情况下死亡，且没有头部无法存活。如果目标未受到伤害、具有传奇行动或者是巨型或更大生物，则免疫此效果。这类生物从此次攻击中受到额外28 ({@damage 8d6})力量伤害。"
 					]
 				},
 				{
 					"name": "Snake Hair",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) piercing damage plus 5 ({@damage 1d10}) poison damage."
+						"{@atk mw} 使用攻击命中，达到5英尺，一个目标。造成{@h}11 ({@damage 1d10 + 6}) 点穿刺伤害加上5 ({@damage 1d10}) 点毒药伤害。"
 					]
 				},
 				{
 					"name": "Wrathful Strike",
 					"entries": [
-						"{@atk rs} {@hit 12} to hit, range 120 ft., one creature. {@h}22 ({@damage 3d10 + 6}) radiant damage, and the target has the {@condition blinded} condition until the end of its next turn."
+						"{@atk rs} {@hit 12}攻击，射程120英尺，一名生物。造成{@h}22 ({@damage 3d10 + 6})辐射伤害，并且目标在其下一个回合结束前拥有{@condition blinded}状态。"
 					]
 				}
 			],
@@ -3129,8 +3129,8 @@
 				{
 					"name": "Petrifying Gaze {@recharge 4}",
 					"entries": [
-						"The medusa unleashes petrifying magic from its eyes in a 30-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw if it doesn't have the {@condition blinded} condition. If the saving throw fails by 5 or more, the creature has the {@condition petrified} condition. Otherwise, on a failed save, the creature takes 10 ({@damage 3d6}) force damage, begins to turn to stone, and has the {@condition restrained} condition. The {@condition restrained} creature must repeat the saving throw at the end of its next turn. On a failed save, it has the {@condition petrified} condition, and on a successful save, the effect ends on it. The petrification lasts until the creature is freed by the {@spell Greater Restoration} spell or other magic.",
-						"A creature can use its reaction, if available, to shut its eyes to avoid the saving throw. If the creature does so, it has the {@condition blinded} condition until the end of its next turn."
+						"美杜莎从眼睛中释放出一股石化魔法，形成一个30英尺的锥形区域。该区域内的每个生物必须进行一次{@dc 18} 体质豁免才能避免{@condition blinded}状态。如果豁免失败超过5点，生物将获得{@condition petrified}状态。否则，豁免失败的生物将受到10点({@damage 3d6}) 精力伤害，开始变成石头，并获得{@condition restrained}状态。受影响的生物必须在其下一个回合结束时重新进行豁免。如果再次失败，将获得{@condition petrified}状态；如果成功，则效果结束。石化状态将持续，直到生物被{@spell Greater Restoration}法术或其他魔法解救。",
+						"生物可以利用其反应（reaction）来闭上眼睛，以避免进行豁免投掷。如果生物这样做，它将持有{@condition blinded}状态，直到其下一个回合结束。"
 					]
 				}
 			],
@@ -3138,19 +3138,19 @@
 				{
 					"name": "Move",
 					"entries": [
-						"The medusa moves up to its speed without provoking opportunity attacks."
+						"美杜莎以其速度向上移动，而不会引发机会攻击。"
 					]
 				},
 				{
 					"name": "Wrathful Blast (Costs 2 Actions)",
 					"entries": [
-						"The medusa makes one Wrathful Strike attack."
+						"美杜莎进行一次愤怒打击（Wrathful Strike）攻击。"
 					]
 				},
 				{
 					"name": "Final Slash (Costs 3 Actions)",
 					"entries": [
-						"The medusa makes one Final Blade attack with advantage."
+						"美杜莎使用优势进行最后一次刀刃攻击。"
 					]
 				}
 			],
@@ -3271,7 +3271,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The hierophant casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 17}):"
+						"大祭司施放以下其中一个法术，使用魅力作为施法能力（法术豁免 {@dc 17}）："
 					],
 					"will": [
 						"{@spell Detect Thoughts}",
@@ -3292,19 +3292,19 @@
 				{
 					"name": "Comet's Voice (1/Day)",
 					"entries": [
-						"The hierophant can cast {@spell Contact Other Plane}, using Charisma as the spellcasting ability."
+						"大祭司可以施放{@spell Contact Other Plane}，使用魅力作为施法能力。(The Hierophant)"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The hierophant has advantage on saving throws against spells and other magical effects."
+						"大祭司在对抗法术和其他魔法效果的豁免 throws 时具有优势。"
 					]
 				},
 				{
 					"name": "Thought Shield",
 					"entries": [
-						"The hierophant's thoughts can't be read by any means unless the hierophant allows it."
+						"除非大祭司允许，否则无论如何都无法读取大祭司的思绪。"
 					]
 				}
 			],
@@ -3312,25 +3312,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The hierophant makes two Herald's Axe attacks or three Comet Blast attacks."
+						"大祭司进行两次传令者之斧（Herald's Axe）攻击或三次彗星爆破（Comet Blast）攻击。"
 					]
 				},
 				{
 					"name": "Herald's Axe",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d12 + 5}) slashing damage plus 10 ({@damage 3d6}) necrotic damage."
+						"{@atk mw} 使用 {@hit 9} 命中，达到5英尺，一个目标。造成 {@h}11 ({@damage 1d12 + 5}) 斩击伤害加上10 ({@damage 3d6}) 墓腐伤害。"
 					]
 				},
 				{
 					"name": "Comet Blast",
 					"entries": [
-						"{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}16 ({@damage 2d10 + 5}) force damage."
+						"{@atk rs} {@hit 9}攻击，射程120英尺，目标一个。造成{@h}16 ({@damage 2d10 + 5})点力场伤害。"
 					]
 				},
 				{
 					"name": "All-Consuming Star {@recharge}",
 					"entries": [
-						"The hierophant conjures a manifestation of the All-Consuming Star: brilliant light and haunting screams that fill a 20-foot-radius sphere centered on a point the hierophant can see within 60 feet of itself. Each creature within the sphere has the {@condition blinded} and {@condition deafened} conditions. Each creature that enters the sphere for the first time on a turn or starts its turn there must make a {@dc 17} Wisdom saving throw. On a failed save, a creature takes 27 ({@damage 6d8}) psychic damage and has the {@condition incapacitated} condition until the start of its next turn. On a successful save, a creature takes half as much damage only. The manifestation persists until the hierophant dies, has the {@condition incapacitated} condition, uses a bonus action to end the effect, or uses this action again."
+						"大祭司召唤出了一个全能之星的显现：明亮的光芒和令人不安的尖叫充斥着以大祭司能看到的点为中心、半径20英尺的球体内。球体内的每个生物都具有{@condition blinded}和{@condition deafened}状态。每个在回合内首次进入该球体或在其中开始回合的生物必须进行{@dc 17}感知豁免。未通过豁免的生物会受到27点({@damage 6d8})精神伤害，并且在其下一个回合开始前具有{@condition incapacitated}状态。通过豁免的生物只会受到一半伤害。这个显现会持续直到大祭司死亡、具有{@condition incapacitated}状态、使用一个奖励动作结束效果，或再次使用此动作。"
 					]
 				}
 			],
@@ -3338,7 +3338,7 @@
 				{
 					"name": "Star's Hunger",
 					"entries": [
-						"The hierophant targets one creature within 30 feet of the center of its All-Consuming Star. The target must succeed on a {@dc 17} Strength saving throw or be pulled up to 30 feet toward the center of the All-Consuming Star."
+						"神圣法师(hierophant)以其吞噬之星(All-Consuming Star)中心30英尺范围内的一名生物为目标。目标必须通过一次{@dc 17}力量豁免才能免受影响，否则将被拉向吞噬之星的中心，最多30英尺。"
 					]
 				}
 			],
@@ -3476,7 +3476,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Hulgaz casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
+						"胡尔加斯(Hulgaz)施放以下其中一个法术，无需材料组件，使用魅力作为施法能力（法术豁免{@dc 18}）："
 					],
 					"will": [
 						"{@spell Charm Person}"
@@ -3498,13 +3498,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Hulgaz fails a saving throw, she can choose to succeed instead."
+						"如果Hulgaz失败了一次豁免投掷，她可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"Hulgaz has advantage on saving throws against spells and other magical effects."
+						"Hulgaz在豁免魔法和其他魔法效果的豁免投掷中具有优势。"
 					]
 				}
 			],
@@ -3512,25 +3512,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Hulgaz makes two Claw attacks and one Intoxicating Sting attack."
+						"Hulgaz 进行两次爪击攻击和一次醉人螫刺攻击。"
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage."
+						"{@atk mw} {@hit 8} 进行攻击，射程5英尺，目标一个。造成{@h}12 ({@damage 2d8 + 3}) 点割伤伤害。"
 					]
 				},
 				{
 					"name": "Intoxicating Sting",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}8 ({@damage 1d10 + 3}) piercing damage plus 10 ({@damage 3d6}) poison damage, and the target must succeed on a {@dc 17} Wisdom saving throw or have the {@condition charmed} condition until the start of Hulgaz's next turn."
+						"{@atk mw} {@hit 8}攻击，射程10英尺，一名生物。受到{@h}8 ({@damage 1d10 + 3})点穿刺伤害加上10 ({@damage 3d6})点毒素伤害，并且目标必须在一次{@dc 17}感知豁免检定中成功，否则将受到{@condition charmed}效果，直到Hulgaz的下一个回合开始。"
 					]
 				},
 				{
 					"name": "Brimstone Vapor {@recharge 5}",
 					"entries": [
-						"Hulgaz exhales a 30-foot cone of noxious, scorching-hot vapor. Each creature in that area must succeed on a {@dc 17} Constitution saving throw or have the {@condition poisoned} condition for 1 minute. While {@condition poisoned} in this way, a creature takes 31 ({@damage 7d8}) fire damage at the start of each of its turns and has disadvantage on Wisdom saving throws. A target can repeat the Constitution saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Hulgaz呼出一股30英尺锥形的有毒、灼热蒸汽。该区域内的每个生物必须成功通过一个{@dc 17}的体质豁免才能免疫{@condition poisoned}状态1分钟。当以这种方式受到影响时，生物在其回合开始时会受到31({@damage 7d8})火焰伤害，并在感知豁免检定中处于劣势。目标可以在自己的回合结束时重复进行体质豁免检定，成功则结束自身的影响。"
 					]
 				}
 			],
@@ -3538,19 +3538,19 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"Hulgaz makes one Claw attack."
+						"Hulgaz 进行一次爪击攻击。"
 					]
 				},
 				{
 					"name": "Charm",
 					"entries": [
-						"Hulgaz uses Spellcasting to cast {@spell Charm Person}."
+						"Hulgaz使用施法能力施放{@spell Charm Person}。"
 					]
 				},
 				{
 					"name": "Curdle Heart (Costs 2 Actions)",
 					"entries": [
-						"Hulgaz sours the good feelings of her {@condition charmed} victims. She chooses any number of creatures she can see who are {@condition charmed} by her. Each target takes 17 ({@damage 5d6}) psychic damage as the {@condition charmed} condition applied by Hulgaz ends on it."
+						"Hulgaz玷坏了她{@condition charmed}受害者的良好感受。她选择任意数量的她能看见的被{@condition charmed}的生物。每个目标受到17({@damage 5d6})点心灵伤害，当Hulgaz施加的{@condition charmed}状态在目标身上结束时。"
 					]
 				}
 			],
@@ -3650,7 +3650,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The initiate casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"新手施放以下其中一个咒语，使用魅力作为施法能力（咒语豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell Mage Hand}",
@@ -3671,7 +3671,7 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The initiate has advantage on saving throws against spells and other magical effects."
+						"新手在对抗法术和其他魔法效果的豁免投掷中获得优势。"
 					]
 				}
 			],
@@ -3679,13 +3679,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The initiate makes two Comet Strike attacks."
+						"新手进行两次彗星打击（Comet Strike）攻击。"
 					]
 				},
 				{
 					"name": "Comet Strike",
 					"entries": [
-						"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 120 ft., one target. {@h}14 ({@damage 2d10 + 3}) force damage."
+						"{@atk ms,rs} {@hit 5}攻击，射程5英尺或120英尺，目标一个。造成{@h}14 ({@damage 2d10 + 3})点力场伤害。"
 					]
 				}
 			],
@@ -3693,7 +3693,7 @@
 				{
 					"name": "Moment of Foresight (1/Day)",
 					"entries": [
-						"When hit by an attack roll, the initiate can force the attacker to reroll it and use the new roll, possibly causing the attack to miss."
+						"当被攻击命中时，(the initiate)可以强迫攻击者重新投掷骰子并使用新的点数，可能导致攻击未命中。"
 					]
 				}
 			],
@@ -3792,7 +3792,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The living portent casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability:"
+						"活着的预兆施放以下其中一个法术，无需材料组件，并使用智力作为施法能力："
 					],
 					"daily": {
 						"2": [
@@ -3811,7 +3811,7 @@
 				{
 					"name": "Brilliance (True Form Only)",
 					"entries": [
-						"The living portent sheds bright light for 30 feet and dim light for an additional 30 feet."
+						"这位活着的预兆为30英尺范围内提供明亮光线，另外30英尺范围内提供昏暗光线。"
 					]
 				}
 			],
@@ -3819,19 +3819,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The living portent makes two Radiant Strike attacks."
+						"活着的预兆进行两次辉光打击(Radiant Strike)攻击。"
 					]
 				},
 				{
 					"name": "Radiant Strike",
 					"entries": [
-						"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 120 ft., one target. {@h}9 ({@damage 1d12 + 3}) radiant damage."
+						"{@atk ms,rs} {@hit 5}攻击，射程5英尺或射程120英尺，目标一个。{@h}9 ({@damage 1d12 + 3})辐射伤害。"
 					]
 				},
 				{
 					"name": "Prophetic Blessing",
 					"entries": [
-						"The living portent magically infuses the power of its prophecy into another willing creature the living portent can see within 30 feet of itself. The target's hit point maximum and current hit points increase by 7 ({@dice 1d8 + 3}), and it gains a prophecy die, a {@dice d8}. Once during each of the creature's turns, when it fails an ability check or saving throw or misses an attack roll, it can roll the prophecy die and add the number rolled to the total, potentially changing the outcome. The blessing ends after 1 hour or when the living portent ends the blessing (no action required) or uses this action again."
+						"活着的预兆通过魔法将其预言的力量注入另一个愿意的生物，只要这个生物在它周围30英尺内可见。目标的最大生命值和当前生命值增加了7 ({@dice 1d8 + 3})，并获得了一个预言骰，一个{@dice d8}。在生物的每个回合中，当它失败一次属性检定或豁免检定，或未命中一次攻击骰时，它可以掷出预言骰，并将掷出的数字加到总数上，从而可能改变结果。祝福在1小时后结束，或者当活着的预兆结束祝福（无需行动）或再次使用此动作时结束。"
 					]
 				}
 			],
@@ -3839,7 +3839,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The living portent magically transforms into a Humanoid while retaining its game statistics (other than its size and Brilliance trait). The transformation ends if the living portent is reduced to 0 hit points or uses a bonus action to end it."
+						"活着的预兆在保留其游戏统计数据的同时，神奇地变成一个人形生物（除了其大小和聪慧特质）。如果活着的预兆被降为0点生命值或使用一个奖励动作来结束它，变形就会结束。"
 					]
 				}
 			],
@@ -3847,7 +3847,7 @@
 				{
 					"name": "Price of Defiance",
 					"entries": [
-						"When the living portent is damaged by a creature that it can see within 120 feet of itself, radiant power sears the creature. The creature must make a {@dc 13} Constitution saving throw, taking 10 ({@damage 3d6}) radiant damage on a failed save, or half as much damage on a successful one."
+						"当活力预兆被其能看见的生物在120英尺内造成伤害时，辐射力量会灼烧该生物。该生物必须进行一次{@dc 13}体质豁免才能，未通过则受到10({@damage 3d6})辐射伤害，通过则只受到一半伤害。"
 					]
 				}
 			],
@@ -3856,8 +3856,8 @@
 					"name": "Servants of Living Stars",
 					"type": "variant",
 					"entries": [
-						"Some stars in the sky are Elder Evils, alien beings of godlike power from the reality-defying Far Realm.",
-						"A living portent can be a fragment of these beings' will. These living portents are Aberrations instead of Celestials and are typically chaotic evil. They replace any radiant damage in their stat block with necrotic or psychic damage (DM's choice). Their spells might also be different. Some known Elder Evils include the following:",
+						"一些天空中的星星是(Elder Evils)（古老邪恶）,来自违背现实的远域的拥有神一般力量的外星生物。",
+						"一个活生生的预兆可以是这些生物意志的一部分。这些活生生的预兆是异常生物而不是天神，通常是混乱邪恶的。它们用死灵或精神伤害（由DM选择）取代其属性块中的任何辐射伤害。它们的法术可能也会有所不同。一些已知的上古邪恶包括以下内容：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -3865,27 +3865,27 @@
 								{
 									"type": "item",
 									"name": "Acamar",
-									"entry": "A dead star that consumes other stars or sidereal bodies it encounters."
+									"entry": "一个吞噬其遇到的其他恒星或星体的死亡之星。"
 								},
 								{
 									"type": "item",
 									"name": "Caiphon, the Dream Whisperer",
-									"entry": "A purple star whose guidance and minions seem to help for a time but whose influence inevitably leads to disaster."
+									"entry": "一颗紫色的星星，其指引和手下似乎会在一段时间内提供帮助，但其影响最终会导致灾难。"
 								},
 								{
 									"type": "item",
 									"name": "Hadar, the Dark Hunger",
-									"entry": "A cinder-red dying star that siphons life from its minions to avert its own demise."
+									"entry": "一个灰烬红色的垂死恒星，从其手下吸取生命以避免自身的消亡。"
 								},
 								{
 									"type": "item",
 									"name": "Khirad, the Star of Secrets",
-									"entry": "A blue-white star whose gifts grant insight but also reveal terrible truths."
+									"entry": "一颗蓝白色的星，它的赠礼赋予洞察力，但也揭示可怕的真相。"
 								},
 								{
 									"type": "item",
 									"name": "Zhudun, the Corpse Star",
-									"entry": "A dead star that whispers of the power to defy death."
+									"entry": "一个死星，低语着违抗死亡力量的秘密。"
 								}
 							]
 						}
@@ -4038,13 +4038,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Malaxxix fails a saving throw, it can choose to succeed instead."
+						"如果Malaxxix失败了一次豁免投掷，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"Malaxxix has advantage on saving throws against spells and other magical effects."
+						"Malaxxix在对抗法术和其他魔法效果的豁免投掷中具有优势。"
 					]
 				}
 			],
@@ -4052,25 +4052,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Malaxxix makes two Forge Hammer or Whip attacks in any combination."
+						"Malaxxix 进行两次熔炉锤击或鞭击攻击，可以任意组合。"
 					]
 				},
 				{
 					"name": "Forge Hammer",
 					"entries": [
-						"{@atk mw,rw} {@hit 12} to hit, reach 10 ft. or range 60/180 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage, and the target can't take reactions until the end of Malaxxix's next turn. Hit or Miss: The hammer then magically returns to Malaxxix's hand."
+						"{@atk mw,rw} 使用 {@hit 12} 进行攻击，射程10英尺或60/180英尺，目标为一个。造成{@h}28({@damage 4d10 + 6})点钝击伤害，并且目标直到Malaxxix的下一个回合结束前无法作出反应。命中或未命中：锤子会魔法般地回到Malaxxix的手中。"
 					]
 				},
 				{
 					"name": "Whip",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 30 ft., one creature. {@h}15 ({@damage 2d8 + 6}) slashing damage, and the target has the {@condition restrained} condition for 1 minute. The {@condition restrained} target can make a {@dc 20} Strength saving throw at the end of each of its turns, ending the effect on itself on a success. Only one creature can be {@condition restrained} by the whip at a time."
+						"{@atk mw} {@hit 12}攻击，射程30英尺，一名生物。受到{@h}15 ({@damage 2d8 + 6}) 钝击伤害，并且目标在1分钟内获得{@condition restrained}状态。被鞭子影响的生物可以在自己的回合结束时进行一次{@dc 20}力量豁免才能，成功则结束效果。每次只能有一名生物被鞭子影响。"
 					]
 				},
 				{
 					"name": "Mezzoloth Vortex {@recharge 5}",
 					"entries": [
-						"Malaxxix summons a vortex of whirling mezzoloths at a point it can see within 90 feet of itself. The vortex is a 30-foot-radius, 100-foot-high cylinder centered on that point. Each creature other than Malaxxix in that area must make a {@dc 20} Dexterity saving throw. On a failed save, a creature takes 35 ({@damage 10d6}) force damage and has the {@condition restrained} condition while within the cylinder. On a successful save, a creature takes half as much damage and is pushed to the nearest unoccupied space outside the cylinder. The vortex lasts until the start of Malaxxix's next turn."
+						"Malaxxix在距离自己90英尺的地方召唤了一个旋转的梅佐洛斯漩涡。漩涡是以那一点为中心的半径30英尺，高100英尺的圆柱体。在该区域内除了Malaxxix之外的每个生物必须进行一次{@dc 20}敏捷豁免检定。未能通过豁免检定的生物会受到35（{@damage 10d6}）力量伤害，并在圆柱体内时患有{@condition restrained}状态。通过豁免检定的生物会受到一半伤害，并被推到圆柱体外最近的未占据空间。漩涡持续到Malaxxix的下一个回合开始。"
 					]
 				}
 			],
@@ -4078,13 +4078,13 @@
 				{
 					"name": "Fiendish Stride",
 					"entries": [
-						"Malaxxix moves up to its speed. This movement doesn't provoke opportunity attacks. When Malaxxix moves within 5 feet of a creature during this movement, that creature takes 5 ({@damage 1d10}) lightning damage. A creature can take this damage only once per turn."
+						"Malaxxix移动其速度。这个移动不会引发机会攻击。当Malaxxix在这个移动过程中移动到离一名生物5英尺以内时，那个生物会受到5({@damage 1d10})点闪电伤害。一名生物每回合只能受到这个伤害一次。"
 					]
 				},
 				{
 					"name": "Attack (Costs 2 Actions)",
 					"entries": [
-						"Malaxxix makes one Forge Hammer or Whip attack."
+						"Malaxxix 进行一次锻造锤或鞭击攻击。"
 					]
 				}
 			],
@@ -4181,7 +4181,7 @@
 				{
 					"name": "Labyrinthine Recall",
 					"entries": [
-						"The minotaur can perfectly recall any path it has traveled."
+						"牛头怪能完美地回忆起它所走过的任何路径。"
 					]
 				}
 			],
@@ -4189,7 +4189,7 @@
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the minotaur moved at least 10 feet straight toward the target immediately before it hit, the target takes an extra 3 ({@damage 1d6}) piercing damage, and if the target is a Large or smaller creature, it must succeed on a {@dc 11} Strength saving throw or be pushed up to 10 feet from the minotaur and have the {@condition prone} condition."
+						"{@atk mw} {@hit 3} 进行攻击，射程5英尺，一个目标。造成{@h}4 ({@damage 1d6 + 1}) 穿刺伤害。如果牛头怪在命中目标前立即向目标直线移动至少10英尺，则目标受到额外3 ({@damage 1d6}) 穿刺伤害，且如果目标是一个大型或更小的生物，则必须成功通过一个{@dc 11} 力量豁免才能不被牛头怪推开最多10英尺并陷入{@condition prone}状态。"
 					]
 				}
 			],
@@ -4263,7 +4263,7 @@
 				{
 					"name": "Labyrinthine Recall",
 					"entries": [
-						"The minotaur can perfectly recall any path it has traveled."
+						"牛头怪能完美地回忆起它所走过的任何路径。"
 					]
 				}
 			],
@@ -4271,19 +4271,19 @@
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage while enlarged. If the minotaur moved at least 10 feet straight toward the target immediately before it hit, the target takes an extra 4 ({@damage 1d8}) piercing damage, or 9 ({@damage 2d8}) piercing damage if the minotaur is enlarged. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be pushed up to 10 feet from the minotaur and have the {@condition prone} condition."
+						"{@atk mw} {@hit 6} 进行攻击，射程5英尺，目标一个。造成{@h}8 ({@damage 1d8 + 4}) 穿刺伤害，或者在变大时造成13 ({@damage 2d8 + 4}) 穿刺伤害。如果牛头怪在攻击前至少直线移动了10英尺朝目标，目标受到额外4 ({@damage 1d8}) 穿刺伤害，或者如果牛头怪变大，则为额外9 ({@damage 2d8}) 穿刺伤害。如果目标是生物，它必须成功通过一次{@dc 14} 力量豁免才能不被牛头怪推开最多10英尺，并获得{@condition prone} 状态。"
 					]
 				},
 				{
 					"name": "Mattock",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) bludgeoning damage, or 17 ({@damage 2d12 + 4}) bludgeoning damage while enlarged. If the target is a creature and the minotaur is enlarged, the target must succeed on a {@dc 14} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} {@hit 6} 进行攻击，射程10英尺，目标为一个。造成{@h}10 ({@damage 1d12 + 4}) 钝击伤害，或者在变大时造成17 ({@damage 2d12 + 4}) 钝击伤害。如果目标是生物且牛头怪变大了，目标必须通过一次{@dc 14} 力量豁免检定，否则会陷入{@condition prone}状态。"
 					]
 				},
 				{
 					"name": "Enlarge (Recharges after a Short or Long Rest)",
 					"entries": [
-						"For 1 minute, the minotaur magically increases in size, along with anything it is wearing or carrying. While enlarged, the minotaur is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the minotaur lacks the room to become Large, the minotaur doesn't change size."
+						"在1分钟内，牛头怪兽在魔法作用下增大，连同它所穿戴或携带的任何物品一起。在变大的状态下，牛头怪兽变成了大型生物，其基于力量的武器攻击的伤害骰翻倍（包括在攻击中），并且进行力量检定和力量豁免检定时获得优势。如果牛头怪兽没有足够的空间变成大型生物，那么它就不会改变大小。"
 					]
 				}
 			],
@@ -4291,7 +4291,7 @@
 				{
 					"name": "Unerring Tracker",
 					"entries": [
-						"The minotaur magically creates a psychic link with one creature it can see. For the next hour, the minotaur knows the current distance and direction to the target if it is on the same plane of existence. The link ends if the minotaur has the {@condition incapacitated} condition or uses this ability on a different target."
+						"牛头怪使用魔法与其能看见的一只生物建立了一种心灵联系。在接下来的一个小时内，如果目标在同一存在平面上，牛头怪就会知道与目标的当前距离和方向。如果牛头怪有{@condition incapacitated}状态，或者使用这个能力对不同的目标，这个联系就会结束。"
 					]
 				}
 			],
@@ -4379,7 +4379,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Oddlewin casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"Oddlewin 施放以下其中一个法术，使用魅力作为施法能力（法术豁免 {@dc 12}）："
 					],
 					"will": [
 						"{@spell Mage Hand}",
@@ -4393,14 +4393,14 @@
 				{
 					"name": "Fortune Teller",
 					"entries": [
-						"Oddlewin can cast the {@spell Augury} spell as a ritual, using cards as the material component."
+						"Oddlewin可以将{@spell Augury}咒语作为仪式施放，使用卡牌作为物质组成部分。"
 					]
 				},
 				{
 					"name": "Nilbogism",
 					"entries": [
-						"Any creature that attempts to damage Oddlewin must first succeed on a {@dc 12} Charisma saving throw or have the {@condition charmed} condition until the end of the creature's next turn. The creature must use its action praising Oddlewin.",
-						"Oddlewin can't regain hit points, including through magical healing, except through his Reversal of Fortune reaction."
+						"任何试图伤害奥德温(Oddlewin)的生物必须首先成功进行一次{@dc 12} 魅力豁免，否则在该生物的下一个回合结束前，它将陷入{@condition charmed}状态。该生物必须使用其动作来赞美奥德温。",
+						"Oddlewin（奥德温）无法通过任何方式恢复生命值，包括魔法治疗，除非通过他的逆转命运（Reversal of Fortune）反应。"
 					]
 				}
 			],
@@ -4408,13 +4408,13 @@
 				{
 					"name": "Fool's Scepter",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+						"{@atk mw} 近战攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d6 + 2}) 钝击伤害。"
 					]
 				},
 				{
 					"name": "Cloud of Cards",
 					"entries": [
-						"Oddlewin conjures magical cards that slash at the air in a 5-foot cube within 60 feet of Oddlewin until the start of Oddlewin's next turn. A creature that starts its turn in the cube or that enters that area for the first time on a turn takes 10 ({@damage 4d4}) slashing damage."
+						"Oddlewin召唤出魔法卡牌，在距离Oddlewin60英尺内的5英尺立方体空间中挥舞。直到Oddlewin的下一个回合开始前，任何在该立方体内开始回合或在回合中第一次进入该区域的生物会受到10({@damage 4d4})点割伤伤害。"
 					]
 				}
 			],
@@ -4422,7 +4422,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"Oddlewin takes the Disengage or Hide action."
+						"Oddlewin选择进行脱离或躲藏动作。"
 					]
 				}
 			],
@@ -4430,7 +4430,7 @@
 				{
 					"name": "Reversal of Fortune",
 					"entries": [
-						"In response to another creature dealing damage to Oddlewin, Oddlewin reduces the damage to 0 and regains 9 ({@dice 2d8}) hit points."
+						"当另一个生物对奥德温造成伤害时，奥德温将伤害减少至0，并恢复9（{@dice 2d8}）点生命值。"
 					]
 				}
 			],
@@ -4535,19 +4535,19 @@
 				{
 					"name": "Alien Mind",
 					"entries": [
-						"Magic and other features can't determine the corrupter's creature type. If a creature tries to read the corrupter's thoughts, that creature must succeed on a {@dc 20} Intelligence saving throw or have the {@condition stunned} condition for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"魔法和其他特性无法确定腐化者的生物类型。如果一个生物试图读取腐化者的思绪，那个生物必须成功通过一个{@dc 20}智力豁免才能避免获得{@condition stunned}状态，持续1分钟。受影响的{@condition stunned}生物可以在自己的回合结束时重复进行豁免才能，成功后效果消失。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the corrupter fails a saving throw, it can choose to succeed instead."
+						"如果腐化者未能通过豁免投骰，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"The corrupter can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"腐化者可以攀爬困难表面，包括在天花板上倒挂，无需进行能力检定。"
 					]
 				}
 			],
@@ -4555,19 +4555,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The corrupter makes three Whispering Blade attacks and can use Debilitating Touch."
+						"腐化者进行三次低语之刃（Whispering Blade）攻击，并可以使用虚弱之触（Debilitating Touch）。"
 					]
 				},
 				{
 					"name": "Whispering Blade",
 					"entries": [
-						"{@atk mw,rw} {@hit 12} to hit, reach 5 ft. or range 60 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage plus 14 ({@damage 4d6}) psychic damage. If the target is a creature, it must succeed on a {@dc 20} Wisdom saving throw or be unable to speak until the start of the corrupter's next turn."
+						"{@atk mw,rw} {@hit 12}攻击，射程5英尺或60英尺，一目标。造成{@h}10 ({@damage 1d8 + 6})穿刺伤害加上14 ({@damage 4d6})精神伤害。如果目标是生物，它必须成功进行一次{@dc 20}感知豁免才能在腐化者的下一个回合开始前说话。"
 					]
 				},
 				{
 					"name": "Debilitating Touch",
 					"entries": [
-						"The corrupter's squirming tentacle lashes out at a creature the corrupter can see within 30 feet of itself. The target must succeed on a {@dc 20} Constitution saving throw or have the {@condition paralyzed} condition until the end of its next turn, after which the target is immune to this Debilitating Touch for 24 hours."
+						"腐化者扭曲的触手突然袭击一名腐化者能看到的距离30英尺内的生物。目标必须成功通过一次 {@dc 20} 体质豁免才能避免获得 {@condition paralyzed} 状态，该状态持续到其下一个回合结束，之后目标对这种虚弱之触免疫24小时。"
 					]
 				}
 			],
@@ -4575,7 +4575,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The corrupter magically transforms into any creature that is Small or Medium, while retaining its game statistics (other than its size). This transformation ends if the corrupter is reduced to 0 hit points or uses a bonus action to end it."
+						"腐化者以魔法方式变形成为任何小型或中型生物，同时保留其游戏统计数据（除了体型）。如果腐化者的生命值降至0或使用一个奖励动作来结束变形，则此变形结束。"
 					]
 				}
 			],
@@ -4583,7 +4583,7 @@
 				{
 					"name": "Uncanny Dodge",
 					"entries": [
-						"When an attacker the corrupter can see hits the corrupter with an attack, the corrupter halves the attack's damage against it."
+						"当一个攻击者能看到腐化者并用攻击命中腐化者时，腐化者会将攻击对其造成的伤害减半。"
 					]
 				}
 			],
@@ -4591,19 +4591,19 @@
 				{
 					"name": "Cunning",
 					"entries": [
-						"The corrupter escapes nonmagical restraints and ends the {@condition grappled} and {@condition restrained} conditions on itself, then moves up to its speed without provoking opportunity attacks."
+						"腐化者逃脱非魔法约束，并结束自身的{@condition grappled}和{@condition restrained}状态，然后移动其速度，而不会引发机会攻击。"
 					]
 				},
 				{
 					"name": "Stab (Costs 2 Actions)",
 					"entries": [
-						"The corrupter makes one Whispering Blade attack."
+						"腐化者进行一次低语之刃（Whispering Blade）的攻击。"
 					]
 				},
 				{
 					"name": "Amorphous Escape (Costs 3 Actions)",
 					"entries": [
-						"The corrupter dissolves into a shifting mass of flesh, tentacles, eyes, claws, and mouths. Up to two creatures the corrupter can see within 20 feet of itself must make a {@dc 20} Intelligence saving throw, taking 18 ({@damage 4d8}) psychic damage on a failed save, or half as much damage on a successful one. This transformation lasts until the end of the corrupter's next turn. While transformed, the corrupter has advantage on attack rolls, attack rolls made against it have disadvantage, and it can move through spaces at least 1 inch wide without squeezing."
+						"腐化者溶解成一团变幻莫测的肉体、触手、眼睛、爪子和嘴巴。腐化者能看到的距离20英尺内的最多两个生物必须进行一次{@dc 20}智力豁免，失败则受到18({@damage 4d8})点精神伤害，成功则减半。这种变形持续到腐化者的下一个回合结束。在变形期间，腐化者在攻击投掷时获得优势，对其进行的攻击投掷有劣势，并且可以在至少1英寸宽的空间中移动而无需挤压。"
 					]
 				}
 			],
@@ -4715,7 +4715,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Pazrodine casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
+						"帕兹罗丁(Pazrodine) 施放以下其中一个咒语，无需材料成分，并使用魅力作为施法能力(咒语豁免{@dc 23})："
 					],
 					"will": [
 						"{@spell Faerie Fire}"
@@ -4739,13 +4739,13 @@
 				{
 					"name": "Guardian of the Market",
 					"entries": [
-						"Pazrodine can sense when an item is stolen from Seelie Market. She knows the distance and direction to stolen items, as if by the {@spell Locate Object} spell."
+						"Pazrodine可以感知到从希利市场（Seelie Market）被盗的物品。她可以知道被盗物品的距离和方向，就像通过{@spell Locate Object}法术一样。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If Pazrodine fails a saving throw, she can choose to succeed instead."
+						"如果帕兹罗丁 (Pazrodine) 在豁免投掷中失败，她可以选择成功。"
 					]
 				}
 			],
@@ -4753,31 +4753,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Pazrodine makes one Bite attack and two Claw attacks."
+						"Pazrodine 进行一次咬击攻击和两次爪击攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 11 ({@damage 2d10}) radiant damage."
+						"{@atk mw} 使用{@hit 13} 进行攻击，射程15英尺，目标一个。造成{@h}17 ({@damage 2d10 + 6}) 点穿刺伤害加上11 ({@damage 2d10}) 点光辉伤害。"
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+						"{@atk mw}进行攻击，射程10英尺，一个目标。造成{@h}13 ({@damage 2d6 + 6})点割伤伤害。"
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}10 ({@damage 1d8 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 21} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} 使用 {@hit 13} 进行攻击，射程20英尺，目标为一个。造成 {@h}10 ({@damage 1d8 + 6}) 钝击伤害。如果目标是生物，必须通过一次 {@dc 21} 力量豁免才能避免获得 {@condition prone} 状态。"
 					]
 				},
 				{
 					"name": "Breath Weapon {@recharge 5}",
 					"entries": [
-						"Pazrodine uses one of the following breath weapons:",
+						"帕兹罗丁 (Pazrodine) 使用以下其中一种吐息武器：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -4786,14 +4786,14 @@
 									"type": "item",
 									"name": "Dream Breath",
 									"entries": [
-										"Pazrodine exhales mist in a 90-foot cone. Each creature in that area must succeed on a {@dc 21} Constitution saving throw or have the {@condition unconscious} condition for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+										"帕兹罗丁(Pazrodine)在一个90英尺的锥形范围内呼出雾气。该区域内的每个生物必须成功进行一次{@dc 21}体质豁免才能避免获得{@condition unconscious}状态，持续10分钟。如果生物受到伤害或有人使用一个动作来唤醒它，这个效果会结束。"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Moonlight Breath",
 									"entries": [
-										"Pazrodine exhales a beam of moonlight in a 120-foot line that is 10 feet wide. Each creature in that area must make a {@dc 21} Dexterity saving throw, taking 60 ({@damage 11d10}) radiant damage on a failed save, or half as much damage on a successful one."
+										"帕兹罗丁(Pazrodine)呼出一道月光射线，长120英尺，宽10英尺。该区域内的每个生物必须进行一次{@dc 21}敏捷豁免才能，未通过则受到60({@damage 11d10})辐射伤害，通过则只受到一半伤害。"
 									]
 								}
 							]
@@ -4805,13 +4805,13 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Pazrodine makes one Tail attack."
+						"帕兹罗丁 (Pazrodine) 进行一次尾部攻击。"
 					]
 				},
 				{
 					"name": "Cast a Spell (Costs 2 Actions)",
 					"entries": [
-						"Pazrodine uses Spellcasting."
+						"Pazrodine 使用咒语施法。"
 					]
 				}
 			],
@@ -4883,7 +4883,7 @@
 							"items": {
 								"name": "Detention Orb",
 								"entries": [
-									"The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a {@dc 15} Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the {@spell Dispel Magic} spell on the orb ({@dc 15}) destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside."
+									"这个无人机向30英尺内它能看到的生物发射一个微小的魔法力量球。生物必须通过一次{@dc 15}体质豁免才能不被包裹在这个球体中，球体会扩张到刚好足够容纳这个生物的大小。被包裹的生物在内部不需要呼吸、进食或饮水，也不会变老。没有任何东西可以穿过这个球体，也没有任何生物可以通过传送或使用平面旅行进入或离开这个球体。作为一个奖励动作，无人机可以将球体及其内容向任意方向移动30英尺。对球体施放{@spell Dispel Magic}法术({@dc 15})会摧毁它。否则，球体会保持完整，直到无人机花费一个动作来结束效果或无人机被摧毁。一个无人机一次只能有一个拘留球体处于活动状态；如果无人机在已经有一个活动的拘留球体时创建了另一个拘留球体，第一个球体会消失，释放内部的生物。"
 								]
 							}
 						}
@@ -4960,7 +4960,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The spirit can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes {@damage 1d10} force damage for every 5 feet shunted."
+						"灵魂可以像穿越艰难地形一样穿过其他生物和物体。如果它在一个物体内结束自己的回合，它会被推到最近的未被占据的空间，并每推动5英尺受到{@damage 1d10}的力量伤害。"
 					]
 				}
 			],
@@ -4968,13 +4968,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The spirit makes a number of Reaping Scythe attacks equal to half the level of the spell (rounded down)."
+						"该灵魂进行的收割镰刀（Reaping Scythe）攻击次数等于法术等级的一半（向下取整）。"
 					]
 				},
 				{
 					"name": "Reaping Scythe",
 					"entries": [
-						"{@atk mw} your spell attack modifier to hit (with advantage), reach 5 ft., the creature haunted by Haunt Creature. {@h}{@damage 1d8 + 3 + summonSpellLevel} necrotic damage."
+						"使用你的法术攻击修正值来攻击（带有优势），射程5英尺，该生物被Haunt Creature所困扰。{@h}{@damage 1d8 + 3 + summonSpellLevel}点死灵伤害。"
 					]
 				}
 			],
@@ -4982,7 +4982,7 @@
 				{
 					"name": "Haunt Creature",
 					"entries": [
-						"The spirit targets a creature it can see within 10 feet of itself and begins haunting it. While the target is haunted, you and the spirit sense the direction and distance to the target if it is on the same plane of existence as you. Additionally, if the target starts its turn within 10 feet of the spirit, the target must succeed on a Wisdom saving throw against your spell save DC or have the {@condition frightened} condition until the start of the target's next turn. The target remains haunted until it dies, the spirit disappears, or the spirit uses this action again."
+						"这个幽灵选择一个它能看见的生物，距离自己不超过10英尺，并开始缠绕它。当目标被缠绕时，你和幽灵可以感知到目标的方向和距离，只要它与你处于同一存在平面上。此外，如果目标在幽灵身边10英尺内开始它的回合，目标必须通过一次以你的法术豁免 DC 为依据的感知豁免检定，否则将受到{@condition frightened}效果，直到目标的下一个回合开始。目标会一直被缠绕，直到它死亡、幽灵消失，或者幽灵再次使用这个动作。"
 					]
 				}
 			],
@@ -5070,13 +5070,13 @@
 				{
 					"name": "Card Sense",
 					"entries": [
-						"The riffler can smell the presence of magical cards, including Decks of Many Things and other magical decks, within 1 mile of itself. It knows the direction to any such cards in that range. Effects that protect a target from divination magic block this sense."
+						"梳理者可以嗅到魔法牌的存在，包括众多事物牌组和其他魔法牌组，在其周围1英里范围内。它知道该范围内任何这类牌组的方向。保护目标免受占卜魔法的效果会阻挡这种感知。"
 					]
 				},
 				{
 					"name": "Riffling Step",
 					"entries": [
-						"The riffler can burrow through any nonmagical material that isn't iron, shuffling the substance through which the riffler moves aside like cards to form a tunnel that closes behind the riffler."
+						"潜凿者可以在任何非铁质的非魔法材料中钻行，将潜凿者移动时经过的物质像牌一样推开，形成一个隧道，隧道会在潜凿者后面关闭。"
 					]
 				}
 			],
@@ -5084,25 +5084,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The riffler makes two Spectral Card attacks."
+						"这位搅拌者进行了两次幻光卡牌攻击。"
 					]
 				},
 				{
 					"name": "Spectral Card",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 60 ft., one target. {@h}8 ({@damage 1d10 + 3}) force damage plus 5 ({@damage 1d10}) damage that is radiant if the {@dice d10} roll is an even number and necrotic if it's odd."
+						"{@atk ms,rs} {@hit 6}攻击，达到5英尺或射程60英尺，一个目标。{@h}8 ({@damage 1d10 + 3})力量伤害加上5 ({@damage 1d10}) 伤害，如果骰{@dice d10}点数是偶数则为辐射伤害，如果是奇数则为死灵伤害。"
 					]
 				},
 				{
 					"name": "Card Spray {@recharge 5}",
 					"entries": [
-						"The riffler magically unleashes a spray of spectral cards in a 30-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw. On a failed save, a creature takes 27 ({@damage 5d10}) force damage and has the {@condition restrained} condition for 1 minute as cards bind it. On a successful save, a creature takes half as much damage only. A {@condition restrained} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"搅拌者在30英尺锥形范围内神奇地释放了一波幻影卡牌。该区域内的每个生物必须进行一次{@dc 14}敏捷豁免检定。未通过检定的生物将受到27点（{@damage 5d10}）力量伤害，并在接下来的1分钟内患上{@condition restrained}状态，因为卡牌将其束缚。通过检定的生物只受到一半伤害。一名{@condition restrained}生物可以在自己的回合结束时重复豁免检定，成功则结束效果。"
 					]
 				},
 				{
 					"name": "Plane Shift",
 					"entries": [
-						"The riffler casts the {@spell Plane Shift} spell targeting only itself, requiring no material components and using Charisma as the spellcasting ability."
+						"搅拌者施放{@spell Plane Shift}法术，只能以自己为目标，无需材料成分，并使用魅力作为施法能力。"
 					]
 				}
 			],
@@ -5110,7 +5110,7 @@
 				{
 					"name": "Shuffle Destiny",
 					"entries": [
-						"When a creature the riffler can see within 30 feet of itself makes an ability check, an attack roll, or a saving throw, the riffler can magically force that creature to roll a {@dice d6} and either add the number rolled to the total or subtract it from the total (riffler's choice), potentially changing the outcome."
+						"当瑞夫勒(riffler)能看到的生物在其30英尺内进行能力检定、攻击检定或豁免检定时，瑞夫勒可以使用魔法强迫该生物投掷一个{@dice d6}，并选择要么将投掷的数字加到总数上，要么从总数中减去它（瑞夫勒的选择），从而可能改变结果。"
 					]
 				}
 			],
@@ -5188,25 +5188,25 @@
 				{
 					"name": "Ruinous Acid",
 					"entries": [
-						"Any nonmagical weapon that hits the spider corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the spider is destroyed after dealing damage."
+						"任何非魔法武器击中蜘蛛后会腐蚀。造成伤害后，武器的伤害骰永久性地累积-1的惩罚。如果惩罚降至-5，武器就会被摧毁。击中蜘蛛的由金属制成的非魔法弹药在造成伤害后会被摧毁。"
 					]
 				},
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"这只蜘蛛可以爬上困难的表面，包括在天花板上倒挂，而无需进行能力检定。"
 					]
 				},
 				{
 					"name": "Web Sense",
 					"entries": [
-						"While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+						"当与网站接触时，蜘蛛知道与同一网站接触的任何其他生物的确切位置。"
 					]
 				},
 				{
 					"name": "Web Walker",
 					"entries": [
-						"The spider ignores movement restrictions caused by webbing."
+						"蜘蛛无视由网织物引起的移动限制。"
 					]
 				}
 			],
@@ -5214,19 +5214,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The spider makes two Ruinous Bite attacks. It can replace one attack with a use of Web."
+						"蜘蛛进行两次毁灭性咬击攻击。它可以用一次蛛网攻击来替换其中一次攻击。"
 					]
 				},
 				{
 					"name": "Ruinous Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage and 9 ({@damage 2d8}) acid damage. In addition, if the target is a creature wearing nonmagical armor, the armor takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an Armor Class of 10 is destroyed."
+						"{@atk mw} 近战攻击，射程5英尺，一个目标。造成{@h}8 ({@damage 1d8 + 4}) 穿刺伤害和9 ({@damage 2d8}) 酸性伤害。此外，如果目标是穿戴非魔法盔甲的生物，则该盔甲的AC值永久减少1点。AC值降至10的盔甲被摧毁。"
 					]
 				},
 				{
 					"name": "Web {@recharge 5}",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 30/60 ft., one creature. {@h}The target has the {@condition restrained} condition. As an action, a {@condition restrained} target can make a {@dc 13} Strength check, bursting the webbing on a successful check. The webbing can also be destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to acid, bludgeoning, poison, and psychic damage)."
+						"{@atk rw} {@hit 7}攻击，射程30/60尺，一名生物。{@h}目标患有{@condition restrained}状态。作为一个动作，一名{@condition restrained}目标可以进行{@dc 13}力量检定，成功检定后可以破坏网状物。网状物也可以被摧毁（AC 10；5点生命值；易受火焰伤害；免疫酸性、钝击、毒素和精神伤害）。"
 					]
 				}
 			],
@@ -5312,13 +5312,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Jared makes three Longsword attacks."
+						"贾里德进行了三次长剑攻击。"
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 4 ({@damage 1d8}) radiant damage. On a roll of 19 or 20, Jared scores a critical hit."
+						"{@atk mw} {@hit 7}攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 1d8 + 4})点劈砍伤害加上4 ({@damage 1d8})点光辉伤害。在19或20点的投掷中，Jared获得一次重击。"
 					]
 				}
 			],
@@ -5326,7 +5326,7 @@
 				{
 					"name": "Protect Ally",
 					"entries": [
-						"When a creature Jared can see attacks a target other than Jared that is within 5 feet of him, Jared imposes disadvantage on the attack roll."
+						"当Jared能看见的生物攻击距离他5英尺以内的除Jared以外的目标时，Jared对攻击骰扔出的结果施加(-Jared)攻击者的劣势。"
 					]
 				}
 			],
@@ -5415,7 +5415,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The knight casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"骑士施放以下其中一个法术，使用魅力作为施法能力（法术豁免{@dc 15}）："
 					],
 					"daily": {
 						"1e": [
@@ -5432,7 +5432,7 @@
 				{
 					"name": "Aura of Protection",
 					"entries": [
-						"The knight and each ally within 10 feet of it have advantage on saving throws. This trait is suppressed while the knight has the {@condition incapacitated} condition."
+						"骑士及其周围10英尺范围内的每个盟友在豁免 throws 时获得优势。当骑士拥有{@condition incapacitated}状态时，此特性被抑制。"
 					]
 				}
 			],
@@ -5440,19 +5440,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The knight makes three Sunspear attacks."
+						"这位骑士进行了三次日矛攻击。"
 					]
 				},
 				{
 					"name": "Sunspear",
 					"entries": [
-						"{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}14 ({@damage 3d6 + 4}) radiant damage, or 21 ({@damage 5d6 + 4}) radiant damage if the target is a Fiend or an Undead."
+						"{@atk ms,rs} {@hit 8}攻击，射程5英尺或120英尺，一名目标。造成{@h}14 ({@damage 3d6 + 4})辐射伤害，如果目标是恶魔或不死生物，则为21 ({@damage 5d6 + 4})辐射伤害。"
 					]
 				},
 				{
 					"name": "Solar Flare {@recharge 5}",
 					"entries": [
-						"The knight unleashes a blaze of brilliant energy that fills a 30-foot-radius sphere centered on the knight. Each creature of the knight's choice in that area must make a {@dc 15} Dexterity saving throw. On a failed save, a creature takes 22 ({@damage 4d10}) radiant damage and has the {@condition blinded} condition until the end of its next turn. On a successful save, a creature takes half as much damage only. For the next minute, the affected area is filled with bright light that is sunlight."
+						"骑士释放出一团耀眼的能量，填满以骑士为中心的半径30英尺的球形区域。该区域内骑士选择的每个生物必须进行一次{@dc 15}敏捷豁免。未通过豁免的生物会受到22点（{@damage 4d10}）辐射伤害，并且在其下一个回合结束前患有{@condition blinded}状态。通过豁免的生物只会受到一半伤害。在接下来的一分钟内，受影响的区域充满了明亮的光芒，这是阳光。"
 					]
 				}
 			],
@@ -5529,13 +5529,13 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The talon beast has advantage on saving throws against spells and other magical effects."
+						"利爪兽对法术和其他魔法效果的豁免 throws 有优势。"
 					]
 				},
 				{
 					"name": "Sense Magic",
 					"entries": [
-						"The talon beast can detect and pinpoint the location of magic within 120 feet of itself."
+						"利爪兽能够在自身120英尺范围内探测并确定魔法的位置。"
 					]
 				}
 			],
@@ -5543,19 +5543,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The talon beast makes two Talon attacks or a Talon attack and a Beak attack."
+						"利爪兽进行两次利爪攻击或一次利爪攻击和一次喙攻击。"
 					]
 				},
 				{
 					"name": "Beak",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, and if the target has any spell effects on itself or any magic items in its possession, the target must make a {@dc 15} Charisma saving throw. On a failed save, a random spell effect on the target ends. If the target has no spell effects on it, one random magic item in its possession has its magical properties suppressed for 1 minute. If the item is a potion or scroll, it becomes nonmagical instead."
+						"{@atk mw} 近战武器攻击，射程5英尺，目标一个。{@h}17 ({@damage 2d10 + 6}) 穿刺伤害，如果目标身上有任何法术效果或任何魔法物品，目标必须进行一次 {@dc 15} 魅力豁免。未能通过豁免的话，目标身上的一个随机法术效果结束。如果目标身上没有法术效果，其携带的一个随机魔法物品的魔力属性将被压制1分钟。如果该物品是药水或卷轴，则变为非魔法物品。"
 					]
 				},
 				{
 					"name": "Talon",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage, and the target has the {@condition grappled} condition (escape {@dc 17}). Until the grapple ends, the target has the {@condition restrained} condition, and the talon beast can't use Talon on another target."
+						"{@atk mw} {@hit 9} 进行攻击，射程10英尺，目标一个。造成{@h}15 ({@damage 2d8 + 6}) 斩击伤害，并使目标陷入{@condition grappled}状态（逃脱（escape {@dc 17}））。直到角斗兽放开抓取，目标仍处于{@condition restrained}状态，而且角斗兽无法对另一个目标使用爪击。"
 					]
 				}
 			],
@@ -5654,13 +5654,13 @@
 				{
 					"name": "Inviolate Presence",
 					"entries": [
-						"The veiled presence can't be targeted by divination magic or by features that would read its mind or determine its creature type."
+						"被面纱遮掩的存在无法被占卜魔法或能读取其思维或确定其生物类型的特征所瞄准。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the veiled presence fails a saving throw, it can choose to succeed instead."
+						"如果隐匿存在者未能通过豁免检定，它可以选择成功。"
 					]
 				}
 			],
@@ -5668,19 +5668,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The veiled presence makes two Blade of Judgment attacks and can use Revelation."
+						"隐匿存在进行两次审判之刃攻击，并可以使用启示。"
 					]
 				},
 				{
 					"name": "Blade of Judgment",
 					"entries": [
-						"{@atk mw,rw} {@hit 14} to hit, reach 5 ft. or range 60 ft., one target. {@h}10 ({@damage 1d6 + 7}) piercing damage plus 27 ({@damage 6d8}) radiant damage. If the target is a creature, it must succeed on a {@dc 22} Charisma saving throw, or on its next turn, it can either move or take an action, but not both."
+						"{@atk mw,rw} {@hit 14} 进行攻击，射程5英尺或60英尺，目标一个。造成{@h}10 ({@damage 1d6 + 7}) 穿刺伤害加上27 ({@damage 6d8}) 光辉伤害。如果目标是生物，它必须成功进行一个 {@dc 22} 魅力豁免才行，否则在它的下一个回合，它只能选择移动或者采取一个动作，而不能两者兼顾。"
 					]
 				},
 				{
 					"name": "Revelation",
 					"entries": [
-						"The veiled presence reveals a glimpse of its otherworldly nature to a creature it can see within 30 feet of itself. The target must succeed on a {@dc 22} Wisdom saving throw or have the {@condition paralyzed} condition until the end of its next turn, after which the target is immune to this Revelation for 24 hours."
+						"这个隐匿的存在向它能看到的30英尺内的生物展示了它超自然本质的一瞥。目标必须成功通过一次 {@dc 22} 智力豁免才能免疫 {@condition paralyzed} 状态，直到其下一个回合结束为止，之后目标对这个启示免疫24小时。"
 					]
 				}
 			],
@@ -5688,7 +5688,7 @@
 				{
 					"name": "Uncanny Dodge",
 					"entries": [
-						"When an attacker the veiled presence can see hits the veiled presence with an attack, the veiled presence halves the attack's damage against it."
+						"当一个攻击者能看到的隐匿存在被攻击时，隐匿存在会将攻击对其造成的伤害减半。"
 					]
 				}
 			],
@@ -5696,19 +5696,19 @@
 				{
 					"name": "Flash Step",
 					"entries": [
-						"The veiled presence magically teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space that it can see."
+						"神秘的存在在符合当地语言习惯的情况下，会被魔法传送，连同其穿戴或携带的任何装备，最多可传送至40英尺内一个它能看到的未被占据的空间。"
 					]
 				},
 				{
 					"name": "Stab (Costs 2 Actions)",
 					"entries": [
-						"The veiled presence makes one Blade of Judgment attack."
+						"隐匿的存在使得一次审判之刃攻击。"
 					]
 				},
 				{
 					"name": "Searing Radiance (Costs 3 Actions)",
 					"entries": [
-						"The veiled presence magically emanates dazzling light in a 10-foot-radius sphere centered on itself until the end of its next turn, during which time attack rolls against it have disadvantage and it has advantage on attack rolls. The sphere moves with the veiled presence. When another creature starts its turn in the light or enters the light for the first time on its turn, that creature must make a {@dc 22} Constitution saving throw, taking 18 ({@damage 4d8}) radiant damage on a failed save, or half as much damage on a successful one."
+						"这个被面纱遮掩的存在在自身中心的10英尺半径球体上魔法地散发着耀眼的光芒，直到它的下一个回合结束。在此期间，对它的攻击投掷有劣势，而它的攻击投掷有优势。这个球体随着这个被面纱遮掩的存在移动。当另一个生物在光线中开始它的回合或在它的回合首次进入光线时，那个生物必须进行一次{@dc 22}体质豁免才能，未通过豁免则受到18({@damage 4d8})点辐射伤害，通过豁免则只受一半伤害。"
 					]
 				}
 			],
@@ -5808,7 +5808,7 @@
 				{
 					"name": "Regeneration",
 					"entries": [
-						"The werevulture regains 10 hit points at the start of its turn. If the werevulture takes radiant damage, this trait doesn't function at the start of the werevulture's next turn. The werevulture dies only if it starts its turn with 0 hit points and doesn't regenerate."
+						"狼鹫人在回合开始时恢复 10 点生命值。如果狼鹫人受到辐射伤害，则在接下来的回合开始时，此特性不会生效。狼鹫人只有在回合开始时生命值为 0 且无法再生时才会死亡。"
 					]
 				}
 			],
@@ -5816,25 +5816,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The werevulture makes two Talon attacks, or it makes a Beak attack and a Talon attack."
+						"这只狼鹫人形态进行两次爪击攻击，或者进行一次喙击攻击和一次爪击攻击。"
 					]
 				},
 				{
 					"name": "Beak (Vulture or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a Humanoid, it must succeed on a {@dc 13} Constitution saving throw or be cursed until targeted by the {@spell Remove Curse} spell or a similar effect. If the cursed target drops to 0 hit points, it becomes a werevulture under the DM's control and regains 10 hit points."
+						"{@atk mw} 使用 {@hit 5} 进行攻击，射程5英尺，目标为一名。造成 {@h}10 ({@damage 2d6 + 3}) 穿刺伤害。如果目标是人形生物，必须通过一次 {@dc 13} 体质豁免才能解除诅咒，直到被 {@spell Remove Curse} 法术或类似效果瞄准。如果被诅咒的目标生命值降至0点，它将成为DM控制下的秃鹫人，并恢复10点生命值。"
 					]
 				},
 				{
 					"name": "Talon",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 4d4 + 3}) slashing damage."
+						"{@atk mw} {@hit 5}攻击，达到5英尺，一个目标。{@h}13 ({@damage 4d4 + 3})割伤伤害。"
 					]
 				},
 				{
 					"name": "Longbow (Humanoid or Hybrid Form Only)",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage."
+						"{@atk rw} {@hit 4}攻击，射程150/600英尺，目标为一个。造成{@h}11 ({@damage 2d8 + 2})点穿刺伤害。"
 					]
 				}
 			],
@@ -5842,7 +5842,7 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The werevulture polymorphs into a vulture-humanoid hybrid, into a vulture, or back into its humanoid form. Its game statistics, other than its speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its humanoid form if it dies."
+						"狼鹫人可以变形为狼鹫-人类混合体，狼鹫，或者恢复成人形态。除了速度之外，它在每种形态下的游戏统计数据都是相同的。它穿戴或携带的任何装备都不会被转化。如果它死亡，它会恢复成人形态。"
 					]
 				}
 			],

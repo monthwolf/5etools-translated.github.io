@@ -210,7 +210,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The nullifier's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"抹消者的天生施法能力是魅力（法术豁免{@dc 16}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell counterspell} (see \"Reactions\" below)",
@@ -231,8 +231,8 @@
 					"name": "Horrid Gnashing",
 					"entries": [
 						"当它能看到任何敌人时，无效者的嘴里会发出不连贯的咬合声。每个在无效者20英尺范围内开始其回合并能听到它的生物必须做一个{@dc 16}的智慧救赎动作。除非救赎成功，否则该生物会掷出{@dice d8}来决定它在当前回合的行动。",
-						"1-4: The creature is {@condition stunned} until the end of the turn.",
-						"5-6: The creature is {@condition frightened} until the end of the turn and uses its movement to get as far as possible from the nullifier.",
+						"1-4：生物在本回合结束前为{@condition stunned}。",
+						"5-6: 生物在回合结束前保持{@condition frightened}状态，并利用其移动力尽可能远离消魔者（nullifier）。",
 						"7-8: 该生物不移动，并且它使用其行动对一个随机的生物（除其自身之外）进行一次近战攻击，如果有一个生物在其范围之内。否则它什么也不做。"
 					]
 				},
@@ -603,7 +603,7 @@
 					"name": "Innate Spellcasting (1/Day)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The blood hunter can innately cast {@spell hex}. Its innate spellcasting ability is Intelligence."
+						"血猎人可以天生施展{@spell hex}。它的天生施法能力是智力。"
 					],
 					"will": [
 						"{@spell hex}"
@@ -759,7 +759,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Bol'bara's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+						"Bol'bara的天生施法能力是魅力（法术豁免{@dc 12}，用法术攻击命中{@hit 4}）。她可以天生施放以下法术，无需材料成分："
 					],
 					"will": [
 						"{@spell eldritch blast}",
@@ -817,7 +817,7 @@
 				{
 					"name": "Incorporeal Dash",
 					"entries": [
-						"Bol'bara moves up to her speed. She can move through other creatures and objects as if they were {@quickref difficult terrain||3}. She takes 5 ({@damage 1d10}) force damage if she ends her turn inside an object."
+						"波尔巴拉(Bol'bara)向前移动她的速度。她可以如同穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果她在物体内结束她的回合，她会受到5({@damage 1d10})力量伤害。"
 					]
 				},
 				{
@@ -910,7 +910,7 @@
 				{
 					"name": "Bladed Hide",
 					"entries": [
-						"At the start of each of its turns, the moorbounder deals 5 ({@damage 2d4}) piercing damage to any creature grappling it."
+						"在每个回合开始时，苔原兽对任何与其搏斗的生物造成5点刺伤伤害。"
 					]
 				},
 				{
@@ -1006,7 +1006,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The crawler has advantage on an attack roll against a creature if at least one of the crawler's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果爬行者的盟友中有至少一人在离生物5英尺以内的位置且该盟友不是{@condition incapacitated}，则爬行者对该生物的攻击投掷获得优势。"
 					]
 				}
 			],
@@ -1297,7 +1297,7 @@
 				{
 					"name": "Fuse Damage",
 					"entries": [
-						"When the seer is hit by an attack, it takes only half of the triggering damage. The first time the seer hits with a melee attack on its next turn, the target takes an extra {@damage 1d6} radiant damage."
+						"当先知受到攻击时，只受到触发伤害的一半。在接下来的回合中，当先知第一次用近战攻击命中时，目标会额外受到{@damage 1d6}辐射伤害。"
 					]
 				}
 			],
@@ -1433,7 +1433,7 @@
 					"name": "Bite",
 					"entries": [
 						"{@atk mw} {@hit 13}击中，到达10英尺，一个目标。{@h}30 ({@damage 5d8 + 8})穿刺伤害。如果目标是大型或较小的生物，它必须在一个{@dc 18}灵巧的投掷中成功，否则会被虫子吞噬。被吞噬的生物是{@condition blinded}和{@condition restrained}，对虫子以外的攻击和其他效果有完全的掩护，并在虫子的每个回合开始时受到21({@damage 6d6})的火焰伤害。",
-						"If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"如果虫子在一回合内受到30点或更多伤害来自于它体内的生物，那么虫子必须在回合结束时进行一次{@dc 21}体质豁免检定，否则会将所有被吞噬的生物呕吐出来，它们会掉落在离虫子不超过10英尺的地方。如果虫子死亡，被吞噬的生物不再受到它的影响，可以利用20英尺的移动速度从尸体中逃脱，离开{@condition prone}。"
 					]
 				}
 			],
@@ -1699,7 +1699,7 @@
 				{
 					"name": "Freezing Body",
 					"entries": [
-						"A creature that touches the worm or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) cold damage."
+						"当有生物接触这只虫子或在它附近5英尺内用近战攻击击中它时，会受到10 ({@damage 3d6}) 点冰冷伤害。"
 					]
 				},
 				{
@@ -1851,7 +1851,7 @@
 				{
 					"name": "Whirling Blades",
 					"entries": [
-						"Any creature that starts its turn within 5 feet of the gearkeeper takes 4 ({@damage 1d8}) slashing damage."
+						"任何在距离齿轮守护者5英尺内开始回合的生物会受到4({@damage 1d8})点割伤伤害。"
 					]
 				}
 			],
@@ -1985,7 +1985,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the gloomstalker has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，阴影追踪者在进行攻击投掷时有劣势，以及在依赖视觉的感知（智慧{@skill Perception}）检定上也有劣势。"
 					]
 				}
 			],
@@ -2100,7 +2100,7 @@
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+						"狼在依赖听觉或嗅觉的感知检定中获得优势。"
 					]
 				},
 				{
@@ -2225,8 +2225,8 @@
 				{
 					"name": "Massive Frame",
 					"entries": [
-						"The tortoise can carry up to 20,000 pounds of weight atop its shell, but moves at half speed if the weight exceeds 10,000 pounds. Medium or smaller creatures can move underneath the tortoise while it's not {@condition prone}.",
-						"Any creature under the tortoise when it falls {@condition prone} is {@condition grappled} (escape {@dc 18}). Until the grapple ends, the creature is {@condition prone} and {@condition restrained}."
+						"乌龟的壳可以承受高达20,000磅的重量，但如果重量超过10,000磅，它的移动速度会减半。中等大小或更小的生物可以在乌龟不携带重量时在其下移动。",
+						"当乌龟倒下时，位于其下的任何生物都可以尝试逃脱{@condition prone}。直到角斗结束，该生物会被{@condition grappled}并且{@dc 18}。"
 					]
 				}
 			],
@@ -2240,7 +2240,7 @@
 				{
 					"name": "Shell Defense {@recharge 4}",
 					"entries": [
-						"The tortoise withdraws into its shell, falls {@condition prone}, and gains a +5 bonus to AC. While the tortoise is in its shell, its speed is 0 and can't increase. The tortoise can emerge from its shell as an action, whereupon it is no longer {@condition prone}."
+						"乌龟缩进壳中，陷入休眠状态{@condition prone}，并获得+5的AC奖励。当乌龟在壳中时，其速度为0且无法增加。乌龟可以通过一个动作从壳中出来，此时它不再是{@condition prone}。"
 					]
 				}
 			],
@@ -2386,7 +2386,7 @@
 							"type": "entries",
 							"name": "Burst",
 							"entries": [
-								"The zombie explodes and is destroyed. Each creature within 5 feet of it must make a DC 12 Constitution saving throw, taking 14 ({@damage 4d6}) poison damage on a failed save, or half as much damage on a successful one. A humanoid creature killed by this damage rises as a {@creature husk zombie|EGW} after 1 minute."
+								"僵尸爆炸并被摧毁。每个距离它5英尺的生物必须进行一次DC 12的体质豁免才能，失败则受到14({@damage 4d6})点毒性伤害，成功则只受一半伤害。被这个伤害杀死的人型生物在1分钟后会变成{@creature husk zombie|EGW}。"
 							]
 						}
 					],
@@ -2527,13 +2527,13 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一名小妖的盟友在离生物5英尺范围内且该盟友不是{@condition incapacitated}，小妖对该生物的攻击投掷获得优势。"
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，龙妈({@skill Perception})在攻击检定上有劣势，以及在依赖视觉的感知检定上也有劣势。"
 					]
 				}
 			],
@@ -2630,7 +2630,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The merrow is a 6th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The merrow has the following druid spells prepared:"
+						"美洛是一名6级法术施法者。它的法术施法能力是智力（法术豁免 DC {@dc 13}，对法术攻击命中加值 {@hit 5}）。美洛已准备了以下德鲁伊法术："
 					],
 					"spells": {
 						"0": {
@@ -2835,7 +2835,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Mossback Steward's innate spellcasting ability is Wisdom (spell save {@dc 15}). It can innately cast the following spells, requiring no material components."
+						"苔藓守护者的天赋施法能力是感知（法术豁免{@dc 15}）。它可以天生施放以下法术，无需材料组件。"
 					],
 					"will": [
 						"{@spell friends}"
@@ -3103,7 +3103,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Pellinost is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Pellinost has the following cleric spells prepared:"
+						"佩林诺斯是一名5级法术施展者。他的法术施展能力是智力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。佩林诺斯准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -3236,7 +3236,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The warlock's innate spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+						"术士的天生施法能力是魅力（法术豁免 {@dc 13}，用法术攻击命中时为 {@hit 5}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell eldritch blast} (see \"Actions\" below)",
@@ -3376,7 +3376,7 @@
 							"items": {
 								"name": "Special Equipment",
 								"entries": [
-									"The warlock carries a {@item rod of retribution|egw}."
+									"术士携带着一个{@item rod of retribution|egw}。"
 								]
 							}
 						},
@@ -3474,7 +3474,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The sea fury's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+						"海怒兽的天生施法能力是魅力（法术豁免 {@dc 16}，用法术攻击命中时为 {@hit 8}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell witch bolt}"
@@ -3525,7 +3525,7 @@
 				{
 					"name": "Death Glare",
 					"entries": [
-						"The sea fury targets one {@condition frightened} creature it can see within 30 feet of it. The target must succeed on a {@dc 16} Wisdom saving throw or drop to 0 hit points."
+						"海怒者选择一个在30英尺内可以看到的生物{@condition frightened}作为目标。目标必须成功通过一个{@dc 16}感知豁免才能避免陷入0点生命值。"
 					]
 				}
 			],
@@ -3533,7 +3533,7 @@
 				{
 					"name": "As Water",
 					"entries": [
-						"The sea fury transforms into a wave of foaming seawater, along with whatever it is wearing or carrying, and moves up to its speed without provoking opportunity attacks. While in this form, it can't be {@condition grappled} or {@condition restrained}. It reverts to its true form at the end of this movement."
+						"海怒将自己转化为一股泡沫翻滚的海水浪潮，连同身上穿戴的一切一起，可以移动自身速度而不会引发机会攻击。在这种形态下，它不能被 {@condition grappled} 或 {@condition restrained}。在移动结束时，它会恢复真实形态。"
 					]
 				},
 				{
@@ -3545,7 +3545,7 @@
 				{
 					"name": "Conjure Snakes (Costs 3 Actions)",
 					"entries": [
-						"The sea fury disgorges a {@creature swarm of poisonous snakes}, which occupies the same space as the sea fury, acts on its own initiative count, and attacks as directed by the sea fury. The sea fury can control up to three of these swarms at a time."
+						"海怒兽喷出一个{@creature swarm of poisonous snakes}，它占据与海怒兽相同的空间，独立行动，并按照海怒兽的指示进行攻击。海怒兽最多可以控制三个这样的虫群。"
 					]
 				}
 			],
@@ -3799,7 +3799,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Sken wears a {@item ring of obscuring|EGW}. With it, she can cast the {@spell fog cloud} spell centered on herself three times per day. The cloud lasts for 1 minute (no {@status concentration} required)."
+						"Sken戴着一顶{@item ring of obscuring|EGW}。她可以每天三次以自己为中心施放{@spell fog cloud}法术。云雾持续1分钟（无需{@status concentration}）。"
 					]
 				}
 			],
@@ -3815,7 +3815,7 @@
 				{
 					"name": "Stone's Endurance (Recharges after a Short or Long Rest)",
 					"entries": [
-						"When Sken takes damage, she can use her reaction to reduce the damage taken by 8 ({@dice 1d12 + 2})."
+						"当Sken受到伤害时，她可以使用她的反应来减少所受伤害的8 ({@dice 1d12 + 2})。"
 					]
 				}
 			],
@@ -3858,7 +3858,7 @@
 					"name": "Spellcasting (Lizardfolk Form Only)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Skr'a S'orsk is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). Skr'a S'orsk has the following druid spells prepared:"
+						"Skr'a S'orsk是一名5级法术施展者。它的法术施展能力是智力（法术豁免{@dc 12}，法术攻击命中加值{@hit 4}）。Skr'a S'orsk已经准备了以下德鲁伊法术："
 					],
 					"spells": {
 						"0": {
@@ -3977,7 +3977,7 @@
 				{
 					"name": "Petrifying Secretions",
 					"entries": [
-						"A creature must make a {@dc 13} Constitution saving throw if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn {@condition grappled} by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone and is {@condition restrained}, and it must repeat the saving throw at the end of its next turn. On a successful save, the effect ends. On a failure, the creature is {@condition petrified}."
+						"一只生物必须在与巴西利斯克进行近战武器攻击时，或者在巴西利斯克附近5英尺内开始其回合时，进行一次{@dc 13}体质豁免才能。除非豁免成功，否则生物会被魔法化为石头，并且在其下一个回合结束时必须重复进行豁免检定。豁免成功则效果结束。失败则生物被{@condition petrified}。"
 					]
 				}
 			],
@@ -4128,7 +4128,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the udaak moves at least 20 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 27 ({@damage 6d8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 21} Strength saving throw or be pushed up to 20 feet away from the udaak and knocked {@condition prone}."
+						"如果乌达克（udaak）在同一回合内至少朝一个目标直线移动20英尺，然后用猛击攻击击中目标，目标会受到额外27（{@damage 6d8}）点钝击伤害。如果目标是生物，它必须成功进行一次{@dc 21}力量豁免才能避免被乌达克推开最多20英尺并击倒{@condition prone}。"
 					]
 				},
 				{
@@ -4161,7 +4161,7 @@
 					"name": "Swallow",
 					"entries": [
 						"努达克对它正在抓捕的大型或小型目标进行一次咬合攻击。如果攻击命中，目标也会被吞噬，并且抓捕结束。被吞噬的生物是{@condition blinded}和{@condition restrained}，它对乌达克以外的攻击和其他效果有完全的掩护，并且在乌达克的每个回合开始时受到21({@damage 6d6})的酸伤害。",
-						"If the udaak takes 30 damage or more on a single turn from a creature inside it, the udaak must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the udaak. If the udaak dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"如果乌达克(udaak)在一回合内受到来自其内部生物的30点或更多伤害，那么乌达克必须在回合结束时进行一次{@dc 21}体质豁免才能否则将吞食的所有生物吐出，它们会掉落在距离乌达克10英尺的空间内。如果乌达克死亡，被吞食的生物不再受其影响，并可以通过消耗20英尺的移动力从尸体中逃脱，离开{@condition prone}。"
 					]
 				}
 			],
@@ -4346,13 +4346,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Yinra has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"音拉(Yinra)对免疫{@condition charmed}效果的豁免 throws 有优势，并且魔法无法让她进入睡眠状态。"
 					]
 				},
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"Yinra has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+						"因拉在依赖听觉或视觉的感知检定中拥有优势（{@skill Perception}）。"
 					]
 				}
 			],

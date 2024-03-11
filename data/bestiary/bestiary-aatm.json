@@ -68,13 +68,13 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the animated coffin is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the coffin move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the coffin is animate."
+						"如果在战斗开始时，动画棺材静止不动，它在先攻骰时获得优势。此外，如果一个生物没有看到棺材移动或行动，那个生物必须成功进行一次{@dc 18}智力({@skill Investigation})检定，才能发现棺材是有生命的。"
 					]
 				},
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"The animated coffin can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"这个动画棺材可以攀爬困难表面，包括在天花板上倒挂，无需进行能力检定。"
 					]
 				}
 			],
@@ -82,19 +82,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The animated coffin makes two Slam attacks."
+						"动画棺材进行两次猛击攻击。"
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage."
+						"{@atk mw} {@hit 5}攻击，达到5英尺，一个目标。造成{@h}12 ({@damage 2d8 + 3}) 钝击伤害。"
 					]
 				},
 				{
 					"name": "Entrap",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one Large or smaller creature. {@h}The target has the {@condition grappled} condition (escape {@dc 13}). Until this grapple ends, if the target is not an Undead, the target has the {@condition restrained} condition and takes 14 ({@damage 4d6}) piercing damage at the start of each of its turns. The animated coffin can grapple only one creature at a time."
+						"{@atk mw} {@hit 5}命中，达到5英尺，一个大型或更小的生物。{@h}目标拥有{@condition grappled}状态（逃脱{@dc 13}）。直到这次搏斗结束，如果目标不是不死生物，目标将拥有{@condition restrained}状态，并在其每个回合开始时受到14({@damage 4d6})穿刺伤害。动态棺材一次只能搏斗一个生物。"
 					]
 				}
 			],
@@ -212,7 +212,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Skall casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 19}):"
+						"Skall施放以下其中一个咒语，无需材料组件，使用智力作为施法能力（法术豁免{@dc 19}）："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -239,31 +239,31 @@
 				{
 					"name": "Aura of Death",
 					"entries": [
-						"Creatures within 30 feet of Skall have disadvantage on death saving throws."
+						"在距离斯卡尔（Skall）30英尺内的生物在死亡豁免投掷时有劣势。"
 					]
 				},
 				{
 					"name": "Cosmic Annihilation",
 					"entries": [
-						"A creature killed by Skall can be restored to life only by means of a true resurrection or {@spell wish} spell."
+						"Skall杀死的生物只能通过真正的复活或{@spell wish}咒语才能复活。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (4/Day)",
 					"entries": [
-						"If Skall fails a saving throw, he can choose to succeed instead."
+						"如果Skall失败了一次豁免投骰，他可以选择成功。"
 					]
 				},
 				{
 					"name": "Rejuvenation",
 					"entries": [
-						"If Skall dies, he turns to dust. If his orrery of souls hasn't been destroyed, Skall re-forms within the Mortuary in {@dice 1d10} days. He appears within 5 feet of the orrery."
+						"如果Skall死亡，他会化为尘土。如果他的灵魂天文仪没有被摧毁，在{@dice 1d10}天内Skall会在太平间重新形成。他会出现在距离灵魂天文仪5英尺的地方。"
 					]
 				},
 				{
 					"name": "Turn Resistance",
 					"entries": [
-						"Skall has advantage on saving throws against any effect that turns Undead."
+						"Skall对于任何使不死生物(Undead)转变的效果的豁免投掷具有优势。"
 					]
 				}
 			],
@@ -271,26 +271,26 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Skall makes one Withering Touch attack or uses Spellcasting. He also uses Death Knell twice."
+						"Skall 发动一次凋零之触 (Withering Touch) 攻击或使用施法 (Spellcasting)。他还使用死亡之钟 (Death Knell) 两次。"
 					]
 				},
 				{
 					"name": "Withering Touch",
 					"entries": [
-						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. {@h}32 ({@damage 6d8 + 5}) cold damage plus 31 ({@damage 7d8}) necrotic damage, and if the target is a creature, it can't regain hit points until the start of Skall's next turn."
+						"{@atk ms} {@hit 11} 进行攻击，射程5英尺，一个目标。造成{@h}32 ({@damage 6d8 + 5}) 冷伤害加上31 ({@damage 7d8}) 死灵伤害，如果目标是生物，则直到Skall的下一个回合开始前，它无法恢复生命值。"
 					]
 				},
 				{
 					"name": "Death Knell",
 					"entries": [
-						"Skall points his finger at a creature he can see within 120 feet of himself, filling the target's mind with visions of death and the plangent toll of an iron bell. The target must succeed on a {@dc 19} Wisdom saving throw or take 14 ({@damage 4d6}) psychic damage and have the {@condition frightened} condition until the start of Skall's next turn."
+						"Skall伸出手指指向自己能看到的120英尺内的生物，让目标的心灵充满死亡的幻象和铁钟的悲哀鸣声。目标必须成功通过一次{@dc 19}感知豁免才能免受14({@damage 4d6})点精神伤害，并在Skall的下一个回合开始前患有{@condition frightened}状态。"
 					]
 				},
 				{
 					"name": "Fog of Death (1/Day)",
 					"entries": [
-						"Skall exudes a killing fog in a 30-foot-radius sphere centered on himself. The sphere spreads around corners, and its area is heavily obscured. The fog lasts until the start of Skall's next turn, and it can't be dispersed by wind. It does not move with him.",
-						"Each creature that enters the fog for the first time on a turn or starts its turn there must make a {@dc 19} Constitution saving throw, taking 28 ({@damage 8d6}) necrotic damage and 28 ({@damage 8d6}) poison damage on a failed save, or half as much damage on a successful one. A Medium or smaller Humanoid killed by this damage becomes a zombie under Skall's control. The zombie acts on Skall's initiative but immediately after his turn. Absent any other command, the zombie tries to kill any non-Undead creature it encounters."
+						"Skall在以自己为中心的30英尺半径球体上释放出一股致命的迷雾。这个球体可以在拐角处传播，其区域被严重遮蔽。迷雾持续到Skall的下一个回合开始之前，且无法被风吹散。它不会随着Skall移动。",
+						"每当一个生物在一个回合内第一次进入迷雾或者在其中开始它的回合时，必须进行一次 {@dc 19} 体质豁免才能，失败则受到28 ({@damage 8d6}) 死灵伤害和28 ({@damage 8d6}) 毒素伤害，成功则只受到一半伤害。一名被这些伤害杀死的中型或更小的人形生物会变成Skall控制下的僵尸。这个僵尸会在Skall的回合后立即行动，遵循Skall的倡议。如果没有其他命令，僵尸会试图杀死它遇到的任何非不死生物。"
 					]
 				}
 			],
@@ -301,13 +301,13 @@
 				{
 					"name": "Baleful Counterspell",
 					"entries": [
-						"Skall chatters his teeth to interrupt a creature he can see within 60 feet of himself that is casting a spell. If the spell is 4th level or lower, it fails and has no effect. If the spell is 5th level or higher, Skall makes an Intelligence check ({@dc 10} + the spell's level). On a successful check, the spell fails and has no effect. Whatever the spell's level, the caster takes 10 ({@damage 3d6}) necrotic damage if the spell fails."
+						"Skall磨牙以打断他能看到的距离60英尺内正在施法的生物。如果法术为4级或更低级，则失败且没有效果。如果法术为5级或更高级，Skall进行一次智力检定（{@dc 10} + 法术等级）。在成功检定时，法术失败且没有效果。无论法术等级如何，如果法术失败，施法者会受到10({@damage 3d6})点死灵伤害。"
 					]
 				},
 				{
 					"name": "Near-Death Experience",
 					"entries": [
-						"In response to being hit by an attack, Skall teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see."
+						"当受到攻击时，斯卡尔（Skall）会传送，连同他穿戴或携带的任何装备，最多30英尺到他能看见的一个未被占据的空间。"
 					]
 				}
 			],
@@ -421,7 +421,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The exorcist casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 14}, {@hit 6} to hit with spell attacks):"
+						"驱魔师施放以下法术之一，无需材料成分，使用智力作为施法能力（法术豁免 DC {@dc 14}，法术攻击命中加值 {@hit 6}）："
 					],
 					"will": [
 						"{@spell detect evil and good}",
@@ -447,7 +447,7 @@
 				{
 					"name": "Incorruptible Vessel",
 					"entries": [
-						"The exorcist can't be possessed by Celestials, Fiends, or Undead."
+						"驱魔师不能被天界生物、邪恶生物或不死生物附身。"
 					]
 				}
 			],
@@ -455,19 +455,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The exorcist makes two Grave Burst attacks."
+						"驱魔师进行两次墓地爆发（Grave Burst）攻击。"
 					]
 				},
 				{
 					"name": "Grave Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 3d10 + 3}) necrotic or radiant damage (exorcist's choice)."
+						"{@atk ms,rs} {@hit 6}攻击，射程5英尺或120英尺，目标一个。造成{@h}19 ({@damage 3d10 + 3})点死灵或光辉伤害（驱魔师选择）。"
 					]
 				},
 				{
 					"name": "Admit Entity {@recharge 5}",
 					"entries": [
-						"The exorcist thins the veil of death for a creature it can see within 60 feet of itself, exposing the target to malevolent entities. The target must make a {@dc 14} Charisma saving throw. On a failed save, the target takes 36 ({@damage 8d8}) psychic damage and has the {@condition incapacitated} condition for 1 minute, during which time it retches and babbles incoherently in a voice that is not its own. On a successful save, the target takes half as much damage only. An {@condition incapacitated} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"驱魔师为其能看到的距离60英尺内的生物削弱死亡的面纱，暴露目标给邪恶实体。目标必须进行一次{@dc 14} 魅力豁免投骰。未通过豁免的目标会受到36点({@damage 8d8}) 精神伤害，并且在1分钟内患有{@condition incapacitated} 状态，期间会以非自己的声音呕吐和胡言乱语。通过豁免的目标只会受到一半伤害。一名{@condition incapacitated} 目标可以在自己的每个回合结束时重复豁免投骰，成功则结束自身的效果。"
 					]
 				}
 			],

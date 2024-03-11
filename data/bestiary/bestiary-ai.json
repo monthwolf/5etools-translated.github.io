@@ -97,7 +97,7 @@
 				{
 					"name": "Shadow Caw",
 					"entries": [
-						"The ancient deep crow releases an ear-splitting caw. Each creature within 60 feet of the crow and able to hear it must make a {@dc 17} Constitution saving throw. On a failure, a creature takes 10 ({@damage 3d6}) psychic damage."
+						"古老的深渊乌鸦发出一声震耳欲聋的叫声。在乌鸦周围60英尺范围内且能听到它的每个生物必须进行一次 {@dc 17} 体质豁免投。未通过检定的生物会受到10点 ({@damage 3d6}) 精神伤害。"
 					]
 				}
 			],
@@ -105,7 +105,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"The deep crow makes a Wisdom ({@skill Perception}) check."
+						"深渊乌鸦进行一次感知检定（Wisdom {@skill Perception}）。"
 					]
 				},
 				{
@@ -331,7 +331,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Brahma is a 4th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). She has the following bard spells prepared:"
+						"布拉玛是一名4级法术施展者。她的法术能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。她已准备了以下吟游诗人法术："
 					],
 					"spells": {
 						"0": {
@@ -366,7 +366,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Brahma has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"婆罗门(Brahma)在对抗被{@condition charmed}效果时拥有优势，并且魔法无法让她入睡。"
 					]
 				},
 				{
@@ -707,7 +707,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the deep crow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，深鸦在攻击检定上有劣势，以及在依赖视觉的感知（{@skill Perception}）检定上也有劣势。"
 					]
 				}
 			],
@@ -826,7 +826,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Donaar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following paladin spells prepared:"
+						"多纳尔是一名5级咒术师。他的咒术能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。他已准备了以下圣骑士法术："
 					],
 					"spells": {
 						"1": {
@@ -856,7 +856,7 @@
 				{
 					"name": "Champion Challenge (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a {@dc 13} Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is {@condition incapacitated} or dies, or if the creature is moved more than 30 feet away from him."
+						"作为一个奖励动作，多纳尔(Donaar)让他能看到的每个生物在他周围30英尺内进行一次{@dc 13}感知豁免检定。如果失败，生物不能自愿移动超过30英尺远离多纳尔。如果多纳尔离开了{@condition incapacitated}或死亡，或者生物被移动超过30英尺远离他，这个效果就会结束。"
 					]
 				}
 			],
@@ -994,7 +994,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Flabbergast is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
+						"Flabbergast是一名9级的法术施展者。他的法术施展能力是智力（法术豁免 {@dc 13}，用法术攻击命中为 {@hit 5}）。他准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -1150,7 +1150,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Jim is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He has the following wizard spells prepared:"
+						"吉姆是一名9级法术施展者。他的法术施展能力是智力（法术豁免 {@dc 15}，用法术攻击命中为 {@hit 7}）。他已准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -1208,7 +1208,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Jim carries a {@item wand of wonder}."
+						"吉姆携带着一个{@item wand of wonder}。"
 					]
 				},
 				{
@@ -1333,7 +1333,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"K'thriss's innate spellcasting ability is Charisma (spell save {@dc 14}). He can innately cast the following spells, requiring no material components:"
+						"K'thriss的天生施法能力是魅力（法术豁免{@dc 14}）。他可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -1351,7 +1351,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:"
+						"克瑞斯是一名5级法术施展者。他的法术能力是魅力（法术豁免 {@dc 14}，法术攻击命中加值 {@hit 6}）。他在完成短休或长休后会恢复已用的法术位，并知晓以下术士法术："
 					],
 					"spells": {
 						"0": {
@@ -1384,7 +1384,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"K'thriss wears a {@item robe of stars} (accounted for in his statistics). The robe allows him to cast the following spells: 6/day: {@spell magic missile} (7 missiles)"
+						"K'thriss穿着一件{@item robe of stars}（在他的统计数据中已经考虑在内）。这件长袍使他能施放以下法术：每天6次：{@spell magic missile}（7枚飞弹）。"
 					]
 				},
 				{
@@ -1396,7 +1396,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"K'thriss has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep. Sunlight Sensitivity. While in sunlight, K'thriss has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"克瑞斯对被 {@condition charmed} 影响的豁免 throws 有优势，并且魔法无法让他入睡。阳光敏感。在阳光下，克瑞斯在攻击 rolls 上有劣势，以及在依赖视觉的智慧 ({@skill Perception}) checks 上也有劣势。"
 					]
 				}
 			],
@@ -1557,8 +1557,8 @@
 				{
 					"name": "Hot Oil Spray {@recharge 5}",
 					"entries": [
-						"The keg robot sprays hot oil in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must make a {@dc 13} Dexterity saving throw. On a failed save, a creature takes 7 ({@damage 1d8 + 3}) fire damage and falls {@condition prone}. On a successful save, a creature takes half as much damage and doesn't fall {@condition prone}.",
-						"Any creature affected by the hot oil spray that takes fire damage before the oil dries (after 1 minute) takes an additional 3 ({@damage 1d6}) fire damage, and the oil burns away.",
+						"酒桶机器人可以喷射热油，形成一个15英尺的锥形范围或者一个宽5英尺、长30英尺的直线范围。范围内的每个生物都必须进行一次{@dc 13}敏捷豁免检定。未通过豁免检定的生物会受到7({@damage 1d8 + 3})火焰伤害并倒地{@condition prone}。通过豁免检定的生物只会受到一半伤害，并且不会倒地{@condition prone}。",
+						"任何受到热油喷洒影响的生物，在油干燥之前（1分钟后）受到火焰伤害，额外受到3 ({@damage 1d6}) 火焰伤害，并且油被燃烧殆尽。",
 						"如果留在喷洒区域的油被点燃，它将燃烧{@dice 1d4}个回合，并对任何在一个回合中首次进入该区域或在那里结束其回合的生物造成3({@damage 1d6})的火焰伤害。"
 					]
 				}
@@ -1672,7 +1672,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Môrgæn is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). She has the following ranger spells prepared:"
+						"莫根是一名9级法术施展者。她的法术属性是智力（法术豁免 {@dc 12}，用法术攻击命中时为 {@hit 4}）。她已准备了以下游侠法术："
 					],
 					"spells": {
 						"1": {
@@ -1704,7 +1704,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Môrgæn has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"莫尔根 (Môrgæn) 在豁免投掷中对被 {@condition charmed} 的效果具有优势，并且魔法无法让她入睡。"
 					]
 				}
 			],
@@ -1839,13 +1839,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Oak has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"橡树(Oak)在豁免投掷中对被 {@condition charmed} 的效果具有优势，并且魔法无法让他入睡。"
 					]
 				},
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"Oak has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+						"橡树在依赖听觉或视觉的感知检定中有优势。"
 					]
 				}
 			],
@@ -1971,7 +1971,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Omin is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He has the following cleric spells prepared:"
+						"奥敏是一名9级法术施展者。他的法术能力是感知（法术豁免 {@dc 15}，法术攻击命中加值 {@hit 7}）。他已准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -2044,7 +2044,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Omin has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Omin在豁免投掷中对被 {@condition charmed} 的效果具有优势，并且魔法无法让他入睡。"
 					]
 				}
 			],
@@ -2176,7 +2176,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Pendragon is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
+						"潘德拉贡是一名4级法术施法者。他的法术施放能力是智力（法术豁免 {@dc 13}，用法术攻击命中为 {@hit 5}）。他已准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -2318,7 +2318,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Phoenix is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following cleric spells prepared:"
+						"凤凰是一名4级咒术师。他的咒术能力是智力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。他已准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -2583,7 +2583,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Prophetess is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). Prophetess has the following cleric spells prepared:"
+						"先知是一名5级法术施展者。她的法术施展能力是智力（法术豁免 DC {@dc 13}，使用法术攻击命中加值 {@hit 5}）。先知准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -2623,13 +2623,13 @@
 				{
 					"name": "Divine Eminence",
 					"entries": [
-						"As a bonus action, Prophetess can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Prophetess expends a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each level above 1st."
+						"作为一个奖励动作，预言者可以消耗一个法术位，使她的近战武器攻击在命中时在目标身上额外造成10({@damage 3d6})点神圣伤害。这个效果持续到回合结束。如果预言者消耗了2级或更高级别的法术位，额外伤害将每超过1级增加{@dice 1d6}点。"
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Prophetess has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"先知在豁免投掷中对被 {@condition charmed} 的状态有优势，并且魔法无法让她入睡。"
 					]
 				}
 			],
@@ -2739,7 +2739,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Rosie's innate spellcasting ability is Wisdom (spell save {@dc 12}). She can innately cast the following spells, requiring no material components:"
+						"Rosie的天生施法能力是智慧（法术豁免{@dc 12}）。她可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell minor illusion}",
@@ -2762,7 +2762,7 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Rosie has advantage on saving throws against being {@condition frightened}."
+						"Rosie在豁免投掷中对被 {@condition frightened} 的情况有优势。"
 					]
 				},
 				{
@@ -2808,7 +2808,7 @@
 				{
 					"name": "Deflect Missiles",
 					"entries": [
-						"In response to being hit by a ranged weapon attack, Rosie deflects the missile. The damage she takes from the attack is reduced by {@dice 1d10 + 9}. If the damage is reduced to 0, she catches the missile if it's small enough to hold in one hand and she has a hand free."
+						"当Rosie受到远程武器攻击时，她会将抛射物击退。她受到的攻击伤害会减少 {@dice 1d10 + 9}。如果伤害减少到0，她会捕捉这个抛射物，前提是它足够小，可以用一只手拿住，并且她有一只手是空闲的。"
 					]
 				}
 			],
@@ -2946,7 +2946,7 @@
 				{
 					"name": "Absorb Attack",
 					"entries": [
-						"When a creature Splugoth can see hits him with a melee weapon attack, the weapon snags on a pocket of residual resurrectional energy and is caught fast. The attack is negated and the weapon cannot be used until the creature succeeds on a {@dc 12} Strength ({@skill Athletics}) check as an action to pull it out of Splugoth. Natural weapons can have their attacks negated by this feature, but can then be retracted automatically at the end of the attacking creature's turn."
+						"当生物斯普洛戈特能看到的生物用近战武器攻击他时，武器会被卡在残留的复活能量口袋上，无法脱身。攻击被无效化，武器在该生物成功进行一次 {@dc 12} 力量检定 ({@skill Athletics}) 作为动作来拔出武器之前无法再次使用。自然武器的攻击也会受到这个特性的影响，但在攻击生物的回合结束时可以自动收回。"
 					]
 				}
 			],
@@ -3197,7 +3197,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Walnut is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She has the following druid spells prepared:"
+						"核桃是一名7级法术施展者。她的法术能力是智力（法术豁免 {@dc 14}，用法术攻击命中时为 {@hit 6}）。她已准备了以下德鲁伊法术："
 					],
 					"spells": {
 						"0": {
@@ -3246,7 +3246,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Walnut has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"核桃在豁免投掷中对被 {@condition charmed} 有优势，并且魔法无法让她入睡。"
 					]
 				},
 				{
@@ -3258,9 +3258,9 @@
 				{
 					"name": "Wild Shape (Recharges after a Short or Long rest)",
 					"entries": [
-						"As a bonus action, Walnut can assume the shape of a dire wolf. She can stay in this form for 3 hours or until she reverts to her normal form as a bonus action. She automatically reverts if she falls {@condition unconscious}, drops to 0 hit points, or dies.",
+						"作为一个奖励动作，胡桃可以变成一只恐狼。她可以保持这种形态长达3小时，或者在作为一个奖励动作恢复到正常形态。如果她倒下{@condition unconscious}、生命值降至0，或者死亡，她会自动恢复到正常形态。",
 						"在变身时，胡桃的游戏数据被地狼的数据所取代，除了她保留了她的排列组合、个性、智力、智慧和魅力分数。",
-						"Her attacks in beast form are magical. While in beast form, Walnut can use a bonus action to expend one spell slot and regain {@dice 1d8} hit points per level of the spell slot expended."
+						"她在野兽形态下的攻击是魔法攻击。在野兽形态下，胡桃可以使用一个奖励动作来消耗一个法术位，并恢复{@dice 1d8}生命值，每个法术位的等级。"
 					]
 				}
 			],

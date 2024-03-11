@@ -68,7 +68,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Doric casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
+						"多里克(Doric) 施放以下其中一个咒语，使用智力作为施法能力（咒语豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell animal messenger}",
@@ -91,19 +91,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Doric makes two Shaped Claw or Sling attacks. She can replace one attack with a use of Spellcasting."
+						"多丽克进行两次形状爪或投石器攻击。她可以用一次法术施法来替换其中一次攻击。"
 					]
 				},
 				{
 					"name": "Shaped Claw",
 					"entries": [
-						"{@atk ms} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+						"{@atk ms} 使用攻击命中，达到5英尺，一个目标。造成8({@damage 1d8 + 4})点割伤伤害。"
 					]
 				},
 				{
 					"name": "Sling",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+						"{@atk rw} {@hit 6}攻击命中，射程30/120尺，目标一个。造成{@h}8 ({@damage 2d4 + 3})点钝击伤害。"
 					]
 				}
 			],
@@ -111,9 +111,9 @@
 				{
 					"name": "Change Shape (5/Day)",
 					"entries": [
-						"Doric magically transforms into a Beast with a challenge rating of 3 or less or into an owlbear (see the Monster Manual).",
-						"Doric can remain in that form for up to 2 hours. She can choose whether her equipment falls to the ground, melds with her new form, or is worn by the new form. Doric reverts to her true form if she is {@condition incapacitated} or dies. She can revert to her true form using a bonus action.",
-						"While Doric is transformed, her stat block is replaced by the stat block of that form, except she keeps her current hit points, her hit point maximum, this bonus action, her alignment, and her Intelligence, Wisdom, and Charisma scores."
+						"Doric 在魔法作用下变身为一个挑战等级为3或更低的野兽，或者变身为猫头鹰熊((owlbear)参见《怪物手册》)。",
+						"多丽克可以保持那种形态长达2小时。她可以选择她的装备是掉落在地上，融入她的新形态，还是被新形态穿戴。如果她被{@condition incapacitated}或死亡，多丽克将恢复到她的真实形态。她可以使用一个奖励动作恢复到她的真实形态。",
+						"当Doric转变时，她的属性块被该形态的属性块所取代，但她保留当前的生命值、生命值上限、这个额外动作，她的属性，以及智力、感知和魅力分数。"
 					]
 				}
 			],
@@ -121,7 +121,7 @@
 				{
 					"name": "Fiery Rebuke (3/Day)",
 					"entries": [
-						"When Doric is damaged by a creature that she can see within 60 feet of herself, she magically engulfs the creature in flames. The creature must make a {@dc 15} Dexterity saving throw, taking 16 ({@damage 3d10}) fire damage on failed save, or half as much damage on a successful one."
+						"当Doric被她能看到的在自己60英尺内的生物伤害时，她会魔法般地让这个生物被火焰吞噬。生物必须进行一次{@dc 15}敏捷豁免才能，未通过则受到16({@damage 3d10})火焰伤害，通过则只受到一半伤害。"
 					]
 				}
 			],
@@ -230,7 +230,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Edgin casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"埃德金施放以下其中一个咒语，使用魅力作为施法能力（咒语豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell friends}",
@@ -253,25 +253,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Edgin makes two Reinforced Lute or Shortsword attacks."
+						"Edgin 进行两次强化琵琶或短剑的攻击。"
 					]
 				},
 				{
 					"name": "Reinforced Lute",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage plus 11 ({@damage 2d10}) thunder damage."
+						"{@atk mw} {@hit 5}攻击，达到5英尺，一个目标。造成{@h}6 ({@damage 1d8 + 2}) 钝击伤害加上11 ({@damage 2d10}) 雷霆伤害。"
 					]
 				},
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 11 ({@damage 2d10}) thunder damage."
+						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}6({@damage 1d6 + 3})点穿刺伤害加上11({@damage 2d10})点雷霆伤害。"
 					]
 				},
 				{
 					"name": "Disorienting Words",
 					"entries": [
-						"Edgin magically taunts up to three creatures he can see within 60 feet of himself. Each creature must succeed on a {@dc 15} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage and have disadvantage on the next attack roll it makes before the start of Edgin's next turn."
+						"埃德金（Edgin）使用魔法嘲讽他能看到的最多三个生物。每个生物必须成功进行一次{@dc 15}感知豁免才能免受10点（{@damage 3d6}）精神伤害，并在埃德金下一个回合开始前的攻击投掷中获得劣势。"
 					]
 				}
 			],
@@ -279,7 +279,7 @@
 				{
 					"name": "Inspiring Words (3/Day)",
 					"entries": [
-						"When a creature Edgin can see within 60 feet of himself fails an ability check, an attack roll, or a saving throw, Edgin grants the creature magical encouragement. The creature can roll a {@dice d8} and add the number rolled to the total, potentially turning the failure into a success."
+						"当生物Edgin可以看到在其60英尺内失败了一个技能检定、攻击骰、或豁免骰时，Edgin会给予该生物魔法鼓励。该生物可以投掷一个{@dice d8}，并将投掷的数字加到总数上，有可能将失败变成成功。"
 					]
 				}
 			],
@@ -373,19 +373,19 @@
 				{
 					"name": "Disarming Charm",
 					"entries": [
-						"While Forge isn't wearing armor, his AC includes his Charisma modifier."
+						"Forge没有穿戴盔甲时，他的AC包括他的魅力调整值。"
 					]
 				},
 				{
 					"name": "Double-Cross",
 					"entries": [
-						"If Forge hits a creature friendly to him with an attack roll, the attack is automatically a critical hit."
+						"如果熔炉(Forge)用攻击骰击中一个对他友好的生物，那次攻击自动成为一次重击。"
 					]
 				},
 				{
 					"name": "Evasion",
 					"entries": [
-						"If Forge is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he takes no damage if he succeeds on the saving throw, and only half damage if he fails, provided he isn't {@condition incapacitated}."
+						"如果熔炉（Forge）受到允许他进行敏捷豁免来仅受一半伤害的效果影响，他在豁免成功时不会受到伤害，在豁免失败时只会受到一半伤害，前提是他不是{@condition incapacitated}。"
 					]
 				}
 			],
@@ -393,19 +393,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Forge makes two Dagger attacks, two Heavy Crossbow attacks, or one of each."
+						"Forge 进行两次匕首攻击，两次重型弩攻击，或者一次各一次。"
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 24 ({@damage 7d6}) poison damage, and the target is {@condition poisoned} until the end of its next turn."
+						"{@atk mw,rw}进行攻击，达到5英尺或射程20/60英尺，一个目标。造成{@h}4 ({@damage 1d4 + 2})穿刺伤害加上24 ({@damage 7d6})毒素伤害，并且目标在其下一个回合结束前处于{@condition poisoned}状态。"
 					]
 				},
 				{
 					"name": "Heavy Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage plus 24 ({@damage 7d6}) poison damage. Hit or Miss: If the target is a creature, it has disadvantage on the next attack roll it makes before the start of Forge's next turn."
+						"{@atk rw}进行攻击，射程100/400英尺，目标为一个。造成{@h}7 ({@damage 1d10 + 2})穿刺伤害加上24 ({@damage 7d6})毒素伤害。命中或未命中：如果目标是生物，在熔炉{@hit 5}的下一个回合开始前，它在进行的下一次攻击骰上有劣势。"
 					]
 				}
 			],
@@ -413,7 +413,7 @@
 				{
 					"name": "Cunning",
 					"entries": [
-						"Forge takes the Dash, Disengage, or Hide action, or he gives himself advantage on the next attack roll he makes before the end of this turn."
+						"Forge在本回合结束前，可以选择进行冲刺、脱离战斗或隐藏动作，或者在下次进行攻击骰时获得优势。"
 					]
 				}
 			],
@@ -421,7 +421,7 @@
 				{
 					"name": "Uncanny Dodge",
 					"entries": [
-						"Forge halves the damage he takes from an attack that hits him. He must be able to see the attacker."
+						"熔炉 (Forge) 减半受到的来自攻击的伤害。他必须能看到攻击者。"
 					]
 				}
 			],
@@ -515,19 +515,19 @@
 				{
 					"name": "Reckless",
 					"entries": [
-						"At the start of her turn, Holga can gain advantage on melee weapon attack rolls during that turn, but attack rolls against her have advantage until the start of her next turn."
+						"在她的回合开始时，霍尔加可以在该回合内对近战武器攻击投掷获得优势，但对她的攻击投掷有优势，直到她的下一个回合开始。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Holga carries a darksteel greataxe, a magic weapon that grants her resistance to lightning damage while she carries it (included above)."
+						"Holga 拿着一把暗钢巨斧，这是一件魔法武器，当她拿着它时，会让她对闪电伤害具有抗性（包含在上述描述中）。"
 					]
 				},
 				{
 					"name": "Unarmored Defense",
 					"entries": [
-						"While Holga isn't wearing armor, her AC includes her Constitution modifier."
+						"虽然 Holga 没有穿戴盔甲，她的 AC 包括她的体质修正值。"
 					]
 				}
 			],
@@ -535,19 +535,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Holga makes three Darksteel Greataxe or Improvised Weapon attacks, in any combination."
+						"Holga 进行三次暗钢巨斧或（Improvised Weapon）的攻击，可以任意组合。"
 					]
 				},
 				{
 					"name": "Darksteel Greataxe",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) slashing damage."
+						"{@atk mw} 使用 {@hit 7} 进行攻击，达到5英尺，一个目标。造成 {@h}10 ({@damage 1d12 + 4}) 伤害。"
 					]
 				},
 				{
 					"name": "Improvised Weapon",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft., or range 20/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+						"{@atk mw,rw} {@hit 7}进行攻击，射程5英尺，或射程20/60英尺，目标一个。造成{@h}7 ({@damage 1d6 + 4})点钝击伤害。"
 					]
 				}
 			],
@@ -555,7 +555,7 @@
 				{
 					"name": "Wrestle",
 					"entries": [
-						"Holga shoves a creature within 5 feet of herself. That creature must succeed on a {@dc 15} Strength saving throw or be moved 5 feet into an unoccupied space of Holga's choice."
+						"Holga将身边5英尺内的生物推开。该生物必须成功通过一个{@dc 15}力量豁免才能被移动到Holga选择的一个未被占据的空间内。"
 					]
 				}
 			],
@@ -644,7 +644,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Roll a {@dice d6}. On a roll of 1, Simon must roll on the Wild Magic Surge table in the Player's Handbook. On a roll of 2 or higher, Simon casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"投掷一个{@dice d6}。如果投掷到1，Simon必须在《玩家手册》中的狂野魔法突发表上投掷。如果投掷到2或更高，Simon施放以下法术之一，使用魅力作为施法能力（法术豁免{@dc 14}）："
 					],
 					"will": [
 						"{@spell mage hand}",
@@ -672,19 +672,19 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Simon has advantage on saving throws he makes to avoid or end the {@condition charmed} condition on himself, and magic can't put him to sleep."
+						"Simon在进行豁免投掷以避免或结束自身{@condition charmed}状态时具有优势，并且魔法无法让他入睡。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Simon carries a {@item bag of holding}, two pairs of {@item sending stones}, and a deathly token (see Spellcasting)."
+						"Simon携带着一个{@item bag of holding}，两对{@item sending stones}，以及一个死亡护符(见Spellcasting)。"
 					]
 				},
 				{
 					"name": "Wild Magic",
 					"entries": [
-						"When Simon takes 20 or more damage from a single source or takes damage from a critical hit, he must roll on the Wild Magic Surge table in the Player's Handbook."
+						"当西蒙(Simon)从单一来源受到20点或更多伤害，或者受到暴击伤害时，他必须在《玩家手册(Player's Handbook)》中的狂野魔法突发表(Wild Magic Surge table)上进行投掷。"
 					]
 				}
 			],
@@ -692,19 +692,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Simon makes three Quarterstaff or Chaos Bolt attacks. He can replace one attack with one use of Spellcasting."
+						"Simon 进行三次Quarterstaff 或 Chaos Bolt 攻击。他可以用一次Spellcasting 替换一次攻击。"
 					]
 				},
 				{
 					"name": "Quarterstaff",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if used with two hands, plus 11 ({@damage 2d10}) force damage."
+						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，一个目标。造成{@h}2 ({@damage 1d6 - 1}) 钝击伤害，或者如果双手使用则为3 ({@damage 1d8 - 1}) 钝击伤害，再加上11 ({@damage 2d10}) 力量伤害。"
 					]
 				},
 				{
 					"name": "Chaos Bolt",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 60 ft., one target. {@h}14 ({@damage 2d10 + 3}) damage of a random type determined by rolling a {@dice d8}: 1, acid; 2, cold; 3, fire; 4, force; 5, lightning; 6, poison; 7, psychic; 8, thunder."
+						"{@atk rs} {@hit 6} 进行攻击，射程60英尺，目标为一个。造成{@h}14 ({@damage 2d10 + 3}) 点伤害，伤害类型由掷骰子决定，掷出的数字为{@dice d8}：1，酸；2，冰冷；3，火焰；4，力量；5，闪电；6，毒素；7，精神；8，雷霆。"
 					]
 				}
 			],
@@ -712,7 +712,7 @@
 				{
 					"name": "Sheltering Shield (3/Day)",
 					"entries": [
-						"When Simon or another creature he can see within 10 feet of himself would take damage, he conjures a shimmering, 10-foot-radius sphere of magical force centered on himself. Creatures inside the sphere have resistance to the damage that triggered this reaction."
+						"当西蒙或他能看到的另一个生物在他身边10英尺范围内受到伤害时，他会在自己身上召唤一个闪烁的、以自己为中心的、半径为10英尺的魔法力场。在力场内的生物对触发此反应的伤害具有抗性。"
 					]
 				}
 			],
@@ -812,7 +812,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sofina casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 18}):"
+						"索菲娜施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 18}）："
 					],
 					"will": [
 						"{@spell mage hand}",
@@ -842,7 +842,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Sofina wears a magic robe that grants her a +2 bonus to AC and a +1 bonus to saving throws (included above)."
+						"Sofina穿着一件魔法长袍，使她的AC获得+2加值，拯救豁免获得+1加值（包含在上述数值中）。"
 					]
 				}
 			],
@@ -850,19 +850,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Sofina makes three Necrotic Strike attacks."
+						"Sofina 进行了三次(死灵打击)攻击。"
 					]
 				},
 				{
 					"name": "Necrotic Strike",
 					"entries": [
-						"{@atk ms,rs} {@hit 10} to hit, reach 5 ft. or range 120 ft., one target. {@h}32 ({@damage 5d10 + 5}) necrotic damage."
+						"{@atk ms,rs} 使用攻击命中，射程5英尺或射程120英尺，一个目标。造成{@h}32 ({@damage 5d10 + 5})点死灵伤害。"
 					]
 				},
 				{
 					"name": "Swarm of Meteors (1/Day)",
 					"entries": [
-						"Sofina magically calls down a meteor swarm that detonates in four 40-foot-radius spheres, each one centered on a point she can see within 1 mile of herself. These spheres can overlap. Each creature in one or more of these spheres must make a {@dc 18} Dexterity saving throw, taking 35 ({@damage 10d6}) fire damage and 35 ({@damage 10d6}) bludgeoning damage on a failed saving throw, or half as much damage on a successful one. A creature in multiple spheres takes this damage only once."
+						"索菲娜使用魔法召唤出一场陨石风暴，它爆炸成四个直径40英尺的球体，每个球体都以她能看到的距离1英里内的一个点为中心。这些球体可以重叠。每个处于一个或多个这些球体中的生物必须进行一次{@dc 18}敏捷豁免，未通过豁免的生物将受到35（{@damage 10d6}）火焰伤害和35（{@damage 10d6}）重击伤害，通过豁免的生物受到的伤害减半。处于多个球体中的生物只受到一次伤害。"
 					]
 				}
 			],
@@ -870,7 +870,7 @@
 				{
 					"name": "Summon Wraith (1/Day)",
 					"entries": [
-						"Sofina magically summons the spirit of a Thayan assassin, which appears as a wraith (see the Monster Manual). The summoned wraith appears in an unoccupied space within 60 feet of Sofina, whom it obeys. The summoned wraith takes its turn immediately after Sofina. It lasts for 1 hour, until it or Sofina dies, or until Sofina dismisses it as a bonus action."
+						"索菲娜(Sofina)魔法召唤了一名泰亚(Thayan)刺客的灵魂，它化身为一只幽灵(见《怪物手册》)。被召唤的幽灵出现在离索菲娜60英尺内的一个未被占据的空间，它会服从索菲娜的命令。被召唤的幽灵会在索菲娜之后立即行动。它会持续1小时，直到它或索菲娜死亡，或者索菲娜以一个奖励动作解散它。"
 					]
 				}
 			],
@@ -983,7 +983,7 @@
 				{
 					"name": "Aura of Protection",
 					"entries": [
-						"Xenk and his allies within 10 feet of him have advantage on saving throws."
+						"Xenk和他周围10英尺范围内的盟友在豁免 throws 时获得优势。"
 					]
 				}
 			],
@@ -991,49 +991,49 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Xenk makes three Daggersword attacks and uses Daggersword Flourish. He can replace Daggersword Flourish with Cleansing Touch if it's available."
+						"Xenk 进行三次匕首剑攻击，并使用匕首剑华。如果可用，他可以用净化之触替换匕首剑华。"
 					]
 				},
 				{
 					"name": "Daggersword",
 					"entries": [
-						"Choose the attack that corresponds to the daggersword's current form (see Daggersword Shift below):"
+						"选择与匕首剑当前形态相对应的攻击（参见下方匕首剑变形）："
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, plus 6 ({@damage 1d12}) radiant damage."
+						"{@atk mw} 使用 {@hit 8} 进行攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 1d8 + 4}) 斩击伤害，或者如果双手使用则造成9 ({@damage 1d10 + 4}) 斩击伤害，另外再加上6 ({@damage 1d12}) 光辉伤害。"
 					]
 				},
 				{
 					"name": "Shortsword and Dagger",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 6 ({@damage 1d12}) radiant damage."
+						"{@atk mw} {@hit 8}攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 1d6 + 4})穿刺伤害加上6 ({@damage 1d12})辐射伤害。"
 					]
 				},
 				{
 					"name": "Daggersword Flourish",
 					"entries": [
-						"Choose the option that corresponds to the daggersword's current form (see Daggersword Shift below):"
+						"选择与匕首剑当前形态相对应的选项（参见下方的匕首剑变形）："
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"Xenk magically detaches the longsword's blade from its hilt, launching the blade at a creature he can see within 30 feet of himself. The target must make a {@dc 16} Dexterity saving throw. On a failed save, the target is impaled by the blade, taking 14 ({@damage 3d6 + 4}) piercing damage, and is knocked {@condition prone}. At the end of the current turn, the blade magically reattaches to its hilt."
+						"辛克(Xenk)魔法地将长剑的刀刃从剑柄上分离，将刀刃发射到他能看到的距离30英尺内的生物身上。目标必须进行一次{@dc 16}敏捷豁免才能。未能通过豁免的目标将被刀刃刺穿，受到14({@damage 3d6 + 4})点刺伤伤害，并被击倒{@condition prone}。在当前回合结束时，刀刃会魔法地重新附着到剑柄上。"
 					]
 				},
 				{
 					"name": "Shortsword and Dagger",
 					"entries": [
-						"Xenk lashes out with both weapons. Each creature of his choice within 10 feet of him must make a {@dc 16} Dexterity throw. On a failed save, the creature takes 7 ({@damage 2d6}) piercing damage and has disadvantage on attack rolls until the start of Xenk's next turn. On a successful save, the creature takes half as much damage and suffers no other effect."
+						"Xenk挥舞着双武器发动攻击。他选择的每个生物在他身边10英尺范围内必须进行一次{@dc 16}敏捷豁免。未能通过豁免的生物将受到7({@damage 2d6})点刺伤伤害，并在Xenk的下一个回合开始前攻击时处于劣势。通过豁免的生物将受到一半伤害，并不受其他影响。"
 					]
 				},
 				{
 					"name": "Cleansing Touch (1/Day)",
 					"entries": [
-						"Xenk touches a creature within 5 feet of himself. The target magically regains 27 ({@dice 6d8}) hit points and gains the benefit of a {@spell lesser restoration} spell."
+						"Xenk触摸了自己5英尺内的一个生物。目标神奇地恢复了27 ({@dice 6d8}) 点生命值，并获得了{@spell lesser restoration}法术的效果。"
 					]
 				}
 			],
@@ -1041,7 +1041,7 @@
 				{
 					"name": "Daggersword Shift",
 					"entries": [
-						"Xenk changes the form of his daggersword, choosing one of the following forms: a longsword, or a shortsword in one hand and a dagger in the other."
+						"Xenk改变了他的匕首剑的形态，选择以下形态之一：一把长剑，或者一只手持短剑和另一只手持匕首。"
 					]
 				}
 			],

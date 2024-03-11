@@ -26,7 +26,7 @@
 						"items": {
 							"name": "Angelic Weapons",
 							"entries": [
-								"The deva's weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra {@dice 1d10} radiant damage (included in the attack)."
+								"天人的武器攻击是魔法的。当天人用任何武器命中时，武器会造成额外 {@dice 1d10} 辐射伤害（包含在攻击中）。"
 							]
 						}
 					},
@@ -160,7 +160,7 @@
 						"items": {
 							"name": "Hellish Weapons",
 							"entries": [
-								"The demon's weapon attacks are magical and deal an extra 13 ({@dice 3d8}) necrotic damage on a hit (included in the attacks)."
+								"恶魔的武器攻击是魔法的，在命中时会额外造成13({@dice 3d8})点死灵伤害（包含在攻击中）。"
 							]
 						}
 					},
@@ -517,7 +517,7 @@
 					"name": "Bite",
 					"entries": [
 						"{@atk mw} {@hit 9}击中，到达10英尺，一个目标。{@h}22 ({@damage 3d8 + 9})穿刺伤害。如果目标是大型或较小的生物，它必须在一个{@dc 18}灵巧反射中成功，否则将被利维坦吞噬。被吞噬的生物是{@condition blinded}和{@condition restrained}，它对利维坦以外的攻击和其他效果有完全的掩护，并且在利维坦的每个回合开始时受到21({@damage 6d6})的酸伤害。",
-						"If the leviathan takes 30 damage or more on a single turn from a creature inside it, the leviathan must succeed on a {@dc 21} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the leviathan. If the leviathan dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"如果利维坦在一回合内受到30点或更多伤害，来自其内部的生物，利维坦必须在回合结束时进行一次{@dc 21}体质豁免才能否则将吞下的所有生物吐出，它们会掉落在距离利维坦不超过10英尺的空间内。如果利维坦死亡，被吞下的生物不再受其影响，可以使用20英尺的移动来逃离尸体，从{@condition prone}处离开。"
 					]
 				}
 			],
@@ -564,7 +564,7 @@
 							"items": {
 								"name": "Flipper",
 								"entries": [
-									"{@atk mw} {@hit 8} to hit, reach 10 ft., one target not {@condition grappled} by the whale. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+									"{@atk mw} {@hit 8} 命中，达到10英尺，一个目标不受鲸鱼的影响。造成{@h}14 ({@damage 2d8 + 5}) 钝击伤害。如果目标是生物，它必须成功进行一次{@dc 16} 力量豁免才能不被击倒。"
 								]
 							}
 						}

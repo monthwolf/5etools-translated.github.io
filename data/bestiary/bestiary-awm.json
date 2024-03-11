@@ -35,7 +35,7 @@
 				{
 					"name": "Invisible in Water",
 					"entries": [
-						"The big water slurpent is {@condition invisible} while fully immersed in water."
+						"当完全浸泡在水中时，大水蛇的速度为{@condition invisible}。"
 					]
 				},
 				{
@@ -49,7 +49,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, one target. {@h}13 ({@damage 3d6+3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}) and pulled 5 feet toward the big water slurpent. Until this grapple ends, the target is {@condition restrained}, the big water slurpent tries to drown it, and the big water slurpent can't constrict another target."
+						"{@atk mw}进行攻击，一个目标。{@h}13 ({@damage 3d6+3}) 钝击伤害。如果目标是中等或更小，它被{@condition grappled} (逃脱 {@dc 13}) 并被拉向大水蛇。直到这次擒抱结束，目标被{@condition restrained}，大水蛇试图将其淹死，并且大水蛇不能够再压制另一个目标。"
 					]
 				}
 			],
@@ -103,7 +103,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"Birdsquirrel has advantage on an attack roll against a creature if at least one of the Birdsquirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一只鸟松鼠的盟友在离生物5英尺范围内且该盟友不是{@condition incapacitated}时，鸟松鼠对该生物的攻击投掷获得优势。"
 					]
 				}
 			],
@@ -117,13 +117,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6+2}) piercing damage."
+						"{@atk mw} {@hit 4}攻击，射程5英尺，一个目标。造成{@h}5 ({@damage 1d6+2})穿刺伤害。"
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4+2}) slashing damage."
+						"{@atk mw} {@hit 4}攻击，射程5英尺，目标一个。造成{@h}4 ({@damage 1d4+2})点割伤伤害。"
 					]
 				}
 			],
@@ -177,7 +177,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The Boontu monkey has advantage on an attack roll against a creature if at least one of the boontu monkey's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一只博恩图猴的盟友在离生物5英尺范围内且盟友不是{@condition incapacitated}，那么博恩图猴在对该生物进行攻击检定时具有优势。"
 					]
 				}
 			],
@@ -331,13 +331,13 @@
 				{
 					"name": "Illusory Appearance",
 					"entries": [
-						"The hag covers herself with a magical illusion that allows her to look like another creature of her general size and shape. The illusion ends when the hag chooses, or if she dies. A {@dc 20} Intelligence ({@skill Investigation}) check will expose the hag's disguise."
+						"这个女巫用魔法幻象覆盖自己，让她看起来像另一个大致相同大小和形状的生物。幻象会在女巫选择结束，或者她死亡时消失。进行一次{@dc 20}智力检定({@skill Investigation})可以揭穿女巫的伪装。"
 					]
 				},
 				{
 					"name": "Invisible Passage",
 					"entries": [
-						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her {@status concentration} ends. While {@condition invisible}, she leaves no physical evidence of her passage, and can only be tracked by magic."
+						"这个女巫用魔法将{@condition invisible}转变，直到她发动攻击或施放法术，或者她的{@status concentration}结束。在{@condition invisible}期间，她不留下任何身体证据，只能通过魔法追踪。"
 					]
 				},
 				{
@@ -409,7 +409,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+						"地精可以在每个回合的奖励动作中选择执行{@action Disengage}或{@action Hide}动作。"
 					]
 				}
 			],
@@ -794,7 +794,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The couatl's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring only verbal components:"
+						"凤蛇的施法能力是魅力（法术豁免{@dc 14}）。它可以天生施放以下法术，只需要口头组件："
 					],
 					"will": [
 						"{@spell detect evil and good}",

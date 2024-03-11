@@ -167,7 +167,7 @@
 									"type": "item",
 									"name": "4. Blinding Ray",
 									"style": "italic",
-									"entry": "The target and each creature within 10 feet of it must succeed on a {@dc 22} Constitution saving throw or take 19 ({@damage 3d12}) radiant damage and be {@condition blinded} for 1 minute. Until this blindness ends, Belyshyrra can see through the {@condition blinded} creature's eyes. The {@condition blinded} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "目标及其周围每个生物必须成功进行一次 {@dc 22} 体质豁免才能免疫 19 ({@damage 3d12}) 点辐射伤害，并在接下来的 1 分钟内处于失明状态。在失明效果结束前，贝利希拉可以透过被影响生物的眼睛看到周围。被影响的生物可以在自己的回合结束时重复进行豁免才能，若成功则结束效果。"
 								}
 							]
 						}
@@ -307,7 +307,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The knight is an 8th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following paladin spells prepared:"
+						"这位骑士是一名8级法术施展者。它的法术施展能力是魅力（法术豁免 {@dc 14}，用法术攻击命中为 {@hit 6}）。它已准备了以下圣骑士法术："
 					],
 					"spells": {
 						"1": {
@@ -560,13 +560,13 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The clawfoot has advantage on an attack roll against a creature if at least one of the clawfoot's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一只爪足的盟友在离生物5英尺范围内且该盟友不是{@condition incapacitated}，则爪足在对该生物进行攻击投掷时具有优势。"
 					]
 				},
 				{
 					"name": "Pounce",
 					"entries": [
-						"If the clawfoot moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the clawfoot can make one bite attack against it as a bonus action."
+						"如果爪足移动至少20英尺直线向生物移动，然后在同一回合内用爪攻击命中它，那个目标必须成功进行一次{@dc 11}力量豁免才能不被击倒{@condition prone}。如果目标被{@condition prone}，爪足可以作为一个奖励动作对其进行一次咬攻击。"
 					]
 				}
 			],
@@ -744,7 +744,7 @@
 				{
 					"name": "Vitality Drain",
 					"entries": [
-						"One creature {@condition grappled} by a tentacle of the dolgaunt must make a {@dc 11} Constitution saving throw. On a failed save, the target takes 9 ({@damage 2d8}) necrotic damage, and the dolgaunt regains a number of hit points equal to half the necrotic damage taken."
+						"一只生物{@condition grappled}被多尔冈触手抓住，必须进行一个{@dc 11}体质豁免才能。未能通过豁免的目标会受到9 ({@damage 2d8}) 点死灵伤害，而多尔冈会回复等同于所受死灵伤害一半的生命值。"
 					]
 				}
 			],
@@ -824,7 +824,7 @@
 				{
 					"name": "Dual Consciousness",
 					"entries": [
-						"The dolgrim has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+						"多尔格瑞姆 (dolgrim) 在豁免投掷中对于被 {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned} 和被击倒 (knocked) 拥有优势。"
 					]
 				}
 			],
@@ -945,7 +945,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The hag's spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells, requiring no material components:"
+						"这个女巫的施法能力是魅力（法术豁免{@dc 15}）。她可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -989,7 +989,7 @@
 				{
 					"name": "Nightmare Touch",
 					"entries": [
-						"{@atk ms} {@hit 7} to hit, reach 5 ft., one creature. {@h}18 ({@damage 4d6 + 4}) psychic damage. If the target is {@condition unconscious}, it takes an extra 10 ({@damage 3d6}) psychic damage and is cursed until the hag dies or the curse is removed. The cursed creature's hit point maximum decreases by 5 ({@dice 1d10}) whenever it finishes a long rest."
+						"{@atk ms} {@hit 7} 进行攻击，射程5英尺，一名生物。受到{@h}18 ({@damage 4d6 + 4}) 精神伤害。如果目标是{@condition unconscious}，则额外受到10 ({@damage 3d6}) 精神伤害，并且被妖婆诅咒，直到妖婆死亡或诅咒被解除。被诅咒的生物的生命值上限在每次完成长休后减少5 ({@dice 1d10})。"
 					]
 				}
 			],
@@ -1150,7 +1150,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Dyrrn makes one Tentacle Whip attack and uses its Corruption once. Dyrrn can replace its Tentacle Whip attack with Extract Brain if it has a creature {@condition grappled}."
+						"迪恩(Dyrrn)进行一次触手鞭打攻击，并使用其一次腐化(Corruption)。如果迪恩有一名生物{@condition grappled}，则可以用提取大脑(Extract Brain)替换触手鞭打攻击。"
 					]
 				},
 				{
@@ -1475,7 +1475,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The quori's spellcasting ability is Intelligence (spell save {@dc 16}). It can innately cast the following spells, requiring no components:"
+						"库奥瑞的施法能力是智力（法术豁免{@dc 16}）。它可以天生施放以下法术，无需任何材料："
 					],
 					"will": [
 						"{@spell charm person}"
@@ -1516,7 +1516,7 @@
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 16} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition incapacitated} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"quori可以看到的5英尺内的一个人形生物必须成功通过一个{@dc 16} 魅力豁免才能不被quori附身；quori随后消失，目标被{@condition incapacitated} 并失去对自己身体的控制。quori现在控制着身体，但不剥夺目标的意识。quori不能成为任何攻击、法术或其他效果的目标，并保留其属性、智力、感知、魅力和免疫被{@condition charmed} 和{@condition frightened}。它否则使用被附身目标的统计数据，但不获得目标的知识、职业特性或熟练加成。",
 						"附身持续到身体下降到0命中率，quori以额外行动结束它，或者quori被像{@spell dispel evil and good}法术这样的效果逼出来。当附身结束时，quori会重新出现在身体周围5英尺内的一个无人空间。目标在蓄力成功后或附身结束后的24小时内，对这个quori的附身有免疫力。"
 					]
 				}
@@ -1633,7 +1633,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Inspired's spellcasting ability is Intelligence (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+						"启发者的施法能力是智力（法术豁免 {@dc 13}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell mage hand}",
@@ -1706,7 +1706,7 @@
 									"type": "entries",
 									"name": "All Around Vision",
 									"entries": [
-										"The Inspired can't be {@quickref Surprise|PHB|3|0|surprised}."
+										"被启发者不能是{@quickref Surprise|PHB|3|0|surprised}。"
 									]
 								},
 								{
@@ -1799,7 +1799,7 @@
 							"items": {
 								"name": "All Around Vision",
 								"entries": [
-									"The Inspired can't be {@quickref Surprise|PHB|3|0|surprised}."
+									"被启发者不能是{@quickref Surprise|PHB|3|0|surprised}。"
 								]
 							}
 						}
@@ -1881,7 +1881,7 @@
 				{
 					"name": "Keen Senses",
 					"entries": [
-						"The defender has advantage on Wisdom ({@skill Perception}) checks."
+						"防御者在感知检定上有优势。"
 					]
 				},
 				{
@@ -1895,7 +1895,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or take an extra 3 ({@damage 1d6}) piercing damage and be {@condition grappled} (escape {@dc 13}). The defender can have only one creature {@condition grappled} in this way at a time."
+						"{@atk mw}进行攻击，射程5英尺，目标一个。造成{@h}6({@damage 1d6 + 3})点穿刺伤害。如果目标是生物，它必须成功进行一次{@dc 13}力量豁免才能额外受到3({@damage 1d6})点穿刺伤害，并被{@condition grappled}（逃脱{@dc 13}）。防御者一次只能对一个生物使用这种方式。"
 					]
 				}
 			],
@@ -2015,7 +2015,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The quori's spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"库奥瑞的施法能力是魅力（法术豁免{@dc 21}，用法术攻击命中为{@hit 13}）。它可以天生施放以下法术，无需材料成分："
 					],
 					"will": [
 						"{@spell arcane eye}"
@@ -2035,13 +2035,13 @@
 				{
 					"name": "All-Around Vision",
 					"entries": [
-						"The quori can't be {@quickref Surprise|PHB|3|0|surprised} while it isn't {@condition incapacitated}."
+						"当它不是{@condition incapacitated}时，奎瑞无法成为{@quickref Surprise|PHB|3|0|surprised}。"
 					]
 				},
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The quori can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"库奥瑞可以像{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在物体内结束回合，它会受到5点({@damage 1d10})力量伤害。"
 					]
 				},
 				{
@@ -2074,19 +2074,19 @@
 					"name": "Mind Seed (1/Day)",
 					"entries": [
 						"奎里接触到一个人形生物，这个人必须在一个{@dc 21}智力测验中成功，否则就会被诅咒。诅咒持续到它被移除诅咒或{@spell greater restoration}的法术所消除。",
-						"The cursed target suffers 1 level of {@condition exhaustion} every 24 hours, and finishing a long rest doesn't reduce its {@condition exhaustion}. If the cursed target reaches {@condition exhaustion} level 6, it doesn't die; it instead becomes a thrall under the quori's control, and all its {@condition exhaustion} is removed. Only the {@spell wish} spell can free the thrall from this control."
+						"被诅咒的目标每24小时受到1级{@condition exhaustion}的伤害，完成长休也无法减轻其{@condition exhaustion}。如果被诅咒的目标达到{@condition exhaustion} 6级，它不会死亡；相反，它会成为库奥利控制下的奴隶，并且其{@condition exhaustion}会被移除。只有{@spell wish}法术才能将奴隶从这种控制中解救出来。"
 					]
 				},
 				{
 					"name": "Swarm of Eyes {@recharge}",
 					"entries": [
-						"The quori creates a swarm of spectral eyes that fills a 30-foot-radius sphere centered on a point it can see within 60 feet of it. Each creature in that area must make a {@dc 21} Wisdom saving throw. On a failure, a creature takes 45 ({@damage 10d8}) psychic damage, and it is {@condition blinded} for 1 minute. On a success, a creature takes half as much damage and isn't {@condition blinded}. A {@condition blinded} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"魂魄创造了一群幽灵眼，填满了以其能看到的点为中心的半径30英尺的球体范围内，范围内的每个生物必须进行一次{@dc 21}感知豁免投骰。失败的生物会受到45点({@damage 10d8})精神伤害，并且会被{@condition blinded}1分钟。成功的生物会受到一半伤害，并且不会被{@condition blinded}。一个{@condition blinded}生物可以在每个回合结束时重复豁免投骰，成功则结束自身效果。"
 					]
 				},
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 21} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition incapacitated} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"quori可以看到的5英尺内的一个人形生物必须成功通过一个{@dc 21} 魅力豁免才能不被quori附身；然后quori消失，目标被{@condition incapacitated} 并失去对自己身体的控制。quori现在控制着这具身体，但不剥夺目标的意识。quori不能成为任何攻击、法术或其他效果的目标，并保留其属性、智力、感知、魅力和免疫被{@condition charmed} 和{@condition frightened}。它以其他方式使用被附身目标的统计数据，但不获得目标的知识、职业特性或熟练加成。",
 						"附身持续到身体下降到0命中率，quori以额外行动结束它，或者quori被像{@spell dispel evil and good}法术这样的效果逼出来。当附身结束时，quori会重新出现在身体周围5英尺内的一个无人空间。目标在蓄力成功后或附身结束后的24小时内，对这个quori的附身有免疫力。"
 					]
 				}
@@ -2290,7 +2290,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The soldier has advantage on an attack roll against a creature if at least one of the soldier's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果士兵的至少一个盟友在离生物5英尺范围内且该盟友不是{@condition incapacitated}，则士兵对该生物的攻击投掷获得优势。"
 					]
 				},
 				{
@@ -2449,7 +2449,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Illmarrow is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Illmarrow has the following wizard spells prepared:"
+						"伊尔玛罗是一名20级的法术施展者。她的法术能力是智力（法术豁免 {@dc 23}，用法术攻击命中为 {@hit 15}）。伊尔玛罗已准备好以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -2574,7 +2574,7 @@
 				{
 					"name": "Poison Breath {@recharge 5}",
 					"entries": [
-						"Illmarrow exhales poisonous gas in a 30-foot cone. Each creature in that area must make a {@dc 20} Constitution saving throw. On a failed save, a creature takes 35 ({@damage 10d6}) poison damage and is {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the creature can't regain hit points. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}.",
+						"伊尔玛罗在一个30英尺锥形区域内呼出有毒气体。该区域内的每个生物必须进行一次{@dc 20}体质豁免检定。未通过豁免检定的生物会受到35点({@damage 10d6})毒性伤害，并且在1分钟内处于{@condition poisoned}状态。在这种状态下，生物无法恢复生命值。通过豁免检定的生物只会受到一半伤害，并且不会处于{@condition poisoned}状态。",
 						"一个被此伤害降低到0命中率的类人死亡，并在伊尔马罗的下一回合开始时作为僵尸复活。该僵尸在主动权计算中紧随伊尔马罗之后行动，并永久处于她的指挥之下，听从她的口头命令。"
 					]
 				}
@@ -2872,7 +2872,7 @@
 					"name": "Spell Mimicry {@recharge 5}",
 					"entries": [
 						"活体法术在其周围60英尺范围内创造一个直径40英尺的雾球（雾会在拐角处扩散）。当一个生物在一个回合中第一次进入雾中或在那里开始它的回合时，它必须做一个{@dc 16}宪法救赎，在救赎失败时受到22({@damage 5d8})的毒药伤害，或在成功时受到一半的伤害。",
-						"The fog moves 10 feet away from the living spell at the start of each of its turns, rolling along the ground and through openings. The fog lasts for 10 minutes or until the living spell's {@status concentration} ends (as if {@status concentration||concentrating} on a spell)."
+						"每当活拼字开始每个回合时，雾会向远离它10英尺的地方移动，沿着地面滚动并穿过开口。雾持续10分钟，或者直到活拼字的{@status concentration}结束（就像{@status concentration||concentrating}上的一个法术）。"
 					]
 				}
 			],
@@ -3063,7 +3063,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The magewright's spellcasting ability is Intelligence (spell save {@dc 12}). To cast one of its rituals, the magewright must provide additional material components whose value in gold pieces is 20 times the spell's level. These components are consumed when the ritual is finished. The magewright knows the following spells:"
+						"术士工匠的施法能力是智力（法术豁免{@dc 12}）。要施展其中一个仪式法术，术士工匠必须提供额外的材料组件，其金币价值是该法术等级的20倍。这些组件在仪式完成时被消耗。术士工匠知道以下法术："
 					],
 					"will": [
 						"{@spell mage hand}",
@@ -3186,7 +3186,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Mordakhesh's spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Mordakhesh can innately cast the following spells, requiring no material components:"
+						"莫达凯什的施法能力是魅力（法术豁免 {@dc 18}，用法术攻击命中时为 {@hit 10}）。莫达凯什可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell chromatic orb} (see \"Actions\" below)",
@@ -3239,7 +3239,7 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"Mordakhesh makes one weapon attack or casts {@spell chromatic orb}."
+						"莫达克什进行一次武器攻击或施放{@spell chromatic orb}。"
 					]
 				},
 				{
@@ -3373,7 +3373,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The radiant idol's spellcasting ability is Charisma (spell save {@dc 17}). The radiant idol can innately cast the following spells, requiring no material components:"
+						"光辉偶像的施法能力是魅力（法术豁免{@dc 17}）。光辉偶像可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell charm person}",
@@ -3397,7 +3397,7 @@
 				{
 					"name": "Aura of False Divinity",
 					"entries": [
-						"A creature that starts its turn within 30 feet of the radiant idol must make a {@dc 17} Wisdom saving throw, provided the radiant idol isn't {@condition incapacitated}. On a failed save, the creature is {@condition charmed} by the radiant idol. A creature {@condition charmed} in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, a creature is immune to this radiant idol's Aura of False Divinity for 24 hours."
+						"在距离光辉偶像30英尺范围内开始其回合的生物必须进行一次{@dc 17}感知豁免才能，前提是光辉偶像不是{@condition incapacitated}。未通过豁免的生物会被光辉偶像{@condition charmed}。以这种方式受到影响的生物可以在自己的回合结束时重复进行豁免才能，若成功则结束自身的影响。一旦成功通过豁免，生物对这个光辉偶像的虚假神性光环将免疫24小时。"
 					]
 				},
 				{
@@ -3568,7 +3568,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Rak Tulkhesh's spellcasting ability is Charisma (spell save {@dc 24}). He can innately cast the following spells, requiring no material components:"
+						"拉克图尔克什的施法能力是魅力（法术豁免{@dc 24}）。他可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell detect thoughts}",
@@ -3895,7 +3895,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sul Khatesh's spellcasting ability is Intelligence (spell save {@dc 26}, {@hit 18} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+						"苏尔·卡特什的施法能力是智力（法术豁免 {@dc 26}，用法术攻击命中为 {@hit 18}）。她可以天生施放以下法术，无需任何材料成分："
 					],
 					"will": [
 						"{@spell counterspell}",
@@ -3942,7 +3942,7 @@
 				{
 					"name": "Master of Magic",
 					"entries": [
-						"Sul Khatesh has advantage on Constitution saving throws to maintain {@status concentration}."
+						"苏尔·卡特什 (Sul Khatesh) 在维持 {@status concentration} 时对体质豁免 throws 有优势。"
 					]
 				}
 			],
@@ -3989,7 +3989,7 @@
 				{
 					"name": "Consume Magic (Costs 2 Actions)",
 					"entries": [
-						"Sul Khatesh targets a creature within 120 feet of her who is {@status concentration||concentrating} on a spell. The target must succeed on a {@dc 26} Constitution saving throw or its {@status concentration} is broken on the spell, and Sul Khatesh gains 5 temporary hit points per level of that spell."
+						"苏尔·卡特什(Sul Khatesh)瞄准距离120英尺内的一个生物，该生物{@status concentration||concentrating}受到一个法术的影响。目标必须通过一次{@dc 26}体质豁免才能保持对该法术的控制，否则法术对其产生破坏，并且苏尔·卡特什获得该法术每级5点临时生命值。"
 					]
 				},
 				{
@@ -4272,7 +4272,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Lord of Blades is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He has the following artificer spells prepared:"
+						"刀锋领主是一名20级法术施展者。他的法术施展能力是智力（法术豁免 {@dc 18}，用法术攻击命中时为 {@hit 10}）。他已准备了以下工匠法术："
 					],
 					"spells": {
 						"0": {
@@ -4342,13 +4342,13 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the Lord of Blades moves at least 10 feet straight toward a target and then hits it with his adamantine sixblade on the same turn, the target takes an extra 11 ({@damage 2d10}) slashing damage. If the target is a creature, it must succeed on a {@dc 19} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+						"如果刀锋领主向目标直线移动至少10英尺，然后在同一回合用他的精金六刃击中目标，目标会额外受到11({@damage 2d10})点割伤伤害。如果目标是生物，它必须成功进行一次{@dc 19}力量豁免才能不被推开最多10英尺并被击倒{@condition prone}。"
 					]
 				},
 				{
 					"name": "Warforged Resilience",
 					"entries": [
-						"The Lord of Blades has advantage on saving throws against being {@condition poisoned}, is immune to disease, and magic can't put him to sleep."
+						"刀锋领主在豁免抗性检定中获得优势，免疫疾病，而魔法无法让他进入睡眠状态。"
 					]
 				}
 			],
@@ -4515,7 +4515,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The quori's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no components:"
+						"库奥里的施法能力是魅力（法术豁免{@dc 14}）。它可以天生施放以下法术，无需任何材料："
 					],
 					"will": [
 						"{@spell charm person}"
@@ -4556,7 +4556,7 @@
 				{
 					"name": "Possession {@recharge}",
 					"entries": [
-						"One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 14} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition incapacitated} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"quori可以看到的5英尺内的一个人形生物必须成功通过一个{@dc 14}魅力豁免才能免受quori的控制；quori随后消失，目标被{@condition incapacitated}并失去对自己身体的控制。quori现在控制着这具身体，但不剥夺目标的意识。quori不能成为任何攻击、法术或其他效果的目标，并保留其属性、智力、感知、魅力和免疫被{@condition charmed}和{@condition frightened}。它以其他方式使用被控制目标的统计数据，但不获得目标的知识、职业特性或熟练加成。",
 						"附身持续到身体下降到0命中率，quori以额外行动结束它，或者quori被像{@spell dispel evil and good}法术这样的效果逼出来。当附身结束时，quori会重新出现在身体周围5英尺内的一个无人空间。目标在蓄力成功后或附身结束后的24小时内，对这个quori的附身有免疫力。"
 					]
 				}
@@ -4677,7 +4677,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The councilor is a 13th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It has the following cleric spells prepared:"
+						"议员是一名13级法术施展者。它的法术能力是智力（法术豁免 {@dc 17}，使用法术攻击时命中加值为 {@hit 9}）。它准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -4782,7 +4782,7 @@
 				{
 					"name": "Flame Strike (5th-Level Spell; Requires a Spell Slot)",
 					"entries": [
-						"The councilor chooses a point it can see within 60 feet of it. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on that point must make a {@dc 17} Dexterity saving throw. A creature takes 14 ({@damage 4d6}) fire damage and 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one. If the councilor casts this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (its choice) increases by {@dice 1d6} for each slot level above 5th."
+						"议员选择一个距离它60英尺内可见的点。以该点为中心的半径为10英尺、高度为40英尺的圆柱范围内的每个生物必须进行一次{@dc 17} 敏捷豁免。未通过豁免的生物会受到14点({@damage 4d6}) 火焰伤害和14点({@damage 4d6}) 光辉伤害，通过豁免的生物则只受到一半伤害。如果议员使用6级或更高级别的法术位施放此法术，则火焰伤害或光辉伤害（由其选择）会每超过5级的位级增加{@dice 1d6}。"
 					]
 				}
 			],
@@ -5028,7 +5028,7 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"The hawk has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+						"这只鹰在依赖视觉的感知检定中拥有优势。"
 					]
 				}
 			],
@@ -5110,7 +5110,7 @@
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"The hound has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+						"猎犬在依赖听觉或嗅觉的感知检定中获得优势。"
 					]
 				}
 			],
@@ -5338,7 +5338,7 @@
 				{
 					"name": "Stomp",
 					"entries": [
-						"The colossus stomps one of its feet at a point on the ground within 20 feet of it. Any creature in a 20-foot-radius, 20-foot-high cylinder centered on this point must succeed on a {@dc 26} Dexterity saving throw or take 33 ({@damage 6d10}) bludgeoning damage and fall {@condition prone}. Until the colossus uses its Stomp again or moves, the creature is {@condition restrained}. While {@condition restrained} in this way, the creature (or another creature within 5 feet of it) can use its action to make a {@dc 26} Strength check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer {@condition restrained}.",
+						"巨像在距离自己20英尺内的地面上猛踩一只脚。20英尺半径、20英尺高的圆柱体范围内的任何生物必须通过一次{@dc 26}敏捷豁免才能避免受到33点（{@damage 6d10}）的钝击伤害并倒地{@condition prone}。在巨像再次使用其踩踏能力或移动之前，该生物会被{@condition restrained}。在这种状态下，该生物（或距离它5英尺内的另一个生物）可以使用动作进行一次{@dc 26}力量检定。若成功，该生物可以移动到离巨像5英尺范围内自己选择的未被占据的空间，并且不再处于{@condition restrained}。",
 						"建筑物以及既没有被穿戴也没有被携带的非魔法物品，如果在圆柱体中，会受到同样的伤害（没有救赎）。"
 					]
 				},
@@ -5443,7 +5443,7 @@
 				{
 					"name": "Warforged Resilience",
 					"entries": [
-						"The warforged has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put it to sleep."
+						"战争铁甲生物在抵抗{@condition poisoned}方面有优势，并且对疾病免疫。魔法无法让它入睡。"
 					]
 				}
 			],
@@ -5694,7 +5694,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The rakshasa's innate spellcasting ability is Charisma (spell save {@dc 11}). The rakshasa can innately cast the following spells, requiring no material components:"
+						"拉克夏沙的天生施法能力是魅力（法术豁免{@dc 11}）。拉克夏沙可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell detect thoughts}",
@@ -5724,7 +5724,7 @@
 				{
 					"name": "Martial Prowess (1/Turn)",
 					"entries": [
-						"When the rakshasa hits a creature with a melee weapon attack, the attack deals an extra 11 ({@dice 2d10}) damage of the weapon's type, and the creature must make a {@dc 15} Strength saving throw. On a failure, the rakshasa can push the creature up to 10 feet away from it, knock the creature {@condition prone}, or make the creature drop one item it is holding of the rakshasa's choice."
+						"当拉克夏撒用近战武器攻击生物时，攻击会额外造成武器类型的 11 点伤害，生物必须进行一次{@dc 15}力量豁免。如果未通过，拉克夏撒可以将生物推开 10 英尺，使生物{@condition prone}，或者让生物掉落拉克夏撒选择的一个物品。"
 					]
 				}
 			],

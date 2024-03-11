@@ -75,7 +75,7 @@
 				{
 					"name": "False Object",
 					"entries": [
-						"If the broom is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the broom move or act, that creature must succeed on a {@dc 15} Wisdom ({@skill Perception}) check to discern that the broom is animate."
+						"如果扫帚在战斗开始时静止不动，它在先攻骰投中获得优势。此外，如果一个生物没有看到扫帚移动或行动，那个生物必须成功进行一次 {@dc 15} 智力 ({@skill Perception}) 检定，才能辨别出扫帚是有生命的。"
 					]
 				},
 				{
@@ -169,7 +169,7 @@
 				{
 					"name": "False Object",
 					"entries": [
-						"If the library is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the library move or act, that creature must succeed on a {@dc 15} Wisdom ({@skill Perception}) check to discern that the library is animate."
+						"如果图书馆在战斗开始时静止不动，它在先攻骰中获得优势。此外，如果一个生物没有看到图书馆移动或行动，那个生物必须成功进行一次 {@dc 15} 智力 ({@skill Perception}) 检定，才能辨别出图书馆是有生命的。"
 					]
 				}
 			],
@@ -265,7 +265,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Quill casts one of the following spells using Charisma as the spellcasting ability (save {@dc 17}):"
+						"毛笔使用魅力作为施法能力施放以下其中一个法术（豁免 {@dc 17}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -478,7 +478,7 @@
 				{
 					"name": "Deflect Missile",
 					"entries": [
-						"In response to being hit by a ranged weapon attack, Bak Mei deflects the missile. The damage he takes from the attack is reduced by {@dice 1d10 + 12}. If the damage is reduced to 0, Bak Mei catches the missile if it's small enough to hold in one hand and Bak Mei has a hand free."
+						"当被远程武器攻击击中时，白眉（Bak Mei）会偏转飞来的飞弹。他受到的伤害会减少 {@dice 1d10 + 12}。如果伤害减少到0，白眉会抓住飞弹，前提是飞弹足够小可以用一只手拿住，而且白眉有一只手是空着的。"
 					]
 				}
 			],
@@ -751,7 +751,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The ghost can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"这个幽灵可以像穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在物体内结束回合，它会受到5点({@damage 1d10})力场伤害。"
 					]
 				},
 				{
@@ -1091,7 +1091,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Faerl has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Faerl在豁免投掷中对被 {@condition charmed} 的情况有优势，并且魔法无法让他入睡。"
 					]
 				}
 			],
@@ -1214,7 +1214,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The fungal servant is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The fungal servant has the following cleric spells prepared:"
+						"真菌仆从是一名10级法术施法者。它的法术属性是智力（法术豁免 {@dc 17}，法术攻击命中加值 {@hit 9}）。真菌仆从准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -1294,13 +1294,13 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to spores. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+						"{@atk mw} 近战攻击，射程5英尺，一目标。对目标造成{@h}14 ({@damage 3d6 + 4}) 钝击伤害加上21 ({@damage 6d6}) 死灵伤害。如果目标是生物，必须通过{@dc 16} 体质豁免才能免疫木乃伊腐烂。被诅咒的目标无法恢复生命值，其生命值上限每24小时减少10 ({@dice 3d6})。如果诅咒将目标的生命值上限降至0，目标死亡，其身体变成孢子。诅咒持续直到被{@spell remove curse} 法术或其他魔法移除。"
 					]
 				},
 				{
 					"name": "Dreadful Glare",
 					"entries": [
-						"The fungal servant targets one creature it can see within 60 feet of it. If the target can see the fungal servant, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition frightened} until the end of the fungal servant's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all fungal servants for the next 24 hours."
+						"真菌仆从选择在其视线范围内的一名生物作为目标，距离不超过60英尺。如果目标能看见真菌仆从，它必须进行一次{@dc 16}感知豁免魔法检定，否则在真菌仆从的下一个回合结束前，它将变为{@condition frightened}。如果目标的豁免检定失败值超过5，它还会在同样的时间内变为{@condition paralyzed}。成功通过豁免检定的目标在接下来的24小时内对所有真菌仆从的可怖凝视免疫。"
 					]
 				}
 			],
@@ -1888,7 +1888,7 @@
 				{
 					"name": "Deflect Missile",
 					"entries": [
-						"In response to being hit by a ranged weapon attack, Jade Tigress deflects the missile. The damage she takes from the attack is reduced by {@dice 1d10 + 9}. If the damage is reduced to 0, Jade Tigress catches the missile if it's small enough to hold in one hand and Jade Tigress has a hand free."
+						"当青玉虎被远程武器攻击时，她会将抛射物击退。她受到的攻击伤害会减少 {@dice 1d10 + 9}。如果伤害减少到0，青玉虎会捕捉这个抛射物，前提是它足够小可以用一只手拿住，而且青玉虎有一只手是空着的。"
 					]
 				}
 			],
@@ -1973,7 +1973,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"K'Tulah is a 4th-level spellcaster. K'Tulah's spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). K'Tulah has the following druid spells prepared:"
+						"K'Tulah是一名4级咒术师。K'Tulah的咒术属性是智力（法术豁免{@dc 12}，法术攻击命中加值{@hit 4}）。K'Tulah准备了以下德鲁伊法术："
 					],
 					"spells": {
 						"0": {
@@ -2232,7 +2232,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The lich casts one of the following spells using Wisdom as the spellcasting ability (save {@dc 19}):"
+						"巫妖施放以下其中一个法术，使用智力作为施法能力（豁免检定{@dc 19}）："
 					],
 					"will": [
 						"{@spell druidcraft}"
@@ -2308,7 +2308,7 @@
 				{
 					"name": "Poison Prick (Cost 2 Actions)",
 					"entries": [
-						"The lich targets one {@condition poisoned} creature it can see within 30 feet of it. The target must succeed on a {@dc 19} Constitution saving throw or fall {@condition unconscious} until the {@condition poisoned} condition ends on it."
+						"巫妖选择一个它能看到的距离30英尺以内的生物{@condition poisoned}。目标必须成功通过一次{@dc 19}体质豁免才能免受{@condition poisoned}状态的影响，否则将陷入{@condition unconscious}。"
 					]
 				},
 				{
@@ -2428,8 +2428,8 @@
 				{
 					"name": "Berserk",
 					"entries": [
-						"Whenever the golem starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.",
-						"The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a {@dc 15} Charisma ({@skill Persuasion}) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again."
+						"每当傀儡在其回合开始时拥有40点生命值或更少时，投掷一个{@dice d6}。在掷出6时，傀儡会变得狂暴。在狂暴状态下的每个回合，傀儡会攻击它能看到的最近的生物。如果没有足够接近的生物可以移动并攻击，傀儡会攻击一个物体，优先选择比自己小的物体。一旦傀儡变得狂暴，它会持续这样做，直到被摧毁或恢复所有生命值。",
+						"如果魔像的创造者在60英尺内与狂暴的魔像在一起，可以通过坚定而有说服力地讲话来尝试平息它。魔像必须能够听到它的创造者，创造者必须采取一个行动进行一次 {@dc 15} 魅力 ({@skill Persuasion}) 检定。如果检定成功，魔像将停止狂暴状态。如果在仍然剩下40点生命值或更少时受到伤害，魔像可能会再次变得狂暴。"
 					]
 				},
 				{
@@ -2543,7 +2543,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The sage casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 14}, {@hit 6} to hit with spell attacks):"
+						"智者施放以下其中一个法术，使用智力作为施法能力（豁免检定{@dc 14}，法术攻击命中需要投掷{@hit 6}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -2730,7 +2730,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Miirym casts one of the following spells, using Charisma as the spellcasting ability (save {@dc 21}) and requiring no material components:"
+						"Miirym 施放以下其中一个咒语，使用魅力作为施法能力（豁免 {@dc 21}），并且不需要任何材料成分："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -2768,7 +2768,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"Miirym can move through other creatures and objects as if they were {@quickref difficult terrain||3}. She takes 5 ({@damage 1d10}) force damage if she ends her turn inside an object."
+						"Miirym可以如同{@quickref difficult terrain||3}一样穿过其他生物和物体。如果她在物体内结束自己的回合，她会受到5点({@damage 1d10})力场伤害。"
 					]
 				},
 				{
@@ -2955,7 +2955,7 @@
 				{
 					"name": "Grappler",
 					"entries": [
-						"The mimic has advantage on attack rolls against any creature {@condition grappled} by it."
+						"拟态怪对任何被它模仿的生物{@condition grappled}的攻击投掷获得优势。"
 					]
 				}
 			],
@@ -3069,7 +3069,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Nintra casts one of the following spells, using Charisma as the spellcasting ability (save {@dc 20}) and requiring no material components:"
+						"尼恩特拉(Nintra) 施放以下其中一个咒语，使用魅力作为施法能力（豁免 {@dc 20}），并且不需要任何材料组件："
 					],
 					"daily": {
 						"3e": [
@@ -3262,8 +3262,8 @@
 					"name": "Swallow",
 					"entries": [
 						"贝里尔对正在抓捕的中型或小型目标进行一次咬合攻击。如果攻击命中，目标也会被吞噬，并且抓捕结束。当被吞食时，目标是{@condition blinded}和{@condition restrained}，它对攻击和behir以外的其他效果有完全的掩护，并且在behir的每个回合开始时受到21({@damage 6d6})酸性伤害。吞噬者一次只能吞噬一个生物。",
-						"Any creature swallowed by a parasite-infested behir must succeed on a {@dc 19} Constitution saving throw at the start of each of the behir's turns or be feasted upon by blood parasites, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful save. This damage is in addition to the damage caused by the behir's digestive acids.",
-						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+						"任何被寄生虫感染的巨蛇吞噬的生物，在每个巨蛇回合开始时必须成功进行一次 {@dc 19} 体质豁免才能避免被血液寄生虫吞噬，未能通过检定的生物将受到36 ({@damage 8d8}) 死灵伤害，通过检定的生物则只受到一半伤害。这个伤害是在巨蛇的消化酸造成的伤害之外的。",
+						"如果Behir在一回合内从被吞噬的生物身上受到30点或更多伤害，那么Behir必须在回合结束时进行一次{@dc 14}体质豁免检定，否则将把生物吐出，生物将在距离Behir不超过10英尺的地方落地。如果Behir死亡，被吞噬的生物将不再受到其影响，并可以通过消耗15英尺的移动力从尸体中逃脱，离开{@condition prone}。"
 					]
 				}
 			],
@@ -3361,7 +3361,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ram Sugar is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). Ram Sugar has the following cleric spells prepared:"
+						"瑞姆·萨格（Ram Sugar）是一名4级法术施展者。它的法术施展能力是感知（法术豁免 {@dc 11}，使用法术攻击时命中加值 {@hit 3}）。瑞姆·萨格已准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -3509,7 +3509,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The sage casts one of the following spells, using Intelligence as the spellcasting ability (save {@dc 14}, {@hit 6} to hit with spell attacks):"
+						"智者施放以下其中一个法术，使用智力作为施法能力（豁免检定{@dc 14}，法术攻击命中需要投掷{@hit 6}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -3684,7 +3684,7 @@
 				{
 					"name": "Sapphire",
 					"entries": [
-						"The sapphire has 3 charges. As an action, the golem can expend 1 charge to cast {@spell dispel magic} (as a 9th-level spell) from the sapphire using Constitution as its spellcasting ability. The sapphire ceases to glow if all its charges are expended, but it regains {@dice 1d3} expended charges daily at dawn and glows again once it has 1 or more charges."
+						"蓝宝石有3个充能。作为一个动作，傀儡可以消耗1个充能，使用体质作为施法能力，从蓝宝石中施放{@spell dispel magic}（作为9级法术）。如果所有充能都被消耗，蓝宝石将不再发光，但每天黎明时它会恢复{@dice 1d3}个已消耗的充能，并在具有1个或更多充能时再次发光。"
 					]
 				}
 			],
@@ -3798,7 +3798,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"Shemshime can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"夏姆西姆可以像穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在物体内结束回合，它会受到5点({@damage 1d10})力量伤害。"
 					]
 				}
 			],
@@ -3818,7 +3818,7 @@
 				{
 					"name": "Howling Babble {@recharge}",
 					"entries": [
-						"Shemshime targets one creature it can see within 30 feet of it. The creature must make a {@dc 13} Wisdom saving throw. On a failed save, it takes 21 ({@damage 4d8 + 3}) psychic damage and is {@condition stunned} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition stunned}."
+						"夏姆夏姆 (Shemshime) 瞄准在它能看到的30英尺内的一个生物。该生物必须进行一次 {@dc 13} 意志豁免。未通过豁免的话，受到 21 点 ({@damage 4d8 + 3}) 精神伤害，并在其下一个回合结束前处于 {@condition stunned} 状态。通过豁免的话，受到一半伤害并不处于 {@condition stunned} 状态。"
 					]
 				}
 			],
@@ -4044,7 +4044,7 @@
 				{
 					"name": "Whip",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage or, if the target is a creature, Steel Crane can grapple the target instead (escape {@dc 15}). Steel Crane can't make attacks with the whip while using it to grapple a creature. Anytime on his turn, he can release a creature {@condition grappled} by the whip (no action required)."
+						"{@atk mw} 使用鞭子攻击，射程10英尺，一个目标。造成{@h}6 ({@damage 1d4 + 4}) 斩击伤害，或者，如果目标是生物，钢铁鹤可以代替抓住目标（逃脱 {@dc 15}）。钢铁鹤在用鞭子抓住生物时无法进行攻击。他可以在任何时候释放生物{@condition grappled}通过鞭子（无需动作）。"
 					]
 				},
 				{
@@ -4058,7 +4058,7 @@
 				{
 					"name": "Deflect Missile",
 					"entries": [
-						"In response to being hit by a ranged weapon attack, Steel Crane deflects the missile. The damage he takes from the attack is reduced by {@dice 1d10 + 10}. If the damage is reduced to 0, Steel Crane catches the missile if it's small enough to hold in one hand and Steel Crane has a hand free."
+						"钢鹤（Steel Crane）在受到远程武器攻击时，他会用武器来避开攻击。他受到的伤害会减少 {@dice 1d10 + 10}。如果伤害减少到0，钢鹤会抓住这个武器，如果这个武器足够小可以用一只手拿住，并且钢鹤有一只手是空着的。"
 					]
 				},
 				{
@@ -4270,7 +4270,7 @@
 				{
 					"name": "False Objects",
 					"entries": [
-						"If the swarm is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the swarm move or act, that creature must succeed on a {@dc 15} Wisdom ({@skill Perception}) check to discern that the swarm is animate."
+						"如果虫群在战斗开始时静止不动，它在先攻骰中获得优势。此外，如果一个生物没有观察到虫群移动或行动，那个生物必须成功进行一次{@dc 15}感知({@skill Perception})检定，才能辨别出虫群是有生命的。"
 					]
 				},
 				{
@@ -4382,7 +4382,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Valin Sarnaster is a 10th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Valin has the following cleric spells prepared:"
+						"瓦林·萨纳斯特（Valin Sarnaster）是一名10级法术施展者。她的法术能力是智力（法术豁免 {@dc 17}，法术攻击命中加值 {@hit 9}）。瓦林准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -4462,13 +4462,13 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+						"{@atk mw} 近战攻击，射程5英尺，一目标。对目标造成{@h}14 ({@damage 3d6 + 4}) 钝击伤害加上21 ({@damage 6d6}) 死灵伤害。如果目标是生物，必须通过{@dc 16} 体质豁免才能免疫木乃伊腐烂。被诅咒的目标无法恢复生命值，其生命值上限每过24小时减少10 ({@dice 3d6})。如果诅咒将目标的生命值上限降至0，目标死亡，尸体变成尘土。诅咒持续直到被{@spell remove curse} 法术或其他魔法移除。"
 					]
 				},
 				{
 					"name": "Dreadful Glare",
 					"entries": [
-						"Valin targets one creature she can see within 60 feet of her. If the target can see Valin, it must succeed on a {@dc 16} Wisdom saving throw against this magic or become {@condition frightened} until the end of Valin's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
+						"瓦琳（Valin）瞄准她能看见的距离60英尺内的一个生物。如果目标能看见瓦琳，它必须成功通过一次{@dc 16}对抗此魔法的感知豁免才能免受{@condition frightened}，直到瓦琳的下一个回合结束。如果目标的豁免检定失败值超过5，它也会被{@condition paralyzed}同样的时间。成功通过豁免检定的目标在接下来的24小时内对所有木乃伊和木乃伊领主的可怕凝视免疫。"
 					]
 				}
 			],
@@ -4622,7 +4622,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Varnyr has advantage on saving throws against being {@condition charmed}, and magic can't put Varnyr to sleep."
+						"Varnyr在豁免投掷中对被{@condition charmed}影响具有优势，并且魔法无法让Varnyr进入睡眠状态。"
 					]
 				}
 			],
@@ -4882,7 +4882,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"Zikzokrishka makes a Wisdom ({@skill Perception}) check."
+						"Zikzokrishka 进行一次感知（{@skill Perception}）检定。"
 					]
 				},
 				{

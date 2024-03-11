@@ -66,7 +66,7 @@
 				{
 					"name": "Rejuvenation",
 					"entries": [
-						"When the plant dies, it returns to life in the place where it died {@dice 1d12} months later, unless the ground where it took root is sown with salt or soaked with poison."
+						"当植物死亡时，它会在死亡地点{@dice 1d12}个月后重新生长，除非它生长的土地撒上盐或浸泡在毒药中。"
 					]
 				},
 				{
@@ -92,8 +92,8 @@
 				{
 					"name": "Entrapping Pod",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one Medium or smaller creature {@condition grappled} by the plant. {@h}22 ({@damage 4d8 + 4}) acid damage, and the target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is {@condition restrained}, and it has total cover against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a {@dc 16} Constitution saving throw or be {@condition stunned} by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of {@condition exhaustion} for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment.",
-						"As an action, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful {@dc 15} Strength check. If the plant dies, the target is no longer {@condition restrained} and can escape from the pod by spending 10 feet of movement, exiting {@condition prone}. The plant has one pod, which can envelop one creature at a time."
+						"{@atk mw} {@hit 7} 命中，达到5英尺，一个中型或更小的生物{@condition grappled}被植物攻击。受到{@h}22 ({@damage 4d8 + 4})点酸性伤害，并且目标被拉入植物的空间并被茎包围，抓取结束。被包围时，目标被{@condition restrained}，并且对于源自茎外部的攻击和效果具有完全掩护。被包围的目标还必须立即进行一次{@dc 16}体质豁免检定，否则将被植物的吸收酶所{@condition stunned}，直到被从茎或植物中移除或植物死亡。被包围的目标不需要空气，并且每在茎中度过1小时，就会获得1级{@condition exhaustion}。如果被包围的目标在茎中死亡，它将立即作为一个活着的幼苗从茎中出现，穿着或携带所有原始生物的装备。",
+						"作为一个动作，一个在范围5英尺之内的生物可以打开(bodytaker plant)植物的茧，并通过成功的{@dc 15}力量检定将目标解救出来。如果植物死亡，目标将不再受到{@condition restrained}效果的影响，并可以花费10英尺的移动来逃离茧，从中脱身{@condition prone}。该植物有一个茧，一次只能包裹一个生物。"
 					]
 				}
 			],
@@ -193,7 +193,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The boneless makes two Slam attacks. If both attacks hit a Large or smaller creature, the creature is {@condition grappled} (escape {@dc 13}), and the boneless can use Crushing Embrace."
+						"无骨者进行两次猛击攻击。如果两次攻击都命中了一个大型或更小的生物，该生物被压制（逃脱 DC {@dc 13}），并且无骨者可以使用压碎拥抱（Crushing Embrace）。"
 					]
 				},
 				{
@@ -205,7 +205,7 @@
 				{
 					"name": "Crushing Embrace",
 					"entries": [
-						"The boneless wraps its body around a Large or smaller creature {@condition grappled} by it. While the boneless is attached, the target is {@condition blinded} and is unable to breathe. The target must succeed on a {@dc 13} Strength saving throw at the start of each of the boneless' turns or take 5 ({@damage 1d4 + 3}) bludgeoning damage. If something moves the target, the boneless moves with it. The boneless can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to try to detach the boneless and force it to move into the nearest unoccupied space, doing so with a successful {@dc 13} Strength check. When the boneless dies, it detaches from any creature it is attached to."
+						"无骨怪将自己的身体缠绕在一个大型或更小的生物{@condition grappled}身上。当无骨怪附着时，目标被{@condition blinded}并且无法呼吸。目标必须在每个无骨怪的回合开始时成功进行一次{@dc 13}力量豁免才能免受5({@damage 1d4 + 3})点的钝击伤害。如果有什么东西移动了目标，无骨怪会随之移动。无骨怪可以通过消耗5英尺的移动来分离自己。生物，包括目标在内，可以使用动作来尝试分离无骨怪，并迫使它移动到最近的未占用空间，成功进行{@dc 13}力量检定后这样做。当无骨怪死亡时，它会从任何附着的生物身上分离出来。"
 					]
 				}
 			],
@@ -308,7 +308,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The brain's innate spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"大脑天生的施法能力是智力（法术豁免 {@dc 14}，用法术攻击命中 {@hit 6}）。它天生可以施放以下法术，无需任何材料："
 					],
 					"will": [
 						"{@spell chill touch} (see \"Actions\" below)",
@@ -335,7 +335,7 @@
 				{
 					"name": "Detect Sentience",
 					"entries": [
-						"The brain can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell mind blank} spell."
+						"大脑可以感知到距离它300英尺以内智力达到3或更高的任何生物的存在和位置，无论是否有障碍物阻挡，除非该生物被一项{@spell mind blank}(Nondetection)法术保护。"
 					]
 				},
 				{
@@ -469,7 +469,7 @@
 					"name": "Larval Burst (1/Day)",
 					"entries": [
 						"腐尸潜行者在以自己为中心的10英尺半径的范围内释放一阵幼虫。该区域内的每个生物都必须成功地进行一次{@dc 13}宪法救赎，否则会被{@condition poisoned}。处于这种情况下的生物（2%）在每个回合开始时都会受到7（3%）的毒药伤害，因为幼虫会侵袭其身体。该生物可以在其每个回合结束时重复蓄力，如果成功则结束对自己的影响。任何治疗疾病或消除{@condition poisoned}条件的效果都会立即杀死生物体内的幼虫，结束对它的影响。",
-						"If a creature is reduced to 0 hit points by the infestation, it dies. The larvae remain in the corpse, and one survives to become a fully grown carrion stalker in {@dice 1d4} weeks. Any effect that cures diseases or removes the {@condition poisoned} condition that targets the corpse instantly kills the larvae."
+						"如果一个生物被这种感染降至0点生命值，它就会死亡。幼虫会留在尸体里，其中一只会在{@dice 1d4}周内成长为一只成年腐肉潜行者。任何治愈疾病或消除{@condition poisoned}状态的效果，只要针对尸体，就会立即杀死幼虫。"
 					]
 				}
 			],
@@ -545,7 +545,7 @@
 				{
 					"name": "False Object",
 					"entries": [
-						"If the carrionette is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the carrionette move or act, that creature must succeed on a {@dc 15} Wisdom ({@skill Perception}) check to discern that the carrionette is animate."
+						"如果腐肉傀儡在战斗开始时静止不动，它在先攻骰时获得优势。此外，如果一只生物没有看到腐肉傀儡移动或行动，那个生物必须成功进行一次{@dc 15}点的感知({@skill Perception})检定，才能辨别出腐肉傀儡是有生命的。"
 					]
 				},
 				{
@@ -742,7 +742,7 @@
 				{
 					"name": "Headless Summoning (Recharges after a Short or Long Rest)",
 					"entries": [
-						"If the dullahan is reduced to 0 hit points, it doesn't die or fall {@condition unconscious}. Instead, it regains 97 hit points. In addition, it summons three {@creature death's head|VRGR|death's heads}, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the \"Mythic Actions\" section. Award a party an additional 5,900 XP (11,800 XP total) for defeating the dullahan after it uses Headless Summoning."
+						"如果无头骑士被降至0点生命值，它不会死亡或倒下{@condition unconscious}。相反，它会恢复97点生命值。此外，它会召唤三个{@creature death's head|VRGR|death's heads}，每种一个，在离它5英尺范围内的未占据空间。死亡之头由无头骑士控制，并在先攻顺序中紧随无头骑士行动。此外，无头骑士现在可以使用“传奇行动”部分中的选项。在无头骑士使用无头召唤后，奖励一支队伍额外5900经验值（总计11800经验值）以击败无头骑士。"
 					]
 				},
 				{
@@ -768,7 +768,7 @@
 				{
 					"name": "Battleaxe",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, plus 11 ({@damage 2d10}) necrotic damage. If the dullahan scores a critical hit against a creature, the target must succeed on a {@dc 15} Constitution saving throw or the dullahan cuts off the target's head. The target dies if it can't survive without the lost head. A creature that doesn't have or need a head, or has legendary actions, instead takes an extra 27 ({@damage 6d8}) slashing damage."
+						"{@atk mw} {@hit 8} 近战攻击，射程5英尺，一目标。造成{@h}8 ({@damage 1d8 + 4}) 斩击伤害，或者使用双手时为9 ({@damage 1d10 + 4}) 斩击伤害，再加上11 ({@damage 2d10}) 死灵伤害。如果无头骑士对生物造成了一次重击，目标必须通过一次{@dc 15} 体质豁免才能避免无头骑士砍掉目标的头颅。如果目标没有头颅无法存活，那么它将死亡。没有或不需要头颅，或者具有传奇行动的生物，将额外受到27 ({@damage 6d8}) 斩击伤害。"
 					]
 				},
 				{
@@ -808,13 +808,13 @@
 				{
 					"name": "Coordinated Assault",
 					"entries": [
-						"The dullahan makes a Battleaxe attack, and then one {@creature death's head|VRGR} the dullahan can see within 30 feet of it can use its reaction to make a melee attack."
+						"头无骑士(Dullahan)发动一次战斧攻击，然后在它30英尺内可以看见的一个{@creature death's head|VRGR}可以使用其反应来进行一次近战攻击。"
 					]
 				},
 				{
 					"name": "Headless Wail (Costs 2 Actions)",
 					"entries": [
-						"An echoing shriek issues from the dullahan's headless stump. Each creature of the dullahan's choice within 10 feet of it must make a {@dc 15} Wisdom saving throw. Each creature takes 16 ({@damage 3d10}) psychic damage on a failed save, or half as much damage on a successful one. If one or more creatures fail the saving throw, the dullahan gains 10 temporary hit points."
+						"一个回声般的尖叫从无头骑士的脖根处传出。无头骑士选择的每个生物在它周围10英尺范围内必须进行一次{@dc 15}感知豁免。每个生物在豁免失败时受到16({@damage 3d10})点心灵伤害，豁免成功时受到一半伤害。如果一个或多个生物未通过豁免检定，无头骑士将获得10点临时生命值。"
 					]
 				}
 			],
@@ -1058,7 +1058,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The gallows speaker can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends it turn inside an object."
+						"绞刑架说话者可以像穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在物体内结束回合，将受到5点({@damage 1d10})力量伤害。"
 					]
 				},
 				{
@@ -1216,7 +1216,7 @@
 				{
 					"name": "Warp Space (Costs 2 Actions)",
 					"entries": [
-						"The emissary causes the ground in a 20-foot square that it can see within 90 feet of it to turn into teeth and maws until the start of its next turn. The area becomes {@quickref difficult terrain||3} for the duration. Any creature takes 10 ({@damage 3d6}) piercing damage for each 5 feet it moves on this terrain."
+						"使者让其能看到的距离90英尺内的一个20英尺正方形区域变成牙齿和嘴巴，直到其下一个回合开始。在持续时间内，该区域变成{@quickref difficult terrain||3}。任何生物在这个地形上每移动5英尺就会受到10({@damage 3d6})穿刺伤害。"
 					]
 				},
 				{
@@ -1399,7 +1399,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The inquisitor casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"审判者施放以下其中一个咒语，无需材料，使用魅力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell arcane eye}",
@@ -1547,7 +1547,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The inquisitor casts one of the following spells, requiring no components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
+						"审判者施放以下其中一个法术，无需材料，使用智力作为施法能力（法术豁免{@dc 15}）："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -1684,7 +1684,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The inquisitor casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"审判者施放以下其中一个法术，无需材料，使用智力作为施法能力（法术豁免{@dc 15}）："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -1862,7 +1862,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Isolde's spellcasting ability is Charisma (spell save {@dc 14}). Isolde can innately cast the following spells, requiring no material components:"
+						"伊索尔德的施法能力是魅力（法术豁免{@dc 14}）。伊索尔德可以天生施放以下法术，无需材料组件："
 					],
 					"daily": {
 						"1": [
@@ -1887,7 +1887,7 @@
 				{
 					"name": "Magic Resistance Aura",
 					"entries": [
-						"While holding {@item Nepenthe|VRGR}, Isolde creates an aura in a 10-foot radius around her. While this aura is active, Isolde and all creatures friendly to her in the aura have advantage on saving throws against spells and other magical effects."
+						"当持有{@item Nepenthe|VRGR}时，伊索尔德在她周围的半径10英尺范围内创造了一个光环。当这个光环激活时，在光环内的伊索尔德和所有友好生物对法术和其他魔法效果的豁免 throws 有优势。"
 					]
 				}
 			],
@@ -2749,7 +2749,7 @@
 				{
 					"name": "Semblance of Life",
 					"entries": [
-						"The podling is a physical copy of a creature digested by a bodytaker plant. The podling has the digested creature's memories and behaves like that creature, but with occasional lapses. An observer familiar with the digested creature can recognize the discrepancies with a successful {@dc 20} Wisdom ({@skill Insight}) check, or automatically if the podling does something in direct contradiction to the digested creature's established beliefs or behavior. The podling melts into a slurry when it dies, when the bodytaker plant that created it dies, or when the bodytaker plant dismisses it (no action required)."
+						"幼芽是被体取植物消化后的生物的实体复制品。幼芽拥有被消化生物的记忆，并且行为类似于那个生物，但偶尔会出现失误。熟悉被消化生物的观察者可以通过成功的{@dc 20}感知({@skill Insight})检定来识别这些差异，或者在幼芽做出直接违背被消化生物已建立信念或行为的事情时自动识别。幼芽在死亡时、创造它的体取植物死亡时，或者体取植物解散它时（无需行动）会融化成浆体。"
 					]
 				},
 				{
@@ -2893,7 +2893,7 @@
 										"type": "entries",
 										"name": "Dread",
 										"entries": [
-											"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be {@condition frightened} of the priest until the start of the creature's next turn."
+											"现在可以听到祭司周围的诡异低语。任何非亡灵生物，在距离祭司30英尺内开始其回合时，必须通过一次DC 15的感知豁免检定，否则在该生物的下一个回合开始前，会被祭司的影响控制{@condition frightened}。"
 										]
 									}
 								],
@@ -2943,7 +2943,7 @@
 										"type": "entries",
 										"name": "Deathly",
 										"entries": [
-											"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast {@spell animate dead} and {@spell create undead} once per day each, using Intelligence as the spellcasting ability, and it gains the following action:",
+											"牧师的面容变得惨白，其挑战等级增加了1。它每天可以使用智力作为施法能力，每个可以施放{@spell animate dead}和{@spell create undead}一次，并获得以下行动：",
 											{
 												"type": "entries",
 												"name": "Circle of Death (Spell; {@recharge 5|m})",
@@ -3020,7 +3020,7 @@
 						{
 							"name": "Innate Spellcasting",
 							"headerEntries": [
-								"The priest casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+								"牧师施放以下其中一个法术，无需材料，使用智力作为施法能力（法术豁免{@dc 15}）："
 							],
 							"will": [
 								{
@@ -3049,7 +3049,7 @@
 							"items": {
 								"name": "Dread Boon",
 								"entries": [
-									"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be {@condition frightened} of the priest until the start of the creature's next turn."
+									"现在可以听到祭司周围的诡异低语。任何非亡灵生物，在距离祭司30英尺内开始其回合时，必须通过一次DC 15的感知豁免检定，否则在该生物的下一个回合开始前，会被祭司的影响控制{@condition frightened}。"
 								]
 							}
 						}
@@ -3215,7 +3215,7 @@
 				{
 					"name": "Scything Shrapnel",
 					"entries": [
-						"The target takes 14 ({@damage 4d6}) slashing damage, and the implement vanishes. At the start of each of its turns, the target takes 10 ({@damage 3d6}) necrotic damage from the wound left by the shrapnel. The wound ends if the target regains any hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom ({@skill Medicine}) check."
+						"目标受到14点切割伤害，实施物消失。在每个回合开始时，目标从弹片留下的伤口受到10点死灵伤害。如果目标恢复任何生命值，或者有生物使用动作止住伤口，需要进行成功的感知（Wisdom）检定来结束伤口。"
 					]
 				}
 			],
@@ -3345,7 +3345,7 @@
 				{
 					"name": "Slasher's Knife",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 30/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 ({@damage 2d6}) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 ({@dice 1d6}). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom ({@skill Medicine}) check."
+						"{@atk mw,rw} 使用 {@hit 7} 进行攻击，射程5英尺或射程30/60英尺，目标为一个。造成 {@h}6 ({@damage 1d4 + 4}) 斩击伤害加上21 ({@damage 6d6}) 死灵伤害。如果目标是生物，它将受到持续伤口的影响，导致它在每个回合开始时受到7 ({@damage 2d6}) 死灵伤害。每次斩击者用这次攻击命中受伤的目标时，伤口造成的伤害增加3 ({@dice 1d6})。如果目标恢复了生命值，或者有生物使用一个动作来止住伤口，需要成功的 {@dc 15} 智力 ({@skill Medicine}) 检定来结束伤口。"
 					]
 				}
 			],
@@ -3471,7 +3471,7 @@
 				{
 					"name": "Ravenous Children (1/Day)",
 					"entries": [
-						"The strigoi magically summons {@dice 1d4 + 2} {@creature stirge||stirges} (see their entry in the Monster Manual) in unoccupied spaces it can see within 30 feet of it. The stirges are under the strigoi's control and act immediately after the strigoi in the initiative order. The stirges disappear after 1 hour, when the strigoi dies, or when the strigoi dismisses them (no action required)."
+						"吸血鬼魔法地召唤 {@dice 1d4 + 2} {@creature stirge||stirges} (请参阅《怪物手册》中的条目) 到它能看见的30英尺范围内的空地。这些吸血蝙蝠受吸血鬼控制，并在吸血鬼之后立即行动。吸血蝙蝠会在1小时后消失，或者在吸血鬼死亡或吸血鬼解散它们时消失（无需动作）。"
 					]
 				}
 			],
@@ -3659,7 +3659,7 @@
 					"name": "Infestation",
 					"entries": [
 						"{@atk mw}{@hit 3}击中，达到0英尺，蜂群空间中的一个目标。{@h}10 ({@damage 4d4})的穿刺伤害，或5 ({@damage 2d4})的穿刺伤害，如果蜂群有一半的命中率或更少。被虫群伤害的生物必须成功进行{@dc 12}体质测试，否则会感染疾病。",
-						"Each time the diseased creature finishes a long rest, roll a {@dice d6} to determine the disease's effect:",
+						"每当患病生物完成一次长休时，掷骰{@dice d6}以确定疾病的影响：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -3675,7 +3675,7 @@
 									"type": "item",
 									"name": "3-4",
 									"entries": [
-										"The creature's hit point maximum decreases by 5 ({@dice 2d4}), and the reduction can't be removed until the disease ends. The creature dies if its hit point maximum drops to 0."
+										"生物的生命值上限减少了5 ({@dice 2d4})，这种减少直到疾病结束都无法移除。如果生物的生命值上限降至0，那么它就会死亡。"
 									]
 								},
 								{
@@ -3788,7 +3788,7 @@
 				{
 					"name": "Ravenous Bites",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 0 ft., one target in the swarm's space. {@h}14 ({@damage 4d6}) piercing damage, or 7 ({@damage 2d6}) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 ({@damage 1d6}) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies."
+						"{@atk mw} {@hit 4}攻击，达到0英尺，一个虫群空间内的目标。{@h}14 ({@damage 4d6})穿刺伤害，或者如果虫群生命值为一半或更少，则为7 ({@damage 2d6})穿刺伤害。如果目标是生物，甲虫会钻入其体内，生物在每个回合开始时会受到3 ({@damage 1d6})穿刺伤害。任何生物都可以使用一个动作用火焰或造成穿刺伤害的武器杀死或移除甲虫，对目标造成1点相应类型的伤害。被虫群的穿刺伤害降至0点生命值的生物会死亡。"
 					]
 				}
 			],
@@ -4087,7 +4087,7 @@
 										"type": "entries",
 										"name": "Aberrant Armor",
 										"entries": [
-											"The horror's body is armored in petrified wood, alien crystal, rusted mechanisms, sculpted stone, or an exoskeleton."
+											"恐怖生物的身体被石化的木头、外星水晶、生锈的机械、雕刻的石头或外骨骼所护甲。"
 										]
 									}
 								],
@@ -4151,7 +4151,7 @@
 										"type": "entries",
 										"name": "Bile Hex {@recharge 5}",
 										"entries": [
-											"The horror expels acidic bile in a 60-foot line that is 5 feet wide. Each creature in that line must succeed on a DC 15 Dexterity saving throw or be covered in bile. A creature covered in bile takes 31 ({@dice 7d8}) acid damage at the start of each of its turns until it or another creature uses its action to scrape or wash off the bile that covers it."
+											"恐怖生物向60英尺长、5英尺宽的区域喷射酸性胆汁。该区域内的每个生物必须通过一次DC 15的敏捷豁免才能避免被胆汁覆盖。被胆汁覆盖的生物每轮开始时会受到31({@dice 7d8})点酸性伤害，直到它或另一个生物使用动作清除或冲洗掉覆盖在身上的胆汁。"
 										]
 									}
 								],
@@ -4215,7 +4215,7 @@
 										"type": "entries",
 										"name": "Grasping Tentacle",
 										"entries": [
-											"The horror's limb is a grasping tentacle. When the horror hits a creature with this limb, the creature is also {@condition grappled} (escape DC 16). The limb can have only one creature {@condition grappled} at a time."
+											"恐怖生物的触手是一个伸出的触角。当恐怖生物用这根触手击中一个生物时，该生物也会成为 {@condition grappled} (逃脱 DC 16)。这根触手一次只能抓住一个生物 {@condition grappled}。"
 										]
 									}
 								],
@@ -4225,7 +4225,7 @@
 										"type": "entries",
 										"name": "Poisonous Limb",
 										"entries": [
-											"The horror's limb deals piercing damage instead of bludgeoning damage. In addition, when the horror hits a creature with this limb, the creature must succeed on a DC 15 Constitution saving throw or take 7 ({@dice 2d6}) poison damage and be {@condition poisoned} until the end of its next turn."
+											"恐怖生物的肢体造成穿刺伤害，而不是钝击伤害。此外，当恐怖生物用这根肢体击中一名生物时，该生物必须通过一次 DC 15 的体质豁免才能免受 7 ({@dice 2d6}) 毒素伤害，并在其下一个回合结束前处于 {@condition poisoned} 状态。"
 										]
 									}
 								]
@@ -4342,7 +4342,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the mind flayer has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，控脑食人魔在进行攻击投掷时会受到劣势，以及在依赖视觉的感知（智慧{@skill Perception}检定）上也会受到劣势。"
 					]
 				},
 				{
@@ -4488,7 +4488,7 @@
 				{
 					"name": "Mimicry",
 					"entries": [
-						"The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom ({@skill Insight}) check."
+						"狼人乌鸦 ((wereraven)) 能够模仿它听到的简单声音，比如一个人的低语，一个婴儿的哭声，或者动物的吱吱声。听到这些声音的生物可以通过成功的 {@dc 10} 智力 ({@skill Insight}) 检定来判断这些声音是模仿的。"
 					]
 				},
 				{

@@ -175,7 +175,7 @@
 				{
 					"name": "Wielder Domination",
 					"entries": [
-						"A creature can grab the staff out of the air with a successful grapple check against the staff, and grappling the staff does not reduce the creature's speed. Any creature that successfully grapples the staff must succeed on a {@dc 12} Charisma saving throw or be {@condition charmed} by the staff until the staff is no longer in its grasp. While the creature is {@condition charmed}, the staff can issue commands to it, which the creature does its best to obey. The creature can repeat the saving throw each time it takes damage, ending the effect on itself on a success. A creature that successfully resists the staff's control can't be {@condition charmed} by it for 24 hours.",
+						"一只生物可以通过成功的擒拿检定抓住空中的法杖，擒拿法杖不会减慢生物的速度。任何成功擒拿法杖的生物必须成功进行一次{@dc 12} 魅力豁免检定，否则将被法杖{@condition charmed}，直到法杖不再在其掌握中。当生物被{@condition charmed}时，法杖可以向其发出命令，生物会尽力服从。每次生物受到伤害时，都可以重复进行豁免检定，成功后将结束对自己的影响。成功抵抗法杖控制的生物在24小时内不会被{@condition charmed}。",
 						"拿着法杖的生物，如果没有被法杖压住，可以用一个动作试图在膝盖上或在坚固的表面上折断法杖，如果成功地进行了{@dc 17}力量({@skill Athletics})检查，就可以这样做。以这种方式折断法杖会毁掉它。"
 					]
 				}
@@ -383,7 +383,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Arcturia is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Arcturia can cast {@spell alter self} at will and has the following wizard spells prepared:"
+						"阿克图里亚是一名18级的法术施展者。她的法术施展能力是智力（法术豁免 {@dc 20}，用法术攻击命中为 {@hit 12}）。阿克图里亚可以随意施放 {@spell alter self}，并且准备了以下巫师法术："
 					],
 					"will": [
 						"{@spell alter self}"
@@ -629,7 +629,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Berlain is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Berlain can cast {@spell disguise self} and invisibility at will and has the following wizard spells prepared:"
+						"贝莱恩是一名18级的法术施展者。她的法术施展能力是智力（法术豁免 {@dc 17}，用法术攻击命中时为 {@hit 9}）。贝莱恩可以随意施展 {@spell disguise self} 和隐形术，并且她准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -945,7 +945,7 @@
 							"type": "entries",
 							"name": "Tied Down",
 							"entries": [
-								"While lashed to the floor, the creature is {@condition prone} and {@condition restrained}. It also suffers from two levels of {@condition exhaustion}."
+								"当被捆绑在地板上时，这个生物处于{@condition prone}和{@condition restrained}状态。它还受到两级{@condition exhaustion}的影响。"
 							]
 						}
 					}
@@ -1055,7 +1055,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Cassiok is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). Cassiok can cast {@spell disguise self} and invisibility at will and has the following wizard spells prepared:"
+						"卡西奥克是一名18级的法术施展者。他的法术施展能力是智力（法术豁免 {@dc 19}，用法术攻击命中为 {@hit 11}）。卡西奥克可以随意施展 {@spell disguise self} 和隐形术，并且已经准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -1366,7 +1366,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Dezmyr is a 19th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following paladin spells prepared:"
+						"Dezmyr是一名19级的施法者。她的施法能力是魅力（法术豁免 {@dc 18}，法术攻击命中加值 {@hit 10}）。她准备了以下圣骑士法术："
 					],
 					"spells": {
 						"1": {
@@ -1442,7 +1442,7 @@
 						"items": {
 							"name": "Summon Demon (1/Day)",
 							"entries": [
-								"Drivvin magically summons a {@filter demon of challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|tag=demon|miscellaneous=!swarm}. The summoned demon appears in an unoccupied space within 60 feet of him, acts as his ally, and can't summon other demons. The summoned demon remains until Drivvin dismisses it as an action or until the demon is reduced to 0 hit points."
+								"德里文(Drivvin)魔法召唤一个{@filter demon of challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|tag=demon|miscellaneous=!swarm}。被召唤的恶魔出现在他附近60英尺内的一个空地上，作为他的盟友，并且不能召唤其他恶魔。被召唤的恶魔会一直存在，直到德里文将其作为一个动作解散，或者直到该恶魔的生命值降低到0点。"
 							]
 						}
 					}
@@ -1534,7 +1534,7 @@
 						"items": {
 							"name": "Special Equipment",
 							"entries": [
-								"Ezzat wears an {@item amulet of proof against detection and location}."
+								"Ezzat 穿着一件 {@item amulet of proof against detection and location}。"
 							]
 						}
 					}
@@ -1553,7 +1553,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ezzat is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). He has the following wizard spells prepared:"
+						"艾扎特是一名18级的法术施法者。他的法术施法能力是智力（法术豁免 {@dc 20}，用法术攻击命中为 {@hit 12}）。他准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -1935,7 +1935,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mummy lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The mummy lord has the following cleric spells prepared:"
+						"木乃伊领主是一名10级法术施法者。它的法术施法能力是感知（法术豁免{@dc 17}，用法术攻击命中为{@hit 9}）。木乃伊领主准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -2130,7 +2130,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Halaster is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He can cast {@spell disguise self} and {@spell invisibility} at will. He can cast {@spell fly} and {@spell lightning bolt} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Halaster has the following wizard spells prepared:"
+						"哈拉斯特是一名20级的法师。他的施法能力是智力（法术豁免 {@dc 22}，法术攻击命中加值 {@hit 14}）。他可以随意施放{@spell disguise self}和{@spell invisibility}。他可以无需消耗法术位施放{@spell fly}和{@spell lightning bolt}各一次，但在完成短休或长休之前不能再次这样做。哈拉斯特已准备好以下巫师法术："
 					],
 					"will": [
 						"{@spell disguise self}",
@@ -2236,8 +2236,8 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Halaster wears a {@item robe of eyes} that lets him see in all directions, gives him darkvision out to a range of 120 feet, grants advantage on Wisdom ({@skill Perception}) checks that rely on sight, and allows him to see {@condition invisible} creatures and objects, as well as into the Ethereal Plane, out to a range of 120 feet.",
-						"Halaster wields a blast scepter (a very rare magic item that requires attunement). It can be used as an arcane focus. Whoever is attuned to the blast scepter gains resistance to fire and lightning damage and can, as an action, use it to cast {@spell thunderwave} as a 4th-level spell (save {@dc 16}) without expending a spell slot.",
+						"哈拉斯特戴着一顶帽子，让他能够全方位看到，让他的暗视距离达到120英尺，为依赖视觉的感知智慧检定提供优势，同时让他能够看见幽暗生物和物体，以及进入以太界，距离达到120英尺。",
+						"哈拉斯特（Halaster）挥舞着一根爆裂权杖（a very rare magic item that requires attunement）。它可以用作奥术焦点。任何被调谐到爆裂权杖的人都会获得对火焰和闪电伤害的抗性，并且可以在行动中使用它以4级法术的形式施放{@spell thunderwave}（豁免{@dc 16}），而无需消耗法术槽。",
 						"哈拉斯特还戴着一枚角质戒指（一种非常罕见的魔法物品，需要调和），它可以让调和的佩戴者无视暗山的魔法限制（见 \"魔法的改变\"）。"
 					]
 				},
@@ -2618,7 +2618,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pudding's spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can cast the following spells, requiring no components:"
+						"布丁的施法能力是智力（法术豁免 {@dc 12}，用法术攻击命中时为 {@hit 4}）。它可以施放以下法术，无需材料："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -2819,7 +2819,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Keresta is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). She has the following cleric spells prepared:"
+						"克蕾丝塔是一名9级法术施展者。她的法术施展能力是智力（法术豁免 {@dc 15}，用法术攻击命中为 {@hit 7}）。她准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -3183,7 +3183,7 @@
 				{
 					"name": "Invisibility",
 					"entries": [
-						"The unseen servant is {@condition invisible}."
+						"看不见的仆人是{@condition invisible}。"
 					]
 				}
 			],
@@ -3354,7 +3354,7 @@
 						"items": {
 							"name": "Fey Ancestry",
 							"entries": [
-								"Marta has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+								"Marta在豁免投掷中对被 {@condition charmed} 的情况有优势，并且魔法无法让她入睡。"
 							]
 						}
 					}
@@ -3567,7 +3567,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Muiral is a 13th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He has the following wizard spells prepared:"
+						"Muiral是一名13级的法术施展者。他的法术施展能力是智力（法术豁免 {@dc 17}，法术攻击命中加值 {@hit 9}）。他准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -4024,7 +4024,7 @@
 				{
 					"name": "Invisible in Water",
 					"entries": [
-						"The weird is {@condition invisible} while fully immersed in toxic brew."
+						"当完全沉浸在有毒酿造中时，奇怪的事情发生。"
 					]
 				},
 				{
@@ -4463,7 +4463,7 @@
 				{
 					"name": "Shadow Blade",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. Unless the target is immune to necrotic damage, the target's Strength score is reduced by {@dice 1d4} each time it is hit by this attack. The target dies if its Strength is reduced to 0. The reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a shadow (see the Monster Manual) rises from the corpse {@dice 1d4} hours later."
+						"{@atk mw} 攻击命中，射程5英尺，目标一个。造成{@h}7 ({@damage 1d6 + 4}) 穿刺伤害加上10 ({@damage 3d6}) 死灵伤害。除非目标对死灵伤害免疫，否则每次被这次攻击击中，目标的力量分数会降低 {@dice 1d4}。如果目标的力量降低到0，目标死亡。这种减少效果持续直到目标完成一次短休或长休。如果一个非邪恶的人型生物死于这次攻击，{@dice 1d4} 小时后尸体上会升起一个阴影(见《怪物手册》)。"
 					]
 				}
 			],
@@ -4584,13 +4584,13 @@
 				{
 					"name": "Control Module",
 					"entries": [
-						"A creature atop or above Shockerstomper's platform can locate its control module with a successful {@dc 15} Intelligence ({@skill Investigation}) check or Wisdom ({@skill Perception}) check. As an action, a character can try to open the control module's access panel, either by tearing it off with a successful {@dc 25} Strength ({@skill Athletics}) check or by dislodging it with thieves' tools and a successful {@dc 25} Dexterity check. Behind the panel, embedded in the floor of the control module, is a 5-foot-diameter pulsating crystal hemisphere with AC 10, 25 hit points, and immunity to poison and psychic damage. Destroying the crystal hemisphere shuts down Shockerstomper."
+						"在Shockerstomper的平台上方或上面的生物可以通过成功的{@dc 15}智力({@skill Investigation})检定或感知({@skill Perception})检定来找到其控制模块。作为一个动作，角色可以尝试打开控制模块的访问面板，可以通过成功的{@dc 25}力量({@skill Athletics})检定撕下它，或者使用盗贼工具并通过成功的{@dc 25}敏捷检定将其移开。在面板后面，嵌入在控制模块的地板中的是一个直径5英尺的跳动的水晶半球，AC 10，25点生命值，并且免疫毒素和精神伤害。摧毁水晶半球会关闭Shockerstomper。"
 					]
 				},
 				{
 					"name": "Lightning Turret",
 					"entries": [
-						"A character can try to plug the nozzle of a lightning turret with a 10-pound rock or similar object, doing so with a successful {@dc 15} Strength ({@skill Athletics}) check. A plugged turret can't shoot lightning until a creature uses an action to try to clear the obstruction, which requires another successful {@dc 15} Strength ({@skill Athletics}) check. Shockerstomper has no ability to clear an obstruction itself."
+						"一个角色可以尝试用一个10磅重的岩石或类似物品堵住闪电炮的喷嘴，成功进行一个{@dc 15}力量({@skill Athletics})检定。堵塞的炮塔在有生物使用一个动作尝试清除障碍之前无法发射闪电，这需要另一个成功的{@dc 15}力量({@skill Athletics})检定。震击践踏者本身无法清除障碍。"
 					]
 				}
 			],
@@ -4755,7 +4755,7 @@
 										{
 											"type": "item",
 											"name": "Paralyzing Breath",
-											"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+											"entry": "龙在一个60英尺锥形范围内呼出麻痹毒气。该区域内的每个生物必须通过一次DC 20的体质豁免才能免疫麻痹，否则将在1分钟内成为{@condition paralyzed}。生物可以在自己的回合结束时重复进行豁免才能，成功则解除自身的效果。"
 										}
 									]
 								}
@@ -5037,7 +5037,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Trenzia is a 5th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). She requires no somatic or material components to cast its spells. Trenzia has the following wizard spells prepared:"
+						"特伦齐亚是一名5级咒术师。她的咒术能力是智力（咒语豁免 {@dc 13}，咒语攻击命中加值 {@hit 5}）。她施放咒语时无需手势或材料成分。特伦齐亚准备了以下巫师咒语："
 					],
 					"spells": {
 						"0": {
@@ -5122,7 +5122,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Trobriand is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). He has the following wizard spells prepared:"
+						"特罗布里安德是一名18级的法术施展者。他的法术施展能力是智力（法术豁免 {@dc 20}，用法术攻击命中加值 {@hit 12}）。他准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -5517,7 +5517,7 @@
 				{
 					"name": "Keen Hearing",
 					"entries": [
-						"The werebat has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+						"这只蝙蝠人在依赖听觉的感知检定中获得优势。"
 					]
 				},
 				{
@@ -5529,7 +5529,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the werebat has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，夜翼蝙蝠在进行攻击检定时有劣势，以及在依赖视觉的感知（智慧{@skill Perception}）检定上也有劣势。"
 					]
 				}
 			],
@@ -5834,7 +5834,7 @@
 				{
 					"name": "Misty Escape",
 					"entries": [
-						"When he drops to 0 hit points outside his resting place, Zorak transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that he isn't in sunlight or running water. If he can't transform, he is destroyed.",
+						"当{@condition unconscious}他在休息地之外的地方降到0点生命值时，Zorak会变成一团雾气（就像变形者特性中描述的那样），而不是倒下，前提是他不处于阳光或流动水中。如果他无法变形，他将被摧毁。",
 						"当他在迷雾形态下的命中率为0时，他不能恢复到他的吸血鬼形态，而且他必须在2小时内到达他的休息地，否则会被摧毁。一旦到了他的休息地，他就会恢复到他的吸血鬼形态。然后他就会被{@condition paralyzed}，直到他重新获得至少1点生命值。在他的休息场所度过1小时后，他的命中率为0，他将恢复1个命中率。"
 					]
 				},
@@ -5865,7 +5865,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Zorak makes two attacks with his {@item dwarven thrower}, only one of which can be a ranged attack."
+						"Zorak使用他的{@item dwarven thrower}进行两次攻击，其中只有一次可以是远程攻击。"
 					]
 				},
 				{
@@ -5889,13 +5889,13 @@
 				{
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by Zorak, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Zorak regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces his hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under Zorak's control."
+						"{@atk mw} {@hit 9} 进行攻击，射程5英尺，一个愿意的生物，或者一个被Zorak，{@condition incapacitated}，或{@condition restrained}影响的生物。造成{@h}7 ({@damage 1d6 + 4}) 穿刺伤害加上10 ({@damage 3d6}) 死灵伤害。目标的生命值上限减少等同于所受死灵伤害的数值，并且Zorak回复等同于该数值的生命值。这种减少持续到目标完成一次长休。如果这个效果将目标的生命值上限降低到0，目标将死亡。以这种方式被杀死的人形生物，然后被埋入地下，在第二天晚上会作为Zorak控制下的{@creature vampire spawn} 复活。"
 					]
 				},
 				{
 					"name": "Charm",
 					"entries": [
-						"Zorak targets one humanoid he can see within 30 feet of it. If the target can see Zorak, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by Zorak. The {@condition charmed} target regards Zorak as a trusted friend to be heeded and protected. Although the target isn't under Zorak's control, it takes Zorak's requests or actions in the most favorable way it can, and it is a willing target for Zorak's bite attack.",
+						"Zorak瞄准30英尺内可见的一个人形生物。如果目标能看到Zorak，目标必须成功进行一次{@dc 17}的感知豁免才能抵抗这个魔法，否则将被Zorak{@condition charmed}。这个{@condition charmed}目标视Zorak为一个可信赖的朋友，应该被倾听和保护。尽管目标不受Zorak控制，它会以最有利的方式接受Zorak的请求或行动，并且愿意成为Zorak的咬击攻击的目标。",
 						"每次Zorak或Zorak的同伴对目标做了任何有害的事情，它都可以重复蓄力，如果成功则结束对自己的影响。否则，该效果将持续24小时，或直到佐拉克被摧毁，与目标处于不同的存在平面，或采取额外行动来结束该效果。"
 					]
 				},

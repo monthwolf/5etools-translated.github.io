@@ -71,7 +71,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}24 ({@damage 9d4 + 2}) bludgeoning damage or 14 ({@damage 5d4 + 2}) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also {@condition grappled} (escape {@dc 14}) unless the decapus is already grappling a creature. Until this grapple ends, the target is {@condition restrained}."
+						"{@atk mw} {@hit 4} 进行攻击，射程10英尺，一个目标。造成{@h}24 ({@damage 9d4 + 2}) 钝击伤害，或者如果混沌章鱼正拿着除目标以外的生物或者混沌章鱼在地面上，则造成14 ({@damage 5d4 + 2}) 钝击伤害。目标也会被{@condition grappled} (逃脱 {@dc 14})，除非混沌章鱼已经在拿着一个生物。直到这次控制结束，目标会被{@condition restrained}。"
 					]
 				}
 			],
@@ -231,7 +231,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The slug's innate spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+						"这只蛞蝓天生具有智慧施法能力（法术豁免 {@dc 11}，用法术攻击命中为 {@hit 3}）。它天生能施放以下法术，无需任何材料组件："
 					],
 					"daily": {
 						"1e": [
@@ -247,7 +247,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The slug has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"这只蛞蝓在依赖嗅觉的感知检定中拥有优势。"
 					]
 				},
 				{
@@ -281,7 +281,7 @@
 				{
 					"name": "Animate Tentacle",
 					"entries": [
-						"When the slug takes damage in this cave ({@adventure Shrine of Umberlee|ttp|3|24. Shrine of Umberlee}), it can use its reaction to animate one of the tentacles of the kraken statue and cause it to   make a melee weapon attack ({@hit 3} to hit) against one creature within 20 feet of the statue that the slug can see. The tentacle deals 8 ({@damage 1d8 + 4}) bludgeoning damage on a hit."
+						"当这只蛞蝓在这个洞穴中受到伤害({@adventure Shrine of Umberlee|ttp|3|24. Shrine of Umberlee})时，它可以使用其反应来激活海妖雕像的触手之一，并导致其对蛞蝓能看到的距离雕像20英尺内的一只生物进行一次近战武器攻击({@hit 3} to hit)。触手在命中时造成8({@damage 1d8 + 4}) 钝击伤害。"
 					]
 				}
 			],
@@ -443,7 +443,7 @@
 							"items": {
 								"name": "Two Heads",
 								"entries": [
-									"The two-headed plesiosaurus has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+									"这只双头蛇颈龙在感知检定和豁免投掷中获得优势，对抗被{@condition blinded}、{@condition charmed}、{@condition deafened}、{@condition frightened}、{@condition stunned}和被击倒时有优势。"
 								]
 							}
 						}

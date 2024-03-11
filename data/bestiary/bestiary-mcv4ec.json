@@ -61,7 +61,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The archon casts one of the following spells, using Charisma as the spellcasting ability:"
+						"执政官施放以下其中一个法术，使用魅力作为施法能力："
 					],
 					"daily": {
 						"1e": [
@@ -77,13 +77,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the archon fails a saving throw, it can choose to succeed instead."
+						"如果执政官未能通过豁免投掷检定，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The archon has advantage on saving throws against spells and other magical effects."
+						"执政官在对抗法术和其他魔法效果的豁免 throws 中获得优势。"
 					]
 				}
 			],
@@ -91,19 +91,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The archon makes one Hooves attack and one Radiant Lance attack."
+						"执政官进行一次蹄击（Hooves）攻击和一次光辉长矛（Radiant Lance）攻击。"
 					]
 				},
 				{
 					"name": "Hooves",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage plus 10 ({@damage 3d6}) radiant damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 19} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} {@hit 11} 进行攻击，射程5英尺，目标一个。造成{@h}20 ({@damage 4d6 + 6}) 钝击伤害加上10 ({@damage 3d6}) 圣光伤害。如果目标是中型或更小的生物，它必须成功通过一次{@dc 19} 力量豁免才能避免被{@condition prone} 状态影响。"
 					]
 				},
 				{
 					"name": "Radiant Lance",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d12 + 6}) piercing damage plus 28 ({@damage 8d6}) radiant damage, and the target is marked until the start of the archon's next turn. While it is marked, the target has disadvantage on attack rolls against creatures other than the archon."
+						"{@atk mw} {@hit 11}攻击，射程10英尺，一个目标。造成{@h}12 ({@damage 1d12 + 6})穿刺伤害加上28 ({@damage 8d6})辐射伤害，并且目标被标记，直到大天使的下一个回合开始。当被标记时，目标对大天使以外的生物进行攻击时有劣势。"
 					]
 				}
 			],
@@ -114,19 +114,19 @@
 				{
 					"name": "Archon's Pursuit",
 					"entries": [
-						"When a creature marked by the archon's Radiant Lance ends its turn within 120 feet of the archon, the archon teleports to an unoccupied space it can see within 5 feet of the creature."
+						"当一只被大天使的辉光长矛标记的生物在大天使的120英尺范围内结束其回合时，大天使会传送到离生物5英尺内的一个它能看见的未被占据的空间。"
 					]
 				},
 				{
 					"name": "Haunting Radiance",
 					"entries": [
-						"Immediately after a creature within 120 feet of the archon forces it to make a saving throw, the archon responds with a burst of light. The creature must succeed on a {@dc 17} Constitution saving throw or have the {@condition blinded} condition until the end of the creature's next turn."
+						"在距离大天使120英尺内的生物迫使其进行豁免检定后，大天使会以一道光芒作出回应。生物必须成功通过一次{@dc 17}体质豁免检定，否则将患上{@condition blinded}状态，直到该生物的下一个回合结束。"
 					]
 				},
 				{
 					"name": "Parry",
 					"entries": [
-						"The archon adds 5 to its AC against one melee attack that would hit it, provided it can see the attacker."
+						"执政官在能看见攻击者的情况下，对一次即将命中它的近战攻击，AC 值增加 5 点。"
 					]
 				}
 			],
@@ -209,25 +209,25 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the wurm is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the wurm move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the wurm is animate."
+						"如果巨虫在战斗开始时静止不动，它在先攻骰时获得优势。此外，如果一只生物没有看到巨虫移动或行动，那只生物必须成功进行一次{@dc 18}智力({@skill Investigation})检定，才能辨别出巨虫是有生命的。"
 					]
 				},
 				{
 					"name": "Leafy Handholds",
 					"entries": [
-						"Creatures have advantage on ability checks made to climb the wurm."
+						"生物在攀爬巨虫时获得优势，(%num%)。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the wurm fails a saving throw, it can choose to succeed instead."
+						"如果巨虫未能通过豁免投骰，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Regeneration",
 					"entries": [
-						"The wurm regains 20 hit points at the start of its turn if it has at least 1 hit point. If the wurm takes fire or lightning damage, this trait doesn't function at the start of the wurm's next turn."
+						"蠕虫在其回合开始时恢复20点生命值，如果它至少有1点生命值。如果蠕虫受到火焰或闪电伤害，则在蠕虫的下一个回合开始时，此特性不起作用。"
 					]
 				}
 			],
@@ -235,14 +235,14 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The wurm makes two Bite attacks."
+						"巨虫进行两次咬击攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}30 ({@damage 5d8 + 8}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 22} Dexterity saving throw or be swallowed by the wurm. A swallowed creature has the {@condition restrained} condition, has total cover against attacks and other effects outside the wurm, and takes 28 ({@damage 8d6}) piercing damage at the start of each of the wurm's turns from thorns in the wurm's gullet.",
-						"The wurm's stomach can hold up to two creatures at a time. If the wurm takes 30 damage or more on a single turn from a creature inside it, the wurm must succeed on a {@dc 22} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the wurm and has the {@condition prone} condition. If the wurm dies, a swallowed creature no longer has the {@condition restrained} condition and can escape from the corpse by using 10 feet of movement, exiting with the {@condition prone} condition."
+						"{@atk mw} 使用 {@hit 14} 进行攻击，射程15英尺，目标为一名生物。造成 {@h}30 ({@damage 5d8 + 8}) 穿刺伤害。如果目标是一只大型或更小的生物，它必须成功通过一个 {@dc 22} 敏捷豁免检定，否则将被沙虫吞噬。被吞噬的生物处于 {@condition restrained} 状态，对于沙虫外部的攻击和其他效果具有完全掩护，并且在沙虫的回合开始时，从沙虫的食道中的刺中受到28 ({@damage 8d6}) 穿刺伤害。",
+						"这只巨虫的胃部最多能容纳两个生物。如果巨虫在一回合内从体内的生物受到30点或更多伤害，那么在回合结束时，巨虫必须进行一次成功的{@dc 22}体质豁免才能不吐出所有已吞下的生物，每个生物都会掉落在距离巨虫10英尺内的空间，并患有{@condition prone}状态。如果巨虫死亡，被吞下的生物将不再患有{@condition restrained}状态，并可以通过消耗10英尺的移动来逃离尸体，患有{@condition prone}状态。"
 					]
 				}
 			],
@@ -334,13 +334,13 @@
 				{
 					"name": "Mounted Adept",
 					"entries": [
-						"While mounted and without the {@condition incapacitated} condition, the rider has advantage on melee attack rolls against any unmounted creature smaller than its mount, the rider and its mount have advantage on Dexterity saving throws, and the rider can force an attack targeted at its mount to target the rider instead."
+						"当骑乘并且没有{@condition incapacitated}状态时，骑手对比其坐骑更小的任何未骑乘生物进行近战攻击时具有优势，骑手和其坐骑在敏捷豁免 throws上具有优势，并且骑手可以强制针对其坐骑的攻击转而针对骑手。"
 					]
 				},
 				{
 					"name": "Undead Fortitude",
 					"entries": [
-						"If damage reduces the rider to 0 hit points, it must make a Constitution saving throw with a DC equal to 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the rider drops to 1 hit point instead."
+						"如果伤害使骑手的生命值降至0点，他必须进行一次体质豁免检定，DC等于5 + 所受伤害，除非伤害来自辐射或是暴击。若成功，骑手的生命值将变为1点。"
 					]
 				}
 			],
@@ -348,19 +348,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The rider makes two Axe attacks. It can replace one of these attacks with Fell Glare."
+						"骑士进行两次斧头攻击。它可以用Fell Glare替换其中一次攻击。"
 					]
 				},
 				{
 					"name": "Axe",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+						"{@atk mw} {@hit 7} 进行攻击，达到5英尺，一个目标。 {@h}13 ({@damage 2d8 + 4}) 斩击伤害。"
 					]
 				},
 				{
 					"name": "Fell Glare",
 					"entries": [
-						"The rider gazes at a creature within 30 feet of itself. The creature must succeed on a {@dc 13} Wisdom saving throw or have the {@condition frightened} condition for 1 minute. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the rider, ending the condition on itself on a success."
+						"骑士凝视着距离自己30英尺内的生物。生物必须成功通过一个{@dc 13}感知豁免才能免疫{@condition frightened}状态1分钟。{@condition frightened}生物可以在自己的每个回合结束时重复进行豁免才能，如果能看到骑士，则带有劣势，成功后可以结束自身的状态。"
 					]
 				}
 			],
@@ -451,7 +451,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The witch casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"女巫施放以下其中一个咒语，使用魅力作为施法能力（法术豁免 {@dc 16}）："
 					],
 					"will": [
 						"{@spell mage armor} (self only)",
@@ -476,25 +476,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The witch makes two Poison Dagger attacks. It can replace one of these attacks with Spellcasting."
+						"女巫进行两次毒匕首攻击。她可以用咒语施法来替换其中一次攻击。"
 					]
 				},
 				{
 					"name": "Poison Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 21 ({@damage 6d6}) poison damage."
+						"{@atk mw,rw} 使用命中，达到5英尺或射程20/60英尺，一个目标。造成{@h}4 ({@damage 1d4 + 2}) 穿刺伤害加上21 ({@damage 6d6}) 毒素伤害。"
 					]
 				},
 				{
 					"name": "Polymorph Concoction (1/Day)",
 					"entries": [
-						"The witch hurls a bottle of liquid at a point up to 20 feet away from itself, which shatters into a cloud of magical smoke that fills a 10-foot-radius sphere. Each creature in that area must succeed on a {@dc 16} Wisdom saving throw or transform into a creature, as if under the effects of a {@spell polymorph} spell, transforming into one of the following forms (roll a {@dice d4}): 1, bat; 2, frog; 3, lizard; or 4, rat. This transformation lasts for 1 hour or until the creature drops to 0 hit points in its new form."
+						"巫婆将一瓶液体投向距离自身最多20英尺的地点，瓶子破裂成一团魔法烟雾，填满一个半径为10英尺的球体。该区域内的每个生物必须成功通过一次{@dc 16}感知豁免才能免受影响，否则将变成一种生物，就像受到{@spell polymorph}法术的影响一样，变成以下形态之一（掷骰子{@dice d4}决定）：1，蝙蝠；2，青蛙；3，蜥蜴；或4，老鼠。这种变形持续1小时，或者直到生物在新形态下的生命值降至0。"
 					]
 				},
 				{
 					"name": "Shattered Shards",
 					"entries": [
-						"The witch targets a point it can see within 30 feet of itself. The air there magically solidifies into a mirrorlike pane, then shatters in a 15-foot cone originating from that point. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking 25 ({@damage 10d4}) force damage on a failed save, or half as much damage on a successful one."
+						"巫婆选择一个距离自己30英尺以内可见的点。那里的空气会魔法般凝固成一个镜面般的板，然后从那个点开始形成一个15英尺的锥形区域，然后破碎。在该区域内的每个生物必须进行一次{@dc 16} 敏捷豁免检定，失败则受到25点伤害({@damage 10d4})，成功则只受一半伤害。"
 					]
 				}
 			],
@@ -584,7 +584,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The faerie casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"小精灵施放以下其中一个法术，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell prestidigitation}"
@@ -602,7 +602,7 @@
 				{
 					"name": "Flyby",
 					"entries": [
-						"The faerie doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+						"当(faerie)飞出敌人的攻击范围时，不会引发机会攻击。"
 					]
 				}
 			],
@@ -610,13 +610,13 @@
 				{
 					"name": "Needle Blade",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+						"{@atk mw} {@hit 7} 进行攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 1d4 + 5}) 穿刺伤害。"
 					]
 				},
 				{
 					"name": "Magic Mockery",
 					"entries": [
-						"The faerie hurls magical taunts at one creature it can see within 60 feet of itself. The creature must succeed on a {@dc 13} Wisdom saving throw or take 3 ({@damage 1d6}) psychic damage and have disadvantage on attack rolls and ability checks until the start of the faerie's next turn."
+						"小精灵向自己能看到的距离60英尺内的一只生物施放魔法嘲讽。生物必须通过一次 {@dc 13} 感知豁免才能免受 3 ({@damage 1d6}) 精神伤害，并在小精灵的下一个回合开始前攻击检定和能力检定都带有劣势。"
 					]
 				}
 			],
@@ -624,7 +624,7 @@
 				{
 					"name": "Tricksy Parry",
 					"entries": [
-						"Immediately after taking damage, the faerie reduces the damage taken by 2 ({@dice 1d4})."
+						"在受到伤害后，小精灵将受到的伤害减少2 ({@dice 1d4})。"
 					]
 				}
 			],
@@ -701,7 +701,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The faerie casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability:"
+						"精灵施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -721,7 +721,7 @@
 				{
 					"name": "Faerie Illumination",
 					"entries": [
-						"The faerie sheds dim light in a 15-foot radius."
+						"小精灵在一个半径为15英尺的范围内散发微弱的光芒。"
 					]
 				}
 			],
@@ -729,13 +729,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The faerie makes two Shining Strike attacks."
+						"仙灵进行两次闪耀打击攻击。"
 					]
 				},
 				{
 					"name": "Shining Strike",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 30 ft., one target. {@h}7 ({@damage 2d6}) radiant damage, and if the target is a creature, it must succeed on a {@dc 14} Dexterity saving throw or be wreathed in light until the end of the faerie's next turn. While a creature is wreathed in light, attack rolls against the creature have advantage, and the creature can't benefit from the {@condition invisible} condition."
+						"{@atk ms,rs} {@hit 6}命中，射程5英尺或30英尺，一个目标。造成{@h}7 ({@damage 2d6})点辐射伤害，如果目标是生物，则必须通过{@dc 14}敏捷豁免才能在小仙女的下一个回合结束前被光环包围。当生物被光环包围时，对该生物的攻击投掷具有优势，并且该生物无法受益于{@condition invisible}状态。"
 					]
 				}
 			],
@@ -743,8 +743,8 @@
 				{
 					"name": "Guiding Light (2/Day)",
 					"entries": [
-						"The faerie summons a 30-foot-radius sphere of magical light centered on itself, which lasts for 1 minute or until the faerie has the {@condition incapacitated} condition. Each creature of the faerie's choice (other than the faerie) that starts its turn in that area gains 5 temporary hit points and has advantage on Wisdom saving throws and Wisdom checks until the start of its next turn.",
-						"The sphere is bright light, sheds dim light for an additional 30 feet, and moves with the faerie. If any of the sphere's area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled."
+						"小精灵召唤一个以自己为中心的半径为30英尺的魔法光球，持续1分钟或者直到小精灵拥有{@condition incapacitated}状态。小精灵选择的每个生物（不包括小精灵本身），如果它们在那个区域开始它们的回合，将获得5点临时生命值，并在其下一个回合开始前对感知豁免和感知检定获得优势。",
+						"这个球体发出明亮的光芒，为额外的30英尺投射出微弱光线，并随着(`faerie`)移动。如果球体的任何部分与由3级或更低级法术创造的黑暗区域重叠，那么创造黑暗的法术将被驱散。"
 					]
 				}
 			],
@@ -823,7 +823,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The faerie casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"精灵施放以下其中一个咒语，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 12}）："
 					],
 					"daily": {
 						"1": [
@@ -842,13 +842,13 @@
 				{
 					"name": "Stingblade",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage plus 5 ({@damage 2d4}) poison damage. If the faerie had advantage on the attack roll, the target takes an additional 3 ({@damage 1d6}) slashing damage."
+						"{@atk mw} {@hit 5} 进行攻击，射程5英尺，目标一个。造成{@h}6 ({@damage 1d6 + 3}) 斩击伤害加上5 ({@damage 2d4}) 毒素伤害。如果仙灵在攻击骰上获得优势，目标受到额外3 ({@damage 1d6}) 斩击伤害。"
 					]
 				},
 				{
 					"name": "Theft of Nerves (1/Day)",
 					"entries": [
-						"The faerie unleashes a burst of mind-muddling magic in a 15-foot cone. Each creature in that area must succeed on a {@dc 12} Intelligence saving throw or have the {@condition frightened} condition for 1 minute. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"小精灵释放了一股混乱思维的魔法，形成一个15英尺的锥形区域。该区域内的每个生物必须成功通过一个{@dc 12}智力豁免才能避免获得{@condition frightened}状态，持续1分钟。一个{@condition frightened}生物可以在自己的回合结束时重复进行豁免才能，成功则结束自身的影响。"
 					]
 				}
 			],
@@ -856,7 +856,7 @@
 				{
 					"name": "Mischievous Stealth",
 					"entries": [
-						"The faerie takes the Hide action."
+						"小精灵采取躲藏动作。"
 					]
 				}
 			],
@@ -942,13 +942,13 @@
 				{
 					"name": "Can't Catch Me",
 					"entries": [
-						"The gingerbrute has advantage on any ability checks or saving throws it makes to avoid or end the {@condition grappled} or the {@condition restrained} condition on itself."
+						"姜饼机器人在避免或结束自身 {@condition grappled} 或 {@condition restrained} 状态的所有能力检定或豁免投掷中获得优势。"
 					]
 				},
 				{
 					"name": "Sweet Victory",
 					"entries": [
-						"Once the gingerbrute is destroyed, a creature can use its action to eat all the remains and gain 5 temporary hit points. The remains crumble away after 24 hours if not eaten."
+						"一旦姜饼机器人被摧毁，生物可以使用动作来吃掉所有遗骸并获得5点临时生命值。如果未被吃掉，遗骸将在24小时后消失。(gingerbrute)。"
 					]
 				}
 			],
@@ -956,19 +956,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The gingerbrute makes two Fork attacks, two Gumdrop Slingshot attacks, or one of each."
+						"姜饼机器人进行两次叉子攻击，两次糖果弹弓攻击，或者一次叉子攻击和一次糖果弹弓攻击。"
 					]
 				},
 				{
 					"name": "Fork",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+						"{@atk mw} {@hit 6} 进行攻击，射程5英尺，目标一个。造成{@h}6 ({@damage 1d4 + 4}) 穿刺伤害。"
 					]
 				},
 				{
 					"name": "Gumdrop Slingshot",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d4 + 4}) bludgeoning damage."
+						"{@atk rw} {@hit 6} 进行攻击，射程30/120英尺，目标为一名敌人。造成{@h}6 ({@damage 1d4 + 4}) 钝击伤害。"
 					]
 				}
 			],
@@ -1040,26 +1040,26 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the Goose Mother fails a saving throw, it can choose to succeed instead."
+						"如果雁母(Goose Mother)失败豁免投掷，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Multiple Heads",
 					"entries": [
-						"The Goose Mother has five heads. Whenever the Goose Mother takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the Goose Mother dies.",
-						"At the end of its turn, the Goose Mother grows two heads for each of its heads that died since its last turn, unless it has taken poison damage since its last turn. The Goose Mother regains 10 hit points for each head when it regrows."
+						"鹅母有五个头。每当鹅母在一个回合中受到25点或更多的伤害时，其中一个头会死亡。如果所有头都死亡，鹅母就会死亡。",
+						"在它的回合结束时，雁母为每个自上次回合以来死亡的头部长出两个新头部，除非它自上次回合以来受到毒素伤害。当它重新长出头部时，雁母会恢复10点生命值。"
 					]
 				},
 				{
 					"name": "Reactive Heads",
 					"entries": [
-						"For each head the Goose Mother has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+						"对于鹅之母（Goose Mother）每多出一个头，它会获得一个额外的反应，只能用于机会攻击。"
 					]
 				},
 				{
 					"name": "Wakeful",
 					"entries": [
-						"While the Goose Mother sleeps, at least one of its heads is awake."
+						"当雁母睡觉时，至少有一个头是清醒的。"
 					]
 				}
 			],
@@ -1067,26 +1067,26 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The Goose Mother makes as many Beak attacks as it has heads and one Wing attack."
+						"雌鹅之母进行与其头数相同的喙攻击，以及一次翅膀攻击。"
 					]
 				},
 				{
 					"name": "Beak",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+						"{@atk mw}进行攻击，达到10英尺，一个目标。造成{@h}6({@damage 1d6 + 3})点钝击伤害。"
 					]
 				},
 				{
 					"name": "Wing",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d12 + 3}) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a {@dc 15} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} 使用 {@hit 6} 进行攻击，射程10英尺，目标为一名敌人。造成{@h}9 ({@damage 1d12 + 3}) 钝击伤害。如果目标是一只大型或更小的生物，它必须成功通过一个{@dc 15} 力量豁免才能避免被施加{@condition prone}状态。"
 					]
 				},
 				{
 					"name": "Lullaby of Honks {@recharge 5}",
 					"entries": [
-						"The Goose Mother's heads honk a discordant lullaby. Each creature of the Goose Mother's choice within 10 feet of it must make a {@dc 15} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) thunder damage and falls into a magical slumber. On a successful save, the target takes half as much damage only. The honks can be heard up to 300 feet away.",
-						"A creature under magical slumber has the {@condition unconscious} condition for 8 hours. This effect ends early for a creature if it takes damage or another creature uses an action to shake it awake."
+						"雁母的头发出刺耳的摇篮曲。在其周围10英尺范围内，雁母选择的每个生物必须进行一次{@dc 15}体质豁免投。未通过豁免的生物会受到7({@damage 2d6})点雷属性伤害并陷入魔法沉睡状态。通过豁免的目标只会受到一半伤害。这些叫声能传达300英尺远。",
+						"一个被魔法沉睡的生物拥有{@condition unconscious}状态，持续8小时。如果生物受到伤害或其他生物使用一个动作将其摇醒，这个效果会提前结束。"
 					]
 				}
 			],
@@ -1180,7 +1180,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The high fae casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
+						"高等精灵施放以下其中一个咒语，无需材料成分，并使用魅力作为施法能力（法术豁免{@dc 18}）："
 					],
 					"will": [
 						"{@spell friends}",
@@ -1200,7 +1200,7 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The high fae has advantage on saving throws against spells and other magical effects."
+						"高等精灵在对抗咒语和其他魔法效果的豁免 throws 中拥有优势。"
 					]
 				}
 			],
@@ -1208,19 +1208,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The high fae makes two Fae Blade attacks and uses Vexing Prank once."
+						"高等精灵进行两次精灵之刃（Fae Blade）攻击，并使用一次恼人恶作剧（Vexing Prank）。"
 					]
 				},
 				{
 					"name": "Fae Blade",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) force damage."
+						"{@atk mw} {@hit 9}攻击，达到5英尺，一个目标。{@h}18 ({@damage 3d8 + 5})力量伤害。"
 					]
 				},
 				{
 					"name": "Vexing Prank",
 					"entries": [
-						"The high fae targets one creature it can see within 60 feet of itself with a magical trick. The target must make a {@dc 18} Wisdom saving throw. On a failed save, the target takes 21 ({@damage 6d6}) psychic damage and has the {@condition frightened} condition until the start of the high fae's next turn. On a successful save, the target takes half as much damage only."
+						"高等精灵瞄准自己能看到的距离60英尺内的一只生物，使用一种魔法技巧。目标必须进行一次{@dc 18}感知豁免投骰。未能通过豁免的目标将受到21点({@damage 6d6})心灵伤害，并在高等精灵下个回合开始前拥有{@condition frightened}状态。通过豁免的目标只受到一半伤害。"
 					]
 				}
 			],
@@ -1228,7 +1228,7 @@
 				{
 					"name": "Loot Likeness",
 					"entries": [
-						"The high fae magically transforms into a duplicate of a Small or Medium creature it can see. While transformed, the high fae retains its game statistics (other than its size) but gains access to enough general information about the imitated creature, such as background and personality, to reasonably pass itself off as the creature. This transformation ends if the high fae is reduced to 0 hit points, uses this bonus action again, or uses a bonus action to revert to its true form."
+						"高等精灵在魔法作用下可以变成它所看到的一个小型或中型生物的复制品。变形后，高等精灵保留其游戏统计数据（除了体型以外），但会获得关于被模仿生物的一般信息，比如背景和个性，足以合理地冒充那个生物。这种变形会在高等精灵被降为0点生命值时结束，再次使用这个奖励动作时结束，或者使用一个奖励动作恢复到真实形态时结束。"
 					]
 				}
 			],
@@ -1337,13 +1337,13 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the high fae is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it doesn't have the {@condition incapacitated} condition."
+						"如果高等精灵受到影响，使其进行敏捷豁免来仅受到一半伤害，那么如果它成功通过豁免，则不会受到伤害，如果它失败，则只受到一半伤害，前提是它没有{@condition incapacitated}状态。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The high fae has advantage on saving throws against spells and other magical effects."
+						"高等精灵在对抗咒语和其他魔法效果的豁免 throws 中拥有优势。"
 					]
 				}
 			],
@@ -1351,19 +1351,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The high fae makes two Fae Claymore attacks and uses Tripping Feint."
+						"高等精灵进行两次精灵双手剑攻击，并使用绊倒伪装(Tripping Feint)。"
 					]
 				},
 				{
 					"name": "Fae Claymore",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}20 ({@damage 4d6 + 6}) force damage, and the target's speed is reduced by 10 feet, to a minimum speed of 5 feet. The reduction lasts until the start of the high fae's next turn."
+						"{@atk mw} {@hit 10} 进行攻击，射程10英尺，目标一个。造成{@h}20 ({@damage 4d6 + 6}) 点力量伤害，并且目标的移动速度减少10英尺，至少为5英尺。减速效果持续到高等精灵的下一个回合开始。"
 					]
 				},
 				{
 					"name": "Tripping Feint",
 					"entries": [
-						"The high fae targets one Large or smaller creature it can see within 10 feet of itself. The target must succeed on a {@dc 18} Dexterity saving throw or have the {@condition prone} condition."
+						"高等精灵瞄准自己能看到的距离10英尺内的一个大型或更小的生物。目标必须成功通过一个{@dc 18}的敏捷豁免才能避免{@condition prone}状态。"
 					]
 				}
 			],
@@ -1371,7 +1371,7 @@
 				{
 					"name": "Darting Flight",
 					"entries": [
-						"The high fae moves up to its speed. This movement doesn't provoke opportunity attacks."
+						"高等精灵移动其速度。这次移动不会引发机会攻击。"
 					]
 				}
 			],
@@ -1379,7 +1379,7 @@
 				{
 					"name": "Parry and Riposte",
 					"entries": [
-						"The high fae adds 4 to its AC against one melee attack roll that would hit it, provided it can see the attacker. After the attack hits or misses, the high fae then makes one Fae Claymore attack against the attacker."
+						"高等精灵对一次近战攻击骰增加4点AC，前提是它能看见攻击者。在攻击命中或未命中后，高等精灵随后对攻击者进行一次精灵双手剑（Fae Claymore）攻击。"
 					]
 				}
 			],
@@ -1489,7 +1489,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The high fae casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 19}):"
+						"高等精灵施放以下其中一个法术，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 19}）："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -1512,7 +1512,7 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The high fae has advantage on saving throws against spells and other magical effects."
+						"高等精灵在对抗咒语和其他魔法效果的豁免 throws 中拥有优势。"
 					]
 				}
 			],
@@ -1520,19 +1520,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The high fae makes two Elemental Strike attacks."
+						"高等精灵进行两次元素打击攻击。"
 					]
 				},
 				{
 					"name": "Elemental Strike",
 					"entries": [
-						"{@atk ms,rs} {@hit 11} to hit, reach 5 ft. or range 60 ft., one target. {@h}18 ({@damage 2d10 + 7}) acid, cold, fire, force, lightning, or thunder damage (the high fae's choice)."
+						"{@atk ms,rs} {@hit 11}攻击，射程5英尺或60英尺，一目标。{@h}18 ({@damage 2d10 + 7})酸、冰、火、力量、闪电或雷霆伤害（高等精灵的选择）。"
 					]
 				},
 				{
 					"name": "Negotiate Life {@recharge 5}",
 					"entries": [
-						"The high fae enacts a magical bargain, siphoning energy from its opponents to heal its wounds. The high fae targets up to three creatures it can see within 60 feet of itself. Each target must make a {@dc 19} Constitution saving throw, taking 26 ({@damage 4d12}) necrotic damage on a failed save, or half as much damage on a successful one. The high fae then regains 30 hit points."
+						"高等精灵实施了一项魔法交易，从其对手身上汲取能量来治愈自己的伤口。高等精灵选择最多三个在自身周围60英尺内可见的生物作为目标。每个目标必须进行一次{@dc 19}体质豁免才能，未通过豁免的目标将受到26({@damage 4d12})点死灵伤害，通过豁免的目标则只受到一半伤害。然后高等精灵恢复30点生命值。"
 					]
 				}
 			],
@@ -1540,7 +1540,7 @@
 				{
 					"name": "Fae Counterspell",
 					"entries": [
-						"The high fae interrupts a creature it can see that is casting a spell with verbal, somatic, or material components. The caster takes 10 ({@damage 3d6}) psychic damage and must make a {@dc 19} Charisma saving throw. On a failed save, the spell fails and has no effect, but the spell slot used to cast it is not expended."
+						"高等精灵打断了一个正在施放需要语言、手势或材料组件的法术的生物。施法者受到10点心灵伤害({@damage 3d6})，并必须进行一次{@dc 19} 魅力豁免检定。如果豁免失败，法术失败且没有任何效果，但用于施法的法术位不会消耗。"
 					]
 				}
 			],
@@ -1649,7 +1649,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The high fae casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 19}):"
+						"高等精灵施放以下其中一个法术，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 19}）："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -1670,19 +1670,19 @@
 				{
 					"name": "Aura of Overwhelming Splendor",
 					"entries": [
-						"The high fae radiates dazzling and mollifying magic. Each creature of the high fae's choice that starts its turn within 5 feet of the high fae must succeed on a {@dc 19} Wisdom saving throw or have the {@condition charmed} condition until the start of its next turn. While {@condition charmed}, the creature also has the {@condition incapacitated} condition."
+						"这位高等精灵散发出令人眩目和抚慰的魔法。高等精灵选择的每个生物，在其5英尺内开始其回合时，必须成功进行一次{@dc 19}感知豁免检定，否则将拥有{@condition charmed}状态，直到其下一个回合开始。在{@condition charmed}期间，该生物还将拥有{@condition incapacitated}状态。"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the high fae fails a saving throw, it can choose to succeed instead."
+						"如果高等精灵未能通过豁免投掷检定，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The high fae has advantage on saving throws against spells and other magical effects."
+						"高等精灵在对抗咒语和其他魔法效果的豁免 throws 中拥有优势。"
 					]
 				}
 			],
@@ -1690,19 +1690,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The high fae makes two Fae Blade attacks. It can replace one of these attacks with Stunning Soliloquy if available."
+						"高等精灵进行两次精灵之刃（Fae Blade）攻击。如果可用，它可以用令人惊叹的独白（Stunning Soliloquy）替换其中一次攻击。"
 					]
 				},
 				{
 					"name": "Fae Blade",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) force damage."
+						"{@atk mw}进行攻击，射程5英尺，目标为一个。造成{@h}20 ({@damage 3d8 + 7})点力场伤害。"
 					]
 				},
 				{
 					"name": "Stunning Soliloquy {@recharge 5}",
 					"entries": [
-						"The high fae unleashes a string of magical words. Each creature of the high fae's choice within 30 feet of itself must succeed on a {@dc 19} Wisdom saving throw or have the {@condition stunned} condition for 1 minute. A {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"高等精灵释放一连串魔法咒语。在其周围30英尺范围内高等精灵选择的每个生物必须成功通过一个{@dc 19}感知豁免才能免疫{@condition stunned}状态1分钟。一个{@condition stunned}生物可以在自己的回合结束时重复进行豁免才能，成功则结束自身的影响。"
 					]
 				}
 			],
@@ -1713,13 +1713,13 @@
 				{
 					"name": "Capricious Step",
 					"entries": [
-						"Immediately after taking damage, the high fae magically has the {@condition invisible} condition and teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 30 feet of itself. The invisibility lasts until the end of the high fae's next turn."
+						"在受到伤害后，高等精灵会魔法地获得{@condition invisible}状态，并传送到离自己30英尺内可以看见的未被占据的空间，同时携带着穿戴的或携带的任何装备。隐形状态持续到高等精灵的下一个回合结束。"
 					]
 				},
 				{
 					"name": "Ridicule",
 					"entries": [
-						"When a creature misses the high fae with an attack roll, the high fae magically mocks the creature, dealing 5 ({@damage 2d4}) psychic damage to the attacker."
+						"当一个生物用攻击骰未命中高等精灵时，高等精灵会使用魔法嘲讽这个生物，对攻击者造成5 ({@damage 2d4}) 精神伤害。"
 					]
 				}
 			],
@@ -1809,7 +1809,7 @@
 				{
 					"name": "Knightly Virtue",
 					"entries": [
-						"The knight has one of the following traits, depending on the court it serves:",
+						"骑士具有以下特质之一，取决于其所侍奉的宫廷：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -1818,35 +1818,35 @@
 									"type": "item",
 									"name": "Courage (Embereth)",
 									"entries": [
-										"The knight has advantage on Wisdom checks and Wisdom saving throws."
+										"这位骑士在感知检定和感知豁免上有优势。"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Knowledge (Vantress)",
 									"entries": [
-										"The knight has advantage on Intelligence checks and Intelligence saving throws."
+										"这位骑士在智力检定和智力豁免上有优势。"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Loyalty (Ardenvale)",
 									"entries": [
-										"The knight has advantage on Charisma checks and Charisma saving throws."
+										"这位骑士在魅力检定和魅力豁免上有优势。"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Persistence (Locthwain)",
 									"entries": [
-										"The knight has advantage on Constitution saving throws."
+										"骑士在体质豁免投掷骰时具有优势。"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Strength (Garenbrig)",
 									"entries": [
-										"The knight has advantage on Strength checks and Strength saving throws."
+										"骑士在力量检定和力量豁免 throws 时具有优势。"
 									]
 								}
 							]
@@ -1858,19 +1858,19 @@
 				{
 					"name": "Lance",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage plus 9 ({@damage 2d8}) radiant damage."
+						"{@atk mw} {@hit 5} 进行攻击，射程10英尺，一个目标。造成{@h}9 ({@damage 1d12 + 3}) 穿刺伤害加上9 ({@damage 2d8}) 圣光伤害。"
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands, plus 9 ({@damage 2d8}) radiant damage."
+						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 1d8 + 3}) 斩击伤害，或者如果双手使用则为8 ({@damage 1d10 + 3}) 斩击伤害，再加上9 ({@damage 2d8}) 光辉伤害。"
 					]
 				},
 				{
 					"name": "Heavy Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage plus 9 ({@damage 2d8}) radiant damage."
+						"{@atk rw}进行攻击，射程100/400英尺，目标为一名敌人。造成{@h}6 ({@damage 1d10 + 1})点穿刺伤害加上9 ({@damage 2d8})点辐射伤害。"
 					]
 				}
 			],
@@ -1948,13 +1948,13 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The nightmare haunt has advantage on saving throws against spells and other magical effects."
+						"噩梦魅魔在豁免魔法和其他魔法效果时具有优势。"
 					]
 				},
 				{
 					"name": "Somnophage",
 					"entries": [
-						"At the start of its turn, the nightmare haunt gains a number of temporary hit points equal to 5 times the number of {@condition unconscious} creatures within 30 feet of itself."
+						"在其回合开始时，梦魇鬼怪获得的临时生命值等于其周围30英尺范围内{@condition unconscious}生物数量的5倍。"
 					]
 				}
 			],
@@ -1962,20 +1962,20 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The nightmare haunt makes two Claw attacks."
+						"噩梦鬼魂进行两次爪击攻击。"
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage plus 9 ({@damage 2d8}) psychic damage."
+						"{@atk mw} {@hit 6}攻击，达到5英尺，一个目标。造成{@h}6 ({@damage 1d6 + 3})挥砍伤害加上9 ({@damage 2d8})精神伤害。"
 					]
 				},
 				{
 					"name": "Tendrils of Slumber {@recharge 5}",
 					"entries": [
-						"The nightmare haunt creates spectral tendrils that cover the ground in a 20-foot square that it can see within 30 feet of itself for 1 minute or until it uses this action again. When a creature other than the nightmare haunt enters the affected area for the first time or starts its turn there, the creature must succeed on a {@dc 14} Strength saving throw or take 11 ({@damage 2d10}) necrotic damage and have the {@condition restrained} condition. The affected ground is also considered difficult terrain for creatures other than the nightmare haunt for the duration of its effect.",
-						"A creature that starts its turn in the area and is already {@condition restrained} by the tendrils must repeat the saving throw. On a failed save, it has the {@condition unconscious} condition and instead of the {@condition restrained} condition caused by the tendrils. On a successful save, the effect ends on the creature. An {@condition unconscious} creature remains asleep until it is no longer in the area with tendrils, takes any damage, or is targeted by a {@spell remove curse} spell or similar magic."
+						"噩梦鬼魂创造出幽灵触须，覆盖它能在30英尺内看到的20英尺正方形区域，持续1分钟或直到它再次使用此动作。当除噩梦鬼魂外的生物首次进入受影响区域或在那里开始它的回合时，该生物必须成功进行一次{@dc 14}力量豁免才能避免受到11点({@damage 2d10})死灵伤害并获得{@condition restrained}状态。受影响的地面对于噩梦鬼魂以外的生物在其效果持续期间也被视为艰难地形。",
+						"在该区域开始回合且已被触须缠绕的生物必须重复豁免投掷。未通过豁免的生物将获得{@condition unconscious}状态，而不是触须造成的{@condition restrained}状态。通过豁免的生物效果结束。处于睡眠状态的生物将一直保持睡眠，直到离开触须区域、受到伤害，或成为{@spell remove curse}法术或类似魔法的目标。"
 					]
 				}
 			],
@@ -1983,7 +1983,7 @@
 				{
 					"name": "Shadow Stealth",
 					"entries": [
-						"While in dim light or darkness, the nightmare haunt takes the Hide action."
+						"在昏暗或黑暗中，梦魇鬼魂采取躲藏动作。"
 					]
 				}
 			],
@@ -2075,7 +2075,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The ogre casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 11}):"
+						"食人魔施放以下其中一个咒语，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 11}）："
 					],
 					"will": [
 						"{@spell beast sense} (rats only)",
@@ -2096,7 +2096,7 @@
 				{
 					"name": "Speak with Rats",
 					"entries": [
-						"The ogre can verbally communicate simple concepts to ordinary rats and giant rats."
+						"食人魔可以向普通老鼠和巨鼠口头传达简单概念。"
 					]
 				}
 			],
@@ -2104,19 +2104,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The ogre makes two Club attacks, two Rat-Tail Whip attacks, or one of each."
+						"食人魔进行两次棍棒攻击，两次鼠尾鞭攻击，或者各进行一次。"
 					]
 				},
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage."
+						"{@atk mw} 使用 {@hit 6} 进行攻击，达到5英尺，一个目标。造成 {@h}15 ({@damage 2d10 + 4}) 钝击伤害。"
 					]
 				},
 				{
 					"name": "Rat-Tail Whip",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage, and if the target is Large or smaller, it is pulled 5 feet toward the ogre."
+						"{@atk mw} {@hit 6} 进行攻击，射程10英尺，一个目标。造成{@h}13 ({@damage 2d8 + 4}) 斩击伤害，如果目标为大型或更小，则将其朝向食人魔拉动5英尺。"
 					]
 				}
 			],
@@ -2124,7 +2124,7 @@
 				{
 					"name": "Call Rats (1/Day)",
 					"entries": [
-						"The ogre magically calls {@dice 1d4} giant rats. Each rat appears in an unoccupied space within 30 feet of the ogre that the ogre can see. The rats act as the ogre's allies, obey its spoken commands, and take their turns immediately after the ogre's turn on the same initiative count. The rats remain for 1 hour, until the ogre dies, or until the ogre dismisses them as a bonus action."
+						"食人魔使用魔法召唤{@dice 1d4}只巨鼠。每只巨鼠出现在食人魔能看到的距离30英尺内的未被占据的空间。这些巨鼠将作为食人魔的盟友，听从其口头命令，并在与食人魔相同的先攻顺序上立即进行行动。这些巨鼠会持续1小时，直到食人魔死亡，或者食人魔将它们解散为止（作为一个奖励动作）。"
 					]
 				}
 			],
@@ -2216,25 +2216,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The werefox makes two Bite attacks, two Lance attacks, or one Bite attack and one Lance attack."
+						"狐妖进行两次咬击攻击、两次长矛攻击，或者一次咬击攻击和一次长矛攻击。"
 					]
 				},
 				{
 					"name": "Bite (Fox or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage. If the werefox moved at least 20 feet straight toward the target immediately before the hit and the target is a Medium or smaller creature, the target must succeed on a {@dc 13} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} {@hit 5} 进行攻击，射程5英尺，一个目标。造成{@h}8 ({@damage 1d10 + 3}) 穿刺伤害。如果狐妖在命中目标前立即向目标直线移动至少20英尺，并且目标是中型或更小的生物，则目标必须成功进行一次{@dc 13} 力量豁免检定，否则将获得{@condition prone} 状态。"
 					]
 				},
 				{
 					"name": "Lance (Elf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage."
+						"{@atk mw} {@hit 5} 进行攻击，射程10英尺，一个目标。造成{@h}9 ({@damage 1d12 + 3}) 穿刺伤害。"
 					]
 				},
 				{
 					"name": "Entangling Arrow (Elf or Hybrid Form Only)",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage, and the target must succeed on a {@dc 11} Dexterity saving throw or have the {@condition restrained} condition until the start of the werefox's next turn."
+						"{@atk rw} {@hit 5}攻击，射程150/600英尺，目标为一个。造成{@h}10 ({@damage 2d6 + 3})点穿刺伤害，并且目标必须成功通过一次{@dc 11}敏捷豁免才能免受{@condition restrained}效果，直到下一个回合开始前。"
 					]
 				}
 			],
@@ -2242,13 +2242,13 @@
 				{
 					"name": "Change Shape",
 					"entries": [
-						"The werefox polymorphs into a fox-elf hybrid, into a fox, or back into its elf form. Its game statistics, other than its speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its elf form if it dies."
+						"狐狸妖精变形成狐狸-精灵混合体，变成狐狸，或者恢复成精灵形态。除了速度之外，它的游戏统计在每种形态下都是相同的。它穿戴的或携带的任何装备都不会被转化。如果它死亡，它会恢复成精灵形态。"
 					]
 				},
 				{
 					"name": "Vulpine Nimbleness (Fox or Hybrid Form Only)",
 					"entries": [
-						"The werefox takes the Dash or Disengage action."
+						"狐狸人采取冲刺或脱离战斗的动作。"
 					]
 				}
 			],
@@ -2344,7 +2344,7 @@
 				{
 					"name": "Beast Speech",
 					"entries": [
-						"The sewer king can comprehend and verbally communicate with any Beast."
+						"下水道之王能够理解并与任何野兽进行口头交流。"
 					]
 				}
 			],
@@ -2352,13 +2352,13 @@
 				{
 					"name": "Rancid Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 7 ({@damage 2d6}) acid damage. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw or have the {@condition poisoned} condition until the start of the sewer king's next turn."
+						"{@atk mw} {@hit 6} 进行攻击，射程5英尺，一个目标。造成{@h}8 ({@damage 1d8 + 4}) 穿刺伤害加上7 ({@damage 2d6}) 酸性伤害。如果目标是生物，它必须成功进行一次{@dc 12} 体质豁免才能免受{@condition poisoned} 状态影响，直到下一个下水道之王的回合开始。"
 					]
 				},
 				{
 					"name": "Summon Swarm (1/Day)",
 					"entries": [
-						"The sewer king chitters and summons a swarm of rats to its aid. The swarm appears in an unoccupied space within 30 feet of the sewer king that the sewer king can see. It acts as the sewer king's ally, obeys the sewer king's commands, and takes its turn immediately after the sewer king's. The swarm remains until it dies, the sewer king dies, or until the sewer king dismisses it as an action."
+						"下水道之王(chitters)嘎嘎作响，并召唤一群老鼠前来帮助。这群老鼠会出现在下水道之王能看到的30英尺内的未被占据的空间。它们会成为下水道之王的盟友，听从下水道之王的命令，并在下水道之王之后立即行动。这群老鼠会一直存在，直到它们死亡、下水道之王死亡，或者下水道之王将其作为一个动作来解散。"
 					]
 				}
 			],
@@ -2366,7 +2366,7 @@
 				{
 					"name": "Skitter",
 					"entries": [
-						"The sewer king moves up to its speed without provoking opportunity attacks."
+						"下水道之王移动其速度，而不会引发机会攻击。"
 					]
 				}
 			],
@@ -2443,26 +2443,26 @@
 				{
 					"name": "Amphibious",
 					"entries": [
-						"The hydra can breathe air and water."
+						"九头蛇可以在空气和水中呼吸。"
 					]
 				},
 				{
 					"name": "Multiple Heads",
 					"entries": [
-						"The hydra has five heads. Whenever the hydra takes 30 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.",
-						"At the end of its turn, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken cold damage since its last turn. The hydra regains 10 hit points for each head regrown this way."
+						"九头蛇有五个头。每当九头蛇在一个回合中受到30点或更多的伤害时，其中一个头会死亡。如果所有头都死亡，九头蛇就会死亡。",
+						"在它的回合结束时，(\\(Hydra)) 会为自上次回合以来死亡的每个头部长出两个新头部，除非它在上次回合以来受到过冷伤害。通过这种方式重新长出的每个头部，(\\(Hydra)) 将恢复10点生命值。"
 					]
 				},
 				{
 					"name": "Reactive Heads",
 					"entries": [
-						"For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+						"每多一个头，九头蛇将获得一个额外的反应，只能用于机会攻击。"
 					]
 				},
 				{
 					"name": "Wakeful",
 					"entries": [
-						"While the hydra sleeps, at least one of its heads is awake."
+						"当九头蛇睡觉时，至少有一个头是清醒的。"
 					]
 				}
 			],
@@ -2470,19 +2470,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The hydra makes as many Bite attacks as it has heads."
+						"九头蛇会进行与它的头数相同的咬击攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage."
+						"{@atk mw} {@hit 9} 进行攻击，射程10英尺，目标一个。造成{@h}14 ({@damage 2d8 + 5}) 穿刺伤害。"
 					]
 				},
 				{
 					"name": "Shell Defense",
 					"entries": [
-						"The hydra withdraws its limbs and heads into its shell. Until it emerges as a bonus action, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the hydra has the {@condition prone} condition, its speed is 0 and can't increase, its heads can't die, it has disadvantage on Dexterity saving throws, and it can't take any other actions or reactions."
+						"九头蛇将它的肢体和头缩回壳内。直到它在一个奖励动作中出现，它的AC获得+4的加值，并且在力量和体质豁免检定中获得优势。当在壳内时，九头蛇处于{@condition prone}状态，速度为0且不能增加，头部不会死亡，在敏捷豁免检定中有劣势，并且不能进行任何其他动作或反应。"
 					]
 				}
 			],
@@ -2569,13 +2569,13 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the specter fails a saving throw, it can choose to succeed instead."
+						"如果幽灵未能通过豁免检定，它可以选择成功。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The specter has advantage on saving throws against spells and other magical effects."
+						"幽灵在对抗法术和其他魔法效果的豁免投掷中具有优势。(specter)"
 					]
 				}
 			],
@@ -2583,26 +2583,26 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The specter uses Mournful Keening if available, then makes one Hooves attack and one Reaping Scythe attack."
+						"幽灵使用悲伤哀嚎（Mournful Keening）（如果可用），然后进行一次蹄（Hooves）攻击和一次收割镰刀（Reaping Scythe）攻击。"
 					]
 				},
 				{
 					"name": "Hooves",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage plus 28 ({@damage 8d6}) necrotic damage. If the target is a Medium or smaller creature, it must succeed on a {@dc 18} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} 使用 {@hit 10} 进行攻击，射程10英尺，目标一个。造成 {@h}16 ({@damage 3d6 + 6}) 钝击伤害加上28 ({@damage 8d6}) 死灵伤害。如果目标是中型或更小的生物，它必须成功通过一个 {@dc 18} 力量豁免才能避免被 {@condition prone} 状态影响。"
 					]
 				},
 				{
 					"name": "Mournful Keening {@recharge}",
 					"entries": [
-						"The specter utters a keening wail, calling to those close to death. Each non-Undead creature within 120 feet of the specter must make a {@dc 15} Constitution saving throw. On a failure, the creature hears the wail and is marked for death.",
-						"A creature marked for death can't regain hit points, has disadvantage on death saving throws, and all attack rolls against it are made with advantage. This effect lasts for 1 minute or until the creature is targeted by a {@spell remove curse} spell or similar magic."
+						"幽灵发出凄厉的哀嚎，呼唤那些濒临死亡的人。在离幽灵120英尺范围内的每个非亡灵生物必须进行一次{@dc 15}体质豁免才能。未通过检定的生物会听到哀嚎声，并被标记为死亡。",
+						"被标记为死亡目标的生物无法恢复生命值，死亡豁免检定时处于劣势，并且所有对它的攻击投掷都具有优势。此效果持续1分钟，或直到该生物成为{@spell remove curse}法术或类似魔法的目标。"
 					]
 				},
 				{
 					"name": "Reaping Scythe",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d12 + 6}) slashing damage plus 28 ({@damage 8d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or gain a level of {@condition exhaustion}."
+						"{@atk mw} {@hit 10}攻击，射程10英尺，目标一个。造成{@h}12 ({@damage 1d12 + 6}) 斩击伤害加上28 ({@damage 8d6}) 墓腐伤害。如果目标是生物，必须通过一次{@dc 15} 体质豁免才能不获得{@condition exhaustion}等级。"
 					]
 				}
 			],
@@ -2688,13 +2688,13 @@
 				{
 					"name": "Caramelization",
 					"entries": [
-						"If the horror takes fire damage, it releases a sweet, mesmerizing scent. Each creature within 30 feet of the horror must succeed on a {@dc 11} Wisdom saving throw or have the {@condition charmed} condition. A {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"如果这个恐怖怪物受到火焰伤害，它会释放出一种甜蜜迷人的气味。在恐怖怪物周围30英尺范围内的每个生物必须成功通过一个{@dc 11}感知豁免检定，否则会获得{@condition charmed}状态。一个{@condition charmed}生物可以在自己的回合结束时重复进行豁免检定，成功则结束自身的影响。"
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The horror has advantage on saving throws against spells and other magical effects."
+						"恐怖生物在豁免魔法和其他魔法效果时具有优势。(horror)"
 					]
 				}
 			],
@@ -2702,19 +2702,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The horror makes one Bite attack and two Candy Cane attacks."
+						"恐怖使得(%num%)次咬击和(%num%)次糖果手杖攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 10 ({@damage 3d6}) acid damage."
+						"{@atk mw} 使用攻击命中，达到5英尺，一个目标。造成{@h}11 ({@damage 2d6 + 4}) 穿刺伤害加上10 ({@damage 3d6}) 酸性伤害。"
 					]
 				},
 				{
 					"name": "Candy Cane",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is a Large or smaller creature, the horror can choose to deal no damage; instead, the target has the {@condition prone} condition, and the horror can pull the target up to 5 feet toward itself."
+						"{@atk mw} {@hit 6} 进行攻击，射程10英尺，一个目标。造成{@h}8 ({@damage 1d8 + 4}) 钝击伤害。如果目标是大型或更小的生物，恐怖可以选择不造成伤害；相反，目标获得{@condition prone}状态，并且恐怖可以将目标拉近5英尺。"
 					]
 				}
 			],
@@ -2802,7 +2802,7 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the hart fails a saving throw, it can choose to succeed instead."
+						"如果心灵鹿失败了一次豁免投掷，它可以选择成功。"
 					]
 				}
 			],
@@ -2810,19 +2810,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The hart makes a Lightning Antlers attack and a Thunder Hooves attack."
+						"鹿进行一次闪电鹿角（Lightning Antlers）攻击和一次雷霆蹄（Thunder Hooves）攻击。"
 					]
 				},
 				{
 					"name": "Lightning Antlers",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d10 + 5}) lightning damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or have the {@condition stunned} condition until the start of the hart's next turn."
+						"{@atk mw} {@hit 9}攻击，射程15英尺，目标一个。{@h}16 ({@damage 2d10 + 5}) 闪电伤害。如果目标是生物，它必须成功通过一次{@dc 16} 体质豁免才能免受{@condition stunned}状态，直到下一轮开始前。"
 					]
 				},
 				{
 					"name": "Thunder Hooves",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) thunder damage."
+						"{@atk mw} 近战攻击 {@hit 9}，达到5英尺，一个目标。造成 {@h}14 ({@damage 2d8 + 5}) 雷属性伤害。"
 					]
 				}
 			],
@@ -2833,13 +2833,13 @@
 				{
 					"name": "Entangling Growth",
 					"entries": [
-						"Immediately after a creature the hart can see within 120 feet of itself hits it with an attack roll, the hart reduces the damage to itself by half. The attacker must immediately make a {@dc 16} Strength saving throw as beanstalks coil around it in its space. On a failed save, the creature has the {@condition grappled} condition (escape {@dc 16}) and has the {@condition restrained} condition as long as it is {@condition grappled}. The beanstalks vanish after 1 minute, if the hart has the {@condition incapacitated} condition, or when the hart dies."
+						"在一只鹿能看到的120英尺范围内，如果有生物对它进行攻击命中，鹿可以将对自己造成的伤害减半。攻击者必须立即进行一次{@dc 16}力量豁免检定，因为藤蔓缠绕在它的空间内。未通过豁免检定的生物将获得{@condition grappled}状态（逃脱{@dc 16}），并在其处于{@condition grappled}状态时持续获得{@condition restrained}状态。藤蔓在1分钟后消失，或者如果鹿处于{@condition incapacitated}状态，或者当鹿死亡时。"
 					]
 				},
 				{
 					"name": "Lightning Call",
 					"entries": [
-						"In response to making a saving throw, the hart calls down a bolt of lightning that targets a creature it can see within 120 feet of itself. The target must make a {@dc 16} Dexterity saving throw, taking 19 ({@damage 3d12}) lightning damage on a failed save, or half as much damage on a successful one."
+						"作为对豁免投掷的回应，心之鹿召唤一道闪电，瞄准自身120英尺内可见的生物。目标必须进行一次{@dc 16}敏捷豁免投掷，未通过则受到19({@damage 3d12})点闪电伤害，通过则只受到一半伤害。"
 					]
 				}
 			],
@@ -2937,7 +2937,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The treefolk casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 17}):"
+						"树人施放以下其中一个法术，无需材料组件，使用智慧作为施法能力（法术豁免{@dc 17}）："
 					],
 					"will": [
 						"{@spell detect poison and disease}",
@@ -2960,13 +2960,13 @@
 				{
 					"name": "Plant Camouflage",
 					"entries": [
-						"The treefolk has advantage on Dexterity ({@skill Stealth}) checks it makes in forest terrain."
+						"树人在森林地形中进行的敏捷度检定时具有优势。"
 					]
 				},
 				{
 					"name": "Tree Stride",
 					"entries": [
-						"Once on each of its turns, the treefolk can use 10 feet of its movement to step magically into one living tree within 5 feet of itself and emerge from a second living tree within 60 feet of itself that it can see, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be at least as large as the treefolk."
+						"每个回合，树人可以使用其移动速度的10(%num%)来神奇地踏入距离自己5(%num%)内的一棵活树中，并从距离自己60(%num%)内、可见的第二棵活树中出现，出现在第二棵树附近5(%num%)内的一个空位。两棵树必须至少和树人一样大。"
 					]
 				}
 			],
@@ -2974,19 +2974,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The treefolk makes two Crushing Vine attacks, two Nightshade Bolt attacks, or one of each."
+						"树人进行两次碾压藤蔓（Crushing Vine）攻击，两次夜影箭（Nightshade Bolt）攻击，或者各进行一次攻击。"
 					]
 				},
 				{
 					"name": "Crushing Vine",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d12 + 6}) bludgeoning damage. If the target is a creature, it has the {@condition grappled} condition (escape {@dc 18}). While {@condition grappled}, the creature also has the {@condition restrained} condition. The treefolk can grapple up to six creatures this way."
+						"{@atk mw} 使用 {@hit 10} 进行攻击，射程10英尺，目标为一个。造成{@h}25 ({@damage 3d12 + 6}) 钝击伤害。如果目标是生物，则它陷入了{@condition grappled}状态（逃脱 {@dc 18}）。在{@condition grappled}期间，生物还会陷入{@condition restrained}状态。树人可以用这种方式拖拽多达六个生物。"
 					]
 				},
 				{
 					"name": "Nightshade Bolt",
 					"entries": [
-						"{@atk rs} {@hit 9} to hit, range 60 ft., one target. {@h}33 ({@damage 6d10}) poison damage."
+						"{@atk rs}进行攻击，射程60英尺，目标为一名生物。造成{@h}33 ({@damage 6d10})点毒性伤害。"
 					]
 				}
 			],
@@ -2994,7 +2994,7 @@
 				{
 					"name": "Oaken Boon",
 					"entries": [
-						"The treefolk blesses one creature other than itself that it can see within 60 feet of itself with the might and wisdom of the forest. While blessed in this way, a creature can use the treefolk's Tree Stride trait and gains 5 ({@dice 2d4}) temporary hit points at the start of each of its turns. This blessing lasts for 1 minute, until the treefolk has the {@condition incapacitated} condition, or until the treefolk uses this bonus action again."
+						"树人祝福自己以外的一个在其视线范围内、距离自己不超过60英尺的生物，赋予其森林的力量和智慧。在这种方式下被祝福的生物可以使用树人的树木跃移特性，并在每个回合开始时获得5 ({@dice 2d4}) 临时生命值。这个祝福持续1分钟，或者直到树人拥有 {@condition incapacitated} 状态，或者直到树人再次使用这个奖励动作。"
 					]
 				}
 			],
@@ -3096,7 +3096,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The witchkite casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+						"巫风鸢施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力（咒语豁免 {@dc 17}）："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -3118,7 +3118,7 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"If the witchkite fails a saving throw, it can choose to succeed instead."
+						"如果巫鸦 (%num%) 失败了豁免投掷，它可以选择成功。"
 					]
 				}
 			],
@@ -3126,27 +3126,27 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The witchkite makes two Rend attacks and uses Malevolent Flare once."
+						"巫鸢进行两次撕裂攻击，并使用一次邪恶耀斑(Malevolent Flare)。"
 					]
 				},
 				{
 					"name": "Rend",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) slashing damage."
+						"{@atk mw} 使用攻击命中，达到10英尺，一个目标。造成{@h}16 ({@damage 3d6 + 6}) 点割伤伤害。"
 					]
 				},
 				{
 					"name": "Malevolent Flare",
 					"entries": [
-						"The witchkite spits magical, green-tinged flame at one creature it can see within 60 feet of itself. The target must make a {@dc 17} Dexterity saving throw. On a failed save, the target takes 22 ({@damage 5d8}) fire damage and suffers one of the following effects of the witchkite's choice:",
+						"巫风飞龙向其能看见的60英尺内的一名生物喷射魔法的、带有绿色色调的火焰。目标必须进行一次{@dc 17}敏捷豁免检定。未能通过检定的目标将受到22（{@damage 5d8}）点火焰伤害，并遭受巫风飞龙选择的以下效果之一：",
 						{
 							"type": "list",
 							"items": [
-								"The target must use its reaction to make a melee attack against another creature of the witchkite's choice that is within the target's reach.",
-								"The target takes 13 ({@damage 2d12}) psychic damage."
+								"目标必须使用其反应对巫风鸢（witchkite）选择的另一个生物进行近战攻击，该生物必须在目标的攻击范围内。",
+								"目标受到 13 点心灵伤害。"
 							]
 						},
-						"On a successful save, the target takes half as much damage only."
+						"成功豁免后，目标只受到一半伤害。"
 					]
 				}
 			],
@@ -3157,13 +3157,13 @@
 				{
 					"name": "Enchanting Gaze",
 					"entries": [
-						"When a creature the witchkite can see moves within 10 feet of it, the witchkite emits an enchanting gaze at the creature. The creature must succeed on a {@dc 17} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage and have the {@condition charmed} condition until the end of its next turn."
+						"当巫风鸢能看见的生物在它的10英尺内移动时，巫风鸢会对该生物发出迷人的凝视。生物必须成功通过一次 {@dc 17} 意志豁免才能免受10点 ({@damage 3d6}) 精神伤害，并且患有 {@condition charmed} 状态直到其下一个回合结束。"
 					]
 				},
 				{
 					"name": "Retribution",
 					"entries": [
-						"Immediately after taking damage from a melee attack, the witchkite makes one Rend attack against the attacker."
+						"在受到近战攻击伤害后，(witchkite)立即对攻击者发动一次撕裂(Rend)攻击。"
 					]
 				}
 			],
@@ -3257,13 +3257,13 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"The witchstalker has advantage on saving throws against spells and other magical effects."
+						"巫术追踪者(Witchstalker)在抵抗法术和其他魔法效果的豁免 throws 中具有优势。"
 					]
 				},
 				{
 					"name": "Smell Magic",
 					"entries": [
-						"The witchstalker can sense the presence and location of magic within 120 feet of itself. It also has advantage on attack rolls against creatures that have cast a spell since the end of the witchstalker's last turn."
+						"巫术追踪者(Witchstalker)可以感知自身120英尺范围内的魔法存在和位置。它对自上次行动结束以来施放过法术的生物有优势攻击。"
 					]
 				}
 			],
@@ -3271,19 +3271,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The witchstalker makes two Bite attacks."
+						"巫妖追猎者进行两次撕咬（Bite）攻击。"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 15} Strength saving throw or have the {@condition prone} condition."
+						"{@atk mw} {@hit 7} 进行攻击，射程5英尺，目标一个。造成{@h}14 ({@damage 3d6 + 4}) 穿刺伤害。如果目标是大型或更小的生物，则必须成功通过一个{@dc 15} 力量豁免才能免疫{@condition prone}状态。"
 					]
 				},
 				{
 					"name": "Mind-Wracking Howl {@recharge 5}",
 					"entries": [
-						"The witchstalker unleashes a terrible howl, and each creature within 30 feet of it that isn't a Monstrosity must make a {@dc 13} Wisdom saving throw. On a failed save, a creature takes 24 ({@damage 7d6}) psychic damage and has disadvantage on Constitution saving throws to maintain {@status concentration} on spells until the end of its next turn. On a successful save, a creature takes half as much damage only."
+						"巫妖猎手发出可怕的嚎叫，它周围30英尺范围内的每个不是畸变怪物的生物必须进行一次 {@dc 13} 智力豁免检定。未通过检定的生物会受到24点 ({@damage 7d6}) 精神伤害，并在下一回合结束前对维持法术 {@status concentration} 的体质豁免检定产生劣势。通过检定的生物只会受到一半伤害。"
 					]
 				}
 			],
@@ -3291,7 +3291,7 @@
 				{
 					"name": "Spell Stalk",
 					"entries": [
-						"Immediately after a creature within 120 feet of the witchstalker casts a spell, the witchstalker magically teleports to an unoccupied space within 5 feet of the creature and can make one Bite attack against the creature."
+						"在距离女巫追猎者120尺范围内的生物施放法术后，女巫追猎者会在魔法作用下传送到离该生物5尺范围内的一个空位，并可以对该生物进行一次撕咬（Bite）攻击。"
 					]
 				}
 			],

@@ -324,7 +324,7 @@
 				{
 					"name": "Psychic Drain (Costs 2 Actions)",
 					"entries": [
-						"One creature {@condition charmed} by the aboleth takes 10 ({@damage 3d6}) psychic damage, and the aboleth regains hit points equal to the damage dealt."
+						"一只生物{@condition charmed}受到食脑鱼的攻击，受到10点({@damage 3d6})的精神伤害，而食脑鱼回复的生命值等同于所造成的伤害。"
 					]
 				}
 			],
@@ -428,7 +428,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Alyxian casts one of the following spells, requiring no material components and using Charisma as the spellcasting modifier (spell save {@dc 17}):"
+						"艾莉西安(Alyxian)施放以下其中一个咒语，无需材料成分，使用魅力作为施法修正值(法术豁免{@dc 17})："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -475,7 +475,7 @@
 				{
 					"name": "Force Wave (1/Day)",
 					"entries": [
-						"Alyxian strikes the ground, creating a burst of energy that ripples outward. Each creature he chooses within a 30-foot-radius sphere centered on himself must succeed on a {@dc 17} Constitution saving throw or take 35 ({@damage 10d6}) force damage and be knocked {@condition prone}. A creature that succeeds on the saving throw takes half as much damage and isn't knocked {@condition prone}."
+						"艾利克西安(Alyxian)猛击地面，制造出一股能量爆发向外涟漪。他选择的每个生物，在以自己为中心的半径30英尺的球形范围内，必须成功通过一次{@dc 17}体质豁免才能免受35({@damage 10d6})力量伤害并被击倒{@condition prone}。豁免成功的生物只受到一半伤害，并且不被击倒{@condition prone}。"
 					]
 				}
 			],
@@ -503,7 +503,7 @@
 				{
 					"name": "Moon Weaver's Veil (Costs 2 Actions)",
 					"entries": [
-						"Alyxian becomes {@condition invisible} until the end of his next turn. Any equipment he is wearing or carrying becomes {@condition invisible} with him."
+						"艾利克西安在他的下一个回合结束前变成{@condition invisible}。他穿戴或携带的任何装备也会与他一起变成{@condition invisible}。"
 					]
 				}
 			],
@@ -667,7 +667,7 @@
 				{
 					"name": "Heavenly Destruction (1/Day)",
 					"entries": [
-						"Alyxian releases divine energy in a 60-foot cone. Each creature of his choice in that area must make a {@dc 17} Constitution saving throw. On a failed saving throw, the creature takes 31 ({@damage 7d8}) radiant damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+						"艾莉西安在一个60英尺的锥形范围内释放神圣能量。在该区域内，他选择的每个生物必须进行一次{@dc 17}体质豁免才能。未通过豁免的生物会受到31点({@damage 7d8})辐射伤害，并被击倒{@condition prone}。通过豁免的生物只会受到一半伤害，并且不会被击倒{@condition prone}。"
 					]
 				}
 			],
@@ -838,7 +838,7 @@
 				{
 					"name": "Stoneheart Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 3d4 + 4}) force damage, and if the target is a creature, it must succeed on a {@dc 17} Constitution saving throw or become {@condition petrified} as the dagger lodges itself in the target's body. While the dagger is lodged in the target, magic can't end the {@condition petrified} condition on it and Alyxian can't make Stoneheart Dagger attacks. A creature within reach of the {@condition petrified} target can use an action to try to remove the dagger, doing so with a successful {@dc 17} Strength check."
+						"{@atk mw,rw} 使用 {@hit 9} 进行攻击，射程5英尺或射程20/60英尺，目标为一个。造成{@h}11 ({@damage 3d4 + 4}) 点力场伤害，如果目标是生物，则必须通过{@dc 17} 体质豁免才能避免成为{@condition petrified}，因为匕首深深地插入目标的身体中。当匕首插入目标时，魔法无法结束目标身上的{@condition petrified} 状态，且艾利克斯无法进行石心匕首的攻击。在目标附近的生物可以使用一个动作尝试移除匕首，通过成功的{@dc 17} 力量检定来实现。"
 					]
 				}
 			],
@@ -1016,7 +1016,7 @@
 				{
 					"name": "Ruidium Dart",
 					"entries": [
-						"The golem can conjure a magic dart made of ruidium and hurl it at another creature it can see within 120 feet of itself. The dart strikes the target unerringly and vanishes on contact. The target must make a {@dc 17} Charisma saving throw. On a failed saving throw, the target takes 24 ({@damage 7d6}) psychic damage and gains 1 level of {@condition exhaustion}. In addition, if the target is not already suffering from ruidium corruption, it becomes corrupted when it fails the saving throw. On a successful saving throw, the target takes half as much damage and suffers no other effects."
+						"这个傀儡可以召唤一枚由鲁伊迪姆制成的魔法飞镖，投向自己能看见的距离120英尺内的另一个生物。飞镖会毫无差错地击中目标，并在接触后消失。目标必须进行一次{@dc 17} 魅力豁免才能。未能通过豁免的目标会受到24点({@damage 7d6}) 精神伤害，并获得1级{@condition exhaustion}。此外，如果目标尚未受到鲁伊迪姆腐化的影响，在未通过豁免时会受到腐化的影响。若通过豁免，目标受到一半伤害并不受其他影响。"
 					]
 				},
 				{
@@ -1275,13 +1275,13 @@
 				{
 					"name": "Keen Sight and Smell",
 					"entries": [
-						"The statue has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+						"这座雕像在依赖视觉或嗅觉的感知检定中获得优势。"
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The statue has advantage on an attack roll against a creature if at least one of the statue's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果雕像的盟友之一在离生物5英尺以内且该盟友不是{@condition incapacitated}，则该雕像对该生物的攻击投掷获得优势。"
 					]
 				}
 			],
@@ -1470,7 +1470,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ayo casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 11}):"
+						"艾约使用智慧作为施法能力，施放以下其中一个法术（法术豁免 {@dc 11}）："
 					],
 					"daily": {
 						"1e": [
@@ -1614,7 +1614,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ayo casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+						"艾约使用智慧作为施法能力，施放以下其中一个法术（法术豁免 {@dc 13}）："
 					],
 					"daily": {
 						"1e": [
@@ -1769,7 +1769,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ayo casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 14}):"
+						"艾约使用智慧作为施法能力，施放以下其中一个法术（法术豁免 {@dc 14}）："
 					],
 					"daily": {
 						"1e": [
@@ -2054,7 +2054,7 @@
 				{
 					"name": "Telepathic Bond",
 					"entries": [
-						"The flame ignores the range restriction on its telepathy when communicating with a creature it has {@condition charmed}. The two don't even need to be on the same plane of existence."
+						"当与它已经{@condition charmed}的生物交流时，火焰在传递念力时会忽略范围限制。这两者甚至不需要在同一存在平面上。"
 					]
 				},
 				{
@@ -2075,13 +2075,13 @@
 					"name": "Charm",
 					"entries": [
 						"火焰在30英尺范围内看到的一个人形物体，必须在一个{@dc 15}智慧救赎中成功，否则就会被魔法{@condition charmed}，持续1天。目标会听从火焰的口头或心灵感应的命令。如果目标受到任何伤害或收到自杀的命令，它可以重复蓄力动作，成功后结束效果。如果目标成功地对该效果进行救赎，或者对它的效果结束，目标在接下来的24小时内对该火焰的魅力免疫。",
-						"The flame can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
+						"火焰每次只能选择一个目标{@condition charmed}。如果它迷惑了另一个目标，之前目标上的效果就会结束。"
 					]
 				},
 				{
 					"name": "Draining Kiss",
 					"entries": [
-						"The flame kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 15} Constitution saving throw against this magic, taking 32 ({@damage 5d10 + 5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"火焰吻了一个生物{@condition charmed}或一个愿意的生物。目标必须进行一次{@dc 15}体质豁免魔法检定，未通过则受到32({@damage 5d10 + 5})点精神伤害，通过则伤害减半。目标的最大生命值会减少等同于所受伤害的数值。这个减少效果持续到目标完成一次长休。如果这个效果将目标的最大生命值减至0，目标将死亡。"
 					]
 				}
 			],
@@ -2166,7 +2166,7 @@
 				{
 					"name": "Petrifying Tendrils",
 					"entries": [
-						"Any creature that starts its turn in the death embrace's space must make a {@dc 16} Constitution saving throw. On a failed saving throw, the creature is {@condition restrained}. A creature {@condition restrained} in this way must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failed saving throw or ending the effect on a successful one. The {@condition petrified} condition lasts until the effect is ended by a greater restoration spell or similar magic."
+						"任何生物在死亡拥抱者的区域开始其回合时，必须进行一次 {@dc 16} 体质豁免才能。未通过豁免检定的生物将被 {@condition restrained}。以这种方式被影响的生物必须在其下一个回合结束时重新进行豁免检定，未通过检定则继续被 {@condition petrified}，通过检定则效果结束。这种 {@condition petrified} 状态将持续，直到受到强效恢复法术或类似魔法效果终止。"
 					]
 				},
 				{
@@ -2300,7 +2300,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Dermot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+						"Dermot 施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -2439,7 +2439,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Dermot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
+						"德莫特施放以下其中一个咒语，使用智慧作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -2584,7 +2584,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Dermot casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 16}):"
+						"德莫特施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 16}）："
 					],
 					"will": [
 						"{@spell guidance}",
@@ -2608,7 +2608,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Dermot wears {@item mariner's armor} and wields a ruidium warhammer (see appendix B). If Dermot rolls a 1 on an attack roll made with the warhammer, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}."
+						"Dermot 身穿 {@item mariner's armor}，手持一把锐德战锤（见附录B）。如果 Dermot 用战锤进行攻击检定时掷出1点，他必须在 {@dc 20} 魅力豁免检定中成功，否则将获得 {@condition exhaustion} 的1级。"
 					]
 				}
 			],
@@ -2798,7 +2798,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The extollant casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"赞美者施放以下其中一个法术，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell minor illusion}"
@@ -2818,7 +2818,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Galeokaerda has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"盖尔奥卡尔达 (Galeokaerda) 在豁免投掷中对被 {@condition charmed} 的效果具有优势，并且魔法无法让她入睡。"
 					]
 				}
 			],
@@ -2937,7 +2937,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Galsariad casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"加尔萨里亚德(Galsariad)施放以下其中一个法术，使用智力作为施法能力（法术豁免{@dc 13}）："
 					],
 					"will": [
 						"{@spell mage armor}",
@@ -2956,7 +2956,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Galsariad has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Galsariad在豁免投掷中对被{@condition charmed}的效果具有优势，并且魔法无法让他进入睡眠状态。"
 					]
 				}
 			],
@@ -2978,7 +2978,7 @@
 				{
 					"name": "Distort Gravity (1/Day)",
 					"entries": [
-						"Galsariad targets himself or one willing creature that he can see within 60 feet of himself, magically distorting gravity around the target. Any creature within 5 feet of the target takes 3 ({@damage 1d6}) force damage. In addition, the target can use a reaction to float upward, up to 20 feet, without provoking opportunity attacks. When this effect ends at the start of Galsariad's next turn, the target floats gently down up to 20 feet."
+						"加尔萨里亚德(Galsariad)将自己或者他能看到的距离60英尺内的一名愿意的生物作为目标，通过魔法扭曲目标周围的重力。目标周围5英尺范围内的任何生物会受到3({@damage 1d6})力场伤害。此外，目标可以使用一次反应，向上飘浮，最多20英尺，而不会引发机会攻击。当这个效果在加尔萨里亚德的下一个回合开始时结束时，目标会缓缓飘落，最多20英尺。"
 					]
 				}
 			],
@@ -3075,7 +3075,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Galsariad casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"加尔萨里亚德(Galsariad) 施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell mage armor}",
@@ -3096,7 +3096,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Galsariad has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Galsariad在豁免投掷中对被{@condition charmed}的效果具有优势，并且魔法无法让他进入睡眠状态。"
 					]
 				}
 			],
@@ -3110,7 +3110,7 @@
 				{
 					"name": "Gravity Wave {@recharge 5}",
 					"entries": [
-						"Galsariad causes a rippling wave of magical gravity to fill a 20-foot-radius sphere centered on a point he can see within 100 feet of himself. Each creature in that area must make a {@dc 15} Strength saving throw. On a failed saving throw, the creature takes 35 ({@damage 10d6}) force damage and is pulled up to 20 feet toward the sphere's center, and is knocked {@condition prone}. On a successful save, the creature takes half as much damage and isn't pulled or knocked {@condition prone}."
+						"加尔萨里亚德(Galsariad)在自己能看到的距离100英尺内的某点释放了一股魔法引力波，充满了以该点为中心的半径20英尺的球形区域。该区域内的每个生物必须进行一次{@dc 15}力量豁免才能。未通过豁免检定的生物将受到35({@damage 10d6})力量伤害，并被拉向球心20英尺，并且被击倒{@condition prone}。通过豁免检定的生物只会受到一半伤害，并且不会被拉向球心或击倒{@condition prone}。"
 					]
 				}
 			],
@@ -3118,7 +3118,7 @@
 				{
 					"name": "Distort Gravity (1/Day)",
 					"entries": [
-						"Galsariad targets himself or one willing creature that he can see within 60 feet of himself, magically distorting gravity around the target. Any creature within 5 feet of the target takes 7 ({@damage 2d6}) force damage. In addition, the target can use a reaction to float upward, up to 20 feet, without provoking opportunity attacks. When this effect ends at the start of Galsariad's next turn, the target floats gently down up to 20 feet."
+						"加尔萨里亚德(Galsariad)将自己或者他能看到的距离60英尺内的一名愿意的生物作为目标，通过魔法扭曲目标周围的重力。目标周围5英尺范围内的任何生物会受到7({@damage 2d6})点力场伤害。此外，目标可以使用一次反应，在不引发机会攻击的情况下向上飘浮，最多20英尺。当这个效果在加尔萨里亚德的下一个回合开始时结束时，目标会缓缓飘落，最多20英尺。"
 					]
 				}
 			],
@@ -3229,7 +3229,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Galsariad casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"盖尔萨里亚德(Galsariad)施放以下其中一个咒语，使用智力作为施法能力（咒语豁免 {@dc 16}）："
 					],
 					"will": [
 						"{@spell mage hand}"
@@ -3257,13 +3257,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Galsariad has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Galsariad在豁免投掷中对被{@condition charmed}的效果具有优势，并且魔法无法让他进入睡眠状态。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Galsariad wears a {@item ring of swimming} and carries a ruidium dagger (see appendix B). If he rolls a 1 on an attack roll made with the dagger, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}."
+						"Galsariad穿着一件{@item ring of swimming}，携带一把锐德短剑（见附录B）。如果他用短剑进行攻击骰时掷出1点，他必须在进行一次{@dc 20}魅力豁免检定，否则将获得1级的{@condition exhaustion}。"
 					]
 				}
 			],
@@ -3289,7 +3289,7 @@
 				{
 					"name": "Gravity Wave {@recharge 5}",
 					"entries": [
-						"Galsariad causes a rippling wave of magical gravity to fill a 30-foot-radius sphere centered on a point he can see within 100 feet of himself. Each creature in that area must make a {@dc 16} Strength saving throw. On a failed saving throw, the creature takes 42 ({@damage 12d6}) force damage and is {@condition restrained} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition restrained}. A {@condition restrained} creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"加尔萨里亚德(Galsariad)在自己能看到的距离100英尺内的某点释放了一股魔法引力波，填满了以该点为中心的30英尺半径球体。该区域内的每个生物必须进行一次{@dc 16}力量豁免投。未通过豁免的生物将受到42点({@damage 12d6})力量伤害，并且在接下来的1分钟内处于{@condition restrained}状态。通过豁免的生物将只受到一半伤害，并且不会被{@condition restrained}。一名{@condition restrained}生物可以在自己的每个回合结束时重复这次豁免，成功则结束自身的效果。"
 					]
 				}
 			],
@@ -3454,7 +3454,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"{@skill Insight} casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"{@skill Insight} 施放以下其中一个咒语，无需材料成分，并使用智力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell alter self}",
@@ -3476,7 +3476,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"{@skill Insight} makes two Arcane Shock or Dagger of the Poisoned Mind attacks."
+						"{@skill Insight} 进行两次奥术冲击或中毒心灵匕首的攻击。"
 					]
 				},
 				{
@@ -3811,7 +3811,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Irvan wears {@item gloves of swimming and climbing} and wields a ruidium shortsword (see appendix B). If Irvan rolls a 1 on an attack roll made with the shortsword, he must succeed on a {@dc 20} Charisma saving throw or gain 1 level of {@condition exhaustion}.",
+						"伊凡穿着{@item gloves of swimming and climbing}，挥舞着一把锐德短剑(见附录B)。如果伊凡用短剑进行攻击投掷出1点时，他必须在{@dc 20}个魅力豁免检定中成功，否则将获得1级{@condition exhaustion}。",
 						"此外，欧文还有一个神奇的假肢。当手臂与他相连时，它的功能与它所替代的身体部分相同。艾文可以把手臂作为一个动作来安装或拆卸，而且其他人也不能把它拆下来。"
 					]
 				}
@@ -4041,7 +4041,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The fanatic has the following cleric spells prepared:"
+						"狂热者是一名4级法术施展者。它的法术施展能力是感知（法术豁免 {@dc 11}，法术攻击命中加值 {@hit 3}）。狂热者已准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -4080,7 +4080,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Laurin wields a {@item staff of the adder} and is attuned to it as though he were a cleric."
+						"劳林挥舞着一把{@item staff of the adder}，并且像牧师一样与它产生了共鸣。"
 					]
 				}
 			],
@@ -4299,7 +4299,7 @@
 				{
 					"name": "Tactical Readiness",
 					"entries": [
-						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition incapacitated}."
+						"当Maggie和她的盟友在30英尺内时，他们在先攻检定上获得优势，只要Maggie不是{@condition incapacitated}。"
 					]
 				}
 			],
@@ -4416,7 +4416,7 @@
 				{
 					"name": "Tactical Readiness",
 					"entries": [
-						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition incapacitated}."
+						"当Maggie和她的盟友在30英尺内时，他们在先攻检定上获得优势，只要Maggie不是{@condition incapacitated}。"
 					]
 				}
 			],
@@ -4567,7 +4567,7 @@
 				{
 					"name": "Tactical Readiness",
 					"entries": [
-						"Maggie and allies within 30 feet of her have advantage on initiative rolls, as long as Maggie isn't {@condition incapacitated}."
+						"当Maggie和她的盟友在30英尺内时，他们在先攻检定上获得优势，只要Maggie不是{@condition incapacitated}。"
 					]
 				}
 			],
@@ -4741,7 +4741,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The high curator casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
+						"高级馆长施放以下其中一个法术，无需材料组件，使用智力作为施法能力（法术豁免 {@dc 18}）："
 					],
 					"will": [
 						"{@spell detect magic}"
@@ -4875,7 +4875,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The infiltrator casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
+						"渗透者施放以下其中一个法术，无需材料组件，并使用智力作为施法能力（法术豁免 {@dc 14}）："
 					],
 					"will": [
 						"{@spell disguise self}"
@@ -5166,7 +5166,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The extollant casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"赞美者施放以下其中一个法术，无需材料成分，并使用魅力作为施法能力（法术豁免 {@dc 15}）："
 					],
 					"will": [
 						"{@spell minor illusion}"
@@ -5282,7 +5282,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The initiate casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"新手施法者施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力（咒语豁免检定{@dc 13}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -5405,7 +5405,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The silvertongue casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"银舌施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力（法术豁免 {@dc 16}）："
 					],
 					"daily": {
 						"1": [
@@ -5554,7 +5554,7 @@
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"The scout has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+						"侦察员在依赖听觉或视觉的感知检定中获得优势。"
 					]
 				}
 			],
@@ -5719,7 +5719,7 @@
 				{
 					"name": "Trampling Charge",
 					"entries": [
-						"If the elephant moves at least 20 feet straight toward a creature and then hits it with a Gore attack on the same turn, that target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the elephant can make one Stomp attack against it as a bonus action."
+						"如果大象朝着一个生物直线移动至少20英尺，然后在同一回合用牛角攻击击中它，那个目标必须成功进行一个{@dc 16}的力量豁免才能不被击倒。如果目标被{@condition prone}，大象可以作为一个奖励动作对其进行一次践踏攻击。"
 					]
 				}
 			],
@@ -6005,7 +6005,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The mastermind casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"策划者施放以下其中一个咒语，无需材料成分，并使用智力作为施法能力（法术豁免{@dc 15}）："
 					],
 					"will": [
 						"{@spell alter self}",
@@ -6169,7 +6169,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The serpentmaw has advantage on an attack roll against a creature if at least one of the serpentmaw's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果serpentmaw的盟友中有至少一个与creature在5英尺范围内且该盟友不是{@condition incapacitated}，则serpentmaw在对该creature进行攻击检定时具有优势。"
 					]
 				}
 			],
@@ -6260,7 +6260,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Shira casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 10}, {@hit 2} to hit with spell attacks):"
+						"希拉施放以下其中一个法术，无需材料组件，并使用魅力作为施法能力（法术豁免 {@dc 10}，用法术攻击命中 {@hit 2}）："
 					],
 					"will": [
 						"{@spell chill touch}"
@@ -6407,7 +6407,7 @@
 				{
 					"name": "Death Burst",
 					"entries": [
-						"When the bloodfin dies, it explodes in a cloud of toxic blood. Each creature in a 10-foot-radius sphere centered on the exploding bloodfin, including any creature swallowed by the bloodfin, must succeed on a {@dc 15} Constitution saving throw or take 10 ({@damage 3d6}) poison damage. A creature inside the bloodfin when it explodes falls {@condition prone} in the space formerly occupied by the bloodfin and is no longer {@condition blinded} or {@condition restrained} by it."
+						"当血鳍鱼死亡时，它会爆炸成一团有毒的血液云。在以爆炸的血鳍鱼为中心的半径为10英尺的球体内的每个生物，包括被血鳍鱼吞噬的生物，在进行一次{@dc 15}体质豁免检定，否则将受到10({@damage 3d6})点毒性伤害。当血鳍鱼爆炸时，位于其中的生物会落到血鳍鱼原来占据的空间中，并不再被它所{@condition blinded}或{@condition restrained}。"
 					]
 				},
 				{
@@ -6635,7 +6635,7 @@
 				{
 					"name": "Desolate Drain {@recharge 5}",
 					"entries": [
-						"Each creature in the swarm's space must make a {@dc 13} Wisdom saving throw. On a failed saving throw, a creature takes 24 ({@damage 7d6}) psychic damage and is {@condition stunned} until the end of its next turn. The effect ends on a creature if the swarm moves out of the creature's space or if another creature within 5 feet of the swarm uses an action to make a {@dc 14} Strength check, pulling the affected creature out of the swarm on a successful check. On a successful saving throw, a creature takes half as much damage and suffers no other effects."
+						"在虫群的区域内的每个生物必须进行一次 {@dc 13} 意志豁免。未通过豁免的生物会受到 24 点 ({@damage 7d6}) 精神伤害，并在其下一个回合结束前被 {@condition stunned}。如果虫群移出生物的区域，或者在虫群周围5英尺内的另一个生物使用一个动作进行 {@dc 14} 力量检定，成功检定后将受影响的生物拉出虫群，效果结束。通过豁免的生物只会受到一半伤害，并且不会遭受其他影响。"
 					]
 				}
 			],
@@ -6728,7 +6728,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Verin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"维林施放以下其中一个法术，无需材料组件，并使用魅力作为施法能力（法术豁免{@dc 14}）："
 					],
 					"will": [
 						"{@spell dancing lights}"
@@ -6748,13 +6748,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Verin has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"Verin在豁免投掷中对被 {@condition charmed} 的效果具有优势，并且魔法无法让他入睡。"
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, Verin has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，维林在攻击检定上有劣势，以及在依赖视力的感知（(Wisdom {@skill Perception})）检定上也有劣势。"
 					]
 				}
 			],

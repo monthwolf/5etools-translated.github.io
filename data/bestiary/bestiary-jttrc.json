@@ -576,8 +576,8 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage plus 7 ({@damage 2d6}) lightning damage. If the target is a Large or smaller creature, it must succeed on a {@dc 17} Strength saving throw or be swallowed by the bakunawa. A swallowed creature is {@condition blinded} and {@condition restrained}, and it has total cover against attacks and other effects outside the bakunawa. At the start of each of the bakunawa's turns, each swallowed creature takes 10 ({@damage 3d6}) lightning damage.",
-						"The bakunawa's gullet can hold up to two creatures at a time. If the bakunawa takes 30 damage or more on a single turn from a swallowed creature, the bakunawa must succeed on a {@dc 16} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 15 feet of the bakunawa. If the bakunawa dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+						"{@atk mw} 使用近战攻击，射程10英尺，一目标。造成{@h}12 ({@damage 2d6 + 5}) 穿刺伤害加上7 ({@damage 2d6}) 闪电伤害。如果目标是一只大型或更小的生物，它必须成功进行一次{@dc 17} 力量豁免才能避免被巴库纳瓦吞噬。被吞噬的生物被{@condition blinded} 并{@condition restrained}，在巴库纳瓦之外对其进行的攻击和其他效果都无效。在每个巴库纳瓦的回合开始时，每个被吞噬的生物会受到10 ({@damage 3d6}) 闪电伤害。",
+						"巴库纳瓦(Bakunawa)的食道最多可同时容纳两个生物。如果巴库纳瓦在一回合内从一个被吞噬的生物身上受到30点或更多伤害，巴库纳瓦必须在回合结束时进行一次{@dc 16}体质豁免检定，否则会将所有被吞噬的生物呕吐出来，它们会在距离巴库纳瓦15英尺的空间内落下{@condition prone}。如果巴库纳瓦死亡，被吞噬的生物不再受其影响，可以通过消耗15英尺的移动力从尸体中逃脱，离开{@condition prone}。"
 					]
 				},
 				{
@@ -996,7 +996,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The haint can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"幽灵可以像通过艰难地形一样穿过其他生物和物体。如果它在物体内结束回合，它会受到5 ({@damage 1d10}) 点力场伤害。"
 					]
 				},
 				{
@@ -1833,7 +1833,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The pari casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 19}):"
+						"精灵施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力（法术豁免 {@dc 19}）："
 					],
 					"will": [
 						"{@spell detect evil and good}"
@@ -1946,7 +1946,7 @@
 						"items": {
 							"name": "Royal Blood",
 							"entries": [
-								"If Kirina is reduced to half of his hit points or fewer, he uses the {@action Dodge} action to avoid taking further damage."
+								"如果 Kirina 的生命值降低到一半或更少，他会使用 {@action Dodge} 动作来避免受到进一步的伤害。"
 							]
 						}
 					},
@@ -1986,7 +1986,7 @@
 						"items": {
 							"name": "Royal Blood",
 							"entries": [
-								"If Simbon is reduced to half of his hit points or fewer, he uses the {@action Dodge} action to avoid taking further damage."
+								"如果辛邦(Simbon)的生命值减少到一半或更少，他会使用{@action Dodge}动作来避免进一步受到伤害。"
 							]
 						}
 					},
@@ -2062,7 +2062,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The riverine casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+						"河流使出以下其中一个咒语，无需材料成分，使用魅力作为施法能力（咒语豁免 {@dc 17}）："
 					],
 					"will": [
 						"{@spell control water}",
@@ -2117,13 +2117,13 @@
 				{
 					"name": "Whirlpool Rush",
 					"entries": [
-						"The riverine uses its Whirlpool Step. Immediately after it teleports, each creature within 5 feet of the riverine's destination space takes 5 ({@damage 1d10}) cold damage."
+						"河流使出了它的漩涡步。在它传送后，每个位于距离河流目的地空间5英尺内的生物会受到5({@damage 1d10})点冷伤害。"
 					]
 				},
 				{
 					"name": "Raging Deluge (Costs 2 Actions)",
 					"entries": [
-						"The riverine unleashes a torrent of river water in a 30-foot line that is 5 feet wide. Each creature in that area must make a {@dc 17} Dexterity saving throw. On a failed save, a creature takes 11 ({@damage 2d10}) bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+						"河流释放出一股30英尺长、5英尺宽的河水洪流。该区域内的每个生物必须进行一次{@dc 17}敏捷豁免才能。未通过豁免的生物会受到11点({@damage 2d10})的钝击伤害，并被击倒{@condition prone}。通过豁免的生物只会受到一半伤害，并且不会被击倒{@condition prone}。"
 					]
 				}
 			],
@@ -2335,7 +2335,7 @@
 				{
 					"name": "Enthralled Lure (1/Day)",
 					"entries": [
-						"The soul shaker can cast the {@spell geas} spell, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 12})."
+						"灵魂摇动者可以施放{@spell geas}咒语，无需咒语材料，并使用魅力作为施法能力（咒语豁免{@dc 12}）。"
 					]
 				},
 				{
@@ -2616,7 +2616,7 @@
 				{
 					"name": "Pyroclasm {@recharge 5}",
 					"entries": [
-						"Gouts of molten lava erupt from the tlexolotl's body. Each creature in a 30-foot-radius sphere centered on the tlexolotl must make a {@dc 15} Dexterity saving throw. On a failed saving throw, a creature takes 21 ({@damage 6d6}) fire damage and 21 ({@damage 6d6}) bludgeoning damage. On a successful saving throw, a creature takes half as much damage."
+						"熔岩喷发自特莱克索洛特尔(tlexolotl)的身体。在以特莱克索洛特尔为中心的30英尺半径球体内的每个生物必须进行一次{@dc 15}敏捷豁免投骰。未通过豁免的生物会受到21点({@damage 6d6})火焰伤害和21点({@damage 6d6})重击伤害。通过豁免的生物只会受到一半伤害。"
 					]
 				}
 			],
@@ -2872,7 +2872,7 @@
 				{
 					"name": "Blurred Form",
 					"entries": [
-						"Attack rolls against the whistler are made with disadvantage unless the whistler is {@condition incapacitated}."
+						"对哨声者的攻击投掷需以劣势进行，除非哨声者处于{@condition incapacitated}状态。"
 					]
 				},
 				{
@@ -3021,7 +3021,7 @@
 				{
 					"name": "Cloak of the Mountain {@recharge 4}",
 					"entries": [
-						"The wynling magically turns {@condition invisible}, along with any equipment it is wearing or carrying, for 1 minute or until it makes an attack roll."
+						"这个温灵(Wynling)在魔法作用下，变成{@condition invisible}，包括它所穿戴或携带的任何装备，在1分钟内持续，或者直到它进行一次攻击骰投。"
 					]
 				}
 			],

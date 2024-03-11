@@ -95,7 +95,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Vecna casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 22}):"
+						"维克纳(Vecna)施放以下其中一个法术，无需材料成分，使用智力作为施法能力（法术豁免{@dc 22}）："
 					],
 					"will": [
 						"{@spell animate dead} (as an action)",
@@ -132,7 +132,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Vecna carries a magic dagger named Afterthought. In the hands of anyone other than Vecna, Afterthought is a {@item +2 dagger}."
+						"维克纳携带一把名为“事后想起”(Afterthought)的魔法匕首。在除维克纳之外的任何人手中，“事后想起”都是一把{@item +2 dagger}。"
 					]
 				},
 				{
@@ -152,7 +152,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Vecna uses Flight of the Damned (if available), Rotten Fate, or Spellcasting. He then makes two attacks with {@i Afterthought}."
+						"维克纳使用(如果可用)《Flight of the Damned》、《Rotten Fate》或施法。然后他用{@i Afterthought}进行两次攻击。"
 					]
 				},
 				{
@@ -164,7 +164,7 @@
 				{
 					"name": "Flight of the Damned {@recharge 5}",
 					"entries": [
-						"Vecna conjures a torrent of flying, spectral entities that fill a 120-foot cone and pass through all creatures in that area before dissipating. Each creature in that area must make a {@dc 22} Constitution saving throw. On a failed save, the creature takes 36 ({@damage 8d8}) necrotic damage and is {@condition frightened} of Vecna for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition frightened}. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"维克纳(Vecna)召唤一股飞行的幽灵实体的洪流，填满一个120英尺的锥形区域，并穿过该区域内的所有生物后消散。该区域内的每个生物必须进行一次{@dc 22}体质豁免才能。未通过豁免的生物会受到36点({@damage 8d8})死灵伤害，并且会成为维克纳(Vecna)的{@condition frightened}，持续1分钟。通过豁免的生物会受到一半伤害，并且不会成为{@condition frightened}。一名{@condition frightened}生物可以在自己的回合结束时重复豁免才能，成功则结束自身的效果。"
 					]
 				},
 				{
@@ -178,7 +178,7 @@
 				{
 					"name": "Vile Teleport",
 					"entries": [
-						"Vecna teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. He can cause each creature of his choice within 15 feet of his destination space to take 10 ({@damage 3d6}) psychic damage. If at least one creature takes this damage, Vecna regains 80 hit points."
+						"维克纳传送，与他穿戴或携带的任何装备一起，最多30英尺到他能看到的一个空位。他可以让他选择的每个生物在距离目的地空间15英尺内受到10 ({@damage 3d6}) 精神伤害。如果至少有一个生物受到这个伤害，维克纳恢复80点生命值。"
 					]
 				}
 			],
@@ -189,13 +189,13 @@
 				{
 					"name": "Dread Counterspell",
 					"entries": [
-						"Vecna utters a dread word to interrupt a creature he can see that is casting a spell. If the spell is 4th level or lower, it fails and has no effect. If the spell is 5th level or higher, Vecna makes an Intelligence check ({@dc 10} + the spell's level). On a success, the spell fails and has no effect. Whatever the spell's level, the caster takes 10 ({@damage 3d6}) psychic damage if the spell fails."
+						"维克纳(Vecna)发出可怕的咒语，打断他看到的正在施法的生物。如果这个法术是4级或更低级，它失败且没有效果。如果这个法术是5级或更高级，维克纳进行一次智力检定({@dc 10} + 法术的等级)。若成功，法术失败且没有效果。无论法术等级如何，施法者在法术失败时会受到10({@damage 3d6})点心灵伤害。"
 					]
 				},
 				{
 					"name": "Fell Rebuke",
 					"entries": [
-						"In response to being hit by an attack, Vecna utters a fell word, dealing 10 ({@damage 3d6}) necrotic damage to the attacker, and Vecna teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see."
+						"作为对袭击的回应，维克纳(Vecna)念出一句邪恶咒语，对攻击者造成10({@damage 3d6})点死灵伤害，并且维克纳(Vecna)传送，带着他穿戴的或携带的任何装备，传送到他能看见的一个未被占据的空间，距离不超过30英尺。"
 					]
 				}
 			],

@@ -61,7 +61,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The amphisbaena has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+						"双头蛇龙在感知检定上有优势{@skill Perception}，并且对抗被{@condition blinded}、{@condition charmed}、{@condition deafened}、{@condition frightened}、{@condition stunned}和击倒{@condition unconscious}的豁免 throws 时有优势。"
 					]
 				}
 			],
@@ -209,7 +209,7 @@
 				{
 					"name": "Swamp Camouflage",
 					"entries": [
-						"The croaker has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+						"巨口鱼在沼泽地形中进行的敏捷检定获得优势（{@skill Stealth}）。"
 					]
 				}
 			],
@@ -357,7 +357,7 @@
 				{
 					"name": "Swamp Camouflage",
 					"entries": [
-						"The royal has advantage on Dexterity ({@skill Stealth}) checks made to hide in swampy terrain."
+						"皇室成员在湿地地形中进行的敏捷检定时具有优势。"
 					]
 				}
 			],
@@ -909,7 +909,7 @@
 				{
 					"name": "Cold Aura",
 					"entries": [
-						"At the start of each of the drowned master's turns, each creature within 5 feet of it takes 5 ({@damage 1d10}) cold damage. A creature that touches the drowned master or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) cold damage."
+						"在每个溺毙大师的回合开始时，每个距离它5英尺内的生物会受到5 ({@damage 1d10}) 点冷伤害。当一个生物在5英尺内触碰溺毙大师或用近战攻击击中它时，会受到5 ({@damage 1d10}) 点冷伤害。"
 					]
 				},
 				{
@@ -1401,7 +1401,7 @@
 				{
 					"name": "Freedom of Movement",
 					"entries": [
-						"The kraken ignores {@quickref difficult terrain||3}, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"深渊巨章( the kraken) 会无视{@quickref difficult terrain||3}，而且魔法效果不能减慢它的速度或使其被{@condition restrained}。它可以花费5英尺的移动来摆脱非魔法约束或被{@condition grappled}。"
 					]
 				}
 			],
@@ -1428,7 +1428,7 @@
 				{
 					"name": "Fling",
 					"entries": [
-						"One Medium or smaller object held or creature {@condition grappled} by the kraken is thrown up to 40 feet in a random direction and knocked {@condition prone}. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 13} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"巨魔抓住的一个中型或更小的物体或生物{@condition grappled}被投掷到一个随机方向，最远可达40英尺，并被撞击{@condition prone}。如果被投掷的目标撞击了坚固的表面，那个目标将受到每10英尺3点的{@damage 1d6}殴打伤害。如果目标被投向另一个生物，那个生物必须成功通过一个{@dc 13}敏捷豁免才能避免受到相同的伤害并被撞击{@condition prone}。"
 					]
 				},
 				{
@@ -1568,7 +1568,7 @@
 				{
 					"name": "Martial Advantage",
 					"entries": [
-						"Once per turn, the koalinth can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the koalinth that isn't {@condition incapacitated}."
+						"每回合一次，如果考林斯(Koalinth)用武器攻击命中一个与其盟友（非{@condition incapacitated}）在5英尺内的生物，它可以额外造成7点伤害({@dice 2d6})。"
 					]
 				}
 			],
@@ -1859,7 +1859,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Kysh's spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He can cast the following spell, requiring only verbal components:"
+						"凯什的施法能力是魅力（法术豁免 {@dc 12}，用法术攻击命中时为 {@hit 4}）。他可以施放以下法术，只需要口头组件："
 					],
 					"daily": {
 						"1": [
@@ -2421,7 +2421,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The subchief is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following cleric spells prepared:"
+						"副酋长是一名5级咒术师。它的咒术属性是智力（法术豁免 DC {@dc 13}，法术攻击命中加值 +{@hit 5}）。它准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -2863,7 +2863,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"The maw of Sekolah makes a Wisdom ({@skill Perception}) check."
+						"锁考拉之颚进行一次感知检定（Wisdom {@skill Perception} check）。"
 					]
 				},
 				{
@@ -3228,7 +3228,7 @@
 				{
 					"name": "Keen Sight and Smell",
 					"entries": [
-						"The peryton has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+						"鹏鹿(peryton)在依赖视觉或嗅觉的感知智力检定上具有优势。"
 					]
 				},
 				{
@@ -3260,7 +3260,7 @@
 				{
 					"name": "Warp Shadow",
 					"entries": [
-						"The peryton chooses up to three creatures within 60 feet of it that it can see. Each creature must succeed on a {@dc 14} Wisdom saving throw or become cursed. While cursed, whenever the creature makes an attack roll, an ability check, or a saving throw, it must roll a {@dice d4} and subtract that number from the roll. A cursed creature can repeat this saving throw at the end of each of its turns, ending the effect on itself with a success. A creature that succeeds on this saving throw is immune to this peryton's Warp Shadow for 24 hours."
+						"鹏鹿(peryton)选择在其视线范围内的最多三个生物，距离它不超过60英尺。每个生物必须成功通过一个{@dc 14}的感知豁免才能免受诅咒。被诅咒后，每当该生物进行攻击检定、能力检定或豁免检定时，必须投掷一个{@dice d4}，并从检定结果中减去该数字。被诅咒的生物可以在自己的回合结束时重复进行这个豁免检定，成功后便解除效果。成功通过这个豁免检定的生物在接下来的24小时内免疫这只鹏鹿的扭曲阴影(Warp Shadow)效果。"
 					]
 				}
 			],
@@ -3268,7 +3268,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"The peryton makes a Wisdom ({@skill Perception}) check."
+						"翼鹿(peryton)进行一次感知({@skill Perception})检定。"
 					]
 				},
 				{
@@ -3378,7 +3378,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Mr. Dory's innate spellcasting ability is Charisma (save {@dc 15}, {@hit 7} to hit with spell attacks). Mr. Dory can innately cast the following spells, requiring no material components:"
+						"Dory先生的天生施法能力是魅力（豁免{@dc 15}，施法攻击命中加值{@hit 7}）。Dory先生可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -3409,7 +3409,7 @@
 				{
 					"name": "Water Dependency",
 					"entries": [
-						"Mr. Dory takes 6 ({@damage 1d12}) acid damage at the end of every hour he goes without exposure to water."
+						"Dory先生在没有接触水的每个小时结束时受到6点酸性伤害。"
 					]
 				}
 			],
@@ -3683,7 +3683,7 @@
 				{
 					"name": "Sea Legs",
 					"entries": [
-						"The bosun has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+						"大副在抵抗被击倒{@condition prone}时，对能力检定和豁免投掷有优势。"
 					]
 				}
 			],
@@ -3780,7 +3780,7 @@
 				{
 					"name": "Sea Legs",
 					"entries": [
-						"The captain has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+						"船长在抵抗被击倒{@condition prone}的能力检定和豁免 throws 上有优势。"
 					]
 				}
 			],
@@ -3887,7 +3887,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The deck wizard is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following wizard spells prepared:"
+						"卡牌巫师是一名4级法术施法者。它的法术施放能力是智力（法术豁免{@dc 13}，法术攻击命中加值{@hit 5}）。它准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -3923,7 +3923,7 @@
 				{
 					"name": "Sea Legs",
 					"entries": [
-						"The deck wizard has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+						"卡组巫师在抵抗被击倒时的能力检定和豁免投掷中获得优势{@condition prone}。"
 					]
 				}
 			],
@@ -4013,7 +4013,7 @@
 				{
 					"name": "Sea Legs",
 					"entries": [
-						"The first mate has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+						"大副在抵抗被击倒时的能力检定和豁免 throws 时具有优势 {@condition prone}。"
 					]
 				}
 			],
@@ -4108,7 +4108,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It knows the following sorcerer spells:"
+						"这位牧师是一名5级法术施展者。它的法术施展能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。它掌握以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -4632,7 +4632,7 @@
 				{
 					"name": "Brine Lurker",
 					"entries": [
-						"The deep diver has advantage on Dexterity ({@skill Stealth}) checks made while submerged in water."
+						"深潜者在水下时进行敏捷检定时具有优势。"
 					]
 				},
 				{
@@ -4888,7 +4888,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The high priestess is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She has the following cleric spells prepared:"
+						"高阶女祭司是一名7级咒术师。她的咒术属性是智力（法术豁免 {@dc 14}，法术攻击命中加值 {@hit 6}）。她准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -5070,7 +5070,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The wave shaper's spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can cast the following spells, requiring only verbal components:"
+						"波形塑造者的施法能力是智力（法术豁免 {@dc 14}，用法术攻击命中 {@hit 6}）。它可以施放以下法术，只需要口头组件："
 					],
 					"will": [
 						"{@spell message}"
@@ -5125,8 +5125,8 @@
 				{
 					"name": "Whirlpool (1/Day)",
 					"entries": [
-						"The wave shaper targets a body of water at least 50 feet square and 25 feet deep, causing a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, 25 feet tall, and lasts for 1 minute or until the wave shaper is {@condition incapacitated}. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by succeeding on a {@dc 14} Strength ({@skill Athletics}) check.",
-						"When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a {@dc 14} Strength saving throw. On a failed save, the creature takes 9 ({@damage 2d8}) bludgeoning damage and is caught in the vortex until it ends. On a success, the creature takes half damage and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but it has disadvantage on the Strength ({@skill Athletics}) check to do so.",
+						"波浪塑形者针对至少50平方英尺、25英尺深的水域，使其中心形成漩涡。漩涡形成一个漩涡，底部宽5英尺，顶部宽50英尺，高25英尺，持续1分钟或直到波浪塑形者为{@condition incapacitated}。水中并且在漩涡范围内的生物或物体被拉向漩涡10英尺。生物可以通过成功进行{@dc 14}力量检定来游离开漩涡。",
+						"当生物在一个回合内第一次进入漩涡或者在那里开始它的回合时，它必须进行一次 {@dc 14} 力量豁免检定。未通过豁免检定的生物会受到 9 点 ({@damage 2d8}) 钝击伤害，并被困在漩涡中直到脱离。通过检定的生物会受到一半伤害并且不会被漩涡困住。被漩涡困住的生物可以使用动作尝试游出漩涡，但在进行上述操作时力量检定会受到劣势。",
 						"物体每回合第一次进入漩涡时，会受到9({@damage 2d8})的击打伤害。这个伤害在它留在漩涡中的每一回合都会发生。"
 					]
 				}
@@ -5206,7 +5206,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sanbalet is a 3rd-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following wizard spells prepared:"
+						"三巴莱特是一名3级法术施展者。他的法术施展能力是智力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。他准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -5612,7 +5612,7 @@
 				{
 					"name": "Avalanche of Bones {@recharge 5}",
 					"entries": [
-						"The juggernaut collapses into a large heap before quickly reforming. Each creature within 10 feet of the juggernaut must make a {@dc 14} Dexterity saving throw, taking 18 ({@damage 4d8}) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw is also knocked {@condition prone}."
+						"巨无霸倒下成一大堆，然后迅速重组。每个距离巨无霸10英尺内的生物必须进行一次{@dc 14}敏捷豁免检定，未通过检定的生物将受到18({@damage 4d8}) 钝击伤害，通过检定的生物则只受到一半伤害。未通过检定的生物还会被击倒{@condition prone}。"
 					]
 				}
 			],
@@ -5710,7 +5710,7 @@
 				{
 					"name": "Deafening Clatter",
 					"entries": [
-						"Creatures are {@condition deafened} while in the swarm's space."
+						"在虫群的区域内时，生物会受到 {@condition deafened} 的影响。"
 					]
 				},
 				{
@@ -5794,7 +5794,7 @@
 				{
 					"name": "Abolethic Vassal",
 					"entries": [
-						"The skum is permanently {@condition charmed} by its aboleth master."
+						"这只水怪被其阿布莱斯主人永久 {@condition charmed}。"
 					]
 				},
 				{
@@ -5951,7 +5951,7 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"Thousand Teeth makes a Wisdom ({@skill Perception}) check."
+						"千齿进行一次感知检定（Wisdom {@skill Perception}）。"
 					]
 				},
 				{

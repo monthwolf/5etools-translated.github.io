@@ -87,7 +87,7 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"If Agdon is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw and only half damage if he fails, provided he isn't {@condition incapacitated}."
+						"如果Agdon受到一种效果影响，使他可以进行敏捷豁免才能只受一半伤害，那么如果他成功通过豁免检定，他将不受伤害，如果他失败，则只受一半伤害，前提是他不是{@condition incapacitated}。"
 					]
 				},
 				{
@@ -121,7 +121,7 @@
 				{
 					"name": "Quick Fingers",
 					"entries": [
-						"Agdon targets one creature within 5 feet of him that he can see and makes a Dexterity ({@skill Sleight of Hand}) check, with a DC equal to 1 + the target's passive Wisdom ({@skill Perception}) score. On a successful check, Agdon pilfers one object weighing 1 pound or less that the target has in its possession but not in its grasp, without the target noticing the theft."
+						"Agdon选择一个他能看到并且距离他5英尺以内的生物，并进行一次敏捷检定（{@skill Sleight of Hand}），检定 DC 为1 + 目标的被动感知（{@skill Perception}）分数。若检定成功，Agdon偷走目标携带但未握住的一个重量不超过1磅的物品，而目标并未察觉到这次偷窃。"
 					]
 				}
 			],
@@ -209,13 +209,13 @@
 				{
 					"name": "Brave",
 					"entries": [
-						"Alagarthas has advantage on saving throws against being {@condition frightened}."
+						"阿拉加萨斯 (Alagarthas) 在豁免投掷中对被 {@condition frightened} 的情况有优势。"
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Alagarthas has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"阿拉加萨斯 (Alagarthas) 在豁免投掷中对被 {@condition charmed} 的效果具有优势，并且魔法无法让他入睡。"
 					]
 				}
 			],
@@ -235,7 +235,7 @@
 				{
 					"name": "Leadership (Recharges after a Short or Long Rest)",
 					"entries": [
-						"For 1 minute, Alagarthas can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand him. A creature can benefit from only one Leadership die at a time. This effect ends if Alagarthas is {@condition incapacitated}."
+						"在1分钟内，阿拉加萨斯(Alagarthas)可以在看得见的范围内的30英尺内，每当一个非敌对生物进行攻击检定或豁免检定时，发出特殊指令或警告。只要生物能听到并理解他，该生物可以在其检定中添加{@dice d4}。一个生物一次只能从一个领导骰中受益。如果阿拉加萨斯死亡，这个效果就会结束。"
 					]
 				}
 			],
@@ -430,7 +430,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Bavlorna casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+						"巴沃娜（Bavlorna）施放以下其中一个法术，无需材料组件，使用智力作为施法能力（法术豁免 {@dc 14}）："
 					],
 					"will": [
 						"{@spell detect magic}"
@@ -465,7 +465,7 @@
 				{
 					"name": "Widdershins Allergy",
 					"entries": [
-						"If a creature within 10 feet of Bavlorna uses at least 10 feet of movement to run in place counterclockwise, Bavlorna is overcome by a fit of sneezing and can't cast spells until the end of her next turn. In addition, any creature Bavlorna has swallowed is immediately expelled and falls {@condition prone} in an unoccupied space within 5 feet of her."
+						"如果在巴夫洛娜(Bavlorna)身边10英尺内的生物使用至少10英尺的移动来逆时针原地奔跑，巴夫洛娜会突然打喷嚏，直到她的下一个回合结束前无法施放法术。此外，巴夫洛娜吞下的任何生物会立即被排出，并在距离她5英尺内的空地上掉落{@condition prone}。"
 					]
 				}
 			],
@@ -499,7 +499,7 @@
 				{
 					"name": "Swallow",
 					"entries": [
-						"Bavlorna swallows a Small or smaller creature she is grappling, ending the grapple on it. The swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside Bavlorna, and it takes 10 ({@damage 3d6}) acid damage at the start of each of its turns. If the swallowed creature is one of Bavlorna's lornlings, Bavlorna gains all the lornling's memories when the acid damage reduces it to 0 hit points.",
+						"Bavlorna吞食一个被她控制的小型生物或更小的生物，结束对它的控制。被吞食的生物是{@condition blinded}和{@condition restrained}，在Bavlorna之外对它的攻击和其他效果都具有完全掩护，并且在每个回合开始时受到10({@damage 3d6})点酸性伤害。如果被吞食的生物是Bavlorna的lornlings之一，当酸性伤害将其降至0点生命值时，Bavlorna获得所有lornling的记忆。",
 						"巴弗洛娜一次只能吞下一个生物。如果Bavlorna死亡，被吞食的生物不再是{@condition restrained}，并且可以使用5英尺的移动距离从尸体上逃脱，退出{@condition prone}。"
 					]
 				}
@@ -589,7 +589,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The brigganock casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
+						"布里加诺克(Brigganock) 施放以下其中一个法术，无需材料组件，使用魅力作为施法能力（法术豁免 {@dc 11}）："
 					],
 					"will": [
 						"{@spell minor illusion}",
@@ -611,7 +611,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The brigganock has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"布里加诺克 (brigganock) 在豁免投掷中对被 {@condition charmed} 造成的影响具有优势，并且魔法无法让它进入睡眠状态。"
 					]
 				},
 				{
@@ -1020,7 +1020,7 @@
 				{
 					"name": "Strength Drain",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d6 + 2}) necrotic damage, and the target's Strength score is reduced by {@dice 1d4}. The target falls {@condition unconscious} if this reduces its Strength to 0. The creature regains consciousness and the reduction to its Strength score disappears after it finishes a short or long rest."
+						"{@atk mw} {@hit 4} 进行攻击，射程5英尺，一个生物。受到{@h}9 ({@damage 2d6 + 2})点死灵伤害，并且目标的力量属性值减少{@dice 1d4}点。如果这使目标的力量属性值降至0，则目标倒下。生物在完成短休或长休后苏醒，其力量属性值的减少消失。"
 					]
 				}
 			],
@@ -1072,7 +1072,7 @@
 				{
 					"name": "Displacement",
 					"entries": [
-						"The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is {@condition incapacitated} or has a speed of 0."
+						"位移兽产生了一个魔法幻象，使其看起来站在其实际位置附近，导致对它的攻击投掷有劣势。如果它被攻击击中，这个特性会被打断，直到它的下一个回合结束。当位移兽处于{@condition incapacitated}状态或速度为0时，这个特性也会被打断。"
 					]
 				}
 			],
@@ -1165,7 +1165,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Elkhorn wields a {@item +1 longsword}."
+						"Elkhorn 挥舞着一个 {@item +1 longsword}。"
 					]
 				}
 			],
@@ -1193,7 +1193,7 @@
 				{
 					"name": "Feint {@recharge 5}",
 					"entries": [
-						"Elkhorn targets one creature that he can see within 5 feet of him. Elkhorn has advantage on the next attack roll he makes against that target before the end of his turn. If that attack hits, the target takes an extra 7 ({@damage 2d6}) damage of the weapon's type."
+						"埃尔霍恩（Elkhorn）选择一个他能看到的距离自己5英尺内的生物。在他的回合结束之前，埃尔霍恩对这个目标进行的下一次攻击投掷获得优势。如果攻击命中，目标会额外受到武器类型的7({@damage 2d6})点伤害。"
 					]
 				},
 				{
@@ -1299,7 +1299,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Endelyn casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"Endelyn 施放以下其中一个咒语，无需材料组件，使用魅力作为施法能力（咒语豁免 {@dc 14}）:"
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -1334,7 +1334,7 @@
 				{
 					"name": "Uncanny Awareness",
 					"entries": [
-						"Endelyn can't be {@quickref Surprise|PHB|3|0|surprised}."
+						"Endelyn 不能是 {@quickref Surprise|PHB|3|0|surprised}。"
 					]
 				}
 			],
@@ -1450,7 +1450,7 @@
 				{
 					"name": "Petrifying Breath {@recharge 5}",
 					"entries": [
-						"Envy exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a {@dc 13} Constitution saving throw. On a failed save, a target begins to turn to stone and is {@condition restrained}. The {@condition restrained} target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {@condition petrified} until freed by the {@spell greater restoration} spell or other magic."
+						"嫉妒在一个30英尺锥形范围内呼出石化气体。该区域内的每个生物必须成功通过一个{@dc 13}体质豁免才行。未能通过豁免的目标开始变成石头并被{@condition restrained}。{@condition restrained}目标必须在其下一个回合结束时重复进行豁免才行。若成功，则效果在目标身上结束。若失败，则目标将被{@condition petrified}，直到被{@spell greater restoration}法术或其他魔法释放。"
 					]
 				}
 			],
@@ -1545,7 +1545,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the rocking horse is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the rocking horse move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the rocking horse is animate."
+						"如果摇摇马在战斗开始时静止不动，它在先攻骰时获得优势。此外，如果一个生物没有看到摇摇马移动或行动，那个生物必须成功进行一次{@dc 18}智力({@skill Investigation})检定，才能辨别出摇摇马是有生命的。"
 					]
 				},
 				{
@@ -1696,7 +1696,7 @@
 				{
 					"name": "Salt Osmosis",
 					"entries": [
-						"Whenever the snail starts its turn in contact with a pound or more of salt, it takes {@damage 1d4} necrotic damage. Using an action to sprinkle a pound of salt on the snail deals {@damage 1d4} necrotic damage to it immediately and another {@damage 1d4} necrotic damage to it at the start of its next turn (after which the salt rubs off), provided the snail has not withdrawn into its shell."
+						"每当蜗牛在接触一磅或更多的盐时开始它的回合，它会受到{@damage 1d4}点死灵伤害。使用一个动作向蜗牛撒一磅盐会立即对它造成{@damage 1d4}点死灵伤害，并在它的下一个回合开始时再次对它造成{@damage 1d4}点死灵伤害（之后盐会擦掉），前提是蜗牛没有缩进壳内。"
 					]
 				}
 			],
@@ -1769,7 +1769,7 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"The swan has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+						"天鹅在依赖视觉的感知({@skill Perception})检查中具有优势。"
 					]
 				}
 			],
@@ -1942,7 +1942,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the golem is embedded in a window and motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the golem move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the golem is animate."
+						"如果傀儡被嵌入窗户且在战斗开始时静止不动，它在先攻骰中获得优势。此外，如果一个生物没有看到傀儡移动或行动，那个生物必须成功进行一个{@dc 18}智力({@skill Investigation})检定，才能辨别出傀儡是有生命的。"
 					]
 				},
 				{
@@ -2061,7 +2061,7 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The cat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"这只猫在依赖嗅觉的感知({@skill Perception})检定上拥有优势。"
 					]
 				}
 			],
@@ -2139,7 +2139,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The harengon has advantage on an attack roll against a creature if at least one of the harengon's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一个(`harengon`)的盟友在离生物5英尺范围内且该盟友不是{@condition incapacitated}，那么(`harengon`)对该生物的攻击投掷获得优势。"
 					]
 				},
 				{
@@ -2348,7 +2348,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Iggwilv casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 24}, {@hit 16} to hit with spell attacks):"
+						"伊格威尔夫(Iggwilv) 施放以下其中一个法术，无需材料成分，使用智力作为施法能力（法术豁免 {@dc 24}，用法术攻击命中 {@hit 16}）:"
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -2399,7 +2399,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Iggwilv wears an {@item amulet of the planes} and a {@item robe of the archmagi}."
+						"Iggwilv 穿着一件 {@item amulet of the planes} 和一条 {@item robe of the archmagi}。"
 					]
 				}
 			],
@@ -2590,7 +2590,7 @@
 				{
 					"name": "Confusing Burble",
 					"entries": [
-						"The jabberwock burbles to itself unless it is {@condition incapacitated}. Any creature that starts its turn within 30 feet of the jabberwock and is able to hear its burbling must make a {@dc 18} Charisma saving throw. On a failed saving throw, the creature can't take reactions until the start of its next turn, and it rolls a {@dice d4} to determine what it does during its current turn:",
+						"滔滔兽在没有被{@condition incapacitated}的情况下会自言自语。任何在距离滔滔兽30英尺内并能听到它的喃喃自语的生物，必须进行{@dc 18}魅力豁免。未通过豁免的生物直到下一回合开始前无法作出反应，并需掷{@dice d4}骰确定本回合的行动：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -2858,7 +2858,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Kelek casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"凯雷克(Kelk)施放以下其中一个法术，使用魅力作为施法能力（法术豁免{@dc 14}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -2881,7 +2881,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Kelek wears {@item bracers of defense} and carries a {@item staff of striking} with 10 charges. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}; on a 1, the staff becomes a nonmagical quarterstaff."
+						"凯莱克穿着{@item bracers of defense}，携带一根带有10个充能的{@item staff of striking}。这根法杖每天黎明时分会恢复{@dice 1d6 + 4}个已使用的充能。如果最后一个充能用尽，投掷一个{@dice d20}；如果掷出1，法杖将变成一根非魔法的短棍。"
 					]
 				}
 			],
@@ -3015,7 +3015,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Kettlesteam casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"Kettlesteam 施放以下其中一个咒语，使用魅力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell disguise self}",
@@ -3038,7 +3038,7 @@
 				{
 					"name": "Mimicry",
 					"entries": [
-						"Kettlesteam can mimic any sounds she has heard, including voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 13} Wisdom ({@skill Insight}) check."
+						"凯特尔斯蒂姆(Kettlesteam)可以模仿她听过的任何声音，包括人的声音。听到这些声音的生物只有在成功进行一次{@dc 13}感知({@skill Insight})检定后才能意识到这些声音只是模仿。"
 					]
 				}
 			],
@@ -3160,7 +3160,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the doll is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the doll move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the doll is animate."
+						"如果娃娃在战斗开始时静止不动，它在先攻检定时获得优势。此外，如果一个生物没有看到娃娃移动或行动，那个生物必须成功进行一个{@dc 18}智力({@skill Investigation})检定，才能辨别出娃娃是有生命的。"
 					]
 				},
 				{
@@ -3188,7 +3188,7 @@
 				{
 					"name": "Cackle {@recharge 4}",
 					"entries": [
-						"The doll cackles as it targets one or two creatures it can see within 30 feet of it. Each target that can hear the doll's cackling must make a {@dc 11} Wisdom saving throw, succeeding automatically if it has an Intelligence of 4 or lower. On a failed saving throw, the creature takes 5 ({@damage 2d4}) psychic damage and is {@condition incapacitated} for 1 minute as it is overcome by a fit of laughter. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on itself on a success. A creature that succeeds on this saving throw is immune to this doll's Cackle for 24 hours."
+						"当娃娃盯着它能看到的一到两个生物时，它会发出嘲笑声。每个能听到娃娃嘲笑声的目标必须进行一次{@dc 11}智力豁免检定，如果目标的智力值为4或更低，则自动成功。未通过豁免检定的生物将受到5点({@damage 2d4}) 精神伤害，并在1分钟内成为{@condition incapacitated}，因为它被笑声所制。在每个回合结束时，生物可以重复进行豁免检定，若成功则结束效果。成功通过此豁免检定的生物对该娃娃的嘲笑效果免疫24小时。"
 					]
 				}
 			],
@@ -3280,7 +3280,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Mercion casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+						"梅尔西昂(Mercion)施放以下其中一个咒语，使用智慧作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -3461,13 +3461,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Light has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"光明在豁免投掷中对被 (0%) 影响具有优势，并且魔法无法让他入睡。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Light carries and is attuned to the {@item Witchlight vane|WbtW}. In Light's hands, the vane is a finesse weapon."
+						"光线携带并与{@item Witchlight vane|WbtW}共振。在光的手中，风向标是一种精妙的武器。"
 					]
 				}
 			],
@@ -3605,13 +3605,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Witch has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+						"女巫在豁免骰中对抗被 {@condition charmed} 的效果时具有优势，并且魔法无法让他进入睡眠状态。"
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Witch carries and is attuned to the {@item Witchlight watch|WbtW}."
+						"女巫携带并与{@item Witchlight watch|WbtW}（Witchlight）相调。"
 					]
 				}
 			],
@@ -3735,7 +3735,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Molliver wears +1 leather armor and {@item boots of levitation}."
+						"莫利弗穿着+1皮甲和{@item boots of levitation}。"
 					]
 				}
 			],
@@ -3846,7 +3846,7 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"The paper bird has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+						"纸鸟在依赖视力的感知({@skill Perception})检查中获得优势。"
 					]
 				}
 			],
@@ -3992,13 +3992,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Raezil has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+						"蕾兹尔 (Raezil) 在豁免投掷中对被 {@condition charmed} 的状态有优势，并且魔法无法让她入睡。"
 					]
 				},
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Raezil deals an extra 7 ({@damage 2d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of hers that isn't incapacitated and Raezil doesn't have disadvantage on the attack roll."
+						"当蕾兹尔（Raezil）用武器攻击命中目标并且具有攻击优势时，或者目标在她的一个没有失去行动能力的盟友5英尺范围内且蕾兹尔没有攻击劣势时，蕾兹尔会额外造成7({@damage 2d6})点伤害。"
 					]
 				}
 			],
@@ -4118,7 +4118,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Ringlerun casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+						"林格伦(Ringlerun) 施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 14}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -4146,7 +4146,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Ringlerun wields a {@item staff of power}. It has 20 charges when fully charged and regains {@dice 2d8 + 4} expended charges daily at dawn. If its last charge is expended, roll a {@dice d20}. On a 1, the staff retains its +2 bonus to attack and damage rolls but loses its other properties; on a 20, it regains {@dice 1d8 + 2} charges."
+						"林格伦(Ringlerun)挥舞着一根{@item staff of power}。它充满20个充能，每天黎明时分恢复{@dice 2d8 + 4}已用充能。如果最后一个充能被消耗完，投掷一个{@dice d20}。投掷结果为1时，法杖保留其+2的攻击和伤害加值，但失去其他属性；投掷结果为20时，它会恢复{@dice 1d8 + 2}个充能。"
 					]
 				}
 			],
@@ -4154,7 +4154,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Ringlerun makes three {@item staff of power} or Freezing Ray attacks. He can replace one of those attacks with a use of Spellcasting."
+						"Ringlerun 进行三次冰冻射线（Freezing Ray）攻击。他可以用一次法术施放（Spellcasting）来替换其中一次攻击。"
 					]
 				},
 				{
@@ -4267,7 +4267,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The Selenelion twins, Gleam and Glister, have advantage on saving throws against being {@condition charmed}, and magic can't put them to sleep."
+						"Selenelion（月蚀）双胞胎，Gleam（闪耀）和Glister（闪烁），在抵抗被{@condition charmed}效果时拥有优势，并且魔法无法让他们入睡。"
 					]
 				},
 				{
@@ -4305,7 +4305,7 @@
 				{
 					"name": "Twin Sight (Recharges after a Short or Long Rest)",
 					"entries": [
-						"In her mind's eye, a Selenelion twin can see what the other twin sees for up to 1 minute, provided both twins are alive and on the same plane of existence. Maintaining this effect requires {@status concentration} (as if {@status concentration||concentrating} on a spell)."
+						"在她的脑海中，一个Selenelion双胞胎可以看到另一个双胞胎看到的事物，持续时间长达1分钟，前提是两个双胞胎都活着并且在同一个存在平面上。保持这种效果需要消耗{@status concentration}（就像{@status concentration||concentrating}法术一样）。"
 					]
 				}
 			],
@@ -4395,7 +4395,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Sir Talavar's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below."
+						"塔拉瓦爵士的天生施法能力是魅力（法术豁免{@dc 13}）。它可以天生施放多种法术，无需任何材料组件。随着龙的年龄和颜色的变化，它会获得额外的法术，如下所示。"
 					],
 					"daily": {
 						"1": [
@@ -4419,7 +4419,7 @@
 				{
 					"name": "Superior Invisibility",
 					"entries": [
-						"As a bonus action, Sir Talavar can magically turn {@condition invisible} until his {@status concentration} ends (as if {@status concentration||concentrating} on a spell). Any equipment Sir Talavar wears or carries is {@condition invisible} with him."
+						"作为一个奖励动作，塔拉瓦爵士可以在他的{@status concentration}结束前，魔法地变成{@condition invisible}（就像{@status concentration||concentrating}上的一个法术）。塔拉瓦爵士穿戴或携带的任何装备都会与他一起变化。"
 					]
 				},
 				{
@@ -4583,7 +4583,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Skabatha casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 14}):"
+						"Skabatha施放以下其中一个咒语，无需材料成分，并使用智慧作为施法能力（法术豁免{@dc 14}）："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -4615,7 +4615,7 @@
 				{
 					"name": "Forgetfulness",
 					"entries": [
-						"The first creature that Skabatha sees after she finishes a long rest is {@condition invisible} to her. She can't remember seeing the creature or perceive it using her truesight until the end of her next long rest."
+						"Skabatha完成长时间休息后看到的第一个生物是{@condition invisible}。她直到下次长时间休息结束前都无法回忆起看到这个生物或使用她的真视感知它。"
 					]
 				}
 			],
@@ -4638,7 +4638,7 @@
 					"name": "Alter Size",
 					"entries": [
 						"Skabatha神奇地将自己缩小到小尺寸（4至8英寸高）或恢复到正常尺寸。如果Skabatha没有足够的空间恢复到她的正常大小，她就会在现有的空间里达到可能的最大尺寸。她所穿戴或携带的任何东西都会随着她而改变大小。",
-						"As a Tiny creature, Skabatha deals 2 ({@damage 1d4}) poison damage when she hits with a Claw attack. She has advantage on Dexterity ({@skill Stealth}) checks, and disadvantage on Strength checks and Strength saving throws. Her statistics otherwise remain unchanged."
+						"作为一个微小生物，斯卡巴莎在使用爪击时造成2 ({@damage 1d4}) 点毒性伤害。她在敏捷 ({@skill Stealth}) 检定时具有优势，并在力量检定和力量豁免检定时具有劣势。她的属性除此之外保持不变。"
 					]
 				}
 			],
@@ -4734,7 +4734,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Skylla casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"斯奇拉(Skylla)施放以下其中一个咒语，无需材料成分，使用魅力作为施法能力(法术豁免{@dc 13})："
 					],
 					"daily": {
 						"1e": [
@@ -4777,7 +4777,7 @@
 				{
 					"name": "Eldritch Escape",
 					"entries": [
-						"When Skylla takes damage, she can expend 3 charges of her eldritch staff to turn {@condition invisible} and teleport, along with any equipment she's wearing or carrying, up to 60 feet to an unoccupied space she can see. She remains {@condition invisible} until the start of her next turn or until she attacks or casts a spell."
+						"当斯基拉(Skylla)受到伤害时，她可以消耗她邪能法杖的3个充能，将{@condition invisible}转变并传送，连同她穿戴或携带的任何装备，最多60英尺到一个她能看到的空位。她会保持{@condition invisible}，直到她的下一个回合开始，或者直到她进行攻击或施放法术。"
 					]
 				}
 			],
@@ -4874,7 +4874,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If Squirt is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed Squirt move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that Squirt is animate."
+						"如果Squirt在战斗开始时静止不动，它在先攻检定时获得优势。此外，如果一个生物没有看到Squirt移动或行动，那个生物必须成功进行一个{@dc 18}智力({@skill Investigation})检定，才能辨别出Squirt是有生命的。"
 					]
 				},
 				{
@@ -4894,7 +4894,7 @@
 				{
 					"name": "Boggle Oil (3 Applications)",
 					"entries": [
-						"Squirt expends 1 application of boggle oil to create a 10-foot-square puddle of slippery, non-flammable oil on the ground within 5 feet of it. The puddle is {@quickref difficult terrain||3} and lasts for 1 hour. Each creature that enters the puddle's area or starts its turn there must succeed on a {@dc 11} Dexterity saving throw or fall {@condition prone}. Boggles are unaffected by the oil. After it expends all 3 applications, Squirt can't use this action again until its supply of boggle oil is replenished."
+						"Squirt使用1份泡泡油制造一个10英尺见方的湿滑、不易燃的油池，位于它附近5英尺内的地面上。油池是{@quickref difficult terrain||3}，持续1小时。每个进入油池区域或在其中开始回合的生物必须成功进行一次{@dc 11}敏捷豁免才能避免摔倒{@condition prone}。泡泡生物不受油池影响。在使用完所有3次应用后，Squirt必须等到其泡泡油补充后才能再次使用此动作。"
 					]
 				}
 			],
@@ -4987,7 +4987,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Strongheart casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"斯特朗哈特使用魅力作为施法能力施放以下其中一个法术（法术豁免 {@dc 13}）："
 					],
 					"daily": {
 						"3e": [
@@ -5023,7 +5023,7 @@
 				{
 					"name": "Steel",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage when used with two hands. Once on each of his turns, Strongheart can also cause the blade to gleam with holy light. If he does so, the target is {@condition blinded} until the start of Strongheart's next turn."
+						"{@atk mw} {@hit 6} 进行攻击，射程5英尺，一个目标。造成8 ({@damage 1d8 + 4}) 劈砍伤害，或者使用双手时造成9 ({@damage 1d10 + 4}) 劈砍伤害。每个回合，Strongheart 也可以让刀刃闪耀着神圣之光。如果他这样做，目标将被 {@condition blinded} 直到Strongheart 下个回合开始。"
 					]
 				},
 				{
@@ -5380,7 +5380,7 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the treant is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the treant move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the treant is animate."
+						"如果树人在战斗开始时静止不动，它在先攻骰投掷时获得优势。此外，如果一个生物没有看到树人移动或行动，那个生物必须成功进行一个{@dc 18}智力((Intelligence))检定，以辨别树人是有生命的。"
 					]
 				}
 			],
@@ -5490,7 +5490,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Warduke wears a dread helm (see appendix A) and wields a {@item flame tongue} longsword."
+						"沃德杜克(Warduke) 戴着一顶恐惧头盔(见附录A)，手持一把{@item flame tongue}长剑。"
 					]
 				}
 			],
@@ -5763,7 +5763,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Zarak carries a {@item potion of invisibility}."
+						"Zarak 携带着一个{@item potion of invisibility}。"
 					]
 				}
 			],
@@ -5892,7 +5892,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Zargash casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+						"扎尔加什施放以下其中一个法术，使用智力作为施法能力（法术豁免 {@dc 13}）："
 					],
 					"will": [
 						"{@spell light}",
@@ -5921,7 +5921,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Zargash wears a bat-shaped amulet that has the properties of a {@item ring of feather falling}."
+						"Zargash戴着一个蝙蝠形状的护身符，具有一个{@item ring of feather falling}的属性。"
 					]
 				}
 			],
@@ -5943,7 +5943,7 @@
 				{
 					"name": "Animate Corpse (1/Day)",
 					"entries": [
-						"Zargash targets the lifeless corpse of one Humanoid he can see within 30 feet of him and commands it to rise, transforming it into a zombie under his control. The zombie takes its turn immediately after Zargash. Animating the zombie requires Zargash's {@status concentration} (as if {@status concentration||concentrating} on a spell). The zombie reverts to an inanimate corpse after 10 minutes, when it drops to 0 hit points, or when Zargash's {@status concentration} ends."
+						"Zargash瞄准他能看到的距离30英尺内的一个无生命的人形生物的尸体，并命令它起身，将其转化为他控制下的僵尸。僵尸在Zargash之后立即行动。操纵僵尸需要Zargash的{@status concentration}（就像{@status concentration||concentrating}在一个法术上）。僵尸在10分钟后恢复为无生命的尸体，当它的生命值降至0点时，或者当Zargash的{@status concentration}结束时。"
 					]
 				}
 			],

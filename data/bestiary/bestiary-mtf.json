@@ -136,13 +136,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The kruthik has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"灰虫在依赖嗅觉的智慧检定上有优势（{@skill Perception}）。"
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一个克鲁西克的盟友在离生物5英尺以内且该盟友不是{@condition incapacitated}，克鲁西克在对该生物进行攻击检定时获得优势。"
 					]
 				},
 				{
@@ -281,7 +281,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The oblex's innate spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no components:"
+						"Oblex（奥贝克斯）的固有施法能力是智力（法术豁免{@dc 15}）。它可以内在地施放以下法术，无需任何材料："
 					],
 					"daily": {
 						"3e": [
@@ -798,7 +798,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The allip can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"allip可以如同它们是{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在物体内结束回合，它会受到5点({@damage 1d10})力量伤害。"
 					]
 				}
 			],
@@ -818,7 +818,7 @@
 				{
 					"name": "Howling Babble {@recharge}",
 					"entries": [
-						"Each creature within 30 feet of the allip that can hear it must make a {@dc 14} Wisdom saving throw. On a failed save, a target takes 12 ({@damage 2d8 + 3}) psychic damage, and it is {@condition stunned} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition stunned}. Constructs and undead are immune to this effect."
+						"每个在30英尺内且能听到幽灵的生物必须进行一次 {@dc 14} 意志豁免。未通过豁免的目标会受到12点 ({@damage 2d8 + 3}) 精神伤害，并且在其下一个回合结束前处于 {@condition stunned} 状态。通过豁免的目标只受到一半伤害并且不会被 {@condition stunned}。构造体和不死生物对此效果免疫。"
 					]
 				}
 			],
@@ -944,7 +944,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The amnizu's innate spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The amnizu can innately cast the following spells, requiring no material components:"
+						"阿姆尼祖的天生施法能力是智力（法术豁免 {@dc 19}，法术攻击命中加值 {@hit 11}）。阿姆尼祖可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell charm person}",
@@ -1503,7 +1503,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The eladrin's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"精灵人的天生施法能力是魅力（法术豁免{@dc 16}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell calm emotions}",
@@ -1527,7 +1527,7 @@
 				{
 					"name": "Enchanting Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 16} Wisdom saving throw. On a failed save, the creature is {@condition charmed} by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
+						"任何在离(feat.艾拉德林)60英尺范围内开始其回合的非艾拉德林生物必须进行{@dc 16}点智力豁免检定。未通过检定的生物会被(feat.艾拉德林)魅惑1分钟。通过检定的生物则对艾拉德林的迷人气场获得24小时的免疫。",
 						"每当Eladrin对{@condition charmed}的生物造成伤害时，该生物可以重复蓄力，成功时结束对自己的影响。"
 					]
 				},
@@ -1562,7 +1562,7 @@
 				{
 					"name": "Foster Peace",
 					"entries": [
-						"If a creature {@condition charmed} by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker."
+						"如果一个{@condition charmed}被艾拉德林精灵攻击命中，且在艾拉德林精灵的60英尺内，艾拉德林精灵可以看到攻击者，那么艾拉德林精灵可以通过魔法使攻击未命中。"
 					]
 				}
 			],
@@ -1707,7 +1707,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Bael's innate spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+						"巴耳的天生施法能力是魅力（法术豁免{@dc 21}，法术攻击命中加值{@hit 13}）。他可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing his appearance)",
@@ -1782,7 +1782,7 @@
 				{
 					"name": "Infernal Command",
 					"entries": [
-						"Each ally of Bael's within 60 feet of him can't be {@condition charmed} or {@condition frightened} until the end of his next turn."
+						"在巴尔（Bael）的60英尺范围内的每个盟友，在他的下一个回合结束前不能成为{@condition charmed}或{@condition frightened}。"
 					]
 				},
 				{
@@ -1802,7 +1802,7 @@
 				{
 					"name": "Awaken Greed",
 					"entries": [
-						"Bael casts {@spell charm person} or major image."
+						"巴尔施放 {@spell charm person} 或幻象术。"
 					]
 				},
 				{
@@ -1967,19 +1967,19 @@
 				{
 					"name": "Bite Attack",
 					"entries": [
-						"The balhannoth makes one bite attack against one creature it has {@condition grappled}."
+						"巴兰诺斯 (Balhannoth) 对它拥有的一个生物进行一次咬击攻击。"
 					]
 				},
 				{
 					"name": "Teleport",
 					"entries": [
-						"The balhannoth magically teleports, along with any equipment it is wearing or carrying and any creatures it has {@condition grappled}, up to 60 feet to an unoccupied space it can see."
+						"巴兰诺斯(Balhannoth)在魔法作用下传送，连同其所穿戴或携带的装备和任何生物{@condition grappled}一起，最多可传送到它能看见的未被占据的空间，距离最多60英尺。"
 					]
 				},
 				{
 					"name": "Vanish",
 					"entries": [
-						"The balhannoth magically becomes {@condition invisible} for up to 10 minutes or until immediately after it makes an attack roll."
+						"巴尔哈诺斯(Balhannoth)在接下来的10分钟内或在进行攻击骰投掷后立刻变为{@condition invisible}。"
 					]
 				}
 			],
@@ -2130,7 +2130,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Baphomet's spellcasting ability is Charisma (spell save {@dc 18}). He can innately cast the following spells, requiring no material components:"
+						"巴福梅特的施法能力是魅力（法术豁免{@dc 18}）。他可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell detect magic}"
@@ -2154,7 +2154,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If Baphomet moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 16 ({@damage 3d10}) piercing damage. If the target is a creature, it must succeed on a {@dc 25} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+						"如果巴尔弗梅特向一个目标直线移动至少10英尺，然后在同一回合用角攻击命中目标，目标会受到额外16({@damage 3d10})点穿刺伤害。如果目标是生物，它必须成功进行一次{@dc 25}力量豁免才能不被推开最多10英尺并且被打倒{@condition prone}。"
 					]
 				},
 				{
@@ -2351,7 +2351,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The berbalang's innate spellcasting ability is Intelligence (spell save {@dc 13}). The berbalang can innately cast the following spells, requiring no material components:"
+						"巴巴朗的天生施法能力是智力（法术豁免 {@dc 13}）。巴巴朗可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell speak with dead}"
@@ -2368,7 +2368,7 @@
 				{
 					"name": "Spectral Duplicate (Recharges after a Short or Long Rest)",
 					"entries": [
-						"As a bonus action, the berbalang creates one spectral duplicate of itself in an unoccupied space it can see within 60 feet of it. While the duplicate exists, the berbalang is {@condition unconscious}. A berbalang can have only one duplicate at a time. The duplicate disappears when it or the berbalang drops to 0 hit points or when the berbalang dismisses it (no action required).",
+						"作为一个奖励动作，半吸血鬼在能看到的距离60英尺内的一个空位上创造一个自己的幻影复制体。当复制体存在时，半吸血鬼是{@condition unconscious}。半吸血鬼一次只能有一个复制体。当复制体或半吸血鬼的生命值降至0时，或者半吸血鬼解散它时（无需动作），复制体消失。",
 						"复制体拥有与贝巴朗相同的统计学和知识，复制体所经历的一切都被贝巴朗所了解。复制体的攻击所造成的所有伤害都是精神上的伤害。"
 					]
 				}
@@ -2554,7 +2554,7 @@
 				{
 					"name": "Creeping Darkness {@recharge}",
 					"entries": [
-						"The abishai casts {@spell darkness} at a point within 120 feet of it, requiring no components. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
+						"阿比沙依在其周围120英尺范围内施放{@spell darkness}，无需任何材料。智慧是它施法这个咒语的能力。在咒语持续期间，阿比沙依可以将黑暗区域移动最多60英尺，作为一个奖励动作。"
 					]
 				}
 			],
@@ -2681,7 +2681,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The abishai is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The abishai has the following wizard spells prepared:"
+						"阿比谢（abishai）是一名13级的法术施展者。它的法术施展能力是智力（法术豁免 {@dc 20}，法术攻击命中加值 {@hit 12}）。阿比谢准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -3220,7 +3220,7 @@
 				{
 					"name": "Sure-Footed",
 					"entries": [
-						"The bulezau has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+						"buluzau在进行针对可能击倒它的效果的力量和敏捷豁免检定时具有优势{@condition prone}。"
 					]
 				}
 			],
@@ -3499,7 +3499,7 @@
 				{
 					"name": "Uncanny Senses",
 					"entries": [
-						"The canoloth can't be {@quickref Surprise|PHB|3|0|surprised} while it isn't {@condition incapacitated}."
+						"在它不是{@condition incapacitated}的时候，canoloth 不能是{@quickref Surprise|PHB|3|0|surprised}。"
 					]
 				}
 			],
@@ -3746,7 +3746,7 @@
 				{
 					"name": "Corpses",
 					"entries": [
-						"When first encountered, a corpse flower contains the corpses of {@dice 1d6 + 3} humanoids. A corpse flower can hold the remains of up to nine dead humanoids. These remains have total cover against attacks and other effects outside the corpse flower. If the corpse flower dies, the corpses within it can be pulled free.",
+						"当首次遭遇时，尸花中含有{@dice 1d6 + 3}人形生物的尸体。尸花最多可以容纳九具死去的人形生物的遗体。这些遗体对于尸花外部的攻击和其他效果具有完全掩护。如果尸花死亡，其中的尸体可以被取出。",
 						"当它体内至少有一具人形尸体时，尸王花可以使用一个额外的动作来做以下事情之一。",
 						{
 							"type": "list",
@@ -3766,7 +3766,7 @@
 				{
 					"name": "Stench of Death",
 					"entries": [
-						"Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies must make a {@dc 14} Constitution saving throw, unless the creature is a construct or undead. On a failed save, the creature is {@condition incapacitated} until the end of the turn. Creatures that are immune to poison damage or the {@condition poisoned} condition automatically succeed on this saving throw. On a successful save, the creature is immune to the stench of all corpse flowers for 24 hours."
+						"每个生物在尸花或其僵尸之一的10英尺内开始回合时，必须进行一次{@dc 14}体质豁免才能，除非该生物是构装或不死生物。未通过豁免的生物在回合结束前会被{@condition incapacitated}。对毒性伤害免疫或{@condition poisoned}状态的生物会自动通过这次豁免。通过豁免的生物对所有尸花的恶臭免疫24小时。"
 					]
 				}
 			],
@@ -3903,7 +3903,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The deathlock's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+						"死锁的天生施法能力是魅力（法术豁免{@dc 13}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -3916,7 +3916,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The deathlock is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+						"死锁是一名5级法术施展者。它的法术能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。当它完成短休或长休时，它会恢复已用的法术位。它知道以下术士法术："
 					],
 					"spells": {
 						"0": {
@@ -4027,7 +4027,7 @@
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
-									"The deathlock is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+									"死锁是一名5级法术施展者。它的法术能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。当它完成短休或长休时，它会恢复已用的法术位。它知道以下术士法术："
 								],
 								"spells": {
 									"0": {
@@ -4066,7 +4066,7 @@
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
-									"The deathlock is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+									"死锁是一名5级法术施展者。它的法术能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。当它完成短休或长休时，它会恢复已用的法术位。它知道以下术士法术："
 								],
 								"spells": {
 									"0": {
@@ -4105,7 +4105,7 @@
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
-									"The deathlock is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+									"死锁是一名5级法术施展者。它的法术能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。当它完成短休或长休时，它会恢复已用的法术位。它知道以下术士法术："
 								],
 								"spells": {
 									"0": {
@@ -4218,7 +4218,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The deathlock's innate spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring no material components:"
+						"死锁生物的天生施法能力是魅力（法术豁免 {@dc 14}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -4231,7 +4231,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+						"死锁是一名10级法术施展者。它的法术能力是魅力（法术豁免{@dc 14}，用法术攻击命中为{@hit 6}）。它在完成短休或长休后会恢复已用的法术位。它了解以下术士法术："
 					],
 					"spells": {
 						"0": {
@@ -4363,7 +4363,7 @@
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
-									"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+									"死锁是一名10级法术施展者。它的法术能力是魅力（法术豁免{@dc 14}，用法术攻击命中为{@hit 6}）。它在完成短休或长休后会恢复已用的法术位。它了解以下术士法术："
 								],
 								"spells": {
 									"0": {
@@ -4407,7 +4407,7 @@
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
-									"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+									"死锁是一名10级法术施展者。它的法术能力是魅力（法术豁免{@dc 14}，用法术攻击命中为{@hit 6}）。它在完成短休或长休后会恢复已用的法术位。它了解以下术士法术："
 								],
 								"spells": {
 									"0": {
@@ -4451,7 +4451,7 @@
 							"items": {
 								"name": "Spellcasting",
 								"headerEntries": [
-									"The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+									"死锁是一名10级法术施展者。它的法术能力是魅力（法术豁免{@dc 14}，用法术攻击命中为{@hit 6}）。它在完成短休或长休后会恢复已用的法术位。它了解以下术士法术："
 								],
 								"spells": {
 									"0": {
@@ -4568,7 +4568,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The wight's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no verbal or material components:"
+						"这个死灵的天生施法能力是魅力（法术豁免{@dc 13}）。它可以天生施放以下法术，无需口头或物质成分："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -4589,7 +4589,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，死灵有攻击检定的劣势，以及依赖视觉的感知{@skill Perception}检定也有劣势。"
 					]
 				}
 			],
@@ -4752,7 +4752,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Demogorgon's spellcasting ability is Charisma (spell save {@dc 23}). Demogorgon can innately cast the following spells, requiring no material components:"
+						"德莫戈根的施法能力是魅力（法术豁免{@dc 23}）。德莫戈根可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -4794,7 +4794,7 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"Demogorgon has advantage on saving throws against being {@condition blinded}, {@condition deafened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"德莫戈根 (Demogorgon) 在豁免投掷中对被 {@condition blinded}、{@condition deafened}、{@condition stunned} 或被击倒 {@condition unconscious} 拥有优势。"
 					]
 				}
 			],
@@ -4960,7 +4960,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，德罗在进行攻击检定时有劣势，以及在依赖视觉的感知（Wisdom）检定中也有劣势。"
 					]
 				}
 			],
@@ -4968,7 +4968,7 @@
 				{
 					"name": "Hooked Spear",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage. If the target is Medium or smaller, the derro can choose to deal no damage and knock it {@condition prone}."
+						"{@atk mw} {@hit 2}攻击，达到5英尺，一个目标。{@h}3 ({@damage 1d6}) 穿刺伤害。如果目标是中等大小或更小，德罗可以选择不造成伤害，而是将其击倒{@condition prone}。"
 					]
 				},
 				{
@@ -5074,7 +5074,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The derro savant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The derro knows the following sorcerer spells:"
+						"狂狂人智者是一名5级法术施展者。它的法术施展能力是魅力（法术豁免{@dc 12}，法术攻击命中加值{@hit 4}）。狂狂人智者会以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -5121,7 +5121,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the derro savant has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，德罗智者在进行攻击检定时有劣势，以及在依赖视觉的感知（{@skill Perception}）检定上也有劣势。"
 					]
 				}
 			],
@@ -5260,7 +5260,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dhergoloth's innate spellcasting ability is Charisma (spell save {@dc 10}). It can innately cast the following spells, requiring no material components:"
+						"德尔戈洛斯(dhergoloth)的天生施法能力是魅力(spell save {@dc 10})。它天生可以施展以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell darkness}",
@@ -5427,7 +5427,7 @@
 				{
 					"name": "Keen Senses",
 					"entries": [
-						"The troll has advantage on Wisdom ({@skill Perception}) checks that rely on smell or sight."
+						"巨魔在依赖嗅觉或视觉的感知检定中具有优势。"
 					]
 				},
 				{
@@ -5575,7 +5575,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"黑暗精灵的天生施法能力是魅力（法术豁免{@dc 16}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell dancing lights}"
@@ -5593,7 +5593,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow is a 16th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+						"这个黑暗精灵是16级的法师。它的施法能力是魅力（法术豁免 {@dc 16}，使用法术攻击时命中加值 {@hit 8}）。它在完成短休或长休后会恢复已用的法术位。它知道以下术士法术："
 					],
 					"daily": {
 						"1": [
@@ -5638,13 +5638,13 @@
 				{
 					"name": "Change Shape (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The drow can use a bonus action to magically polymorph into a {@creature giant spider}, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. It can speak and cast spells while in giant spider form. Any equipment it is wearing or carrying in humanoid form melds into the giant spider form. It can't activate, use, wield, or otherwise benefit from any of its equipment. It reverts to its humanoid form if it dies."
+						"黑暗精灵可以使用一个奖励动作来魔法变形成为一个{@creature giant spider}，在该形态下最多可以维持1小时。它可以通过一个奖励动作恢复到真实形态。除了体型外，它在每种形态下的统计数据都是相同的。在巨蜘蛛形态下，它可以说话和施放法术。在人形态下穿戴或携带的任何装备都会融入到巨蜘蛛形态中。它无法激活、使用、挥舞或从任何装备中获益。如果它死亡，它会恢复到人形态。"
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"黑暗精灵在豁免骰中对被 {@condition charmed} 的效果具有优势，并且魔法无法让黑暗精灵进入睡眠状态。"
 					]
 				},
 				{
@@ -5656,7 +5656,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(drow) 对攻击骰有劣势，以及依赖视觉的感知({@skill Perception})检定也有劣势。"
 					]
 				},
 				{
@@ -5827,7 +5827,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow's innate spellcasting ability is Charisma (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
+						"黑暗精灵的天生施法能力是魅力（法术豁免{@dc 18}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell dancing lights}"
@@ -5845,7 +5845,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow is a 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It has the following wizard spells prepared:"
+						"这只黑暗精灵是11级的施法者。它的施法能力是智力（施法豁免 DC {@dc 18}，施法攻击命中加值为 {@hit 10}）。它准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -5910,13 +5910,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"黑暗精灵在豁免骰中对被 {@condition charmed} 的效果具有优势，并且魔法无法让黑暗精灵进入睡眠状态。"
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(drow) 对攻击骰有劣势，以及依赖视觉的感知({@skill Perception})检定也有劣势。"
 					]
 				},
 				{
@@ -6077,7 +6077,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow's innate spellcasting ability is Charisma (spell save {@dc 13}). He can innately cast the following spells, requiring no material components:"
+						"黑暗精灵的天生施法能力是魅力（法术豁免{@dc 13}）。他可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell dancing lights}"
@@ -6102,13 +6102,13 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"黑暗精灵在豁免骰中对被 {@condition charmed} 的效果具有优势，并且魔法无法让黑暗精灵进入睡眠状态。"
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(drow) 对攻击骰有劣势，以及依赖视觉的感知({@skill Perception})检定也有劣势。"
 					]
 				}
 			],
@@ -6271,7 +6271,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow's innate spellcasting ability is Charisma (spell save {@dc 18}). She can innately cast the following spells, requiring no material components:"
+						"黑暗精灵的天生施法能力是魅力（法术豁免{@dc 18}）。她可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -6294,7 +6294,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow is a 12th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following cleric spells prepared:"
+						"这位黑暗精灵是12级法术施展者。她的法术施展能力是智力（法术豁免 {@dc 18}，法术攻击命中加值 {@hit 10}）。她已准备了以下牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -6367,7 +6367,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"黑暗精灵在豁免骰中对被 {@condition charmed} 的效果具有优势，并且魔法无法让黑暗精灵进入睡眠状态。"
 					]
 				},
 				{
@@ -6379,7 +6379,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(drow) 对攻击骰有劣势，以及依赖视觉的感知({@skill Perception})检定也有劣势。"
 					]
 				}
 			],
@@ -6407,7 +6407,7 @@
 							"name": "Summon Demon (1/Day)",
 							"type": "entries",
 							"entries": [
-								"The drow attempts to magically summon a yochlol, with a {@chance 50|50 percent} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action. (see notes for link)"
+								"黑暗精灵试图使用魔法召唤一只约克洛尔，成功几率为{@chance 50|50 percent}。如果尝试失败，黑暗精灵会受到5点({@damage 1d10})的精神伤害。否则，被召唤的恶魔会出现在其召唤者60英尺内的一个未被占据的空间中，作为其召唤者的盟友，并且不能召唤其他恶魔。它会持续10分钟，直到它或其召唤者死亡，或者直到其召唤者将其作为一个动作解散。 (详见链接中的注释)"
 							]
 						}
 					],
@@ -6546,7 +6546,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow's innate spellcasting ability is Charisma (spell save {@dc 20}). She can innately cast the following spells, requiring no material components:"
+						"那个黑暗精灵的天生施法能力是魅力（法术豁免{@dc 20}）。她可以天生施放以下法术，无需任何材料成分："
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -6569,7 +6569,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The drow has the following cleric spells prepared:"
+						"这位黑暗精灵是一名20级的法术施法者。她的法术属性是智力（法术豁免 {@dc 19}，法术攻击命中加值 {@hit 11}）。这位黑暗精灵准备了以下的牧师法术："
 					],
 					"spells": {
 						"0": {
@@ -6659,7 +6659,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"黑暗精灵在豁免骰中对被 {@condition charmed} 的效果具有优势，并且魔法无法让黑暗精灵进入睡眠状态。"
 					]
 				},
 				{
@@ -6677,7 +6677,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(drow) 对攻击骰有劣势，以及依赖视觉的感知({@skill Perception})检定也有劣势。"
 					]
 				}
 			],
@@ -6703,7 +6703,7 @@
 				{
 					"name": "Summon Servant (1/Day)",
 					"entries": [
-						"The drow magically summons a {@creature retriever|mtf} or a {@creature yochlol}. The summoned creature appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+						"黑暗精灵使用魔法召唤一个{@creature retriever|mtf}或者一个{@creature yochlol}。被召唤的生物出现在离其召唤者不超过60英尺的未被占据的空间内，作为其召唤者的盟友，并且不能再召唤其他恶魔。它会持续10分钟，直到它或者它的召唤者死亡，或者直到其召唤者将其作为一个动作解散。"
 					]
 				}
 			],
@@ -6859,7 +6859,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The drow's innate spellcasting ability is Charisma (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+						"黑暗精灵的天生施法能力是魅力（法术豁免{@dc 13}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell dancing lights}"
@@ -6878,7 +6878,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"黑暗精灵在豁免骰中对被 {@condition charmed} 的效果具有优势，并且魔法无法让黑暗精灵进入睡眠状态。"
 					]
 				},
 				{
@@ -6890,7 +6890,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(drow) 对攻击骰有劣势，以及依赖视觉的感知({@skill Perception})检定也有劣势。"
 					]
 				}
 			],
@@ -6898,7 +6898,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The drow makes two attacks with its shadow sword. If either attack hits and the target is within 10 feet of a 5-foot cube of darkness created by the shadow sword on a previous turn, the drow can dismiss that darkness and cause the target to take 21 ({@damage 6d6}) necrotic damage. The drow can dismiss darkness in this way no more than once per turn."
+						"黑暗精灵用它的暗影剑进行两次攻击。如果其中一次攻击命中，目标距离先前回合由暗影剑创造的一个5英尺立方体黑暗不超过10英尺，黑暗精灵可以解除那个黑暗并让目标承受21 ({@damage 6d6}) 点死灵伤害。黑暗精灵每回合最多只能以这种方式解除黑暗一次。"
 					]
 				},
 				{
@@ -6924,7 +6924,7 @@
 							"name": "Summon Shadow Demon (1/Day)",
 							"type": "entries",
 							"entries": [
-								"The drow attempts to magically summon a shadow demon with a {@chance 50|50 percent} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+								"黑暗精灵试图用{@chance 50|50 percent}的成功几率魔法召唤一个暗影恶魔。如果尝试失败，黑暗精灵会受到5点({@damage 1d10})的精神伤害。否则，被召唤的恶魔会出现在其召唤者60英尺内的一个未被占据的空间中，作为其召唤者的盟友，并且不能召唤其他恶魔。它会持续10分钟，直到它或其召唤者死亡，或者直到其召唤者将其作为一个动作解散。"
 							]
 						}
 					],
@@ -7056,7 +7056,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The duergar despot's innate spellcasting ability is Intelligence (spell save {@dc 12}). It can cast the following spells, requiring no components:"
+						"灰暗矮人暴君的天生施法能力是智力（法术豁免 {@dc 12}）。它可以施放以下法术，无需材料："
 					],
 					"will": [
 						"{@spell mage hand}",
@@ -7082,13 +7082,13 @@
 				{
 					"name": "Psychic Engine",
 					"entries": [
-						"When the duergar despot suffers a critical hit or is reduced to 0 hit points, psychic energy erupts from its frame to deal 14 ({@damage 4d6}) psychic damage to each creature within 5 feet of it."
+						"当(duegar)暴君受到重击或生命值降至0时，精神能量会从它的身体中爆发，对其周围5英尺范围内的每个生物造成14({@damage 4d6})点精神伤害。"
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar despot has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，矮人贵族（duergar despot）在进行攻击投掷时有劣势，并且在依赖视觉的感知（智慧检定{@skill Perception}）上也有劣势。"
 					]
 				}
 			],
@@ -7365,7 +7365,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(杜尔加) duergar 在进行攻击检定时有劣势，并且在依赖视觉的感知 (智慧) Wisdom 检定上也有劣势。"
 					]
 				}
 			],
@@ -7391,7 +7391,7 @@
 				{
 					"name": "Shared Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it. While the {@condition invisible} duergar is mounted on a female steeder, the steeder is {@condition invisible} as well. The invisibility ends early on the steeder immediately after it attacks."
+						"矮人巫妖使用魔法使自己隐形 {@condition invisible}，持续时间最长可达1小时，或者直到它进行攻击、施放法术，或者它的 {@status concentration} 被打破（就像 {@status concentration||concentrating} 对法术的影响一样）。矮人巫妖穿戴或携带的任何装备都会与它一起隐形。当隐形的矮人巫妖骑在一匹雌性骑士蜘蛛上时，这匹骑士蜘蛛也会隐形。隐形效果会在骑士蜘蛛进行攻击后立即结束。"
 					]
 				}
 			],
@@ -7516,7 +7516,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(杜尔加) duergar 在进行攻击检定时有劣势，并且在依赖视觉的感知 (智慧) Wisdom 检定上也有劣势。"
 					]
 				}
 			],
@@ -7536,19 +7536,19 @@
 				{
 					"name": "Invisibility {@recharge 4}",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Reduce, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"矮人族（duergar）在魔法作用下可以变成 {@condition invisible}，持续时间最长为1小时，或者直到它发动攻击、施放法术、使用其缩小（Reduce）能力，或者其 {@status concentration} 被破坏（就像 {@status concentration||concentrating} 在法术上一样）。矮人族携带或穿戴的任何装备都会与它一起变小。"
 					]
 				},
 				{
 					"name": "Mind Mastery",
 					"entries": [
-						"The duergar targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 12} Intelligence saving throw, or the duergar causes it to use its reaction either to make one weapon attack against another creature the duergar can see or to move up to 10 feet in a direction of the duergar's choice. Creatures that can't be {@condition charmed} are immune to this effect."
+						"矮人族（duergar）选择在其视线范围内的一个生物作为目标，距离不超过60英尺。目标必须成功通过一次{@dc 12}智力豁免才能免受影响，否则矮人族会使其使用反应，要么对另一个矮人族能看到的生物进行一次武器攻击，要么朝矮人族选择的方向移动最多10英尺。对于无法被{@condition charmed}的生物免疫此效果。"
 					]
 				},
 				{
 					"name": "Reduce (Recharges after a Short or Long Rest)",
 					"entries": [
-						"For 1 minute, the duergar magically decreases in size, along with anything it is wearing or carrying. While reduced, the duergar is Tiny, reduces its weapon damage to 1, and makes attacks, checks, and saving throws with disadvantage if they use Strength. It gains a +5 bonus to all Dexterity ({@skill Stealth}) checks and a +5 bonus to its AC. It can also take a bonus action on each of its turns to take the Hide action."
+						"在1分钟内，矮人(duergar)在魔法作用下缩小，连同其穿戴或携带的物品一起缩小。在缩小状态下，矮人变成微小(Tiny)大小，将其武器伤害减少至1，并且如果使用力量进行攻击、检定或豁免时，会带有劣势。它在所有敏捷(Dexterity)检定上获得+5的加值，并且其盔甲等级(AC)也增加了+5。它还可以在每个回合上额外采取一个动作来进行躲藏动作。"
 					]
 				}
 			],
@@ -7773,7 +7773,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The duergar's innate spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"灰暗矮人的天生施法能力是智力（法术豁免 DC {@dc 12}，用法术攻击命中为 {@hit 4}）。它可以天生施放以下法术，无需材料成分："
 					],
 					"will": [
 						"{@spell blade ward}",
@@ -7798,13 +7798,13 @@
 				{
 					"name": "Create Soulblade",
 					"entries": [
-						"As a bonus action, the duergar can create a shortsword-sized, visible blade of psionic energy. The weapon appears in the duergar's hand and vanishes if it leaves the duergar's grip, or if the duergar dies or is {@condition incapacitated}."
+						"作为一个奖励动作，矮人族可以创造一把短剑大小的，可见的灵能刀刃。武器出现在矮人族的手中，如果离开矮人族的控制，或者矮人族死亡或是{@condition incapacitated}，则会消失。"
 					]
 				},
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(杜尔加) duergar 在进行攻击检定时有劣势，并且在依赖视觉的感知 (智慧) Wisdom 检定上也有劣势。"
 					]
 				}
 			],
@@ -7824,7 +7824,7 @@
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"矮人巫妖使用魔法将自己变成{@condition invisible}，持续时间最长可达1小时，或者直到它发动攻击、施放法术、使用其扩大能力，或者其{@status concentration}被破坏（就像{@status concentration||concentrating}上的法术）。矮人巫妖所穿戴或携带的任何装备都会与它一起变大。"
 					]
 				}
 			],
@@ -7938,7 +7938,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(杜尔加) duergar 在进行攻击检定时有劣势，并且在依赖视觉的感知 (智慧) Wisdom 检定上也有劣势。"
 					]
 				}
 			],
@@ -7964,7 +7964,7 @@
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"矮人巫妖使用魔法将自己变成{@condition invisible}，持续时间最长可达1小时，或者直到它发动攻击、施放法术、使用其扩大能力，或者其{@status concentration}被破坏（就像{@status concentration||concentrating}上的法术）。矮人巫妖所穿戴或携带的任何装备都会与它一起变大。"
 					]
 				}
 			],
@@ -8069,7 +8069,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(杜尔加) duergar 在进行攻击检定时有劣势，并且在依赖视觉的感知 (智慧) Wisdom 检定上也有劣势。"
 					]
 				}
 			],
@@ -8107,7 +8107,7 @@
 				{
 					"name": "Invisibility {@recharge 4}",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"矮人巫妖使用魔法将自己变成{@condition invisible}，持续时间最长可达1小时，或者直到它发动攻击、施放法术、使用其扩大能力，或者其{@status concentration}被破坏（就像{@status concentration||concentrating}上的法术）。矮人巫妖所穿戴或携带的任何装备都会与它一起变大。"
 					]
 				}
 			],
@@ -8229,7 +8229,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+						"在阳光下，(杜尔加) duergar 在进行攻击检定时有劣势，并且在依赖视觉的感知 (智慧) Wisdom 检定上也有劣势。"
 					]
 				}
 			],
@@ -8255,7 +8255,7 @@
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its {@status concentration} is broken (as if {@status concentration||concentrating} on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"矮人巫妖使用魔法将自己变成{@condition invisible}，持续时间最长可达1小时，或者直到它发动攻击、施放法术、使用其扩大能力，或者其{@status concentration}被破坏（就像{@status concentration||concentrating}上的法术）。矮人巫妖所穿戴或携带的任何装备都会与它一起变大。"
 					]
 				}
 			],
@@ -8387,7 +8387,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dybbuk's innate spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+						"迪布克的天生施法能力是魅力（法术豁免{@dc 12}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell dimension door}"
@@ -8405,7 +8405,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The dybbuk can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"鬼魂可以像穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在物体内结束回合，它会受到5点({@damage 1d10})力量伤害。"
 					]
 				},
 				{
@@ -8425,7 +8425,7 @@
 				{
 					"name": "Tendril",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) necrotic damage. If the target is a creature, its hit point maximum is also reduced by 3 ({@dice 1d6}). This reduction lasts until the target finishes a short or long rest. The target dies if this effect reduces its hit point maximum to 0."
+						"{@atk mw}进行攻击，射程5英尺，一个目标。{@h}13 ({@damage 2d8 + 4})点死灵伤害。如果目标是生物，其最大生命值也会减少3 ({@dice 1d6})点。这个减少效果持续直到目标完成短休或长休。如果这个效果将目标的最大生命值降低到0，目标将死亡。"
 					]
 				},
 				{
@@ -8718,7 +8718,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The eidolon can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object other than a sacred statue."
+						"幻影兽可以像穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在除神圣雕像以外的物体内结束回合，它会受到5({@damage 1d10})力量伤害。"
 					]
 				},
 				{
@@ -8840,7 +8840,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The oblex's innate spellcasting ability is Intelligence (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
+						"Oblex（Oblex）的固有施法能力是智力（法术豁免{@dc 18}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell charm person} (as 5th-level spell)",
@@ -9052,7 +9052,7 @@
 				{
 					"name": "Living Storm",
 					"entries": [
-						"The tempest is always at the center of a storm {@dice 1d6 + 4} miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom ({@skill Perception}) checks that rely on hearing.",
+						"风暴总是在直径为{@dice 1d6 + 4}英里的风暴中心。那里会有大量的降水，可能是雨或雪，导致该区域轻度模糊。大雨也会扑灭明火，并对依赖听觉的感知（智力）检定造成劣势。",
 						"此外，强风会在风暴覆盖的区域内旋转。风对远程攻击的卷轴造成不利影响。风会扑灭明火，驱散雾气。"
 					]
 				},
@@ -9099,7 +9099,7 @@
 				{
 					"name": "Screaming Gale (Costs 3 Actions)",
 					"entries": [
-						"The tempest releases a blast of thunder and wind in a line that is 1 mile long and 20 feet wide. Objects in that area take 22 ({@damage 4d10}) thunder damage. Each creature there must succeed on a {@dc 21} Dexterity saving throw or take 22 ({@damage 4d10}) thunder damage and be flung up to 60 feet in a direction away from the line. If a thrown target collides with an immovable object, such as a wall or floor, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown before impact. If the target would collide with another creature instead, that other creature must succeed on a {@dc 19} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+						"暴风雨释放出一股雷声和风的冲击，在一条长1英里、宽20英尺的线上。该区域内的物体会受到22({@damage 4d10})点雷属性伤害。那里的每个生物必须成功通过一次{@dc 21}敏捷豁免才能避免受到22({@damage 4d10})点雷属性伤害，并被向远离该线的方向抛出，最多60英尺。如果被抛出的目标撞到不可移动的物体，比如墙壁或地面，目标会因撞击前被抛出的每10英尺距离受到3({@damage 1d6})点钝击伤害。如果目标将与另一个生物相撞，那个生物必须成功通过一次{@dc 19}敏捷豁免，否则会受到相同伤害并被击倒{@condition prone}。"
 					]
 				}
 			],
@@ -9220,7 +9220,7 @@
 				{
 					"name": "Sticky Leg",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one Medium or smaller creature. {@h}The target is stuck to the steeder's leg and is {@condition grappled} until it escapes (escape {@dc 12}). The steeder can have only one creature {@condition grappled} at a time."
+						"{@atk mw} {@hit 5} 命中，达到 5 英尺，一个中等或更小的生物。{@h}目标被粘在骑士蜘蛛的腿上，并且被 {@condition grappled} 直到它逃脱（逃脱 {@dc 12}）。骑士蜘蛛一次只能携带一个生物 {@condition grappled}。"
 					]
 				}
 			],
@@ -9338,7 +9338,7 @@
 				{
 					"name": "Water Susceptibility",
 					"entries": [
-						"For every 5 feet the myrmidon moves in 1 foot or more of water, it takes 2 ({@damage 1d4}) cold damage."
+						"每当蚁人在1英尺或更深的水中移动5英尺，它会受到2{@damage 1d4}的冷伤害。"
 					]
 				}
 			],
@@ -9496,7 +9496,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Fraz-Urb'luu's spellcasting ability is Charisma (spell save {@dc 23}). Fraz-Urb'luu can innately cast the following spells, requiring no material components:"
+						"弗拉兹-乌布鲁的施法能力是魅力（法术豁免{@dc 23}）。弗拉兹-乌布鲁可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing his appearance)",
@@ -9860,7 +9860,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Geryon's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
+						"盖瑞翁的天生施法能力是魅力（法术豁免{@dc 21}）。他可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing his appearance)",
@@ -10253,7 +10253,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"githyanki（吉萨因奇）的天生施法能力是智力（法术豁免{@dc 15}，用法术攻击命中{@hit 7}）。它可以天生施放以下法术，无需材料："
 					],
 					"will": [
 						"{@spell mage hand} (the hand is invisible)"
@@ -10275,7 +10275,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki is an 8th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The githyanki has the following wizard spells prepared:"
+						"githyanki是一个8级法术施展者。它的法术施展能力是智力（法术豁免{@dc 15}，使用法术攻击时命中加值{@hit 7}）。githyanki准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -10448,7 +10448,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"githyanki（吉萨因奇）的天生施法能力是智力（法术豁免{@dc 15}，用法术攻击命中{@hit 7}）。它可以天生施放以下法术，无需材料："
 					],
 					"will": [
 						"{@spell mage hand} (the hand is invisible)"
@@ -10472,7 +10472,7 @@
 				{
 					"name": "Rally the Troops",
 					"entries": [
-						"As a bonus action, the githyanki can magically end the {@condition charmed} and {@condition frightened} conditions on itself and each creature of its choice that it can see within 30 feet of it."
+						"作为一个奖励动作，(githyanki)可以在自己身上以及在其能看到的30英尺范围内的每个选择的生物身上，魔法地结束{@condition charmed}和{@condition frightened}状态。"
 					]
 				}
 			],
@@ -10600,7 +10600,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githyanki's innate spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"几萨安基的天生施法能力是智力（法术豁免 {@dc 16}，法术攻击命中加值 {@hit 8}）。它可以天生施放以下法术，无需任何材料："
 					],
 					"will": [
 						"{@spell mage hand} (the hand is invisible)"
@@ -10660,7 +10660,7 @@
 				{
 					"name": "Teleport",
 					"entries": [
-						"The githyanki magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it. It also becomes insubstantial until the start of its next turn. While insubstantial, it can move through other creatures and objects as if they were {@quickref difficult terrain||3}. If it ends its turn inside an object, it takes 16 ({@damage 3d10}) force damage and is moved to the nearest unoccupied space."
+						"githyanki使用魔法传送，连同其穿戴和携带的任何装备，传送到其能看到的距离30英尺内的一个未被占据的空间。它还会变得无实体，直到下一回合开始。在无实体状态下，它可以像穿过其他生物和物体一样移动，就像它们是{@quickref difficult terrain||3}一样。如果它在物体内结束其回合，它会受到16({@damage 3d10})力量伤害，并被移动到最近的未被占据的空间。"
 					]
 				}
 			],
@@ -10768,7 +10768,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The anarch's innate spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"无政府主义者的天生施法能力是智力（法术豁免 {@dc 18}，法术攻击命中加值 {@hit 10}）。它可以天生施放以下法术，无需任何材料："
 					],
 					"will": [
 						"{@spell mage hand} (the hand is invisible)"
@@ -10928,7 +10928,7 @@
 					"name": "Innate Spellcasting (Psionics)",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The githzerai's innate spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"几世人的天生法术能力是智慧（法术豁免 {@dc 16}，法术攻击命中加值 {@hit 8}）。它可以天生施放以下法术，无需任何材料："
 					],
 					"will": [
 						"{@spell mage hand} (the hand is invisible)"
@@ -11080,7 +11080,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The gloom weaver's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+						"暗影编织者的天生施法能力是魅力（法术豁免 {@dc 16}，用法术攻击命中 {@hit 8}）。它天生可以施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell arcane eye}",
@@ -11102,7 +11102,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The gloom weaver is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+						"暗影编织者是一名12级法术施法者。它的法术施放能力是魅力（法术豁免 {@dc 16}，用法术攻击命中为 {@hit 8}）。当它完成短休或长休时，它会恢复已用的法术位。它会以下列术士法术："
 					],
 					"spells": {
 						"0": {
@@ -11147,7 +11147,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The gloom weaver has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"暗影编织者在对抗被 {@condition charmed} 时拥有优势，并且魔法无法让它入睡。"
 					]
 				}
 			],
@@ -11169,7 +11169,7 @@
 				{
 					"name": "Misty Escape (Recharges after a Short or Long Rest)",
 					"entries": [
-						"When the gloom weaver takes damage, it turns {@condition invisible} and teleports up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks or casts a spell."
+						"当阴暗编织者受到伤害时，它会变成{@condition invisible}，并传送到60英尺内一个它能看见的未占据的空间。它会保持{@condition invisible}，直到下一个回合开始，或者直到它进行攻击或施放法术。"
 					]
 				}
 			],
@@ -11435,7 +11435,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Graz'zt's spellcasting ability is Charisma (spell save {@dc 23}). He can innately cast the following spells, requiring no material components:"
+						"格拉兹特的施法能力是魅力（法术豁免{@dc 23}）。他可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell charm person}",
@@ -11517,13 +11517,13 @@
 				{
 					"name": "Dance, My Puppet",
 					"entries": [
-						"One creature {@condition charmed} by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs."
+						"Graz'zt可以看到的一个由Graz'zt创造的生物{@condition charmed}必须使用其反应，按照Graz'zt的指示移动，最多移动其速度。"
 					]
 				},
 				{
 					"name": "Sow Discord",
 					"entries": [
-						"Graz'zt casts {@spell crown of madness} or dissonant whispers."
+						"格拉兹特 (Graz'zt) 施放 {@spell crown of madness} 或心灵之歌 (dissonant whispers)。"
 					]
 				},
 				{
@@ -11670,7 +11670,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The abishai's innate spellcasting ability is Charisma (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
+						"阿比沙依的天生施法能力是魅力（法术豁免{@dc 17}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell alter self}",
@@ -11885,7 +11885,7 @@
 					"name": "Flesh-Crushing Stride",
 					"entries": [
 						"地狱火引擎在一条直线上移动到其速度。在这个移动过程中，它可以进入大型或小型生物的空间。地狱火引擎进入其空间的生物必须做一个{@dc 18}灵巧救赎的动作。拯救成功时，该生物会被推到离地狱火引擎路径最近的空间。如果救赎失败，该生物将跌落（1%），并受到28（2%）的重击伤害。",
-						"If the hellfire engine remains in the {@condition prone} creature's space, the creature is also {@condition restrained} until it's no longer in the same space as the hellfire engine. While {@condition restrained} in this way, the creature, or another creature within 5 feet of it, can make a {@dc 18} Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer {@condition restrained}."
+						"如果地狱火引擎停留在{@condition prone}生物的空间内，该生物也会被{@condition restrained}，直到它不再与地狱火引擎处于相同空间。在这种情况下，该生物或距离它5英尺内的另一个生物可以进行{@dc 18}力量检定。若成功，该生物会被传送到离地狱火引擎5英尺内的一个未被占据的空间，并不再是{@condition restrained}。"
 					]
 				},
 				{
@@ -12022,7 +12022,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"A howler has advantage on attack rolls against a creature if at least one of the howler's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一个豺狼兽的盟友在离生物5英尺以内且该盟友不是{@condition incapacitated}，则豺狼兽对该生物的攻击投掷获得优势。"
 					]
 				}
 			],
@@ -12175,7 +12175,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Hutijin's innate spellcasting ability is Charisma (spell save {@dc 22}). He can innately cast the following spells, requiring no material components:"
+						"胡提金(Hutijin)的天生施法能力是魅力(法术豁免{@dc 22})。他可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing his appearance)",
@@ -12453,7 +12453,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The hydroloth's innate spellcasting ability is Intelligence (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"水鬼的天生施法能力是智力（法术豁免{@dc 16}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell darkness}",
@@ -12813,7 +12813,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Juiblex's spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:"
+						"朱比莱克斯的施法能力是魅力（法术豁免{@dc 18}，用法术攻击命中为{@hit 10}）。朱比莱克斯可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell acid splash} (17th level)",
@@ -12883,7 +12883,7 @@
 				{
 					"name": "Eject Slime {@recharge 5}",
 					"entries": [
-						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a {@dc 21} Dexterity saving throw. On a failure, the target takes 55 ({@damage 10d10}) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent −1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent −1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to −5, the object is destroyed."
+						"朱比莱克斯(Juiblex)喷射出一团腐蚀性粘液，瞄准60英尺内它能看到的一名生物。目标必须进行一次{@dc 21}敏捷豁免检定。如果未能通过检定，目标将受到55({@damage 10d10})点酸性伤害。除非目标成功避免受到这些伤害，目标穿戴的任何金属盔甲的AC将永久减少1点，目标携带或穿戴的任何金属武器的伤害骰将永久减少1点。每次目标受到此效果影响时，惩罚会加重。如果物品的惩罚降至-5，该物品将被摧毁。"
 					]
 				}
 			],
@@ -13025,13 +13025,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The kruthik has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"灰虫在依赖嗅觉的智慧检定上有优势（{@skill Perception}）。"
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一个克鲁西克的盟友在离生物5英尺以内且该盟友不是{@condition incapacitated}，克鲁西克在对该生物进行攻击检定时获得优势。"
 					]
 				},
 				{
@@ -13222,8 +13222,8 @@
 					"name": "Tidal Wave {@recharge}",
 					"entries": [
 						"当被淹没时，利维坦会以自己为中心神奇地创造一道水墙。这道墙长达250英尺，高达250英尺，厚达50英尺。当这堵墙出现时，在其范围内的所有其他生物都必须做一个{@dc 24}力量储蓄动作。蓄力失败时，生物会受到33({@damage 6d10})的重击伤害，蓄力成功则会受到一半的伤害。",
-						"At the start of each of the leviathan's turns after the wall appears, the wall, along with any other creatures in it, moves 50 feet away from the leviathan. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a {@dc 24} Strength saving throw or take 27 ({@damage 5d10}) bludgeoning damage. A creature takes this damage no more than once on a turn. At the end of each turn the wall moves, the wall's height is reduced by 50 feet, and the damage creatures take from the wall on subsequent rounds is reduced by {@dice 1d10}. When the wall reaches 0 feet in height, the effect ends.",
-						"A creature caught in the wall can move by swimming. Because of the force of the wave, though, the creature must make a successful {@dc 24} Strength ({@skill Athletics}) check to swim at all during that turn."
+						"在利维坦出现后的每个回合开始时，墙壁连同其中的任何其他生物，会远离利维坦50英尺。当墙壁移动时，任何处于墙内或墙移动时进入其空间的巨大或更小生物必须成功通过一个{@dc 24} 的力量豁免才能免受27({@damage 5d10})点的钝击伤害。一只生物在一个回合内最多只能受到一次这种伤害。每次墙壁移动结束时，墙壁的高度会减少50英尺，并且生物在随后回合受到的墙壁伤害会减少{@dice 1d10}。当墙壁高度降至0英尺时，效果结束。",
+						"墙壁中的生物可以通过游泳来移动。但由于波浪的力量，生物在那一回合内必须成功进行一次{@dc 24}力量检定({@skill Athletics})才能进行游泳。"
 					]
 				}
 			],
@@ -13350,7 +13350,7 @@
 				{
 					"name": "Sticky Leg",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one Small or Tiny creature. {@h}The target is stuck to the steeder's leg and is {@condition grappled} until it escapes (escape {@dc 12}). The steeder can have only one creature {@condition grappled} at a time."
+						"{@atk mw} {@hit 4} 命中，达到5英尺，一个小型或微小生物。{@h}目标被粘在蜘蛛骑手的腿上，并且被{@condition grappled}直到它逃脱（逃脱{@dc 12}）。蜘蛛骑手一次只能携带一个生物{@condition grappled}。"
 					]
 				}
 			],
@@ -13472,7 +13472,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The marut's innate spellcasting ability is Intelligence (spell save {@dc 20}). The marut can innately cast the following spell, requiring no material components."
+						"马鲁特(Marut)的天生施法能力是智力（法术豁免{@dc 20}）。马鲁特(Marut)可以天生施放以下法术，无需任何材料成分。"
 					],
 					"will": [
 						"{@spell plane shift} (self only)"
@@ -13522,7 +13522,7 @@
 				{
 					"name": "Justify",
 					"entries": [
-						"The marut targets up to two creatures it can see within 60 feet of it. Each target must succeed on a {@dc 20} Charisma saving throw or be teleported to a teleportation circle in the Hall of Concordance in Sigil. A target fails automatically if it is {@condition incapacitated}. If either target is teleported in this way, the marut teleports with it to the circle.",
+						"马鲁特（Marut）瞄准在其视线范围内的最多两个生物，距离不超过60英尺。每个目标必须成功通过一个{@dc 20}魅力豁免才能免受影响，否则将被传送到西格尔（Sigil）和谐大厅（Hall of Concordance）内的传送阵。如果目标是{@condition incapacitated}，则自动失败。如果任一目标以这种方式被传送，马鲁特将与其一起传送到传送阵。",
 						"以这种方式传送后，马鲁特不能再使用这个动作，直到它完成一个短暂或长时间的休息。"
 					]
 				}
@@ -13786,7 +13786,7 @@
 				{
 					"name": "Garrote",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target of the meazel's size or smaller. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 13} with disadvantage). Until the grapple ends, the target takes 10 ({@damage 2d6 + 3}) bludgeoning damage at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
+						"{@atk mw} {@hit 5}命中，达到5英尺，一个与梅泽尔的大小相同或更小的目标。受到{@h}6({@damage 1d6 + 3}) 钝击伤害，并且目标被{@condition grappled} (逃脱时(-escape-){@dc 13}带有劣势)。直到角斗结束，目标在每个梅泽尔回合开始时受到10({@damage 2d6 + 3}) 钝击伤害。梅泽尔在这种方式下无法进行武器攻击。"
 					]
 				},
 				{
@@ -14081,7 +14081,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The merrenoloth's innate spellcasting ability is Intelligence (spell save {@dc 13}). It can innately cast the following spells, requiring no material components:"
+						"梅伦诺洛斯（Merrenoloth）的天生施法能力是智力（法术豁免{@dc 13}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell charm person}",
@@ -14292,7 +14292,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Moloch's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
+						"摩洛克的天生施法能力是魅力（法术豁免{@dc 21}）。他可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing his appearance)",
@@ -14560,7 +14560,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The molydeus's innate spellcasting ability is Charisma (spell save {@dc 22}). It can innately cast the following spells, requiring no material components:"
+						"魔利迪斯 (Molydeus) 的天生施法能力是魅力 (法术豁免 {@dc 22})。它可以天生施展以下法术，无需任何材料成分："
 					],
 					"will": [
 						"{@spell dispel magic}",
@@ -14797,7 +14797,7 @@
 				{
 					"name": "Devour Soul",
 					"entries": [
-						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a construct nor an undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice ({@dice d8}s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@dice 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell wish} spell."
+						"一只纳巴苏魔鬼可以吞食在过去一小时内杀死的生物的灵魂，前提是该生物既不是构装生物也不是不死生物。吞噬需要纳巴苏魔鬼在尸体附近5英尺处至少待上10分钟，之后它会获得一定数量的生命骰{@dice d8}，数量等于被吞噬生物生命骰数量的一半。掷这些骰子，并根据掷出的数字增加纳巴苏魔鬼的生命值。每获得4个这种方式的生命骰，其攻击在命中时额外造成3{@dice 1d6}点伤害。纳巴苏魔鬼会保留这些好处6天。被纳巴苏魔鬼吞噬的生物只能通过{@spell wish}法术复活。"
 					]
 				},
 				{
@@ -14835,7 +14835,7 @@
 				{
 					"name": "Soul-Stealing Gaze",
 					"entries": [
-						"The nabassu targets one creature it can see within 30 feet of it. If the target can see the nabassu and isn't a construct or an undead, it must succeed on a {@dc 16} Charisma saving throw or reduce its hit point maximum by 13 ({@dice 2d12}) damage and give the nabassu an equal number of temporary hit points. This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0, and if the target is a humanoid, it immediately rises as a {@creature ghoul} under the nabassu's control."
+						"那巴苏(nabassu)选择一个它能看到的距离30英尺内的生物。如果目标能看到那巴苏，并且不是构装或不死生物，它必须成功通过一次{@dc 16}魅力豁免才能避免受到13点({@dice 2d12})伤害并使其生命值上限减少，并为那巴苏提供相同数量的临时生命值。这种减少持续到目标完成短暂休息或长休息。如果目标的生命值上限降低到0，目标将死亡，如果目标是人形生物，它将立即起身成为那巴苏控制下的{@creature ghoul}。"
 					]
 				}
 			],
@@ -14944,7 +14944,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The nagpa is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). A nagpa has the following wizard spells prepared:"
+						"那伽巴是一名15级法术施展者。它的法术能力是智力（法术豁免 {@dc 20}，用法术攻击命中加值 {@hit 12}）。那伽巴已准备了以下巫师法术："
 					],
 					"spells": {
 						"0": {
@@ -15025,7 +15025,7 @@
 				{
 					"name": "Corruption",
 					"entries": [
-						"As a bonus action, the nagpa targets one creature it can see within 90 feet of it. The target must make a {@dc 20} Charisma saving throw. An evil creature makes the save with disadvantage. On a failed save, the target is {@condition charmed} by the nagpa until the start of the nagpa's next turn. On a successful save, the target becomes immune to the nagpa's Corruption for the next 24 hours."
+						"作为一个奖励动作，那伽巴(nagpa)瞄准在它能看到的90英尺内的一个生物。目标必须进行一个{@dc 20} 魅力豁免检定。邪恶生物在豁免检定中带有劣势。未通过检定的目标会被那伽巴(nagpa)影响，直到那伽巴(nagpa)的下一个回合开始前。通过检定的目标在接下来的24小时内对那伽巴(nagpa)的腐化效果免疫。"
 					]
 				},
 				{
@@ -15197,13 +15197,13 @@
 				{
 					"name": "Diabolical Sense",
 					"entries": [
-						"The narzugon has advantage on Wisdom ({@skill Perception}) checks made to perceive good-aligned creatures."
+						"那魔角骑士在感知善良生物时具有感知({@skill Perception})检定的优势。"
 					]
 				},
 				{
 					"name": "Infernal Tack",
 					"entries": [
-						"The narzugon wears spurs that are part of infernal tack, which allow it to summon its {@creature nightmare} companion."
+						"纳祖冈戴着属于地狱马具的马刺，这使它能够召唤它的{@creature nightmare}伙伴。"
 					]
 				},
 				{
@@ -15230,7 +15230,7 @@
 				{
 					"name": "Infernal Command",
 					"entries": [
-						"Each ally of the narzugon within 60 feet of it can't be {@condition charmed} or {@condition frightened} until the end of the narzugon's next turn."
+						"在距离纳祖冈（narzugon）60英尺范围内的每个盟友在纳祖冈下一回合结束前不能成为{@condition charmed}或{@condition frightened}。"
 					]
 				},
 				{
@@ -15508,7 +15508,7 @@
 				{
 					"name": "Cloud of Vermin",
 					"entries": [
-						"Any creature, other than a devil, that starts its turn within 20 feet of the nupperibo must make a {@dc 11} Constitution saving throw. A creature within the areas of two or more nupperibos makes the saving throw with disadvantage. On a failure, the creature takes 2 ({@damage 1d4}) piercing damage."
+						"任何生物，在距离努佩里博（nupperibo）20英尺内开始其回合的时候，必须进行一次 {@dc 11} 体质豁免检定。在两个或更多努佩里博的范围内的生物进行豁免检定时，将以劣势进行。如果检定失败，生物会受到 2 ({@damage 1d4}) 穿刺伤害。"
 					]
 				},
 				{
@@ -15637,7 +15637,7 @@
 				{
 					"name": "Harpoon",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 50/200 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage, and the target is {@condition grappled} (escape {@dc 12}). While {@condition grappled} in this way, a creature's speed isn't reduced, but it can move only in directions that bring it closer to the oaken bolter. A creature takes 5 ({@damage 1d10}) slashing damage if it escapes from the grapple or if it tries and fails. As a bonus action, the oaken bolter can pull a creature {@condition grappled} by it 20 feet closer. The oaken bolter can grapple only one creature at a time."
+						"{@atk rw} 使用 {@hit 7} 进行攻击，射程50/200英尺，目标为一个。造成 {@h}9 ({@damage 1d10 + 4}) 穿刺伤害，并且目标被 {@condition grappled} (逃脱 {@dc 12})。在这种情况下，生物的速度不会减慢，但它只能朝着使其靠近橡木弩手的方向移动。如果生物逃脱或尝试但失败，它将受到5 ({@damage 1d10}) 切割伤害。作为一个奖励动作，橡木弩手可以将一个生物拉近20英尺。橡木弩手一次只能抓住一个生物。"
 					]
 				},
 				{
@@ -15846,7 +15846,7 @@
 				{
 					"name": "Block the Path",
 					"entries": [
-						"Until the start of the ogre's next turn, attack rolls against the ogre have disadvantage, it has advantage on the attack roll it makes for an opportunity attack, and that attack deals an extra 16 ({@damage 3d10}) bludgeoning damage on a hit. Also, each enemy that tries to move out of the ogre's reach without teleporting must succeed on a {@dc 14} Strength saving throw or have its speed reduced to 0 until the start of the ogre's next turn."
+						"直到食人魔的下一个回合开始，对食人魔的攻击投掷有劣势，食人魔进行机会攻击时有优势，并且攻击命中时额外造成16({@damage 3d10})点钝击伤害。此外，每个试图在不传送的情况下移出食人魔攻击范围的敌人必须通过一次{@dc 14}力量豁免检定，否则其速度将降低为0，直到食人魔的下一个回合开始。"
 					]
 				}
 			],
@@ -16023,7 +16023,7 @@
 				{
 					"name": "Chain Sweep",
 					"entries": [
-						"The ogre swings its chain, and every creature within 10 feet of it must make a {@dc 14} Dexterity saving throw. On a failed saving throw, a creature takes 8 ({@damage 1d8 + 4}) bludgeoning damage and is knocked {@condition prone}. On a successful save, the creature takes half as much damage and isn't knocked {@condition prone}."
+						"食人魔挥舞着它的链条，它周围10英尺范围内的每个生物都必须进行一次{@dc 14}敏捷豁免检定。未通过豁免检定的生物会受到8点({@damage 1d8 + 4}) 钝击伤害并被击倒{@condition prone}。通过豁免检定的生物只会受到一半伤害，并且不会被击倒{@condition prone}。"
 					]
 				},
 				{
@@ -16244,7 +16244,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The oinoloth's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"Oinoloth（奥伊诺洛斯）的天生施法能力是魅力（法术豁免{@dc 16}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell darkness}",
@@ -16268,8 +16268,8 @@
 					"name": "Bringer of Plagues {@recharge 5}",
 					"entries": [
 						"作为一个额外的行动，Oinoloth会使它周围30英尺内的区域受到污染。瘟疫会持续24小时。在枯萎期间，该区域的所有正常植物都会枯萎死亡，而且该区域的生物通过法术恢复的命中率减半。",
-						"Furthermore, when a creature moves into the blighted area or starts its turn there, that creature must make a {@dc 16} Constitution saving throw. On a successful save, the creature is immune to the oinoloth's Bringer of Plagues for the next 24 hours. On a failed save, the creature takes 14 ({@damage 4d6}) necrotic damage and is {@condition poisoned}.",
-						"The {@condition poisoned} creature can't regain hit points. After every 24 hours that elapse, the {@condition poisoned} creature can repeat the saving throw. On a failed save, the creature's hit point maximum is reduced by 5 ({@dice 1d10}). This reduction lasts until the poison ends, and the target dies if its hit point maximum is reduced to 0. The poison ends after the creature successfully saves against it three times."
+						"此外，当生物进入受腐化影响的区域或在那里开始它的回合时，该生物必须进行一次 {@dc 16} 体质豁免才能。豁免成功的话，该生物在接下来的24小时内免疫于奥伊诺洛斯的瘟疫使者。若豁免失败，该生物会受到14 ({@damage 4d6}) 点死灵伤害并且被 {@condition poisoned}。",
+						"{@condition poisoned}生物无法恢复生命值。每过24小时，{@condition poisoned}生物可以重新进行豁免投掷。如果豁免失败，生物的生命值上限减少5({@dice 1d10})。这种减少持续到毒素结束，如果生物的生命值上限降至0，则生物死亡。毒素在生物成功对抗三次后结束。"
 					]
 				},
 				{
@@ -16301,7 +16301,7 @@
 				{
 					"name": "Corrupted Healing {@recharge}",
 					"entries": [
-						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}. The target then gains 1 level of {@condition exhaustion}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell wish} spell or by casting {@spell greater restoration} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
+						"Oinoloth（奥伊诺洛斯）触摸距离5英尺内的一个愿意的生物。目标回复所有生命值。此外，Oinoloth可以结束目标身上的一种疾病，或者从中移除以下一种状态：{@condition blinded}，{@condition deafened}，{@condition paralyzed}，或{@condition poisoned}。然后目标获得1级的{@condition exhaustion}，其生命值上限减少7({@dice 2d6})。这种减少只能通过{@spell wish}法术或者在同一个小时内对目标施放3次{@spell greater restoration}来移除。如果目标的生命值上限降低到0，它将死亡。"
 					]
 				},
 				{
@@ -16480,7 +16480,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Orcus's spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+						"奥库斯的施法能力是魅力（法术豁免{@dc 23}，用法术攻击命中为{@hit 15}）。他可以天生施放以下法术，无需任何材料成分："
 					],
 					"will": [
 						"{@spell chill touch} (17th level)",
@@ -16502,7 +16502,7 @@
 				{
 					"name": "Wand of Orcus",
 					"entries": [
-						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell animate dead}, {@spell blight}, or {@spell speak with dead}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell circle of death} (1 charge), {@spell finger of death} (1 charge), or {@spell power word kill} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
+						"这根魔杖有7点能量，任何需要豁免检定的属性的豁免 DC 为18。持有魔杖时，奥库斯可以使用一个动作施放{@spell animate dead}，{@spell blight}或{@spell speak with dead}。或者，他可以消耗魔杖的1点或更多点能量来从中施放以下法术之一：{@spell circle of death} (1点能量)，{@spell finger of death} (1点能量)，或{@spell power word kill} (2点能量)。魔杖每天在黎明时恢复{@dice 1d4 + 3}点能量。",
 						"拿着魔杖时，奥库斯可以用一个动作来召唤亡灵生物，这些生物的平均命中率不超过500。这些亡灵会神奇地从地面升起，或以其他方式在奥库斯300英尺范围内的无人空间形成，并服从他的命令，直到它们被摧毁或被他用行动解除为止。一旦魔杖的这一属性被使用，在下一个黎明之前，该属性不能再次使用。"
 					]
 				},
@@ -16527,7 +16527,7 @@
 				{
 					"name": "Master of Undeath",
 					"entries": [
-						"When Orcus casts {@spell animate dead} or {@spell create undead}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast {@spell create undead} even when it isn't night."
+						"当奥库斯(Orcus)施放{@spell animate dead}或{@spell create undead}时，他可以选择施放法术的等级，并且被这些法术创造出来的生物将永远处于他的控制之下。此外，他甚至可以在非夜晚时施放{@spell create undead}。"
 					]
 				}
 			],
@@ -16561,7 +16561,7 @@
 				{
 					"name": "A Taste of Undeath",
 					"entries": [
-						"Orcus casts {@spell chill touch} (17th level)."
+						"奥库斯施放 {@spell chill touch} (17级)。"
 					]
 				},
 				{
@@ -16708,7 +16708,7 @@
 				{
 					"name": "Invisibility Field",
 					"entries": [
-						"The orthon can use a bonus action to become {@condition invisible}. Any equipment the orthon wears or carries is also {@condition invisible} as long as the equipment is on its person. This invisibility ends immediately after the orthon makes an attack roll or is hit by an attack."
+						"奥索恩可以使用一个奖励动作变为{@condition invisible}。只要装备在奥索恩身上，它所穿戴或携带的任何装备也会变为{@condition invisible}。当奥索恩进行攻击检定或被攻击命中时，这种隐形效果会立即结束。"
 					]
 				},
 				{
@@ -16901,13 +16901,13 @@
 					"name": "Fiery Death and Rebirth",
 					"entries": [
 						"当凤凰死亡时，它会爆炸。在它60英尺范围内的每个生物都必须做一个{@dc 20}灵巧的蓄力动作，蓄力失败会受到22({@damage 4d10})的火焰伤害，蓄力成功则受到一半的伤害。火焰会点燃该区域内没有穿戴或携带的易燃物品。",
-						"The explosion destroys the phoenix's body and leaves behind an egg-shaped cinder that weighs 5 pounds. The cinder is blazing hot, dealing 21 ({@damage 6d6}) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after {@dice 1d6} days, it hatches a new phoenix."
+						"爆炸摧毁了凤凰的身体，留下一个重5磅的蛋形余烬。 余烬炽热无比，对任何接触它的生物造成21({@damage 6d6})点火焰伤害，但每轮只能受到一次伤害。 余烬对所有伤害免疫，在{@dice 1d6}天后，孵化出一只新的凤凰。"
 					]
 				},
 				{
 					"name": "Fire Form",
 					"entries": [
-						"The phoenix can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) fire damage. In addition, the phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ({@damage 1d10}) fire damage. With a touch, the phoenix can also ignite flammable objects that aren't worn or carried (no action required)."
+						"凤凰可以在不挤压的情况下穿过宽度仅为1英寸的空间。任何在离凤凰5英尺范围内触碰凤凰或对其进行近战攻击的生物会受到5({@damage 1d10})火焰伤害。此外，凤凰可以进入敌对生物的空间并停留在那里。当它在一个回合内第一次进入一个生物的空间时，该生物会受到5({@damage 1d10})火焰伤害。凤凰还可以通过触碰点燃不被穿戴或携带的易燃物品（无需动作）。"
 					]
 				},
 				{
@@ -17144,7 +17144,7 @@
 				{
 					"name": "Incite Fanaticism",
 					"entries": [
-						"The abishai chooses up to four of its allies within 60 feet of it that can see it. For 1 minute, each of those allies makes attack rolls with advantage and can't be {@condition frightened}."
+						"abishai选择在其周围60英尺内能看到它的最多四名盟友。在1分钟内，这些盟友中的每一位都可以用优势进行攻击检定，并且不能被{@condition frightened}。"
 					]
 				},
 				{
@@ -17286,7 +17286,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The retriever's innate spellcasting ability is Wisdom (spell save {@dc 13}). The retriever can innately cast the following spells, requiring no material components."
+						"拾荒者的天生施法能力是感知（法术豁免{@dc 13}）。拾荒者可以天生施放以下法术，无需任何材料组件。"
 					],
 					"daily": {
 						"3e": [
@@ -17576,7 +17576,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition poisoned}. At the end of each long rest, the {@condition poisoned} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition poisoned} in this way, it dies and instantly transforms into a living {@creature abyssal wretch|mtf}. The transformation of the body can be undone only by a {@spell wish} spell."
+						"{@atk mw} 近战 {@hit 4} 攻击，射程5英尺，一目标。造成 {@h}12 ({@damage 3d6 + 2}) 穿刺伤害。如果目标是生物，它必须通过一次 {@dc 13} 体质豁免才能抵抗疾病，否则会变成 {@condition poisoned}。每次长休结束时，目标可以重新进行豁免才能，若成功则结束效果。如果目标在这种方式下的状态下被降至0点生命值，它会死亡并立即变成一个活生生的 {@creature abyssal wretch|mtf}。身体的变化只能通过 {@spell wish} 法术来撤销。"
 					]
 				}
 			],
@@ -17830,7 +17830,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The shadow dancer has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"影舞者在豁免抗性检定中对被 {@condition charmed} 的效果具有优势，并且魔法无法让其进入睡眠状态。"
 					]
 				},
 				{
@@ -17854,7 +17854,7 @@
 						{
 							"type": "list",
 							"items": [
-								"The target is {@condition grappled} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition restrained}, and the shadow dancer can't grapple another target.",
+								"如果目标是中型或更小的生物，目标是{@condition grappled}（逃脱{@dc 14}）。直到角逐结束，目标是{@condition restrained}，并且影舞者不能角逐另一个目标。",
 								"目标被击倒{@condition prone}。",
 								"目标受到22({@damage 4d10})坏死性伤害。"
 							]
@@ -17998,7 +17998,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The sibriex's innate spellcasting ability is Charisma (spell save {@dc 21}). It can innately cast the following spells, requiring no material components:"
+						"sibriex（sibriex）的天生施法能力是魅力（法术豁免{@dc 21}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell charm person}",
@@ -18018,7 +18018,7 @@
 				{
 					"name": "Contamination",
 					"entries": [
-						"The sibriex emits an aura of corruption 30 feet in every direction. Plants that aren't creatures wither in the aura, and the ground in it is {@quickref difficult terrain||3} for other creatures. Any creature that starts its turn in the aura must succeed on a {@dc 20} Constitution saving throw or take 14 ({@damage 4d6}) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours."
+						"sibriex（西布瑞克斯）在每个方向上散发出半径30英尺的腐化光环。不是生物的植物会在这个光环中枯萎，而其他生物在其中的地面是{@quickref difficult terrain||3}。任何在光环中开始其回合的生物必须进行{@dc 20}体质豁免才能避免受到14点({@damage 4d6})毒性伤害。成功通过豁免的生物在接下来的24小时内免疫这个sibriex（西布瑞克斯）的污染效果。"
 					]
 				},
 				{
@@ -18062,7 +18062,7 @@
 				{
 					"name": "Warp Creature",
 					"entries": [
-						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {@dc 20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {@condition poisoned}, which causes it to also gain 1 level of {@condition exhaustion}. While {@condition poisoned} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition exhaustion} caused by it. Each failed save causes the target to suffer another level of {@condition exhaustion}. Once the target reaches 6 levels of {@condition exhaustion}, it dies and instantly transforms into a living {@creature abyssal wretch|mtf} under the sibriex's control. The transformation of the body can be undone only by a {@spell wish} spell."
+						"sibriex（西布瑞克斯）瞄准距离120英尺内的最多三个可见生物。每个目标必须进行一次{@dc 20}体质豁免才能。豁免成功的生物对这个sibriex的扭曲生物效果免疫。豁免失败的目标会被{@condition poisoned}，并因此还会获得1级的{@condition exhaustion}。在这种方式下，目标必须在其回合开始时重复进行豁免才能。成功进行三次中毒豁免将结束中毒状态，结束中毒会移除由此引起的任何级别的{@condition exhaustion}。每次豁免失败都会使目标遭受另一个级别的{@condition exhaustion}。一旦目标达到6级的{@condition exhaustion}，它将死亡，并立即变成sibriex控制下的一个活生生的{@creature abyssal wretch|mtf}。身体的转变只能通过{@spell wish}法术来撤销。"
 					]
 				}
 			],
@@ -18131,7 +18131,7 @@
 								],
 								[
 									"31-35",
-									"The target's ears tear free from its head and scurry away; the target is {@condition deafened}."
+									"目标的耳朵从头部撕裂出来并匆忙逃走；目标处于{@condition deafened}状态。"
 								],
 								[
 									"36-40",
@@ -18155,7 +18155,7 @@
 								],
 								[
 									"61-65",
-									"The target grows a whiplike tail, which it can use as a {@item whip|phb}."
+									"目标长出了一条鞭状尾巴，可以用作一个{@item whip|phb}。"
 								],
 								[
 									"66-70",
@@ -18307,7 +18307,7 @@
 				{
 					"name": "Fallible Invisibility",
 					"entries": [
-						"The skulk is {@condition invisible}. This invisibility can be circumvented by three things:",
+						"潜行者是{@condition invisible}。这种隐形可以通过三种方式来规避：",
 						{
 							"type": "list",
 							"items": [
@@ -18446,7 +18446,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The skull lord is a 13th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The skull lord knows the following sorcerer spells:"
+						"颅骨领主是一名13级的咒术师。它的咒术能力是魅力（法术豁免 {@dc 18}，法术攻击命中加值 {@hit 10}）。颅骨领主会以下列索尔瑟瑞（Sorcerer）法术："
 					],
 					"spells": {
 						"0": {
@@ -18521,7 +18521,7 @@
 				{
 					"name": "Master of the Grave",
 					"entries": [
-						"While within 30 feet of the skull lord, any undead ally of the skull lord makes saving throws with advantage, and that ally regains {@dice 1d6} hit points whenever it starts its turn there."
+						"当在头颅领主(%skull lord%)的30英尺范围内时，头颅领主的任何不死盟友在进行豁免投掷时获得优势，并且当它们在那里开始回合时，该盟友会恢复{@dice 1d6}生命值。"
 					]
 				},
 				{
@@ -18567,7 +18567,7 @@
 				{
 					"name": "Summon Undead (Costs 3 Actions)",
 					"entries": [
-						"Up to five {@creature skeleton||skeletons} or {@creature zombie||zombies} appear in unoccupied spaces within 30 feet of the skull lord and remain until destroyed. Undead summoned in this way roll initiative and act in the next available turn. The skull lord can have up to five undead summoned by this ability at a time."
+						"在距离头颅领主30英尺的未占据空间内，最多可以出现五个{@creature skeleton||skeletons}或{@creature zombie||zombies}，并保留直到被摧毁。以这种方式召唤的不死生物会进行先攻检定，并在下一个可用回合中行动。头颅领主可以同时拥有通过这种能力召唤的最多五个不死生物。"
 					]
 				}
 			],
@@ -18692,7 +18692,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The soul monger's innate spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+						"灵魂贩卖者的天生施法能力是智力（法术豁免 {@dc 16}，法术攻击命中加值 {@hit 8}）。它可以天生施放以下法术，无需材料成分："
 					],
 					"will": [
 						"{@spell chill touch}",
@@ -18715,7 +18715,7 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The soul monger has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"灵魂贩卖者在对抗被 {@condition charmed} 时拥有优势，并且魔法无法让其进入睡眠状态。"
 					]
 				},
 				{
@@ -18895,7 +18895,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The troll can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"巨魔可以像穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在物体内结束自己的回合，它会受到5点({@damage 1d10})力量伤害。"
 					]
 				},
 				{
@@ -19036,7 +19036,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The eladrin's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"精灵人的天生施法能力是魅力（法术豁免{@dc 16}）。它可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell charm person}",
@@ -19450,7 +19450,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The larva mage's innate spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+						"幼虫法师的天生施法能力是魅力（法术豁免 {@dc 16}，用法术攻击命中 {@hit 8}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell eldritch blast}*",
@@ -19474,7 +19474,7 @@
 				{
 					"name": "Return to Worms",
 					"entries": [
-						"When the larva mage is reduced to 0 hit points, it breaks apart into a {@creature swarm of insects} in the same space. Unless the swarm is destroyed, the larva mage reforms from it 24 hours later."
+						"当幼虫法师被降至0点生命值时，它会在同一空间中分裂成一个{@creature swarm of insects}。除非这个虫群被摧毁，否则幼虫法师会在24小时后从中重新形成。"
 					]
 				}
 			],
@@ -19775,7 +19775,7 @@
 				{
 					"name": "Out-of-Phase Movement",
 					"entries": [
-						"The seer can move through other creatures and objects as if they were {@quickref difficult terrain||3}. Each creature it moves through takes 5 ({@damage 1d10}) psychic damage; no creature can take this damage more than once per turn. The seer takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"先知可以如同穿过{@quickref difficult terrain||3}一般穿过其他生物和物体。它穿过的每个生物会受到5点({@damage 1d10})的精神伤害；每个生物每回合只能受到这种伤害一次。如果先知在物体内结束自己的回合，它会受到5点({@damage 1d10})的力场伤害。"
 					]
 				}
 			],
@@ -19801,7 +19801,7 @@
 				{
 					"name": "Collapse Distance {@recharge}",
 					"entries": [
-						"The seer warps space around a creature it can see within 30 feet of it. That creature must make a {@dc 19} Wisdom saving throw. On a failed save, the target, along with any equipment it is wearing or carrying, is magically teleported up to 60 feet to an unoccupied space the seer can see, and all other creatures within 10 feet of the target's original space each takes 39 ({@damage 6d12}) psychic damage. On a successful save, the target takes 19 ({@damage 3d12}) psychic damage."
+						"先知扭曲了其周围30英尺内可见的生物周围的空间。该生物必须进行一次 {@dc 19} 意志豁免。未通过豁免的目标，连同其穿戴或携带的任何装备，会被魔法传送到先知可以看到的一个未被占据的空间，距离最多60英尺，并且原始空间内距目标10英尺的所有其他生物会各自受到39 ({@damage 6d12}) 精神伤害。通过豁免的目标会受到19 ({@damage 3d12}) 精神伤害。"
 					]
 				}
 			],
@@ -20107,7 +20107,7 @@
 				{
 					"name": "Petrifying Claws",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage, or 14 ({@damage 2d10 + 3}) slashing damage if the attack roll had advantage. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw, or it begins to turn to stone and is {@condition restrained} until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is {@condition petrified} for 24 hours."
+						"{@atk mw} 使用武器攻击，射程5英尺，目标为一个。造成{@h}8 ({@damage 1d10 + 3}) 斩击伤害，或者如果攻击骰有优势，则造成14 ({@damage 2d10 + 3}) 斩击伤害。如果目标是生物，则必须通过一次{@dc 12} 体质豁免才能避免开始变成石头并且在其下一个回合结束前处于{@condition restrained}状态，届时必须再次进行豁免检定。如果第二次豁免成功，效果结束；否则目标将在24小时内保持{@condition petrified}状态。"
 					]
 				}
 			],
@@ -20339,7 +20339,7 @@
 				{
 					"name": "Fearsome Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 16} Wisdom saving throw. On a failed save, the creature becomes {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
+						"任何在距离(艾拉德林)60英尺范围内开始其回合的非艾拉德林生物必须进行{@dc 16}感知豁免。未通过豁免的生物会在1分钟内变为{@condition frightened}。生物可以在每个回合结束时重复进行豁免检定，若成功则结束自身的效果。如果生物的豁免成功或效果结束，该生物将对接下来的24小时内免疫任何艾拉德林的恐怖气息。"
 					]
 				},
 				{
@@ -20547,7 +20547,7 @@
 				{
 					"name": "Call to Honor (1/Day)",
 					"entries": [
-						"To use this action, the sword wraith must have taken damage during the current combat. If the sword wraith can use this action, it gives itself advantage on attack rolls until the end of its next turn, and {@dice 1d4 + 1} {@creature sword wraith warrior|mtf|sword wraith warriors} appear in unoccupied spaces within 30 feet of it. The warriors last until they drop to 0 hit points, and they take their turns immediately after the commander's turn on the same initiative count."
+						"要使用这个动作，剑鬼必须在当前战斗中受到伤害。如果剑鬼可以使用这个动作，它会在接下来的回合结束前给自己攻击卷的优势，并且在离它30英尺的未占据空间中出现{@dice 1d4 + 1} {@creature sword wraith warrior|mtf|sword wraith warriors}。这些战士会持续到它们的生命值降至0，并且它们会在指挥官的回合后立即进行行动，与指挥官在同一先攻顺序中。"
 					]
 				}
 			],
@@ -20783,13 +20783,13 @@
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The Angry has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"愤怒生物在感知检定和对抗被 {@condition blinded}、{@condition charmed}、{@condition deafened}、{@condition frightened}、{@condition stunned} 或被击倒时有优势。"
 					]
 				},
 				{
 					"name": "Rising Anger",
 					"entries": [
-						"If another creature deals damage to the Angry, the Angry's attack rolls have advantage until the end of its next turn, and the first time it hits with a hook attack on its next turn, the attack's target takes an extra 19 ({@damage 3d12}) psychic damage.",
+						"如果另一个生物对愤怒者造成伤害，那么愤怒者的攻击投掷获得优势，直到它的下一个回合结束，并且在接下来的回合中，第一次用钩击攻击命中目标时，攻击目标额外受到19({@damage 3d12})点的心灵伤害。",
 						"在它的回合中，如果自上一回合结束后没有其他生物对它造成伤害，则愤怒者在攻击卷中处于劣势。"
 					]
 				}
@@ -20895,7 +20895,7 @@
 				{
 					"name": "Life Hunger",
 					"entries": [
-						"If a creature the Hungry can see regains hit points, the Hungry gains two benefits until the end of its next turn: it has advantage on attack rolls, and its bite deals an extra 22 ({@damage 4d10}) necrotic damage on a hit."
+						"如果一个生物饥饿者能看到的生物恢复生命值，那么饥饿者将在接下来的回合结束前获得两个好处：它在攻击检定时获得优势，并且其咬击在命中时额外造成 22 ({@damage 4d10}) 点死灵伤害。"
 					]
 				}
 			],
@@ -21164,7 +21164,7 @@
 				{
 					"name": "Tightening Embrace",
 					"entries": [
-						"If the Lost takes damage while it has a creature {@condition grappled}, that creature takes 18 ({@damage 4d8}) psychic damage."
+						"如果失落者在拥有生物{@condition grappled}时受到伤害，那个生物会受到18({@damage 4d8})点心灵伤害。"
 					]
 				}
 			],
@@ -21261,7 +21261,7 @@
 				{
 					"name": "Wretched Pack Tactics",
 					"entries": [
-						"The Wretched has advantage on an attack roll against a creature if at least one of the Wretched's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}. The Wretched otherwise has disadvantage on attack rolls."
+						"如果至少有一个The Wretched的盟友在离生物5英尺以内且该盟友不是{@condition incapacitated}，则The Wretched对该生物的攻击投掷获得优势。否则，The Wretched对攻击投掷获得劣势。"
 					]
 				}
 			],
@@ -21388,7 +21388,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Titivilus's innate spellcasting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
+						"提提维卢斯(Titivilus)的天生施法能力是魅力(法术豁免{@dc 21})。他可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell alter self}",
@@ -21488,7 +21488,7 @@
 				{
 					"name": "Corrupting Guidance",
 					"entries": [
-						"Titivilus uses Twisting Words. Alternatively, he targets one creature {@condition charmed} by him that is within 60 feet of him; that {@condition charmed} target must make a {@dc 21} Charisma saving throw. On a failure, Titivilus decides how the target acts during its next turn."
+						"提提维卢斯使用扭曲文字。或者，他选择一个在他身旁且距离他不超过60英尺的生物{@condition charmed}；那个{@condition charmed}目标必须进行一次{@dc 21}魅力豁免才能。如果失败，提提维卢斯决定目标在其下一个回合中的行动。"
 					]
 				},
 				{
@@ -21752,7 +21752,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The tortle is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following druid spells prepared:"
+						"乌龟人是一名4级法术施展者。它的法术施展能力是智力（法术豁免 {@dc 12}，法术攻击命中加值 {@hit 4}）。它准备了以下德鲁伊法术："
 					],
 					"spells": {
 						"0": {
@@ -22064,13 +22064,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The troll has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"巨魔在依赖嗅觉的感知({@skill Perception})检查中拥有优势。"
 					]
 				},
 				{
 					"name": "Poison Splash",
 					"entries": [
-						"When the troll takes damage of any type but psychic, each creature within 5 feet of the troll takes 9 ({@damage 2d8}) poison damage."
+						"当巨魔受到任何类型的伤害，但不包括精神伤害时，距离巨魔5英尺内的每个生物会受到9 ({@damage 2d8}) 点毒素伤害。"
 					]
 				},
 				{
@@ -22102,7 +22102,7 @@
 				{
 					"name": "Venom Spray {@recharge}",
 					"entries": [
-						"The troll slices itself with a claw, releasing a spray of poison in a 15-foot cube. The troll takes 7 ({@damage 2d6}) slashing damage (this damage can't be reduced in any way). Each creature in the area must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) poison damage and is {@condition poisoned} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}. A {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"巨魔用爪子切开自己，释放出一股毒液喷洒在一个15英尺立方体范围内。巨魔受到7点({@damage 2d6}) 斩击伤害（这种伤害无法以任何方式减少）。范围内的每个生物必须进行一次{@dc 16} 体质豁免才能。未通过豁免的生物将受到18点({@damage 4d8}) 毒素伤害，并且在1分钟内处于{@condition poisoned} 状态。通过豁免的生物将受到一半伤害并且不会被{@condition poisoned}。一名{@condition poisoned} 生物可以在自己的回合结束时重复豁免才能，成功则结束自身的效果。"
 					]
 				}
 			],
@@ -22246,7 +22246,7 @@
 				{
 					"name": "Undertow",
 					"entries": [
-						"As a bonus action when the wastrilith is underwater, it can cause all water within 60 feet of it to be {@quickref difficult terrain||3} for other creatures until the start of its next turn."
+						"当水蛇魔在水下时，作为一个奖励动作，它可以使其周围60英尺范围内的所有水对其他生物来说变成{@quickref difficult terrain||3}，直到它的下一个回合开始。"
 					]
 				}
 			],
@@ -22705,7 +22705,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The eladrin's innate spellcasting ability is Intelligence (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"精灵人的天生施法能力是智力（法术豁免 {@dc 16}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell fog cloud}",
@@ -22910,7 +22910,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The yagnoloth's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"燃魔兽的天生施法能力是魅力（法术豁免{@dc 16}）。它可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell darkness}",
@@ -23133,7 +23133,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Yeenoghu's spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+						"耶诺古的施法能力是魅力（法术豁免 {@dc 17}，用法术攻击命中为 {@hit 9}）。他可以天生施展以下法术，无需材料成分："
 					],
 					"will": [
 						"{@spell detect magic}"
@@ -23210,7 +23210,7 @@
 				{
 					"name": "Swat Away",
 					"entries": [
-						"Yeenoghu makes a flail attack. If the attack hits, the target must succeed on a {@dc 24} Strength saving throw or be pushed 15 feet in a straight line away from Yeenoghu. If the saving throw fails by 5 or more, the target falls {@condition prone}."
+						"耶诺古(Yeenoghu)进行连枷攻击。如果攻击命中，目标必须成功通过一个{@dc 24}的力量豁免才能不被推开15英尺，沿着一条直线远离耶诺古。如果豁免失败超过5点，目标将倒地{@condition prone}。"
 					]
 				},
 				{
@@ -23335,13 +23335,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"The kruthik has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"灰虫在依赖嗅觉的智慧检定上有优势（{@skill Perception}）。"
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"如果至少有一个克鲁西克的盟友在离生物5英尺以内且该盟友不是{@condition incapacitated}，克鲁西克在对该生物进行攻击检定时获得优势。"
 					]
 				},
 				{
@@ -23467,8 +23467,8 @@
 				{
 					"name": "Earth-Shaking Movement",
 					"entries": [
-						"As a bonus action after moving at least 10 feet on the ground, the zaratan can send a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes {@quickref difficult terrain||3} for 1 minute. Each creature on the ground that is {@status concentration||concentrating} must succeed on a {@dc 25} Constitution saving throw or the creature's {@status concentration} is broken.",
-						"The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a {@dc 25} Dexterity saving throw. On a failed save, the creature takes 17 ({@damage 5d6}) bludgeoning damage, is knocked {@condition prone}, and is trapped in the rubble. A trapped creature is {@condition restrained}, requiring a successful {@dc 20} Strength ({@skill Athletics}) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone} or become trapped."
+						"在移动至少10英尺后，作为一个奖励动作，`(zaratan)`可以在以自身为中心的半径120英尺的圆圈内通过地面发送一股冲击波。该区域在1分钟内变为{@quickref difficult terrain||3}。每个在地面上的生物，如果是{@status concentration||concentrating}，必须进行一次{@dc 25}体质豁免才能避免其{@status concentration}被打断。",
+						"冲击波对接触地面的所有建筑物造成100点雷属性伤害。如果一个生物靠近倒塌的建筑物，可能会被埋在废墟中；在建筑物高度一半的距离内的生物必须进行一次{@dc 25} 敏捷豁免检定。未通过豁免检定的生物会受到17点({@damage 5d6}) 钝击伤害，被击倒{@condition prone} 并被困在废墟中。被困的生物处于{@condition restrained} 状态，需要成功进行一次{@dc 20} 力量({@skill Athletics}) 检定作为一个动作来逃脱。另一个距离被埋生物5英尺以内的生物可以使用其动作来清理废墟，并为检定提供优势。如果有三个生物以这种方式使用他们的动作，检定将自动成功。通过成功的豁免检定，生物会受到一半伤害且不会被击倒{@condition prone} 或被困住。"
 					]
 				},
 				{
@@ -23518,7 +23518,7 @@
 				{
 					"name": "Spew Debris {@recharge 5}",
 					"entries": [
-						"The zaratan exhales rocky debris in a 90-foot cube. Each creature in that area must make a {@dc 25} Dexterity saving throw. A creature takes 33 ({@damage 6d10}) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature that fails the save by 5 or more is knocked {@condition prone}."
+						"巨龟龟兹拉坦在一个90英尺的立方体区域内呼出岩石碎片。该区域内的每个生物必须进行一次{@dc 25}敏捷豁免投骰。未通过豁免的生物会受到33点({@damage 6d10})钝击伤害，通过豁免的生物则只受到一半伤害。如果生物未通过豁免的值超过5，它会被击倒{@condition prone}。"
 					]
 				}
 			],
@@ -23544,7 +23544,7 @@
 				{
 					"name": "Retract (Costs 2 Actions)",
 					"entries": [
-						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is {@condition restrained}. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
+						"巨龟(Zaratan)缩回壳中。在它执行“浮现(Emerge)”动作之前，它对所有伤害具有抗性，并且它是{@condition restrained}。下一次它执行传奇动作时，必须执行“复苏(Revitalize)”或“浮现(Emerge)”动作。"
 					]
 				},
 				{
@@ -23697,7 +23697,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Zariel's innate spellcasting ability is Charisma (spell save {@dc 26}). She can innately cast the following spells, requiring no material components:"
+						"Zariel（扎瑞尔）的天生施法能力是魅力（法术豁免{@dc 26}）。她可以天生施放以下法术，无需任何材料组件："
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing her appearance)",
@@ -23726,7 +23726,7 @@
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"Zariel's weapon attacks are magical. When she hits with any weapon, the weapon deals an extra 36 ({@damage 8d8}) fire damage (included in the weapon attacks below)."
+						"Zariel的武器攻击是魔法的。当她用任何武器命中时，武器会额外造成36({@damage 8d8})火焰伤害（已包含在以下武器攻击中）。"
 					]
 				},
 				{
@@ -23966,7 +23966,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Zuggtmoy's spellcasting ability is Charisma (spell save {@dc 22}). She can innately cast the following spells, requiring no material components:"
+						"祖格莫伊的施法能力是魅力（法术豁免{@dc 22}）。她可以天生施放以下法术，无需材料组件："
 					],
 					"will": [
 						"{@spell detect magic}",
@@ -24030,7 +24030,7 @@
 				{
 					"name": "Mind Control Spores {@recharge 5}",
 					"entries": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, must make a {@dc 19} Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected in this way, the creature is {@condition charmed} by her and can't be reinfected by these spores."
+						"祖格摩伊(Zuggtmoy)释放孢子，爆炸形成一个以她为中心的半径20英尺的球体云，持续1分钟。当云出现时或后来进入其中的人形生物和野兽必须进行{@dc 19}感知豁免检定。豁免成功的生物在接下来的24小时内免疫这些孢子。豁免失败的生物将被感染上祖格摩伊影响的疾病，持续24小时。在这种感染下，生物会被她{@condition charmed}，并且无法再次被这些孢子感染。"
 					]
 				}
 			],
@@ -24052,7 +24052,7 @@
 				{
 					"name": "Exert Will",
 					"entries": [
-						"One creature {@condition charmed} by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates."
+						"Zuggtmoy可以看到的一个生物{@condition charmed}必须使用它的反应，按照她的指示移动其速度上限，或者对她指定的目标进行武器攻击。"
 					]
 				}
 			],
