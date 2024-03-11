@@ -493,7 +493,7 @@
 						},
 						"这个池塘大约有4英尺深。其底部是吸泥和落石的混合体。",
 						"由于第4区的水景和这里浸泡的泥土，结构面的砖石正从两边被侵蚀。小型和中型生物可以通过外墙的最大裂缝移动；大型生物可以挤过去。",
-						"Last spring, three {@creature water weird||water weirds} flowed into this area when the river overflowed. They remain here still, swirling through the water like transparent snakes and steeping in a sense of sorrow and pride from the crypts beyond. They do not threaten the other monsters that dwell here, but they waste no time attacking those they deem trespassers."
+						"去年春天，当河水泛滥时，三个{@creature water weird||water weirds}流入了这个地区。它们至今仍在这里，像透明的蛇一样在水中盘旋，沉浸在来自地下墓穴的悲伤和自豪感中。它们并不威胁其他栖息在这里的怪物，但对那些它们认为是闯入者的人毫不客气。"
 					],
 					"id": "00e"
 				},
@@ -527,7 +527,7 @@
 							"id": "013"
 						},
 						"陵墓的三个创始家族的名字被雕刻在入口处的上方。Springbank、Dalmoor和Everlake。",
-						"It takes a successful DC 12 Strength ({@skill Athletics}) check to open the iron gate. Unsealing the stone slab requires a successful DC 20 check.",
+						"打开铁门需要成功通过 DC 12 力量检定({@skill Athletics})。解开石板需要成功通过 DC 20 检定。",
 						"大声地打开铁门或解开石板的封印，很可能会惊动陵墓中所有的生物，直到第7区。"
 					],
 					"id": "012"
@@ -722,7 +722,7 @@
 									"name": "Magic Stele Trap",
 									"page": 6,
 									"entries": [
-										"The stele can detect trespassers out to a range of 60 feet in front of it. It has a passive {@skill Perception} score of 18. To disarm or dispel this trap requires a successful DC 18 check. When triggered, the trap emits a bolt of lightning 60 feet long. Any creature in the target area that fails a DC 15 Dexterity saving throw takes 22 ({@damage 4d10}) lightning damage, or half as much damage with a successful save.",
+										"这块石碑可以探测到前方60英尺范围内的入侵者。它有一个被动检测{@skill Perception}得分为18。要解除或驱散这个陷阱需要成功通过DC 18的检定。当触发时，陷阱会发射一道长60英尺的闪电。目标区域内的任何生物如果未能通过DC 15的敏捷豁免检定，则会受到22({@damage 4d10})点闪电伤害，如果通过了检定则伤害减半。",
 										"闪电会点燃该区域内没有被佩戴或携带的易燃物。这个石碑在变成惰性石头之前，总共可以发出三次闪电。"
 									],
 									"id": "02b"
@@ -763,9 +763,9 @@
 							],
 							"id": "02f"
 						},
-						"This short passage was a gift to Sylvene from Artura, to wow her upon her entrance to the site for Waltarn's burial. It was never intended to be trapped, but it is now. This is as far as Tyreus ventured into the tomb after entering through area 11. He left two traps here using {@spell linked glyphs|AitFR-AVT} (see appendix A). Finding any of these glyphs requires a successful DC 17 Intelligence ({@skill Investigation}) check.",
-						"First, an alarm glyph has been placed on the stairs (A) to alert Tyreus and let him know it is time for him to cast {@spell project image} and appear in area 11.",
-						"Secondly, a detection glyph has been placed on the stairs in almost the same spot (A), linked to an effect glyph (B), which casts {@spell fear} (DC 17) up the stairs to the east when any humanoid creature touches or passes over the detection glyph.",
+						"这段短文是阿图拉送给西尔维恩的礼物，旨在让她在进入瓦尔塔恩的葬地时感到惊叹。它本来并不打算设陷阱，但现在已经被设了。泰瑞斯进入墓穴后走到这里就停下了，通过11号区域进入。他在这里设置了两个陷阱，使用了{@spell linked glyphs|AitFR-AVT}（见附录A）。要找到这些符文中的任何一个，需要进行一次成功的DC 17智力检定（{@skill Investigation}）检定。",
+						"首先，在楼梯上放置了一个警报符文(A)，以提醒泰瑞斯并让他知道是时候施放{@spell project image}并出现在11区域。",
+						"其次，在几乎相同的位置(A)的楼梯上放置了一个检测符文，与一个效果符文(B)相连，当任何人形生物触碰或经过检测符文时，效果符文会向东方施放{@spell fear}（豁免 DC 17）。",
 						"Tyreus的目标是将{@condition frightened}入侵者赶向10区的法术石刻。"
 					],
 					"id": "02e"
@@ -803,7 +803,7 @@
 								"Hamish Hewland"
 							]
 						},
-						"Tyreus hated this room. He has hidden a glyph of warding on Waltarn's face, created to cast {@spell phantasmal killer} on the first humanoid to get within 5 feet of the glyph."
+						"泰瑞斯讨厌这个房间。他在瓦尔塔恩的脸上隐藏了一个守护符文，用来在第一个靠近符文5英尺范围内的人形生物身上施放{@spell phantasmal killer}。"
 					],
 					"id": "030"
 				},
@@ -831,7 +831,7 @@
 									"name": "Development",
 									"page": 8,
 									"entries": [
-										"If he can arrange it, Tyreus appears to be standing in the teleportation circle when the adventurers arrive. (It is actually an illusory image of Tyreus, who is hundreds of miles away at Highstar Lake and making use of a {@spell project image} spell.)",
+										"如果他能安排的话，泰瑞斯似乎站在传送阵中，当冒险者们到达时。（实际上这是泰瑞斯的幻象，他在数百英里之外的海星湖，利用{@spell project image}法术。）",
 										"你面前的这个人脸色苍白，但脸色红润，黑发梳成长辫子，胡须修剪得很精致。他穿着深色、合身的衣服和高筒靴，以及一件精美的蓝色大衣。他看起来对你的到来感到欣慰。",
 										"泰勒斯想看看这些冒险者，既是为了满足他的好奇心，也是为了帮助他探查他们，如果他们能从他的陷阱中逃脱的话。他打算让其中一个冒险者逃走，以散播恐惧。",
 										"同时，泰勒斯很乐意与冒险者交谈，并从他们那里学到他能学到的东西。他试图让他们的注意力集中在他身上，这样他的爪牙就可以接近他们。泰鲁斯在地窖里安排了两个十恶不赦的刺客。他们之前和他一起来到这里，他把他们留在了这里。他们在地窖里躲藏起来，试图避免被冒险者发现，直到泰勒斯发出攻击的命令。"
@@ -852,7 +852,7 @@
 									"name": "Treasure",
 									"page": 8,
 									"entries": [
-										"Funeral goods, mementos, prayer objects, and other nonmagical treasures in the area are made predominantly of silver, worth a total of 510 gp. In a prayer bowl in the northern area of the crypt waits more treasure, overlooked by Tyreus when he was here: two {@item chip of creation|AitFR-AVT|chips of creation} (see appendix B)."
+										"该地区的葬礼用品、纪念品、祈祷物品和其他非魔法宝藏主要由银制成，总价值为510 gp。在地下室北部的一个祈祷碗中，有更多宝藏，当Tyreus在这里时被忽视了：两个{@item chip of creation|AitFR-AVT|chips of creation} (见附录B)。"
 									],
 									"id": "037"
 								},
