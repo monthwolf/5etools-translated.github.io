@@ -36,8 +36,8 @@
 				}
 			],
 			"entries": [
-				"你可以吸取以你选择的点为中心 30 英尺立方体范围内所有生物的水分。该区域内的每种生物都必须进行一次体质蓄力。构装生物和亡灵不受影响，植物和水元素生物则处于劣势。如果蓄力失败，生物会受到 {@damage 12d8} 死灵伤害，如果蓄力成功，则会受到一半的伤害。",
-				"该区域内非生物的非魔法植物，如树木和灌木，会立即枯萎和死亡。"
+				"You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes {@damage 12d8} necrotic damage on a failed save, or half as much damage on a successful one.",
+				"Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -87,14 +87,14 @@
 				}
 			],
 			"entries": [
-				"这个法术捕获了部分传入的能量，减轻了对你的影响，并储存起来用于你的下一次近战攻击。你对触发伤害类型具有抗性，直到你下一个回合开始之前。此外，在你的下一个回合中第一次近战攻击命中时，目标会额外受到{@damage 1d6}点触发类型的伤害，然后法术结束。"
+				"The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra {@damage 1d6} damage of the triggering type, and the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用2级或更高级别的法术位施放这个法术时，额外伤害每超过1级的法术位等级增加{@scaledamage 1d6|1-9|1d6}。"
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by {@scaledamage 1d6|1-9|1d6} for each slot level above 1st."
 					]
 				}
 			],
@@ -142,14 +142,14 @@
 				}
 			],
 			"entries": [
-				"一道长30英尺、宽5英尺的烈焰从你身上向你选择的方向喷射而出。线上的每个生物必须进行一次敏捷豁免检定。在未通过检定的情况下，生物会受到{@damage 3d8}火焰伤害；通过检定的生物则只会受到一半伤害。"
+				"A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 3d8} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或更高级别的法术位施放此法术时，伤害将每个高于2级的法术位等级增加{@scaledamage 3d8|2-9|1d8}。"
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d8|2-9|1d8} for each slot level above 2nd."
 					]
 				}
 			],
@@ -203,7 +203,7 @@
 				}
 			],
 			"entries": [
-				"你与一只对你友好或{@condition charmed}的野兽建立了一种感应联系。如果这只野兽的智力值为4或更高，则法术失败。直到法术结束，只要你和野兽在彼此的视线范围内，这种联系就会保持活跃。通过这种联系，野兽可以理解你传达给它的感应信息，并且可以用感应方式向你传达简单的情感和概念。在联系保持活跃的时候，只要你能看到的任何距离你5英尺以内的生物，野兽对这些生物的攻击投掷获得优势。"
+				"You establish a telepathic link with one beast you touch that is friendly to you or {@condition charmed} by you. The spell fails if the beast's Intelligence score is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see."
 			],
 			"conditionInflict": [
 				"charmed"
@@ -254,16 +254,16 @@
 				}
 			],
 			"entries": [
-				"你可以让最多六根石柱从你能看到的范围内的地面上突然冒出。每根石柱都是直径为5英尺，高度最多为30英尺的圆柱体。石柱出现的地面必须足够宽以适应其直径，如果目标是中等或更小的生物，你可以瞄准该生物下方的地面。每根石柱的防御等级为5，有30点生命值。当生命值降至0时，石柱会崩塌成碎石，形成一个半径为10英尺的区域，持续到碎石被清除。区域中每个直径为5英尺的部分至少需要1分钟的时间才能用手清理干净。",
-				"如果一个柱子在一个生物的下面被创造出来，这个生物必须在一个灵巧的救赎上成功，否则就会被柱子抬起。生物可以选择不进行救赎。",
-				"如果柱子因为天花板或其他障碍物而无法达到完整高度，站在柱子上的生物会受到{@damage 6d6} 钝击伤害，并被夹在柱子和障碍物之间，被{@condition restrained}。这个{@condition restrained} 生物可以使用一个动作来进行一次力量或敏捷检定（生物自行选择），检定的目标值为法术豁免 DC。若成功，生物将不再{@condition restrained}，并必须要么离开柱子，要么从柱子上摔下来。"
+				"You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where a pillar appears must be wide enough for its diameter, and you can target the ground under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of {@quickref difficult terrain||3} with a 10-foot radius that lasts until the rubble is cleared. Each 5-foot-diameter portion of the area requires at least 1 minute to clear by hand.",
+				"If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.",
+				"If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes {@damage 6d6} bludgeoning damage and is {@condition restrained}, pinched between the pillar and the obstacle. The {@condition restrained} creature can use an action to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer {@condition restrained} and must either move off the pillar or fall off it."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用七级以上的法术槽施展此法术时，你可以为六级以上的每一个法术槽等级创造两个额外的柱子。"
+						"When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th."
 					]
 				}
 			],
@@ -322,14 +322,14 @@
 				}
 			],
 			"entries": [
-				"选择一个重量在1到5磅之间的物体，范围内不能被穿戴或携带。你可以选择一个方向，让这个物体沿直线飞行最多90英尺，然后掉落到地面，如果撞到坚实表面则会提前停止。如果这个物体会撞到生物，那个生物必须进行一次敏捷豁免。如果豁免失败，物体会撞击目标并停止移动。当物体撞击到物体时，物体和被撞击的物体各自受到{@damage 3d8}的钝击伤害。"
+				"Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take {@damage 3d8} bludgeoning damage."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用2级或更高级别的法术位施放此法术时，你可以用此法术瞄准的物体的最大重量增加5磅，伤害增加{@scaledamage 3d8|1-9|1d8}，每超过1级的法术位级别。"
+						"When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by {@scaledamage 3d8|1-9|1d8}, for each slot level above 1st."
 					]
 				}
 			],
@@ -379,14 +379,14 @@
 				}
 			],
 			"entries": [
-				"你做出一个安抚的手势，选择你能看到范围内的最多三个愿意的生物，它们在法术持续时间内陷入沉睡状态{@condition unconscious}。如果目标受到伤害或有人使用动作将其摇醒，法术会提前结束。如果目标在整个持续时间内保持沉睡状态{@condition unconscious}，该目标获得短暂休息的益处，并在完成一次长休息前无法再次受到此法术影响。"
+				"You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall {@condition unconscious} for the spell's duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains {@condition unconscious} for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用四级或以上的法术槽施放此法术时，你可以针对三级以上的每一个法术槽等级的一个额外自愿生物。"
+						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd."
 					]
 				}
 			],
@@ -433,14 +433,14 @@
 				}
 			],
 			"entries": [
-				"你唤醒了一个你能看到范围内的生物的死亡感。一个构造体或不死生物对这个效果免疫。目标必须成功通过一次感知豁免才能在法术结束前变成你的{@condition frightened}。这个{@condition frightened}目标可以在每个回合结束时重复进行豁免才，若成功则结束自身的效果。"
+				"You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become {@condition frightened} of you until the spell ends. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用二级或更高等级的法术槽施放此法术时，你可以针对每一个高于一级的法术槽的额外生物。当你瞄准它们时，这些生物必须在30英尺范围内。"
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -507,47 +507,47 @@
 				"ritual": true
 			},
 			"entries": [
-				"你进行一个特殊的宗教仪式，这个仪式被注入了魔法。当你施法时，选择以下仪式之一，其目标在整个施法过程中必须在你10英尺范围内。",
+				"You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
 				{
 					"type": "entries",
 					"name": "Atonement",
 					"entries": [
-						"你触摸一个自愿的生物，其阵营已经改变，然后进行一次DC 20的感知检定。如果检定成功，你可以将目标恢复到其原始阵营。"
+						"You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom ({@skill Insight}) check. On a successful check, you restore the target to its original alignment."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Bless Water",
 					"entries": [
-						"你触碰了一滴水{@item vial|phb}，使它变成了{@item Holy Water (flask)|phb|holy water}。"
+						"You touch one {@item vial|phb} of water and cause it to become {@item Holy Water (flask)|phb|holy water}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Coming of Age",
 					"entries": [
-						"你触摸一个年轻成年人类。在接下来的24小时内，每当目标进行能力检定时，它可以投掷一个{@dice d4}，并将投掷的数字加到该能力检定中。一只生物只能从这个仪式中受益一次。"
+						"You touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a {@dice d4} and add the number rolled to the ability check. A creature can benefit from this rite only once."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Dedication",
 					"entries": [
-						"你触摸一个希望献身于你神的服务的人形生物。在接下来的24小时内，每当目标进行豁免投掷时，它可以投掷一个{@dice d4}，并将投掷的数字加到豁免中。一个生物只能从这个仪式中受益一次。"
+						"You touch one humanoid who wishes to be dedicated to your god's service. For the next 24 hours, whenever the target makes a saving throw, it can roll a {@dice d4} and add the number rolled to the save. A creature can benefit from this rite only once."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Funeral Rite",
 					"entries": [
-						"你触摸了一具尸体，接下来的7天，目标无法通过任何手段成为不死生物，除非使用{@spell wish}(Revivify)法术。"
+						"You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a {@spell wish} spell."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Wedding",
 					"entries": [
-						"你接触愿意结为夫妻的成年人类。在接下来的7天里，当他们在彼此30英尺范围内时，每个目标都会获得一个+2的交流奖励。一个生物只有在丧偶的情况下才能再次从这个仪式中受益。"
+						"You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed."
 					]
 				}
 			],
@@ -595,7 +595,7 @@
 				}
 			],
 			"entries": [
-				"你向射程内的一个生物投掷一个波动、颤动的混沌能量团。对目标进行远程法术攻击。命中后，目标受到{@damage 2d8 + 1d6}点伤害。选择其中一个{@dice d8}。该骰子的点数决定攻击的伤害类型，如下所示。",
+				"You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 2d8 + 1d6} damage. Choose one of the {@dice d8}s. The number rolled on that die determines the attack's damage type, as shown below.",
 				{
 					"type": "table",
 					"caption": "Chaos Bolt",
@@ -642,7 +642,7 @@
 									"exact": 4
 								}
 							},
-							"力量"
+							"Force"
 						],
 						[
 							{
@@ -651,7 +651,7 @@
 									"exact": 5
 								}
 							},
-							"閃電"
+							"Lightning"
 						],
 						[
 							{
@@ -660,7 +660,7 @@
 									"exact": 6
 								}
 							},
-							"毒药"
+							"Poison"
 						],
 						[
 							{
@@ -669,7 +669,7 @@
 									"exact": 7
 								}
 							},
-							"通灵"
+							"Psychic"
 						],
 						[
 							{
@@ -678,19 +678,19 @@
 									"exact": 8
 								}
 							},
-							"雷霆"
+							"Thunder"
 						]
 					]
 				},
-				"如果你在两个{@dice d8}上投掷相同的数字，混沌能量会从目标跳到你选择的另一个生物身上，距离不超过30英尺。对新目标进行新的攻击骰和新的伤害骰，这可能会导致混沌能量再次跳跃。",
-				"每次施展此法术时，一个生物只能被锁定一次。"
+				"If you roll the same number on both {@dice d8}s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.",
+				"A creature can be targeted only once by each casting of this spell."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用2级或更高级别的法术位施放这个法术时，每个目标会受到额外伤害{@scaledamage 2d8 + 1d6|1-9|1d6}，伤害类型与超过1级的法术位等级相同。"
+						"When you cast this spell using a spell slot of 2nd level or higher, each target takes {@scaledamage 2d8 + 1d6|1-9|1d6} extra damage of the type rolled for each slot level above 1st."
 					]
 				}
 			],
@@ -747,14 +747,14 @@
 				}
 			],
 			"entries": [
-				"你尝试魅惑一个你能看到的生物。它必须进行一次感知豁免检定，如果你或你的同伴正在与它战斗，则它有优势。如果它未能通过豁免检定，它将被你魅惑，直到法术结束或直到你或你的同伴对它做出任何有害的行为。被魅惑的生物对你友好。当法术结束时，生物会意识到它曾被你魅惑。"
+				"You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is {@condition charmed} by you until the spell ends or until you or your companions do anything harmful to it. The {@condition charmed} creature is friendly to you. When the spell ends, the creature knows it was {@condition charmed} by you."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用五级或以上的法术槽施放此法术时，你可以针对四级以上的每一个法术槽的一个额外生物。当你瞄准它们时，这些生物必须在30英尺范围内。"
+						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -812,17 +812,17 @@
 				}
 			],
 			"entries": [
-				"你选择你能在范围内看到的、适合在5英尺立方体内的非魔法火焰。你以下列方式之一影响它。",
+				"You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:",
 				{
 					"type": "list",
 					"items": [
-						"你可以瞬间将火焰向一个方向扩大5英尺，前提是新的地点有木材或其他燃料。",
-						"你瞬间熄灭了立方体内的火焰。",
-						"你将火焰投射的亮光和暗光的面积加倍或减半，改变它的颜色，或两者都改变。该变化持续1小时。",
-						"你会使简单的形状--比如一个生物的模糊形态、一个无生命的物体或一个地点--出现在火焰中，并按你的意愿进行活动。这些形状会持续1小时。"
+						"You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.",
+						"You instantaneously extinguish the flames within the cube.",
+						"You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.",
+						"You cause simple shapes\u2014such as the vague form of a creature, an inanimate object, or a location\u2014to appear within the flames and animate as you like. The shapes last for 1 hour."
 					]
 				},
-				"如果你多次施展这个法术，你最多可以有三个由它创造的非瞬时效果同时激活，而且你可以把这样的效果作为一个行动来解除。"
+				"If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action."
 			],
 			"miscTags": [
 				"LGT",
@@ -873,26 +873,26 @@
 				}
 			],
 			"entries": [
-				"你可以控制100英尺范围内的空气，你可以看到范围内的空气。在你施法时选择以下效果之一。该效果在法术的持续时间内持续，除非你在以后的回合中使用你的行动来切换到不同的效果。你也可以用你的行动来暂时停止该效果，或者重新启动你已经停止的效果。",
+				"You take control of the air in a 100-foot cube that you can see within range. Choose one of the following effects when you cast the spell. The effect lasts for the spell's duration, unless you use your action on a later turn to switch to a different effect. You can also use your action to temporarily halt the effect or to restart one you've halted.",
 				{
 					"type": "entries",
 					"name": "Gusts",
 					"entries": [
-						"在立方体内部起风了，持续地朝你指定的水平方向吹动。你可以选择风的强度：平静、中等或强劲。如果风是中等或强劲的，穿过它或针对立方体内目标进行的远程武器攻击的攻击检定会受到劣势。如果风很强劲，任何逆风移动的生物必须额外花费1英尺的移动力来移动1英尺距离。"
+						"A wind picks up within the cube, continually blowing in a horizontal direction you designate. You choose the intensity of the wind: calm, moderate, or strong. If the wind is moderate or strong, ranged weapon attacks that pass through it or that are made against targets within the cube have disadvantage on their attack rolls. If the wind is strong, any creature moving against the wind must spend 1 extra foot of movement for each foot moved."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Downdraft",
 					"entries": [
-						"你引发了一股持续的强风从立方体顶部向下吹。穿过立方体的远程武器攻击或对立方体内目标的攻击都会造成攻击失准。如果一只生物在飞行时第一次飞入立方体内或者在其中开始它的回合，它必须进行一次力量豁免投骰。未通过豁免的生物被击倒{@condition prone}。"
+						"You cause a sustained blast of strong wind to blow downward from the top of the cube. Ranged weapon attacks that pass through the cube or that are made against targets within it have disadvantage on their attack rolls. A creature must make a Strength saving throw if it flies into the cube for the first time on a turn or starts its turn there flying. On a failed save, the creature is knocked {@condition prone}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Updraft",
 					"entries": [
-						"你在立方体内造成持续的上升气流，从立方体的底面向上升起。在立方体内结束坠落的生物只受到坠落的一半伤害。当立方体中的生物进行垂直跳跃时，该生物可以跳得比正常情况下高10英尺。"
+						"You cause a sustained updraft within the cube, rising upward from the cube's bottom side. Creatures that end a fall within the cube take only half damage from the fall. When a creature in the cube makes a vertical jump, the creature can jump up to 10 feet higher than normal."
 					]
 				}
 			],
@@ -949,9 +949,9 @@
 				}
 			],
 			"entries": [
-				"你在能看到范围内的地面上创造一团篝火。直到法术结束，这团魔法篝火填满一个5英尺的立方体。当你施放法术时，处于篝火空间内的任何生物必须通过一次敏捷豁免才能免受{@damage 1d8}火焰伤害。生物在首次移动到篝火空间内或在其回合结束时也必须进行豁免才能避免受到伤害。",
-				"篝火点燃了其区域内没有被穿戴或携带的易燃物。",
-				"当你达到5级（{@damage 2d8}），11级（{@damage 3d8}）和17级（{@damage 4d8}）时，该法术的伤害增加了{@dice 1d8}。"
+				"You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take {@damage 1d8} fire damage. A creature must also make the saving throw when it moves into the bonfire's space for the first time on a turn or ends its turn there.",
+				"The bonfire ignites flammable objects in its area that aren't being worn or carried.",
+				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
 			],
 			"scalingLevelDice": {
 				"label": "fire damage",
@@ -1010,9 +1010,9 @@
 				}
 			],
 			"entries": [
-				"当你念着复杂的咒语时，你用一把镶满宝石的匕首划破了自己，受到{@damage 2d4}点穿刺伤害，这种伤害无法以任何方式减少。然后，你滴下自己的鲜血在咒语的其他组件上，并触摸它们，将它们转化为一种特殊的构造体，名为{@creature homunculus}。",
-				"{@creature homunculus}的统计数据在《怪物手册》中。它是你的忠实伙伴，如果你死了，它也会死。每当你完成一次长休，如果人偶与你在同一位面上，你可以花费最多一半的生命骰。这时，投掷每个骰子并加上你的体质调整值。你的生命值上限会减少这个总和，而人偶的生命值上限和当前生命值都会增加这个总和。这个过程不会将你的生命值降至低于1，而且对你和人偶的生命值的变化会在你完成下一次长休时结束。在那之前，除了人偶的死亡外，任何方式都不能消除对你生命值上限的减少。",
-				"你一次只能拥有一个同体人。如果你在你的同体人活着的时候施展这个法术，那么这个法术就会失败。"
+				"While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking {@damage 2d4} piercing damage that can't be reduced in any way. You then drip your blood on the spell's other components and touch them, transforming them into a special construct called a {@creature homunculus}.",
+				"The statistics of the {@creature homunculus} are in the Monster Manual. It is your faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by the total, and the homunculus's hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point, and the change to your and the homunculus's hit points ends when you finish your next long rest. The reduction to your hit point maximum can't be removed by any means before then, except by the homunculus's death.",
+				"You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails."
 			],
 			"miscTags": [
 				"PRM"
@@ -1050,15 +1050,15 @@
 				}
 			],
 			"entries": [
-				"七颗星光般的微粒出现并环绕在你的头部，直到法术结束。你可以使用一个奖励动作，将其中一颗微粒射向你周围120英尺内的一个生物或物体。当你这样做时，进行一次远程法术攻击。命中时，目标受到{@damage 4d12}辐射伤害。无论命中与否，该微粒都会消耗掉。如果你用尽了最后一颗微粒，法术会提前结束。",
-				"如果你有4个或更多的摩特，它们会在30英尺半径内发出亮光，并在另外30英尺范围内发出暗光。如果你有1到3个摩尔，它们会在30英尺的范围内发出暗光。"
+				"Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes {@damage 4d12} radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.",
+				"If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用8级或以上的法术槽施展此法术时，每超过7级的法术槽等级，所创造的摩尔数量就会增加两个。"
+						"When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th."
 					]
 				}
 			],
@@ -1111,16 +1111,16 @@
 				}
 			],
 			"entries": [
-				"黑暗力量的线索从你的手指中跳跃，穿透你能看到的最多五具小型或中型尸体。每具尸体立即站起来，变成不死生物。你决定它是一个{@creature zombie}还是一个{@creature skeleton}（{@creature zombie||zombies}和{@creature skeleton||skeletons}的统计数据在《怪物手册》中），并且它的攻击和伤害骰获得一个等同于你的法术属性调整值的奖励。",
-				"你可以使用一个额外的行动，在精神上指挥你用此法术制造的生物，向它们所有人发出相同的命令。要接收命令，生物必须在你的60英尺之内。你决定这些生物在下一回合将采取什么行动，以及它们将在哪里移动，或者你可以发出一个一般性的命令，比如说守住一个房间或通道以防止你的敌人。如果你不发出任何命令，这些生物除了抵御敌对生物外，什么也不做。一旦下达了命令，生物就会继续遵循它，直到它们的任务完成。",
-				"这些生物在你的控制之下，直到咒语结束，之后它们会再次变成无生命的。"
+				"Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a {@creature zombie} or a {@creature skeleton} (the statistics for {@creature zombie||zombies} and {@creature skeleton||skeletons} are in the Monster Manual), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.",
+				"You can use a bonus action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what action the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.",
+				"The creatures are under your control until the spell ends, after which they become inanimate once more."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用六级或以上的法术槽施展此法术时，每超过五级的法术槽，你最多可以使两具额外的尸体复活。"
+						"When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th."
 					]
 				}
 			],
@@ -1169,9 +1169,9 @@
 				}
 			],
 			"entries": [
-				"黎明之光照耀在你指定范围内的一个地点。直到咒语结束，一个半径30英尺、高40英尺的圆柱形亮光在那里闪闪发光。这种光是太阳光。",
-				"当圆柱出现时，其中的每个生物必须进行一次体质豁免检定，未通过检定的生物会受到{@damage 4d10}辐射伤害，通过检定的生物受到一半伤害。生物在圆柱内结束回合时也必须进行这次豁免检定。",
-				"如果你在圆柱体的60英尺范围内，你可以在你的回合内将它移动到60英尺，作为一个额外的行动。"
+				"The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight.",
+				"When the cylinder appears, each creature in it must make a Constitution saving throw, taking {@damage 4d10} radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.",
+				"If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn."
 			],
 			"damageInflict": [
 				"radiant"
@@ -1221,14 +1221,14 @@
 				}
 			],
 			"entries": [
-				"你触摸一个愿意的生物，并赋予它从口中喷射魔法能量的力量，前提是它有口。选择酸性、冰冷、火焰、闪电或毒素。直到法术结束，该生物可以使用一个动作，在一个15英尺锥形范围内呼出所选择类型的能量。在该区域内的每个生物必须进行一次敏捷豁免，未通过豁免的生物会受到{@damage 3d6}所选择类型的伤害，通过豁免的生物受到一半伤害。"
+				"You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking {@damage 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或更高级别的法术位施放此法术时，伤害将每个高于2级的法术位等级增加{@scaledamage 3d6|2-9|1d6}。"
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level above 2nd."
 					]
 				}
 			],
@@ -1283,46 +1283,46 @@
 				}
 			],
 			"entries": [
-				"你召唤自然之灵来保护户外或地下的一个区域。这个区域可以小到30英尺的立方体，大到90英尺的立方体。建筑物和其他结构不在受影响的范围内。如果你在一年内每天都在同一区域施展这个法术，那么这个法术会一直持续到被驱散。",
-				"该法术在该区域内产生以下效果。当你施展这个法术时，你可以指定生物作为朋友，对这些效果免疫。你也可以指定一个口令，在大声说出时，使说话者对这些效果免疫。",
-				"整个被保护的区域散发着魔法。对该区域施放 {@spell dispel magic}，如果成功，只能移除以下一个效果，而不是整个区域。该法术的施法者选择要结束的效果。只有当所有效果都消失时，这个法术才会被驱散。",
+				"You invoke the spirits of nature to protect an area outdoors or underground. The area can be as small as a 30-foot cube or as large as a 90-foot cube. Buildings and other structures are excluded from the affected area. If you cast this spell in the same area every day for a year, the spell lasts until dispelled.",
+				"The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.",
+				"The entire warded area radiates magic. A {@spell dispel magic} cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.",
 				{
 					"type": "entries",
 					"name": "Solid Fog",
 					"entries": [
-						"你可以用浓雾填满地面上任意数量的5英尺方块，使其被严重遮蔽。雾气达到10英尺高。此外，在雾中每移动一英尺都要多花2英尺。对于一个对该效果免疫的生物来说，浓雾不会遮蔽任何东西，看起来就像柔和的雾气，空气中漂浮着绿色的光点。"
+						"You can fill any number of 5-foot squares on the ground with thick fog, making them heavily obscured. The fog reaches 10 feet high. In addition, every foot of movement through the fog costs 2 extra feet. To a creature immune to this effect, the fog obscures nothing and looks like soft mist, with motes of green light floating in the air."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Grasping Undergrowth",
 					"entries": [
-						"你可以填满地面上任意数量的5英尺方块，这些方块没有被雾气填满，就像受到了一个{@spell entangle}法术的影响一样。对于免疫此效果的生物，这些草和藤蔓感觉柔软，并重新塑造自己以充当临时座位或床铺。"
+						"You can fill any number of 5-foot squares on the ground that aren't filled with fog with grasping weeds and vines, as if they were affected by an {@spell entangle} spell. To a creature immune to this effect, the weeds and vines feel soft and reshape themselves to serve as temporary seats or beds."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Grove Guardians",
 					"entries": [
-						"你可以使该区域内最多四棵树变得有生命，让它们从地面上拔起。这些树具有与《怪物手册》中的{@creature awakened tree}相同的统计数据，但它们不能说话，它们的树皮上覆盖着德鲁伊符号。如果任何对此效果不免疫的生物进入受保护的区域，树园守护者会战斗，直到驱赶或杀死入侵者。树园守护者也会听从你在该区域内发出的口头命令（你不需要采取任何行动）。如果你不给予命令且没有入侵者出现，树园守护者将不会采取任何行动。树园守护者不能离开受保护的区域。法术结束时，赋予它们生命的魔法消失，树木会重新扎根。"
+						"You can animate up to four trees in the area, causing them to uproot themselves from the ground. These trees have the same statistics as an {@creature awakened tree}, which appears in the Monster Manual, except they can't speak, and their bark is covered with druidic symbols. If any creature not immune to this effect enters the warded area, the grove guardians fight until they have driven off or slain the intruders. The grove guardians also obey your spoken commands (no action required by you) that you issue while in the area. If you don't give them commands and no intruders are present, the grove guardians do nothing. The grove guardians can't leave the warded area. When the spell ends, the magic animating them disappears, and the trees take root again if possible."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Additional Spell Effect",
 					"entries": [
-						"你可以在被守护的区域内放置你选择的下列魔法效果之一。"
+						"You can place your choice of one of the following magical effects within the warded area:"
 					]
 				},
 				{
 					"type": "list",
 					"items": [
-						"在您选择的两个位置中都有一个常数{@spell gust of wind}。",
-						"在您选择的一个地点中{@spell Spike growth}",
-						"在您选择的两个地点中的{@spell Wind wall}。"
+						"A constant {@spell gust of wind} in two locations of your choice",
+						"{@spell Spike growth} in one location of your choice",
+						"{@spell Wind wall} in two locations of your choice"
 					]
 				},
-				"对于免疫此效果的生物，这些风是一阵芬芳而温和的微风，{@spell spike growth} 区域是无害的。"
+				"To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of {@spell spike growth} is harmless."
 			],
 			"miscTags": [
 				"OBS",
@@ -1375,16 +1375,16 @@
 				}
 			],
 			"entries": [
-				"选择一个你能看到的范围内未被占据的5英尺的空气立方体。一个类似尘埃恶魔的元素力量出现在立方体中，并在法术的持续时间内持续存在。",
-				"任何在离沙尘恶魔 5 英尺范围内结束其回合的生物必须进行一次力量豁免投骰。未能通过豁免的生物会受到 {@damage 1d8} 钝击伤害，并被从沙尘恶魔处推开 10 英尺。若成功通过豁免，生物会受到一半伤害且不会被推开。",
-				"作为一个额外的动作，你可以在任何方向上移动尘土恶魔达30英尺。如果尘魔在沙子、尘土、松散的泥土或轻质沙砾上移动，它会吸走这些物质，并在自己周围形成一个半径为10英尺的碎片云，持续到你下一个回合开始。这片云会严重遮蔽其区域。"
+				"Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell's duration.",
+				"Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes {@damage 1d8} bludgeoning damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed.",
+				"As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或更高级别的法术位施放这个法术时，伤害会每超过2级的法术位等级增加{@scaledamage 1d8|2-9|1d8}。"
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|2-9|1d8} for each slot level above 2nd."
 					]
 				}
 			],
@@ -1435,14 +1435,14 @@
 				}
 			],
 			"entries": [
-				"你在范围内引发了地面的震动。该区域内除你以外的每个生物必须进行一次敏捷豁免检定。未通过豁免检定的生物将受到{@damage 1d6}的钝击伤害，并被击倒{@condition prone}。如果该区域的地面是松散的土壤或石头，它将变得{@quickref difficult terrain||3}直到清除，每个直径为5英尺的部分至少需要1分钟才能用手清理干净。"
+				"You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 1d6} bludgeoning damage and is knocked {@condition prone}. If the ground in that area is loose earth or stone, it becomes {@quickref difficult terrain||3} until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用2级或更高级别的法术位施放这个法术时，伤害会每超过1级的法术位等级增加{@scaledamage 1d6|1-9|1d6}。"
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d6|1-9|1d6} for each slot level above 1st."
 					]
 				}
 			],
@@ -1501,7 +1501,7 @@
 				}
 			],
 			"entries": [
-				"选择一个你能看到的范围内的生物。黄色的魔法能量条围绕着该生物。目标必须成功地进行力量救赎，否则它的飞行速度（如果有的话）会在咒语持续期间降至0英尺。受此法术影响的空中生物以每回合60英尺的速度安全下降，直到它到达地面或法术结束。"
+				"Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw, or its flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell safely descends at 60 feet per round until it reaches the ground or the spell ends."
 			],
 			"savingThrow": [
 				"strength"
@@ -1553,14 +1553,14 @@
 				}
 			],
 			"entries": [
-				"选择范围内可见的一个生物，并选择以下伤害类型之一：酸性、冰冷、火焰、闪电或雷霆。目标必须成功通过一次体质豁免才能在整个施法期间受到影响。每个回合受影响的目标第一次受到所选类型的伤害时，目标会额外受到相同类型伤害的{@damage 2d6}。此外，目标在法术结束前失去对该伤害类型的任何抗性。"
+				"Choose one creature you can see within range, and choose one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Constitution saving throw or be affected by the spell for its duration. The first time each turn the affected target takes damage of the chosen type, the target takes an extra {@damage 2d6} damage of that type. Moreover, the target loses any resistance to that damage type until the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用五级或以上的法术槽施放此法术时，你可以针对四级以上的每一个法术槽的一个额外生物。当你瞄准它们时，这些生物必须在30英尺范围内。"
+						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -1615,8 +1615,8 @@
 				}
 			],
 			"entries": [
-				"你可以触及并强迫你看到的一只生物进行一次智力豁免检定。如果一只生物对被 {@condition frightened} 免疫，那么它会自动成功。如果未通过检定，目标将失去区分朋友和敌人的能力，将它看到的所有生物视为敌人，直到法术结束。每次目标受到伤害时，它可以重新进行豁免检定，若成功则结束效果。",
-				"每当受影响的生物选择另一个生物作为目标时，它必须从它可以看到的攻击、法术或其他能力范围内的生物中随机选择目标。如果敌人挑衅受影响的生物进行机会攻击，那么生物必须进行攻击，如果它有能力这样做的话。"
+				"You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being {@condition frightened}. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.",
+				"Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to."
 			],
 			"savingThrow": [
 				"intelligence"
@@ -1662,15 +1662,15 @@
 				}
 			],
 			"entries": [
-				"一根墨黑色的卷须从你身上伸出，触及你能看到的范围内的生物，从中汲取生命。目标必须进行一次敏捷豁免。豁免成功，目标受到{@damage 2d8}点死灵伤害，法术结束。豁免失败，目标受到{@damage 4d8}点死灵伤害，直到法术结束，你可以在每个你的回合使用你的动作自动对目标造成{@damage 4d8}点死灵伤害。如果你使用动作进行其他任何操作，目标离开法术范围，或者目标对你完全遮蔽，法术将结束。",
-				"每当该法术对目标造成伤害时，你将恢复等同于目标受到的死灵伤害数量一半的生命值。"
+				"A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes {@damage 2d8} necrotic damage, and the spell ends. On a failed save, the target takes {@damage 4d8} necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal {@damage 4d8} necrotic damage to the target. The spell ends if you use your action to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you.",
+				"Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用6级或更高级别的法术位施放此法术时，伤害将每超过5级的位级增加{@scaledamage 4d8;2d8|5-9|1d8}。"
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 4d8;2d8|5-9|1d8} for each slot level above 5th."
 					]
 				}
 			],
@@ -1724,14 +1724,14 @@
 				}
 			],
 			"entries": [
-				"选择你能看到的范围内的一个点。一个以那个点为中心的20英尺立方体内喷发出由搅动的泥土和石头构成的喷泉。该区域内的每个生物必须进行一次敏捷豁免检定。一名生物在未通过豁免检定时受到{@damage 3d12}的钝击伤害，通过时受到一半伤害。此外，该区域的地面变得{@quickref difficult terrain||3}，直到被清理。该区域内每个5英尺的正方形区域至少需要1分钟用手清理。"
+				"Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes {@damage 3d12} bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes {@quickref difficult terrain||3} until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用4级或更高级别的法术位施放这个法术时，伤害会每超过3级的位数增加{@scaledamage 3d12|3-9|1d12}。"
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 3d12|3-9|1d12} for each slot level above 3rd."
 					]
 				}
 			],
@@ -1782,7 +1782,7 @@
 				}
 			],
 			"entries": [
-				"你可以传送到你能看到的一个未被占据的空间，最远可达60英尺。在法术结束前的每个回合，你都可以使用一个奖励动作再次以这种方式传送。"
+				"You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again."
 			],
 			"miscTags": [
 				"SGT",
@@ -1825,18 +1825,18 @@
 				}
 			],
 			"entries": [
-				"你召唤了一个灵体，它化身为一匹忠诚、威严的坐骑。灵体出现在你选择范围内的一个未被占据的空间内，它会呈现出你选择的形态：{@creature griffon}、{@creature pegasus}、{@creature peryton}、{@creature dire wolf}、{@creature rhinoceros} 或 {@creature saber-toothed tiger}。这个生物拥有怪物手册中为你选择形态所提供的统计数据，尽管它是天界生物、精灵或恶魔（由你选择），而不是它正常的生物类型。此外，如果它的智力值为5或更低，它的智力值将变为6，并且它将获得理解你所说的一种语言的能力。",
-				"在战斗中，你控制坐骑。当坐骑在你的1英里范围内时，你可以用心灵感应与它交流。骑在坐骑上时，你可以让你施放的任何只以你为目标的法术也以坐骑为目标。",
-				"当坐骑的生命值降至0点或者你以一个动作解散它时，坐骑会暂时消失。再次施放这个法术会重新召唤绑定的坐骑，恢复所有生命值并移除任何状态。",
-				"你不能同时拥有多于一只由此法术绑定的坐骑或{@spell find steed}。作为一个动作，你可以解除与一只坐骑的绑定，导致它永久消失。",
-				"每当坐骑消失时，它会留下它所穿戴或携带的任何物品。",
+				"You summon a spirit that assumes the form of a loyal, majestic mount. Appearing in an unoccupied space within range, the spirit takes on a form you choose: a {@creature griffon}, a {@creature pegasus}, a {@creature peryton}, a {@creature dire wolf}, a {@creature rhinoceros}, or a {@creature saber-toothed tiger}. The creature has the statistics provided in the Monster Manual for the chosen form, though it is a celestial, a fey, or a fiend (your choice) instead of its normal creature type. Additionally, if it has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
+				"You control the mount in combat. While the mount is within 1 mile of you, you can communicate with it telepathically. While mounted on it, you can make any spell you cast that targets only you also target the mount.",
+				"The mount disappears temporarily when it drops to 0 hit points or when you dismiss it as an action. Casting this spell again re-summons the bonded mount, with all its hit points restored and any conditions removed.",
+				"You can't have more than one mount bonded by this spell or {@spell find steed} at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently.",
+				"Whenever the mount disappears, it leaves behind any objects it was wearing or carrying.",
 				{
 					"type": "inset",
 					"source": "FTD",
 					"page": 190,
 					"name": "Dragonnel Steeds",
 					"entries": [
-						"经过DM的允许，圣骑士可以使用《{@i Xanathar's Guide to Everything}》中出现的寻找强大坐骑法术召唤一个以{@creature dragonnel|ftd}形式的灵魂。"
+						"With the DM's permission, a paladin can summon a spirit in the form of a {@creature dragonnel|ftd} using the find greater steed spell, which appears in {@i Xanathar's Guide to Everything}."
 					]
 				}
 			],
@@ -1885,14 +1885,14 @@
 				}
 			],
 			"entries": [
-				"你触摸了一个箭袋或弩箭筒。当用从箭袋中取出的弹药进行远程武器攻击击中目标时，目标会额外受到{@damage 1d6}火焰伤害。法术的魔法在弹药击中或未击中目标时结束，当从箭袋中取出十二发弹药后，法术也会结束。"
+				"You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra {@damage 1d6} fire damage. The spell's magic ends on a piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用4级或更高级别的法术位施放这个法术时，你可以影响的弹药数量将每个高于3级的法术位等级增加两个。"
+						"When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd."
 					]
 				}
 			],
@@ -1938,8 +1938,8 @@
 				}
 			],
 			"entries": [
-				"你让一只你能看到的生物上形成麻木的霜。目标必须进行一次体质豁免投。未通过豁免的目标会受到{@damage 1d6}的冷伤害，并且在其下一个回合结束前进行的下一个武器攻击骰时会有劣势。",
-				"当你达到5级（{@damage 2d6}）时，咒语的伤害增加了{@dice 1d6}，当你达到11级（{@damage 3d6}）和17级（{@damage 4d6}）时，伤害也会增加。"
+				"You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes {@damage 1d6} cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.",
+				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
 				"label": "cold damage",
@@ -1996,37 +1996,37 @@
 				}
 			],
 			"entries": [
-				"一位自然精灵听到你的呼唤，将你转化为一位强大的守护者。这种转化会持续直到咒语结束。你可以选择以下形态之一：原始野兽或巨大树木。",
+				"A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.",
 				{
 					"type": "entries",
 					"name": "Primal Beast",
 					"entries": [
-						"你的身体被野兽般的毛皮覆盖，你的面部特征变得野性化，你获得以下好处："
+						"Bestial fur covers your body, your facial features become feral, and you gain the following benefits:"
 					]
 				},
 				{
 					"type": "list",
 					"items": [
-						"你的步行速度增加了10英尺。",
-						"你获得{@sense darkvision}，范围为120英尺。",
-						"你用优势进行基于力量的攻击检定。",
-						"你的近战武器攻击在命中时额外造成{@damage 1d6}点力量伤害。"
+						"Your walking speed increases by 10 feet.",
+						"You gain {@sense darkvision} with a range of 120 feet.",
+						"You make Strength-based attack rolls with advantage.",
+						"Your melee weapon attacks deal an extra {@damage 1d6} force damage on a hit."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Great Tree",
 					"entries": [
-						"你的皮肤变得像树皮一样粗糙，头发上长出了树叶，并获得以下效益："
+						"Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:"
 					]
 				},
 				{
 					"type": "list",
 					"items": [
-						"你获得了10点临时生命值。",
-						"你用优势进行宪法豁免投掷。（Constitution saving throws）",
-						"你使用敏捷和感知属性进行攻击骰时获得优势。",
-						"当你在地面上时，你周围15英尺范围内的地面对你的敌人是{@quickref difficult terrain||3}(Within 15 feet of you, the ground is {@quickref difficult terrain||3} for your enemies.)。"
+						"You gain 10 temporary hit points.",
+						"You make Constitution saving throws with advantage.",
+						"You make Dexterity- and Wisdom-based attack rolls with advantage.",
+						"While you are on the ground, the ground within 15 feet of you is {@quickref difficult terrain||3} for your enemies."
 					]
 				}
 			],
@@ -2083,13 +2083,13 @@
 				}
 			],
 			"entries": [
-				"你控制空气，强迫它在你能看到的范围内产生以下效果之一：",
+				"You seize the air and compel it to create one of the following effects at a point you can see within range:",
 				{
 					"type": "list",
 					"items": [
-						"你选择的一个中等或更小的生物必须成功进行一次力量豁免才能抵抗，否则将被推开多达5英尺远离你。",
-						"你可以制造一股小爆炸的气流，能够移动一个既不被握住也不被携带的物体，重量不超过5磅。这个物体可以被推开最多10英尺远。推动的力量不足以造成伤害。",
-						"你可以通过空气制造一种无害的感官效果，比如让树叶沙沙作响，风吹关上百叶窗，或者让你的衣服在微风中波动。"
+						"One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you.",
+						"You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn't pushed with enough force to cause damage.",
+						"You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters closed, or your clothing to ripple in a breeze."
 					]
 				}
 			],
@@ -2139,16 +2139,16 @@
 				}
 			],
 			"entries": [
-				"你召唤自然精灵来安抚受伤者。这个无形的精灵出现在你能看到的范围内，占据一个5英尺的立方体空间。这个精灵看起来像一只透明的野兽或精灵（你可以选择）。",
-				"在咒语持续期间，每当你或你能看到的生物在一个回合内第一次移动到精灵的空间中或在那里开始它的回合时，你可以让精灵为该生物恢复{@dice 1d6}点生命值（无需行动）。精灵无法治愈构装或不死生物。精灵可以治愈的次数等于1 + 你的施法能力调整值（最少为两次）。在治愈了那么多次后，精灵就会消失。",
-				"作为你的回合的奖励动作，你可以将灵魂移动30英尺，移动到你能看到的空间中。"
+				"You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).",
+				"Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore {@dice 1d6} hit points to that creature (no action required). The spirit can't heal constructs or undead. The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.",
+				"As a bonus action on your turn, you can move the spirit up to 30 feet to a space you can see."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或更高级别的法术位施放此法术时，每超过2级的法术位级别，治疗效果增加 {@scaledice 1d6|2-9|1d6}。"
+						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@scaledice 1d6|2-9|1d6} for each slot level above 2nd."
 					]
 				}
 			],
@@ -2208,8 +2208,8 @@
 				}
 			],
 			"entries": [
-				"你赋予你触碰的武器神圣力量。直到咒语结束，该武器在30英尺半径内发出明亮光芒，另外30英尺内发出昏暗光芒。此外，使用该武器进行的攻击在命中时额外造成{@damage 2d8}辐射伤害。如果武器还不是一件魔法武器，它将在持续时间内成为一件魔法武器。",
-				"在你的回合中作为一个额外动作，你可以解除这个法术并让武器发出一阵光辉。你能看到的武器周围30英尺内的每个生物必须进行一次体质豁免。未通过豁免的生物会受到{@damage 4d8} 辐射伤害，并且会在1分钟内处于{@condition blinded} 状态。通过豁免的生物会受到一半伤害并且不会被{@condition blinded}。在每个生物的回合结束时，一个{@condition blinded} 生物可以进行一次体质豁免，成功则结束效果。"
+				"You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra {@damage 2d8} radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.",
+				"As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes {@damage 4d8} radiant damage, and it is {@condition blinded} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition blinded}. At the end of each of its turns, a {@condition blinded} creature can make a Constitution saving throw, ending the effect on itself on a success."
 			],
 			"damageInflict": [
 				"radiant"
@@ -2265,14 +2265,14 @@
 				}
 			],
 			"entries": [
-				"你创造了一块冰晶，将其投向射程内的一个生物。对目标进行远程法术攻击。命中时，目标受到{@damage 1d10} 刺伤伤害。无论命中与否，冰晶随后爆炸。目标及其周围5英尺范围内的每个生物必须进行一次敏捷豁免检定，否则将受到{@damage 2d6} 冰冷伤害。"
+				"You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take {@damage 2d6} cold damage."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用2级或更高级别的法术位施放这个法术时，每超过1级的法术位级别，冰冷伤害增加{@scaledamage 2d6|1-9|1d6}。"
+						"When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by {@scaledamage 2d6|1-9|1d6} for each slot level above 1st."
 					]
 				}
 			],
@@ -2323,10 +2323,10 @@
 				}
 			],
 			"entries": [
-				"通过从暗影界收集暗影材料的线索，你可以在你能看到的范围内的一个未被占据的空间中创造一个巨大的阴影龙。这个幻象会持续整个法术的持续时间，并占据它的空间，就好像它是一个生物。",
-				"当幻象出现时，任何能看到它的敌人必须成功进行一次感知豁免才能在1分钟内成为其{@condition frightened}。如果一个{@condition frightened}生物结束回合时处于无法看到幻象的位置，它可以重复进行豁免扔骰，成功时效果消失。",
-				"作为你的回合的奖励动作，你可以将幻象移动多达60英尺。在其移动的任何时候，你可以让它从其位置开始喷出一股能量冲击，形成一个60英尺的锥形范围。当你创建这条龙时，选择一个伤害类型：酸、冰冷、火焰、闪电、死灵或毒素。锥形范围内的每个生物必须进行一次智力豁免，未通过豁免的生物会受到所选伤害类型的{@damage 7d6}伤害，通过豁免的生物则只受到一半伤害。",
-				"这个幻象是由影子物质制造的，因此是有形的，但攻击会自动地错过它，它成功通过所有豁免扑克，并且对所有伤害和状态免疫。一只生物可以用一个动作来检查这条龙，通过在智力检定中（{@skill Investigation}）达到你的法术豁免 DC 来确定它是一个幻象。如果一只生物识破了这个幻象的真相，它就能看穿它，并且在对抗其吐息时获得优势。"
+				"By gathering threads of shadow material from the Shadowfell, you create a Huge shadowy dragon in an unoccupied space that you can see within range. The illusion lasts for the spell's duration and occupies its space, as if it were a creature.",
+				"When the illusion appears, any of your enemies that can see it must succeed on a Wisdom saving throw or become {@condition frightened} of it for 1 minute. If a {@condition frightened} creature ends its turn in a location where it doesn't have line of sight to the illusion, it can repeat the saving throw, ending the effect on itself on a success.",
+				"As a bonus action on your turn, you can move the illusion up to 60 feet. At any point during its movement, you can cause it to exhale a blast of energy in a 60-foot cone originating from its space. When you create the dragon, choose a damage type: acid, cold, fire, lightning, necrotic, or poison. Each creature in the cone must make an Intelligence saving throw, taking {@damage 7d6} damage of the chosen damage type on a failed save, or half as much damage on a successful one.",
+				"The illusion is tangible because of the shadow stuff used to create it, but attacks miss it automatically, it succeeds on all saving throws, and it is immune to all damage and conditions. A creature that uses an action to examine the dragon can determine that it is an illusion by succeeding on an Intelligence ({@skill Investigation}) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through it and has advantage on saving throws against its breath."
 			],
 			"damageInflict": [
 				"acid",
@@ -2393,8 +2393,8 @@
 				}
 			],
 			"entries": [
-				"火焰环绕着你能看到的一个生物。目标必须进行一次敏捷豁免。在豁免失败时，目标会受到{@damage 8d6}火焰伤害，豁免成功时则减半。豁免失败时，目标还会在法术持续期间燃烧。燃烧的目标在30英尺半径内散发明亮光，额外的30英尺内散发微光。在每个回合结束时，目标需要重新进行豁免。在豁免失败时，目标会受到{@damage 4d6}火焰伤害，而在豁免成功时法术结束。这些魔法火焰无法被非魔法手段熄灭。",
-				"如果这个法术造成的伤害杀死目标，目标会变成灰烬。"
+				"Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes {@damage 8d6} fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes {@damage 4d6} fire damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished by nonmagical means.",
+				"If damage from this spell kills a target, the target is turned to ash."
 			],
 			"damageInflict": [
 				"fire"
@@ -2448,18 +2448,18 @@
 				}
 			],
 			"entries": [
-				"念咒召唤一只来自九层地狱的恶魔。你可以选择恶魔的类型，如{@filter challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|tag=devil|miscellaneous=!swarm}中的一种，比如{@creature barbed devil}或者{@creature bearded devil}。恶魔会出现在你能看到的范围内的一个空地。恶魔在生命值降至0或法术结束时消失。",
-				"魔鬼对你和你的同伴不友好。为魔鬼投掷先攻，它有自己的回合。魔鬼由主宰地下城的人控制，并根据自己的本性在每个回合中行动，这可能导致它攻击你，如果它认为可以取胜，或者试图诱使你为了有限的服务而进行邪恶行为。主持人拥有该生物的统计数据。",
-				"在你的每个回合，你可以尝试向恶魔发出口头命令（你无需采取任何行动）。如果命令的结果符合恶魔的愿望，尤其是如果结果会使你走向邪恶，它会服从命令。否则，你必须进行一个以你的魅力（%0%，%1%，或%2%）检定对抗它的感知{@skill Insight}检定。如果你说出恶魔的真名，你将获得优势进行检定。如果你的检定失败，恶魔将在法术持续时间内免疫于你的口头命令，尽管它仍然可以选择执行你的命令。如果你的检定成功，恶魔将执行你的命令，比如“攻击我的敌人”，“探索前方的房间”，或者“将这个消息带给女王”，直到完成活动为止，然后它会回到你这里报告已经完成。",
-				"如果你的{@status concentration}在法术达到完整持续时间之前结束，且恶魔已经对你的口头命令免疫，那么它不会消失。相反，它会在接下来的{@dice 3d6}分钟内按照自己选择的方式行动，然后才会消失。",
-				"如果你拥有一个个人的恶魔护身符，你可以召唤那个恶魔，如果它的挑战等级符合要求加1，并且它会服从你的所有命令，无需进行魅力检定。"
+				"Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil's type, which must be one of {@filter challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|tag=devil|miscellaneous=!swarm}, such as a {@creature barbed devil} or a {@creature bearded devil}. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.",
+				"The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master's control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature's statistics.",
+				"On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma ({@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}) check contested by its Wisdom ({@skill Insight}) check. You make the check with advantage if you say the devil's true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command\u2014such as \"attack my enemies,\" \"explore the room ahead,\" or \"bear this message to the queen\"\u2014until it completes the activity, at which point it returns to you to report having done so.",
+				"If your {@status concentration} ends before the spell reaches its full duration, the devil doesn't disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for {@dice 3d6} minutes, and then it disappears.",
+				"If you possess an individual devil's talisman, you can summon that devil if it is of the appropriate challenge rating plus 1, and it obeys all your commands, with no Charisma checks required."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用6级或更高级别的法术位施放此法术时，挑战等级将每超过5级增加1级。"
+						"When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
 					]
 				}
 			],
@@ -2499,8 +2499,8 @@
 				}
 			],
 			"entries": [
-				"你让一只你能看见的生物身上突然出现一团螨虫、跳蚤和其他寄生虫的云团。目标必须通过一次体质豁免才能避免受到{@damage 1d6}点毒性伤害，并且如果它可以移动且速度至少为5英尺，则会朝一个随机方向移动5英尺。为移动方向投掷一个{@dice d4}：1，北；2，南；3，东；或4，西。这次移动不会引发机会攻击，如果投掷的方向被阻挡，目标则不会移动。",
-				"当你达到5级（{@damage 2d6}）时，咒语的伤害增加了{@dice 1d6}，当你达到11级（{@damage 3d6}）和17级（{@damage 4d6}）时，伤害也会增加。"
+				"You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes {@damage 1d6} poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a {@dice d4} for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.",
+				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
 				"label": "poison damage",
@@ -2564,13 +2564,13 @@
 				}
 			],
 			"entries": [
-				"火焰在你的身体上燃烧，照亮半径30英尺范围内的明亮光线，并在额外30英尺范围内散发微弱光线，持续整个咒语的时间。这些火焰不会伤害到你。直到咒语结束，你获得以下好处：",
+				"Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你对火焰伤害免疫，并且对冰冷伤害具有抗性。",
-						"任何生物在一个回合内第一次移动到你5英尺范围内，或者结束回合时停留在那里，会受到{@damage 1d10}火焰伤害。",
-						"你可以使用你的动作，在你选择的方向上，创建一条长15英尺、宽5英尺的火线。线上的每个生物都必须进行一次敏捷豁免检定。一名生物在未通过豁免检定时受到{@damage 4d8}火焰伤害，通过时受到一半伤害。"
+						"You are immune to fire damage and have resistance to cold damage.",
+						"Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes {@damage 1d10} fire damage.",
+						"You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 4d8} fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -2632,14 +2632,14 @@
 				}
 			],
 			"entries": [
-				"直到法术结束，冰覆盖你的身体，并获得以下好处：",
+				"Until the spell ends, ice rimes your body, and you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你对寒冷伤害免疫，并且对火焰伤害具有抗性。",
-						"你可以在由冰或雪{@quickref difficult terrain||3}创造的区域内移动，而无需额外消耗移动力。",
-						"你周围10英尺半径范围内的地面是冰冷的，对你以外的生物是{@quickref difficult terrain||3}。这个半径会随着你移动。",
-						"你可以使用动作，在你伸出的手向你选择的方向创造一个15英尺的冰冷风锥。锥形范围内的每个生物必须进行一次体质豁免才能。未通过豁免的生物受到{@damage 4d6}的冰冷伤害，通过豁免的生物受到一半伤害。未通过此效果豁免的生物速度减半，直到你的下一个回合开始。"
+						"You are immune to cold damage and have resistance to fire damage.",
+						"You can move across {@quickref difficult terrain||3} created by ice or snow without spending extra movement.",
+						"The ground in a 10-foot radius around you is icy and is {@quickref difficult terrain||3} for creatures other than you. The radius moves with you.",
+						"You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes {@damage 4d6} cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn."
 					]
 				}
 			],
@@ -2702,13 +2702,13 @@
 				}
 			],
 			"entries": [
-				"直到咒语结束，你的身体上散布着一些岩石碎片，并获得以下好处：",
+				"Until the spell ends, bits of rock spread across your body, and you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你对非魔法攻击造成的钝击、穿刺和斩击伤害具有抗性。",
-						"你可以使用你的动作在以你为中心的15英尺半径范围内制造一场小地震。该范围内的其他生物必须通过一次敏捷豁免才能不被击倒{@condition prone}。",
-						"你可以在由土或石头构成的{@quickref difficult terrain||3}上移动，而无需额外移动。你可以如同空气般穿越实体的土或石头，而不会破坏它，但不能在那里结束移动。如果你这样做，你会被弹出到最近的未占用空间，这个法术结束，并且在接下来的回合结束前，你会被{@condition stunned}。"
+						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+						"You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked {@condition prone}.",
+						"You can move across {@quickref difficult terrain||3} made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are {@condition stunned} until the end of your next turn."
 					]
 				}
 			],
@@ -2767,13 +2767,13 @@
 				}
 			],
 			"entries": [
-				"直到咒语结束，风围绕着你，你获得以下好处：",
+				"Until the spell ends, wind whirls around you, and you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"对你进行的远程武器攻击的攻击骰有劣势。",
-						"你获得60尺的飞行速度。如果在法术结束时仍在飞行中，你会坠落，除非你有办法阻止这种情况发生。",
-						"你可以使用你的动作，在你能看到的距离60英尺内的一个点上创造一个以该点为中心的15英尺立方体的旋风。该区域内的每个生物必须进行一次体质豁免才能。在未通过豁免检定的情况下，生物会受到{@damage 2d10}的钝击伤害，通过检定的生物则只受到一半伤害。如果一个大型或更小的生物未通过豁免检定，那个生物还会被推离立方体中心最多10英尺。"
+						"Ranged weapon attacks made against you have disadvantage on the attack roll.",
+						"You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.",
+						"You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes {@damage 2d10} bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube."
 					]
 				}
 			],
@@ -2829,7 +2829,7 @@
 				}
 			],
 			"entries": [
-				"在咒语结束前，你对所有伤害免疫。"
+				"You are immune to all damage until the spell ends."
 			]
 		},
 		{
@@ -2861,14 +2861,14 @@
 				}
 			],
 			"entries": [
-				"你牺牲自己的一部分生命来治愈另一只生物的伤势。你受到 {@damage 4d8} 死灵伤害，这种伤害无法以任何方式减少，你可以看到的范围内选择一只生物，它将恢复等于你受到的死灵伤害两倍的生命值。"
+				"You sacrifice some of your health to mend another creature's injuries. You take {@damage 4d8} necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用4级或更高级别的法术位施放这个法术时，伤害会每超过3级的位数增加{@scaledamage 4d8|3-9|1d8}。"
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 4d8|3-9|1d8} for each slot level above 3rd."
 					]
 				}
 			],
@@ -2917,8 +2917,8 @@
 				}
 			],
 			"entries": [
-				"你选择的范围内，魔法黑暗从一个点扩散开来，直到法术结束，填满一个半径为60英尺的球体。黑暗会绕过角落。一个具有{@sense darkvision}的生物无法穿透这片黑暗。非魔法光线，以及由8级或更低级法术创造的光线，都无法照亮这个区域。",
-				"在这个领域内可以听到尖叫声、胡言乱语和疯狂的笑声。每当一个生物在这个领域内开始它的回合时，它必须进行一次感知豁免检定，失败的话会受到{@damage 8d8}点精神伤害，成功的话则只受到一半伤害。"
+				"Magical darkness spreads from a point you choose within range to fill a 60-foot-radius sphere until the spell ends. The darkness spreads around corners. A creature with {@sense darkvision} can't see through this darkness. Non-magical light, as well as light created by spells of 8th level or lower, can't illuminate the area.",
+				"Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking {@damage 8d8} psychic damage on a failed save, or half as much damage on a successful one."
 			],
 			"damageInflict": [
 				"psychic"
@@ -2971,7 +2971,7 @@
 				}
 			],
 			"entries": [
-				"在你能看到的范围内的一个点上，出现了一个直径30英尺的漩涡，水深5英尺。该点必须在地面上或水体中。直到法术结束，那个区域是{@quickref difficult terrain||3}，任何在那里开始它的回合的生物必须成功进行一次力量豁免才能避免受到{@damage 6d6} 钝击伤害，并被拉向中心点10英尺。"
+				"A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on the ground or in a body of water. Until the spell ends, that area is {@quickref difficult terrain||3}, and any creature that starts its turn there must succeed on a Strength saving throw or take {@damage 6d6} bludgeoning damage and be pulled 10 feet toward the center."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -3026,8 +3026,8 @@
 				}
 			],
 			"entries": [
-				"你触摸一到三块小石头，并赋予它们魔法。你或其他人可以通过投掷或抛掷其中一块小石头进行远程法术攻击，使用{@item sling|phb}。如果投掷，小石头的射程为60英尺。如果其他人用小石头攻击，攻击者在攻击检定中加上你的施法能力修正，而不是攻击者自己的修正。命中时，目标受到{@damage 1d6} + 你的施法能力修正的钝击伤害。无论攻击是否命中，法术随后在石头上结束。",
-				"如果你再次施放这个法术，法术会在任何仍受到你之前施放影响的小石头上结束。"
+				"You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a {@item sling|phb}. If thrown, a pebble has a range of 60 feet. If someone else attacks with a pebble, that attacker adds your spellcasting ability modifier, not the attacker's, to the attack roll. On a hit, the target takes bludgeoning damage equal to {@damage 1d6} + your spellcasting ability modifier. Whether the attack hits or misses, the spell then ends on the stone.",
+				"If you cast this spell again, the spell ends on any pebbles still affected by your previous casting."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -3074,11 +3074,11 @@
 				}
 			],
 			"entries": [
-				"你可以选择在范围内看到的最多十个生物进行转化。不愿意的目标必须成功进行一次感知豁免才能抵抗这种转化。不愿意的变形者自动成功通过豁免。",
-				"每个目标都会变成你选择的一种野兽形态，你可以为每个目标选择相同的形态，也可以选择不同的形态。新形态可以是你见过的{@filter any beast|bestiary|type=beast|miscellaneous=!swarm}，其挑战等级等于或低于目标的（或者目标没有挑战等级时为目标等级的一半）。目标的游戏统计数据，包括精神能力分数，都会被所选野兽的统计数据替换，但目标会保留其生命值、阵营和个性。",
-				"每个目标获得一个临时生命值，数值等同于其新形态的生命值。这些临时生命值不能被其他来源的临时生命值所取代。当目标没有了临时生命值或死亡时，它会恢复到正常形态。如果法术在此之前结束，生物将失去所有临时生命值并恢复到正常形态。",
-				"这种生物在新形态下的行动受限于其本质。它无法说话、施放法术，或进行任何需要手部或言语的动作。",
-				"目标的装备融入新形态中。目标无法激活、使用、挥舞或从任何装备中获益。"
+				"You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.",
+				"Each target assumes a beast form of your choice, and you can choose the same form or different ones for each target. The new form can be {@filter any beast|bestiary|type=beast|miscellaneous=!swarm} you have seen whose challenge rating is equal to or less than the target's (or half the target's level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast, but the target retains its hit points, alignment, and personality.",
+				"Each target gains a number of temporary hit points equal to the hit points of its new form. These temporary hit points can't be replaced by temporary hit points from another source. A target reverts to its normal form when it has no more temporary hit points or it dies. If the spell ends before then, the creature loses all its temporary hit points and reverts to its normal form.",
+				"The creature is limited in the actions it can perform by the nature of its new form. It can't speak, cast spells, or do anything else that requires hands or speech.",
+				"The target's gear melds into the new form. The target can't activate, use, wield, or otherwise benefit from any of its equipment."
 			],
 			"savingThrow": [
 				"wisdom"
@@ -3132,10 +3132,10 @@
 				}
 			],
 			"entries": [
-				"你选择在射程内能看到的一个5英尺正方形未被占据的地面空间。一只由紧实土壤制成的中型手探出地面，伸向你能看到的距离不超过5英尺的一只生物。目标必须进行一次力量豁免才能。未通过豁免的目标将受到{@damage 2d6} 钝击伤害，并在法术持续时间内被{@condition restrained}。",
-				"作为一个动作，你可以让这只手压碎目标{@condition restrained}，目标必须进行一次力量豁免。在豁免失败时，目标会受到{@damage 2d6} 钝击伤害，豁免成功时则只受到一半伤害。",
-				"要挣脱，{@condition restrained}目标可以使用其动作对抗你的法术豁免 DC 进行力量检定。若成功，目标成功逃脱，并不再被{@condition restrained}的束缚。",
-				"作为一个动作，你可以让这只手伸向另一个生物，或者移动到射程内的另一个未被占据的空间。如果你这样做，手会释放一个{@condition restrained}目标。"
+				"You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes {@damage 2d6} bludgeoning damage and is {@condition restrained} for the spell's duration.",
+				"As an action, you can cause the hand to crush the {@condition restrained} target, which must make a Strength saving throw. The target takes {@damage 2d6} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+				"To break out, the {@condition restrained} target can use its action to make a Strength check against your spell save DC. On a success, the target escapes and is no longer {@condition restrained} by the hand.",
+				"As an action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a {@condition restrained} target if you do either."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -3196,14 +3196,14 @@
 				}
 			],
 			"entries": [
-				"你在空间中创造了六颗微小的流星。它们漂浮在空中并围绕着你旋转，持续整个法术的时间。当你施放这个法术时，以及之后每个回合的奖励动作中，你可以消耗一颗或两颗流星，将它们射向你选择的一个或多个点，距离你不超过120英尺。一旦一颗流星到达目的地或撞击到坚实表面，它就会爆炸。每个在流星爆炸点5英尺范围内的生物必须进行一次敏捷豁免。生物在未通过豁免时受到{@damage 2d6}火焰伤害，通过时受到一半伤害。"
+				"You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell\u2014and as a bonus action on each of your turns thereafter\u2014you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes {@damage 2d6} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用4级或更高级别的法术位施放这个法术时，所创造的流星数量会每个高于3级的法术位等级增加两个。"
+						"When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd."
 					]
 				}
 			],
@@ -3253,7 +3253,7 @@
 				}
 			],
 			"entries": [
-				"你尝试将一只生物困在一个只有它能感知到的幻觉牢笼中。在施法距离内，你可以看见的一只生物必须进行一次智力豁免检定。如果目标对于被 {@condition charmed} 免疫，则自动成功。在豁免成功时，目标受到 {@damage 5d10} 精神伤害，并且法术结束。在豁免失败时，目标受到 {@damage 5d10} 精神伤害，并且你让目标周围的区域立即显现出对其构成某种危险的方式。你可以让目标感知自己被火围困、漂浮的剃刀或者充满滴牙的可怕口器包围。无论幻觉采取何种形式，目标都无法看见或听到其它任何事物，并且对于法术的持续时间内处于 {@condition restrained}。如果目标被移出幻觉、通过幻觉进行近战攻击，或者将身体的任何部分伸入其中，目标会受到 {@damage 10d10} 精神伤害，并且法术结束。"
+				"You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being {@condition charmed}. On a successful save, the target takes {@damage 5d10} psychic damage, and the spell ends. On a failed save, the target takes {@damage 5d10} psychic damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can't see or hear anything beyond it and is {@condition restrained} for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes {@damage 10d10} psychic damage, and the spell ends."
 			],
 			"damageInflict": [
 				"psychic"
@@ -3312,13 +3312,13 @@
 				}
 			],
 			"entries": [
-				"一座石头堡垒从你在射程内能看到的一个你选择的方形地面上冒出来。这个区域每边长120英尺，上面不能有任何建筑物或其他结构。在这个区域内的任何生物在堡垒升起时会被轻轻地抬起，不会受到伤害。",
-				"这座要塞有四个带有方形底座的炮塔，每个炮塔边长20英尺，高30英尺，每个角落都有一个炮塔。这些炮塔通过长80英尺的石墙连接在一起，形成一个封闭的区域。每堵墙厚1英尺，由每块宽10英尺，高20英尺的面板组成。每块面板与其他两块面板或一块面板和一个炮塔相邻。您可以在要塞外墙上放置高达四扇石门。",
-				"一个小堡垒矗立在封闭区域内。这座堡垒有一个边长为50英尺的方形基座，有三层，每层的天花板高10英尺。每层可以分成任意多个房间，只要每个房间至少有一边长5英尺。堡垒的各层通过石阶连接，墙壁厚6英寸，内部房间可以选择石门或敞开的拱门。堡垒的家具和装饰可以按照你的喜好摆放，里面有足够的食物，每天可以为最多100人提供九道菜的宴会。由此法术创造的家具、食物和其他物品如果从堡垒中移除就会化为尘土。",
-				"当你施放这个法术时，一百名隐形仆从将服从你指定的生物的任何命令。每个仆从的功能就像是由《隐形仆从》法术所创造的一样。",
-				"城墙、炮塔和堡垒都是由可以被破坏的石头构成的。每个10英尺×10英尺的石头部分具有AC 15和每英寸厚度30点生命值。它对毒素和精神伤害免疫。将一部分石头的生命值降低到0会摧毁它，并可能导致连接的部分在DM酌情下变形和坍塌。",
-				"在7天后或者当你在其他地方施放这个法术时，这座堡垒会无害地瓦解并沉入地下，将里面的任何生物安全地留在地面上。",
-				"每隔7天在同一地点施放这个法术，持续一年，就能使这座堡垒永久存在。(fortress)"
+				"A fortress of stone erupts from a square area of ground of your choice that you can see within range. The area is 120 feet on each side, and it must not have any buildings or other structures on it. Any creatures in the area are harmlessly lifted up as the fortress rises.",
+				"The fortress has four turrets with square bases, each one 20 feet on a side and 30 feet tall, with one turret on each corner. The turrets are connected to each other by stone walls that are each 80 feet long, creating an enclosed area. Each wall is 1 foot thick and is composed of panels that are 10 feet wide and 20 feet tall. Each panel is contiguous with two other panels or one other panel and a turret. You can place up to four stone doors in the fortress's outer wall.",
+				"A small keep stands inside the enclosed area. The keep has a square base that is 50 feet on each side, and it has three floors with 10-foot-high ceilings. Each of the floors can be divided into as many rooms as you like, provided each room is at least 5 feet on each side. The floors of the keep are connected by stone staircases, its walls are 6 inches thick, and interior rooms can have stone doors or open archways as you choose. The keep is furnished and decorated however you like, and it contains sufficient food to serve a nine-course banquet for up to 100 people each day. Furnishings, food, and other objects created by this spell crumble to dust if removed from the fortress.",
+				"A staff of one hundred invisible servants obeys any command given to them by creatures you designate when you cast the spell. Each servant functions as if created by the unseen servant spell.",
+				"The walls, turrets, and keep are all made of stone that can be damaged. Each 10-foot-by-10-foot section of stone has AC 15 and 30 hit points per inch of thickness. It is immune to poison and psychic damage. Reducing a section of stone to 0 hit points destroys it and might cause connected sections to buckle and collapse at the DM's discretion.",
+				"After 7 days or when you cast this spell somewhere else, the fortress harmlessly crumbles and sinks back into the ground, leaving any creatures that were inside it safely on the ground.",
+				"Casting this spell on the same spot once every 7 days for a year makes the fortress permanent."
 			],
 			"damageImmune": [
 				"poison",
@@ -3363,14 +3363,14 @@
 				}
 			],
 			"entries": [
-				"你伸手进入你能看到范围内的一只生物的思维。目标必须进行一次感知豁免才能，失败则受到{@damage 3d8}点精神伤害，成功则减半。如果豁免失败，你还会一直知道目标的位置，直到法术结束，但只有在你们在同一存在平面时才有效。当你拥有这个知识时，目标无法对你隐藏，如果它是{@condition invisible}，则对你不会获得任何优势。"
+				"You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking {@damage 3d8} psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it's {@condition invisible}, it gains no benefit from that condition against you."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或更高级别的法术位施放此法术时，伤害将每个高于2级的法术位等级增加{@scaledamage 3d8|2-9|1d8}。"
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d8|2-9|1d8} for each slot level above 2nd."
 					]
 				}
 			],
@@ -3428,16 +3428,16 @@
 				}
 			],
 			"entries": [
-				"你选择在射程内能看到并且符合5英尺立方体大小的一块土壤或石头。你可以用以下方式之一来操控它：",
+				"You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:",
 				{
 					"type": "list",
 					"items": [
-						"如果你瞄准一片松散的土地，你可以立即挖掘它，沿着地面移动，并将其移动到最多5英尺以外。这种移动不会产生足够的力量造成损坏。",
-						"你可以在泥土或石头上制造出形状、颜色，或者两者兼而有之，拼出文字，创造图像，或者塑造图案。这些变化持续1小时。",
-						"如果你瞄准的泥土或石头在地面上，你可以使其变成{@quickref difficult terrain||3}。或者，如果地面已经是{@quickref difficult terrain||3}，你可以使其恢复成普通地形。这种改变持续1小时。"
+						"If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.",
+						"You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.",
+						"If the dirt or stone you target is on the ground, you cause it to become {@quickref difficult terrain||3}. Alternatively, you can cause the ground to become normal terrain if it is already {@quickref difficult terrain||3}. This change lasts for 1 hour."
 					]
 				},
-				"如果你多次施放这个法术，你一次最多只能有两个非瞬时效果同时生效，并且你可以将这样的效果作为一个动作来解除。"
+				"If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
 			],
 			"miscTags": [
 				"DFT",
@@ -3476,8 +3476,8 @@
 				}
 			],
 			"entries": [
-				"你向你能看到的一个生物发送负能量的丝带。除非目标是不死生物，否则它必须进行一次体质豁免才能，未通过则受到{@damage 5d12}点死灵伤害，通过则只受到一半伤害。被此伤害杀死的目标会在你的下一个回合开始时变成{@creature zombie}。这个僵尸会追逐它能看到的离它最近的生物。{@creature zombie}的统计数据在《怪物手册》中。",
-				"如果你以这个法术瞄准一个不死生物，目标不需要进行豁免检定。相反，掷骰{@dice 5d12}。目标获得总数一半的临时生命值。"
+				"You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking {@damage 5d12} necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a {@creature zombie} at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the {@creature zombie} are in the Monster Manual.",
+				"If you target an undead with this spell, the target doesn't make a saving throw. Instead, roll {@dice 5d12}. The target gains half the total as temporary hit points."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -3522,9 +3522,9 @@
 				}
 			],
 			"entries": [
-				"你说出一个能量之词，让一只你能看见的生物遭受剧烈疼痛的冲击波。如果目标生物的生命值为100点或更少，它将受到严重疼痛的影响。否则，该法术对其无效。如果目标对{@condition charmed}免疫，它也不受影响。",
-				"当目标受到痛苦折磨时，其速度不能超过10英尺。目标在攻击检定、能力检定和豁免检定中都有劣势，除了体质豁免检定。最后，如果目标试图施放法术，必须首先成功进行一次体质豁免检定，否则施法失败，法术被浪费。",
-				"受到这种疼痛影响的目标可以在每个回合结束时进行一次体质豁免检定。在成功豁免后，疼痛结束。"
+				"You speak a word of power that causes waves of intense pain to assail one creature you can see within range. If the target has 100 hit points or fewer, it is subject to crippling pain. Otherwise, the spell has no effect on it. A target is also unaffected if it is immune to being {@condition charmed}.",
+				"While the target is affected by crippling pain, any speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to cast a spell, it must first succeed on a Constitution saving throw, or the casting fails and the spell is wasted.",
+				"A target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends."
 			],
 			"savingThrow": [
 				"constitution"
@@ -3563,8 +3563,8 @@
 				}
 			],
 			"entries": [
-				"你引导原始魔法，使你的牙齿或指甲变得锋利，准备进行腐蚀性攻击。对你周围5英尺内的一个生物进行一次近战法术攻击。命中后，目标受到{@damage 1d10}点酸性伤害。攻击结束后，你的牙齿或指甲恢复正常。",
-				"当你达到5级（{@damage 2d10}），11级（{@damage 3d10}）和17级（{@damage 4d10}）时，该法术的伤害增加了{@dice 1d10}。"
+				"You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes {@damage 1d10} acid damage. After you make the attack, your teeth or fingernails return to normal.",
+				"The spell's damage increases by {@dice 1d10} when you reach 5th level ({@damage 2d10}), 11th level ({@damage 3d10}), and 17th level ({@damage 4d10})."
 			],
 			"scalingLevelDice": {
 				"label": "acid damage",
@@ -3627,8 +3627,8 @@
 				}
 			],
 			"entries": [
-				"在法术持续时间内，你对酸性、冰冷、火焰、闪电和雷电伤害具有抗性。",
-				"当你受到这些类型伤害之一时，你可以使用你的反应来获得对该类型伤害的免疫，包括对触发伤害的免疫。如果你这样做，抗性结束，你将获得免疫直到你的下一个回合结束时，此时法术结束。"
+				"You have resistance to acid, cold, fire, lightning, and thunder damage for the spell's duration.",
+				"When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends."
 			],
 			"damageResist": [
 				"acid",
@@ -3673,9 +3673,9 @@
 				}
 			],
 			"entries": [
-				"你释放你的心灵力量，轰击你能看到范围内的最多十个你选择的生物的智力。智力得分为2或更低的生物不受影响。",
-				"每个目标必须进行一次智力豁免投骰。未能通过豁免的目标会受到{@damage 14d6}点精神伤害，并且会被{@condition stunned}。成功通过豁免的目标会受到一半伤害，并且不会被{@condition stunned}。如果一个目标被这个伤害杀死，它的头会爆炸，如果它有头的话。",
-				"一个{@condition stunned}目标可以在其每个回合结束时进行一次智力豁免投掷。在成功豁免后，眩晕效果结束。"
+				"You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.",
+				"Each target must make an Intelligence saving throw. On a failed save, a target takes {@damage 14d6} psychic damage and is {@condition stunned}. On a successful save, a target takes half as much damage and isn't {@condition stunned}. If a target is killed by this damage, its head explodes, assuming it has one.",
+				"A {@condition stunned} target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends."
 			],
 			"damageInflict": [
 				"psychic"
@@ -3728,19 +3728,19 @@
 				}
 			],
 			"entries": [
-				"选择你能看到且符合射程内的一个5英尺立方体范围内的非魔法火焰区域。你可以熄灭那个区域的火焰，并在这样做时创造烟花或烟雾。",
+				"Choose an area of nonmagical flame that you can see and that fits within a 5-foot cube within range. You can extinguish the fire in that area, and you create either fireworks or smoke when you do so.",
 				{
 					"type": "entries",
 					"name": "Fireworks",
 					"entries": [
-						"目标爆炸，释放出令人眼花缭乱的色彩。每个在目标周围10英尺范围内的生物必须进行一次体质豁免才能通过，否则会在你的下一个回合结束前变为{@condition blinded}。"
+						"The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become {@condition blinded} until the end of your next turn."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Smoke",
 					"entries": [
-						"目标处散发出浓厚的黑烟，覆盖半径20英尺的范围，可以沿着拐角移动。烟雾区域视野受到严重阻碍。烟雾持续1分钟，或者直到强风将其吹散。"
+						"Thick black smoke spreads out from the target in a 20-foot radius, moving around corners. The area of the smoke is heavily obscured. The smoke persists for 1 minute or until a strong wind disperses it."
 					]
 				}
 			],
@@ -3787,7 +3787,7 @@
 				}
 			],
 			"entries": [
-				"空气在你选择的最多五个能看到的生物周围颤动。一个不愿意的生物必须成功进行一次感知豁免才能抵抗这个法术。你将每个受影响的目标传送到你能看到的距离不超过120英尺的未占用空间。那个空间必须在地面上或地板上。"
+				"The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Wisdom saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you. That space must be on the ground or on a floor."
 			],
 			"savingThrow": [
 				"wisdom"
@@ -3833,15 +3833,15 @@
 				}
 			],
 			"entries": [
-				"你编织阴影之线，创造出一把凝固阴暗的剑在你手中。这把魔法剑持续到咒语结束。它被视为一种简单的近战武器，你熟练地使用它。它在命中时造成{@damage 2d8}点心灵伤害，并具有灵巧、轻便和投掷特性（射程20/60）。此外，当你使用这把剑攻击处于微光或黑暗中的目标时，你进行攻击骰时获得优势。",
-				"如果你丢弃了武器或扔掉它，它会在回合结束时消失。此后，在法术持续期间，你可以使用一个奖励动作使剑重新出现在你的手中。"
+				"You weave together threads of shadow to create a sword of solidified gloom in your hand. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals {@damage 2d8} psychic damage on a hit and has the finesse, light, and thrown properties (range 20/60). In addition, when you use the sword to attack a target that is in dim light or darkness, you make the attack roll with advantage.",
+				"If you drop the weapon or throw it, it dissipates at the end of the turn. Thereafter, while the spell persists, you can use a bonus action to cause the sword to reappear in your hand."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或4级法术槽施放此法术时，伤害增加至{@dice 3d8}。当你使用5级或6级法术槽施放时，伤害增加至{@dice 4d8}。当你使用7级或更高级法术槽施放时，伤害增加至{@dice 5d8}。"
+						"When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to {@dice 3d8}. When you cast it using a 5th- or 6th-level spell slot, the damage increases to {@dice 4d8}. When you cast it using a spell slot of 7th level or higher, the damage increases to {@dice 5d8}."
 					]
 				}
 			],
@@ -3890,8 +3890,8 @@
 				}
 			],
 			"entries": [
-				"火焰般的阴影缠绕着你的身体，直到法术结束，使你对他人变得极为模糊。这些阴影将你周围10英尺内的微弱光线变成黑暗，将同一区域内的强光变成微弱光线。",
-				"在咒语持续期间，你对辐射伤害具有抗性。此外，每当距离你10英尺内的生物用攻击命中你时，阴影会对该生物发动攻击，对其造成{@damage 2d8}点死灵伤害。"
+				"Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 10 feet of you into darkness, and bright light in the same area to dim light.",
+				"Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it {@damage 2d8} necrotic damage."
 			],
 			"damageResist": [
 				"radiant"
@@ -3950,17 +3950,17 @@
 				}
 			],
 			"entries": [
-				"你选择一个你能看到且在射程内的水域，它必须在一个5英尺立方体内。你可以用以下方式之一操纵它：",
+				"You choose an area of water that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:",
 				{
 					"type": "list",
 					"items": [
-						"你可以瞬间移动或改变水流的方向，最多可朝任何方向移动5英尺。这种移动不会产生足够的力量造成伤害。",
-						"你让水形成简单的形状，并按照你的指示进行动画。这种变化持续1小时。",
-						"你改变水的颜色或透明度。水的变化在整个持续时间内保持一致。这种变化持续1小时。",
-						"冻结水，前提是其中没有生物。水在1小时后解冻。"
+						"You instantaneously move or otherwise change the flow of the water as you direct, up to 5 feet in any direction. This movement doesn't have enough force to cause damage.",
+						"You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.",
+						"You change the water's color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.",
+						"You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour."
 					]
 				},
-				"如果你多次施放这个法术，你一次最多只能有两个非瞬时效果同时生效，并且你可以将这样的效果作为一个动作来解除。"
+				"If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
 			],
 			"miscTags": [
 				"SGT"
@@ -4003,8 +4003,8 @@
 				}
 			],
 			"entries": [
-				"在你选择的范围内，以一个半径为30英尺的球心散发出微弱的绿色光芒。光线可以穿过角落传播，并持续到法术结束。",
-				"当一个生物在一个回合内第一次进入法术区域或者在那里开始它的回合时，该生物必须成功进行一次体质豁免才能免受{@damage 4d10}辐射伤害，并且它会受到{@condition exhaustion}的影响并在5英尺半径内散发出微弱的绿光。这道光让生物无法从{@condition invisible}中受益。当法术结束时，光线和由此法术引起的任何{@condition exhaustion}等级都会消失。"
+				"Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.",
+				"When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take {@damage 4d10} radiant damage, and it suffers one level of {@condition exhaustion} and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being {@condition invisible}. The light and any levels of {@condition exhaustion} caused by this spell go away when the spell ends."
 			],
 			"damageInflict": [
 				"radiant"
@@ -4052,8 +4052,8 @@
 				}
 			],
 			"entries": [
-				"你的魔法加深了生物对自身天赋的理解。你触摸一个愿意的生物，并赋予它你选择的一项技能的专长；直到法术结束，该生物在使用所选技能进行的能力检定中，其熟练加值翻倍。",
-				"你必须选择一个目标已经精通的技能，且该技能尚未受到任何效果的影响，比如（Expertise）专家，该效果会使其熟练加值翻倍。"
+				"Your magic deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.",
+				"You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus."
 			],
 			"areaTags": [
 				"ST"
@@ -4101,7 +4101,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"你可以让最多十个词在你能看到的天空中形成。这些词似乎是由云朵组成的，并会在法术持续时间内保持在原地。当法术结束时，这些词会消散。强风可以吹散云朵并提前结束法术。"
+				"You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early."
 			],
 			"miscTags": [
 				"SGT"
@@ -4142,11 +4142,11 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你使用绳子在地面或地板上创建一个半径为5英尺的圆圈。当你完成施法时，绳子消失，圆圈变成一个魔法陷阱。",
-				"这个陷阱几乎看不见，需要成功进行一个智力检定（{@skill Investigation}）来辨认。",
-				"当一个小型、中型或大型生物进入法术半径内的地面或地板时，陷阱会触发。该生物必须成功进行一次敏捷豁免才能避免被魔法提升到空中，悬挂在离地面或地板3英尺的地方。该生物会一直悬挂在那里，直到法术结束。",
-				"一个{@condition restrained}生物可以在每个回合结束时进行一次敏捷豁免，若成功则结束效果。或者，该生物或其他能够接触到它的人可以使用一个动作，对你的法术豁免 DC 进行一次智力检定。若成功，{@condition restrained}效果结束。",
-				"陷阱被触发后，当没有任何生物被其影响时，法术结束。"
+				"As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap.",
+				"This trap is nearly invisible, requiring a successful Intelligence ({@skill Investigation}) check against your spell save DC to be discerned.",
+				"The trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell's radius. That creature must succeed on a Dexterity saving throw or be magically hoisted into the air, leaving it hanging upside down 3 feet above the ground or the floor. The creature is {@condition restrained} there until the spell ends.",
+				"A {@condition restrained} creature can make a Dexterity saving throw at the end of each of its turns, ending the effect on itself on a success. Alternatively, the creature or someone else who can reach it can use an action to make an Intelligence ({@skill Arcana}) check against your spell save DC. On a success, the {@condition restrained} effect ends.",
+				"After the trap is triggered, the spell ends when no creature is {@condition restrained} by it."
 			],
 			"conditionInflict": [
 				"restrained"
@@ -4197,14 +4197,14 @@
 				}
 			],
 			"entries": [
-				"一阵魔法雪球从你选择的范围内的一点爆发出来。以那一点为中心的5英尺半径球体内的每个生物必须进行一次敏捷豁免检定。在未通过豁免检定的情况下，生物会受到{@damage 3d6}的冰冷伤害，通过检定的生物则只受到一半伤害。"
+				"A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@damage 3d6} cold damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或更高级别的法术位施放此法术时，伤害将每个高于2级的法术位等级增加{@scaledamage 3d6|2-9|1d6}。"
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level above 2nd."
 					]
 				}
 			],
@@ -4256,36 +4256,36 @@
 				}
 			],
 			"entries": [
-				"这个法术在人类死亡时夺取其灵魂，并将其困在你用作物质组成部分的小笼子里。被偷窃的灵魂会一直留在笼子里，直到法术结束或者你摧毁了笼子，这会终止法术。当你在笼子里有一个灵魂时，你可以以以下任何方式利用它。你可以最多使用一个被困的灵魂六次。一旦你为第六次利用灵魂，它就会被释放，法术也会结束。在灵魂被困住的时候，它来自的死去人类无法被复活。",
+				"This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.",
 				{
 					"type": "entries",
 					"name": "Steal Life",
 					"entries": [
-						"你可以使用一个奖励动作从灵魂中汲取活力，恢复{@dice 2d8}点生命值。"
+						"You can use a bonus action to drain vigor from the soul and regain {@dice 2d8} hit points."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Query Soul",
 					"entries": [
-						"你向灵魂提出一个问题（无需采取行动），然后收到一个简短的心灵感应回答，无论使用何种语言，你都能理解。灵魂只知道它在生前知道的事情，但必须如实回答你，并尽力而为。答案不超过一两句话，可能会有些神秘。"
+						"You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Borrow Experience",
 					"entries": [
-						"你可以使用一个奖励动作来增强自己的灵魂生活经验，使你的下一个攻击骰、能力检定或豁免骰获得优势。如果你在下一个回合开始之前没有使用这个好处，它就会消失。"
+						"You can use a bonus action to bolster yourself with the soul's life experience, making your next attack roll, ability check, or saving throw with advantage. If you don't use this benefit before the start of your next turn, it is lost."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Eyes of the Dead",
 					"entries": [
-						"你可以使用一个动作来命名一个生物在生命中看到过的地方，如果这个地方在你目前所在的存在平面上，将在那个地方创建一个隐形传感器。传感器会持续存在，只要你集中精力，最多不超过10分钟（就像你在施放{@status concentration||concentrating}法术一样）。你会从传感器那里接收到视觉和听觉信息，就好像你用自己的感官在那个空间里一样。"
+						"You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were {@status concentration||concentrating} on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses."
 					]
 				},
-				"一个能看到传感器（比如使用{@spell see invisibility}或{@sense truesight}的生物）的生物，会看到被你关押的受折磨的人类灵魂的半透明影像。"
+				"A creature that can see the sensor (such as one using {@spell see invisibility} or {@sense truesight}) sees a translucent image of the tormented humanoid whose soul you caged."
 			],
 			"affectsCreatureType": [
 				"humanoid"
@@ -4328,8 +4328,8 @@
 				}
 			],
 			"entries": [
-				"你挥舞着用于施法的武器，然后瞬间消失，如风般袭击。选择你能看到范围内的最多五个生物。对每个目标进行一次近战法术攻击。命中则目标受到{@damage 6d10}的力量伤害。",
-				"你可以传送到你击中或未击中的目标之一附近5英尺内的一个你能看到的空地。"
+				"You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes {@damage 6d10} force damage.",
+				"You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
 			],
 			"damageInflict": [
 				"force"
@@ -4385,16 +4385,16 @@
 				}
 			],
 			"entries": [
-				"一个半径为20英尺的旋转空气球在你选择的范围内的一个点上出现。这个球会持续整个法术的持续时间。当球出现时或者结束回合时在球内的每个生物必须进行一次力量豁免检定，否则会受到{@damage 2d6} 震荡伤害。这个球的空间是{@quickref difficult terrain||3}。",
-				"在咒语持续期间，你可以在每个回合使用一个奖励动作，使一道闪电从球体中心跳向你选择的距离中心60英尺内的一个生物。进行一次远程法术攻击。如果目标在球体内，你对攻击骰有优势。命中时，目标受到{@damage 4d6} 闪电伤害。",
-				"在距离该球体30英尺范围内的生物，在进行感知技能检定时，对感知（{@skill Perception}）检定有劣势。"
+				"A 20-foot-radius sphere of whirling air springs into existence, centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@damage 2d6} bludgeoning damage. The sphere's space is {@quickref difficult terrain||3}.",
+				"Until the spell ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes {@damage 4d6} lightning damage.",
+				"Creatures within 30 feet of the sphere have disadvantage on Wisdom ({@skill Perception}) checks made to listen."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用5级或更高级别的法术位施放这个法术时，每个效果的伤害都会随着超过4级的法术位等级增加 {@scaledamage 2d6;4d6|4-9|1d6}。"
+						"When you cast this spell using a spell slot of 5th level or higher, the damage for each of its effects increases by {@scaledamage 2d6;4d6|4-9|1d6} for each slot level above 4th."
 					]
 				}
 			],
@@ -4456,17 +4456,17 @@
 				}
 			],
 			"entries": [
-				"你说出邪恶的咒语，从混沌的深渊中召唤出一个恶魔。你可以选择恶魔的类型，必须是{@filter one of challenge rating 5 or lower|bestiary|challenge rating=[&0;&5]|tag=demon|miscellaneous=!swarm}，比如一个{@creature shadow demon}或者一个{@creature barlgura}。恶魔出现在你能看到的范围内的一个空位，当恶魔的生命值降至0或法术结束时，恶魔会消失。",
-				"为恶魔投掷先攻骰，它有自己的回合。当你召唤它以及在之后的每个回合，你可以向它发出口头命令（不需要你采取任何行动），告诉它在下一个回合必须做什么。如果你没有下达命令，它会花费回合攻击任何攻击过它的可触及生物。",
-				"在每个恶魔的回合结束时，它需要进行一次魅力豁免检定。如果你说出它的真名，恶魔在这次豁免检定中处于劣势。如果未通过检定，恶魔将继续服从你的命令。如果通过了检定，你对恶魔的控制在剩余的持续时间内结束，恶魔会花费它的回合追击并攻击最近的非恶魔目标，尽其所能。如果在法术达到完整持续时间之前你停止{@status concentration||concentrating}，一个失控的恶魔如果仍有生命值，将在{@dice 1d6}回合内不会消失。",
-				"作为施放咒语的一部分，你可以用作为材料组成部分的血在地面上形成一个圆圈。这个圆圈足够大，可以包围你的空间。在咒语持续期间，被召唤的恶魔不能穿过这个圆圈或伤害它，也不能瞄准圈内的任何人。以这种方式使用材料组成部分会在咒语结束时消耗它。"
+				"You utter foul words, summoning one demon from the chaos of the Abyss. You choose the demon's type, which must be {@filter one of challenge rating 5 or lower|bestiary|challenge rating=[&0;&5]|tag=demon|miscellaneous=!swarm}, such as a {@creature shadow demon} or a {@creature barlgura}. The demon appears in an unoccupied space you can see within range, and the demon disappears when it drops to 0 hit points or when the spell ends.",
+				"Roll initiative for the demon, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.",
+				"At the end of each of the demon's turns, it makes a Charisma saving throw. The demon has disadvantage on this saving throw if you say its true name. On a failed save, the demon continues to obey you. On a successful save, your control of the demon ends for the rest of the duration, and the demon spends its turns pursuing and attacking the nearest non-demons to the best of its ability. If you stop {@status concentration||concentrating} on the spell before it reaches its full duration, an uncontrolled demon doesn't disappear for {@dice 1d6} rounds if it still has hit points.",
+				"As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demon can't cross the circle or harm it, and it can't target anyone within it. Using the material component in this manner consumes it when the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用5级或更高级别的法术位施放此法术时，挑战等级将每超过4级的位级增加1。"
+						"When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th."
 					]
 				}
 			],
@@ -4516,7 +4516,7 @@
 				}
 			],
 			"entries": [
-				"你口出恶言，唤起混沌深渊中的恶魔。投掷以下骰表来决定出现什么。",
+				"You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -4556,20 +4556,20 @@
 									"max": 6
 								}
 							},
-							"八 {@filter demons of challenge rating 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|tag=demon|miscellaneous=!swarm}"
+							"Eight {@filter demons of challenge rating 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|tag=demon|miscellaneous=!swarm}"
 						]
 					]
 				},
-				"DM选择恶魔，比如{@creature manes}或{@creature dretch||dretches}，而你选择它们出现的范围内你能看到的未被占据的空间。一个被召唤的恶魔在其生命值降至0或法术结束时消失。",
-				"恶魔对所有生物都怀有敌意，包括你。为召唤出的恶魔群体投掷先攻骰来确定他们的行动顺序。这些恶魔会追击并攻击最近的非恶魔生物，尽其所能。",
-				"作为施法的一部分，你可以用作为材料组件的血在地面上画一个圆圈。这个圆圈足够大，能够包围你的空间。在法术持续期间，召唤出的恶魔不能穿过圆圈或伤害它，也不能瞄准圆圈内的任何人。以这种方式使用材料组件会在法术结束时消耗它。"
+				"The DM chooses the demons, such as {@creature manes} or {@creature dretch||dretches}, and you choose the unoccupied spaces you can see within range where they appear. A summoned demon disappears when it drops to 0 hit points or when the spell ends.",
+				"The demons are hostile to all creatures, including you. Roll initiative for the summoned demons as a group, which has its own turns. The demons pursue and attack the nearest non-demons to the best of their ability.",
+				"As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can't cross the circle or harm it, and they can't target anyone within it. Using the material component in this manner consumes it when the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用6级或7级法术位施放这个法术时，你召唤两倍数量的恶魔。如果你使用8级或9级法术位施放它，你召唤三倍数量的恶魔。"
+						"When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons."
 					]
 				}
 			],
@@ -4608,8 +4608,8 @@
 				}
 			],
 			"entries": [
-				"你选择范围内的一个点，让心灵能量在那里爆炸。以该点为中心的20英尺半径球体内的每个生物必须进行一次智力豁免检定。智力分数为2或更低的生物不受此法术影响。在豁免失败时，目标受到{@damage 8d6}点心灵伤害；在豁免成功时，受到一半伤害。",
-				"在一次失败的豁免检定后，目标的思维变得混乱，持续1分钟。在此期间，它投掷一个{@dice d6}，并从所有的攻击检定、能力检定以及维持{@status concentration}的体质豁免检定中减去所投掷的数字。目标可以在每个回合结束时进行一次智力豁免检定，若成功则结束效应。"
+				"You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this spell. A target takes {@damage 8d6} psychic damage on a failed save, or half as much damage on a successful one.",
+				"After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a {@dice d6} and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain {@status concentration}. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success."
 			],
 			"damageInflict": [
 				"psychic"
@@ -4659,14 +4659,14 @@
 				}
 			],
 			"entries": [
-				"你在你能看到的范围内引发一个庙宇闪烁出现。这座庙宇必须适应一个边长最多为120英尺的未被占据的空间立方体内。这座庙宇会一直存在，直到法术结束。它是奉献给由施法时使用的神圣符号所代表的任何神、诸神或哲学。",
-				"你可以决定庙宇的外观。内部由地板、墙壁和屋顶围合，有一扇门可以进入内部，以及你希望的任意数量的窗户。只有你和在施法时指定的生物可以打开或关闭门。",
-				"寺庙的内部是一个开放的空间，一端有一个偶像或祭坛。您可以决定寺庙是否被照亮，以及照明是明亮的光线还是昏暗的光线。燃烧香味弥漫在空气中，温度适中。",
-				"当你施放这个法术时，寺庙会排斥你选择的生物类型。选择以下一种或多种：天神 (celestials), 元素生物 (elementals), 精灵 (fey), 恶魔 (fiends), 或不死生物 (undead)。如果一只属于所选类型的生物试图进入寺庙，那个生物必须进行一次魅力豁免检定。如果未通过豁免，它将无法进入寺庙24小时。即使生物能够进入寺庙，那里的魔法也会阻碍它；每当它在寺庙内进行攻击骰、技能检定或豁免骰时，它必须投掷一个{@dice d4}，并从{@dice d20}检定中减去所投掷的数字。",
-				"此外，由占卜法术创造的传感器不能出现在神庙内部，神庙内的生物也不能被占卜法术所瞄准。",
-				"最后，每当寺庙中的任何生物从1级或更高级别的法术中恢复生命值时，该生物额外恢复的生命值等于你的感知调整值（最少1点生命值）。（Wisdom）",
-				"这座寺庙由不透明的魔法力量构成，延伸至虚空位面，因此阻止了虚空旅行进入寺庙内部。没有任何物质能够穿过寺庙的外部。它不能被{@spell dispel magic}解除，{@spell antimagic field}对其无效。一种{@spell disintegrate}法术会立即摧毁这座寺庙。",
-				"每天在同一地点施放这个法术，持续一年，将使这个效果永久化。"
+				"You cause a temple to shimmer into existence on ground you can see within range. The temple must fit within an unoccupied cube of space, up to 120 feet on each side. The temple remains until the spell ends. It is dedicated to whatever god, pantheon, or philosophy is represented by the holy symbol used in the casting.",
+				"You make all decisions about the temple's appearance. The interior is enclosed by a floor, walls, and a roof, with one door granting access to the interior and as many windows as you wish. Only you and any creatures you designate when you cast the spell can open or close the door.",
+				"The temple's interior is an open space with an idol or altar at one end. You decide whether the temple is illuminated and whether that illumination is bright light or dim light. The smell of burning incense fills the air within, and the temperature is mild.",
+				"The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a {@dice d4} and subtract the number rolled from the {@dice d20} roll.",
+				"In addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.",
+				"Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).",
+				"The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by {@spell dispel magic}, and {@spell antimagic field} has no effect on it. A {@spell disintegrate} spell destroys the temple instantly.",
+				"Casting this spell on the same spot every day for a year makes this effect permanent."
 			],
 			"savingThrow": [
 				"charisma"
@@ -4719,19 +4719,19 @@
 				}
 			],
 			"entries": [
-				"你赋予自己魔法驱动的耐力和武术能力。直到法术结束，你无法施放法术，并获得以下好处：",
+				"You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你获得50点临时生命值。如果在法术结束时仍有任何剩余的生命值，它们将会消失。",
-						"你在使用普通和军用武器进行攻击时获得优势。",
-						"当你用武器攻击命中目标时，该目标会受到额外{@damage 2d12}的力量伤害。",
-						"你精通所有盔甲、盾牌、简单武器和军用武器。",
-						"你在力量和体质豁免检定上有熟练加值。",
-						"当你在你的回合中执行{@action Attack}动作时，你可以攻击两次，而不是一次。如果你已经拥有类似额外攻击(Extra Attack)这样给予你额外攻击机会的特性，你将忽略这个效果。"
+						"You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.",
+						"You have advantage on attack rolls that you make with simple and martial weapons.",
+						"When you hit a target with a weapon attack, that target takes an extra {@damage 2d12} force damage.",
+						"You have proficiency with all armor, shields, simple weapons, and martial weapons.",
+						"You have proficiency in Strength and Constitution saving throws.",
+						"You can attack twice, instead of once, when you take the {@action Attack} action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
 					]
 				},
-				"在法术结束后立即，你必须成功通过一次 DC 15 的体质豁免才能避免受到一级 {@condition exhaustion} 的影响。"
+				"Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of {@condition exhaustion}."
 			],
 			"damageInflict": [
 				"force"
@@ -4776,15 +4776,15 @@
 				}
 			],
 			"entries": [
-				"你将自己传送到你能看到的范围内的一个未被占据的空间。在你消失后立即传来一声巨大的轰鸣声，离你离开的空间10英尺内的每个生物必须进行一次体质豁免检定，未通过检定的生物将受到{@damage 3d10} 雷属性伤害，通过检定的生物受到一半伤害。这声雷鸣声可以传播到300英尺之外。",
-				"你可以携带物品，只要它们的重量不超过你能承受的重量。你还可以传送一个愿意的、与你大小相同或更小的生物，该生物携带的装备不超过其负重能力。当你施放这个法术时，该生物必须在你身边5英尺内，且在目的地附近5英尺内必须有一个空位让该生物出现；否则，该生物将被留在原地。"
+				"You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds, and each creature within 10 feet of the space you left must make a Constitution saving throw, taking {@damage 3d10} thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.",
+				"You can bring along objects as long as their weight doesn't exceed what you can carry. You can also teleport one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用4级或更高级别的法术位施放这个法术时，伤害将每超过3级的位数增加{@scaledamage 3d10|3-9|1d10}。"
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 3d10|3-9|1d10} for each slot level above 3rd."
 					]
 				}
 			],
@@ -4836,8 +4836,8 @@
 				}
 			],
 			"entries": [
-				"你制造出一阵轰鸣的雷声，可以在100英",
-				"当你达到5级（{@damage 2d6}）时，咒语的伤害增加了{@dice 1d6}，当你达到11级（{@damage 3d6}）和17级（{@damage 4d6}）时，伤害也会增加。"
+				"You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must make a Constitution saving throw or take {@damage 1d6} thunder damage.",
+				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
 				"label": "thunder damage",
@@ -4897,7 +4897,7 @@
 				}
 			],
 			"entries": [
-				"你召唤出一股水浪，冲击射程内的一个区域。该区域可以长达30英尺，宽度可达10英尺，高度可达10英尺。该区域内的每个生物必须进行一次敏捷豁免检定。未通过豁免检定的生物会受到{@damage 4d8} 的钝击伤害并被击倒{@condition prone}。通过豁免检定的生物会受到一半伤害且不会被击倒{@condition prone}。水浪随后向所有方向扩散，熄灭其范围内以及30英尺内的未受保护的火焰，然后消失。"
+				"You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 4d8} bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then it vanishes."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -4944,16 +4944,16 @@
 				}
 			],
 			"entries": [
-				"你触摸一个微小的、非魔法的物体，它不与其他物体或表面相连，也不被其他生物携带。目标会变得有生命，长出小手小脚，成为你控制下的生物，直到法术结束或该生物的生命值降至0点。查看 {@creature tiny servant|xge|stat block} 以获取它的属性。",
-				"作为一个额外动作，你可以在距离你120英尺内的生物进行精神指令。 (如果你用这个法术控制多个生物，你可以同时指挥任何一个或全部生物，对每一个发出相同的指令。) 你决定生物将采取什么行动以及在下一个回合它将移动到哪里，或者你可以发出一个简单的、一般性的指令，比如去拿钥匙、守夜，或者整理一些书。如果你没有下达指令，仆从除了抵御敌对生物外什么也不做。一旦接到命令，仆从将继续遵循该命令直到任务完成。",
-				"当生物的生命值降至0点时，它会恢复到原始形态，并且任何剩余伤害会继续作用在那个形态上。"
+				"You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See the {@creature tiny servant|xge|stat block} for its statistics.",
+				"As a bonus action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.",
+				"When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用4级或更高级别的法术位施放这个法术时，你可以为每个高于3级的法术位级别额外激活两个物体。"
+						"When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd."
 					]
 				}
 			],
@@ -4993,8 +4993,8 @@
 				}
 			],
 			"entries": [
-				"你指向你能看到的一个生物，在它周围响起了一阵悲伤的钟声。目标必须成功进行一次感知豁免才能避免受到{@damage 1d8}死灵伤害。如果目标失去了任何生命值，它将受到{@damage 1d12}死灵伤害。",
-				"当你达到5级（%0%或%1%）时，法术的伤害增加一个骰子；当你达到11级（%2%或%3%）时，伤害再次增加一个骰子；当你达到17级（%4%或%5%）时，伤害再次增加一个骰子。"
+				"You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take {@damage 1d8} necrotic damage. If the target is missing any of its hit points, it instead takes {@damage 1d12} necrotic damage.",
+				"The spell's damage increases by one die when you reach 5th level ({@damage 2d8} or {@damage 2d12}), 11th level ({@damage 3d8} or {@damage 3d12}), and 17th level ({@damage 4d8} or {@damage 4d12})."
 			],
 			"scalingLevelDice": [
 				{
@@ -5069,21 +5069,21 @@
 				}
 			],
 			"entries": [
-				"你选择一个在你能看到的范围内、符合40英尺立方体内的石头或泥土区域，并选择以下效果之一。",
+				"You choose an area of stone or mud that you can see that fits within a 40-foot cube and is within range, and choose one of the following effects.",
 				{
 					"type": "entries",
 					"name": "Transmute Rock to Mud",
 					"entries": [
-						"该区域内的任何非魔法岩石都会变成相同体积的浓稠流动泥浆，在法术持续时间内保持不变。"
+						"Nonmagical rock of any sort in the area becomes an equal volume of thick, flowing mud that remains for the spell's duration."
 					]
 				},
-				"该法术影响区域内的地面变得足够泥泞，生物可能会陷入其中。每移动一英尺，生物在泥泞中的移动速度会减少4英尺，当你施放该法术时，地面上的任何生物都必须进行一次力量豁免检定。生物在其回合内首次移动到该区域或在该区域结束回合时，也必须进行豁免检定。未通过豁免检定的生物会陷入泥中，并受到{@condition restrained}效果，不过它可以使用一个动作来结束自身的{@condition restrained}状态，从泥中挣脱出来。",
-				"如果你在天花板上施放这个法术，泥巴会掉落下来。当泥巴掉落时，任何生物都必须进行一次敏捷豁免检定。在豁免失败时，生物会受到{@damage 4d8} 钝击伤害，而在豁免成功时则只受到一半伤害。",
+				"The ground in the spell's area becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make the saving throw when it moves into the area for the first time on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is {@condition restrained}, though it can use an action to end the {@condition restrained} condition on itself by pulling itself free of the mud.",
+				"If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes {@damage 4d8} bludgeoning damage on a failed save, or half as much damage on a successful one.",
 				{
 					"type": "entries",
 					"name": "Transmute Mud to Rock",
 					"entries": [
-						"在该区域内，不超过10英尺深的非魔法泥浆或流沙会在法术持续时间内变成软石。当泥浆变成石头时，其中的任何生物必须进行一次敏捷豁免检定。豁免成功的生物会安全地被推到表面的一个空位上。豁免失败的生物会被石头{@condition restrained}。一个{@condition restrained}生物，或者附近的另一个生物，可以使用一个动作来尝试通过成功进行一次DC 20的力量检定或对其造成伤害来打破石头。石头的防御等级为15，有25点生命值，并且对毒素和精神伤害免疫。"
+						"Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes {@condition restrained} by the rock. A {@condition restrained} creature, or another creature within reach, can use an action to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and it is immune to poison and psychic damage."
 					]
 				}
 			],
@@ -5147,14 +5147,14 @@
 				}
 			],
 			"entries": [
-				"你指向范围内的一个位置，一颗发光的直径为1英尺的翡翠酸球飞到那里，爆炸形成一个半径为20英尺的球体。该区域内的每个生物必须进行一次敏捷豁免检定。未通过豁免的生物会受到{@damage 10d4}点酸性伤害，并在其下一个回合结束时再受到{@damage 5d4}点酸性伤害。通过豁免的生物会受到初始伤害的一半，并在其下一个回合结束时不再受到伤害。"
+				"You point at a location within range, and a glowing 1-foot-diameter ball of emerald acid streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 10d4} acid damage and another {@damage 5d4} acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用5级或更高级别的法术位施放这个法术时，初始伤害将每个高于4级的法术位等级增加{@scaledamage 10d4|4-9|2d4}。"
+						"When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by {@scaledamage 10d4|4-9|2d4} for each slot level above 4th."
 					]
 				}
 			],
@@ -5203,17 +5203,17 @@
 				}
 			],
 			"entries": [
-				"在你选择的范围内出现一道闪闪发光的亮光墙。你可以选择墙壁的任何方向：水平、垂直或对角。它可以自由悬浮，也可以靠在坚实的表面上。这道墙可以长达60英尺，高达10英尺，厚达5英尺。墙壁会阻挡视线，但生物和物体可以穿过它。它向外发出明亮的光，照亮120英尺范围内的区域，并在额外的120英尺范围内发出昏暗的光。",
-				"当墙壁出现时，其区域内的每个生物必须进行一次体质豁免投掷。未通过豁免的生物会受到{@damage 4d8}辐射伤害，并且会被{@condition blinded}，持续1分钟。通过豁免的生物会受到一半伤害，并且不会被{@condition blinded}。一只{@condition blinded}生物可以在其每个回合结束时进行一次体质豁免投掷，成功则结束效果。",
-				"一个生物如果结束回合时位于墙壁的区域内，会受到{@damage 4d8}辐射伤害。",
-				"在咒语持续期间，你可以使用一个动作，从墙壁上发射一道光辉射线，瞄准你能看见的距离60英尺内的一名生物。进行一次远程法术攻击。命中则目标受到{@damage 4d8}辐射伤害。无论是否命中，墙壁的长度都会减少10英尺。如果墙壁的长度降至0英尺，咒语结束。"
+				"A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.",
+				"When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes {@damage 4d8} radiant damage, and it is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded}. A {@condition blinded} creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				"A creature that ends its turn in the wall's area takes {@damage 4d8} radiant damage.",
+				"Until the spell ends, you can use an action to launch a beam of radiance from the wall at one creature you can see within 60 feet of it. Make a ranged spell attack. On a hit, the target takes {@damage 4d8} radiant damage. Whether you hit or miss, reduce the length of the wall by 10 feet. If the wall's length drops to 0 feet, the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用6级或更高级别的法术位施放这个法术时，伤害将每个高于5级的位级增加{@scaledamage 4d8|5-9|1d8}。"
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 4d8|5-9|1d8} for each slot level above 5th."
 					]
 				}
 			],
@@ -5279,7 +5279,7 @@
 				}
 			],
 			"entries": [
-				"你在施法距离内可见的地点制造一堵旋转沙墙。你可以使墙长达30英尺，高10英尺，厚10英尺，法术结束时墙消失。它阻挡视线但不阻碍移动。生物在墙内空间时速度降为原来的{@condition blinded}，每移动1英尺需花费额外3英尺的移动力。"
+				"You create a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is {@condition blinded} while in the wall's space and must spend 3 feet of movement for every 1 foot it moves there."
 			],
 			"conditionInflict": [
 				"blinded"
@@ -5339,8 +5339,8 @@
 				}
 			],
 			"entries": [
-				"你在你能看到的范围内的一个点上创建了一堵水墙。你可以让这堵墙长达30英尺，高10英尺，厚1英尺，或者你可以制造一个直径最多20英尺，高20英尺，厚1英尺的环形墙。法术结束时，墙壁消失。墙壁的空间是{@quickref difficult terrain||3}。",
-				"任何射程武器攻击进入墙壁的空间时，攻击骰有劣势，并且如果火焰效果穿过墙壁到达目标，火焰伤害减半。穿过墙壁的造成冷伤害的法术会导致它们穿过的墙壁区域结冰（至少有一个5英尺的正方形区域被冻结）。每个5英尺的正方形冻结区域的防御等级为5，拥有15点生命值。将冻结区域的生命值降至0会摧毁它。当一个区域被摧毁时，墙壁的水不会填充它。"
+				"You create a wall of water on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall's space is {@quickref difficult terrain||3}.",
+				"Any ranged weapon attack that enters the wall's space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot-square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall's water doesn't fill it."
 			],
 			"miscTags": [
 				"DFT",
@@ -5388,16 +5388,16 @@
 				}
 			],
 			"entries": [
-				"一股强风（20英里每小时）在你周围的10英尺半径内吹动，并随着你移动，始终保持在你中心。这股风持续到法术结束。",
-				"风有以下效果：",
+				"A strong wind (20 miles per hour) blows around you in a 10-foot radius and moves with you, remaining centered on you. The wind lasts for the spell's duration.",
+				"The wind has the following effects:",
 				{
 					"type": "list",
 					"items": [
-						"它{@condition deafened||deafens}你和其他区域内的生物。",
-						"它可以扑灭其范围内未受保护的火焰，火炬大小或更小。",
-						"它阻挡了可能被强风吹散的蒸汽、气体和雾气。",
-						"该区域对于除了你以外的生物是 {@quickref difficult terrain||3}。",
-						"如果攻击穿过或受到风的影响，远程武器攻击的攻击骰有劣势。"
+						"It {@condition deafened||deafens} you and other creatures in its area.",
+						"It extinguishes unprotected flames in its area that are torch-sized or smaller.",
+						"It hedges out vapor, gas, and fog that can be dispersed by strong wind.",
+						"The area is {@quickref difficult terrain||3} for creatures other than you.",
+						"The attack rolls of ranged weapon attacks have disadvantage if the attacks pass in or out of the wind."
 					]
 				}
 			],
@@ -5449,11 +5449,11 @@
 				}
 			],
 			"entries": [
-				"你在施法距离内能看见的点上召唤出一个半径为5英尺的水球。这个水球可以悬浮，但不能超过离地面10英尺的高度。水球会持续到法术结束。",
-				"在球体的空间内的任何生物必须进行一次力量豁免检定。豁免成功的生物会被从该空间中喷射出去，到离球体外最近的未被占据的空间。巨大或更大的生物会自动成功豁免检定，而大型或更小的生物可以选择失败。豁免失败的生物会被球体所{@condition restrained}，并被水所吞噬。在其每个回合结束时，被{@condition restrained}的目标可以重复进行豁免检定，成功时可以结束自身的影响。",
-				"这个球体可以限制多达四个中等或更小的生物，或一个大型生物。如果球体限制了一个生物，使其超过这个容量，那么已经被球体限制的一个随机生物将从中掉出来，落在它附近5英尺内的一个空间中。",
-				"作为一个动作，你可以沿直线将球移动最多30英尺。如果它移动经过一个坑、悬崖或其他悬崖，它会安全地下降，直到悬浮在离地面10英尺的位置。任何被球{@condition restrained}碰到的生物都会随着它移动。你可以把球撞向生物，迫使它们进行豁免扑。",
-				"当法术结束时，球体掉落到地面上，并熄灭其周围30英尺范围内的所有普通火焰。任何被球体影响到的生物{@condition restrained}会被击倒，并落在球体掉落的位置。然后水会消失。"
+				"You conjure up a sphere of water with a 5-foot radius at a point you can see within range. The sphere can hover but no more than 10 feet off the ground. The sphere remains for the spell's duration.",
+				"Any creature in the sphere's space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space of the creature's choice outside the sphere. A Huge or larger creature succeeds on the saving throw automatically, and a Large or smaller creature can choose to fail it. On a failed save, a creature is {@condition restrained} by the sphere and is engulfed by the water. At the end of each of its turns, a {@condition restrained} target can repeat the saving throw, ending the effect on itself on a success.",
+				"The sphere can restrain as many as four Medium or smaller creatures or one Large creature. If the sphere restrains a creature that causes it to exceed this capacity, a random creature that was already {@condition restrained} by the sphere falls out of it and lands {@condition prone} in a space within 5 feet of it.",
+				"As an action, you can move the sphere up to 30 feet in a straight line. If it moves over a pit, a cliff, or other drop-off, it safely descends until it is hovering 10 feet above the ground. Any creature {@condition restrained} by the sphere moves with it. You can ram the sphere into creatures, forcing them to make the saving throw.",
+				"When the spell ends, the sphere falls to the ground and extinguishes all normal flames within 30 feet of it. Any creature {@condition restrained} by the sphere is knocked {@condition prone} in the space where it falls. The water then vanishes."
 			],
 			"conditionInflict": [
 				"prone",
@@ -5509,9 +5509,9 @@
 				}
 			],
 			"entries": [
-				"一阵旋风呼啸着朝着你可以看到的范围内的地面点涌去。这个旋风是一个以该点为中心的半径10英尺，高30英尺的圆柱体。直到法术结束，你可以使用你的动作将旋风沿着地面朝任意方向移动30英尺。旋风会吸走任何未固定在任何物体上且未被任何人穿戴或携带的中型或更小的物体。",
-				"一个生物在其进入旋风或旋风进入其空间的回合首次进行敏捷豁免才能，包括旋风首次出现时。生物在豁免失败时受到{@damage 10d6} 震荡伤害，豁免成功时受到一半伤害。此外，一个大型或更小的生物如果未能通过豁免，则必须在力量豁免中成功，否则将被{@condition restrained} 直到法术结束。当一个生物在旋风旁边开始其回合时，该生物被拉到里面更高5英尺，除非生物已经在顶部。一个{@condition restrained} 生物会随着旋风移动，并在法术结束时掉落，除非生物有某种方法可以停留在空中。",
-				"一个{@condition restrained}生物可以使用一个动作，对你的法术豁免 DC 进行一次力量或敏捷检定。如果成功，该生物不再被旋风所束缚，并被从中心随机方向甩出{@dice 3d6 × 10}英尺。"
+				"A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.",
+				"A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes {@damage 10d6} bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become {@condition restrained} in the whirlwind until the spell ends. When a creature starts its turn {@condition restrained} by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A {@condition restrained} creature moves with the whirlwind and falls when the spell ends, unless the creature has some means to stay aloft.",
+				"A {@condition restrained} creature can use an action to make a Strength or Dexterity check against your spell save DC. If successful, the creature is no longer {@condition restrained} by the whirlwind and is hurled {@dice 3d6 × 10} feet away from it in a random direction."
 			],
 			"damageInflict": [
 				"bludgeoning"
@@ -5565,8 +5565,8 @@
 				}
 			],
 			"entries": [
-				"你低吟一道神圣之词，炽热的光辉从你身上迸发。你能看到的范围内，每个你选择的生物必须进行一次体质豁免才能，否则将受到{@damage 1d6}点辐射伤害。",
-				"当你达到5级（{@damage 2d6}）时，咒语的伤害增加了{@dice 1d6}，当你达到11级（{@damage 3d6}）和17级（{@damage 4d6}）时，伤害也会增加。"
+				"You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take {@damage 1d6} radiant damage.",
+				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
 			],
 			"scalingLevelDice": {
 				"label": "radiant damage",
@@ -5625,33 +5625,33 @@
 				}
 			],
 			"entries": [
-				"你呼唤大自然的灵魂来唤醒它们对抗你的敌人。选择一个你能看到的范围内的点。这些灵魂会使得在以那个点为中心的60英尺立方体内的树木、岩石和草丛变得有生命力，直到法术结束。",
+				"You call out to the spirits of nature to rouse them against your enemies. Choose a point you can see within range. The spirits cause trees, rocks, and grasses in a 60-foot cube centered on that point to become animated until the spell ends.",
 				{
 					"type": "entries",
 					"name": "Grasses and Undergrowth",
 					"entries": [
-						"在立方体中被草或灌木覆盖的任何地面区域对你的敌人来说都是{@quickref difficult terrain||3}。"
+						"Any area of ground in the cube that is covered by grass or undergrowth is {@quickref difficult terrain||3} for your enemies."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Trees",
 					"entries": [
-						"在你的每个回合开始时，在立方体内任何树木的10英尺范围内的每个敌人必须进行一次敏捷豁免检定，否则将受到{@damage 4d6}来自鞭打树枝的斩击伤害。"
+						"At the start of each of your turns, each of your enemies within 10 feet of any tree in the cube must succeed on a Dexterity saving throw or take {@damage 4d6} slashing damage from whipping branches."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Roots and Vines",
 					"entries": [
-						"在你的每个回合结束时，你可以选择一个在该立方体内的地面上的生物，该生物必须成功进行一次力量豁免才能免疫 {@condition restrained}，直到法术结束。一个 {@condition restrained} 生物可以使用一个动作，对抗你的法术豁免 DC 进行一次力量 ({@skill Athletics}) 检定，若成功则结束自身的效果。"
+						"At the end of each of your turns, one creature of your choice that is on the ground in the cube must succeed on a Strength saving throw or become {@condition restrained} until the spell ends. A {@condition restrained} creature can use an action to make a Strength ({@skill Athletics}) check against your spell save DC, ending the effect on itself on a success."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Rocks",
 					"entries": [
-						"作为你的回合的奖励动作，你可以让方块内的一块松动的岩石朝你能看到的生物发射。对目标进行远程法术攻击。命中后，目标受到{@damage 3d8}非魔法钝击伤害，并且必须成功进行一次力量豁免才能不倒下{@condition prone}。"
+						"As a bonus action on your turn, you can cause a loose rock in the cube to launch at a creature you can see in the cube. Make a ranged spell attack against the target. On a hit, the target takes {@damage 3d8} nonmagical bludgeoning damage, and it must succeed on a Strength saving throw or fall {@condition prone}."
 					]
 				}
 			],
@@ -5715,8 +5715,8 @@
 				}
 			],
 			"entries": [
-				"你移动如风。直到这个法术结束，你的移动不会引发机会攻击。",
-				"在咒语结束前的某个时刻，你可以让自己在你的回合中的一次武器攻击投掷中获得优势。这次攻击在命中时额外造成{@damage 1d8}点的力量伤害。无论你是否命中，你的移动速度将在那个回合结束前增加30英尺。"
+				"You move like the wind. Until the spell ends, your movement doesn't provoke opportunity attacks.",
+				"Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra {@damage 1d8} force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn."
 			],
 			"damageInflict": [
 				"force"

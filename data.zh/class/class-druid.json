@@ -1,0 +1,4096 @@
+{
+	"class": [
+		{
+			"name": "Druid",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					{
+						"proficiency": "{@item shield|phb|shields}",
+						"full": "shields (druids will not wear armor or use shields made of metal)"
+					}
+				],
+				"weapons": [
+					"{@item club|phb|clubs}",
+					"{@item dagger|phb|daggers}",
+					"{@item dart|phb|darts}",
+					"{@item javelin|phb|javelins}",
+					"{@item mace|phb|maces}",
+					"{@item quarterstaff|phb|quarterstaffs}",
+					"{@item scimitar|phb|scimitars}",
+					"{@item sickle|phb|sickles}",
+					"{@item sling|phb|slings}",
+					"{@item spear|phb|spears}"
+				],
+				"tools": [
+					"{@item Herbalism kit|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"animal handling",
+								"insight",
+								"medicine",
+								"nature",
+								"perception",
+								"religion",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a wooden {@item shield|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item scimitar|phb} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=u~u~sand}",
+					"{@item Leather armor|phb}, an {@item explorer's pack|phb}, and a {@item druidic focus|phb}"
+				],
+				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"shield|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"scimitar|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimpleMelee"
+							}
+						]
+					},
+					{
+						"_": [
+							"Leather armor|phb",
+							"explorer's pack|phb",
+							{
+								"equipmentType": "focusSpellcastingDruidic"
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						{
+							"proficiency": "{@item shield|phb|shields}",
+							"full": "shields (druids will not wear armor or use shields made of metal)"
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Druid}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Druid}",
+						"{@filter 2nd|spells|level=2|class=Druid}",
+						"{@filter 3rd|spells|level=3|class=Druid}",
+						"{@filter 4th|spells|level=4|class=Druid}",
+						"{@filter 5th|spells|level=5|class=Druid}",
+						"{@filter 6th|spells|level=6|class=Druid}",
+						"{@filter 7th|spells|level=7|class=Druid}",
+						"{@filter 8th|spells|level=8|class=Druid}",
+						"{@filter 9th|spells|level=9|class=Druid}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Druidic|Druid||1",
+				"Spellcasting|Druid||1",
+				"Wild Shape|Druid||2",
+				"Wild Companion|Druid||2|TCE",
+				{
+					"classFeature": "Druid Circle|Druid||2",
+					"gainSubclassFeature": true
+				},
+				"Wild Shape Improvement|Druid||4",
+				"Ability Score Improvement|Druid||4",
+				"Cantrip Versatility|Druid||4|TCE",
+				{
+					"classFeature": "Druid Circle feature|Druid||6",
+					"gainSubclassFeature": true
+				},
+				"Wild Shape Improvement|Druid||8",
+				"Ability Score Improvement|Druid||8",
+				{
+					"classFeature": "Druid Circle feature|Druid||10",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Druid||12",
+				{
+					"classFeature": "Druid Circle feature|Druid||14",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Druid||16",
+				"Timeless Body|Druid||18",
+				"Beast Spells|Druid||18",
+				"Ability Score Improvement|Druid||19",
+				"Archdruid|Druid||20"
+			],
+			"subclassTitle": "Druid Circle",
+			"fluff": [
+				{
+					"name": "Druid",
+					"type": "section",
+					"entries": [
+						"一个精灵高举着缠绕着冬青的虬枝法杖，召唤出暴风雨的怒火，召唤出爆炸性的闪电，击打威胁她的森林的持火把的兽人。",
+						"一个人类以豹子的形态蹲在高高的树枝上，从丛林中窥视着邪恶元素空气神庙的奇怪建筑，密切关注着邪教分子的活动。",
+						"一个半精灵挥舞着由纯火形成的刀刃，冲向一大群骷髅兵，粉碎了赋予这些肮脏的生物以嘲弄的生命外观的非自然魔法。",
+						"无论是召唤自然界的元素力量还是模仿动物世界的生物，德鲁伊都是自然界的韧性、狡猾和愤怒的化身。他们并不声称自己掌握了自然。相反，他们认为自己是自然界不屈不挠的意志的延伸。",
+						{
+							"type": "entries",
+							"name": "Power of Nature",
+							"entries": [
+								"德鲁伊最崇尚自然，他们的法术和其他魔法力量要么来自自然的力量本身，要么来自自然神灵。许多德鲁伊人追求的是一种与自然超然结合的神秘灵性，而不是对一个神圣实体的奉献，而其他人则是为野生自然、动物或元素力量的神明服务。古老的德鲁伊传统有时被称为古老的信仰，与寺庙和神龛中的神灵崇拜形成对比。",
+								"德鲁伊的法术以自然和动物为导向--牙齿和爪子的力量，太阳和月亮的力量，火和风暴的力量。德鲁伊也获得了化身为动物的能力，一些德鲁伊对这种做法进行了特别的研究，甚至到了喜欢动物形态而不是自然形态的程度。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Preserve the Balance",
+							"entries": [
+								"对德鲁伊来说，自然界存在着一种不稳定的平衡。构成世界的四种元素--空气、土、火和水--必须保持平衡。如果一个元素获得了超越其他元素的力量，世界就会被摧毁，被卷入其中一个元素界，并被分解成其组成元素。因此，德鲁伊反对元素邪恶的邪教和其他提倡一种元素而排斥其他元素的人。",
+								"德鲁伊也关注维持植物和动物生命的微妙生态平衡，以及文明人与自然和谐共处而非相互对立的需要。德鲁伊接受自然中的残酷，憎恨不自然的事物，包括畸变生物（如眼光兽和思想吞噬者）和不死生物（如僵尸和吸血鬼）。德鲁伊有时会率领突袭行动对抗这些生物，尤其是当怪物侵犯德鲁伊领地时。",
+								"德鲁伊经常被发现守卫圣地或看守未受破坏的自然区域。但当出现重大危险，威胁到自然界的平衡或他们所保护的土地时，德鲁伊就会作为冒险者，在打击威胁方面发挥更积极的作用。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Druid",
+							"entries": [
+								"在制作德鲁伊时，要考虑为什么你的角色与自然有如此密切的联系。也许你的角色生活在一个旧信仰仍然兴盛的社会，或者在被遗弃在森林深处后被德鲁伊抚养长大。也许你的角色曾与自然之灵有过戏剧性的接触，与巨鹰或恶狼面对面，并在经历中幸存下来。也许你的角色出生在一场史诗般的风暴或火山爆发期间，这被解释为成为德鲁伊是你角色命运的一部分的标志。",
+								"你一直都是冒险家，这是你德鲁伊召唤的一部分，还是你最初是作为神圣丛林或泉水的看守人？也许你的家乡被邪恶所玷污，你开始了冒险生活，希望找到一个新的家园或目标。",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"你可以通过以下建议快速创建一个德鲁伊。首先，智力应该是你最高的能力值，其次是体质。其次，选择{@background hermit}背景。"
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Sacred Plants and Wood",
+							"entries": [
+								"德鲁伊认为某些植物是神圣的，特别是桤木、白蜡、桦树、接骨木、榛子、冬青、杜松、槲寄生、橡树、花楸、柳树和紫杉。德鲁伊经常使用这类植物作为施法重点的一部分，将橡木或紫杉的长度或槲寄生的枝条纳入其中。",
+								"同样，德鲁伊用这种木材来制作其他物品，如武器和盾牌。紫杉与死亡和重生有关，所以弯刀或镰刀的武器把手可能是用它制作的。灰木与生命有关，橡木与力量有关。这些木材可以制作出色的手杖或整个武器，如棍棒或四分法杖，以及盾牌。桤木与空气有关，它可以用来制作投掷武器，如飞镖或标枪。",
+								"来自缺乏这里描述的植物的地区的德鲁伊选择其他植物来承担类似的用途。例如，沙漠地区的德鲁伊可能重视丝兰树和仙人掌植物。"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Druids and the Gods",
+							"entries": [
+								"一些德鲁伊崇拜自然力量本身，但大多数德鲁伊崇拜多元宇宙中崇拜的众多自然神灵之一（附录B中的神祇名单包括许多这样的神灵）。崇拜这些神灵通常被认为比牧师和城市居民的信仰更古老。事实上，在格雷鹰世界中，德鲁伊信仰被称为旧信仰，它在农民、林民、渔民以及其他与自然密切相处的人群中有许多信徒。这一传统包括将自然崇拜为超越拟人化的原始力量，同时也包括对贝奥瑞（Oerth Mother）以及奥巴德-海（Obad-Hai）、艾露娜（Ehlonna）和乌拉（Ulaa）的崇拜。",
+								"在格雷鹰世界（Greyhawk）和被遗忘的国度（Forgotten Realms）中，德鲁伊圈通常不与单一自然神有关。例如，在被遗忘的国度中，任何一个德鲁伊圈可能包括崇拜西尔瓦纳斯（Silvanus）、米埃利基（Mielikki）、埃尔达斯（Eldath）、朝安提亚（Chauntea）甚至严酷的狂怒之神：泰洛斯（Talos）、马拉（Malar）、奥瑞尔（Auril）和安柏莉（Umberlee）的德鲁伊。这些自然神通常被称为第一圈，是德鲁伊中的第一人，大多数德鲁伊都认为他们（即使是暴力的神）都值得崇敬。",
+								"Eberron（埃伯隆）的德鲁伊信仰与至高主（Sovereign Host）、黑暗六（Dark Six）或世界上其他任何宗教完全无关。他们相信每一个生物和每一个自然现象——太阳、月亮、风、火以及世界本身——都有灵魂。因此，他们的法术是一种与这些灵魂沟通和命令的手段。然而，不同的德鲁伊派别对这些灵魂之间以及与文明力量之间的适当关系持有不同的哲学观点。例如，Ashbound（灰烬之约）认为奥术魔法是对自然的亵渎，Children of Winter（冬之子）崇拜死亡之力，而Gatekeepers（守门者）则保留古老传统，旨在保护世界免受畸变生物的侵袭。"
+							]
+						}
+					],
+					"source": "PHB",
+					"page": 64
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"即使在死亡中，每个生物都在维持大平衡中发挥自己的作用。但现在，一种不平衡在增长，一种试图控制自然的力量在增长。这就是凡人种族的破坏性行为。他们的行为离自然越远，他们的影响就越腐败。作为德鲁伊，我们主要寻求保护和教育，以维护大平衡，但有时我们必须奋起反抗危险，消灭它。"
+							],
+							"by": "Safhran, archdruid"
+						},
+						"德鲁伊是自然界的守护者，据说随着时间的推移，德鲁伊会成为自然的代言人，传达那些对一般大众而言太微妙以至难以听闻的真相。许多成为德鲁伊的人发现他们自然而然地被自然所吸引；自然的力量、循环和运动充满了他们的心灵和灵魂，赋予他们奇妙和洞察力。许多智者和智者们研究过自然，撰写了关于其神秘和力量的篇章，但德鲁伊是一种特殊的存在：在某个时刻，他们开始具体体现这些自然力量，产生将他们与自然精神和生命之流联系起来的魔法现象。由于他们奇异而神秘的力量，德鲁伊经常受到周围人的崇敬、避讳或被视为危险。",
+						"你的德鲁伊角色可能是一个真正的自然崇拜者，一个一直蔑视文明并在野外找到安慰的人。或者你的角色可能是一个城市的孩子，现在努力使文明世界与荒野和谐。你可以使用下面的章节来充实你的德鲁伊，无论你的角色是如何来到这个职业的。",
+						{
+							"type": "entries",
+							"name": "Treasured Item",
+							"entries": [
+								"有些德鲁伊会携带一件或多件对他们来说是神圣的或具有深刻个人意义的物品。这样的物品不一定有魔力，但每一件都是一件物品，其意义将德鲁伊的思想和心灵与一个深刻的概念或精神面貌联系在一起。",
+								"当你决定你的角色的珍贵物品时，考虑给它一个起源故事：你是如何得到这件物品的，它为什么对你如此重要？",
+								{
+									"type": "table",
+									"caption": "Treasured Item",
+									"colLabels": [
+										"{@dice d6}",
+										"Treasured Item"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"矗立在村庄中心的会议树上的一根树枝"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"一瓶来自圣河源头的水"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"捆绑在一起的特殊药材"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"刻有动物图像的小铜碗"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"用干葫芦和冬青果做的拨浪鼓"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你的导师传给你的一把微型金镰刀"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Guiding Aspects",
+							"entries": [
+								"许多德鲁伊感到与自然界的一个特定方面有很强的联系，比如一个水体、一种动物、一种树木或其他一些植物。你认同你所选择的方面；通过它的行为或它的本质，它树立了一个你试图效仿的榜样。",
+								{
+									"type": "table",
+									"caption": "Guiding Aspects",
+									"colLabels": [
+										"{@dice d6}",
+										"Guiding Aspects"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"紫杉树提醒你更新你的思想和精神，让旧的死去，新的涌现。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"橡树代表力量和活力。在橡树下冥想能使你的身体和心灵充满决心和毅力。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"河流的无尽流动让你想起了世界的巨大跨度。你力求在行动中考虑到自然界的长期利益。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"大海是一个恒定的、搅动着力量和混乱的大锅。它提醒你，接受变化是在这个世界上维持自己的必要条件。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"天空中的鸟儿证明，即使是最小的生物，如果它们保持在战场之上，也能生存。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"正如狼的行动所表明的那样，与狼群的力量相比，个人的力量算不了什么。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mentors",
+							"entries": [
+								"对于未来的德鲁伊来说，寻找（或被寻找）教官或长老教他们魔法艺术的基础知识是很平常的。大多数向导师学习的德鲁伊在年轻时就开始训练，导师在塑造学生的态度和信仰方面具有重要作用。",
+								"如果你的角色接受了别人的训练，那么这个人是谁或什么，你们之间的关系是什么性质的？你的导师是否给你灌输了特定的观点，或以其他方式影响你实现所选道路目标的方法？",
+								{
+									"type": "table",
+									"caption": "Mentors",
+									"colLabels": [
+										"{@dice d6}",
+										"Mentors"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"你的导师是一位聪明的树人，他教你以年和十年为单位思考问题，而不是以天或月为单位。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"你被一个守护着沉睡的深渊入口的干尸所教导。在你的训练中，你的任务是观察对世界的隐藏威胁。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你的导师总是以猎鹰的形式与你互动。你从未见过导师的人形。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"你是一个老德鲁伊指导的几个年轻人之一，直到你的一个同学背叛了你的团队并杀死了你的主人。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你的导师只在幻觉中出现在你面前。你还没有见过这个人，你也不确定这样一个人是否以凡人的形式存在。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你的导师是一个狼人，他教导你要平等对待所有生物。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Learning Beast Shapes",
+							"entries": [
+								"玩家手册中的 \"野性形态 \"功能可以让你变身为你见过的野兽。这条规则给了你极大的灵活性，使你很容易为自己积累一系列的野兽形态选择，但你必须遵守该书中的野兽形态表的限制。",
+								"当你作为二阶德鲁伊获得野性之形时，你可能会想知道你已经看到了哪些野兽。下面的表格根据野兽最可能出现的环境来组织怪物手册中的野兽。考虑一下你的德鲁伊成长的环境，然后参考相应的表格，看看你的德鲁伊在2级前可能已经看到的动物清单。",
+								"这些表格还可以帮助你和你的管理员确定你在旅行中可能会看到哪些动物。此外，这些表格还包括每只野兽的挑战等级，并指出野兽是否有飞行或游泳的速度。这些信息将帮助你确定你是否有资格变成该野兽的形态。",
+								"这些表格包括所有符合野生形状（最高挑战等级为1）或月亮圈的圈形特征（最高挑战等级为6）的个别野兽。",
+								{
+									"type": "table",
+									"caption": "Arctic",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Owl}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Blood hawk}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Giant owl}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Brown bear}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Polar bear}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Saber-toothed tiger}",
+											"—"
+										],
+										[
+											"6",
+											"{@creature Mammoth}",
+											"—"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Coast",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Crab}",
+											"Swim"
+										],
+										[
+											"0",
+											"{@creature Eagle}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Blood hawk}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Giant crab}",
+											"Swim"
+										],
+										[
+											"1/8",
+											"{@creature Poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/8",
+											"{@creature Stirge}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Giant lizard}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant wolf spider}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Pteranodon}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Giant eagle}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Giant toad}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Plesiosaurus}",
+											"Swim"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Desert",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Cat}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Hyena}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Jackal}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Scorpion}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Vulture}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Camel}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Flying snake}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Mule}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/8",
+											"{@creature Stirge}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Constrictor snake}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Giant lizard}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Giant wolf spider}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant hyena}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant spider}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant toad}",
+											"Swim"
+										],
+										[
+											"1",
+											"{@creature Giant vulture}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Lion}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Giant constrictor snake}",
+											"Swim"
+										],
+										[
+											"3",
+											"{@creature Giant scorpion}",
+											"—"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Forest",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Baboon}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Badger}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Cat}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Deer}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Hyena}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Owl}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Blood hawk}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Flying snake}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Giant rat}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Giant weasel}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/8",
+											"{@creature Mastiff}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Stirge}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Boar}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Constrictor snake}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Elk}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant badger}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant bat}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Giant frog}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Giant lizard}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant owl}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Giant poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Giant wolf spider}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Panther}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Wolf}",
+											"—"
+										],
+										[
+											"1/2",
+											"{@creature Ape}",
+											"—"
+										],
+										[
+											"1/2",
+											"{@creature Black bear}",
+											"—"
+										],
+										[
+											"1/2",
+											"{@creature Giant wasp}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Brown bear}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Dire wolf}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant hyena}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant spider}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant toad}",
+											"Swim"
+										],
+										[
+											"1",
+											"{@creature Tiger}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Giant boar}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Giant constrictor snake}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Giant elk}",
+											"—"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Grassland",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Cat}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Deer}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Eagle}",
+											"Fly"
+										],
+										[
+											"0",
+											"{@creature Goat}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Hyena}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Jackal}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Vulture}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Blood hawk}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Flying snake}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Giant weasel}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/8",
+											"{@creature Stirge}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Axe beak}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Boar}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Elk}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Giant wolf spider}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Panther} (豹)",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Pteranodon}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Riding horse}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Wolf}",
+											"—"
+										],
+										[
+											"1/2",
+											"{@creature Giant goat}",
+											"—"
+										],
+										[
+											"1/2",
+											"{@creature Giant wasp}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Giant eagle}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Giant hyena}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant vulture}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Lion}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Tiger}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Allosaurus}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Giant boar}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Giant elk}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Rhinoceros}",
+											"—"
+										],
+										[
+											"3",
+											"{@creature Ankylosaurus}",
+											"—"
+										],
+										[
+											"4",
+											"{@creature Elephant}",
+											"—"
+										],
+										[
+											"5",
+											"{@creature Triceratops}",
+											"—"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Hill",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Baboon}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Eagle}",
+											"Fly"
+										],
+										[
+											"0",
+											"{@creature Goat}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Hyena}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Raven}",
+											"Fly"
+										],
+										[
+											"0",
+											"{@creature Vulture}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Blood hawk}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Giant weasel}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Mastiff}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Mule}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/8",
+											"{@creature Stirge}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Axe beak}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Boar}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Elk}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant owl}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Giant wolf spider}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Panther} (美洲狮)",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Wolf}",
+											"—"
+										],
+										[
+											"1/2",
+											"{@creature Giant goat}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Brown bear}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Dire wolf}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant eagle}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Giant hyena}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Lion}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Giant boar}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Giant elk}",
+											"—"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Mountain",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Eagle}",
+											"Fly"
+										],
+										[
+											"0",
+											"{@creature Goat}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Blood hawk}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Stirge}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Pteranodon}",
+											"Fly"
+										],
+										[
+											"1/2",
+											"{@creature Giant goat}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant eagle}",
+											"Fly"
+										],
+										[
+											"1",
+											"{@creature Lion}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Giant elk}",
+											"—"
+										],
+										[
+											"2",
+											"{@creature Saber-toothed tiger}",
+											"—"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Swamp",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Rat}",
+											"—"
+										],
+										[
+											"0",
+											"{@creature Raven}",
+											"Fly"
+										],
+										[
+											"1/8",
+											"{@creature Giant rat}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/8",
+											"{@creature Stirge}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Constrictor snake}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Giant frog}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Giant lizard}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant poisonous snake}",
+											"Swim"
+										],
+										[
+											"1/2",
+											"{@creature Crocodile}",
+											"Swim"
+										],
+										[
+											"1",
+											"{@creature Giant spider}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant toad}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Giant constrictor snake}",
+											"Swim"
+										],
+										[
+											"5",
+											"{@creature Giant crocodile}",
+											"Swim"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Underdark",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Giant fire beetle}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Giant rat}",
+											"—"
+										],
+										[
+											"1/8",
+											"{@creature Stirge}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Giant bat}",
+											"Fly"
+										],
+										[
+											"1/4",
+											"{@creature Giant centipede}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant lizard}",
+											"—"
+										],
+										[
+											"1/4",
+											"{@creature Giant poisonous snake}",
+											"Swim"
+										],
+										[
+											"1",
+											"{@creature Giant spider}",
+											"—"
+										],
+										[
+											"1",
+											"{@creature Giant toad}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Giant constrictor snake}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Polar bear} （洞穴熊）",
+											"Swim"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Underwater",
+									"colLabels": [
+										"CR",
+										"Beast",
+										"Fly/Swim"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-8",
+										"col-2"
+									],
+									"rows": [
+										[
+											"0",
+											"{@creature Quipper}",
+											"Swim"
+										],
+										[
+											"1/4",
+											"{@creature Constrictor snake}",
+											"Swim"
+										],
+										[
+											"1/2",
+											"{@creature Giant sea horse}",
+											"Swim"
+										],
+										[
+											"1/2",
+											"{@creature Reef shark}",
+											"Swim"
+										],
+										[
+											"1",
+											"{@creature Giant octopus}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Giant constrictor snake}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Hunter shark}",
+											"Swim"
+										],
+										[
+											"2",
+											"{@creature Plesiosaurus}",
+											"Swim"
+										],
+										[
+											"3",
+											"{@creature Killer whale}",
+											"Swim"
+										],
+										[
+											"5",
+											"{@creature Giant shark}",
+											"Swim"
+										]
+									]
+								}
+							]
+						}
+					],
+					"source": "XGE",
+					"page": 21
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Circle of the Land",
+			"shortName": "Land",
+			"source": "PHB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 68,
+			"srd": true,
+			"additionalSpells": [
+				{
+					"name": "Arctic",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"hold person",
+							"spike growth"
+						],
+						"5": [
+							"sleet storm",
+							"slow"
+						],
+						"7": [
+							"freedom of movement",
+							"ice storm"
+						],
+						"9": [
+							"commune with nature",
+							"cone of cold"
+						]
+					}
+				},
+				{
+					"name": "Coast",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"mirror image",
+							"misty step"
+						],
+						"5": [
+							"water breathing",
+							"water walk"
+						],
+						"7": [
+							"control water",
+							"freedom of movement"
+						],
+						"9": [
+							"conjure elemental",
+							"scrying"
+						]
+					}
+				},
+				{
+					"name": "Desert",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"blur",
+							"silence"
+						],
+						"5": [
+							"create food and water",
+							"protection from energy"
+						],
+						"7": [
+							"blight",
+							"hallucinatory terrain"
+						],
+						"9": [
+							"insect plague",
+							"wall of stone"
+						]
+					}
+				},
+				{
+					"name": "Forest",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"barkskin",
+							"spider climb"
+						],
+						"5": [
+							"call lightning",
+							"plant growth"
+						],
+						"7": [
+							"divination",
+							"freedom of movement"
+						],
+						"9": [
+							"commune with nature",
+							"tree stride"
+						]
+					}
+				},
+				{
+					"name": "Grassland",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"invisibility",
+							"pass without trace"
+						],
+						"5": [
+							"daylight",
+							"haste"
+						],
+						"7": [
+							"divination",
+							"freedom of movement"
+						],
+						"9": [
+							"dream",
+							"insect plague"
+						]
+					}
+				},
+				{
+					"name": "Mountain",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"spider climb",
+							"spike growth"
+						],
+						"5": [
+							"lightning bolt",
+							"meld into stone"
+						],
+						"7": [
+							"stone shape",
+							"stoneskin"
+						],
+						"9": [
+							"passwall",
+							"wall of stone"
+						]
+					}
+				},
+				{
+					"name": "Swamp",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"darkness",
+							"Melf's acid arrow"
+						],
+						"5": [
+							"water walk",
+							"stinking cloud"
+						],
+						"7": [
+							"freedom of movement",
+							"locate creature"
+						],
+						"9": [
+							"insect plague",
+							"scrying"
+						]
+					}
+				},
+				{
+					"name": "Underdark",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					},
+					"prepared": {
+						"3": [
+							"spider climb",
+							"web"
+						],
+						"5": [
+							"gaseous form",
+							"stinking cloud"
+						],
+						"7": [
+							"greater invisibility",
+							"stone shape"
+						],
+						"9": [
+							"cloudkill",
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Circle of the Land|Druid||Land||2",
+				"Land's Stride|Druid||Land||6",
+				"Nature's Ward|Druid||Land||10",
+				"Nature's Sanctuary|Druid||Land||14"
+			]
+		},
+		{
+			"name": "Circle of the Moon",
+			"shortName": "Moon",
+			"source": "PHB",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 69,
+			"additionalSpells": [
+				{
+					"known": {
+						"14": [
+							"alter self"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Circle of the Moon|Druid||Moon||2",
+				"Primal Strike|Druid||Moon||6",
+				"Elemental Wild Shape|Druid||Moon||10",
+				"Thousand Forms|Druid||Moon||14"
+			]
+		},
+		{
+			"name": "Circle of Dreams",
+			"shortName": "Dreams",
+			"source": "XGE",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 22,
+			"subclassFeatures": [
+				"Circle of Dreams|Druid||Dreams|XGE|2",
+				"Hearth of Moonlight and Shadow|Druid||Dreams|XGE|6",
+				"Hidden Paths|Druid||Dreams|XGE|10",
+				"Walker in Dreams|Druid||Dreams|XGE|14"
+			]
+		},
+		{
+			"name": "Circle of the Shepherd",
+			"shortName": "Shepherd",
+			"source": "XGE",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 23,
+			"subclassFeatures": [
+				"Circle of the Shepherd|Druid||Shepherd|XGE|2",
+				"Mighty Summoner|Druid||Shepherd|XGE|6",
+				"Guardian Spirit|Druid||Shepherd|XGE|10",
+				"Faithful Summons|Druid||Shepherd|XGE|14"
+			]
+		},
+		{
+			"name": "Circle of Spores",
+			"shortName": "Spores",
+			"source": "TCE",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 36,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 26
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"chill touch#c"
+						]
+					},
+					"prepared": {
+						"3": [
+							"blindness/deafness",
+							"gentle repose"
+						],
+						"5": [
+							"animate dead",
+							"gaseous form"
+						],
+						"7": [
+							"blight",
+							"confusion"
+						],
+						"9": [
+							"cloudkill",
+							"contagion"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Circle of Spores|Druid||Spores|TCE|2",
+				"Fungal Infestation|Druid||Spores|TCE|6",
+				"Spreading Spores|Druid||Spores|TCE|10",
+				"Fungal Body|Druid||Spores|TCE|14"
+			]
+		},
+		{
+			"name": "Circle of Stars",
+			"shortName": "Stars",
+			"source": "TCE",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 38,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"guidance#c"
+						]
+					},
+					"prepared": {
+						"2": [
+							"guiding bolt"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Circle of Stars|Druid||Stars|TCE|2",
+				"Cosmic Omen|Druid||Stars|TCE|6",
+				"Twinkling Constellations|Druid||Stars|TCE|10",
+				"Full of Stars|Druid||Stars|TCE|14"
+			]
+		},
+		{
+			"name": "Circle of Wildfire",
+			"shortName": "Wildfire",
+			"source": "TCE",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 39,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"2": [
+							"burning hands",
+							"cure wounds"
+						],
+						"3": [
+							"flaming sphere",
+							"scorching ray"
+						],
+						"5": [
+							"plant growth",
+							"revivify"
+						],
+						"7": [
+							"aura of life",
+							"fire shield"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Circle of Wildfire|Druid||Wildfire|TCE|2",
+				"Enhanced Bond|Druid||Wildfire|TCE|6",
+				"Cauterizing Flames|Druid||Wildfire|TCE|10",
+				"Blazing Revival|Druid||Wildfire|TCE|14"
+			]
+		},
+		{
+			"name": "Circle of the Blighted",
+			"shortName": "Blighted",
+			"source": "TDCSR",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 171,
+			"subclassFeatures": [
+				"Circle of the Blighted|Druid|PHB|Blighted|TDCSR|2",
+				"Call of the Shadowseeds|Druid|PHB|Blighted|TDCSR|6",
+				"Defile Ground (10th Level)|Druid|PHB|Blighted|TDCSR|10",
+				"Defile Ground (14th Level)|Druid|PHB|Blighted|TDCSR|14",
+				"Foul Conjuration|Druid|PHB|Blighted|TDCSR|10",
+				"Incarnation of Corruption|Druid|PHB|Blighted|TDCSR|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Druidic",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"你懂得{@language Druidic}，德鲁伊的秘密语言。你可以说这种语言并用它留下隐藏信息。你和其他懂得这种语言的人会自动发现这样的信息。其他人需要通过一次成功的DC 15感知检定({@skill Perception})才能发现信息的存在，但没有魔法的话无法解读它。"
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"汲取自然本身的神圣精华，你可以施放法术来塑造这种本质以符合你的意志。查看{@book chapter 10|PHB|10}了解施法的一般规则，{@book chapter 11|PHB|11}了解{@filter druid spell list|spells|class=druid}。",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"在1级时，你可以从{@filter druid spell list|spells|level=0|class=druid}中选择两个法术。随着你等级的提升，你可以学习更多德鲁伊法术，具体请参考德鲁伊表格中的已知法术栏。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"德鲁伊表格显示你有多少法术位来施放你的{@filter druid spells|spells|class=druid}1级及更高级法术。要施放这些德鲁伊法术之一，你必须消耗一个等级高于或等级相同的法术位。当你完成一次长休时，你会恢复所有已消耗的法术位。",
+						"你准备可供你施展的德鲁伊法术清单，从德鲁伊法术清单中选择。当你这样做时，选择与你的智慧修正值+你的德鲁伊等级相等的德鲁伊法术数量（最少一个法术）。这些法术的等级必须是你有法术槽的。",
+						"例如，如果你是一名3级德鲁伊，你有四个1级和两个2级法术位。拥有16点感知的智慧，你准备的法术清单可以包括六个1级或2级法术，任意组合。如果你准备了1级法术{@spell cure wounds}，你可以使用1级或2级法术位施放它。施放该法术不会将其从你准备的法术清单中移除。",
+						"你也可以在完成一次长休后更改你准备的法术清单。准备新的德鲁伊法术清单需要花费时间进行祈祷和冥想：每个法术的准备至少需要1分钟，每个法术等级。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"智慧是你作为德鲁伊法术的施法能力，因为你的魔法源自于你对自然的奉献和调和。每当一个法术提到你的施法能力时，你就使用你的智慧。此外，当你施放德鲁伊法术并设定豁免 DC 时，以及进行攻击检定时，你也使用你的智慧修正值。",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"wis"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual Casting",
+					"entries": [
+						"如果德鲁伊法术有仪式标签并且你已经准备好了该法术，你可以将该法术作为一个仪式来施放。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"你可以使用{@item druidic focus|phb}作为你的德鲁伊法术的施法焦点。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Druid Circle",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"在2级时，你可以从可用的圈子列表中选择认同一个德鲁伊的圈子。你的选择在2级时授予你特性，在6级、10级和14级时再次授予你特性。"
+			]
+		},
+		{
+			"name": "Wild Companion",
+			"source": "TCE",
+			"page": 35,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"name": "Wild Shape"
+			},
+			"entries": [
+				"{@i 2nd-level druid {@variantrule optional class features|tce|optional feature}}",
+				"你获得了召唤一个灵魂并假扮成动物形态的能力：作为一个动作，你可以消耗一次你的野性变身特性来施放{@spell find familiar}法术，无需材料组件。",
+				"当你以这种方式施法时，熟悉的人是费伊而不是野兽，并且熟悉的人在相当于你德鲁伊等级一半的小时后消失。"
+			]
+		},
+		{
+			"name": "Wild Shape",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"从2级开始，你可以用你的行动来神奇地变成你以前见过的野兽的形状。你可以使用这个功能两次。当你完成短时或长时的休息时，你会重新获得已消耗的使用。",
+				"你的德鲁伊等级决定了你可以转化的野兽，如野兽形状表所示。例如，在2级时，你可以变身为任何挑战等级为1/4或更低的、没有飞行或游泳速度的野兽。",
+				{
+					"type": "table",
+					"caption": "Beast Shapes",
+					"colLabels": [
+						"Level",
+						"Max. CR",
+						"Limitations",
+						"Example"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-2 text-center",
+						"col-5",
+						"col-3"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@filter 1/4|bestiary|challenge rating=[&0;&1/4]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
+							"没有飞行或游泳的速度",
+							"Wolf"
+						],
+						[
+							"4th",
+							"{@filter 1/2|bestiary|challenge rating=[&0;&1/2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
+							"没有飞行速度",
+							"鳄鱼"
+						],
+						[
+							"8th",
+							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|miscellaneous=!swarm}",
+							"—",
+							"巨鹰"
+						]
+					]
+				},
+				"你可以保持野兽形态的时间等同于你德鲁伊等级的一半（向下取整）。然后，除非你再次使用此特性，否则会恢复成正常形态。你可以在你的回合上使用一个奖励动作提前恢复成正常形态。如果你跌倒{@condition unconscious}、降到0点生命值，或死亡，你会自动恢复成正常形态。",
+				"在你变身的时候，以下规则适用。",
+				{
+					"type": "list",
+					"items": [
+						"你的游戏数据被野兽的数据所取代，但你保留了你的排列组合、个性、智力、智慧和魅力的分数。你也保留了你所有的技能和蓄力的熟练度，此外还获得了该生物的熟练度。如果该生物与你有相同的熟练度，并且它的属性块中的奖励比你的高，则使用该生物的奖励而不是你的。如果该生物有任何传奇或巢穴行动，你不能使用它们。",
+						"当你变形时，你会承担野兽的生命值和命中骰。当你恢复到正常形态时，你会回到变形前的生命值。然而，如果你因生命值降至0而恢复，任何多余的伤害都会延续到你的正常形态。例如，如果你在动物形态下受到10点伤害，只剩1点生命值，你会恢复并承受9点伤害。只要多余的伤害没有将你的正常形态降至0生命值，你就不会被击倒。",
+						"你无法施放法术，而且你变成野兽形态后，说话或进行任何需要使用手的动作能力会受到限制。然而，变形不会打断你已经施放的法术{@status concentration}，也不会阻止你执行已经施放的法术中的一部分动作，比如{@spell call lightning}。",
+						"你保留你的职业、种族或其他来源的任何特性，并且如果新形态在物理上有能力这样做，你可以使用它们。然而，除非你的新形态也具有那种感官，否则你不能使用任何特殊感官，比如{@sense darkvision}。",
+						"你可以选择你的装备是掉落在你的空间、融入你的新形态，或者被穿戴在身上。穿戴的装备功能正常，但是根据生物的形状和大小，DM决定新形态是否适合穿戴某件装备。你的装备不会改变大小或形状以适应新形态，任何新形态无法穿戴的装备必须要么掉落在地上，要么与其融合。与形态融合的装备在你离开形态之前不会产生任何效果。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 4,
+			"entries": [
+				"当你达到四级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长(feats)，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Cantrip Versatility",
+			"source": "TCE",
+			"page": 35,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 4th-level druid {@variantrule optional class features|tce|optional feature}}",
+				"每当你达到一个等级，获得属性分配提升特性时，你可以用{@filter druid spell list|spells|level=0|class=Druid}中的另一个戏法替换你从这个职业的施法特性学会的一个戏法。"
+			]
+		},
+		{
+			"name": "Wild Shape Improvement",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 4,
+			"entries": [
+				"在4级时，你的野性形状会得到改善，如野兽形状表所示。"
+			]
+		},
+		{
+			"name": "Druid Circle feature",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"在6级时，你获得一个由你的德鲁伊圈授予的功能。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 8,
+			"entries": [
+				"当你达到8级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长(feats)，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Wild Shape Improvement",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 8,
+			"entries": [
+				"在8级时，你的野性形状会得到改善，如野兽形状表所示。"
+			]
+		},
+		{
+			"name": "Druid Circle feature",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 10,
+			"entries": [
+				"在10级时，你获得一个由你的德鲁伊圆环特征所赋予的特征。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 12,
+			"entries": [
+				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长(feats)，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Druid Circle feature",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 14,
+			"entries": [
+				"在14级时，你获得一个由你的德鲁伊圆环特征所赋予的特征。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 16,
+			"entries": [
+				"当你达到16级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长(feats)，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Beast Spells",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 18,
+			"entries": [
+				"从18级开始，你可以使用 \"野性形状 \"以任何形状施展你的德鲁伊法术。你可以在野兽形态下执行德鲁伊法术的身体和语言成分，但你不能提供物质成分。"
+			]
+		},
+		{
+			"name": "Timeless Body",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 18,
+			"entries": [
+				"从18级开始，你所挥舞的原始魔法会使你的衰老速度更慢。每过10年，你的身体只衰老1年。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 19,
+			"entries": [
+				"当你达到19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长(feats)，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Archdruid",
+			"source": "PHB",
+			"page": 64,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"level": 20,
+			"entries": [
+				"在20级时，你可以不限次数地使用你的野性之形。",
+				"此外，你可以忽略德鲁伊法术中的语言和身体成分，以及任何缺乏成本且不被法术消耗的材料成分。你在你的正常形态和你的野兽形态中都能获得这个好处。"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Circle of the Land",
+			"source": "PHB",
+			"page": 68,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Land",
+			"subclassSource": "PHB",
+			"level": 2,
+			"entries": [
+				"大地之环由守护古老知识和仪式的秘术师和贤者组成，通过广泛的口头传统来保护这些。这些德鲁伊们在树木或石头圈的神圣圈地内相聚，低语原始的秘密在{@language Druidic}。该圈的最智慧的成员担任社区的首席祭司，这些社区坚守着古老信仰，并担任这些人民统治者的顾问。作为该圈的一员，你的魔法受到你被引入该圈神秘仪式的土地的影响。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Druid||Land||2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Natural Recovery|Druid||Land||2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid||Land||2"
+				}
+			]
+		},
+		{
+			"name": "Bonus Cantrip",
+			"source": "PHB",
+			"page": 68,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Land",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"你会额外学习一个你选择的德鲁伊咒语。这个咒语不计入你所知道的德鲁伊咒语的数量。"
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "PHB",
+			"page": 68,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Land",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"你与土地的神秘联系为你注入了施展某些法术的能力。在3级、5级、7级和9级时，你可以获得与你成为德鲁伊的那片土地有关的循环法术。选择那片土地--北极、海岸、沙漠、森林、草原、山地、沼泽或地下城--并查阅相关的法术列表。",
+				"一旦你获得了圆环法术的使用权，你就会一直准备好它，而且它不计入你每天可以准备的法术数量。如果你获得了一个没有出现在德鲁伊法术清单上的法术，这个法术对你来说仍然是德鲁伊法术。",
+				{
+					"type": "table",
+					"caption": "Arctic",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell hold person}, {@spell spike growth}"
+						],
+						[
+							"5th",
+							"{@spell sleet storm}, {@spell slow}"
+						],
+						[
+							"7th",
+							"{@spell freedom of movement}, {@spell ice storm}"
+						],
+						[
+							"9th",
+							"{@spell commune with nature}, {@spell cone of cold}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Coast",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell mirror image}, {@spell misty step}"
+						],
+						[
+							"5th",
+							"{@spell water breathing}, {@spell water walk}"
+						],
+						[
+							"7th",
+							"{@spell control water}, {@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell conjure elemental}, {@spell scrying}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Desert",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell blur}, {@spell silence}"
+						],
+						[
+							"5th",
+							"{@spell create food and water}, {@spell protection from energy}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell hallucinatory terrain}"
+						],
+						[
+							"9th",
+							"{@spell insect plague}, {@spell wall of stone}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Forest",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell barkskin}, {@spell spider climb}"
+						],
+						[
+							"5th",
+							"{@spell call lightning}, {@spell plant growth}"
+						],
+						[
+							"7th",
+							"{@spell divination}, {@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell commune with nature}, {@spell tree stride}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Grassland",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell invisibility}, {@spell pass without trace}"
+						],
+						[
+							"5th",
+							"{@spell daylight}, {@spell haste}"
+						],
+						[
+							"7th",
+							"{@spell divination}, {@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell dream}, {@spell insect plague}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Mountain",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell spider climb}, {@spell spike growth}"
+						],
+						[
+							"5th",
+							"{@spell lightning bolt}, {@spell meld into stone}"
+						],
+						[
+							"7th",
+							"{@spell stone shape}, {@spell stoneskin}"
+						],
+						[
+							"9th",
+							"{@spell passwall}, {@spell wall of stone}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Swamp",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell darkness}, {@spell Melf's acid arrow}"
+						],
+						[
+							"5th",
+							"{@spell water walk}, {@spell stinking cloud}"
+						],
+						[
+							"7th",
+							"{@spell freedom of movement}, {@spell locate creature}"
+						],
+						[
+							"9th",
+							"{@spell insect plague}, {@spell scrying}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Underdark",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell spider climb}, {@spell web}"
+						],
+						[
+							"5th",
+							"{@spell gaseous form}, {@spell stinking cloud}"
+						],
+						[
+							"7th",
+							"{@spell greater invisibility}, {@spell stone shape}"
+						],
+						[
+							"9th",
+							"{@spell cloudkill}, {@spell insect plague}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Natural Recovery",
+			"source": "PHB",
+			"page": 68,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Land",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你可以通过冥想和与自然交流来恢复你的部分魔法能量。在短暂的休息中，你可以选择消耗的法术槽来恢复。这些法术槽的综合等级可以等于或低于你的德鲁伊等级的一半（四舍五入），而且没有一个法术槽可以是6级或更高。在你完成一次长时间的休息之前，你不能再次使用这个功能。",
+				"例如，当你是一个四级的德鲁伊时，你最多可以恢复两级的法术槽。你可以恢复一个二级法术槽或两个一级法术槽。"
+			]
+		},
+		{
+			"name": "Land's Stride",
+			"source": "PHB",
+			"page": 68,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Land",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，穿越非魔法 {@quickref difficult terrain||3} 不会消耗额外移动。你还可以穿过非魔法植物而不会被它们减速，也不会因为它们有刺、棘或类似危险而受伤。",
+				"此外，对于那些被魔法创造或操控以阻碍移动的植物，例如由{@spell entangle}法术创造的植物，你在豁免投掷时拥有优势。"
+			]
+		},
+		{
+			"name": "Nature's Ward",
+			"source": "PHB",
+			"page": 68,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Land",
+			"subclassSource": "PHB",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"当你达到10级时，你对元素生物或精灵的{@condition charmed}和{@condition frightened}效果免疫，并且对毒素和疾病具有免疫力。"
+			]
+		},
+		{
+			"name": "Nature's Sanctuary",
+			"source": "PHB",
+			"page": 68,
+			"srd": true,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Land",
+			"subclassSource": "PHB",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"当你达到14级时，自然界的生物会感知到你与自然的联系，因此会犹豫不决地攻击你。当一只野兽或植物生物攻击你时，该生物必须对抗你的德鲁伊法术豁免 DC 的感知豁免。如果未通过豁免，该生物必须选择另一个目标，否则攻击自动失效。如果通过了豁免，该生物在接下来的24小时内对此效果免疫。",
+				"该生物在对你进行攻击之前就已经意识到了这个效果。"
+			]
+		},
+		{
+			"name": "Circle of the Moon",
+			"source": "PHB",
+			"page": 69,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "PHB",
+			"level": 2,
+			"entries": [
+				"月亮圈的德鲁伊是荒野的凶猛守护者。他们的组织在满月时聚集在一起，分享消息，交换警告。他们在荒野的最深处出没，在那里他们可能连续几个星期都不会与其他的人形生物发生交集，更不用说其他德鲁伊了。",
+				"这个圈子里的德鲁伊就像月亮一样多变，他可能在某个夜晚以大猫的姿态游荡，第二天以老鹰的姿态在树梢上翱翔，又以熊的姿态撞开灌木丛，赶走闯入的怪物。野性是德鲁伊的血液。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Wild Shape|Druid||Moon||2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Forms|Druid||Moon||2"
+				}
+			]
+		},
+		{
+			"name": "Circle Forms",
+			"source": "PHB",
+			"page": 69,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"你的圈子仪式赋予了你能力，可以变身为更危险的动物形态。从2级开始，你可以使用你的野性变身能力，变身为一个{@filter beast with a challenge rating as high as 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}（你可以忽略野兽形态表的最大CR列，但必须遵守其他限制）。",
+				"从6级开始，你可以变身为一只野兽，其挑战等级与你的德鲁伊等级除以3一样高，向下取整。",
+				{
+					"type": "table",
+					"caption": "Circle of the Moon Beast Shapes",
+					"colLabels": [
+						"Level",
+						"Max. CR",
+						"Limitations"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-2 text-center",
+						"col-8"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
+							"没有飞行或游泳的速度"
+						],
+						[
+							"4th",
+							"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|speed type=!fly|miscellaneous=!swarm}",
+							"没有飞行速度"
+						],
+						[
+							"6th",
+							"{@filter 2|bestiary|challenge rating=[&0;&2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
+							"没有飞行速度"
+						],
+						[
+							"8th",
+							"{@filter 2|bestiary|challenge rating=[&0;&2]|type=beast|miscellaneous=!swarm}",
+							"—"
+						],
+						[
+							"9th",
+							"{@filter 3|bestiary|challenge rating=[&0;&3]|type=beast|miscellaneous=!swarm}",
+							"—"
+						],
+						[
+							"12th",
+							"{@filter 4|bestiary|challenge rating=[&0;&4]|type=beast|miscellaneous=!swarm}",
+							"—"
+						],
+						[
+							"15th",
+							"{@filter 5|bestiary|challenge rating=[&0;&5]|type=beast|miscellaneous=!swarm}",
+							"—"
+						],
+						[
+							"18th",
+							"{@filter 6|bestiary|challenge rating=[&0;&6]|type=beast|miscellaneous=!swarm}",
+							"—"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Combat Wild Shape",
+			"source": "PHB",
+			"page": 69,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "PHB",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"你获得了在你的回合中使用 \"野生形状 \"的能力，作为一个额外的行动，而不是作为一个行动。",
+				"此外，在你处于野性变身状态时，你可以使用一个奖励动作来消耗一个法术位，每消耗一个法术位可以回复{@dice 1d8}生命值，每个法术位的等级对应的生命值为法术位等级。"
+			]
+		},
+		{
+			"name": "Primal Strike",
+			"source": "PHB",
+			"page": 69,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你在野兽形态下的攻击算作魔法攻击，以克服对非魔法攻击和伤害的抵抗和免疫。"
+			]
+		},
+		{
+			"name": "Elemental Wild Shape",
+			"source": "PHB",
+			"page": 69,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "PHB",
+			"level": 10,
+			"header": 2,
+			"consumes": {
+				"name": "Wild Shape",
+				"amount": 2
+			},
+			"entries": [
+				"在10级时，你可以同时消耗两次野性变身的使用次数，变身为一个{@creature air elemental}，一个{@creature earth elemental}，一个{@creature fire elemental}或一个{@creature water elemental}。"
+			]
+		},
+		{
+			"name": "Thousand Forms",
+			"source": "PHB",
+			"page": 69,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "PHB",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"到了14级，你学会了使用魔法以更微妙的方式改变你的身体形态。你可以随意施放{@spell alter self}法术。"
+			]
+		},
+		{
+			"name": "Circle of Spores",
+			"source": "TCE",
+			"page": 36,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 26
+				}
+			],
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "TCE",
+			"level": 2,
+			"entries": [
+				"孢子圈的德鲁伊在腐烂中发现美。他们在霉菌和其他真菌中看到了将无生命的物质转化为丰富的、尽管有些奇怪的生命的能力。",
+				"这些德鲁伊相信，生命和死亡是一个大循环的一部分，一个导致另一个，然后再回来。死亡并不是生命的终结，而是一种状态的改变，看到生命转变为一种新的形式。",
+				"这个圈子的德鲁伊与亡灵有着复杂的关系。与大多数其他德鲁伊不同，他们认为不死并无本质上的问题，他们认为不死是生与死的伴侣。但这些德鲁伊相信，当自然循环的每一个部分都充满活力和变化时，它才是最健康的。那些试图用不死来取代所有生命的亡灵，或者试图避免进入最后的安息，都违反了这个循环，必须被挫败。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid||Spores|TCE|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Halo of Spores|Druid||Spores|TCE|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Symbiotic Entity|Druid||Spores|TCE|2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "TCE",
+			"page": 36,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 26
+				}
+			],
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"你与真菌的共生联系以及你能够利用生死循环的能力使你能够获得特定法术。在2级时，你学会{@spell chill touch}零级法术。在3级、5级、7级和9级时，你将获得《孢子圈法术》表中对应等级的法术。",
+				"一旦你获得了这些法术的使用权，你就会一直准备好它，而且它不会计入你每天可以准备的法术数量。如果你获得了一个没有出现在德鲁伊法术清单上的法术，这个法术对你来说仍然是一个德鲁伊法术。",
+				{
+					"type": "table",
+					"caption": "Circle of Spores Spells",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell blindness/deafness}, {@spell gentle repose}"
+						],
+						[
+							"5th",
+							"{@spell animate dead}, {@spell gaseous form}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell confusion}"
+						],
+						[
+							"9th",
+							"{@spell cloudkill}, {@spell contagion}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Halo of Spores",
+			"source": "TCE",
+			"page": 36,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 26
+				}
+			],
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你周围环绕着看不见的死灵孢子，直到你释放它们对附近生物造成伤害前都是无害的。当你能看见的生物移动到你周围10英尺范围内的空间，或者在那里开始它的回合时，你可以使用你的反应对该生物造成{@damage 1d4}点死灵伤害，除非它成功通过对抗你的法术豁免DC的体质豁免才能免受伤害。死灵伤害在6级时增加到{@dice 1d6}，10级时增加到{@dice 1d8}，14级时增加到{@dice 1d10}。"
+			]
+		},
+		{
+			"name": "Symbiotic Entity",
+			"source": "TCE",
+			"page": 36,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 26
+				}
+			],
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 1,
+			"consumes": {
+				"name": "Wild Shape"
+			},
+			"entries": [
+				"在2级时，你获得将魔法导入你的孢子的能力。作为一个动作，你可以消耗你的野性形态特征的使用权来唤醒这些孢子，而不是转化为野兽形态，并且你在这个等级中的每一级都会获得4个临时打击点。当这个特征处于激活状态时，你会获得以下好处。",
+				{
+					"type": "list",
+					"items": [
+						"当你造成 \"孢子之晕 \"的伤害时，第二次滚动伤害模子并将其加入总数。",
+						"你的近战武器攻击对命中目标造成额外 {@damage 1d6} 的死灵伤害。"
+					]
+				},
+				"这些好处持续10分钟，直到你失去所有这些临时命中率，或直到你再次使用你的野性之形。"
+			]
+		},
+		{
+			"name": "Fungal Infestation",
+			"source": "TCE",
+			"page": 36,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 26
+				}
+			],
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你的孢子获得了感染尸体并使其复活的能力。如果一只小型或中型野兽或人型在你身边10英尺内死亡，你可以使用你的反应来使其复活，使其立即站起来，拥有1点生命值。该生物使用{@creature zombie}在{@book Monster Manual|MM}中的属性块。它会保持活力1小时，之后倒下死亡。",
+				"在战斗中，僵尸的回合紧随你之后。它会听从你的精神指令，唯一可以采取的行动是进行{@action Attack}行动，进行一次近战攻击。",
+				"你可以使用这个功能的次数等于你的智慧修改器（最少一次），当你完成一个长时间的休息时，你会重新获得所有消耗的功能。"
+			]
+		},
+		{
+			"name": "Spreading Spores",
+			"source": "TCE",
+			"page": 36,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 26
+				}
+			],
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "TCE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得了用致命的孢子播种一个区域的能力。当你的共生实体特性处于激活状态时，作为一个额外的动作，你可以将孢子投掷到30英尺以外，在那里它们会在一个10英尺的立方体中旋转1分钟。如果你再次使用这个特性，如果你把它们作为一个额外的动作，或者如果你的共生实体特性不再活动，那么孢子会提前消失。",
+				"每当一个生物移动到这个立方体内或在那里开始它的回合时，该生物会受到你的孢子光环伤害，除非该生物在对抗你的法术豁免 DC 的体质豁免检定中成功。一个生物每回合最多只能受到这种伤害一次。",
+				"当孢子方块持续存在时，你就不能使用你的孢子晕的反应。"
+			]
+		},
+		{
+			"name": "Fungal Body",
+			"source": "TCE",
+			"page": 36,
+			"otherSources": [
+				{
+					"source": "GGR",
+					"page": 26
+				}
+			],
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "TCE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你体内的真菌孢子会改变你：你不能被 {@condition blinded}，{@condition deafened}，{@condition frightened} 或 {@condition poisoned}，对你的任何暴击都算作普通命中，除非你是 {@condition incapacitated}。"
+			]
+		},
+		{
+			"name": "Circle of Stars",
+			"source": "TCE",
+			"page": 38,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars",
+			"subclassSource": "TCE",
+			"level": 2,
+			"entries": [
+				"星环允许德鲁伊们利用星光的力量。这些德鲁伊自古以来一直在追踪天上的图案，发现隐藏在星座中的秘密。通过揭示和理解这些秘密，\"星之环 \"试图利用宇宙的力量。",
+				"这个圈子里的许多德鲁伊都对星座和星星对世界的影响进行了记录。一些团体将这些观察记录在巨石遗址上，作为神秘的传说图书馆。这些库房可能采取石圈、金字塔、岩画和地下寺庙的形式--任何足以保护圈内神圣知识的建筑，即使是在大灾难中也能保护它们。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Star Map|Druid||Stars|TCE|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Starry Form|Druid||Stars|TCE|2"
+				}
+			]
+		},
+		{
+			"name": "Star Map",
+			"source": "TCE",
+			"page": 38,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2nd-level Circle of the Stars feature}",
+				"你创造了一个星图作为你的天体研究的一部分。它是一个微小的物体，可以作为你德鲁伊法术的施法焦点。你通过在星图表上滚动或选择一个来决定它的形式。",
+				{
+					"type": "table",
+					"caption": "Star Map",
+					"colLabels": [
+						"d6",
+						"Map Form"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"覆盖着星座描述的卷轴"
+						],
+						[
+							"2",
+							"一块钻有细孔的石碑"
+						],
+						[
+							"3",
+							"一张有斑点的猫头鹰兽皮，上面有凸起的痕迹"
+						],
+						[
+							"4",
+							"用乌木封面装订的地图集"
+						],
+						[
+							"5",
+							"放在灯前能投射出星形图案的水晶"
+						],
+						[
+							"6",
+							"描绘星座的玻璃盘"
+						]
+					]
+				},
+				"持有这张地图时，你有这些好处。",
+				{
+					"type": "list",
+					"items": [
+						"你知道{@spell guidance}的战斗法术。(cantrip)",
+						"你准备了{@spell guiding bolt}法术。对你来说，它算作德鲁伊法术，并且不会计入你可以准备的法术数量中。",
+						"你可以施放{@spell guiding bolt}而不消耗法术位。你可以这样做的次数等于你的熟练加值，当你完成一次长休后，你恢复所有已消耗的使用次数。"
+					]
+				},
+				"如果你失去了地图，你可以举行一个1小时的仪式，用魔法创造一个替代品。这个仪式可以在短时间或长时间的休息中进行，而且会破坏之前的地图。"
+			]
+		},
+		{
+			"name": "Starry Form",
+			"source": "TCE",
+			"page": 38,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 1,
+			"consumes": {
+				"name": "Wild Shape"
+			},
+			"entries": [
+				"{@i 2nd-level Circle of the Stars feature}",
+				"作为一个额外的行动，你可以使用你的 \"野性形状 \"特征，变成一个星形，而不是变成一个野兽。",
+				"在你的星体形态中，你保留你的游戏统计数据，但你的身体变得明亮；你的关节闪烁着星星般的光芒，发光的线条连接它们就像星图上一样。这种形态在半径为10英尺的范围内散发明亮光芒，额外的10英尺范围内散发微弱光芒。这种形态持续10分钟。如果你解除它（无需行动）、被{@condition incapacitated}、死亡或再次使用此特性，它会提前结束。",
+				"每当你呈现出你的星空形态时，选择以下哪个星座在你身上闪闪发光；你的选择会让你在形态中获得某些好处。",
+				{
+					"type": "entries",
+					"name": "Archer",
+					"entries": [
+						"当你激活这个形态时，一个射手座的星座出现在你身上。在持续时间内，你可以作为一个额外动作，在接下来的回合中进行远程法术攻击，投掷一支发光箭矢，瞄准你60英尺内的一个生物。命中时，攻击造成{@dice 1d8}点辐射伤害，加上你的感知修正值。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chalice",
+					"entries": [
+						"你身上出现了一个赋予生命的酒杯星座。每当你使用一个恢复生物生命值的法术位时，你或者你周围30英尺范围内的另一个生物可以回复等于{@dice 1d8} + 你的感知调整值的生命值。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragon",
+					"entries": [
+						"一颗智慧巨龙的星座出现在你身上。当你进行一次智力或感知检定，或进行一次体质豁免投掷以维持{@status concentration}(`{@status concentration}`)在一个法术上时，你可以将{@dice d20}(`{@dice d20}`)上的9或更低的点数视为10。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Cosmic Omen",
+			"source": "TCE",
+			"page": 38,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Circle of the Stars feature}",
+				"每当你完成一个长期的休息，你可以查阅你的星图以寻找预兆。当你这样做的时候，掷一个骰子。在你完成下一次长时休息之前，你可以根据你在骰子上掷出的数字是偶数还是奇数获得一种特殊反应。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Weal (even)",
+							"entry": "每当你能看见的生物在你30英尺内即将进行一次攻击检定、豁免检定或能力检定时，你可以使用你的反应投掷一个{@dice d6}，并将投掷的数字加到总数上。"
+						},
+						{
+							"type": "item",
+							"name": "Woe (odd)",
+							"entry": "每当你能看见的生物在你30英尺内即将进行一次攻击检定、豁免检定或能力检定时，你可以使用你的反应投掷一个{@dice d6}，并将投掷的数字从总数中减去。"
+						}
+					]
+				},
+				"你可以使用这个反应的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
+			]
+		},
+		{
+			"name": "Twinkling Constellations",
+			"source": "TCE",
+			"page": 38,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars",
+			"subclassSource": "TCE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Circle of the Stars feature}",
+				"你的星体形态中的星座得到了改善。射手座和圣杯座的{@dice 1d8}变成了{@dice 2d8}，而且当龙形态激活时，你的飞行速度为20英尺，可以悬停。",
+				"此外，在你处于星空形态时的每个回合开始时，你可以改变你身上闪现的星座。"
+			]
+		},
+		{
+			"name": "Full of Stars",
+			"source": "TCE",
+			"page": 38,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars",
+			"subclassSource": "TCE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Circle of the Stars feature}",
+				"当你处于星空形态时，你会变得部分无实体，使你对击打、刺穿和砍伤的伤害具有抵抗力。"
+			]
+		},
+		{
+			"name": "Circle of Wildfire",
+			"source": "TCE",
+			"page": 39,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Wildfire",
+			"subclassSource": "TCE",
+			"level": 2,
+			"entries": [
+				"野火圈内的德鲁伊明白，破坏有时是创造的前兆，比如森林大火促进了后来的生长。这些德鲁伊与蕴藏着破坏力和创造力的原始精神结合在一起，使德鲁伊能够创造出受控的火焰，烧掉一样东西，却给另一样东西以生命。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid||Wildfire|TCE|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Summon Wildfire Spirit|Druid||Wildfire|TCE|2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "TCE",
+			"page": 39,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Wildfire",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2nd-level Circle of Wildfire feature}",
+				"你已经与野火之灵建立了联系，一个创造和毁灭的原始生命。当你达到这个等级的时候，你与这个精灵的联系使你可以使用一些法术，如野火圈法术表所示。",
+				"一旦你获得了这些法术的使用权，你就会一直准备好它，而且它不会计入你每天可以准备的法术数量。如果你获得了一个没有出现在德鲁伊法术清单上的法术，这个法术对你来说仍然是一个德鲁伊法术。",
+				{
+					"type": "table",
+					"caption": "Circle of Wildfire Spells",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell burning hands}, {@spell cure wounds}"
+						],
+						[
+							"3rd",
+							"{@spell flaming sphere}, {@spell scorching ray}"
+						],
+						[
+							"5th",
+							"{@spell plant growth}, {@spell revivify}"
+						],
+						[
+							"7th",
+							"{@spell aura of life}, {@spell fire shield}"
+						],
+						[
+							"9th",
+							"{@spell flame strike}, {@spell mass cure wounds}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Summon Wildfire Spirit",
+			"source": "TCE",
+			"page": 39,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Wildfire",
+			"subclassSource": "TCE",
+			"level": 2,
+			"header": 1,
+			"consumes": {
+				"name": "Wild Shape"
+			},
+			"entries": [
+				"{@i 2nd-level Circle of Wildfire feature}",
+				"你可以召唤束缚在你灵魂中的原始精神。作为一个行动，你可以消耗一次你的野性形态特征来召唤你的野火精神，而不是变成野兽形态。",
+				"这个幽灵会出现在你能看到的距离30英尺内的一个未被占据的空间。当它出现时，距离幽灵10英尺内的每个生物（除了你）必须通过一个与你的法术豁免 DC 相抵的敏捷豁免才能避免受到 {@damage 2d6} 火焰伤害。",
+				"这个灵魂对你和你的同伴友好，并服从你的命令。在{@creature Wildfire Spirit|TCE}的属性块中查看这个生物的游戏统计数据，其中在几个地方使用了你的熟练加值（PB）。你可以决定这个灵魂的外貌。有些灵魂采取了人形，由扭曲的树枝构成，覆盖着火焰，而另一些看起来像被火焰环绕的野兽。",
+				"在战斗中，灵体与你共享先攻顺序，但它会在你之后立即行动。它在自己的回合中只会执行{@action Dodge}动作，除非你在你的回合中使用一个额外动作命令它执行另一个动作。那个动作可以是它的属性块中的动作，也可以是其他动作。如果你是{@condition incapacitated}，灵体可以执行任何它选择的动作，不仅仅是{@action Dodge}。",
+				"灵魂显现1小时，直到它的命中率降至0，直到你再次使用此功能召唤灵魂，或者直到你死亡。"
+			]
+		},
+		{
+			"name": "Enhanced Bond",
+			"source": "TCE",
+			"page": 39,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Wildfire",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Circle of Wildfire feature}",
+				"与你的烈焰之灵的联系增强了你的毁灭性和恢复性法术。每当你在召唤你的烈焰之灵时施放造成火焰伤害或恢复生命值的法术时，投掷一个{@dice d8}，你将获得一个等同于投掷数的奖励，可以用于法术的一个伤害或治疗骰投中。",
+				"此外，当你施放范围不在自己身上的法术时，该法术可以来自你或你的野火之灵。"
+			]
+		},
+		{
+			"name": "Cauterizing Flames",
+			"source": "TCE",
+			"page": 39,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Wildfire",
+			"subclassSource": "TCE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Circle of Wildfire feature}",
+				"你获得了将死亡转化为可以治愈或焚烧的魔法火焰的能力。当一个小型或更大的生物在你或你的烈焰之灵的30英尺范围内死亡时，一个无害的幽灵火焰会在死亡生物的位置上涌现，并在那里闪烁1分钟。当一个你能看到的生物进入那个位置时，你可以使用你的反应来熄灭那里的幽灵火焰，并对其进行治疗或火焰伤害。治疗或伤害等于{@dice 2d10} + 你的感知调整值。",
+				"你可以使用这个反应的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
+			]
+		},
+		{
+			"name": "Blazing Revival",
+			"source": "TCE",
+			"page": 39,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Wildfire",
+			"subclassSource": "TCE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Circle of Wildfire feature}",
+				"与你的烈焰之灵的羁绊可以拯救你免于死亡。如果当你的生命值降至0点并因此倒下时，烈焰之灵在你的120英尺范围内，你可以让烈焰之灵的生命值降至0点。然后你恢复一半的生命值并立即站起身来。",
+				"一旦你使用这个特性，你必须完成一次长休才能再次使用。(long rest)"
+			]
+		},
+		{
+			"name": "Circle of the Blighted",
+			"source": "TDCSR",
+			"page": 171,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Blighted",
+			"subclassSource": "TDCSR",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"那些引导生命和自然魔法的人常常会被吸引到特定的神龛或自然地点，将他们的身体和精神与这些强大之地联系在一起。这些德鲁伊从他们选择的地点中汲取活力，用他们的生命保护着它们——但并非所有人都成功地捍卫了这些神圣领域。",
+				"无论是通过邪恶魔法的微妙腐化，古老恐怖存在的污染，还是德鲁伊们自身释放的可怕错误，一片土地都可能被魔法所诅咒，扭曲任何与该土地相连的德鲁伊。受到与不洁领土的联系扭曲，这些守护者开始体现出他们所侍奉的被亵渎的自然，推崇自然的腐朽过程，并利用它来实现他们的目标——有时甚至是为了寻求结束困扰他们的诅咒的方法。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Defile Ground|Druid|PHB|Blighted|TDCSR|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blighted Shape|Druid|PHB|Blighted|TDCSR|2"
+				}
+			]
+		},
+		{
+			"name": "Blighted Shape",
+			"source": "TDCSR",
+			"page": 172,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Blighted",
+			"subclassSource": "TDCSR",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"在2级时，你的身体开始显示出你操控的腐化的影响，皮肤上出现黑色的静脉，长出扭曲的骨质突起，或者其他怪异的现象。你获得魅力技能（{@skill Intimidation}）的熟练加值。",
+				"此外，在你通过野性变身特性变形时，你因身体上长出的粗糙脊刺而获得+2的AC奖励。你的野兽形态也获得{@sense darkvision}，范围为60英尺，或者如果已经具备该感知能力，则额外增加60英尺的{@sense darkvision}。"
+			]
+		},
+		{
+			"name": "Defile Ground",
+			"source": "TDCSR",
+			"page": 172,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Blighted",
+			"subclassSource": "TDCSR",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"从2级开始，当你选择这个圈子时，你可以使用一个奖励动作来腐蚀一个位于你距离60英尺内的点上的半径为10英尺的土地或水域。这种腐蚀持续1分钟。对于对你有敌意的生物来说，被腐蚀的区域是{@quickref difficult terrain||3}。此外，当一个生物在该区域内在一个回合内第一次受到攻击或法术伤害时，它会额外受到{@damage 1d4}点死灵伤害。你可以将这个腐蚀区域移动30英尺作为一个奖励动作。飞行生物不受腐蚀影响。",
+				"一旦您使用此功能，您在完成一个{@quickref resting|PHB|2|0|short or long rest}之前将无法再次使用它。"
+			]
+		},
+		{
+			"name": "Call of the Shadowseeds",
+			"source": "TDCSR",
+			"page": 172,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Blighted",
+			"subclassSource": "TDCSR",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你学会了从敌人的生命力量中召唤森林中的狂野孩子。当一个非不死生物或构装受到你的 {@subclassFeature Defile Ground|Druid|PHB|Blighted|TDCSR|2} 特性范围内的伤害时，你可以使用你的反应在离该生物5英尺的空地上召唤一个 {@creature blighted sapling|TDCSR}。你可以命令 {@creature blighted sapling|TDCSR|sapling} 在这个反应中对其5英尺内的任何生物发动攻击。然后，{@creature blighted sapling|TDCSR|sapling} 将在你的先攻值上行动，听从你的口头指令。",
+				"{@creature blighted sapling|TDCSR}在你的服务中，直到其生命值降至0点，直到你的下一个{@quickref resting|PHB|2|0|long rest}结束，或者直到你召唤另一个{@creature blighted sapling|TDCSR|sapling}，此时它会变成臭气熏天的粪肥。你可以使用这个特性的次数等于你的熟练加值，当你完成一次{@quickref resting|PHB|2|0|long rest}时，所有已使用次数会恢复。",
+				"{@creature blighted sapling|TDCSR|sapling} 使用以下统计数据。其特性根据你的等级和熟练加值（PB）进行调整。",
+				{
+					"type": "statblock",
+					"name": "Blighted Sapling",
+					"source": "TDCSR",
+					"page": 172,
+					"tag": "creature",
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"name": "Defile Ground (10th Level)",
+			"source": "TDCSR",
+			"page": 172,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Blighted",
+			"subclassSource": "TDCSR",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，你的亵渎领域的范围增加到20英尺半径。此外，当你达到本职业的10级时，你的亵渎领域造成的额外伤害增加到{@damage 1d6}。"
+			]
+		},
+		{
+			"name": "Foul Conjuration",
+			"source": "TDCSR",
+			"page": 172,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Blighted",
+			"subclassSource": "TDCSR",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，你召唤的生物会因为毒素而畸形并膨胀。 任何兽类、精灵或植物（包括你的{@creature blighted sapling|TDCSR}）通过你的法术或职业特性召唤或创造的生物都会获得以下特质：",
+				{
+					"type": "entries",
+					"name": "Blighted Resilience",
+					"page": 172,
+					"entries": [
+						"这个生物对死灵和毒素伤害以及{@condition poisoned}状态免疫。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Toxic Demise",
+					"page": 172,
+					"entries": [
+						"当生物的生命值降至0点时，它会爆炸成一团有毒的腐肥或恶臭的内脏。在爆炸生物周围5英尺范围内的每个生物必须通过一次对抗你法术豁免 DC 的体质检定{@quickref saving throws|PHB|2|1|saving throw}，否则会根据生物的挑战等级造成死灵伤害（参见下表）。作为一个动作，你也可以让一个被召唤的生物爆炸，立即将其杀死。",
+						{
+							"type": "table",
+							"caption": "Toxic Demise Damage",
+							"colLabels": [
+								"Creature CR",
+								"Damage"
+							],
+							"colStyles": [
+								"col-4 text-center",
+								"col-8"
+							],
+							"rows": [
+								[
+									"1/4 或更低 (1/4 or lower)",
+									"{@damage 1d4}死灵伤害"
+								],
+								[
+									"1/2",
+									"{@damage 1d6}死灵伤害"
+								],
+								[
+									"1或更高 (1 or higher)",
+									"{@damage (#$prompt_number:min=1,title=Enter the creature's CR!,default=1$#)d8|A number of d8s of necrotic damage equal to the creature's challenge rating}"
+								],
+								[
+									"没有挑战等级 (Challenge Rating)",
+									"{@damage (#$prompt_number:min=1,title=Enter your Proficiency Bonus!,default=1$#)d6|A number of d6s of necrotic damage equal to your proficiency bonus}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Defile Ground (14th Level)",
+			"source": "TDCSR",
+			"page": 172,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Blighted",
+			"subclassSource": "TDCSR",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"你的被亵渎的领域造成的额外伤害在你达到14级时增加到{@damage 1d8}。"
+			]
+		},
+		{
+			"name": "Incarnation of Corruption",
+			"source": "TDCSR",
+			"page": 173,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Blighted",
+			"subclassSource": "TDCSR",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你的肉体开始呈现出与你所绑定的土地的污染特征。你的皮肤变得灰白，你的眼睛变暗或完全变白。身体上长出刺和锯齿状的尖刺，使你对死灵伤害具有抵抗力，并获得+2的AC加值。",
+				"此外，每当你在由你的{@subclassFeature Defile Ground|Druid|PHB|Blighted|TDCSR|2}特性创造的腐化半径内开始你的回合时，你可以使用一个奖励动作获得临时生命值，数值等同于你的熟练加值。"
+			]
+		},
+		{
+			"name": "Circle of Dreams",
+			"source": "XGE",
+			"page": 22,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dreams",
+			"subclassSource": "XGE",
+			"level": 2,
+			"entries": [
+				"梦境之环（Circle of Dreams）的德鲁伊来自与精灵界（Feywild）及其梦幻般的领域有着紧密联系的地区。德鲁伊对自然界的守护为他们与善良精灵之间建立了自然的联盟。这些德鲁伊致力于让世界充满梦幻般的奇迹。他们的魔法能够治愈伤口，给沮丧的心带来欢乐，而他们守护的领域则是闪耀、丰饶的地方，梦境与现实在那里交织在一起，疲惫的人们可以找到休憩之所。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Balm of the Summer Court|Druid||Dreams|XGE|2"
+				}
+			]
+		},
+		{
+			"name": "Balm of the Summer Court",
+			"source": "XGE",
+			"page": 22,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dreams",
+			"subclassSource": "XGE",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"在2级时，你被夏宫的祝福所充盈。你是一股能量之源，能够为受伤者提供休息。你拥有一池精灵能量，数量为你德鲁伊等级的{@dice d6}s。",
+				"作为一个奖励动作，你可以选择在你视线范围内的一个生物，距离不超过120英尺，并消耗等于你德鲁伊等级一半或更少的那些骰子。投掷已消耗的骰子并将它们相加。目标回复等于总和的生命值。目标还会获得每个消耗的骰子1点临时生命值。",
+				"当你完成一次长休时，你会回复所有已消耗的骰子。"
+			]
+		},
+		{
+			"name": "Hearth of Moonlight and Shadow",
+			"source": "XGE",
+			"page": 22,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dreams",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在第6级时，家可以是你所在的任何地方。在短暂或长时间休息期间，你可以召唤黄昏法庭的阴影力量来守护你的休憩。在休息开始时，你触碰空间中的一个点，一个不可见的、半径30英尺的魔法球体出现，以该点为中心。全掩蔽会阻挡这个球体。",
+				"在这个领域内，你和你的盟友在敏捷检定中获得+5的加值（{@skill Stealth}），并且在智慧检定中也获得+5的加值（{@skill Perception}），而且在领域内的明亮光源（篝火、火炬等）在领域外是不可见的。",
+				"当你离开这个球体时，球体会消失。"
+			]
+		},
+		{
+			"name": "Hidden Paths",
+			"source": "XGE",
+			"page": 22,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dreams",
+			"subclassSource": "XGE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，你可以使用一些精灵使用的隐藏的魔法路径，瞬间穿越空间。作为你回合的奖励动作，你可以传送到你能看到的一个未被占据的空间，最远60英尺。或者，你可以使用你的动作将一个你触摸到的愿意的生物传送到你能看到的一个未被占据的空间，最远30英尺。",
+				"你可以使用这个功能的次数等于你的智慧修改器（最少一次），当你完成一个长时间的休息时，你会重新获得所有消耗的功能。"
+			]
+		},
+		{
+			"name": "Walker in Dreams",
+			"source": "XGE",
+			"page": 22,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dreams",
+			"subclassSource": "XGE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，(Feywild)的魔法赋予你能力，让你能够在梦境中精神或身体上穿梭。",
+				"当你完成短暂休息时，你可以施放以下法术中的一个，无需消耗法术位或需要材料组件：{@spell dream} (with you as the messenger), {@spell scrying}, 或 {@spell teleportation circle}。",
+				"这个对{@spell teleportation circle}的使用很特殊。它不是打开通往永久{@spell teleportation circle}的传送门，而是打开一个通往你在当前存在平面上最后完成长休的地点的传送门。如果你在当前存在平面上还没有进行长休，那么这个法术会失败，但不会被浪费。",
+				"一旦你使用这个特性，你必须完成一次长休才能再次使用。(long rest)"
+			]
+		},
+		{
+			"name": "Circle of the Shepherd",
+			"source": "XGE",
+			"page": 23,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Shepherd",
+			"subclassSource": "XGE",
+			"level": 2,
+			"entries": [
+				"（德鲁伊）（牧羊圈）的德鲁伊与大自然的精神交流，尤其是与野兽和精灵的精神交流，并呼唤这些精神的帮助。这些德鲁伊认识到所有生物在自然界中都扮演着角色，但他们专注于保护那些难以自卫的动物和精灵生物。他们被称为“牧羊人”，视这些生物为自己的责任。他们驱赶威胁它们的怪物，谴责杀死比必要更多猎物的猎人，并阻止文明侵入罕见动物栖息地和精灵圣地。许多这样的德鲁伊最喜欢远离城市和城镇，愿意在动物和荒野精灵的陪伴下度过他们的日子。",
+				"这个团体的成员成为冒险者，以对抗威胁他们的责任，或是寻求知识和力量，帮助他们更好地保护他们的责任。无论这些德鲁伊去哪里，荒野的精神都与他们同在。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Speech of the Woods|Druid||Shepherd|XGE|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirit Totem|Druid||Shepherd|XGE|2"
+				}
+			]
+		},
+		{
+			"name": "Speech of the Woods",
+			"source": "XGE",
+			"page": 23,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Shepherd",
+			"subclassSource": "XGE",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"在2级时，你获得了与野兽和许多精灵交谈的能力。",
+				"你学会说、读、写{@language Sylvan}。此外，野兽能听懂你的讲话，你也能解读它们的声音和动作。大多数野兽缺乏传达或理解复杂概念的智力，但友好的野兽可以传达它最近看到或听到的事情。这种能力并不会让你与野兽成为朋友，但你可以结合这种能力和礼物来讨好它们，就像对待任何非玩家角色一样。"
+			]
+		},
+		{
+			"name": "Spirit Totem",
+			"source": "XGE",
+			"page": 23,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Shepherd",
+			"subclassSource": "XGE",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"从2级开始，你可以召唤自然灵体来影响你周围的世界。作为一个奖励动作，你可以在你能看到的60英尺内的一个点上魔法地召唤一个无实体的灵体。这个灵体在该点周围的30英尺半径内创建一个光环。它既不算是生物也不算是物体，尽管它外观上像是它所代表的生物。",
+				"作为一个奖励动作，你可以将灵魂移动60英尺到一个你能看到的点。",
+				"灵魂持续1分钟，或直到你达到{@condition incapacitated}。一旦你使用了这个特性，你必须完成一次短休或长休才能再次使用它。",
+				"精灵的光环效果取决于您从以下选项中召唤的精灵类型。",
+				{
+					"type": "entries",
+					"name": "Bear Spirit",
+					"entries": [
+						"熊灵赋予你和盟友力量和耐力。当灵兽出现时，你可以选择光环中的每个生物获得临时生命值，数值为5 + 你的德鲁伊等级。此外，在光环中，你和盟友进行力量检定和力量豁免时获得优势。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hawk Spirit",
+					"entries": [
+						"鹰灵是一名高超的猎手，以其敏锐的视力帮助你和你的盟友。当一名生物对灵气范围内的目标进行攻击检定时，你可以使用你的反应来使该攻击检定获得优势。此外，在该灵气范围内，你和你的盟友在感知({@skill Perception})检定时也获得优势。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unicorn Spirit",
+					"entries": [
+						"独角兽之灵为附近的人提供保护。你和你的盟友在该精神光环中获得所有探测生物的能力检定的优势。此外，如果你使用一个法术位施放一个恢复生命值的法术，无论是在光环内还是光环外，你可以选择光环内的每个生物，它们也会恢复相当于你德鲁伊等级的生命值。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Mighty Summoner",
+			"source": "XGE",
+			"page": 23,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Shepherd",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你召唤的野兽和精灵比普通的更具弹性。 任何由你施放的法术召唤或创造的野兽或精灵都会获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"该生物出现时具有比正常情况更多的生命值：每个命中骰（Hit Die）额外2点生命值。",
+						"其自然武器造成的伤害被视为魔法伤害，以克服对非魔法攻击和伤害的免疫和抗性。(Dungeons & Dragons)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Guardian Spirit",
+			"source": "XGE",
+			"page": 23,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Shepherd",
+			"subclassSource": "XGE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，你的灵魂图腾会保护你用魔法召唤出来的野兽和精灵。当你召唤或用法术创造的野兽或精灵结束回合时，如果它们在你的灵魂图腾光环内，那些生物会恢复等同于你德鲁伊等级一半的生命值。"
+			]
+		},
+		{
+			"name": "Faithful Summons",
+			"source": "XGE",
+			"page": 23,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Shepherd",
+			"subclassSource": "XGE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，你与之沟通的自然精灵会在你最无助的时候保护你。如果你的生命值降至0点，或者被{@condition incapacitated}强制降至0点，你可以立即获得{@spell conjure animals}的效果，就好像是用9级法术位施放的一样。它会召唤四只你选择的挑战等级为2或更低的野兽。召唤出的野兽会出现在你身边20英尺内。如果它们没有收到你的命令，它们会保护你免受伤害并攻击你的敌人。这个法术持续1小时，不需要{@status concentration}，或者直到你解除它（无需动作）。",
+				"一旦你使用这个特性，你必须完成一次长休才能再次使用。(long rest)"
+			]
+		}
+	]
+}

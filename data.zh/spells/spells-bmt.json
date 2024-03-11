@@ -1,0 +1,160 @@
+{
+	"spell": [
+		{
+			"name": "Antagonize",
+			"source": "BMT",
+			"page": 50,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a playing card depicting a rogue"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你低语着魔法咒语，激怒你选择范围内的一只生物。目标必须进行一次感知豁免投。未能通过豁免的目标将受到{@damage 4d4}点精神伤害，并立即使用其反应对你所看到的另一生物进行一次近战攻击。如果目标无法进行这次攻击（例如，因为没有人在其攻击范围内，或者因为其反应不可用），则目标在你下一个回合开始前进行的下一次攻击投掷将受到劣势。若通过豁免，目标只受到一半伤害。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用4级或更高级别的法术位施放这个法术时，伤害将每个高于3级的法术位等级增加{@dice 1d4}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Spirit of Death",
+			"source": "BMT",
+			"page": 50,
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded playing card worth at least 400 gp and depicting an avatar of death",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个具有死亡特质的灵魂。这个灵魂会出现在你能看到的范围内的一个未被占据的空间，并使用{@creature reaper spirit|BMT}的属性块。当它的生命值降至0或法术结束时，这个灵魂会消失。",
+				"这个灵魂是你和你的同伴的盟友。在战斗中，这个灵魂与你共享先攻值，并在你之后立即行动。它会听从你的口头指令（你不需要采取任何行动）。如果你没有给这个灵魂下达任何指令，它会采取{@action Dodge}行动，并利用自己的移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用5级或更高级别的法术位施放这个法术时，在死神之灵属性块中出现法术等级的地方，使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Spray of Cards",
+			"source": "BMT",
+			"page": 50,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a deck of cards"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你喷射出一个15英尺锥形的幻影卡牌。该区域内的每个生物必须进行一次敏捷豁免检定。未通过豁免检定的生物会受到{@damage 2d10}的力量伤害，并且在其下一个回合结束前陷入{@condition blinded}状态。通过豁免检定的生物只会受到一半伤害。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用3级或更高级别的法术位施放这个法术时，伤害会每超过2级的位数增加{@dice 1d10}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		}
+	]
+}

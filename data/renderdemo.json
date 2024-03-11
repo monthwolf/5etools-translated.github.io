@@ -4,81 +4,81 @@
 			"type": "section",
 			"name": "Renderer Demo",
 			"entries": [
-				"(这是一个章节标题。这主要用于《冒险》中，用于整个章节的标题。根条目确实{@b not}需要有'章节'类型，'条目'通常被用来代替。节 \"产生一个{@bold level -1}的标题；\"地下室 \"级别，如果你愿意的话）。",
+				"(This is a section heading. This is mainly used in Adventures, for the header of entire chapters. The root entry does {@b not} need have the 'section' type, 'entries' is generally used instead. The 'section' produces a {@bold level -1} header; the 'basement' level, if you will.)",
 				{
 					"type": "quote",
 					"entries": [
-						"听着，不要引用我的话，但"
+						"Look, don't quote me on this, but"
 					],
 					"by": "Anon",
 					"from": "Archive of Lost Chats"
 				},
-				"这是一个JSON格式的演示，以及它（通常）是如何被渲染的。你可以编辑这个文本，它将在刷新时重置。",
+				"This is a demo of the JSON format, and how it (usually) gets rendered. You can edit this text, and it will reset on refresh.",
 				"{@b If a JSON property is described as 'optional,' the property may be excluded, unless otherwise noted.}",
-				"这个系统的目标是模仿书籍的外观和感觉，同时保持一个方便和一致的数据结构，可以重复使用。",
-				"一般的格式是嵌套多层次的'条目'类型的对象，并根据需要使用其他特定的类型（下文有详细描述）。",
-				"字符串条目可以包含标签，这些标签在大多数其他结构中嵌套时都可以工作。这些最终都将与悬停查看功能一起工作。除非另有说明，否则它们是不区分大小写的。这些是",
+				"The goal of this system is to emulate the look and feel of the books, while maintaining a convenient and consistent data structure that can be re-used.",
+				"The general format is to nest multiple levels of 'entries'-typed objects, with other specific types (described in detail below) used as needed.",
+				"String entries can contain tags, and these work when nested in most other structures. These will eventually all work with the hover-to-view feature. They are case-insensitive, unless otherwise noted. These are:",
 				{
 					"type": "list",
 					"items": [
-						"样式标签; {@bold some text to be bolded} (另选 {@b shorthand}), {@italic some text to be italicised} (另选 {@i shorthand}), {@underline some text to be underlined} (另选 {@u shorthand}), {@strike some text to strike-through}, (另选 {@s shorthand}), {@color color|e40707}/{@color color variable|--rgb-name} 标签, {@highlight highlight} 标签, {@sup superscript} 标签, {@sub subscript} 标签, {@kbd keyboard} 标签, {@code print(&quot;hello world&quot;)} 标签, 其他 {@style Style|small-caps;small;capitalize;dnd-font} 标签, {@font alternate font|Comic Sans MS} 标签",
-						"此外，{@note note tags} 用于添加勘误或 Twitter \"设计师脚注\"，以及 {@tip tooltip tags|a note}。",
-						"骰子投掷标签; {@dice 1d2-2+2d3+5} 用于普通骰子投掷 ({@dice 1d6;2d6} 用于多个选项; {@dice 1d6 + #$prompt_number:min=1,title=Enter a Number!,default=123$#} 用于输入提示), 还有扩展的 {@dice 1d20+2|display text} 和 {@dice 1d20+2|display text|rolled by name}, 以及一个特殊的'命中'版本，假设要投掷一个d20 {@hit +7} (并在 {@kbd SHIFT}+点击时进行优势投掷，在 {@kbd ALT}+点击时进行劣势投掷)。还有 {@damage 1d12+3}，将在 {@kbd SHIFT}+点击时进行暴击投掷，并在 {@kbd ALT}+点击时造成半伤害（向下取整），以及 {@d20 -4}，也会进行优势/劣势投掷，尽管在适当的情况下更倾向于使用@hit标签。法术可以具有缩放骰子标签，（1级时伤害为2d6或3d6，每超过2级增加一个 {@scaledamage 2d6;3d6|2-9|1d6}；或者，使用1点灵能点时投掷2d6，每额外花费1点灵能点增加一个 {@scaledice 2d6|1,3,5,7,9|1d6|psi|extra amount}），用于法术效果在更高等级时的缩放。{@ability str 20}、{@savingThrow str 5} 和 {@skillCheck animal_handling 5} 用作内部简写，但在其他地方可能也有用。",
-						"自动骰子标签; 与上述相同，但在呈现时会自动掷出结果: {@autodice 2d10+2}。",
-						"机会标签；类似于掷骰子的标签，但输出成功/失败。语法与骰子标签相似：{@chance 50}; {@chance 50|display text}; {@chance 50|display text|rolled by name}; {@chance 50|display text|rolled by name|on success text}; {@chance 50|display text|rolled by name|on success text|on failure text}。",
-						"召唤/伙伴特定标签: {@hitYourSpellAttack} ({@hitYourSpellAttack with optional display text}), {@dcYourSpellSave} ({@dcYourSpellSave with optional display text}).",
-						"充值标签；输出能力充能的成功/失败率。(能力标题中的{@recharge}表示\"（充能6）\"，{@recharge 4}表示\"（充能4-6）\"。",
-						"抛硬币标签；{@coinflip}或{@coinflip display text|rolee name|success text|failure text}",
-						"技能和感觉标签；{@skill Athletics}/{@skill Perception}（区分大小写）和{@sense Truesight}/{@sense darkvision}（不区分大小写），在悬停时提供工具提示。",
-						"脚注标签；允许脚注嵌入{@footnote directly in text|This is primarily for homebrew purposes, as the official texts (so far) avoid using footnotes}，与{@footnote optional reference information|This is the footnote. References are free text.|Footnote 1, page 20}。",
-						"自制标签; 可以显示{@homebrew changes|modifications}, {@homebrew additions} 或 {@homebrew |removals}。",
-						"内容标签。",
+						"Style tags; {@bold some text to be bolded} (alternative {@b shorthand}), {@italic some text to be italicised} (alternative {@i shorthand}), {@underline some text to be underlined} (alternative {@u shorthand}), {@strike some text to strike-through}, (alternative {@s shorthand}), {@color color|e40707}/{@color color variable|--rgb-name} tags, {@highlight highlight} tags, {@sup superscript} tags, {@sub subscript} tags, {@kbd keyboard} tags, {@code print(&quot;hello world&quot;)} tags, misc {@style Style|small-caps;small;capitalize;dnd-font} tags, {@font alternate font|Comic Sans MS} tags",
+						"Additionally, {@note note tags}, used for adding errata or Twitter \"designer footnotes,\" and {@tip tooltip tags|a note}.",
+						"Dice roller tags; {@dice 1d2-2+2d3+5} for regular dice rolls ({@dice 1d6;2d6} for multiple options; {@dice 1d6 + #$prompt_number:min=1,title=Enter a Number!,default=123$#} for input prompts), with extended {@dice 1d20+2|display text} and {@dice 1d20+2|display text|rolled by name}, and a special 'hit' version which assumes a d20 is to be rolled {@hit +7} (and rolls advantage on {@kbd SHIFT}+click, disadvantage on {@kbd ALT}+click). There's also {@damage 1d12+3} which will roll critical hits on {@kbd SHIFT}+click and half damage (rounding down) on {@kbd ALT}+click, and {@d20 -4} which will also roll advantage/disadvantage, although @hit tags are preferred where appropriate. Spells can have scaling-dice tags, (damage of 2d6 or 3d6 at level 1, add an extra {@scaledamage 2d6;3d6|2-9|1d6} for each level beyond 2nd; or, roll 2d6 when using 1 psi point, add an {@scaledice 2d6|1,3,5,7,9|1d6|psi|extra amount} for each additional psi point spent), for when a spell effect scales at higher levels. {@ability str 20}, {@savingThrow str 5}, and {@skillCheck animal_handling 5} are used as internal shorthand, but may be useful elsewhere.",
+						"Auto dice tags; as above, but a result is automatically rolled upon rendering: {@autodice 2d10+2}.",
+						"Chance tags; similar to dice roller tags, but output success/failure. Similar syntax as dice tags: {@chance 50}; {@chance 50|display text}; {@chance 50|display text|rolled by name}; {@chance 50|display text|rolled by name|on success text}; {@chance 50|display text|rolled by name|on success text|on failure text}.",
+						"Summon/companion-specific tags: {@hitYourSpellAttack} ({@hitYourSpellAttack with optional display text}), {@dcYourSpellSave} ({@dcYourSpellSave with optional display text}).",
+						"Recharge tags; output success/failure for ability recharge. {@recharge} in an ability title for '(Recharge 6)', {@recharge 4} for '(Recharge 4\u20136)'.",
+						"Coinflip tags; {@coinflip} or {@coinflip display text|rolee name|success text|failure text}",
+						"Skill and sense tags; {@skill Athletics}/{@skill Perception} (case sensitive) and {@sense Truesight}/{@sense darkvision} (case insensitive) which provide tooltips on hover.",
+						"Footnote tags; allows a footnote to be embedded {@footnote directly in text|This is primarily for homebrew purposes, as the official texts (so far) avoid using footnotes}, with {@footnote optional reference information|This is the footnote. References are free text.|Footnote 1, page 20}.",
+						"The homebrew tag; can show {@homebrew changes|modifications}, {@homebrew additions} or {@homebrew |removals}.",
+						"Content tags:",
 						{
 							"type": "list",
 							"items": [
-								"法术。{@spell acid splash}默认为PHB，{@spell tiny servant|xge}可以用管道添加来源，{@spell tiny servant|xge|and optional link text added with another pipe}。",
-								"项目。{@item alchemy jug}默认为DMG，{@item longsword|phb}可以用管道添加来源，{@item longsword|phb|and optional link text added with another pipe}。",
-								"生物。{@creature goblin}默认为MM，{@creature cow|vgm}可以用管道添加来源，{@creature cow|vgm|and optional link text added with another pipe}。",
-								"生物传奇组：{@legroup unicorn}默认为MM，{@legroup balhannoth|MPMM}可以用管道添加来源，{@legroup balhannoth|MPMM|and optional link text added with another pipe}。",
-								"背景。{@background Charlatan}默认为PHB，{@background Anthropologist|toa}可以用管道添加来源，{@background Anthropologist|ToA|and optional link text added with another pipe}。",
-								"种族。{@race Human}默认为PHB，{@race Aarakocra|eepc}可以用管道添加来源，{@race Aarakocra|eepc|and optional link text added with another pipe}。",
-								"调用和其他可选功能。{@optfeature Agonizing Blast}默认为PHB，{@optfeature Aspect of the Moon|xge}可以用管道添加来源，{@optfeature Aspect of the Moon|xge|and optional link text added with another pipe}。",
-								"职业：{@class fighter} 默认使用PHB，{@class artificer|tce} 可以通过竖线添加来源，{@class fighter|phb|optional link text added with another pipe}，{@class fighter|phb|subclasses added|Eldritch Knight} 可以通过另一个竖线，{@class fighter|phb|and class feature added|Eldritch Knight|phb|2-0} 可以通过另一个竖线（第一个数字是等级索引（0-19），第二个数字是特性索引（0-n））。",
-								"职业特性: {@classFeature Rage|Barbarian||1}, {@classFeature Infuse Item|Artificer|TCE|2}, {@classFeature Primal Knowledge|Barbarian||3|TCE}, {@classFeature Rage|Barbarian||1||optional display text}。假定职业来源为PHB。职业特性来源假定与职业来源相同。",
-								"子类特性: {@subclassFeature Path of the Berserker|Barbarian||Berserker||3}, {@subclassFeature Alchemist|Artificer|TCE|Alchemist|TCE|3}, {@subclassFeature Path of the Battlerager|Barbarian||Battlerager|SCAG|3}, {@subclassFeature Blessed Strikes|Cleric||Life||8|TCE}, {@subclassFeature Path of the Berserker|Barbarian||Berserker||3||optional display text}。类别来源假定为PHB。子类别来源假定为PHB。子类特性来源假定与子类别来源相同。",
-								"条件。{@condition stunned}默认为PHB，{@condition stunned|PHB}可以用管道添加来源（不是说它永远有用），{@condition stunned|PHB|and optional link text added with another pipe}。",
-								"疾病。{@disease cackle fever}默认为DMG，{@disease cackle fever}可以用管道添加来源，{@disease cackle fever|DMG|and optional link text added with another pipe}。",
-								"其他奖励。{@reward Blessing of Health}默认为DMG，{@reward Blessing of Health}可以用管道添加来源，{@reward Blessing of Health|DMG|and optional link text added with another pipe}。",
-								"壮举。{@feat Alert}默认为PHB，{@feat Elven Accuracy|xge}可以用管道添加来源，{@feat Elven Accuracy|xge|and optional link text added with another pipe}。",
-								"幻术。{@psionic Mastery of Force}默认为UATheMysticClass，{@psionic Mastery of Force|UATheMysticClass}可以用管道添加来源，{@psionic Mastery of Force|UATheMysticClass|and optional link text added with another pipe}。",
-								"对象。{@object Ballista}默认为DMG，{@object Ballista}可以用管道添加来源，{@object Ballista|DMG|and optional link text added with another pipe}。",
-								"优点。{@boon Demonic Boon of Demogorgon}默认为MTF，{@boon Demonic Boon of Demogorgon}可以用管道添加来源，{@boon Demonic Boon of Demogorgon|MTF|and optional link text added with another pipe}。",
-								"崇拜。{@cult Cult of Asmodeus}默认为MTF，{@cult Cult of Asmodeus}可以用管道添加来源，{@cult Cult of Asmodeus|MTF|and optional link text added with another pipe}。",
-								"陷阱。{@trap falling net}默认为DMG，{@trap falling portcullis|xge}可以用管道添加来源，{@trap falling portcullis|xge|and optional link text added with another pipe}。",
-								"危害。{@hazard brown mold}默认为DMG，{@hazard russet mold|vgm}可以用管道添加来源，{@hazard russet mold|vgm|and optional link text added with another pipe}。",
-								"神祗。{@deity Gond}默认为PHB《被遗忘的国度》万神殿，{@deity Gruumsh|nonhuman}可以用管道添加万神殿，{@deity Ioun|dawn war|dmg}可以用另一个管道添加来源，{@deity Ioun|dawn war|dmg|and optional link text added with another pipe}。",
-								"变化的规则。{@variantrule Diagonals}默认为DMG，{@variantrule Multiclassing|phb}可以用管道添加来源，{@variantrule Multiclassing|phb|and optional link text added with another pipe}。",
-								"车辆：{@vehicle Galley} 默认为GoS，{@vehicle Galley|GoS} 可以通过竖线添加来源，{@vehicle Galley|GoS|and optional link text added with another pipe}。",
-								"车辆升级。{@vehupgrade Guardian Figurehead}默认为GoS，{@vehicle Gilded Death Armor|BGDIA}可以用管道添加来源，{@vehicle Guardian Figurehead|GoS|and optional link text added with another pipe}。",
-								"表格。{@table 25 gp Art Objects}默认为DMG，{@table Adventuring Gear|phb}可以用管道添加来源，{@table Adventuring Gear|phb|and optional link text added with another pipe}。",
-								"行动。{@action Attack}默认为PHB，{@action Tumble|DMG}可以用管道添加来源，{@action Tumble|DMG|and optional link text added with another pipe}。",
-								"语言。{@language common}默认为PHB，{@language Dambrathan|SCAG}可以用管道添加来源，{@language Dambrathan|SCAG|and optional link text added with another pipe}。",
-								"其他角色创建选项。{@charoption Anvilwrought}默认为MOT，{@charoption Hollow One|EGW}可以用管道添加来源，{@charoption Hollow One|EGW|and optional link text added with another pipe}。",
-								"食谱: 默认为{@recipe Elven Bread}英雄盛宴，{@recipe Barovian Garlic Bread|HFFotM}可以用竖线添加来源，{@recipe Barovian Garlic Bread|HFFotM|and optional link text added with another pipe}。",
-								"牌组：{@deck Deck of Many Things}默认为DMG，{@deck Deck of Many Things|DMG}可以用管道添加来源，{@deck Deck of Many Things|DMG|and optional link text added with another pipe}。",
-								"卡片：{@card Vizier|Deck of Many Things}默认为DMG，{@card Vizier|Deck of Many Things|DMG}可以用管道添加来源，{@card Vizier|Deck of Many Things|DMG|and optional link text added with another pipe}。"
+								"Spells: {@spell acid splash} assumes PHB by default, {@spell tiny servant|xge} can have sources added with a pipe, {@spell tiny servant|xge|and optional link text added with another pipe}.",
+								"Items: {@item alchemy jug} assumes DMG by default, {@item longsword|phb} can have sources added with a pipe, {@item longsword|phb|and optional link text added with another pipe}.",
+								"Creatures: {@creature goblin} assumes MM by default, {@creature cow|vgm} can have sources added with a pipe, {@creature cow|vgm|and optional link text added with another pipe}.",
+								"Creature legendary groups: {@legroup unicorn} assumes MM by default, {@legroup balhannoth|MPMM} can have sources added with a pipe, {@legroup balhannoth|MPMM|and optional link text added with another pipe}.",
+								"Backgrounds: {@background Charlatan} assumes PHB by default, {@background Anthropologist|toa} can have sources added with a pipe, {@background Anthropologist|ToA|and optional link text added with another pipe}.",
+								"Races: {@race Human} assumes PHB by default, {@race Aarakocra|eepc} can have sources added with a pipe, {@race Aarakocra|eepc|and optional link text added with another pipe}.",
+								"Invocations and Other Optional Features: {@optfeature Agonizing Blast} assumes PHB by default, {@optfeature Aspect of the Moon|xge} can have sources added with a pipe, {@optfeature Aspect of the Moon|xge|and optional link text added with another pipe}.",
+								"Classes: {@class fighter} assumes PHB by default, {@class artificer|tce} can have sources added with a pipe, {@class fighter|phb|optional link text added with another pipe}, {@class fighter|phb|subclasses added|Eldritch Knight} with another pipe, {@class fighter|phb|and class feature added|Eldritch Knight|phb|2-0} with another pipe (first number is level index (0-19), second number is feature index (0-n)).",
+								"Class Features: {@classFeature Rage|Barbarian||1}, {@classFeature Infuse Item|Artificer|TCE|2}, {@classFeature Primal Knowledge|Barbarian||3|TCE}, {@classFeature Rage|Barbarian||1||optional display text}. Class source is assumed to be PHB. Class feature source is assumed to be the same as class source.",
+								"Subclass Features: {@subclassFeature Path of the Berserker|Barbarian||Berserker||3}, {@subclassFeature Alchemist|Artificer|TCE|Alchemist|TCE|3}, {@subclassFeature Path of the Battlerager|Barbarian||Battlerager|SCAG|3}, {@subclassFeature Blessed Strikes|Cleric||Life||8|TCE}, {@subclassFeature Path of the Berserker|Barbarian||Berserker||3||optional display text}. Class source is assumed to be PHB. Subclass source is assumed to be PHB. Subclass feature source is assumed to be the same as subclass source.",
+								"Conditions: {@condition stunned} assumes PHB by default, {@condition stunned|PHB} can have sources added with a pipe (not that it's ever useful), {@condition stunned|PHB|and optional link text added with another pipe}.",
+								"Diseases: {@disease cackle fever} assumes DMG by default, {@disease cackle fever} can have sources added with a pipe, {@disease cackle fever|DMG|and optional link text added with another pipe}.",
+								"Other Rewards: {@reward Blessing of Health} assumes DMG by default, {@reward Blessing of Health} can have sources added with a pipe, {@reward Blessing of Health|DMG|and optional link text added with another pipe}.",
+								"Feats: {@feat Alert} assumes PHB by default, {@feat Elven Accuracy|xge} can have sources added with a pipe, {@feat Elven Accuracy|xge|and optional link text added with another pipe}.",
+								"Psionics: {@psionic Mastery of Force} assumes UATheMysticClass by default, {@psionic Mastery of Force|UATheMysticClass} can have sources added with a pipe, {@psionic Mastery of Force|UATheMysticClass|and optional link text added with another pipe}.",
+								"Objects: {@object Ballista} assumes DMG by default, {@object Ballista} can have sources added with a pipe, {@object Ballista|DMG|and optional link text added with another pipe}.",
+								"Boons: {@boon Demonic Boon of Demogorgon} assumes MTF by default, {@boon Demonic Boon of Demogorgon} can have sources added with a pipe, {@boon Demonic Boon of Demogorgon|MTF|and optional link text added with another pipe}.",
+								"Cults: {@cult Cult of Asmodeus} assumes MTF by default, {@cult Cult of Asmodeus} can have sources added with a pipe, {@cult Cult of Asmodeus|MTF|and optional link text added with another pipe}.",
+								"Traps: {@trap falling net} assumes DMG by default, {@trap falling portcullis|xge} can have sources added with a pipe, {@trap falling portcullis|xge|and optional link text added with another pipe}.",
+								"Hazards: {@hazard brown mold} assumes DMG by default, {@hazard russet mold|vgm} can have sources added with a pipe, {@hazard russet mold|vgm|and optional link text added with another pipe}.",
+								"Deities: {@deity Gond} assumes PHB Forgotten Realms pantheon by default, {@deity Gruumsh|nonhuman} can have pantheons added with a pipe, {@deity Ioun|dawn war|dmg} can have sources added with another pipe, {@deity Ioun|dawn war|dmg|and optional link text added with another pipe}.",
+								"Variant rules: {@variantrule Diagonals} assumes DMG by default, {@variantrule Multiclassing|phb} can have sources added with a pipe, {@variantrule Multiclassing|phb|and optional link text added with another pipe}.",
+								"Vehicles: {@vehicle Galley} assumes GoS by default, {@vehicle Galley|GoS} can have sources added with a pipe, {@vehicle Galley|GoS|and optional link text added with another pipe}.",
+								"Vehicle upgrades: {@vehupgrade Guardian Figurehead} assumes GoS by default, {@vehicle Gilded Death Armor|BGDIA} can have sources added with a pipe, {@vehicle Guardian Figurehead|GoS|and optional link text added with another pipe}.",
+								"Tables: {@table 25 gp Art Objects} assumes DMG by default, {@table Adventuring Gear|phb} can have sources added with a pipe, {@table Adventuring Gear|phb|and optional link text added with another pipe}.",
+								"Actions: {@action Attack} assumes PHB by default, {@action Tumble|DMG} can have sources added with a pipe, {@action Tumble|DMG|and optional link text added with another pipe}.",
+								"Languages: {@language common} assumes PHB by default, {@language Dambrathan|SCAG} can have sources added with a pipe, {@language Dambrathan|SCAG|and optional link text added with another pipe}.",
+								"Other Character Creation Options: {@charoption Anvilwrought} assumes MOT by default, {@charoption Hollow One|EGW} can have sources added with a pipe, {@charoption Hollow One|EGW|and optional link text added with another pipe}.",
+								"Recipes: {@recipe Elven Bread} assumes Heroes' Feast by default, {@recipe Barovian Garlic Bread|HFFotM} can have sources added with a pipe, {@recipe Barovian Garlic Bread|HFFotM|and optional link text added with another pipe}.",
+								"Decks: {@deck Deck of Many Things} assumes DMG by default, {@deck Deck of Many Things|DMG} can have sources added with a pipe, {@deck Deck of Many Things|DMG|and optional link text added with another pipe}.",
+								"Cards: {@card Vizier|Deck of Many Things} assumes DMG by default, {@card Vizier|Deck of Many Things|DMG} can have sources added with a pipe, {@card Vizier|Deck of Many Things|DMG|and optional link text added with another pipe}."
 							]
 						},
 						{
 							"type": "inset",
 							"name": "Filter Tag",
 							"entries": [
-								"数据中偶尔出现的另一个标签是@filter标签。这个标签可能有些棘手，通常需要了解每个页面的内部情况。因此，请谨慎使用，如果对某些事情不确定，不要犹豫，可以访问我们的{@link Discord|https://discord.gg/5etools}提出问题。请注意，您可以在列表页面上{@kbd CTRL}+点击“获取筛选器链接”(磁铁)按钮，以复制当前筛选器选择的@filter标签。",
-								"@filter标签的语法如下。",
-								"(打开大括号)@filter display text|page_without_file_extension|filter_name_1=filter_1_value_1;filter_1_value_2;...filter_1_value_n|...|filter_name_m=filter_m_value_1;filter_m_value_2;... (关闭大括号)",
-								"这个标签的目的是打开给定的页面，用指定的过滤选项进行预过滤。有一个主要的注意事项，使得有抱负的JSONtranauts使用起来很棘手--过滤值使用{@i internal}版本，就像你在数据中发现的那样。因此，例如，.|school=D|...会将法术过滤为占卜学校的法术，因为'D'是数据中的占卜标识。试图这样做，例如 ...|school=Divination|...，是行不通的。",
-								"这里的'filter_name_X'与下拉菜单中显示的过滤器的字面文本名称相匹配。",
-								"该标签在行动中的一些例子。",
+								"Another tag that appears occasionally in the data is the @filter tag. This tag can be tricky to use, and generally relies on knowledge of the internals of each page. As such, use with caution, and if you're not sure about something, don't be afraid to drop by our {@link Discord|https://discord.gg/5etools} and ask questions. Note that you can {@kbd CTRL}+click the \"Get link to filters\" (magnet) button on a list page to copy the @filter tag for your current filter selection.",
+								"The syntax for the @filter tag is as follows:",
+								"(open curly brace)@filter display text|page_without_file_extension|filter_name_1=filter_1_value_1;filter_1_value_2;...filter_1_value_n|...|filter_name_m=filter_m_value_1;filter_m_value_2;...(close curly brace)",
+								"The purpose of this tag is to open the given page, pre-filtered with the specified filtering options. There's one major caveat that makes this tricky to use for aspiring JSONtranauts\u2014the filter values use the {@i internal} version, as you'd find in the data. So, for example, ..|school=D|.. would filter spells to Divination school spells, as 'D' is the Divination identifier in the data. Trying to do e.g. ..|school=Divination|.. will not work.",
+								"The 'filter_name_X' here matches the literal text name of the filter, as displayed in the dropdown.",
+								"Some examples of the tag in action:",
 								"{@filter Races that have a bonus to Intelligence|races|Ability Scores (Including Subrace)=Intelligence +any}",
 								"{@filter Bard cantrips and first-level spells|spells|level=0;1|class=bard}",
 								"{@filter Beast with challenge rating 1 or lower|bestiary|challenge rating=[&0;&1]|type=beast}",
@@ -86,15 +86,15 @@
 								"{@filter Divination and Evocation spells|spells|school=D;V}",
 								"{@filter All uncommon magic items|items|source=|type=|rarity=uncommon|miscellaneous=Magic}",
 								"{@filter Simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=u~u~sand}",
-								"元选项可以被设置; 对于单个过滤器，可以内联设置，使用'fbmt'来过滤元选项{@filter filter meta example|spells|level=1;2=sor~sand~b1|fbmt=sor|fbmh=source}",
-								"搜索可以设置; {@filter view dinosaurs|bestiary|search=dinosaur}",
-								"一个确切的起始实体；{@filter filter for beasts and show cat|bestiary|type=beast|hash=cat_mm}，其中'hash'是'#'之后、任何逗号之前的部分，在查看实体时出现在URL栏中。",
+								"Meta-options can be set; inline for individual filters, and using 'fbmt' for filtering meta-options {@filter filter meta example|spells|level=1;2=sor~sand~b1|fbmt=sor|fbmh=source}",
+								"Search can be set; {@filter view dinosaurs|bestiary|search=dinosaur}",
+								"An exact starting entity; {@filter filter for beasts and show cat|bestiary|type=beast|hash=cat_mm} where 'hash' is the part after a '#' and before any commas which appears in the URL bar when viewing the entity.",
 								{
 									"type": "entries",
 									"name": "Note",
 									"entries": [
-										"将过滤器设置为 \"无值\"，即......|学校=|......相当于 \"清除过滤器\"，将其重置为全白。",
-										"支持这种功能的页面是那些有 \"磁铁 \"按钮的页面；这个按钮输出的链接将提供线索，说明人们可以用过滤标签做什么。"
+										"Setting a filter to \"no value\", i.e. ..|school=|.. is equivalent to 'clear the filter,' resetting it to all-white.",
+										"The pages that support this functionality are those with the 'magnet' button; the link this button exports will give clues as to what one could do with the filter tag."
 									]
 								}
 							]
@@ -103,21 +103,21 @@
 							"type": "inset",
 							"name": "Area Tags and IDs",
 							"entries": [
-								"冒险和书籍内容支持 \"区域 \"标签，其形式为`@area [区域名称]|[条目id]`或`@area [区域名称]|[条目id]|[修饰语]`，其中[修饰语]是 \"x \"的组合，表示e[x]act文本，\"u \"表示[u]ppercase。\"精确 \"修饰符去掉了预置在区域名称前面的 \"区域\"，\"大写 \"修饰符使预置的文本变成 \"区域\"。",
-								"各种条目块都可以有 \"ID \"字段（因此可以用 \"区域 \"标签来链接），值得注意的是 \"条目 \"类型、\"章节 \"类型和 \"插页 \"类型。这些ID通常是3位16进制数字（允许每个冒险/书总共有4096个ID），但任何在文件中唯一的字符串都足够了。"
+								"Adventure and book content supports \"area\" tags, which have the form `@area [area name]|[entry id]` or `@area [area name]|[entry id]|[modifiers]` where [modifiers] is a combination of \"x\" for e[x]act text, and \"u\" for [u]ppercase. The \"exact\" modifier removes the leading \"area \" which is prepended to the area name, and the \"uppercase\" modifier causes the prepended text to \"Area \".",
+								"A variety of entries blocks can have \"id\" fields (and may therefore be linked to with \"area\" tags), notable \"entries\"-type, \"section\"-type, and \"inset\"-type. These IDs are conventionally 3-digit hexadecimal numbers (allowing for a total of 4096 IDs per adventure/book), but any string which is unique within the document will suffice."
 							]
 						},
 						{
 							"type": "inset",
 							"name": "Book/Reference Tags",
 							"entries": [
-								"以下标签可用于链接冒险/书籍的特定章节。请注意，章节和标题的索引是从零开始的。",
+								"The following tags can be used to link specific sections of adventures/books. Note that chapters and headers are indexed from zero.",
 								{
 									"type": "list",
 									"items": [
-										"冒险标签：链接到一个冒险{@adventure display text|CoS}；一个冒险中的一个章节{@adventure display text|CoS|2}；一个冒险中的一个章节的标题{@adventure display text|CoS|2|Treasure}；或一个冒险中的一个章节的第N个给定的标题{@adventure display text|CoS|2|Treasure|1}",
-										"书籍标签：链接到一本书{@book display text|PHB}；一本书中的一个章节{@book display text|PHB|2}；一本书中一个章节中的一个标题{@book display text|PHB|2|Age}；或者一本书中一个章节中给定名称的第N个标题{@book display text|PHB|2|Age|0}（尽管这通常是不必要的，因为与冒险不同，书籍很少重复它们的标题。）",
-										"快速参考标签; {@code &lt;name&gt;|&lt;source&gt;|&lt;chapterIndex&gt;|&lt;headerIndex&gt;|&lt;displayText&gt;}: {@quickref Multiclassing}, {@quickref Multiclassing|PHB}, {@quickref Adventuring Gear|PHB|1}, {@quickref Adventuring Gear|PHB|1|0}, {@quickref Adventuring Gear|PHB|1|0|Display Text}。"
+										"Adventure tags: link to an adventure {@adventure display text|CoS}; a chapter in an adventure {@adventure display text|CoS|2}; a heading in a chapter in an adventure {@adventure display text|CoS|2|Treasure}; or the Nth heading of a given name in a chapter in an adventure {@adventure display text|CoS|2|Treasure|1}",
+										"Book tags: link to a book {@book display text|PHB}; a chapter in a book {@book display text|PHB|2}; a heading in a chapter in a book {@book display text|PHB|2|Age}; or the Nth heading of a given name in a chapter in a book {@book display text|PHB|2|Age|0} (although this is generally unnecessary as, unlike adventures, books don't repeat their headings very often.",
+										"Quick Reference tags; {@code &lt;name&gt;|&lt;source&gt;|&lt;chapterIndex&gt;|&lt;headerIndex&gt;|&lt;displayText&gt;}: {@quickref Multiclassing}, {@quickref Multiclassing|PHB}, {@quickref Adventuring Gear|PHB|1}, {@quickref Adventuring Gear|PHB|1|0}, {@quickref Adventuring Gear|PHB|1|0|Display Text}."
 									]
 								}
 							]
@@ -126,45 +126,45 @@
 							"type": "inset",
 							"name": "Other Tags",
 							"entries": [
-								"链接。",
+								"Links:",
 								{
 									"type": "list",
 									"items": [
-										"内部链接。{@5etools This Is Your Life|lifegen.html}",
-										"外部链接：{@link https://discord.gg/5etools} 或 {@link Discord|https://discord.gg/5etools}"
+										"Internal links: {@5etools This Is Your Life|lifegen.html}",
+										"External links: {@link https://discord.gg/5etools} or {@link Discord|https://discord.gg/5etools}"
 									]
 								},
-								"特定页面/其他标签。",
+								"Page specific/other tags:",
 								{
 									"type": "list",
 									"items": [
-										"兽皮书的 \"攻击 \"标签。{@atk m}, {@atk r}, {@atk m,r}, {@atk mw}, {@atk rw}, {@atk ms}, {@atk rs}; (仅限自制) {@atk a}, {@atk aw}。逗号分隔了or'd攻击类型；一般的形式是：'@atk &lt;m|r|a&gt;[&lt;w|s&gt;] [,&lt;m|r|a&gt;[&lt;w|s&gt;] [,...]'"
+										"Bestiary 'attack' tags: {@atk m}, {@atk r}, {@atk m,r}, {@atk mw}, {@atk rw}, {@atk ms}, {@atk rs}; (homebrew only) {@atk a}, {@atk aw}. Commas separate or'd attack types; the general form is: '@atk &lt;m|r|a&gt;[&lt;w|s&gt;][,&lt;m|r|a&gt;[&lt;w|s&gt;][,...]]'"
 									]
 								},
-								"自制加载标签: {@loader Tome of Beasts|creature/Kobold Press; Tome of Beasts.json}。管道符后的URL假定来自自制存储库的根目录，除非它以\"...://\"前缀开头（即，任何链接都应该有效，但自制存储库链接有一种简写形式）。",
-								"预发行加载标签; 如上: {@loader UA: When Armies Clash|collection/Unearthed Arcana - When Armies Clash.json|prerelease}。"
+								"Homebrew loading tags: {@loader Tome of Beasts|creature/Kobold Press; Tome of Beasts.json}. The URL after the pipe is assumed to be from the root of the homebrew repository, unless it starts with a \"...://\" prefix (i.e., any link should work, but there's a shorthand for homebrew repository links).",
+								"Prerelease loading tags; as above: {@loader UA: When Armies Clash|collection/Unearthed Arcana - When Armies Clash.json|prerelease}."
 							]
 						}
 					]
 				},
-				"这些标签可以是{@b {@i {@spell fireball|phb|nested}}}，尽管通常有更好的方法来获得你可能要使用的粗体和斜体的组合；考虑使用下面的正确键入对象之一（如2级标题）。",
+				"These tags may be {@b {@i {@spell fireball|phb|nested}}}, although there are often better ways to get the combination of bold and italic that you're probably going to use this for; consider using one of the properly typed objects below (such as level 2 headers).",
 				{
 					"type": "entries",
 					"name": "A Subclass Name, For Example",
 					"entries": [
-						"以上是一个 \"0级 \"头。",
-						"名称 \"属性是可选的",
+						"The above is a 'level 0' header.",
+						"The 'name' property is optional",
 						{
 							"type": "entries",
 							"name": "A Subclass Feature Name",
 							"entries": [
-								"以上是一个 \"一级 \"标题。",
+								"The above is a 'level 1' header.",
 								{
 									"type": "entries",
 									"name": "A Subclass Feature Inline Header",
 									"entries": [
-										"这个粗体字的内联标题是一个 \"二级 \"标题，请使用这个标题，而不是嵌套标签。如果需要的话，你可以做一个没有名字的空条目对象链来达到这个标题级别。",
-										"请注意，内联名称中的句号是自动添加的。"
+										"This bold-italic inline header is a 'level 2' header, please use this as opposed to nesting tags. You can make a chain of empty entry objects with no names to get to this header level, if required.",
+										"Note that the period in the inline name is added automagically."
 									]
 								}
 							]
@@ -181,7 +181,7 @@
 									"type": "entries",
 									"name": "This is an example of a level 2 header with no real parents",
 									"entries": [
-										"这种技术有时是有用的。"
+										"This technique can be useful, sometimes."
 									]
 								}
 							]
@@ -191,7 +191,7 @@
 				{
 					"type": "inline",
 					"entries": [
-						"条目可以被内联，这对超出上述标签的链接很有用。",
+						"Entries can be inlined, useful for e.g. links beyond the tags listed above, ",
 						{
 							"type": "link",
 							"href": {
@@ -200,13 +200,13 @@
 							},
 							"text": "such as a link to the homepage"
 						},
-						" 但你可以看到为什么标签是最好的。"
+						" but you can see why the tags are preferable."
 					]
 				},
 				{
 					"type": "inlineBlock",
 					"entries": [
-						"与上述类似，但保留了内联子句周围的段落/等标签。",
+						"Similar to the above, but keeps the paragraph/etc tags around the inlined children, ",
 						{
 							"type": "link",
 							"href": {
@@ -215,7 +215,7 @@
 							},
 							"text": "such as a link to the homepage"
 						},
-						" 所以可以很容易地与文本行混合。"
+						" so can easily be mixed with lines of text."
 					]
 				},
 				{
@@ -225,14 +225,14 @@
 							"type": "entries",
 							"name": "Option B",
 							"entries": [
-								"有时很有用，例如，对一个班级的战斗风格。(注意，这个选项在数据中列在第一位时，会被呈现在第二位。)"
+								"Sometimes useful, e.g. for Fighting Styles on a class. (Note that this option is rendered second, when it's listed first in the data.)"
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Option A",
 							"entries": [
-								"选项 \"类型与条目列表非常相似，但它在显示选项之前，按名称的字母顺序对选项列表进行排序。"
+								"The 'options' type is very similar to a list of entries, but it alphabetically sorts the list of options by name, before displaying them."
 							]
 						}
 					]
@@ -252,21 +252,21 @@
 					],
 					"rows": [
 						[
-							"这是一个表格行",
-							"条目数应与列数一致，自然*。",
+							"This is a table row",
+							"The number of entries should match the number of columns, naturally*",
 							""
 						],
 						[
-							"colStyles \"列表从字面上看是作为CSS类使用的",
-							"列的宽度可以用12进制来指定，如`col-[1到12]`（例如col-12是100%的宽度，col-6是50%的宽度）。",
+							"The 'colStyles' list is literally used as CSS classes",
+							"Column widths can be specified in 12ths, as `col-[1 to 12]` (e.g. col-12 is 100% width, and col-6 is 50% width)",
 							"**"
 						],
 						[
 							{
 								"type": "list",
 								"items": [
-									"嵌套条目（一般）也可以。",
-									"尽管布局可能会因更多奇特的嵌套而开始恶化。"
+									"Nested entries (generally) work, too.",
+									"Although layout may start to deteriorate with more exotic nesting."
 								]
 							},
 							"{@spell bless||Spells, on the other hand, make sense.}",
@@ -311,13 +311,13 @@
 					],
 					"rows": [
 						[
-							"这个表格有多个标题行，一个叠在另一个上面。",
-							"罗雷姆伊普苏姆",
-							"这一列没有标签 (This column has no labels)"
+							"This table has multiple header rows stacked one atop the other",
+							"Lorem ipsum",
+							"This column has no labels"
 						]
 					]
 				},
-				"可滚动的表格可以这样制作（注意用'垫'来格式化个位数的数字，例如对于>10行的表格用'01'）。",
+				"Rollable tables can be made like so (note the 'pad' to format single digit numbers e.g. '01' for tables with >10 rows):",
 				{
 					"type": "table",
 					"caption": "Rollable Table Caption",
@@ -338,7 +338,7 @@
 									"pad": true
 								}
 							},
-							"第一个项目"
+							"First Item"
 						],
 						[
 							{
@@ -347,7 +347,7 @@
 									"exact": 2
 								}
 							},
-							"第二个项目"
+							"Item the Second"
 						],
 						[
 							{
@@ -357,7 +357,7 @@
 									"max": 4
 								}
 							},
-							"四个项目中的三个"
+							"Three of Four Items"
 						],
 						[
 							{
@@ -366,7 +366,7 @@
 									"exact": 5
 								}
 							},
-							"项目五：项目回放"
+							"Item V: The Item Items Back"
 						],
 						[
 							{
@@ -375,19 +375,19 @@
 									"exact": 6
 								}
 							},
-							"为幸运儿准备的物品"
+							"Item for Lucky Winners"
 						]
 					]
 				},
 				{
 					"type": "list",
 					"items": [
-						"一个基本的项目清单",
-						"像往常一样，嵌套条目的工作",
+						"A basic list of items",
+						"As usual, nested entries work",
 						{
 							"type": "list",
 							"items": [
-								"如嵌套列表"
+								"Such as a nested list"
 							]
 						}
 					]
@@ -396,19 +396,19 @@
 					"type": "list",
 					"columns": 3,
 					"items": [
-						"一个带有包装列的项目列表",
-						"这将包裹着",
-						"最多可以达到 \"列 \"字段所规定的最大次数",
-						"并将尝试在每个栏目之间平衡内容"
+						"A list of items with wrapping columns",
+						"Which will wrap",
+						"Up to a maximum number of times as specified by the 'columns' field",
+						"And will attempt to balance content between each column"
 					]
 				},
-				"还有。",
+				"There's also:",
 				{
 					"type": "list",
 					"style": "list-no-bullets",
 					"items": [
-						"一个没有子弹的项目列表",
-						"很少使用"
+						"A list of items without bullets",
+						"Used very rarely"
 					]
 				},
 				{
@@ -416,8 +416,8 @@
 					"style": "list-hang",
 					"name": "Hanging List",
 					"items": [
-						"一个悬挂的物品清单",
-						"它有一个 \"名字\"/标题，并将挂在该标题下面"
+						"A hanging items list",
+						"Which has a 'name'/title, and will hang below that title"
 					]
 				},
 				{
@@ -428,9 +428,9 @@
 						{
 							"type": "item",
 							"name": "An extension of the hanging list",
-							"entry": "其中有粗体内联标题 -- 注意这只允许每个项目有{@i one}的条目（是'条目'而不是'条目'）。"
+							"entry": "Which has bold inline titles -- note that this only allows {@i one} entry per item (it's 'entry' and not 'entries')"
 						},
-						"可与普通字符串混合使用"
+						"Can be mixed with regular strings"
 					]
 				},
 				{
@@ -440,21 +440,21 @@
 						{
 							"type": "item",
 							"name": "A similar story here",
-							"entry": "项目 \"和上面一样是一个条目，但整个列表没有 \"名字\"，所以这个没有左插入。一些长的文字显示了行与行之间缠绕时的情况，它应该继续，但在第一行之后缩进。源书中的一些例子可以在《怪物手册》中的金属龙息武器中找到。"
+							"entry": "The 'item' is an entry as above, but there's no 'name' for the entire list, so this has no left inset. Some long text to show what happens when the lines wrap around, it should continue but be indented after the first line. Some example of this in the source books can be found in Metalic Dragon breath weapons in the Monster Manual."
 						},
 						{
 							"type": "itemSub",
 							"name": "A sub-item used in some places",
-							"entry": "例如，XGE的复杂陷阱"
+							"entry": "For example, XGE's complex traps"
 						},
 						{
 							"type": "item",
 							"name": "Multiple entry version",
 							"entries": [
-								"这是为了符合《(XGE)》中复杂陷阱的要求，这些陷阱可能有多行文本，通常足够长以至于在同一列中分成多行。例如：",
-								"任何一个传送门都可以通过三次成功的 DC 20 智力检定来中和，但分析传送门以破坏它的过程需要时间。走廊两端天花板和地板上的微弱符文参与了传送门的运作。生物必须首先使用一个动作来检查一组符文，然后使用随后的一个动作来尝试破坏这些符文。每次成功的检定会将球体的伤害减少 11 点，因为通过失效传送门移动的球体失去了速度。",
-								"或者，可以通过三次成功施法目标为该符文集合中任意一个符文的{@spell dispel magic} (DC 19)来使符文失效。",
-								"如果南方传送门被摧毁，那个球体会撞向南墙并停下来。它会挡住通往墓穴的门，但角色们可以逃脱。"
+								"This was, again, required specifically for XGE's complex traps, which can have multiple lines of text, often long enough to wrap into multiple rows in the same column. For example:",
+								"Either portal can be neutralized with three successful DC 20 Intelligence ({@skill Arcana}) checks, but the process of analyzing a portal to disrupt it takes time. Faint runes in the ceiling and floor at both ends of the hallway are involved in the functioning of the portals. A creature must first use an action to examine a set of runes, then use a subsequent action to attempt to vandalize the runes. Each successful check reduces the sphere's damage by 11 ({@dice 2d10}), as the disrupted sphere loses speed moving through the failing portal.",
+								"Alternatively, a set of runes can be disabled with three successful castings of {@spell dispel magic} (DC 19) targeting any of the runes in the set.",
+								"If the southern portal is destroyed, the sphere slams into the south wall and comes to a halt. It blocks the door to the tomb, but the characters can escape."
 							]
 						}
 					]
@@ -463,8 +463,8 @@
 					"type": "list",
 					"style": "list-decimal",
 					"items": [
-						"一个十进制数字的列表。另外，'list-lower-roman'也可以用于小写罗马数字。",
-						"到目前为止，只在自制产品中看到。"
+						"A decimal-numbered list. Alternatively, 'list-lower-roman' can be used for lowercase Roman numerals.",
+						"So far only seen in homebrew."
 					]
 				},
 				{
@@ -472,22 +472,22 @@
 					"style": "list-upper-roman",
 					"start": 5,
 					"items": [
-						"第一项 (`First list item`)",
-						"第二个列表项"
+						"First list item",
+						"Second list item"
 					]
 				},
-				"奖金 \"型的人只是在事情的前面加了一个+。",
+				"The 'bonus' type just sticks a + in front of things",
 				{
 					"type": "bonus",
 					"value": 3
 				},
-				"我们并不经常使用这个工具。它很有用，因为它允许我们将数据存储为一个数字，并根据需要用加号来呈现，但它大多被遗忘。",
-				"与'bonusSpeed'类型的情况类似（这些'bonus'的味道主要在类表中使用）。",
+				"We don't use that one much. It's useful because it allows us to store the data as a number, and render it with a plus sign as required, but it's mostly just forgotten about.",
+				"Similar story with 'bonusSpeed' type (these 'bonus' flavors are mainly used in the class tables)",
 				{
 					"type": "bonusSpeed",
 					"value": 100
 				},
-				"骰子 \"类型很少使用，因为存在速记标签，但它看起来像这样。",
+				"The 'dice' type is rarely used, since the shorthand tag exists, but it looks like this:",
 				{
 					"type": "dice",
 					"toRoll": [
@@ -509,7 +509,7 @@
 					],
 					"rollable": true
 				},
-				"abilityDc \"类型更有帮助。",
+				"The 'abilityDc' type is more helpful:",
 				{
 					"type": "abilityDc",
 					"name": "Buggy Code",
@@ -518,7 +518,7 @@
 						"int"
 					]
 				},
-				"正如 \"能力攻击模式\"（abilityAttackMod）类型。",
+				"As is the 'abilityAttackMod' type:",
 				{
 					"type": "abilityAttackMod",
 					"name": "Killing Things",
@@ -526,7 +526,7 @@
 						"str"
 					]
 				},
-				"还有一个允许更多文本定制的通用版本；\"能力通用\"。",
+				"There's also a generic version that allows more text customisation; 'abilityGeneric':",
 				{
 					"type": "abilityGeneric",
 					"name": "Initiative",
@@ -540,7 +540,7 @@
 					"type": "abilityGeneric",
 					"text": "leave out the 'name' and 'attributes' properties as required"
 				},
-				"使用 \"链接 \"的外部链接。",
+				"External links using 'link':",
 				{
 					"type": "link",
 					"href": {
@@ -549,53 +549,53 @@
 					},
 					"text": "The full 'entry' schema."
 				},
-				"内部链接也是可能的，但通常由@tags覆盖。请看上面链接的模式的全部用法；它是巨大而可怕的，所以我不打算在这里详述。",
-				"召唤/其他可选功能。",
+				"Internal links are also possible, but generally covered by @tags. Check out the schema linked above for the full usage; it's massive and horrible so I'm not going to go into detail here.",
+				"Invocations/Other Optional Features:",
 				{
 					"type": "optfeature",
 					"name": "Optional Feature Name",
 					"prerequisite": "Optional prerequisite, which can include tags {@spell eldritch blast}",
 					"entries": [
-						"可选的特征文本。"
+						"Optional feature text."
 					]
 				},
-				"资助者。",
+				"Patrons:",
 				{
 					"type": "inset",
 					"name": "Inset Title (Optional)",
 					"entries": [
-						"这是一个文本插入/插入/侧边栏/等等。"
+						"This is a text inset/insert/sidebar/etc."
 					]
 				},
 				{
 					"type": "insetReadaloud",
 					"name": "Same As Above",
 					"entries": [
-						"但颜色不同。"
+						"But a different color."
 					]
 				},
 				{
 					"type": "variant",
 					"name": "Better Monster",
 					"entries": [
-						"一些变异的怪物文本",
+						"Some variant monster text",
 						{
 							"type": "entries",
 							"name": "Inline Header",
 							"entries": [
-								"文本 文本",
+								"Text text text",
 								{
 									"type": "variantSub",
 									"name": "These can have child items",
 									"entries": [
-										"而它们的标题风格是独特的，所以这个存在是为了应对这个问题。"
+										"And the header style for them is unique, so this exists to cope with that."
 									]
 								}
 							]
 						}
 					]
 				},
-				"图片（类似于 \"链接 \"类型的结构）。",
+				"Images (similar to the structure of the 'link' type):",
 				{
 					"type": "image",
 					"href": {
@@ -609,7 +609,7 @@
 					"type": "entries",
 					"name": "Data Embeds",
 					"entries": [
-						"生物；格式基于兽皮书数据，并添加了类型（注意，适当的兽皮书条目和条目链接是添加生物的首选方法，此功能主要为自制数据而存在）。",
+						"Creatures; format based on Bestiary data, with added type (note that a proper Bestiary entry and a link to the entry is the preferred method of adding creatures, this functionality exists primarily for homebrew data):",
 						{
 							"type": "statblockInline",
 							"style": "inset",
@@ -664,19 +664,19 @@
 									{
 										"name": "Charge",
 										"entries": [
-											"如果独角兽朝着目标直线移动至少20英尺，然后在同一回合用角攻击命中目标，目标会受到额外的9({@dice 2d8})穿刺伤害。如果目标是生物，它必须成功进行一次{@dc 15}力量豁免才能不被击倒。"
+											"If the unicorn moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 ({@dice 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked prone."
 										]
 									},
 									{
 										"name": "Magic Resistance",
 										"entries": [
-											"独角兽在面对法术和其他魔法效果时，在蓄力攻击方面有优势。"
+											"The unicorn has advantage on saving throws against spells and other magical effects."
 										]
 									},
 									{
 										"name": "Magic Weapons",
 										"entries": [
-											"独角兽的武器攻击是神奇的。"
+											"The unicorn's weapon attacks are magical."
 										]
 									}
 								],
@@ -684,31 +684,31 @@
 									{
 										"name": "Multiattack",
 										"entries": [
-											"独角兽进行两次攻击：一次用蹄子，一次用角。"
+											"The unicorn makes two attacks: one with its hooves and one with its horn."
 										]
 									},
 									{
 										"name": "Hooves",
 										"entries": [
-											"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。命中：11({@damage 2d6 + 4})重击伤害。"
+											"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. Hit: 11 ({@damage 2d6 + 4}) bludgeoning damage."
 										]
 									},
 									{
 										"name": "Horn",
 										"entries": [
-											"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。命中：8 ({@damage 1d8 + 4})穿刺伤害。"
+											"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. Hit: 8 ({@damage 1d8 + 4}) piercing damage."
 										]
 									},
 									{
 										"name": "Healing Touch (3/Day)",
 										"entries": [
-											"独角兽用它的角触碰另一个生物。目标会神奇地恢复11({@dice 2d8 + 2})点的生命值。此外，触碰可以消除所有疾病，并中和所有折磨目标的毒药。"
+											"The unicorn touches another creature with its horn. The target magically regains 11 ({@dice 2d8 + 2}) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target."
 										]
 									},
 									{
 										"name": "Teleport (1/Day)",
 										"entries": [
-											"独角兽用魔法将自己和它周围5英尺范围内的最多三个自愿的生物，以及他们所穿戴或携带的任何装备，传送到独角兽熟悉的地方，最多可以传送1英里远。"
+											"The unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away."
 										]
 									}
 								],
@@ -720,19 +720,19 @@
 									{
 										"name": "Hooves",
 										"entries": [
-											"独角兽用它的蹄子进行一次攻击。"
+											"The unicorn makes one attack with its hooves."
 										]
 									},
 									{
 										"name": "Shimmering Shield (Costs 2 Actions)",
 										"entries": [
-											"独角兽在它自己或它能看到的60英尺范围内的其他生物周围创造一个闪亮的魔法场。目标在独角兽的下一回合结束前，会获得+2的攻击力加成。"
+											"The unicorn creates a shimmering, magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the unicorn's next turn."
 										]
 									},
 									{
 										"name": "Heal Self (Costs 3 Actions)",
 										"entries": [
-											"独角兽神奇地恢复了11({@dice 2d8 + 2})点生命值。"
+											"The unicorn magically regains 11 ({@dice 2d8 + 2}) hit points."
 										]
 									}
 								],
@@ -742,7 +742,7 @@
 										"name": "Innate Spellcasting",
 										"type": "spellcasting",
 										"headerEntries": [
-											"独角兽的天生施法能力是魅力（法术豁免{@dc 14}）。独角兽可以天生施放以下法术，无需任何材料："
+											"The unicorn's innate spellcasting ability is Charisma (spell save {@dc 14}). The unicorn can innately cast the following spells, requiring no components:"
 										],
 										"will": [
 											"{@spell detect evil and good}",
@@ -776,7 +776,7 @@
 								]
 							}
 						},
-						"法术；同上。",
+						"Spells; as above:",
 						{
 							"type": "statblockInline",
 							"collapsed": true,
@@ -810,22 +810,22 @@
 								],
 								"source": "PHB",
 								"entries": [
-									"一道亮光从你的指尖闪到你选择的范围内的一个点上，然后伴随着低沉的吼声绽放出火焰的爆炸。以该点为中心的20英尺半径范围内的每个生物都必须做一个灵巧的蓄力动作。蓄力失败时，目标会受到{@dice 8d6}的火焰伤害，蓄力成功则受到一半的伤害。",
-									"火焰在角落里蔓延。它点燃了该地区未被穿戴或携带的易燃物品。"
+									"A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes {@dice 8d6} fire damage on a failed save, or half as much damage on a successful one.",
+									"The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 								],
 								"entriesHigherLevel": [
 									{
 										"type": "entries",
 										"name": "At Higher Levels",
 										"entries": [
-											"当你使用4级或更高级别的法术位施放这个法术时，伤害会每超过3级的位数增加{@scaledice 8d6|3-9|1d6}。"
+											"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledice 8d6|3-9|1d6} for each slot level above 3rd."
 										]
 									}
 								],
 								"page": 241
 							}
 						},
-						"使用“依赖项”和“_copy”来复制现有的内容：",
+						"Using \"dependencies\" and \"_copy\" to copy an existing piece of content:",
 						{
 							"type": "statblockInline",
 							"dataType": "monster",

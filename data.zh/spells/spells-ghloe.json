@@ -1,0 +1,300 @@
+{
+	"spell": [
+		{
+			"name": "Arboreal Curse",
+			"source": "GHLoE",
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a cup of sap"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你尝试将你能看到范围内的一个生物变成木头。如果目标的身体是由肉体构成的，该生物必须进行一次体质豁免投。未通过豁免的话，它会被{@condition restrained}，因为它的肉体开始硬化成树皮。若通过豁免，该生物不受影响。",
+				"一个被这个法术影响的生物{@condition restrained}必须在每个回合结束时再次进行一次体质豁免检定。如果它成功通过了这个法术的三次豁免检定，法术就会结束。如果它连续失败了三次体质豁免检定，它将变成一棵树，并在持续时间内受到{@condition petrified}状态的影响。成功和失败不需要连续进行；跟踪两者，直到目标收集到三张相同的牌。",
+				"如果被转化的生物在{@condition petrified}时被烧毁、砍倒或以其他方式摧毁，该生物被击杀。",
+				"生物会保持转化状态，除非在一年内使用{@spell greater restoration}、{@spell wish}或类似的魔法效果将其逆转。如果生物作为一棵树度过了一年零一天，转化将变得永久，没有任何东西可以将生物恢复到原来的形态。"
+			],
+			"conditionInflict": [
+				"petrified",
+				"restrained"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"PRM",
+				"SGT"
+			]
+		},
+		{
+			"name": "Consume Mind",
+			"source": "GHLoE",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a 1-ounce fresh or magically preserved portion of another creature's brain"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你消耗另一生物尸体的大脑，获得它的记忆和知识。尸体必须有大脑，不能是不死之物。如果尸体已经死亡（且未保存）超过三天，咒语将失败。",
+				"在咒语持续期间，你可以尝试回忆起生物所知道的任何重要事实—家族史、最近事件、建筑布局、密码、生物死亡的细节等信息。要回忆一条信息，你必须进行一次能力检定，使用你的施法能力调整值。难度等级等于尸体的智力分数。",
+				"一旦施法者投掷骰子来确定他们是否记得一个事实，他们就不能再尝试回忆它了。"
+			]
+		},
+		{
+			"name": "Heartseeker",
+			"source": "GHLoE",
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a ruby worth at least 100 gp",
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"施放此咒语的一部分，你必须消耗六个命中骰，否则咒语将自动失败。当你这样做时，你的身体会流出鲜血，然后凝结成一个带刺的箭头，射向你选择范围内的生物。对选定的生物进行远程法术攻击。命中后，投掷用于施放此咒语的命中骰，并且生物受到等同于结果的穿刺伤害。",
+				"一旦箭矢插入生物体内，鲜血箭开始朝着它的心脏钻去，使其易受进一步攻击。在生物的下一个回合开始时，它必须进行一次体质豁免检定。如果失败，对该生物的攻击在攻击检定中得到19或20时将造成重击。",
+				"在此之后，每当该生物的回合开始时，它必须重复进行体质豁免才能，否则针对该生物的攻击的暴击范围再次增加1。如果该生物在这些豁免才能中成功三次（这些成功不需要连续），那么此法术结束。增加的暴击范围在法术结束时也会结束。"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Hunter Sense",
+			"source": "GHLoE",
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你触摸一个愿意的生物。当这个法术生效时，目标的感官会变得更敏锐。如果目标在进行一次感知（{@skill Perception}）检定时掷出9或更低的点数，他们会被视为掷出了10点。"
+			]
+		},
+		{
+			"name": "Magic Mirror",
+			"source": "GHLoE",
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you are targeted by a spell"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a polished silver marble"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"在你和触发法术的施法者之间的空气中，出现了一团瞬时的七彩能量泡泡。法术被重定向到你在60英尺内可以看到的一只生物身上。如果法术为5级或更低级，你不再是法术的目标，而被选择的生物会成为目标。如果法术为6级或更高级，请使用你的施法能力进行一次能力检定。检定 DC 为10 + 法术等级。若检定成功，你不再是法术的目标，而被选择的生物会成为目标。若检定失败，你仍然是触发法术的目标。"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Suffocate",
+			"source": "GHLoE",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a leather glove"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你创造了一双由{@condition invisible}力量制成的抓握之手。对你能看到的范围内的一名生物进行一次法术攻击。命中后，生物被{@condition restrained}，仿佛被手掌压住了喉咙或相应的身体部位。",
+				"如果生物需要空气呼吸，它将开始窒息。 一个窒息的生物可以存活一定数量的回合，等于1 + 它的体质修正值（最少1回合）。在这些回合结束后的下一个回合开始时，它变为{@condition unconscious}，并且在可以再次呼吸之前无法恢复生命值。",
+				"一个有意识的生物{@condition restrained}可以使用其动作来进行一次力量或敏捷检定（由其选择），检定目标为你的法术豁免 DC。若成功，法术在目标身上结束。"
+			],
+			"conditionInflict": [
+				"invisible",
+				"restrained",
+				"unconscious"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Wrack",
+			"source": "GHLoE",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a frayed piece of cord"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"选择你能看到范围内的一个生物。目标必须成功进行一次体质豁免才能免受剧痛的肌肉痉挛影响。受到这种影响的生物速度减半，并且进行攻击时有劣势。在每个回合结束时，目标可以再次进行一次体质豁免。成功则法术对目标结束。"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		}
+	]
+}

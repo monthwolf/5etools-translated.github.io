@@ -42,9 +42,9 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你获得 {@adventure level of contamination|DoDk|12} 点。",
-				"你在你选择的范围内创建一个半径为20英尺的(Deep Haze)深雾球体。雾气会绕过角落传播。它将持续一段时间，或者直到强风吹散雾气，结束这个法术。这个区域是浓雾笼罩的。",
-				"当一个生物在一个回合内首次进入法术区域或者在那里开始它的回合时，该生物必须成功通过一次体质豁免才行。如果豁免失败，它会受到({@dice 8d6})点死灵伤害，并获得一个{@adventure level of contamination|DoDk|12}。如果豁免成功，生物会受到一半伤害且不会获得任何{@adventure contamination levels|DoDk|12}。即使生物屏住呼吸或者不需要呼吸，它们也会受到影响。"
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}.",
+				"You create a 20-foot-radius sphere of the Deep Haze on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.",
+				"When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw. On a failed saving throw, it suffers ({@dice 8d6}) necrotic damage and gains one {@adventure level of contamination|DoDk|12}. On a successful save, the creature takes half as much damage and does not gain any {@adventure contamination levels|DoDk|12}. Creatures are affected even if they hold their breath or don't need to breathe."
 			],
 			"savingThrow": [
 				"constitution"
@@ -93,16 +93,16 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你获得一个{@adventure level of contamination|DoDk|12}。你从手中握着的狂乱碎片中汲取无拘无束的奥术魔法。直到法术结束，你获得以下好处：",
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}. You draw unrestrained arcane magic from the delerium shard you hold in your hand. Until the spell ends, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你施放一个造成酸性、火焰、冰冷、闪电或毒素伤害的法术时，你可以将伤害类型改为力量、死灵、心灵或辐射伤害。",
-						"每回合当你用法术造成伤害时，你可以对该法术的一个目标造成额外{@damage 1d12}的死灵伤害，数量为你获得的{@adventure contamination level|DoDk|12}数量。",
-						"当你施放一个需要生物进行豁免才能抵抗效果的法术时，你可以选择获得一个{@adventure level of contamination|DoDk|12}。如果你这样做，该法术的一个目标在对抗该法术的第一次豁免检定时，获得劣势。"
+						"When you cast a spell that deals acid, fire, cold, lightning, or poison damage, you can change the damage type to force, necrotic, psychic, or radiant damage.",
+						"Once per turn when you deal damage with a spell, you can deal an extra {@damage 1d12} necrotic damage for each {@adventure contamination level|DoDk|12} you have gained to one target of that spell.",
+						"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can choose to gain one {@adventure level of contamination|DoDk|12}. If you do, one target of the spell has disadvantage on its first saving throw made against that spell."
 					]
 				},
-				"这个法术无法被{@spell dispel magic}解除。"
+				"This spell can't be dispelled by {@spell dispel magic}."
 			],
 			"damageInflict": [
 				"necrotic"
@@ -146,8 +146,8 @@
 				}
 			],
 			"entries": [
-				"在咒语持续期间，你触摸的一名愿意的生物对死灵伤害免疫，且无法获得{@adventure contamination levels|DoDk|12}。受影响的生物可以在(哈兹)内正常休息。",
-				"如果生物施放了一个被污染的法术，这个法术会立即结束。"
+				"Until the spell ends, one willing creature you touch is immune to necrotic damage and cannot gain {@adventure contamination levels|DoDk|12}. The affected creature may rest normally within the Haze.",
+				"This spell ends immediately if the creature casts a contaminated spell."
 			],
 			"hasFluff": true
 		},
@@ -188,15 +188,15 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你获得 {@adventure level of contamination|DoDk|12} 点。",
-				"你点燃手中的疯狂碎片内储存的奥术能量，并将其投向你能看到的范围内的一个空间。它在一个直径为20英尺的球形范围内爆炸，释放出不稳定的精神能量，淹没了其中的生物的思维和感官。范围内的每个生物都必须进行一次智力豁免检定。未通过检定的生物会受到({@dice 10d6})点精神伤害，并在其下一个回合结束前变为{@condition incapacitated}。通过检定的目标只会受到一半伤害，并且不会遭受法术的其他影响。"
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}.",
+				"You ignite arcane energies stored inside a delerium fragment held in your hand, and hurl it towards a space you can see within range. It explodes in a 20-foot-radius sphere of erratic psychic energy that overwhelms the minds and senses of those within. Each creature in the sphere must succeed on an Intelligence saving throw. On a failed save, a creature takes ({@dice 10d6}) psychic damage and becomes {@condition incapacitated} until the end of their next turn. On a successful save, a target takes half as much damage and suffers none of the spell's other effects."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用5级或更高级别的法术位施放此法术时，伤害将每超过4级的位级增加{@dice 2d6}。"
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 2d6} for each slot level above 4th."
 					]
 				}
 			],
@@ -247,14 +247,14 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你获得一个{@adventure level of contamination|DoDk|12}。你从手中持有的狂乱碎片中汲取混沌的魔力，用悖论力量轰击你能看到的范围内的生物。选择一个能力值，然后选择冰冷、火焰、闪电、死灵、精神或辐射伤害。目标必须使用所选的能力值进行豁免检定；在豁免检定失败时，它会受到{@damage 6d6}选择类型的伤害，成功时则减半。"
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}. You draw chaotic magical power from the delerium fragment held in your hand, and blast a creature you can see within range with paradoxical power. Choose one ability score, then choose cold, fire, lightning, necrotic, psychic, or radiant damage. The target must succeed on a saving throw using the chosen ability score; it takes {@damage 6d6} damage of the chosen type on a failed saving throw, or half as much on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用2级或更高级别的法术位施放这个法术时，伤害会每超过1级的法术位等级增加{@dice 2d6}。"
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 2d6} for each slot level above 1st."
 					]
 				}
 			],
@@ -294,7 +294,7 @@
 				}
 			],
 			"entries": [
-				"通过这个法术，你可以转变从{@adventure contamination|DoDk|12}获得的变异。目标现有的一个变异将被移除，并被另一个不同的变异替代。这个变异可以由主持人选择，或者随机确定（见《德拉肯海姆的地下城》附录C）。"
+				"By means of this spell, you transform a mutation gained from {@adventure contamination|DoDk|12}. One of the target's existing mutations is removed and is replaced by a different one. This mutation may be chosen by the Game Master or determined randomly (see Appendix C of Dungeons of Drakkenheim)."
 			]
 		},
 		{
@@ -335,7 +335,7 @@
 				}
 			],
 			"entries": [
-				"你可以在一个半径为10英尺的球体内消除被污染的魔法能量。直到法术结束，该球体会随着你移动，以你为中心。在球体内的生物（包括你）无法获得{@adventure contamination levels|DoDk|12}，并对死灵伤害免疫。在该区域内的生物无法施放被污染的法术。"
+				"You negate contaminated magical energies in a 10-foot radius sphere. Until the spell ends, the sphere moves with you, centred on you. Creatures in the sphere (including you) can't gain {@adventure contamination levels|DoDk|12} and have immunity to necrotic damage. Contaminated spells can't be cast by creatures in the area."
 			],
 			"hasFluff": true
 		},
@@ -376,7 +376,7 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你会获得一个{@adventure level of contamination|DoDk|12}。 你的手掌发出八彩光芒。 每一道光线都是不同的颜色，具有不同的力量和目的，参见下表。 在60英尺锥形范围内的每个生物必须进行一次体质豁免才能通过。 对于每个目标，投掷一个{@dice d8}来确定受到哪种颜色的光线影响。",
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}. Octarine rays of light flash from your hand. Each ray is a different colour and has a different power and purpose, see the table below. Each creature in a 60-foot cone must succeed on a Constitution saving throw. For each target, roll a {@dice d8} to determine which colour ray affects it.",
 				{
 					"type": "table",
 					"colStyles": [
@@ -390,35 +390,35 @@
 					"rows": [
 						[
 							"1",
-							"目标在豁免失败时受到{@damage 20d6}点心灵伤害，豁免成功时受到一半伤害。"
+							"The target takes {@damage 20d6} psychic damage on a failed save, or half as much damage on a success."
 						],
 						[
 							"2",
-							"目标在豁免失败时受到{@damage 20d6}点死灵伤害，豁免成功时受到一半伤害。"
+							"The target takes {@damage 20d6} necrotic damage on a failed save, or half as much damage on a success."
 						],
 						[
 							"3",
-							"目标在豁免失败时受到{@damage 20d6}点力量伤害，豁免成功时受到一半伤害。"
+							"The target takes {@damage 20d6} force damage on a failed save, or half as much damage on a success."
 						],
 						[
 							"4",
-							"目标在未通过豁免检定时受到{@damage 20d6}辐射伤害，通过时受到一半伤害。"
+							"The target takes {@damage 20d6} radiant damage on a failed save, or half as much damage on a success."
 						],
 						[
 							"5",
-							"目标在豁免失败时受到{@damage 20d6}雷电伤害，豁免成功时受到一半伤害。"
+							"The target takes {@damage 20d6} thunder damage on a failed save, or half as much damage on a success."
 						],
 						[
 							"6",
-							"在每个回合开始时，受影响的目标会使用它所有的移动力直接朝着它能看到的最近的生物移动。然后，受影响的目标会使用它的动作对它能够触及范围内的一个随机确定的生物进行近战攻击。如果在它的触及范围内没有生物，受影响的目标在这个回合内什么也不做。在每个回合结束时，受影响的目标可以进行一次感知豁免检定。如果成功，这个效果对该目标结束。"
+							"At the start of each of its turns, the affected target uses all its movement to move directly towards the closest creature it can see. Then, the affected target uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the affected target does nothing this turn. At the end of each of its turns, the affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target."
 						],
 						[
 							"7",
-							"在每个回合开始时，受影响的目标获得一个{@adventure level of contamination|DoDk|12}。在每个回合结束时，受影响的目标可以进行一次体质豁免检定。如果成功，该效果对该目标结束，但任何获得的{@adventure contamination levels|DoDk|12}仍然保留。"
+							"At the start of each of its turns, the affected target gains one {@adventure level of contamination|DoDk|12}. At the end of each of its turns, an affected target can make a Constitution saving throw. If it succeeds, this effect ends for that target, but any {@adventure contamination levels|DoDk|12} gained remain."
 						],
 						[
 							"8",
-							"{@b Special.} 目标被额外的射线击中。再投掷两次。在这种方式下，同一生物被额外射线击中的次数没有限制。"
+							"{@b Special.} The target is struck by an additional ray. Roll again twice. There's no limit to how many additional rays can strike a single creature in this manner."
 						]
 					]
 				}
@@ -471,7 +471,7 @@
 				}
 			],
 			"entries": [
-				"当你背诵着一段严谨的魔法咒语，给一个被污染的人形生物涂抹炼金液体或圣水时，这个咒语会驱逐目标体内的邪恶污染。当你完成施法时，该生物身上的所有{@adventure contamination levels|DoDk|12}和变异都会被清除。随后，它会因为每移除一个{@adventure contamination level|DoDk|12}而获得一个{@condition exhaustion}等级。"
+				"You apply alchemical fluids or holy water to a contaminated humanoid creature while reciting an exacting magical chant that expels eldritch contaminants from the target's body. When you finish casting the spell, all {@adventure contamination levels|DoDk|12} and mutations are removed from the creature. It then gains one level of {@condition exhaustion} for each {@adventure contamination level|DoDk|12} removed with this spell."
 			],
 			"conditionInflict": [
 				"exhaustion"
@@ -514,14 +514,14 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你获得 {@adventure level of contamination|DoDk|12}。一道紫红色的光线从你伸出的手指上喷射出去，照射到你能看到的范围内的生物身上。目标必须成功通过一次体质豁免才行。未通过豁免的生物会受到 {@damage 16d6} 死灵伤害，并获得 {@dice 1d4} {@adventure levels of contamination|DoDk|12}。通过豁免的目标会受到一半伤害，并且不会获得任何 {@adventure contamination levels|DoDk|12}。"
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}. An octarine ray springs from your pointing finger to a creature that you can see within range. The target must succeed on a Constitution saving throw. On a failed save, a creature takes {@damage 16d6} necrotic damage and gains {@dice 1d4} {@adventure levels of contamination|DoDk|12}. On a successful save, a target takes half as much damage and does not gain any {@adventure contamination levels|DoDk|12}."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用7级或更高级别的法术位施放这个法术时，你可以针对每个高于6级的法术位等级额外选择一个生物作为目标。当你选择它们作为目标时，这些生物必须彼此相距不超过30英尺。"
+						"When you cast this spell using a spell slot of 7th level or higher, you can target one additional creature for each slot level above 6th. The creatures must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -572,14 +572,14 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你获得 {@adventure level of contamination|DoDk|12}。一道奥术闪电形成一条长60英尺、宽5英尺的线，从你身上向你选择的方向爆炸。线上的每个生物必须成功进行一次敏捷豁免才行。生物在豁免失败时受到 {@damage 10d6} 闪电伤害，豁免成功时受到一半伤害。然后你传送到线区域内一个你能看见的未占据的空间。"
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}. A stroke of eldritch lightning forming a line 60 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw. A creature takes {@damage 10d6} lightning damage on a failed save, or half as much damage on a successful one. You then teleport to an unoccupied space you can see within the line's area."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用4级或更高级别的法术位施放这个法术时，伤害会每超过3级的法术位等级增加{@dice 2d6}。"
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 2d6} for each slot level above 3rd."
 					]
 				}
 			],
@@ -627,9 +627,9 @@
 				}
 			],
 			"entries": [
-				"这个法术只能在被深雾覆盖的区域中施放。",
-				"你进行一场神圣仪式，涉及最多12名忠诚且愿意的人形生物，直到每个参与者将狂乱碎片插入胸膛为止。这些生物将变得神圣化（请参阅《德拉肯海姆地牢》第3章中的《落火信徒》档案）。",
-				"当你完成施放这个法术时，一个敌对的{@creature shadow}会出现并攻击每个参与者，作为角色内心黑暗的体现。GM可能会决定，一个心中充满愤怒、恐惧或仇恨的角色会导致一个{@creature wraith}出现。"
+				"This spell may only be cast in an area covered by the Deep Haze.",
+				"You perform a holy ceremony involving up to 12 faithful and willing humanoid creatures that ends when each participating creature drives a delerium shard into their chest. Those creatures become sanctified (see the Followers of the Falling Fire dossier in chapter 3 of Dungeons of Drakkenheim).",
+				"When you finish casting this spell, a hostile {@creature shadow} appears and attacks each participant, as a manifestation of that character's inner darkness. The GM may determine that a character who carries great anger, fear, or hate in their heart causes a {@creature wraith} to manifest instead."
 			]
 		},
 		{
@@ -665,10 +665,10 @@
 				}
 			],
 			"entries": [
-				"这个要求严格的法术将{@adventure contamination|DoDk|12}从一个生物转移到另一个生物身上。当你施放这个法术时，你必须首先触摸一个愿意的人形生物，该生物有一个或多个{@adventure levels of contamination|DoDk|12}，或者一个当前形态是怪物变形结果的前人形生物。然后你再触摸另一个愿意的人形生物。",
-				"如果两个被触摸的生物都是愿意的人形生物，你可以移除第一个生物身上的所有{@adventure contamination levels|DoDk|12}和突变，然后你触摸的第二个生物会获得与从第一个生物身上移除的等级数量相等的{@adventure contamination levels|DoDk|12}。",
-				"如果你接触的第一个生物是一个曾经的人形生物，经历了一个怪物{@adventure contamination|DoDk|12}，而第二个生物是一个愿意的人形生物，其角色等级或挑战等级等于或高于被转化生物的挑战等级，你可以将完全被污染的生物恢复到原始形态，然后人形生物立即进行怪物转化，就好像它获得了六{@adventure contamination levels|DoDk|12}。",
-				"第二个被触摸的生物无法以任何方式阻止或否定这些{@adventure contamination levels|DoDk|12}或随后的转化，否则咒语将无效。"
+				"This demanding spell transfers {@adventure contamination|DoDk|12} from one creature to another. When you cast this spell, you must first touch either a willing humanoid creature with one or more {@adventure levels of contamination|DoDk|12}, or a former humanoid creature whose current form is the result of a monstrous transformation. You then touch a different willing humanoid creature.",
+				"If both creatures touched were willing humanoid creatures, you remove all {@adventure contamination levels|DoDk|12} and mutations from the first creature, then the second creature you touch gains a number of {@adventure contamination levels|DoDk|12} equal to the number of levels removed from the first creature.",
+				"If the first creature you touch is a former humanoid who suffered a monstrous {@adventure contamination|DoDk|12}, and the second creature is a willing humanoid creature with a character level or challenge rating equal to or higher than the challenge rating of the transformed creature, you restore the fully contaminated creature to its original form, then the humanoid creature immediately undergoes a monstrous transformation as if it had gained six {@adventure contamination levels|DoDk|12}.",
+				"The second creature touched cannot prevent or negate these {@adventure contamination levels|DoDk|12} or an ensuing transformation in any way, or else the spell fails with no effect."
 			],
 			"hasFluff": true
 		},
@@ -714,15 +714,15 @@
 				}
 			],
 			"entries": [
-				"当你施放这个法术时，你获得一个{@adventure level of contamination|DoDk|12}。一道弧形的八色闪电击中范围内的一个生物。如果目标有一个或更多{@adventure contamination levels|DoDk|12}，它会被自动击中。否则，对该生物进行远程法术攻击。命中后，目标受到{@damage 6d6}点死灵伤害，并获得一个{@adventure level of contamination|DoDk|12}。",
-				"你可以在任何回合上使用动作创造一道新的闪电，直到法术结束。"
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}. An arcing bolt of octarine lightning strikes a creature within range. If the target has one or more {@adventure contamination levels|DoDk|12}, it is hit automatically. Otherwise, make a ranged spell attack against that creature. On a hit, the target takes {@damage 6d6} necrotic damage and gains one {@adventure level of contamination|DoDk|12}.",
+				"You can create a new bolt of lightning as your action on any turn until the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"当你使用3级或更高级别的法术位施放这个法术时，你可以为每个高于2级的法术等级额外选择1个目标。"
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target 1 additional creature for each spell level above 2nd."
 					]
 				}
 			],
