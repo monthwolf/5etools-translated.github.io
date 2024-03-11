@@ -26,8 +26,6 @@ on:
           description: 'Translation method(deepl or gpt)'
           required: True
           default: ${TRANS_TYPE}
-  schedule:
-    - cron: "10 5 * * *"
 
 concurrency:
   group: "translation"
