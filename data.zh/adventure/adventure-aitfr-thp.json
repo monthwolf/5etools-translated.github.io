@@ -398,7 +398,7 @@
 							"page": 5,
 							"entries": [
 								"通往西尔维尼密室的秘密之门几十年来一直没有被发现，也没有被打扰。这道门本身是一组石头，与门所在的墙壁完全吻合。需要通过DC22智力（{@skill Investigation}）或智慧（{@skill Perception}）检查才能找到它。",
-								"The door can be opened by pressing two stones simultaneously, one above the door and one in the floor at its base. It can be forced open with a DC 20 Strength ({@skill Athletics}) check.",
+								"通过同时按压门上方和门底部地面上的两块石头，可以打开这扇门。可以用 DC 20 力量检定 ({@skill Athletics}) 强行打开。",
 								"如果西尔维尼的魔法避难所的守卫者在他们岛上的半位面的柱子前呼救，这扇门也会打开。因此，冒险者有可能发现这扇门已经打开了，这样就很容易开始冒险。"
 							],
 							"id": "015"
@@ -473,7 +473,7 @@
 									"name": "Magic Stele Trap",
 									"page": 6,
 									"entries": [
-										"The stele can detect trespassers out to a range of 60 feet in front of it, regardless of illumination. It has a passive {@skill Perception} score of 18. To disarm or dispel this trap requires a successful DC 18 check. When triggered, the trap emits a bolt of lightning the whole length of area 2.",
+										"这块石碑可以在其前方60英尺范围内探测到入侵者，无论照明如何。它有一个被动检测{@skill Perception}得分为18。要解除或驱散这个陷阱需要成功通过DC 18的检定。当被触发时，陷阱会释放一道闪电，覆盖整个2区域的长度。",
 										"区域内的任何生物，如果在DC15的灵巧救赎中失败，就会受到22({@damage 4d10})的雷电伤害，或者在救赎成功的情况下受到一半的伤害。",
 										"闪电会点燃该地区没有被佩戴或携带的易燃物。这个石碑在变成惰性石头之前，总共可以发出五次闪电。"
 									],
@@ -577,7 +577,7 @@
 										"当这个区域的任何一块压力板或5号区域下面的坑被触发时，这个陷阱就会启动。一旦激活，该陷阱将持续工作3个回合或直到失效，以先到者为准。",
 										"一旦启动，长矛上的剑状刀片立即从下面突破地砖，以奇怪的角度刺向空中近6英寸。(长矛被固定在地板下的一个金属架上；这个金属架每一轮都会越升越高，直到刀片最终到达天花板，即陷阱的设计极限）。",
 										"此后的地板是{@quickref difficult terrain||3}。当长矛第一次出现时，地板上的任何生物都必须做一个DC15的灵巧救赎，失败时受到22({@damage 4d10})的穿刺伤害，成功时受到一半的伤害。",
-										"Afterward, on initiative counts 20 and 10 (losing initiative ties), the blades stab 1 foot higher toward the ceiling. Any creature in the area on the trap's turns must attempt a new DC 15 Dexterity saving throw to avoid 11 ({@damage 2d10}) slashing damage as the blades slice by.",
+										"随后，在20和10的先攻计数中（失去先攻的平局情况下），刀刃向天花板上方再刺入1英尺。在陷阱的回合中，区域内的任何生物必须尝试进行一次新的敏捷豁免，DC为15，以避免11 ({@damage 2d10}) 点劈砍伤害，因为刀刃擦过。",
 										"在5号区域下的坑内，用{@item Thieves' Tools|PHB}(或类似的方法)成功地进行DC15灵巧检查，可以通过与机制互动来解除这个陷阱。",
 										"通过攻击任何5英尺空间内的长矛羽翼，可以砍出一条穿过该区域的道路（AC12，12点命中率）。"
 									],
@@ -758,8 +758,8 @@
 								"曾经，有四种生物看守着这座岛屿。这四个人都是奇特的变形生物，被称为{@creature usagt|AitFR-THP}，由西尔维尼从遥远的星球带来，在她离开时看守这里的场地。虽然她没有回来，但这四位看守者仍然存在。他们的名字是阿玛、诺亚、奥沃和西罗。",
 								"西尔维尼与守卫者们达成了一个协议。如果他们留下来，他们将共同维护半位面，作为交换，在那里和平地生活。希尔维尼会从法鲁恩给他们带来食物和饮料。他们将保持警惕，照顾访客，而诺亚将继续关注避难所地窖中的钥石。",
 								"唉，泰勒斯不相信也不屑于理解圣殿的守护者。他一怒之下杀了西罗。",
-								"The surviving three usagt keepers are {@condition invisible} and in hiding, waiting to see what Morwena does and hoping they do not have to leave the sanctum to utter dissolution and flee to another plane. Once the adventurers arrive, the keepers watch them in hopes that they can work together to save this place.",
-								"Each keeper is hiding at one of the four corners of the island. Choose where or roll {@dice 1d4} for each keeper; more than one might be in the same place. There Noa uses their connection to the demiplane's keystone to call for help as best they can, their cries for help echoing through Sylvene's last terrestrial sanctum and planar key.",
+								"幸存的三名乌萨特看守者是{@condition invisible}，他们躲藏起来，等待着看莫薇娜会做什么，并希望他们不必离开圣所以避免彻底消失并逃到另一个位面。冒险者到达后，看守者们希望他们能够共同努力拯救这个地方。",
+								"每位看守者都藏在岛屿的四个角落之一。为每位看守者选择一个位置，或者为每位看守者掷骰子{@dice 1d4}；可能会有多个看守者在同一个地方。此时，诺亚利用他们与半位面之石的联系尽其所能呼救，他们的求助之声在希尔文最后的陆地圣所和位面之钥中回荡。",
 								{
 									"type": "table",
 									"caption": "Keeper Locations",
@@ -799,8 +799,8 @@
 							"page": 8,
 							"entries": [
 								"半位面的大量挑战来自于其他闯入者--特别是提瑞斯的盟友。他们在这里呆了多久，取决于冒险者何时（或多长时间）到达。可能是几小时或几天。",
-								"The first trespasser is {@creature Morwena Veilmist|AitFR-THP}, once a Red Wizard of Thay and now Tyreus's abandoned accomplice. She is likely reading everything she can inside the refuge (in area 2). Her goal is to get the adventurers to remove the keystone in the cellar (area 10) and collapse the demiplane, freeing her and potentially hindering Tyreus.",
-								"Additionally, Tyreus brought a minion with him to the demiplane, in case he needed it to fight on his behalf. He left it here when he departed. It is a {@creature greater shadow horror|AitFR-THP} from Ravnica. It treats the cellar of the refuge (area 10) as its den and stalks the refuge by night to protect the keystone."
+								"第一个入侵者是{@creature Morwena Veilmist|AitFR-THP}，曾经是泰伊的红袍巫师，现在是被抛弃的同谋。她很可能正在避难所（区域2）内阅读一切。她的目标是让冒险者们移除地下室（区域10）中的基石，使半位面崩溃，释放她并可能阻碍泰伊。",
+								"另外，泰瑞斯带了一个爪牙与他一起来到半位面，以防需要它代表他战斗。当他离开时，他把它留在这里。这是来自拉尼卡的{@creature greater shadow horror|AitFR-THP}。它把避难所的地窖（区域10）视为自己的巢穴，并在夜间潜伏在避难所中保护基石。"
 							],
 							"id": "037"
 						},
@@ -809,9 +809,9 @@
 							"name": "Leaving the Demiplane",
 							"page": 9,
 							"entries": [
-								"To leave this demiplane, Sylvene intended visitors to require the blessing of one of the {@creature usagt|AitFR-THP} keepers. Once, this simply required a conversation with the usagt in which they took the form of someone from the conversationalist's past and estimated whether Sylvene would prefer a guest to depart or an intruder to be stranded in the demiplane for later confrontation.",
+								"为了离开这个半位面，Sylvene打算让访客需要得到{@creature usagt|AitFR-THP}守护者的祝福。曾经，这只需要与usagt进行一次对话，他们会化身成对话者过去的某人，并估计Sylvene是否更愿意让客人离开，还是让闯入者滞留在半位面，以便日后对抗。",
 								"在目前这种混乱的情况下，如果可能的话，乌萨格特人希望把冒险者留在身边，以处理他们的情况。usagt人不是占有欲很强的生物，所以他们也不一定反对冒险者带着财宝离开。守护者们悲伤地意识到希尔维尼不会再回来了。",
-								"Once their favor is earned, the usagt cast {@spell banishment} on visitors, then maintain concentration on the spell for 1 minute to ensure visitors leave for good. (The usagt know a variation of banishment that optionally transports targets to the previous plane they were on, so extraplanar characters can be returned to the Realms rather than their plane of origin.)"
+								"一旦他们赢得了青睐，乌萨格特对访客使用{@spell banishment}，然后集中精力在这个咒语上1分钟，以确保访客永远离开。(乌萨格特知道一种变种的放逐术，可以选择将目标传送到他们之前所在的位面，因此外位面的角色可以被送回到(Realms)而不是他们的原始位面。)"
 							],
 							"id": "038"
 						},
@@ -1120,7 +1120,7 @@
 							],
 							"id": "045"
 						},
-						"Speaking the proper command words within 30 feet of the deerhound statue activates the statue's magic and instantly casts {@spell Mordenkainen's faithful hound} centered on the statue. The faithful hound cannot be conjured again until 8 hours have passed. The command words are \"Come here, Coriander.\"",
+						"在距离猎鹿猎犬雕像30英尺内说出正确的命令词会激活雕像的魔法，并立即施放{@spell Mordenkainen's faithful hound}以雕像为中心。忠诚的猎犬不能再次被召唤，直到8小时过去。命令词是\"来这里，(Coriander)。\"",
 						"莫维娜不知道命令词，但在这个区域施展过{@spell detect magic}作为仪式，所以她知道这个雕像有魔力。"
 					],
 					"id": "043"
@@ -1255,7 +1255,7 @@
 							"id": "055"
 						},
 						"地窖基本上是空的，剩下的大部分是干的或腐烂的。",
-						"The {@creature greater shadow horror|AitFR-THP} lurks here during the daylight hour. By night, it prefers to roam the island or the refuge, passing through doors and walls as it goes. During dawn and dusk hours, it stays close to the refuge. Its goal is to keep anyone, including Morwena, from interacting with the keystone, on Tyreus's orders. In its mind, Morwena is no threat unless she ventures into the cellar. (Thus, she doesn't.) The shadow horror is satisfied with keeping new trespassers, like the adventurers, away from the house—and just as happy to kill them.",
+						"{@creature greater shadow horror|AitFR-THP}在白天潜伏在这里。到了夜晚，它更喜欢在岛上或避难所里游荡，穿过门和墙壁。在黎明和黄昏时，它会靠近避难所。它的目标是根据泰瑞斯的命令阻止任何人，包括莫温娜，与基石互动。在它看来，莫温娜不构成威胁，除非她冒险进入地窖。（因此，她不会这样做。）这个阴影恐怖体满足于让新的闯入者，比如冒险者，远离这座房子，并乐意杀死他们。",
 						"钥石镶嵌在天花板的中央。它是一块深色的参差不齐的石头，上面有金色的纹路，都刻着奥秘的符文和符号，与这里非常不相称。它大约有一个面包的大小，重约10磅。",
 						"三瓶来自剑海岸的强化酒，从未打开过，仍然放在地窖东南角的箱子里的稻草中。每瓶现在价值70金币。",
 						{
