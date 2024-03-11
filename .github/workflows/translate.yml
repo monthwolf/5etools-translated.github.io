@@ -65,7 +65,7 @@ jobs:
            ./translation/translate.py --language zh --maxrun 18000 --translate --${{ inputs.method }} ${{ matrix.files }}
            ./translation/translate.py --language zh --translate ${{ matrix.files }}
            mv data data.en
-           mv data.${{ matrix.language }} data
+           mv data.zh data
            npm run gen
       env:
           BASEURL: ${{ inputs.baseurl}}
