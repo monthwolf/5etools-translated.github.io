@@ -59,7 +59,8 @@ jobs:
       continue-on-error: true
       run: |
            cd $GITHUB_WORKSPACE
-           rm -rf data.en
+           mv data data.zh
+           mv data.en data
            ./translation/translate.py --language zh --maxrun 18000 --translate --${{ inputs.method }} ${{ matrix.files }}
            ./translation/translate.py --language zh --translate ${{ matrix.files }}
            mv data data.en
