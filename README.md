@@ -14,6 +14,11 @@
 目前绝大部分内容都已经进行了汉化，基本导入fvtt使用都没有问题。   
 **注意：** 由于所有内容的名称关联很多，工作量过大，所以名称不在翻译的范围内，未来应该也不会考虑翻译
 
+# 导入FVTT
+在mod内修改资源来源  
+`Base Site Url`改为: https://monthwolf.github.io/5etools-zh.github.io/
+`Base Homebrew Repository Url`改为: https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/
+
 # 展示
 <img width="1280" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/6ddf1016-bd51-48f0-a8a3-9402e28bab03">
 <img width="1280" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/104c4395-9a38-4d7b-b588-cf96b6b40c22">
