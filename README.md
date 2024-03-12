@@ -16,7 +16,7 @@
 
 # 导入FVTT
 在mod内修改资源来源  
-`Base Site Url`改为: https://monthwolf.github.io/5etools-zh.github.io/
+`Base Site Url`改为: https://monthwolf.github.io/5etools-zh.github.io/   
 `Base Homebrew Repository Url`改为: https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/
 
 # 展示
