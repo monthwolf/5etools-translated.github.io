@@ -45,7 +45,7 @@
 							"name": "TPK: Total Party Kill",
 							"page": 3,
 							"entries": [
-								"In solo play, there's always a chance the character can die. In the case of a single adventurer, this death results in the end of play; which isn't optimal for an afternoon of fun! One way to avoid death is to have healing readily available to the adventurer. If they're without healing, have the character find the odd {@item potion of healing} lying in a dusty crate or have them discover a special healing plant on their journey that, if eaten, puts them back to full hit points.",
+								"在独自冒险中，角色总是有可能会死亡。对于单个冒险者，这种死亡会导致游戏的结束；这对于一个下午的娱乐并不理想！避免死亡的一种方法是让冒险者随时获得治疗。如果他们没有治疗，可以让角色在一只灰尘飘扬的箱子中发现一个奇怪的{@item potion of healing}，或者让他们在旅途中发现一种特殊的治疗植物，如果食用，可以让他们的生命值恢复到满值。",
 								"在意外死亡的情况下，你可以让一个有帮助的NPC（如Honeycutt先生）拯救他们并使他们复活，或者你可以让他们放弃死亡储蓄，在他们被拖到某个不愉快的地方时醒过来。"
 							],
 							"id": "003"
@@ -115,8 +115,8 @@
 							"page": 4,
 							"entries": [
 								"绿色可以选择支付1英镑，从正门进入，也可以选择偷偷摸摸进入。马戏团由身着五颜六色的服装、穿着大靴子和红鼻子、看起来很强硬的小丑巡逻。虽然这些小丑按着喇叭，表现得很高兴，但很明显他们在战斗中也能应付自如。",
-								"Should anyone try to break into the circus or cause trouble, they run afoul of a couple of these clowns. Avoiding the clowns requires a successful DC 12 Dexterity ({@skill Stealth}) check. On a failure, {@dice 1d4} {@creature clown|NRH-CoI|clowns} investigate, ready to pummel and eject any trespassers or ne'er-do-wells. If Green turns to run away, the clowns don't give chase, but shout taunts and honk horns at them.",
-								"Charming the clowns takes real skill and can only be done with a successful DC 15 Charisma ({@skill Persuasion}) check."
+								"如果有人试图闯入马戏团或制造麻烦，他们将惹恼其中几个小丑。要避开这些小丑，需要成功通过一次 DC 12 的敏捷度检定({@skill Stealth})。如果失败，{@dice 1d4} {@creature clown|NRH-CoI|clowns} 将进行调查，准备殴打并驱逐任何闯入者或恶棍。如果绿色转身逃跑，小丑们不会追赶，但会向他们大喊侮辱性言语并按喇叭。",
+								"迷住小丑需要真正的技巧，只有通过成功的DC 15 魅力检定({@skill Persuasion})才能做到。"
 							],
 							"id": "009"
 						},
@@ -133,7 +133,7 @@
 									"entries": [
 										"芬斯特是{@creature imp}{@creature Magnifico|NRH-CoI}做了一个交易：用两年的无间道服务换取翡翠宝石的位置。现在交易完成了，芬斯特很喜欢改变{@creature Magnifico|NRH-CoI}的节目，让他们有更多的特色，这样他们就可以实现他们的明星梦了。",
 										"芬斯特大部分时间都呆在{@creature Magnifico|NRH-CoI}的帐篷里，以老鼠的形态，整理他们的胡须，等待他们在午夜前的夜间表演。他们很少展示自己的真实形态。芬斯特是一个完全的自恋者，梦想着有一天能让{@creature Magnifico|NRH-CoI}成为他们自己魔术表演的助手。",
-										"If Finster feels they can use the Emerald Gem to advance their career or make another deal, they do. Finster has no loyalty to {@creature Magnifico|NRH-CoI}, other than using him for their own gain. If attacked, Finster shrieks to alert any nearby clowns and turns {@condition invisible}.",
+										"如果芬斯特（Finster）觉得他们可以利用翡翠宝石来促进自己的事业或达成另一笔交易，他们会这样做。芬斯特对{@creature Magnifico|NRH-CoI}没有忠诚度，除了利用他来谋取自己的利益。如果受到攻击，芬斯特会尖叫以警示附近的小丑并变身为{@condition invisible}。",
 										{
 											"type": "entries",
 											"name": "Impish Deals",
@@ -172,7 +172,7 @@
 									"name": "Mimes",
 									"page": 4,
 									"entries": [
-										"Wandering the circus grounds are mimes ({@creature commoner||commoners}) who do all kinds of silent performances such as walking downstairs, opening doors, pulling on ropes, and moving around {@condition invisible} objects.",
+										"在马戏团场地里漫步的是默剧演员({@creature commoner||commoners})，他们进行各种无声表演，比如走楼梯、开门、拉绳子，以及移动周围的{@condition invisible}物体。",
 										"在任何时候，你都可以让一个哑剧演员接近格林，并对以下线索之一进行哑剧表演。",
 										{
 											"type": "list",
@@ -194,13 +194,13 @@
 									"name": "Rubina the Ringmaster",
 									"page": 5,
 									"entries": [
-										"Rubina (a {@creature noble}) is the Circus of Illusions' eccentric and charismatic ringmaster. She's a good-natured bundle of nervous energy and makes sure the circus runs without a hitch, organizing all the entertainment for each day.",
+										"鲁比娜（一名{@creature noble}）是幻象马戏团的古怪而富有魅力的马戏团园长。她是一团善良的紧张能量，确保马戏团顺利运转，为每一天组织所有的娱乐活动。",
 										{
 											"type": "entries",
 											"name": "What Rubina Knows",
 											"page": 5,
 											"entries": [
-												"As of late, Rubina has grown concerned about her best magician, {@creature Magnifico|NRH-CoI}. Rubina thinks it's probably just the color outages, which have everyone concerned, but she's heard him arguing with someone in his tent at night.",
+												"最近，鲁比娜对她最好的魔术师{@creature Magnifico|NRH-CoI}感到担忧。鲁比娜认为这可能只是色彩中断引起的，这让大家都感到担忧，但她听说他晚上在帐篷里和某人争吵。",
 												"鲁比娜不喜欢{@creature Magnifico|NRH-CoI}的宠物老鼠芬斯特，{@creature Magnifico|NRH-CoI}现在在他的魔术表演中出现。她认为它是一只可怕的野兽，她不喜欢它的小笑脸和黑眼圈。",
 												"她对绿宝石一无所知，但{@creature Magnifico|NRH-CoI}确实说过他要发财了，而且一年后他就会离开马戏团。"
 											],
@@ -242,7 +242,7 @@
 															"type": "item",
 															"name": "Play It Safe",
 															"entries": [
-																"Green plays it safe and gives a solid, but uninspired, performance. If your player does some inspired roleplaying, give them advantage on the check. Green must make a DC 12 Charisma ({@skill Performance}) check. On a failure, there are some frowning faces and maybe a couple of yawns. Clearly, they weren't expecting much. On a success, the crowd claps politely and then quickly forgets the performance as they wait for the next show."
+																"绿色玩得很安全，表现稳健，但缺乏灵感。如果你的玩家进行了一些富有灵感的角色扮演，请给予他们在检定时的优势。绿色必须进行一次 DC 12 魅力 ({@skill Performance}) 检定。如果失败，会有一些皱眉和也许几个打哈欠的人。显然，他们并没有期待太多。如果成功，观众会礼貌地鼓掌，然后迅速忘记表演，等待下一场演出。"
 															]
 														},
 														{
@@ -703,7 +703,7 @@
 									"name": "C4. Rubina's Tent",
 									"page": 6,
 									"entries": [
-										"If Rubina (a {@creature noble}) is here, she's looking over the upcoming schedule of events for tonight and the next couple of days. There's a desk, two wooden chairs, a small table, and a sofa. So long as they're nice to her, Rubina treats anyone who enters her tent the way a kindly schoolmarm would."
+										"如果鲁比娜（一个{@creature noble}）在这里，她正在查看今晚和接下来几天的活动安排。帐篷里有一张桌子，两把木椅，一张小桌子和一张沙发。只要对她友善，鲁比娜会像一位和蔼的女教师一样对待进入她帐篷的任何人。"
 									],
 									"id": "01c"
 								},
@@ -712,7 +712,7 @@
 									"name": "C5. Filippo Fleetfinger's Tent",
 									"page": 6,
 									"entries": [
-										"Inside this tent is the morose bard, Filippo (a {@creature noble}). Filippo knows nothing about the Emerald Gem, but he's sad about the color outages and is writing deeply emotional poems about them.",
+										"帐篷里是忧郁的吟游诗人，Filippo（一名{@creature noble}）。Filippo对翡翠宝石一无所知，但他对颜色的消失感到悲伤，正在写着关于这些事件的深情诗歌。",
 										"他注意到{@creature Magnifico|NRH-CoI}最近看起来很奇怪，他有点反感{@creature Magnifico|NRH-CoI}曾经有品位的节目现在似乎专门为他那只可怕的老鼠服务。",
 										"菲利波的帐篷里摆满了乐器，到处都是他发自内心的诗页。"
 									],
@@ -744,7 +744,7 @@
 							"name": "Getting the Gem",
 							"page": 7,
 							"entries": [
-								"Once the mimes and Rubina point Green in the direction of {@creature Magnifico|NRH-CoI}, there are many ways for Green to get the gem. Here are a few ideas:",
+								"一旦哑剧演员和鲁比娜指向{@creature Magnifico|NRH-CoI}的方向，格林有许多方法可以获得宝石。以下是一些想法：",
 								{
 									"type": "list",
 									"items": [
@@ -754,7 +754,7 @@
 										"在(%%)的一次魔术表演中，当他在舞台上有魔镜时，让格林试图得到宝石，从而为观众带来盛大的场面。"
 									]
 								},
-								"By the end of it all, Green should get the Emerald Gem and the {@item Instrument of the Bards, Doss Lute||doss lute} (if Rubina didn't already give it to them) as thanks for Green's heroics in such a dull and dreary time."
+								"在一切结束时，绿色应该获得翡翠宝石和{@item Instrument of the Bards, Doss Lute||doss lute}（如果鲁比娜还没有把它给他们的话），作为对绿色在如此沉闷和阴郁时期英勇行为的感谢。"
 							],
 							"id": "020"
 						},
