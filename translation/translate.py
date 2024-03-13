@@ -275,7 +275,7 @@ class Translator:
 				top_p=0.67,
 				max_tokens=3000
 				)  
-			print("原文："+text)
+			#print("原文："+text)
 			for chunk in res:
 				# print(chunk)
 				delta=chunk.choices[0].delta
