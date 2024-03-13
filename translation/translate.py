@@ -370,7 +370,7 @@ def translate_data(translator: Translator, data):
 				for section, items in v.items():
 					for idx, item in enumerate(items):
 						data[k][section][idx] = translator.translate(item)
-			elif k in ['entries', 'items', 'rows', 'headerEntries', 'reasons', 'other', 'lifeTrinket'] and type(v) is list:
+			elif k in ['entries', 'items', 'rows', 'headerEntries', 'reasons', 'other', 'lifeTrinket','lairActions','regionalEffects'] and type(v) is list:
 
 				# Do not translate for simple item lists withou type: list (to avoid translating item names)
 				if k == "items" and ("type" not in data or data['type'] != 'list'):
