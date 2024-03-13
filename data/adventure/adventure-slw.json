@@ -22,7 +22,7 @@
 					"id": "001",
 					"entries": [
 						"要运行这个冒险，你需要D&D第五版核心规则书。{@book Player's Handbook|PHB}, {@book Dungeon Master's Guide|DMG}, 和 {@book Monster Manual|MM}。{@book Sword Coast Adventurer's Guide|SCAG}是有帮助的，但不是必须的。{@book Monster Manual|MM}包含本冒险中发现的大多数生物的状态块。所有必要的状态块都包括在这里或附录A中。当一个生物的名字以{@b bold}的字体出现时，那是一个视觉提示，让你在{@book Monster Manual|MM}中查找该生物的状态块，除非冒险的文字让你去看本冒险中的怪物附录。",
-						"Spells and equipment mentioned in the adventure are described in the {@book Player's Handbook|PHB}. Magic items are described in the {@book Dungeon Master's Guide|DMG}.",
+						"冒险中提到的法术和装备在{@book Player's Handbook|PHB}中描述。魔法物品在{@book Dungeon Master's Guide|DMG}中描述。",
 						{
 							"type": "insetReadaloud",
 							"id": "002",
@@ -178,7 +178,7 @@
 							"name": "Mere of Dead Men",
 							"id": "00b",
 							"entries": [
-								"Travelers on the High Road, which skirts the mere to the east, must resist being lured into the cold and desolate waters. Many have perished in the mere, drawn by tales of ruined castles half-sunk in the mire. For more information on this location, see \"{@adventure Missing Patrol|SLW|7}.\""
+								"行走在高路上的旅行者，它绕过东边的湖泊，必须抵制被冷酷而荒凉的水域所吸引的诱惑。许多人在这片湖泊中丧生，被那些半沉在泥潭中的废墟城堡的传说所吸引。有关此地点的更多信息，请参阅\"{@adventure Missing Patrol|SLW|7}\"。"
 							]
 						},
 						{
@@ -344,7 +344,7 @@
 							"name": "Aubrey's Peculiarities Shoppe",
 							"id": "01e",
 							"entries": [
-								"This shop is crammed with curiosities dredged from the ruins of Leilon: old fishing rods, swamp idols, mining helmets, and other oddities. A whimsical Illuskan male named Aubrey Silverspun runs the store. Roll a {@dice d20} on Peculiarities table to see what he has on offer when the characters visit.",
+								"这家商店挤满了从莱隆废墟中打捞出来的古怪物品：旧钓鱼竿、沼泽偶像、矿用头盔和其他奇特之物。一位叫奥布瑞·银纺(Aubrey Silverspun)的怪诞伊卢斯坎男子经营着这家商店。当角色们造访时，在怪异物品表上投掷{@dice d20}，看看他有什么特别的商品。",
 								{
 									"type": "table",
 									"caption": "Peculiarities",
@@ -401,7 +401,7 @@
 							"id": "021",
 							"entries": [
 								"这座巫师塔最近被重建为永夜士兵的驻扎地。加利奥-埃利布罗是一个忧郁的中年男性拉希米人，拥有{@creature mage}的统计数据（除了他准备了{@spell legend lore}的法术而不是{@spell cone of cold}）。他来到永夜城是为了寻找并解开塔利瓦家族的秘密。加利奥在废墟内发现了许多编码的日记，他对这些日记进行了解密。他现在已经重建了塔的平面信标，并利用它来研究虚空界的生物。",
-								"Gallio does not talk much about his work with adventurers but is willing to cast spells in exchange for gold. The mage casts the {@i legend lore} spell for 400 gp."
+								"盖里奥(Gallio)并不经常谈论与冒险者的工作，但愿意以金币为代价施放法术。这位法师为400 gp 施放{@i legend lore}法术。"
 							]
 						},
 						{
@@ -410,7 +410,7 @@
 							"id": "022",
 							"entries": [
 								"偶像岛从离雷隆几码远的沼泽地里升起。它包含了被遗忘的人类贵族的碎裂雕像的遗迹。定居者声称在晚上听到岛上有低语的声音，邀请他们去看他们的命运。如果他们的角色在晚上经过该岛，他们也会听到这些耳语。",
-								"A character who spends the night on the island has vague, prophetic dreams of adventures to come. For instance, the character might view storm clouds swirling over Leilon, a galleon made from bones, or a glowing statue of a dwarf standing in a canyon. At the end of the night, the character must make a DC 13 Wisdom saving throw. On a success, the character is bolstered by the strange dreams and gains {@book inspiration|PHB|4|Inspiration}. On a failure, the character gains a level of {@condition exhaustion}."
+								"一个角色在岛上过夜，做了一些模糊而预言性的梦，预示着未来的冒险。例如，角色可能会看到风暴云在莱隆上空盘旋，一艘由骨头制成的大帆船，或者一个矮人雕像在峡谷中矗立。在夜晚结束时，角色必须进行一次DC 13的感知豁免检定。若成功，角色会因这些奇特的梦而得到{@book inspiration|PHB|4|Inspiration}。若失败，角色会获得{@condition exhaustion}的等级。"
 							]
 						},
 						{
@@ -467,7 +467,7 @@
 							"name": "Town Square",
 							"id": "029",
 							"entries": [
-								"The Leilon town square has become a place where local vendors and those passing through town can set up stalls to sell their wares. One vendor, a female human blacksmith named Zana Taylish, is a resident of Leilon who sells armor and weapons. More exotic items (such as {@i spell scrolls} or other consumable magic items) could be available from a traveling merchant in the square at the DMs discretion. The cost for such items should be high (and perhaps require a favor of the adventurers in addition to an exchange of gold)."
+								"莱隆（Leilon）镇广场已经成为当地供应商和路过的人摆摊售卖商品的地方。一位名叫赞娜·泰利什（Zana Taylish）的女性人类铁匠是莱隆的居民，她出售盔甲和武器。更加奇特的物品（比如{@i spell scrolls}或其他消耗性魔法物品）可能会由广场上的一位旅行商人提供，由DM自行决定。这些物品的价格应该很高（也许除了金币交换外，还需要冒险者帮忙）。"
 							]
 						},
 						{
@@ -489,7 +489,7 @@
 									"name": "Attack on the Wayside Inn Quest",
 									"id": "02c",
 									"entries": [
-										"This quest occurs when the characters, traveling toward Leilon where the High Road meets the Triboar Trail, come upon an undead horde attacking a wayside inn. If the characters undertake this quest, see \"{@adventure Attack on the Wayside Inn|SLW|2}.\""
+										"当角色前往利隆（Leilon）的路上，这个任务就会发生，那里是高塔路（High Road）与特里博尔小径（Triboar Trail）交汇处，他们会遇到一群不死生物正在袭击一家路边小酒馆。如果角色决定接受这个任务，请参见\"{@adventure Attack on the Wayside Inn|SLW|2}\"。"
 									]
 								},
 								{
@@ -497,7 +497,7 @@
 									"name": "A Normal Day in Leilon Quest",
 									"id": "02d",
 									"entries": [
-										"This quest occurs when the characters arrive on the outskirts of Leilon to find the town has been evacuated because of an attack from the sea. If the characters undertake this quest, see \"{@adventure A Normal Day in Leilon|SLW|3}.\""
+										"当角色抵达莱隆市郊，发现该镇因海上袭击而被疏散时，这个任务就会出现。如果角色接受了这个任务，请参见\"{@adventure A Normal Day in Leilon|SLW|3}\"。"
 									]
 								},
 								{
@@ -513,7 +513,7 @@
 									"name": "Aid from Phandalin Quest",
 									"id": "02f",
 									"entries": [
-										"The town council asks the characters to accompany a gnome goatherd to Phandalin to sell her goats, as well pick up supplies needed by the town. If the characters undertake this quest, see \"{@adventure Aid from Phandalin|SLW|4}.\""
+										"镇议会要求角色陪同一位侏儒牧羊人前往翡翠镇出售她的山羊，并且采购镇上需要的物资。如果角色接受这个任务，请参见\"{@adventure Aid from Phandalin|SLW|4}\"。"
 									]
 								},
 								{
@@ -521,7 +521,7 @@
 									"name": "Foul Weather at Wayside Quest",
 									"id": "030",
 									"entries": [
-										"This quest is triggered when the town notices that, on an otherwise fair day, a terrible storm rages in the distance, directly above the Wayside Inn. The town council, concerned about the phenomenon and anyone caught in it, asks the party to investigate. If the characters undertake this quest, see \"{@adventure Foul Weather at Wayside|SLW|5}.\""
+										"当镇上注意到在一个本应晴朗的日子里，一场可怕的风暴在远处肆虐，恰好正好在旅店旁边时，这个任务就会被触发。镇议会对这一现象感到担忧，也担心有人会被困在其中，因此请求队伍进行调查。如果角色接受了这个任务，请参见\"{@adventure Foul Weather at Wayside|SLW|5}\"。"
 									]
 								},
 								{
@@ -529,7 +529,7 @@
 									"name": "House of Thalivar Quest",
 									"id": "031",
 									"entries": [
-										"On a random evening, the party encounters soldiers fleeing from the House of Thalivar in fear. The soldiers are too afraid to return, asking the party to investigate and check on the well-being of Gallio Elibro, the wizard in charge of the towers rebuilding. If the characters undertake this quest, see \"{@adventure House of Thalivar|SLW|6}.\""
+										"在一个普通的晚上，队伍遇到了从塔利瓦之家逃离的士兵，他们充满恐惧。士兵们太害怕了，不敢返回，请求队伍去调查并查看塔楼重建负责人加里奥·埃利布罗的安全情况。如果角色接受了这个任务，请参见\"{@adventure House of Thalivar|SLW|6}\"。"
 									]
 								},
 								{
@@ -537,7 +537,7 @@
 									"name": "Missing Patrol Quest",
 									"id": "032",
 									"entries": [
-										"One of the residents of the town, Breltora Red-Eye, notes that one of the patrols into the Mere of Dead Men is late to return. Although the commander is not concerned, the party can still choose to look for them. If the characters undertake this quest, see \"{@adventure Missing Patrol|SLW|7}.\""
+										"镇上的居民之一，布雷尔托拉·红眼（Breltora Red-Eye），注意到前往死人泽的巡逻队之一还没有回来。尽管指挥官并不担心，但角色仍然可以选择去寻找他们。如果角色接受这个任务，请参见\"{@adventure Missing Patrol|SLW|7}\"。"
 									]
 								},
 								{
@@ -545,7 +545,7 @@
 									"name": "Thunder Cliffs Quest",
 									"id": "033",
 									"entries": [
-										"The final quest in this adventure takes place at Thunder Cliffs, when the local anchorite threat is based. There is no trigger or giver for this quest, since the location and significance of the threat is only learned after performing the other quests. When the characters undertake this quest, see \"{@adventure Thunder Cliffs|SLW|8}.\""
+										"这次冒险的最终任务发生在雷霆悬崖，当当地隐士威胁所在地。这个任务没有触发器或任务发布者，因为只有在完成其他任务后才能了解到威胁的位置和重要性。当角色执行这个任务时，请查看\"{@adventure Thunder Cliffs|SLW|8}\"。"
 									]
 								}
 							]
@@ -658,7 +658,7 @@
 											"entries": [
 												"攻击的生物是由每个玩家角色1个{@creature zombie}，每两个角色1个{@creature wraith}(四舍五入)组成，不包括跟班。僵尸是唯一攻击建筑物的生物。队伍接近僵尸后，裹尸人从黑暗中出来。",
 												"僵尸不会注意到聚会，直到冒险者在他们60英尺范围内，或者直到聚会攻击。然后，所有的怪物都会把注意力从建筑上转移到派对上，因为他们更容易接近。",
-												"If the zombies are defeated and examined, each bears a brand on its forehead in the shape of a skull. A successful DC 15 Intelligence ({@skill Religion}) check reveals that this mark was probably used as part of a ritual to create the creatures, and that it is similar to the symbol of the death god Myrkul."
+												"如果这些僵尸被打败并检查，每个额头上都有一个骷髅形状的品牌。成功的DC 15智力检定揭示出这个标记可能是用作创造这些生物的仪式的一部分，并且与死神迈库尔(Myrkul)的符号相似。"
 											]
 										},
 										{
@@ -824,7 +824,7 @@
 							"id": "046",
 							"entries": [
 								"在小镇会议的戏剧性（或喜剧性）上演之后，党派决定了行动方案，第一个威胁就以一辆装满塔洛斯教派锚泊者的马车的形式出现在他们面前。",
-								"The forces of the cult include one {@creature archer|VGM} and one {@creature dark tide knight|PotA} (see {@adventure appendix A|SLW|10}) for every two characters, including sidekicks, rounded down. If there is an odd number of characters, add one dark tide knight.",
+								"该教派的力量包括每两名角色（包括搭档）中有一个{@creature archer|VGM}和一个{@creature dark tide knight|PotA}(见{@adventure appendix A|SLW|10})。如果角色数量为奇数，则再增加一个黑潮骑士。",
 								"当敌人逼近时，使用以下朗读文本来描述情况。",
 								{
 									"type": "insetReadaloud",
@@ -843,7 +843,7 @@
 							"id": "048",
 							"entries": [
 								"如果队伍打败了邪教分子，他们会发现每个人的前臂上都有三个平行闪电的纹身。如果有人被俘虏并被询问，他们会用那些被神圣的疯狂所触及的不祥的呓语来回答。他们声称风暴领主要来淹死每个人，并将世界上不值得的人清洗掉。",
-								"The wagon was stolen from the town, and still contains the remains of some fish that were meant to be taken to the fishery. One of the dark tide knights carries a {@item potion of greater healing}.",
+								"镇上的马车被盗了，里面还装着一些本来要送到渔场的鱼的残骸。一名黑潮骑士携带着一个{@item potion of greater healing}。",
 								{
 									"type": "entries",
 									"id": "049",
@@ -895,7 +895,7 @@
 														"如果你想为队伍增加戏剧性和动力，你可以把孩子们放在外面，需要在他们被塔洛斯邪教分子看到之前把他们带到安全的地方。只需记住，在遭遇战中给角色一些其他的事情做，就会增加遭遇战对队伍的难度。"
 													]
 												},
-												"The tiefling standing in front of the fishery is a {@creature kraken priest|VGM} (see {@adventure appendix A|SLW|10}) named Nixoxious, and before her in the water there is 1 {@creature berserker} per character, including sidekicks. They are trying to perform a ritual to summon water creatures to destroy the town. (These water creatures are faced in the next wave of the battle, as described below.)",
+												"站在渔场前的魔鬼人是一个{@creature kraken priest|VGM}(见{@adventure appendix A|SLW|10})，名叫尼克索斯，她面前的水中有1个{@creature berserker}每个角色，包括搭档。他们正试图进行一个仪式，召唤水生生物来摧毁这个城镇。(这些水生生物将在下一波战斗中出现，如下所述。)",
 												"人物从距离牧师500英尺处开始。她已经完成了足够的仪式来召唤水元素，她每活着四个回合，就会再召唤一个水怪，最多到下面描述的最大值。一旦她召唤了最大数量的生物，她就会停止吟唱并加入战斗，前提是党派已经与她和狂暴者进行了战斗。",
 												"请注意，即使她执行了召唤这些水生物的仪式，它们也不会攻击，甚至不会出现，直到战斗的这一部分结束。",
 												"{@b {@i Ritual}}. 如果角色观察所发生的事情至少有一回合，他们可以尝试进行DC10智力（{@skill Religion}）检查。如果成功，他们就会意识到她在做什么，并且知道，除非他们阻止她，否则她会召唤任何数量的可怕生物。"
@@ -910,7 +910,7 @@
 							"name": "Aftermath",
 							"id": "050",
 							"entries": [
-								"After defeating the forces of Talos on land, the party can find a {@item spell scroll} of {@spell mass cure wounds} on Nixoxious. They don't have long to recover, however, because the water creatures summoned by the ritual are about to arrive."
+								"在陆地上击败塔洛斯的部队后，队伍可以在尼克索斯找到 {@item spell scroll} 个 {@spell mass cure wounds}。然而，他们没有太多时间恢复，因为仪式召唤的水生生物即将到达。"
 							]
 						},
 						{
@@ -918,7 +918,7 @@
 							"name": "Marsh, Unmellow",
 							"id": "051",
 							"entries": [
-								"On the marsh islands with the pagan ruins, fishers and soldiers captured by the cultists are {@condition unconscious}, meant to be used as sacrifices for the water creatures that the tiefling summoned.",
+								"在带有异教徒废墟的沼泽岛上，被邪教徒俘虏的渔民和士兵占据了{@condition unconscious}，他们被用作提供给那只魔鬼召唤出的水生生物的祭品。",
 								{
 									"type": "entries",
 									"id": "052",
@@ -928,7 +928,7 @@
 											"name": "Monsters",
 											"id": "053",
 											"entries": [
-												"Based on the number of rounds that the kraken priest chanted before being defeated, there is at least one {@creature water elemental}, and a maximum of one {@creature water weird} for every two characters, including sidekicks.",
+												"根据海怪祭司在被打败前吟唱的回合数，每两名角色（包括搭档）至少有一个{@creature water elemental}和最多一个{@creature water weird}。",
 												"当这些生物到达时，用下面的朗读文本设置场景。",
 												{
 													"type": "insetReadaloud",
@@ -944,7 +944,7 @@
 											"name": "Tactics",
 											"id": "055",
 											"entries": [
-												"If the characters do not intervene, the monsters move out to the islands and kill the {@condition unconscious} fishers and soldiers lying there. The water between the shore and the islands is 3 feet deep, acting as {@quickref difficult terrain||3} for any creature without a swim speed."
+												"如果角色不介入，怪物会移动到岛屿上，杀死躺在那里的{@condition unconscious}渔民和士兵。岸边和岛屿之间的水深3英尺，对于没有游泳速度的生物来说，充当{@quickref difficult terrain||3}。"
 											]
 										}
 									]
@@ -956,7 +956,7 @@
 							"name": "Aftermath",
 							"id": "056",
 							"entries": [
-								"If the party defeats the water creatures, the immediate threat to Leilon is eliminated. The {@condition unconscious} people on the islands can be brought back to the mainland and treated.",
+								"如果队伍击败了水生生物，莱隆（Leilon）的即时威胁就会消除。岛上的{@condition unconscious}居民可以被带回大陆并接受治疗。",
 								"城镇的损失很小，只有少数定居者被杀，其中大部分是勇敢的永夜士兵，他们在攻击中为保护被抓到的渔民而献出了自己的生命。"
 							]
 						},
@@ -1009,7 +1009,7 @@
 					"name": "Travel to Phandalin",
 					"id": "05c",
 					"entries": [
-						"The town council approaches the characters one morning and asks them to undertake a different kind of mission. One of the town residents, a gnome named Pinchwit Wigglehoof, is an expert goatherd. But her flock of goats are no normal herd. She raises {@creature Giant Goat||giant goats}, excellent producers of milk and meat, and even their goat-hair is highly valued for its tensile strength and warmth.",
+						"镇议会在一个早晨接近角色，并要求他们承担一项不同类型的任务。镇上的一位居民，一个名叫Pinchwit Wigglehoof的侏儒，是一位专家牧羊人。但她的一群山羊并不是普通的群。她饲养着{@creature Giant Goat||giant goats}，产奶和肉都非常优秀，甚至它们的山羊毛因其拉伸强度和保暖性而备受推崇。",
 						"艾尔玛-巴顿是范达林的巴顿食品店的经营者，他正在与一个富有的沃特达威商人进行交易，以出售平奇威的一些存货，获得非常丰厚的利润。作为一个受雇于Dagult Neverember和Leilon镇的牧羊人，Pinchwit的利润就是这个镇的利润。",
 						"然而，交易的一部分是必须将山羊带到范达林。虽然Pinchwit是一个优秀的牧羊人，但她作为一个战士的能力较差。她和她的山羊需要一个护卫队从Leilon到Phandalin。雷隆镇议会还要求这些人物购买马车，把镇上需要的大量物资运回来。",
 						"从Leilon到Phandalin的距离只有21英里左右，但路线穿过森林和草原，没有任何类似于道路或小路的东西玷污。平奇威想让羊群远离大路。",
@@ -1038,7 +1038,7 @@
 											"name": "Herding",
 											"id": "060",
 											"entries": [
-												"When the goats bolt, each character can attempt a DC 10 Wisdom ({@skill Animal Handling}) check. If at least half of the checks succeed, the characters manage to keep the herd together, and the wyverns move on to easier pickings. If the checks fail, the herd breaks up, leaving many goats vulnerable to wyvern attacks. If this happens, the characters have a choice:",
+												"当山羊们惊慌逃窜时，每个角色可以尝试进行一次DC 10的感知检定({@skill Animal Handling})。如果至少一半的检定成功，角色们设法让群羊保持在一起，飞蛇会寻找更容易的目标而离开。如果检定失败，群羊会四散，让许多山羊容易成为飞蛇的攻击目标。如果发生这种情况，角色们可以选择：",
 												{
 													"type": "list",
 													"items": [
@@ -1104,7 +1104,7 @@
 											"name": "Following Skeel",
 											"id": "067",
 											"entries": [
-												"If the characters leave quickly, they can spot Skeel ducking into an abandoned shack on the edge of town with a successful DC 16 Wisdom ({@skill Perception}) check. Skeel lives in the cellar of this building with a number of ghouls that he commands. (See \"{@area The Attack|06d|x}\" below for more information on Skeel and the ghouls.)",
+												"如果角色们迅速离开，他们可以通过成功的DC 16感知检定，发现Skeel躲进了镇边一个废弃小屋里。Skeel住在这栋建筑的地下室，与他指挥的一群食尸鬼一起。（有关Skeel和食尸鬼的更多信息，请参见下面的\"{@area The Attack|06d|x}\"。）",
 												"如果角色们跟随斯基尔进入棚屋，他们无法找到他。通过DC20智力（{@skill Investigation}）检查可以找到地板上通往地下室的暗门，那里是亡灵的藏身之处。如果角色们在这里找到并处理它们，当角色们试图离开小镇时，亡灵们就不会攻击。"
 											]
 										}
@@ -1128,8 +1128,8 @@
 							"name": "Barthen's Provisions",
 							"id": "069",
 							"entries": [
-								"Elmar Barthen runs this general store with help from his two assistants, Ander and Thistle. Elmar and Ander know rumors and are happy to spread them, but Thistle is a little more reluctant to talk. A successful DC 15 Wisdom ({@skill Insight}) check reveals his nervous reticence.",
-								"If the characters push him for information, he can be prompted to talk with a DC 15 Charisma ({@skill Intimidation} or {@skill Persuasion}) check. He then admits that he has taken a liking to Velleen, the new assistant at the Lionshield Coster. They were spending time together, getting to know each other, when she started talking about some scary stuff. She believes the Stormlord is going to come and wipe out the weak and the nonbelievers, and that he should join her. He's avoided her since then."
+								"埃尔马·巴森(Elmar Barthen)在他的杂货店里得到两个助手安德(Ander)和蒲公英(Thistle)的帮助。埃尔马和安德知道一些谣言，并乐意传播，但蒲公英有些不太愿意说话。一个成功的DC 15智力检定可以揭示他的紧张沉默。",
+								"如果角色们逼他透露信息，可以通过进行一次 DC 15 魅力检定（{@skill Intimidation} 或 {@skill Persuasion}）来促使他开口。然后他会承认他对狮盾货运站的新助手维琳（Velleen）有好感。他们曾一起度过时间，互相了解，当她开始谈论一些可怕的事情时。她相信风暴之神会降临，清除弱者和非信徒，而他应该加入她。从那时起他就躲着她。"
 							]
 						},
 						{
@@ -1210,8 +1210,8 @@
 							]
 						},
 						"当人物在访问结束后收拾东西准备把物资带回Leilon时，来自Talos教派和Myrkul的追随者的间谍独立地决定他们是一个太大的威胁，不能让他们活着。(如果人物已经处理了这两个间谍，那么这个遭遇就不会发生）。",
-						"Use the Backlot Map to run this encounter. As the characters load the wagons, storm clouds descend and block the sun. Argus Skeel (male {@creature vampire spawn}) and two {@creature Ghoul||ghouls}, plus one ghoul per character, including sidekicks, approach. If it is daylight, Argus wears heavy clothes to protect himself.",
-						"At the same time, Velleen Firecrow and two {@creature Kobold Dragonshield|VGM|kobold dragonshields} (see {@adventure appendix A|SLW|10}), plus one dragonshield per character, including sidekicks, approach from the other direction. Velleen is a female Damaran {@creature master thief|VGM}  (see {@adventure appendix A|SLW|10}).",
+						"使用后院地图来进行这次遭遇。当角色们装载马车时，暴风云降临，遮住了阳光。阿格斯·斯基尔（男性{@creature vampire spawn}）和两名{@creature Ghoul||ghouls}，加上每个角色（包括助手）一个食尸鬼，向他们走来。如果是白天，阿格斯会穿着厚重的衣物来保护自己。",
+						"与此同时，Velleen Firecrow 和两名{@creature Kobold Dragonshield|VGM|kobold dragonshields}（见{@adventure appendix A|SLW|10}），以及每个角色，包括随从，一个龙盾卫，从另一个方向接近。Velleen 是一名女性 Damaran（见{@adventure appendix A|SLW|10}）。",
 						"当战斗开始时，两个邪恶团体会互相认出对方，也会在适当时候互相攻击。(见 \"进行三面作战 \"边栏的建议）。",
 						{
 							"type": "inset",
@@ -1367,7 +1367,7 @@
 														"风暴区正在慢慢变大。艾玛露不得不退后几百码以保持在该区域之外。她不知道是什么原因造成的，但这种公然的、强大的魔法力量，如果她有选择的话，她是不想参与的。",
 														"当她在暴风雨地区时，闪电无处不在，但它从未击中盔甲套装，尽管它们是金属制成的。",
 														"她有几次差点被击中，但她不断重复对塔洛斯的祈祷，她认为那是唯一拯救她的东西。",
-														"She does not want to enter the stormy area and does not do so unless a character convinces her with a successful DC 20 Charisma ({@skill Persuasion}) check."
+														"她不想进入暴风雨区域，除非有角色通过一次成功的DC 20魅力检定{@skill Persuasion}说服她。"
 													]
 												}
 											]
@@ -1382,7 +1382,7 @@
 							"id": "07f",
 							"entries": [
 								"当人物进入路边旅馆周围的风暴区时，他们必须与天气抗争，而天气成为比他们所面对的大多数敌人更致命的敌人。",
-								"As the party travels to the Wayside Inn through the storm, have each character roll a {@dice d6} for the number of times they are struck by lightning as they approach. If a character attempts to pray to Talos and succeeds on a DC 15 Intelligence ({@skill Religion}) check, they are not hit by any of the strikes.",
+								"当队伍穿过暴风雨前往旅馆小径时，让每个角色投掷一次 {@dice d6}，以确定他们在接近时被雷击的次数。如果一个角色试图向塔洛斯祈祷，并在一次 DC 15 智力检定中成功（{@skill Religion}），他们将不会被任何雷击击中。",
 								"每一次攻击，角色必须在DC15体质救赎中成功，否则会受到10({@dice 3d6})的雷电伤害，或者在救赎成功时没有伤害。",
 								"任何带着塔洛斯的诅咒符号的角色，在与暴徒的战斗中，在这些救赎动作以及向塔洛斯祈祷以获得赦免的检查中都处于不利地位。"
 							]
@@ -1409,8 +1409,8 @@
 							"id": "082",
 							"entries": [
 								"在门上抓挠的生物根本就不是怪物。邪教分子用小三叉戟将六个人形生物受害者钉在门上，让他们作为祭品死去，为他们可怕的仪式提供动力。",
-								"Once characters are within 30 feet of the poor souls, they can attempt a DC 15 Wisdom ({@skill Perception}) check, with disadvantage due to the pouring rain, to realize that these people ({@creature Commoner||commoners}) are staked to the doors by small tridents and trying to pull themselves off. They each only have 1 hit point and are {@condition restrained}.",
-								"Unless the tridents can be pulled out with a soft touch, requiring a successful DC 15 Dexterity ({@skill Sleight of Hand}) or Wisdom ({@skill Medicine}) check, the removal does 4 ({@dice 1d8}) points of damage, and easily kills the victim.",
+								"一旦角色靠近这些可怜的灵魂不到30英尺，他们可以尝试进行一次DC 15的智力检定({@skill Perception})，由于倾盆大雨的缘故，带有劣势，以意识到这些人({@creature Commoner||commoners})被小三叉戟钉在门上，试图挣脱。他们每人只有1点生命值，且处于{@condition restrained}状态。",
+								"除非三叉戟可以轻轻拔出，需要成功进行一次DC 15的敏捷检定({@skill Sleight of Hand})或者感知检定({@skill Medicine})，否则拔出会造成4点伤害({@dice 1d8})，轻松地杀死受害者。",
 								{
 									"type": "gallery",
 									"images": [
@@ -1473,14 +1473,14 @@
 											"name": "The Common Area and Courtyard",
 											"id": "085",
 											"entries": [
-												"In the common area and courtyard, the ritual is underway to fully activate the {@creature statue of Talos|SLW}, which is currently in the basement.",
+												"在公共区域和庭院，正在进行仪式以完全激活地下室中的{@creature statue of Talos|SLW}。",
 												{
 													"type": "inset",
 													"name": "The Ritual",
 													"id": "086",
 													"entries": [
-														"Backes (Illuskan human {@creature gladiator}) leads the chanting in the common area as {@creature Cult Fanatic||cult fanatics} (one for every two characters rounded down, excluding sidekicks) walk back and forth between the common area and the courtyard, making sure the ritual is progressing according to plan. Spread out between the two areas are {@creature Cultist||cultists} (one per character) with tridents, guarding several bound victims who will be sacrificed at the conclusion of the ritual.",
-														"The ritual takes 10 minutes to complete after the characters arrive on the scene. If they do nothing but watch, describe how the chanting from inside gets louder, how the weather gets darker and even more dangerous, and how terrible faces appear in the clouds. If this doesn't urge them to act, the ritual will be completed, and the adventurers must deal with the consequences (see \"{@adventure Aftermath|SLW|5|Aftermath|1}\" below for details)."
+														"巴克斯（伊卢斯坎人{@creature gladiator}）在公共区域带头高呼，当{@creature Cult Fanatic||cult fanatics}（每两个角色中取整，不包括跟班）来回穿梭于公共区域和庭院之间，确保仪式按计划进行。分布在这两个区域之间的有{@creature Cultist||cultists}（每个角色一个）持三叉戟的卫兵，守卫着几名被捆绑的受害者，他们将在仪式结束时被献祭。",
+														"当角色们到达现场后，仪式需要10分钟才能完成。如果他们什么都不做，描述一下从内部传来的吟唱声变得更响亮，天气变得更加阴暗和危险，云层中出现可怕的面孔。如果这些都不能促使他们采取行动，那么仪式将会完成，冒险者们必须应对后果（详情请参见“{@adventure Aftermath|SLW|5|Aftermath|1}”）。"
 													]
 												}
 											]
@@ -1491,7 +1491,7 @@
 											"id": "087",
 											"entries": [
 												"邪教分子认为他们清除了房间里所有的客人，把他们当作祭品，为他们的仪式提供动力。然而，有一个鬼鬼祟祟的人躲过了追捕。",
-												"In the posh room at the end of the hallway (Room C on the map), a gnome {@creature apprentice wizard|VGM} named Cray Onderquill hides beneath the bed. She was traveling from Neverwinter to Waterdeep on an errand for her master, and she decided to stay the night. When the cultists began grabbing people, she used {@spell disguise self} to imitate a cultist, and then snuck away here to hide. She thought about climbing out the window but is afraid the fall might kill her. She is willing to help the characters in an assault on the cultists, if only by lending her expertise in {@skill Arcana} to figure out what's happening with the ritual.",
+												"在走廊尽头的豪华房间（地图上的C房间），一个侏儒{@creature apprentice wizard|VGM}名叫Cray Onderquill 躲在床底下。她本来是从狹水城前往沃特德普执行主人的使命，决定在这里过夜。当异教徒开始抓人时，她使用{@spell disguise self}模仿了一个异教徒，然后悄悄地藏在这里。她考虑过爬出窗户，但担心摔下来可能会致命。她愿意帮助角色们对抗异教徒，即使只是通过借用她在{@skill Arcana}方面的专业知识来弄清楚仪式发生了什么。",
 												"克雷还透露，并不是所有被邪教分子抓走的俘虏都被钉在门上：旅店的老板玛蒂莎-维纳克被拖进地下室，而当地的吟游诗人塔宾-图尔被骑马带走。克雷认为邪教分子有严格的命令要活捉吟游诗人，因为他听到他们说要小心对待图尔。"
 											]
 										},
@@ -1509,14 +1509,14 @@
 														"雕像前站着铁匠提加。在雕像后面的角落里，旅店的老板玛蒂莎被绳子绑着。她的脸上青一块紫一块，血迹斑斑，但她身上没有致命的伤。"
 													]
 												},
-												"Teega (female Illuskan {@creature berserker}) stands proudly before the statue. The {@creature statue of Talos|SLW} (see {@adventure appendix A|SLW|10}) moves toward the characters, its face twisted in rage.",
+												"提加（女性伊卢斯坎{@creature berserker}）自豪地站在雕像前。 {@creature statue of Talos|SLW}（见{@adventure appendix A|SLW|10}）向角色们走来，脸上扭曲着愤怒。",
 												{
 													"type": "inset",
 													"name": "The Connection",
 													"id": "08a",
 													"entries": [
 														"仪式在提加和雕像之间建立了联系。在雕像被停用之前，提加不能被降到1点生命值以下。",
-														"Describe lightning flowing between the statue and Teega as a clue to this connection. With a successful DC 10 Intelligence ({@skill Arcana} or {@skill Religion}) check, the details of the connection are understood. Also reveal that the corresponding lightning bolt symbols on the statue and Teega's bracers power this connection. As an action, a character within 5 feet of either the statue or Teega can attempt a DC 20 Dexterity ({@skill Sleight of Hand}) check. On a success, the connection is broken, Teega drops to 0 hit points immediately, and the statue takes {@dice 4d10} force damage from the lost connection."
+														"描述闪电在雕像和提加之间流动，作为这种连接的线索。通过成功的 DC 10 智力检定({@skill Arcana})或({@skill Religion})，可以理解连接的细节。同时揭示雕像和提加护腕上相应的闪电符号在维持这种连接。作为一个动作，站在雕像或提加附近5英尺范围内的角色可以尝试进行一次 DC 20 敏捷检定({@skill Sleight of Hand})。成功的话，连接会被切断，提加立即降至 0 生命值，并且雕像因为失去连接而受到{@dice 4d10}力量伤害。"
 													]
 												}
 											]
@@ -1526,7 +1526,7 @@
 											"name": "Help",
 											"id": "08b",
 											"entries": [
-												"Martisha Vinetalker, owner of the Wayside Inn, is bound in the corner, watching the proceedings with a mix of anger and terror. If the adventurers free her, she joins the battle to help the party defeat the threat. Although she's now a respectable innkeeper, Martisha is a former {@creature bandit captain} who's weapons are close at hand."
+												"马蒂莎·维妮塔克(Martisha Vinetalker)，维赛德客栈的老板，被束缚在角落里，用愤怒和恐惧交织的眼神观看着整个过程。如果冒险者们解救她，她会加入战斗，帮助队伍击败威胁。尽管她现在是一位受人尊敬的客栈老板，马蒂莎是一位前{@creature bandit captain}，她的武器近在咫尺。"
 											]
 										}
 									]
@@ -1590,7 +1590,7 @@
 						"两百年前，巫师塔利瓦在雷隆定居，并建造了一座高塔作为他的魔法研究实验室。塔利瓦的兴趣领域是存在的平面。在他的塔顶，他竖起了一座平面灯塔，照亮了其他世界，像飞蛾扑火一样吸引着奇怪的生物，使它们瘫痪，供他研究。多年来，这位隐居的巫师用他的研究填满了塔内的图书馆，并建立了一个令人印象深刻的怪物群。",
 						"有一年夏天，塔利瓦不再到镇上购买物资。进入他的塔楼调查的当地人都没有回来，塔里瓦之家成为了雷隆中心的一个避风港，吸引了来自远方的冒险家来探寻它的神秘之处。当灾难性的法术瘟疫席卷托里尔时，塔楼的平面信标的魔力被重新定向到镇上，将居民冻结在原地，给这个定居点带来了毁灭。",
 						"来自永夜城的部队拆毁了平面信标，并正在整修塔楼作为驻军建筑使用。这些努力是由加利奥-伊莱布罗领导的，他是一个强大的巫师和多星斗篷骑士团的高级成员。",
-						"Gallio has secret orders from his superiors to seize Thalivar's research and rebuild the planar beacon in a stronger form. Unfortunately, his efforts are hampered by ghostly activities inside the tower, which have driven away his military work crew. Gallio is unaware that Thalivar's spirit haunts the tower and possesses him each night to carry on its research!",
+						"盖里奥收到上级的秘密指令，要夺取萨利瓦的研究成果，并以更强大的形式重建位面信标。不幸的是，他的努力受到了塔内幽灵活动的阻碍，这些活动已经赶走了他的军事工作人员。盖里奥并不知道萨利瓦的灵魂在塔内游荡，并在每个夜晚占据他的身体，继续进行研究！",
 						{
 							"type": "entries",
 							"name": "Quest Goals",
@@ -1606,7 +1606,7 @@
 					"name": "Travel to the Tower",
 					"id": "094",
 					"entries": [
-						"The House of Thalivar perches on a rocky crag in the center of town. The locals shun the place, and the bluff is overgrown with brambles and thorn bushes. A beaten trail made by soldiers winds up to the foot of the tower.",
+						"萨利瓦之家 (The House of Thalivar) 坐落在镇中心的一座岩石悬崖上。当地人避之不及，悬崖上长满了荆棘和刺灌木。一条被士兵踩出来的小径蜿蜒而上，直至塔楼脚下。",
 						{
 							"type": "entries",
 							"name": "Encounters on the Way",
@@ -2453,14 +2453,14 @@
 							"name": "Dealing with Gallio Elibro",
 							"id": "09a",
 							"entries": [
-								"Gallio Elibro is a short-tempered male Rashemi {@creature mage} (with the {@spell legend lore} spell prepared instead of {@spell cone of cold}). His relentless studies have pushed him to the brink of {@condition exhaustion} and his sleep is troubled (since he doesn't know that the ghost of Thalivar possesses him each night when he sleeps). Gallio wears an ink-stained robe and his curly black hair is tousled. His fingertips are stained with purple ink.",
+								"加里奥·埃利布罗是一个脾气暴躁的男性拉什米{@creature mage}（准备了{@spell legend lore}咒语，而不是{@spell cone of cold}）。他不懈的学习将他推到了{@condition exhaustion}的边缘，他的睡眠也很不安（因为他不知道每晚睡觉时萨利瓦的幽灵会附身于他）。加里奥穿着沾满墨水的长袍，他卷曲的黑发凌乱不堪。他的指尖沾满了紫色的墨水。",
 								"加利奥对他的工人放弃了他们的职责感到愤怒。他恳求这群人把塔里的幽灵赶走，以便他的人能够回来完成工作。伽利略没有看到任何鬼魂，但他并不怀疑他的下属的说法。他留在他的书房里（{@area area H3|0a7|x}），而其他人物则在探索。伽利略可以向任何询问的人讲述这座塔的历史。",
 								{
 									"type": "entries",
 									"name": "Gallio's Possession",
 									"id": "09b",
 									"entries": [
-										"Each night, Thalivar's {@creature ghost} emerges from the Ethereal Plane to possess Gallio while he's sleeping. Unlike normal ghostly possession, Gallio remains unaware that his body has been hijacked and placed under the effects of the {@spell spider climb} spell. He crawls around the tower in his night gown, peers worriedly at the pile of rubble at the top of the tower, and scribbles in Thalivar's old journal ({@area area H9|0af|x}). If confronted, he uses Horrifying Visage to scare away his enemies or tries to defeat them in combat (see \"{@area Confronting Thalivar's Ghost|09d|x}\" for information on how the ghost fights). Thalivar does not hesitate to abandon Gallio's body if he feels threatened."
+										"每个晚上，萨利瓦{@creature ghost}从虚空位面出现，附身在盖里奥睡觉时。与正常的幽灵附身不同，盖里奥并不知道自己的身体被接管，并受到{@spell spider climb}法术的影响。他穿着睡袍在塔楼里爬来爬去，焦虑地望着塔顶的瓦砾堆，还在萨利瓦的旧日志中涂鸦({@area area H9|0af|x})。如果被发现，他会使用恐怖面容吓跑敌人，或者试图在战斗中击败他们（参见“{@area Confronting Thalivar's Ghost|09d|x}”了解有关幽灵战斗的信息）。如果感到受到威胁，萨利瓦会毫不犹豫地放弃盖里奥的身体。"
 									]
 								}
 							]
@@ -2470,7 +2470,7 @@
 							"name": "Ghostly Events",
 							"id": "09c",
 							"entries": [
-								"Thalivar's {@creature ghost} tries to scare away anyone who enters his tower. As the characters explore, roll on the Ghostly Events table to introduce creepy phenomena, or invent your own!",
+								"萨利瓦尔的{@creature ghost}试图吓走任何进入他的塔的人。当角色探索时，在幽灵事件表上掷骰子，引入诡异现象，或者自己编造！",
 								{
 									"type": "table",
 									"caption": "Ghostly Events",
@@ -2514,8 +2514,8 @@
 									"name": "Confronting Thalivar's Ghost",
 									"id": "09d",
 									"entries": [
-										"Characters may try to summon Thalivar's {@creature ghost} using magic, a séance, or any other ploy they can devise. Remember that his spirit is insane and believes it is living in a nightmare. It does not want to parley and retreats into the Ethereal Plane at the first sign of trouble.",
-										"Once per day, when Thalivar's ghost returns to the Ethereal Plane, it chants a magical phrase that summons a {@creature star spawn mangler|MTF} (see {@adventure appendix A|SLW|10}) into the tower for every two members in the party, including sidekicks. Defeating Thalivar's ghost in combat is difficult, so the players are better off finding a way to lay it to rest using the clues in the tower.",
+										"角色可以尝试使用魔法、降神术或任何其他他们能想到的诡计来召唤萨利瓦{@creature ghost}。请记住，他的灵魂疯狂，并且认为自己生活在一个噩梦中。它不想交谈，并且一旦出现麻烦的迹象就会撤退到以太位面中。",
+										"每天一次，当萨利瓦的幽灵返回虚空位面时，它会吟唱一个魔法短语，召唤出一个{@creature star spawn mangler|MTF}（见{@adventure appendix A|SLW|10}）进入塔内，每两名队伍成员，包括助手，就会召唤一个。要击败萨利瓦的幽灵是困难的，因此玩家最好找到一种方法利用塔内的线索让其安息。",
 										{
 											"type": "inset",
 											"name": "Tower Features",
@@ -2595,7 +2595,7 @@
 									"name": "H3. Gallio's Study",
 									"id": "0a7",
 									"entries": [
-										"The walls of this study are lined with bookshelves housing dozens of musty scrolls and journals taken from the library on the second floor. Gallio Elibro spends most of his waking hours in here, attempting to decipher Thalivar's coded research notes (see {@area area H6|0ab|x}). See \"{@area Dealing with Gallio Elibro|09a|x}\" for advice on roleplaying the wizard if he's present when the characters enter the study."
+										"这间书房的墙壁上排满了书架，上面摆放着数十卷从二楼图书馆搬来的发霉卷轴和日记。盖里奥·埃利布罗大部分清醒时间都在这里，试图解读萨利瓦尔的密码研究笔记（见{@area area H6|0ab|x}）。如果角色们进入书房时巫师在场，请参考“{@area Dealing with Gallio Elibro|09a|x}”中的建议来扮演他。"
 									]
 								},
 								{
@@ -2611,7 +2611,7 @@
 									"name": "H5. Servant's Quarters",
 									"id": "0a9",
 									"entries": [
-										"Thalivar was tended by his loyal faerie servant, Soapwort, who died when his master accidentally released a menagerie of extraplanar monsters into the tower. Soapwort's chamber has long since caved in, and his bed is buried underneath a pile of rubble. Characters who spend at least 30 minutes clearing the wreckage discover humanoid bones crushed underneath. Those who succeed on a DC 12 Intelligence ({@skill Medicine}) check while examining the bones identify that they are fey in origin.",
+										"萨利瓦尔（Thalivar）被他忠诚的仙灵仆人，肥皂草（Soapwort）照料着，后者在主人意外释放了一群外位面怪物进入塔楼时死去。肥皂草的房间早已坍塌，他的床被埋在一堆瓦砾下。花费至少30分钟清理废墟的角色会发现被碾碎的人形骨骼。那些在检查骨骼时通过DC 12的智力检定({@skill Medicine})的角色会辨认出这些骨骼是精灵的。",
 										{
 											"type": "inset",
 											"name": "Raising Soapwort",
@@ -2628,14 +2628,14 @@
 									"name": "H6. Library",
 									"id": "0ab",
 									"entries": [
-										"These ruined chambers contain high shelves stacked with Thalivar's moldering research notes. Each chamber houses a large statue of a peasant girl with her forefinger pressed to her lips in a hushing gesture. Characters who succeed on a DC 15 Intelligence ({@skill Religion} or {@skill Arcana}) check recognize her as Mystra, goddess of magic.",
+										"这些废弃的房间里摆放着高架，上面堆满了萨利瓦（Thalivar）腐烂的研究笔记。每个房间里都有一个雕像，描绘了一个农家女孩，她用食指捂住嘴唇，示意安静。成功通过一次DC 15的智力检定（{@skill Religion}或{@skill Arcana}）的角色会认出她是魔法女神米斯特拉（Mystra）。",
 										"萨利瓦尔的笔记是用象形文字代码写成的。使用魔法，除了{@spell wish}的法术外，没有什么可以破译它们。如果没有这样的魔法，加里奥必须自己用费力的试验和错误来破译它们。这项任务非常繁重，但加里奥致力于完成它。在短时间内，研究这些笔记的人物不太可能有任何顿悟。",
 										{
 											"type": "entries",
 											"name": "Trapped Statues",
 											"id": "0ac",
 											"entries": [
-												"These magical traps were disarmed by adventurers long ago. Close examination reveals that each statue has a vandalized magical symbol carved into its back. Characters who succeed on a DC 15 Intelligence ({@skill Arcana}) check identify these as sigils of transmutation magic. If a symbol is mended or reworked, the statue comes to life and attacks intruders. The statues are {@creature Stone Golem||stone golems}, except that their size is Medium. They only attack creatures they can hear, always targeting the creature making the most noise. If this is unclear, they target the creature with the lowest passive Dexterity ({@skill Stealth}). The statues never leave the library."
+												"这些魔法陷阱早在很久以前就被冒险者解除了。仔细观察可以发现，每座雕像的背后都刻有被破坏的魔法符号。成功通过一次 DC 15 智力检定的角色可以识别这些符号是变形魔法的标记。如果一个符号被修复或重新制作，雕像就会活过来并攻击入侵者。这些雕像是{@creature Stone Golem||stone golems}，只是它们的尺寸是中等大小。它们只会攻击能听到的生物，始终瞄准发出最大噪音的生物。如果不清楚的话，它们会瞄准具有最低被动敏捷度的生物。这些雕像永远不会离开图书馆。"
 											]
 										}
 									]
@@ -2731,7 +2731,7 @@
 					"id": "0b6",
 					"entries": [
 						"当队伍从雷隆向南沿着大路前进时，他们并没有马上发现什么重要的东西。一旦发现麻烦的证据，他们就必须离开主路，深入到死人谷去调查。",
-						"Traveling within the Mere requires ability checks to follow the lizardfolk's trail and avoid hazards and threats (see \"{@area Tracking the Lizards|0bd|x}\" below). Any time the party fails at one of these ability checks, roll on the Mere Encounters table below.",
+						"在穆尔内旅行需要进行能力检定，以跟随蜥蜴人的足迹并避开危险和威胁（见下方“{@area Tracking the Lizards|0bd|x}”）。每当队伍在这些能力检定中失败时，在下方的穆尔遭遇表中进行投掷。",
 						{
 							"type": "table",
 							"caption": "Mere Encounters",
@@ -2786,8 +2786,8 @@
 									"name": "Pit of Snakes",
 									"id": "0b9",
 									"entries": [
-										"The characters lose the trail and wander into an area where swamp gas has built up beneath the surface of the Mere. Characters who succeed on a DC 15 Intelligence ({@skill Nature}) check realize the gas is present and understand its danger.",
-										"A pit of snakes opens to the right of the characters as they pass, and one {@creature giant constrictor snake}, plus an additional snake for every character, including sidekicks, emerges from the pit looking for a meal.",
+										"角色们迷失了踪迹，漫步进入一个沼泽气体在水面下积聚的地区。成功通过 DC 15 智力检定({@skill Nature})的角色意识到气体的存在，并了解它的危险。",
+										"当角色们经过时，右边突然打开了一个蛇坑，从中冒出了一个蛇{@creature giant constrictor snake}，每个角色（包括搭档）都会再冒出一条蛇，它们都在寻找食物。",
 										"任何大于火炬的魔法或普通的火都可以点燃沼泽的气体。每当使用以火为基础的咒语或效果时，掷出{@dice d6}。1-2时，气体被点燃。如果火系效果有一个区域，则效果的区域会加倍。同时，将该区域内的所有生物视为易受火伤害，以接近沼泽气体造成的额外伤害。"
 									]
 								},
@@ -2799,7 +2799,7 @@
 										"当队伍暂时失去踪迹时，他们跌跌撞撞地进入沼泽地的一个危险区域，那里有一个10英尺见方、20英尺深的流沙坑。除非进行追踪的角色在DC18智力（{@skill Nature}）检查中成功，否则他们会将队伍带入其中。当一个生物进入该区域时，它将沉入（1%）英尺的流沙中，并变成（2%）。在该生物的每个回合开始时，它又会下沉{@dice 1d4}英尺。",
 										"如果该生物没有完全淹没在流沙中，它可以通过使用其行动并成功地进行力量检查来逃脱，DC10加上该生物已经下沉的英尺数。完全淹没在流沙中的生物不能呼吸（见{@book Player's Handbook|PHB}中的{@book suffocation rules|PHB|8|Suffocating}）。",
 										"一个没有沉入流沙的生物可以通过使用它的行动并成功地进行力量检查，DC5加上目标生物沉入流沙的英尺数，将它触及范围内的另一个生物拉出流沙坑。",
-										"While the party deals with the quicksand, a {@creature giant crocodile} and its young (one {@creature crocodile} per 2 characters) emerge from the swamp and attack."
+										"当队伍应对流沙时，一只{@creature giant crocodile}和它的幼崽（每2个角色中的一个{@creature crocodile}）从沼泽中冒出并发动攻击。"
 									]
 								},
 								{
@@ -2807,7 +2807,7 @@
 									"name": "Troll Brawl",
 									"id": "0bb",
 									"entries": [
-										"While following the trail of the lizardfolk, the party comes across three {@creature Troll||trolls} fighting over the remains of a lizardfolk who died at the hands of one of the rot trolls. The trolls claw and bite each other, trying to take possession of the tasty lizardfolk remains.",
+										"在追踪蜥蜴人的踪迹时，队伍遇到了三只{@creature Troll||trolls}在争夺一名被一只腐烂巨魔杀死的蜥蜴人尸体。这些巨魔互相抓咬，试图占有美味的蜥蜴人尸体。",
 										"当角色们发现巨魔时，他们每个人都只有起始命中率的一半。如果角色们能保持安静，巨魔就会更多地殴打对方，直到他们都降到开始时命中率的四分之一。",
 										"第一个死去的巨魔带着一个麻袋，里面有三个{@item Acid (vial)|PHB|vials of acid}(详情见{@book Player's Handbook|PHB})。"
 									]
@@ -2838,7 +2838,7 @@
 									]
 								},
 								"对该地区的检查发现了一辆半埋在泥土中的破车，一把断裂的剑刃，以及一些雷隆士兵所穿外套的纽扣。一条明显的小路也通向西部，深入到死人谷。",
-								"With a successful DC 10 Wisdom ({@skill Survival}) check, the adventurers can also learn the following:",
+								"通过成功的DC 10感知检定，冒险者们还可以学到以下信息：",
 								{
 									"type": "list",
 									"items": [
@@ -2896,8 +2896,8 @@
 									"id": "0bf",
 									"entries": [
 										"大多数时候，足迹都很容易追踪。然而，偶尔小路会穿过非常潮湿的水域，追踪变得更加困难。",
-										"In order to catch up to the lizardfolk tribe, the party must succeed on three DC 15 Wisdom ({@skill Survival}) checks. On a failed check, roll on the {@adventure Mere Encounters table|SLW|7|Mere Encounters} for a random encounter in the swamp. Note that anyone attempting or aiding with the {@skill Survival} checks to follow the tracks cannot attempt Wisdom ({@skill Perception}) checks to spot random encounters, as they are too focused on the details of tracking.",
-										"After three successful {@skill Survival} checks are attained, the characters come upon the lizardfolk tribe as they stop for a rest. Move on to \"Fighting the Lizards\" below."
+										"为了赶上蜥蜴人部落，队伍必须成功通过三次DC 15的感知检定{@skill Survival}。如果检定失败，在沼泽中随机遇到敌人，请在{@adventure Mere Encounters table|SLW|7|Mere Encounters}上投掷骰子。请注意，任何尝试或协助进行{@skill Survival}检定以追踪踪迹的人员，不能尝试感知检定{@skill Perception}来发现随机遭遇，因为他们过于专注于追踪的细节。",
+										"在完成三次成功的{@skill Survival}检查后，角色们在休息时遇到了蜥蜴人部落。继续阅读下面的“与蜥蜴人战斗”。"
 									]
 								}
 							]
@@ -2924,7 +2924,7 @@
 									"name": "Lizardfolk Forces",
 									"id": "0c2",
 									"entries": [
-										"The leader is a {@creature lizardfolk subchief|GoS} (see {@adventure appendix A|SLW|10}) called Hissain. The large lizardfolk with him is a {@creature lizardfolk render|GoS} (see {@adventure appendix A|SLW|10}) whom the others call Slosh. The warriors who follow Hissain's orders are normal {@creature lizardfolk}, and there is one per character, including sidekicks. The sleds and cages are pulled by {@creature Flail Snail|VGM|flail snails} (see {@adventure appendix A|SLW|10}), but only one of those creatures' attacks (the one next to Hissain), unless they are attacked first. The rest of the lizardfolk in the tribe are young, elderly, and other noncombatants."
+										"领袖是一个名叫Hissain的{@creature lizardfolk subchief|GoS}(见{@adventure appendix A|SLW|10})。与他在一起的大型蜥蜴人是一个名叫Slosh的{@creature lizardfolk render|GoS}(见{@adventure appendix A|SLW|10})，其他人称他为Slosh。遵循Hissain命令的战士是普通的{@creature lizardfolk}，每个角色都有一个，包括搭档。雪橇和笼子由{@creature Flail Snail|VGM|flail snails}(见{@adventure appendix A|SLW|10})拉动，但只有那些生物中的一个会攻击（靠近Hissain的那个），除非它们首先受到攻击。部落中其余的蜥蜴人是年轻人、老年人和其他非战斗人员。"
 									]
 								},
 								{
@@ -3002,7 +3002,7 @@
 								"不过，瓦尔迪可以利用她对该地区海员的了解，为他们找到一些可能的人，带他们去雷霆崖。一旦到达雷霆崖底，该地区以和平和对船只的欢迎而闻名。",
 								"她心中有两艘船和船长，他们经常沿着剑海岸旅行，代表商人运输货物，以及运送旅行者。这两艘船都值得信赖，应该在下一个工作日内向雷霆悬崖行驶。",
 								"第一个是 \"站在柏油里\"，这是一个活泼的，甚至有点不正常的tabaxi。她以鲁莽著称，但她的大胆也为她赢得了能够完成不可能的任务的声誉。她的海盗船({@vehicle sailing ship})，\"跳舞的快乐\"，速度快，动作灵活。",
-								"The other is Kristoffen, a white dragonborn. He is calculating, efficient, and somber. He captains a {@vehicle galley} called the Ice Floe, which is specially outfitted to break through the icy waters of the far north."
+								"另一个是克里斯托芬(Kristoffen)，一个白色龙裔。他冷静、高效、沉默寡言。他是一艘名为冰流(Ice Floe)的{@vehicle galley}的船长，专门配备了能够穿越极北冰水的设备。"
 							]
 						},
 						{
@@ -3010,14 +3010,14 @@
 							"name": "Meeting the Captains",
 							"id": "0ca",
 							"entries": [
-								"Within a few days, the two captains arrive via {@vehicle rowboat} through the marsh to talk to the party. Their vessels are anchored out at sea, awaiting the party if they are selected as the method of conveyance.",
+								"在几天之内，两位船长通过湿地{@vehicle rowboat}到达，与队伍交谈。如果他们被选为交通工具，他们的船只将锚泊在海上等待队伍。",
 								{
 									"type": "entries",
 									"name": "The Interview",
 									"id": "0cb",
 									"entries": [
 										"瓦尔迪-埃斯塔帕尔把塔巴西人 \"塔尔 \"和龙裔 \"克里斯托芬 \"带到人物面前，让他们向这两位船长提问。他们各自申辩自己是最适合这项工作的船只和船员。",
-										"Stands in Tar staggers slightly as she stands. A successful DC 15 Wisdom ({@skill Insight}) check reveals that the tabaxi has been in the rum-soaked catnip and is not totally sober. She does, however, plead her case eloquently. Her ship is faster and more agile, and her crew smaller and less likely to gossip about their mission. There isn't a ship on the sea that the {@i Dancing Delight} can't outmaneuver or outrun on the open ocean.",
+										"在塔尔站立时稍微摇晃。成功的DC 15智力检定揭示这只塔伯西已经沉浸在浸满朗姆酒的猫薄荷中，并没有完全清醒。然而，她却能雄辩地陈述自己的情况。她的船更快更灵活，她的船员更少，也不太可能在任务中传播流言。在开阔的海洋上，没有一艘船能比得上{@i Dancing Delight}，无论是在机动性还是逃跑速度上。",
 										"克里斯托芬用一种厌恶和惊恐的目光看着塔尔的斯坦兹，摇头表示不相信有人会考虑选择这个醉醺醺的塔巴西人和她的船，而不是他和他的。他向大家解释说，他的船更可靠、更安全，他们在最近变得更加暴力的海上可能需要这些。他继续透露说，他听说有传言说雷霆崖底部曾经安全的洞穴最近变得更加危险。站在塔尔对这个想法嗤之以鼻。"
 									]
 								},
@@ -3040,7 +3040,7 @@
 							"entries": [
 								"在某些时候，人物必须决定他们喜欢哪艘船和哪位船长。城镇为人物支付往返的费用，两位船长要求的票价都一样，所以这不应该成为决定因素。",
 								"无论当事人选择谁，都会很高兴，而另一位队长则简单地接受决定，然后走开。他们两人都准备好了，只要人物准备好了就可以走了。",
-								"If for any reason the characters attack Kristoffen because they learn of his affiliation with the Cult of Talos, he defends himself. Kristoffen (use {@creature half-red dragon veteran} statistics but replace fire with cold in attacks and resistances) can summon a pair of {@creature Air Elemental||air elementals} that serve him on behalf of Talos, which appear at the end of the first round of combat."
+								"如果角色因为得知克里斯托芬(Kristoffen)与塔洛斯邪教有关而攻击他，他会进行自卫。克里斯托芬(使用{@creature half-red dragon veteran}的属性，但在攻击和抗性中将火属性替换为冰属性)可以召唤一对{@creature Air Elemental||air elementals}，它们代表塔洛斯为他服务，并会在战斗的第一轮结束时出现。"
 							]
 						}
 					]
@@ -3057,7 +3057,7 @@
 							"id": "0cf",
 							"entries": [
 								"无论人物选择哪艘船，一些船员都有自己的意图，并对船长的领导感到不满。",
-								"The crew of the {@i Ice Floe} is unhappy because their captain has been acting differently within the last couple of months. He has turned down more lucrative contracts to sail northwest to the Moonshae Isles in order to stay closer to Neverwinter. This has meant less pay for the crew, which they are not pleased about.",
+								"{@i Ice Floe} 的船员们感到不高兴，因为他们的船长在过去几个月里表现出了不同寻常的举动。他拒绝了更有利可图的合同，选择向西北航行前往莫恩谢群岛，以便更靠近“无冬之夜”。这意味着船员们的报酬减少了，他们对此感到不满。",
 								"{@i Dancing Delight}号的船员们很不高兴，因为他们的船长比平时更加鲁莽和不可预测，导致他们失去了报酬，因为商人们已经开始回避使用Stand in Tar的船和船员从事重要的、有利可图的工作。"
 							]
 						},
@@ -3066,7 +3066,7 @@
 							"name": "The Moment of Truth",
 							"id": "0d0",
 							"entries": [
-								"A day into the journey, after the party has heard some grumbling among the sailors, the crew confronts the captain. Regardless of the vessel, the mutiny is led by Castisha (female Calishite {@creature swashbuckler|VGM}; see {@adventure appendix A|SLW|10}), the first mate. She is backed by four sailors ({@creature Bandit||bandits}) per character, excluding sidekicks.",
+								"在旅程的第一天，当队伍听到水手们之间有些抱怨后，船员们面对船长。无论船只如何，这次叛变是由Castisha（卡利姆人女性{@creature swashbuckler|VGM};见{@adventure appendix A|SLW|10}）这位大副领导的。她得到了四名水手的支持（{@creature Bandit||bandits}）每个角色，不包括随从。",
 								"船长（任何一艘船）都拒绝和平地交出船只的控制权。卡斯蒂沙提出让船长坐上小艇安全上岸，但如果他们不和平地走，哗变者就愿意硬来。哗变者明确表示，他们不会伤害党，并将履行约定的合同。",
 								{
 									"type": "entries",
@@ -3082,7 +3082,7 @@
 									"id": "0d2",
 									"entries": [
 										"冒险家们可以尝试代表船长说话，希望能说服哗变者放弃他们的计划。卡斯蒂沙已经下定决心，没有什么能让她退缩的魔法强迫。然而，其余的哗变者愿意听一听他们为什么不应该推翻船长的理由。设定成功的DC为15，然后根据角色使用的策略进行调整。",
-										"For example, if one of the characters shoots a fireball into the sky to intimidate the sailors into standing down, the Charisma ({@skill Intimidation}) check to cow the sailors might just be DC 10, or it might even succeed automatically."
+										"例如，如果其中一个角色向天空发射火球，以恐吓水手们退缩，那么用魅力检定({@skill Intimidation})来吓倒水手们的难度可能只是DC 10，甚至可能会自动成功。"
 									]
 								},
 								{
@@ -3100,7 +3100,7 @@
 							"name": "Bad News",
 							"id": "0d4",
 							"entries": [
-								"As the party's ship sails north toward the Thunder Cliffs, a southward-sailing vessel approaches them. The ships drop anchor and the captain of the other vessel, called the {@i Uneasy Alliance}, comes aboard the ship.",
+								"当派对的船只向北驶向雷霆悬崖时，一艘向南航行的船只靠近他们。两艘船都下锚，另一艘船的船长，名为{@i Uneasy Alliance}，登上了这艘船。",
 								"这位船长是一位名叫斯塔林-温切特船长的人类，他与这些人物的船只的船长和船员交换故事和酒水。她讲了一个冒险家们特别感兴趣的故事。当{@i Uneasy Alliance}号经过雷霆崖附近时，他们发现了大量的残骸，这些残骸可能来自那里的洞穴之前的直接水域。他们没有看到任何幸存者或可打捞的残骸，所以他们对该地区避之不及。",
 								"温切特船长还转述说，她听到其他水手说最近在这个地区看到了一艘鬼船。这艘船只能从远处看到，但它就像大炮的烟雾一样朦胧，并发出低沉的呻吟声，传遍水面。她没有亲自见过这艘鬼船，但她觉得有义务把这个信息传递出去。"
 							]
@@ -3127,7 +3127,7 @@
 									"entries": [
 										"这次冒险假定人物是通过海路进入雷霆崖的洞穴的。通过雷霆悬崖的顶部到达洞穴意味着要在敌对地区进行危险的跋涉，然后从悬崖顶部到下面的冲浪处进行漫长的攀爬（或坠落）。不过，有些玩家，一旦你告诉他们不能做什么，就想这么做。如果他们坚持，就让他们做吧。",
 										"从雷隆（Leilon）到雷霆悬崖的跋涉应该会引发许多与乌兰莫特斯（Ularan Mortus）军队的不死生物的遭遇，随机的食人魔和巨人攻击，以及与其他敌对的野兽、人形生物和怪物的对抗。",
-										"The top of the cliffs is home to a tribe of Talos-worshipping aarakocra who act as a guard for the cult. Many will attack when the characters approach, but some will hang back and see what happens. If the characters succeed in defeating the group, the rest of the aarakocra pester the party as they try to climb down the 800-foot-high cliffs. And, of course, the {@creature invisible stalker} and {@creature Manticore||manticores} are always ready to attack intruders."
+										"悬崖顶部是一个供奉塔洛斯(Talos)的阿拉科克拉(aarakocra)部落的家园，他们充当教派的护卫。当角色接近时，许多人会发起攻击，但也会有一些人退后观望。如果角色成功击败了这群人，其余的阿拉科克拉会在角色试图爬下这座高达800英尺的悬崖时骚扰他们。当然，{@creature invisible stalker}和{@creature Manticore||manticores}总是准备好攻击入侵者。"
 									]
 								}
 							]
@@ -3154,9 +3154,9 @@
 									"name": "Talos is Angry",
 									"id": "0da",
 									"entries": [
-										"The water and air, which have been relatively peaceful until now, suddenly turn violent as the party approaches shore. Jagged reefs magically spring up out of the water. The reefs can be avoided in the maneuverable {@vehicle rowboat}, but a larger ship would have been torn apart on the rocks.",
+										"当队伍靠近岸边时，一直相对平静的水和空气突然变得狂暴起来。锯齿状的礁石神奇地从水中冒了出来。在{@vehicle rowboat}的机动性下，可以避开这些礁石，但一艘更大的船只会在礁石上被撕成碎片。",
 										"不是由塔洛斯派来的飞行生物必须在每个回合开始时成功地进行DC15力量救赎。拯救失败后，强风会将它们赶入水中。",
-										"Creatures in the water find the rough waves treacherous. Creatures without a swim speed must succeed on a DC 10 Strength ({@skill Athletics}) check to take an action without going under. On a failed check, or if the creature takes an action without attempting the check, that creature begins to drown (see \"{@book Suffocating|PHB|8|Suffocating}\" in the {@book Player's Handbook|PHB})."
+										"水中的生物发现汹涌的波浪很危险。没有游泳速度的生物必须在不被淹没的情况下成功进行一次DC 10的力量检定({@skill Athletics})才能采取行动。如果检定失败，或者生物在未尝试检定的情况下采取行动，那个生物就会开始溺水（见{@book Player's Handbook|PHB}中的“{@book Suffocating|PHB|8|Suffocating}”）。"
 									]
 								}
 							]
@@ -5766,8 +5766,8 @@
 							"id": "0dd",
 							"entries": [
 								"海水与沙滩交汇的海岸线，随着断裂的海浪撞击着。洞穴内形成的回声回荡，使空气中充满了如雷鸣般的撞击声。",
-								"The shore is lined with thin wire treated with a modified version of the {@spell alarm} spell. Water and other natural circumstances do not trigger the spell, but any humanoid creatures that trip the wires cause an alarm to sound within the caves, alerting the cultists that intruders are present.",
-								"The wires can be spotted with a successful DC 15 Wisdom ({@skill Perception}) check. Getting to shore without tripping the wires is practically impossible, but the wires can be disarmed with a DC 15 Dexterity ({@skill Sleight of Hand}) check, or the {@spell alarm} spell can be suppressed for an hour using {@spell dispel magic}."
+								"岸边铺满了用一种改良版{@spell alarm}咒语处理过的细铁丝。水和其他自然环境不会触发这个咒语，但任何绊倒这些铁丝的人形生物都会在洞穴内响起警报，提醒邪教徒有入侵者出现。",
+								"成功进行一次DC 15的感知检定，就能发现这些电线。要想不触发电线就成功上岸几乎是不可能的，但可以通过进行一次DC 15的敏捷检定来拆除电线，或者可以使用{@spell dispel magic}来抑制{@spell alarm}法术一个小时。"
 							]
 						},
 						{
@@ -5775,7 +5775,7 @@
 							"name": "2. Unhappy Cultists",
 							"id": "0de",
 							"entries": [
-								"If the characters are able to approach without tripping the alarm, they might hear some disgruntled cultists talking while they work. If the alarm was tripped, the cultists wait with weapons drawn and cannot be {@quickref Surprise|PHB|3|0|surprised}.",
+								"如果角色能够接近而不触发警报，他们可能会听到一些工作时抱怨的邪教徒在交谈。如果触发了警报，那些邪教徒会持武器待命，且无法被 {@quickref Surprise|PHB|3|0|surprised}。",
 								"如果冒险者有机会听到邪教分子的谈话，就用下面的朗读文字来描绘这段对话。",
 								{
 									"type": "insetReadaloud",
@@ -5834,8 +5834,8 @@
 									"name": "The Coven Cave",
 									"id": "0e4",
 									"entries": [
-										"In the cave, three {@creature Sea Hag||sea hags} chew on the hands and feet of sailors who drowned after being shipwrecked on the magical reefs. The cultists supply the bodies in return for help from the coven when dealing with special problems, and the two forces have an easy mutual-protection pact.",
-										"Piles of slimy seaweed act as beds for the three sisters: Nana Pocktuss, Auntie Unk, and Granny Muyuk. The trio is using the inedible parts of the bodies to create assistants that look like flying skulls with long stingers. There is one {@creature skull flier|SLW} per character, excluding sidekicks. You can find the statistics for these creatures in {@adventure Appendix A|SLW|10}."
+										"在洞穴中，三名{@creature Sea Hag||sea hags}啃食那些在神奇暗礁上遇难后溺水的水手的手和脚。邪教徒提供尸体，以换取与魔法咒会在处理特殊问题时的帮助，这两股势力之间有一个简单的互相保护协议。",
+										"一堆堆黏糊糊的海草充当了三姐妹的床：Nana Pocktuss、Auntie Unk和Granny Muyuk。这三人正在利用身体的不可食用部分创造助手，看起来像带有长刺的飞行头骨。每个角色（不包括配角）有一个{@creature skull flier|SLW}。你可以在{@adventure Appendix A|SLW|10}中找到这些生物的统计数据。"
 									]
 								},
 								{
@@ -5857,7 +5857,7 @@
 							"name": "4. The Dying Second",
 							"id": "0e6",
 							"entries": [
-								"While the incredibly devout Gadrille the Reef-Reaver leads the group of cultists at the caves, Fheralai Stormsworn assigned a second-in-command to assist her—with special instructions to keep an eye on Gadrille to ensure she doesn't kill all her followers in a fit of mad devotion to Talos. That second-in-command is Sovendahl Erkinze, a {@creature drow elite warrior}.",
+								"在洞穴中，极其虔诚的海礁掠夺者加德里尔(Gadrille the Reef-Reaver)领导着一群异教徒，风暴誓约者菲拉莱(Fheralai Stormsworn)指派了一位副手来协助她——特别是要密切关注加德里尔，以确保她不会在对泰洛斯的疯狂虔诚中杀死所有追随者。那位副手是{@creature drow elite warrior}索文达尔·厄金泽(Sovendahl Erkinze)。",
 								"索文达的保镖（{@creature Thug||thugs}），每个角色都有一个，包括跟班，无论他去哪里，都和乌鸦在一起。而现在，他并没有走得很远，因为他正在遭受诅咒。",
 								"索文达的职责是监督分拣、运输和销售其余行动者从失事船只上偷来的赃物。这使加德利尔可以做她最喜欢的事情：以塔洛斯的名义杀戮他人。",
 								"最近，索文达尔对加德利尔的一些更热心的努力表示反对，认为这些努力太过冒险，很可能会引起更大、更强大的势力的注意，比如沃特德普的海军。索文达尔背着加德利尔，敦促费拉莱-风暴之神下令让加德利尔退下。热心过头的加德利尔照办了，但她暗中向塔洛斯祈祷，要求为她多年的奉献提供一种恩惠：诅咒索文达尔的懦弱谨慎。而塔洛斯回答说。",
@@ -5869,13 +5869,13 @@
 										"当人物遇到索文达尔时，他正在宿舍里休息，他的保镖们正在整理最近偷来的和打捞来的财宝。偶尔，这个乌鸦会爆发出一阵咳嗽，把肺里的血带出来。他很担心，但尽量不表现出来。",
 										"如果战斗在这里爆发，苏文达勇敢而专业地战斗，但体力消耗导致了更多的咳嗽。随着战斗的进行，描述鸦人的痉挛性咳嗽，以及血液喷在面对他的冒险者身上。(这是能让最勇敢的野蛮人也感到害怕的事情！）这种疾病是不会传染的，但没有人需要知道这一点。",
 										"如果在任何时候，人物与乌鸦谈论他的痛苦，指出他生病了，需要帮助，乌鸦可能会停止战斗，问人物是否可以帮助他。他愿意离开邪教以获得治疗。",
-										"A successful DC 15 Wisdom ({@skill Medicine}) check reveals that the ailment is not a disease, but a curse. A character who casts {@spell remove curse} on Sovendahl earns the drow's thanks. As a reward, the he gives the characters a magic item has been storing away: a {@item dagger of venom}.",
+										"一次成功的DC 15感知检定揭示了这种疾病不是疾病，而是诅咒。一个对Sovendahl施放{@spell remove curse}的角色会赢得那位黑暗精灵的感谢。作为奖励，他会给角色们一个一直保存着的魔法物品：一个{@item dagger of venom}。",
 										{
 											"type": "entries",
 											"name": "Treasure",
 											"id": "0e8",
 											"entries": [
-												"If the characters kill Sovendahl and his bodyguards, they do not find the magical dagger, which is hidden carefully in a secret location outside the caves. They do, however, get 250 gp in various coins, 3 {@item Potion of Greater Healing||potions of greater healing}, and a jade brooch worth 500 gp."
+												"如果角色们杀死了索文达尔(Sovendahl)和他的护卫，他们将找不到那把被小心藏在洞穴外秘密地点的魔法匕首。然而，他们会得到各种硬币共计250 gp，3 {@item Potion of Greater Healing||potions of greater healing}，以及价值500 gp 的翡翠胸针。"
 											]
 										}
 									]
@@ -5888,7 +5888,7 @@
 							"id": "0e9",
 							"entries": [
 								"在暗礁守护者加德里尔手下工作的塔洛斯邪教徒们没有太多的时间来放松和社交。他们大部分时间都在海上，引诱毫无防备的船只进入礁石，然后打捞残骸。加德利尔的座右铭是 \"如果你不为塔洛斯服务，你就为塔洛斯服务而睡觉\"。",
-								"This area is where the cultists of the lowest standing sleep and eat. At any time, there are eight {@creature Scout||scouts} here, sleeping in four bunk beds that line the walls, or eating their fish broth at the table in the center of the room before heading out to perform their tasks. The cultists here when the characters arrive are dedicated to their god and will not surrender or negotiate.",
+								"这个区域是最低级教徒们睡觉和进餐的地方。任何时候，这里有八名{@creature Scout||scouts}教徒，他们睡在靠墙的四张双层床上，或者在房间中央的桌子上吃着鱼汤，然后再出去执行任务。当角色到达时在这里的教徒都对他们的神忠诚，不会投降或谈判。",
 								{
 									"type": "entries",
 									"name": "The Blowhole",
@@ -5896,14 +5896,14 @@
 									"entries": [
 										"在房间北面的一个凹槽里，有一个特殊的功能，洞里的人称之为 \"吹气孔\"。这个垂直的竖井既在水面下，又在洞顶上。",
 										"当加德利尔认为一个邪教徒缺乏成为塔洛斯真正仆人的适当信仰时，这个邪教徒就会被拖到这里，并被扔进喷水孔的水中接受审判。有时他们会被拉到井底，有时会有一股水柱把他们从井口吹上来，有时什么也没发生。如果什么都不发生，加德利尔就认为那是塔洛斯认可的标志。",
-										"The truth is that the blowhole is a magical portal. When a living creature enters the blowhole, roll a {@dice d10}. On a 1-8, nothing happens. On a 9, the creature is pulled down into the shaft, through a portal, and appears moments later floating in Waterdeep Harbor, alive and well. On a 10, the creature is pushed up through the ceiling by the geyser. With a successful DC 10 Strength saving throw, a creature can grab onto the side of the shaft and avoid getting pushed through the portal. On a failure, the creature tumbles through a portal at the top of the shaft and ends up in the Elemental Plane of Water. (Perhaps a passing {@creature marid} takes pity on the creature and uses {@spell plane shift} to return it home—for a price!)",
+										"事实上，喷气孔是一个神奇的传送门。当一个生物进入喷气孔时，投掷一个{@dice d10}。在1-8时，什么也不会发生。在9时，生物被拉入通道，穿过传送门，片刻后出现在活生生的Waterdeep Harbor中。在10时，生物被喷泉推向天花板。通过一次成功的DC 10力量豁免才能抓住通道的一侧，避免被推入传送门。失败时，生物将经过通道顶部的传送门，最终出现在水元素位面中。（也许一位经过的{@creature marid}对这个生物表示怜悯，并使用{@spell plane shift}将其送回家园——需付出代价！）",
 										"党员们可以通过多种方式了解河口的神奇之处。",
 										{
 											"type": "list",
 											"items": [
 												"其中一个心怀不满的碇泊者向这个人物讲述了加德列尔对待那些她认为不值得的人的残忍行为。",
-												"A successful DC 15 Intelligence ({@skill Investigation}) check of the area reveals scrape marks around the blowhole, where people have grabbed hold while attempting to keep from getting sent away.",
-												"Characters succeeding on a DC 15 Intelligence ({@skill Arcana}) checks notices the magical emanations within the blowhole, revealing that it contains teleportation magic.",
+												"一次成功的智力检定（DC 15）可以发现该区域周围有刮痕，人们在试图避免被冲走时曾抓住这些痕迹。",
+												"成功通过一次DC 15智力检定({@skill Arcana})的角色注意到喷孔中的魔法波动，揭示出它含有传送魔法。",
 												"一个角色踏入吹气孔，并遭受该地区的影响。"
 											]
 										}
@@ -5943,8 +5943,8 @@
 							"name": "7. Gadrille the Reef-Reaver",
 							"id": "0ee",
 							"entries": [
-								"Gadrille the Reef-Reaver is a female half-elf {@creature evoker|VGM}. She spends most of her time out with her followers, preying on those too weak to withstand the ravaging power of Talos. When in the caves, however, she is in her chambers praying.",
-								"Talos has rewarded Gadrille for her devotion with a pet, whom she calls \"{@creature Tooth-N-Claw|SLW}.\" This beast uses {@creature hell hound} statistics but replace fire with cold in attacks and immunities. {@creature Tooth-N-Claw|SLW} is ferociously protective of Gadrille. If there are more than four characters, excluding sidekicks, add a second pet called \"Frost-N-Fang.\"",
+								"Gadrille the Reef-Reaver是一名女性半精灵{@creature evoker|VGM}。她大部分时间都和她的追随者在一起，猎杀那些无法抵御塔洛斯的毁灭力量的人。然而，在洞穴里，她会呆在自己的房间里祈祷。",
+								"塔洛斯奖赏了加德里尔对他的忠诚，送给她一只宠物，她称之为“{@creature Tooth-N-Claw|SLW}”。这只野兽使用{@creature hell hound}的属性，但在攻击和免疫中将火属性替换为冰属性。{@creature Tooth-N-Claw|SLW}对加德里尔充满了凶猛的保护意识。如果除了助手之外有超过四个角色，会再添加一只名为“冰牙”的第二只宠物。",
 								{
 									"type": "entries",
 									"name": "Swirling Pool Chamber",
@@ -5958,13 +5958,13 @@
 									"name": "Shrine Chamber",
 									"id": "0f0",
 									"entries": [
-										"This area is Gadrille's private shrine. In addition to the carved limestone likeness of Talos in one corner, the walls are carved with images of Talos's destructive power. Moving within the chamber is like moving through {@quickref difficult terrain||3} unless you are a worshipper of Talos. Taking an action to say a prayer to Talos and succeeding on a DC 15 Intelligence ({@skill Religion}) check, allows a creature to move normally in the room for 1 minute.",
+										"这个区域是加德里尔(Gadrille)的私人神龛。除了一个角落里雕刻着塔洛斯(Talos)的石灰岩像外，墙壁上还雕刻着塔洛斯毁灭力量的形象。在房间内移动就像在{@quickref difficult terrain||3}中移动一样，除非你是塔洛斯的信徒。花费一个动作向塔洛斯祈祷并在一次DC 15的智力检定({@skill Religion})中成功，允许生物在房间内正常移动1分钟。",
 										{
 											"type": "entries",
 											"name": "Treasury",
 											"id": "0f1",
 											"entries": [
-												"Gadrille stores her personal wealth here, including a chest with 300 gp, three ornate matching silver daggers worth a total of 500 gp, a {@item ring of warmth}, a {@item wand of magic missiles}, and a {@item potion of vitality}."
+												"Gadrille在这里存放她的个人财富，包括一个装有300 gp的箱子，总价值为500 gp的三把华丽的配套银匕首，一个{@item ring of warmth}，一个{@item wand of magic missiles}，和一个{@item potion of vitality}。"
 											]
 										}
 									]
@@ -5989,7 +5989,7 @@
 			"id": "0f3",
 			"entries": [
 				"在人物处理完雷霆崖上塔洛斯教派的威胁后，他们可以带着他们获得的信息返回雷隆。如果他们还没有完成这次冒险中的一个或多个其他任务，他们可以在攻打山洞后休息一下再进行这些任务。",
-				"Some plot threads from this adventure could also be expanded upon if the adventurers are not quite ready to move to 9th level and start the next adventure in the series, {@adventure Sleeping Dragon's Wake|SDW}. This is a good opportunity to create your own encounters or short adventures to tell other pieces of your own story. Below are just a few examples of what you could do:",
+				"如果冒险者们还没有准备好升到9级并开始系列中的下一个冒险(`%0%`)，那么这个冒险中的一些情节也可以进一步扩展。这是一个很好的机会，可以创造自己的遭遇或短暂冒险，来讲述你自己故事的其他部分。以下只是一些你可以做的例子：",
 				{
 					"type": "list",
 					"items": [
@@ -6835,70 +6835,70 @@
 							"type": "item",
 							"name": "Story Creators",
 							"entries": [
-								"Bill Benham, Christopher Lindsay"
+								"比尔·本汉姆 (Bill Benham)，克里斯托弗·林赛 (Christopher Lindsay)"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Story Consultant",
 							"entries": [
-								"Christopher Perkins"
+								"克里斯托弗·帕金斯 (Christopher Perkins)"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Lead Designer",
 							"entries": [
-								"Shawn Merwin"
+								"肖恩·默温 (Shawn Merwin)"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Developers",
 							"entries": [
-								"Will Doyle, James Introcaso"
+								"威尔·道尔（Will Doyle），詹姆斯·因特罗卡索（James Introcaso）"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Editors",
 							"entries": [
-								"Hannah Rose"
+								"汉娜·罗斯 (Hannah Rose)"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Managing Editor",
 							"entries": [
-								"Christopher Lindsay"
+								"克里斯托弗·林赛 (Christopher Lindsay)"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Graphic Designer",
 							"entries": [
-								"Rich Lescouflair"
+								"里奇·莱斯科夫莱尔 (Rich Lescouflair)"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Illustrators",
 							"entries": [
-								"Noah Bradley, Filip Burburan, Clint Cearley, Olga Drebas, Ralph Horsley, Chris Seaman, Ilya Shkipin, Cory Trego-Erdner"
+								"Noah Bradley（诺亚·布拉德利）, Filip Burburan（菲利普·布尔布兰）, Clint Cearley（克林特·西尔利）, Olga Drebas（奥尔加·德雷巴斯）, Ralph Horsley（拉尔夫·霍斯利）, Chris Seaman（克里斯·西曼）, Ilya Shkipin（伊利亚·什基平）, Cory Trego-Erdner（科里·特雷戈-厄德纳）"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Cartographers",
 							"entries": [
-								"Stacey Allen, Will Doyle"
+								"Stacey Allen（Stacey Allen）, Will Doyle（Will Doyle）"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Playtest Coordinator",
 							"entries": [
-								"Bill Benham"
+								"比尔·本汉姆 (Bill Benham)"
 							]
 						}
 					]
