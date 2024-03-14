@@ -32,5 +32,6 @@ jobs:
                 git config user.name "Automatic translator"
                 git config user.email "<>"
                 mv data data.en
+                mv data.zh data
                 git commit -m
                 git push
