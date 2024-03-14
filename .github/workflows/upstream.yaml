@@ -31,9 +31,9 @@ jobs:
                 git config core.sparsecheckout true
                 echo "data" >> .git/info/sparse-checkout  
                 git config pull.rebase false
-                git pull upstream main
                 git config user.name "Automatic translator"
                 git config user.email "<>"
+                git pull upstream main
                 mv data data.en
                 mv data.zh data
                 git commit -a
