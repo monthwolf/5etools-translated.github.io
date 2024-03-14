@@ -175,7 +175,7 @@
 											"page": 4,
 											"entries": [
 												"请原谅我的审视，但我需要确定你不是一个二重身。一个人永远不能太谨慎，尤其是在这个没有色彩的时代，和谐的命运悬于一线。",
-												"我的名字是(%%)，我属于传说中的守护者协会。你没有听说过我们，但我们一直在关注你，现在，我们需要你的帮助。"
+												"My name is {@creature Mr. Honeycutt|NRH-TCMC}, and I belong to the Lorekeeper Society. You haven't heard of us, but we've been watching you and right now, we need your help."
 											],
 											"id": "00f"
 										},
@@ -238,7 +238,7 @@
 									],
 									"id": "014"
 								},
-								"{@creature Slurmy|NRH-TCMC}是一种可恶的食肉动物，有着粘稠的、斑驳的绿色皮肤；诡异的黄色眼睛；长长的、带钩的爪子；嘴里长满了针状的尖牙。(1%）已经在这里生活了几十年，以老鼠和其他害虫为食。"
+								"{@creature Slurmy|NRH-TCMC} is a wretched, carnivorous creature with slimy, mottled green skin; spooky yellow eyes; long, hooked claws; and a mouth filled with needle-sharp fangs. {@creature Slurmy|NRH-TCMC} has lived here for decades, feasting on rats and other vermin."
 							],
 							"id": "012"
 						},
@@ -1111,7 +1111,7 @@
 									"type": "entries",
 									"name": "C5D. The Coral Gem",
 									"entries": [
-										"除非他们之前被惊动了，否则在这个房间里有两个{@creature kobold||kobolds}，克里比兹和祖尔夫，正在为如何打开他们从最北边的墙壁上的洞穴中发掘出来的一个6英尺见方的带锁石盒而争吵。一个名叫努尔兹勒（Nurzle）的哥布林（1%）正躺在地板上，脖子上插着一根针。哥布林是爬行类人形动物，除非被逼到绝境，否则一般都会回避冲突。",
+										"Unless they were alerted previously, there are two {@creature kobold||kobolds}, Kribbitz and Zurff, in this room bickering over how to open a 6-foot-square, locked stone box they've unearthed from a cave-in on the northernmost wall. An {@condition unconscious} kobold, Nurzle, is lying on the floor with a needle in his neck. Kobolds are reptilian Humanoids who generally shy away from conflict unless cornered.",
 										"如果粉红让哥布林们感到惊讶，他们就会试图摸清粉红的底细，看看能否让他们打开盒子。之后，哥布林们试图偷取宝石并逃跑。",
 										"如果他们早些时候被惊动了，哥布林已经和他们的{@condition unconscious}朋友躲在一些旧架子的帆布篷下，等着看平克是否能打开盒子。",
 										{
@@ -1208,6 +1208,186 @@
 				}
 			],
 			"id": "000"
+		},
+		{
+			"type": "section",
+			"name": "Credits",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"columns": 2,
+							"items": [
+								{
+									"type": "entries",
+									"name": "Dungeons & Dragons Team:",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Adventure Design",
+													"entries": [
+														"Kat Kruger, Adam Lee"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Additional Development",
+													"entries": [
+														"Bill Benham"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Character Design",
+													"entries": [
+														"Chris Tulach"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Graphic Design",
+													"entries": [
+														"Emma Ekblad"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Editors",
+													"entries": [
+														"Ashley Michaela Lawson, Hannah Rose"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Creator Manager",
+													"entries": [
+														"Pelham Greene"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Illustrations",
+													"entries": [
+														"Red Central"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Producer",
+													"entries": [
+														"Bill Benham"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Brand Manager",
+													"entries": [
+														"Shelly Mazzanoble"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Director of Category Licensing",
+													"entries": [
+														"Ann Earp"
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ferrara Team:",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Sr. Associate Brand Manager, NERDS:",
+													"entries": [
+														"Lukas Krause"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Content Manager, NERDS:",
+													"entries": [
+														"Annie Belgrade"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Brand Manager, NERDS:",
+													"entries": [
+														"Joey Rath"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Director of Licensing & Partnerships, Ferrara Candy Co.",
+													"entries": [
+														"Amy Pagels"
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Tripleclix Team:",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Managing Partner",
+													"entries": [
+														"Jennifer Erb"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Founder, Managing Partner",
+													"entries": [
+														"Christopher Erb"
+													]
+												},
+												{
+													"type": "item",
+													"name": "VP, Head of Partnership Marketing",
+													"entries": [
+														"Kenneth Lindenbaum"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Additional Support",
+													"entries": [
+														"VMLY&R Commerce, Taxi, Pep, and Golin"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }

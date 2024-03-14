@@ -161,8 +161,8 @@
 									"name": "Magnifico",
 									"page": 4,
 									"entries": [
-										"{@creature Magnifico|NRH-CoI}是一个有一定技能的魔术师，但他没有进一步磨练自己的技艺，而是渴望逃避轻松的金钱，落入了投机取巧的小恶魔芬斯特的魔掌。芬斯特回应了(1%)对黄金和名声的请求，并向他提出了一个交易：用两年的服务换取翡翠宝石的位置。",
-										"{@creature Magnifico|NRH-CoI}通过他认识的一些阴暗人物听说了翡翠宝石的事。他们告诉他，一位Greystone先生愿意出高价购买它，{@creature Magnifico|NRH-CoI}认为这是他摆脱小打小闹的马戏团生活的门票。在芬斯特的帮助下，(2%)找到了那颗宝石，现在正与格雷斯通先生讨价还价，以使他两年的地狱般的劳役值得。",
+										"{@creature Magnifico|NRH-CoI} is a magician of some skill, but instead of honing his craft further, he craved the escape of easy money and fell into the diabolic clutches of Finster, an opportunistic imp. Finster answered {@creature Magnifico|NRH-CoI}'s pleas for gold and fame and offered him a deal: two years' service for the location of the Emerald Gem.",
+										"{@creature Magnifico|NRH-CoI} heard of the Emerald Gem through some shady characters he knows. They told him that a Mr. Greystone was willing to pay handsomely for it and {@creature Magnifico|NRH-CoI} saw this as his ticket out of the small-change circus life. With Finster's help, {@creature Magnifico|NRH-CoI} found the gem and is now haggling a price with Mr. Greystone to make it worth his two years' infernal servitude.",
 										"{@creature Magnifico|NRH-CoI}并不是一个施法者，他的魔术是一种诡异的幻觉。如果受到攻击，他就会畏缩不前，恳求饶命。"
 									],
 									"id": "00d"
@@ -751,7 +751,7 @@
 										"让格林通过监视{@creature Magnifico|NRH-CoI}来发现宝石的确切下落，他执着地检查宝石以确保他的窝蛋安全。",
 										"让芬斯特交出宝石的位置以换取价格。",
 										"扮演一对{@creature clown|NRH-CoI|clowns}受雇于格林斯通先生的夫妇，从{@creature Magnifico|NRH-CoI}的帐篷里偷走宝石。如果{@creature Magnifico|NRH-CoI}听到这个消息，他可能会在绝望中来找格林。如果要打起来，格林可以寻求{@creature Imelda|NRH-CoI}的帮助，使他们的胜算增加。",
-										"在(%%)的一次魔术表演中，当他在舞台上有魔镜时，让格林试图得到宝石，从而为观众带来盛大的场面。"
+										"Have Green try to get the gem during one of {@creature Magnifico|NRH-CoI}'s magic acts when he has the magic mirror on stage, resulting in a grand spectacle for the audience."
 									]
 								},
 								"在一切结束时，绿色应该获得翡翠宝石和{@item Instrument of the Bards, Doss Lute||doss lute}（如果鲁比娜还没有把它给他们的话），作为对绿色在如此沉闷和阴郁时期英勇行为的感谢。"
@@ -807,6 +807,186 @@
 				}
 			],
 			"id": "000"
+		},
+		{
+			"type": "section",
+			"name": "Credits",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"columns": 2,
+							"items": [
+								{
+									"type": "entries",
+									"name": "Dungeons & Dragons Team:",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Adventure Design",
+													"entries": [
+														"Kat Kruger, Adam Lee"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Additional Development",
+													"entries": [
+														"Bill Benham"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Character Design",
+													"entries": [
+														"Chris Tulach"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Graphic Design",
+													"entries": [
+														"Emma Ekblad"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Editors",
+													"entries": [
+														"Ashley Michaela Lawson, Hannah Rose"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Creator Manager",
+													"entries": [
+														"Pelham Greene"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Illustrations",
+													"entries": [
+														"Red Central"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Producer",
+													"entries": [
+														"Bill Benham"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Brand Manager",
+													"entries": [
+														"Shelly Mazzanoble"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Director of Category Licensing",
+													"entries": [
+														"Ann Earp"
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ferrara Team:",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Sr. Associate Brand Manager, NERDS:",
+													"entries": [
+														"Lukas Krause"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Content Manager, NERDS:",
+													"entries": [
+														"Annie Belgrade"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Brand Manager, NERDS:",
+													"entries": [
+														"Joey Rath"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Director of Licensing & Partnerships, Ferrara Candy Co.",
+													"entries": [
+														"Amy Pagels"
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Tripleclix Team:",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Managing Partner",
+													"entries": [
+														"Jennifer Erb"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Founder, Managing Partner",
+													"entries": [
+														"Christopher Erb"
+													]
+												},
+												{
+													"type": "item",
+													"name": "VP, Head of Partnership Marketing",
+													"entries": [
+														"Kenneth Lindenbaum"
+													]
+												},
+												{
+													"type": "item",
+													"name": "Additional Support",
+													"entries": [
+														"VMLY&R Commerce, Taxi, Pep, and Golin"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
