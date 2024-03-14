@@ -9678,6 +9678,43 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Crusader's Shortsword",
+			"alias": [
+				"Lost Sword"
+			],
+			"source": "CoS",
+			"page": 81,
+			"baseItem": "shortsword|phb",
+			"type": "M",
+			"rarity": "unknown (magic)",
+			"reqAttune": true,
+			"sentient": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"entries": [
+				"The Crusader's Shortsword is a sentient lawful good {@item +1 shortsword} (Intelligence 11, Wisdom 13, Charisma 13). It has hearing and normal vision out to a range of 120 feet. It communicates by transmitting emotion to the creature carrying or wielding it.",
+				"剑的目的是打击邪恶。这把剑有以下的附加属性。",
+				{
+					"type": "list",
+					"items": [
+						"这把剑在15英尺范围内持续发出亮光，在另外15英尺范围内发出暗光。只有毁掉这把剑才能熄灭这种光。",
+						"一个合法的善良生物可以在1分钟内将自己与剑相适应。",
+						"当与武器相调谐时，剑的挥舞者可以使用剑施放{@spell crusader's mantle}法术。一旦使用，剑的这个属性直到次日黎明前都不能再次使用。"
+					]
+				}
+			],
+			"attachedSpells": [
+				"crusader's mantle"
+			]
+		},
+		{
 			"name": "Crystal Ball",
 			"source": "DMG",
 			"page": 159,
@@ -17943,6 +17980,7 @@
 		{
 			"name": "Gate Warden Trinket",
 			"source": "SatO",
+			"page": 7,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
@@ -25764,40 +25802,6 @@
 			]
 		},
 		{
-			"name": "Lost Sword",
-			"source": "CoS",
-			"page": 81,
-			"baseItem": "shortsword|phb",
-			"type": "M",
-			"rarity": "unknown (magic)",
-			"reqAttune": true,
-			"sentient": true,
-			"weight": 2,
-			"weaponCategory": "martial",
-			"property": [
-				"F",
-				"L"
-			],
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"bonusWeapon": "+1",
-			"entries": [
-				"失落之剑是一把有感知的守序善良{@item +1 shortsword} (智力 11，感知 13，魅力 13)。它的听觉和视觉范围为120英尺。它通过向携带或挥舞它的生物传递情感来进行沟通。",
-				"剑的目的是打击邪恶。这把剑有以下的附加属性。",
-				{
-					"type": "list",
-					"items": [
-						"这把剑在15英尺范围内持续发出亮光，在另外15英尺范围内发出暗光。只有毁掉这把剑才能熄灭这种光。",
-						"一个合法的善良生物可以在1分钟内将自己与剑相适应。",
-						"当与武器相调谐时，剑的挥舞者可以使用剑施放{@spell crusader's mantle}法术。一旦使用，剑的这个属性直到次日黎明前都不能再次使用。"
-					]
-				}
-			],
-			"attachedSpells": [
-				"crusader's mantle"
-			]
-		},
-		{
 			"name": "Luba's Tarokka of Souls",
 			"source": "TCE",
 			"page": 129,
@@ -29657,22 +29661,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Order of the Silver Dragon +2 Shield",
-			"source": "CoS",
-			"page": 68,
-			"type": "S",
-			"tier": "major",
-			"rarity": "rare",
-			"weight": 6,
-			"ac": 2,
-			"bonusAc": "+2",
-			"entries": [
-				"当持有这个盾牌时，你的AC获得+2的加值。这个加值是在盾牌本身对AC的加值之外的。",
-				"盾牌上印有一条银色的龙，是银龙骑士团的标志（见{@adventure {@i Curse of Strahd}，第七章|CoS|7|银龙骑士团}）。盾牌对其持有者发出警告，如果持有者不是{@condition incapacitated}，则给予+2的主动性奖励。",
-				"盾牌是由木头或金属制成的，用一只手拿着。挥舞盾牌可以使你的护甲等级提高2级，你一次只能从一个盾牌中受益。"
-			]
-		},
-		{
 			"name": "Ornithopter of Flying",
 			"source": "WBtW",
 			"page": 212,
@@ -30710,6 +30698,7 @@
 		{
 			"name": "Planar Philosopher Trinket",
 			"source": "SatO",
+			"page": 8,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
@@ -37584,6 +37573,25 @@
 				"wall of fire"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Shield of the Silver Dragon",
+			"alias": [
+				"Order of the Silver Dragon +2 Shield"
+			],
+			"source": "CoS",
+			"page": 68,
+			"type": "S",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+2",
+			"entries": [
+				"当持有这个盾牌时，你的AC获得+2的加值。这个加值是在盾牌本身对AC的加值之外的。",
+				"盾牌上印有一条银色的龙，是银龙骑士团的标志（见{@adventure {@i Curse of Strahd}，第七章|CoS|7|银龙骑士团}）。盾牌对其持有者发出警告，如果持有者不是{@condition incapacitated}，则给予+2的主动性奖励。",
+				"盾牌是由木头或金属制成的，用一只手拿着。挥舞盾牌可以使你的护甲等级提高2级，你一次只能从一个盾牌中受益。"
+			]
 		},
 		{
 			"name": "Shield of the Tortoise",
@@ -45132,25 +45140,6 @@
 			"value": 750000
 		},
 		{
-			"name": "Treebane",
-			"source": "CoS",
-			"page": 198,
-			"baseItem": "battleaxe|phb",
-			"type": "M",
-			"rarity": "unknown (magic)",
-			"weight": 2,
-			"weaponCategory": "martial",
-			"property": [
-				"V"
-			],
-			"dmg1": "1d8",
-			"dmgType": "S",
-			"dmg2": "1d10",
-			"entries": [
-				"这把斧头的把手雕有叶子和藤蔓，重量是一把普通战斧的一半。当这把斧头击中植物，无论是普通植物还是植物生物，目标会额外受到{@damage 1d8}点割伤伤害。当一个非善良阵营的生物挥舞这把斧头时，每当持有者用它进行攻击时，它就会长出荆棘。这些荆棘会在攻击完成后刺伤持有者，造成1点穿刺伤害，这个伤害被视为魔法伤害。"
-			]
-		},
-		{
 			"name": "Trident of Fish Command",
 			"source": "DMG",
 			"page": 209,
@@ -50086,6 +50075,28 @@
 			"value": 100000,
 			"entries": [
 				"一种透明的火黄色或黄绿色的宝石。"
+			]
+		},
+		{
+			"name": "Yester Hill Axe",
+			"alias": [
+				"Treebane"
+			],
+			"source": "CoS",
+			"page": 198,
+			"baseItem": "battleaxe|phb",
+			"type": "M",
+			"rarity": "unknown (magic)",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"entries": [
+				"这把斧头的把手雕有叶子和藤蔓，重量是一把普通战斧的一半。当这把斧头击中植物，无论是普通植物还是植物生物，目标会额外受到{@damage 1d8}点割伤伤害。当一个非善良阵营的生物挥舞这把斧头时，每当持有者用它进行攻击时，它就会长出荆棘。这些荆棘会在攻击完成后刺伤持有者，造成1点穿刺伤害，这个伤害被视为魔法伤害。"
 			]
 		},
 		{

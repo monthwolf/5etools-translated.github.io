@@ -59,6 +59,7 @@
 		{
 			"name": "Blessing of Dumathoin",
 			"source": "PaBTSO",
+			"page": 118,
 			"type": "Blessing",
 			"entries": [
 				"你的眼睛变得敏锐到可以发现隐藏的秘密。你获得{@sense darkvision}。如果你已经有{@sense darkvision}，你可以在黑暗中看到彩色。此外，你可以使用一个动作获得{@sense truesight}，持续1分钟。一旦你以这种方式获得了{@sense truesight}，你就不能再这样做，直到你完成一次长休。"
@@ -129,6 +130,7 @@
 		{
 			"name": "Blessing of the Solipsistic Mind",
 			"source": "PaBTSO",
+			"page": 177,
 			"type": "Blessing",
 			"entries": [
 				"你通过深入专注于自己的思维，从一本古老的秘籍中获得晦涩的真理。你可以采取一个动作来聚焦你的内心思维。这种聚焦持续1小时。在你的内心思维集中时，你无法作出反应。在持续时间内，当你进行智力检定、感知检定、智力豁免检定或感知豁免检定时，你可以投掷一个{@dice d8}，并将投掷的数字加到属性检定或豁免检定上。当你完成一次长休后，你可以恢复聚焦你的内心思维的能力。"
@@ -1418,6 +1420,15 @@
 			]
 		},
 		{
+			"name": "Dragon Queen's Will",
+			"source": "DSotDQ",
+			"page": 178,
+			"type": "Charm",
+			"entries": [
+				"You've seen a glimpse of the Dragon Queen's ambitions. It haunts your dreams but steels your will to oppose her. This charm grants you a +4 bonus on Wisdom saving throws. Once used three times, the charm vanishes. While you have this charm, you suffer unsettling but harmless dreams of ravenous dragons. You also permanently gain the ability to speak Draconic if you couldn't already."
+			]
+		},
+		{
 			"name": "Echo of Dragonsight",
 			"source": "FTD",
 			"page": 28,
@@ -1487,6 +1498,24 @@
 			"entries": [
 				"{@i Piety 10+ Erebos trait}",
 				"你可以用这个特性施放{@spell vampiric touch}。一旦你以这种方式施放了这个法术，你必须休息长时间后才能再次这样做。智力是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Eyes of the Impossible",
+			"source": "ToFW",
+			"page": 74,
+			"type": "Charm",
+			"entries": [
+				"You are scarred by knowledge you shouldn't possess. Your eyes turn black, except for your pupils, which turn white. This charm grants you advantage on Charisma ({@skill Persuasion}) checks made to interact with evil creatures. Additionally, you can cast the spell {@spell eyebite} as an action. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this charm). Once you cast this spell, you can't cast it again until the next dawn. This charm vanishes after 13 days, when your appearance returns to normal."
+			]
+		},
+		{
+			"name": "Favor of the Heroic Steed",
+			"source": "DSotDQ",
+			"page": 101,
+			"type": "Charm",
+			"entries": [
+				"Two heroic steeds find you worthy and agree to serve you. This charm has 2 charges. As an action, you can expend 1 charge to summon a {@creature warhorse} wearing plate barding (AC 18). The warhorse serves you for 24 hours, then vanishes."
 			]
 		},
 		{
@@ -1726,6 +1755,17 @@
 			"type": "Charm",
 			"entries": [
 				"当你激活这个符咒时，你可以施放{@spell heroism}或{@spell thunderwave}法术（3级版本）。或者，当你用武器攻击未命中时，你可以作出另一次攻击以攻击你未命中的目标。符咒在激活后消失。"
+			]
+		},
+		{
+			"name": "Habbakuk's Blessing",
+			"source": "DSotDQ",
+			"page": 116,
+			"type": "Charm",
+			"entries": [
+				"Habbakuk blesses your travels through the Northern Wastes. This charm grants you advantage on Wisdom ({@skill Survival}) checks made to notice the Wash's waters filling chasms.",
+				"Additionally, while traveling, you and up to 5 other creatures with you ignore {@book difficult terrain|PHB|8|Difficult Terrain} outdoors in the Northern Wastes, allowing you to move at double the pace listed on the Northern Wastes Land Travel table (see the \"{@adventure Into the Wastes|DSotDQ|5|Into the Wastes}\" section earlier in this chapter).",
+				"This charm vanishes 24 hours after you leave the Northern Wastes."
 			]
 		},
 		{
@@ -2556,6 +2596,15 @@
 			"entries": [
 				"不断变化、欢快、美丽，原始的精灵可以承担他们喜欢的任何性别。当他们屈服于洛尔思的影响，选择固定他们的身体形态时，精灵们就失去了以这种方式转变的能力。然而，偶尔也会诞生一些雌雄同体的精灵，他们被宣布为科瑞隆的受祝福者，是神的爱和原始精灵的原始流动状态的活生生的象征。许多科里隆的首席祭司都带有这种祝福。",
 				"其中最稀有的受祝福的精灵可以在完成长时间的休息后改变自己的性别--这是除乌鸦以外的各种精灵都在庆祝的奇迹。(黑暗精灵认为这种能力很可怕，并将其描述为一种诅咒，因为它可能会破坏他们整个社会的稳定。如果科瑞隆的祝福在一个乌鸦身上显现，这个精灵通常会逃到地表世界，在那些献给科瑞隆的人中间寻求庇护。"
+			]
+		},
+		{
+			"name": "Time of the Dragon",
+			"source": "ToFW",
+			"page": 68,
+			"type": "Charm",
+			"entries": [
+				"While holding the scale, you can use an action to summon Renesnuprah, an {@creature adult time dragon|MPP} (see {@book Morte's Planar Parade|MPP}). The dragon appears in an unoccupied space of your choice that you can see within 60 feet of you and aids you for 10 minutes. Afterward, the time dragon vanishes, and the scale crumbles."
 			]
 		},
 		{
