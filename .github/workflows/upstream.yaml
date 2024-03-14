@@ -26,12 +26,12 @@ jobs:
           run: |
                 cd $GITHUB_WORKSPACE
                 mv data data.zh
-                mv data.en data
+                rm -rf data.en
                 git remote add upstream https://github.com/5etools-mirror-2/5etools-mirror-2.github.io
                 git fetch upstream
                 git config user.name "Automatic translator"
                 git config user.email "<>"
                 git merge upstream/main --allow-unrelated-histories
                 mv data data.en
-                mv data.zh data
+                git commit data.en/* -m
                 git push
