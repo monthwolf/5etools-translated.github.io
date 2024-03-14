@@ -24,9 +24,9 @@
 						"样式标签; {@bold some text to be bolded} (另选 {@b shorthand}), {@italic some text to be italicised} (另选 {@i shorthand}), {@underline some text to be underlined} (另选 {@u shorthand}), {@strike some text to strike-through}, (另选 {@s shorthand}), {@color color|e40707}/{@color color variable|--rgb-name} 标签, {@highlight highlight} 标签, {@sup superscript} 标签, {@sub subscript} 标签, {@kbd keyboard} 标签, {@code print(&quot;hello world&quot;)} 标签, 其他 {@style Style|small-caps;small;capitalize;dnd-font} 标签, {@font alternate font|Comic Sans MS} 标签",
 						"此外，{@note note tags} 用于添加勘误或 Twitter \"设计师脚注\"，以及 {@tip tooltip tags|a note}。",
 						"骰子投掷标签; {@dice 1d2-2+2d3+5} 用于普通骰子投掷 ({@dice 1d6;2d6} 用于多个选项; {@dice 1d6 + #$prompt_number:min=1,title=Enter a Number!,default=123$#} 用于输入提示), 还有扩展的 {@dice 1d20+2|display text} 和 {@dice 1d20+2|display text|rolled by name}, 以及一个特殊的'命中'版本，假设要投掷一个d20 {@hit +7} (并在 {@kbd SHIFT}+点击时进行优势投掷，在 {@kbd ALT}+点击时进行劣势投掷)。还有 {@damage 1d12+3}，将在 {@kbd SHIFT}+点击时进行暴击投掷，并在 {@kbd ALT}+点击时造成半伤害（向下取整），以及 {@d20 -4}，也会进行优势/劣势投掷，尽管在适当的情况下更倾向于使用@hit标签。法术可以具有缩放骰子标签，（1级时伤害为2d6或3d6，每超过2级增加一个 {@scaledamage 2d6;3d6|2-9|1d6}；或者，使用1点灵能点时投掷2d6，每额外花费1点灵能点增加一个 {@scaledice 2d6|1,3,5,7,9|1d6|psi|extra amount}），用于法术效果在更高等级时的缩放。{@ability str 20}、{@savingThrow str 5} 和 {@skillCheck animal_handling 5} 用作内部简写，但在其他地方可能也有用。",
-						"自动骰子标签; 与上述相同，但在呈现时会自动掷出结果: {@autodice 2d10+2}。",
+						"自动骰子标签;与上面相同，但在呈现时会自动掷出结果: {@autodice 2d10+2}。",
 						"机会标签；类似于掷骰子的标签，但输出成功/失败。语法与骰子标签相似：{@chance 50}; {@chance 50|display text}; {@chance 50|display text|rolled by name}; {@chance 50|display text|rolled by name|on success text}; {@chance 50|display text|rolled by name|on success text|on failure text}。",
-						"召唤/伙伴特定标签: {@hitYourSpellAttack} ({@hitYourSpellAttack with optional display text}), {@dcYourSpellSave} ({@dcYourSpellSave with optional display text}).",
+						"召唤/同伴特定标签: {@hitYourSpellAttack} ({@hitYourSpellAttack with optional display text}), {@dcYourSpellSave} ({@dcYourSpellSave with optional display text}).",
 						"充值标签；输出能力充能的成功/失败率。(能力标题中的{@recharge}表示\"（充能6）\"，{@recharge 4}表示\"（充能4-6）\"。",
 						"抛硬币标签；{@coinflip}或{@coinflip display text|rolee name|success text|failure text}",
 						"技能和感觉标签；{@skill Athletics}/{@skill Perception}（区分大小写）和{@sense Truesight}/{@sense darkvision}（不区分大小写），在悬停时提供工具提示。",
@@ -131,7 +131,7 @@
 									"type": "list",
 									"items": [
 										"内部链接。{@5etools This Is Your Life|lifegen.html}",
-										"外部链接：{@link https://discord.gg/5etools} 或 {@link Discord|https://discord.gg/5etools}"
+										"外部链接: {@link https://discord.gg/5etools} 或 {@link Discord|https://discord.gg/5etools}"
 									]
 								},
 								"特定页面/其他标签。",
@@ -141,7 +141,7 @@
 										"兽皮书的 \"攻击 \"标签。{@atk m}, {@atk r}, {@atk m,r}, {@atk mw}, {@atk rw}, {@atk ms}, {@atk rs}; (仅限自制) {@atk a}, {@atk aw}。逗号分隔了or'd攻击类型；一般的形式是：'@atk &lt;m|r|a&gt;[&lt;w|s&gt;] [,&lt;m|r|a&gt;[&lt;w|s&gt;] [,...]'"
 									]
 								},
-								"自制加载标签: {@loader Tome of Beasts|creature/Kobold Press; Tome of Beasts.json}。管道符后的URL假定来自自制存储库的根目录，除非它以\"...://\"前缀开头（即，任何链接都应该有效，但自制存储库链接有一种简写形式）。",
+								"自制内容加载标签: {@loader Tome of Beasts|creature/Kobold Press; Tome of Beasts.json}。管道符号后的URL假定来自自制内容存储库的根目录，除非它以\"...://\"前缀开头（即，任何链接都可以使用，但自制内容存储库链接有一种简写形式）。",
 								"预发行加载标签; 如上: {@loader UA: When Armies Clash|collection/Unearthed Arcana - When Armies Clash.json|prerelease}。"
 							]
 						}
@@ -258,7 +258,7 @@
 						],
 						[
 							"colStyles \"列表从字面上看是作为CSS类使用的",
-							"列的宽度可以用12进制来指定，如`col-[1到12]`（例如col-12是100%的宽度，col-6是50%的宽度）。",
+							"列宽可以以12分之一为单位指定，如 `col-[1 to 12]`（例如，col-12 是100%宽度，col-6 是50%宽度）",
 							"**"
 						],
 						[
@@ -452,7 +452,7 @@
 							"name": "Multiple entry version",
 							"entries": [
 								"这是为了符合《(XGE)》中复杂陷阱的要求，这些陷阱可能有多行文本，通常足够长以至于在同一列中分成多行。例如：",
-								"任何一个传送门都可以通过三次成功的 DC 20 智力检定来中和，但分析传送门以破坏它的过程需要时间。走廊两端天花板和地板上的微弱符文参与了传送门的运作。生物必须首先使用一个动作来检查一组符文，然后使用随后的一个动作来尝试破坏这些符文。每次成功的检定会将球体的伤害减少 11 点，因为通过失效传送门移动的球体失去了速度。",
+								"任何一个传送门都可以通过三次成功的 DC 20 智力检定来中和，但分析传送门以干扰它的过程需要时间。走廊两端天花板和地板上的微弱符文参与了传送门的运作。生物必须首先使用一个动作来检查一组符文，然后使用随后的一个动作来尝试破坏这些符文。每次成功的检定会将球体的伤害减少 11{@dice 2d10}，因为通过失效传送门移动的球体失去了速度。",
 								"或者，可以通过三次成功施法目标为该符文集合中任意一个符文的{@spell dispel magic} (DC 19)来使符文失效。",
 								"如果南方传送门被摧毁，那个球体会撞向南墙并停下来。它会挡住通往墓穴的门，但角色们可以逃脱。"
 							]

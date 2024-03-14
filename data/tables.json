@@ -604,7 +604,7 @@
 								"name": "Memories from the Beyond",
 								"page": 214,
 								"entries": [
-									"死亡的记忆挥之不去。在每个{@quickref resting|PHB|2|0|long rest}结束时，描述你的角色尝试忘记死亡的感觉，然后进行一次以GM设定的DC为基础的感知{@quickref saving throws|PHB|2|1|saving throw}检定。如果豁免失败，你将获得一级{@condition exhaustion}，直到你受到{@spell greater restoration}或类似魔法的影响，或者你花费30天专注时间来和你的记忆和解。\n\n"
+									"死亡的记忆挥之不去。在每个{@quickref resting|PHB|2|0|long rest}结束时，描述你的角色如何试图忘记死亡的感觉，然后进行一次以GM设定的DC为基础的感知{@quickref saving throws|PHB|2|1|saving throw}检定。如果豁免失败，你将获得一个等级的{@condition exhaustion}，持续直到你受到{@spell greater restoration}或类似魔法的影响，或者你花费30天专注时间来和你的记忆和解。"
 								]
 							}
 						]
@@ -780,7 +780,7 @@
 				],
 				[
 					"7",
-					"剧毒螫刺。当混合兽用它的爪攻击一只生物时，生物必须进行一次体质豁免才能通过检定（DC 12 适用于1级，DC 14 适用于2级，DC 18 适用于3级），否则将被麻痹1分钟。如果混合兽是2级或3级，生物在这种情况下被麻痹时，将同时被（paralyzed）。被麻痹的生物可以在每个回合结束时重复进行豁免检定，成功则结束效果。"
+					"剧毒螫刺。当(%Krasis%)用它的爪子击中一只生物时，该生物必须通过一次体质豁免才能成功（DC 12 适用于1级，DC 14 适用于2级，DC 18 适用于3级），否则在1分钟内将成为{@condition poisoned}。如果(%Krasis%)是2级或3级，生物在这种方式下将成为{@condition paralyzed}，同时{@condition poisoned}。受影响的生物可以在自己的回合结束时重复进行豁免才能，成功则结束效果。"
 				],
 				[
 					"8",
@@ -816,7 +816,7 @@
 				],
 				[
 					"4",
-					"隐秘皮肤。这种合体生物可以改变颜色以匹配周围环境。它在进行躲藏的敏捷检定时获得优势。"
+					"隐秘皮肤。这种合成兽能够改变颜色以匹配周围环境。它在进行潜行时获得敏捷度检定的优势（{@skill Stealth}）。"
 				],
 				[
 					"5",
