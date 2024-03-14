@@ -345,7 +345,7 @@
 					"entries": [
 						"你的角色在游戏中所做的大部分事情都取决于他或她的六种能力。{@b Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma.} 每种能力都有一个分数，这是一个你记录在人物表上的数字。",
 						"这六种能力及其在游戏中的使用在第七章中有所描述。能力得分汇总表提供了一个快速参考，以了解每种能力所衡量的品质，哪些种族会增加哪些能力，以及哪些等级认为每种能力特别重要。",
-						"你可以随机生成你角色的六项能力值。投掷四个六面骰子，记录其中三个最高点数的总和。重复这个过程五次，直到你有六个数字。如果你想节省时间或不喜欢随机确定能力值的想法，你可以使用以下数值代替：15, 14, 13, 12, 10, 8。",
+						"You generate your character's six {@b ability scores} randomly. Roll four 6-sided dice and record the total of the highest three dice on a piece of scratch paper. Do this five more times, so that you have six numbers. If you want to save time or don't like the idea of randomly determining ability scores, you can use the following scores instead: 15, 14, 13, 12, 10, 8.",
 						"现在把你的六个数字写在你的角色的六种能力之一旁边，给力量、灵巧、体质、智力、智慧和魅力分配分数。之后，根据你的种族选择，对你的能力分数做任何改变。",
 						"在分配了你的能力分数后，使用能力分数和修正值表确定你的{@b ability modifiers}。要在不查表的情况下确定一个能力修正值，从能力分数中减去10，然后将结果除以2（向下取整）。在每个分数旁边写下修正值。",
 						{
@@ -688,7 +688,7 @@
 					"name": "5. Choose Equipment",
 					"page": 14,
 					"entries": [
-						"你的职业和背景决定了你角色的装备，包括武器、盔甲和其他冒险用具。在你的角色表上记录这些装备。所有这些物品的详细信息请参考第5章。",
+						"Your class and background determine your character's {@b starting equipment}, including weapons, armor, and other adventuring gear. Record this equipment on your character sheet. All such items are detailed in chapter 5.",
 						"与使用你的职业和背景赋予你的装备不同，你可以购买你的起始装备。你有一定数量的{@b gold pieces} (gp) 可以根据你的职业来花费，详见第5章。该章节中还有详细的装备清单和价格。",
 						"如果你愿意，你也可以免费拥有一个饰品（见第五章末尾的饰品表）。",
 						"你的力量值限制了你能携带的装备数量。尽量不要购买总重量（以磅为单位）超过你力量值乘以15的装备。第七章有更多关于携带能力的信息。",
@@ -2347,7 +2347,7 @@
 							"entries": [
 								"在大多数战役中，你可以在常识的范围内使用或穿戴你在冒险中发现的任何装备。例如，一个魁梧的半兽人不适合穿半身人的皮甲，而一个地精会被云雾巨人的优雅长袍所吞没。",
 								"DM可以施加更多的现实主义。例如，为一个人制作的板甲，如果不作重大改动，可能不适合另一个人，而当一个冒险家试图穿上它作为伪装时，卫兵的制服可能明显不合身。",
-								"使用这个变体，当冒险者发现盔甲、衣服和类似的物品是用来穿的，他们可能需要去找一个盔甲匠、裁缝、皮革工人或类似的专家来使这个物品可以穿。这种工作的费用从物品市场价格的10%到40%不等。DM可以掷出1d4×10，或者根据所需改造的程度来确定成本的增加。"
+								"Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit an armorsmith, tailor, leatherworker, or similar expert to make the item wearable. The cost for such work varies from 10 to 40 percent of the market price of the item. The DM can either roll 1d4 × 10 or determine the increase in cost based on the extent of the alterations required."
 							],
 							"id": "06f"
 						},
@@ -4957,7 +4957,7 @@
 									"name": "Saddles",
 									"page": 155,
 									"entries": [
-										"一个{@item military saddle|phb}支撑着骑手，帮助你在战斗中保持你在活动坐骑上的位置。它使你在任何检查中保持坐骑的优势。乘坐任何水生或飞行坐骑都需要一个（1%）。"
+										"A {@item military saddle|phb} braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An {@item exotic saddle|phb} is required for riding any aquatic or flying mount."
 									],
 									"id": "0df"
 								},
@@ -7567,7 +7567,7 @@
 											"name": "Forage",
 											"page": 183,
 											"entries": [
-												"角色可以时刻留意周围是否有食物和水源，当DM要求时可以进行一次感知（(%0%））检定。（《地牢主宰指南》中有有关觅食的规则。）"
+												"The character can keep an eye out for ready sources of food and water, making a Wisdom ({@skill Survival}) check when the DM calls for it. (The Dungeon Master's Guide has rules for foraging.)"
 											],
 											"id": "15c"
 										}
@@ -8905,7 +8905,7 @@
 									"entries": [
 										"拯救一个生命值为0的生物的最好方法是治疗它。如果无法进行治疗，至少可以稳定该生物，使其不至于因死亡储蓄失败而死亡。",
 										"你可以用你的行动对一个{@condition unconscious}的生物进行急救，并试图稳定它，这需要成功的DC 10智慧（{@skill Medicine}）检查。",
-										"一个稳定的生物在0点生命值时不需要进行死亡豁免投掷，但它仍然保持{@condition unconscious}。如果它受到任何伤害，生物将停止稳定，并必须重新开始进行死亡豁免投掷。一个没有被治疗的稳定生物在1d4小时后会恢复1点生命值。"
+										"A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain {@condition unconscious}. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after {@dice 1d4} hours."
 									],
 									"id": "1c4"
 								},
@@ -8980,7 +8980,7 @@
 							"page": 198,
 							"entries": [
 								"在你的移动过程中，你可以骑上一个在你5英尺范围内的生物，或者下马。这样做要花费相当于你速度一半的移动量。例如，如果你的速度是30英尺，你必须花费15英尺的移动量才能骑上一匹马。因此，如果你没有剩余的15英尺移动量，或者你的速度为0，你就不能骑上它。",
-								"如果一个效果迫使你的坐骑不情愿地移动，而你正在上面，你必须成功通过一次 DC 10 的敏捷豁免检定，否则你会从坐骑上摔下来，落在它附近 5 英尺范围内的一个空间中。如果你在骑乘时被击倒，你必须进行相同的豁免检定。",
+								"If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off the mount, landing {@condition prone} in a space within 5 feet of it. If you're knocked {@condition prone} while mounted, you must make the same saving throw.",
 								"如果你的坐骑被击倒{@condition prone}，你可以使用你的反应在它摔倒时从上面下来并落在脚下。否则，你会从坐骑上摔下并在距离它5英尺内的空间中摔倒{@condition prone}。"
 							],
 							"id": "1c9"
@@ -11468,7 +11468,7 @@
 											"直立的黑色右手，拇指和手指并拢"
 										],
 										[
-											"(%%)，不幸的女神",
+											"{@deity Beshaba}, goddess of misfortune",
 											"CE",
 											"骗局",
 											"黑鹿角"
@@ -11498,7 +11498,7 @@
 											"睁开的眼睛上方点燃的蜡烛"
 										],
 										[
-											"(%0)，和平女神",
+											"{@deity Eldath}, goddess of peace",
 											"NG",
 											"生活，自然",
 											"瀑布坠入静止的水池"
@@ -11528,7 +11528,7 @@
 											"直立的骨架手臂，手持平衡的天平"
 										],
 										[
-											"(%)，出生和复兴之神",
+											"{@deity Lathander}, god of birth and renewal",
 											"NG",
 											"生命，光明",
 											"在公路上行驶，进入日出状态"
@@ -11570,7 +11570,7 @@
 											"独角兽的头"
 										],
 										[
-											"(%)，诗歌和歌曲之神",
+											"{@deity Milil}, god of poetry and song",
 											"NG",
 											"亮度",
 											"用树叶制成的五弦竖琴"
@@ -11594,13 +11594,13 @@
 											"空白卷轴"
 										],
 										[
-											"(%)，占卜和命运之神",
+											"{@deity Savras}, god of divination and fate",
 											"LN",
 											"知识",
 											"含有多种眼睛的水晶球"
 										],
 										[
-											"(%)，月亮女神",
+											"{@deity Selûne}, goddess of the moon",
 											"CG",
 											"知识、生命",
 											"一对被七颗星包围的眼睛"
@@ -11618,7 +11618,7 @@
 											"橡树叶"
 										],
 										[
-											"(%)，爱与美的女神",
+											"{@deity Sune}, goddess of love and beauty",
 											"CG",
 											"生命，光明",
 											"一个美丽的红发女人的脸"
@@ -11642,13 +11642,13 @@
 											"直立的火焰剑"
 										],
 										[
-											"(%), 勇气和自我牺牲之神",
+											"{@deity Torm}, god of courage and self-sacrifice",
 											"LG",
 											"War",
 											"白色的右护手"
 										],
 										[
-											"(%)，幸运女神",
+											"{@deity Tymora}, goddess of good fortune",
 											"CG",
 											"骗局",
 											"面朝上的硬币"
@@ -11660,7 +11660,7 @@
 											"搁置在战斧上的平衡鳞片"
 										],
 										[
-											"(%)，海之女神",
+											"{@deity Umberlee}, goddess of the sea",
 											"CE",
 											"暴风雨",
 											"左右卷曲的波浪"
@@ -11735,7 +11735,7 @@
 											"被弯曲的地平线穿过的圆圈"
 										],
 										[
-											"(%), 骑士精神和勇气之神",
+											"{@deity Heironeous|Greyhawk}, god of chivalry and valor",
 											"LG",
 											"War",
 											"闪电"
@@ -11753,13 +11753,13 @@
 											"从一个中心点向外辐射的四把长矛和四把大锤"
 										],
 										[
-											"(%%)，瘟疫和饥荒之神",
+											"{@deity Incabulos|Greyhawk}, god of plague and famine",
 											"NE",
 											"死亡",
 											"爬行动物的眼睛有一个水平的钻石"
 										],
 										[
-											"(%)，命运之神",
+											"{@deity Istus|Greyhawk}, goddess of fate and destiny",
 											"N",
 											"知识",
 											"三股的织布机主轴"
@@ -11789,7 +11789,7 @@
 											"笑的面具"
 										],
 										[
-											"(%)，太阳和治疗之神",
+											"{@deity Pelor|Greyhawk}, god of the sun and healing",
 											"NG",
 											"生命，光明",
 											"Sun"
@@ -11831,7 +11831,7 @@
 											"三角洲"
 										],
 										[
-											"(0%)，山丘和山脉的女神",
+											"{@deity Ulaa|Greyhawk}, goddess of hills and mountains",
 											"LG",
 											"生活，战争",
 											"心中有圆的山"
@@ -11843,7 +11843,7 @@
 											"掌中有眼的手"
 										],
 										[
-											"(%0)，魔法和死亡女神",
+											"{@deity Wee Jas|Greyhawk}, goddess of magic and death",
 											"LN",
 											"死亡，知识",
 											"火球前的红色头骨"
@@ -11876,7 +11876,7 @@
 									],
 									"rows": [
 										[
-											"(%%)，统治者和守护者之神",
+											"{@deity Paladine|dragonlance}, god of rulers and guardians",
 											"LG",
 											"War",
 											"银色三角"
@@ -11888,7 +11888,7 @@
 											"巴德的竖琴"
 										],
 										[
-											"(%)，动物生命和海洋之神",
+											"{@deity Habbakuk|dragonlance}, god of animal life and the sea",
 											"NG",
 											"自然，暴风雨",
 											"蓝鸟"
@@ -11900,7 +11900,7 @@
 											"野牛的角"
 										],
 										[
-											"(%%)，冥想和秩序之神",
+											"{@deity Majere|dragonlance}, god of meditation and order",
 											"LG",
 											"知识",
 											"铜蜘蛛"
@@ -12020,13 +12020,13 @@
 											"有两只红眼睛的头巾"
 										],
 										[
-											"(%)，复仇之神和火神",
+											"{@deity Sargonnas|Dragonlance}, god of vengeance and fire",
 											"LE",
 											"War",
 											"风格化的红兀鹰"
 										],
 										[
-											"(%)，海神和风暴之神",
+											"{@deity Zeboim|Dragonlance}, goddess of the sea and storms",
 											"CE",
 											"暴风雨",
 											"龟壳"
@@ -12096,7 +12096,7 @@
 															"石壁炉中的火"
 														],
 														[
-															"(%)，阳光和荣誉的女神",
+															"{@deity Dol Arrah|eberron}, goddess of sunlight and honor",
 															"LG",
 															"光，战争",
 															"旭日东升"
@@ -12114,7 +12114,7 @@
 															"九边形金币"
 														],
 														[
-															"(%)，幸运女神",
+															"{@deity Olladra|eberron}, goddess of good fortune",
 															"NG",
 															"生活, 骗局",
 															"多米诺"
@@ -12161,7 +12161,7 @@
 															"獠牙形状的龙须石"
 														],
 														[
-															"(%)，暴力和奸诈之神",
+															"{@deity The Mockery|eberron}, god of violence and treachery",
 															"NE",
 															"War",
 															"五个血迹斑斑的工具"
@@ -12289,7 +12289,7 @@
 											"海豚"
 										],
 										[
-											"(%0), 海上人鱼神",
+											"{@deity Eadro|nonhuman}, merfolk deity of the sea",
 											"N",
 											"自然，暴风雨",
 											"螺旋式设计"
@@ -12325,7 +12325,7 @@
 											"地精头骨"
 										],
 										[
-											"{@deity Laogzed|nonhuman}, 饥饿之神troglodyte",
+											"{@deity Laogzed|nonhuman}, troglodyte god of hunger",
 											"CE",
 											"死亡",
 											"蜥蜴/蟾蜍神的形象"
@@ -12373,7 +12373,7 @@
 											"Egg"
 										],
 										[
-											"(%)，半人马和萨提尔的自然之神",
+											"{@deity Skerrit|nonhuman}, centaur and satyr god of nature",
 											"N",
 											"自然界",
 											"橡树从橡子中生长出来"
@@ -12458,7 +12458,7 @@
 											"灰色背景上的黑星"
 										],
 										[
-											"(%)，太阳神，光，和温暖之神",
+											"{@deity Belenus|celtic}, god of sun, light, and warmth",
 											"NG",
 											"亮度",
 											"太阳盘和立石"
@@ -12470,13 +12470,13 @@
 											"桥梁"
 										],
 										[
-											"(%%)，医学和治疗之神",
+											"{@deity Diancecht|celtic}, god of medicine and healing",
 											"LG",
 											"Life",
 											"交叉的橡树和槲树枝"
 										],
 										[
-											"(%)，山神和山峰之神",
+											"{@deity Dunatis|celtic}, god of mountains and peaks",
 											"N",
 											"自然界",
 											"阳光下的红色山峰"
@@ -12488,13 +12488,13 @@
 											"巨大的槌子在剑上"
 										],
 										[
-											"(0%)，艺术、旅行和商业之神",
+											"{@deity Lugh|celtic}, god of arts, travel, and commerce",
 											"CN",
 											"知识、生命",
 											"一双长长的手"
 										],
 										[
-											"(%)，海洋和海洋生物之神",
+											"{@deity Manannan mac Lir|celtic}, god of oceans and sea creatures",
 											"LN",
 											"自然，暴风雨",
 											"绿色上的白色水波"
@@ -12564,7 +12564,7 @@
 											"充满闪电的拳头"
 										],
 										[
-											"(%)，爱与美的女神",
+											"{@deity Aphrodite|greek}, goddess of love and beauty",
 											"CG",
 											"亮度",
 											"海贝壳"
@@ -12576,19 +12576,19 @@
 											"Lyre"
 										],
 										[
-											"(%%)，战争和纷争之神",
+											"{@deity Ares|greek}, god of war and strife",
 											"CE",
 											"War",
 											"矛"
 										],
 										[
-											"(%)，狩猎和生育之神",
+											"{@deity Artemis|greek}, goddess of hunting and childbirth",
 											"NG",
 											"生活，自然",
 											"月球盘上的弓和箭"
 										],
 										[
-											"(%), 智慧和文明的女神",
+											"{@deity Athena|greek}, goddess of wisdom and civilization",
 											"LG",
 											"知识，战争",
 											"Owl"
@@ -12600,19 +12600,19 @@
 											"母马的头"
 										],
 										[
-											"(%)，欢笑和酒神",
+											"{@deity Dionysus|greek}, god of mirth and wine",
 											"CN",
 											"Life",
 											"杖尖上的松果(Thyrsus)"
 										],
 										[
-											"(%)，阴间之神",
+											"{@deity Hades|greek}, god of the underworld",
 											"LE",
 											"死亡",
 											"黑色公羊"
 										],
 										[
-											"(%)，魔法和月亮的女神",
+											"{@deity Hecate|greek}, goddess of magic and the moon",
 											"CE",
 											"知识，诡计",
 											"陷落的月亮"
@@ -12624,7 +12624,7 @@
 											"锤子和铁砧"
 										],
 										[
-											"(0%)，婚姻和阴谋的女神",
+											"{@deity Hera|greek}, goddess of marriage and intrigue",
 											"CN",
 											"骗局",
 											"孔雀羽毛的扇子"
@@ -12636,7 +12636,7 @@
 											"狮子头"
 										],
 										[
-											"(%0), 旅行和商业之神",
+											"{@deity Hermes|greek}, god of travel and commerce",
 											"CG",
 											"骗局",
 											"卡杜斯(有翼的杖和蛇)"
@@ -12660,13 +12660,13 @@
 											"西林克斯（盘式管）"
 										],
 										[
-											"(0%)，海神和地震之神",
+											"{@deity Poseidon|greek}, god of the sea and earthquakes",
 											"CN",
 											"暴风雨",
 											"三叉戟"
 										],
 										[
-											"(%)，幸运女神",
+											"{@deity Tyche|greek}, goddess of good fortune",
 											"N",
 											"骗局",
 											"红色五角星"
@@ -12714,7 +12714,7 @@
 											"黑豺狼"
 										],
 										[
-											"(%)，邪神、火神和蛇神",
+											"{@deity Apep|egyptian}, god of evil, fire, and serpents",
 											"NE",
 											"骗局",
 											"火焰蛇"
@@ -12732,31 +12732,31 @@
 											"错乱的神灵的形象"
 										],
 										[
-											"(%)，爱情、音乐和母性的女神",
+											"{@deity Hathor|egyptian}, goddess of love, music, and motherhood",
 											"NG",
 											"生命，光明",
 											"有角的牛头与月盘"
 										],
 										[
-											"(%)，手工艺和医药之神",
+											"{@deity Imhotep|egyptian}, god of crafts and medicine",
 											"NG",
 											"知识",
 											"阶梯式金字塔"
 										],
 										[
-											"(%)，生育和魔法女神",
+											"{@deity Isis|egyptian}, goddess of fertility and magic",
 											"NG",
 											"知识、生命",
 											"安赫和星星"
 										],
 										[
-											"(%0)，死亡和悲伤的女神",
+											"{@deity Nephthys|egyptian}, goddess of death and grief",
 											"CG",
 											"死亡",
 											"围绕月球盘的犄角"
 										],
 										[
-											"(%)，自然和冥界之神",
+											"{@deity Osiris|egyptian}, god of nature and the underworld",
 											"LG",
 											"生活，自然",
 											"拐杖和连枷"
@@ -12774,7 +12774,7 @@
 											"卷曲的眼镜蛇"
 										],
 										[
-											"(0%)，水神和鳄鱼之神",
+											"{@deity Sobek|egyptian}, god of water and crocodiles",
 											"LE",
 											"自然，暴风雨",
 											"有角和羽翼的鳄鱼头"
@@ -12821,13 +12821,13 @@
 											"观察蓝眼睛"
 										],
 										[
-											"(%%)，海神和风暴之神",
+											"{@deity Aegir|norse}, god of the sea and storms",
 											"NE",
 											"暴风雨",
 											"汹涌的海浪"
 										],
 										[
-											"(%)，美神和诗神",
+											"{@deity Balder|norse}, god of beauty and poetry",
 											"NG",
 											"生命，光明",
 											"镶嵌宝石的银质圣杯"
@@ -12839,19 +12839,19 @@
 											"一个大胡子的头"
 										],
 										[
-											"(%)，生育之神和太阳之神",
+											"{@deity Frey|norse}, god of fertility and the sun",
 											"NG",
 											"生命，光明",
 											"冰蓝色的大剑"
 										],
 										[
-											"(%)，生育和爱的女神",
+											"{@deity Freya|norse}, goddess of fertility and love",
 											"NG",
 											"Life",
 											"猎鹰"
 										],
 										[
-											"(%)，出生和生育的女神",
+											"{@deity Frigga|norse}, goddess of birth and fertility",
 											"N",
 											"生命，光明",
 											"Cat"
@@ -12863,7 +12863,7 @@
 											"卷曲的音乐号角"
 										],
 										[
-											"(%)，阴间女神",
+											"{@deity Hel|norse}, goddess of the underworld",
 											"NE",
 											"死亡",
 											"女人的脸，一侧腐烂了"
@@ -12875,19 +12875,19 @@
 											"有翼的卷轴"
 										],
 										[
-											"(%), 盗贼之神和诡计之神",
+											"{@deity Loki|norse}, god of thieves and trickery",
 											"CE",
 											"骗局",
 											"火焰"
 										],
 										[
-											"(%%)，海神和风神",
+											"{@deity Njord|norse}, god of sea and wind",
 											"NG",
 											"自然，暴风雨",
 											"金币"
 										],
 										[
-											"(%), 光明之神和太阳之神",
+											"{@deity Odur|norse}, god of light and the sun",
 											"CG",
 											"亮度",
 											"太阳盘"
@@ -12899,7 +12899,7 @@
 											"举起的剑"
 										],
 										[
-											"(%)，大地和山脉之神",
+											"{@deity Skadi|norse}, god of earth and mountains",
 											"N",
 											"自然界",
 											"山峰"
@@ -12911,7 +12911,7 @@
 											"火焰剑"
 										],
 										[
-											"(%%)，暴风雨和雷电之神",
+											"{@deity Thor|norse}, god of storms and thunder",
 											"CG",
 											"暴风雨，战争",
 											"锤子"
@@ -12929,7 +12929,7 @@
 											"剑"
 										],
 										[
-											"(%)，狩猎和冬季之神",
+											"{@deity Uller|norse}, god of hunting and winter",
 											"CN",
 											"自然界",
 											"长弓"
@@ -13012,7 +13012,7 @@
 									"name": "Spells",
 									"page": 301,
 									"entries": [
-										"一些法术允许直接或间接进入其他存在的位面。{@spell Plane shift}和{@spell gate}可以将冒险者直接传送到任何其他存在的位面，并有不同程度的精确度。虚空之力（Etherealness）允许冒险者进入虚空位面，并从那里前往它所接触到的任何位面--暗影位面、仙界或元素位面。而(2%)法术可以让冒险者将自己投射到星界，并前往外星界。"
+										"A number of spells allow direct or indirect access to other planes of existence. {@spell Plane shift} and {@spell gate} can transport adventurers directly to any other plane of existence, with different degrees of precision. Etherealness allows adventurers to enter the Ethereal Plane and travel from there to any of the planes it touches—the Shadowfell, the Feywild, or the Elemental Planes. And the {@spell astral projection} spell lets adventurers project themselves into the Astral Plane and travel to the Outer Planes."
 									],
 									"id": "20b"
 								},
@@ -13035,7 +13035,7 @@
 							"entries": [
 								"虚空界和星界被称为过渡性平面。它们大多是没有特征的领域，主要作为从一个位面到另一个位面的旅行方式。诸如 \"空灵 \"和 \"星体投射 \"之类的法术可以让角色进入这些位面，并穿越它们到达其他位面。",
 								"虚空界是一个虚无缥缈、雾气缭绕的空间，有时被描述为一个巨大的海洋。它的海岸被称为 \"虚空边界\"，与物质界和内部世界重叠，因此这些世界的每一个位置在虚空界都有一个相应的位置。某些生物可以看到边界虚空，{@spell see invisibility}和{@spell true seeing}的法术赋予这种能力。一些魔法效果也从物质位面延伸到边界虚空，特别是使用力能的效果，如力笼和力墙。平面的深处，即深层虚空，是一个充满漩涡的迷雾和彩色雾气的区域。",
-								"0％）是思想和梦境的领域，游客在这里作为无实体的灵魂旅行，以达到神圣和恶魔的层面。这是一个巨大的、银色的海洋，上面和下面都是一样的，白色和灰色的漩涡在像遥远的星星一样的光斑中闪动。飘忽不定的彩色漩涡在半空中闪烁，像旋转的硬币。这里偶尔可以发现一些固体物质，但星界的大部分是无尽的、开放的领域。"
+								"The {@b Astral Plane} is the realm of thought and dream, where visitors travel as disembodied souls to reach the planes of the divine and demonic. It is a great, silvery sea, the same above and below, with swirling wisps of white and gray streaking among motes of light resembling distant stars. Erratic whirlpools of color flicker in midair like spinning coins. Occasional bits of solid matter can be found here, but most of the Astral Plane is an endless, open domain."
 							],
 							"id": "20d"
 						},
@@ -13109,7 +13109,7 @@
 											"CE"
 										],
 										[
-											"Carceri, Tarterian Depths of",
+											"Carceri, the Tarterian Depths of",
 											"NE, CE"
 										],
 										[
@@ -13155,7 +13155,7 @@
 									"entries": [
 										"外域是介于外层平面之间的平面，是一个中立的平面，但不是虚无的中立。相反，它融合了所有事物的一部分，使其保持一种矛盾的平衡--既相互协调又相互对立。它是一个地形多样的广阔区域，有开阔的大草原、高耸的山脉和曲折的浅水河，与物质界的普通世界非常相似。",
 										"外域是圆形的，就像一个大轮子--事实上，那些把外域设想成一个轮子的人指出外域作为证据，称它是各星球的一个缩影。然而，这种说法可能是循环的，因为外域的安排有可能首先激发了大轮子的想法。",
-										"在圆圈的外边缘，均匀分布着 {@b gate-towns}: 十六个定居点，每个都建在通往外部位面之一的传送门周围。每个城镇都与其传送门所通往的位面共享许多特征。",
+										"Around the outside edge of the circle, evenly spaced, are the {@b gate-towns}: sixteen settlements, each built around a portal leading to one of the Outer Planes. Each town shares many of the characteristics of the plane where its gate leads.",
 										"在外域的中心，就像平面轮的轴一样，尖塔以不可能的速度射向天空。在这座薄薄的山峰之上，漂浮着环形城市西格尔，门之城。这个繁华的平面大都市拥有无数通往其他平面和世界的门户。",
 										"Sigil是一个商人的城市。货物、商品和信息从各个位面来到这里。关于各位面的信息交易非常活跃，特别是在命令词或特定传送门操作所需的物品方面。这些传送门钥匙非常抢手，城市里的许多旅行者都在寻找一个特定的传送门或传送门钥匙，以使他们能够继续前进。"
 									],
@@ -13272,7 +13272,7 @@
 						{
 							"type": "item",
 							"name": "Production Services:",
-							"entry": "Cynda Callaway（Cynda Callaway）, Brian Dumas（Brian Dumas）, Jefferson Dunlap（Jefferson Dunlap）, David Gershman（David Gershman）, Anita Williams（Anita Williams）"
+							"entry": "Cynda Callaway, Brian Dumas, Jefferson Dunlap, David Gershman, Anita Williams"
 						},
 						{
 							"type": "item",
@@ -13287,7 +13287,7 @@
 						{
 							"type": "item",
 							"name": "Drawing from further development by:",
-							"entry": "J. Eric Holmes（J. Eric Holmes）, Tom Moldvay（Tom Moldvay）, Frank Mentzer（Frank Mentzer）, Aaron Allston（Aaron Allston）, Harold Johnson（Harold Johnson）, Roger E. Moore（Roger E. Moore）, David \"Zeb\" Cook（David \"Zeb\" Cook）, Ed Greenwood（Ed Greenwood）, Tracy Hickman（Tracy Hickman）, Margaret Weis（Margaret Weis）, Douglas Niles（Douglas Niles）, Jeff Grubb（Jeff Grubb）, Jonathan Tweet（Jonathan Tweet）, Monte Cook（Monte Cook）, Skip Williams（Skip Williams）, Richard Baker（Richard Baker）, Peter Adkison（Peter Adkison）, Keith Baker（Keith Baker）, Bill Slavicsek（Bill Slavicsek）, Andy Collins（Andy Collins）, and Rob Heinsoo（Rob Heinsoo）"
+							"entry": "J. Eric Holmes, Tom Moldvay, Frank Mentzer, Aaron Allston, Harold Johnson, Roger E. Moore, David \"Zeb\" Cook, Ed Greenwood, Tracy Hickman, Margaret Weis, Douglas Niles, Jeff Grubb, Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker, Peter Adkison, Keith Baker, Bill Slavicsek, Andy Collins, and Rob Heinsoo"
 						},
 						{
 							"type": "item",
