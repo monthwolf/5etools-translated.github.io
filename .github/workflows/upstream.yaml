@@ -28,7 +28,7 @@ jobs:
                 mv data data.zh
                 rm -rf data.en
                 git remote add upstream https://github.com/5etools-mirror-2/5etools-mirror-2.github.io
-                git pull upstream main –ff-only
+                git pull upstream main -–ff-only
                 git config user.name "Automatic translator"
                 git config user.email "<>"
                 mv data data.en
