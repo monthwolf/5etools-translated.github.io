@@ -34,6 +34,7 @@ jobs:
                 git config user.name "Automatic translator"
                 git config user.email "<>"
                 git pull upstream main
+                git reset --hard upstream/main
                 mv data data.en
                 mv data.zh data
                 git commit -a
