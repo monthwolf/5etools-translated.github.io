@@ -27,14 +27,9 @@ jobs:
                 cd $GITHUB_WORKSPACE
                 mv data data.zh
                 rm -rf data.en
-                git remote add upstream https://github.com/5etools-mirror-2/5etools-mirror-2.github.io
-                git config core.sparsecheckout true
-                echo "data" >> .git/info/sparse-checkout  
-                git config pull.rebase false
                 git config user.name "Automatic translator"
                 git config user.email "<>"
-                git pull upstream main
-                git reset --hard upstream/main
+                unzip data.zip
                 mv data data.en
                 mv data.zh data
                 git commit -a
