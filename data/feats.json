@@ -38,15 +38,15 @@
 				}
 			],
 			"entries": [
-				"你已经显现了一个异常的龙纹。确定它的外观和与之相关的缺陷。你获得以下好处。",
+				"You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你学会了一个{@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}。此外，选择一个{@filter 1st-level spell from the sorcerer spell list|spells|level=1|class=Sorcerer}。你学会了这个法术，并可以通过你的印记施放它。一旦你施放了它，你必须在通过印记再次施放之前完成一次短暂或长时间休息。对于这些法术，你的法术属性是体质。",
-						"当你通过你的标记施展一级法术时，你可以消耗你的一个命中率骰子并进行滚动。如果你掷的是偶数，你会获得与掷出的数字相等的临时命中率。如果你掷出的是奇数，你周围30英尺内的一个随机生物（不包括你）会受到与掷出的数字相等的力量伤害。如果没有其他生物在范围内，你会受到伤害。"
+						"You learn a {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. In addition, choose a {@filter 1st-level spell from the sorcerer spell list|spells|level=1|class=Sorcerer}. You learn that spell and can cast it through your mark. Once you cast it, you must finish a short or long rest before you can cast it again through the mark. Constitution is your spellcasting ability for these spells.",
+						"When you cast the 1st-level spell through your mark, you can expend one of your Hit Dice and roll it. If you roll an even number, you gain a number of temporary hit points equal to the number rolled. If you roll an odd number, one random creature within 30 feet of you (not including you) takes force damage equal to the number rolled. If no other creatures are in range, you take the damage."
 					]
 				},
-				"你还会从异端龙纹缺陷表中随机产生一个缺陷。",
+				"You also develop a random flaw from the Aberrant Dragonmark Flaws table.",
 				{
 					"type": "table",
 					"caption": "Aberrant Dragonmark Flaws",
@@ -61,35 +61,35 @@
 					"rows": [
 						[
 							"1",
-							"你的印记是身体持续疼痛的来源。"
+							"Your mark is a source of constant physical pain."
 						],
 						[
 							"2",
-							"你的标记对你耳语。它的含义可能并不明确。"
+							"Your mark whispers to you. Its meaning can be unclear."
 						],
 						[
 							"3",
-							"当你有压力时，这个标记会发出响亮的嘶嘶声。"
+							"When you're stressed, the mark hisses audibly."
 						],
 						[
 							"4",
-							"印记周围的皮肤被烧伤，有鳞片，或枯萎。"
+							"The skin around the mark is burned, scaly, or withered."
 						],
 						[
 							"5",
-							"动物在你身边感到不安。"
+							"Animals are uneasy around you."
 						],
 						[
 							"6",
-							"你在使用你的标记时都会有情绪波动。"
+							"You have a mood swing any time you use your mark."
 						],
 						[
 							"7",
-							"每当你使用这个标记时，你的容貌就会发生轻微的变化。"
+							"Your looks change slightly whenever you use the mark."
 						],
 						[
 							"8",
-							"在你使用你的标记后，你会做可怕的恶梦。"
+							"You have horrific nightmares after you use your mark."
 						]
 					]
 				},
@@ -103,8 +103,8 @@
 									"type": "entries",
 									"name": "Option: Greater Aberrant Powers",
 									"entries": [
-										"根据DM的选择，拥有异端龙印特技的角色有机会表现出更大的力量。在达到10级时，这样的角色有{@chance 10|10 percent}的机会从第七章的选项中获得{@filter epic boon|rewards|type=boon}的{@book Dungeon Master's Guide|DMG}。如果该角色未能获得恩赐，他们在下次获得等级时有{@chance 10|10 percent}的机会。",
-										"如果这个角色获得了一个好处，DM会选择它或随机确定它。该角色也会永久地失去他们的一个命中率，他们的最大命中率会减少，减少的量等于掷出的那个骰子加上他们的宪法修改器（最小减少量为1）。这种减少是无法通过任何方式逆转的。"
+										"At the DM's option, a character who has the Aberrant Dragonmark feat has a chance of manifesting greater power. Upon reaching 10th level, such a character has a {@chance 10|10 percent} chance of gaining an {@filter epic boon|rewards|type=boon} from among the options in chapter 7 of the {@book Dungeon Master's Guide|DMG}. If the character fails to gain a boon, they have a {@chance 10|10 percent} chance the next time they gain a level.",
+										"If the character gains a boon, the DM chooses it or determines it randomly. The character also permanently loses one of their Hit Dice, and their hit point maximum is reduced by an amount equal to a roll of that die plus their Constitution modifier (minimum reduction of 1). This reduction can't be reversed by any means."
 									]
 								}
 							]
@@ -123,12 +123,12 @@
 				}
 			],
 			"entries": [
-				"擅长模仿和戏剧表演，你获得以下好处。",
+				"Skilled at mimicry and dramatics, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当试图冒充另一个人时，你在魅力检定中拥有优势({@skill Deception})和魅力检定中拥有优势({@skill Performance})。",
-						"你可以模仿另一个人的语言或其他生物发出的声音。你必须至少听过这个人说话，或者听过这个生物发出声音，持续至少1分钟。一次成功的感知({@skill Insight})检定与你的魅力({@skill Deception})检定对抗，允许听者确定这种效果是伪造的。"
+						"You have advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks when trying to pass yourself off as a different person.",
+						"You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception}) check allows a listener to determine that the effect is faked."
 					]
 				}
 			]
@@ -168,7 +168,7 @@
 				}
 			],
 			"entries": [
-				"你选择了月亮Nuitari来影响你的魔法，你的野心和对黑袍会的忠诚得到了认可，赋予你这些好处。",
+				"You chose the moon Nuitari to influence your magic, and your ambition and loyalty to the Order of the Black Robes have been recognized, granting you these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -177,14 +177,14 @@
 							"type": "item",
 							"name": "Ambitious Magic",
 							"entries": [
-								"你学习一个你选择的二阶法术。该{@filter 2nd-level spell|spells|level=2|school=E;N}必须是来自魔法学派或死灵学派的魔法。你可以在没有法术槽的情况下施放此特技的二阶法术，在你再次以这种方式施放之前，你必须完成一次长时间的休息。你也可以使用你所拥有的相应等级的法术槽来施放此法术。该法术的施法能力是你获得{@feat Initiate of High Sorcery|DSotDQ}特技时选择的。"
+								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=E;N} must be from the enchantment or necromancy school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|DSotDQ} feat."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Life Channel",
 							"entries": [
-								"你可以将你的生命力转化为你的魔法的力量。当你能看到的60英尺范围内的生物对你施放的造成伤害的法术的蓄力失败时，你可以消耗与该法术等级相等的命中率点数。滚动消耗的命中率并将它们加在一起。该生物所受的伤害会增加，其数量等于该总数。"
+								"You can channel your life force into the power of your magic. When a creature you can see within 60 feet of you fails a saving throw against a spell that deals damage that you cast, you can expend a number of Hit Dice equal to the level of the spell. Roll the expended Hit Dice and add them together. The damage that the creature takes increases by an amount equal to that total."
 							]
 						}
 					]
@@ -227,7 +227,7 @@
 				}
 			],
 			"entries": [
-				"你选择了月亮Lunitari来影响你的魔法，你对维持万物平衡的奉献得到了红袍会的认可，给予你这些好处。",
+				"You chose the moon Lunitari to influence your magic, and your dedication to maintaining the balance between all things has been recognized by the Order of the Red Robes, granting you these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -236,14 +236,14 @@
 							"type": "item",
 							"name": "Insightful Magic",
 							"entries": [
-								"你学习一个你选择的二阶法术。该{@filter 2nd-level spell|spells|level=2|school=I;T}必须是来自幻术或转化术的魔法流派。你可以在没有法术槽的情况下施放此特技的二阶法术，在你再次以这种方式施放之前，你必须完成一次长时间的休息。你也可以使用你所拥有的相应等级的法术槽来施放此法术。该法术的施法能力是你获得{@feat Initiate of High Sorcery|DSotDQ}特技时选择的。"
+								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=I;T} must be from the illusion or transmutation school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|DSotDQ} feat."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Magical Balance",
 							"entries": [
-								"当你进行攻击检定或技能检定并在{@dice d20}上掷出9或更低的数字时，你可以平衡命运，将该次掷骰视为10。你可以以这种方式平衡命运的次数等同于你的熟练加值，并在完成一次长休后，你恢复所有已用次数。"
+								"When you make an attack roll or an ability check and roll a 9 or lower on the {@dice d20}, you can balance fate and treat the roll as a 10. You can balance fate in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -286,7 +286,7 @@
 				}
 			],
 			"entries": [
-				"你选择了月亮Solinari来影响你的魔法，而你使用魔法使世界变得更美好的誓言也得到了白袍会的认可，赋予你这些好处。",
+				"You chose the moon Solinari to influence your magic, and your oath to use magic to make the world a better place has been recognized by the Order of the White Robes, granting you these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -295,14 +295,14 @@
 							"type": "item",
 							"name": "Protective Magic",
 							"entries": [
-								"你学习一个你选择的2级法术。该{@filter 2nd-level spell|spells|level=2|school=A;D}必须来自咒语或占卜学派的魔法。你可以在没有法术槽的情况下施放此特技的二阶法术，你必须在完成一个长时间的休息后才能再次以这种方式施放它。你也可以使用你所拥有的相应等级的法术槽来施放此法术。该法术的施法能力是你获得{@feat Initiate of High Sorcery|DSotDQ}特技时选择的。"
+								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=A;D} must be from the abjuration or divination school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|DSotDQ} feat."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Protective Ward",
 							"entries": [
-								"当你或你能看到的30英尺范围内的生物受到伤害时，你可以用你的反应来消耗一个法术槽，在目标周围编织保护性魔法。掷出与所消耗的法术槽等级相等的骰子数量，并将目标受到的伤害减少到这些骰子所掷出的总数+你的法术能力修改值。"
+								"When you or a creature you can see within 30 feet of you takes damage, you can use your reaction to expend a spell slot and weave protective magic around the target. Roll a number of d6s equal to the level of the spell slot expended and reduce the damage the target takes by the total rolled on those dice + your spellcasting ability modifier."
 							]
 						}
 					]
@@ -316,18 +316,18 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "技能或工具的熟练程度",
+						"entry": "Proficiency in a skill or tool",
 						"entrySummary": "Prof skill/tool"
 					}
 				}
 			],
 			"entries": [
-				"你已经接受过使用你熟练掌握的技能或工具进行物品制作的训练，制作过程已经变得熟悉自然。你获得以下好处：",
+				"You've trained in crafting items using a skill or tool that you're proficient with, and the steps in crafting have become second nature to you. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"使用你的熟练技能或工具制作物品所需的时间减半。",
-						"如果你未能成功制作物品并且会失去材料，你将保留这些材料。(item)。"
+						"The time it takes to create an item using your proficient skills or tools is halved.",
+						"If you fail to successfully craft the item and would lose the components, you retain the components instead."
 					]
 				}
 			]
@@ -342,13 +342,13 @@
 				}
 			],
 			"entries": [
-				"多年的练习或天赋使你擅长滑翔。你获得以下好处：",
+				"Years of practice or an innate talent have made you adept at gliding. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你不再需要至少移动10英尺才能进行长距离和高跳。你可以选择使用你的力量或敏捷分数来确定跳跃的高度或距离，并且在任一情况下你都会将通常跳跃的距离翻倍。",
-						"在滑翔时，你可以执行额外的{@action Dash}动作，飞行距离最多为你的移动速度。",
-						"你可以在滑翔时自由改变方向，并且在你结束下降前可以获得多达10英尺的高度。"
+						"You no longer need to move at least 10 feet to perform long and high jumps. You may choose whether the jump uses your Strength or Dexterity score for determining height or distance, and you double the distance you would normally leap in either case.",
+						"You may take the {@action Dash} action while gliding to fly an additional distance up to your movement speed.",
+						"You may change direction freely while gliding, and may gain up to 10 feet of altitude once before you finish your descent."
 					]
 				}
 			]
@@ -381,7 +381,7 @@
 				}
 			],
 			"entries": [
-				"你可以引导宇宙秩序的力量来获得这些好处：",
+				"You can channel cosmic forces of order to gain these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -390,7 +390,7 @@
 							"type": "item",
 							"name": "Stasis Strike",
 							"entries": [
-								"每回合一次，当你对60英尺内可见的生物造成伤害时，你可以对目标造成额外{@damage 1d8}的力量伤害，并且它必须进行一次感知豁免投掷（豁免 DC 等于 8 + 你的熟练加值 + 你选择的用于《(%Scion of the Outer Planes)》特性的法术属性调整值），因为幽灵束缚试图将其缠绕。在成功豁免后，目标逃脱。在豁免失败后，目标将被束缚状态直到你的下一个回合开始。这些束缚会显现为链条或其他静止的象征。你可以使用这个效果的次数等同于你的熟练加值，当你完成一次长休后，你将恢复所有已用次数。"
+								"Once per turn, when you damage a creature you can see within 60 feet of yourself, you can deal an extra {@damage 1d8} force damage to the target, and it must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + the modifier of the spellcasting ability you chose for the Scion of the Outer Planes feat) as spectral bindings try to ensnare it. On a successful save, the target escapes. On a failed save, the target has the restrained condition until the start of your next turn. These bindings manifest as chains or some other symbol of stasis. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -402,13 +402,13 @@
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"始终保持对危险的警惕，你会获得以下好处。",
+				"Always on the lookout for danger, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你获得一个+5的主动性奖励。",
-						"当你有意识时，你不能是{@quickref Surprise|PHB|3|0|surprised}。",
-						"其他生物不会因为不被你看见而在对你的攻击卷中获得优势。"
+						"You gain a +5 bonus to initiative.",
+						"You can't be {@quickref Surprise|PHB|3|0|surprised} while you are conscious.",
+						"Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you."
 					]
 				}
 			]
@@ -446,13 +446,13 @@
 				}
 			],
 			"entries": [
-				"你已经学会了一些工匠的发明能力。",
+				"You've learned some of an artificer's inventiveness:",
 				{
 					"type": "list",
 					"items": [
-						"你可以从{@filter artificer spell list|spells|level=0;1|class=artificer}中选择一个戏法，并且从{@filter that list|spells|level=0;1|class=artificer}中选择一个1级法术。这些法术的施法能力依赖于你的智力。",
-						"你可以在没有法术槽的情况下施放此特技的一级法术，在你再次以这种方式施放之前，你必须完成一次长时间的休息。你也可以使用你拥有的任何法术槽来施放该法术。",
-						"你可以选择一种{@filter artisan's tools|items|type=artisan's tools}并获得熟练加值，你可以将该类型的工具作为施法焦点，用于施放任何以智力作为施法能力的法术。"
+						"You learn one cantrip of your choice from the {@filter artificer spell list|spells|level=0;1|class=artificer}, and you learn one 1st-level spell of your choice from {@filter that list|spells|level=0;1|class=artificer}. Intelligence is your spellcasting ability for these spells.",
+						"You can cast this feat's 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
+						"You gain proficiency with one type of {@filter artisan's tools|items|type=artisan's tools} of your choice, and you can use that type of tool as a spellcasting focus for any spell you cast that uses Intelligence as its spellcasting ability."
 					]
 				}
 			]
@@ -473,13 +473,13 @@
 				}
 			],
 			"entries": [
-				"你经历了大量的体能训练，获得了以下好处。",
+				"You have undergone extensive physical training to gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你是{@condition prone}时，站起来只用5英尺的移动距离。",
-						"攀登并不花费你的额外移动。",
-						"你可以在步行时只移动5英尺，而不是10英尺后进行跑步跳远或跑步跳高。"
+						"When you are {@condition prone}, standing up uses only 5 feet of your movement.",
+						"Climbing doesn't cost you extra movement.",
+						"You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
 					]
 				}
 			]
@@ -512,7 +512,7 @@
 				}
 			],
 			"entries": [
-				"你可以引导宇宙邪恶力量来获得这些好处：",
+				"You can channel cosmic forces of evil to gain these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -521,7 +521,7 @@
 							"type": "item",
 							"name": "Grasp of Avarice",
 							"entries": [
-								"每个回合一次，当你对60英尺内可见的生物造成伤害时，你还可以对其造成死灵伤害。死灵伤害等于{@dice 1d6} + 你的熟练加值，你回复的生命值数量等于造成的死灵伤害。你可以使用这个效果的次数等于你的熟练加值，当你完成一次长休后，你回复所有已用次数。"
+								"Once per turn, when you damage a creature you can see within 60 feet of yourself, you can also deal necrotic damage to it. The necrotic damage equals {@dice 1d6} + your proficiency bonus, and you regain a number of hit points equal to this necrotic damage dealt. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -533,20 +533,20 @@
 			"source": "HWCS",
 			"page": 47,
 			"entries": [
-				"作为一名强盗，你的经历让你对危险有着敏锐的感知，并且让你擅长评估对手。你获得以下好处：",
+				"Your time as a bandit has granted you a sense for danger, and made you skilled at sizing up opponents. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你被要求进行豁免投掷时，你可以花费你的反应将你的智力调整值作为额外加值加到这次豁免投掷中。直到你完成一次长休之前，你不能再使用这个能力。",
-						"在战斗中，你可以使用你的动作对你见过战斗的任何生物进行一次智力检定（{@skill Investigation}）。只要你在对抗等级为10 + 他们的挑战等级的 DC 上成功，你可以选择了解目标的战斗能力中的一个有用信息。可选择的信息有：",
+						"When you are asked to make a saving throw, you may spend your reaction to add your Intelligence modifier as an additional bonus to the saving throw. You cannot use this ability again until you have completed a long rest.",
+						"During combat, you can use your action to make an Intelligence ({@skill Investigation}) check against any creature you have seen fight. As long as you succeed against a DC of 10 + their challenge rating, you can learn one useful fact of your choice about the target's combat abilities. Choose from:",
 						{
 							"type": "list",
 							"items": [
-								"一点伤害抗性或免疫（damage resistance or immunity）",
-								"免疫一种状态 (one condition immunity)",
-								"生物具有的一种特殊能力，可以造成伤害，或者防止伤害。",
-								"在他们的攻击、传奇或反应动作中的一个选项",
-								"它们拥有一种特殊的感知能力"
+								"one damage resistance or immunity",
+								"one condition immunity",
+								"one special ability possessed by the creature that either does damage, or prevents damage",
+								"one option under their attack, legendary, or reaction actions",
+								"one special sense they possess"
 							]
 						}
 					]
@@ -567,9 +567,9 @@
 				}
 			],
 			"entries": [
-				"你的人民拥有非凡的幸运，你学会了在看到同伴失败时神秘地将这种幸运借给他们。你不确定自己是如何做到的；你只是心想，然后就发生了。这无疑是幸运之神眷顾的迹象！",
-				"当你能看到的盟友在你30英尺内对攻击骰{@dice d20}、技能检定或豁免投骰时掷出1时，你可以使用你的反应让盟友重新投骰。盟友必须使用新的点数。",
-				"当你使用这个能力时，在你的下一个回合结束前，你不能使用你的幸运种族特性 (Lucky)。"
+				"Your people have extraordinary luck, which you have learned to mystically lend to your companions when you see them falter. You're not sure how you do it; you just wish it, and it happens. Surely a sign of fortune's favor!",
+				"When an ally you can see within 30 feet of you rolls a 1 on the {@dice d20} for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.",
+				"When you use this ability, you can't use your Lucky racial trait before the end of your next turn."
 			]
 		},
 		{
@@ -578,19 +578,19 @@
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "技能或工具的熟练程度",
+						"entry": "Proficiency in a skill or tool",
 						"entrySummary": "Prof skill/tool"
 					}
 				}
 			],
 			"entries": [
-				"你已经接受过使用你熟练掌握的技能或工具来制作物品的训练，你的作品以制作精良和可靠而闻名。你获得以下好处：",
+				"You've trained in crafting items using a skill or tool that you're proficient with, and your creations are known for being well made and reliable. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你在进行所有制作相关的技能检定时获得优势。",
-						"在制作物品时，任何协助你的人在制作的能力检定中获得优势。",
-						"如果你未能成功制作物品，完成过程所花费的时间减半。"
+						"You make all ability checks for crafting with advantage.",
+						"Anyone assisting you in crafting an item gains advantage on their ability checks for crafting.",
+						"If you fail to successfully craft the item, the amount of time it took to complete the process is halved."
 					]
 				}
 			]
@@ -617,7 +617,7 @@
 				}
 			],
 			"entries": [
-				"你学会了通过一副牌来引导你的魔法。你可以将一副牌牌组作为你的施法焦点，并获得以下好处：",
+				"You have learned to channel your magic through a deck of cards. You can use a card deck as your spellcasting focus, and you gain the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -626,14 +626,14 @@
 							"type": "item",
 							"name": "Card Tricks",
 							"entries": [
-								"你学会了{@spell Prestidigitation}戏法，并可以利用它来制造模仿舞台魔术效果的幻觉。当你以这种方式使用{@spell Prestidigitation}时，你可以将咒语的口头和手势组成部分隐藏在普通的对话和卡片处理中。"
+								"You learn the {@spell Prestidigitation} cantrip and can use it to create illusions that duplicate the effects of stage magic. When you use {@spell Prestidigitation} in this way, you can conceal the verbal and somatic components of the spell as ordinary conversation and card handling."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Hidden Ace",
 							"entries": [
-								"当你完成一次长休时，你可以选择你职业法术列表中的一个法术，并将该法术注入一张卡牌中。所选法术的施法时间必须为1个行动，并且必须是你拥有法术位的等级。卡牌将保持注入状态，持续8小时。当卡牌注入了法术时，你可以使用一个奖励动作来翻动卡牌，并施放其中的法术。然后卡牌立即失去其魔法效果。"
+								"When you finish a long rest, you can choose one spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action, and it must be a level for which you have spell slots. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a bonus action to flourish the card and cast the spell within. The card then immediately loses its magic."
 							]
 						}
 					]
@@ -645,8 +645,8 @@
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"当你使用动作来{@action Dash}时，你可以使用一个额外动作进行一次近战武器攻击或者{@action shove}一个生物。",
-				"如果你在采取这个奖励行动之前立即在一条直线上移动至少10英尺，你要么在攻击的伤害卷上获得+5的奖励（如果你选择进行近战攻击并击中），要么将目标推离你最多10英尺（如果你选择推搡并且成功）。"
+				"When you use your action to {@action Dash}, you can use a bonus action to make one melee weapon attack or to {@action shove} a creature.",
+				"If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed)."
 			]
 		},
 		{
@@ -670,13 +670,13 @@
 				}
 			],
 			"entries": [
-				"掌握烹饪艺术的时间得到了回报，赋予了你以下的好处。",
+				"Time spent mastering the culinary arts has paid off, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"如果你还没有，你会获得{@item cook's utensils|phb}熟练加值。",
-						"作为短休息的一部分，你可以烹饪特殊食物，前提是你有食材和{@item cook's utensils|phb}在手。你可以为等于4 + 你的熟练加值的生物准备足够的食物。在短休息结束时，任何吃了这种食物并使用一个或多个生命骰来恢复生命值的生物额外恢复{@dice 1d8}生命值。",
-						"通过一小时的工作或完成长时间的休息，你可以烹制与你的熟练度奖励相等数量的食物。这些特殊的食物在制作后可以持续8小时。一个生物可以使用一个额外的行动来吃其中的一个，以获得与你的熟练度加成相等的临时命中率。"
+						"You gain proficiency with {@item cook's utensils|phb} if you don't already have it.",
+						"As part of a short rest, you can cook special food, provided you have ingredients and {@item cook's utensils|phb} on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra {@dice 1d8} hit points.",
+						"With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus."
 					]
 				}
 			]
@@ -709,7 +709,7 @@
 				}
 			],
 			"entries": [
-				"你可以引导混沌宇宙力量来获得这些好处：",
+				"You can channel cosmic forces of chaos to gain these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -718,7 +718,7 @@
 							"type": "item",
 							"name": "Chaotic Flare",
 							"entries": [
-								"当你在攻击检定或豁免检定中投掷1或20时，混沌的魔法会流过你。投掷一个d4，并查阅混沌耀斑表格以确定发生了什么。 耀斑持续到你的下一个回合结束，并且在第一个耀斑结束之后才能发生新的耀斑。",
+								"When you roll a 1 or a 20 on an attack roll or a saving throw, the magic of chaos flows through you. Roll a d4 and consult the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare can't occur until after the first flare ends.",
 								{
 									"type": "table",
 									"caption": "Chaotic Flares",
@@ -733,19 +733,19 @@
 									"rows": [
 										[
 											"1",
-											"{@b Battle Fury.} 你选择的一个生物充满了鲁莽的愤怒。它在攻击检定时获得优势，但在能力检定时获得劣势。"
+											"{@b Battle Fury.} A creature of your choice that you can see is filled with reckless fury. It has advantage on attack rolls and disadvantage on ability checks."
 										],
 										[
 											"2",
-											"{@b Disruption Field.} 你周围涌动着能量波动。每当一个生物在你周围5英尺内开始它的回合，或者在一个回合内第一次移动到那个区域时，它会受到{@damage 1d8}力量伤害。"
+											"{@b Disruption Field.} Waves of energy ripple around you. Every creature that starts its turn within 5 feet of you, or that moves into that area for the first time on a turn, takes {@damage 1d8} force damage."
 										],
 										[
 											"3",
-											"{@b Unbound.} 当你移动时，你可以使用你的步行速度的一部分或全部，将自己传送到一个你可以看到的未被占据的空间，同时携带着你穿戴或携带的任何装备，传送距离最多为你使用的距离。"
+											"{@b Unbound.} When you move, you can use some or all of your walking speed to teleport yourself once, along with any equipment you're wearing or carrying, up to the distance used to an unoccupied space that you can see."
 										],
 										[
 											"4",
-											"{@b Wailing Winds.} 在以你为中心的15英尺半径球体内，风呼啸而过。在该区域内的你和其他生物在感知豁免 throws 时都有劣势。"
+											"{@b Wailing Winds.} Winds swirl in a 15-foot-radius sphere centered on you. You and any other creatures in that area have disadvantage on Wisdom saving throws."
 										]
 									]
 								}
@@ -760,13 +760,13 @@
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"由于广泛地练习了十字弓，你获得了以下好处。",
+				"Thanks to extensive practice with the crossbow, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你忽略了你所精通的十字弓的装载质量。",
-						"在敌对生物的5英尺范围内，不会对你的远程攻击卷轴造成不利影响。",
-						"当你使用{@action Attack}动作并用单手武器攻击时，你可以使用一个奖励动作来攻击你持有的{@item hand crossbow|phb}。"
+						"You ignore the loading quality of crossbows with which you are proficient.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
+						"When you use the {@action Attack} action and attack with a one-handed weapon, you can use a bonus action to attack with a {@item hand crossbow|phb} you are holding."
 					]
 				}
 			]
@@ -776,17 +776,17 @@
 			"source": "TDCSR",
 			"page": 190,
 			"entries": [
-				"你一生中面对的挑战和困难让你喜欢使别人痛苦和受折磨。你获得数量等同于你熟练加值的残忍骰。你的残忍骰是{@dice d6|d6s}。你每回合只能投掷一个残忍骰，每次投掷后都会消耗一个残忍骰。",
-				"您可以在以下任何情况下投掷残酷骰，结果如下：",
+				"The challenges and struggles you've faced throughout your life have led you to delight in inflicting pain and anguish upon others. You gain a number of cruelty dice equal to your proficiency bonus. Your cruelty dice are {@dice d6|d6s}. You can roll only one cruelty die per turn, and a cruelty die is spent when you roll it.",
+				"You can roll a cruelty die under any of the following circumstances, with the indicated result:",
 				{
 					"type": "list",
 					"items": [
-						"当你对一个生物造成伤害时，花费一个残忍骰来对该生物造成额外伤害，伤害值等同于投掷的点数。",
-						"当你造成暴击时，消耗一个残忍骰来获得临时生命值，数值等同于投掷的点数。",
-						"当你进行魅力检定时，消耗一个残忍骰并将其点数加到你的检定中。"
+						"When you deal damage to a creature, spend one cruelty die to deal extra damage to the creature equal to the roll.",
+						"When you score a critical hit, spend one cruelty die to gain temporary hit points equal to the roll.",
+						"When you make a Charisma ({@skill Intimidation}) check, spend one cruelty die and add the roll to your check."
 					]
 				},
-				"当你完成一次{@quickref resting|PHB|2|0|long rest}后，你会恢复所有已消耗的残忍骰子。"
+				"You regain all spent cruelty dice when you finish a {@quickref resting|PHB|2|0|long rest}."
 			]
 		},
 		{
@@ -805,12 +805,12 @@
 				}
 			],
 			"entries": [
-				"你练就了粉碎敌人的艺术，使你获得以下好处。",
+				"You are practiced in the art of crushing your enemies, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"每回合一次，当你用攻击击中一个生物并造成破坏性伤害时，你可以将它移动5英尺到一个无人的空间，只要目标不比你大一号。",
-						"当你的关键一击对一个生物造成打击伤害时，在你下一回合开始前，对该生物的攻击卷轴具有优势。"
+						"Once per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you.",
+						"When you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the start of your next turn."
 					]
 				}
 			]
@@ -829,7 +829,7 @@
 				}
 			],
 			"entries": [
-				"当你挥舞着你精通的精巧武器，而另一个生物用近身攻击击中你时，你可以用你的反应将你的精通加成加到你的攻击力上，有可能导致攻击错过你。"
+				"When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you."
 			]
 		},
 		{
@@ -937,8 +937,8 @@
 				}
 			],
 			"entries": [
-				"一个神选择了你来携带他们力量的火花。",
-				"你可以从{@filter cleric spell list|spells|level=0|class=cleric}中选择一个戏法，并根据你角色的阵营选择一个1级法术，具体请参考下面的阵营法术表。你还会学会{@spell augury}法术。",
+				"A god chose you to carry a spark of their power.",
+				"You learn one cantrip of your choice from the {@filter cleric spell list|spells|level=0|class=cleric} and one 1st-level spell based on the alignment of your character, as specified in the Alignment Spells table below. You also learn the {@spell augury} spell.",
 				{
 					"type": "table",
 					"caption": "Alignment Spells",
@@ -953,21 +953,21 @@
 					"rows": [
 						[
 							"Evil",
-							"选择一个 {@filter 1st-level warlock spell|spells|level=1|class=warlock}"
+							"Choose one {@filter 1st-level warlock spell|spells|level=1|class=warlock}"
 						],
 						[
 							"Good",
-							"选择一个 {@filter 1st-level cleric spell|spells|level=1|class=cleric}"
+							"Choose one {@filter 1st-level cleric spell|spells|level=1|class=cleric}"
 						],
 						[
-							"中性",
-							"选择一个 {@filter 1st-level druid spell|spells|level=1|class=druid}"
+							"Neutral",
+							"Choose one {@filter 1st-level druid spell|spells|level=1|class=druid}"
 						]
 					]
 				},
-				"你可以在不消耗法术位的情况下施放选择的1级法术和{@spell augury}法术，但在再次以这种方式施放这些法术之前，你必须完成一次长休。你也可以使用你拥有的相应等级的法术位来施放这些法术。",
-				"你对这个特技的法术的施法能力是智力、智慧或魅力（在你选择这个特技时选择）。",
-				"此外，你可以使用一个神圣的符号作为你施展的任何法术的施法焦点，这些法术使用你在选择此特技时选择的施法能力。"
+				"You can cast the chosen 1st-level spell and the {@spell augury} spell without a spell slot, and you must finish a long rest before you can cast either of these spells in this way again. You can also cast these spells using spell slots you have of the appropriate level.",
+				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+				"In addition, you can use a holy symbol as a spellcasting focus for any spell you cast that uses the spellcasting ability you choose when you select this feat."
 			]
 		},
 		{
@@ -996,11 +996,11 @@
 				}
 			],
 			"entries": [
-				"当被激怒时，你会散发出威胁的气息。你获得以下好处。",
+				"When angered, you radiate menace. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"与呼出破坏性能量不同，你可以使用一次你的吐息武器特性来怒吼，迫使你选择的每个生物在你周围30英尺范围内进行一次感知豁免检定（豁免 DC 8 + 你的熟练加值 + 你的魅力修正）。如果目标无法听到或看到你，则豁免检定自动成功。未通过豁免检定的目标会成为你的 {@condition frightened}，持续1分钟。如果 {@condition frightened} 目标受到任何伤害，它可以重复豁免检定，成功则结束自身效果。"
+						"Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes {@condition frightened} of you for 1 minute. If the {@condition frightened} target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -1031,12 +1031,12 @@
 				}
 			],
 			"entries": [
-				"你表现出的鳞片和爪子让人联想到你的龙人祖先。你获得以下好处。",
+				"You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你的鳞片变硬。当你没有穿戴盔甲时，你可以将你的反击力计算为13+你的灵巧修正值。你可以使用一个盾牌，并仍然获得这个好处。",
-						"你从你的手指尖长出可伸缩的爪子。伸出或缩回爪子不需要任何行动。爪子是天然的武器，你可以用它来进行徒手攻击。如果你用它们攻击，你会造成相当于{@dice 1d4}+你力量修正值的砍击伤害，而不是普通的徒手攻击的破坏伤害。"
+						"Your scales harden. While you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.",
+						"You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike."
 					]
 				}
 			]
@@ -1074,7 +1074,7 @@
 				}
 			],
 			"entries": [
-				"你学会了更多典型于黑暗精灵的魔法。你学会了{@spell detect magic}法术，并可以随意施放，无需消耗法术位。你还学会了{@spell levitate}和{@spell dispel magic}，每个你可以在不消耗法术位的情况下施放一次。当你完成一次长休后，你可以重新获得以这种方式施放这两个法术的能力。魅力是你施放这三个法术的法术能力。"
+				"You learn more of the magic typical of dark elves. You learn the {@spell detect magic} spell and can cast it at will, without expending a spell slot. You also learn {@spell levitate} and {@spell dispel magic}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells."
 			]
 		},
 		{
@@ -1082,13 +1082,13 @@
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"你掌握了用两种武器战斗，获得以下好处。",
+				"You master fighting with two weapons, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你每只手都挥舞着单独的近战武器时，你会获得一个+1的交流奖励。",
-						"即使你所挥舞的单手近战武器不轻，你也可以使用双武器战斗。",
-						"你可以抽出或收起两把单手武器，而你通常只能抽出或收起一把。"
+						"You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
+						"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.",
+						"You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one."
 					]
 				}
 			]
@@ -1098,14 +1098,14 @@
 			"source": "PHB",
 			"page": 166,
 			"entries": [
-				"对许多地牢中的隐藏陷阱和秘密门保持警惕，你会获得以下好处。",
+				"Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你在智慧({@skill Perception})和智力({@skill Investigation})的检查中具有优势，可以发现秘密门的存在。",
-						"你在为避免或抵制陷阱而进行的拯救动作中具有优势。",
-						"你对陷阱造成的伤害有抵抗力。",
-						"以快速速度行进不会对您的被动感知力({@skill Perception})得分造成正常的-5惩罚。"
+						"You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
+						"You have advantage on saving throws made to avoid or resist traps.",
+						"You have resistance to the damage dealt by traps.",
+						"Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom ({@skill Perception}) score."
 					]
 				}
 			]
@@ -1120,11 +1120,11 @@
 				}
 			],
 			"entries": [
-				"坚韧而有弹性，你可以获得以下好处。",
+				"Hardy and resilient, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你掷骰子恢复命中率时，你从掷骰子中恢复的最小命中率等于你的体质修正值的两倍（最小为2）。"
+						"When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2)."
 					]
 				}
 			]
@@ -1148,11 +1148,11 @@
 				}
 			],
 			"entries": [
-				"你的血管里流淌着矮人英雄的血液。你获得以下好处。",
+				"You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"每当你在战斗中采取{@action Dodge}的行动时，你可以花费一个命中度来治疗自己。掷骰子，加上你的体质修正值，然后恢复与总数相等的命中率（最小值为1）。"
+						"Whenever you take the {@action Dodge} action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1)."
 					]
 				}
 			]
@@ -1178,8 +1178,8 @@
 				}
 			],
 			"entries": [
-				"研究神秘学知识，你可以选择学习术士职业中的一个{@filter Eldritch Invocation|optionalfeatures|Feature Type=EI}选项。你施放该法术的能力取决于智力、感知或魅力（在选择此特性时选择）。如果该法术有任何先决条件，你只有在符合先决条件的术士才能选择该法术。",
-				"每当你获得一个等级时，你可以用术士类的另一个召唤来替换这个召唤。"
+				"Studying occult lore, you learn one {@filter Eldritch Invocation|optionalfeatures|Feature Type=EI} option of your choice from the warlock class. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma (choose when you select this feat). If the invocation has a prerequisite of any kind, you can choose that invocation only if you're a warlock who meets the prerequisite.",
+				"Whenever you gain a level, you can replace the invocation with another one from the warlock class."
 			],
 			"hasFluffImages": true
 		},
@@ -1193,9 +1193,9 @@
 				}
 			],
 			"entries": [
-				"当你获得此特技时，请选择以下伤害类型之一：酸、冷、火、闪电或雷。",
-				"你所施展的法术会忽略对所选类型伤害的抵抗。此外，当你为你所施展的法术造成该类型的伤害而滚动伤害时，你可以将伤害模子上的任何1视为2。",
-				"你可以多次选择这项特技。每次你这样做，你必须选择一个不同的伤害类型。"
+				"When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
+				"Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
+				"You can select this feat multiple times. Each time you do so, you must choose a different damage type."
 			]
 		},
 		{
@@ -1228,11 +1228,11 @@
 				}
 			],
 			"entries": [
-				"精灵的准确性是传奇性的，尤其是精灵弓箭手和法术师的准确性。你有超乎寻常的瞄准能力，其攻击依靠的是精准而非蛮力。你获得以下好处。",
+				"The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"每当你在使用灵巧、智力、智慧或魅力的攻击卷中获得优势时，你可以重新掷出一个骰子一次。"
+						"Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once."
 					]
 				}
 			]
@@ -1265,7 +1265,7 @@
 				"fire"
 			],
 			"entries": [
-				"你展现了火巨人的火热战斗力，使你获得以下好处。",
+				"You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1274,14 +1274,14 @@
 							"type": "item",
 							"name": "Born of Flame",
 							"entries": [
-								"你对火灾伤害有抵抗力。"
+								"You have resistance to fire damage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Searing Ignition",
 							"entries": [
-								"当你在你的回合中进行{@action Attack}动作时，你可以用一团魔法火焰替代一次攻击。以你为中心的15英尺半径球体内，你选择的每个生物都必须进行一次敏捷豁免检定（豁免 DC 为 8 + 你的熟练加值 + 通过这个特性增加的属性调整值）。未通过豁免检定的生物会受到火焰伤害，伤害值为{@dice 1d8} + 你的熟练加值，并且会进入致盲状态，直到你的下一个回合开始。通过豁免检定的生物只会受到一半伤害。你可以使用你的灼热点燃能力的次数等同于你的熟练加值（但每回合不超过一次），当你完成一次长休后，你会恢复所有已使用的次数。"
+								"When you take the {@action Attack} action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, a creature takes fire damage equal to {@dice 1d8} + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -1313,11 +1313,11 @@
 				}
 			],
 			"entries": [
-				"你们的人很聪明，对幻觉魔法很有一套。你已经学会了一种神奇的技巧，当你受到伤害时，可以消逝。你获得以下好处。",
+				"Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"在你受到伤害后，你可以使用一次反应，魔法地变成{@condition invisible}，直到你的下一个回合结束，或者直到你进行攻击、造成伤害，或者迫使某人进行豁免投掷。一旦你使用了这个能力，你必须完成一次短休或长休才能再次使用。"
+						"Immediately after you take damage, you can use a reaction to magically become {@condition invisible} until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest."
 					]
 				}
 			]
@@ -1367,12 +1367,12 @@
 				}
 			],
 			"entries": [
-				"你对高等精灵传说的研究释放了精灵的力量，除了你的埃拉德林表亲，其他精灵很少拥有这种力量。利用你的精灵血统，你可以瞬间穿越精灵世界，缩短你从一个地方到另一个地方的路径。你会获得以下好处。",
+				"Your study of high elven lore has unlocked fey power that few other elves possess, except your eladrin cousins. Drawing on your fey ancestry, you can momentarily stride through the Feywild to shorten your path from one place to another. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你学会说、读、写{@language Sylvan}。",
-						"你学会了{@spell misty step}的法术，可以在不消耗法术槽的情况下施放一次。当你完成短时或长时休息时，你重新获得以这种方式施放的能力。智力是你对这个法术的施法能力。"
+						"You learn to speak, read, and write {@language Sylvan}.",
+						"You learn the {@spell misty step} spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell."
 					]
 				}
 			]
@@ -1411,11 +1411,11 @@
 				}
 			],
 			"entries": [
-				"你接触到精灵世界的魔法改变了你，使你获得了以下好处。",
+				"Your exposure to the Feywild's magic has changed you, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你学会了{@spell misty step}的法术和一个你选择的{@filter 1st-level spell|spells|level=1|school=E;D}。{@filter 1st-level spell|spells|level=1|school=E;D}必须是来自占卜或魔法学校。你可以在不耗费法术槽的情况下施展这些法术中的每一个。一旦你以这种方式施展了这些法术中的任何一个，你就不能再以这种方式施展该法术，直到你完成一个长时间的休息。你也可以用你拥有的相应等级的法术槽来施放这些法术。法术的施法能力是由这个特技增加的能力。"
+						"You learn the {@spell misty step} spell and one {@filter 1st-level spell|spells|level=1|school=E;D} of your choice. The {@filter 1st-level spell|spells|level=1|school=E;D} must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
 					]
 				}
 			]
@@ -1445,8 +1445,8 @@
 				}
 			],
 			"entries": [
-				"你的武术训练帮助你形成了一种特殊的战斗风格。因此，你从战士类中选择一个{@filter Fighting Style|optionalfeatures|Feature Type=FS:F}的选项来学习。如果你已经有了一种风格，你选择的风格必须是不同的。",
-				"每当你的等级达到授予能力分数提高功能的时候，你可以用你没有的战士等级中的另一种战斗方式来替换这个特技的战斗方式。"
+				"Your martial training has helped you develop a particular style of fighting. As a result, you learn one {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
+				"Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have."
 			]
 		},
 		{
@@ -1474,12 +1474,12 @@
 				}
 			],
 			"entries": [
-				"你学会了召唤地狱之火来执行你的命令。你获得以下好处：",
+				"You learn to call on hellfire to serve your commands. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你施放一个法术时，投掷火焰伤害骰时，你可以重新投掷任何掷出的1点，但你必须使用新的点数，即使它又是1点。",
-						"每当你施放一个造成火焰伤害的法术时，你可以让火焰环绕你，直到你的下一个回合结束。这些火焰不会伤害到你或你的物品，它们在30英尺范围内散发明亮光，另外30英尺范围内散发昏暗光。当火焰存在时，任何在你5英尺范围内的生物如果用近战攻击击中你，会受到{@damage 1d4}火焰伤害。"
+						"When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.",
+						"Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don't harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes {@damage 1d4} fire damage."
 					]
 				}
 			]
@@ -1494,15 +1494,15 @@
 				}
 			],
 			"entries": [
-				"你已经发展出了在突发情况下瞬间回忆起未准备好的法术的能力。",
-				"作为一个奖励动作，你可以从你的咒语书中（如果你是{@class wizard}）或者从你的职业咒语列表中（如果你不是{@class wizard}）准备一个1级或更高级别的咒语。这个咒语必须是你拥有咒语位级别的咒语，并且它会取代你之前准备的同等或更高级别的另一个咒语。",
-				"一旦你使用这个特性来回忆一个法术，你必须完成一个{@quickref resting|PHB|2|0|short or long rest}后才能再次这样做。",
+				"You've developed the ability to instantly recall an unprepared spell in moments of sudden necessity.",
+				"As a bonus action, you prepare a spell of 1st level or higher from your spellbook (if you're a {@class wizard}) or from your class spell list (if you're not a {@class wizard}). This spell must be of a level for which you have spell slots, and it replaces another spell of an equal or higher level that you had previously prepared.",
+				"Once you use this feat to recall a spell, you can't do so again until you complete a {@quickref resting|PHB|2|0|short or long rest}.",
 				{
 					"type": "inset",
 					"name": "Rules Tip: Prepared Spells",
 					"page": 190,
 					"entries": [
-						"闪电召回特性要求你是一个准备法术的施法者。这包括像{@class cleric||clerics}、{@class druid||druids}和{@class paladin||paladins}这样的职业，他们每天从自己的职业法术列表中准备法术，以及{@class wizard||wizards}，他们从法术书中准备法术。像{@class bard||bards}和{@class sorcerer||sorcerers}这样本能知晓法术而不是准备法术的职业无法从这个特性中受益。"
+						"The Flash Recall feat requires you to be a spellcaster who prepares spells. This includes classes such as {@class cleric||clerics}, {@class druid||druids}, and {@class paladin||paladins}, who prepare spells each day from their class list, and {@class wizard||wizards}, who prepare spells from a spellbook. Classes such as {@class bard||bards} and {@class sorcerer||sorcerers}, who inherently know their spells rather than preparing them, can't benefit from this feat."
 					]
 				}
 			]
@@ -1535,7 +1535,7 @@
 				"cold"
 			],
 			"entries": [
-				"你展现了冰霜巨人的冰冷力量，使你获得以下好处。",
+				"You've manifested the icy might emblematic of frost giants, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1544,14 +1544,14 @@
 							"type": "item",
 							"name": "Born of Ice",
 							"entries": [
-								"你对寒冷伤害有抵抗力。"
+								"You have resistance to cold damage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Frigid Retaliation",
 							"entries": [
-								"在你能看到的30英尺内的生物对你造成伤害的攻击命中后，你可以使用你的反应以一道召唤出的冰霜冲击进行回击。该生物必须进行一次体质豁免才能避免受到伤害（豁免 DC 为 8 + 你的熟练加值 + 通过这个特性增加的属性调整值）。未通过豁免的生物将受到{@dice 1d8} + 你的熟练加值的冰霜伤害，并且其速度将降为0，直到其下一个回合结束。你可以使用这个反应的次数等同于你的熟练加值，并在完成一次长休后恢复所有已使用次数。"
+								"Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, the creature takes cold damage equal to {@dice 1d8} + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -1564,7 +1564,7 @@
 			"source": "FTD",
 			"page": 17,
 			"entries": [
-				"你已经显现出了一些色彩龙的力量，赋予你以下好处：",
+				"You've manifested some of the power of chromatic dragons, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1573,14 +1573,14 @@
 							"type": "item",
 							"name": "Chromatic Infusion",
 							"entries": [
-								"作为一个奖励动作，你可以触摸一个{@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon}，并赋予它以下伤害类型之一：酸性、冰冷、火焰、闪电或毒素。在接下来的一分钟内，当武器命中时，它会额外造成{@damage 1d4}点所选类型的伤害。在你使用这个奖励动作之后，直到你完成一次长休才能再次使用。"
+								"As a bonus action, you can touch a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra {@damage 1d4} damage of the chosen type when it hits. After you use this bonus action, you can't do so again until you finish a long rest."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Reactive Resistance",
 							"entries": [
-								"当你受到酸性、寒冷、火焰、闪电或毒素伤害时，你可以使用你的反应来使自己对该次伤害获得抗性。你可以使用这个反应的次数等于你的熟练加值，当你完成一次长休后，你会重新获得所有已用次数。"
+								"When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -1604,7 +1604,7 @@
 				}
 			],
 			"entries": [
-				"你已经显化出了一些宝石龙的力量，赋予你以下好处：",
+				"You've manifested some of the power of gem dragons, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1613,7 +1613,7 @@
 							"type": "item",
 							"name": "Telekinetic Reprisal",
 							"entries": [
-								"当你受到一个在你10英尺范围内的生物的伤害时，你可以用你的反应来发出心灵感应的能量。对你造成伤害的生物必须做一个力量救赎（DC等于8+你的熟练度加分+本特技所增加的能力修饰分）。拯救失败时，该生物会受到{@damage 2d8}武力伤害，并被推到离你最远的10英尺处。拯救成功时，该生物会受到一半的伤害并且不会被推开。你可以使用这个反应的次数等于你的熟练度加成，当你完成一个长时间的休息时，你会恢复所有已消耗的使用。"
+								"When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creature takes {@damage 2d8} force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -1645,7 +1645,7 @@
 				}
 			],
 			"entries": [
-				"你已经体现了金属龙的一些力量，赋予你以下的好处。",
+				"You've manifested some of the power of metallic dragons, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1654,14 +1654,14 @@
 							"type": "item",
 							"name": "Draconic Healing",
 							"entries": [
-								"你学会了{@spell cure wounds}法术。你可以在不消耗法术槽的情况下施放这个法术。一旦你以这种方式施放了这个法术，你必须完成一次长休才能再次这样做。你也可以使用你拥有的法术槽来施放这个法术。当你通过这个特性施放法术时，法术的施法能力为智力、感知或魅力（在获得该特性时选择）。"
+								"You learn the {@spell cure wounds} spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is Intelligence, Wisdom, or Charisma when you cast it with this feat (choose when you gain the feat)."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Protective Wings",
 							"entries": [
-								"你可以显现出保护性的翅膀，可以为你或他人提供保护。当你或你周围5英尺内的其他生物被攻击卷击中时，你可以用你的反应从你的背后显现出幽灵之翼，持续一段时间。你会给予目标一个相当于你的熟练度加成的AC值，以对抗该攻击卷，有可能导致其失误。你可以使用这个反应的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有已消耗的使用。"
+								"You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -1683,12 +1683,12 @@
 				}
 			],
 			"entries": [
-				"你已经发展出必要的技能，可以在近身擒拿中保持自己的优势。你获得以下好处。",
+				"You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你在对你抓捕的生物进行攻击的时候有优势。",
-						"你可以使用你的动作来尝试将一个生物{@condition grappled}按住。要做到这一点，进行另一次擒抱检定。如果成功，你和这个生物都会被{@condition restrained}，直到擒抱结束。"
+						"You have advantage on attack rolls against a creature you are grappling.",
+						"You can use your action to try to pin a creature {@condition grappled} by you. To do so, make another grapple check. If you succeed, you and the creature are both {@condition restrained} until the grapple ends."
 					]
 				}
 			]
@@ -1698,12 +1698,12 @@
 			"source": "PHB",
 			"page": 167,
 			"entries": [
-				"你已经学会了将武器的重量用于你的优势，让它的动力增强你的打击。你获得以下好处。",
+				"You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"在你的回合中，当你用近战武器打出关键一击或将一个生物的命中率降至0时，你可以将一次近战武器攻击作为奖励动作。",
-						"在你用你精通的重武器进行近战攻击之前，你可以选择对攻击卷进行-5的惩罚。如果攻击命中，你会在攻击的伤害上增加+10。"
+						"On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.",
+						"Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage."
 					]
 				}
 			]
@@ -1733,7 +1733,7 @@
 				}
 			],
 			"entries": [
-				"你已经显现出了象征着云巨人的迷惑魔法，为你带来以下好处：",
+				"You've manifested the confounding magic emblematic of cloud giants, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1742,7 +1742,7 @@
 							"type": "item",
 							"name": "Cloudy Escape",
 							"entries": [
-								"当你能看见的生物用攻击骰命中你时，你可以使用你的反应使自己对该攻击的伤害具有抗性。然后你传送到一个你能看见的、距离你30英尺以内的未占据空间。你可以使用这个反应的次数等同于你的熟练加值，当你完成一次长休时，你恢复所有已用次数。"
+								"When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack's damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -1764,13 +1764,13 @@
 				}
 			],
 			"entries": [
-				"在使用枪械时，你有一双快速的手和敏锐的眼睛，使你获得以下好处。",
+				"You have a quick hand and keen eye when employing firearms, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你获得火器的熟练项（见《地下城主宰手册》中的“{@variantrule Firearms|DMG}”）。",
-						"你忽略了枪支的装载特性。",
-						"在敌对生物的5英尺范围内，不会对你的远程攻击卷轴造成不利影响。"
+						"You gain proficiency with firearms (see \"{@variantrule Firearms|DMG}\" in the Dungeon Master's Guide).",
+						"You ignore the loading property of firearms.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
 					]
 				}
 			]
@@ -1780,12 +1780,12 @@
 			"source": "PHB",
 			"page": 167,
 			"entries": [
-				"你是一个能干的医生，使你能迅速修补伤口，使你的盟友重新投入战斗。你获得以下好处。",
+				"You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你使用{@item healer's kit|phb}来稳定一个濒临死亡的生物时，该生物也会重新获得1点生命值。",
-						"作为一个行动，你可以花费一次{@item healer's kit|phb}来照顾一个生物，为它恢复{@dice 1d6 + 4}的命中率，加上相当于该生物最大命中率的额外命中率。该生物在完成短期或长期休息之前，不能再从这个特技中恢复命中率。"
+						"When you use a {@item healer's kit|phb} to stabilize a dying creature, that creature also regains 1 hit point.",
+						"As an action, you can spend one use of a {@item healer's kit|phb} to tend to a creature and restore {@dice 1d6 + 4} hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest."
 					]
 				}
 			]
@@ -1814,11 +1814,11 @@
 				}
 			],
 			"entries": [
-				"你经过训练，掌握了重甲的使用，获得了以下好处。",
+				"You have trained to master the use of heavy armor, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你获得对重甲的熟练度。"
+						"You gain proficiency with heavy armor."
 					]
 				}
 			]
@@ -1842,11 +1842,11 @@
 				}
 			],
 			"entries": [
-				"你可以用你的盔甲来抵挡会杀死他人的攻击。你获得以下好处。",
+				"You can use your armor to deflect strikes that would kill others. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你穿着重甲时，你从非魔法攻击中受到的打击、穿刺和砍击伤害会减少3。"
+						"While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical attacks is reduced by 3."
 					]
 				}
 			]
@@ -1861,12 +1861,12 @@
 				}
 			],
 			"entries": [
-				"你要么天生拥有强大的力量，要么经过艰苦训练，使自己能够在大多数人认为不可能的情况下轻松应对。你获得以下好处：",
+				"You were either born with great strength, or trained hard to allow yourself to glide under circumstances most would find impossible. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"只要你没有负重过重，你可以在穿着重甲并持有重武器的情况下滑翔。",
-						"你可以选择在一个被一只大型或更小的敌对生物占据的空间着陆。如果你这样做，你可以对该生物进行一次对抗力量检定。如果成功，你将把它推开10英尺，并用你的冲击力把它撞飞{@condition prone}。如果失败，你会降落在最近的未被占据的空间中。"
+						"You may glide while holding a heavy weapon and wearing heavy armor as long as you aren't encumbered.",
+						"You may choose to land your glide in a space occupied by a hostile creature that is Large or smaller. If you do so, you may roll an opposed Strength check against the creature. On a success, you push them 10 feet away and knock them {@condition prone} with the force of your impact. On a failure you land in the nearest un-occupied space."
 					]
 				}
 			]
@@ -1894,12 +1894,12 @@
 				"poison"
 			],
 			"entries": [
-				"恶魔的血液在你体内流动，释放出类似于某些恶魔所拥有的复原力。你获得以下好处。",
+				"Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你对寒冷和毒药伤害有抵抗力。",
-						"你在豁免抵抗被 {@condition poisoned} 时获得优势。"
+						"You have resistance to cold and poison damage.",
+						"You have advantage on saving throws against being {@condition poisoned}."
 					]
 				}
 			]
@@ -2056,8 +2056,8 @@
 				}
 			],
 			"entries": [
-				"你已经接受了隶属于高阶巫术法师的魔法使用者的训练。",
-				"从克莱恩的三个月亮中选择一个来影响你的魔法：黑月Nuitari；红月Lunitari；或白月Solinari。你从巫师法术列表中选择一个咒语，并根据你选择的月亮学习两个一级法术，具体内容见月亮法术表。",
+				"You've received training from magic-users affiliated with the Mages of High Sorcery.",
+				"Choose one of the three moons of Krynn to influence your magic: the black moon, Nuitari; the red moon, Lunitari; or the white moon, Solinari. You learn one cantrip of your choice from the wizard spell list and two 1st-level spells based on the moon you choose, as specified in the Lunar Spells table.",
 				{
 					"type": "table",
 					"caption": "Lunar Spells",
@@ -2071,21 +2071,21 @@
 					],
 					"rows": [
 						[
-							"黑月 (Nuitari)",
-							"从{@spell dissonant whispers}、{@spell false life}、{@spell hex}和{@spell ray of sickness}中选择两个。"
+							"Nuitari",
+							"Choose two from {@spell dissonant whispers}, {@spell false life}, {@spell hex}, and {@spell ray of sickness}"
 						],
 						[
-							"吕尼塔里",
-							"从{@spell color spray}、{@spell disguise self}、{@spell feather fall}和{@spell longstrider}中选择两个。"
+							"Lunitari",
+							"Choose two from {@spell color spray}, {@spell disguise self}, {@spell feather fall}, and {@spell longstrider}"
 						],
 						[
-							"索里纳利",
-							"从{@spell comprehend languages}、{@spell detect evil and good}、{@spell protection from evil and good}和{@spell shield}中选择两个。"
+							"Solinari",
+							"Choose two from {@spell comprehend languages}, {@spell detect evil and good}, {@spell protection from evil and good}, and {@spell shield}"
 						]
 					]
 				},
-				"你可以在没有法术槽的情况下施放每一个所选的一级法术，你必须在完成一个长时间的休息后才能再次以这种方式施放它们。你也可以使用你拥有的任何法术槽来施展这些法术。",
-				"你对这个特技的法术的施法能力是智力、智慧或魅力（在你选择这个特技时选择）。"
+				"You can cast each of the chosen 1st-level spells without a spell slot, and you must finish a long rest before you can cast them in this way again. You can also cast the spells using any spell slots you have.",
+				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
 			],
 			"hasFluffImages": true
 		},
@@ -2103,7 +2103,7 @@
 				}
 			],
 			"entries": [
-				"你可以花10分钟激励你的同伴，增强他们的战斗决心。当你这样做时，在你30英尺范围内选择最多六个友好的生物（可以包括你自己），他们可以看到或听到你，并能理解你。每个生物都可以获得相当于你的等级+你的魅力修改器的临时打击点数。生物在完成短时或长时休息之前，不能再从这个特技中获得临时打击点数。"
+				"You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest."
 			],
 			"hasFluffImages": true
 		},
@@ -2117,13 +2117,13 @@
 				}
 			],
 			"entries": [
-				"你有一个能以不可思议的精确度追踪时间、方向和细节的头脑。你获得以下好处。",
+				"You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你总是知道哪条路是北。",
-						"你总是知道离下一次日出或日落还有多少个小时。",
-						"你能准确地回忆起过去一个月内看到或听到的任何事情。"
+						"You always know which way is north.",
+						"You always know the number of hours left before the next sunrise or sunset.",
+						"You can accurately recall anything you have seen or heard within the past month."
 					]
 				}
 			]
@@ -2153,7 +2153,7 @@
 				}
 			],
 			"entries": [
-				"你已经展现了石巨人的身体天赋，赋予你以下的好处。",
+				"You've manifested the physical talents emblematic of stone giants, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -2162,14 +2162,14 @@
 							"type": "item",
 							"name": "Cavernous Sight",
 							"entries": [
-								"你获得{@sense darkvision}，范围为60英尺。如果你已经从其他来源获得{@sense darkvision}，其范围增加60英尺。"
+								"You gain {@sense darkvision} with a range of 60 feet. If you already have {@sense darkvision} from another source, its range increases by 60 feet."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Stone Throw",
 							"entries": [
-								"作为一个奖励动作，你可以拿起一块石头并用它进行魔法攻击。这次攻击是一个射程为60英尺的远程法术攻击，使用你通过这个特性增加的能力分数作为施法能力。命中时，石头造成{@damage 1d10} 点力量伤害，目标必须通过一次力量豁免才能避免倒地状态（豁免 DC 等于 8 + 你的熟练加值 + 施法能力调整值）。你可以使用这个奖励动作的次数等同于你的熟练加值，当你完成一次长休后，你恢复所有已用次数。"
+								"As a bonus action, you can take a rock and make a magical attack with it. The attack is a ranged spell attack with a range of 60 feet that uses the ability score you increased with this feat as the spellcasting ability. On a hit, the rock deals {@damage 1d10} force damage, and the target must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the spellcasting ability modifier) or have the prone condition. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -2201,7 +2201,7 @@
 				}
 			],
 			"entries": [
-				"你是索兰尼亚的一名骑士，与王冠骑士团结盟，该团体推崇合作、忠诚和服从的美德。你擅长团体作战并获得这些好处。",
+				"You are a Knight of Solamnia aligned with the Order of the Crown, a group that extols the virtues of cooperation, loyalty, and obedience. You excel in group combat and gain these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -2210,7 +2210,7 @@
 							"type": "item",
 							"name": "Commanding Rally",
 							"entries": [
-								"作为一个额外动作，你可以命令自己30英尺内的一个盟友进行攻击。如果该盟友能看到或听到你，他们可以立即进行一次武器攻击作为反应。如果攻击命中，该盟友可以掷出{@dice d8}，并将掷出的数字作为奖励加入攻击的伤害卷。你可以使用这个奖励动作的次数等于你的熟练度加成，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
+								"As a bonus action, you can command one ally within 30 feet of yourself to attack. If that ally can see or hear you, they can immediately make one weapon attack as a reaction. If the attack hits, the ally can roll a {@dice d8} and add the number rolled as a bonus to the attack's damage roll. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -2219,7 +2219,7 @@
 					"type": "inset",
 					"name": "Membership in Knightly Orders",
 					"entries": [
-						"索兰尼亚的骑士们永远只属于他们组织中的一个骑士团。在他们的训练过程中，大多数骑士开始是王冠骑士团的成员，然后转而加入其他骑士团。无论一个角色是走这条路还是另一条路，他们都会保留他们作为一个骑士团成员所学到的东西，即使他们加入了另一个骑士团。角色可以改变他们所属的骑士团，但他们总是可以使用他们已经获得的任何索兰尼亚骑士的功绩。"
+						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
 					]
 				}
 			]
@@ -2249,7 +2249,7 @@
 				}
 			],
 			"entries": [
-				"你是索兰尼亚的一名骑士，与玫瑰骑士团结盟，一个以领导力、正义和智慧著称的团体。你的决心赋予你这些好处。",
+				"You are a Knight of Solamnia aligned with the Order of the Rose, a group known for leadership, justice, and wisdom. Your resolve grants you these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -2258,7 +2258,7 @@
 							"type": "item",
 							"name": "Bolstering Rally",
 							"entries": [
-								"作为一个奖励动作，你可以鼓舞一个你能看到的生物（可以选择自己），距离你不超过30英尺。如果目标能看到或听到你，目标获得临时生命值，数值等同于{@dice 1d8} + 你的熟练加值 + 由这个特性增加的属性分数的能力调整值。你可以使用这个奖励动作的次数等同于你的熟练加值，当你完成一次长休后，你将恢复所有已用次数。"
+								"As a bonus action, you can encourage one creature you can see within 30 feet of yourself (you can choose yourself). If the target can see or hear you, the target gains temporary hit points equal to {@dice 1d8} + your proficiency bonus + the ability modifier of the ability score increased by this feat. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -2267,7 +2267,7 @@
 					"type": "inset",
 					"name": "Membership in Knightly Orders",
 					"entries": [
-						"索兰尼亚的骑士们永远只属于他们组织中的一个骑士团。在他们的训练过程中，大多数骑士开始是王冠骑士团的成员，然后转而加入其他骑士团。无论一个角色是走这条路还是另一条路，他们都会保留他们作为一个骑士团成员所学到的东西，即使他们加入了另一个骑士团。角色可以改变他们所属的骑士团，但他们总是可以使用他们已经获得的任何索兰尼亚骑士的功绩。"
+						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
 					]
 				}
 			]
@@ -2297,7 +2297,7 @@
 				}
 			],
 			"entries": [
-				"你是索兰尼亚的一名骑士，与剑之团结盟，剑之团致力于英雄主义和勇气。勇敢使你的精神更加坚定，使你获得这些好处。",
+				"You are a Knight of Solamnia aligned with the Order of the Sword, a group devoted to heroism and courage. Bravery steels your spirit, granting you these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -2306,7 +2306,7 @@
 							"type": "item",
 							"name": "Demoralizing Strike",
 							"entries": [
-								"每回合一次，当你用武器攻击命中一名生物时，你可以尝试让目标感到恐惧。目标必须进行一次感知豁免投骰（豁免 DC 为 8 + 你的熟练加值 + 通过此特性提升的属性调整值）。未能通过豁免的目标会对你感到恐惧，持续到你的下一个回合结束。通过豁免的目标在其下一个回合结束前的下次攻击投骰中获得劣势。你可以使用这个效果的次数等同于你的熟练加值，当你完成一次长休后，你会恢复所有已用次数。"
+								"Once per turn, when you hit a creature with a weapon attack roll, you can attempt to frighten that target. The target must make a Wisdom saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the target is {@condition frightened} of you until the end of your next turn. On a successful save, the target has disadvantage on the next attack roll it makes before the end of its next turn. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -2315,7 +2315,7 @@
 					"type": "inset",
 					"name": "Membership in Knightly Orders",
 					"entries": [
-						"索兰尼亚的骑士们永远只属于他们组织中的一个骑士团。在他们的训练过程中，大多数骑士开始是王冠骑士团的成员，然后转而加入其他骑士团。无论一个角色是走这条路还是另一条路，他们都会保留他们作为一个骑士团成员所学到的东西，即使他们加入了另一个骑士团。角色可以改变他们所属的骑士团，但他们总是可以使用他们已经获得的任何索兰尼亚骑士的功绩。"
+						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
 					]
 				}
 			]
@@ -2341,11 +2341,11 @@
 				}
 			],
 			"entries": [
-				"你经过训练，掌握了轻甲的使用，获得了以下好处。",
+				"You have trained to master the use of light armor, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你获得对轻质盔甲的熟练度。"
+						"You gain proficiency with light armor."
 					]
 				}
 			]
@@ -2365,12 +2365,12 @@
 				}
 			],
 			"entries": [
-				"你研究过语言和密码，获得了以下好处。",
+				"You have studied languages and codes, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你可以选择学习三种语言。",
-						"你可以熟练地创造书面密码。其他人无法破译你创造的密码，除非你教他们，他们成功地进行智力测验（DC等于你的智力得分+你的熟练度加分），或者他们使用魔法来破译它。"
+						"You learn three languages of your choice.",
+						"You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it."
 					]
 				}
 			]
@@ -2380,10 +2380,10 @@
 			"source": "PHB",
 			"page": 167,
 			"entries": [
-				"你有莫名其妙的运气，似乎在适当的时候就会启动。",
-				"你有3点幸运点。每当你进行攻击检定、能力检定或豁免检定时，你可以花费一点幸运点额外投掷{@dice d20}。你可以选择在掷骰子后但结果确定前花费一点幸运点。你可以选择在攻击检定、能力检定或豁免检定中使用哪个{@dice d20}。",
-				"当有人对你进行攻击检定时，你也可以花费一个幸运点。投掷一个{@dice d20}，然后选择是使用攻击者的点数还是你的点数。如果有多个生物花费幸运点来影响检定结果，这些点会相互抵消；不会额外投掷骰子。",
-				"当你完成一个长时间的休息时，你会恢复你所消耗的运气值。"
+				"You have inexplicable luck that seems to kick in at just the right moment.",
+				"You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional {@dice d20}. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the {@dice d20}s is used for the attack roll, ability check, or saving throw.",
+				"You can also spend one luck point when an attack roll is made against you. Roll a {@dice d20}, and then choose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.",
+				"You regain your expended luck points when you finish a long rest."
 			]
 		},
 		{
@@ -2391,13 +2391,13 @@
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"你已经练习了在近战中对施法者有用的技巧，获得了以下好处。",
+				"You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你周围5英尺内的生物施法时，你可以用你的反应对该生物进行一次近战武器攻击。",
-						"当你对一个在法术上是{@status concentration||concentrating}的生物造成伤害时，该生物在维持其{@status concentration}的豁免投掷中拥有劣势。",
-						"你对你周围5英尺内的生物所施的法术有优势。"
+						"When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+						"When you damage a creature that is {@status concentration||concentrating} on a spell, that creature has disadvantage on the saving throw it makes to maintain its {@status concentration}.",
+						"You have advantage on saving throws against spells cast by creatures within 5 feet of you."
 					]
 				}
 			]
@@ -2547,9 +2547,9 @@
 				}
 			],
 			"entries": [
-				"选择一个类别。{@filter bard|spells|level=0;1|class=bard}, {@filter cleric|spells|level=0;1|class=cleric}, {@filter druid|spells|level=0;1|class=druid}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, {@filter warlock|spells|level=0;1|class=warlock}, 或 {@filter wizard|spells|level=0;1|class=wizard}。你从该等级的法术列表中选择学习两个咒语。",
-				"此外，从同一列表中选择一个一级法术来学习。使用这个特技，你可以在最低等级时施放一次法术，在你再次以这种方式施放之前，你必须完成一次长时间的休息。",
-				"你对这些法术的施法能力取决于你选择的等级。魅力为{@filter bard|spells|level=0;1|class=bard}、{@filter sorcerer|spells|level=0;1|class=sorcerer}或{@filter warlock|spells|level=0;1|class=warlock}；智慧为{@filter cleric|spells|level=0;1|class=cleric}或{@filter druid|spells|level=0;1|class=druid}；或智力为{@filter wizard|spells|level=0;1|class=wizard}。"
+				"Choose a class: {@filter bard|spells|level=0;1|class=bard}, {@filter cleric|spells|level=0;1|class=cleric}, {@filter druid|spells|level=0;1|class=druid}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, {@filter warlock|spells|level=0;1|class=warlock}, or {@filter wizard|spells|level=0;1|class=wizard}. You learn two cantrips of your choice from that class's spell list.",
+				"In addition, choose one 1st-level spell to learn from that same list. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.",
+				"Your spellcasting ability for these spells depends on the class you chose: Charisma for {@filter bard|spells|level=0;1|class=bard}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, or {@filter warlock|spells|level=0;1|class=warlock}; Wisdom for {@filter cleric|spells|level=0;1|class=cleric} or {@filter druid|spells|level=0;1|class=druid}; or Intelligence for {@filter wizard|spells|level=0;1|class=wizard}."
 			]
 		},
 		{
@@ -2568,12 +2568,12 @@
 				}
 			],
 			"entries": [
-				"你的武术训练使你能够进行特殊的战斗演习。你获得以下好处。",
+				"You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你从战士类的{@class fighter|phb|Battle Master|Battle Master|phb|2-0}原型中选择两个{@filter maneuvers|optionalfeatures|feature type=MV:B}进行学习。如果你使用的动作需要你的目标做一个蓄力动作来抵抗该动作的效果，蓄力动作的DC等于8+你的熟练度加成+你的力量或灵巧修饰（你选择）。",
-						"你获得一个优势骰子，这是一个{@dice d6}（这个骰子会加到你从其他来源获得的任何优势骰子上）。这个骰子被用来助长你的机动性。当你使用一个优势骰子时，它会被消耗掉。当你完成一个短期或长期的休息时，你会重新获得你所消耗的优势骰子。"
+						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the {@class fighter|phb|Battle Master|Battle Master|phb|2-0} archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+						"You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
 					]
 				}
 			]
@@ -2592,12 +2592,12 @@
 				}
 			],
 			"entries": [
-				"你已经练习了在中型盔甲中移动，以获得以下好处。",
+				"You have practiced moving in medium armor to gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"穿着中型盔甲不会对你的灵巧({@skill Stealth})检查造成不利影响。",
-						"当你穿上中型盔甲时，如果你的灵巧度达到16或更高，你可以在你的AC上增加3，而不是2。"
+						"Wearing medium armor doesn't impose disadvantage on your Dexterity ({@skill Stealth}) checks.",
+						"When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher."
 					]
 				}
 			]
@@ -2623,12 +2623,12 @@
 				}
 			],
 			"entries": [
-				"你已经学会了如何对你的法术施加你的意志来改变它们的运作方式。",
+				"You've learned how to exert your will on your spells to alter how they function:",
 				{
 					"type": "list",
 					"items": [
-						"你可以从巫师职业学习两个你选择的{@filter Metamagic|optionalfeatures|Feature Type=MM}选项。每次施放法术时，你只能使用一个元术选项，除非该选项另有说明。每当你达到能力值提升特性的等级时，你可以用巫师职业中的另一个元术选项替换其中一个。",
-						"你获得2个巫术点数，可以用在魔法上（这些点数会加到你从其他来源获得的任何巫术点数上，但只能用于魔法）。当你完成长时间的休息时，你会恢复所有花费的巫术点数。"
+						"You learn two {@filter Metamagic|optionalfeatures|Feature Type=MM} options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these Metamagic options with another one from the sorcerer class.",
+						"You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest."
 					]
 				}
 			]
@@ -2638,13 +2638,13 @@
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"你的速度特别快，而且很敏捷。你获得以下好处。",
+				"You are exceptionally speedy and agile. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你的速度增加10英尺。",
-						"当你使用{@action Dash}行动时，{@quickref difficult terrain||3}在该回合不会让你付出额外的行动。",
-						"当你对一个生物进行近战攻击时，无论你是否命中，你在回合的剩余时间内都不会激起该生物的机会攻击。"
+						"Your speed increases by 10 feet.",
+						"When you use the {@action Dash} action, {@quickref difficult terrain||3} doesn't cost you extra movement on that turn.",
+						"When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not."
 					]
 				}
 			]
@@ -2680,11 +2680,11 @@
 				}
 			],
 			"entries": [
-				"你经过训练，掌握了中型盔甲和盾牌的使用，获得了以下好处。",
+				"You have trained to master the use of medium armor and shields, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你获得对中型盔甲和盾牌的熟练度。"
+						"You gain proficiency with medium armor and shields."
 					]
 				}
 			]
@@ -2694,13 +2694,13 @@
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"你在骑马时是个危险的敌人。当你骑着马而不是{@condition incapacitated}时，你获得以下好处。",
+				"You are a dangerous foe to face while mounted. While you are mounted and aren't {@condition incapacitated}, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你对任何比你的坐骑小的非坐骑生物的近战攻击卷有优势。",
-						"你可以强迫以你的坐骑为目标的攻击转而针对你。",
-						"如果你的坐骑受到的效果允许它做一个灵巧的蓄力动作来承受一半的伤害，那么如果它蓄力动作成功，它就不会受到伤害，如果它失败，就只会受到一半的伤害。"
+						"You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.",
+						"You can force an attack targeted at your mount to target you instead.",
+						"If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
 					]
 				}
 			]
@@ -2723,12 +2723,12 @@
 				}
 			],
 			"entries": [
-				"你对于魔法在魔法物品中涌动的方式有着直觉的理解。这些物品很容易与你共鸣，你能够探寻它们的秘密。你获得以下好处：",
+				"You possess an intuitive understanding of the way magic ebbs and flows within enchanted items. Such items attune easily to you, and you are able to sound out their secrets. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你可以同时调谐最多四件魔法物品。",
-						"你可以施放{@spell identify}法术，而不需要消耗法术位或材料组件。在再次这样做之前，你必须完成一个{@quickref resting|PHB|2|0|long rest}。"
+						"You can attune to up to four magic items at once.",
+						"You can cast the {@spell identify} spell without expending a spell slot or material components. You must finish a {@quickref resting|PHB|2|0|long rest} before you can do so again."
 					]
 				}
 			]
@@ -2749,12 +2749,12 @@
 				}
 			],
 			"entries": [
-				"迅速注意到环境中的细节，你会获得以下好处。",
+				"Quick to notice details of your environment, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"如果你能看到一个生物的嘴，而它正在说一种你能理解的语言，你可以通过阅读它的嘴唇来解释它在说什么。",
-						"你在被动感知力{@skill Perception}和被动智力{@skill Investigation}得到+5的加值。"
+						"If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.",
+						"You have a +5 bonus to your passive Wisdom ({@skill Perception}) and passive Intelligence ({@skill Investigation}) scores."
 					]
 				}
 			]
@@ -2768,12 +2768,12 @@
 				}
 			],
 			"entries": [
-				"你已经学会了盗窃的诀窍，使你能够在战斗内外利用机会进行扒窃。你获得以下好处：",
+				"You have learned the tricks of the trade of thievery, allowing you to exploit opportunities for pick-pocketing both in and out of combat. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当一只生物在战斗中对你进行近战攻击并未命中时，你可以进行一个敏捷检定（{@skill Sleight of Hand}），检定 DC 为 10 + 目标的敏捷修正。若成功，你可以偷取目标未持有或穿戴的任意一件物品。",
-						"每当你成功地在战斗之外使用你的{@skill Sleight of Hand}技能来偷取一个物品时，你可以立即完美地将它藏在身上，或者将你拥有的另一个物品放在它的位置。"
+						"When a creature fails a melee attack roll against you in combat, you can make a Dexterity ({@skill Sleight of Hand}) check against a DC equal to 10 + the target's Dexterity modifier. On a success, you may steal any one item that is not being held or worn by the target.",
+						"Whenever you successfully use your {@skill Sleight of Hand} skill outside of combat to steal an object, you may immediately conceal it flawlessly on your person, or put another object you possess in its place."
 					]
 				}
 			]
@@ -2803,12 +2803,12 @@
 				}
 			],
 			"entries": [
-				"你的怒火不知疲倦地燃烧着。你获得以下好处。",
+				"Your fury burns tirelessly. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你使用{@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon}的攻击命中时，你可以额外掷出武器的一个伤害骰子，并将其作为武器的伤害类型的额外伤害。一旦你使用这个能力，你就不能再使用它，直到你完成一个短期或长期休息。",
-						"在你使用你的无情耐力特质后，你可以立即使用你的反应来进行一次武器攻击。"
+						"When you hit with an attack using a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon}, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type. Once you use this ability, you can't use it again until you finish a short or long rest.",
+						"Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack."
 					]
 				}
 			]
@@ -2841,7 +2841,7 @@
 				}
 			],
 			"entries": [
-				"你在锡基尔（Sigil）或外域（the Outlands）花费了大量时间，这是多元宇宙的交汇之地。沉浸在不同位面能量交汇中使你获得以下好处：",
+				"You have spent significant time in Sigil or the Outlands, the crossroads of the multiverse. Being steeped in converging planar energies grants you these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -2850,7 +2850,7 @@
 							"type": "item",
 							"name": "Crossroads Emissary",
 							"entries": [
-								"你学会了{@spell misty step}和{@spell tongues}法术。你可以使用这个专长施放每个法术一次，而无需使用法术槽，但在再次以这种方式施放该法术之前，你必须完成一次长休。当你使用这个专长施放{@spell tongues}时，你不需要任何材料组件。你也可以使用你拥有的适当等级的法术槽来施放这些法术。这些法术的施法能力是在你获得外域之子专长时选择的那个。"
+								"You learn the {@spell misty step} and {@spell tongues} spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast {@spell tongues} using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat."
 							]
 						}
 					]
@@ -2867,13 +2867,13 @@
 				}
 			],
 			"entries": [
-				"长期生活在高处的经验教会了你如何更优雅地摔倒。你获得以下好处：",
+				"Years of living at great heights have taught you how to fall more gracefully. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"将坠落伤害的伤害骰从d6减少到d4。",
-						"受到坠落伤害后，你不会倒地。",
-						"你在跌落的前30英尺内不会受到伤害。"
+						"Reduce the damage die for fall damage from a d6 to a d4.",
+						"You do not fall prone after taking falling damage.",
+						"You do not take damage for the first 30 feet of your fall."
 					]
 				}
 			]
@@ -2894,12 +2894,12 @@
 				}
 			],
 			"entries": [
-				"你在战斗中达到了透彻的精确性，使你获得以下好处。",
+				"You have achieved a penetrating precision in combat, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"每回合一次，当你用造成穿刺伤害的攻击击中一个生物时，你可以重新掷出攻击的一个伤害骰子，并且你必须使用新的骰子。",
-						"当你的关键一击对一个生物造成穿刺伤害时，你可以在决定目标受到的额外穿刺伤害时，滚动一个额外的伤害模子。"
+						"Once per turn, when you hit a creature with an attack that deals piercing damage, you can reroll one of the attack's damage dice, and you must use the new roll.",
+						"When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes."
 					]
 				}
 			]
@@ -2917,7 +2917,7 @@
 				}
 			],
 			"entries": [
-				"你可以借助多元宇宙的力量来应对宇宙的极端环境，并穿越其无尽的领域，为你带来这些好处：",
+				"You can draw on the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms, granting you these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -2926,21 +2926,21 @@
 							"type": "item",
 							"name": "Planar Adaptation",
 							"entries": [
-								"当你完成长期休息时，你获得对酸、冷或火伤害的抗性（你选择），直到你完成下一次长期休息。"
+								"When you finish a long rest, you gain resistance to either acid, cold, or fire damage (your choice) until you finish your next long rest."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Portal Cracker",
 							"entries": [
-								"你对传送门的经验使你能够在没有传送钥匙的情况下打开它们。作为一个动作，你可以集中精力在你意识到的距离自己5英尺内的传送门上，并进行一次 DC 20 智力检定。如果检定失败，你会受到 {@damage 3d8} 精神伤害，并且在完成一次长休之前无法再次使用这个能力。如果检定成功，你可以强制打开或关闭传送门1小时。在此期间，传送门不会对其传送钥匙做出响应，除非使用钥匙的生物以一个动作进行一次 DC 20 智力检定。"
+								"Your experience with portals allows you to open them without a portal key. As an action, you can concentrate on a portal you're aware of that is within 5 feet of yourself and make a DC 20 Intelligence ({@skill Arcana}) check. On a failed check, you take {@damage 3d8} psychic damage and can't use this benefit on that portal again until you finish a long rest. On a successful check, you can force the portal open or closed for 1 hour. For that duration, the portal doesn't respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence ({@skill Arcana}) check as an action."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Portal Sense",
 							"entries": [
-								"当你和传送门位于同一存在平面上时，你知道最后一个使用过的传送门的方向。此外，作为一个动作，你可以探测到距离你不超过30英尺的任何传送门的位置，前提是它们没有被完全遮挡。一旦你使用这个动作探测到一个传送门，直到完成一次长休息前，你不能再次使用这个动作。"
+								"You know the direction to the last planar portal you used while you and the portal are on the same plane of existence. Moreover, as an action, you can detect the location of any portals within 30 feet of you that aren't behind total cover. Once you detect a portal with this action, you can't use the action again until you finish a long rest."
 							]
 						}
 					]
@@ -2958,13 +2958,13 @@
 				}
 			],
 			"entries": [
-				"你可以准备和提供致命的毒药，给予你以下的好处。",
+				"You can prepare and deliver deadly poisons, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你做一个造成毒药伤害的伤害卷时，它无视对毒药伤害的抵抗。",
-						"你可以对武器或弹药施加毒药，作为一个额外动作，而不是一个动作。",
-						"如果你还没有熟练度，你将获得{@item poisoner's kit|phb}的熟练加值。使用{@item poisoner's kit|phb}并消耗价值50gp的材料，你可以在一个小时内制作出等同于你的熟练加值的剧毒剂量。一旦涂抹在武器或弹药上，毒药将保持有效性1分钟，或者直到你用该武器或弹药命中目标。当生物受到涂有毒药的武器或弹药造成的伤害时，该生物必须通过一次DC 14的体质豁免才能免疫受到{@damage 2d8}毒性伤害，并在你的下一个回合结束前变成{@condition poisoned}。"
+						"When you make a damage roll that deals poison damage, it ignores resistance to poison damage.",
+						"You can apply poison to a weapon or piece of ammunition as a bonus action, instead of an action.",
+						"You gain proficiency with the {@item poisoner's kit|phb} if you don't already have it. With one hour of work using a {@item poisoner's kit|phb} and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied to a weapon or piece of ammunition, the poison retains its potency for 1 minute or until you hit with the weapon or ammunition. When a creature takes damage from the coated weapon or ammunition, that creature must succeed on a DC 14 Constitution saving throw or take {@damage 2d8} poison damage and become {@condition poisoned} until the end of your next turn."
 					]
 				}
 			]
@@ -2974,12 +2974,12 @@
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"你可以用伸手不见五指的武器让你的敌人望而却步。你获得以下好处。",
+				"You can keep your enemies at bay with reach weapons. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你采取{@action Attack}行动并只用{@item glaive|phb}、{@item halberd|phb}、{@item quarterstaff|phb}或{@item spear|phb}进行攻击时，你可以使用一个额外行动，用武器的另一端进行近战攻击；这次攻击使用与主攻击相同的能力修改器。这次攻击的武器伤害模数为{@dice d4}，攻击造成重击伤害。",
-						"当你挥舞{@item glaive|phb}、{@item halberd|phb}、{@item pike|phb}、{@item quarterstaff|phb}或{@item spear|phb}的武器时，其他生物进入你的武器范围时，会引发你的一次机会攻击。"
+						"When you take the {@action Attack} action and attack with only a {@item glaive|phb}, {@item halberd|phb}, {@item quarterstaff|phb}, or {@item spear|phb}, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and the attack deals bludgeoning damage.",
+						"While you are wielding a {@item glaive|phb}, {@item halberd|phb}, {@item pike|phb}, {@item quarterstaff|phb}, or {@item spear|phb}, other creatures provoke an opportunity attack from you when they enter the reach you have with that weapon."
 					]
 				}
 			]
@@ -3040,12 +3040,12 @@
 				}
 			],
 			"entries": [
-				"你有学习新事物的诀窍。你会获得以下好处。",
+				"You have a knack for learning new things. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你获得一个{@table skills|phb|skill proficiency}的选择，一个{@filter tool proficiency|items|type=tool;artisan's tools}的选择，以及你选择的一种语言的流利程度。",
-						"选择一个你已经熟练掌握的技能。你获得该技能的专长，这意味着你用该技能进行任何能力检查时，你的熟练度加成都会翻倍。你选择的技能必须是一个还没有受益于某种特性的技能，比如说 \"专长\"，它可以使你的熟练度加分翻倍。"
+						"You gain one {@table skills|phb|skill proficiency} of your choice, one {@filter tool proficiency|items|type=tool;artisan's tools} of your choice, and fluency in one language of your choice.",
+						"Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
 					]
 				}
 			]
@@ -3086,30 +3086,30 @@
 				}
 			],
 			"entries": [
-				"你已经掌握了即时发明、改进和偷工减料的艺术。只要有时间和充足的乙醚供应，你可以利用你的天赋创造出类似于法术的即时、短期的魔法效果。",
-				"当你选择这项特技时，你掌握了两个魔法效果，每个效果都能重现一个具有仪式标签的一级法术的效果。这些法术可以来自任何类别的列表，但智力是你对它们的施法能力。",
-				"如果你遇到一个针对流星锤的原理图，或者向另一个流星锤学习，你也许能在你掌握的效果上再加一个法术。这个法术的等级不能高于你等级的一半（四舍五入），而且必须有仪式标签。掌握法术的过程中，每一级的法术需要2小时，每一级需要花费50金币。该费用代表你在实验法术效果时使用的乙太，以掌握它。",
-				"此外，你对{@item artisan's tools|PHB}(流星锤工具)的熟练程度。使用这些工具，你可以花1小时和价值10戈比的材料来建造一个微小的发条装置（AC 5，1马力）。该装置在24小时后停止工作，除非你花1小时修理它以保持其功能。你可以用你的行动来拆除这个装置，这时你可以回收用来制造它的材料。你一次最多可以拥有三个这样的装置。",
-				"当你创建一个设备时，选择以下选项之一。",
+				"You have mastered the art of on-the-fly invention, improvement, and jury-rigging. You can use your talents to create immediate, short-term magical effects similar to spells, given time and an adequate supply of aether.",
+				"When you choose this feat, you master two magical effects, each of which recreates the effect of a 1st-level spell that has the ritual tag. These spells can come from any class list, but Intelligence is your spellcasting ability for them.",
+				"If you come across a schematic geared toward quicksmithing or study with another quicksmith, you might be able to add another spell to the effects you have mastered. The spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of mastering the spell takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents aether you use as you experiment with the spell effect to master it.",
+				"In addition, you have proficiency with {@item artisan's tools|PHB} (quicksmith's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours unless you spend 1 hour repairing it to keep it functioning. You can use your action to dismantle the device, at which point you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+				"When you create a device, choose one of the following options:",
 				{
 					"type": "entries",
 					"name": "Clockwork Toy",
 					"entries": [
-						"这个玩具是一个发条动物、怪物或人，如青蛙、老鼠、鸟、龙或士兵。当放置在地面上时，该玩具在你每个回合都会在地面上以随机方向移动5英尺。它发出的声音与它所代表的生物相应。"
+						"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Fire Starter",
 					"entries": [
-						"这个装置会产生一个微型火焰，你可以用它来点燃蜡烛、火把或营火。使用这个装置需要你的行动。"
+						"This device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Music Box",
 					"entries": [
-						"当打开时，这个音乐盒以适度的音量播放一首歌曲。当它达到歌曲的终点或关闭时，盒子就会停止播放。"
+						"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
 					]
 				}
 			]
@@ -3124,12 +3124,12 @@
 				}
 			],
 			"entries": [
-				"你的身体具有快速从严重伤势中恢复的能力，并且对治愈魔法异常敏感。你获得以下好处：",
+				"Your body has the ability to recover quickly from terrible injuries, and is unusually receptive to healing magic. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你成功稳定身亡状态时，你会恢复相当于你体质调整值的生命值（最少为1）。（Constitution）",
-						"每当你因为法术、药水或职业特性（但不包括此特性）而恢复生命值时，你额外恢复的生命值等于你的体质调整值（最少为1）。"
+						"When you are successfully stabilized while dying, you regain hit points equal to your Constitution modifier (minimum of 1).",
+						"Whenever you regain hit points as a result of a spell, potion, or class feature (but not this feat), you regain additional hit points equal to your Constitution modifier (minimum of 1)."
 					]
 				}
 			]
@@ -3150,7 +3150,7 @@
 							"cha"
 						],
 						"amount": 1,
-						"entry": "将所选择的能力分数提高1，最高为20。"
+						"entry": "Increase the chosen ability score by 1, to a maximum of 20."
 					}
 				}
 			],
@@ -3169,11 +3169,11 @@
 				}
 			],
 			"entries": [
-				"选择一个能力得分。你获得以下好处。",
+				"Choose one ability score. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你在使用所选择的能力时获得熟练的救赎动作。"
+						"You gain proficiency in saving throws using the chosen ability."
 					]
 				}
 			]
@@ -3203,12 +3203,12 @@
 				}
 			],
 			"entries": [
-				"你是一位{@item double-bladed scimitar|ERLW}大师的后裔，该大师的一些技能已经传给了你。你获得以下好处。",
+				"You are descended from a master of the {@item double-bladed scimitar|ERLW}, and some of that mastery has passed on to you. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你双手持双刃弯刀时，你获得+1的装甲等级加成。",
-						"当你挥舞双刃弯刀时，它具有细腻的属性。"
+						"While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.",
+						"A double-bladed scimitar has the finesse property when you wield it."
 					]
 				}
 			]
@@ -3241,7 +3241,7 @@
 				}
 			],
 			"entries": [
-				"你可以引导善良的宇宙力量来获得这些好处：",
+				"You can channel cosmic forces of good to gain these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -3250,7 +3250,7 @@
 							"type": "item",
 							"name": "Soothe Pain",
 							"entries": [
-								"当你或你周围30英尺范围内的生物受到伤害时，你可以使用你的反应来减少伤害，减少量为{@dice 1d10} + 你的熟练加值。你可以使用这个效果的次数等同于你的熟练加值，并且当你完成一次长休后，你会恢复所有已用次数。"
+								"When you or a creature within 30 feet of you takes damage, you can use your reaction to reduce that damage by {@dice 1d10} + your proficiency bonus. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -3372,9 +3372,9 @@
 				}
 			],
 			"entries": [
-				"你已经学会了一些咒语，你可以作为仪式来施展这些咒语。这些法术都写在一本仪式书中，你在施放其中一个法术时必须拿着它。",
-				"当你选择这项特技时，你会获得一本装有两个你选择的一级法术的仪式书。从以下类别中选择一个。{@filter bard|spells|level=1|class=bard|components & miscellaneous=ritual}, {@filter cleric|spells|level=1|class=cleric|components & miscellaneous=ritual}, {@filter druid|spells|level=1|class=druid|components & miscellaneous=ritual}, {@filter sorcerer|spells|level=1|class=sorcerer|components & miscellaneous=ritual}, {@filter warlock|spells|level=1|class=warlock|components & miscellaneous=ritual} 或 {@filter wizard|spells|level=1|class=wizard|components & miscellaneous=ritual}。你必须从该等级的法术列表中选择你的法术，而且你选择的法术必须有仪式标签。你选择的类别也决定了你对这些法术的施法能力。吟游诗人、巫师或术士的魅力；牧师或德鲁伊的智慧；或巫师的智力。",
-				"如果你在书面形式中遇到一个咒语，比如一个神奇的{@item spell scroll}或一个巫师的咒语书，你可能能够将它添加到你的仪式书中。这个咒语必须在你选择的职业的咒语列表中，咒语的等级不能高于你等级的一半（四舍五入），并且必须有仪式标签。将咒语复制到你的仪式书中的过程需要每个咒语等级2小时的时间，并且每个等级需要50金币。这个费用代表你在尝试掌握这个咒语时消耗的材料成分，以及你记录它所需的优质墨水。"
+				"You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.",
+				"When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: {@filter bard|spells|level=1|class=bard|components & miscellaneous=ritual}, {@filter cleric|spells|level=1|class=cleric|components & miscellaneous=ritual}, {@filter druid|spells|level=1|class=druid|components & miscellaneous=ritual}, {@filter sorcerer|spells|level=1|class=sorcerer|components & miscellaneous=ritual}, {@filter warlock|spells|level=1|class=warlock|components & miscellaneous=ritual}, or {@filter wizard|spells|level=1|class=wizard|components & miscellaneous=ritual}. You must choose your spells from that class's spell list, and the spells you choose must have the ritual tag. The class you choose also determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.",
+				"If you come across a spell in written form, such as a magical {@item spell scroll} or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it."
 			],
 			"hasFluffImages": true
 		},
@@ -3409,7 +3409,7 @@
 				}
 			],
 			"entries": [
-				"你已经学习了巨人符文的魔法，获得以下好处：",
+				"You've studied the magic of Giant runes, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -3418,16 +3418,16 @@
 							"type": "item",
 							"name": "Comprehend Languages",
 							"entries": [
-								"你学会了{@spell comprehend languages}法术。你可以在不消耗法术位的情况下施展这个法术，但在这种方式下你必须完成一次长休才能再次施展。你也可以使用你拥有的任何法术位来施展这个法术。"
+								"You learn the {@spell comprehend languages} spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Rune Magic",
 							"entries": [
-								"你知道一些符文，数量等于你熟练加值的一半（向下取整），从符文法术表中选择。每当你完成一次长休，你可以将你所知道的每个符文铭刻在你触摸的一个非魔法武器、盔甲、衣物或其他物品上。你暂时学会与你铭刻的符文对应的1级法术，如符文法术表所指定的那样，直到你完成一次长休，符文消失为止。当你穿戴或携带任何带有符文的物品时，你可以使用你拥有的任何法术位施放与那些符文相关的法术。",
-								"你也可以激活你所佩戴或携带的物品上刻有的符文，并施放其相关法术，而无需消耗法术位或使用材料组件。一旦以这种方式施放了法术，你必须完成一次长休才能再次这样做。你在使用这个特性施法时的法术属性为智力、感知或魅力（在选择这个特性时选择）。",
-								"每次你升级时，你可以用符文法术表中的另一个符文来替换你已经掌握的一个符文。",
+								"You know a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have.",
+								"You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for this feat is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+								"Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table.",
 								{
 									"type": "table",
 									"colStyles": [
@@ -3440,19 +3440,19 @@
 									],
 									"rows": [
 										[
-											"云",
+											"Cloud",
 											"{@spell Fog cloud}"
 										],
 										[
-											"死亡",
+											"Death",
 											"{@spell Inflict wounds}"
 										],
 										[
-											"蜻蜓点水",
+											"Dragon",
 											"{@spell Chromatic orb}"
 										],
 										[
-											"敌人",
+											"Enemy",
 											"{@spell Disguise self}"
 										],
 										[
@@ -3460,11 +3460,11 @@
 											"{@spell Burning hands}"
 										],
 										[
-											"朋友",
+											"Friend",
 											"{@spell Speak with animals}"
 										],
 										[
-											"霜冻",
+											"Frost",
 											"{@spell Armor of Agathys}"
 										],
 										[
@@ -3472,7 +3472,7 @@
 											"{@spell Goodberry}"
 										],
 										[
-											"旅程",
+											"Journey",
 											"{@spell Longstrider}"
 										],
 										[
@@ -3480,15 +3480,15 @@
 											"{@spell Command}"
 										],
 										[
-											"山地",
+											"Mountain",
 											"{@spell Entangle}"
 										],
 										[
-											"石头",
+											"Stone",
 											"{@spell Sanctuary}"
 										],
 										[
-											"风暴",
+											"Storm",
 											"{@spell Thunderwave}"
 										]
 									]
@@ -3504,7 +3504,7 @@
 			"source": "PHB",
 			"page": 169,
 			"entries": [
-				"每回合一次，当你为近战武器攻击掷出伤害时，你可以重新掷出武器的伤害骰子，并使用其中一个总数。"
+				"Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total."
 			]
 		},
 		{
@@ -3609,7 +3609,7 @@
 				}
 			],
 			"entries": [
-				"你与外域的连接使你充满那里的能量。选择在外域灌输表中列出的一个外域类型。你的选择让你对一种伤害类型具有抗性，并且可以施展一个指定的杂耍。你可以在没有材料组件的情况下施展这个杂耍，而且你施法这个杂耍的属性为智力、感知或魅力（在选择这个特性时选择）。",
+				"Your connection to an Outer Plane infuses you with the energy there. Choose a type of plane listed in the Planar Infusion table. Your choice gives you resistance to a damage type and the ability to cast a cantrip, as specified in the table. You can cast this cantrip without material components, and your spellcasting ability for it is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
 				{
 					"type": "table",
 					"colStyles": [
@@ -3624,28 +3624,28 @@
 					],
 					"rows": [
 						[
-							"混乱的外部世界",
-							"毒药",
+							"Chaotic Outer Plane",
+							"Poison",
 							"{@spell Minor illusion}"
 						],
 						[
-							"邪恶的外层世界",
-							"坏死的",
+							"Evil Outer Plane",
+							"Necrotic",
 							"{@spell Chill touch}"
 						],
 						[
-							"良好的外部平面",
-							"辐射",
+							"Good Outer Plane",
+							"Radiant",
 							"{@spell Sacred flame}"
 						],
 						[
-							"合法的外部世界",
-							"力量 (Force)",
+							"Lawful Outer Plane",
+							"Force",
 							"{@spell Guidance}"
 						],
 						[
-							"外地",
-							"通灵",
+							"The Outlands",
+							"Psychic",
 							"{@spell Mage hand}"
 						]
 					]
@@ -3678,11 +3678,11 @@
 				}
 			],
 			"entries": [
-				"当有人试图打击你时，命运会眷顾你。你会获得以下好处。",
+				"Fortune favors you when someone tries to strike you. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当一个你能看到的生物用攻击卷打中你时，你可以用你的反应来迫使该生物重新滚动。一旦你使用这个能力，你就不能再使用它，直到你在战斗开始时掷出主动权，或者直到你完成一个短期或长期休息。"
+						"When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can't use it again until you roll initiative at the start of combat or until you finish a short or long rest."
 					]
 				}
 			]
@@ -3692,13 +3692,13 @@
 			"source": "PHB",
 			"page": 169,
 			"entries": [
-				"你已经掌握了在任何敌人的防守中利用每一个漏洞的技术，获得了以下好处。",
+				"You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你用机会攻击击中一个生物时，该生物的速度在回合的剩余时间内变为0。",
-						"即使它们在离开你的攻击范围前采取了{@action Disengage}动作，生物也会激起你的机会攻击。",
-						"当你周围5英尺内的生物对你以外的目标进行攻击时（且该目标没有此特技），你可以使用你的反应对攻击的生物进行近战武器攻击。"
+						"When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.",
+						"Creatures provoke opportunity attacks from you even if they take the {@action Disengage} action before leaving your reach.",
+						"When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature."
 					]
 				}
 			]
@@ -3728,9 +3728,9 @@
 				}
 			],
 			"entries": [
-				"你擅长制造{@creature servo|psk|servos}——作为个人助手的微型构造体。你可以施展{@spell find familiar}法术作为仪式，创造一个{@creature servo|psk}作为你的使魔，而不是动物。一个{@creature servo|psk}的属性出现在本文件的“神器生物”部分。在其他方面，一个构造体使魔的功能与{@spell find familiar}法术描述的一样。",
-				"只要你们在同一个存在平面上，你就能与你熟悉的伺服机进行心灵感应，并通过其感官进行感知。你可以通过你的伺服机用自己的声音说话。",
-				"此外，当你采取{@action Attack}的行动时，你可以放弃你自己的一次攻击，以允许你的伺服熟悉物进行一次自己的攻击。"
+				"You are skilled in the creation of {@creature servo|psk|servos}\u2014tiny constructs that function as personal assistants. You can cast the {@spell find familiar} spell as a ritual, creating a {@creature servo|psk} to serve as your familiar instead of an animal. A {@creature servo|psk}'s statistics appear in the \"Artifact Creatures\" section of this document. In every other way, a servo familiar functions as described in the {@spell find familiar} spell.",
+				"You can communicate telepathically with your servo familiar and perceive through its senses as long as you are on the same plane of existence. You can speak through your servo in your own voice.",
+				"Additionally, when you take the {@action Attack} action, you can forgo one of your own attacks to allow your servo familiar to make one attack of its own."
 			],
 			"hasFluffImages": true
 		},
@@ -3768,11 +3768,11 @@
 				}
 			],
 			"entries": [
-				"你对影子城的魔法的接触改变了你，使你获得了以下好处。",
+				"Your exposure to the Shadowfell's magic has changed you, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你学会了{@spell invisibility}的法术和一个你选择的{@filter 1st-level spell|spells|level=1|school=I;N}。{@filter 1st-level spell|spells|level=1|school=I;N}必须是来自幻术或死灵学派的魔法。你可以在不耗费法术槽的情况下施展这些法术中的每一个。一旦你以这种方式施展了这些法术中的任何一个，你就不能再以这种方式施展该法术，直到你完成一个长时间的休息。你也可以用你拥有的相应等级的法术槽来施放这些法术。法术的施法能力是由这个特技增加的能力。"
+						"You learn the {@spell invisibility} spell and one {@filter 1st-level spell|spells|level=1|school=I;N} of your choice. The {@filter 1st-level spell|spells|level=1|school=I;N} must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
 					]
 				}
 			]
@@ -3782,13 +3782,13 @@
 			"source": "PHB",
 			"page": 170,
 			"entries": [
-				"你已经掌握了远程武器，可以进行别人认为不可能的射击。你获得以下好处。",
+				"You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"远距离攻击不会对你的远程武器攻击卷轴造成不利影响。",
-						"你的远程武器攻击无视半掩体和四分之三掩体。",
-						"在你使用你精通的远程武器进行攻击之前，你可以选择对攻击卷进行-5的惩罚。如果攻击命中，你会在攻击的伤害上增加+10。"
+						"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
+						"Your ranged weapon attacks ignore half cover and three-quarters cover.",
+						"Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage."
 					]
 				}
 			]
@@ -3798,13 +3798,13 @@
 			"source": "PHB",
 			"page": 170,
 			"entries": [
-				"你使用盾牌不仅仅是为了保护，也是为了进攻。当你挥舞{@item shield|phb}时，你获得以下好处。",
+				"You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a {@item shield|phb}:",
 				{
 					"type": "list",
 					"items": [
-						"如果你在你的回合中采取{@action Attack}的行动，你可以使用一个额外的行动，尝试用你的盾牌对你5英尺内的生物进行{@action shove}。",
-						"如果你不是{@condition incapacitated}，你可以在针对只有你的法术或其他有害效果的敏捷豁免检定中，将你盾牌的AC加值加到你的豁免检定中。",
-						"如果你受到的效果允许你做一个灵巧的蓄力动作来承受一半的伤害，如果你蓄力动作成功，你可以使用你的反应来不受伤害，在你和效果的来源之间插入你的盾牌。"
+						"If you take the {@action Attack} action on your turn, you can use a bonus action to try to {@action shove} a creature within 5 feet of you with your shield.",
+						"If you aren't {@condition incapacitated}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
+						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect."
 					]
 				}
 			]
@@ -3860,12 +3860,12 @@
 				}
 			],
 			"entries": [
-				"你已经磨练了你对特定技能的熟练程度，赋予你以下好处。",
+				"You have honed your proficiency with particular skills, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你在选择中获得熟练技能一项 {@table skills|phb|skill}。",
-						"选择一个你已经熟练掌握的技能。你获得该技能的专长，这意味着你用该技能进行任何能力检查时，你的熟练度加成都会翻倍。你选择的技能必须是一个还没有受益于某种特性的技能，比如说 \"专长\"，它可以使你的熟练度加分翻倍。"
+						"You gain proficiency in one {@table skills|phb|skill} of your choice.",
+						"Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
 					]
 				}
 			]
@@ -3888,7 +3888,7 @@
 				}
 			],
 			"entries": [
-				"你可以选择任意组合三种技能{@table skills|phb}或{@filter tools|items|type=tools;artisan's tools;instrument;gaming set;vehicle (land);vehicle (water)}来获得熟练加值。"
+				"You gain proficiency in any combination of three {@table skills|phb} or {@filter tools|items|type=tools;artisan's tools;instrument;gaming set;vehicle (land);vehicle (water)} of your choice."
 			]
 		},
 		{
@@ -3905,13 +3905,13 @@
 				}
 			],
 			"entries": [
-				"你是在阴影中溜达的专家。你获得以下好处。",
+				"You are expert at slinking through shadows. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你被你要躲避的生物轻度遮挡时，你可以尝试躲避。",
-						"当你躲避一个生物，并且用远程武器攻击错过它时，进行攻击不会暴露你的位置。",
-						"昏暗的光线不会对你依赖视觉的智慧({@skill Perception})检查造成不利影响。"
+						"You can try to hide when you are lightly obscured from the creature from which you are hiding.",
+						"When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.",
+						"Dim light doesn't impose disadvantage on your Wisdom ({@skill Perception}) checks relying on sight."
 					]
 				}
 			]
@@ -3932,12 +3932,12 @@
 				}
 			],
 			"entries": [
-				"你已经学会了在哪里切割才能有最大的效果，给予你以下好处。",
+				"You've learned where to cut to have the greatest results, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"每回合一次，当你用攻击击中一个生物并造成砍击伤害时，你可以将目标的速度降低10英尺，直到你下一回合开始。",
-						"当你的关键一击对一个生物造成砍击伤害时，你会使它严重受伤。在你下一个回合开始之前，目标在所有攻击卷轴上都处于劣势。"
+						"Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn.",
+						"When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls."
 					]
 				}
 			]
@@ -3967,7 +3967,7 @@
 				}
 			],
 			"entries": [
-				"你已经显现出了风暴巨人象征的风暴魔法，为你带来以下好处：",
+				"You've manifested the tempest magic emblematic of storm giants, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -3976,7 +3976,7 @@
 							"type": "item",
 							"name": "Maelstrom Aura",
 							"entries": [
-								"作为一个奖励动作，你让自己被一股魔法风暴和闪电环绕，范围延伸到你周围10英尺的每个方向，但不能穿过完全遮挡物。这个光环持续到你的下一个回合开始，或者直到你失去行动能力。当光环激活时，你对闪电和雷电伤害具有抗性。此外，对你的攻击投掷有劣势，每当另一个生物在光环内开始其回合时，你可以强迫该生物进行一次力量豁免投掷（豁免 DC 为 8 + 你的熟练加值 + 由此特性增加的能力调整值）。未通过豁免的生物的速度减半，直到其下一个回合开始。你可以使用这个奖励动作的次数等同于你的熟练加值，当你完成一次长休后，你会恢复所有已用次数。"
+								"As a bonus action, you surround yourself with an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, you have resistance to lightning and thunder damage. In addition, attack rolls against you have disadvantage, and whenever another creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, the creature's speed is halved until the start of its next turn. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -3993,13 +3993,13 @@
 				}
 			],
 			"entries": [
-				"你与自然界有着特殊的联系。伟大的巨兽将你视为同类，你拥有与它们中最强大和神秘的种类交流的能力。你获得以下好处：",
+				"You have a special connection with the natural world. Great beasts regard you as their kin, and you possess the ability to speak the languages of the most powerful and mystic of their kind. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"除非你主动攻击它们，否则大型或更大体型的野兽对你有友好的态度。",
-						"你对于对大型或更大体型的野兽进行的魅力检定获得优势。",
-						"你能够说和理解巨鹰(Giant Eagle)、巨麋(Giant Elk)和巨鸮(Giant Owl)。否则，任何一只大型或更大的野兽都能听懂你，无论它们是否会说语言。智力分数为4或更低的野兽可能只能理解简单的概念。"
+						"Beasts of Large size or larger have a friendly disposition toward you unless you have attacked them.",
+						"You have advantage on Charisma checks made against beasts that are of Large size or larger.",
+						"You can speak and understand Giant Eagle, Giant Elk, and Giant Owl. You can otherwise be understood by any beast of Large size or larger, whether or not they speak a language. Beasts with Intelligence scores of 4 or lower may only be able to understand simple concepts."
 					]
 				}
 			]
@@ -4088,13 +4088,13 @@
 				}
 			],
 			"entries": [
-				"你已经学会了用某些种类的法术增强你的攻击的技巧，获得了以下好处。",
+				"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你施展一个需要你进行攻击卷的法术时，该法术的范围会加倍。",
-						"你的远程法术攻击无视半掩体和四分之三掩体。",
-						"你学习一个需要攻击卷的咒语。从{@filter bard|spells|level=0|class=bard|spell attack=m;r;o}、{@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}、{@filter druid|spells|level=0|class=druid|spell attack=m;r;o}、{@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}、{@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}或{@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o}的法术列表中选择该咒语。你对这个咒语的施法能力取决于你选择的咒语列表：吟游诗人、巫师或术士的魅力；牧师或德鲁伊的智慧；或巫师的智力。"
+						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+						"Your ranged spell attacks ignore half cover and three-quarters cover.",
+						"You learn one cantrip that requires an attack roll. Choose the cantrip from the {@filter bard|spells|level=0|class=bard|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}, {@filter druid|spells|level=0|class=druid|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}, or {@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
 					]
 				}
 			]
@@ -4110,14 +4110,14 @@
 				}
 			],
 			"entries": [
-				"通过深入的专注、训练和奉献，你掌握了快速施法的技巧。",
-				"当你使用你的奖励动作施放1级或更高级别的法术时，你也可以使用你的行动来施放另一个1级或更高级别的法术。然而，如果你在一个回合内施放两个或更多法术，其中只有一个可以是3级或更高级别的。",
+				"Through intense focus, training, and dedication, you've harnessed the techniques of rapid spellcasting.",
+				"When you use your bonus action to cast a spell of 1st level or higher, you can also use your action to cast another spell of 1st level or higher. However, if you cast two or more spells in a single turn, only one of them can be 3rd level or higher.",
 				{
 					"type": "inset",
 					"name": "Rules Tip: Casting Multiple Spells",
 					"page": 190,
 					"entries": [
-						"通常，当你将一个法术作为奖励动作施放时，除非那个法术是一个零级法术—{@note see {@book PHB p202|PHB|10|Bonus Action}，否则你不能在同一回合使用你的动作来施放法术。《法术驱动者》特性消除了这一限制，但在同一回合内聚焦多个法术的必要性仍然限制了这些法术的总体威力。"
+						"Normally, when you cast a spell as a bonus action, you can't use your action to also cast a spell that turn unless that spell is a cantrip\u2014{@note see {@book PHB p202|PHB|10|Bonus Action}.} The Spelldriver feat removes that restriction, but the focus necessary to channel multiple spells in the same round still limits the overall power of those spells."
 					]
 				}
 			]
@@ -4161,13 +4161,13 @@
 				}
 			],
 			"entries": [
-				"对于你的种族来说，你是不寻常的灵活。你获得以下好处。",
+				"You are uncommonly nimble for your race. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"将你的行走速度提高5英尺。",
-						"你获得{@skill Acrobatics}或{@skill Athletics}技能的熟练度（你选择）。",
-						"你在任何力量({@skill Athletics})或灵巧({@skill Acrobatics})的检查中都有优势，以逃避被{@condition grappled}。"
+						"Increase your walking speed by 5 feet.",
+						"You gain proficiency in the {@skill Acrobatics} or {@skill Athletics} skill (your choice).",
+						"You have advantage on any Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check you make to escape from being {@condition grappled}."
 					]
 				}
 			]
@@ -4214,7 +4214,7 @@
 				}
 			],
 			"entries": [
-				"你在索兰尼亚骑士团的训练中获得了这些好处。",
+				"Your training in the ways of the Knights of Solamnia grants you these benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -4223,14 +4223,14 @@
 							"type": "item",
 							"name": "Mount Up",
 							"entries": [
-								"安装或卸载只需花费5英尺的移动距离。"
+								"Mounting or dismounting costs you only 5 feet of movement."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Precise Strike",
 							"entries": [
-								"每回合一次，当你对一只生物进行武器攻击检定时，你可以使攻击检定具有优势。如果攻击命中，你可以投掷一个{@dice d8}，并将投掷的数字作为奖励添加到攻击的伤害检定中。你可以使用这个效果的次数等同于你的熟练加值，但只有在攻击命中时才会消耗一次使用。当你完成一次长休时，你将恢复所有已消耗的使用次数。"
+								"Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a {@dice d8} and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -4239,7 +4239,7 @@
 					"type": "inset",
 					"name": "Membership in Knightly Orders",
 					"entries": [
-						"索兰尼亚的骑士们永远只属于他们组织中的一个骑士团。在他们的训练过程中，大多数骑士开始是王冠骑士团的成员，然后转而加入其他骑士团。无论一个角色是走这条路还是另一条路，他们都会保留他们作为一个骑士团成员所学到的东西，即使他们加入了另一个骑士团。角色可以改变他们所属的骑士团，但他们总是可以使用他们已经获得的任何索兰尼亚骑士的功绩。"
+						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
 					]
 				}
 			]
@@ -4266,49 +4266,49 @@
 				}
 			],
 			"entries": [
-				"你吸收了原始魔法，获得了巨人力量的回音。当你选择这个特性时，请从下面列出的好处中选择一个。每回合一次，当你用近战武器攻击或投掷武器进行远程武器攻击击中目标时，你可以赋予这次攻击额外效果，具体效果取决于你选择的好处：",
+				"You have absorbed primeval magic that gives you an echo of the might of giants. When you take this feat, choose one of the benefits listed below. Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with an additional effect depending on the benefit you chose:",
 				{
 					"type": "entries",
 					"name": "Cloud Strike",
 					"entries": [
-						"目标受到额外{@damage 1d4}的雷电伤害。如果目标是一只生物，它必须成功通过一次感知豁免才能看见你，直到你下一回合开始之前，或者直到你进行一次攻击骰或施放一个法术之后。"
+						"The target takes an extra {@damage 1d4} thunder damage. If the target is a creature, it must succeed on a Wisdom saving throw, or you become invisible to it until the start of your next turn or until immediately after you make an attack roll or cast a spell."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Fire Strike",
 					"entries": [
-						"目标额外受到{@damage 1d10}火焰伤害。"
+						"The target takes an extra {@damage 1d10} fire damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Frost Strike",
 					"entries": [
-						"目标会受到额外的{@damage 1d6}寒冷伤害。如果目标是生物，它必须在宪法规定的救赎中成功，否则它的速度将被降低到0，直到你下一个回合开始。"
+						"The target takes an extra {@damage 1d6} cold damage. If the target is a creature, it must succeed on a Constitution saving throw, or its speed is reduced to 0 until the start of your next turn."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Hill Strike",
 					"entries": [
-						"目标受到额外 {@damage 1d6} 武器类型的伤害。如果目标是生物，它必须成功进行一次力量豁免才能避免倒地状态。"
+						"The target takes an extra {@damage 1d6} damage of the weapon's type. If the target is a creature, it must succeed on a Strength saving throw or have the prone condition."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Stone Strike",
 					"entries": [
-						"目标受到额外{@damage 1d6}的力量伤害。如果目标是一只生物，在你的直线上必须成功进行一次力量豁免才能避免被推离你10英尺。"
+						"The target takes an extra {@damage 1d6} force damage. If the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet from you in a straight line."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Storm Strike",
 					"entries": [
-						"目标会受到额外的{@damage 1d6}雷电伤害。如果目标是生物，它必须在宪法规定的救赎中成功，否则在你下一回合开始前，它在攻击卷中处于不利地位。",
-						"这些效果的蓄力DC等于8+你的熟练度加成+你的力量或体质修正值。",
-						"你可以使用这个特性的次数等于你的熟练加值，当你完成一次长休时，你会恢复所有已用次数。"
+						"The target takes an extra {@damage 1d6} lightning damage. If the target is a creature, it must succeed on a Constitution saving throw, or it has disadvantage on attack rolls until the start of your next turn.",
+						"The saving throw DC for these effects equals 8 + your proficiency bonus + your Strength or Constitution modifier.",
+						"You can use this feat a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 					]
 				}
 			]
@@ -4725,10 +4725,10 @@
 				}
 			],
 			"entries": [
-				"你学习过一些魔法理论，并学会了一些与斯特里克斯海文大学有关的法术。",
-				"选择Strixhaven的一所学院。Lorehold, Prismari, Quandrix, Silverquill, 或Witherbloom。你会根据你选择的学院学习两个咒语和一个一级法术，具体内容见Strixhaven法术表。",
-				"你可以在没有法术槽的情况下施放所选择的一级法术，而你必须在完成一个长时间的休息后才能再次以这种方式施放它。你也可以使用你拥有的任何法术槽来施放该法术。",
-				"你对这个特技的法术的施法能力是智力、智慧或魅力（在你选择这个特技时选择）。",
+				"You have studied some magical theory and have learned a few spells associated with Strixhaven University.",
+				"Choose one of Strixhaven's colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.",
+				"You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
+				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
 				{
 					"type": "table",
 					"caption": "Strixhaven Spells",
@@ -4744,29 +4744,29 @@
 					],
 					"rows": [
 						[
-							"洛雷霍尔德",
-							"从{@spell light}、{@spell sacred flame}和{@spell thaumaturgy}中选择两个。",
-							"选择一个1级{@filter cleric or wizard spell|spells|level=1|class=cleric;wizard}。"
+							"Lorehold",
+							"Choose two from {@spell light}, {@spell sacred flame}, and {@spell thaumaturgy}.",
+							"Choose one 1st-level {@filter cleric or wizard spell|spells|level=1|class=cleric;wizard}."
 						],
 						[
-							"晶岩学院 (Prismari)",
-							"从{@spell fire bolt}、{@spell prestidigitation}和{@spell ray of frost}中选择两个。",
-							"选择一个1级{@filter bard or sorcerer spell|spells|level=1|class=bard;sorcerer}。"
+							"Prismari",
+							"Choose two from {@spell fire bolt}, {@spell prestidigitation}, and {@spell ray of frost}.",
+							"Choose one 1st-level {@filter bard or sorcerer spell|spells|level=1|class=bard;sorcerer}."
 						],
 						[
-							"坎德利克斯",
-							"从{@spell druidcraft}、{@spell guidance}和{@spell mage hand}中选择两个。",
-							"选择一个1级{@filter druid or wizard spell|spells|level=1|class=druid;wizard}。"
+							"Quandrix",
+							"Choose two from {@spell druidcraft}, {@spell guidance}, and {@spell mage hand}.",
+							"Choose one 1st-level {@filter druid or wizard spell|spells|level=1|class=druid;wizard}."
 						],
 						[
-							"银奎尔",
-							"从{@spell sacred flame}、{@spell thaumaturgy}和{@spell vicious mockery}中选择两个。",
-							"选择一个1级{@filter bard or cleric spell|spells|level=1|class=bard;cleric}。"
+							"Silverquill",
+							"Choose two from {@spell sacred flame}, {@spell thaumaturgy}, and {@spell vicious mockery}.",
+							"Choose one 1st-level {@filter bard or cleric spell|spells|level=1|class=bard;cleric}."
 						],
 						[
-							"蕙兰花",
-							"从{@spell chill touch}、{@spell druidcraft}和{@spell spare the dying}中选择两个。",
-							"选择一个1级{@filter druid or wizard spell|spells|level=1|class=druid;wizard}。"
+							"Witherbloom",
+							"Choose two from {@spell chill touch}, {@spell druidcraft}, and {@spell spare the dying}.",
+							"Choose one 1st-level {@filter druid or wizard spell|spells|level=1|class=druid;wizard}."
 						]
 					]
 				}
@@ -4796,13 +4796,13 @@
 				}
 			],
 			"entries": [
-				"你已经学会了如何召唤一个Strixhaven吉祥物来协助你，给予你这些好处。",
+				"You have learned how to summon a Strixhaven mascot to assist you, granting you these benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你可以将{@spell find familiar}的法术作为一种仪式来施展。你的熟悉物可以采取与你为Strixhaven Initiate feat选择的学院相关的吉祥物的形式：一个{@creature spirit statue mascot|scc}（Lorehold），一个{@creature art elemental mascot|scc}（Prismari），一个{@creature fractal mascot|scc}（Quandrix），一个{@creature inkling mascot|scc}（Silverquill），或者一个{@creature pest mascot|scc}（Witherbloom）。",
-						"当你在你的回合中采取{@action Attack}行动时，你可以放弃一次攻击，让你的吉祥物熟悉的人用它的反应做出一次自己的攻击。",
-						"如果你的吉祥物在你的60英尺范围内，你可以作为一个动作进行传送，与吉祥物交换位置。如果你的目的地空间太小，你无法占据，那么传送就会失败并被浪费掉。一旦你以这种方式传送，你就不能再这样做了，直到你完成一个长时间的休息，除非你消耗一个2级或更高级别的法术槽来再次进行传送。"
+						"You can cast the {@spell find familiar} spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat: a {@creature spirit statue mascot|scc} (Lorehold), an {@creature art elemental mascot|scc} (Prismari), a {@creature fractal mascot|scc} (Quandrix), an {@creature inkling mascot|scc} (Silverquill), or a {@creature pest mascot|scc} (Witherbloom).",
+						"When you take the {@action Attack} action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.",
+						"If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again."
 					]
 				}
 			]
@@ -4851,8 +4851,8 @@
 				}
 			],
 			"entries": [
-				"你继承了祖先们的天赋施法能力。这种能力使你能够随意在自己身上施放{@spell nondetection}，无需材料成分。你还可以使用这种能力各施放一次以下法术：{@spell blindness/deafness}，{@spell blur}和{@spell disguise self}。当你完成一次长休后，你将恢复施放这些法术的能力。",
-				"智力是你对这些法术的施法能力，你以它们的最低等级施法。"
+				"You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast {@spell nondetection} on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: {@spell blindness/deafness}, {@spell blur}, and {@spell disguise self}. You regain the ability to cast these spells when you finish a long rest.",
+				"Intelligence is your spellcasting ability for these spells, and you cast them at their lowest possible levels."
 			]
 		},
 		{
@@ -4871,13 +4871,13 @@
 				}
 			],
 			"entries": [
-				"习惯于使用手边的任何武器进行粗暴的战斗，你会获得以下好处。",
+				"Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你能熟练使用简易武器。",
-						"你的徒手攻击使用{@damage d4}进行伤害。",
-						"当你在你的回合中用徒手攻击或简易武器击中一个生物时，你可以使用一个额外的行动来尝试抓取目标。"
+						"You are proficient with improvised weapons.",
+						"Your unarmed strike uses a {@damage d4} for damage.",
+						"When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target."
 					]
 				}
 			]
@@ -4909,12 +4909,12 @@
 				}
 			],
 			"entries": [
-				"你学会用你的思想来移动东西，赋予你以下好处。",
+				"You learn to move things with your mind, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你学会了{@spell mage hand}战斗法术。你可以在没有语言或手势的情况下施放它，并且可以制造幻影之手{@condition invisible}。如果你已经知道这个法术，当你施放它时，它的射程增加30英尺。它的施法能力是由这个特性增加的能力。",
-						"作为一个额外的动作，你可以尝试用心灵感应来推搡你周围30英尺内你能看到的一个生物。当你这样做的时候，目标必须成功地进行力量救赎（DC8+你的熟练度加分+本特技所增加的能力修饰），或者被移向你或远离你5英尺。一个生物可以自愿不做这个救赎。"
+						"You learn the {@spell mage hand} cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand {@condition invisible}. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.",
+						"As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward you or away from you. A creature can willingly fail this save."
 					]
 				}
 			]
@@ -4950,12 +4950,12 @@
 				}
 			],
 			"entries": [
-				"你唤醒了在精神上与他人联系的能力，赋予你以下的好处。",
+				"You awaken the ability to mentally connect with others, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你可以对你周围60英尺内你能看到的任何生物进行心灵感应。你的心灵感应是以你所知道的语言进行的，而该生物只有在知道该语言的情况下才能理解你。你的交流并不能让生物有能力以心灵感应的方式回应你。",
-						"你可以施放{@spell detect thoughts}法术，无需法术位或材料，但在再次以这种方式施放前必须完成一次长休。你施放该法术的法术属性是由这个特性增加的属性。如果你拥有2级或更高级的法术位，你也可以用它们来施放这个法术。"
+						"You can speak telepathically to any creature you can see within 60 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.",
+						"You can cast the {@spell detect thoughts} spell, requiring no spell slot or components, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for the spell is the ability increased by this feat. If you have spell slots of 2nd level or higher, you can cast this spell with them."
 					]
 				}
 			],
@@ -4977,13 +4977,13 @@
 				}
 			],
 			"entries": [
-				"你已经磨练了将武器投掷到混战中的能力，包括那些并非用于远程战斗的武器。你获得以下好处：",
+				"You've honed your ability to lob weaponry into the fray, including weapons not meant for ranged combat. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"对于你来说，没有投掷特性的简单和武器（Simple and martial melee weapons）获得了投掷特性。单手武器的普通射程为20英尺，远程射程为60英尺，而双手武器的普通射程为15英尺，远程射程为30英尺。",
-						"具有投掷属性的武器，你的短程增加20英尺，长程增加40英尺。",
-						"当你使用轻型武器进行投掷武器攻击时未命中目标时，该武器会在你的回合结束时像回旋镖一样返回到你手中，除非有什么阻止它返回。你可以捕捉并收纳你以这种方式投掷的所有武器。"
+						"Simple and martial melee weapons without the thrown property have the thrown property for you. One-handed weapons have a normal range of 20 feet and a long range of 60 feet, while two-handed weapons have a normal range of 15 feet and a long range of 30 feet.",
+						"Weapons that already have the thrown property increase their short range by 20 feet and their long range by 40 feet for you.",
+						"When you miss with a thrown weapon attack using a light weapon, the weapon returns to your grasp like a boomerang at the end of your turn, unless something prevents it from returning. You can catch and stow as many weapons as you threw in this way."
 					]
 				}
 			]
@@ -4993,7 +4993,7 @@
 			"source": "PHB",
 			"page": 170,
 			"entries": [
-				"当你获得这项特技时，你的最大命中率会增加相当于你等级的两倍。此后每当你获得一个等级，你的最大命中率会额外增加2个命中率。"
+				"Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points."
 			]
 		},
 		{
@@ -5010,7 +5010,7 @@
 				}
 			],
 			"entries": [
-				"作为一个动作，你可以将你的下半身变成一个墨黑色的水汽，让你在空中漂浮。在变身时，你的飞行速度为30英尺。你可以保持这种形态达10分钟之久。一旦你使用这个能力，你就不能再使用它，直到你完成一个短期或长期休息。"
+				"As an action, you can transform the lower half of your body into an inky black vapor, allowing you to float through the air. While transformed, you have a flying speed of 30 feet. You can maintain this form for up to 10 minutes. Once you use this ability, you can't use it again until you finish a short or long rest."
 			]
 		},
 		{
@@ -5038,7 +5038,7 @@
 				}
 			],
 			"entries": [
-				"你已经表现出山丘巨人的弹性，赋予你以下的好处。",
+				"You've manifested the resilience emblematic of hill giants, granting you the following benefits:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -5047,14 +5047,14 @@
 							"type": "item",
 							"name": "Bulwark",
 							"entries": [
-								"当你受到一个效果，会使你移动至少5英尺或使你陷入俯卧状态时，你可以使用你的反应来稳住自己。你不会被移动，也不会陷入俯卧状态。"
+								"When you are subjected to an effect that would move you at least 5 feet or give you the prone condition, you can use your reaction to steady yourself. You aren't moved and don't have the prone condition."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Iron Stomach",
 							"entries": [
-								"每当你在短时休息中吃了食物，并花费一个或多个命中率骰子来恢复命中率时，你就会恢复相当于你的体质修正因子+你的熟练度加成的额外命中率。"
+								"Whenever you eat food as part of a short rest and spend one or more Hit Dice to regain hit points, you regain additional hit points equal to your Constitution modifier + your proficiency bonus."
 							]
 						}
 					]
@@ -5066,17 +5066,17 @@
 			"source": "TDCSR",
 			"page": 191,
 			"entries": [
-				"你学会了{@variantrule hemocraft|TDCSR}的秘密，以牺牲自身生命力为代价获得了神秘力量。作为一个奖励动作，你可以选择承受{@damage 1d6}点死灵伤害来获得一次血之赐福。你的血之赐福持续1小时或直到消耗殆尽。",
-				"你可以扩展这个血之赐福(blood boon)来获得以下其中一个好处：",
+				"You've learned secrets of {@variantrule hemocraft|TDCSR} that grant you esoteric power at the price of your own life force. As a bonus action, you can choose to take {@damage 1d6} necrotic damage to gain a blood boon. Your blood boon lasts for 1 hour or until expended.",
+				"You can expend this blood boon to gain one of the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你进行攻击检定时，你掷{@dice 1d6}，并将其加到总数上。",
-						"当你使用攻击或法术命中时，你造成额外{@damage 2d6}的死灵伤害。",
-						"当你让一只生物进行一次力量、敏捷或体质检定{@quickref saving throws|PHB|2|1|saving throw}时，投掷一个骰子{@dice d4}，并将他们的豁免值减少相应的点数。"
+						"When you make an attack roll, you roll {@dice 1d6} and add it to the total.",
+						"When you hit with an attack or spell, you deal an additional {@damage 2d6} necrotic damage.",
+						"When you cause a creature to make a Strength, Dexterity, or Constitution {@quickref saving throws|PHB|2|1|saving throw}, roll a {@dice d4} and reduce their save by the amount rolled."
 					]
 				},
-				"获得血之赐福所承受的伤害无法以任何方式减少。"
+				"The damage you take to gain a blood boon can't be reduced in any way."
 			]
 		},
 		{
@@ -5089,13 +5089,13 @@
 				}
 			],
 			"entries": [
-				"你在战斗中练习施法，学习的技巧能给你带来以下好处。",
+				"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"当你受到伤害时，你在维持你的{@status concentration}法术时进行的体质豁免投掷获得优势。(Constitution){@status concentration}",
-						"即使你的一只手或两只手拿着武器或{@item shield|phb}，你也可以执行法术的体质成分。",
-						"当一个敌对生物的行动激起你的机会攻击时，你可以用你的反应向该生物施放一个法术，而不是进行机会攻击。该法术的施法时间必须为1个动作，并且必须只针对该生物。"
+						"You have advantage on Constitution saving throws that you make to maintain your {@status concentration} on a spell when you take damage.",
+						"You can perform the somatic components of spells even when you have weapons or a {@item shield|phb} in one or both hands.",
+						"When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."
 					]
 				}
 			]
@@ -5124,11 +5124,11 @@
 				}
 			],
 			"entries": [
-				"你已经广泛地练习了各种武器，获得了以下好处。",
+				"You have practiced extensively with a variety of weapons, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你获得对你选择的四种武器的熟练度。每件武器必须是简单的或武术的武器。"
+						"You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon."
 					]
 				}
 			]
@@ -5170,7 +5170,7 @@
 				}
 			],
 			"entries": [
-				"你学会了原始森林的魔法，这些森林受到你的人民的敬重和保护。你学会了一个你选择的德鲁伊咒语。你还学会了{@spell longstrider}和{@spell pass without trace}的法术，每个法术你都可以施放一次而不需要消耗一个法术槽。当你完成一次长时间的休息时，你会重新获得以这种方式施放这两个法术的能力。智慧是你对所有三种法术的施法能力。"
+				"You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the {@spell longstrider} and {@spell pass without trace} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
 			]
 		},
 		{
@@ -5184,13 +5184,13 @@
 				}
 			],
 			"entries": [
-				"你一生都生活在世界上蜿蜒的树木覆盖地区。你擅长在甚至最险恶的地形中找到自己的道路。你获得以下好处：",
+				"You have lived your entire life in the gnarled, wooded areas of the world. You are adept at finding your way through even the most treacherous terrain. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"你可以选择在{@skill Survival}或{@skill Nature}技能上获得熟练加成。",
-						"你无视艰难地形。(difficult terrain)",
-						"在自然环境中，除非通过魔法手段，否则你不会迷失方向。"
+						"You gain proficiency in either the {@skill Survival} or {@skill Nature} skill.",
+						"You ignore difficult terrain.",
+						"You cannot become lost in natural surroundings except by magical means."
 					]
 				}
 			]

@@ -1,0 +1,2603 @@
+{
+	"class": [
+		{
+			"name": "Barbarian",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"hd": {
+				"number": 1,
+				"faces": 12
+			},
+			"proficiency": [
+				"str",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"intimidation",
+								"nature",
+								"perception",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item greataxe|phb} or (b) any {@filter martial melee weapon|items|source=phb|category=basic|type=martial weapon;melee weapon=u~u~sand}",
+					"(a) two {@item handaxe|phb|handaxes} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"An {@item explorer's pack|phb}, and four {@item javelin|phb|javelins}"
+				],
+				"goldAlternative": "{@dice 2d4 × 10|2d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"greataxe|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponMartialMelee"
+							}
+						]
+					},
+					{
+						"a": [
+							{
+								"item": "handaxe|phb",
+								"quantity": 2
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"_": [
+							"explorer's pack|phb",
+							{
+								"item": "javelin|phb",
+								"quantity": 4
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"{@item shield|phb|shields}"
+					],
+					"weapons": [
+						"simple",
+						"martial"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Rages",
+						"Rage Damage"
+					],
+					"rows": [
+						[
+							"2",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"2",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							}
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						],
+						[
+							"无限制",
+							{
+								"type": "bonus",
+								"value": 4
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Rage|Barbarian||1",
+				"Unarmored Defense|Barbarian||1",
+				"Danger Sense|Barbarian||2",
+				"Reckless Attack|Barbarian||2",
+				{
+					"classFeature": "Primal Path|Barbarian||3",
+					"gainSubclassFeature": true
+				},
+				"Primal Knowledge|Barbarian||3|TCE",
+				"Ability Score Improvement|Barbarian||4",
+				"Extra Attack|Barbarian||5",
+				"Fast Movement|Barbarian||5",
+				{
+					"classFeature": "Path Feature|Barbarian||6",
+					"gainSubclassFeature": true
+				},
+				"Feral Instinct|Barbarian||7",
+				"Instinctive Pounce|Barbarian||7|TCE",
+				"Ability Score Improvement|Barbarian||8",
+				"Brutal Critical (1 die)|Barbarian||9",
+				{
+					"classFeature": "Path feature|Barbarian||10",
+					"gainSubclassFeature": true
+				},
+				"Relentless Rage|Barbarian||11",
+				"Ability Score Improvement|Barbarian||12",
+				"Brutal Critical (2 dice)|Barbarian||13",
+				{
+					"classFeature": "Path feature|Barbarian||14",
+					"gainSubclassFeature": true
+				},
+				"Persistent Rage|Barbarian||15",
+				"Ability Score Improvement|Barbarian||16",
+				"Brutal Critical (3 dice)|Barbarian||17",
+				"Indomitable Might|Barbarian||18",
+				"Ability Score Improvement|Barbarian||19",
+				"Primal Champion|Barbarian||20"
+			],
+			"subclassTitle": "Primal Path",
+			"fluff": [
+				{
+					"name": "Barbarian",
+					"type": "section",
+					"entries": [
+						"一个高大的人类部落成员穿过暴风雪，披着毛皮，举着斧头，大步走来。他大笑着冲向那个胆敢偷猎他的人民的麋鹿群的冰霜巨人。",
+						"一个半兽人对她在野蛮部落的权威的最新挑战者咆哮，准备用她的手拧断他的脖子，就像她对前六个对手做的那样。",
+						"一个矮人口吐白沫，用头盔砸向他的乌鸦敌人的脸，然后转身用他的装甲肘部撞向另一个人的内脏。",
+						"这些蛮族，尽管各有不同，却被他们的愤怒所定义：无法控制的、无法平息的、毫无思考的狂怒。他们的愤怒不仅仅是一种情绪，更像是被逼入绝境的猎食者的凶猛、风暴无情的袭击、海洋的搅动混乱。",
+						"对一些人来说，他们的愤怒来自与凶猛的动物精神的交流。另一些人的愤怒则来自于对这个充满痛苦的世界的愤怒水库。对于每一个野蛮人来说，愤怒是一种力量，它不仅能激发战斗的狂热，还能激发出不可思议的反应能力、复原力和力量。",
+						{
+							"type": "entries",
+							"name": "Primal Instinct",
+							"entries": [
+								"城镇和城市的人们以他们文明的方式与动物区分开来感到自豪，仿佛否认自己的本性是一种优越的标志。然而，对野蛮人来说，文明并不是一种美德，而是软弱的标志。强者拥抱他们的动物本性——敏锐的直觉、原始的体魄和凶猛的愤怒。当被墙壁和人群围困时，野蛮人感到不自在。他们在自己的家园荒野中茁壮成长：苔原、丛林或草原，那里是他们部落生活和狩猎的地方。",
+								"野蛮人在混乱的战斗中变得活跃起来。他们可以进入狂暴状态，愤怒占据了他们的身体，赋予他们超人的力量和韧性。野蛮人只能在不休息的情况下利用这个愤怒的水库，但这几次的愤怒通常足以打败任何出现的威胁。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A Life of Danger",
+							"entries": [
+								"并非每个被文明社会的后裔视为“野蛮人”的部落成员都拥有野蛮人职业。在这些人中，真正的野蛮人就像城镇中技艺高超的战士一样罕见，他们在人民中扮演着保护者和战争时期的领袖的角色。世界荒野之地的生活充满了危险：敌对部落、致命的天气和可怕的怪物。野蛮人毫不犹豫地冲向危险，以保护他们的人民。",
+								"他们面对危险的勇气使野蛮人完全适合于冒险。漂泊往往是他们本土部落的一种生活方式，而冒险者的无根生活对野蛮人来说并不困难。一些野蛮人怀念部落中紧密的家庭结构，但最终发现它们被冒险队成员之间形成的联系所取代。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Barbarian",
+							"entries": [
+								"在创建野蛮人角色时，考虑你的角色来自哪里以及他或她在这个世界上的位置。与你的管理员讨论一下你的野蛮人的适当起源。你是否来自遥远的地方，使你在战役的地区成为一个陌生人？或者，活动的背景是在一个野蛮的边境地区，野蛮人很常见？",
+								"是什么导致你开始了冒险生活？你是被财富的承诺吸引到定居地的吗？你是否与这些土地上的士兵联合起来，共同面对威胁？是怪物或入侵的部落把你赶出了你的家园，使你成为无根的难民？也许你是个战俘，被锁在 \"文明 \"的土地上，现在才得以赢得自由。或者你可能因为犯了罪，违反了禁忌，或者因为一场政变把你从权力的位置上赶走，而被从你的人民中赶走。",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"你可以通过以下建议快速创建一个野蛮人。首先，把你最高的能力值放在力量上，其次是体质。其次，选择{@background outlander}背景。"
+									]
+								}
+							]
+						}
+					],
+					"source": "PHB",
+					"page": 46
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"我目睹了野蛮人在战场上不屈不挠的表现，这让我想知道他们愤怒的核心是什么力量。"
+							],
+							"by": "Seret, archwizard"
+						},
+						"一个正常人的愤怒与野蛮人的愤怒相似，就像温柔的微风与狂暴的雷雨相似一样。野蛮人的动力来自一个超越单纯情感的地方，使其表现得更加可怕。无论愤怒的动力完全来自内心，还是来自与灵兽的联系，狂暴的野蛮人都能完成超自然的力量和耐力的表演。这种爆发是暂时的，但在它持续的时候，它占据了身体和心灵，促使野蛮人不顾危险和伤害继续前进，直到最后一个敌人倒下。",
+						"扮演一个野蛮人的角色是很诱人的，它是对经典原型的直接应用--一个野蛮人，而且通常是一个愚蠢的野蛮人，他冲到别人害怕的地方去踩踏。但并不是世界上所有的野蛮人都是这样的，所以你当然可以把你自己的东西放在上面。无论如何，考虑添加一些装饰，使你的野蛮人从所有其他人中脱颖而出；请看以下章节的一些想法。",
+						{
+							"type": "entries",
+							"name": "Personal Totems",
+							"entries": [
+								"野蛮人倾向于轻装上阵，很少携带个人物品或其他不必要的装备。他们所携带的少数财产往往包括具有特殊意义的小物品。个人图腾的意义在于它有一个神秘的起源，或者与人物生活中的一个重要时刻有关--也许是野蛮人过去的回忆，或者是未来的预兆。",
+								"这种个人图腾可能与野蛮人的精神动物有关，也可能实际上是该动物的图腾物，但这种联系并不重要。例如，一个拥有熊图腾精神的人，仍然可以携带鹰的羽毛作为个人图腾。",
+								"考虑为你的角色创造一个或多个个人图腾--与你的角色的过去或未来有特殊联系的物品。想一想图腾会如何影响你的角色的行动。",
+								{
+									"type": "table",
+									"caption": "Personal Totems",
+									"colLabels": [
+										"{@dice d6}",
+										"Totem"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"狩猎时结识的独行狼的一簇毛发"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"一个聪明的萨满给你的三根鹰的羽毛，他告诉你它们将在决定你的命运中发挥作用。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"用你小时候单手杀死的一只小穴熊的爪子做成的项链"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"一个小皮袋，里面有三块代表你祖先的石头"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你杀死的第一只野兽的几根小骨头，用彩色的羊毛绑在一起"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"一个鸡蛋大小的石头，形状像你的精神动物，有一天出现在你的腰包里。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tattoos",
+							"entries": [
+								"许多野蛮人部族的成员用纹身来装饰自己的身体，每一个纹身都代表着持有者或持有者的祖先生活中的一个重要时刻，或者象征着一种感觉或态度。与个人图腾一样，野蛮人的纹身可能与动物精神有关，也可能无关。",
+								"野蛮人展示的每一个纹身都有助于这个人的身份。如果你的角色有纹身，它们是什么样子的，它们代表什么？",
+								{
+									"type": "table",
+									"caption": "Tattoos",
+									"colLabels": [
+										"{@dice d6}",
+										"Tattoo"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"鹰的翅膀在你的上背部张开。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"在你的手背上刻着一只山洞熊的爪子。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你的部族的符号在你的手臂上显示为乙烯基图案。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"麋鹿的鹿角在你的背上墨迹斑斑。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你的精神动物的图像被纹在你的武器手臂和手上。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"狼的眼睛被标在你的背上，以帮助你看清和驱除邪灵。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Superstitions",
+							"entries": [
+								"野蛮人对生命的理解差异很大。有些人追随神灵，并从自然界的循环和他们遇到的动物中寻找这些神灵的指引。这些野蛮人相信，精神居住在世界的植物和动物中，野蛮人向他们寻找预兆和力量。",
+								"其他野蛮人只相信他们血管中流淌的血液和他们手中的钢铁。他们对看不见的世界没有用处，而是像他们模仿的野兽一样，依靠感官来狩猎和生存。",
+								"这两种态度都会引起迷信。这些信仰往往在一个家庭中流传，或者在一个部族或一个狩猎团体的成员之间分享。",
+								"如果你的野蛮人角色有任何迷信，它们是由你的家人根深蒂固的，还是个人经历的结果？",
+								{
+									"type": "table",
+									"caption": "Superstition",
+									"colLabels": [
+										"{@dice d6}",
+										"Superstition"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"如果你打扰了死者的遗骨，你就会继承他们生前的所有麻烦。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"永远不要相信巫师。他们都是伪装的魔鬼，尤其是那些友善的人。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"矮人已经失去了他们的精神，几乎和亡灵一样。这就是为什么他们生活在地下。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"有魔力的东西会带来麻烦。永远不要在离你十英尺内有魔法物品的情况下睡觉。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"当你走过墓地时，一定要穿银色的衣服，否则鬼魂可能会跳进你的身体。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"如果一个精灵看着你的眼睛，她就在试图读懂你的想法。"
+										]
+									]
+								}
+							]
+						}
+					],
+					"source": "XGE",
+					"page": 8
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Path of the Berserker",
+			"shortName": "Berserker",
+			"source": "PHB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 49,
+			"srd": true,
+			"subclassFeatures": [
+				"Path of the Berserker|Barbarian||Berserker||3",
+				"Mindless Rage|Barbarian||Berserker||6",
+				"Intimidating Presence|Barbarian||Berserker||10",
+				"Retaliation|Barbarian||Berserker||14"
+			]
+		},
+		{
+			"name": "Path of the Totem Warrior",
+			"shortName": "Totem Warrior",
+			"source": "PHB",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 50,
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"ritual": [
+								"beast sense",
+								"speak with animals"
+							]
+						},
+						"10": {
+							"ritual": [
+								"commune with nature"
+							]
+						}
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Path of the Totem Warrior|Barbarian||Totem Warrior||3",
+				"Aspect of the Beast|Barbarian||Totem Warrior||6",
+				"Spirit Walker|Barbarian||Totem Warrior||10",
+				"Totemic Attunement|Barbarian||Totem Warrior||14"
+			]
+		},
+		{
+			"name": "Path of the Battlerager",
+			"shortName": "Battlerager",
+			"source": "SCAG",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 121,
+			"subclassFeatures": [
+				"Path of the Battlerager|Barbarian||Battlerager|SCAG|3",
+				"Reckless Abandon|Barbarian||Battlerager|SCAG|6",
+				"Battlerager Charge|Barbarian||Battlerager|SCAG|10",
+				"Spiked Retribution|Barbarian||Battlerager|SCAG|14"
+			]
+		},
+		{
+			"name": "Path of the Ancestral Guardian",
+			"shortName": "Ancestral Guardian",
+			"source": "XGE",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 9,
+			"spellcastingAbility": "wis",
+			"additionalSpells": [
+				{
+					"innate": {
+						"10": [
+							"augury",
+							"clairvoyance"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Path of the Ancestral Guardian|Barbarian||Ancestral Guardian|XGE|3",
+				"Spirit Shield|Barbarian||Ancestral Guardian|XGE|6",
+				"Consult the Spirits|Barbarian||Ancestral Guardian|XGE|10",
+				"Vengeful Ancestors|Barbarian||Ancestral Guardian|XGE|14"
+			]
+		},
+		{
+			"name": "Path of the Storm Herald",
+			"shortName": "Storm Herald",
+			"source": "XGE",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 10,
+			"subclassFeatures": [
+				"Path of the Storm Herald|Barbarian||Storm Herald|XGE|3",
+				"Storm Soul|Barbarian||Storm Herald|XGE|6",
+				"Shielding Storm|Barbarian||Storm Herald|XGE|10",
+				"Raging Storm|Barbarian||Storm Herald|XGE|14"
+			]
+		},
+		{
+			"name": "Path of the Zealot",
+			"shortName": "Zealot",
+			"source": "XGE",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 11,
+			"subclassFeatures": [
+				"Path of the Zealot|Barbarian||Zealot|XGE|3",
+				"Fanatical Focus|Barbarian||Zealot|XGE|6",
+				"Zealous Presence|Barbarian||Zealot|XGE|10",
+				"Rage beyond Death|Barbarian||Zealot|XGE|14"
+			]
+		},
+		{
+			"name": "Path of the Beast",
+			"shortName": "Beast",
+			"source": "TCE",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 24,
+			"subclassFeatures": [
+				"Path of the Beast|Barbarian||Beast|TCE|3",
+				"Bestial Soul|Barbarian||Beast|TCE|6",
+				"Infectious Fury|Barbarian||Beast|TCE|10",
+				"Call the Hunt|Barbarian||Beast|TCE|14"
+			]
+		},
+		{
+			"name": "Path of Wild Magic",
+			"shortName": "Wild Magic",
+			"source": "TCE",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 25,
+			"subclassFeatures": [
+				"Path of Wild Magic|Barbarian||Wild Magic|TCE|3",
+				"Bolstering Magic|Barbarian||Wild Magic|TCE|6",
+				"Unstable Backlash|Barbarian||Wild Magic|TCE|10",
+				"Controlled Surge|Barbarian||Wild Magic|TCE|14"
+			]
+		},
+		{
+			"name": "Path of the Juggernaut",
+			"shortName": "Juggernaut",
+			"source": "TDCSR",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 165,
+			"subclassFeatures": [
+				"Path of the Juggernaut|Barbarian|PHB|Juggernaut|TDCSR|3",
+				"Demolishing Might|Barbarian|PHB|Juggernaut|TDCSR|6",
+				"Resolute Stance|Barbarian|PHB|Juggernaut|TDCSR|6",
+				"Thunderous Blows (10th Level)|Barbarian|PHB|Juggernaut|TDCSR|10",
+				"Hurricane Strike|Barbarian|PHB|Juggernaut|TDCSR|10",
+				"Unstoppable|Barbarian|PHB|Juggernaut|TDCSR|14"
+			]
+		},
+		{
+			"name": "Path of the Giant",
+			"shortName": "Giant",
+			"source": "BGG",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 1,
+			"spellcastingAbility": "wis",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": [
+							"druidcraft#c"
+						]
+					}
+				},
+				{
+					"innate": {
+						"3": [
+							"thaumaturgy#c"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Path of the Giant|Barbarian||Giant|BGG|3",
+				"Elemental Cleaver|Barbarian||Giant|BGG|6",
+				"Mighty Impel|Barbarian||Giant|BGG|10",
+				"Demiurgic Colossus|Barbarian||Giant|BGG|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Rage",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"在战斗中，你以原始的凶猛方式战斗。在你的回合中，你可以作为一个额外动作进入愤怒状态。",
+				"愤怒时，如果你没有穿重甲，你会获得以下好处。",
+				{
+					"type": "list",
+					"items": [
+						"你在力量检查和力量投掷方面具有优势。",
+						"当你使用力量进行近战武器攻击时，你会获得一个+2的伤害卷奖励。这个奖励会随着你的等级增加。",
+						"你对击打、穿刺和砍击伤害有抵抗力。"
+					]
+				},
+				"如果你能够施展法术，在狂暴时你不能施展它们或集中精力于它们。",
+				"你的愤怒持续1分钟。如果你被击倒{@condition unconscious}，或者在你的回合结束时你既没有攻击过敌对生物，也没有受到伤害，愤怒会提前结束。你也可以在你的回合中将愤怒作为一个奖励动作结束。",
+				"一旦你愤怒的次数达到你的野蛮人等级的上限，你必须完成一个长时间的休息才能再次愤怒。你在1级时可以狂暴2次，3级时3次，6级时4次，12级时5次，17级时6次。"
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"当你没有穿戴任何盔甲时，你的护甲等级等于10+你的灵巧修正值+你的体质修正值。你可以使用一个盾牌，并仍然获得这个好处。"
+			]
+		},
+		{
+			"name": "Danger Sense",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"在2级时，你获得了一种神秘的感知能力，可以感知附近的事物是否不正常，让你在躲避危险时更加得心应手。你对那些可以看见的影响（如陷阱和法术）的敏捷豁免 throws 有优势。要获得这个好处，你不能处于{@condition blinded}，{@condition deafened}，或{@condition incapacitated}状态。"
+			]
+		},
+		{
+			"name": "Reckless Attack",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"从第二级开始，你可以抛开所有对防御的关注，以凶猛的拼命方式进行攻击。当你在你的回合中进行第一次攻击时，你可以决定不顾一切地攻击。这样做会使你在本回合使用力量的近战武器攻击卷轴上获得优势，但对你的攻击卷轴有优势，直到你下一回合。"
+			]
+		},
+		{
+			"name": "Primal Knowledge",
+			"source": "TCE",
+			"page": 24,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 3rd-level barbarian {@variantrule optional class features|tce|optional feature}}",
+				"当你达到3级，并在10级时再次获得熟练掌握野蛮人1级时可用的技能列表中的一项技能。"
+			]
+		},
+		{
+			"name": "Primal Path",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 3,
+			"entries": [
+				"在3级时，你从可用的路径列表中选择一条塑造你愤怒本质的路径。你的选择在3级时授予你特性，在6级、10级和14级时再次授予你特性。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 4,
+			"entries": [
+				"当你达到四级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 5,
+			"entries": [
+				"从5级开始，每当你在回合中进行{@action Attack}动作时，你可以攻击两次，而不是一次。"
+			]
+		},
+		{
+			"name": "Fast Movement",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 5,
+			"entries": [
+				"从5级开始，当你不穿重甲时，你的速度增加10英尺。"
+			]
+		},
+		{
+			"name": "Path Feature",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"在6级时，你从你的原始之道中获得一个特性。"
+			]
+		},
+		{
+			"name": "Feral Instinct",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 7,
+			"entries": [
+				"到了第7级，你的直觉已经非常敏锐，以至于你在主动性的卷轴上有优势。",
+				"此外，如果你在战斗开始时是{@quickref Surprise|PHB|3|0|surprised}，并且没有{@condition incapacitated}，你可以在第一轮正常行动，但前提是在进行其他任何行动之前进入狂暴状态。"
+			]
+		},
+		{
+			"name": "Instinctive Pounce",
+			"source": "TCE",
+			"page": 24,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 7,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 7th-level barbarian {@variantrule optional class features|tce|optional feature}}",
+				"作为你进入愤怒状态的奖励行动的一部分，你可以移动到你速度的一半。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 8,
+			"entries": [
+				"当你达到8级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Brutal Critical (1 die)",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 9,
+			"entries": [
+				"从9级开始，你可以在确定近战攻击的关键打击的额外伤害时滚动一个额外的武器伤害模具。",
+				"这在13级时增加到两个额外的骰子，在17级时增加到三个额外的骰子。"
+			]
+		},
+		{
+			"name": "Path feature",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 10,
+			"entries": [
+				"在10级时，你从你的原始之道中获得一个特性。"
+			]
+		},
+		{
+			"name": "Relentless Rage",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 11,
+			"entries": [
+				"从11级开始，你的愤怒可以让你在受重伤时继续战斗。如果你在愤怒状态下降到0点生命值，但没有立即死亡，你可以进行一次DC 10的体质豁免检定。如果成功，你的生命值会变为1点。",
+				"每次你在第一次之后使用这个特性时，DC 值增加 5。当你完成短休或长休时，DC 重置为 10。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 12,
+			"entries": [
+				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Brutal Critical (2 dice)",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 13,
+			"entries": [
+				"在13级时，你可以在确定近战攻击的关键一击的额外伤害时，滚动两个额外的武器伤害骰子。",
+				"这在17级时增加到三个额外的骰子。"
+			]
+		},
+		{
+			"name": "Path feature",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 14,
+			"entries": [
+				"在14级时，你从你的原始之道中获得一个特性。"
+			]
+		},
+		{
+			"name": "Persistent Rage",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 15,
+			"entries": [
+				"从15级开始，你的愤怒如此猛烈，只有在你倒下{@condition unconscious}或选择结束时才会提前结束。(rage)"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 16,
+			"entries": [
+				"当你达到16级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Brutal Critical (3 dice)",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 17,
+			"entries": [
+				"在17级时，你可以在确定近战攻击的关键打击的额外伤害时掷出三个额外的武器伤害骰子。"
+			]
+		},
+		{
+			"name": "Indomitable Might",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 18,
+			"entries": [
+				"从18级开始，如果你的力量检查的总分小于你的力量得分，你可以用这个分数来代替总分。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 19,
+			"entries": [
+				"当你达到19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的DM允许使用专长，你可以选择取代一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Primal Champion",
+			"source": "PHB",
+			"page": 46,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"level": 20,
+			"entries": [
+				"在20级时，你体现了荒野的力量。你的力量和体质得分增加4，你的这些得分的最大值现在是24。"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Giant Power",
+			"source": "BGG",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "BGG",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-Level Path of the Giant Feature}",
+				"当你选择这条路径时，你学会说、读、写巨人语或者如果你已经懂得巨人语，你可以选择学习另一种语言。此外，你学会一个你选择的零级戏法：{@spell druidcraft} 或 {@spell thaumaturgy}。智力是你施法这个法术的能力。"
+			]
+		},
+		{
+			"name": "Giant's Havoc",
+			"source": "BGG",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "BGG",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-Level Path of the Giant Feature}",
+				"你的愤怒从巨人的原始力量中汲取力量，将你转化为一个巨大的破坏力。愤怒时，你会获得以下好处。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Crushing Throw",
+							"entry": "当你使用力量的投掷武器进行成功的远程攻击时，你可以在攻击的伤害卷上加上你的狂暴伤害奖励。"
+						},
+						{
+							"type": "item",
+							"name": "Giant Stature",
+							"entry": "你的攻击范围增加 5 英尺，如果你比大型生物还要小，你将变为大型生物，并且你所穿戴的一切也会一同增大。如果周围没有足够的空间来容纳你增大的体积，那你的体积就不会改变。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Path of the Giant",
+			"source": "BGG",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "BGG",
+			"level": 3,
+			"entries": [
+				"走巨人之路的野蛮人从和巨人一样的原始力量中汲取力量。当他们暴怒时，这些野蛮人会充满元素力量并变得庞大，呈现出让人联想到巨人荣耀的形态。一些野蛮人看起来像是自己的放大版，也许眼中和武器周围闪烁着一丝元素能量。另一些则变化更加戏剧化，化身为一个真正的巨人或类似元素生物的形态，被火焰、冰霜或闪电环绕。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Giant Power|Barbarian||Giant|BGG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Giant's Havoc|Barbarian||Giant|BGG|3"
+				}
+			]
+		},
+		{
+			"name": "Elemental Cleaver",
+			"source": "BGG",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "BGG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-Level Path of the Giant Feature}",
+				"你与巨人尊贵的元素联系更加紧密，学会了将武器注入原始能量。",
+				"当你进入愤怒状态时，你可以选择一件你正在握持的武器，并赋予它以下伤害类型之一：酸性，冰冷，火焰，雷霆或闪电。在你的愤怒期间挥舞这件被赋予能力的武器时，武器的伤害类型变为所选类型，当它命中时，额外造成相当于 {@dice 1d6} 选择类型的伤害，并获得投掷属性，正常射程为20英尺，最远射程为60英尺。如果你投掷这件武器，它会在击中或未击中目标后的瞬间重新出现在你的手中。当除你以外的生物挥舞这件被赋予能力的武器时，其效益会被抑制。",
+				"在愤怒并握持着灌注武器时，你可以使用一个奖励动作将灌注武器当前的伤害类型改变为上面提供的另一种伤害类型。"
+			]
+		},
+		{
+			"name": "Mighty Impel",
+			"source": "BGG",
+			"page": 12,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "BGG",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-Level Path of the Giant Feature}",
+				"你与巨人力量的联系使你能够在战场上投掷盟友和敌人。在愤怒时作为一个奖励动作，你可以选择一个在你的攻击范围内的中型或更小的生物，并将其移动到你能看到的距离30英尺的未被占据的空间。不愿意的生物必须成功进行一次力量豁免投掷（豁免 DC 等于 8 + 你的熟练加值 + 你的力量调整值）以避免这种效果。",
+				"如果在这个移动结束时，被投掷的生物不在能支撑它的表面或液体上，那么生物会掉落，受到正常的伤害并着陆在{@condition prone}。"
+			]
+		},
+		{
+			"name": "Demiurgic Colossus",
+			"source": "BGG",
+			"page": 12,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Giant",
+			"subclassSource": "BGG",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-Level Path of the Giant Feature}",
+				"你愤怒时的原始力量增强。当你愤怒时，你的攻击范围增加了10英尺，你的体型可以增长到大型或巨型（任选），你可以使用强力推挤来移动体型为大型或更小的生物。",
+				"此外，你的元素劈斧特性造成的额外伤害增加至{@dice 2d6}。"
+			]
+		},
+		{
+			"name": "Path of the Berserker",
+			"source": "PHB",
+			"page": 49,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"对于一些野蛮人来说，愤怒是达到目的的一种手段--目的就是暴力。狂暴者之路是一条不受约束的愤怒之路，上面沾满了鲜血。当你进入狂暴者的愤怒时，你会在混乱的战斗中感到兴奋，不顾自己的健康或福祉。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Frenzy|Barbarian||Berserker||3"
+				}
+			]
+		},
+		{
+			"name": "Frenzy",
+			"source": "PHB",
+			"page": 49,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从你在3级时选择这个路径开始，当你愤怒时，你可以陷入狂暴状态。如果你这样做，你在这之后的每个回合中都可以作为一个额外动作进行一次单次近战武器攻击。当你的愤怒结束时，你会受到一级的{@condition exhaustion}。"
+			]
+		},
+		{
+			"name": "Mindless Rage",
+			"source": "PHB",
+			"page": 49,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你在愤怒状态时不能成为{@condition charmed}或{@condition frightened}。如果你在进入愤怒状态时是{@condition charmed}或{@condition frightened}，那么效果在愤怒状态期间暂停。"
+			]
+		},
+		{
+			"name": "Intimidating Presence",
+			"source": "PHB",
+			"page": 49,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "PHB",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，你可以使用你的动作，通过你的威胁气场来吓唬某人。当你这样做时，选择一个你能看到的距离30英尺内的生物。如果这个生物能看到或听到你，它必须成功通过一次感知豁免检定（DC等于8 + 你的熟练加值 + 你的魅力调整值），否则它将对你感到{@condition frightened}，直到你的下一个回合结束。在随后的回合中，你可以使用你的动作来延长对这个{@condition frightened}生物的效果持续到你的下一个回合结束。如果这个生物在回合结束时远离你的视线或超过60英尺，则效果结束。",
+				"如果该生物救赎成功，你在24小时内不能再对该生物使用此功能。"
+			]
+		},
+		{
+			"name": "Retaliation",
+			"source": "PHB",
+			"page": 49,
+			"srd": true,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Berserker",
+			"subclassSource": "PHB",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，当你受到一个在你5英尺范围内的生物的伤害时，你可以用你的反应对该生物进行一次近战武器攻击。"
+			]
+		},
+		{
+			"name": "Bear",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"在暴怒时，你对所有的伤害都有抵抗力，除了精神上的伤害。熊的精神使你足够坚韧，可以抵御任何惩罚。"
+			]
+		},
+		{
+			"name": "Eagle",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"当你愤怒时且没有穿戴重型盔甲，其他生物对你的机会攻击投掷具有劣势，并且你可以在你的回合中将{@action Dash}动作作为一个额外动作使用。鹰之灵使你成为一个能够轻松穿梭于混战之中的猎食者。"
+			]
+		},
+		{
+			"name": "Path of the Totem Warrior",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"图腾战士的道路是一个精神之旅，因为野蛮人接受了一个灵兽作为向导、保护者和灵感。在战斗中，你的图腾精神会让你充满超自然的力量，为你的野蛮人之怒添加神奇的燃料。",
+				"大多数野蛮人部落认为图腾动物是一个特定部族的亲属。在这种情况下，一个人拥有一个以上的图腾动物精神是不寻常的，但也有例外。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirit Seeker|Barbarian||Totem Warrior||3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Totem Spirit|Barbarian||Totem Warrior||3"
+				}
+			]
+		},
+		{
+			"name": "Wolf",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"在你愤怒的时候，你的朋友对你周围5英尺内任何对你有敌意的生物的近战攻击卷有优势。狼的精神使你成为猎人的领袖。"
+			]
+		},
+		{
+			"name": "Spirit Seeker",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你选择了一条寻求与自然界和谐的道路，使你与野兽有着亲缘关系。在3级时，当你选择这个路径时，你获得了施放{@spell beast sense}和{@spell speak with animals}法术的能力，但只能作为仪式施放，详细描述见{@book chapter 10|PHB|10|rituals}。"
+			]
+		},
+		{
+			"name": "Totem Spirit",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，当你采用这条道路时，你选择一个图腾精灵并获得其特征。你必须制作或获得一个实体的图腾物品--护身符或类似的装饰品--其中包含了图腾动物的毛发或羽毛、爪子、牙齿或骨头。在你的选择下，你也会获得让人联想到你的图腾精神的轻微身体属性。例如，如果你有熊的图腾精神，你可能会异常地多毛和厚皮；如果你的图腾是鹰，你的眼睛会变成亮黄色。",
+				"你的图腾动物可能是与这里列出的动物有关的，但更适合你的祖国。例如，你可以选择鹰或秃鹫来代替老鹰。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Bear|Barbarian||Totem Warrior||3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Eagle|Barbarian||Totem Warrior||3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Elk|Barbarian|SCAG|Totem Warrior||3|SCAG"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Tiger|Barbarian|SCAG|Totem Warrior||3|SCAG"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Wolf|Barbarian||Totem Warrior||3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bear",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"你获得了熊的力量。你的运载能力（包括最大负荷和最大举重）增加一倍，而且你在推、拉、举或破坏物体的力量检查中具有优势。"
+			]
+		},
+		{
+			"name": "Eagle",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"你获得了鹰的视力。你可以毫无困难地看到1英里之外的事物，能够分辨出细节，就像在100英尺以内观看一样。此外，昏暗光线不会对你的感知（{@skill Perception}）检定造成劣势。"
+			]
+		},
+		{
+			"name": "Wolf",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"你获得了狼的狩猎感觉。你可以在快速行进时追踪其他生物，在正常行进时你可以隐秘地移动。"
+			]
+		},
+		{
+			"name": "Aspect of the Beast",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你获得一个基于你所选择的图腾动物的神奇好处。你可以选择你在3级时选择的同一种动物，也可以选择另外一种。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Bear|Barbarian||Totem Warrior||6"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Eagle|Barbarian||Totem Warrior||6"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Elk|Barbarian|SCAG|Totem Warrior||6|SCAG"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Tiger|Barbarian|SCAG|Totem Warrior||6|SCAG"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Wolf|Barbarian||Totem Warrior||6"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spirit Walker",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你可以施放{@spell commune with nature}法术，但只能作为仪式。当你这样做时，你选择的图腾精神或野兽本质中的一种动物的灵体会出现在你面前，传达你所寻求的信息。"
+			]
+		},
+		{
+			"name": "Bear",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"在你愤怒时，任何对你有敌意的生物，如果它们在你的5英尺范围内，对除了你或另一名拥有此特性的角色以外的目标进行攻击时，都会获得攻击判定的劣势。如果敌人无法看到或听到你，或者无法被{@condition frightened}，则免疫此效果。"
+			]
+		},
+		{
+			"name": "Eagle",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"愤怒时，你的飞行速度等于你当前的步行速度。这个好处只在短时间内起作用；如果你在空中结束你的回合并且没有其他东西支撑你，你就会坠落。"
+			]
+		},
+		{
+			"name": "Wolf",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"在你愤怒时，你可以在你的回合使用一个奖励动作，在用近战武器攻击命中一个大型或更小的生物时，将其击倒{@condition prone}。"
+			]
+		},
+		{
+			"name": "Totemic Attunement",
+			"source": "PHB",
+			"page": 50,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你获得一个基于你选择的图腾动物的神奇好处。你可以选择你之前选择的同一种动物或不同的动物。",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Bear|Barbarian||Totem Warrior||14"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Eagle|Barbarian||Totem Warrior||14"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Elk|Barbarian|SCAG|Totem Warrior||14|SCAG"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Tiger|Barbarian|SCAG|Totem Warrior||14|SCAG"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Wolf|Barbarian||Totem Warrior||14"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Path of the Battlerager",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"在矮人语中被称为库尔贾格{@item spiked armor|scag}（字面意思是“斧头白痴”），战斗狂战士是矮人战神的追随者，选择战斗狂战士之路。他们擅长穿着笨重的{@item spiked armor|scag}，投入战斗，用身体本身进行打击，并沉浸在战斗的狂怒之中。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restriction—Dwarves Only|Barbarian||Battlerager|SCAG|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Battlerager Armor|Barbarian||Battlerager|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Battlerager Armor",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级时选择这条路径时，你获得了将{@item spiked armor|scag}作为武器使用的能力。",
+				"当你穿着{@item spiked armor|scag}并处于暴怒状态时，你可以使用一个奖励动作，使用你的盔甲尖刺对距离你5英尺内的目标进行一次近战武器攻击。如果攻击命中，尖刺造成{@damage 1d4}点穿刺伤害。你使用你的力量修正来进行攻击和伤害骰。",
+				"另外，当你使用{@action Attack}动作来控制一只生物时，如果你的控制检定成功，目标会受到3点穿刺伤害。"
+			]
+		},
+		{
+			"name": "Restriction—Dwarves Only",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"只有矮人可以走 \"战斗者之路\"。斗士在矮人社会和文化中填补了一个特殊的位置。",
+				"你的(DM)可以解除这个限制，以更好地适应这个冒险。这个限制是为了《被遗忘的国度》而设定的。它可能不适用于你的(DM)设定或你的(DM)版本的国度。"
+			]
+		},
+		{
+			"name": "Reckless Abandon",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从第6级开始，当你在狂怒时使用鲁莽攻击，你也会获得相当于你体质修正值的临时命中率（最低为1）。当你的愤怒结束时，如果有剩余的，它们就会消失。"
+			]
+		},
+		{
+			"name": "Battlerager Charge",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，当你愤怒时，你可以将{@action Dash}动作作为一个奖励动作。"
+			]
+		},
+		{
+			"name": "Spiked Retribution",
+			"source": "SCAG",
+			"page": 121,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Battlerager",
+			"subclassSource": "SCAG",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，当一个生物在你身边5英尺内用近战攻击击中你时，如果你正在愤怒，不是{@condition incapacitated}，并且穿戴着{@item spiked armor|scag}，则攻击者会受到3点穿刺伤害。"
+			]
+		},
+		{
+			"name": "Path of the Beast",
+			"source": "TCE",
+			"page": 24,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Beast",
+			"subclassSource": "TCE",
+			"level": 3,
+			"entries": [
+				"走 \"野兽之路 \"的野蛮人从他们灵魂深处燃烧的兽性火花中汲取怒气。那只野兽在愤怒的阵痛中迸发出来，对野蛮人进行身体改造。",
+				"这样的野蛮人可能是由原始精神居住的，或者是变形人的后代。你可以选择你的野性力量的起源，或者通过在野兽起源表上滚动来确定它。",
+				{
+					"type": "table",
+					"caption": "Origin of the Beast",
+					"colLabels": [
+						"d4",
+						"Origin"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"你的父母之一是狼人，而你继承了他们的一些诅咒。"
+						],
+						[
+							"2",
+							"你是一个大德鲁伊的后裔，继承了部分改变形状的能力。"
+						],
+						[
+							"3",
+							"一个精灵赋予了你采用不同兽性的能力。"
+						],
+						[
+							"4",
+							"一个古老的动物精神居住在你体内，使你能够走这条路。"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Form of the Beast|Barbarian||Beast|TCE|3"
+				}
+			]
+		},
+		{
+			"name": "Form of the Beast",
+			"source": "TCE",
+			"page": 24,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Beast",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Path of the Beast feature}",
+				"当你进入愤怒状态时，你可以变身，显示出你体内的兽性力量。在愤怒结束之前，你会显现出一种自然武器。对你来说，它算作简单的近战武器，当你用它攻击时，你会在攻击和伤害卷中加入你的力量修饰，和平时一样。",
+				"你每次愤怒时都会选择武器的形式。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Bite",
+							"entry": "你的嘴巴变成了一个野兽的口吻或者巨大的下颚（你可以选择）。它在命中时造成{@damage 1d8}穿刺伤害。每当你用这个咬击伤害一个生物时，每个回合只能触发一次，如果你的生命值少于一半，你可以回复等同于你熟练加值的生命值。"
+						},
+						{
+							"type": "item",
+							"name": "Claws",
+							"entry": "你的每只手都会变成一只爪子，如果空着的话，你可以把它当作武器使用。每次命中时，它造成{@damage 1d6}割伤伤害。每个回合一次，当你使用{@action Attack}动作进行爪击时，你可以在同一个动作中进行一次额外的爪击。"
+						},
+						{
+							"type": "item",
+							"name": "Tail",
+							"entry": "你长出了一条鞭状、多刺的尾巴，每次命中时造成{@damage 1d8}穿刺伤害，并具有延长属性。如果你能看见的一只生物在你身边10英尺内对你进行攻击命中，你可以使用你的反应挥动你的尾巴并投掷一个{@dice d8}，将投掷的数字作为加值应用到你的AC上，有可能使攻击未命中你。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bestial Soul",
+			"source": "TCE",
+			"page": 24,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Beast",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Path of the Beast feature}",
+				"你体内的野性力量增加，使你的野兽形态的自然武器被算作魔法武器，以克服对非魔法攻击和伤害的抵抗和免疫。",
+				"你也可以改变你的形态，帮助你适应周围的环境。当你完成一次短时或长时休息时，选择以下一种好处，这种好处持续到你完成下一次短时或长时休息。",
+				{
+					"type": "list",
+					"items": [
+						"你获得的游泳速度等于你的步行速度，并且你可以在水下呼吸。",
+						"你获得的攀爬速度等于你的步行速度，你可以攀爬困难的表面，包括倒立在天花板上，而不需要进行能力检查。",
+						"当你跳跃时，你可以进行一次力量检定（{@skill Athletics}）并将你的跳跃距离延长与检定总数相等的英尺数。你每回合只能进行一次这个特殊检定。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Infectious Fury",
+			"source": "TCE",
+			"page": 24,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Beast",
+			"subclassSource": "TCE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Path of the Beast feature}",
+				"当你在愤怒状态下用你的天生武器击中一只生物时，你内心的野兽可以用狂暴的愤怒诅咒你的目标。目标必须成功通过一次感知豁免投掷（豁免 DC 等于 8 + 你的体质调整值 + 你的熟练加值），否则将遭受以下效果之一（你的选择）：",
+				{
+					"type": "list",
+					"items": [
+						"目标必须使用它的反应来对你所选择的另一个你能看到的生物进行近战攻击。",
+						"目标受到{@damage 2d12}点心灵伤害。"
+					]
+				},
+				"你可以使用这个功能的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
+			]
+		},
+		{
+			"name": "Call the Hunt",
+			"source": "TCE",
+			"page": 24,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Beast",
+			"subclassSource": "TCE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Path of the Beast feature}",
+				"你体内的野兽变得如此强大，以至于你可以将它的凶猛传播给其他人，并从他们加入你的狩猎中获得复原力。当你进入愤怒状态时，你可以选择在你30英尺范围内看到的其他自愿的生物，其数量等于你的体质修正值（至少一个生物）。",
+				"每个接受此特性的生物都会获得5点临时生命值。在愤怒结束前，被选择的生物每个回合都可以使用以下效果一次：当生物用攻击骰命中目标并对其造成伤害时，生物可以投掷一个{@dice d6}，并获得等于投掷数的伤害加值。",
+				"你可以使用这个功能的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
+			]
+		},
+		{
+			"name": "Path of Wild Magic",
+			"source": "TCE",
+			"page": 25,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "TCE",
+			"level": 3,
+			"entries": [
+				"多元宇宙中的许多地方充斥着美丽、强烈的情感和猖獗的魔法；仙界、上层世界和其他超自然力量的领域散发着这样的力量，并能深刻地影响人们。作为感情深厚的民间人士，野蛮人特别容易受到这些狂野的影响，有些野蛮人会被魔法所改变。这些受魔法影响的野蛮人走的是野性魔法之路。精灵、铁弗林、阿西玛和基那斯的野蛮人经常寻求这条道路，渴望表现出他们祖先的其他世界的魔法。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magic Awareness|Barbarian||Wild Magic|TCE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wild Surge|Barbarian||Wild Magic|TCE|3"
+				}
+			]
+		},
+		{
+			"name": "Magic Awareness",
+			"source": "TCE",
+			"page": 25,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Path of Wild Magic feature}",
+				"作为一项行动，你可以打开你的意识，以了解集中魔法的存在。直到你的下一个回合结束，你知道你周围60英尺内没有完全遮蔽物的任何法术或魔法物品的位置。当你感应到一个法术时，你会知道它属于哪个魔法流派。",
+				"你可以使用这个功能的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
+			]
+		},
+		{
+			"name": "Wild Surge",
+			"source": "TCE",
+			"page": 25,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Path of Wild Magic feature}",
+				"在你体内咆哮的魔法能量有时会从你身上爆发出来。当你进入愤怒状态时，在 \"狂野魔法 \"表上滚动，以确定产生的魔法效果。",
+				"如果该效果需要蓄力，则蓄力值等于8+你的熟练度加成+你的体质修正值。",
+				{
+					"type": "table",
+					"caption": "Wild Magic",
+					"colLabels": [
+						"d8",
+						"Magical Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"阴影般的触须在你周围挥舞。你能看到的每个生物必须在你30英尺内进行一次体质豁免才能避免受到{@damage 1d12}点死灵伤害。你也会获得{@dice 1d12}点临时生命值。"
+						],
+						[
+							"2",
+							"你最多可以传送30英尺到一个你能看到的未被占领的空间。在你的愤怒结束之前，你可以在你的每个回合中作为额外行动再次使用这个效果。"
+						],
+						[
+							"3",
+							"一个无形的精神，看起来像一个{@creature flumph}或一个{@creature pixie}（你选择），出现在你能看到的距离30英尺内的一个你选择的生物身边的5英尺内。在当前回合结束时，这个精神爆炸，5英尺内的每个生物必须成功进行一次敏捷豁免检定，否则会受到{@damage 1d6}点力量伤害。在你的愤怒结束之前，你可以在每个回合的奖励动作中再次使用这个效果，召唤另一个精神。"
+						],
+						[
+							"4",
+							"魔法注入你所选择的一件你持有的武器。在你的愤怒结束之前，该武器的伤害类型变为力，并获得光和投掷属性，普通范围为20英尺，远距离为60英尺。如果武器离开了你的手，在当前回合结束时武器会重新出现在你的手中。"
+						],
+						[
+							"5",
+							"每当一个生物在你的愤怒结束前用攻击骰命中你时，那个生物会受到{@damage 1d6}点力量伤害，因为魔法会以报复的形式反击。"
+						],
+						[
+							"6",
+							"在你的愤怒结束之前，你会被多色的保护性灯光所包围；你获得+1的攻击力加成，在你周围10英尺内，你的盟友也获得同样的加成。"
+						],
+						[
+							"7",
+							"在你周围暂时长出花朵和藤蔓。在你的愤怒结束前，你周围15英尺范围内的地面对你的敌人来说是{@quickref difficult terrain||3}。"
+						],
+						[
+							"8",
+							"一道光束从你的胸膛射出。你选择的另一生物，必须在你能看到的30英尺内，进行一次体质豁免才能避免受到{@damage 1d6}辐射伤害，并且在你下一个回合开始前处于{@condition blinded}状态。在你的愤怒状态结束前，你可以每个回合再次使用这个效果，作为一个奖励动作。"
+						]
+					],
+					"data": {
+						"tableInclude": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Bolstering Magic",
+			"source": "TCE",
+			"page": 25,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Path of Wild Magic feature}",
+				"你可以利用你的野性魔法来增强你自己或同伴的力量。作为一个动作，你可以接触一个生物（可以是你自己），并将你选择的以下一种好处赋予该生物。",
+				{
+					"type": "list",
+					"items": [
+						"在10分钟内，生物在进行攻击检定或技能检定时可以投掷一个{@dice d3}，并将投掷的数字加到{@dice d20}检定中。",
+						"投掷一个{@dice d3}。该生物恢复一个已耗尽的法术位，其等级等于投掷的数字或更低（生物可以选择）。一旦一个生物获得这个好处，那个生物在进行一次长休之前不能再次获得它。"
+					]
+				},
+				"你可以采取这个行动的次数与你的熟练度加成相等，并且当你完成一个长休时，你会恢复所有消耗的使用。"
+			]
+		},
+		{
+			"name": "Unstable Backlash",
+			"source": "TCE",
+			"page": 25,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "TCE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Path of Wild Magic feature}",
+				"当你在愤怒中受到威胁时，你体内的魔力会爆发出来；当你在愤怒中受到伤害或拯救失败后，你可以用你的反应在狂野魔法表上滚动，并立即产生所滚动的效果。这个效果会取代你当前的狂野魔法效果。"
+			]
+		},
+		{
+			"name": "Controlled Surge",
+			"source": "TCE",
+			"page": 25,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "TCE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Path of Wild Magic feature}",
+				"每当你在 \"狂野魔法 \"表上掷出骰子时，你可以掷两次骰子，选择释放两个效果中的哪一个。如果你在两个骰子上都掷出相同的数字，你可以忽略这个数字，选择桌上的任何效果。"
+			]
+		},
+		{
+			"name": "Path of the Juggernaut",
+			"source": "TDCSR",
+			"page": 165,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Juggernaut",
+			"subclassSource": "TDCSR",
+			"level": 3,
+			"entries": [
+				"追随“重甲战士”之路的野蛮人如此坚定，无人能阻挡他们，并他们挥舞武器的力量如此之大，使得所有敌人都被甩开。在力量和精神上，“重甲战士”既是不可移动的物体，又是不可阻挡的力量。",
+				"在塔尔多瑞，无坚不摧的蛮族战士随处可见，尤其是在漫游{@book Dividing Plains|TDCSR|3|Dividing Plains}的巨人战士中十分常见。一些{@book Cliffkeep Mountains|TDCSR|3|Cliffkeep Mountains}的野兽和人形生存专家也采纳这种战斗风格，将其视为坚韧决心的延伸。而一些坚毅的无坚不摧者则来自{@book Rifenmist Peninsula|TDCSR|3|Rifenmist Peninsula}的丛林，他们已经摆脱了{@book Iron Authority|TDCSR|3|Tz'Arrm, Helm of the Emperor}的压迫。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Thunderous Blows|Barbarian|PHB|Juggernaut|TDCSR|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirit of the Mountain|Barbarian|PHB|Juggernaut|TDCSR|3"
+				}
+			]
+		},
+		{
+			"name": "Spirit of the Mountain",
+			"source": "TDCSR",
+			"page": 166,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Juggernaut",
+			"subclassSource": "TDCSR",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你利用愤怒将双脚牢固地根植在地面上，成为一道坚固的力量屏障。当你愤怒时，你不能被击倒{@condition prone}或被迫移动沿着地面。"
+			]
+		},
+		{
+			"name": "Thunderous Blows",
+			"source": "TDCSR",
+			"page": 165,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Juggernaut",
+			"subclassSource": "TDCSR",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从3级开始选择这个路径时，你的愤怒赋予你强大的力量，让你能够推开和粉碎你的敌人，使任何战场都成为你的领域。当你在愤怒状态下用近战攻击命中一名生物时，你可以将该生物向你选择的方向推开多达5英尺。一个巨大或更大的生物需要进行一次力量检定{@quickref saving throws|PHB|2|1|saving throw}，DC值为8 + 你的熟练加值 + 你的力量调整值。若检定成功，该生物不会被推开。",
+				{
+					"type": "inset",
+					"name": "Rules Tip: Forced Movement",
+					"page": 166,
+					"entries": [
+						"通常情况下，当一只生物移出敌对生物的攻击范围时，敌对生物可以使用其反应进行一次攻击。然而，强制移动——比如被《{@subclassFeature Thunderous Blows|Barbarian|PHB|Juggernaut|TDCSR|3}》特性推开的狂战士的路径——不会引发攻击。",
+						"同样，一个无坚不摧的蛮族战士的{@subclassFeature Hurricane Strike|Barbarian|PHB|Juggernaut|TDCSR|10}特性允许一个盟友只有在敌人在离盟友5英尺的地方结束被迫移动时，作为一次反应进行一次近战武器攻击。如果一个敌人被推动穿过其他距离在你的盟友5英尺内的空间，那些盟友不能对敌人进行普通的{@action opportunity attack|PHB|opportunity attacks}。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Demolishing Might",
+			"source": "TDCSR",
+			"page": 166,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Juggernaut",
+			"subclassSource": "TDCSR",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你的近战武器攻击对构造物造成额外{@damage 1d8}伤害，并对物体和结构造成双倍伤害。"
+			]
+		},
+		{
+			"name": "Resolute Stance",
+			"source": "TDCSR",
+			"page": 166,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Juggernaut",
+			"subclassSource": "TDCSR",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在第6级时，你可以暂时调整你的战斗能力，让自己成为防御的堡垒。在你的回合开始时（无需行动），你可以进入一种防御姿态，持续到你下一个回合开始。在这种姿态下，你无法被{@condition grappled}，对你的攻击骰有{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}，而你的武器攻击则使用{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}。"
+			]
+		},
+		{
+			"name": "Hurricane Strike",
+			"source": "TDCSR",
+			"page": 166,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Juggernaut",
+			"subclassSource": "TDCSR",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从10级开始，你的打击可以将敌人抛向空中，使其落入你盟友的攻击范围。当你推动一个生物至少5英尺时，你可以作为一次反应，跳到该生物旁边的一个空位。如果你这样做，该生物必须进行一次力量检定{@quickref saving throws|PHB|2|1|saving throw}，DC值为8 + 你的熟练加值 + 你的力量修正，否则将被击倒{@condition prone}。这次跳跃不消耗移动并且不会引发攻击机会{@action opportunity attack|PHB|opportunity attacks}。",
+				"此外，每当你将一个生物推入到离你的盟友5英尺范围内的空间时，该盟友可以使用其反应对该生物进行一次近战武器攻击。"
+			]
+		},
+		{
+			"name": "Thunderous Blows (10th Level)",
+			"source": "TDCSR",
+			"page": 165,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Juggernaut",
+			"subclassSource": "TDCSR",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"从（10级）开始，当你在狂暴状态下用近战攻击命中一名生物时，你可以将其推开10英尺。"
+			]
+		},
+		{
+			"name": "Unstoppable",
+			"source": "TDCSR",
+			"page": 166,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Juggernaut",
+			"subclassSource": "TDCSR",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你在战斗中的愤怒让你无法阻挡。当你愤怒时，你的速度不能被减慢，并且对{@condition frightened}，{@condition paralyzed}，{@condition prone}和{@condition stunned}状态免疫。",
+				"如果你是{@condition frightened}、{@condition paralyzed}或{@condition stunned}，你仍然可以使用一个奖励动作进入狂暴状态（即使你不能采取其他行动）。在你狂暴时，你不受这些状态的影响。"
+			]
+		},
+		{
+			"name": "Path of the Ancestral Guardian",
+			"source": "XGE",
+			"page": 9,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"一些野蛮人来自崇尚祖先的文化。这些部落教导说，过去的战士作为强大的神灵在这个世界上徘徊，他们可以指导和保护活人。当一个遵循这条道路的野蛮人暴怒时，野蛮人会联系精神世界，并向这些守护神求助。",
+				"汲取祖先守护者的野蛮人可以更好地战斗，保护他们的部落和盟友。为了巩固与祖先守护者的联系，走这条路的野蛮人在自己身上纹上精致的纹身，以庆祝他们祖先的事迹。这些纹身讲述了他们战胜可怕的怪物和其他可怕的对手的传奇故事。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ancestral Protectors|Barbarian||Ancestral Guardian|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Ancestral Protectors",
+			"source": "XGE",
+			"page": 9,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从你在3级时选择这条道路开始，当你进入愤怒状态时，幽灵战士会出现。在你愤怒的时候，你在回合中用攻击击中的第一个生物会成为战士的目标，战士会阻碍它的攻击。在你下一回合开始之前，该目标在任何不针对你的攻击卷中都有劣势，而当该目标用攻击击中你以外的生物时，该生物对攻击造成的伤害有抵抗力。如果你的怒气结束，对目标的效果也会提前结束。"
+			]
+		},
+		{
+			"name": "Spirit Shield",
+			"source": "XGE",
+			"page": 9,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，协助你的守护灵可以为你保护的人提供超自然的保护。如果你正在暴怒并且你能看到的另一个生物在你30英尺内受到伤害，你可以使用你的反应来减少那个伤害的{@dice 2d6}。",
+				"当你在这个职业中达到一定等级时，你可以减少更多的伤害：在第10级时减少 {@dice 3d6}，在第14级时减少 {@dice 4d6}。"
+			]
+		},
+		{
+			"name": "Consult the Spirits",
+			"source": "XGE",
+			"page": 9,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian",
+			"subclassSource": "XGE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"在10级时，你获得了与你的祖灵交流的能力。当你这样做时，你可以施放{@spell augury}或{@spell clairvoyance}法术，而无需使用法术槽或材料组件。与其创建一个球形传感器，这次使用{@spell clairvoyance}会将你的一个祖灵隐形地召唤到选择的位置。这些法术的施法能力为智力。",
+				"在你以这种方式施展这两种法术后，你不能再使用这个功能，直到你完成一个短期或长期休息。"
+			]
+		},
+		{
+			"name": "Vengeful Ancestors",
+			"source": "XGE",
+			"page": 9,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian",
+			"subclassSource": "XGE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你的祖先的精神成长到足够强大，可以进行报复。当你使用你的精神盾牌来减少攻击的伤害时，攻击者会受到与你的精神盾牌所防止的伤害相等的武力伤害。"
+			]
+		},
+		{
+			"name": "Path of the Storm Herald",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"所有的野蛮人内心都藏着一股怒火。他们的愤怒赋予他们超强的力量、耐久力和速度。遵循风暴先驱之路的野蛮人学会了将愤怒转化为原始魔法的衣钵，围绕着他们旋转。在愤怒的时候，走这条路的野蛮人会利用自然的力量来创造强大的魔法效果。",
+				"风暴使者通常是精英冠军，他们与德鲁伊、游侠和其他发誓要保护大自然的人一起训练。其他风暴使者在被风暴蹂躏的地区、世界尽头的冰冻地带或最热的沙漠深处的旅馆中磨练他们的技艺。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Storm Aura|Barbarian||Storm Herald|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Storm Aura",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从第三级开始，你在愤怒的时候会散发出一个暴风雨般的魔法光环。光环从你身上向各个方向延伸10英尺，但不能穿过全部遮蔽物。",
+				"你的光环有一个效果，在你进入愤怒状态时激活，你可以在你的每个回合作为额外行动再次激活这个效果。选择沙漠、海洋或苔原。你的光环效果取决于所选择的环境，详见下文。每当你在这个等级中获得一个等级，你可以改变你的环境选择。",
+				"如果你的光环效果需要蓄力，则蓄力值等于8+你的熟练度加成+你的体质修正值。",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Desert|Barbarian|XGE|Storm Herald|XGE|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Sea|Barbarian|XGE|Storm Herald|XGE|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Tundra|Barbarian|XGE|Storm Herald|XGE|3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Storm Soul",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，即使你的光环没有激活，风暴也会给予你好处。这些好处是基于你为你的风暴光环所选择的环境。",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Desert|Barbarian|XGE|Storm Herald|XGE|6"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Sea|Barbarian|XGE|Storm Herald|XGE|6"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Tundra|Barbarian|XGE|Storm Herald|XGE|6"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shielding Storm",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"10级时，你学会使用你对风暴的掌握来保护他人。当你选择的每个生物处于你的风暴光环中时，该生物具有你从风暴灵魂特性中获得的伤害抵抗。"
+			]
+		},
+		{
+			"name": "Raging Storm",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"在14级时，你所引导的风暴的力量变得更加强大，向你的敌人发起冲击。效果基于你为你的风暴光环选择的环境。",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Desert|Barbarian|XGE|Storm Herald|XGE|14"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Sea|Barbarian|XGE|Storm Herald|XGE|14"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Tundra|Barbarian|XGE|Storm Herald|XGE|14"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Path of the Zealot",
+			"source": "XGE",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Zealot",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"一些神灵激励他们的追随者将自己投入到凶猛的战斗中。这些野蛮人是狂热的战士，他们将自己的愤怒转化为强大的神力展示。",
+				"在D&D的世界中，各种不同的神灵激励着他们的信徒追随这条道路。遗忘国度的坦普斯(Tempus)以及灰鹰世界的赫克斯托(Hextor)和埃瑞斯努尔(Erythnul)都是典型的例子。一般来说，激励狂热信徒的神灵都是战斗、毁灭和暴力之神。并非所有这些神都是邪恶的，但很少有是善良的。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Fury|Barbarian||Zealot|XGE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Warrior of the Gods|Barbarian||Zealot|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Divine Fury",
+			"source": "XGE",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Zealot",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从你在3级选择这个路径开始，你可以将神圣之怒注入你的武器打击中。当你愤怒时，你每个回合的第一个受到你用武器攻击命中的生物会受到额外伤害，伤害值等于{@dice 1d6} + 你的野蛮人等级的一半。额外伤害可以是死灵或光辉伤害；你在获得这个特性时选择伤害类型。"
+			]
+		},
+		{
+			"name": "Warrior of the Gods",
+			"source": "XGE",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Zealot",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你的灵魂被标记为无尽的战斗。如果一个法术，比如{@spell raise dead}，唯一的效果是让你复活（但不是变成不死生物），那么施法者在对你施放该法术时不需要材料组件。"
+			]
+		},
+		{
+			"name": "Fanatical Focus",
+			"source": "XGE",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Zealot",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，助长你愤怒的神力可以保护你。如果你在暴怒时救赎失败，你可以重新掷骰子，但你必须使用新的骰子。每次狂怒你只能使用这个能力一次。"
+			]
+		},
+		{
+			"name": "Zealous Presence",
+			"source": "XGE",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Zealot",
+			"subclassSource": "XGE",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"10级时，你学会了引导神力来激发他人的狂热。作为一个额外的行动，你释放出一个注入了神圣能量的战吼。在你周围60英尺范围内，有多达10个你选择的生物能听到你的声音，在攻击卷和蓄力上获得优势，直到你下一回合开始。",
+				"一旦你使用这个功能，你就不能再使用它，直到你完成长时间的休息。"
+			]
+		},
+		{
+			"name": "Rage beyond Death",
+			"source": "XGE",
+			"page": 11,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Zealot",
+			"subclassSource": "XGE",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"从14级开始，助长你愤怒的神力使你能够摆脱致命的打击。",
+				"当你暴怒时，拥有0点生命值不会让你 {@condition unconscious}。你仍然必须进行死亡豁免投掷，并且在0点生命值时承受受伤的正常效果。然而，如果你因为未能通过死亡豁免投掷而死亡，你只有在暴怒结束后才会死亡，而且只有当你仍然拥有0点生命值时才会死亡。"
+			]
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "SCAG",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"当你怒气冲冲且没有穿戴重甲时，你的行走速度会增加15英尺。麋鹿的精神使你变得异常敏捷。"
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "SCAG",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"愤怒时，你可以使你的跳远距离增加10英尺，跳高距离增加3英尺。虎的精神增强了你的跳跃能力。"
+			]
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "SCAG",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"无论是骑乘还是步行，你的旅行速度加倍，同时在你身边60英尺范围内且你不是{@condition incapacitated}时，最多十个同伴的旅行速度也会加倍。麋鹿之灵助你远行快速。"
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "SCAG",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 6,
+			"entries": [
+				"你在以下技能中选择两项获得熟练加值：{@skill Athletics}，{@skill Acrobatics}，{@skill Stealth}和{@skill Survival}。猫灵磨练你的生存本能。"
+			]
+		},
+		{
+			"name": "Elk",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "SCAG",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"在愤怒状态下，你可以在移动过程中使用一个奖励动作穿过一个大型或更小的生物的空间。那个生物必须成功通过一个力量豁免检定（豁免 DC 8 + 你的力量加值 + 你的熟练加值）否则被撞倒{@condition prone}并受到钝击伤害，伤害值等于{@dice 1d12} + 你的力量调整值。"
+			]
+		},
+		{
+			"name": "Tiger",
+			"source": "SCAG",
+			"page": 122,
+			"className": "Barbarian",
+			"classSource": "SCAG",
+			"subclassShortName": "Totem Warrior",
+			"subclassSource": "PHB",
+			"level": 14,
+			"entries": [
+				"在你愤怒的时候，如果你在对一个大型或小型目标进行近战武器攻击之前，在一条直线上向其移动至少20英尺，你可以使用一个额外的动作对其进行一次额外的近战武器攻击。"
+			]
+		},
+		{
+			"name": "Desert",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"当这个效果被激活时，在你光环中的所有其他生物每人受到2个火系伤害。当你在这个等级中达到一定级别时，伤害会增加，在5级时增加到3，10级时增加到4，15级时增加到5，20级时增加到6。"
+			]
+		},
+		{
+			"name": "Sea",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"当此效果被激活时，你可以选择你的光环中可以看到的另一个生物。目标必须进行一次敏捷豁免。目标在豁免失败时受到{@damage 1d6} 闪电伤害，在豁免成功时受到一半伤害。当你达到该职业的特定等级时，伤害会增加，分别增加到10级时的{@dice 2d6}，15级时的{@dice 3d6}，和20级时的{@dice 4d6}。"
+			]
+		},
+		{
+			"name": "Tundra",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"当这个效果被激活时，在你的光环中你选择的每个生物都会获得2个临时命中率，因为冰冷的精神使其遭受痛苦。当你在这个等级中达到一定级别时，临时命中率会增加，在5级时增加到3，10级时增加到4，15级时增加到5，20级时增加到6。"
+			]
+		},
+		{
+			"name": "Desert",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 6,
+			"entries": [
+				"你获得了对火灾伤害的抵抗力，而且你不会受到极热的影响，如《地下城主指南》中所述。此外，作为一个动作，你可以触摸一个没有被其他人佩戴或携带的易燃物，并将其点燃。"
+			]
+		},
+		{
+			"name": "Sea",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 6,
+			"entries": [
+				"你获得对雷电伤害的抵抗力，你可以在水下呼吸。你还获得了30英尺的游泳速度。"
+			]
+		},
+		{
+			"name": "Tundra",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 6,
+			"entries": [
+				"你获得了对寒冷伤害的抵抗力，而且你不会受到极度寒冷的影响，如《地下城主指南》中所述。此外，作为一个动作，你可以接触水并将5英尺的水立方变成冰，1分钟后融化。如果有生物在这个立方体中，这个动作就会失败。"
+			]
+		},
+		{
+			"name": "Desert",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 14,
+			"entries": [
+				"在你的光环中的生物用攻击击中你之后，你可以用你的反应来迫使该生物做一个灵巧的救赎动作。如果救赎失败，该生物会受到相当于你野蛮人等级一半的火焰伤害。"
+			]
+		},
+		{
+			"name": "Sea",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 14,
+			"entries": [
+				"当你用攻击命中你光环中的生物时，你可以使用你的反应来迫使那个生物进行一次力量豁免投掷。如果豁免失败，那个生物被击退{@condition prone}，就像被一股波浪击中一样。"
+			]
+		},
+		{
+			"name": "Tundra",
+			"source": "XGE",
+			"page": 10,
+			"className": "Barbarian",
+			"classSource": "XGE",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XGE",
+			"level": 14,
+			"entries": [
+				"每当你的风暴光环的效果被激活时，你可以选择一个你能在光环中看到的生物。该生物必须成功地进行力量救赎，否则它的速度将降至0，直到你下一回合开始，因为魔法霜冻覆盖了它。"
+			]
+		}
+	]
+}

@@ -78,7 +78,7 @@
 							"items": {
 								"name": "Multiattack",
 								"entries": [
-									"眼柄用咬击进行攻击，并使用歼灭凝视(Eradication Gaze)。"
+									"The eyestalk attacks with its bite and uses Eradication Gaze."
 								]
 							}
 						},
@@ -88,7 +88,7 @@
 							"items": {
 								"name": "Eradication Gaze {@recharge 5}",
 								"entries": [
-									"眼柄在一个150英尺的锥形区域内制造出一片魔法毁灭。该区域内的任何生物必须成功进行一次{@dc 16}敏捷豁免才能免受55（{@damage 10d10}）点死灵伤害。如果这个伤害将一只生物的生命值降低到0，它的身体将变成一堆精细的紫色尘土。"
+									"The eyestalk creates an area of magical devastation in a 150-foot cone. Any creature in that area must succeed on a {@dc 16} Dexterity saving throw or take 55 ({@damage 10d10}) necrotic damage. If this damage reduces a creature to 0 hit points, its body becomes a pile of fine violet dust."
 								]
 							}
 						}
@@ -176,7 +176,7 @@
 						"items": {
 							"name": "Thunder Breath {@recharge 5}",
 							"entries": [
-								"旋风蠕虫呼出一道长20英尺、宽5英尺的雷霆线。该线上的每个生物必须进行一次{@dc 16}敏捷豁免才能，未能通过则受到66({@damage 12d10})点雷霆伤害，通过则只受一半伤害。"
+								"The whirlwyrm exhales a line of thunder that is 20 feet long and 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 66 ({@damage 12d10}) thunder damage on a failed save, or half as much damage on a successful one."
 							]
 						}
 					}
@@ -273,7 +273,7 @@
 							"items": {
 								"name": "Energy Bolt",
 								"entries": [
-									"{@atk rs} {@hit 12} 进行攻击，射程120英尺，目标为一名敌人。造成{@h}32 ({@damage 5d12}) 点死灵伤害。"
+									"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}32 ({@damage 5d12}) necrotic damage."
 								]
 							}
 						},
@@ -283,7 +283,7 @@
 							"items": {
 								"name": "Planar Exhalation {@recharge 5}",
 								"entries": [
-									"化身呼出了其位面特有的能量，形成一个60英尺的锥形区域。该区域内的每个生物必须进行一次{@dc 23}体质豁免才能。未通过豁免的生物会受到52({@damage 8d12})点死灵伤害，并且该生物会在化身的下一个回合结束前陷入{@condition blinded}状态。通过豁免的生物只会受到一半伤害。"
+									"The incarnate exhales concentrated energy native to its plane in a 60-foot cone. Each creature in that area must make a {@dc 23} Constitution saving throw. On a failed save, a creature takes 52 ({@damage 8d12}) necrotic damage, and the creature has the {@condition blinded} condition until the end of the incarnate's next turn. On a successful save, a creature takes half as much damage only."
 								]
 							}
 						}
@@ -360,7 +360,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，达到5英尺，一个目标。造成{@h}5 ({@damage 1d4 + 3})穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
 					]
 				}
 			],

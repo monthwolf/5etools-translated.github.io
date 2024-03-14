@@ -231,7 +231,7 @@
 				{
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"在阳光下，卓帕卡布拉在进行攻击检定时有劣势，以及在依赖视觉的感知（Wisdom）检定中也有劣势。"
+						"While in sunlight, the chupacabra has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -239,13 +239,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}7 ({@damage 2d4 + 2})穿刺伤害。如果目标是一个生物，它必须在一个{@dc 13}的力量反射中成功，或者被击倒{@condition prone}。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
 					"name": "Drain Blood",
 					"entries": [
-						"{@atk mw}{@hit 4}击中，达到5英尺，一个生物是{@condition prone}，{@condition incapacitated}，或{@condition restrained}。{@h}5 ({@damage 1d6 + 2})坏死性伤害。目标必须成功地进行一次{@dc 13}宪法救赎，否则它的最大命中率会减少，减少的量等于所受的伤害，而且楚霸王会重新获得与该量相等的命中率。减少的伤害会持续到目标完成一个长时间的休息。如果这个效果将其最大命中率降低到0，则目标会死亡。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature that is {@condition prone}, {@condition incapacitated}, or {@condition restrained}. {@h}5 ({@damage 1d6 + 2}) necrotic damage. The target must succeed on a {@dc 13} Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the chupacabra regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
 					]
 				}
 			],
@@ -253,7 +253,7 @@
 				{
 					"name": "Pin",
 					"entries": [
-						"如果楚霸王5英尺内的生物站起来，楚霸王可以用它的反应来进行咬人攻击。"
+						"If a creature within 5 feet of the chupacabra stands up, the chupacabra can use its reaction to make a bite attack."
 					]
 				}
 			],
@@ -423,25 +423,25 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"如果年长的恐龙在拯救动作中失败，它可以选择成功。"
+						"If the elder dinosaur fails a saving throw, it can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"年长的恐龙在对抗法术和其他魔法效果时有优势。"
+						"The elder dinosaur has advantage on saving throws against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Siege Monster",
 					"entries": [
-						"老年恐龙对物体和结构造成双倍伤害。"
+						"The elder dinosaur deals double damage to objects and structures."
 					]
 				},
 				{
 					"name": "Uniqueness",
 					"entries": [
-						"所有六只年长的恐龙都有这些统计数据：{@creature Elder Dinosaur (Etali, Primal Storm)|PSX|Etali, Primal Storm}, {@creature Elder Dinosaur (Ghalta, Primal Hunger)|PSX|Ghalta, Primal Hunger}, {@creature Elder Dinosaur (Nezahal, Primal Tide)|PSX|Nezahal, Primal Tide}, {@creature Elder Dinosaur (Tetzimoc, Primal Death)|PSX|Tetzimoc, Primal Death}, {@creature Elder Dinosaur (Zacama, Primal Calamity)|PSX|Zacama, Primal Calamity}, {@creature Elder Dinosaur (Zetalpa, Primal Dawn)|PSX|Zetalpa, Primal Dawn}"
+						"These statistics are shared by all six elder dinosaurs: {@creature Elder Dinosaur (Etali, Primal Storm)|PSX|Etali, Primal Storm}, {@creature Elder Dinosaur (Ghalta, Primal Hunger)|PSX|Ghalta, Primal Hunger}, {@creature Elder Dinosaur (Nezahal, Primal Tide)|PSX|Nezahal, Primal Tide}, {@creature Elder Dinosaur (Tetzimoc, Primal Death)|PSX|Tetzimoc, Primal Death}, {@creature Elder Dinosaur (Zacama, Primal Calamity)|PSX|Zacama, Primal Calamity}, {@creature Elder Dinosaur (Zetalpa, Primal Dawn)|PSX|Zetalpa, Primal Dawn}"
 					]
 				}
 			],
@@ -449,13 +449,13 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"每个在它120英尺范围内的长老恐龙所选择的生物，必须在一个{@dc 17}的智慧救赎上成功，否则会变成{@condition frightened}，持续1分钟。一个生物可以在它的每个回合结束时重复蓄力，如果长老恐龙在视线范围内，则处于劣势，成功后结束对自己的影响。如果一个生物的自救成功或效果结束，该生物在接下来的24小时内对长老恐龙的恐怖存在免疫。"
+						"Each creature of the elder dinosaur's choice within 120 feet of it and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the elder dinosaur is within line of sight, ending the effect on itself ona success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the elder dinosaur's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"老年恐龙对它正在抓捕的大型或小型生物进行一次撕咬攻击。如果攻击命中，该生物将受到咬伤的伤害，目标被吞噬，抓捕结束。当被吞噬时，该生物是{@condition blinded}和{@condition restrained}，它对长老级恐龙以外的攻击和其他效果有完全的掩护，并且在长老级恐龙的每个回合开始时受到56({@damage 16d6})的酸伤害。如果长老恐龙在一个回合内受到来自它体内生物的60次伤害或更多，它必须在该回合结束时成功地进行一次{@dc 20}宪法救赎，或者反刍所有被吞食的生物，这些生物会落在它10英尺范围内的{@condition prone}空间。如果老恐龙死了，被吞食的生物就不再是它的{@condition restrained}，可以通过使用20英尺的移动距离，从尸体上逃出{@condition prone}。"
+						"The elder dinosaur makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the elder dinosaur, and it takes 56 ({@damage 16d6}) acid damage at the start of each of the elder dinosaur's turns. If the elder dinosaur takes 60 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the elder dinosaur dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
 					]
 				}
 			],
@@ -463,19 +463,19 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"老恐龙进行一次爪子攻击、尾巴攻击、翅膀攻击或翻板攻击。"
+						"The elder dinosaur makes one claw attack, tail attack, wing attack, or flipper attack."
 					]
 				},
 				{
 					"name": "Move",
 					"entries": [
-						"年长的恐龙移动到它的一半速度。"
+						"The elder dinosaur moves up to half its speed."
 					]
 				},
 				{
 					"name": "Chomp (Costs 2 Actions)",
 					"entries": [
-						"年长的恐龙进行一次咬合攻击或使用它的燕子。"
+						"The elder dinosaur makes one bite attack or uses its Swallow."
 					]
 				}
 			],
@@ -520,7 +520,7 @@
 						"items": {
 							"name": "Lightning Storm",
 							"entries": [
-								"这只长者恐龙总是伴随着一场狂暴的雷暴，类似于{@spell call lightning}法术的效果。当长者恐龙愤怒或变得暴力时，只要在户外，一个10英尺高、半径60英尺的圆柱形风暴云立即在它上方100英尺处形成。在每个回合里，作为一个动作，长者恐龙可以选择一个它能看到的距离120英尺的点。一道闪电从云朵闪下，击中那个点。每个距离那个点10英尺内的生物必须进行一次{@dc 20}敏捷豁免检定，未通过则受到21({@damage 6d6})点闪电伤害，通过则受到一半伤害。"
+								"The elder dinosaur is always accompanied by a raging thunderstorm similar to the effect of a {@spell call lightning} spell. A storm cloud in the shape of a cylinder that is 10 feet tall with a 60-foot radius instantly forms 100 feet in the air over the elder dinosaur when it is angered or becomes violent, as long as it is outdoors. On each of its turns, as an action, the elder dinosaur can choose a point it can see within 120 feet of it. A bolt of lightning flashes down from the cloud to that point. Each creature within 10 feet of that point must make a {@dc 20} Dexterity saving throw, taking 21 ({@damage 6d6}) lightning damage on a failed save, or half as much damage on a successful one."
 							]
 						}
 					},
@@ -666,7 +666,7 @@
 						"items": {
 							"name": "Hold Breath",
 							"entries": [
-								"年长的恐龙可以憋气4个小时。"
+								"The elder dinosaur can hold its breath for 4 hours."
 							]
 						}
 					},
@@ -1044,25 +1044,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"死亡喷射器会进行三次攻击：一次是咬，两次是爪子。"
+						"The deathspitter makes three attacks: one with its bite and two with its claws."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5}击中，到达5英尺，一个目标。{@h}6 ({@damage 1d6 + 3})砍击伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Spit Poison",
 					"entries": [
-						"{@atk rw} {@hit 5}击中，范围15/30英尺，一个生物。{@h}目标必须做一个{@dc 13}的宪法救赎，如果救赎失败会受到18({@damage 4d8})的毒药伤害，如果救赎成功会受到一半的伤害。此外，拯救失败的生物会被{@condition blinded}，直到死亡使者的下一个回合结束。"
+						"{@atk rw} {@hit 5} to hit, range 15/30 ft., one creature. {@h}The target must make a {@dc 13} Constitution saving throw, taking 18 ({@damage 4d8}) poison damage on a failed save, or half as much damage on a successful one. In addition, a creature that fails its saving throw is {@condition blinded} until the end of the deathspitter's next turn."
 					]
 				}
 			],
@@ -1139,7 +1139,7 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"如果Gishath的拯救动作失败，它可以选择成功。"
+						"If Gishath fails a saving throw, it can choose to succeed instead."
 					]
 				}
 			],
@@ -1147,32 +1147,32 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"吉萨特会进行两次攻击：一次是咬人，一次是踩踏或尾巴。它不能对同一目标进行两次攻击。"
+						"Gishath makes two attacks: one with its bite and one with its stomp or tail. It can't make both attacks against the same target."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 11}击中，到达15英尺，一个目标。{@h}39 ({@damage 5d12 + 7})穿刺伤害。如果目标是大型或较小的生物，它必须在{@dc 19}灵巧反射中成功，否则它就会被{@condition grappled}(逃脱{@dc 19})。在这个抓捕结束之前，目标是{@condition restrained}，而且吉萨特不能咬到其他目标。"
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}39 ({@damage 5d12 + 7}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 19} Dexterity saving throw or it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and Gishath can't bite another target."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"Gishath对它正在抓捕的大型或小型生物进行一次撕咬攻击。如果攻击命中，该生物会受到咬的伤害并被吞噬，抓捕结束。当被吞噬时，该生物是{@condition blinded}和{@condition restrained}，它对Gishath以外的攻击和其他效果有完全的掩护，并且在Gishath的每个回合开始时受到21({@damage 6d6})的酸性伤害。",
-						"如果吉沙斯(Gishath)在一回合内受到30点或更多伤害，来自于它内部的生物，它必须在那个回合结束时成功进行一次{@dc 18}体质豁免才能保持吞食的生物，否则会将所有吞食的生物呕吐出来，它们会掉落在离它不超过10英尺的空间内。如果吉沙斯死亡，被吞食的生物不再受其影响，可以利用20英尺的移动逃离尸体，从中逃脱。"
+						"Gishath makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside Gishath, and it takes 21 ({@damage 6d6}) acid damage at the start of each of Gishath's turns.",
+						"If Gishath takes 30 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 18} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If Gishath dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
 					]
 				},
 				{
 					"name": "Stomp",
 					"entries": [
-						"{@atk mw} {@hit 11}击中，到达10英尺，一个目标。{@h}29 ({@damage 5d8 + 7})重击伤害，目标必须成功进行{@dc 19}力量救赎，否则被击倒{@condition prone}。"
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}29 ({@damage 5d8 + 7}) bludgeoning damage, and the target must succeed on a {@dc 19} Strength saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 11}击中，到达15英尺，一个目标。{@h}25 ({@damage 4d8 + 7})重击伤害。"
+						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}25 ({@damage 4d8 + 7}) bludgeoning damage."
 					]
 				}
 			],
@@ -1180,13 +1180,13 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"吉沙特进行一次踩踏或尾部攻击。"
+						"Gishath makes one stomp or tail attack."
 					]
 				},
 				{
 					"name": "Roar (Costs 2 Actions)",
 					"entries": [
-						"每个在吉沙特120英尺范围内并能听到它的生物，必须在一个{@dc 19}的智慧救赎中成功，否则会在1分钟内变得{@condition frightened}。一个生物可以在它的每个回合结束时重复蓄力，如果成功，则结束对自己的影响。如果一个生物的蓄力动作成功或效果结束，该生物在接下来的24小时内对吉沙特的吼叫免疫。"
+						"Each creature that is within 120 feet of Gishath and can hear it must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on tself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Gishath's Roar for the next 24 hours."
 					]
 				}
 			],
@@ -1290,7 +1290,7 @@
 							"items": {
 								"name": "Bite",
 								"entries": [
-									"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}3 ({@damage 1d4 + 1})砍击伤害。如果目标是生物，它必须在DC11宪法救赎中成功，否则会感染疾病。在疾病被治愈之前，除非通过魔法手段，否则目标无法恢复命中率，而且目标的最大命中率每24小时减少3（（4%））。如果目标的最大命中率由于这种疾病而下降到0，则目标死亡。"
+									"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage. If the target is a creature, it must succeed on a DC 11 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 ({@dice 1d6}) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
 								]
 							}
 						},
@@ -1300,7 +1300,7 @@
 							"items": {
 								"name": "Multiattack",
 								"entries": [
-									"鹞鹰会进行两次攻击：一次用爪子，一次用咬。"
+									"The harpy makes two attacks: one with its claws and one with its bite."
 								]
 							}
 						}
@@ -1561,25 +1561,25 @@
 				{
 					"name": "Death Throes",
 					"entries": [
-						"当太阳鸟死亡时，它会爆炸，在它周围30英尺内的每个生物必须做一个{@dc 18}灵巧的蓄力动作，蓄力失败会受到42({@damage 12d6})的火力伤害，蓄力成功会受到一半的伤害。爆炸会点燃该区域内未被穿戴或携带的易燃物。太阳鸟的身体化为灰烬，但在太阳鸟原来的地方留下一个蛋。"
+						"When the sunbird dies, it explodes, and each creature within 30 feet of it must make a {@dc 18} Dexterity saving throw, taking 42 ({@damage 12d6}) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried. The sunbird's body turns to ash, but an egg is left where the sunbird was."
 					]
 				},
 				{
 					"name": "Fire Aura",
 					"entries": [
-						"在每个太阳鸟的回合开始时，距离它5英尺内的每个生物会受到11 ({@damage 2d10}) 火焰伤害，并且区域内未被穿戴或携带的易燃物品会点燃。当一个生物触碰太阳鸟或在距离它5英尺内对其进行近战攻击时，会受到11 ({@damage 2d10}) 火焰伤害。这个光环还会在半径60英尺内散发明亮光，额外再照亮60英尺的区域。"
+						"At the start of each of the sunbird's turns, each creature within 5 feet of it takes 11 ({@damage 2d10}) fire damage, and flammable objects in the area that aren't being worn or carried ignite. A creature that touches the sunbird or hits it with a melee attack while within 5 feet of it takes 11 ({@damage 2d10}) fire damage. The aura also sheds bright light in a 60-foot radius and dim light for an additional 60 feet."
 					]
 				},
 				{
 					"name": "Flyby",
 					"entries": [
-						"当太阳鸟飞出敌人的范围时，不会引发机会攻击。"
+						"The sunbird doesn't provoke opportunity attacks when it flies out of an enemy's reach."
 					]
 				},
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"太阳鸟在依靠听觉或视觉的智慧检查中具有优势。"
+						"The sunbird has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
 					]
 				}
 			],
@@ -1587,13 +1587,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"太阳鸟进行两次爪子攻击。"
+						"The sunbird makes two talon attacks."
 					]
 				},
 				{
 					"name": "Talon",
 					"entries": [
-						"{@atk mw} {@hit 14}击中，到达5英尺，一个目标。{@h}16({@damage 2d6 + 9})的砍击伤害加上14({@damage 4d6})的火焰伤害，目标是{@condition grappled}(逃跑{@dc 18})。直到这个抓捕结束，目标是{@condition restrained}，并且太阳鸟不能用该爪子攻击其他目标。在太阳鸟的每个回合开始时，一个{@condition grappled}的生物会受到11（{@damage 2d10}）的火焰伤害。"
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d6 + 9}) slashing damage plus 14 ({@damage 4d6}) fire damage, and the target is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the sunbird can't attack another target with that talon. A {@condition grappled} creature takes 11 ({@damage 2d10}) fire damage at the start of each of the sunbird's turns."
 					]
 				}
 			],

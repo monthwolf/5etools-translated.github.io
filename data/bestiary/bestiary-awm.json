@@ -35,13 +35,13 @@
 				{
 					"name": "Invisible in Water",
 					"entries": [
-						"当完全浸泡在水中时，大水蛇的速度为{@condition invisible}。"
+						"The big water slurpent is {@condition invisible} while fully immersed in water."
 					]
 				},
 				{
 					"name": "Water Bound",
 					"entries": [
-						"如果大水蛇离开它所绑定的水，或者该水被破坏，它就会死亡。"
+						"The big water slurpent dies if it leaves the water to which it is bound or if that water is destroyed."
 					]
 				}
 			],
@@ -49,7 +49,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw}进行攻击，一个目标。{@h}13 ({@damage 3d6+3}) 钝击伤害。如果目标是中等或更小，它被{@condition grappled} (逃脱 {@dc 13}) 并被拉向大水蛇。直到这次擒抱结束，目标被{@condition restrained}，大水蛇试图将其淹死，并且大水蛇不能够再压制另一个目标。"
+						"{@atk mw} {@hit 5} to hit, one target. {@h}13 ({@damage 3d6+3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}) and pulled 5 feet toward the big water slurpent. Until this grapple ends, the target is {@condition restrained}, the big water slurpent tries to drown it, and the big water slurpent can't constrict another target."
 					]
 				}
 			],
@@ -103,7 +103,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"如果至少有一只鸟松鼠的盟友在离生物5英尺范围内且该盟友不是{@condition incapacitated}时，鸟松鼠对该生物的攻击投掷获得优势。"
+						"Birdsquirrel has advantage on an attack roll against a creature if at least one of the Birdsquirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
 					]
 				}
 			],
@@ -111,19 +111,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"鸟类松鼠会进行两次攻击：一次是咬人，一次是用爪子。"
+						"Birdsquirrel makes two attacks: one with its bite and one with its claws."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4}攻击，射程5英尺，一个目标。造成{@h}5 ({@damage 1d6+2})穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6+2}) piercing damage."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 4}攻击，射程5英尺，目标一个。造成{@h}4 ({@damage 1d4+2})点割伤伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4+2}) slashing damage."
 					]
 				}
 			],
@@ -177,7 +177,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"如果至少有一只博恩图猴的盟友在离生物5英尺范围内且盟友不是{@condition incapacitated}，那么博恩图猴在对该生物进行攻击检定时具有优势。"
+						"The Boontu monkey has advantage on an attack roll against a creature if at least one of the boontu monkey's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
 					]
 				}
 			],
@@ -185,7 +185,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 1}击中，到达5英尺，一个目标。{@h}1 ({@damage 1d4 ‒1})穿刺伤害。"
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 ‒1}) piercing damage."
 					]
 				}
 			],
@@ -236,13 +236,13 @@
 				{
 					"name": "Amphibious",
 					"entries": [
-						"人鱼族可以呼吸空气和水。"
+						"The merfolk can breathe air and water."
 					]
 				},
 				{
 					"name": "Siren Song",
 					"entries": [
-						"可爱的歌声迷住了300英尺内的每个人形或巨人。目标必须在一个{@dc 11}的智慧救赎中成功，否则会被{@condition charmed}，直到歌曲结束。"
+						"Lovely singing voices charm every humanoid or giant within 300 feet. The targets must succeed on a {@dc 11} Wisdom saving throw or be {@condition charmed} until the song ends."
 					]
 				}
 			],
@@ -250,7 +250,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 2}击中，一个目标。{@h}3 ({@damage 1d6})穿刺伤害。"
+						"{@atk mw} {@hit 2} to hit, one target. {@h}3 ({@damage 1d6}) piercing damage."
 					]
 				}
 			],
@@ -317,13 +317,13 @@
 				{
 					"name": "Amphibious",
 					"entries": [
-						"巫婆可以呼吸空气和水。"
+						"The hag can breathe air and water."
 					]
 				},
 				{
 					"name": "Mimicry (Green Hag)",
 					"entries": [
-						"巫婆可以模仿动物的声音和人类的声音。听到这些声音的生物可以通过成功的{@dc 14}智慧({@skill Insight})检查看出它们是模仿的。"
+						"The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom ({@skill Insight}) check."
 					]
 				}
 			],
@@ -331,19 +331,19 @@
 				{
 					"name": "Illusory Appearance",
 					"entries": [
-						"这个女巫用魔法幻象覆盖自己，让她看起来像另一个大致相同大小和形状的生物。幻象会在女巫选择结束，或者她死亡时消失。进行一次{@dc 20}智力检定({@skill Investigation})可以揭穿女巫的伪装。"
+						"The hag covers herself with a magical illusion that allows her to look like another creature of her general size and shape. The illusion ends when the hag chooses, or if she dies. A {@dc 20} Intelligence ({@skill Investigation}) check will expose the hag's disguise."
 					]
 				},
 				{
 					"name": "Invisible Passage",
 					"entries": [
-						"这个女巫用魔法将{@condition invisible}转变，直到她发动攻击或施放法术，或者她的{@status concentration}结束。在{@condition invisible}期间，她不留下任何身体证据，只能通过魔法追踪。"
+						"The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her {@status concentration} ends. While {@condition invisible}, she leaves no physical evidence of her passage, and can only be tracked by magic."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 6}击中，一个目标。{@h}17 ({@damage 2d8 + 4})砍击伤害。"
+						"{@atk mw} {@hit 6} to hit, one target. {@h}17 ({@damage 2d8 + 4}) slashing damage."
 					]
 				}
 			],
@@ -409,7 +409,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"地精可以在每个回合的奖励动作中选择执行{@action Disengage}或{@action Hide}动作。"
+						"The goblin can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
 					]
 				}
 			],
@@ -417,19 +417,19 @@
 				{
 					"name": "Catch me if you can!",
 					"entries": [
-						"达姆哥布林在战斗前会选择逃跑和躲藏 在他们被攻击之前，必须做一个{@dc 15}的灵巧检查。"
+						"Dum-Dum Goblins will opt to run and hide before fighting! A {@dc 15} Dexterity check must be made before they can be attacked."
 					]
 				},
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 4}击中，一个目标。{@h}3 ({@damage 1d6 +2})砍击伤害。"
+						"{@atk mw} {@hit 4} to hit, one target. {@h}3 ({@damage 1d6 +2}) slashing damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 4}击中，一个目标。{@h}6 ({@damage 1d6 + 2})穿刺伤害。"
+						"{@atk rw} {@hit 4} to hit, one target. {@h}6 ({@damage 1d6 + 2}) piercing damage."
 					]
 				}
 			],
@@ -489,7 +489,7 @@
 				{
 					"name": "Dwarven Resilience",
 					"entries": [
-						"他们对毒药的救赎有优势，并且对毒药伤害有抵抗力。"
+						"They have advantage on saving throws against poison, and they have resistance to poison damage."
 					]
 				}
 			],
@@ -497,7 +497,7 @@
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk mw} {@hit 3}击中，一个目标。{@h}4 ({@damage 1d6 + 1})砍击伤害。"
+						"{@atk mw} {@hit 3} to hit, one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
 					]
 				}
 			],
@@ -555,7 +555,7 @@
 				{
 					"name": "Tunneler",
 					"entries": [
-						"这种蠕虫能以一半的钻洞速度钻过坚硬的岩石，并在其身后留下一条直径为10英尺的隧道。"
+						"The worm can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
 					]
 				}
 			],
@@ -563,20 +563,20 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"该虫子进行了两次攻击。"
+						"The worm makes two attacks:"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 14}击中，一个目标。{@h}22 ({@damage 3d8})穿刺伤害。目标必须做一个{@dc 19}灵巧的救赎，否则就会被虫子吞噬!"
+						"{@atk mw} {@hit 14} to hit, one target. {@h}22 ({@damage 3d8}) piercing damage. Target must make a {@dc 19} Dexterity save, or be swallowed by the worm!"
 					]
 				},
 				{
 					"name": "Tail Stinger",
 					"entries": [
-						"{@atk mw} {@hit 14}击中，一个生物。{@h}19 ({@damage 3d6 + 9})穿刺伤害 目标必须做一个{@dc 19}宪法救赎，否则受到42",
-						"({@dice 12d6})毒伤害。"
+						"{@atk mw} {@hit 14} to hit, one creature. {@h}19 ({@damage 3d6 + 9}) piercing damage Target must make a {@dc 19} Constitution save, or take 42",
+						"({@dice 12d6}) poison damage."
 					]
 				}
 			],
@@ -633,7 +633,7 @@
 				{
 					"name": "Limited Telepathy",
 					"entries": [
-						"Otyugh可以用魔法将简单的信息和图像传送给它周围120英尺内任何能理解语言的生物。这种形式的心灵感应并不允许接收的生物做出心灵感应。"
+						"The otyugh can magically transmit simple messages and images to any creature within 120 feet of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond."
 					]
 				}
 			],
@@ -641,27 +641,27 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"奥特尤格进行了三次攻击。"
+						"The otyugh makes three attacks:"
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}12 ({@damage 2d8 + 3})穿刺伤害。目标必须做一个{@dc 15}体质救赎，否则会受到d",
-						"({@dice 1d10})中毒伤害，直到治愈。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage. Target must make a {@dc 15} Constitution save, or take d",
+						"({@dice 1d10}) poison damage until cured."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 6}击中，到达10英尺，一个目标。{@h}7 ({@damage 1d8 + 3})重击伤害,目标必须做一个{@dc 19}体质救赎,否则会受到42%的伤害。",
-						"({@dice 12d6})毒药伤害"
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage ,Target must make a {@dc 19} Constitution save, or take 42",
+						"({@dice 12d6}) poison damage"
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"目标必须做一个{@dc 14}宪法保护，或被{@condition grappled}。"
+						"Target must make a {@dc 14} Constitution save, or be {@condition grappled}."
 					]
 				}
 			],
@@ -718,19 +718,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"巨人进行了两次大环形攻击。"
+						"The giant makes two greatclub attacks."
 					]
 				},
 				{
 					"name": "Greatclub",
 					"entries": [
-						"{@atk mw} {@hit 8}击中，一个目标。{@h}18 ({@damage 3d8 + 5})重击伤害。"
+						"{@atk mw} {@hit 8} to hit, one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit 8}击中，一个目标。{@h}21 ({@damage 3d10 + 5})重击伤害。"
+						"{@atk rw} {@hit 8} to hit, one target. {@h}21 ({@damage 3d10 + 5}) bludgeoning damage."
 					]
 				}
 			],
@@ -794,7 +794,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"凤蛇的施法能力是魅力（法术豁免{@dc 14}）。它可以天生施放以下法术，只需要口头组件："
+						"The couatl's spellcasting ability is Charisma (spell save {@dc 14}). It can innately cast the following spells, requiring only verbal components:"
 					],
 					"will": [
 						"{@spell detect evil and good}",
@@ -824,13 +824,13 @@
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"库阿特尔的武器攻击是神奇的。"
+						"The couatl's weapon attacks are magical."
 					]
 				},
 				{
 					"name": "Shielded Mind",
 					"entries": [
-						"库拉图对窥探和任何能感知其情绪、读取其思想或探测其位置的效果都是免疫的。"
+						"The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
 					]
 				}
 			],
@@ -838,20 +838,20 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8}击中，到达5英尺，一个生物。{@h}8 ({@damage 1d6 + 5})穿刺伤害，目标必须做一个{@dc 13}宪法救赎，否则会倒下{@condition unconscious}。另一个生物可以使用一个动作来摇醒目标。"
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d6 + 5}) piercing damage, Target must make a {@dc 13} Constitution save, or fall {@condition unconscious}. Another creature can use an action to shake the target awake."
 					]
 				},
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw}{@hit 6}击中，到达10英尺，一个中型或小型生物。{@h}10 ({@damage 2d6 + 3})重击伤害，目标为{@condition grappled}(逃跑{@dc 15})。Couatl一次只能约束一个目标。"
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one Medium or smaller creature. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, Target is {@condition grappled} (escape {@dc 15}). The couatl can constrain only one target at a time."
 					]
 				},
 				{
 					"name": "Change Shape",
 					"entries": [
-						"寇泰尔会神奇地多态化为一个挑战等级等于或小于它自己的人或野兽，或者回到它的真实形态。如果它死了，它就会恢复到它的真实形态。它所穿戴或携带的任何装备都会被新的形态所吸收或承担（由库拉特选择）。",
-						"在一个新的形态中，库拉图保留了它的游戏数据和说话的能力，但是它的攻击力、移动模式、力量、灵巧和其他动作都被新形态的动作所取代，并且它获得了新形态拥有但它缺乏的任何数据和能力（除了等级特征、传奇动作和巢穴动作）。如果新形态有咬合攻击，库拉图可以在该形态下使用它的咬合。"
+						"The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).",
+						"In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form."
 					]
 				}
 			],

@@ -24,10 +24,10 @@
 				"psychic"
 			],
 			"entries": [
-				"这个物品起初看起来是一个重达500磅的大铁桶。这个桶有一个隐藏的开关，可以通过成功的DC 20智力检定({@skill Investigation})找到。释放开关会解锁桶一端的舱口，允许两个中等或更小的生物爬进去。桶的另一端有十个杠杆排成一排，每个都处于中立位置，可以向上或向下移动。当使用特定的杠杆时，这个装置会变形成一个巨大的龙虾。",
-				"作为车辆使用，该设备需要一名驾驶员。当仪器的舱门关闭时，舱内是气密和水密的。舱内有足够的空气供10小时的呼吸，除以里面的呼吸生物数量。",
-				"该仪器漂浮在水面上。它也可以在水下走到900英尺的深度。低于此深度时，车辆每分钟会因压力而受到{@damage 2d6}的击打伤害。",
-				"车厢内的生物可以使用一个动作来向上或向下移动多达两个仪器的杠杆。每次使用后，一个杠杆会回到它的中立位置。每个杠杆，从左到右，其功能如Kwalish杠杆仪器表所示。",
+				"This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence ({@skill Investigation}) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster.",
+				"To be used as a vehicle, the apparatus requires one pilot. While the apparatus's hatch is closed, the compartment is airtight and watertight. The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside.",
+				"The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle takes {@damage 2d6} bludgeoning damage per minute from pressure.",
+				"A creature in the compartment can use an action to move as many as two of the apparatus's levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as shown in the Apparatus of Kwalish Levers table.",
 				{
 					"type": "table",
 					"caption": "Apparatus of Kwalish Levers:",
@@ -44,53 +44,53 @@
 					"rows": [
 						[
 							"1",
-							"腿和尾巴伸出来，使仪器可以行走和游泳。",
-							"腿和尾巴缩回，使仪器的速度降至0，并使其无法受益于速度的奖励。"
+							"Legs and tail extend, allowing the apparatus to walk and swim.",
+							"Legs and tail retract, reducing the apparatus's speed to 0 and making it unable to benefit from bonuses to speed."
 						],
 						[
 							"2",
-							"前窗百叶窗打开。",
-							"前窗百叶窗关闭。"
+							"Forward window shutter opens.",
+							"Forward window shutter closes."
 						],
 						[
 							"3",
-							"侧窗百叶窗打开（每侧两个）。",
-							"侧窗百叶窗关闭（每侧两个）。"
+							"Side window shutters open (two per side).",
+							"Side window shutters close (two per side)."
 						],
 						[
 							"4",
-							"两只爪子从仪器的前部两侧伸出。",
-							"爪子缩回。"
+							"Two claws extend from the front sides of the apparatus.",
+							"The claws retract."
 						],
 						[
 							"5",
-							"每个伸出的爪子可以进行以下近战武器攻击。{@hit 8}击中，到达5英尺，一个目标。{@h} 7 ({@damage 2d6})重击伤害。",
-							"每个伸出的爪子可以进行以下近战武器攻击。{@hit 8}击中，到达5英尺，一个目标。{@h}目标是{@condition grappled}（逃跑{@dc 15}）。"
+							"Each extended claw makes the following melee weapon attack: {@hit 8} to hit, reach 5 ft., one target. {@h} 7 ({@damage 2d6}) bludgeoning damage.",
+							"Each extended claw makes the following melee weapon attack: {@hit 8} to hit, reach 5 ft., one target. {@h} The target is {@condition grappled} (escape {@dc 15})."
 						],
 						[
 							"6",
-							"该仪器向前行走或游动。",
-							"该仪器向后行走或游泳。"
+							"The apparatus walks or swims forward.",
+							"The apparatus walks or swims backward."
 						],
 						[
 							"7",
-							"仪器向左转90度。",
-							"器械向右转90度。"
+							"The apparatus turns 90 degrees left.",
+							"The apparatus turns 90 degrees right."
 						],
 						[
 							"8",
-							"像眼睛一样的灯具在30英尺范围内发出亮光，在另外30英尺范围内发出暗光。",
-							"灯光熄灭。"
+							"Eyelike fixtures emit bright light in a 30-foot radius and dim light for an additional 30 feet.",
+							"The light turns off."
 						],
 						[
 							"9",
-							"该仪器在液体中下沉多达20英尺。",
-							"该仪器在液体中上升到20英尺。"
+							"The apparatus sinks as much as 20 feet in liquid.",
+							"The apparatus rises up to 20 feet in liquid."
 						],
 						[
 							"10",
-							"后舱门解封并打开。",
-							"后舱门关闭并密封。"
+							"The rear hatch unseals and opens.",
+							"The rear hatch closes and seals."
 						]
 					]
 				}
@@ -118,7 +118,7 @@
 					"name": "Ballistas",
 					"count": 2,
 					"entries": [
-						"{@atk rw} {@hit 6}击中，范围120/480英尺，一个目标。{@h}16 ({@damage 3d10})穿刺伤害。"
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 					]
 				}
 			],
@@ -194,7 +194,7 @@
 					"ac": 18,
 					"hp": 50,
 					"entries": [
-						"移动速度达到船的螺旋桨的速度，有一个90度的转弯。如果舵手被毁，船就不能转了。"
+						"Move up to the speed of the ship's propeller, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
 					]
 				},
 				{
@@ -202,7 +202,7 @@
 					"ac": 12,
 					"hp": 75,
 					"entries": [
-						"如果它的气球被摧毁，战斗气球不能保持高度。"
+						"If its balloon is destroyed, a battle balloon cannot maintain altitude."
 					]
 				}
 			],
@@ -216,7 +216,7 @@
 						{
 							"mode": "air",
 							"entries": [
-								"80英尺；迎风飞行时50英尺；随风飞行时100英尺"
+								"80 ft.; 50 ft. while flying into the wind; 100 ft. while flying with the wind"
 							]
 						}
 					]
@@ -228,7 +228,7 @@
 					"ac": 15,
 					"hp": 75,
 					"entries": [
-						"{@atk rw} {@hit 8}击中，范围200/800英尺。(不能击中60英尺内的目标)一个目标。{@h}16 ({@damage 3d10})穿刺伤害和22 ({@damage 4d10})火焰伤害。如果攻击不中，DM决定Arbalester bolt击中的位置。在该位置10英尺范围内的每个生物必须做一个DC 15的灵巧救赎，以避免螺栓破碎，如果救赎失败，将受到5({@damage 1d10})的穿刺伤害和5({@damage 1d10})的火焰伤害。"
+						"{@atk rw} {@hit 8} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it) one target. {@h}16 ({@damage 3d10}) piercing damage and 22 ({@damage 4d10}) fire damage. If the attack misses, the DM determines where the arbalester bolt hits. Each creature within 10 feet of that spot must make a DC 15 Dexterity saving throw to avoid the bolt as it shatters, taking 5 ({@damage 1d10}) piercing damage and 5 ({@damage 1d10}) fire damage on a failed save."
 					]
 				},
 				{
@@ -237,7 +237,7 @@
 					"ac": 15,
 					"hp": 50,
 					"entries": [
-						"{@atk rw}进行攻击，射程120/480英尺，目标为一个。造成{@h}11({@damage 2d10})点穿刺伤害，并且目标被{@condition grappled}（逃脱豁免 DC 16）抓住。直到角斗气球结束抓取，目标的速度减半，且不能远离角斗气球。每个角斗气球的鱼叉炮都可以抓取一个目标。当角斗气球用其鱼叉炮攻击抓住一个或多个目标{@condition grappled}时，角斗气球的速度不会减半。"
+						"{@atk rw} {@hit 8} to hit, range 120/480 ft., one target. {@h}11 ({@damage 2d10}) piercing damage, and the target is {@condition grappled} (escape DC 16). Until the grapple ends, the target's speed is halved, and it can't move farther away from the battle balloon. Each of the battle balloon's harpoon guns can grapple one target. While it has one or more targets {@condition grappled} with its harpoon gun attack, the battle balloon's speed is not halved."
 					]
 				}
 			],
@@ -256,22 +256,22 @@
 						{
 							"type": "item",
 							"name": "Fire Ballista",
-							"entry": "战斗气球可以发射其鱼叉枪。"
+							"entry": "The battle balloon can fire its harpoon guns."
 						},
 						{
 							"type": "item",
 							"name": "Fire Green Flame Arbalester",
-							"entry": "战斗气球可以发射其绿色火焰arbalester。"
+							"entry": "The battle balloon can fire its green flame arbalester."
 						},
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "战斗气球可以使用其舵轮通过螺旋桨移动。如果战斗气球进入一个大型或更小生物的空间，那个生物会被自动推到战斗气球空间的边缘。该生物还必须成功通过一次DC 15的敏捷豁免才能避免受到5({@damage 1d10})点的钝击伤害。"
+							"entry": "The battle balloon can use its helm to move using its propeller. If the battle balloon enters a Large or smaller creature's space, that creature is automatically pushed to the edge of the battle balloon's space. The creature must also succeed on a DC 15 Dexterity saving throw or take 5 ({@damage 1d10}) bludgeoning damage."
 						},
 						{
 							"type": "item",
 							"name": "Harpoon Haul",
-							"entry": "战斗气球可以将每个目标{@condition grappled}朝着战斗气球拉动多达30英尺。"
+							"entry": "The battle balloon can pull each target {@condition grappled} by it up to 30 feet toward the battle balloon."
 						}
 					]
 				}
@@ -327,13 +327,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -353,13 +353,13 @@
 						}
 					],
 					"entries": [
-						"装载巨大的大炮需要3个行动，发射需要1个行动。"
+						"It takes 3 actions to load the enormous cannon and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Cannon Ball",
 							"entries": [
-								"{@atk rw} 命中率+6，范围600/2400英尺，一个目标。{@h}88({@dice 16d10})重击伤害。"
+								"{@atk rw} +6 to hit, range 600/2,400 ft., one target. {@h}88 ({@dice 16d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -415,13 +415,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -441,13 +441,13 @@
 						}
 					],
 					"entries": [
-						"装填枪支需要2个动作，使用炮塔旋转器（附带的甲板图上的2区）瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 2 actions to load the mangonel, 1 action to aim it using the turret rotator (area 2 on the accompanying deck plan), and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} 命中率+5，范围200/800英尺（不能击中60英尺内的目标），一个目标。{@h}27 ({@dice 5d10})重击伤害。"
+								"{@atk rw} +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@dice 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -501,19 +501,19 @@
 				{
 					"name": "Crushing Wheels",
 					"entries": [
-						"恶魔研磨机可以在任何大型或小型生物的空间内移动。当它这样做时，该生物必须在DC11的灵巧救赎中成功，否则会受到22({@damage 4d10})的重击伤害并被击倒{@condition prone}。如果该生物已经是{@condition prone}，它将受到额外的22({@damage 4d10})重击伤害。这个特性在每个回合不能对某一生物使用超过一次。"
+						"The Demon Grinder can move through the space of any Large or smaller creature. When it does, the creature must succeed on a DC 11 Dexterity saving throw or take 22 ({@damage 4d10}) bludgeoning damage and be knocked {@condition prone}. If the creature was already {@condition prone}, it takes an extra 22 ({@damage 4d10}) bludgeoning damage. This trait can't be used against a particular creature more than once each turn."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"恶魔研磨机的武器攻击是有魔力的。"
+						"The Demon Grinder's weapon attacks are magical."
 					]
 				},
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"如果恶魔研磨机翻倒并摔倒{@condition prone}，它无法自我矫正，直到被翻正为止，此时它是{@condition incapacitated}。"
+						"If the Demon Grinder rolls over and falls {@condition prone}, it can't right itself and is {@condition incapacitated} until flipped upright."
 					]
 				}
 			],
@@ -521,25 +521,25 @@
 				{
 					"name": "Helm (Requires 1 Crew and Grants Three-Quarters Cover)",
 					"entries": [
-						"驾驶和操纵恶魔研磨机。"
+						"Drive and steer the Demon Grinder."
 					]
 				},
 				{
 					"name": "Chomper (Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"{@atk mw} {@hit 9}击中，到达5英尺，一个目标。{@h}25 ({@damage 6d6 + 4})穿刺伤害。被这个伤害降低到0点的目标会被磨成碎片，并通过恶魔研磨机两侧的管道吐出。目标持有或携带的任何非魔法物品也会被摧毁。"
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}25 ({@damage 6d6 + 4}) piercing damage. A target reduced to 0 hit points by this damage is ground to bits and spit out through pipes on both sides of the Demon Grinder. Any nonmagical items the target was holding or carrying are destroyed as well."
 					]
 				},
 				{
 					"name": "Wrecking Ball (Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"{@atk mw} {@hit 9}击中，到达15英尺，一个目标。{@h}40 ({@damage 8d8 + 4})重击伤害。如果目标是一个物体或结构，则伤害加倍。"
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}40 ({@damage 8d8 + 4}) bludgeoning damage. Double the damage if the target is an object or a structure."
 					]
 				},
 				{
 					"name": "2 Harpoon Flingers (Each Station Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"{@atk rw} {@hit 5}击中，范围120英尺，一个目标。{@h}9 ({@damage 2d8})穿刺伤害。"
+						"{@atk rw} {@hit 5} to hit, range 120 ft., one target. {@h}9 ({@damage 2d8}) piercing damage."
 					]
 				}
 			],
@@ -591,19 +591,19 @@
 				{
 					"name": "Jump",
 					"entries": [
-						"如果恶魔之骑在一条直线上移动至少30英尺，它在跳过鸿沟、峡谷或其他缝隙时可以清除60英尺的距离。它在跳跃时每清除一英尺就会消耗一英尺的移动距离。"
+						"If the Devil's Ride moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement."
 					]
 				},
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"如果魔鬼之骑{@condition prone}倒下，它无法自行矫正，直到被拉直为止，它是{@condition incapacitated}。"
+						"If the Devil's Ride falls {@condition prone}, it can't right itself and is {@condition incapacitated} until pulled upright."
 					]
 				},
 				{
 					"name": "Stunt",
 					"entries": [
-						"在其回合中，恶魔之骑驾驶员可以消耗10英尺的移动来执行一个免费的车辆特技，比如单车或者烧胎。在执行特技之前，恶魔之骑必须至少直线移动10英尺。如果驾驶员使用摩托车的敏捷值进行一次DC 10的敏捷检定成功，特技就成功了。否则，驾驶员无法执行特技，并且直到下一个回合开始之前都不能尝试另一个特技。如果检定失败超过5点，恶魔之骑和所有骑乘它的生物立即摔倒{@condition prone}，摩托车失控并停止。"
+						"On its turn, the driver of the Devil's Ride can expend 10 feet of movement to perform one free vehicle stunt, such as a wheelie or a burnout. Before the stunt can be performed, the Devil's Ride must move at least 10 feet in a straight line. If the driver succeeds on a DC 10 Dexterity check using the bike's Dexterity, the stunt is successful. Otherwise, the driver is unable to perform the stunt and can't attempt another stunt until the start of its next turn. If the check fails by 5 or more, the Devil's Ride and all creatures riding it immediately fall {@condition prone} as the bike wipes out and comes to a dead stop."
 					]
 				}
 			],
@@ -611,7 +611,7 @@
 				{
 					"name": "Helm (Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"驾驶和操纵 \"恶魔之车\"。"
+						"Drive and steer the Devil's Ride."
 					]
 				}
 			],
@@ -620,7 +620,7 @@
 					"type": "entries",
 					"name": "Juke",
 					"entries": [
-						"如果 \"恶魔之骑 \"能够移动，驾驶员可以用它的反应来使 \"恶魔之骑 \"在灵巧的救赎动作上获得优势。"
+						"If the Devil's Ride is able to move, the driver can use its reaction to grant the Devil's Ride advantage on a Dexterity saving throw."
 					]
 				}
 			],
@@ -675,13 +675,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -701,13 +701,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} 命中率+5，范围200/800英尺（不能击中60英尺内的目标），一个目标。{@h}27 ({@dice 5d10})重击伤害。"
+								"{@atk rw} +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@dice 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -769,7 +769,7 @@
 					"ac": 16,
 					"hp": 50,
 					"entries": [
-						"移动速度达到它的一个移动部件的速度，有一个90度的转弯。如果舵手被毁，厨房就不能转弯。"
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the galley can't turn."
 					]
 				}
 			],
@@ -783,7 +783,7 @@
 						{
 							"mode": "water",
 							"entries": [
-								"30英尺 (需要至少40名船员)"
+								"30 ft. (requires at least 40 crew)"
 							]
 						}
 					]
@@ -797,7 +797,7 @@
 						{
 							"mode": "water",
 							"entries": [
-								"35英尺；逆风航行时15英尺；顺风航行时50英尺。"
+								"35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind"
 							]
 						}
 					]
@@ -810,7 +810,7 @@
 					"ac": 15,
 					"hp": 50,
 					"entries": [
-						"{@atk rw} {@hit 6}击中，范围120/480英尺，一个目标。{@h}16 ({@damage 3d10})穿刺伤害。"
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 					]
 				},
 				{
@@ -819,7 +819,7 @@
 					"ac": 15,
 					"hp": 100,
 					"entries": [
-						"{@atk rw} {@hit 5}击中，范围200/800英尺。(不能击中60英尺内的目标)，一个目标。{@h}27 ({@damage 5d10})重击伤害。"
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
 					]
 				},
 				{
@@ -828,7 +828,7 @@
 					"hp": 100,
 					"dt": 10,
 					"entries": [
-						"当它撞上一个生物或物体时，厨房在所有与碰撞有关的蓄力上都有优势。它在碰撞中所受到的任何伤害都会作用于海军撞锤，而不是船只。如果有其他船只撞向厨房，这些好处就不适用了。"
+						"The galley has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
 					]
 				}
 			],
@@ -847,17 +847,17 @@
 						{
 							"type": "item",
 							"name": "Fire Ballistas",
-							"entry": "船舱可以发射它的{@object ballista||ballistas} (DMG, ch. 8)。"
+							"entry": "The galley can fire its {@object ballista||ballistas} (DMG, ch. 8)."
 						},
 						{
 							"type": "item",
 							"name": "Fire Mangonels",
-							"entry": "舰船可以发射其{@object mangonel||mangonels}（DMG，第8章）。"
+							"entry": "The galley can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
 						},
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "伽利略可以用它的舵来移动它的船桨或船帆。作为这种移动的一部分，它可以使用它的海军撞锤。"
+							"entry": "The galley can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
 						}
 					]
 				}
@@ -917,13 +917,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} {@hit 6}击中，范围120/480英尺，一个目标。{@h}16 ({@damage 3d10})穿刺伤害。"
+								"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 							]
 						}
 					]
@@ -944,13 +944,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load a mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} {@hit 5}击中，范围200/800英尺。(不能击中60英尺内的目标)，一个目标。{@h}27 ({@damage 5d10})重击伤害。"
+								"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -963,13 +963,13 @@
 						}
 					],
 					"entries": [
-						"当飞船撞上另一个物体或撞上一个巨大的生物时，飞船的法术干扰器可以进行以下攻击（见《星际冒险者指南》第2章的 \"撞击\"）。"
+						"The ship's spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see \"Crashing\" in chapter 2 of Astral Adventurer's Guide)."
 					],
 					"action": [
 						{
 							"name": "Blunt Ram",
 							"entries": [
-								"{@atk mw}{@hit 8}击中，范围0英尺，一个物体或巨兽。{@h}88 ({@damage 16d10})重击伤害。锤头船受到一半的伤害，并停滞不前。{@m}攻击不造成任何伤害，目标移动到最近的未被占用的空间，该空间不在锤头船的路径上，如果锤头船有剩余的移动，它可以继续移动。"
+								"{@atk mw} {@hit 8} to hit, range 0 ft. one object or Gargantuan creature. {@h}88 ({@damage 16d10}) bludgeoning damage. The hammerhead ship takes half as much damage and comes to a dead stop. {@m}The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the hammerhead ship's path, and the hammerhead ship can continue moving if it has any movement left."
 							]
 						}
 					]
@@ -1031,7 +1031,7 @@
 					"ac": 12,
 					"hp": 50,
 					"entries": [
-						"移动到它的一个移动组件的速度，有一个90度的转弯。如果舵手被毁，龙骨船就不能转弯。"
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the keelboat can't turn."
 					]
 				}
 			],
@@ -1059,7 +1059,7 @@
 						{
 							"mode": "water",
 							"entries": [
-								"25英尺；逆风航行时15英尺；顺风航行时35英尺。"
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -1071,8 +1071,8 @@
 					"ac": 15,
 					"hp": 50,
 					"entries": [
-						"{@atk rw} {@hit 6}击中，范围120/480英尺，一个目标。{@h}16 ({@damage 3d10})穿刺伤害。",
-						"帆船通常只有在装备战斗时才会包括一个弹炮。"
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
+						"Keelboats typically include a ballista only when they are equipped for combat."
 					]
 				}
 			],
@@ -1090,12 +1090,12 @@
 						{
 							"type": "item",
 							"name": "Fire Ballista",
-							"entry": "这艘龙骨船可以发射它的{@object ballista}（DMG，第8章）。"
+							"entry": "The keelboat can fire its {@object ballista} (DMG, ch. 8)."
 						},
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "龙骨船可以利用其舵手，用船桨或船帆移动。"
+							"entry": "The keelboat can use its helm to move with its oars or sails."
 						}
 					]
 				}
@@ -1151,13 +1151,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -1171,13 +1171,13 @@
 						}
 					],
 					"entries": [
-						"需要1个行动来进行抓捕之爪的攻击。"
+						"It takes 1 action to make a Grappling Jaws attack."
 					],
 					"action": [
 						{
 							"name": "Grappling Jaws",
 							"entries": [
-								"{@atk mw} 命中率+6，范围10英尺，一艘船或巨型生物。{@h}22 ({@dice 4d10})穿刺伤害，并且灯鱼船和目标的速度变为0，直到抓捕结束。作为一个动作，生物可以使用抓捕爪的控制装置来释放目标。否则，当目标或灯鱼船的生命值下降到0时，效果就会结束。"
+								"{@atk mw} +6 to hit, reach 10 ft., one ship or Gargantuan creature. {@h}22 ({@dice 4d10}) piercing damage, and the speed of the lamprey ship and the target become 0 until the grapple ends. As an action, a creature can use the grappling jaws' controls to release the target. Otherwise, the effect ends when the target or the lamprey ship drops to 0 hit points."
 							]
 						}
 					]
@@ -1235,13 +1235,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -1303,7 +1303,7 @@
 					"ac": 16,
 					"hp": 50,
 					"entries": [
-						"移动速度达到它的一个移动组件的速度，有一个90度的转弯。如果舵手被毁，长船就不能转弯。"
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the longship can't turn."
 					]
 				}
 			],
@@ -1317,7 +1317,7 @@
 						{
 							"mode": "water",
 							"entries": [
-								"20英尺 (需要至少20名船员)"
+								"20 ft. (requires at least 20 crew)"
 							]
 						}
 					]
@@ -1331,7 +1331,7 @@
 						{
 							"mode": "water",
 							"entries": [
-								"45英尺；逆风航行时15英尺；顺风航行时60英尺。"
+								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -1350,7 +1350,7 @@
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "长船可以利用其舵手，用船桨或船帆移动。"
+							"entry": "The longship can use its helm to move with its oars or sails."
 						}
 					]
 				}
@@ -1412,7 +1412,7 @@
 					"ac": 16,
 					"hp": 25,
 					"entries": [
-						"移动速度达到船的魔法推进装置的速度，有一个90度的转弯。只有当船体受到100或更多的伤害时，舵手才能被攻击。如果舵手被摧毁，机械看守者就不能移动。"
+						"Move up to the speed of the ship's magical propulsion unit, with one 90-degree turn. The helm can be attacked only if the hull has taken 100 or more damage. If the helm is destroyed, the mechanical beholder can't move."
 					]
 				}
 			],
@@ -1426,7 +1426,7 @@
 						{
 							"mode": "magical",
 							"entries": [
-								"钻洞30英尺，飞行30英尺。(悬停), 游泳30英尺。"
+								"burrow 30 ft., fly 30 ft. (hover), swim 30 ft."
 							]
 						}
 					]
@@ -1439,7 +1439,7 @@
 					"ac": 14,
 					"hp": 50,
 					"entries": [
-						"{@atk g}机械看守者向最多三个会被船员看到并且在其120英尺范围内的目标射出以下神奇的眼睛射线。",
+						"{@atk g} The mechanical beholder shoots the following magical eye rays at up to three targets that would be visible to the crew and are within 120 feet of it.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -1447,17 +1447,17 @@
 								{
 									"type": "item",
 									"name": "Disintegration Ray",
-									"entry": "如果目标是生物，它必须在DC15的灵巧救赎中成功，否则会受到18{@damage 4d8}的力量伤害。如果这个伤害使生物的命中率降至0，它的身体就会变成一堆灰色的细尘。如果目标是大型或较小的非魔法物体或魔法力量的创造物，它就会被瓦解而不需要蓄力。如果目标是一个巨大或更大的物体或魔法力量的创造物，这个射线会瓦解它的一个10英尺立方体。"
+									"entry": "If the target is a creature, it must succeed on a DC 15 Dexterity saving throw or take 18 ({@damage 4d8}) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it."
 								},
 								{
 									"type": "item",
 									"name": "Enervation Ray",
-									"entry": "目标生物必须进行DC 15宪法救赎，救赎失败时受到18({@damage 4d8})的坏死伤害，救赎成功时受到一半的伤害。"
+									"entry": "The targeted creature must make a DC 15 Constitution saving throw, taking 18 ({@damage 4d8}) necrotic damage on a failed save, or half as much damage on a successful one."
 								},
 								{
 									"type": "item",
 									"name": "Paralyzing Ray",
-									"entry": "目标生物必须成功通过一次 DC 15 的体质豁免才能免疫 {@condition paralyzed} 1 分钟。目标可以在每个回合结束时重复进行豁免才能，成功则结束自身的效果。"
+									"entry": "The targeted creature must succeed on a DC 15 Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								}
 							]
 						}
@@ -1477,12 +1477,12 @@
 						{
 							"type": "item",
 							"name": "Eye Rays",
-							"entry": "机械观察者可以使用它的眼睛射线触手。"
+							"entry": "The mechanical beholder can use its eye ray tentacles."
 						},
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "机械人可以使用它的头盔，利用它的魔法推进装置来移动。"
+							"entry": "The mechanical beholder can use its helm to move using its magical propulsion unit."
 						}
 					]
 				}
@@ -1537,13 +1537,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -1563,13 +1563,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} 命中率+5，范围200/800英尺（不能击中60英尺内的目标），一个目标。{@h}27 ({@dice 5d10})重击伤害。"
+								"{@atk rw} +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@dice 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -1582,19 +1582,19 @@
 						}
 					],
 					"entries": [
-						"作为一个动作，船上的法术师可以用船上的触手进行以下一种攻击。"
+						"As an action, the ship's spelljammer can make one of the following attacks with the ship's tentacles."
 					],
 					"action": [
 						{
 							"name": "Grappling Tentacles",
 							"entries": [
-								"{@atk mw} 命中率+8，范围30英尺，一个巨大或巨型目标。{@h}22 ({@dice 4d10})重击伤害，并且鹦鹉螺的速度变为0，直到它的咒术师使用行动来释放目标。如果目标是生物，则是{@condition grappled}（逃脱DC16）。如果目标是另一艘船，目标的速度变为0，直到鹦鹉螺号释放它，或者直到目标或鹦鹉螺号下降到0命中率。"
+								"{@atk mw} +8 to hit, reach 30 ft., one Huge or Gargantuan target. {@h}22 ({@dice 4d10}) bludgeoning damage, and the nautiloid's speed becomes 0 until its spelljammer uses an action to release the target. If the target is a creature, it is {@condition grappled} (escape DC 16). If the target is another ship, the target's speed becomes 0 until the nautiloid releases it, or until the target or the nautiloid drops to 0 hit points."
 							]
 						},
 						{
 							"name": "Teleport",
 							"entries": [
-								"{@atk ms} 命中率+8，范围30英尺，一个生物。{@h}目标必须在DC15宪法救赎中成功，或者被传送到鹦鹉螺号上的一个无人空间，而鹦鹉螺号的咒术师可以看到。"
+								"{@atk ms} +8 to hit, reach 30 ft., one creature. {@h}The target must succeed on a DC 15 Constitution saving throw or be teleported to an unoccupied space aboard the nautiloid that the nautiloid's spelljammer can see."
 							]
 						}
 					]
@@ -1651,13 +1651,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -1677,13 +1677,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} 命中率+5，范围200/800英尺（不能击中60英尺内的目标），一个目标。{@h}27 ({@dice 5d10})重击伤害。"
+								"{@atk rw} +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@dice 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -1714,13 +1714,13 @@
 					"name": "Ballistas",
 					"count": 2,
 					"entries": [
-						"{@atk rw} {@hit 6}击中，范围120/480英尺，一个目标。{@h}16 ({@damage 3d10})穿刺伤害。"
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 					]
 				},
 				{
 					"name": "Catapult",
 					"entries": [
-						"{@atk rw} {@hit 5}击中，范围200/800英尺。(不能击中60英尺内的目标)，一个目标。{@h}27 ({@damage 5d10})重击伤害。"
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
 					]
 				}
 			],
@@ -1782,7 +1782,7 @@
 							"mode": "water",
 							"entries": [
 								"15 ft.",
-								"移动到它的速度，有一个90度的转弯。没有船桨，赛艇的速度为0。"
+								"Move up to its speed, with one 90-degree turn. Without oars, the rowboat's speed is 0."
 							]
 						}
 					]
@@ -1801,7 +1801,7 @@
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "划艇可以使用其船桨移动。"
+							"entry": "The rowboat can move using its oars."
 						}
 					]
 				}
@@ -1861,7 +1861,7 @@
 					"ac": 18,
 					"hp": 50,
 					"entries": [
-						"移动速度达到其帆的速度，有一个90度的转弯。如果舵手被毁，船就不能转弯。"
+						"Move up to the speed of its sails, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
 					]
 				}
 			],
@@ -1875,7 +1875,7 @@
 						{
 							"mode": "water",
 							"entries": [
-								"45英尺；逆风航行时15英尺；顺风航行时60英尺。"
+								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -1887,7 +1887,7 @@
 					"ac": 15,
 					"hp": 50,
 					"entries": [
-						"{@atk rw} {@hit 6}击中，范围120/480英尺，一个目标。{@h}16 ({@damage 3d10})穿刺伤害。"
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 					]
 				},
 				{
@@ -1895,7 +1895,7 @@
 					"ac": 15,
 					"hp": 100,
 					"entries": [
-						"{@atk rw} {@hit 5}击中，范围200/800英尺。(不能击中60英尺内的目标)，一个目标。{@h}27 ({@damage 5d10})重击伤害。"
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
 					]
 				}
 			],
@@ -1914,17 +1914,17 @@
 						{
 							"type": "item",
 							"name": "Fire Ballista",
-							"entry": "这艘船可以发射它的{@object ballista} (DMG, ch. 8)。"
+							"entry": "The ship can fire its {@object ballista} (DMG, ch. 8)."
 						},
 						{
 							"type": "item",
 							"name": "Fire Mangonel",
-							"entry": "船只可以发射它的{@object mangonel} (DMG, ch. 8)。"
+							"entry": "The ship can fire its {@object mangonel} (DMG, ch. 8)."
 						},
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "这艘船可以用它的舵来移动它的帆。"
+							"entry": "The ship can use its helm to move with its sails."
 						}
 					]
 				}
@@ -1976,19 +1976,19 @@
 				{
 					"name": "Crushing Wheels",
 					"entries": [
-						"清道夫可以在任何大型或小型生物的空间内移动。当它这样做时，该生物必须在DC12的灵巧救赎中成功，否则会受到16({@damage 3d10})的重击伤害并被击倒{@condition prone}。如果该生物已经是{@condition prone}，它将受到额外的16({@damage 3d10})重击伤害。这个特性在每个回合不能对某一生物使用超过一次。"
+						"The Scavenger can move through the space of any Large or smaller creature. When it does, the creature must succeed on a DC 12 Dexterity saving throw or take 16 ({@damage 3d10}) bludgeoning damage and be knocked {@condition prone}. If the creature was already {@condition prone}, it takes an extra 16 ({@damage 3d10}) bludgeoning damage. This trait can't be used against a particular creature more than once each turn."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"清道夫的武器攻击是有魔法的。"
+						"The Scavenger's weapon attacks are magical."
 					]
 				},
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"如果清道夫翻倒并摔倒了{@condition prone}，它无法自行翻正，直到被翻正为止，它会保持倒立状态{@condition incapacitated}。"
+						"If the Scavenger rolls over and falls {@condition prone}, it can't right itself and is {@condition incapacitated} until flipped upright."
 					]
 				}
 			],
@@ -1996,19 +1996,19 @@
 				{
 					"name": "Helm (Requires 1 Crew and Grants Three-Quarters Cover)",
 					"entries": [
-						"驾驶和操纵清道夫。"
+						"Drive and steer the Scavenger."
 					]
 				},
 				{
 					"name": "Grappling Claw (Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"{@atk mw}{@hit 10}击中，到达15英尺，一个目标。{@h}目标是{@condition grappled}(逃脱DC12)。如果目标是生物，则是{@condition restrained}直到抓捕结束。擒拿爪一次只能抓取一个目标，爪子的操作者可以使用一个额外的动作来使爪子释放它所抓取的东西。"
+						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}The target is {@condition grappled} (escape DC 12). If the target is a creature, it is {@condition restrained} until the grapple ends. The grappling claw can grapple only one target at a time, and the claw's operator can use a bonus action to make the claw release whatever it's holding."
 					]
 				},
 				{
 					"name": "2 Harpoon Flingers (Each Station Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"{@atk rw} {@hit 6}击中，范围120英尺，一个目标。{@h}10 ({@damage 2d8 + 1})穿刺伤害。"
+						"{@atk rw} {@hit 6} to hit, range 120 ft., one target. {@h}10 ({@damage 2d8 + 1}) piercing damage."
 					]
 				}
 			],
@@ -2065,13 +2065,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -2086,13 +2086,13 @@
 						}
 					],
 					"entries": [
-						"它需要1个行动来进行爪子攻击。"
+						"It takes 1 action to make a Claw attack."
 					],
 					"action": [
 						{
 							"name": "Claw",
 							"entries": [
-								"{@atk mw} 命中率+3，范围20英尺，一个目标。{@h}11 ({@dice 2d10})重击伤害。如果目标是巨大或较小的生物，也会受到{@condition grappled}（逃脱DC13）。直到这个抓捕结束，该生物在每个回合开始时受到11({@dice 2d10})的打击伤害。"
+								"{@atk mw} +3 to hit, reach 20 ft., one target. {@h}11 ({@dice 2d10}) bludgeoning damage. If the target is a Huge or smaller creature, it is also {@condition grappled} (escape DC 13). Until this grapple ends, the creature takes 11 ({@dice 2d10}) bludgeoning damage at the start of each of its turns."
 							]
 						}
 					]
@@ -2112,13 +2112,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} 命中率+5，范围200/800英尺（不能击中60英尺内的目标），一个目标。{@h}27 ({@dice 5d10})重击伤害。"
+								"{@atk rw} +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@dice 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -2176,13 +2176,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -2195,13 +2195,13 @@
 						}
 					],
 					"entries": [
-						"当飞船碰到另一个物体或巨大的生物（见本章前面的\"{@book Crashing|AAG|2|Crashing}\"）时，飞船的法术干扰器可以进行以下攻击。"
+						"The ship's spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see \"{@book Crashing|AAG|2|Crashing}\" earlier in the chapter)."
 					],
 					"action": [
 						{
 							"name": "Piercing Ram",
 							"entries": [
-								"{@atk mw} 命中率+8，范围0英尺，一个物体或巨型生物。{@h}88({@dice 16d10})穿刺伤害。史莱克船受到一半的伤害并停在原地。未命中：攻击没有造成任何伤害，目标移动到最近的未被占领的空间，该空间不在史莱克船的路径上，史莱克船可以继续移动，如果它有剩余的移动空间。"
+								"{@atk mw} +8 to hit, range 0 ft., one object or Gargantuan creature. {@h}88 ({@dice 16d10}) piercing damage. The shrike ship takes half as much damage and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the shrike ship's path, and the shrike ship can continue moving if it has any movement left."
 							]
 						}
 					]
@@ -2259,13 +2259,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -2285,13 +2285,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} 命中率+5，范围200/800英尺（不能击中60英尺内的目标），一个目标。{@h}27 ({@dice 5d10})重击伤害。"
+								"{@atk rw} +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@dice 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -2354,13 +2354,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} {@hit 6}击中，范围120/480英尺，一个目标。{@h}16 ({@damage 3d10})穿刺伤害。"
+								"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 							]
 						}
 					]
@@ -2380,13 +2380,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load a mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} {@hit 5}击中，范围200/800英尺。(不能击中60英尺内的目标)，一个目标。{@h}27 ({@damage 5d10})重击伤害。"
+								"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -2399,13 +2399,13 @@
 						}
 					],
 					"entries": [
-						"当飞船撞上另一个物体或撞上一个巨大的生物时，飞船的法术干扰器可以进行以下攻击（见《星际冒险者指南》第2章的 \"撞击\"）。"
+						"The ship's spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see \"Crashing\" in chapter 2 of Astral Adventurer's Guide)."
 					],
 					"action": [
 						{
 							"name": "Piercing Ram",
 							"entries": [
-								"{@atk mw}{@hit 8}击中，范围0英尺，一个物体或巨兽。{@h}88({@damage 16d10})穿刺伤害。鱿鱼船受到一半的伤害，并停滞不前。{@m}攻击不造成伤害，目标移动到最近的不在乌贼船路径上的无人空间，如果乌贼船有剩余的移动空间，它可以继续移动。"
+								"{@atk mw} {@hit 8} to hit, range 0 ft. one object or Gargantuan creature. {@h}88 ({@damage 16d10}) piercing damage. The squid ship takes half as much damage and comes to a dead stop. {@m}The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the squid ship's path, and the squid ship can continue moving if it has any movement left."
 							]
 						}
 					]
@@ -2467,7 +2467,7 @@
 				{
 					"name": "Pilot",
 					"entries": [
-						"Stahlmaster需要一个中型人形生物来驾驶。当位于Stahlmaster内部时，驾驶员使用车辆的速度和动作选项，不能进行反应或使用奖励动作，并且驾驶员有完全掩护。如果Stahlmaster的生命值降至0点，驾驶员会从中弹出，并落在车辆附近5英尺内的一个空位中{@condition prone}。"
+						"The Stahlmaster requires a Medium humanoid to pilot it. While inside the Stahlmaster, the pilot uses the vehicle's speed and action options and can't take reactions or use bonus actions, and the pilot has total cover. If the Stahlmaster drops to 0 hit points, the pilot is ejected from it and lands {@condition prone} in an unoccupied space within 5 feet of the vehicle."
 					]
 				}
 			],
@@ -2475,19 +2475,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Stahlmaster可进行两次近战攻击，或一次近战攻击和一次远程攻击。"
+						"The Stahlmaster makes two melee attacks, or one melee attack and one ranged attack."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 6}击中，到达5英尺，一个目标。{@h}9 ({@damage 1d10 + 4})重击伤害。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Shoulder-Mounted Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 2}击中，范围30/120英尺，一个目标。{@h}6 ({@damage 1d12})穿刺伤害。"
+						"{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d12}) piercing damage."
 					]
 				}
 			],
@@ -2541,13 +2541,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -2567,13 +2567,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} 命中率+5，范围200/800英尺（不能击中60英尺内的目标），一个目标。{@h}27 ({@dice 5d10})重击伤害。"
+								"{@atk rw} +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@dice 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -2627,25 +2627,25 @@
 				{
 					"name": "Crushing Wheels",
 					"entries": [
-						"折磨者可以在任何中型或小型生物的空间内移动。当它这样做的时候，该生物必须在DC13的灵巧救赎中成功，否则就会受到11({@damage 2d10})的重击伤害并被击倒{@condition prone}.如果该生物已经是{@condition prone}，它就会受到额外的11({@damage 2d10})重击伤害。"
+						"The Tormentor can move through the space of any Medium or smaller creature. When it does, the creature must succeed on a DC 13 Dexterity saving throw or take 11 ({@damage 2d10}) bludgeoning damage and be knocked {@condition prone}.If the creature was already {@condition prone}, it takes an extra 11 ({@damage 2d10}) bludgeoning damage.This trait can't be used against a particular creature more than once each turn."
 					]
 				},
 				{
 					"name": "Prone Deficiency",
 					"entries": [
-						"如果折磨者(Tormentor)翻倒并摔倒{@condition prone}，它无法自行翻正，直到被翻正为止，它是{@condition incapacitated}。"
+						"If the Tormentor rolls over and falls {@condition prone}, it can't right itself and is {@condition incapacitated} until flipped upright."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"折磨人的武器攻击是有魔法的。"
+						"The Tormentor's weapon attacks are magical."
 					]
 				},
 				{
 					"name": "Raking Scythes",
 					"entries": [
-						"当 \"折磨者 \"在一个回合中第一次移动到非{@condition prone}的生物或其他车辆的5英尺范围内时，它可以用它突出的刀刃攻击该生物或车辆，造成13（{@damage 2d10 + 2}）的砍伤。如果生物在DC13的灵巧救赎中成功，它就会移开，并且不受伤害；如果车辆的驾驶员在救赎中成功，它就会移开，并且不受伤害。"
+						"When the Tormentor moves within 5 feet of a creature that isn't {@condition prone} or another vehicle for the first time on a turn, it can rake the creature or vehicle with its protruding blades for 13 ({@damage 2d10 + 2}) slashing damage. A creature moves out of the way and takes no damage if it succeeds on a DC 13 Dexterity saving throw.A vehicle moves out of the way and takes no damage if its driver succeeds on the saving throw."
 					]
 				}
 			],
@@ -2653,13 +2653,13 @@
 				{
 					"name": "Helm (Requires 1 Crew and Grants Three-Quarters Cover)",
 					"entries": [
-						"驾驶和操纵 \"折磨者 \"号"
+						"Drive and steer the Tormentor"
 					]
 				},
 				{
 					"name": "Harpoon Flinger (Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"{@atk rw} {@hit 7}击中，范围120英尺，一个目标。{@h}11 ({@damage 2d8 + 2})穿刺伤害。"
+						"{@atk rw} {@hit 7} to hit, range 120 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage."
 					]
 				}
 			],
@@ -2668,7 +2668,7 @@
 					"type": "entries",
 					"name": "Juke",
 					"entries": [
-						"如果 \"折磨者 \"能够移动，驾驶员可以用它的反应来使 \"折磨者 \"在灵巧的救赎动作上获得优势。"
+						"If the Tormentor is able to move, the driver can use its reaction to grant the Tormentor advantage on a Dexterity saving throw."
 					]
 				}
 			],
@@ -2726,13 +2726,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -2752,13 +2752,13 @@
 						}
 					],
 					"entries": [
-						"装填芒果需要2个动作，瞄准需要2个动作，发射需要1个动作。"
+						"It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Mangonel Stone",
 							"entries": [
-								"{@atk rw} 命中率+5，范围200/800英尺（不能击中60英尺内的目标），一个目标。{@h}27 ({@dice 5d10})重击伤害。"
+								"{@atk rw} +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. {@h}27 ({@dice 5d10}) bludgeoning damage."
 							]
 						}
 					]
@@ -2808,13 +2808,13 @@
 						}
 					],
 					"entries": [
-						"这种武器看起来像一只安装在眼柄上的眼睛。驻扎在暴君船的一个冥想舱中的观察者可以通过它的{@status concentration||concentrating}看到眼睛（就像{@status concentration||concentrating}的法术一样），并使用一个动作来进行以下攻击。"
+						"This weapon looks like an eye mounted on an eyestalk. A beholder stationed in one of the tyrant ship's meditation pods can see through the eye by {@status concentration||concentrating} on it (as if {@status concentration||concentrating} on a spell) and use an action to make the following attack."
 					],
 					"action": [
 						{
 							"name": "Destructive Ray",
 							"entries": [
-								"{@atk rs} 命中率+8，范围120/480英尺，一个目标。{@h}35 ({@dice 10d6})武力伤害。"
+								"{@atk rs} +8 to hit, range 120/480 ft., one target. {@h}35 ({@dice 10d6}) force damage."
 							]
 						}
 					]
@@ -2876,7 +2876,7 @@
 					"ac": 18,
 					"hp": 50,
 					"entries": [
-						"移动速度达到它的一个移动部件的速度，有一个90度的转弯。如果舵手被毁，战舰就不能转弯。"
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the warship can't turn."
 					]
 				}
 			],
@@ -2890,7 +2890,7 @@
 						{
 							"mode": "water",
 							"entries": [
-								"20英尺 (需要至少20名船员)"
+								"20 ft. (requires at least 20 crew)"
 							]
 						}
 					]
@@ -2904,7 +2904,7 @@
 						{
 							"mode": "water",
 							"entries": [
-								"35英尺；逆风航行时15英尺；顺风航行时50英尺。"
+								"35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -2917,7 +2917,7 @@
 					"ac": 15,
 					"hp": 50,
 					"entries": [
-						"{@atk rw} {@hit 6}击中，范围120/480英尺，一个目标。{@h}16 ({@damage 3d10})穿刺伤害。"
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 					]
 				},
 				{
@@ -2926,7 +2926,7 @@
 					"ac": 15,
 					"hp": 100,
 					"entries": [
-						"{@atk rw} {@hit 5}击中，范围200/800英尺。(不能击中60英尺内的目标)，一个目标。{@h}27 ({@damage 5d10})重击伤害。"
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
 					]
 				},
 				{
@@ -2935,7 +2935,7 @@
 					"hp": 100,
 					"dt": 10,
 					"entries": [
-						"当战舰撞上一个生物或物体时，它在所有与碰撞有关的蓄力上都有优势。它在碰撞中受到的任何伤害都会作用于海军冲撞器而不是船。如果有其他船只撞向军舰，这些优势就不适用。"
+						"The warship has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the warship."
 					]
 				}
 			],
@@ -2954,17 +2954,17 @@
 						{
 							"type": "item",
 							"name": "Fire Ballistas",
-							"entry": "这艘军舰可以发射它的{@object ballista||ballistas} (DMG, ch. 8)。"
+							"entry": "The warship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
 						},
 						{
 							"type": "item",
 							"name": "Fire Mangonels",
-							"entry": "这艘军舰可以发射它的{@object mangonel||mangonels} (DMG, ch. 8)。"
+							"entry": "The warship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
 						},
 						{
 							"type": "item",
 							"name": "Move",
-							"entry": "战舰可以用它的舵来移动它的船桨或船帆。作为这种移动的一部分，它可以使用它的海军冲撞。"
+							"entry": "The warship can use its helm to move with its oars or sails. As part of this move, it can use its naval ram."
 						}
 					]
 				}
@@ -3018,13 +3018,13 @@
 						}
 					],
 					"entries": [
-						"装弹炮需要1个动作，瞄准它需要1个动作，发射它需要1个动作。"
+						"It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it."
 					],
 					"action": [
 						{
 							"name": "Bolt",
 							"entries": [
-								"{@atk rw} 命中率+6，范围120/480英尺，一个目标。{@h}16 ({@dice 3d10})穿刺伤害。"
+								"{@atk rw} +6 to hit, range 120/480 ft., one target. {@h}16 ({@dice 3d10}) piercing damage."
 							]
 						}
 					]
@@ -3044,12 +3044,12 @@
 				"IWM:W"
 			],
 			"entries": [
-				"这种软管武器附着在恶魔的器官上，产生酸性胆汁，一接触就会溶解肉体。",
+				"This hose weapon is attached to demonic organs that produce an acidic bile that dissolves flesh on contact.",
 				{
 					"type": "entries",
 					"name": "Acidic Bile Sprayer (Requires 1 Crew and Grants Half Cover, {@recharge 5|m})",
 					"entries": [
-						"酸性胆汁从一个喷嘴喷出，形成一个30英尺的锥形。锥体中的每个生物都必须做一个DC12的灵巧救赎，救赎失败会受到40({@damage 9d8})的酸性伤害，救赎成功会受到一半的伤害。被这种伤害降低到0命中率的生物会被溶解，留下它携带或穿着的任何物品。"
+						"Acidic bile sprays from a nozzle in a 30-foot cone. Each creature in the cone must make a DC 12 Dexterity saving throw, taking 40 ({@damage 9d8}) acid damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this damage is dissolved, leaving behind any objects it was carrying or wearing."
 					]
 				}
 			]
@@ -3062,7 +3062,7 @@
 				"SHP:W"
 			],
 			"entries": [
-				"使用类似于制造魔法武器的方法，一个熟练的施法者将破坏性的能量灌输到船上的武器中。这种武器在其攻击和伤害卷上获得+2的奖励，其攻击也算作是魔法的。"
+				"Using methods similar to those used to produce magic weapons, a skilled spellcaster imbues a ship's weapon with destructive energy. This weapon gains a +2 bonus to its attack and damage rolls, and its attacks count as magical."
 			]
 		},
 		{
@@ -3073,7 +3073,7 @@
 				"SHP:O"
 			],
 			"entries": [
-				"古老、神秘生物的骨骸装饰着这艘船。强大的符文爬满这些遗骸，散发出一种病态的绿色光辉。当有人型生物在船上死亡时，该生物必须进行一次 DC 12 的感知豁免检定。若成功豁免，它会像正常情况下一样死亡。若失败，它会立即升起为一名{@creature zombie}，顺从于船长。这具僵尸会获得对船只的工作知识，使其能够作为船员之一。在任何给定时间内，船只的生物容量相等数量的生物可以以这种方式被复活。"
+				"The bones of ancient, mysterious creatures festoon the ship. Potent runes crawl across these remains, emitting a sickly green radiance. When a humanoid dies aboard the ship, that creature must make a DC 12 Wisdom saving throw. On a successful save, it dies as normal. If it fails, it immediately rises as a {@creature zombie} obedient to the ship's captain. The zombie gains a working knowledge of the ship, allowing it to serve as a member of the crew. A number of creatures equal to the ship's creature capacity can be animated in this manner at any given time."
 			]
 		},
 		{
@@ -3084,7 +3084,7 @@
 				"IWM:A"
 			],
 			"entries": [
-				"用来制造车辆的地狱铁是在九层地狱中最冷的卡尼亚上开采的。带有卡尼亚装甲的地狱战争机器的装甲等级为22+其灵巧修正值。当车辆没有移动时，对它的攻击卷有优势。除了其他的伤害免疫之外，地狱战争机器还拥有对寒冷伤害的免疫，并且对极寒的影响免疫。"
+				"The infernal iron used to make the vehicle was mined on Cania, the coldest layer of the Nine Hells. An infernal war machine with Canian armor has an Armor Class of 22 + its Dexterity modifier. While the vehicle is not moving, attack rolls made against it have advantage. The infernal war machine also has immunity to cold damage in addition to its other damage immunities, and it's immune to the effects of extreme cold."
 			]
 		},
 		{
@@ -3095,8 +3095,8 @@
 				"SHP:H"
 			],
 			"entries": [
-				"暴风雨在这些刻有符文的铁链中肆虐。在风暴之神的庇佑下行动的突击队员和海盗有时会使用这种升级。",
-				"当将链条垂挂在船体上时，风暴的狂怒将袭击周围的水域。船舶周围210英尺范围内的水域对于除了这艘船之外的一切都是{@quickref difficult terrain||3}。"
+				"A tempest rages within these rune-etched, iron chains. Raiders and pirates who operate under the blessings of a storm god sometimes make use of this upgrade.",
+				"By draping the chains over a ship's hull, the storm's fury thrashes into the water around it. The water within 210 feet of the ship is {@quickref difficult terrain||3} for everything other than this ship."
 			]
 		},
 		{
@@ -3107,7 +3107,7 @@
 				"SHP:M"
 			],
 			"entries": [
-				"利用魔法和钟表的结合，这艘船上的船桨只需要一名船员来使用，按下激活它们的按钮或杠杆。"
+				"Using a combination of magic and clockwork, the oars on this ship require only one crew member to use them, pushing the button or lever that activates them."
 			]
 		},
 		{
@@ -3118,7 +3118,7 @@
 				"SHP:W"
 			],
 			"entries": [
-				"这件武器被遗忘魔法强化，其攻击伴随着喧闹的噪音，能够短暂地分散和迷惑敌人。如果这件武器击中了一个载具的船体，那个载具的速度将减少 {@dice 2d10} 英尺，直到攻击者的下一个回合开始。"
+				"Enhanced by abjuration magic, this weapon's attacks burst with raucous noise capable of momentarily distracting and disorienting enemy crews. If this weapon hits a vehicle's hull, that vehicle's speed decreases by {@dice 2d10} feet until the start of the attacker's next turn."
 			]
 		},
 		{
@@ -3129,7 +3129,7 @@
 				"SHP:H"
 			],
 			"entries": [
-				"用从暗影城收获的材料制作，这个升级版赋予了飞船一种恐惧的光环。作为一个行动，飞船可以创造一个可怕的能量脉冲。每一个在船上或在其210英尺范围内的敌方生物都必须做DC14智慧救赎动作。拯救失败时，该生物将在1分钟内受到该船的影响。拯救成功时，该生物在24小时内对该能力免疫。一旦这个能力被使用，它就不能再被使用，直到{@dice 1d4}小时过去。"
+				"Crafted with materials harvested from the Shadowfell, this upgrade grants a ship an aura of dread. As an action, the ship can create a pulse of horrific energy. Every creature that is an enemy of the ship who is on board or within 210 feet of it must make DC 14 Wisdom saving throw. On a failed save, a creature is {@condition frightened} of the ship for 1 minute. On a successful save, the creature is immune to this ability for 24 hours. Once this ability is used, it can't be used again until {@dice 1d4} hours have passed."
 			]
 		},
 		{
@@ -3140,7 +3140,7 @@
 				"SHP:M"
 			],
 			"entries": [
-				"这些船帆上闪烁着一层经过咒语魔法处理的细密的米塔尔合金。当船帆展开时，由于船帆的保护性魔法，对船和船上的人进行的远程武器攻击是不利的。如果攻击者在船上，这个缺点就不适用。"
+				"These sails glitter with a fine coat of mithral treated with abjuration magic. While the sails are unfurled, ranged weapon attacks made against the ship and anyone aboard it are made with disadvantage, as a result of the sails' protective magic. This drawback doesn't apply if the attacker is aboard the ship."
 			]
 		},
 		{
@@ -3151,7 +3151,7 @@
 				"SHP:M"
 			],
 			"entries": [
-				"织入这些船帆的龙鳞使其更能抵御伤害。这些船帆获得了+3的AC值加成，并且根据制作它们的龙鳞类型对伤害类型有抵抗力，如龙帆表所示。",
+				"Dragon scales woven into these sails make them more resistant to damage. The sails gain a +3 bonus to AC, and they have resistance to a damage type based on the type of scales used to craft them, as shown on the Dragon Sails table.",
 				{
 					"type": "table",
 					"caption": "Dragon Sails",
@@ -3165,23 +3165,23 @@
 					],
 					"rows": [
 						[
-							"黑色",
+							"Black",
 							"Acid"
 						],
 						[
 							"Blue",
-							"閃電"
+							"Lightning"
 						],
 						[
-							"黄铜",
+							"Brass",
 							"Fire"
 						],
 						[
-							"铜质",
-							"閃電"
+							"Bronze",
+							"Lightning"
 						],
 						[
-							"铜",
+							"Copper",
 							"Acid"
 						],
 						[
@@ -3189,7 +3189,7 @@
 							"Fire"
 						],
 						[
-							"绿色",
+							"Green",
 							"Acid"
 						],
 						[
@@ -3197,11 +3197,11 @@
 							"Fire"
 						],
 						[
-							"银色",
+							"Silver",
 							"Cold"
 						],
 						[
-							"白",
+							"White",
 							"Cold"
 						]
 					]
@@ -3216,7 +3216,7 @@
 				"SHP:M"
 			],
 			"entries": [
-				"这些波浪形的船帆是由来自空气元素界的云状物编织而成。风在它们周围呼啸而过，使船只能够以60英尺的速度移动，而不受风向的影响。"
+				"These billowing sails are woven from cloud-stuff drawn from the Elemental Plane of Air. Wind whips and whistles around them, allowing a ship to move with a speed of 60 feet regardless of direction relative to the wind."
 			]
 		},
 		{
@@ -3227,7 +3227,7 @@
 				"SHP:W"
 			],
 			"entries": [
-				"利用强大的召唤魔法，这把武器的攻击被注入了不稳定的能量，在火热的爆炸中爆炸。当这把武器击中时，会造成额外的{@damage 2d6}火焰伤害。"
+				"Drawing on powerful evocation magic, this weapon's attacks are imbued with unstable energy that explodes in a fiery blast. When this weapon hits, it deals an extra {@damage 2d6} fire damage."
 			]
 		},
 		{
@@ -3238,12 +3238,12 @@
 				"IWM:W"
 			],
 			"entries": [
-				"虽然对恶魔没有用处，但这种武器对易燃生物和物体非常好。",
+				"Although useless against demons, this weapon is great against flammable creatures and objects.",
 				{
 					"type": "entries",
 					"name": "Flamethrower (Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"火焰从武器的喷嘴中射出，形成一条60英尺宽的线，5英尺宽。这条线上的每个生物都必须做一个DC15的灵巧救赎，救赎失败会受到18({@damage 4d8})的火焰伤害，救赎成功则受到一半的伤害。火焰会点燃该区域内任何没有被携带或穿戴的易燃物品。"
+						"Fire shoots out of the weapon's nozzle in a 60-foot line that is 5 feet wide. Each creature in the line must make a DC 15 Dexterity saving throw, taking 18 ({@damage 4d8}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being carried or worn."
 					]
 				}
 			]
@@ -3256,7 +3256,7 @@
 				"SHP:H"
 			],
 			"entries": [
-				"这种升级用来自元素界的超自然的冰代替了船体。船体和其他部件对寒冷的伤害免疫，但容易受到火的伤害。船只也可以在任何厚度的冰上以正常速度移动，在冰上漂浮的深度与在水中相同。"
+				"This upgrade replaces a ship's hull with supernatural ice drawn from the elemental planes. The hull and the other components of the ship are immune to cold damage but vulnerable to fire damage. The ship can also move at its normal speed over ice of any thickness, floating on the ice at the same depth as it would in water."
 			]
 		},
 		{
@@ -3267,7 +3267,7 @@
 				"IWM:A"
 			],
 			"entries": [
-				"从大恶魔玛门那里偷来的或以物易物的金子镶嵌在车辆的外部。这些金子在不破坏车辆的情况下是无法取出的，当地狱战争机器的命中率降至0时就会变成灰尘。镀金的死亡盔甲赋予地狱战争机器对打击、穿刺和砍击伤害的抵抗力。"
+				"Gold stolen or bartered from the archdevil Mammon plates the vehicle's exterior. This gold can't be removed without destroying the vehicle and turns to dust when the infernal war machine drops to 0 hit points. Gilded death armor grants the infernal war machine resistance to bludgeoning, piercing, and slashing damage."
 			]
 		},
 		{
@@ -3278,7 +3278,7 @@
 				"SHP:W"
 			],
 			"entries": [
-				"这把武器在射击后会产生幽灵锁链，将敌人的船只束缚在其手中。当这种武器击中一艘船时，该船必须在DC14力量投掷中获得成功，否则就不能从攻击者身边移开。作为一个动作，攻击的船只可以结束这个效果，而目标可以通过一个动作和成功的DC14力量判定来结束它。"
+				"This weapon creates spectral chains that trail after its shots, restraining enemy vessels in their grasp. When this weapon hits a ship, that vehicle must succeed on a DC 14 Strength saving throw or it can't move away from the attacker. As an action, the attacking ship can end this effect, and the target can end it by taking an action and succeeding on a DC 14 Strength check."
 			]
 		},
 		{
@@ -3289,7 +3289,7 @@
 				"SHP:F"
 			],
 			"entries": [
-				"这个头像描绘的是一个身穿铠甲的骑士。作为一个行动，船只可以激活这个物品，使其作为一个{@creature iron golem}的动画。当舰长使用舰艇的一个行动时，这个石像会在舰艇的回合中行动。傀儡在1分钟内保持动画状态。在该时间结束时，它将被传送回其作为人物头像的位置。一旦一艘船使用了这个动作，它在24小时内不能再次使用。"
+				"This figurehead depicts an armored knight. As an action, the ship can activate this item, causing it to animate as an {@creature iron golem}. The golem acts on the ship's turn when the captain uses one of the ship's actions. The golem remains animated for 1 minute. At the end of that time, it teleports back to its position as a figurehead. Once a ship uses this action, it can't use it again for 24 hours."
 			]
 		},
 		{
@@ -3300,12 +3300,12 @@
 				"IWM:W"
 			],
 			"entries": [
-				"一个由融化的蜡制成的蠕动的人形躯干从这个站台伸出来，在其肩胛骨之间有一个带刺的手摇器。当曲柄被转动时，这个人物会以心灵感应的方式发出痛苦的尖叫。",
+				"A writhing humanoid torso made of melting wax juts out from this station, with a barbed hand crank between its shoulder blades. The figure telepathically shrieks in agony when the crank is turned.",
 				{
 					"type": "entries",
 					"name": "Infernal Screamer (Requires 1 Crew and Grants Half Cover)",
 					"entries": [
-						"尖叫者的操作者以它在尖叫者120英尺范围内能看到的一个生物为目标。目标必须进行DC 15智慧救赎，在救赎失败时受到26{@damage 4d12}的精神伤害，或在成功时受到一半的伤害。"
+						"The screamer's operator targets one creature it can see within 120 feet of the screamer. The target must make a DC 15 Wisdom saving throw, taking 26 ({@damage 4d12}) psychic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			]
@@ -3318,7 +3318,7 @@
 				"SHP:H"
 			],
 			"entries": [
-				"这艘船的船体是在精灵族船工大师的指导下，在仙境中打造的。它是一种活的植物，从水和阳光中汲取养分。覆盖着厚厚树叶的藤蔓挂在船舷上，木材在损坏时流淌着新鲜的汁液。这艘船在所有的体质检查或拯救动作上获得了+2的奖励。只要这艘船至少有一个命中点，它每分钟就能恢复10个命中点。"
+				"This vessel's hull was crafted in the Feywild under the direction of master eladrin shipwrights. It is a living plant, drawing sustenance from water and sunlight. Vines covered in thick leaves hang over its side, and the wood runs with fresh sap when damaged. The ship gains a +2 bonus to all Constitution checks or saving throws. As long as the ship has at least 1 hit point, it regains 10 hit points every minute."
 			]
 		},
 		{
@@ -3329,7 +3329,7 @@
 				"IWM:G"
 			],
 			"entries": [
-				"车辆的驾驶员可以作为一个额外动作激活这个魔法装置，使车辆在它的正前方或后方排出一个30英尺长的不透明烟雾立方体。该云是静止的，持续1分钟。其范围内的区域被严重遮蔽。任何在一个回合中第一次进入云层的生物或在那里开始其回合的生物都会受到21({@damage 6d6})的死亡伤害。一阵强风会驱散云层。这个装置需要24小时的充电才能再次使用。"
+				"The vehicle's driver can activate this magical device as a bonus action, causing the vehicle to expel a 30-foot cube of opaque smoke directly in front of it or behind it. The cloud is stationary and lasts for 1 minute. The area within it is heavily obscured. Any creature that enters the cloud for the first time on a turn or starts its turn there takes 21 ({@damage 6d6}) necrotic damage. A strong wind disperses the cloud. This device needs 24 hours to recharge before it can be used again."
 			]
 		},
 		{
@@ -3340,7 +3340,7 @@
 				"SHP:F"
 			],
 			"entries": [
-				"这个头像描绘的是一条红色的龙，它张开嘴准备攻击。作为一个行动，飞船可以激活这个物品，创造一个60英尺的火焰锥体，从头像开始。锥体中的每个生物和物体都必须做一个DC12的灵巧救赎，救赎失败会受到21({@damage 6d6})的火焰伤害，救赎成功则受到一半的伤害。一旦飞船使用这个动作，它在1分钟内不能再次使用。"
+				"This figurehead depicts a red dragon rearing to strike, its mouth open. As an action, the ship can activate this item to create a 60-foot cone of flame that originates from the figurehead. Each creature and object in the cone must make a DC 12 Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. Once a ship uses this action, it can't use it again for 1 minute."
 			]
 		},
 		{
@@ -3351,7 +3351,7 @@
 				"SHP:H"
 			],
 			"entries": [
-				"一个造船大师可以使用高级材料和巧妙的设计来使船体更有弹性。这种加固可以使船体的最大命中率增加一倍。"
+				"A master shipwright can use superior materials and clever design to make a ship's hull more resilient. Such reinforcement doubles the hull's hit point maximum."
 			]
 		},
 		{
@@ -3362,7 +3362,7 @@
 				"SHP:M"
 			],
 			"entries": [
-				"这些船帆由被俘虏的巫师的能量编织而成，并与女妖的灵魂结合在一起，当它们遇到风时就会发出哀伤的呻吟。作为一个行动，在距离船帆5英尺的范围内，船长可以让船帆发出一声嚎叫。每一个在船上或在300英尺范围内的对该船有敌意的生物必须在DC14智慧救赎中成功，否则该生物会受到{@damage 4d6}的精神伤害，然后在1分钟内受到{@condition frightened}。一旦这个能力被使用，就不能再使用，直到{@dice 2d6}小时之后。"
+				"Woven from the energy of captured wraiths and bound with the spirit of a banshee, these sails groan mournfully when they catch the wind. As an action, while within 5 feet of the sails, the ship's captain can cause the sails to unleash a howl. Every creature hostile to the ship who is on board or within 300 feet of it must succeed on a DC 14 Wisdom saving throw, or the creature takes {@damage 4d6} psychic damage and is then {@condition frightened} for 1 minute. Once this ability has been used, it can't be used again until {@dice 2d6} hours have passed."
 			]
 		},
 		{
@@ -3373,7 +3373,7 @@
 				"SHP:M"
 			],
 			"entries": [
-				"锐利的、经过魔法强化的船桨使船只难以接近。当船只使用这些桨进行移动时，在移动过程中的任何时候，10英尺范围内的任何生物或物体都必须进行DC 10的灵巧救赎，如果救赎失败，将受到{@damage 2d6}的砍伤，如果救赎成功，将受到一半的伤害。"
+				"Sharpened, magically reinforced oars make a vessel dangerous to approach. When the ship takes an action that moves it with these oars, any creature or object in the water within 10 feet of it at any point of the move must make a DC 10 Dexterity saving throw, taking {@damage 2d6} slashing damage on a failed save or half as much damage on a successful one."
 			]
 		},
 		{
@@ -3384,8 +3384,8 @@
 				"SHP:O"
 			],
 			"entries": [
-				"这面旗子是为了从船上的桅杆上飘扬。它强大的魔力使它出现在旗帜或横幅上，显示出对观看者友好的团体、船长或境界的象征。多个观看者可能会看到不同的旗帜或徽章。",
-				"这面旗帜的真正力量在于它能够帮助船只快速逃离。作为一个动作，这艘船和船上所有的友好生物可以传送到船长选择的一个已知的目的地，最远可达3英里。船上的敌对生物不会随船移动，而是落入它曾经占据的水域。一旦这个物品被用来传送，它在{@dice 2d6}天内不能再以这种方式传送了。"
+				"This flag is meant to be flown from a ship's mast. Its powerful magic causes it to appear as a flag or banner displaying the symbol of a group, captain, or realm friendly to the viewer. Multiple viewers might see different flags or crests.",
+				"The banner's true power is its ability to aid a ship in making rapid escapes. As an action, the ship and all friendly creatures aboard it teleport up to 3 miles to a known destination of the captain's choice. Hostile creatures aboard the ship don't move with the ship and fall into the water it once occupied. Once this item is used to teleport, it can't teleport in this way again for {@dice 2d6} days."
 			]
 		},
 		{
@@ -3396,8 +3396,8 @@
 				"IWM:W"
 			],
 			"entries": [
-				"车辆上布满了刻有亵渎神明的符号的尖刺。被钉在这些钉子上的发光的幽灵般的人物在痛苦中哀嚎并伸出手来。",
-				"如果一个不是魔鬼的生物在地狱战争机器的30英尺范围内死亡，它的灵魂（如果它有的话）就会从它的身体中被撕扯出来，加入到钉子上的哀嚎人群中。只要它的灵魂仍被困住，生物就无法通过任何方式起死回生。如果交通工具被摧毁，如果固定它的钉子成为{@spell remove curse}法术或类似魔法的目标，或者如果钉子被摧毁，被困的灵魂会被释放。每个钉子都是一个小型物体，AC值为19，命中率为15，对除辐射伤害外的所有伤害有抵抗力。"
+				"The vehicle is covered with spikes inscribed with blasphemous symbols. Luminous, ghostly figures impaled on these spikes wail and reach out in agony.",
+				"If a creature that isn't a devil dies within 30 feet of the infernal war machine, its soul (if it has one) is torn from its body and joins the wailing throng impaled on the spikes. As long as its soul remains trapped, a creature can't be raised from the dead by any means. A trapped soul is freed if the vehicle is destroyed, if the spike anchoring it is the target of a {@spell remove curse} spell or similar magic, or if the spike is destroyed. Each spike is a Small object with AC 19, 15 hit points, and resistance to all damage except radiant damage."
 			]
 		},
 		{
@@ -3408,7 +3408,7 @@
 				"SHP:F"
 			],
 			"entries": [
-				"这个头像描绘了一个攥着雷电的风暴巨人。作为一个行动，飞船可以激活这个物品，创造一个60英尺的圆锥体，从头像出发。锥体中的每个生物都必须做出DC12宪法规定的救赎，救赎失败时将受到14({@damage 4d6})的雷霆伤害，救赎成功时将受到一半的伤害。救赎失败的生物也会被推到离头像10英尺远的地方。一旦飞船使用这个动作，它在1分钟内不能再次使用。"
+				"This figurehead depicts a storm giant clutching a thunderbolt. As an action, the ship can activate this item to create a 60-foot cone that originates from the figurehead. Each creature in the cone must make DC 12 Constitution saving throw, taking 14 ({@damage 4d6}) thunder damage on a failed save, or half as much damage on a successful one. A creature that fails its saving throw is also pushed 10 feet away from the figurehead. Once a ship uses this action, it can't use it again for 1 minute."
 			]
 		},
 		{
@@ -3419,12 +3419,12 @@
 				"IWM:W"
 			],
 			"entries": [
-				"这根柔软的软管连接到一个容量为30加仑的水箱{@area River Styx|1a3|x}。每次使用武器会消耗10加仑的水。重新填满水箱需要接触斯提克斯(Styx)。",
+				"This flexible hose is connected to a tank that holds 30 gallons of water from the {@area River Styx|1a3|x}. Each use of the weapon depletes 10 gallons of the water. Refilling the tank requires access to the Styx.",
 				{
 					"type": "entries",
 					"name": "Styx Sprayer (Requires 1 Crew and Grants Half Cover; 3 Uses)",
 					"entries": [
-						"{@atk rs}: 命中率+5，范围30英尺，一个生物。{@h}该生物被冥河的水击中，并被一个{@spell feeblemind}的法术所针对（保存DC20）。已经虚弱的生物对这个效果免疫，适应冥河的生物也是如此。如果目标人物的救赎失败，而咒语对它的影响在30天内没有结束，那么这个效果就会变成永久性的，届时这个生物就会失去所有的记忆，变成一个几乎没有意识的躯壳。在这一点上，除了神的干预之外，没有任何东西可以解除这个效果。"
+						"{@atk rs}: +5 to hit, range 30 ft., one creature. {@h}The creature is struck by water from the River Styx and targeted by a {@spell feeblemind} spell (save DC 20). An already feebleminded creature is immune to this effect, as is a creature adapted to the River Styx. If the target fails its saving throw and the spell's effect on it is not ended within 30 days, the effect becomes permanent, whereupon the creature loses all its memories and becomes a near-mindless shell of its former self. At that point, nothing short of divine intervention can undo the effect."
 					]
 				}
 			]
@@ -3437,7 +3437,7 @@
 				"SHP:O"
 			],
 			"entries": [
-				"这个4英尺高的铜鼓配有一对铁槌。一个生物可以作为一个行动激活鼓，使铁槌漂浮在鼓的上方，并敲击它以产生雷鸣般的节奏。在接下来的一分钟里，只要它至少有一个动作，就能获得一个额外的动作。一旦这个项目被使用，它在{@dice 2d10}小时内不能再次被激活。"
+				"This 4-foot-tall bronze drum comes with a pair of iron mallets. A creature can activate the drums as an action, causing the hammers to float above the drum and strike it to produce a thundering rhythm. For the next minute, the ship gains one additional action, as long as it has at least one action. Once this item is used, it can't be activated again for {@dice 2d10} hours."
 			]
 		},
 		{
@@ -3448,7 +3448,7 @@
 				"IWM:G"
 			],
 			"entries": [
-				"车辆的驾驶员可以作为一个额外动作激活这个魔法装置，使车辆传送到驾驶员可以看到的距离车辆当前位置300英尺以外的无人空间。所有与车辆接触的生物和物体都会一起被传送。这个装置需要24小时的充电才能再次使用。"
+				"The vehicle's driver can activate this magical device as a bonus action, causing the vehicle to teleport to an unoccupied space that the driver can see up to 300 feet away from the vehicle's current position. All creatures and objects in contact with the vehicle are teleported along with it. This device needs 24 hours to recharge before it can be used again."
 			]
 		},
 		{
@@ -3459,7 +3459,7 @@
 				"SHP:H"
 			],
 			"entries": [
-				"一排水晶球，每一个都充满了粘稠的液体和一个观察者的眼球，沿着这艘船的船体安装。在船上或120英尺范围内，可以看到{@condition Invisible}的生物。"
+				"A row of crystal orbs, each filled with viscous liquid and a beholder's eyeball, is mounted along this ship's hull. {@condition Invisible} creatures are visible while on the ship or within 120 feet of it."
 			]
 		}
 	]

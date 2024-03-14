@@ -102,13 +102,13 @@
 				{
 					"name": "Illumination",
 					"entries": [
-						"当它至少有1个命中率时，星界之灾会在10英尺的范围内发出昏暗的光。"
+						"While it has at least 1 hit point, the astral blight sheds dim light in a 10-foot radius."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries": [
-						"瘟疫不需要空气或睡眠。"
+						"The blight doesn't require air or sleep."
 					]
 				}
 			],
@@ -116,13 +116,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"枯萎病会进行两次排热藤的攻击。"
+						"The blight makes two Heat-Draining Vine attacks."
 					]
 				},
 				{
 					"name": "Heat-Draining Vine",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，射程10英尺，一个目标。造成{@h}6 ({@damage 1d6 + 3}) 辐射伤害，如果目标是一只大型或更小的生物，它被{@condition grappled} (逃脱 {@dc 13})。直到这次搏斗结束，目标在其每个回合开始时受到3 ({@damage 1d6}) 冷伤害。这个枯萎生物有两根藤蔓，每根都可以搏斗一个生物。"
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) radiant damage, and if the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target takes 3 ({@damage 1d6}) cold damage at the start of each of its turns. The blight has two vines, each of which can grapple one creature."
 					]
 				}
 			],
@@ -274,7 +274,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Flapjack施放以下其中一个咒语，不需要材料成分，并使用智力作为施法能力（法术豁免{@dc 12}）："
+						"Flapjack casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 12}):"
 					],
 					"will": [
 						"{@spell mage hand}",

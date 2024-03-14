@@ -85,31 +85,31 @@
 				{
 					"name": "Arcane Leak",
 					"entries": [
-						"当阿德拉纳克(Adranach)的生命值降至一半时（85生命值），它的秘银面具会裂开，其奥术形态开始摇摆，周围形成不稳定的魔法场。任何一个生物在其回合开始时位于阿德拉纳克的10英尺内，或者在回合内第一次进入该区域，都会受到10({@damage 3d6})辐射伤害。此外，如果一个生物在这个区域内施放法术，它必须进行一个{@dc 14}属性检定，使用其施法能力。如果检定失败，法术会逆火，消耗法术位并对施法者造成每消耗一个法术位的3({@damage 1d6})力量伤害。"
+						"When the adranach is reduced to half its hit point maximum (85 hit points), its mithral mask cracks and its arcane form begins to waver, creating a field of unstable magic around it. Any creature that starts its turn within 10 feet of the adranach or enters that area for the first time on a turn takes 10 ({@damage 3d6}) radiant damage. Additionally, if a creature casts a spell within this area, it must make a {@dc 14} ability check using its spellcasting ability. On a failure, the spell backfires, consuming the spell slot and dealing 3 ({@damage 1d6}) force damage to the caster for each level of the spell slot that was consumed."
 					]
 				},
 				{
 					"name": "Immutable Form",
 					"entries": [
-						"阿德拉纳克(Adranach)对任何试图改变其形态的法术或效果都具有免疫能力。"
+						"The adranach is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"阿德拉纳克 (Adranach) 具有 {@quickref Advantage and Disadvantage|PHB|2|0|advantage} 对抗法术和其他魔法效果。"
+						"The adranach has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"阿德拉纳克(adranach)的武器攻击是魔法的。"
+						"The adranach's weapon attacks are magical."
 					]
 				},
 				{
 					"name": "Powerful Build",
 					"entries": [
-						"当确定其携带能力和推、拉或举起重量时，阿德拉纳克(`Adranach`)算作比实际尺寸大一号。"
+						"The adranach counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
 					]
 				}
 			],
@@ -117,19 +117,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"阿德拉纳克(Adranach)用它的爪子进行两次攻击。"
+						"The adranach makes two attacks with its claws."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 11}攻击，一个目标，射程5英尺。造成{@h}32 ({@damage 4d12 + 6})点斩击伤害。"
+						"{@atk mw} {@hit 11} to hit, one target, reach 5 ft. {@h}32 ({@damage 4d12 + 6}) slashing damage."
 					]
 				},
 				{
 					"name": "Force Bolts {@recharge 5}",
 					"entries": [
-						"阿德拉纳克(adranach)瞄准在其视线范围内60英尺内的最多四个生物。每个目标必须在一次{@dc 18}敏捷(Dexterity){@quickref saving throws|PHB|2|1|saving throw}检定中成功，否则会受到28({@damage 8d6})点力场伤害。"
+						"The adranach targets up to four creatures it can see within 60 feet of it. Each target must succeed on a {@dc 18} Dexterity {@quickref saving throws|PHB|2|1|saving throw} or take 28 ({@damage 8d6}) force damage."
 					]
 				}
 			],
@@ -144,13 +144,13 @@
 						"addHeadersAs": "action"
 					},
 					"entries": [
-						"Adranachs（Adranachs）是根据其创造者个性化的构造物。使一个法术大师候选人对{@book League of Miracles|TDCSR|2|League of Miracles}具有吸引力的特质之一是对发明的兴趣，鼓励法术大师定制他们创建的任何adranach。以下是一些法术大师为他们的创造物配备的可选功能。大多数adranachs有一个额外功能，而大多数主要adranachs有三个。",
+						"Adranachs are constructs personalized to their creators. One of the traits that make a spellwright candidate attractive to the {@book League of Miracles|TDCSR|2|League of Miracles} is an interest in invention, and spellwrights are encouraged to customize any adranach they create. Below are some optional features with which spellwrights have outfitted their creations. Most adranachs have one extra feature, and most master adranachs have three.",
 						{
 							"type": "entries",
 							"name": "Advanced Tracking ({@i Recharges after a {@quickref resting|PHB|2|0|Long Rest}})",
 							"page": 224,
 							"entries": [
-								"当生物在对抗(%)时未能通过阿德拉纳克(Adranach)的力量箭失败时，阿德拉纳克可以标记该生物，持续24小时。只要它们在同一平面上，阿德拉纳克就知道生物位置的方向。如果生物在移动，阿德拉纳克也知道移动的方向。"
+								"When a creature fails its {@quickref saving throws|PHB|2|1|saving throw} against the adranach's Force Bolts, the adranach can mark that creature for the next 24 hours. The adranach knows the direction to a creature's location as long as they are on the same plane. If the creature is moving, the adranach knows the direction of this movement."
 							]
 						},
 						{
@@ -158,7 +158,7 @@
 							"name": "Arcane Bond",
 							"page": 224,
 							"entries": [
-								"在亚德拉纳克(Adranach)的创造者与其在1英里范围内时，可以通过心灵感应与其交流。作为一个动作，创造者可以通过亚德拉纳克的眼睛看到并听到它所听到的，直到创造者的下一个回合开始，获得亚德拉纳克具有的任何特殊感知能力的益处。在此期间，创造者对于自己的感官是{@condition deafened}和{@condition blinded}。"
+								"The adranach's creator can communicate with it telepathically while both are within 1 mile of each other. As an action, the creator can see through the adranach's eyes and hear what it hears until the start of the creator's next turn, gaining the benefits of any special senses the adranach has. During this time, the creator is {@condition deafened} and {@condition blinded} with regard to their own senses."
 							]
 						},
 						{
@@ -166,7 +166,7 @@
 							"name": "Slipstream",
 							"page": 224,
 							"entries": [
-								"阿德拉纳克(Adranach)可以随意对自己施放{@spell invisibility}。当它处于{@condition invisible}状态时，它的速度加倍。"
+								"The adranach can cast {@spell invisibility} on itself at will. While it is {@condition invisible}, its speed is doubled."
 							]
 						}
 					]
@@ -254,7 +254,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"火焰驯兽师是一名9级法术施展者。其法术施展能力为感知（法术豁免 {@dc 15}，用法术攻击命中为 {@hit 7}）。它准备了以下德鲁伊法术："
+						"The firetamer is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following druid spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -309,13 +309,13 @@
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} 使用攻击命中，达到5英尺，一个目标。造成{@h}5 ({@damage 1d6 + 2}) 斩击伤害加上14 ({@damage 4d6}) 火焰伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage plus 14 ({@damage 4d6}) fire damage."
 					]
 				},
 				{
 					"name": "Flamecharm (Recharges after a {@quickref resting|PHB|2|0|Short or Long Rest})",
 					"entries": [
-						"火焰驯兽师可以对一个元素火焰生物施放{@spell dominate monster}法术（豁免{@dc 15}）。如果该生物有150点或更多生命值，它对{@quickref saving throws|PHB|2|1|saving throw}拥有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。"
+						"The firetamer can cast the {@spell dominate monster} spell (save {@dc 15}) on a {@creature fire elemental} or other elemental fire creature. If the creature has 150 or more hit points, it has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on the {@quickref saving throws|PHB|2|1|saving throw}."
 					]
 				}
 			],
@@ -323,13 +323,13 @@
 				{
 					"name": "Flameform (Recharges after a {@quickref resting|PHB|2|0|Short or Long Rest})",
 					"entries": [
-						"火焰驯兽师可以变形成一个{@creature fire elemental}。它的游戏统计数据被元素的统计数据所取代，但火焰驯兽师保留其阵营、个性和智力、感知和魅力分数，以及其所有技能和{@quickref saving throws|PHB|2|1|saving throw}熟练加值。在这种形态下，火焰驯兽师无法施放法术。当火焰驯兽师的生命值降至0点，倒下{@condition unconscious}，或在这种形态下死亡时，它会恢复成人形态。它可以在火焰形态下保持最多5小时，或者作为一个奖励动作恢复成人形态。"
+						"The firetamer can transform into a {@creature fire elemental}. Its game statistics are replaced by the statistics of the elemental, but the firetamer retains its alignment, personality, and Intelligence, Wisdom, and Charisma scores, and all of its skill and {@quickref saving throws|PHB|2|1|saving throw} proficiencies. While in this form, the firetamer can't cast spells. When the firetamer is reduced to 0 hit points, falls {@condition unconscious}, or dies in this form, it reverts to its humanoid form. It can remain in flameform for up to 5 hours or until it reverts to its humanoid form as a bonus action."
 					]
 				},
 				{
 					"name": "Druidic Recovery",
 					"entries": [
-						"如果火焰驯兽师处于{@creature fire elemental}形态并使用火焰形态，它可以消耗一个法术位来恢复每个消耗的法术位等级的{@dice 1d8}生命值。"
+						"If the firetamer is in {@creature fire elemental} form using Flameform, it can expend a spell slot to regain {@dice 1d8} hit points per level of the spell slot expended."
 					]
 				}
 			],
@@ -418,7 +418,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"天舞者是一名3级法术施展者。它的法术施展能力是感知（法术豁免 {@dc 14}，法术攻击命中加值 {@hit 6}）。它已准备了以下德鲁伊法术："
+						"The skydancer is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -450,19 +450,19 @@
 				{
 					"name": "Evasion",
 					"entries": [
-						"如果天空舞者受到一种效果的影响，使其可以进行一个敏捷检定{@quickref saving throws|PHB|2|1|saving throw}以仅受到一半伤害，那么如果它成功通过了检定{@quickref saving throws|PHB|2|1|saving throw}，天空舞者将不受伤害，如果它失败了，只受到一半伤害。"
+						"If the skydancer is subjected to an effect that allows it to make a Dexterity {@quickref saving throws|PHB|2|1|saving throw} to take only half damage, the skydancer instead takes no damage if it succeeds on the {@quickref saving throws|PHB|2|1|saving throw}, and only half damage if it fails."
 					]
 				},
 				{
 					"name": "Flyby",
 					"entries": [
-						"当天空舞者飞出敌人的攻击范围时，不会引发{@action opportunity attack|PHB}。"
+						"The skydancer doesn't provoke an {@action opportunity attack|PHB} when it flies out of an enemy's reach."
 					]
 				},
 				{
 					"name": "Skysail",
 					"entries": [
-						"空舞者飞行时使用一种特殊的阿夏瑞魔法物品，名为{@item skysail|TDCSR}。当{@item skysail|TDCSR|skysail's}翅膀展开时，空舞者可以以60尺的速度滑翔穿越空中，但必须在回合结束时至少下降10尺，不能获得高度。"
+						"The skydancer flies with a special Ashari magic item called a {@item skysail|TDCSR}. While the {@item skysail|TDCSR|skysail's} wings are extended, the skydancer can glide through the air at a speed of 60 feet, but must descend by at least 10 feet at the end of its turn and can't gain altitude."
 					]
 				}
 			],
@@ -470,19 +470,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"天舞者进行两次{@item skysail|TDCSR}法杖攻击。"
+						"The skydancer makes two {@item skysail|TDCSR} staff attacks."
 					]
 				},
 				{
 					"name": "Skysail Staff",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}7 ({@damage 1d6 + 4}) 钝击伤害。如果飞舞者在飞行时进行此次攻击，目标必须进行一次{@dc 14} 敏捷度 {@quickref saving throws|PHB|2|1|saving throw} 检定，未通过则受到21 ({@damage 6d6}) 闪电伤害，通过则伤害减半。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage. If the skydancer makes this attack while flying, the target must make a {@dc 14} Dexterity {@quickref saving throws|PHB|2|1|saving throw}, taking 21 ({@damage 6d6}) lightning damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
 					"name": "Fly (1/Day)",
 					"entries": [
-						"天空舞者使用它的{@item skysail|TDCSR}在自身上施放{@spell fly}，持续时间长达1分钟（无需{@condition concentration}）。"
+						"The skydancer uses its {@item skysail|TDCSR} to cast {@spell fly} on itself for up to 1 minute (no {@condition concentration} required)."
 					]
 				}
 			],
@@ -490,7 +490,7 @@
 				{
 					"name": "Slow Fall",
 					"entries": [
-						"当天空舞者使用 {@quickref falling|XGE|2|0|falling damage} 时，可以将伤害减少一半。"
+						"When the skydancer takes {@quickref falling|XGE|2|0|falling damage}, it can reduce the damage by half."
 					]
 				}
 			],
@@ -597,7 +597,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"石卫士是一名3级法术施法者。它的法术属性是智力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。它已准备了以下德鲁伊法术："
+						"The stoneguard is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following druid spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -629,13 +629,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"石卫士进行三次花岗岩槌击攻击。"
+						"The stoneguard makes three granite maul attacks."
 					]
 				},
 				{
 					"name": "Granite Maul",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。造成{@h}11 ({@damage 2d6 + 4}) 钝击伤害。如果攻击命中，石卫士还可以立即作为奖励动作施放{@spell thunderwave}。这次施法消耗一个法术位，但不需要材料成分。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage. If the attack hits, the stoneguard can also immediately cast {@spell thunderwave} as a bonus action. This casting uses a spell slot but requires no components."
 					]
 				}
 			],
@@ -643,7 +643,7 @@
 				{
 					"name": "Sentinel",
 					"entries": [
-						"当一个生物在距离石卫士5英尺范围内攻击除石卫士以外的目标时，石卫士可以对该生物进行一次攻击。"
+						"When a creature within 5 feet of the stoneguard attacks a target other than the stoneguard, the stoneguard can make one attack against that creature."
 					]
 				}
 			],
@@ -743,7 +743,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"波涛骑士是一名7级法术施展者。它的法术施展能力是感知（法术豁免 {@dc 14}，法术攻击命中加值 {@hit 6}）。它已准备了以下德鲁伊法术："
+						"The waverider is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following druid spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -791,13 +791,13 @@
 				{
 					"name": "Healing Tides",
 					"entries": [
-						"每当飘浪者(Waverider)施放一个影响非敌对生物的1级或更高级别的法术时，该生物会额外回复3点生命值（除了法术本身提供的任何治疗效果）。"
+						"Whenever the waverider casts a spell of 1st level or higher that affects a non-hostile creature, that creature regains 3 hit points (in addition to any healing the spell may provide)."
 					]
 				},
 				{
 					"name": "Marine Empathy",
 					"entries": [
-						"搏浪者可以与水生植物和动物交流并理解它们。"
+						"The waverider can speak with and understand aquatic plants and animals."
 					]
 				}
 			],
@@ -805,7 +805,7 @@
 				{
 					"name": "Harpoon",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} 命中，射程5英尺，射程20/60英尺，一个目标。造成{@h}7 ({@damage 1d10 + 2}) 穿刺伤害。如果目标是大型或更小的生物，则必须在力量对抗中成功击败涟漪骑手，否则将被拉向涟漪骑手最多20英尺。在{@quickref Underwater Combat|PHB|3|0|underwater}时使用这个武器攻击不会有{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}。"
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft., range 20/60 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage. If the target is a Large or smaller creature, it must succeed on a Strength contest against the waverider or be pulled up to 20 feet toward the waverider. Attacks with this weapon made while {@quickref Underwater Combat|PHB|3|0|underwater} do not have {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}."
 					]
 				}
 			],
@@ -813,7 +813,7 @@
 				{
 					"name": "Fishform (Recharges after a {@quickref resting|PHB|2|0|Short or Long Rest})",
 					"entries": [
-						"飘浮者可以变形成为一个{@creature hunter shark}或者一个{@creature giant octopus}。它的游戏统计数据被选择生物的统计数据所取代，但飘浮者保留其阵营、个性以及智力、感知和魅力分数。它还保留其技能熟练加值，并且额外获得变形生物的技能熟练加值。当飘浮者的生命值降至0点，摔落{@condition unconscious}，或者以这种形态死亡时，它会恢复成人形态。它可以在鱼形态中保持最多3小时，或者作为一个奖励动作恢复成人形态。"
+						"The waverider can transform into a {@creature hunter shark} or a {@creature giant octopus}. Its game statistics are replaced by the statistics of the chosen creature, but the waverider retains its alignment, personality, and Intelligence, Wisdom, and Charisma scores. It also retains its skill proficiencies, in addition to gaining those of the creature it transforms into. When the waverider is reduced to 0 hit points, falls {@condition unconscious}, or dies in this form, it reverts to its humanoid form. It can remain in fishform for up to 3 hours or until it reverts to its humanoid form as a bonus action."
 					]
 				}
 			],
@@ -924,13 +924,13 @@
 				{
 					"name": "Blighted Resilience (10th level or higher)",
 					"entries": [
-						"这个生物对死灵和毒素伤害以及{@condition poisoned}状态免疫。"
+						"The creature has immunity to necrotic and poison damage and to the {@condition poisoned} condition."
 					]
 				},
 				{
 					"name": "Toxic Demise (10th level or higher)",
 					"entries": [
-						"当生物的生命值降至0点时，它会爆炸成一团有毒的腐肥或恶臭的内脏。每个距离爆炸生物5英尺的生物必须通过一次对抗你法术豁免 DC 的体质检定 {@quickref saving throws|PHB|2|1|saving throw}，否则将根据生物的挑战等级造成死灵伤害（参见下表）。作为一个动作，你也可以让一个被召唤的生物爆炸，立即将其杀死。",
+						"When the creature is reduced to 0 hit points, it explodes in a burst of toxic mulch or fetid viscera. Each creature within 5 feet of the exploding creature must succeed on a Constitution {@quickref saving throws|PHB|2|1|saving throw} against your spell save DC or take necrotic damage based on the creature's challenge rating (see the table below). As an action, you can also cause a summoned creature to explode, immediately killing it.",
 						{
 							"type": "table",
 							"caption": "Toxic Demise Damage",
@@ -944,19 +944,19 @@
 							],
 							"rows": [
 								[
-									"1/4或更低",
-									"{@damage 1d4}死灵伤害"
+									"1/4 or lower",
+									"{@damage 1d4} necrotic damage"
 								],
 								[
 									"1/2",
-									"{@damage 1d6}死灵伤害"
+									"{@damage 1d6} necrotic damage"
 								],
 								[
-									"1或更高 (%num%)",
+									"1 or higher",
 									"{@damage (#$prompt_number:min=1,title=Enter the creature's CR!,default=1$#)d8|A number of  d8s of necrotic damage equal to the creature's challenge rating}"
 								],
 								[
-									"没有挑战等级 (Challenge Rating)",
+									"No challenge rating",
 									"{@damage (PB)d6|A number of d6s of necrotic damage equal to your proficiency bonus}"
 								]
 							]
@@ -968,13 +968,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"当你达到14级时，(blighted sapling) 会进行两次爪击攻击。"
+						"When you reach 14th level in this class, the blighted sapling makes two claw attacks."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hitYourSpellAttack}攻击，达到5英尺，一个目标。造成{@h} {@damage 2d4 + PB}穿刺伤害。"
+						"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h} {@damage 2d4 + PB} piercing damage."
 					]
 				}
 			],
@@ -1047,7 +1047,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"如果半人马向目标直线移动至少30英尺，然后在同一回合用长矛攻击命中目标，目标会受到额外10({@damage 3d6})点穿刺伤害。"
+						"If the centaur moves at least 30 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 ({@damage 3d6}) piercing damage."
 					]
 				}
 			],
@@ -1055,25 +1055,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"半人马骷髅进行两次攻击：一次使用长矛，一次使用蹄子，或者两次使用长弓。"
+						"The centaur skeleton makes two attacks: one with its pike and one with its hooves, or two with its longbow."
 					]
 				},
 				{
 					"name": "Pike",
 					"entries": [
-						"{@atk mw}进行攻击，射程10英尺，一个目标。造成{@h}8({@damage 1d10 + 3})点穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Hooves",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}10 ({@damage 2d6 + 3}) 钝击伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 4}攻击，射程150/600英尺，目标为一个。造成{@h}6 ({@damage 1d8 + 2})点穿刺伤害。"
+						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
 					]
 				}
 			],
@@ -1088,13 +1088,13 @@
 						"addHeadersAs": "action"
 					},
 					"entries": [
-						"一些半人马骷髅可能会在(`GM`)的决定下具有以下额外特征。",
+						"Some centaur skeletons have the following additional feature at the GM's discretion.",
 						{
 							"type": "entries",
 							"name": "Spirit Away",
 							"page": 256,
 							"entries": [
-								"半人马骷髅和距离其5英尺内的最多三个生物可以在物质位面和以太位面之间进行魔法转移，或者反之。一个不愿意的生物如果在{@dc 13} 魅力 {@quickref saving throws|PHB|2|1|saving throw} 检定中成功，可以抵抗这个效应。"
+								"The centaur skeleton and up to three creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa. An unwilling creature that succeeds on a {@dc 13} Charisma {@quickref saving throws|PHB|2|1|saving throw} can resist this effect."
 							]
 						}
 					]
@@ -1227,7 +1227,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"冠军的天生施法能力是魅力（{@hit 10} 用于施法攻击，豁免 {@dc 18}）。他可以天生施放以下法术，无需任何材料成分："
+						"The Champion's innate spellcasting ability is Charisma ({@hit 10} to hit with spell attacks, save {@dc 18}). He can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell bane}",
@@ -1246,49 +1246,49 @@
 				{
 					"name": "Assassinate",
 					"entries": [
-						"在冠军的第一个回合中，对于任何还没有行动的生物，冠军的攻击骰有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。冠军对一个被吓到的生物造成的任何命中都是暴击。"
+						"During his first turn, the Champion has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on attack rolls against any creature that hasn't taken a turn. Any hit the Champion scores against a surprised creature is a critical hit."
 					]
 				},
 				{
 					"name": "Aura of Protection",
 					"entries": [
-						"当冠军意识清醒时，他和距离他10英尺内的友方生物在{@quickref saving throws|PHB|2|1}方面获得+3的加值（上文已包含）。"
+						"While the Champion is conscious, he and friendly creatures within 10 feet of him have a +3 bonus to {@quickref saving throws|PHB|2|1} (included above)."
 					]
 				},
 				{
 					"name": "Eternal Champion",
 					"entries": [
-						"当冠军被降至0点生命值或死亡时，他的身体被摧毁，但他的灵魂返回到{@deity The Matron of Ravens|Exandria|TDCSR|Raven Queen's}一侧，在{@dice 1d4}天后获得新的身体。"
+						"When the Champion is reduced to 0 hit points or dies, his body is destroyed but his spirit returns to the {@deity The Matron of Ravens|Exandria|TDCSR|Raven Queen's} side, and he gains a new body after {@dice 1d4} days."
 					]
 				},
 				{
 					"name": "Evasion",
 					"entries": [
-						"如果冠军受到一种效果的影响，使他可以进行一个敏捷度 {@quickref saving throws|PHB|2|1|saving throw} 检定以仅受到一半伤害，那么如果他在 {@quickref saving throws|PHB|2|1|saving throw} 检定上成功，他将不受伤害，如果失败则只受一半伤害。"
+						"If the Champion is subjected to an effect that allows him to make a Dexterity {@quickref saving throws|PHB|2|1|saving throw} to take only half damage, he instead takes no damage if he succeeds on the {@quickref saving throws|PHB|2|1|saving throw}, and only half damage if he fails."
 					]
 				},
 				{
 					"name": "Fate-Touched (4/Day)",
 					"entries": [
-						"当冠军进行攻击检定、能力检定，或者{@quickref saving throws|PHB|2|1|saving throw}时，他可以重新投掷{@dice d20}并选择两次中的任意一次。或者，当冠军能看到的生物对他进行攻击检定，或者对他的法术或特性进行{@quickref saving throws|PHB|2|1|saving throw}时，他可以强迫那个生物重新投掷攻击或豁免，并使用新的结果。"
+						"When the Champion makes an attack roll, ability check, or {@quickref saving throws|PHB|2|1|saving throw}, he can reroll the {@dice d20} and use either roll. Alternatively, when a creature the Champion can see makes an attack roll against him, or a {@quickref saving throws|PHB|2|1|saving throw} against one of his spells or features, he can force that creature to reroll the attack or save and use the new roll."
 					]
 				},
 				{
 					"name": "Shadow Smite (1/Turn)",
 					"entries": [
-						"当冠军用武器攻击命中目标且没有{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}时，冠军会额外造成49({@damage 14d6})点辐射或死灵伤害（他可以选择）。"
+						"The Champion deals an extra 49 ({@damage 14d6}) radiant or necrotic damage (his choice) when he hits a target with a weapon attack and he doesn't have {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on the attack roll."
 					]
 				},
 				{
 					"name": "Unerring Sight",
 					"entries": [
-						"冠军的远程武器攻击无视{@quickref cover|PHB|3|0|half cover}和{@quickref cover|PHB|3|0|three-quarters cover}，并且没有射程惩罚。"
+						"The Champion's ranged weapon attacks ignore {@quickref cover|PHB|3|0|half cover} and {@quickref cover|PHB|3|0|three-quarters cover} and have no range penalty."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"冠军穿着{@item boots of haste|TDCSR}和{@item deathwalker's ward (Exalted)|TDCSR|Deathwalker's Ward}，手持{@item Whisper (Exalted)|TDCSR|Whisper}。"
+						"The Champion wears {@item boots of haste|TDCSR} and the {@item deathwalker's ward (Exalted)|TDCSR|Deathwalker's Ward}, and wields {@item Whisper (Exalted)|TDCSR|Whisper}."
 					]
 				}
 			],
@@ -1296,19 +1296,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"冠军使用{@item Whisper (Exalted)|TDCSR|Whisper}进行三次攻击。"
+						"The Champion makes three attacks with {@item Whisper (Exalted)|TDCSR|Whisper}."
 					]
 				},
 				{
 					"name": "Whisper",
 					"entries": [
-						"{@atk mw,rw} 使用 {@hit 15} 进行攻击，射程5英尺或60英尺，目标为1个。造成{@h}10 ({@damage 1d4 + 8}) 穿刺伤害加上4 ({@damage 1d8}) 精神伤害。对于一次重击，目标必须通过{@dc 18} 智力 {@quickref saving throws|PHB|2|1|saving throw} 豁免，否则成为{@condition frightened}的勇士，持续1分钟。在远程攻击时，勇士可以使用{@item Whisper (Exalted)|TDCSR|Whisper}进行传送，在命中时出现在目标附近5英尺处，未命中时出现在目标附近30英尺内的随机位置。"
+						"{@atk mw,rw} {@hit 15} to hit, reach 5 ft. or range 60 ft., one target. {@h}10 ({@damage 1d4 + 8}) piercing damage plus 4 ({@damage 1d8}) psychic damage. On a critical hit, the target must succeed on a {@dc 18} Wisdom {@quickref saving throws|PHB|2|1|saving throw} or be {@condition frightened} of the Champion for 1 minute. On a ranged attack, the Champion can teleport with {@item Whisper (Exalted)|TDCSR|Whisper}, appearing within 5 feet of the target on a hit, or in a random space within 30 feet of the target on a miss."
 					]
 				},
 				{
 					"name": "Touch of Life and Death (Recharges after a {@quickref resting|PHB|2|0|Short or Long Rest})",
 					"entries": [
-						"冠军触碰距离他5英尺内的生物，并选择治疗或伤害该生物，恢复55 ({@dice 10d10}) 点生命值或造成55 ({@damage 10d10}) 点死灵伤害。如果生物不愿成为目标，它可以通过成功的 {@dc 20} 敏捷度 {@quickref saving throws|PHB|2|1|saving throw} 豁免来避免任一效果。"
+						"The Champion touches a creature within 5 feet of him, and chooses to either heal or harm that creature, restoring 55 ({@dice 10d10}) hit points or dealing 55 ({@damage 10d10}) necrotic damage. If the creature is an unwilling target, it can avoid either effect with a successful {@dc 20} Dexterity {@quickref saving throws|PHB|2|1|saving throw}."
 					]
 				}
 			],
@@ -1316,13 +1316,13 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"冠军可以选择执行 {@action Dash}，{@action Disengage}，或者{@action Hide} 行动。"
+						"The Champion takes the {@action Dash}, {@action Disengage}, or {@action Hide} action."
 					]
 				},
 				{
 					"name": "Boots of Haste (1/Day)",
 					"entries": [
-						"这位冠军轻轻地敲击他的脚跟，对自己施放{@spell haste}。当法术结束时，他不会受到倦怠的影响。"
+						"The Champion clicks his heels together, casting {@spell haste} on himself. He doesn't suffer from lethargy when the spell ends."
 					]
 				}
 			],
@@ -1330,7 +1330,7 @@
 				{
 					"name": "Uncanny Dodge",
 					"entries": [
-						"冠军减半受到的来自攻击命中的伤害。他必须能看见攻击者。"
+						"The Champion halves the damage that he takes from an attack that hits him. He must be able to see the attacker."
 					]
 				}
 			],
@@ -1437,19 +1437,19 @@
 				{
 					"name": "Searing Presence",
 					"entries": [
-						"任何在与元素接触的5英尺范围内开始其回合的生物会受到5({@damage 1d10})火焰伤害。"
+						"Any creature that starts its turn within 5 feet of the elemental takes 5 ({@damage 1d10}) fire damage."
 					]
 				},
 				{
 					"name": "Molten Form",
 					"entries": [
-						"元素生物可以在宽度仅为1英寸的空间中移动，而无需挤压。此外，元素生物可以进入敌对生物的空间并停留在那里。当它在一个回合内首次进入一个生物的空间时，该生物会受到5点火焰伤害，并必须成功通过一次{@dc 14}力量{@quickref saving throws|PHB|2|1|saving throw}豁免，否则会{@condition restrained}。以这种方式开始其回合的生物会受到5点火焰伤害。它可以在每个回合结束时重复这个{@quickref saving throws|PHB|2|1|saving throw}，在成功后解脱自己。"
+						"The elemental can move through a space as narrow as 1 inch wide without squeezing. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ({@damage 1d10}) fire damage and must succeed on a {@dc 14} Strength {@quickref saving throws|PHB|2|1|saving throw} or be {@condition restrained}. A creature that starts its turn {@condition restrained} in this way takes 5 ({@damage 1d10}) fire damage. It can repeat the {@quickref saving throws|PHB|2|1|saving throw} at the end of each of its turns, freeing itself on a success."
 					]
 				},
 				{
 					"name": "Water Susceptibility",
 					"entries": [
-						"每移动5英尺，或者每溅洒1加仑水在(Elemental)身上，它会受到1点冰冷伤害。"
+						"For every 5 feet the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage."
 					]
 				}
 			],
@@ -1457,19 +1457,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"元素进行两次猛击攻击。"
+						"The elemental makes two slam attacks."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}12 ({@damage 3d6 + 2}) 钝击伤害加上5 ({@damage 1d10}) 火焰伤害。如果目标是生物或易燃物体，则着火。直到有生物采取行动扑灭火焰，目标在其回合开始时每次受到5 ({@damage 1d10}) 火焰伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) bludgeoning damage plus 5 ({@damage 1d10}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
 					]
 				},
 				{
 					"name": "Molten Gaze",
 					"entries": [
-						"{@atk rs} {@hit 8}攻击，射程30英尺，目标一个。造成{@h}21 ({@damage 6d6})火焰伤害，并且目标必须在一次{@dc 14}体质检定{@quickref saving throws|PHB|2|1|saving throw}上成功，否则元素选择的目标携带的一件非魔法物品会立即融化或燃烧成灰烬。"
+						"{@atk rs} {@hit 8} to hit, range 30 ft., one target. {@h}21 ({@damage 6d6}) fire damage, and the target must succeed on a {@dc 14} Constitution {@quickref saving throws|PHB|2|1|saving throw} or have one nonmagical item of the elemental's choice that the target is carrying instantly melt or burn to cinders."
 					]
 				}
 			],
@@ -1548,7 +1548,7 @@
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"当刺客用武器攻击命中目标并在攻击骰上得到{@quickref Advantage and Disadvantage|PHB|2|0|advantage}，或者目标在刺客的盟友（不是{@condition incapacitated}）的5英尺内且刺客没有在攻击骰上得到{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}时，刺客的攻击额外造成14点伤害。"
+						"The cutthroat deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on the attack roll, or when the target is within 5 feet of an ally of the cutthroat that isn't {@condition incapacitated} and the cutthroat doesn't have {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on the attack roll."
 					]
 				}
 			],
@@ -1556,19 +1556,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"刺喉者进行两次短剑或匕首攻击。"
+						"The cutthroat makes two shortsword or dagger attacks."
 					]
 				},
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 6}攻击，射程5英尺，一个目标。造成{@h}7 ({@damage 1d6 + 4})穿刺伤害。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} 进行攻击，射程5英尺，射程20/60英尺，目标一个。造成{@h}6 ({@damage 1d4 + 4}) 穿刺伤害。"
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft., range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
 					]
 				}
 			],
@@ -1576,7 +1576,7 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"刺喉者可以选择执行{@action Dash}、{@action Disengage}或{@action Hide}行动。"
+						"The cutthroat can take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
 					]
 				}
 			],
@@ -1584,7 +1584,7 @@
 				{
 					"name": "Uncanny Dodge",
 					"entries": [
-						"刺喉者减半受到的攻击伤害，但必须能看见攻击者。"
+						"The cutthroat halves the damage that it takes from an attack that hits it. The cutthroat must be able to see the attacker."
 					]
 				}
 			],
@@ -1666,7 +1666,7 @@
 				{
 					"name": "Intimidating Presence",
 					"entries": [
-						"每当执法者用近战攻击命中一名生物时，目标必须在一次{@dc 15}感知检定中达到{@quickref saving throws|PHB|2|1|saving throw}或者在目标的下一个回合结束前成为{@condition frightened}执法者的目标。执法者及其盟友对以这种方式受到攻击的任何生物的攻击投掷获得{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。如果一名生物的{@quickref saving throws|PHB|2|1|saving throw}检定成功或效果对其结束，该生物在接下来的24小时内对执法者的威慑力免疫。"
+						"Whenever the enforcer hits a creature with a melee attack, the target must succeed on a {@dc 15} Wisdom {@quickref saving throws|PHB|2|1|saving throw} or be {@condition frightened} of the enforcer until the end of the target's next turn. The enforcer and its allies have {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on attack rolls against any creature {@condition frightened} in this way. If a creature's {@quickref saving throws|PHB|2|1|saving throw} is successful or the effect ends for it, the creature is immune to the enforcer's Intimidating Presence for the next 24 hours."
 					]
 				}
 			],
@@ -1674,13 +1674,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"执行者进行三次战锤攻击。"
+						"The enforcer makes three warhammer attacks."
 					]
 				},
 				{
 					"name": "Warhammer",
 					"entries": [
-						"{@atk mw} {@hit 6}攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 1d10 + 3}) 钝击伤害。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) bludgeoning damage."
 					]
 				}
 			],
@@ -1688,7 +1688,7 @@
 				{
 					"name": "Second Wind (Recharges after a {@quickref resting|PHB|2|0|Short or Long Rest})",
 					"entries": [
-						"执法者回复了12点生命值。"
+						"The enforcer regains 12 hit points"
 					]
 				}
 			],
@@ -1783,25 +1783,25 @@
 				{
 					"name": "Conductive Body",
 					"entries": [
-						"每当傀儡受到闪电伤害时，它不会受到伤害。相反，它的武器攻击在其下一个回合结束前会额外造成11 ({@dice 2d10}) 闪电伤害。此外，在傀儡的下一个回合结束前，任何在其5英尺内触碰它或用近战攻击击中它的生物都会受到11 ({@damage 2d10}) 闪电伤害。"
+						"Whenever the golem is subjected to lightning damage, it takes no damage. Instead, its weapon attacks deal an extra 11 ({@dice 2d10}) lightning damage until the end of its next turn. Also until the end of the golem's next turn, any creature that touches it or hits it with a melee attack while within 5 feet of it takes 11 ({@damage 2d10}) lightning damage."
 					]
 				},
 				{
 					"name": "Immutable Form",
 					"entries": [
-						"傀儡对任何会改变其形态的法术或效果都免疫。"
+						"The golem is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"这个傀儡对法术和其他魔法效果有{@quickref Advantage and Disadvantage|PHB|2|0|advantage} {@quickref saving throws|PHB|2|1}。"
+						"The golem has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"傀儡的武器攻击是魔法的。"
+						"The golem's weapon attacks are magical."
 					]
 				}
 			],
@@ -1809,31 +1809,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"傀儡进行两次攻击：一次用它的猛击，一次用它的剑，或者它使用磁脉冲然后使用旋转劈砍。"
+						"The golem makes two attacks: one with its slam and one with its sword, or it uses its Magnetic Pulse and then its Spinning Cleave."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 15} 进行攻击，射程5英尺，一个目标。造成{@h}25 ({@damage 3d10 + 9}) 钝击伤害。"
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}25 ({@damage 3d10 + 9}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Sword",
 					"entries": [
-						"{@atk mw} 使用 {@hit 15} 命中，达到10英尺，一个目标。造成{@h}28 ({@damage 3d12 + 9})点割伤伤害。"
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}28 ({@damage 3d12 + 9}) slashing damage."
 					]
 				},
 				{
 					"name": "Spinning Cleave",
 					"entries": [
-						"巨像对距离它10英尺内的每个生物进行一次剑攻击。"
+						"The golem makes a sword attack against each creature within 10 feet of it."
 					]
 				},
 				{
 					"name": "Magnetic Pulse {@recharge}",
 					"entries": [
-						"巨像举起双臂，释放出一股磁脉冲。在它周围30英尺范围内的所有未被注意的金属物体都会被吸引到离巨像5英尺的未被占据的空间。在巨像30英尺范围内的每个穿着金属盔甲或由金属制成的生物必须成功通过一个{@dc 20}力量{@quickref saving throws|PHB|2|1|saving throw}豁免检定，否则会被吸引到离巨像5英尺的未被占据的空间，然后摔倒{@condition prone}。"
+						"The golem raises its arms and unleashes a magnetic pulse. All unattended metal objects within 30 feet of it are pulled to an unoccupied space within 5 feet of the golem. Each creature wearing metal armor or made of metal within 30 feet of the golem must succeed on a {@dc 20} Strength {@quickref saving throws|PHB|2|1|saving throw} or be pulled to an unoccupied space within 5 feet of the golem, then fall {@condition prone}."
 					]
 				}
 			],
@@ -1936,19 +1936,19 @@
 				{
 					"name": "Sense Heat",
 					"entries": [
-						"寒流之灵能感知到其周围60英尺范围内的热量。"
+						"The cold snap spirit can sense heat within 60 feet of it."
 					]
 				},
 				{
 					"name": "Frozen Aura",
 					"entries": [
-						"任何生物在寒风之灵((cold snap spirit))身边5英尺范围内开始它的回合时，会受到5点({@damage 1d10})的冰冷伤害。"
+						"Any creature that starts its turn within 5 feet of a cold snap spirit takes 5 ({@damage 1d10}) cold damage."
 					]
 				},
 				{
 					"name": "Jealous Spirit",
 					"entries": [
-						"如果寒霜之灵攻击一个距离另一个寒霜之灵5英尺以内的生物，那次攻击在命中时会额外造成10点冰冷伤害。"
+						"If the spirit attacks a creature that is within 5 feet of another cold snap spirit, the attack deals an extra 10 ({@damage 3d6}) cold damage on a hit."
 					]
 				}
 			],
@@ -1956,13 +1956,13 @@
 				{
 					"name": "Consume Warmth",
 					"entries": [
-						"{@atk ms} {@hit 8} 进行攻击，射程5英尺，一个目标。造成{@h}21 ({@damage 6d6}) 冰冷伤害，并且目标的移动速度减半，直到灵体的下一个回合结束。"
+						"{@atk ms} {@hit 8} to hit, reach 5 ft., one target. {@h}21 ({@damage 6d6}) cold damage, and the target's speed is halved until the end of the spirit's next turn."
 					]
 				},
 				{
 					"name": "Subzero Wave (1/Day)",
 					"entries": [
-						"每个在寒冷之灵(%cold snap spirit%) 30英尺范围内的生物必须进行一次{@dc 15} 体质{@quickref saving throws|PHB|2|1|saving throw} 检定，未通过检定的生物会受到18({@damage 4d8}) 点冰冷伤害，通过检定的生物则只受到一半伤害。"
+						"Each creature within 30 feet of the cold snap spirit must make a {@dc 15} Constitution {@quickref saving throws|PHB|2|1|saving throw}, taking 18 ({@damage 4d8}) cold damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -2045,7 +2045,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"独眼巨人的天生施法能力是魅力（法术豁免 {@dc 17}，法术攻击命中加值 {@hit 9}）。独眼巨人可以天生施放以下法术，无需材料组件："
+						"The cyclops's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The cyclops can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell ray of frost} ({@dice 3d8})",
@@ -2069,19 +2069,19 @@
 				{
 					"name": "One-Eyed",
 					"entries": [
-						"独眼巨人对距离超过30英尺的目标进行的任何攻击骰都有 {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}。"
+						"The cyclops has {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on any attack roll against a target more than 30 feet away."
 					]
 				},
 				{
 					"name": "Storm Wings",
 					"entries": [
-						"在恶劣天气条件下，独眼巨人的飞行速度为60英尺。"
+						"While outdoors in stormy conditions, the cyclops has a flying speed of 60 feet."
 					]
 				},
 				{
 					"name": "Supernatural Focus",
 					"entries": [
-						"独眼巨人在体质属性上有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}的加值，用于维持{@condition concentration}对法术的专注，并且不会因为恶劣天气而失去{@condition concentration}。"
+						"The cyclops has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Constitution {@quickref saving throws|PHB|2|1} made to maintain {@condition concentration} on spells, and cannot lose {@condition concentration} because of turbulent weather."
 					]
 				}
 			],
@@ -2089,13 +2089,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"独眼巨人进行两次冰爪攻击。"
+						"The cyclops makes two ice claw attacks."
 					]
 				},
 				{
 					"name": "Ice Claw",
 					"entries": [
-						"{@atk mw} {@hit 7}攻击，达到5英尺，一个目标。造成{@h}13 ({@damage 3d6 + 3})点割伤伤害加上3 ({@damage 1d6})点冰冷伤害。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) slashing damage plus 3 ({@damage 1d6}) cold damage."
 					]
 				}
 			],
@@ -2201,13 +2201,13 @@
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"蜘蛛可以爬上困难的表面，包括在天花板上倒挂，无需进行能力检定。"
+						"The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
 					]
 				},
 				{
 					"name": "Web Walker",
 					"entries": [
-						"蜘蛛无视由网织物造成的移动限制。"
+						"The spider ignores movement restrictions caused by webbing."
 					]
 				}
 			],
@@ -2215,25 +2215,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"蜘蛛进行两次近战攻击：一次使用其咬击，一次使用其螯刺；或者蜘蛛可以使用其网丝喷射器进行一次攻击，然后进行一次近战攻击。"
+						"The spider makes two melee attacks: one with its bite and one with its stinger; or the spider can make one attack with its web spinner followed by a melee attack."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 使用近战武器攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 1d10 + 3}) 穿刺伤害，并且目标必须进行一次{@dc 14} 体质（Constitution）豁免。未通过豁免的目标将受到27 ({@damage 6d8}) 毒素伤害，并且在1分钟内处于{@condition poisoned} 状态。通过豁免的目标将只受到一半伤害并且不会被{@condition poisoned}。如果这个毒素伤害将目标降至0点生命值，目标将保持稳定但在1小时内无法行动，即使恢复生命值后也是如此，并且在这种情况下仍然处于{@condition paralyzed} 状态。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage, and the target must make a {@dc 14} Constitution {@quickref saving throws|PHB|2|1|saving throw}. On a failed save, the target takes 27 ({@damage 6d8}) poison damage and is {@condition poisoned} for 1 minute. On a successful save, the target takes half as much damage and isn't {@condition poisoned}. If this poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
 					]
 				},
 				{
 					"name": "Stinger",
 					"entries": [
-						"{@atk mw} {@hit 7} 攻击，射程5英尺，目标一个。造成{@h}9 ({@damage 1d12 + 3}) 穿刺伤害，并且目标必须在一次{@dc 14} 体质检定 {@quickref saving throws|PHB|2|1|saving throw} 中成功，否则将在1分钟内被{@condition paralyzed}。目标可以在自己的回合结束时重复这个{@quickref saving throws|PHB|2|1|saving throw}，若成功则结束效果。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage, and the target must succeed on a {@dc 14} Constitution {@quickref saving throws|PHB|2|1|saving throw} or be {@condition paralyzed} for 1 minute. The target can repeat the {@quickref saving throws|PHB|2|1|saving throw} at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Web Spinner",
 					"entries": [
-						"{@atk rw} {@hit 7}攻击，射程40英尺，一个目标。{@h} 目标被拉向蜘蛛40英尺，并且被{@condition grappled}（逃脱 DC {@dc 14}）。蜘蛛每次只能以这种方式影响一个生物。作为一个动作，蜘蛛可以用蛛丝裹住一个生物，使其被{@condition restrained}并结束{@condition grappled}状态。"
+						"{@atk rw} {@hit 7} to hit, reach 40 ft., one target. {@h} The target is pulled 40 feet toward the spider and is {@condition grappled} (escape {@dc 14}). The spider can {@action grapple} only one creature at a time in this way. As an action, the spider can cocoon a creature it has {@condition grappled} in webbing, causing it to be {@condition restrained} and ending the {@condition grappled} condition."
 					]
 				}
 			],
@@ -2241,7 +2241,7 @@
 				{
 					"name": "Arterial Spray",
 					"entries": [
-						"当蜘蛛在其生命值下降到一半以下时受到伤害，它可以喷射出一股有毒的血液，形成一个15英尺的锥形范围。该区域内的每个生物必须进行一次 {@dc 14} 体质 {@quickref saving throws|PHB|2|1|saving throw} 检定。未通过豁免检定的生物会受到13 ({@damage 3d8}) 点毒性伤害，并且在1分钟内处于 {@condition poisoned} 状态。通过豁免检定的生物会受到一半伤害，并且不会 {@condition poisoned}。如果这个毒性伤害将一个生物的生命值降低到0点，那个生物会稳定下来，但会在接下来的1小时内处于 {@condition poisoned} 状态，即使在恢复生命值后也是如此，并且在这种情况下会一直处于 {@condition paralyzed} 状态，同时 {@condition poisoned}。"
+						"When the spider takes damage while below half its hit point maximum, it can spray poisonous blood in a 15-foot cone. Each creature in the area must make a {@dc 14} Constitution {@quickref saving throws|PHB|2|1|saving throw}. On a failed save, a creature takes 13 ({@damage 3d8}) poison damage and is {@condition poisoned} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}. If this poison damage reduces a creature to 0 hit points, the creature is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
 					]
 				}
 			],
@@ -2335,13 +2335,13 @@
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"蜘蛛幼体可以爬上困难的表面，包括在天花板上倒挂，无需进行能力检定。"
+						"The spiderling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
 					]
 				},
 				{
 					"name": "Web Walker",
 					"entries": [
-						"蜘蛛幼虫无视由网织物引起的移动限制。"
+						"The spiderling ignores movement restrictions caused by webbing."
 					]
 				}
 			],
@@ -2349,7 +2349,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 3}攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d8 + 1})穿刺伤害，并且目标必须进行一次{@dc 13}体质{@quickref saving throws|PHB|2|1|saving throw}豁免，未通过则受到10 ({@damage 3d6})毒素伤害，通过则减半。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage, and the target must make a {@dc 13} Constitution {@quickref saving throws|PHB|2|1|saving throw}, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -2395,7 +2395,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"格里克的施法能力是感知力（法术豁免 {@dc 12} {@hit 4} 用于法术攻击）。它可以天生施放以下法术，无需任何材料成分："
+						"The grick's spellcasting ability is Wisdom (spell save {@dc 12} {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"daily": {
 						"1": [
@@ -2474,25 +2474,25 @@
 				{
 					"name": "Arcane Surge (4/Day)",
 					"entries": [
-						"当Doty命中目标时，{@creature Taryon Darrington|TDCSR|Tary}可以引导魔法能量，对目标造成额外14点({@damage 4d6})力量伤害，只要{@creature Taryon Darrington|TDCSR|Tary}不是{@condition incapacitated}。"
+						"When Doty hits a target, {@creature Taryon Darrington|TDCSR|Tary} can channel magical energy to deal an extra 14 ({@damage 4d6}) force damage to the target as long as {@creature Taryon Darrington|TDCSR|Tary} is not {@condition incapacitated}."
 					]
 				},
 				{
 					"name": "Dedicated Servant",
 					"entries": [
-						"Doty额外获得20点生命值，并且在{@quickref saving throws|PHB|2|1}、{@quickref ability checks|PHB|2|0}使用技能熟练加值和攻击投掷中获得+2修正值。"
+						"Doty has an additional 20 hit points, and has a +2 modifier to {@quickref saving throws|PHB|2|1}, {@quickref ability checks|PHB|2|0} using skill proficiencies, and attack rolls."
 					]
 				},
 				{
 					"name": "Limited Vocabulary",
 					"entries": [
-						"Doty可以用普通话说以下词语: \"Tary,\" \"Yes,\" \"Correct,\" \"Absolutely,\" \"Soon,\" 和 \"Handsome.\""
+						"Doty can say the following words in Common: \"Tary,\" \"Yes,\" \"Correct,\" \"Absolutely,\" \"Soon,\" and \"Handsome.\""
 					]
 				},
 				{
 					"name": "Vigilant",
 					"entries": [
-						"多蒂(Doty)不能被惊讶。"
+						"Doty can't be surprised."
 					]
 				}
 			],
@@ -2500,13 +2500,13 @@
 				{
 					"name": "Empowered Fist",
 					"entries": [
-						"{@atk mw} 使用近战攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 1d8 + 4}) 点力场伤害。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) force damage."
 					]
 				},
 				{
 					"name": "Repair (3/Day)",
 					"entries": [
-						"多蒂回复了15点生命值。"
+						"Doty regains 15 ({@dice 2d8 + 6}) hit points."
 					]
 				}
 			],
@@ -2514,7 +2514,7 @@
 				{
 					"name": "Deflect",
 					"entries": [
-						"如果一个生物在 Doty 5 英尺内，Doty 能看见，并对除 Doty 以外的生物发动攻击，他可以对攻击骰投掷施加 {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}。然后攻击者受到 6 ({@damage 1d4 + 4}) 的力量伤害。"
+						"If a creature within 5 feet of Doty that he can see makes an attack against a creature other than Doty, he can impose {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on the attack roll. The attacker then takes 6 ({@damage 1d4 + 4}) force damage."
 					]
 				}
 			],
@@ -2599,19 +2599,19 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"鹏在依赖视觉的感知检定中获得{@quickref Advantage and Disadvantage|PHB|2|0|advantage}的加值。"
+						"The roc has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				},
 				{
 					"name": "Searing Presence",
 					"entries": [
-						"任何在离恶鹏（roc）5英尺范围内开始其回合的生物会受到7 ({@damage 2d6}) 点火焰伤害。"
+						"Any creature that starts its turn within 5 feet of the roc takes 7 ({@damage 2d6}) fire damage."
 					]
 				},
 				{
 					"name": "Illumination",
 					"entries": [
-						"巨鹏在半径为40英尺的范围内发出明亮的光芒，并在额外的40英尺范围内发出微弱的光芒。"
+						"The roc sheds bright light in a 40-foot radius and dim light for an additional 40 feet."
 					]
 				}
 			],
@@ -2619,25 +2619,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"巨鹏进行两次攻击：一次用喙，一次用爪。"
+						"The roc makes two attacks: one with its beak and one with its talons."
 					]
 				},
 				{
 					"name": "Beak",
 					"entries": [
-						"{@atk mw} {@hit 13} 进行攻击，射程10英尺，目标一个。造成{@h}26 ({@damage 4d8 + 8}) 穿刺伤害和7 ({@damage 2d6}) 火焰伤害。"
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}26 ({@damage 4d8 + 8}) piercing damage and 7 ({@damage 2d6}) fire damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} {@hit 13}攻击，射程5英尺，目标一个。造成{@h}22 ({@damage 4d6 + 8})点劈砍伤害和7 ({@damage 2d6})点火焰伤害。"
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d6 + 8}) slashing damage and 7 ({@damage 2d6}) fire damage."
 					]
 				},
 				{
 					"name": "Inferno {@recharge 5}",
 					"entries": [
-						"凤凰拍打着它的翅膀，制造出一团旋转的大火。在凤凰30英尺范围内的每个生物必须成功进行一次{@dc 18}敏捷（Dexterity）检定，否则将受到21（{@damage 6d6}）点火焰伤害。"
+						"The roc beats its wings, creating a swirling conflagration. Each creature within 30 feet of the roc must succeed on a {@dc 18} Dexterity {@quickref saving throws|PHB|2|1|saving throw} or take 21 ({@damage 6d6}) fire damage."
 					]
 				}
 			],
@@ -2724,13 +2724,13 @@
 				{
 					"name": "Heated Weapons",
 					"entries": [
-						"当骷髅用金属近战武器攻击时，武器造成额外 3 点火焰伤害（包含在攻击中）。"
+						"When the skeleton hits with a metal melee weapon, the weapon deals an extra 3 ({@damage 1d6}) fire damage (included in the attack)."
 					]
 				},
 				{
 					"name": "Illumination",
 					"entries": [
-						"骷髅在半径为10英尺的范围内散发明亮光，再额外照亮10英尺的范围。"
+						"The skeleton sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
 					]
 				}
 			],
@@ -2738,13 +2738,13 @@
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 4}攻击，射程5英尺，一个目标。造成{@h}5 ({@damage 1d6 + 2})点穿刺伤害和3 ({@damage 1d6})点火焰伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage and 3 ({@damage 1d6}) fire damage."
 					]
 				},
 				{
 					"name": "Ignite",
 					"entries": [
-						"骷髅向距离它5英尺以内的一个大型或更小的生物投掷自己。目标必须成功通过一个{@dc 12}敏捷{@quickref saving throws|PHB|2|1|saving throw}豁免检定，否则将被{@condition grappled}（逃脱{@dc 12}）。未通过豁免检定的目标，在其每个回合开始时还会受到3({@damage 1d6})火焰伤害，即使{@action grapple}结束后仍然如此。如果目标或距离它5英尺以内的生物使用一个动作来扑灭火焰，或者其他效果熄灭了火焰（比如目标被浸入水中），效果就会结束。"
+						"The skeleton flings itself at a Large or smaller creature within 5 feet of it. The target must succeed on a {@dc 12} Dexterity {@quickref saving throws|PHB|2|1|saving throw} or be {@condition grappled} (escape {@dc 12}). On a failed save, the target also takes 3 ({@damage 1d6}) fire damage at the start of each of its turns, even after the {@action grapple} ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the effect ends."
 					]
 				}
 			],
@@ -2847,25 +2847,25 @@
 				{
 					"name": "Fire Absorption",
 					"entries": [
-						"每当守护者受到火焰伤害时，它不会受到伤害，而是恢复的生命值等于所受火焰伤害的数量。"
+						"Whenever the guardian is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
 					]
 				},
 				{
 					"name": "Immutable Form",
 					"entries": [
-						"守护者对任何试图改变其形态的法术或效果都具有免疫力。"
+						"The guardian is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"守护者对法术和其他魔法效果具有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}抗性。"
+						"The guardian has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"守护者的武器攻击是魔法的。"
+						"The guardian's weapon attacks are magical."
 					]
 				}
 			],
@@ -2873,25 +2873,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"守护者进行两次近战攻击。"
+						"The guardian makes two melee attacks."
 					]
 				},
 				{
 					"name": "Runeblade",
 					"entries": [
-						"{@atk mw} {@hit 18} 进行攻击，射程15英尺，一个目标。造成{@h}36 ({@damage 4d12 + 10}) 斩击伤害，并且目标必须在一次{@dc 23}体质检定 {@quickref saving throws|PHB|2|1|saving throw} 中成功，否则将被{@condition blinded}，直到对守护者造成伤害。"
+						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}36 ({@damage 4d12 + 10}) slashing damage, and the target must succeed on a {@dc 23} Constitution {@quickref saving throws|PHB|2|1|saving throw} or be {@condition blinded} until it deals damage to the guardian."
 					]
 				},
 				{
 					"name": "Kick",
 					"entries": [
-						"{@atk mw} {@hit 18}攻击，达到10英尺，一个目标。造成{@h}23({@damage 2d12 + 10})点钝击伤害，并将目标推开最多15英尺，使其倒地{@condition prone}。"
+						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}23 ({@damage 2d12 + 10}) bludgeoning damage, and the target is pushed up to 15 feet away from the guardian and knocked {@condition prone}."
 					]
 				},
 				{
 					"name": "Bladestorm {@recharge 5}",
 					"entries": [
-						"守护者对其周围15英尺范围内的每个生物发动符文之刃攻击。命中时，目标还会被推开多达15英尺远，并被击倒{@condition prone}。"
+						"The guardian makes a Runeblade attack against every creature within 15 feet of it. On a hit, a target is also pushed up to 15 feet away from the guardian and knocked {@condition prone}."
 					]
 				}
 			],
@@ -2899,19 +2899,19 @@
 				{
 					"name": "Runeblade",
 					"entries": [
-						"守护者进行一次符文剑攻击。"
+						"The guardian makes one Runeblade attack."
 					]
 				},
 				{
 					"name": "Kick",
 					"entries": [
-						"守护者进行一次踢击攻击。"
+						"The guardian makes one Kick attack."
 					]
 				},
 				{
 					"name": "Trample (Costs 2 Actions)",
 					"entries": [
-						"守护者可以移动高达50英尺，而不会触发{@action opportunity attack|PHB|opportunity attacks}，并且可以穿过其他生物的空间。每个守护者经过的生物空间的生物必须进行{@dc 23}敏捷{@quickref saving throws|PHB|2|1|saving throw}检定。如果检定失败，生物会受到23({@damage 2d12 + 10}) 钝击伤害，并被击倒{@condition prone}。如果检定成功，生物只受到一半伤害，并且不会被击倒{@condition prone}。当守护者停止移动时，任何与守护者共享空间的生物都会被推出其空间，进入最近的未被占据的空间。"
+						"The guardian moves up to 50 feet without triggering {@action opportunity attack|PHB|opportunity attacks}, and can pass through other creature's spaces. Each creature whose space the guardian passes through must make a {@dc 23} Dexterity {@quickref saving throws|PHB|2|1|saving throw}. On a failure, the creature takes 23 ({@damage 2d12 + 10}) bludgeoning damage and is knocked {@condition prone}. On a success, the creature takes half as much damage and isn't knocked {@condition prone}. Any creature that shares the guardian's space when it stops this movement is pushed out of its space into the nearest unoccupied space."
 					]
 				}
 			],
@@ -3074,49 +3074,49 @@
 				{
 					"name": "Brutal Critical",
 					"entries": [
-						"当格罗格(Grog)获得暴击时，他像平常一样投掷双倍的武器伤害骰，然后再额外投掷3个武器伤害骰。"
+						"When Grog scores a critical hit, he rolls double weapon damage dice as usual, then rolls 3 additional weapon damage dice."
 					]
 				},
 				{
 					"name": "Feral Instinct",
 					"entries": [
-						"格罗格在先攻骰上有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。"
+						"Grog has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on initiative rolls."
 					]
 				},
 				{
 					"name": "Melee Master",
 					"entries": [
-						"Grog可以选择在任何近战攻击投掷中承受-5的惩罚，以获得+10的伤害投掷奖励。"
+						"Grog can take a \u22125 penalty to any melee attack roll to gain a +10 bonus to the damage roll."
 					]
 				},
 				{
 					"name": "Reckless",
 					"entries": [
-						"在他的回合开始时，格罗格可以在该回合的所有近战武器攻击投掷中获得{@quickref Advantage and Disadvantage|PHB|2|0|advantage}，但对他的攻击投掷在他下个回合开始前有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。"
+						"At the start of his turn, Grog can gain {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on all melee weapon attack rolls during that turn, but attack rolls against him have {@quickref Advantage and Disadvantage|PHB|2|0|advantage} until the start of his next turn."
 					]
 				},
 				{
 					"name": "Relentless Rage",
 					"entries": [
-						"如果格罗格在狂暴状态下被减至0点生命值，如果他成功进行一次{@dc 10}体质（Constitution）检定，他的生命值会降至1点。"
+						"If Grog is reduced to 0 hit points while raging, he drops to 1 hit point instead if he succeeds on a {@dc 10} Constitution {@quickref saving throws|PHB|2|1|saving throw}."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"格罗格穿着一件{@item belt of dwarvenkind}。他挥舞着{@item Bloodaxe|EGW}（一把+2魔法武器），一把{@item dwarven thrower}，和{@item Titanstone Knuckles (Exalted)|TDCSR|Titanstone Knuckles}。"
+						"Grog wears a {@item belt of dwarvenkind}. He wields the {@item Bloodaxe|EGW} (a +2 magic weapon), a {@item dwarven thrower}, and the {@item Titanstone Knuckles (Exalted)|TDCSR|Titanstone Knuckles}."
 					]
 				},
 				{
 					"name": "Spellbreaker",
 					"entries": [
-						"当格罗格对一个正在专注于咒语的生物造成伤害时，那个生物在维持其{@condition concentration}的{@quickref saving throws|PHB|2|1|saving throw}上有{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}。此外，格罗格对于在他身边5英尺范围内施放的咒语的生物拥有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}的{@quickref saving throws|PHB|2|1}。"
+						"When Grog damages a creature that is concentrating on a spell, that creature has {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on the {@quickref saving throws|PHB|2|1|saving throw} to maintain its {@condition concentration}. In addition, Grog has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells cast by creatures within 5 feet of him."
 					]
 				},
 				{
 					"name": "Toughness",
 					"entries": [
-						"格罗格额外获得了40点生命值。"
+						"Grog has an additional 40 hit points."
 					]
 				}
 			],
@@ -3124,31 +3124,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"格罗格使用他的{@item Bloodaxe|EGW}，{@item dwarven thrower}或{@item Titanstone Knuckles (Exalted)|TDCSR|Titanstone Knuckles}进行两次攻击（愤怒时为三次攻击）。"
+						"Grog makes two attacks (three when raging) with his {@item Bloodaxe|EGW}, {@item dwarven thrower}, or {@item Titanstone Knuckles (Exalted)|TDCSR|Titanstone Knuckles}."
 					]
 				},
 				{
 					"name": "{@item Bloodaxe|EGW}",
 					"entries": [
-						"{@atk mw} {@hit 16} 进行攻击，达到5英尺，一个目标。造成{@h}20 ({@damage 1d12 + 14}) 劈砍伤害和3 ({@damage 1d6}) 死灵伤害。如果目标降至0点生命值，Grog 获得10点临时生命值。"
+						"{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}20 ({@damage 1d12 + 14}) slashing damage and 3 ({@damage 1d6}) necrotic damage. If the target is reduced to 0 hit points, Grog gains 10 temporary hit points."
 					]
 				},
 				{
 					"name": "{@item Dwarven Thrower}",
 					"entries": [
-						"{@atk mw,rw} {@hit 17} 命中，射程5英尺或射程20/60，目标一个。造成{@h}24 ({@damage 2d8 + 15}) 钝击伤害。"
+						"{@atk mw,rw} {@hit 17} to hit, reach 5 ft. or range 20/60, one target. {@h}24 ({@damage 2d8 + 15}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Titanstone Knuckles",
 					"entries": [
-						"{@atk mw} {@hit 14}攻击，达到5英尺，一个目标。造成{@h}14 ({@damage 1d4 + 12}) 钝击伤害。"
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}14 ({@damage 1d4 + 12}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Enlarge (Recharges after a {@quickref resting|PHB|2|0|Long Rest})",
 					"entries": [
-						"格罗格对自己施放 {@spell enlarge/reduce}，使自己在接下来的10分钟内增大。在这种方式下，他对冰冷、火焰、闪电和雷电伤害具有抗性。"
+						"Grog casts {@spell enlarge/reduce} on himself to grow in size for 10 minutes. While enlarged in this way, he has resistance to cold, fire, lightning, and thunder damage."
 					]
 				}
 			],
@@ -3156,18 +3156,18 @@
 				{
 					"name": "Rage (Recharges after a {@quickref resting|PHB|2|0|Short or Long Rest})",
 					"entries": [
-						"格罗格进入愤怒状态，该状态持续直到他倒下{@condition unconscious}或选择结束它（无需行动）。在愤怒状态下，格罗格获得以下好处：",
+						"Grog enters a rage that lasts until he falls {@condition unconscious} or chooses to end it (no action required). While raging, Grog gains the following benefits:",
 						{
 							"type": "list",
 							"items": [
-								"他在力量检定上有 {@quickref Advantage and Disadvantage|PHB|2|0|advantage}，力量为 {@quickref saving throws|PHB|2|1}。",
-								"当他用近战武器攻击命中目标时，他会额外造成4点伤害（包含在攻击中）。",
-								"他对钝击、穿刺和砍砍伤害具有抗性。",
-								"他不能是{@condition charmed}或{@condition frightened}。",
-								"他可以进行额外的近战武器攻击（包含在多重攻击（Multiattack）动作中）"
+								"He has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Strength checks and Strength {@quickref saving throws|PHB|2|1}.",
+								"He deals an extra 4 damage when he hits a target with a melee weapon attack (included in attacks)",
+								"He has resistance to bludgeoning, piercing, and slashing damage",
+								"He can't be {@condition charmed} or {@condition frightened}",
+								"He can make an additional melee weapon attack (included in the Multiattack action)"
 							]
 						},
-						"当格罗格的愤怒结束时，他获得{@condition exhaustion}的一级。"
+						"When Grog's rage ends, he gains one level of {@condition exhaustion}."
 					]
 				}
 			],
@@ -3175,7 +3175,7 @@
 				{
 					"name": "Opportunist",
 					"entries": [
-						"当一个生物在离格罗格(Grog)5英尺范围内施放法术或对他造成伤害时，格罗格可以对该生物进行一次近战武器攻击。"
+						"When a creature within 5 feet of Grog casts a spell or deals damage to him, Grog can make a melee weapon attack against that creature."
 					]
 				}
 			],
@@ -3304,7 +3304,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"乔瑞尔的施法能力是魅力（法术豁免{@dc 15}）。她可以天生施放以下法术，无需任何材料组件："
+						"Jourrael's spellcasting ability is Charisma (spell save {@dc 15}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell dancing lights}"
@@ -3322,19 +3322,19 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"Jourrael可以像穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果他们在物体内结束他们的回合，他们会受到5点({@damage 1d10})力场伤害。"
+						"Jourrael can move through other creatures and objects as if they were {@quickref difficult terrain||3}. They take 5 ({@damage 1d10}) force damage if they end their turn inside an object."
 					]
 				},
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"当Jourrael用武器攻击命中目标并在攻击骰上得到{@quickref Advantage and Disadvantage|PHB|2|0|advantage}时，会额外造成35点伤害({@damage 10d6})，或者当目标在Jourrael的盟友（非{@condition incapacitated}）5英尺内且Jourrael在攻击骰上没有{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}时。"
+						"Jourrael deals an extra 35 ({@damage 10d6}) damage when they hit a target with a weapon attack and have {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on the attack roll, or when the target is within 5 feet of an ally of Jourrael that isn't {@condition incapacitated} and Jourrael doesn't have {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on the attack roll."
 					]
 				},
 				{
 					"name": "Inevitable",
 					"entries": [
-						"如果乔瑞尔(Jourrael)的生命值降至0点，他们不会倒下{@condition unconscious}，而是变成一个无实体的灵魂，持续24小时。在这段时间里，乔瑞尔不能恢复到原来的形态，直到他们恢复到满生命值。在这种形态下，他们{@condition invisible}，无法攻击或与有实体的生物或物体互动，也无法被法术瞄准。24小时过后，乔瑞尔恢复1点生命值，以{@condition exhaustion}的形态回到原来的形态。"
+						"If Jourrael is reduced to 0 hit points, they do not fall {@condition unconscious} but becomes an incorporeal spirit for 24 hours. During this time, Jourrael can't return to their original form until they returns to full hit points. In this form, they are {@condition invisible}, can't attack or interact with corporeal creatures or objects, and can't be targeted by spells. After 24 hours have passed, Jourrael regains 1 hit point and returns to their original form with four levels of {@condition exhaustion}."
 					]
 				}
 			],
@@ -3342,19 +3342,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Jourrael 进行两次近战攻击或两次远程攻击。"
+						"Jourrael makes two melee attacks or two ranged attacks."
 					]
 				},
 				{
 					"name": "Spectral Blade",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}10 ({@damage 1d6 + 7})点割伤伤害，并且目标必须在1小时内成功通过一次{@dc 14}体质检定或者被{@condition poisoned}。如果{@quickref saving throws|PHB|2|1|saving throw}的检定失败值超过5，目标在这种方式下也会被{@condition unconscious}。目标若受到伤害或者另一个生物采取行动来唤醒它时，会醒来。"
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d6 + 7}) slashing damage, and the target must succeed on a {@dc 14} Constitution {@quickref saving throws|PHB|2|1|saving throw} or be {@condition poisoned} for 1 hour. If the {@quickref saving throws|PHB|2|1|saving throw} fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
 					]
 				},
 				{
 					"name": "Void Dagger",
 					"entries": [
-						"{@atk rw} {@hit 12}攻击，射程60/120尺，目标一个。造成{@h}9 ({@damage 1d4 + 7})穿刺伤害。"
+						"{@atk rw} {@hit 12} to hit, range 60/120 ft., one target. {@h}9 ({@damage 1d4 + 7}) piercing damage."
 					]
 				}
 			],
@@ -3362,13 +3362,13 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"Jourrael可以执行{@action Dash}、{@action Disengage}或{@action Hide}动作。"
+						"Jourrael can take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
 					]
 				},
 				{
 					"name": "Mirrored Form (Recharges after a {@quickref resting|PHB|2|0|Short Rest})",
 					"entries": [
-						"朱瑞尔(Jourrael)制造出三个虚幻的复制品，悬浮在她的周围。每当有生物以攻击目标朱瑞尔时，投掷一个{@dice d20}来判断是否击中其中一个复制品。如果有三个复制品，投掷6或更高的数值则会攻击到一个复制品。有两个复制品时，投掷8或更高的数值则会攻击到一个复制品。只有一个复制品时，投掷11或更高的数值则会攻击到一个复制品。复制品的护甲等级为17，如果被击中则会被摧毁。朱瑞尔可以将这些复制品隐藏起来，作为一个奖励动作。"
+						"Jourrael manifests three illusory duplicates that hover in her space. Each time a creature targets Jourrael with an attack, roll a {@dice d20} to see if it hits one of the duplicates. If there are three duplicates, a duplicate is targeted on a roll of 6 or higher. With two duplicates, a duplicate is targeted on a roll of 8 or higher. A single duplicate is targeted on a roll of 11 or higher. A duplicate's AC is 17, and it is destroyed if hit. Jourrael can hide the duplicates as a bonus action."
 					]
 				}
 			],
@@ -3376,7 +3376,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"Jourrael在看到攻击者的情况下，对一次可能击中她的近战攻击，她的AC增加5。"
+						"Jourrael adds 5 to her AC against one melee attack that would hit her. To do so, she must see the attacker"
 					]
 				}
 			],
@@ -3496,7 +3496,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"凯莉丝是一名20级的法术施展者。她的法术能力是智力（法术豁免 {@dc 22}，用法术攻击命中时为 {@hit 14}）。她准备了以下德鲁伊法术："
+						"Keyleth is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 22}, {@hit 14} to hit with spell attacks). She has the following druid spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -3587,19 +3587,19 @@
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"凯莉丝对抗被魅惑的豁免投骰获得 {@quickref Advantage and Disadvantage|PHB|2|0|advantage}，而且魔法无法让她入睡。"
+						"Keyleth has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against being {@condition charmed}, and magic can't put her to sleep."
 					]
 				},
 				{
 					"name": "Focused",
 					"entries": [
-						"凯莉丝在体质属性上投放了 {@quickref Advantage and Disadvantage|PHB|2|0|advantage} 点数，以维持对法术的专注。"
+						"Keyleth has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Constitution {@quickref saving throws|PHB|2|1} made to maintain {@condition concentration} on spells."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Keyleth穿着一件{@item circlet of wisdom|TDCSR}（增加她的感知属性值2点），{@item +2 leather armor}，和一件{@item +2 Ring of Protection|TDCSR|ring of protection with a +2 bonus}。她挥舞着{@item Spire of Conflux (Exalted)|TDCSR|Spire of Conflux}。"
+						"Keyleth wears a {@item circlet of wisdom|TDCSR} (which increases her Wisdom score by 2), {@item +2 leather armor}, and a {@item +2 Ring of Protection|TDCSR|ring of protection with a +2 bonus}. She wields the {@item Spire of Conflux (Exalted)|TDCSR|Spire of Conflux}."
 					]
 				}
 			],
@@ -3607,19 +3607,19 @@
 				{
 					"name": "Shapechange",
 					"entries": [
-						"Keyleth 施放 {@spell shapechange} 变身成为一个 {@creature planetar}, 一个 {@creature adult bronze dragon}, 或者一个 {@filter another creature of CR 20 or lower that is not a construct or undead|bestiary|Challenge Rating=[0;&20]|type=!construct;!undead|source=null}。"
+						"Keyleth casts {@spell shapechange} to transform into a {@creature planetar}, an {@creature adult bronze dragon}, or {@filter another creature of CR 20 or lower that is not a construct or undead|bestiary|Challenge Rating=[0;&20]|type=!construct;!undead|source=null}."
 					]
 				},
 				{
 					"name": "Meteor ({@creature Earth Elemental} Form Only)",
 					"entries": [
-						"当凯莉丝（Keyleth）跌落至少20英尺时，她会以流星般的力量着地。她周围20英尺范围内的每个生物必须成功进行一次{@dc 19}敏捷（Dexterity）检定，否则会因凯莉丝跌落的每10英尺而受到{@damage 1d6}钝击伤害。凯莉丝在{@creature earth elemental}形态中仍会受到{@quickref falling|XGE|2|0|falling damage}伤害。"
+						"When Keyleth falls at least 20 feet, she lands with meteoric force. Each creature within 20 feet of her must succeed on a {@dc 19} Dexterity {@quickref saving throws|PHB|2|1|saving throw} or take {@damage 1d6} bludgeoning damage for every 10 feet Keyleth fell. Keyleth still takes {@quickref falling|XGE|2|0|falling damage} while in {@creature earth elemental} form."
 					]
 				},
 				{
 					"name": "Chain Lightning",
 					"entries": [
-						"凯莉丝在距离她150英尺内可见的生物身上施放{@spell chain lightning}（豁免 DC {@dc 22}）法术，从{@item Spire of Conflux (Exalted)|TDCSR|Spire of Conflux}中施放。"
+						"Keyleth casts {@spell chain lightning} (spell save {@dc 22}) from the {@item Spire of Conflux (Exalted)|TDCSR|Spire of Conflux} at a creature she can see within 150 feet of her."
 					]
 				}
 			],
@@ -3627,13 +3627,13 @@
 				{
 					"name": "Wild Shape",
 					"entries": [
-						"Keyleth使用魔法将自己变成一个CR 6或更低级别的野兽或元素生物。她的游戏统计数据被新形态的统计数据取代，但她保留原有的阵营、个性以及智力、感知和魅力分数。她还保留所有技能和{@quickref saving throws|PHB|2|1|saving throw}熟练加值，同时获得新形态的技能。她获得新形态的生命值和骰子，并在变回人形时恢复到变形前的生命值。她穿戴的装备或携带的物品被新形态吸收或承载（她选择）。她可以作为奖励动作或当她倒下时，变回人形。她在野兽形态下的攻击是魔法攻击，她可以在变形时施放法术。"
+						"Keyleth magically {@spell polymorph|phb|polymorphs} into a beast or elemental of CR 6 or lower. Her game statistics are replaced by the statistics of the new form, but she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores. She also retains all of her skill and {@quickref saving throws|PHB|2|1|saving throw} proficiencies, in addition to gaining those of the new form. She assumes the new form's hit points and Hit Dice and returns to the number of hit points she had when she reverts to her normal form. Any equipment she is wearing or carrying is absorbed or borne by her new form (her choice). She reverts to her humanoid form as a bonus action, or when she falls {@condition unconscious}. Her attacks in Wild Shape form are magical, and she can cast spells while transformed."
 					]
 				},
 				{
 					"name": "Healing Word (4th Level)",
 					"entries": [
-						"凯莉丝施放了 {@spell healing word}，为自己或她能看到的距离60英尺内的另一生物恢复了16 ({@dice 4d4 + 6}) 点生命值。"
+						"Keyleth casts {@spell healing word}, restoring 16 ({@dice 4d4 + 6}) hit points to herself or another creature she can see within 60 feet of her."
 					]
 				}
 			],
@@ -3740,7 +3740,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"山羊骑士是一名6级法术施展者。它的法术施展能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。它已准备了以下圣骑士法术："
+						"The goat-knight is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following paladin spells prepared:"
 					],
 					"spells": {
 						"1": {
@@ -3770,19 +3770,19 @@
 				{
 					"name": "Aura of Protection",
 					"entries": [
-						"每当山羊骑士或者与其友好的生物在其周围10英尺范围内进行一次{@quickref saving throws|PHB|2|1|saving throw}时，该生物获得+2的奖励（包含在山羊骑士的{@quickref saving throws|PHB|2|1}中）。山羊骑士必须保持清醒才能授予和获得这个奖励。"
+						"Whenever the goat-knight or a creature friendly to it within 10 feet of it makes a {@quickref saving throws|PHB|2|1|saving throw}, that creature gains a +2 bonus (included in the goat-knight's {@quickref saving throws|PHB|2|1} above). The goat-knight must be conscious to grant and gain this bonus."
 					]
 				},
 				{
 					"name": "Divine Health",
 					"entries": [
-						"这只山羊骑士对疾病免疫。"
+						"The goat-knight is immune to disease."
 					]
 				},
 				{
 					"name": "Dwarven Resilience",
 					"entries": [
-						"山羊骑士对毒性伤害具有抗性，并且在对抗毒性时获得 {@quickref Advantage and Disadvantage|PHB|2|0|advantage} 的加值。"
+						"The goat-knight has resistance to poison damage and {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against poison."
 					]
 				}
 			],
@@ -3790,13 +3790,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"山羊骑士进行两次战锤攻击。"
+						"The goat-knight makes two warhammer attacks."
 					]
 				},
 				{
 					"name": "Warhammer",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，射程5英尺，目标一个。造成{@h}7 ({@damage 1d8 + 3}) 钝击伤害，或者如果双手使用则造成8 ({@damage 1d10 + 3}) 钝击伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage, or 8 ({@damage 1d10 + 3}) bludgeoning damage if used with two hands."
 					]
 				}
 			],
@@ -3908,31 +3908,31 @@
 				{
 					"name": "Antimagic Cone",
 					"entries": [
-						"傀儡制造出一个反魔法区域，就像{@spell antimagic field}法术一样，在以它为起点的60英尺锥形范围内。在每个回合开始时，傀儡决定锥形朝向和锥形是否激活。"
+						"The golem creates an area of antimagic, as in the {@spell antimagic field} spell, in a 60-foot cone originating from it. At the start of each of its turns, the golem decides which way the cone faces and whether the cone is active."
 					]
 				},
 				{
 					"name": "Immutable Form",
 					"entries": [
-						"傀儡对任何会改变其形态的法术或效果都免疫。"
+						"The golem is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Magic Absorption",
 					"entries": [
-						"每当傀儡受到4级或更低级的造成伤害的法术影响时，它不会受到伤害，而是恢复的生命值等于所受伤害的数量。"
+						"Whenever the golem is subjected to a damage-dealing spell of 4th level or lower, it takes no damage and instead regains a number of hit points equal to the damage dealt."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"这个傀儡对法术和其他魔法效果有{@quickref Advantage and Disadvantage|PHB|2|0|advantage} {@quickref saving throws|PHB|2|1}。"
+						"The golem has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"傀儡的武器攻击是魔法的。"
+						"The golem's weapon attacks are magical."
 					]
 				}
 			],
@@ -3940,25 +3940,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"巨像使用其反魔冲击，并进行两次近战攻击，或者进行三次近战攻击。"
+						"The golem uses its Antimagic Jolt and makes two melee attacks, or it makes three melee attacks."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} 使用 {@hit 12} 进行攻击，达到5英尺，一个目标。造成{@h}20 ({@damage 3d8 + 7}) 钝击伤害。"
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Claw {@recharge 5}",
 					"entries": [
-						"{@atk mw} {@hit 12} 进行攻击，射程5英尺，目标一个。造成{@h}11 ({@damage 1d8 + 7}) 钝击伤害，并且目标必须在一个{@dc 16} 敏捷度 {@quickref saving throws|PHB|2|1|saving throw} 豁免检定中成功，否则将被施加一个魔法项圈在它的脖子上。当目标戴着项圈时，它被魔法阻止说话，也无法施放任何法术。通过使用{@item thieves' tools|PHB} 进行成功的{@dc 25} 敏捷度检定可以移除项圈。"
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) bludgeoning damage, and the target must succeed on a {@dc 16} Dexterity {@quickref saving throws|PHB|2|1|saving throw} or have a magic collar placed upon its neck. While the target wears the collar, it is magically prevented from speaking and cannot cast any spell. A successful {@dc 25} Dexterity check using {@item thieves' tools|PHB} removes the collar."
 					]
 				},
 				{
 					"name": "Antimagic Jolt",
 					"entries": [
-						"每个在傀儡的反魔法锥内，具有施放1级或更高级法术能力的生物必须进行一次 {@dc 18} 智力 {@quickref saving throws|PHB|2|1|saving throw} 检定，失败则受到21 ({@damage 6d6}) 精神伤害，成功则只受到一半伤害。"
+						"Each creature within the golem's Antimagic Cone that has the ability to cast a spell of 1st level or higher must make a {@dc 18} Wisdom {@quickref saving throws|PHB|2|1|saving throw}, taking 21 ({@damage 6d6}) psychic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -4040,19 +4040,19 @@
 				{
 					"name": "Searing Presence",
 					"entries": [
-						"任何在离陆地鲨10英尺范围内开始其回合的生物会受到11 ({@damage 2d10}) 火焰伤害。"
+						"Any creature that starts its turn within 10 feet of the landshark takes 11 ({@damage 2d10}) fire damage."
 					]
 				},
 				{
 					"name": "Standing Leap",
 					"entries": [
-						"陆鲨的{@quickref jumping|PHB|4|0|long jump}高达40英尺，{@quickref jumping|PHB|4|0|high jump}高达20英尺，无论是否有起跑距离。"
+						"The landshark's {@quickref jumping|PHB|4|0|long jump} is up to 40 feet and its {@quickref jumping|PHB|4|0|high jump} is up to 20 feet, with or without a running start."
 					]
 				},
 				{
 					"name": "Illumination",
 					"entries": [
-						"陆鲨在半径为15英尺的范围内散发明亮光，再延伸15英尺的范围内散发微光。"
+						"The landshark sheds bright light in a 15-foot radius and dim light for an additional 15 feet."
 					]
 				}
 			],
@@ -4060,20 +4060,20 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 攻击命中，达到5英尺，一个目标。造成{@h}45 ({@damage 6d12 + 6}) 穿刺伤害，并且14 ({@damage 4d6}) 火焰伤害。如果目标是一个大型或更小的生物，它必须在一个{@dc 18} 敏捷度 {@quickref saving throws|PHB|2|1|saving throw} 豁免成功，否则被陆地鲨吞噬。被吞噬的生物是{@condition blinded} 和 {@condition restrained}，它对陆地鲨外的攻击和其他效果具有{@quickref cover|PHB|3|0|total cover}，并且在每个陆地鲨的回合开始时受到42 ({@damage 12d6}) 火焰伤害。",
-						"如果陆鲨在一回合内受到30点或更多伤害，来自其内部的生物，陆鲨必须在那个回合结束时成功通过一次{@dc 23}体质{@quickref saving throws|PHB|2|1|saving throw}检定，否则将会将所有吞下的生物吐出，它们会在距离陆鲨不超过10英尺的地方落地{@condition prone}。如果陆鲨死亡，被吞下的生物不再受其影响，可以使用15英尺的移动速度从尸体中逃脱，离开{@condition prone}。"
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}45 ({@damage 6d12 + 6}) piercing damage, and 14 ({@damage 4d6}) fire damage. If the target is a Large or smaller creature, it must succeed on a {@dc 18} Dexterity {@quickref saving throws|PHB|2|1|saving throw} or be swallowed by the landshark. A swallowed creature is {@condition blinded} and {@condition restrained}, it has {@quickref cover|PHB|3|0|total cover} against attacks and other effects outside the landshark, and it takes 42 ({@damage 12d6}) fire damage at the start of each of the landshark's turns.",
+						"If the landshark takes 30 damage or more on a single turn from a creature inside it, the landshark must succeed on a {@dc 23} Constitution {@quickref saving throws|PHB|2|1|saving throw} at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the landshark. If the landshark dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
 					]
 				},
 				{
 					"name": "Deadly Leap",
 					"entries": [
-						"如果陆地鲨{@quickref jumping|PHB|4|0|jumps}在移动中至少移动了15英尺，它可以使用这个动作着陆，站在一个包含一个或多个其他生物的空间里。这些生物中的每一个必须成功通过一个{@dc 18}力量或敏捷{@quickref saving throws|PHB|2|1|saving throw}（目标选择）豁免检定，否则将被击倒{@condition prone}，并受到27({@damage 6d6 + 6})点钝击伤害和21({@damage 6d6})点火焰伤害。在成功豁免后，生物只受到一半伤害，不被击倒{@condition prone}，并被推出陆地鲨的空间5英尺，进入生物选择的一个未被占据的空间。如果没有未被占据的空间在范围内，生物将会在陆地鲨的空间里摔倒{@condition prone}。"
+						"If the landshark {@quickref jumping|PHB|4|0|jumps} at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a {@dc 18} Strength or Dexterity {@quickref saving throws|PHB|2|1|saving throw} (target's choice) or be knocked {@condition prone} and take 27 ({@damage 6d6 + 6}) bludgeoning damage plus 21 ({@damage 6d6}) fire damage. On a successful save, the creature takes only half the damage, isn't knocked {@condition prone}, and is pushed 5 feet out of the landshark's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls {@condition prone} in the landshark's space."
 					]
 				},
 				{
 					"name": "Lava Pool {@recharge}",
 					"entries": [
-						"如果陆地鲨鱼在坚实地面上，它会融化周围的区域，形成一个半径为10英尺的熔岩池。任何在该区域开始回合或在回合内首次进入该区域的生物会受到44({@damage 8d10})火焰伤害。"
+						"If the landshark is on solid ground, it melts the area around it, creating a pool of lava in a 10-foot radius. Any creature that starts its turn in the area or enters it for the first time on a turn takes 44 ({@damage 8d10}) fire damage."
 					]
 				}
 			],
@@ -4187,43 +4187,43 @@
 				{
 					"name": "Arcane Leak",
 					"entries": [
-						"当阿德拉纳克(Adranach)的生命值降低到一半时（145生命值），它的秘银面具会裂开，其奥术形态开始摇摆，周围产生不稳定的魔法场。任何在阿德拉纳克20英尺范围内开始回合或首次进入该区域的生物会受到21({@damage 6d6})辐射伤害。此外，如果生物在该区域内施放法术，必须进行{@dc 18}属性检定，使用其施法能力。失败则法术反噬，消耗法术位并对施法者造成每消耗一个法术位的7({@damage 2d6})力量伤害。"
+						"When the adranach is reduced to half its hit point maximum (145 hit points), its mithral mask cracks and its arcane form begins to waver, creating a field of unstable magic around it. Any creature that starts its turn within 20 feet of the adranach or enters that area for the first time on a turn takes 21 ({@damage 6d6}) radiant damage. Additionally, if a creature casts a spell within this area, it must make a {@dc 18} ability check using its spellcasting ability. On a failure, the spell backfires, consuming the spell slot and dealing 7 ({@damage 2d6}) force damage to the caster for each level of the spell slot that was consumed."
 					]
 				},
 				{
 					"name": "Immutable Form",
 					"entries": [
-						"阿德拉纳克(Adranach)对任何试图改变其形态的法术或效果都具有免疫能力。"
+						"The adranach is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"阿德拉纳克 (Adranach) 具有 {@quickref Advantage and Disadvantage|PHB|2|0|advantage} 对抗法术和其他魔法效果。"
+						"The adranach has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"阿德拉纳克(adranach)的武器攻击是魔法的。"
+						"The adranach's weapon attacks are magical."
 					]
 				},
 				{
 					"name": "Colossal Build",
 					"entries": [
-						"阿德拉纳克(adranach)的携带能力加倍，它可以推、拉或举起的重量也是加倍的。"
+						"The adranach's carrying capacity is doubled, as is the weight it can push, drag, or lift."
 					]
 				},
 				{
 					"name": "Slipstream",
 					"entries": [
-						"阿德拉纳克(Adranach)可以随意对自己施放{@spell invisibility}。当它处于{@condition invisible}状态时，它的速度加倍。"
+						"The adranach can cast {@spell invisibility} on itself at will. While it is {@condition invisible}, its speed is doubled."
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"如果阿德拉纳克失败了一个{@quickref saving throws|PHB|2|1|saving throw}，它可以选择成功。"
+						"If the adranach fails a {@quickref saving throws|PHB|2|1|saving throw}, it can choose to succeed instead."
 					]
 				}
 			],
@@ -4231,25 +4231,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"阿德拉纳克(adranach)进行三次攻击：两次使用它的爪子，一次使用它的尾巴。"
+						"The adranach makes three attacks: two with its claws and one with its tail."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 14}攻击，一个目标，射程5英尺。造成{@h}33 ({@damage 4d12 + 7})点割伤伤害。"
+						"{@atk mw} {@hit 14} to hit, one target, reach 5 ft. {@h}33 ({@damage 4d12 + 7}) slashing damage."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 14} 命中，一个目标，射程15英尺。造成{@h}20 ({@damage 2d12 + 7}) 钝击伤害。"
+						"{@atk mw} {@hit 14} to hit, one target, reach 15 ft. {@h}20 ({@damage 2d12 + 7}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Force Bolts {@recharge 5}",
 					"entries": [
-						"adranach（Adranach）可以选择在其视线范围内的最多六个生物作为目标，距离不超过120英尺。每个目标必须通过一次{@dc 22}敏捷（Dexterity）豁免，否则将受到35点（{@damage 10d6}）力量伤害。"
+						"The adranach targets up to six creatures it can see within 120 feet of it. Each target must succeed on a {@dc 22} Dexterity {@quickref saving throws|PHB|2|1|saving throw} or take 35 ({@damage 10d6}) force damage."
 					]
 				}
 			],
@@ -4257,19 +4257,19 @@
 				{
 					"name": "Claw Attack",
 					"entries": [
-						"阿德拉纳克进行一次爪击攻击。"
+						"The adranach makes one claw attack."
 					]
 				},
 				{
 					"name": "Vanish (Costs 2 Actions)",
 					"entries": [
-						"阿德拉纳克施放{@spell invisibility}并向前移动，移动速度为其步行或飞行速度。(此移动不受其滑流特性的影响。)"
+						"The adranach casts {@spell invisibility} and moves up to its walking or flying speed. (This movement doesn't benefit from its Slipstream trait.)"
 					]
 				},
 				{
 					"name": "Starry Burst (Costs 3 Actions)",
 					"entries": [
-						"一股星体能量从阿德拉纳克的身体中迸发。在它周围60英尺范围内的每个生物必须进行一次{@dc 22}体质{@quickref saving throws|PHB|2|1|saving throw}检定。未通过豁免检定的生物会受到27点({@damage 5d10})力场伤害，并在其下一个回合结束前处于{@condition blinded}状态。通过豁免检定的生物只受到一半伤害，并且不会被{@condition blinded}。然后，阿德拉纳克会变为{@condition invisible}状态，直到下一个回合开始或进行攻击为止。"
+						"A burst of astral energy flares from the adranach's body. Each creature within 60 feet of it must make a {@dc 22} Constitution {@quickref saving throws|PHB|2|1|saving throw}. On a failed save, a creature takes 27 ({@damage 5d10}) force damage and is {@condition blinded} until the end of its next turn. On a successful save, the creature takes half as much damage and is not {@condition blinded}. The adranach then turns {@condition invisible} until the start of its next turn or until it makes an attack."
 					]
 				}
 			],
@@ -4284,13 +4284,13 @@
 						"addHeadersAs": "action"
 					},
 					"entries": [
-						"Adranachs（Adranachs）是根据其创造者个性化的构造物。使一个法术大师候选人对{@book League of Miracles|TDCSR|2|League of Miracles}具有吸引力的特质之一是对发明的兴趣，鼓励法术大师定制他们创建的任何adranach。以下是一些法术大师为他们的创造物配备的可选功能。大多数adranachs有一个额外功能，而大多数主要adranachs有三个。",
+						"Adranachs are constructs personalized to their creators. One of the traits that make a spellwright candidate attractive to the {@book League of Miracles|TDCSR|2|League of Miracles} is an interest in invention, and spellwrights are encouraged to customize any adranach they create. Below are some optional features with which spellwrights have outfitted their creations. Most adranachs have one extra feature, and most master adranachs have three.",
 						{
 							"type": "entries",
 							"name": "Advanced Tracking ({@i Recharges after a {@quickref resting|PHB|2|0|Long Rest}})",
 							"page": 224,
 							"entries": [
-								"当生物在对抗(%)时未能通过阿德拉纳克(Adranach)的力量箭失败时，阿德拉纳克可以标记该生物，持续24小时。只要它们在同一平面上，阿德拉纳克就知道生物位置的方向。如果生物在移动，阿德拉纳克也知道移动的方向。"
+								"When a creature fails its {@quickref saving throws|PHB|2|1|saving throw} against the adranach's Force Bolts, the adranach can mark that creature for the next 24 hours. The adranach knows the direction to a creature's location as long as they are on the same plane. If the creature is moving, the adranach knows the direction of this movement."
 							]
 						},
 						{
@@ -4298,7 +4298,7 @@
 							"name": "Arcane Bond",
 							"page": 224,
 							"entries": [
-								"在亚德拉纳克(Adranach)的创造者与其在1英里范围内时，可以通过心灵感应与其交流。作为一个动作，创造者可以通过亚德拉纳克的眼睛看到并听到它所听到的，直到创造者的下一个回合开始，获得亚德拉纳克具有的任何特殊感知能力的益处。在此期间，创造者对于自己的感官是{@condition deafened}和{@condition blinded}。"
+								"The adranach's creator can communicate with it telepathically while both are within 1 mile of each other. As an action, the creator can see through the adranach's eyes and hear what it hears until the start of the creator's next turn, gaining the benefits of any special senses the adranach has. During this time, the creator is {@condition deafened} and {@condition blinded} with regard to their own senses."
 							]
 						},
 						{
@@ -4306,7 +4306,7 @@
 							"name": "Astral Form ({@i Master Adranach Only; Recharges after a {@quickref resting|PHB|2|0|Long Rest}})",
 							"page": 224,
 							"entries": [
-								"大师阿德拉纳克可以对自己施放{@spell astral projection}。"
+								"The master adranach can cast {@spell astral projection} on itself."
 							]
 						},
 						{
@@ -4314,7 +4314,7 @@
 							"name": "Slipstream",
 							"page": 224,
 							"entries": [
-								"阿德拉纳克(Adranach)可以随意对自己施放{@spell invisibility}。当它处于{@condition invisible}状态时，它的速度加倍。"
+								"The adranach can cast {@spell invisibility} on itself at will. While it is {@condition invisible}, its speed is doubled."
 							]
 						},
 						{
@@ -4322,7 +4322,7 @@
 							"name": "Truesight ({@i Master Adranach Only})",
 							"page": 224,
 							"entries": [
-								"阿德拉纳克(adranach)的{@sense truesight}范围为30英尺。作为一个动作，它可以将其{@sense truesight}的范围增加到120英尺，直到下一个回合结束。"
+								"The adranach has {@sense truesight} out to a range of 30 feet. As an action, it can increase the range of its {@sense truesight} to 120 feet until the end of its next turn."
 							]
 						}
 					]
@@ -4423,55 +4423,55 @@
 				{
 					"name": "Action Surge (2/{@quickref resting|PHB|2|0|Short Rest})",
 					"entries": [
-						"Percy每轮可以额外进行一次行动。"
+						"Once on his turn, Percy can take one additional action."
 					]
 				},
 				{
 					"name": "Cabal's Ruin",
 					"entries": [
-						"{@item Cabal's Ruin (Exalted)|TDCSR|Cabal's Ruin} 在 {@quickref saving throws|PHB|2|1} 上授予Percy {@quickref Advantage and Disadvantage|PHB|2|0|advantage}，使其免疫法术或魔法效果。此外，{@item Cabal's Ruin (Exalted)|TDCSR|Cabal's Ruin} 具有10个充能。当Percy用武器攻击命中时，他可以消耗多达10个充能，使攻击每消耗一个充能额外造成 {@dice 1d6} 闪电伤害。"
+						"{@item Cabal's Ruin (Exalted)|TDCSR|Cabal's Ruin} grants Percy {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells or magical effects. Additionally, {@item Cabal's Ruin (Exalted)|TDCSR|Cabal's Ruin} has 10 charges. When Percy hits with a weapon attack, he can expend up to 10 charges to have the attack deal {@dice 1d6} extra lightning damage per charge spent."
 					]
 				},
 				{
 					"name": "Indomitable (3/{@quickref resting|PHB|2|0|Long Rest})",
 					"entries": [
-						"珀西可以重新投掷失败的{@quickref saving throws|PHB|2|1|saving throw}。"
+						"Percy can reroll a failed {@quickref saving throws|PHB|2|1|saving throw}."
 					]
 				},
 				{
 					"name": "Misfire",
 					"entries": [
-						"当Percy在使用Animus或Bad News进行攻击时，掷出2或更低的点数时，攻击未命中，他必须花费一个动作来修复武器后才能再次使用它。在Animus发生枪击故障时，他会受到7({@damage 2d6})点心灵伤害。"
+						"When Percy rolls a 2 or lower on the {@dice d20} when making an attack with Animus or Bad News, the attack misses and he can't use the weapon again until he spends an action to repair it. On a misfire with Animus, he takes 7 ({@damage 2d6}) psychic damage."
 					]
 				},
 				{
 					"name": "No Mercy",
 					"entries": [
-						"Percy的武器攻击在掷骰得到19-20时造成暴击。(Percy)"
+						"Percy's weapon attacks score a critical hit on a roll of 19-20."
 					]
 				},
 				{
 					"name": "Ranged Master",
 					"entries": [
-						"Percy的远程武器攻击命中奖励为+2（包含在攻击中），忽略{@quickref cover|PHB|3|0|half cover}和{@quickref cover|PHB|3|0|three-quarters cover}，并且没有射程惩罚。此外，Percy可以对任何远程攻击骰投掷承受-5的惩罚，以获得对伤害骰投掷+10的奖励。"
+						"Percy's ranged weapon attacks have a +2 bonus to hit (included in attacks), ignore {@quickref cover|PHB|3|0|half cover} and {@quickref cover|PHB|3|0|three-quarters cover}, and have no range penalty. Additionally, Percy can take a \u22125 penalty to any ranged attack roll to gain a +10 bonus to the damage roll."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"珀西穿着一件{@item ring of lightning resistance}和一条{@item Cabal's Ruin (Exalted)|TDCSR|Cabal's Ruin}。他挥舞着动物之灵和坏消息，它们都是+1的武器。"
+						"Percy wears a {@item ring of lightning resistance} and {@item Cabal's Ruin (Exalted)|TDCSR|Cabal's Ruin}. He wields Animus and Bad News, which are both +1 weapons."
 					]
 				},
 				{
 					"name": "Quick Draw",
 					"entries": [
-						"Percy在先攻检定中加上他的熟练加值，使他在先攻检定中获得+12的加值。"
+						"Percy adds his proficiency bonus to initiative rolls, giving him a +12 to initiative rolls."
 					]
 				},
 				{
 					"name": "Toughness",
 					"entries": [
-						"Percy额外获得40点命中点数。"
+						"Percy has an additional 40 hit points."
 					]
 				}
 			],
@@ -4479,7 +4479,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"珀西使用Animus进行四次远程攻击，或者使用Bad News进行两次远程攻击。当珀西用任一武器命中攻击时，他可以选择以下附加效果之一：",
+						"Percy makes four ranged attacks with Animus, or two ranged attacks with Bad News. When Percy hits with an attack with either weapon, he can choose one of the following additional effects:",
 						{
 							"type": "list",
 							"items": [
@@ -4487,14 +4487,14 @@
 									"type": "item",
 									"name": "Deadeye",
 									"entries": [
-										"Percy在本回合对同一目标进行的下一次攻击投掷中获得{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。"
+										"Percy gains {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on his next attack roll this turn made against the same target."
 									]
 								},
 								{
 									"type": "item",
 									"name": "Disarm",
 									"entries": [
-										"目标必须进行一次 {@dc 20} 力量检定。如果失败，目标需放弃 Percy 选择的一个手持物品。"
+										"The target must make a {@dc 20} Strength {@quickref saving throws|PHB|2|1|saving throw}. On a failure, the target drops one item it is holding of Percy's choice."
 									]
 								}
 							]
@@ -4504,13 +4504,13 @@
 				{
 					"name": "Animus",
 					"entries": [
-						"{@atk rw} 使用 {@hit 15} 进行攻击，射程320英尺，目标为一个。造成{@h}11 ({@damage 1d10 + 6}) 点穿刺伤害和3 ({@damage 1d6}) 点心灵伤害。"
+						"{@atk rw} {@hit 15} to hit, range 320 ft., one target. {@h}11 ({@damage 1d10 + 6}) piercing damage and 3 ({@damage 1d6}) psychic damage."
 					]
 				},
 				{
 					"name": "Bad News",
 					"entries": [
-						"{@atk rw} 进行攻击，射程800英尺，目标为一名敌人。造成{@h}19 ({@damage 2d12 + 6}) 穿刺伤害。"
+						"{@atk rw} {@hit 15} to hit, range 800 ft., one target. {@h}19 ({@damage 2d12 + 6}) piercing damage."
 					]
 				}
 			],
@@ -4518,7 +4518,7 @@
 				{
 					"name": "Absorb Magic (Recharges after a {@quickref resting|PHB|2|0|Short or Long Rest})",
 					"entries": [
-						"当Percy被敌人的法术瞄准时，他可以将法术能量的一部分吸收到{@item Cabal's Ruin (Exalted)|TDCSR|Cabal's Ruin}中。法术会对他产生正常影响，但披风会获得与法术等级相等的充能。在这样做时，他还会获得对法术造成的一种伤害类型的抗性，持续到他的下一个回合结束。"
+						"When Percy is targeted by an enemy's spell, he can absorb a portion of the spell's energy into {@item Cabal's Ruin (Exalted)|TDCSR|Cabal's Ruin}. The spell affects him normally, but the cloak gains a number of charges equal to the level of the spell. When he does so, he also gains resistance to one type of damage dealt by the spell until the end of his next turn."
 					]
 				}
 			],
@@ -4626,7 +4626,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"派克是一名20级的法术施法者。她的法术属性是智力（法术豁免 DC {@dc 19}，施法命中加值为 {@hit 11}）。她已经准备了以下牧师法术："
+						"Pike is a 20th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 19}, {@hit 11} to hit with spell attacks). She has the following cleric spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -4718,19 +4718,19 @@
 				{
 					"name": "Gnome Cunning",
 					"entries": [
-						"派克在智力、感知和魅力上有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}，对魔法有{@quickref saving throws|PHB|2|1}的抗性。"
+						"Pike has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Intelligence, Wisdom, and Charisma {@quickref saving throws|PHB|2|1} against magic."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"派克挥舞着一把{@item mace of disruption}，穿着{@item gauntlets of ogre power}，{@item boots of speed}和{@item plate of the dawnmartyr (exalted)|TDCSR|Plate of the Dawnmartyr}。"
+						"Pike wields a {@item mace of disruption} and wears {@item gauntlets of ogre power}, {@item boots of speed}, and the {@item plate of the dawnmartyr (exalted)|TDCSR|Plate of the Dawnmartyr}."
 					]
 				},
 				{
 					"name": "Dawnmartyr's Grace (1/{@quickref resting|PHB|2|0|Long Rest})",
 					"entries": [
-						"当派克佩戴着{@item plate of the dawnmartyr (exalted)|TDCSR|Plate of the Dawnmartyr}并且生命值降至0时，她可以选择让治疗之焰爆发在她周围。她恢复1点生命值并重新站起来。在她周围10英尺范围内的每个敌人会受到7({@damage 2d6})火焰伤害或光辉伤害（由她选择）。"
+						"When Pike is reduced to 0 hit points while wearing the {@item plate of the dawnmartyr (exalted)|TDCSR|Plate of the Dawnmartyr}, she can choose to have a blast of healing flame surround her. She regains 1 hit point and is lifted to her feet. Each enemy within 10 feet of her takes 7 ({@damage 2d6}) fire damage or radiant damage (her choice)."
 					]
 				}
 			],
@@ -4738,13 +4738,13 @@
 				{
 					"name": "Mace of Disruption",
 					"entries": [
-						"{@atk mw} {@hit 10} 进行攻击，射程5英尺，一个目标。造成{@h}17 ({@damage 3d8 + 4}) 钝击伤害，如果目标是恶魔或不死生物，则额外造成7 ({@damage 2d6}) 光辉伤害。如果目标在受到这些伤害后的生命值为25或更少，则必须成功通过一次 {@dc 15} 感知 {@quickref saving throws|PHB|2|1|saving throw} 豁免，否则将被摧毁。在成功豁免后，生物将成为Pike的 {@condition frightened} 目标，直到她的下一个回合结束。"
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 4}) bludgeoning damage, plus an extra 7 ({@damage 2d6}) radiant damage if the target is a fiend or an undead. If the target has 25 hit points or fewer after taking this damage, it must succeed on a {@dc 15} Wisdom {@quickref saving throws|PHB|2|1|saving throw} or be destroyed. On a successful save, the creature becomes {@condition frightened} of Pike until the end of her next turn."
 					]
 				},
 				{
 					"name": "Guiding Bolt (5th Level)",
 					"entries": [
-						"{@atk rs} {@hit 11}攻击，射程120英尺，目标一个。造成{@h}28 ({@damage 8d6})辐射伤害，并在派克下个回合结束前对该目标的下一次攻击投掷有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。"
+						"{@atk rs} {@hit 11} to hit, range 120 ft., one target. {@h}28 ({@damage 8d6}) radiant damage, and the next attack roll made against the target before the end of Pike's next turn has {@quickref Advantage and Disadvantage|PHB|2|0|advantage}."
 					]
 				}
 			],
@@ -4752,13 +4752,13 @@
 				{
 					"name": "Battle Priest (5/{@quickref resting|PHB|2|0|Long Rest})",
 					"entries": [
-						"如果派克使用{@action Attack}动作，她可以作为奖励动作进行一次武器攻击。"
+						"If Pike uses the {@action Attack} action, she can make one weapon attack as a bonus action."
 					]
 				},
 				{
 					"name": "{@spell Healing Word} (4th Level)",
 					"entries": [
-						"派克施放{@spell healing word}，为自己或她能看到的距离60英尺内的另一生物恢复16({@dice 4d4 + 6})点生命值。"
+						"Pike casts {@spell healing word}, restoring 16 ({@dice 4d4 + 6}) hit points to herself or another creature she can see within 60 feet of her."
 					]
 				}
 			],
@@ -4766,13 +4766,13 @@
 				{
 					"name": "Dawnmartyr's Rebuke",
 					"entries": [
-						"当一个生物在5英尺范围内击中派克时，她可以选择对其造成7({@damage 2d6})火焰或光辉伤害。"
+						"When a creature within 5 feet of Pike hits her with a melee attack, she can deal 7 ({@damage 2d6}) fire or radiant damage to it (her choice)."
 					]
 				},
 				{
 					"name": "Everlight's Guidance (3/{@quickref resting|PHB|2|0|Short Rest})",
 					"entries": [
-						"当派克或她能看到的生物在她的30英尺内进行攻击检定时，她可以为该检定提供+10的加值。她可以在检定完成后但命中或未命中之前提供这个加值。"
+						"When Pike or a creature she can see within 30 feet of her makes an attack roll, she can grant a +10 bonus to the roll. She can grant this bonus after the roll is made but before it hits or misses."
 					]
 				}
 			],
@@ -4875,7 +4875,7 @@
 				{
 					"name": "Trampling Charge",
 					"entries": [
-						"如果平原牛向一个生物直线移动至少20英尺，然后在同一回合用蹄子攻击它，那个目标必须在一次{@dc 14}力量{@quickref saving throws|PHB|2|1|saving throw}检定中成功，否则被击倒{@condition prone}。如果目标是{@condition prone}，平原牛可以作为奖励动作再次用蹄子发动攻击。"
+						"If the plainscow moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a {@dc 14} Strength {@quickref saving throws|PHB|2|1|saving throw} or be knocked {@condition prone}. If the target is {@condition prone}, the plainscow can make another attack with its hooves as a bonus action."
 					]
 				}
 			],
@@ -4883,7 +4883,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}11 ({@damage 2d6 + 4})点钝击伤害。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
 					]
 				}
 			],
@@ -4972,25 +4972,25 @@
 				{
 					"name": "Divine Custodian",
 					"entries": [
-						"当傀儡用 {@action opportunity attack} 攻击生物时，该生物的速度在本回合剩余时间内变为0。"
+						"When the golem hits a creature with an {@action opportunity attack}, that creature's speed becomes 0 for the rest of the turn."
 					]
 				},
 				{
 					"name": "Immutable Form",
 					"entries": [
-						"傀儡对任何会改变其形态的法术或效果都免疫。"
+						"The golem is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"这个傀儡对法术和其他魔法效果有{@quickref Advantage and Disadvantage|PHB|2|0|advantage} {@quickref saving throws|PHB|2|1}。"
+						"The golem has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"傀儡的武器攻击是魔法的。"
+						"The golem's weapon attacks are magical."
 					]
 				}
 			],
@@ -4998,25 +4998,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"巨像进行两次近战攻击。"
+						"The golem makes two melee attacks."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} 使用 {@hit 11} 进行攻击，达到5英尺，一个目标。造成{@h}19({@damage 3d8 + 6})点穿刺伤害。"
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) piercing damage."
 					]
 				},
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} {@hit 11}攻击，射程10英尺，目标一个。造成{@h}22 ({@damage 3d10 + 6}) 钝击伤害。"
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Radiant Blast {@recharge}",
 					"entries": [
-						"巨像在一个半径为20英尺的范围内发出一阵耀眼的光芒。该区域内的每个生物必须进行一次 {@dc 18} 体质 {@quickref saving throws|PHB|2|1|saving throw} 检定。未通过豁免检定的生物会受到18 ({@damage 4d8}) 点辐射伤害，并在其下一个回合结束前处于 {@condition blinded} 状态。通过豁免检定的生物只会受到一半伤害，并且不会被 {@condition blinded}。"
+						"The golem emits a burst of radiant light in a 20-foot radius. Each creature in the area must make a {@dc 18} Constitution {@quickref saving throws|PHB|2|1|saving throw}. On a failed save, a creature takes 18 ({@damage 4d8}) radiant damage and is {@condition blinded} until the end of its next turn. On a success, the creature takes half as much damage and is not {@condition blinded}."
 					]
 				}
 			],
@@ -5024,7 +5024,7 @@
 				{
 					"name": "Divine Judgment",
 					"entries": [
-						"当一个生物在离傀儡10英尺范围内对除傀儡以外的目标进行攻击时，傀儡可以对该生物进行一次狼牙棒攻击。"
+						"When a creature within 10 feet of the golem makes an attack against a target other than the golem, the golem can make a mace attack against that creature."
 					]
 				}
 			],
@@ -5128,7 +5128,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"屠杀领主的天生施法能力是智力（法术豁免 {@dc 15}，法术攻击命中加值 {@hit 7}）。它可以天生施放以下法术，无需任何材料组件："
+						"The Slaughter Lord's innate spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell thaumaturgy}"
@@ -5151,13 +5151,13 @@
 				{
 					"name": "Legendary Resistance (2/Day)",
 					"entries": [
-						"如果屠杀领主失败了一个{@quickref saving throws|PHB|2|1|saving throw}，它可以选择成功。"
+						"If the Slaughter Lord fails a {@quickref saving throws|PHB|2|1|saving throw}, it can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Unarmored Defense",
 					"entries": [
-						"当屠杀领主没有穿戴盔甲并且没有持有一个{@item shield|PHB}时，其防御等级包括其体质调整值。"
+						"While the Slaughter Lord is wearing no armor and not wielding a {@item shield|PHB}, its AC includes its Constitution modifier."
 					]
 				}
 			],
@@ -5165,19 +5165,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"屠戮领主使用双手大剑进行四次攻击，或者使用长矛进行三次攻击。"
+						"The Slaughter Lord makes four attacks with its dual greatswords or three attacks with its spear."
 					]
 				},
 				{
 					"name": "Dual Greatswords",
 					"entries": [
-						"{@atk mw} {@hit 10}攻击，射程5英尺，一个目标。造成{@h}13 ({@damage 2d6 + 6})穿刺伤害加上3 ({@damage 1d6})火焰伤害。"
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage plus 3 ({@damage 1d6}) fire damage."
 					]
 				},
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 10}攻击，射程20/60英尺，目标一个。造成{@h}13 ({@damage 2d6 + 6})穿刺伤害加上3 ({@damage 1d6})火焰伤害，或者造成15 ({@damage 2d8 + 6})穿刺伤害加上3 ({@damage 1d6})火焰伤害，如果双手用于近战攻击。"
+						"{@atk mw,rw} {@hit 10} to hit, range 20/60 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage plus 3 ({@damage 1d6}) fire damage, or 15 ({@damage 2d8 + 6}) piercing damage plus 3 ({@damage 1d6}) fire damage if used with both hands to make a melee attack."
 					]
 				}
 			],
@@ -5185,7 +5185,7 @@
 				{
 					"name": "Aggressive",
 					"entries": [
-						"屠戮领主可以向它能看见的敌对生物移动，最多移动其速度。"
+						"The Slaughter Lord can move up to its speed toward a hostile creature it can see."
 					]
 				}
 			],
@@ -5193,19 +5193,19 @@
 				{
 					"name": "Attack",
 					"entries": [
-						"屠戮领主进行一次长矛或双大剑的攻击。"
+						"The Slaughter Lord makes a spear or dual greatswords attack."
 					]
 				},
 				{
 					"name": "Move",
 					"entries": [
-						"屠戮领主移动其速度的一半。"
+						"The Slaughter Lord moves up to half its speed."
 					]
 				},
 				{
 					"name": "Cast a Spell (Costs 3 Actions)",
 					"entries": [
-						"屠杀领主 {@action cast a spell|PHB|casts an innate spell}。"
+						"The Slaughter Lord {@action cast a spell|PHB|casts an innate spell}."
 					]
 				}
 			],
@@ -5321,7 +5321,7 @@
 				{
 					"name": "Stabby Frenzy",
 					"entries": [
-						"当刺刀手使用近战攻击命中时，它可以再次发动攻击，并持续进行额外的攻击，直到攻击未命中为止。刺刀手在使用这个特性发动的攻击之间不能移动。"
+						"When the stabby-stabber hits with a melee attack, it can attack again and continue making additional attacks until it misses. The stabby-stabber cannot move between the attacks made with this trait."
 					]
 				}
 			],
@@ -5329,13 +5329,13 @@
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，射程5英尺，目标一个。{@h}6 ({@damage 1d6 + 3}) 穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} 命中，达到5英尺，射程20/60英尺，一个目标。造成{@h}5 ({@damage 1d4 + 3}) 穿刺伤害。"
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft., range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
 					]
 				}
 			],
@@ -5343,7 +5343,7 @@
 				{
 					"name": "Nimble Escape",
 					"entries": [
-						"刺刺者可以使用{@action Disengage}或{@action Hide}动作。"
+						"The stabby-stabber can use the {@action Disengage} or {@action Hide} action."
 					]
 				}
 			],
@@ -5438,7 +5438,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"被选择者是一名18级的施法者。它的施法能力是魅力（法术豁免 {@dc 17}，用法术攻击命中 {@hit 9}）。它已准备了以下巫师法术："
+						"The chosen is an 18th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It has the following sorcerer spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -5518,13 +5518,13 @@
 				{
 					"name": "Magic Resistance",
 					"entries": [
-						"被选者对咒语和其他魔法效果具有{@quickref Advantage and Disadvantage|PHB|2|0|advantage} {@quickref saving throws|PHB|2|1}。"
+						"The chosen has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against spells and other magical effects."
 					]
 				},
 				{
 					"name": "Withering Spells",
 					"entries": [
-						"当被选择者施放1级或更高级别的法术时，在其接下来的回合结束前，其下一次枯萎之手攻击造成额外伤害，等于施放的法术每级的{@dice 1d6}。"
+						"When the chosen casts a spell of 1st level or higher, the next Withered Hand attack it makes before the end of its next turn deals extra damage equal to {@dice 1d6} per level of the spell cast."
 					]
 				}
 			],
@@ -5532,7 +5532,7 @@
 				{
 					"name": "Withering Touch",
 					"entries": [
-						"{@atk ms} {@hit 9} 进行攻击，达到5英尺，一个目标。造成{@h}17 ({@damage 5d6}) 点力场伤害，加上凋零之触特性的额外伤害。如果这个伤害将一只生物的生命值降低到0，那么这只生物及其所穿戴和携带的一切，除了魔法物品，都会化为一堆细灰色的尘土。这只生物只能通过{@spell true resurrection} 或 {@spell wish} 法术才能复活。"
+						"{@atk ms} {@hit 9} to hit, reach 5 ft., one target. {@h}17 ({@damage 5d6}) force damage plus extra damage from the Withering Touch trait. If this damage reduces a creature to 0 hit points, the creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell."
 					]
 				}
 			],
@@ -5540,7 +5540,7 @@
 				{
 					"name": "Inescapable Sight",
 					"entries": [
-						"被选者选择受到{@filter an illusion spell of 4th level or lower|spells|school=I|level=0;1;2;3;4}效果的生物或物体。被选者选择的一个幻象影响目标被驱散。"
+						"The Chosen selects a creature or object under the effect of {@filter an illusion spell of 4th level or lower|spells|school=I|level=0;1;2;3;4}. One illusion of the Chosen's choice affecting the target is dispelled."
 					]
 				}
 			],
@@ -5636,7 +5636,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"残余异教徒是一名11级咒术师。它的咒术能力是智力（法术豁免 {@dc 15}，法术攻击命中加值 {@hit 7}）。这名异教徒已准备了以下巫师法术："
+						"The remnant cultist is an 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The cultist has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -5700,19 +5700,19 @@
 				{
 					"name": "Unknowable Secrets",
 					"entries": [
-						"任何试图与异教徒建立心灵联系、对异教徒施放{@spell scrying}或对异教徒施放{@spell speak with dead}的尝试都会自动失败，而发起尝试的生物会受到21({@damage 6d6})点心灵伤害。"
+						"Any attempt to form a mental link with the cultist, cast {@spell scrying} on the cultist, or cast {@spell speak with dead} on the cultist automatically fails, and the creature that initiated the attempt takes 21 ({@damage 6d6}) psychic damage."
 					]
 				},
 				{
 					"name": "One-Eyed",
 					"entries": [
-						"邪教徒对距离超过30英尺的目标进行的任何攻击骰投掷都会受到{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}的惩罚。"
+						"The cultist has {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on any attack roll made against a target more than 30 feet away."
 					]
 				},
 				{
 					"name": "Spellsteal",
 					"entries": [
-						"如果邪教徒成功地使用{@spell counterspell}来抵消另一个生物的法术，它可以在接下来的回合结束前使用同一等级或更高级别的一个法术位施放被抵消的法术一次，且无需任何材料组件。"
+						"If the cultist successfully uses {@spell counterspell} to negate another creature's spell, it can cast the countered spell once before the end of its next turn using one of its spell slots of the same level or higher, and requiring no material components."
 					]
 				}
 			],
@@ -5720,8 +5720,8 @@
 				{
 					"name": "Dagger of Wounding",
 					"entries": [
-						"{@atk mw,rw} {@hit 6}攻击，射程5英尺，射程20/60英尺，目标一个。{@h}5 ({@damage 1d4 + 3}) 穿刺伤害。因{@item sword of wounding|DMG|this weapon's}伤害而失去的生命值只能通过{@quickref resting|PHB|2|0|short or long rest}来恢复，而不能通过再生、魔法或其他任何方式。",
-						"每回合一次，当邪教徒用这把武器攻击一个生物时，它可以使目标受伤。在受伤生物的每个回合开始时，它因被这把武器伤害过而受到2次({@damage 1d4})死灵伤害。然后它可以进行一次{@dc 15}体质{@quickref saving throws|PHB|2|1|saving throw}检定，若成功则结束自身所有此类受伤的效果。或者，受伤生物或距离它5英尺内的一个生物可以使用一个动作进行一次{@dc 15}感知({@skill Medicine})检定，若成功则结束其身上此类受伤的效果。"
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft., range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage. Hit points lost to {@item sword of wounding|DMG|this weapon's} damage can be regained only through a {@quickref resting|PHB|2|0|short or long rest}, rather than by regeneration, magic, or any other means.",
+						"Once per turn when the cultist hits a creature with an attack using this weapon, it can wound its target. At the start of each of the wounded creature's turns, it takes 2 ({@damage 1d4}) necrotic damage for each time it's been wounded by this weapon. It can then make a {@dc 15} Constitution {@quickref saving throws|PHB|2|1|saving throw}, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a {@dc 15} Wisdom ({@skill Medicine}) check, ending the effect of such wounds on it on a success."
 					]
 				}
 			],
@@ -5821,7 +5821,7 @@
 				{
 					"name": "Unarmored Defense",
 					"entries": [
-						"当斗士没有穿戴任何盔甲并且没有持有任何{@item shield|PHB}时，其AC包括其感知调整值。"
+						"While the brawler is wearing no armor and wielding no {@item shield|PHB}, its AC includes its Wisdom modifier."
 					]
 				}
 			],
@@ -5829,13 +5829,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"这位格斗家进行三次徒手攻击。"
+						"The brawler makes three unarmed strikes."
 					]
 				},
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，射程5英尺，一个目标。造成{@h}7 ({@damage 1d8 + 3}) 钝击伤害。如果目标是一只大型或更小的生物，搏击者可以选择以下额外效果之一：",
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. If the target is a Large or smaller creature, the brawler can choose one of the following additional effects:",
 						{
 							"type": "list",
 							"items": [
@@ -5843,21 +5843,21 @@
 									"name": "Bruise",
 									"type": "item",
 									"entries": [
-										"目标必须成功通过一个 {@dc 13} 体质 {@quickref saving throws|PHB|2|1|saving throw} 检定。如果失败，其速度将减少 5 英尺，直到它接受至少 1 点魔法治疗。生物可以使用其动作对受影响的生物进行一个 {@dc 15} 智力 ({@skill Medicine}) 检定，治愈其周围 5 英尺范围内的受影响生物（包括自己），成功时恢复任何丢失的速度。"
+										"The target must succeed on a {@dc 13} Constitution {@quickref saving throws|PHB|2|1|saving throw}. On a failure, its speed is reduced by 5 feet until it receives at least 1 point of magical healing. A creature can use its action to make a {@dc 15} Wisdom ({@skill Medicine}) check to heal an affected creature within 5 feet of it (including itself), restoring any lost speed on a success."
 									]
 								},
 								{
 									"name": "Disarm",
 									"type": "item",
 									"entries": [
-										"目标必须成功进行一次 {@dc 13} 力量检定 {@quickref saving throws|PHB|2|1|saving throw}，否则就会掉落它手中的一个物品。搏击者可以选择要丢弃的物品，并可以拾起它。"
+										"The target must succeed on a {@dc 13} Strength {@quickref saving throws|PHB|2|1|saving throw} or drop one item it is holding. The brawler can choose which item is dropped, and can pick it up."
 									]
 								},
 								{
 									"name": "Suplex",
 									"type": "item",
 									"entries": [
-										"目标必须成功通过一次 {@dc 13} 力量检定 {@quickref saving throws|PHB|2|1|saving throw}，否则会被击倒 {@condition prone}。"
+										"The target must succeed on a {@dc 13} Strength {@quickref saving throws|PHB|2|1|saving throw} or be knocked {@condition prone}."
 									]
 								}
 							]
@@ -5869,13 +5869,13 @@
 				{
 					"name": "Clever Fighter",
 					"entries": [
-						"当斗士进行攻击或被攻击时，它可以在本回合结束前将其智力调整值（+2）添加到伤害骰或防御等级上。"
+						"When the brawler hits with an attack or is targeted by an attack, it can add its Intelligence modifier (+2) to its damage rolls or AC until the end of its turn."
 					]
 				},
 				{
 					"name": "Endurance (Recharges after a {@quickref resting|PHB|2|0|Short or Long Rest})",
 					"entries": [
-						"当斗士受到伤害时，可以将伤害减少8 ({@dice 1d12 + 2})。"
+						"When the brawler takes damage, it can reduce the damage by 8 ({@dice 1d12 + 2})."
 					]
 				}
 			],
@@ -5962,7 +5962,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"风暴之子的天生施法能力是魅力（法术豁免{@dc 12}）。风暴之子可以天生施放以下法术，无需任何材料组件："
+						"The stormborn's innate spellcasting ability is Charisma (spell save {@dc 12}). The stormborn can innately cast the following spells, requiring no material components:"
 					],
 					"daily": {
 						"1": [
@@ -5979,7 +5979,7 @@
 				{
 					"name": "Reckless",
 					"entries": [
-						"在其回合开始时，风暴之子可以在该回合内的所有近战武器攻击投掷中获得{@quickref Advantage and Disadvantage|PHB|2|0|advantage}，但对它的攻击投掷在其下一个回合开始前有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。"
+						"At the start of its turn, the stormborn can gain {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on all melee weapon attack rolls during that turn, but attack rolls against it have {@quickref Advantage and Disadvantage|PHB|2|0|advantage} until the start of its next turn."
 					]
 				}
 			],
@@ -5987,13 +5987,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"风暴之子进行两次巨斧攻击。如果它正在集中精力于{@spell call lightning}，它还可以召唤一道闪电。"
+						"The stormborn makes two greataxe attacks. If it is concentrating on {@spell call lightning}, it can also call down a lightning bolt."
 					]
 				},
 				{
 					"name": "Greataxe",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成10({@damage 1d12 + 4})点劈砍伤害加上3({@damage 1d6})点闪电伤害。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) slashing damage plus 3 ({@damage 1d6}) lightning damage."
 					]
 				}
 			],
@@ -6001,7 +6001,7 @@
 				{
 					"name": "Endurance (Recharges after a {@quickref resting|PHB|2|0|Short or Long rest})",
 					"entries": [
-						"当风暴之子受到伤害时，它可以减少伤害量10 ({@dice 1d12 + 4})。"
+						"When the stormborn takes damage, it can reduce the damage by 10 ({@dice 1d12 + 4})."
 					]
 				}
 			],
@@ -6062,7 +6062,7 @@
 						"items": {
 							"name": "Innate Spellcasting",
 							"headerEntries": [
-								"Sagacitous Erusaire的施法能力是智慧（法术豁免{@dc 16} {@hit 8} 命中法术攻击）。他可以天生施放以下法术，无需材料组件："
+								"Sagacitous Erusaire's spellcasting ability is Wisdom (spell save {@dc 16} {@hit 8} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
 							],
 							"will": [
 								"{@spell contagion}"
@@ -6152,7 +6152,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"斯坎兰是一名20级法术施法者。他的法术能力是魅力（法术豁免 {@dc 19}，使用法术攻击时命中加值 {@hit 11}）。他准备了以下吟游诗人法术："
+						"Scanlan is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). He has the following bard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -6237,25 +6237,25 @@
 				{
 					"name": "Gnome Cunning",
 					"entries": [
-						"斯坎兰在智力、感知和魅力上有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}，对抗魔法有{@quickref saving throws|PHB|2|1}。"
+						"Scanlan has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Intelligence, Wisdom, and Charisma {@quickref saving throws|PHB|2|1} against magic."
 					]
 				},
 				{
 					"name": "Focused",
 					"entries": [
-						"Scanlan在体质{@quickref saving throws|PHB|2|1}上有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}，以维持对法术的控制。"
+						"Scanlan has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Constitution {@quickref saving throws|PHB|2|1} made to maintain {@condition concentration} on spells."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"斯坎兰挥舞着{@item Mythcarver (Exalted)|TDCSR|Mythcarver}，穿着{@item +2 Studded Leather Armor of Acid Resistance|TDCSR}和一个{@item +2 ring of protection|TDCSR|ring of protection with a +2 bonus}，携带着一个{@item hat of disguise}和一个{@item wand of magic missiles}。"
+						"Scanlan wields {@item Mythcarver (Exalted)|TDCSR|Mythcarver}, wears {@item +2 Studded Leather Armor of Acid Resistance|TDCSR} and a {@item +2 ring of protection|TDCSR|ring of protection with a +2 bonus}, and carries a {@item hat of disguise} and a {@item wand of magic missiles}."
 					]
 				},
 				{
 					"name": "Toughness",
 					"entries": [
-						"斯坎兰 (Scanlan) 额外获得了 40 点生命值。"
+						"Scanlan has an additional 40 hit points."
 					]
 				}
 			],
@@ -6263,7 +6263,7 @@
 				{
 					"name": "Mythcarver",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 1d8 + 3})点穿刺伤害和3 ({@damage 1d6})点力场伤害。"
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage and 3 ({@damage 1d6}) force damage."
 					]
 				}
 			],
@@ -6271,19 +6271,19 @@
 				{
 					"name": "Arcane Fist (8th Level)",
 					"entries": [
-						"{@atk ms} {@hit 11}攻击，达到5英尺，一个目标。造成{@h}45 ({@damage 10d8})点力量伤害。Scanlan只能在专注于{@spell Bigby's Hand||arcane hand}法术时使用这个奖励动作。"
+						"{@atk ms} {@hit 11} to hit, reach 5 ft., one target. {@h}45 ({@damage 10d8}) force damage. Scanlan can use this bonus action only while concentrating on the {@spell Bigby's Hand||arcane hand} spell."
 					]
 				},
 				{
 					"name": "Bardic Inspiration (6/{@quickref resting|PHB|2|0|Short Rest})",
 					"entries": [
-						"斯坎兰（Scanlan）向距离他60英尺内并能听到他声音的一名生物授予一枚吟游诗人灵感骰。在接下来的10分钟内，该生物可以投掷一个{@dice d12}，并将投掷的数字加到一次技能检定、攻击骰或{@quickref saving throws|PHB|2|1|saving throw}上。当斯坎兰使用这个能力时，他在接下来的回合内对{@item Mythcarver (Exalted)|TDCSR|Mythcarver}的攻击骰获得{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。"
+						"Scanlan grants a Bardic Inspiration die to one creature other than himself within 60 feet of him who can hear him. Once within the next 10 minutes, the creature can roll a {@dice d12} and add the number rolled to one ability check, attack roll, or {@quickref saving throws|PHB|2|1|saving throw} it makes.  When Scanlan uses this ability, he gains {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on attack rolls with {@item Mythcarver (Exalted)|TDCSR|Mythcarver} until the end of his turn."
 					]
 				},
 				{
 					"name": "{@spell Healing Word} (5th Level)",
 					"entries": [
-						"斯坎兰施展 {@spell healing word}，为他自己或他所看到的距离60英尺内的另一生物恢复18点生命值 ({@dice 5d4 + 6})。"
+						"Scanlan casts {@spell healing word}, restoring 18 ({@dice 5d4 + 6}) hit points to himself or another creature he can see within 60 feet of him."
 					]
 				}
 			],
@@ -6291,7 +6291,7 @@
 				{
 					"name": "Cutting Words",
 					"entries": [
-						"当斯坎兰(Scanlan)能看见的生物在他的60英尺内进行攻击检定、能力检定或伤害骰时，他可以消耗一次诗人灵感(Bardic Inspiration)来投掷一个{@dice d12}，并从该生物的骰点中减去所投掷的数字。该生物在接下来的{@quickref saving throws|PHB|2|1|saving throw}内也会受到{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}的影响。"
+						"When a creature Scanlan can see within 60 feet of him makes an attack roll, an ability check, or a damage roll, he can expend a use of Bardic Inspiration to roll a {@dice d12} and subtract the number rolled from the creature's roll. The creature also has {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on its next {@quickref saving throws|PHB|2|1|saving throw}."
 					]
 				}
 			],
@@ -6412,7 +6412,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"泰瑞是一名15级法术施展者。他的法术施展能力是智力（法术豁免 {@dc 16}，施法命中加值为 {@hit 8}）。他已准备了以下法术："
+						"Tary is a 15th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). He has the following spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -6466,31 +6466,31 @@
 				{
 					"name": "Alchemical Defense",
 					"entries": [
-						"Tary的实验混合物使他对酸性和毒素伤害具有抗性，并且免疫于{@condition poisoned}状态。"
+						"Tary's experimental concoctions have granted him resistance to acid and poison damage, and immunity to the {@condition poisoned} condition."
 					]
 				},
 				{
 					"name": "Doty",
 					"entries": [
-						"{@creature Doty X|TDCSR|Doty}在Tary的回合中移动和行动，Tary可以使用一个奖励动作命令他使用{@action Dash}，{@action Dodge}，{@action Disengage}或{@action Attack}动作。他还可以命令他在多任务动作中{@action Attack}（见下文）。Doty每个Tary的回合只能执行一个动作。"
+						"{@creature Doty X|TDCSR|Doty} moves and acts on Tary's turn, and Tary can use a bonus action to command him to use the {@action Dash}, {@action Dodge}, {@action Disengage}, or {@action Attack} action. He can also command him to {@action Attack} as part of his Multitask action (see below). Doty can take only one action on each of Tary's turns."
 					]
 				},
 				{
 					"name": "Focused",
 					"entries": [
-						"Tary 在体质（Constitution）属性上投了 {@quickref Advantage and Disadvantage|PHB|2|0|advantage} 点，以保持对法术的掌控。"
+						"Tary has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Constitution {@quickref saving throws|PHB|2|1} made to maintain {@condition concentration} on spells."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"泰瑞穿着一件{@item helm of brilliance}, 一条{@item robe of useful items}和一双{@item ring of the ram}。他携带着一把{@item rod of mercurial form|TDCSR}, 以及一把{@item bag of holding}, {@dice 1d4 + 4}{@item bead of force||beads of force}, 一瓶{@item broom of flying}和一个{@item chime of opening}。"
+						"Tary wears a {@item helm of brilliance}, a {@item robe of useful items}, and a {@item ring of the ram}. He carries a {@item rod of mercurial form|TDCSR}, as well as a {@item bag of holding}, {@dice 1d4 + 4} {@item bead of force||beads of force}, a {@item broom of flying}, and a {@item chime of opening}."
 					]
 				},
 				{
 					"name": "Toughness",
 					"entries": [
-						"泰瑞额外获得了30点生命值。"
+						"Tary has an additional 30 hit points."
 					]
 				}
 			],
@@ -6498,19 +6498,19 @@
 				{
 					"name": "Multitask",
 					"entries": [
-						"泰瑞进行两次武器攻击或施放施法时间为1个行动的法术，同时还可以命令{@creature Doty X|TDCSR|Doty}使用他的强化拳或修复行动。"
+						"Tary makes two weapon attacks or casts a spell with a casting time of 1 action, and can also command {@creature Doty X|TDCSR|Doty} to use his Empowered Fist or Repair action."
 					]
 				},
 				{
 					"name": "Mercurial Longsword",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，射程5英尺，目标一个。造成{@h}6 ({@damage 1d10 + 1}) 点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d10 + 1}) slashing damage."
 					]
 				},
 				{
 					"name": "{@item Bead of Force}",
 					"entries": [
-						"泰瑞将一个 {@item bead of force} 扔出去，最远可达 60 尺。落在珠子周围 10 尺半径范围内的每个生物必须通过一个 {@dc 15} 敏捷度 {@quickref saving throws|PHB|2|1|saving throw} 豁免，否则会受到 12 ({@damage 5d4}) 点力量伤害。然后，一个透明力场球将围绕该区域1分钟。未通过豁免检定且完全位于该区域内的生物将被困在力场球内。"
+						"Tary throws a {@item bead of force} up to 60 feet. Each creature within a 10-foot radius of where the bead landed must succeed on a {@dc 15} Dexterity {@quickref saving throws|PHB|2|1|saving throw} or take 12 ({@damage 5d4}) force damage. A sphere of transparent force then encloses the area for 1 minute. A creature that fails the save and is completely within the area is trapped inside the sphere."
 					]
 				}
 			],
@@ -6518,7 +6518,7 @@
 				{
 					"name": "Brilliant Intellect",
 					"entries": [
-						"当泰瑞或他能看到的另一个生物在30英尺内进行能力检定或{@quickref saving throws|PHB|2|1|saving throw}时，他可以使用他的反应将投掷值增加+4。"
+						"When Tary or another creature he can see within 30 feet of him makes an ability check or a {@quickref saving throws|PHB|2|1|saving throw}, he can use his reaction to add +4 to the roll."
 					]
 				}
 			],
@@ -6607,25 +6607,25 @@
 				{
 					"name": "Chosen Companion",
 					"entries": [
-						"Trinket额外获得10点生命值，并获得+6的攻击和伤害加值，以及智慧检定({@skill Perception})的加值。"
+						"Trinket has an additional 10 hit points, and has a +6 bonus to attack and damage rolls and to Wisdom ({@skill Perception}) checks."
 					]
 				},
 				{
 					"name": "Empowered Attacks",
 					"entries": [
-						"特产的攻击被视为魔法攻击，以克服对非魔法攻击的伤害的抵抗和免疫。"
+						"Trinket's attacks are treated as magical for the purpose of overcoming resistance and immunity to damage from nonmagical attacks."
 					]
 				},
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"Trinket在依赖嗅觉的感知({@skill Perception})检定上有{@quickref Advantage and Disadvantage|PHB|2|0|advantage}。"
+						"Trinket has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
 					"name": "Raven's Slumber",
 					"entries": [
-						"如果Trinket被减至0点生命值，并且在100英尺范围内与Vex，他将立即被吸入{@creature Vex'ahlia|TDCSR|Vex's}（Feywild）并稳定下来。"
+						"If Trinket is reduced to 0 hit points and is within 100 feet of Vex, he is immediately drawn into the demiplane within {@creature Vex'ahlia|TDCSR|Vex's} {@item raven's slumber|TDCSR} and stabilized."
 					]
 				}
 			],
@@ -6633,19 +6633,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"特莱克特 (Trinket) 进行两次攻击：一次使用他的咬和一次使用他的爪。"
+						"Trinket makes two attacks: one with his bite and one with his claws."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}14 ({@damage 1d8 + 10}) 穿刺伤害。"
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}14 ({@damage 1d8 + 10}) piercing damage."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 13} 进行攻击，射程5英尺，目标一个。{@h}17 ({@damage 2d6 + 10}) 斩击伤害。"
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d6 + 10}) slashing damage."
 					]
 				}
 			],
@@ -6762,7 +6762,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Vex是一个13级的法术施法者。她的法术施法能力是智力（法术豁免{@dc 17}，法术攻击命中加值{@hit 9}）。她已经准备了以下游侠法术："
+						"Vex is a 13th-level spellcaster. Her spell-casting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). She has the following ranger spells prepared:"
 					],
 					"spells": {
 						"1": {
@@ -6801,43 +6801,43 @@
 				{
 					"name": "Assassinate",
 					"entries": [
-						"在她的第一个回合中，Vex 对任何还没有行动的生物的攻击骰投掷获得 {@quickref Advantage and Disadvantage|PHB|2|0|advantage}。Vex 对一个被惊讶的生物造成的任何命中都是一个重击。"
+						"During her first turn, Vex has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on attack rolls against any creature that hasn't taken a turn. Any hit Vex scores against a surprised creature is a critical hit."
 					]
 				},
 				{
 					"name": "Evasion",
 					"entries": [
-						"如果Vex受到一个效果的影响，允许她进行一个敏捷检定{@quickref saving throws|PHB|2|1|saving throw}以仅受到一半伤害，如果她在{@quickref saving throws|PHB|2|1|saving throw}检定上成功，她将不受伤害，如果失败则只受到一半伤害。"
+						"If Vex is subjected to an effect that allows her to make a Dexterity {@quickref saving throws|PHB|2|1|saving throw} to take only half damage, she instead takes no damage if she succeeds on the {@quickref saving throws|PHB|2|1|saving throw}, and only half damage if she fails."
 					]
 				},
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"Vex 对抗被魔法影响 {@quickref Advantage and Disadvantage|PHB|2|0|advantage} 的能力，并且魔法无法让她入睡。"
+						"Vex has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on {@quickref saving throws|PHB|2|1} against being {@condition charmed}, and magic can't put her to sleep."
 					]
 				},
 				{
 					"name": "Ranged Master",
 					"entries": [
-						"Vex的远程武器攻击命中时获得+2的奖励（包含在攻击中），并且无视{@quickref cover|PHB|3|0|half cover}和{@quickref cover|PHB|3|0|three-quarters cover}，并且没有射程惩罚。此外，Vex可以对任何远程攻击投掷进行-5的惩罚，以获得+10的伤害投掷奖励。"
+						"Vex's ranged weapon attacks have a +2 bonus to hit (included in attacks), and ignore {@quickref cover|PHB|3|0|half cover} and {@quickref cover|PHB|3|0|three-quarters cover}, and have no range penalty. Additionally, Vex can take a \u22125 penalty to any ranged attack roll to gain a +10 bonus to the damage roll."
 					]
 				},
 				{
 					"name": "Sneak Attack (1/Turn)",
 					"entries": [
-						"Vex在用武器攻击命中目标并攻击骰得到{@quickref Advantage and Disadvantage|PHB|2|0|advantage}时，会额外造成14点伤害({@damage 4d6})，或者当目标在Vex的盟友身旁5英尺内且该盟友不是{@condition incapacitated}，且Vex的攻击骰不是{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}时也会造成额外伤害。"
+						"Vex deals an extra 14 ({@damage 4d6}) damage when she hits a target with a weapon attack and has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on the attack roll, or when the target is within 5 feet of an ally of Vex that isn't {@condition incapacitated} and she doesn't have {@quickref Advantage and Disadvantage|PHB|2|0|disadvantage} on the attack roll."
 					]
 				},
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Vex穿着{@item +2 Studded White Dragon Leather Armor of Cold Resistance|TDCSR}和一个{@item +2 ring of protection|TDCSR|ring of protection with a +2 bonus}。她携带着一个{@item broom of flying}和一个{@item raven's slumber|TDCSR}，并且挥舞着{@item Fenthras (Exalted)|TDCSR|Fenthras}。"
+						"Vex wears {@item +2 Studded White Dragon Leather Armor of Cold Resistance|TDCSR} and a {@item +2 ring of protection|TDCSR|ring of protection with a +2 bonus}. She carries a {@item broom of flying} and a {@item raven's slumber|TDCSR}, and wields {@item Fenthras (Exalted)|TDCSR|Fenthras}."
 					]
 				},
 				{
 					"name": "Trinket",
 					"entries": [
-						"{@creature Trinket|TDCSR}在Vex的回合移动和行动，Vex可以使用一个奖励动作命令他执行{@action Dash}、{@action Dodge}、{@action Disengage}或{@action Attack}动作。她还可以命令他在她的多重攻击动作中执行{@action Attack}（见下文）。{@creature Trinket|TDCSR}在Vex的每个回合只能执行一个动作。"
+						"{@creature Trinket|TDCSR} moves and acts on Vex's turn, and Vex can use a bonus action to command him to take the {@action Dash}, {@action Dodge}, {@action Disengage}, or {@action Attack} action. She can also command him to {@action Attack} as part of her Multiattack action (see below). {@creature Trinket|TDCSR} can take only one action on each of Vex's turns."
 					]
 				}
 			],
@@ -6845,19 +6845,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Vex 进行两次远程攻击，并可以命令 {@creature Trinket|TDCSR} 移动至他的速度范围内并使用他的多重攻击动作。"
+						"Vex makes two ranged attacks, and can command {@creature Trinket|TDCSR} to move up to his speed and use his Multiattack action."
 					]
 				},
 				{
 					"name": "Fenthras",
 					"entries": [
-						"{@atk rw} {@hit 16} 命中，射程600英尺，目标为一名敌人。造成{@h}22 ({@damage 1d8 + 18}) 穿刺伤害和3 ({@damage 1d6}) 闪电伤害，Vex 可以使用以下技能："
+						"{@atk rw} {@hit 16} to hit, range 600 ft., one target. {@h}22 ({@damage 1d8 + 18}) piercing damage and 3 ({@damage 1d6}) lightning damage, and Vex can use the following ability:"
 					]
 				},
 				{
 					"name": "Bramble Shot (2/{@quickref resting|PHB|2|0|Short Rest})",
 					"entries": [
-						"这次攻击额外造成18点刺伤伤害，目标必须成功通过一次力量检定{@dc 17}{@quickref saving throws|PHB|2|1|saving throw}或者被{@condition restrained}。目标可以在每个回合结束时重复进行{@quickref saving throws|PHB|2|1|saving throw}检定，成功则结束效果。"
+						"The attack deals an extra 18 ({@damage 4d8}) piercing damage, and the target must succeed on a {@dc 17} Strength {@quickref saving throws|PHB|2|1|saving throw} or be {@condition restrained}. The target can repeat the {@quickref saving throws|PHB|2|1|saving throw} at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -6865,13 +6865,13 @@
 				{
 					"name": "Cunning Action",
 					"entries": [
-						"Vex 进行 {@action Dash}、{@action Disengage} 或 {@action Hide} 动作。"
+						"Vex takes the {@action Dash}, {@action Disengage}, or {@action Hide} action."
 					]
 				},
 				{
 					"name": "Hunter's Mark",
 					"entries": [
-						"Vex施放{@spell hunter's mark}来标记她能看到的距离不超过90英尺的生物。在接下来的1小时内，Vex的武器攻击对被标记的生物额外造成{@damage 1d6}伤害，并且她在用来找到这个生物的感知({@skill Perception})和感知({@skill Survival})检定中获得{@quickref Advantage and Disadvantage|PHB|2|0|advantage}加值。"
+						"Vex casts {@spell hunter's mark} to mark a creature she can see within 90 feet of her. For 1 hour, Vex's weapon attacks deal an extra {@damage 1d6} damage to the marked creature, and she has {@quickref Advantage and Disadvantage|PHB|2|0|advantage} on Wisdom ({@skill Perception}) and Wisdom ({@skill Survival}) checks made to find it."
 					]
 				}
 			],
@@ -6879,7 +6879,7 @@
 				{
 					"name": "Uncanny Dodge",
 					"entries": [
-						"当Vex能看到的攻击者用攻击命中她时，她从该攻击中受到的伤害减半。"
+						"When an attacker that Vex can see hits her with an attack, she takes half damage from the attack."
 					]
 				}
 			],
@@ -6985,7 +6985,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"蛇人的天生施法能力是魅力（法术豁免{@dc 12}）。它可以天生施放以下法术，无需任何材料组件："
+						"The serpentfolk's innate spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell animal friendship}",
@@ -7007,7 +7007,7 @@
 				{
 					"name": "Hold Breath",
 					"entries": [
-						"蛇族人可以屏住呼吸长达30分钟。"
+						"The serpentfolk can hold its breath for 30 minutes."
 					]
 				}
 			],
@@ -7015,25 +7015,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"蛇人进行两次弯刀攻击。"
+						"The serpentfolk makes two scimitar attacks."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，达到5英尺，一个生物。造成{@h}6 ({@damage 1d6 + 3})点刺伤伤害，加上7 ({@damage 2d6})点毒素伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
 					]
 				},
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}6({@damage 1d6 + 3})点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个生物。受到{@h}7 ({@damage 1d8 + 3}) 钝击伤害，并且目标被{@condition grappled} (逃脱 {@dc 13})。直到这个{@action grapple} 结束，生物被{@condition restrained}，蛇人无法缠绕另一个目标。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 13}). Until this {@action grapple} ends, the creature is {@condition restrained}, and the serpentfolk can't constrict another target."
 					]
 				}
 			],
@@ -7171,13 +7171,13 @@
 				{
 					"name": "Ethereal Sight",
 					"entries": [
-						"幽灵在物质位面时可以看到60英尺，而在以太位面上也是如此。"
+						"The ghost can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa."
 					]
 				},
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"幽灵可以像穿过{@quickref difficult terrain||3}一样穿过其他生物和物体。如果它在物体内结束回合，会受到5点({@damage 1d10})力量伤害。"
+						"The ghost can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				}
 			],
@@ -7185,25 +7185,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"幽灵进行两次矛攻击。"
+						"The ghost makes two spear attacks."
 					]
 				},
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 5}攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}6({@damage 1d6 + 3})穿刺伤害加上7({@damage 2d6})死灵伤害。如果幽灵进行远程攻击，则在攻击解决后，其长矛会重新凝聚在手中。"
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. If the ghost makes a ranged attack, its spear rematerializes in its hands after the attack is resolved."
 					]
 				},
 				{
 					"name": "Etherealness",
 					"entries": [
-						"幽灵从物质位面进入虚实位面，或反之。在边界虚实位面时，它在物质位面可见，反之亦然，但它无法影响或受到另一位面上的任何事物的影响。"
+						"The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
 					]
 				},
 				{
 					"name": "Terrifying Hiss",
 					"entries": [
-						"这个鬼魂发出一种怪异的、嘶嘶作响的嘶嘶声。每个距离鬼魂30英尺以内且能听到声音的非亡灵生物必须成功通过一个 {@dc 13} 智力检定 或者在1分钟内变为 {@condition frightened}。一个 {@condition frightened} 目标可以在自己的回合结束时重复这个 {@quickref saving throws|PHB|2|1|saving throw}，成功后可以结束自身的状态。如果一个目标的 {@quickref saving throws|PHB|2|1|saving throw} 检定成功或者效果对其结束，那么该目标在接下来的24小时内免疫这个鬼魂的可怕嘶鸣。"
+						"The ghost emits an uncanny, rasping hiss. Each non-undead creature within 30 feet of the ghost that can hear it must succeed on a {@dc 13} Wisdom {@quickref saving throws|PHB|2|1|saving throw} or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the {@quickref saving throws|PHB|2|1|saving throw} at the end of each of its turns, ending the condition on itself on a success. If a target's {@quickref saving throws|PHB|2|1|saving throw} is successful or the effect ends for it, the target is immune to this ghost's Terrifying Hiss for the next 24 hours."
 					]
 				}
 			],
@@ -7309,13 +7309,13 @@
 				{
 					"name": "False Appearance",
 					"entries": [
-						"当幽灵根树保持静止时，它和一棵普通树无法区分。"
+						"While the wraithroot tree remains motionless, it is indistinguishable from a normal tree."
 					]
 				},
 				{
 					"name": "Wraith Shift",
 					"entries": [
-						"在其回合中，鬼根树可以像{@quickref difficult terrain||3}一样穿过其他生物和物体。树在移动时不会引发{@action opportunity attack|PHB|opportunity attacks}，必须完成移动后停在一个没有任何大型或更大物体或生物占据的空间。当树完成移动时，树的空间中有任何中型或更小生物将被推到生物选择的最近的未占据空间。树的空间中的中型或更小物体将被推到树选择的最近的未占据空间。"
+						"On its turn, the wraithroot tree can move through other creatures and objects as if they were {@quickref difficult terrain||3}. The tree does not provoke {@action opportunity attack|PHB|opportunity attacks} while moving, and must finish its movement in a space unoccupied by any Large or larger objects or creatures. Any Medium or smaller creature in the tree's space when it finishes moving is pushed to the nearest unoccupied space of the creature's choice. Medium or smaller objects in the tree's space are pushed to the nearest unoccupied spaces of the tree's choice."
 					]
 				}
 			],
@@ -7323,25 +7323,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"幽灵根树进行两次猛击攻击。"
+						"The wraithroot tree makes two slam attacks."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} 使用 {@hit 11} 命中，达到10英尺，一个目标。造成{@h}16 ({@damage 3d6 + 6}) 钝击伤害。"
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} 攻击命中，射程60/180尺，目标为一名敌人。造成{@h}28 ({@damage 4d10 + 6}) 钝击伤害。"
+						"{@atk rw} {@hit 11} to hit, range 60/180 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Wraithstorm {@recharge 5}",
 					"entries": [
-						"鬼根树从周围地区吸取生命能量，使生物暂时虚弱。在距离树木30英尺范围内的每个非构造物或不死生物必须成功通过一次{@dc 16}体质（Constitution）{@quickref saving throws|PHB|2|1|saving throw}豁免检定，否则其速度减半，并在树木的下一个回合结束前获得对钝击伤害的易伤状态。"
+						"The wraithroot tree pulls life energy from the area around it, leaving creatures temporarily frail. Each creature that is not a construct or undead within 30 feet of the tree must succeed on a {@dc 16} Constitution {@quickref saving throws|PHB|2|1|saving throw} or have its speed halved and gain vulnerability to bludgeoning damage until the end of the tree's next turn."
 					]
 				}
 			],
@@ -7423,19 +7423,19 @@
 				{
 					"name": "Searing Presence",
 					"entries": [
-						"任何在离陆地鲨10英尺范围内开始其回合的生物会受到11 ({@damage 2d10}) 火焰伤害。"
+						"Any creature that starts its turn within 10 feet of the landshark takes 11 ({@damage 2d10}) fire damage."
 					]
 				},
 				{
 					"name": "Standing Leap",
 					"entries": [
-						"陆鲨的{@quickref jumping|PHB|4|0|long jump}高达40英尺，{@quickref jumping|PHB|4|0|high jump}高达20英尺，无论是否有起跑距离。"
+						"The landshark's {@quickref jumping|PHB|4|0|long jump} is up to 40 feet and its {@quickref jumping|PHB|4|0|high jump} is up to 20 feet, with or without a running start."
 					]
 				},
 				{
 					"name": "Illumination",
 					"entries": [
-						"陆鲨在半径为15英尺的范围内散发明亮光，再延伸15英尺的范围内散发微光。"
+						"The landshark sheds bright light in a 15-foot radius and dim light for an additional 15 feet."
 					]
 				}
 			],
@@ -7443,13 +7443,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} 进行攻击，射程5英尺，一个目标。造成{@h}31 ({@damage 4d12 + 5}) 穿刺伤害，以及14 ({@damage 4d6}) 火焰伤害。"
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}31 ({@damage 4d12 + 5}) piercing damage, and 14 ({@damage 4d6}) fire damage."
 					]
 				},
 				{
 					"name": "Deadly Leap",
 					"entries": [
-						"如果陆地鲨{@quickref jumping|PHB|4|0|jumps}在移动中至少移动了15英尺，它可以使用这个动作着陆并站稳脚跟，落在一个包含一个或多个其他生物的空间中。这些生物中的每一个必须成功通过一个{@dc 16}力量或敏捷{@quickref saving throws|PHB|2|1|saving throw}（目标选择）豁免检定，否则会被撞倒，并受到19({@damage 4d6 + 5})点钝击伤害和14({@damage 4d6})点火焰伤害。在成功豁免后，生物只受到一半伤害，不会被撞倒，并被推开5英尺，移动到陆地鲨所选择的一个未被占据的空间中。如果范围内没有未被占据的空间，生物将会在陆地鲨的空间内摔倒。"
+						"If the landshark {@quickref jumping|PHB|4|0|jumps} at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a {@dc 16} Strength or Dexterity {@quickref saving throws|PHB|2|1|saving throw} (target's choice) or be knocked {@condition prone} and take 19 ({@damage 4d6 + 5}) bludgeoning damage plus 14 ({@damage 4d6}) fire damage. On a successful save, the creature takes only half the damage, isn't knocked {@condition prone}, and is pushed 5 feet out of the landshark's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls {@condition prone} in the land-shark's space."
 					]
 				}
 			],

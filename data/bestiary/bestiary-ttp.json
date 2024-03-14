@@ -59,19 +59,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"癸鱼会进行两次攻击：一次是咬人，一次是用触手。"
+						"The decapus makes two attacks: one with its bite and one with its tentacles."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw}{@hit 4}击中，到达5英尺，一个生物{@condition grappled}被斩首。{@h}7 ({@damage 2d4 + 2})穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature {@condition grappled} by the decapus. {@h}7 ({@damage 2d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 4} 进行攻击，射程10英尺，一个目标。造成{@h}24 ({@damage 9d4 + 2}) 钝击伤害，或者如果混沌章鱼正拿着除目标以外的生物或者混沌章鱼在地面上，则造成14 ({@damage 5d4 + 2}) 钝击伤害。目标也会被{@condition grappled} (逃脱 {@dc 14})，除非混沌章鱼已经在拿着一个生物。直到这次控制结束，目标会被{@condition restrained}。"
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}24 ({@damage 9d4 + 2}) bludgeoning damage or 14 ({@damage 5d4 + 2}) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also {@condition grappled} (escape {@dc 14}) unless the decapus is already grappling a creature. Until this grapple ends, the target is {@condition restrained}."
 					]
 				}
 			],
@@ -144,7 +144,7 @@
 				{
 					"name": "Boulder Guise",
 					"entries": [
-						"当完全缩进它的壳里时，地鳖虫看不到，与一块小石子没有区别。"
+						"While fully withdrawn into its shell, the geonid can't see and is indistinguishable from a small boulder"
 					]
 				}
 			],
@@ -152,13 +152,13 @@
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}3 ({@damage 1d4 + 1})重击伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Stone Tell",
 					"entries": [
-						"geonid触摸石头物体或表面，知道在过去24小时内有哪些类型的生物出现在该石头的10英尺内。Geonid还能确定每种类型的生物的数量，但不能确定它们的身份。"
+						"The geonid touches a stone object or surface and knows what types of creatures have been within 10 feet of that stone in the past 24 hours. The geonid can also determine the number of creatures of each type, but not their identities."
 					]
 				}
 			],
@@ -231,7 +231,7 @@
 					"name": "Innate Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"这只蛞蝓天生具有智慧施法能力（法术豁免 {@dc 11}，用法术攻击命中为 {@hit 3}）。它天生能施放以下法术，无需任何材料组件："
+						"The slug's innate spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
 					],
 					"daily": {
 						"1e": [
@@ -247,13 +247,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"这只蛞蝓在依赖嗅觉的感知检定中拥有优势。"
+						"The slug has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"蛞蝓可以爬上困难的表面，包括倒立在天花板上，而不需要进行能力检查。"
+						"The slug can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
 					]
 				}
 			],
@@ -261,19 +261,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"蛞蝓有两种攻击方式：一种是用它的触手，一种是用它的嘴。"
+						"The slug makes two attacks: one with its tentacles and one with its bite."
 					]
 				},
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 8}击中，到达10英尺，一个生物。{@h}4 ({@damage 1d4 + 2})的毒药伤害，并且目标必须在{@dc 13}宪法救赎中成功，否则会被{@condition poisoned}，持续1分钟。直到该毒药结束，目标是{@condition paralyzed}。目标可以在每个回合结束时重复蓄力，如果成功则结束对自己的中毒。"
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one creature. {@h}4 ({@damage 1d4 + 2}) poison damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 minute. Until this poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}7 ({@damage 2d4 + 2})穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
 					]
 				}
 			],
@@ -281,7 +281,7 @@
 				{
 					"name": "Animate Tentacle",
 					"entries": [
-						"当这只蛞蝓在这个洞穴中受到伤害({@adventure Shrine of Umberlee|ttp|3|24. Shrine of Umberlee})时，它可以使用其反应来激活海妖雕像的触手之一，并导致其对蛞蝓能看到的距离雕像20英尺内的一只生物进行一次近战武器攻击({@hit 3} to hit)。触手在命中时造成8({@damage 1d8 + 4}) 钝击伤害。"
+						"When the slug takes damage in this cave ({@adventure Shrine of Umberlee|ttp|3|24. Shrine of Umberlee}), it can use its reaction to animate one of the tentacles of the kraken statue and cause it to   make a melee weapon attack ({@hit 3} to hit) against one creature within 20 feet of the statue that the slug can see. The tentacle deals 8 ({@damage 1d8 + 4}) bludgeoning damage on a hit."
 					]
 				}
 			],
@@ -383,13 +383,13 @@
 				{
 					"name": "Turn Resistance",
 					"entries": [
-						"托皮在面对任何变成不死之身的效果时都有优势。"
+						"The topi has advantage on saving throws against any effect that turns undead."
 					]
 				},
 				{
 					"name": "Undead Fortitude",
 					"entries": [
-						"如果伤害将topi降低到0命中率，它必须做一个宪法救赎动作，DC为5+所受伤害，除非伤害是辐射或来自关键打击。如果成功，topi将下降到1点生命值。"
+						"If damage reduces the topi to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the topi drops to 1 hit point instead."
 					]
 				}
 			],
@@ -397,7 +397,7 @@
 				{
 					"name": "Venomous Claws",
 					"entries": [
-						"{@atk mw} {@hit 4}击中，到达5英尺，一个目标。{@h}4 ({@damage 1d4 + 2})的砍击伤害加上2 ({@damage 1d4})的毒药伤害，并且目标必须在{@dc 11}宪法救赎中成功，否则会被{@condition poisoned}，直到目标的下一回合结束。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage plus 2 ({@damage 1d4}) poison damage, and the target must succeed on a {@dc 11} Constitution saving throw or be {@condition poisoned} until the end of the target's next turn."
 					]
 				}
 			],
@@ -443,7 +443,7 @@
 							"items": {
 								"name": "Two Heads",
 								"entries": [
-									"这只双头蛇颈龙在感知检定和豁免投掷中获得优势，对抗被{@condition blinded}、{@condition charmed}、{@condition deafened}、{@condition frightened}、{@condition stunned}和被击倒时有优势。"
+									"The two-headed plesiosaurus has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
 								]
 							}
 						}
@@ -454,7 +454,7 @@
 							"items": {
 								"name": "Multiattack",
 								"entries": [
-									"双头犁地龙会进行两次咬合攻击。"
+									"The two-headed plesiosaurus makes two bite attacks."
 								]
 							}
 						}

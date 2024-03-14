@@ -1,0 +1,356 @@
+{
+	"monster": [
+		{
+			"name": "Dirt-Under-Nails",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "RtG",
+			"page": 32,
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"save": {
+				"wis": "+4",
+				"cha": "+7"
+			},
+			"skill": {
+				"arcana": "+4",
+				"deception": "+7",
+				"persuasion": "+7",
+				"religion": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"telepathy 60 ft."
+			],
+			"cr": "7",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"术士的天生施法能力是魅力。它可以天生施放以下咒语（咒语豁免{@dc 15}），无需任何材料组件："
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell false life}",
+						"{@spell levitate} (self only)",
+						"{@spell mage armor} (self only)",
+						"{@spell silent image}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell feeblemind}",
+							"{@spell finger of death}",
+							"{@spell plane shift}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"指甲间的泥土 是一名17级的施法者。他的施法能力是魅力（法术豁免 {@dc 17}，法术攻击命中加值 {@hit 9}）。他在完成短休或长休后会恢复已用的法术位。他了解以下术士法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell eldritch blast}",
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"5": {
+							"lower": 1,
+							"slots": 4,
+							"spells": [
+								"{@spell armor of Agathys}",
+								"{@spell banishment}",
+								"{@spell burning hands}",
+								"{@spell cloudkill}",
+								"{@spell flame strike}",
+								"{@spell magic circle}",
+								"{@spell scorching ray}",
+								"{@spell scrying}",
+								"{@spell stinking cloud}",
+								"{@spell suggestion}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark One's Own Luck (Recharges after a Short or Long Rest)",
+					"entries": [
+						"当术士进行能力检定或豁免投掷时，可以在投掷中添加 {@dice d10} 到点数。它可以在投掷完成后但在任何效果发生之前这样做。"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"如果泥土下的钉子与地面接触，在他的回合开始时可以恢复10点生命值。如果污垢-暗钉受到火灾伤害，这个特性在他的下一个回合开始时不会发挥作用。只有在他的回合开始时命中率为0并且没有再生的情况下，污垢-暗钉才会死亡。"
+					]
+				},
+				{
+					"name": "Shared Senses",
+					"entries": [
+						"泥土下的钉子可以看到和听到120英尺内任何植物所能看到和听到的东西。此外，泥土下的钉子可以与这个范围内的任何植物进行心灵感应。"
+					]
+				},
+				{
+					"name": "Special Equipment (+2 Rod of the Pact Keeper)",
+					"entries": [
+						"持有这个{@item +2 Rod of the Pact Keeper||rod}时，指甲沾满泥土获得+2的奖励用于法术攻击骰和他的术士法术的豁免 DC（包含在下面的修改中）。此外，他可以在持有这个法杖的时候将1个术士法术位恢复为一个动作。他必须完成一次长休才能再次使用这个效果。"
+					]
+				},
+				{
+					"name": "Tree Stride",
+					"entries": [
+						"在它的每个回合中，污垢-Under-Nails可以使用10英尺的移动距离，神奇地踏入他周围5英尺内的一片蘑菇丛，并从它周围60英尺内的第二片蘑菇丛中走出来，出现在第二片蘑菇丛5英尺内的一个无人空间。两片蘑菇丛都必须是大型或更大。邋遢鬼不需要看到第二片蘑菇丛就可以使用这个能力。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 3}击中，到达5英尺，一个目标。{@h}3 ({@damage 1d6})重击伤害加上10 ({@damage 3d6})火焰伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"traitTags": [
+				"Regeneration",
+				"Tree Stride"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"N",
+				"O",
+				"P",
+				"R",
+				"S",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"incapacitated"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Rotter",
+			"source": "RtG",
+			"page": 34,
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 13,
+			"cha": 8,
+			"skill": {
+				"athletics": "+7",
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"telepathy 60 ft."
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Magic Club",
+					"entries": [
+						"在腐烂者的手中，它的球棒是神奇的，造成额外 7 ({@damage 3d4}) 伤害（包含在它的攻击中）。"
+					]
+				},
+				{
+					"name": "Plant Camouflage",
+					"entries": [
+						"腐贼在植被茂密的地形中进行敏捷检定时具有优势({@skill Stealth})。"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"如果水獭与地面接触，在其回合开始时可重新获得10点生命值。如果水獭受到火灾伤害，该特性在水獭的下一回合开始时不会发挥作用。只有在它的回合开始时命中率为0并且没有再生的情况下，水獭才会死亡。"
+					]
+				},
+				{
+					"name": "Shared Senses",
+					"entries": [
+						"无赖可以看到和听到120英尺内任何植物所能看到和听到的东西。此外，无赖可以与这个范围内的任何植物进行心灵感应。"
+					]
+				},
+				{
+					"name": "Tree Stride",
+					"entries": [
+						"在它的每个回合中，水獭可以使用10英尺的移动距离，神奇地踏入它周围5英尺内的一片蘑菇丛，并从它周围60英尺内的第二片蘑菇丛中走出来，出现在第二片蘑菇丛5英尺内的一个无人空间。两片蘑菇丛都必须是大型或更大。腐烂者不需要看到第二片灌木丛就可以使用这个能力。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"腐尸用它的棍棒进行两次攻击。"
+					]
+				},
+				{
+					"name": "Club",
+					"entries": [
+						"{@atk mw} {@hit 7}击中，到达5英尺，一个目标。{@h}14 ({@damage 4d4 + 4})重击伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"club|phb"
+			],
+			"traitTags": [
+				"Regeneration",
+				"Tree Stride"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			],
+			"hasToken": true
+		}
+	]
+}

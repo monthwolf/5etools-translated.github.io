@@ -20,7 +20,7 @@
 					],
 					"rows": [
 						[
-							"非常容易",
+							"Very easy",
 							"5",
 							"Hard",
 							"20"
@@ -28,13 +28,13 @@
 						[
 							"Easy",
 							"10",
-							"非常困难",
+							"Very hard",
 							"25"
 						],
 						[
-							"中等水平",
+							"Moderate",
 							"15",
-							"几乎不可能",
+							"Nearly impossible",
 							"30"
 						]
 					]
@@ -57,57 +57,57 @@
 					"rows": [
 						[
 							"{@skill Acrobatics}",
-							"灵活性",
+							"Dexterity",
 							"{@skill Medicine}",
-							"智慧"
+							"Wisdom"
 						],
 						[
 							"{@skill Animal Handling}",
-							"智慧",
+							"Wisdom",
 							"{@skill Nature}",
-							"情报"
+							"Intelligence"
 						],
 						[
 							"{@skill Arcana}",
-							"情报",
+							"Intelligence",
 							"{@skill Perception}",
-							"智慧"
+							"Wisdom"
 						],
 						[
 							"{@skill Athletics}",
-							"强度",
+							"Strength",
 							"{@skill Performance}",
-							"魅力"
+							"Charisma"
 						],
 						[
 							"{@skill Deception}",
-							"魅力",
+							"Charisma",
 							"{@skill Persuasion}",
-							"魅力"
+							"Charisma"
 						],
 						[
 							"{@skill History}",
-							"情报",
+							"Intelligence",
 							"{@skill Religion}",
-							"情报"
+							"Intelligence"
 						],
 						[
 							"{@skill Insight}",
-							"智慧",
+							"Wisdom",
 							"{@skill Sleight of Hand}",
-							"灵活性"
+							"Dexterity"
 						],
 						[
 							"{@skill Intimidation}",
-							"魅力",
+							"Charisma",
 							"{@skill Stealth}",
-							"灵活性"
+							"Dexterity"
 						],
 						[
 							"{@skill Investigation}",
-							"情报",
+							"Intelligence",
 							"{@skill Survival}",
-							"智慧"
+							"Wisdom"
 						]
 					]
 				},
@@ -115,8 +115,8 @@
 					"type": "entries",
 					"name": "Suffocating",
 					"entries": [
-						"你可以屏住呼吸数分钟，等于1+你的体质修饰词（最少30秒）。",
-						"如果你没气了或窒息了，你能存活的回合数等于你的体质修正值（最少1回合）。在你的下一个回合开始时，你的命中率下降到0，并且正在死亡，在你能够再次呼吸之前，你无法恢复命中率或被稳定下来。"
+						"You can hold your breath for a number ofminutes equal to 1 + your Constitution modifier (minimum of 30 seconds).",
+						"Ifyou run out of breath or you're choking, you can survive for a number ofrounds equal to your Constitution modifier (minimum of 1 round). At the start ofyour next turn, you drop to 0 hit points and are dying, and you can't regain hit points or be stabilized until you can breathe again."
 					],
 					"id": "001"
 				},
@@ -124,7 +124,7 @@
 					"type": "entries",
 					"name": "Weightlessness",
 					"entries": [
-						"在任何不存在重力的地方，适用以下规则。",
+						"In any location where gravity is not present, the following rules apply:",
 						{
 							"type": "entries",
 							"entries": [
@@ -132,7 +132,7 @@
 									"type": "entries",
 									"name": "Impeded Melee",
 									"entries": [
-										"当用武器进行近身攻击时，没有飞行或游泳速度的生物（无论是自然的还是由魔法提供的）在攻击卷中处于劣势，除非该武器造成穿刺伤害。"
+										"When making a melee attack with a weapon, a creature that doesn't have a flying or swimming speed (either naturally or provided by magic) has disadvantage on the attack roll unless the weapon deals piercing damage."
 									],
 									"id": "004"
 								},
@@ -140,7 +140,7 @@
 									"type": "entries",
 									"name": "Movement",
 									"entries": [
-										"一个生物可以使用一个动作来推开比自己重的东西，并在一条直线上移动到它的步行、飞行或游泳速度。该生物沿着这个路线继续前进，在每次转弯时以其速度直线移动，直到有东西阻止它或改变其轨迹。"
+										"A creature can use an action to push off something heavier than itselfand move up to its walking, flying, or swimming speed in a straight line. The creature continues along this course, moving in a straight line at its speed on each ofits turns until something stops it or changes its trajectory."
 									],
 									"id": "005"
 								}
@@ -178,15 +178,15 @@
 					"name": "Astral Encounters",
 					"id": "009",
 					"entries": [
-						"你可以通过在适当的情况下在《异空间遭遇表》或《星界遭遇表》上投掷骰子，或者选择你喜欢的遭遇来生成在星界的随机遭遇。如果遭遇是与一个法术飞船有关的，你可以在飞船遭遇表上投掷骰子来确定飞船及其船员，或者你可以自己创建一个飞船遭遇（参见《%0%》中的《%1%》）。",
-						"本书中带有星号(*)标记的生物；其余生物在{@book Monster Manual|MM}中描述。任何带有†标记的生物都可以作为一个法术航行者，因为它是一个法术施法者。",
-						"如果一个人形生物没有指定种族，它可以是你选择的任何种族。",
+						"You can generate a random encounter on the Astral Plane by rolling on either the Wildspace Encounters table or the Astral Sea Encounters table, as appropriate, or by choosing an encounter you like. If the encounter is with a spelljamming ship, you can roll on the Ship Encounters to determine the ship and its crew, or you can create a ship encounter of your own (see the {@book Astral Adventurer's Guide|AAG} for {@book ship descriptions|AAG|2|Spelljammer Vessels}).",
+						"Creatures marked with an asterisk (*) appear in this book; the rest are described in the {@book Monster Manual|MM}. Any creature marked with a dagger (†) can serve as a spelljammer because it is a spellcaster.",
+						"If a Humanoid has no specified race, it can be of any race you choose.",
 						{
 							"type": "entries",
 							"name": "Initial Attitude",
 							"id": "00a",
 							"entries": [
-								"要随机确定所遇到的生物的初始姿态，请在遭遇表的条目中做出所要求的姿态卷，然后参考初始姿态表的相应行。",
+								"To randomly determine the initial attitude of the creatures encountered, make the attitude roll called for in an encounter table entry, then refer to the appropriate line of the Initial Attitude table.",
 								{
 									"type": "table",
 									"caption": "Initial Attitude",
@@ -200,16 +200,16 @@
 									],
 									"rows": [
 										[
-											"4或更低",
-											"敌对的"
+											"4 or lower",
+											"Hostile"
 										],
 										[
-											"5–8",
-											"无动于衷"
+											"5\u20138",
+											"Indifferent"
 										],
 										[
-											"9岁或以上",
-											"友好的"
+											"9 or higher",
+											"Friendly"
 										]
 									]
 								},
@@ -228,97 +228,97 @@
 									],
 									"rows": [
 										[
-											"01–03",
-											"{@dice 1d4}{@creature Chwinga Astronaut|BAM|chwinga astronauts},*每个安装在1个{@creature space guppy|BAM}*上。",
+											"01\u201303",
+											"{@dice 1d4} {@creature Chwinga Astronaut|BAM|chwinga astronauts},* each mounted on 1 {@creature space guppy|BAM}*",
 											"{@dice 1d6 + 4}"
 										],
 										[
 											"04",
-											"1 {@creature cosmic horror|BAM}* (30%的机会是睡着了)",
+											"1 {@creature cosmic horror|BAM}* (30 percent chance it is asleep)",
 											"{@dice 1d6}"
 										],
 										[
 											"05",
-											"1 {@creature esthetic|BAM}*由1 {@creature reigar|BAM}*†试点。",
+											"1 {@creature esthetic|BAM}* piloted by 1 {@creature reigar|BAM}*†",
 											"{@dice 1d12}"
 										],
 										[
-											"06–07",
+											"06\u201307",
 											"1 {@creature eye monger|BAM}*",
 											"{@dice 1d6}"
 										],
 										[
-											"08–11",
+											"08\u201311",
 											"1 {@creature feyr|BAM}*",
 											"{@dice 1d6}"
 										],
 										[
-											"12–13",
-											"1 {@creature giant octopus}，飞行速度为60英尺，不需要呼吸空气",
+											"12\u201313",
+											"1 {@creature giant octopus} that has a flying speed of 60 feet and doesn't need to breathe air",
 											"{@dice 1d10}"
 										],
 										[
-											"14–17",
+											"14\u201317",
 											"{@dice 1d6} {@creature Jammer Leech|BAM|jammer leeches}*",
 											"{@dice 1d8}"
 										],
 										[
-											"18–23",
+											"18\u201323",
 											"{@dice 1d4} {@creature kindori|BAM}*",
 											"{@dice 1d6 + 3}"
 										],
 										[
-											"24–25",
-											"1个{@creature kindori|BAM}*与1个{@creature druid}†住在其背上的小屋里",
+											"24\u201325",
+											"1 {@creature kindori|BAM}* with 1 {@creature druid}† living in a hut on its back",
 											"{@dice 2d6 + 3}"
 										],
 										[
 											"26",
-											"1 {@creature kraken}，飞行速度为60英尺，不需要呼吸空气",
+											"1 {@creature kraken} that has a flying speed of 60 feet and doesn't need to breathe air",
 											"{@dice 1d6}"
 										],
 										[
 											"27",
-											"1条月球龙*（你选择{@creature Young Lunar Dragon|BAM|young}, {@creature Adult Lunar Dragon|BAM|adult}, 或 {@creature Ancient Lunar Dragon|BAM|ancient}）。",
+											"1 lunar dragon* (your choice of {@creature Young Lunar Dragon|BAM|young}, {@creature Adult Lunar Dragon|BAM|adult}, or {@creature Ancient Lunar Dragon|BAM|ancient})",
 											"{@dice 1d10}"
 										],
 										[
-											"28–35",
-											"建在小行星上的酒馆或旅馆，有可停泊船只的码头。",
-											"—"
+											"28\u201335",
+											"A tavern or inn built on an asteroid, with docks where ships can berth",
+											"\u2014"
 										],
 										[
-											"36–39",
+											"36\u201339",
 											"{@dice 1d6} {@creature Murder Comet|BAM|murder comets}*",
 											"{@dice 1d6}"
 										],
 										[
-											"40–44",
+											"40\u201344",
 											"{@dice 1d4} {@creature Brown Scavver|BAM|brown scavvers}*",
 											"{@dice 1d8}"
 										],
 										[
-											"45–48",
-											"1 {@creature night scavver|BAM}* 和 {@dice 2d6} {@creature Gray Scavver|BAM|gray scavvers}*",
+											"45\u201348",
+											"1 {@creature night scavver|BAM}* and {@dice 2d6} {@creature Gray Scavver|BAM|gray scavvers}*",
 											"{@dice 1d8}"
 										],
 										[
-											"49–50",
+											"49\u201350",
 											"1 {@creature void scavver|BAM}*",
 											"{@dice 1d6}"
 										],
 										[
-											"51–52",
-											"一艘可能仍有宝物或生物在船上的沉船（从{@book chapter 2|AAG|2|Spelljammer Vessels}的{@book Astral Adventurer's Guide|AAG}中选择一艘船）。",
-											"—"
+											"51\u201352",
+											"A shipwreck that might still have treasure or creatures aboard it (choose a ship from {@book chapter 2|AAG|2|Spelljammer Vessels} of the {@book Astral Adventurer's Guide|AAG})",
+											"\u2014"
 										],
 										[
-											"53–54",
-											"1条太阳龙*（你选择{@creature Young Solar Dragon|BAM|young}, {@creature Adult Solar Dragon|BAM|adult}, 或 {@creature Ancient Solar Dragon|BAM|ancient}）。",
+											"53\u201354",
+											"1 solar dragon* (your choice of {@creature Young Solar Dragon|BAM|young}, {@creature Adult Solar Dragon|BAM|adult}, or {@creature Ancient Solar Dragon|BAM|ancient})",
 											"{@dice 2d6}"
 										],
 										[
-											"55–59",
+											"55\u201359",
 											"{@dice 1d6} {@creature Space Eel|BAM|space eels}*",
 											"{@dice 1d10}"
 										],
@@ -328,19 +328,19 @@
 											"{@dice 2d6 + 2}"
 										],
 										[
-											"61–64",
-											"{@dice 3d6} {@creature Stirge||stirges} 不需要呼吸空气的人",
+											"61\u201364",
+											"{@dice 3d6} {@creature Stirge||stirges} that don't need to breathe air",
 											"{@dice 1d6}"
 										],
 										[
-											"65–70",
+											"65\u201370",
 											"{@dice 1d6} {@creature Will-o'-Wisp||will-o'-wisps}",
 											"{@dice 1d10}"
 										],
 										[
-											"71–00",
-											"1艘法术干扰船（在{@book Ship Encounters table|BAM|0|Ship Encounters}上滚动）。",
-											"—"
+											"71\u201300",
+											"1 spelljamming ship (roll on the {@book Ship Encounters table|BAM|0|Ship Encounters})",
+											"\u2014"
 										]
 									],
 									"data": {
@@ -362,113 +362,113 @@
 									],
 									"rows": [
 										[
-											"01–02",
-											"1 {@creature aartuk starhorror|BAM}*†和{@dice 2d4} {@creature Aartuk Weedling|BAM|aartuk weedlings}*",
+											"01\u201302",
+											"1 {@creature aartuk starhorror|BAM}*† and {@dice 2d4} {@creature Aartuk Weedling|BAM|aartuk weedlings}*",
 											"{@dice 1d12}"
 										],
 										[
-											"03–09",
-											"1 {@creature archmage}† 使用{@spell astral projection}咒语",
+											"03\u201309",
+											"1 {@creature archmage}† using the {@spell astral projection} spell",
 											"{@dice 1d10 + 3}"
 										],
 										[
-											"10–11",
+											"10\u201311",
 											"1 {@creature braxat|BAM}*",
 											"{@dice 1d8}"
 										],
 										[
 											"12",
-											"1 {@creature cosmic horror|BAM}* (70%的机会是睡着了)",
+											"1 {@creature cosmic horror|BAM}* (70 percent chance it is asleep)",
 											"{@dice 1d6}"
 										],
 										[
-											"13–15",
-											"{@dice 1d4} {@creature Deva||devas}†的神圣任务",
+											"13\u201315",
+											"{@dice 1d4} {@creature Deva||devas}† on a divine errand",
 											"{@dice 1d12 + 3}"
 										],
 										[
-											"16–28",
-											"1 {@creature githyanki knight}† 和 {@dice 1d6} {@creature Githyanki Warrior||githyanki warriors}†",
+											"16\u201328",
+											"1 {@creature githyanki knight}† and {@dice 1d6} {@creature Githyanki Warrior||githyanki warriors}†",
 											"{@dice 1d10}"
 										],
 										[
-											"29–31",
-											"1 {@creature githyanki knight}† 安装在一个{@creature young red dragon}上。",
+											"29\u201331",
+											"1 {@creature githyanki knight}† mounted on a {@creature young red dragon}",
 											"{@dice 1d8}"
 										],
 										[
 											"32",
-											"1 {@creature githzerai zerth}† 被Githyanki追杀",
+											"1 {@creature githzerai zerth}† being hunted by githyanki",
 											"{@dice 1d6 + 6}"
 										],
 										[
-											"33–38",
+											"33\u201338",
 											"{@dice 1d4} {@creature kindori|BAM}*",
 											"{@dice 1d6 + 3}"
 										],
 										[
 											"39",
-											"1名{@creature mercane|BAM}*†和1名{@creature beholder}保镖",
+											"1 {@creature mercane|BAM}*† and 1 {@creature beholder} bodyguard",
 											"{@dice 1d8 + 4}"
 										],
 										[
 											"40",
-											"1 {@creature neh-thalggu|BAM}*† 寻找通往远方世界的入口",
+											"1 {@creature neh-thalggu|BAM}*† looking for a portal to the Far Realm",
 											"{@dice 1d10}"
 										],
 										[
-											"41–42",
+											"41\u201342",
 											"1 {@creature pentadrone}",
 											"{@dice 1d6 + 3}"
 										],
 										[
-											"43–44",
-											"1 {@creature planetar}†来自附近的星界统治者",
+											"43\u201344",
+											"1 {@creature planetar}† from a nearby astral dominion",
 											"{@dice 1d12 + 3}"
 										],
 										[
-											"45–47",
+											"45\u201347",
 											"{@dice 2d4} {@creature Psurlon|BAM|psurlons}*†",
 											"{@dice 1d8}"
 										],
 										[
-											"48–50",
-											"巨大的浮动水晶方尖碑的神秘来源",
-											"—"
+											"48\u201350",
+											"Gargantuan floating crystal obelisk of mysterious origin",
+											"\u2014"
 										],
 										[
-											"51–52",
+											"51\u201352",
 											"{@dice 4d4} {@creature Quadrone||quadrones}",
 											"{@dice 1d6 + 3}"
 										],
 										[
 											"53",
-											"1个{@creature monodrone}已经叛变的人",
+											"1 {@creature monodrone} that has gone rogue",
 											"{@dice 2d6 + 3}"
 										],
 										[
-											"54–56",
-											"{@dice 1d4} {@creature Gray Slaad||gray slaadi}†为人形体",
+											"54\u201356",
+											"{@dice 1d4} {@creature Gray Slaad||gray slaadi}† in Humanoid form",
 											"{@dice 1d10}"
 										],
 										[
-											"57–58",
+											"57\u201358",
 											"1 {@creature green slaad}†",
 											"{@dice 1d12}"
 										],
 										[
-											"59–63",
+											"59\u201363",
 											"{@dice 3d6} {@creature Gray Scavver|BAM|gray scavvers}*",
 											"{@dice 1d8}"
 										],
 										[
 											"64",
-											"1 {@creature solar}† 观察附近漂浮的死神",
+											"1 {@creature solar}† watching over a dead god that drifts nearby",
 											"{@dice 1d12 + 3}"
 										],
 										[
-											"65–66",
-											"1条太阳龙*（你选择{@creature Young Solar Dragon|BAM|young}, {@creature Adult Solar Dragon|BAM|adult}, 或 {@creature Ancient Solar Dragon|BAM|ancient}）。",
+											"65\u201366",
+											"1 solar dragon* (your choice of {@creature Young Solar Dragon|BAM|young}, {@creature Adult Solar Dragon|BAM|adult}, or {@creature Ancient Solar Dragon|BAM|ancient})",
 											"{@dice 2d6}"
 										],
 										[
@@ -477,14 +477,14 @@
 											"{@dice 2d6 + 2}"
 										],
 										[
-											"68–70",
-											"{@dice 1d8} {@creature Unicorn||unicorns} 欢快地驰骋在星海中",
+											"68\u201370",
+											"{@dice 1d8} {@creature Unicorn||unicorns} galloping merrily across the Astral Sea",
 											"{@dice 1d6 + 6}"
 										],
 										[
-											"71–00",
-											"1艘法术干扰舰（在舰船遭遇表上滚动）。",
-											"—"
+											"71\u201300",
+											"1 spelljamming ship (roll on the Ship Encounters table)",
+											"\u2014"
 										]
 									],
 									"data": {
@@ -506,89 +506,89 @@
 									],
 									"rows": [
 										[
-											"01–07",
-											"{@vehicle Bombard|AAG}利维坦，船长为默特尔-亨特（{@creature giff warlord|BAM}*），船员为8{@creature Giff Shipmate|BAM|giff shipmates}*和3{@creature Mage||mages}†。",
+											"01\u201307",
+											"{@vehicle Bombard|AAG} Leviathan, captained by Myrtle Hunt ({@creature giff warlord|BAM}*) and crewed by 8 {@creature Giff Shipmate|BAM|giff shipmates}* and 3 {@creature Mage||mages}†",
 											"{@dice 1d10 + 2}"
 										],
 										[
-											"08–16",
-											"{@vehicle Damselfly ship|AAG} Voidwinder，船长为Krig Kalu ({@creature hadozee explorer|BAM}*)，船员为1 {@creature drow}† 和7 {@creature Hadozee Shipmate|BAM|hadozee shipmates}*。",
+											"08\u201316",
+											"{@vehicle Damselfly ship|AAG} Voidwinder, captained by Krig Kalu ({@creature hadozee explorer|BAM}*) and crewed by 1 {@creature drow}† and 7 {@creature Hadozee Shipmate|BAM|hadozee shipmates}*",
 											"{@dice 2d6 + 3}"
 										],
 										[
-											"17–23",
-											"{@vehicle Flying fish ship|AAG}地平线号，船长为Thaal Vod（叛徒{@creature mind flayer arcanist}†），船员为9名{@creature Plasmoid Warrior|BAM|plasmoid warriors}*。",
+											"17\u201323",
+											"{@vehicle Flying fish ship|AAG} Horizon, captained by Thaal Vod (renegade {@creature mind flayer arcanist}†) and crewed by 9 {@creature Plasmoid Warrior|BAM|plasmoid warriors}*",
 											"{@dice 1d12}"
 										],
 										[
-											"24–31",
-											"{@vehicle Hammerhead ship|AAG} Jander Sunstar，船长为Veluna Valderak ({@creature vampirate captain|BAM}*)，船员为13 {@creature Vampirate|BAM|vampirates}*和1 {@creature priest}†。",
+											"24\u201331",
+											"{@vehicle Hammerhead ship|AAG} Jander Sunstar, captained by Veluna Valderak ({@creature vampirate captain|BAM}*) and crewed by 13 {@creature Vampirate|BAM|vampirates}* and 1 {@creature priest}†",
 											"{@dice 1d12}"
 										],
 										[
-											"32–36",
-											"{@vehicle Lamprey ship|AAG}星际奖，船员15人{@creature Psurlon Ringer|BAM|psurlon ringers}，*†包括Uscath船长",
+											"32\u201336",
+											"{@vehicle Lamprey ship|AAG} Astral Prize, crewed by 15 {@creature Psurlon Ringer|BAM|psurlon ringers},*† including Captain Uscath",
 											"{@dice 1d12}"
 										],
 										[
-											"37–39",
-											"{@vehicle Living ship|AAG} Eldervine，船长为Queth ({@creature aartuk elder|BAM}*)，船员为2 {@creature Aartuk Starhorror|BAM|aartuk starhorrors}、*† 8 {@creature Aartuk Weedling|BAM|aartuk weedlings}、*和Eldervine ({@creature treant})",
+											"37\u201339",
+											"{@vehicle Living ship|AAG} Eldervine, captained by Queth ({@creature aartuk elder|BAM}*) and crewed by 2 {@creature Aartuk Starhorror|BAM|aartuk starhorrors},*† 8 {@creature Aartuk Weedling|BAM|aartuk weedlings},* and Eldervine ({@creature treant})",
 											"{@dice 1d10}"
 										],
 										[
-											"40–45",
-											"{@vehicle Nautiloid|AAG}Neurophage，船员为4{@creature Mind Flayer||mind flayers}†和16{@creature kuo-toa}，乘客为{@dice 1d6}{@creature Grell||grells}和{@dice 1d6}{@creature Intellect Devourer||intellect devourers}",
+											"40\u201345",
+											"{@vehicle Nautiloid|AAG} Neurophage, crewed by 4 {@creature Mind Flayer||mind flayers}† and 16 {@creature kuo-toa}, with {@dice 1d6} {@creature Grell||grells} and {@dice 1d6} {@creature Intellect Devourer||intellect devourers} as passengers",
 											"{@dice 1d6}"
 										],
 										[
-											"46–50",
-											"{@vehicle Nightspider|AAG} Malevolence号，船长为Yeshk ({@creature neogi void hunter|BAM}*†)，船员为24 {@creature Neogi Pirate|BAM|neogi pirates}*和5 {@creature Umber Hulk||umber hulks}",
+											"46\u201350",
+											"{@vehicle Nightspider|AAG} Malevolence, captained by Yeshk ({@creature neogi void hunter|BAM}*†) and crewed by 24 {@creature Neogi Pirate|BAM|neogi pirates}* and 5 {@creature Umber Hulk||umber hulks}",
 											"{@dice 1d6}"
 										],
 										[
-											"51–55",
-											"{@vehicle Scorpion ship|AAG}胡拉伊之爪，船长为胡拉伊({@creature hobgoblin captain})，船员为1{@creature bugbear}(大副)、8{@creature Hobgoblin||hobgoblins}和2个霍布林{@creature Priest||priests}†。",
+											"51\u201355",
+											"{@vehicle Scorpion ship|AAG} Claws of Huraj, captained by Huraj ({@creature hobgoblin captain}) and crewed by 1 {@creature bugbear} (first mate), 8 {@creature Hobgoblin||hobgoblins}, and 2 hobgoblin {@creature Priest||priests}†",
 											"{@dice 1d12}"
 										],
 										[
-											"56–61",
-											"{@vehicle Shrike ship|AAG} Fedifensor，船长为Yaj ({@creature githyanki xenomancer|BAM}*†)，船员为10 {@creature Githyanki Buccaneer|BAM|githyanki buccaneers}*†。",
+											"56\u201361",
+											"{@vehicle Shrike ship|AAG} Fedifensor, captained by Yaj ({@creature githyanki xenomancer|BAM}*†) and crewed by 10 {@creature Githyanki Buccaneer|BAM|githyanki buccaneers}*†",
 											"{@dice 1d12}"
 										],
 										[
-											"62–66",
-											"{@vehicle Space galleon|AAG} Eleventh，船长为Xorpha Eleven-Eyes ({@creature beholder})，船员为1 {@creature spectator}（大副）、3 {@creature Cult Fanatic||cult fanatics}、†和16 {@creature Cultist||cultists}",
+											"62\u201366",
+											"{@vehicle Space galleon|AAG} Eleventh, captained by Xorpha Eleven-Eyes ({@creature beholder}) and crewed by 1 {@creature spectator} (first mate), 3 {@creature Cult Fanatic||cult fanatics},† and 16 {@creature Cultist||cultists}",
 											"{@dice 1d12}"
 										],
 										[
-											"67–72",
-											"{@vehicle Space galleon|AAG}伟大的金多里，船长是强大的Mystan({@creature djinni}†)，船员是1{@creature invisible stalker}（大副）、1{@creature couatl}、† 17{@creature aarakocra}和1{@creature rug of smothering}。",
+											"67\u201372",
+											"{@vehicle Space galleon|AAG} Great Kindori, captained by Mystan the Mighty ({@creature djinni}†) and crewed by 1 {@creature invisible stalker} (first mate), 1 {@creature couatl},† 17 {@creature aarakocra}, and 1 {@creature rug of smothering}",
 											"{@dice 2d6 + 2}"
 										],
 										[
-											"73–78",
-											"{@vehicle Squid ship|AAG} Syken's Reach，船长是海盗Arviglas Syken（人类{@creature bandit captain}），船员有1{@creature cambion}†（Syken的女儿Tenebra）和11{@creature Thug||thugs}",
+											"73\u201378",
+											"{@vehicle Squid ship|AAG} Syken's Reach, captained by the pirate Arviglas Syken (human {@creature bandit captain}) and crewed by 1 {@creature cambion}† (Syken's daughter, Tenebra) and 11 {@creature Thug||thugs}",
 											"{@dice 1d12}"
 										],
 										[
-											"79–84",
-											"{@vehicle Star moth|AAG} Apex，船长为Xaleen ({@creature astral elf commander|BAM}*†)，船员为11 {@creature Astral Elf Warrior|BAM|astral elf warriors}*和1 {@creature astral elf aristocrat|BAM}*†。",
+											"79\u201384",
+											"{@vehicle Star moth|AAG} Apex, captained by Xaleen ({@creature astral elf commander|BAM}*†) and crewed by 11 {@creature Astral Elf Warrior|BAM|astral elf warriors}* and 1 {@creature astral elf aristocrat|BAM}*†",
 											"{@dice 1d12}"
 										],
 										[
-											"85–90",
-											"{@vehicle Turtle ship|AAG} Snorkel，船长为Shelby Norkel (地精 {@creature mage}†)，船员为15 {@creature Autognome|BAM|autognomes}*。",
+											"85\u201390",
+											"{@vehicle Turtle ship|AAG} Snorkel, captained by Shelby Norkel (gnome {@creature mage}†) and crewed by 15 {@creature Autognome|BAM|autognomes}*",
 											"{@dice 1d10 + 3}"
 										],
 										[
-											"91–94",
-											"{@vehicle Tyrant ship|AAG} Doomdreamer, 船员: {@dice 2d4 + 2} {@creature Beholder||beholders}",
+											"91\u201394",
+											"{@vehicle Tyrant ship|AAG} Doomdreamer, crewed by {@dice 2d4 + 2} {@creature Beholder||beholders}",
 											"{@dice 1d8}"
 										],
 										[
-											"95–00",
-											"{@vehicle Wasp ship|AAG}冒险，被遗弃和漂流（25%的机会，其{@item spelljamming helm|AAG}仍在船上）。",
-											"—"
+											"95\u201300",
+											"{@vehicle Wasp ship|AAG} Adventure, abandoned and adrift (25 percent chance that its {@item spelljamming helm|AAG} is still aboard)",
+											"\u2014"
 										]
 									],
 									"data": {
@@ -601,7 +601,7 @@
 							"type": "entries",
 							"name": "Ship-to-Ship Starting Distance",
 							"entries": [
-								"在交战开始时，DM决定一艘船离它的敌人有多远。开始交战距离表中提供了三种可能性。距离越短，船员们就越没有时间来装载武器和做其他准备。",
+								"At the start of an engagement, the DM decides how far a ship is from its enemies. Three possibilities are provided in the Starting Encounter Distance table. The shorter the distance, the less time crews have to load weapons and make other preparations.",
 								{
 									"type": "table",
 									"colLabels": [
@@ -615,15 +615,15 @@
 									"rows": [
 										[
 											"250 feet",
-											"{@object ballista||ballistae}、{@object Mangonel||mangonels}、{@item shortbow|phb|shortbows}、{@item longbow|phb|longbows}、{@item light crossbow|phb|light crossbows}和{@item heavy crossbow|phb|heavy crossbows}的远距离。"
+											"Long range for {@object ballista||ballistae}, {@object Mangonel||mangonels}, {@item shortbow|phb|shortbows}, {@item longbow|phb|longbows}, {@item light crossbow|phb|light crossbows}, and {@item heavy crossbow|phb|heavy crossbows}"
 										],
 										[
 											"500 feet",
-											"对{@item longbow|phb|longbows}和{@object Mangonel||mangonels}来说是远距离的；超出{@object ballista||ballistae}和弩的射程。"
+											"Long range for {@item longbow|phb|longbows} and {@object Mangonel||mangonels}; beyond the range of {@object ballista||ballistae} and crossbows"
 										],
 										[
 											"1,000 feet",
-											"超过大多数远程武器的射程"
+											"Beyond the range of most ranged weapons"
 										]
 									]
 								}
@@ -634,7 +634,7 @@
 							"type": "entries",
 							"name": "Crashing",
 							"entries": [
-								"当法术干扰船撞上一个生物或一个可以合理伤害它的物体时，该船和它所撞击的生物或物体都会受到基于被撞击物体大小的冲击伤害，如下表所示。",
+								"When a spelljamming ship crashes into a creature or an object that could reasonably damage it, both the ship and the creature or object it struck take bludgeoning damage based on the size of the struck object, as shown in the table below.",
 								{
 									"type": "table",
 									"colLabels": [
@@ -647,7 +647,7 @@
 									],
 									"rows": [
 										[
-											"大型",
+											"Large",
 											"{@dice 4d10}"
 										],
 										[
@@ -655,12 +655,12 @@
 											"{@dice 8d10}"
 										],
 										[
-											"巨大的",
+											"Gargantuan",
 											"{@dice 16d10}"
 										]
 									]
 								},
-								"如果飞船撞上了没有命中率的东西（如行星或月球），则只对飞船施加伤害。在撞上巨大的或不可移动的生物或物体后，飞船会停下来；否则，如果飞船还有剩余的移动力，它可以继续移动，而被撞的东西会移动到最近的、不在飞船路径上的无人空间。"
+								"If the ship runs into something that doesn't have hit points (such as a planet or a moon), apply the damage only to the ship. The ship stops after crashing into a Gargantuan or immovable creature or object; otherwise, the ship can continue moving ifit has any movement left, and whatever it struck moves to the nearest unoccupied space that isn't in the ship's path."
 							],
 							"id": "007"
 						}
@@ -670,7 +670,7 @@
 					"type": "entries",
 					"name": "Shipboard Tasks",
 					"entries": [
-						"在航行的不平静部分，咒语船的船长可以通过几种方式让船员们工作。如果一个角色想找工作做，或者船长想让一个角色忙起来，就在船上任务表上滚动，以确定需要做什么。完成一项任务的时间至少是1小时，某些任务可能需要更长的时间，由你决定。",
+						"During the uneventful part of a voyage, the captain of a spelljamming ship can put crew members to work in several ways. If a character is looking for a job to do, or if a captain wants to keep a character busy, roll on the Shipboard Tasks table to determine what needs to be done. The time it takes to complete a task is at least 1 hour, and certain tasks might take longer at your discretion.",
 						{
 							"type": "table",
 							"caption": "Shipboard Tasks",
@@ -685,51 +685,51 @@
 							"rows": [
 								[
 									"1",
-									"刮掉船体上的藤壶。"
+									"Scrape barnacles off the hull."
 								],
 								[
 									"2",
-									"擦洗厨房里的锅和碗。"
+									"Scrub pots and dishes in the galley."
 								],
 								[
 									"3",
-									"在厨房里切菜。"
+									"Chop vegetables in the galley."
 								],
 								[
 									"4",
-									"擦拭甲板或清扫货舱。"
+									"Swab the deck or sweep the cargo hold."
 								],
 								[
 									"5",
-									"更新船上的导航图，这需要制图师的工具。"
+									"Update the ship's navigational charts, which requires cartographer's tools."
 								],
 								[
 									"6",
-									"修理船长最喜欢的那双靴子，这需要鞋匠的工具。(一个{@spell mending}的法术也能做到。)"
+									"Repair the captain's favorite pair of boots, which requires cobbler's tools. (A {@spell mending} spell also does the trick.)"
 								],
 								[
 									"7",
-									"修复船只的表面损伤，这需要木匠工具或木雕工具。(一个{@spell mending}的法术也能做到。)"
+									"Repair superficial damage to the ship, which requires carpenter's tools or woodcarver's tools. (A {@spell mending} spell also does the trick.)"
 								],
 								[
 									"8",
-									"创作一首新的歌谣，这需要一件乐器。"
+									"Compose a new chantey, which requires a musical instrument."
 								],
 								[
 									"9",
-									"用高大的故事或八卦来取悦船员。"
+									"Entertain the crew with tall tales or gossip."
 								],
 								[
 									"10",
-									"修复船长破损的望远镜，这需要珠宝商的工具或工匠的工具。(一个{@spell mending}的法术也能做到。)"
+									"Fix the captain's broken spyglass, which requires jeweler's tools or tinker's tools. (A {@spell mending} spell also does the trick.)"
 								],
 								[
 									"11",
-									"教给船长他们还不知道的语言的基本知识。"
+									"Teach the captain the basics of a language they don't already know."
 								],
 								[
 									"12",
-									"为船长的餐桌准备一顿美味的晚餐，这需要厨师的餐具。"
+									"Prepare a tasty dinner for the captain's table, which requires cook's utensils."
 								]
 							]
 						}
@@ -740,7 +740,7 @@
 					"type": "entries",
 					"name": "Ship Quirks",
 					"entries": [
-						"如果你想为一艘船增加一点 \"个性\"，就在船的怪癖表上滚动。",
+						"Roll on the Ship Quirks table if you want to add a bit of \"personality\" to a ship.",
 						{
 							"type": "table",
 							"caption": "Ship Quirks",
@@ -755,43 +755,43 @@
 							"rows": [
 								[
 									"1",
-									"一个健谈但无害的灵魂在货舱里出没。"
+									"A chatty but harmless spirit haunts the cargo hold."
 								],
 								[
 									"2",
-									"船体过度的嘎吱声在整个船上回荡。"
+									"The excessive creaking of the hull echoes throughout the ship."
 								],
 								[
 									"3",
-									"任何将自己从飞船的{@item spelljamming helm|AAG}中移开的生物都会受到一种惊人但无害的魔法冲击。"
+									"Any creature that removes itself from the ship's {@item spelljamming helm|AAG} receives a startling but harmless magical shock."
 								],
 								[
 									"4",
-									"该船的舷梯比其他大多数类似船只的舷梯都要小。"
+									"The ship's companionways are smaller than those found in most other similar vessels."
 								],
 								[
 									"5",
-									"这艘船每当停下来的时候，都会发出一种似乎是蔑视的呻吟声。"
+									"The ship makes a groaning sound in what seems like defiance whenever it comes to a stop."
 								],
 								[
 									"6",
-									"主甲板的地板上装饰着一个神秘的星图的风格化渲染，不时地跳动着闪烁的色彩。"
+									"The floor of the main deck is adorned with a stylized rendering of a mysterious star chart that pulsates occasionally with scintillating colors."
 								],
 								[
 									"7",
-									"船上的空气包络层有一种咸咸的味道。"
+									"The ship's air envelope has a salty, briny smell."
 								],
 								[
 									"8",
-									"整艘船的隔板上都写着几行诗句。"
+									"Bulkheads throughout the ship have lines of poetry scrawled on them."
 								],
 								[
 									"9",
-									"常常有工具被遗弃后不见了，只是在{@dice 1d4}小时后又出现在船上的另一个地方。"
+									"Unattended tools often go missing, only to reappear {@dice 1d4} hours later in another part of the ship."
 								],
 								[
 									"10",
-									"一只坐在船上的生物{@item spelljamming helm|AAG}会在心中听到微弱的太空航行曲调，除非船只遭受攻击。"
+									"A creature seated in the ship's {@item spelljamming helm|AAG} hears faint spacefaring chanteys in its mind except when the ship is under attack."
 								]
 							]
 						}
@@ -802,8 +802,8 @@
 					"type": "entries",
 					"name": "Ship Cargo",
 					"entries": [
-						"要随机确定法术干扰船的货舱里有什么，请在廉价货物表上滚动{@dice 1d6}次，在昂贵的货物表上滚动{@dice 1d4-1}次。重复的结果表示该船有更多相同的货物。",
-						"如果一个货柜被锁住了，至少有一个船员（通常是船长）拥有它的钥匙。一个角色可以尝试用盗贼的工具来打开一个集装箱，只要成功地进行DC20的灵巧检查就可以了。",
+						"To randomly determine what's in the cargo hold of a spelljamming ship, roll {@dice 1d6} times on the Cheap Cargo table and {@dice 1d4-1} times on the Expensive Cargo table. A duplicate result indicates that the ship has more of the same cargo.",
+						"If a cargo container is locked, at least one crew member (typically the captain) has the key to it. A character can try to unlock a container using thieves' tools, doing so with a successful DC 20 Dexterity check.",
 						{
 							"type": "table",
 							"caption": "Cheap Cargo",
@@ -818,51 +818,51 @@
 							"rows": [
 								[
 									"1",
-									"树干上有十件{@item traveler's clothes|PHB}的衣服(每件2gp)"
+									"Trunk containing ten outfits of {@item traveler's clothes|PHB} (2 gp each)"
 								],
 								[
 									"2",
-									"装有一百块肥皂的板条（每块2厘）。"
+									"Crate containing one hundred bars of soap (2 cp each)"
 								],
 								[
 									"3",
-									"二十枚弹弓(每枚5戈比)"
+									"Twenty ballista bolts (5 gp each)"
 								],
 								[
 									"4",
-									"装有50只活鸡的鸡舍（每只2厘钱）。"
+									"Coop containing fifty live chickens (2 cp each)"
 								],
 								[
 									"5",
-									"装有20轮奶酪的板条箱（每轮5美分）。"
+									"Crate containing twenty wheels of cheese (5 sp each)"
 								],
 								[
 									"6",
-									"锁定的笼子里有一只你选择的友好野兽"
+									"Locked cage containing one friendly Beast of your choice"
 								],
 								[
 									"7",
-									"10桶40加仑的淡水"
+									"Ten 40-gallon barrels of fresh water"
 								],
 								[
 									"8",
-									"十个板条箱，每个箱子里有五十天的口粮（每个箱子25金币）。"
+									"Ten crates, each containing fifty days of rations (25 gp per crate)"
 								],
 								[
 									"9",
-									"锁定的笼子里有一只你选择的敌对野兽"
+									"Locked cage containing one hostile Beast of your choice"
 								],
 								[
 									"10",
-									"装有50个{@item Perfume (vial)|PHB|vials of perfume}的箱子(每个2戈比)"
+									"Chest containing fifty {@item Perfume (vial)|PHB|vials of perfume} (2 gp each)"
 								],
 								[
 									"11",
-									"装有50个面包的板条箱（每个2cp）。"
+									"Crate containing fifty loaves of bread (2 cp each)"
 								],
 								[
 									"12",
-									"10桶40加仑的麦芽酒（每桶4戈比）"
+									"Ten 40-gallon barrels of ale (4 gp each)"
 								]
 							]
 						},
@@ -880,51 +880,51 @@
 							"rows": [
 								[
 									"1",
-									"装有50个空白{@item Spellbook|PHB|spellbooks}的箱子(每个50gp)"
+									"Crate containing fifty blank {@item Spellbook|PHB|spellbooks} (50 gp each)"
 								],
 								[
 									"2",
-									"装有一百个{@item Ink (1-ounce bottle)|PHB|1-ounce bottles of ink}(每个10gp)和一千张{@item Parchment (one sheet)|PHB|parchment}(每个1sp)的木箱"
+									"Crate containing one hundred {@item Ink (1-ounce bottle)|PHB|1-ounce bottles of ink} (10 gp each) and one thousand sheets of {@item Parchment (one sheet)|PHB|parchment} (1 sp each)"
 								],
 								[
 									"3",
-									"装有20个{@item Potion of Healing||potions of healing}、{@item Alchemist's Fire (flask)|PHB|flasks of alchemist's fire}或{@item Antitoxin (vial)|PHB|vials of antitoxin}的箱子(每个50gp)"
+									"Crate containing twenty {@item Potion of Healing||potions of healing}, {@item Alchemist's Fire (flask)|PHB|flasks of alchemist's fire}, or {@item Antitoxin (vial)|PHB|vials of antitoxin} (50 gp each)"
 								],
 								[
 									"4",
-									"装有一百瓶精致葡萄酒的木箱（每瓶25戈比）。"
+									"Crate containing one hundred bottles of exquisite wine (25 gp each)"
 								],
 								[
 									"5",
-									"精心制作的家具一套(2,500 gp)"
+									"Set of exquisitely crafted furniture (2,500 gp)"
 								],
 								[
 									"6",
-									"上了锁的行李箱，里面有五个没有子弹的{@item Pistol||pistols}(每个250gp)和一盒100颗子弹"
+									"Locked trunk containing five unloaded {@item Pistol||pistols} (250 gp each) and a box of 100 bullets"
 								],
 								[
 									"7",
-									"装有水晶或象牙制成的精致龙棋套装的上锁箱子（2,500戈比）"
+									"Locked case containing an exquisite Dragonchess set made of crystal or ivory (2,500 gp)"
 								],
 								[
 									"8",
-									"上锁的箱子里有十个{@item Bomb||bombs}(每个150gp；见{@book Dungeon Master's Guide|DMG}中的\"{@book Explosives|DMG|9|Explosives}\")"
+									"Locked trunk containing ten {@item Bomb||bombs} (150 gp each; see \"{@book Explosives|DMG|9|Explosives}\" in the {@book Dungeon Master's Guide|DMG})"
 								],
 								[
 									"9",
-									"装有一百个烟花的箱子（每个25戈比）。"
+									"Crate containing one hundred fireworks (25 gp each)"
 								],
 								[
 									"10",
-									"装有五个未装子弹的箱子{@item Musket||muskets}(每个500gp)和一箱100颗子弹的箱子"
+									"Crate containing five unloaded {@item Musket||muskets} (500 gp each) and a box of 100 bullets"
 								],
 								[
 									"11",
-									"装有五个{@item Spyglass|PHB|spyglasses}的上锁箱子(每个1,000gp)"
+									"Locked case containing five {@item Spyglass|PHB|spyglasses} (1,000 gp each)"
 								],
 								[
 									"12",
-									"十个20磅的{@item Gunpowder Keg||kegs of gunpowder}(每个250gp；见{@book Dungeon Master's Guide|DMG}中的\"{@book Explosives|DMG|9|Explosives}\" )"
+									"Ten 20-pound {@item Gunpowder Keg||kegs of gunpowder} (250 gp each; see \"{@book Explosives|DMG|9|Explosives}\" in the {@book Dungeon Master's Guide|DMG})"
 								]
 							]
 						}

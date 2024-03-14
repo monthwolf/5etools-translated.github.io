@@ -1,0 +1,4207 @@
+{
+	"magicvariant": [
+		{
+			"name": "+1 Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "DMG",
+				"page": 150,
+				"srd": true,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用这块魔法弹药进行攻击和伤害的时候有{=bonusWeapon}的奖励。一旦击中目标，该弹药就不再具有魔力。"
+				],
+				"lootTables": [
+					"Magic Item Table B"
+				]
+			}
+		},
+		{
+			"name": "+1 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"basicRules": true,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusAc": "+1",
+				"entries": [
+					"穿着这件盔甲时，你有一个{=bonusAc}的交流奖励。"
+				]
+			}
+		},
+		{
+			"name": "+1 Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S"
+				}
+			],
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item +1 shield}}.",
+				"当持有此盾牌时，你有一个+1的交流奖励。这个加成是在盾牌的正常加成之外的。"
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "DMG",
+				"page": 200,
+				"srd": true,
+				"tier": "major",
+				"rarity": "uncommon",
+				"bonusAc": "+1",
+				"entries": [
+					"当持有此盾牌时，你有一个{=bonusAc}AC的奖励。这个加成是在盾牌的正常加成之外的。"
+				]
+			}
+		},
+		{
+			"name": "+1 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "DMG",
+				"page": 213,
+				"srd": true,
+				"basicRules": true,
+				"tier": "major",
+				"rarity": "uncommon",
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用该魔法武器的攻击和伤害卷上有{=bonusWeapon}的奖励。"
+				],
+				"lootTables": [
+					"Magic Item Table F"
+				]
+			}
+		},
+		{
+			"name": "+1 Weapon (no damage)",
+			"type": "GV",
+			"requires": [
+				{
+					"net": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "DMG",
+				"page": 213,
+				"tier": "major",
+				"rarity": "uncommon",
+				"bonusWeaponAttack": "+1",
+				"entries": [
+					"你在使用该武器进行攻击时有{=bonusWeaponAttack}的加成。"
+				]
+			}
+		},
+		{
+			"name": "+2 Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "DMG",
+				"page": 150,
+				"srd": true,
+				"tier": "minor",
+				"rarity": "rare",
+				"bonusWeapon": "+2",
+				"entries": [
+					"你在使用这块魔法弹药进行攻击和伤害的时候有{=bonusWeapon}的奖励。一旦击中目标，该弹药就不再具有魔力。"
+				],
+				"lootTables": [
+					"Magic Item Table C"
+				]
+			}
+		},
+		{
+			"name": "+2 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"basicRules": true,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusAc": "+2",
+				"entries": [
+					"穿着这件盔甲时，你有一个{=bonusAc}的交流奖励。"
+				]
+			}
+		},
+		{
+			"name": "+2 Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S"
+				}
+			],
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item +2 shield}}.",
+				"当持有此盾牌时，你有一个+2的交流奖励。这个加成是在盾牌的正常加成之外的。"
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "DMG",
+				"page": 200,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusAc": "+2",
+				"entries": [
+					"当持有此盾牌时，你有一个{=bonusAc}AC的奖励。这个加成是在盾牌的正常加成之外的。"
+				]
+			}
+		},
+		{
+			"name": "+2 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "DMG",
+				"page": 213,
+				"srd": true,
+				"basicRules": true,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeapon": "+2",
+				"entries": [
+					"你在使用该魔法武器的攻击和伤害卷上有{=bonusWeapon}的奖励。"
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			}
+		},
+		{
+			"name": "+2 Weapon (no damage)",
+			"type": "GV",
+			"requires": [
+				{
+					"net": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "DMG",
+				"page": 213,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeaponAttack": "+2",
+				"entries": [
+					"你在使用该武器进行攻击时有{=bonusWeaponAttack}的加成。"
+				]
+			}
+		},
+		{
+			"name": "+3 Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "DMG",
+				"page": 150,
+				"srd": true,
+				"tier": "minor",
+				"rarity": "very rare",
+				"bonusWeapon": "+3",
+				"entries": [
+					"你在使用这块魔法弹药进行攻击和伤害的时候有{=bonusWeapon}的奖励。一旦击中目标，该弹药就不再具有魔力。"
+				],
+				"lootTables": [
+					"Magic Item Table D"
+				]
+			}
+		},
+		{
+			"name": "+3 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"basicRules": true,
+				"tier": "major",
+				"rarity": "legendary",
+				"bonusAc": "+3",
+				"entries": [
+					"穿着这件盔甲时，你有一个{=bonusAc}的交流奖励。"
+				]
+			}
+		},
+		{
+			"name": "+3 Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S"
+				}
+			],
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item +3 shield}}.",
+				"当持有此盾牌时，你有一个+3的交流奖励。这个加成是在盾牌的正常加成之外的。"
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "DMG",
+				"page": 200,
+				"srd": true,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusAc": "+3",
+				"entries": [
+					"当持有此盾牌时，你有一个{=bonusAc}AC的奖励。这个加成是在盾牌的正常加成之外的。"
+				]
+			}
+		},
+		{
+			"name": "+3 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "DMG",
+				"page": 213,
+				"srd": true,
+				"basicRules": true,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeapon": "+3",
+				"entries": [
+					"你在使用该魔法武器的攻击和伤害卷上有{=bonusWeapon}的奖励。"
+				],
+				"lootTables": [
+					"Magic Item Table H"
+				]
+			}
+		},
+		{
+			"name": "+3 Weapon (no damage)",
+			"type": "GV",
+			"requires": [
+				{
+					"net": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "DMG",
+				"page": 213,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeaponAttack": "+3",
+				"entries": [
+					"你在使用该武器进行攻击时有{=bonusWeaponAttack}的加成。"
+				]
+			}
+		},
+		{
+			"name": "Acheron Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Acheron Blade ",
+				"source": "EGW",
+				"page": 265,
+				"rarity": "rare",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"这把剑的黑色剑身是由一种神秘的奥术合金制成的。你在使用这把魔法武器的攻击和伤害卷中获得{=bonusWeapon}的奖励。当这把剑在你身上的时候，你对变成亡灵的效果免疫。",
+					{
+						"type": "entries",
+						"name": "Dark Blessing",
+						"entries": [
+							"当持有这把剑时，你可以使用一个动作给自己带来{@dice 1d4 + 4}的临时命中率。这个属性直到下一个黄昏才能再次使用。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Disheartening Strike",
+						"entries": [
+							"当你用此武器攻击击中一个生物时，你可以让目标充满不安的恐惧：目标在你下一回合结束前进行的下一次蓄力攻击中处于劣势。如果该生物对{@condition frightened}的条件免疫，则会忽略这个效果。一旦你使用这个属性，在下一个黄昏之前，你不能再这样做。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Adamantine Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"excludes": {
+				"name": "Energy Cell"
+			},
+			"ammo": true,
+			"entries": [
+				"由金刚砂制成或涂有金刚砂的弹药在用于击碎物体时异常有效。每当一块金刚砂弹药击中一个物体时，都是一个重要的命中。",
+				"十件弹药的金刚砂版本比普通版本多花费500金币，无论弹药是由金属制成还是涂有金属。"
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "XGE",
+				"page": 78,
+				"tier": "minor",
+				"rarity": "unknown",
+				"entries": [
+					"每当你使用这种弹药击中一个物体，该击中是一个关键的击中。"
+				]
+			}
+		},
+		{
+			"name": "Adamantine Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA"
+				},
+				{
+					"type": "MA"
+				}
+			],
+			"excludes": {
+				"name": "Hide Armor"
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "DMG",
+				"page": 150,
+				"srd": true,
+				"tier": "major",
+				"rarity": "uncommon",
+				"entries": [
+					"这套盔甲是用金刚砂加固的，是现存最坚硬的物质之一。当你穿着它时，任何对你的关键打击都会变成普通打击。"
+				]
+			}
+		},
+		{
+			"name": "Adamantine Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"entries": [
+				"由金刚砂制成或涂有金刚砂的近战武器在用于击碎物体时异常有效。每当金刚砂武器击中一个物体时，该命中是一个关键命中。",
+				"近战武器的金刚砂版本比普通版本多花费500金币，无论武器是由金属制成还是涂有金刚砂。"
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "XGE",
+				"page": 78,
+				"tier": "major",
+				"rarity": "unknown",
+				"valueExpression": "[[baseItem.value]] + 50000",
+				"entries": [
+					"每当你用这把武器击中一个物体时，该击中是一个关键的击中。"
+				]
+			}
+		},
+		{
+			"name": "Antimagic Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "LA"
+				},
+				{
+					"type": "MA"
+				},
+				{
+					"type": "HA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Antimagic ",
+				"source": "BMT",
+				"page": 65,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"entries": [
+					"穿上这套盔甲后，你可以利用你的反应，在对抗法术的豁免检定中获得优势。一旦这个特性被使用，直到第二天黎明之前都无法再次使用。",
+					"此外，当你穿戴这件盔甲时，你可以使用它施展{@spell Antimagic Field}，无需法术材料。一旦这个特性被使用，直到第二天黎明之前都无法再次使用。"
+				],
+				"attachedSpells": [
+					"antimagic field"
+				]
+			}
+		},
+		{
+			"name": "Armblade",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"excludes": {
+				"property": "2H"
+			},
+			"inherits": {
+				"nameSuffix": " Armblade",
+				"source": "ERLW",
+				"page": 276,
+				"rarity": "common",
+				"reqAttune": "by a warforged",
+				"reqAttuneTags": [
+					{
+						"race": "warforged|erlw"
+					}
+				],
+				"entries": [
+					"臂章是一种附着在你手臂上的魔法武器，只要你与之相适应，就会与你密不可分。要调和这个物品，你必须在整个调和期间将它紧贴在你的前臂上。",
+					"作为一个额外的动作，你可以将臂章收回到你的前臂，或者从那里伸出来。当它伸展时，你可以像拿着武器一样使用它，而且你不能用那只手做其他用途。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Armor of Acid Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Acid Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"acid"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Cold Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Cold Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"cold"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Fire Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Fire Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"fire"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Force Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Force Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"force"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Fungal Spores",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "MA"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Fungal Spores",
+				"source": "BMT",
+				"page": 65,
+				"rarity": "uncommon",
+				"entries": [
+					"穿上这件盔甲后，你可以花费一个额外动作让盔甲散发出有毒的孢子，填满以自己为中心的一个半径为10英尺的球形范围。该区域内的每个生物必须通过一次 DC 15 的体质豁免才能免疫中毒状态，直到你的下一个回合结束。一旦这个效果被使用，直到第二天黎明前都不能再次使用。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Armor of Gleaming",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA"
+				},
+				{
+					"type": "MA"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Gleaming",
+				"source": "XGE",
+				"page": 136,
+				"tier": "minor",
+				"rarity": "common",
+				"entries": [
+					"这套盔甲永远不会变脏。"
+				]
+			}
+		},
+		{
+			"name": "Armor of Lightning Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Lightning Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"lightning"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Necrotic Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Necrotic Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"necrotic"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Poison Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Poison Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"poison"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Psychic Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Psychic Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"psychic"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Radiant Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Radiant Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"radiant"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Safeguarding",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Safeguarding",
+				"source": "BGG",
+				"page": 111,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"entries": [
+					"这套盔甲的胸前中央镶嵌着一个刻有盾符文的黄水晶。",
+					"穿上这套盔甲后，你的生命值上限将增加一个数值，该数值等于10 + 你的等级。",
+					{
+						"type": "entries",
+						"name": "Invoking the Rune",
+						"entries": [
+							"作为一个动作，你可以激活盔甲上的符文来施放{@spell beacon of hope}法术；该法术持续时间为1分钟，且不需要{@status concentration}。一旦符文被激活，直到第二天黎明之前都不能再次激活。"
+						]
+					}
+				],
+				"attachedSpells": [
+					"beacon of hope"
+				]
+			}
+		},
+		{
+			"name": "Armor of the Fallen",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "MA"
+				},
+				{
+					"type": "HA"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of the Fallen",
+				"source": "BMT",
+				"page": 65,
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"entries": [
+					"穿上这件盔甲后，你可以使用它来施放{@spell Speak with Dead}或{@spell Animate Dead}中的任意一个。一旦盔甲以这种方式施放了一个法术，直到第二天黎明之前它就无法再施放任何法术。",
+					"你的灵魂维系着这套盔甲。如果你在与盔甲保持认同的状态下死亡，那么这套盔甲将被摧毁。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Armor of Thunder Resistance",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Thunder Resistance",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"resist": [
+					"thunder"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"hasRefs": true,
+				"entries": [
+					"{#itemEntry Armor of Resistance}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Weightlessness",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "LA"
+				},
+				{
+					"type": "MA"
+				},
+				{
+					"type": "HA"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Weightlessness",
+				"source": "BMT",
+				"page": 65,
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d4 + 1}",
+				"charges": 5,
+				"entries": [
+					"这件盔甲有5个充能。当你穿戴它时，你可以使用一个奖励动作来消耗1个或更多充能，从盔甲中施放以下法术之一，以自己为目标：{@spell Jump} (1个充能) 或 {@spell Levitate} (2个充能)。",
+					"这套护甲在每天黎明时恢复{@dice 1d4 + 1}已用尽的充能。"
+				],
+				"attachedSpells": [
+					"jump",
+					"levitate"
+				]
+			}
+		},
+		{
+			"name": "Arrow of Slaying (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"arrow": true
+				},
+				{
+					"bolt": true
+				}
+			],
+			"excludes": {
+				"name": [
+					"Energy Cell",
+					"Modern Bullet",
+					"Modern Bullets (10)",
+					"Renaissance Bullet",
+					"Renaissance Bullets (10)"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item arrow of slaying}}.",
+				"一 {@i arrow of slaying} 是一种魔法武器，旨在杀死特定类型的生物。有些比其他的更专注; 例如，有 {@i arrows of dragon slaying} 和 {@i arrows of blue dragon slaying}。如果属于与 {@i arrow of slaying} 相关的类型、种族或群体的生物受到箭矢伤害，该生物必须进行一次 DC 17 的体质豁免检定，未通过检定则额外受到 {@dice 6d10} 穿刺伤害，通过检定则额外受到一半的伤害。",
+				"一旦一个{@i arrow of slaying}对生物造成额外伤害，它就会变成一支非魔法箭。",
+				"其他类型的此类魔法弹药也存在，比如用于弩箭的杀戮之箭，不过箭是最常见的。"
+			],
+			"inherits": {
+				"nameSuffix": " of Slaying",
+				"source": "DMG",
+				"page": 152,
+				"srd": true,
+				"tier": "minor",
+				"rarity": "very rare",
+				"entries": [
+					"{=baseName/at}{=baseName/l}的杀戮是一种魔法武器，旨在杀死一种特定的生物。有些比其他的更有针对性；例如，既有{@i {=baseName/l}屠龙之术}，也有{@i {=baseName/l}屠蓝龙之术}。如果属于与{=baseName/a}{=baseName/l}屠戮相关的类型、种族或群体的生物受到{=baseName/l}屠戮的伤害，该生物必须进行DC17宪法救赎，救赎失败会受到额外的{@dice 6d10}穿刺伤害，救赎成功会受到一半的额外伤害。",
+					"一旦{=baseName/a}{=baseName/l}的杀戮对一个生物造成其额外的伤害，它就会变成一个非魔法的{=baseName/l}。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ascendant Dragon's Wrath Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Ascendant Dragon's Wrath ",
+				"source": "FTD",
+				"page": 25,
+				"rarity": "legendary",
+				"reqAttune": true,
+				"bonusWeapon": "+3",
+				"entries": [
+					"这种武器上装饰有龙头、爪子、翅膀、鳞片或德拉克斯语字母。当它浸泡在龙的囤积物中时，它会吸收龙的呼吸武器的能量并以其特殊属性造成该类型的伤害。",
+					"每当你用此武器的攻击卷轴掷出20分时，你选择的目标5英尺内的每个生物都会受到龙的呼吸武器造成的5种伤害。",
+					"你在使用该武器的攻击和伤害卷上获得{=bonusWeapon}的奖励。一旦命中，该武器会造成额外的{@damage 3d6}龙息武器类型的伤害。",
+					"作为一个动作，你可以从武器中释放出一个60英尺的破坏性能量锥。该区域内的每个生物都必须做一个DC18的灵巧救赎，如果救赎失败，将受到龙息武器造成的{@damage 12d6}伤害，如果救赎成功，将受到一半的伤害。一旦这个动作被使用，在下一个黎明之前不能再次使用。"
+				]
+			}
+		},
+		{
+			"name": "Barding",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " Barding",
+				"nameRemove": " Armor",
+				"source": "PHB",
+				"page": 157,
+				"srd": true,
+				"basicRules": true,
+				"type": "TAH",
+				"rarity": "none",
+				"weightMult": 2,
+				"weightExpression": "[[baseItem.weight]] * 2",
+				"valueMult": 4,
+				"valueExpression": "[[baseItem.value]] * 4",
+				"barding": true,
+				"entries": [
+					"盔甲是为保护动物的头部、颈部、胸部和身体而设计的盔甲。本章盔甲表上显示的任何类型的盔甲都可以作为护甲购买。其成本是为人类制造的同等盔甲的四倍，重量也是其两倍。"
+				]
+			}
+		},
+		{
+			"name": "Berserker Axe",
+			"type": "GV",
+			"requires": [
+				{
+					"axe": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Berserker ",
+				"source": "DMG",
+				"page": 155,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"curse": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用该魔法武器进行攻击和伤害的过程中获得+1的奖励。此外，当你与此武器相适应时，你每达到一个等级，你的最大命中率增加1。",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"这把斧头是被诅咒的，而与之相配的诅咒也会延伸到你身上。只要你还被诅咒，你就不愿意和这把斧头分开，一直保持它在你手边。你在使用这把以外的武器进行攻击时也有劣势，除非在你周围60英尺内没有你能看到或听到的敌人。"
+						]
+					},
+					"当斧头在你手上时，每当有敌意的生物伤害你，你必须在DC15智慧救赎中成功，否则就会狂暴。在狂暴状态下，你必须每回合使用你的行动，用斧头攻击离你最近的生物。如果你可以作为{@action Attack}行动的一部分进行额外的攻击，你就使用这些额外的攻击，在你倒下当前的目标之后，移动到下一个最近的生物身上进行攻击。如果你有多个可能的目标，你就随机攻击一个。你是狂暴的，直到你开始你的回合时，你周围60英尺内没有你能看到或听到的生物。"
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Blade of the Medusa",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of the Medusa",
+				"source": "LLK",
+				"page": 53,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"curse": true,
+				"entries": [
+					"当你用这把魔法武器攻击生物并在攻击骰掷出20时，该生物除了遭受攻击的正常效果外，还必须进行一次DC 15的体质豁免才能。如果未通过豁免，该生物将被束缚，并且必须在每个回合结束时进行另一次体质豁免。如果它成功地对抗了这个效果三次，效果将结束。如果它连续三次未能通过豁免，它将变成石头，并且受到{@condition petrified}状态的影响，持续1小时。",
+					"如果一个生物对武器类型的伤害免疫，没有肉体构成的身体，或者有传说中的行动，那么它就对这个效果免疫。",
+					{
+						"name": "Curse",
+						"type": "entries",
+						"entries": [
+							"这件武器被诅咒了，与它建立联系会将诅咒传递给你。除非用 {@spell remove curse} 法术或类似魔法解除诅咒，否则你不愿意与这件武器分开。每当你用这件武器攻击生物并在攻击骰掷出1时，你必须通过一次 DC 15 体质豁免检定，否则会 {@condition restrained} 并被迫进行额外的豁免检定以免受到 {@condition petrified} 的影响。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Blade of the Wood",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of the Wood",
+				"source": "HWCS",
+				"page": 213,
+				"rarity": "rare",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"charges": 2,
+				"entries": [
+					"一把精美打造的剑，上面雕刻着精致的花纹，散发着微弱的生命之音。",
+					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
+					"这把剑有2次使用机会。你可以消耗一次使用机会，说出口令，以自己为中心施放{@spell spike growth}（豁免 DC 16）。你可以在这个地形中自由穿行，不受影响。",
+					"每天黎明时，(the sword) 会恢复一次充能。"
+				],
+				"attachedSpells": [
+					"spike growth"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bloodseeker Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Bloodseeker ",
+				"source": "BMT",
+				"page": 66,
+				"rarity": "very rare",
+				"entries": [
+					"使用这种弹药进行的远程攻击投掷对任何生物都有优势，只要它没有所有的生命值。"
+				]
+			}
+		},
+		{
+			"name": "Bloodshed Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Bloodshed ",
+				"source": "BGG",
+				"page": 111,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"bonusWeaponDamage": "+1",
+				"entries": [
+					"这把剑的把手上镶嵌着一块刻有血符的红玉。",
+					"你可以将你的体质调整值（最低为{=bonusWeaponDamage}）加到使用这把武器进行攻击的伤害骰中。",
+					{
+						"type": "entries",
+						"name": "Invoking the Rune",
+						"entries": [
+							"当你用这把武器攻击一个生物时，你可以激活剑上的符文，使其闪耀着深红色的光芒，并注入你的攻击中，增加嗜血的精准度。然后，你花费并投掷你未使用的一个生命骰，并将投掷的数字加到攻击骰上。你可以选择在投掷 {@dice d20} 后激活符文。",
+							"如果这次攻击命中，你还可以花费并投掷你尚未使用的任意数量的命中骰，并将投掷的总数加到武器的伤害上。",
+							"符文一旦被激活，就不能再次激活，直到下一个黎明。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Bow of Conflagration",
+			"type": "GV",
+			"requires": [
+				{
+					"bow": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Conflagration",
+				"source": "BMT",
+				"page": 66,
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"这弓发射的弹药燃烧明亮。当你使用这把弓进行攻击检定命中时，目标额外受到{@damage 1d6}火焰伤害。如果目标是易燃的、非魔法物体，它会着火，在你的每个回合开始时受到{@damage 1d6}火焰伤害，直到有生物使用一个动作来扑灭火焰。"
+				]
+			}
+		},
+		{
+			"name": "Bow of Melodies",
+			"type": "GV",
+			"requires": [
+				{
+					"bow": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Melodies",
+				"source": "BMT",
+				"page": 66,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"entries": [
+					"这弓有多根弦，类似于一个竖琴或小豎琴。当你弹奏弦乐时，同时将箭装在弓上，你会赋予箭矢魔法力量。",
+					"当你使用弓进行远程武器攻击时，你可以演奏以下其中一首旋律。你必须在进行攻击骰前选择演奏，每次攻击只能演奏一首旋律。",
+					{
+						"type": "entries",
+						"name": "Melody of Precision",
+						"entries": [
+							"如果你精通{@skill Performance}，则攻击检定获得+1加值。如果你是专家级别的{@skill Performance}，则加值为+2。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Melody of Reverberation",
+						"entries": [
+							"你弹奏的旋律回荡在耳畔。命中时，目标受到额外的雷霆伤害，数值等同于你的魅力调整值。"
+						]
+					}
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Cast-Off Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Cast-Off ",
+				"source": "XGE",
+				"page": 136,
+				"tier": "minor",
+				"rarity": "common",
+				"entries": [
+					"你可以把这个盔甲作为一个动作脱掉。"
+				]
+			}
+		},
+		{
+			"name": "Clockwork Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Clockwork ",
+				"source": "BMT",
+				"page": 67,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d4}",
+				"charges": 4,
+				"entries": [
+					"这套盔甲的外表和内部接头上布满了相互咬合的齿轮，利用着机械位面的有序魔法。",
+					"这件盔甲有4个充能。如果你在穿着这件盔甲时进行了一次{@dice d20}检定，你可以消耗1个充能，将掷骰结果改为10。这件盔甲每天在黎明时恢复{@dice 1d4}个已消耗的充能。"
+				]
+			}
+		},
+		{
+			"name": "Comet Smasher",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Comet Smasher ",
+				"source": "DoDk",
+				"page": 230,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"entries": [
+					"这个钝击武器的头部是由一个巨大的狂乱水晶制成，闪烁着奥术能量。当你使用这个武器进行攻击命中时，目标会额外受到({@dice 3d6})点死灵伤害。",
+					"当你使用这把武器进行攻击投掷出20时，它会释放出一个奥术异常（见《德拉肯海姆的地牢》）。你可以在表格上投掷两次，然后选择任意一个结果。"
+				]
+			}
+		},
+		{
+			"name": "Corpse Slayer",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Corpse Slayer ",
+				"source": "EGW",
+				"page": 266,
+				"rarity": "rare",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
+					"当你用这把武器攻击不死生物时，攻击会额外造成武器类型伤害的{@damage 1d8}，并且该生物在你下个回合开始前对使其变成不死生物的效果的豁免 throws 时有劣势。"
+				]
+			}
+		},
+		{
+			"name": "Crystal Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Crystal ",
+				"source": "FTD",
+				"page": 22,
+				"rarity": "rare",
+				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d3}",
+				"charges": 3,
+				"entries": [
+					"这把魔法剑的剑刃是用水晶龙的角或脊椎制成的。当你使用这把剑进行攻击投掷时，目标会受到额外{@damage 1d8}的辐射伤害。",
+					"这把剑有3个充能，并在黎明时每天恢复{@dice 1d3}已用充能。当你用这把剑进行攻击命中生物时，你可以消耗1个充能，恢复等于这把剑额外辐射伤害的生命值。",
+					"当你拿着这把剑时，你可以用一个额外的动作使它在30英尺范围内发出亮光，并在另外30英尺范围内发出暗光，使它在10英尺范围内发出暗光，或使光线熄灭。"
+				]
+			}
+		},
+		{
+			"name": "Dancing Sword",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dancing ",
+				"source": "DMG",
+				"page": 161,
+				"srd": true,
+				"tier": "major",
+				"rarity": "very rare",
+				"reqAttune": true,
+				"entries": [
+					"你可以使用一个额外的动作将这把魔剑扔到空中，并说出命令的话语。当你这样做时，这把剑开始盘旋，最多飞到30英尺，并攻击5英尺内你选择的一个生物。这把剑使用你的攻击卷和能力得分修改器来进行伤害卷。",
+					"当剑盘旋时，你可以使用一个额外动作使它飞到你30英尺内的另一个地方。作为同一个额外行动的一部分，你可以使剑攻击它周围5英尺内的一个生物。",
+					"悬停剑第四次攻击后，它最多飞到30英尺并试图回到你的手中。如果你没有空闲的手，它就落到你脚下的地上。如果剑没有畅通无阻的路径到达你身边，它就尽可能地靠近你，然后落到地上。如果你抓着它或离开它超过30英尺，它也会停止盘旋。"
+				],
+				"lootTables": [
+					"Magic Item Table H"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Defender",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Defender ",
+				"source": "DMG",
+				"page": 164,
+				"srd": true,
+				"tier": "major",
+				"rarity": "legendary",
+				"reqAttune": true,
+				"bonusWeapon": "+3",
+				"bonusAc": "+1",
+				"entries": [
+					"你在使用该魔法武器的攻击和伤害卷中获得+3的奖励。",
+					"在你每个回合第一次用剑攻击时，你可以将剑的部分或全部奖励转移到你的护甲等级上，而不是在该回合的任何攻击中使用该奖励。例如，你可以将你的攻击和伤害卷的奖励减少到+1，并获得一个+2的攻击力奖励。调整后的奖励在你下一回合开始前一直有效，尽管你必须持有这把剑才能从中获得攻击力的奖励。"
+				],
+				"lootTables": [
+					"Magic Item Table I"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Delerium-Forged Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Delerium-Forged Blade ",
+				"source": "DoDk",
+				"page": 230,
+				"rarity": "rare",
+				"bonusWeapon": "+2",
+				"entries": [
+					"这把剑的剑柄上镶嵌着一小块被玻璃包裹的疯狂裂片，就像一颗宝石一样。剑身由注入了疯狂尘的陨铁制成，使其轻轻地发出八色光芒。",
+					"你使用这把武器进行的攻击和伤害骰都会获得{=bonusWeapon}的奖励。",
+					"当你使用这个武器进行攻击时，你可以使用你的施法能力调整值，而不是力量或敏捷，来进行攻击和伤害骰。此外，你可以将这个武器作为施法焦点。",
+					"当你使用这把武器进行攻击检定时投掷出20时，对人形生物，该生物必须通过一次DC 15的体质豁免检定，否则将受到额外{@dice 3d6}点死灵伤害，并获得一个{@adventure level of contamination|DoDk|12}。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Demonbone Polearm",
+			"type": "GV",
+			"requires": [
+				{
+					"polearm": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Demonbone ",
+				"source": "CoA",
+				"page": 268,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"curse": true,
+				"bonusWeapon": "+2",
+				"entries": [
+					"你在使用这把魔法武器进行攻击和伤害骰时，获得{=bonusWeapon}的奖励。此外，当你受到范围内生物的伤害时，你可以使用你的反应用这把武器对其进行一次近战攻击。",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"当你与这个武器相互连接时，你不愿意放弃它。在连接时，除了这把武器外，你使用其他武器进行攻击时有劣势。",
+							"每当一个敌对生物对你造成伤害时，你必须成功通过一次DC 15的感知豁免检定，否则会陷入狂暴状态。在狂暴状态下，你必须在每个回合使用你的动作攻击距离最近的生物。如果你可以在{@action Attack}动作中进行额外的攻击，你将使用这些额外的攻击，移动到攻击下一个最近的生物，如果你击败了当前的目标。如果有多个可能的目标，你会随机选择一个进行攻击。",
+							"当你的回合开始时，你周围60英尺内没有你能看到或听到的生物，你会变得狂暴。或者，盟友可以使用一个动作进行一次DC 15的魅力检定，如果成功，你将不再狂暴。只有{@spell Remove Curse}法术可以让你结束对这件物品的调谐。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Corrupting",
+						"entries": [
+							"这个物品具有腐化效果。请查看“{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}”部分。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragon Slayer",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragon Slayer ",
+				"source": "DMG",
+				"page": 166,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用该魔法武器的攻击和伤害卷中获得+1的奖励。",
+					"当你用这把武器击中一条龙时，龙会受到额外{@dice 3d6}点武器类型的伤害。对于这把武器来说，“龙”指的是任何具有龙类别的生物，包括龙龟和双足飞龙。"
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dragon Wing Bow",
+			"type": "GV",
+			"requires": [
+				{
+					"bow": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragon Wing ",
+				"source": "FTD",
+				"page": 23,
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"这把魔法弓的肢体尖端呈龙翼状，武器蕴含着一条彩虹、宝石或金属龙呼出的气息。当你使用这把魔法弓进行攻击检定命中时，目标会受到额外{@damage 1d6}相同类型的伤害，与弓中蕴含的气息相同——酸性、冰冷、火焰、力量、闪电、死灵、毒素、精神、辐射或雷霆。",
+					"如果你没有在武器中装入弹药，它就会自己产生，当你拉回弓弦时，会自动产生一块魔法弹药。弓所产生的弹药在击中或未击中目标后瞬间消失。"
+				]
+			}
+		},
+		{
+			"name": "Dragonlance",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Pike"
+				},
+				{
+					"name": "Lance"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dragonlance ",
+				"source": "FTD",
+				"page": 23,
+				"otherSources": [
+					{
+						"source": "DSotDQ",
+						"page": 23
+					}
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"bonusWeapon": "+3",
+				"entries": [
+					"龙枪是一种著名的武器，由稀有金属在与巴哈姆特有关的强大神器的帮助下锻造而成。步兵（作为长矛）和骑手（作为长枪）使用的长枪不同，但武器的魔法属性是相同的。",
+					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
+					"当你用这把武器击中一条龙时，龙会受到额外{@damage 3d6}的力量伤害，你可以看到的30英尺内的任何一条你选择的龙都可以立即使用其反应进行一次近战攻击。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dried Leech",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"excludes": {
+				"name": "Energy Cell"
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Dried Leech ",
+				"source": "BMT",
+				"page": 67,
+				"rarity": "uncommon",
+				"entries": [
+					"这只水蛭已经被晾干并注入了一点点的激活魔法。如果你用这种弹药进行远程攻击并命中一名生物，水蛭就会苏醒并咬住目标，每个目标回合开始时造成{@damage 1d4}点穿刺伤害。如果水蛭造成至少10点伤害或目标死亡，水蛭会脱落。包括目标在内的生物可以用动作来摆脱水蛭。一旦水蛭不再附着在目标身上，水蛭就会死亡并失去魔法效果。"
+				]
+			}
+		},
+		{
+			"name": "Drow +1 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Drow +1 ",
+				"source": "MM",
+				"page": 126,
+				"rarity": "unknown (magic)",
+				"bonusAc": "+1",
+				"entries": [
+					"穿着这件盔甲时，你有一个{=bonusAc}的交流奖励。如果该盔甲暴露在阳光下1小时或更长时间，它将永久地失去其魔法加成。"
+				]
+			}
+		},
+		{
+			"name": "Drow +1 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "Drow +1 ",
+				"source": "MM",
+				"page": 126,
+				"rarity": "unknown (magic)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用此武器的攻击和伤害卷上有一个{=bonusWeapon}的奖励。如果该武器暴露在阳光下1小时或更长时间，它将永久失去其魔法奖励。"
+				]
+			}
+		},
+		{
+			"name": "Drow +2 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Drow +2 ",
+				"source": "MM",
+				"page": 126,
+				"rarity": "unknown (magic)",
+				"bonusAc": "+2",
+				"entries": [
+					"穿着这件盔甲时，你有一个{=bonusAc}的交流奖励。如果该盔甲暴露在阳光下1小时或更长时间，它将永久地失去其魔法加成。"
+				]
+			}
+		},
+		{
+			"name": "Drow +2 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "Drow +2 ",
+				"source": "MM",
+				"page": 126,
+				"rarity": "unknown (magic)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"你在使用此武器的攻击和伤害卷上有一个{=bonusWeapon}的奖励。如果该武器暴露在阳光下1小时或更长时间，它将永久失去其魔法奖励。"
+				]
+			}
+		},
+		{
+			"name": "Drow +3 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Drow +3 ",
+				"source": "MM",
+				"page": 126,
+				"rarity": "unknown (magic)",
+				"bonusAc": "+3",
+				"entries": [
+					"穿着这件盔甲时，你有一个{=bonusAc}的交流奖励。如果该盔甲暴露在阳光下1小时或更长时间，它将永久地失去其魔法加成。"
+				]
+			}
+		},
+		{
+			"name": "Drow +3 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "Drow +3 ",
+				"source": "MM",
+				"page": 126,
+				"rarity": "unknown (magic)",
+				"bonusWeapon": "+3",
+				"entries": [
+					"你在使用此武器的攻击和伤害卷上有一个{=bonusWeapon}的奖励。如果该武器暴露在阳光下1小时或更长时间，它将永久失去其魔法奖励。"
+				]
+			}
+		},
+		{
+			"name": "Feywrought Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "LA"
+				},
+				{
+					"type": "MA"
+				},
+				{
+					"type": "HA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Feywrought ",
+				"source": "BMT",
+				"page": 67,
+				"rarity": "rare",
+				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d3}",
+				"charges": 3,
+				"entries": [
+					"这套色彩斑斓、花纹绚丽的盔甲是在Feywild锻造的，并且融入了那个位面迷人的魔法。",
+					"穿着这套盔甲时，你在进行豁免投掷骰时，对自己避免或结束被魅惑状态的投掷骰获得优势。",
+					"这件盔甲有3个充能。你可以使用一个动作来消耗一个充能，从这件盔甲中施放{@spell Compulsion}法术（豁免 DC 15）。盔甲每天黎明时会恢复{@dice 1d3}已消耗的充能。"
+				],
+				"attachedSpells": [
+					"compulsion"
+				]
+			}
+		},
+		{
+			"name": "Flame Tongue",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Flame Tongue ",
+				"source": "DMG",
+				"page": 170,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"你可以使用一个奖励动作来说出这把魔法剑的口令，使火焰从剑刃上喷发出来。这些火焰在40英尺半径内散发出明亮的光芒，额外再照亮40英尺范围。当剑着火时，它对击中的目标造成额外 {@dice 2d6} 火焰伤害。火焰会持续直到你再次使用奖励动作说出口令，或者放下或收起这把剑。"
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Fool's Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Fool's ",
+				"source": "BMT",
+				"page": 36,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"bonusWeapon": "+2",
+				"entries": [
+					"这件武器看起来普普通通，但它蕴含着强大的幻术魔法，使得持有者能够巧妙地欺骗对手。",
+					"你在使用这把魔法武器进行攻击和伤害骰时会获得{=bonusWeapon}的奖励。持有该武器时，你还会获得以下好处：",
+					{
+						"type": "list",
+						"style": "list-hang-notitle",
+						"items": [
+							{
+								"type": "item",
+								"name": "Fool's Feint",
+								"entries": [
+									"作为一个奖励动作，你可以佯攻，选择一个在你5英尺范围内的生物作为目标。直到你的下一个回合开始之前，你对该目标的攻击投掷获得优势。一旦使用了这个奖励动作，直到第二天黎明之前都不能再次使用。"
+								]
+							},
+							{
+								"type": "item",
+								"name": "Misdirect",
+								"entries": [
+									"当一个在你60英尺范围内的生物以攻击骰对你进行攻击时，你可以使用你的反应要求该生物进行一次 DC 15 的智力豁免检定。如果未通过豁免检定，该攻击将转而对你选择的另一个在攻击者攻击范围内的生物进行。一旦使用了这个反应，直到次日黎明前都不能再次使用。"
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Forcebreaker Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Forcebreaker ",
+				"source": "BMT",
+				"page": 67,
+				"rarity": "very rare",
+				"bonusWeapon": "+2",
+				"entries": [
+					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
+					"这件武器是为了摧毁由{@spell Forcecage}或{@spell Wall of Force}创造的力场结构而打造的。用这把武器攻击一个由魔法力场构成的大型或更小的结构会自动粉碎该结构。如果目标是一个巨大或更大的力场结构，这把武器会粉碎其中一个20英尺立方体的部分。"
+				]
+			}
+		},
+		{
+			"name": "Frost Brand",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Frost Brand ",
+				"source": "DMG",
+				"page": 171,
+				"srd": true,
+				"resist": [
+					"fire"
+				],
+				"tier": "major",
+				"rarity": "very rare",
+				"reqAttune": true,
+				"entries": [
+					"当你用这把魔剑攻击时，目标会受到额外的{@dice 1d6}寒冷伤害。此外，当你持有这把剑时，你对火灾伤害有抵抗力。",
+					"在冰冷的温度下，刀片在10英尺范围内发出亮光，在另外10英尺范围内发出暗光。",
+					"当你拔出这把武器时，你可以扑灭你周围30英尺内的所有非魔法火焰。这个属性每小时可使用不超过一次。"
+				],
+				"lootTables": [
+					"Magic Item Table H"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Gambler's Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Gambler's Blade ",
+				"source": "LLK",
+				"page": 55,
+				"rarity": "rare",
+				"reqAttune": true,
+				"curse": true,
+				"entries": [
+					"选择一个+1到+3的魔法奖励。这把剑在其攻击和伤害卷上获得该奖励。你为这把剑选择的每一点奖励，你都会对你的免死金牌进行相应的惩罚（-1到-3）。你可以在每天黎明时分改变这个魔法奖励。",
+					{
+						"name": "Curse",
+						"type": "entries",
+						"entries": [
+							"这把武器被诅咒了，成为它的附属品会使诅咒延伸到你身上。在用{@spell remove curse}的咒语或类似的魔法解除诅咒之前，你不愿意与该武器分离。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Giant Slayer",
+			"type": "GV",
+			"requires": [
+				{
+					"axe": true
+				},
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Giant Slayer ",
+				"source": "DMG",
+				"page": 172,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用该魔法武器的攻击和伤害卷中获得+1的奖励。",
+					"当你用它击中一个巨人时，巨人会受到额外 {@dice 2d6} 的武器类型伤害，并必须成功通过 DC 15 的力量豁免才能不倒地 {@condition prone}。对于这个武器而言，“巨人”指的是任何具有巨人类型的生物，包括双头巨人和巨魔。"
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Glimmering Moonbow",
+			"type": "GV",
+			"requires": [
+				{
+					"bow": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Glimmering Moon ",
+				"source": "BMT",
+				"page": 36,
+				"resist": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
+				],
+				"rarity": "rare",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"这把银色和黑色的弓刻有月相。你使用这把魔法武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励。",
+					"当你使用这把魔法弓进行远程攻击时，目标会额外受到{@damage 1d6}辐射伤害。如果你没有装填弹药在武器中，它会自行生成弹药，在你用它进行远程攻击时自动制造一发魔法弹药。弓制造的弹药在击中或未击中目标后立刻消失。",
+					"当挥舞这把魔法弓时，你可以使用一个奖励动作进入半非实体状态，直到你的下一个回合开始。在半非实体状态下，你对钝击、穿刺和挥砍伤害具有抗性。一旦使用了这个奖励动作，直到第二天黎明之前都不能再次使用。"
+				]
+			}
+		},
+		{
+			"name": "Gloomwrought Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "LA"
+				},
+				{
+					"type": "MA"
+				},
+				{
+					"type": "HA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Gloomwrought ",
+				"source": "BMT",
+				"page": 67,
+				"rarity": "rare",
+				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d3}",
+				"charges": 3,
+				"entries": [
+					"这套复杂的灰度盔甲是在暗影界锻造的，并且融入了那个位面的阴暗气息。",
+					"当你穿戴这件盔甲时，你在进行豁免投掷来避免或结束自身受到惊恐状态时获得优势。",
+					"这件盔甲有3个充能。你可以消耗一个充能从盔甲中施放{@spell Calm Emotions}法术（豁免 DC 15）。这件盔甲每天黎明时恢复{@dice 1d3}已消耗的充能。"
+				],
+				"attachedSpells": [
+					"calm emotions"
+				]
+			}
+		},
+		{
+			"name": "Hardened Delerium-tipped Arrows",
+			"type": "GV",
+			"requires": [
+				{
+					"arrow": true
+				},
+				{
+					"bolt": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Hardened Delerium-tipped ",
+				"source": "DoDk",
+				"page": 230,
+				"rarity": "rare",
+				"entries": [
+					"这种弹药装备了精致的狂乱箭头。被使用这些箭之一进行远程攻击击中的生物会额外受到({@dice 3d6})点死灵伤害，并必须通过一次 DC 15 的体质豁免才能免疫获得一次{@adventure level of contamination|DoDk|12}。箭矢击中目标后，狂乱箭头就会化为灰尘，箭矢变得非魔法。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hellfire Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Hellfire ",
+				"source": "BGDIA",
+				"page": 223,
+				"rarity": "uncommon",
+				"entries": [
+					"这把武器由地狱之铁制成，并带有地狱之火的纹路，在5英尺的范围内发出昏暗的光。",
+					"任何被这种武器攻击而死的人，其灵魂都会被输送到冥河中，在那里瞬间重生为一个{@creature lemure}魔鬼。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Holy Avenger",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Holy Avenger ",
+				"source": "DMG",
+				"page": 174,
+				"srd": true,
+				"tier": "major",
+				"rarity": "legendary",
+				"reqAttune": "by a paladin",
+				"reqAttuneTags": [
+					{
+						"class": "paladin"
+					}
+				],
+				"bonusWeapon": "+3",
+				"entries": [
+					"你使用这把魔法武器进行的攻击和伤害骰获得+3的加值。当你用它击中一个恶魔或不死生物时，该生物会额外受到{@dice 2d10}的辐射伤害。",
+					"当你持有拔出的剑时，它会在你周围10英尺的范围内产生一个光环。你和光环中所有对你友好的生物在面对法术和其他魔法效果时都有优势。如果你有17级或以上的圣骑士等级，光环的半径会增加到30英尺。"
+				],
+				"lootTables": [
+					"Magic Item Table I"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Imbued Wood (Fernian Ash)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Fernian Ash ",
+				"source": "ERLW",
+				"page": 277,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"被灌注的木头焦点是一根从树上砍下来的棒子、法杖或魔杖，被注入了星外能量。如果你是一个施法者，你可以用这个东西作为施法的焦点。",
+					"当你使用此物品作为你的施法焦点施放一个伤害性的法术时，你获得一个火系伤害卷的+1奖励。"
+				]
+			}
+		},
+		{
+			"name": "Imbued Wood (Irian Rosewood)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Irian Rosewood ",
+				"source": "ERLW",
+				"page": 277,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"被灌注的木头焦点是一根从树上砍下来的棒子、法杖或魔杖，被注入了星外能量。如果你是一个施法者，你可以用这个东西作为施法的焦点。",
+					"当你使用此物品作为你的施法焦点施展伤害性法术时，你获得一个辐射性法术伤害卷的+1奖励。"
+				]
+			}
+		},
+		{
+			"name": "Imbued Wood (Kythrian Manchineel)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Kythrian Manchineel ",
+				"source": "ERLW",
+				"page": 277,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"被灌注的木头焦点是一根从树上砍下来的棒子、法杖或魔杖，被注入了星外能量。如果你是一个施法者，你可以用这个东西作为施法的焦点。",
+					"当你使用此物品作为你的施法焦点施展伤害性法术时，你获得一个酸或毒的法术伤害卷的+1奖励。"
+				]
+			}
+		},
+		{
+			"name": "Imbued Wood (Lamannian Oak)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Lamannian Oak ",
+				"source": "ERLW",
+				"page": 277,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"被灌注的木头焦点是一根从树上砍下来的棒子、法杖或魔杖，被注入了星外能量。如果你是一个施法者，你可以用这个东西作为施法的焦点。",
+					"当你用这个物品作为你的施法焦点施展一个伤害性的法术时，你获得一个闪电或雷电伤害卷的+1奖励。"
+				]
+			}
+		},
+		{
+			"name": "Imbued Wood (Mabaran Ebony)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mabaran Ebony ",
+				"source": "ERLW",
+				"page": 277,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"被灌注的木头焦点是一根从树上砍下来的棒子、法杖或魔杖，被注入了星外能量。如果你是一个施法者，你可以用这个东西作为施法的焦点。",
+					"当你使用此物品作为你的施法焦点施展伤害性法术时，你获得一个坏死性法术伤害卷的+1奖励。"
+				]
+			}
+		},
+		{
+			"name": "Imbued Wood (Risian Pine)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Risian Pine ",
+				"source": "ERLW",
+				"page": 277,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"被灌注的木头焦点是一根从树上砍下来的棒子、法杖或魔杖，被注入了星外能量。如果你是一个施法者，你可以用这个东西作为施法的焦点。",
+					"当你使用此物品作为你的施法焦点施展伤害性法术时，你获得对该法术的一个寒冷伤害卷的+1奖励。"
+				]
+			}
+		},
+		{
+			"name": "Imbued Wood (Shavarran Birch)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Shavarran Birch ",
+				"source": "ERLW",
+				"page": 277,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"被灌注的木头焦点是一根从树上砍下来的棒子、法杖或魔杖，被注入了星外能量。如果你是一个施法者，你可以用这个东西作为施法的焦点。",
+					"当你使用此物品作为你的施法焦点施放一个伤害性的法术时，你获得一个法术的武力伤害卷的+1奖励。"
+				]
+			}
+		},
+		{
+			"name": "Imbued Wood (Xorian Wenge)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Xorian Wenge ",
+				"source": "ERLW",
+				"page": 277,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"被灌注的木头焦点是一根从树上砍下来的棒子、法杖或魔杖，被注入了星外能量。如果你是一个施法者，你可以用这个东西作为施法的焦点。",
+					"当你用这个物品作为你的施法焦点施展一个伤害性的法术时，你获得一个精神伤害卷的+1奖励。"
+				]
+			}
+		},
+		{
+			"name": "Last Stand Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Last Stand ",
+				"source": "EGW",
+				"page": 267,
+				"rarity": "very rare",
+				"bonusAc": "+1",
+				"entries": [
+					"穿着这件盔甲时，你有一个{=bonusAc}的AC加成，它可以柔和地闪耀。",
+					"如果你在穿戴盔甲时死亡，盔甲就会被摧毁，在你周围30英尺范围内的每个天人、精灵和魔鬼都必须在DC15魅力救赎中成功，否则就会被放逐到其存在的主位面，除非它已经在那里了。"
+				]
+			}
+		},
+		{
+			"name": "Living Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Living ",
+				"source": "ERLW",
+				"page": 278,
+				"resist": [
+					"necrotic",
+					"poison",
+					"psychic"
+				],
+				"rarity": "very rare",
+				"reqAttune": true,
+				"bonusAc": "+1",
+				"entries": [
+					"这个可怕的盔甲是由黑色的甲壳素形成的，下面的血管在跳动，红色的筋脉在闪闪发光。要调和这个物品，你必须在整个调和期间穿上它，在这期间，里面的卷须会钻进你的身体。",
+					"穿着这件盔甲时，你有一个{=bonusAc}的护甲等级奖励，并且你对以下伤害类型有抵抗力：坏死、毒药和精神。",
+					{
+						"type": "entries",
+						"name": "Symbiotic Nature",
+						"entries": [
+							"在你与盔甲相合的时候，盔甲不能从你身上移开，你也不能主动结束与它的相合。如果你被一个结束诅咒的咒语所针对，你对盔甲的依附就会结束，它就会从你身上分离。",
+							"这套盔甲需要新鲜的鲜血供养。在你完成任何长休之后，你必须将剩余生命骰的一半喂给盔甲（四舍五入），或者承受{@condition exhaustion}1级。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Luck Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"entries": [
+				"你在使用该魔法武器进行攻击和伤害的过程中获得+1的奖励。当这把剑在你身上时，你也会获得+1的救赎奖励。",
+				{
+					"type": "entries",
+					"name": "Luck",
+					"entries": [
+						"如果这把剑在你身上，你可以调用它的运气（不需要行动）来重掷一个你不喜欢的攻击卷、能力检查或蓄力。你必须使用第二张卷子。这个属性直到下一个黎明才可以再次使用。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wish",
+					"entries": [
+						"这把剑有{@dice 1d4 - 1}的电量。在持有它的时候，你可以使用一个动作来消耗1个电荷，并从中施放{@spell wish}的法术。这个属性在下一个黎明前不能再次使用。如果剑没有电荷，它就会失去这个属性。"
+					]
+				}
+			],
+			"inherits": {
+				"namePrefix": "Luck Blade ",
+				"source": "DMG",
+				"page": 179,
+				"srd": true,
+				"tier": "major",
+				"rarity": "legendary",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"bonusSavingThrow": "+1",
+				"charges": "{@dice 1d4 - 1}",
+				"entries": [
+					"你在使用该魔法武器进行攻击和伤害的过程中获得+1的奖励。当这把剑在你身上时，你也会获得+1的救赎奖励。",
+					{
+						"type": "entries",
+						"name": "Luck",
+						"entries": [
+							"如果这把剑在你身上，你可以调用它的运气（不需要行动）来重掷一个你不喜欢的攻击卷、能力检查或蓄力。你必须使用第二张卷子。这个属性直到下一个黎明才可以再次使用。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Wish",
+						"entries": [
+							"这把剑有{@dice 1d4 - 1}的电量。在持有它的时候，你可以使用一个动作来消耗1个电荷，并从中施放{@spell wish}的法术。这个属性在下一个黎明前不能再次使用。如果剑没有电荷，它就会失去这个属性。"
+						]
+					}
+				],
+				"attachedSpells": [
+					"wish"
+				],
+				"lootTables": [
+					"Magic Item Table I"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lycan Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Lycan ",
+				"source": "GHLoE",
+				"page": 111,
+				"rarity": "rare",
+				"bonusWeapon": "+2",
+				"entries": [
+					"由狼人的爪子、牙齿和骨骼制成，这些武器对其他狼人或吸血鬼特别有效。你使用这把武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励。",
+					"此外，在对狼人的成功攻击中，目标将被迫恢复人类形态，除非它在一次 DC 10 魅力豁免检定中成功。此外，对吸血鬼使用狼人武器造成的伤害在该生物完成短休息之前无法再生。"
+				]
+			}
+		},
+		{
+			"name": "Mariner's Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mariner's ",
+				"source": "DMG",
+				"page": 181,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"modifySpeed": {
+					"equal": {
+						"swim": "walk"
+					}
+				},
+				"entries": [
+					"穿着这件盔甲时，你的游泳速度与你的步行速度相同。此外，每当你在水下开始转动时，命中率为0，该盔甲会使你向水面上升60英尺。盔甲上有鱼和贝壳图案的装饰。"
+				],
+				"lootTables": [
+					"Magic Item Table B"
+				]
+			}
+		},
+		{
+			"name": "Mind Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mind Blade ",
+				"source": "VGM",
+				"page": 81,
+				"rarity": "rare",
+				"reqAttune": "by a specific individual",
+				"entries": [
+					"思想吸食者可以将任何非魔法剑变成心灵之刃。只有一个生物可以调谐它：特定的思想吸食者或其奴隶。在其他生物手中，心灵之刃的功能就像其种类的普通剑一样。在其预定使用者手中，心灵之刃是一把魔法武器，对击中的目标造成额外{@dice 2d6}的精神伤害。"
+				]
+			}
+		},
+		{
+			"name": "Mind Carapace Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mind Carapace ",
+				"source": "VGM",
+				"page": 81,
+				"rarity": "uncommon",
+				"reqAttune": "by a specific individual",
+				"entries": [
+					"任何一套非魔法的重型盔甲都可以被探脑者转变成心灵甲壳盔甲。只有一个生物可以与之相调谐：特定的探脑者或其奴隶之一。当其他生物穿戴时，心灵甲壳盔甲将作为其种类的普通盔甲运作。对于其预定的穿戴者，这件盔甲可以让其在智力、感知和魅力豁免检定中获得优势，并使穿戴者免疫{@condition frightened}状态。"
+				]
+			}
+		},
+		{
+			"name": "Mithral +1 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA"
+				},
+				{
+					"type": "MA"
+				}
+			],
+			"excludes": {
+				"name": "Hide Armor"
+			},
+			"inherits": {
+				"namePrefix": "Mithral +1 ",
+				"source": "AI",
+				"page": 156,
+				"rarity": "rare",
+				"strength": null,
+				"bonusAc": "+1",
+				"stealth": false,
+				"entries": [
+					"穿着这件盔甲时，你有一个{=bonusAc}的交流奖励。",
+					"密特拉尔是一种轻盈、灵活的金属。米特拉尔链式衬衫或胸甲可以穿在普通衣服里面。如果盔甲通常会对灵巧（{@skill Stealth}）检查造成不利，或者对力量有要求，那么米塔尔材质的盔甲就不会。"
+				]
+			}
+		},
+		{
+			"name": "Mithral Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA"
+				},
+				{
+					"type": "MA"
+				}
+			],
+			"excludes": {
+				"name": "Hide Armor"
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"source": "DMG",
+				"page": 182,
+				"srd": true,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"strength": null,
+				"stealth": false,
+				"entries": [
+					"密特拉尔是一种轻盈、灵活的金属。米特拉尔链式衬衫或胸甲可以穿在普通衣服里面。如果盔甲通常会对灵巧（{@skill Stealth}）检查造成不利，或者对力量有要求，那么米塔尔材质的盔甲就不会。"
+				],
+				"lootTables": [
+					"Magic Item Table B"
+				]
+			}
+		},
+		{
+			"name": "Mizzium Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA"
+				},
+				{
+					"type": "MA"
+				}
+			],
+			"excludes": {
+				"name": "Hide Armor"
+			},
+			"inherits": {
+				"namePrefix": "Mizzium ",
+				"source": "GGR",
+				"page": 179,
+				"rarity": "rare",
+				"entries": [
+					"这套盔甲是用一种叫做mizzium的魔法强化金属合金加固的，这种合金是在Izzet铸造厂制造的。当你穿着这套盔甲时，任何针对你的关键打击都会变成普通打击。此外，当你受到魔法效果的影响，允许你做一个力量或体质救赎来承受一半的伤害时，如果你救赎成功，你反而不会受到伤害。"
+				]
+			}
+		},
+		{
+			"name": "Molten Bronze Skin",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Half Plate Armor",
+					"source": "PHB"
+				},
+				{
+					"name": "Plate Armor",
+					"source": "PHB"
+				},
+				{
+					"name": "Breastplate",
+					"source": "PHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Molten Bronze Skin ",
+				"source": "MOT",
+				"page": 197,
+				"resist": [
+					"fire"
+				],
+				"rarity": "rare",
+				"reqAttune": true,
+				"stealth": false,
+				"entries": [
+					"这种神奇的盔甲看起来像一壶熔化的青铜。当你适应它时，青铜会附着在你的皮肤上，并与之形成轮廓。盔甲可以穿在普通衣服里面，但它不会妨碍身体机能。一旦你穿上它，它就不能被移除，除非你选择这样做。",
+					"穿上这件盔甲后，你对火焰伤害具有抗性。该盔甲也不会对敏捷({@skill Stealth})检定造成劣势。"
+				]
+			}
+		},
+		{
+			"name": "Moon-Touched Sword",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Moon-Touched ",
+				"source": "XGE",
+				"page": 138,
+				"tier": "minor",
+				"rarity": "common",
+				"entries": [
+					"在黑暗中，此剑未出鞘的剑身会发出月光，在15英尺范围内产生亮光，在另外15英尺范围内产生暗光。"
+				]
+			}
+		},
+		{
+			"name": "Nine Lives Stealer",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Nine Lives Stealer ",
+				"source": "DMG",
+				"page": 183,
+				"srd": true,
+				"tier": "major",
+				"rarity": "very rare",
+				"reqAttune": true,
+				"bonusWeapon": "+2",
+				"charges": "{@dice 1d8 + 1}",
+				"entries": [
+					"你在使用该魔法武器进行的攻击和伤害卷中获得+2的奖励。",
+					"这把剑有{@dice 1d8 + 1}的能量。如果你对一个命中率低于100的生物进行了关键一击，它必须在DC15宪法救赎中成功，否则就会被瞬间杀死，因为剑会从它的身体中撕裂它的生命力（结构体或不死生物是免疫的）。如果生物被杀，剑就会失去一个电荷。当剑没有剩余的电荷时，它就失去了这个属性。"
+				],
+				"lootTables": [
+					"Magic Item Table H"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Oceanic Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "R"
+				},
+				{
+					"property": "T"
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "Oceanic ",
+				"source": "TDCSR",
+				"page": 199,
+				"rarity": "rare",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"modifySpeed": {
+					"static": {
+						"swim": 30
+					}
+				},
+				"recharge": "dawn",
+				"entries": [
+					"这件优雅的武器上镶嵌着描绘跃动海豚和飘荡水母的雕刻。你使用这把魔法武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励，并且忽略{@quickref Underwater Combat|PHB|3|0|the normal penalties on ranged weapon attacks while using this weapon underwater}。双手握住这把武器放在你面前时，你拥有30英尺的游泳速度。",
+					"此外，当你握住这把武器时，你可以使用一个动作施放{@spell water breathing}法术。一旦这个特性被使用，直到第二天黎明前都无法再次使用。"
+				],
+				"attachedSpells": [
+					"water breathing"
+				]
+			}
+		},
+		{
+			"name": "Orb of Shielding (Fernian Basalt)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Fernian Basalt ",
+				"source": "ERLW",
+				"page": 278,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
+					"如果你在受到火焰伤害时握着(Orb of Dragonkind)，你可以使用你的反应来减少伤害量的{@dice 1d4}(最少减至0)。"
+				]
+			}
+		},
+		{
+			"name": "Orb of Shielding (Irian Quartz)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Irian Quartz ",
+				"source": "ERLW",
+				"page": 278,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
+					"如果你在受到辐射伤害时握着(Orb of Radiance)，你可以使用你的反应来减少伤害量的{@dice 1d4}(最低减少到0)。"
+				]
+			}
+		},
+		{
+			"name": "Orb of Shielding (Kythrian Skarn)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Kythrian Skarn ",
+				"source": "ERLW",
+				"page": 278,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
+					"如果你在受到酸性或毒素伤害时握着(Orb of the Void)，你可以使用你的反应来减少伤害量的{@dice 1d4}（最少为0）。"
+				]
+			}
+		},
+		{
+			"name": "Orb of Shielding (Lamannian Flint)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Lamannian Flint ",
+				"source": "ERLW",
+				"page": 278,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
+					"如果你在受到闪电或雷电伤害时握着(Orb of Thunder and Lightning)，你可以使用你的反应来减少伤害量的{@dice 1d4}(最低至0)。"
+				]
+			}
+		},
+		{
+			"name": "Orb of Shielding (Mabaran Obsidian)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mabaran Obsidian ",
+				"source": "ERLW",
+				"page": 278,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
+					"如果你在受到死灵伤害时握着(Orb of the Void)宝珠，你可以使用你的反应来减少伤害量的{@dice 1d4}(最低减少到0)。"
+				]
+			}
+		},
+		{
+			"name": "Orb of Shielding (Risian Shale)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Risian Shale ",
+				"source": "ERLW",
+				"page": 278,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
+					"如果你在受到冷伤害时握着(Orb of Winter)，你可以使用你的反应来减少伤害量的{@dice 1d4}(最低至0)。"
+				]
+			}
+		},
+		{
+			"name": "Orb of Shielding (Shavarran Chert)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Shavarran Chert ",
+				"source": "ERLW",
+				"page": 278,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
+					"如果你在受到武力伤害时拿着球体，你可以用你的反应来减少{@dice 1d4}的伤害（最低为0）。"
+				]
+			}
+		},
+		{
+			"name": "Orb of Shielding (Xorian Marble)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Xorian Marble ",
+				"source": "ERLW",
+				"page": 278,
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"屏蔽球是一个抛光的、球形的水晶或石头块，与存在的某一平面对齐。如果你是一个施法者，你可以使用这个球体作为施法焦点。",
+					"如果你在受到精神伤害时握着(Orb of the Void)，你可以使用你的反应来减少伤害量的{@dice 1d4}（最少减少到0）。"
+				]
+			}
+		},
+		{
+			"name": "Polymorph Blade",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Polymorph Blade ",
+				"source": "LLK",
+				"page": 56,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"curse": true,
+				"entries": [
+					"当你用这个魔法武器攻击一个生物，并在攻击卷上掷出20分时，该生物除了承受攻击的正常效果外，还必须进行DC 15智慧救赎。如果救赎失败，该生物也会受到一个{@spell polymorph}的法术效果。掷一个D20并参考下表来决定目标生物被转化成的形态。",
+					{
+						"type": "table",
+						"caption": "",
+						"colLabels": [
+							"d20",
+							"New Form"
+						],
+						"colStyles": [
+							"col-2 text-center",
+							"col-10"
+						],
+						"rows": [
+							[
+								"1",
+								"{@creature Tyrannosaurus Rex}"
+							],
+							[
+								"2",
+								"{@creature Giant Ape}"
+							],
+							[
+								"3",
+								"{@creature Elephant}"
+							],
+							[
+								"4",
+								"{@creature Giant scorpion}"
+							],
+							[
+								"5",
+								"{@creature Rhinoceros}"
+							],
+							[
+								"6",
+								"{@creature Polar bear}"
+							],
+							[
+								"7",
+								"{@creature Giant toad}"
+							],
+							[
+								"8",
+								"{@creature Giant eagle}"
+							],
+							[
+								"9",
+								"{@creature Black bear}"
+							],
+							[
+								"10",
+								"{@creature Crocodile}"
+							],
+							[
+								"11",
+								"{@creature Wolf}"
+							],
+							[
+								"12",
+								"{@creature Riding Horse||Horse}"
+							],
+							[
+								"13",
+								"{@creature Ox|VGM}"
+							],
+							[
+								"14",
+								"{@creature Giant frog}"
+							],
+							[
+								"15",
+								"{@creature Poisonous snake}"
+							],
+							[
+								"16",
+								"{@creature Hawk}"
+							],
+							[
+								"17",
+								"{@creature Octopus}"
+							],
+							[
+								"18",
+								"{@creature Cat}"
+							],
+							[
+								"19",
+								"{@creature Rat}"
+							],
+							[
+								"20",
+								"兔子"
+							]
+						]
+					},
+					"如果一个生物对该武器类型的伤害免疫，是一个变形金刚，或者有传奇行动，那么它就对这个效果免疫。",
+					{
+						"name": "Curse",
+						"type": "entries",
+						"entries": [
+							"这把武器被诅咒了，成为它的附属品会使诅咒延伸到你身上。在用{@spell remove curse}的咒语或类似的魔法解除诅咒之前，你不愿意和这个武器分开。每当你用这个武器攻击一个生物，并在攻击卷上掷出1，你就会受到{@spell polymorph}法术的影响，持续1小时，在表格上滚动以决定你的新形态。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Red-Feather Bow",
+			"type": "GV",
+			"requires": [
+				{
+					"bow": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Red-Feather ",
+				"source": "HWCS",
+				"page": 214,
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"charges": 3,
+				"entries": [
+					"在米斯特拉猛禽中备受珍爱的狩猎武器，这弓被赋予了魔法，帮助使用者从远处看到猎物。",
+					"你在使用该魔法武器进行的攻击和伤害卷中获得{=bonusWeapon}的奖励。",
+					"这把弓有3个充能。当你从这把弓射出箭矢时，你可以说出口令并使用一次充能作为奖励动作来透过箭矢观察。你可以从箭矢着陆的地点观察，就好像你在那里一样，持续1分钟。如果箭矢击中生物，你可以在同样的持续时间内看到它们所看到的。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ruidium Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "MA"
+				},
+				{
+					"type": "HA"
+				}
+			],
+			"excludes": {
+				"name": "Hide Armor"
+			},
+			"inherits": {
+				"namePrefix": "Ruidium ",
+				"source": "CRCotN",
+				"page": 215,
+				"resist": [
+					"psychic"
+				],
+				"rarity": "very rare",
+				"reqAttune": true,
+				"bonusAc": "+1",
+				"modifySpeed": {
+					"equal": {
+						"swim": "walk"
+					}
+				},
+				"entries": [
+					"这种魔法盔甲有一种暗淡的锈色，或者有Ruidium的脉络贯穿其中。当你穿着这件盔甲时，你会获得以下好处。",
+					{
+						"type": "list",
+						"items": [
+							"你对精神伤害有抵抗力。",
+							"你可以呼吸水。",
+							"你获得的游泳速度与你的步行速度相等。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ruidium Corruption",
+						"entries": [
+							"当你在穿戴这件护甲时投掷出1点的豁免骰时，你必须进行一次 DC 15 的魅力豁免骰。如果豁免失败，你将获得 1 级{@condition exhaustion}。如果你尚未受到拉迪姆腐化的影响，当你在这次豁免中失败时，你将受到腐化的影响。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "If Ruidium Is Destroyed",
+						"entries": [
+							"如果Apotheon被杀死或赎回，Exandria的所有ruidium会被瞬间摧毁，ruidium护甲会变成{@item +1 armor}。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Ruidium Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Ruidium ",
+				"source": "CRCotN",
+				"page": 216,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"bonusWeapon": "+2",
+				"modifySpeed": {
+					"equal": {
+						"swim": "walk"
+					}
+				},
+				"entries": [
+					"这个魔法武器具有暗淡的锈色，或者有Ruidium的脉络贯穿。当这个武器在你身上时，你会获得以下好处。",
+					{
+						"type": "list",
+						"items": [
+							"你可以呼吸水。",
+							"你获得的游泳速度与你的步行速度相等。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ruidium Strike",
+						"entries": [
+							"你用这把武器击中的生物会受到额外{@damage 2d6}的心灵伤害。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ruidium Corruption",
+						"entries": [
+							"当你使用这个武器进行攻击检定时投掷1，你必须进行一次20 DC的魅力豁免检定。如果未通过豁免检定，你会获得1级{@condition exhaustion}。如果你尚未受到魔铁腐蚀的影响，当你未通过这次豁免检定时，你将被腐蚀。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "If Ruidium Is Destroyed",
+						"entries": [
+							"如果Apotheon被杀或被救赎，Exandria的所有Ruidium会被瞬间摧毁，并且Ruidium武器会变成{@item +2 weapon}。"
+						]
+					}
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Silvered Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"excludes": {
+				"name": "Energy Cell"
+			},
+			"ammo": true,
+			"entries": [
+				"一些对非魔法武器有免疫力或抵抗力的怪物容易受到银色弹药的影响，因此谨慎的冒险者会投入额外的硬币，将弹药镀成银色。你可以用100金币给10件弹药镀银。这笔费用不仅代表了银的价格，还代表了在弹药上添加银而不降低其效果所需的时间和专业知识。"
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "PHB",
+				"page": 148,
+				"basicRules": true,
+				"tier": "minor",
+				"rarity": "unknown"
+			}
+		},
+		{
+			"name": "Silvered Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"entries": [
+				"一些对非魔法武器有免疫力或抵抗力的怪物容易受到银色武器的影响，所以谨慎的冒险者会投入额外的硬币给他们的武器镀上银。你可以用100金币给一件武器镀银。这个费用不仅代表了银的价格，还代表了在武器上添加银而不使其降低效果所需的时间和专业知识。"
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "PHB",
+				"page": 148,
+				"basicRules": true,
+				"tier": "major",
+				"rarity": "unknown",
+				"valueExpression": "[[baseItem.value]] + 10000"
+			}
+		},
+		{
+			"name": "Slumbering Dragon's Wrath Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Slumbering Dragon's Wrath ",
+				"source": "FTD",
+				"page": 25,
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"entries": [
+					"这种武器上装饰有龙头、爪子、翅膀、鳞片或德拉克斯语字母。当它浸泡在龙的囤积物中时，它会吸收龙的呼吸武器的能量并以其特殊属性造成该类型的伤害。",
+					"每当你用此武器的攻击卷轴掷出20分时，你选择的目标5英尺内的每个生物都会受到龙的呼吸武器造成的5种伤害。"
+				]
+			}
+		},
+		{
+			"name": "Smoldering Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Smoldering ",
+				"source": "XGE",
+				"page": 139,
+				"tier": "minor",
+				"rarity": "common",
+				"entries": [
+					"穿着此盔甲时，一缕缕无害、无味的烟雾从盔甲中升起。"
+				]
+			}
+		},
+		{
+			"name": "Starcrossed Bow",
+			"type": "GV",
+			"requires": [
+				{
+					"bow": true
+				},
+				{
+					"crossbow": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Starcrossed ",
+				"source": "DoDk",
+				"page": 232,
+				"rarity": "rare",
+				"reqAttune": true,
+				"bonusWeapon": "+2",
+				"recharge": "dawn",
+				"rechargeAmount": 3,
+				"charges": 3,
+				"entries": [
+					"这把神奇的弓或弩上有一系列精致的狂乱碎片和聚焦透镜，沿着通常装载弩箭的弓弩托部排列，而是通过魔法召唤自己的抛射物。你使用这把武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励，这把武器造成辐射伤害而不是穿刺伤害，并且无视弹药和装填属性。",
+					"这件武器有3次使用机会，每天黎明时都会重新充能。当你使用它进行远程攻击命中时，你可以让弹头爆炸，释放出耀眼的光芒。被你击中的目标和其周围10英尺范围内的任何生物必须通过一次DC 15的体质豁免才能免疫，否则将在你的下一个回合结束前失明。"
+				]
+			}
+		},
+		{
+			"name": "Starshot Crossbow",
+			"type": "GV",
+			"requires": [
+				{
+					"crossbow": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Starshot ",
+				"source": "BMT",
+				"page": 38,
+				"rarity": "rare",
+				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d3}",
+				"charges": 3,
+				"entries": [
+					"这把弩是由发黑的木头制成的，其弓臂上镶嵌着描绘星座的珍珠。你使用这把弩时可以忽略填装属性。如果你没有在武器中装填弹药，它会自行产生，当你用它进行远程攻击时，自动制造一件魔法弹药。武器产生的弹药在击中或未击中目标后立刻消失。这把弩有3个充能，并在每天黎明时恢复{@dice 1d3}已用充能。",
+					{
+						"type": "entries",
+						"name": "Constellations",
+						"entries": [
+							"这个弩弓上装饰着三个星座。作为一个奖励动作，你可以轻轻触碰其中一个星座来唤醒它，消耗1点能量并产生以下效果之一：",
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									{
+										"type": "item",
+										"name": "Balance",
+										"entries": [
+											"在你的下一个回合结束前，如果你用这把十字弩对生物进行远程攻击检定，你或者你选择的另一名生物可以在你身边30英尺内回复等于{@dice 1d8}加上你的熟练加值的生命值。"
+										]
+									},
+									{
+										"type": "item",
+										"name": "Flames",
+										"entries": [
+											"直到你的下一个回合结束，当你用这把十字弩进行远程攻击命中一名生物时，该攻击额外造成{@damage 2d8}火焰伤害。"
+										]
+									},
+									{
+										"type": "item",
+										"name": "Rogue",
+										"entries": [
+											"直到你的下一个回合结束，你拥有隐形状态，你穿戴或携带的任何物品也会隐形。"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Stirring Dragon's Wrath Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Stirring Dragon's Wrath ",
+				"source": "FTD",
+				"page": 25,
+				"rarity": "rare",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"这种武器上装饰有龙头、爪子、翅膀、鳞片或德拉克斯语字母。当它浸泡在龙的囤积物中时，它会吸收龙的呼吸武器的能量并以其特殊属性造成该类型的伤害。",
+					"每当你用此武器的攻击卷轴掷出20分时，你选择的目标5英尺内的每个生物都会受到龙的呼吸武器造成的5种伤害。",
+					"你在使用该武器的攻击和伤害卷上获得{=bonusWeapon}的奖励。一旦命中，该武器会造成额外的{@damage 1d6}龙息武器类型的伤害。"
+				]
+			}
+		},
+		{
+			"name": "Stygian Spear",
+			"type": "GV",
+			"requires": [
+				{
+					"spear": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Stygian ",
+				"source": "CoA",
+				"page": 270,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"curse": true,
+				"bonusWeapon": "+2",
+				"entries": [
+					"你在使用这把魔法武器进行攻击和伤害骰时会获得{=bonusWeapon}的奖励。当你投掷它时，击中目标时会额外造成一颗骰子的伤害。投掷后，无论命中与否，它会立即飞回你的手中。",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"当你与此武器连接时，你不愿意与它分开。此外，你使用除此武器外的其他武器进行攻击时，攻击检定会受到劣势。",
+							"每当你使用这把武器进行攻击投掷出1时，你的目标会变成你最近的盟友。",
+							"如果有多个盟友，随机确定目标。对你的盟友进行一次带有优势的新攻击检定。如果攻击命中，在标准伤害之外，你还造成额外{@damage 2d6}的毒素伤害。只有{@spell Remove Curse}法术能让你结束对这件物品的调谐。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Corrupting",
+						"entries": [
+							"这个物品具有腐化效果。请查看“{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}”部分。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Sword of Life Stealing",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Life Stealing",
+				"source": "DMG",
+				"page": 206,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"当你用这个魔法武器攻击一个生物，并在攻击卷上掷出20分时，如果该目标不是构筑物或不死生物，就会受到额外的10点坏死伤害。你还会获得10个临时命中率。",
+					"{@note Note: According to the SRD, it is an extra {@dice 3d6}点死灵伤害，尽管{@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sword of Retribution",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Retribution",
+				"source": "CoA",
+				"page": 270,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"curse": true,
+				"bonusWeapon": "+3",
+				"entries": [
+					"你使用这把剑进行的攻击和伤害骰获得{=bonusWeapon}的奖励。因为这把武器造成的伤害而失去的生命值只能通过短暂休息或长时间休息来恢复，而不能通过再生、魔法或其他任何方式来恢复。",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"当与这件武器相互连接时，你不愿意与它分开。当与这件武器相互连接时，你使用除这件武器外的其他武器进行攻击时，攻击检定会受到劣势。",
+							"拥有这把剑的复仇之灵与使用者分享它的历史和对复仇的渴望。每次成功完成长休后，你会经历这个灵魂过去的噩梦，最终见证它的死亡。当你醒来时，你必须进行一次DC 11的体质豁免检定。如果豁免失败，你只能获得短休的益处。只有{@spell Remove Curse}法术可以让你结束对这件物品的调谐。"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Corrupting",
+						"entries": [
+							"这个物品具有腐化效果。请查看“{@adventure Infernal Item Corruption|CoA|16|Infernal Item Corruption}”部分。"
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Sword of Sharpness",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true,
+					"dmgType": "S"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Sharpness",
+				"source": "DMG",
+				"page": 206,
+				"srd": true,
+				"tier": "major",
+				"rarity": "very rare",
+				"reqAttune": true,
+				"entries": [
+					"当你用这把魔剑攻击一个物体并击中时，使你对目标的武器伤害骰子最大化。",
+					"当你用这把武器攻击生物并在攻击检定中掷出20时，该目标会额外受到14点劈砍伤害。然后再掷一个{@dice d20}。如果你掷出20，你会砍掉目标的一条肢体，具体效果由DM决定。如果生物没有肢体可砍，你将砍掉它身体的一部分。",
+					"造成{@note Note: According to the SRD, it is an extra {@dice 4d6}割伤伤害，尽管{@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。",
+					"此外，你可以说出剑的命令，使剑在10英尺范围内发出亮光，并在另外10英尺范围内发出暗光。再次说出指令词或将剑出鞘，就会熄灭光芒。"
+				],
+				"lootTables": [
+					"Magic Item Table H"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sword of the Planes",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of the Planes",
+				"source": "BMT",
+				"page": 68,
+				"rarity": "legendary",
+				"reqAttune": true,
+				"bonusWeapon": "+3",
+				"entries": [
+					"你使用这把魔法剑进行的攻击和伤害骰投掷获得{=bonusWeapon}的奖励。",
+					"这把剑可以撕裂现实的面纱，创造出一个暂时连接不同位面的裂缝。你可以用你的动作选择一个不同于你所在的位面，并切开你附近5英尺内的一个空地，创造通往另一个位面的裂缝。这个裂缝可以高达10英尺，宽达10英尺，持续1分钟。一旦这个特性被使用，直到第二天黎明之前都不能再次使用。",
+					"你可以指定一个目标地点，比如炎之平面的铜城（City of Brass）或九层地狱的第二层中的迪斯帕特尔（Dispater）宫殿，裂隙会在该目的地附近打开（由DM决定）。例如，如果你想到达铜城，裂隙可能会出现在钢铁街（Street of Steel）、灰烬之门（Gate of Ashes）前，或者在火海（Sea of Fire）对面面朝城市，由DM决定。",
+					"任何进入裂隙的物体都会立即被传送到另一个位面，在离裂隙最近的未被占据的空间中出现。"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sword of Vengeance",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Vengeance",
+				"source": "DMG",
+				"page": 206,
+				"tier": "major",
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"curse": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用该魔法武器的攻击和伤害卷中获得+1的奖励。",
+					{
+						"name": "Curse",
+						"type": "entries",
+						"entries": [
+							"这把剑是被诅咒的，被一个复仇的灵魂所占有。成为它的附庸，会使诅咒延伸到你身上。只要你还被诅咒，你就不愿意与这把剑分离，并一直将它带在身上。当你与这把武器相适应时，你在使用这把武器以外的其他武器进行攻击时有劣势。",
+							"此外，当剑在你身上时，每当你在战斗中受到伤害时，你必须在DC15智慧救赎中取得成功。如果救赎失败，你必须攻击对你造成伤害的生物，直到你的生命值下降到0，或者它的生命值下降到0，或者直到你无法接近该生物对它进行近战攻击。",
+							"你可以用通常的方法打破诅咒。或者，对剑施放{@spell banishment}迫使复仇的灵魂离开它。然后，这把剑就变成了一把+1的武器，没有其他属性。"
+						]
+					}
+				],
+				"lootTables": [
+					"Magic Item Table F"
+				]
+			}
+		},
+		{
+			"name": "Sword of Wounding",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Wounding",
+				"source": "DMG",
+				"page": 207,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"因该武器的伤害而损失的命中率只能通过短期或长期休息来恢复，而不是通过再生、魔法或任何其他方式。",
+					"每回合一次，当你使用这把魔法武器攻击命中一名生物时，你可以使目标受伤。在每个受伤生物的回合开始时，它会因为你受伤它的次数而受到{@dice 1d4}点死灵伤害，然后它可以进行一次 DC 15 的体质豁免检定，若成功则结束自身所有这类伤口的效果。或者，受伤生物或者它附近5英尺范围内的一名生物可以使用一个动作进行一次 DC 15 的感知({@skill Medicine})检定，若成功则结束自身这类伤口的效果。"
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			}
+		},
+		{
+			"name": "Vicious +1 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"entries": [
+				"当你用这个魔法武器掷出20分时，目标会受到该武器类型的额外7次伤害。",
+				"{@note Note: According to the SRD, it is an extra {@dice 2d6} 伤害，尽管 {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
+			],
+			"inherits": {
+				"namePrefix": "Vicious +1 ",
+				"source": "AI",
+				"page": 149,
+				"rarity": "unknown (magic)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"你在使用该武器进行攻击和伤害的时候有{=bonusWeapon}的奖励。",
+					"当你用这把魔法武器投掷出20时，目标会受到额外7 {=dmgType} 伤害。",
+					"{@note Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} 伤害，尽管 {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
+				]
+			}
+		},
+		{
+			"name": "Vicious Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"entries": [
+				"当你用这个魔法武器掷出20分时，目标会受到该武器类型的额外7次伤害。",
+				"{@note Note: According to the SRD, it is an extra {@dice 2d6} 伤害，尽管 {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
+			],
+			"inherits": {
+				"namePrefix": "Vicious ",
+				"source": "DMG",
+				"page": 209,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"entries": [
+					"当你用这把魔法武器投掷出20时，目标会受到额外7 {=dmgType} 伤害。",
+					"{@note Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} 伤害，尽管 {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}。"
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Vorpal Sword",
+			"type": "GV",
+			"requires": [
+				{
+					"sword": true,
+					"dmgType": "S"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Vorpal ",
+				"source": "DMG",
+				"page": 209,
+				"srd": true,
+				"tier": "major",
+				"rarity": "legendary",
+				"reqAttune": true,
+				"bonusWeapon": "+3",
+				"entries": [
+					"你在使用该魔法武器的攻击和伤害卷中获得+3的奖励。此外，该武器无视对砍伐伤害的抵抗。",
+					"当你用这个武器攻击至少有一个头的生物并在攻击骰子上掷出20时，你会砍掉生物的一个头。如果生物没有头无法生存，那么它会死亡。如果生物对砍击伤害免疫、没有或不需要头、拥有传奇行动，或者DM认为生物太大以至于用这个武器无法砍掉头部，那么生物对这次攻击会额外受到{@dice 6d8}点砍击伤害。"
+				],
+				"lootTables": [
+					"Magic Item Table I"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Wakened Dragon's Wrath Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Wakened Dragon's Wrath ",
+				"source": "FTD",
+				"page": 25,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"bonusWeapon": "+2",
+				"entries": [
+					"这种武器上装饰有龙头、爪子、翅膀、鳞片或德拉克斯语字母。当它浸泡在龙的囤积物中时，它会吸收龙的呼吸武器的能量并以其特殊属性造成该类型的伤害。",
+					"每当你用此武器的攻击卷轴掷出20分时，你选择的目标5英尺内的每个生物都会受到龙的呼吸武器造成的5种伤害。",
+					"你在使用该武器的攻击和伤害卷上获得{=bonusWeapon}的奖励。一旦命中，该武器会造成额外的{@damage 2d6}龙息武器类型的伤害。",
+					"作为一个动作，你可以从武器中释放出一个30英尺的破坏性能量锥。该区域内的每个生物都必须做一个DC16的灵巧救赎，如果救赎失败，将受到龙息武器造成的{@damage 8d6}伤害，如果救赎成功，将受到一半的伤害。一旦这个动作被使用，在下一个黎明之前不能再次使用。"
+				]
+			}
+		},
+		{
+			"name": "Walloping Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Walloping ",
+				"source": "XGE",
+				"page": 139,
+				"tier": "minor",
+				"rarity": "common",
+				"entries": [
+					"这种弹药威力巨大。被这种弹药击中的生物必须成功通过一次 DC 10 的力量豁免才能不被击倒 {@condition prone}。"
+				]
+			}
+		},
+		{
+			"name": "Weapon of Agonizing Paralysis",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Agonizing Paralysis",
+				"source": "CoA",
+				"page": 271,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"bonusWeapon": "+3",
+				"entries": [
+					"你在使用这把魔法武器进行攻击和伤害骰时，获得{=bonusWeapon}的奖励。当这把武器将一名生物的生命值降至0时，该生物并不会死亡。相反，地狱符文会出现在它们的皮肤上，它们会被治疗至1点生命值。它们现在拥有{@condition paralyzed}状态，直到被{@spell Lesser Restoration}法术或类似魔法移除。当状态被移除时，符文会消失。在它们处于{@condition paralyzed}状态时的每个回合开始时，该生物会遭受巨大的痛苦并获得{@condition exhaustion}。"
+				]
+			}
+		},
+		{
+			"name": "Weapon of Certain Death",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"net": true
+			},
+			"inherits": {
+				"nameSuffix": " of Certain Death",
+				"source": "EGW",
+				"page": 270,
+				"rarity": "rare",
+				"entries": [
+					"当你用这个魔法武器的攻击伤害一个生物时，目标在你下一个回合开始前不能恢复命中率。"
+				]
+			}
+		},
+		{
+			"name": "Weapon of Throne's Command",
+			"type": "GV",
+			"requires": [
+				{
+					"weaponCategory": "martial"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Throne's Command",
+				"source": "BMT",
+				"page": 39,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"grantsProficiency": true,
+				"bonusWeapon": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d4}",
+				"charges": 5,
+				"entries": [
+					"这件武器镶嵌着华丽的金色花饰，深蓝色和褐红色的宝石。你使用这件武器进行的攻击和伤害骰获得{=bonusWeapon}的奖励。此外，如果你还没有，你将获得对{@skill Intimidation}和{@skill Persuasion}技能的熟练加成。",
+					{
+						"type": "entries",
+						"name": "Spellcasting",
+						"entries": [
+							"该武器有5点能量。您可以使用一个奖励动作并消耗1点或更多点能量来施放以下法术之一（豁免 DC 16）：{@spell Command}（1点能量），{@spell Zone of Truth}（2点能量），{@spell Compulsion}（4点能量），{@spell Banishment}（4点能量），或{@spell Dominate Person}（5点能量）。",
+							"武器在每天黎明时恢复{@dice 1d4}已用尽的充能。"
+						]
+					}
+				],
+				"attachedSpells": [
+					"command",
+					"zone of truth",
+					"compulsion",
+					"banishment",
+					"dominate person"
+				]
+			}
+		},
+		{
+			"name": "Weapon of Warning",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Warning",
+				"source": "DMG",
+				"page": 213,
+				"tier": "major",
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"entries": [
+					"这件魔法武器会警告你有危险。当你携带这件武器时，你在先攻检定时获得优势。此外，你和你周围30英尺范围内的任何同伴都无法被{@quickref Surprise|PHB|3|0|surprised}，除非是被非魔法的睡眠所影响。如果你和范围内的同伴在战斗开始时正在自然睡眠，这件武器会在魔法上唤醒你们。"
+				],
+				"lootTables": [
+					"Magic Item Table F"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Winged Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"excludes": {
+				"name": "Energy Cell"
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Winged ",
+				"source": "BMT",
+				"page": 69,
+				"rarity": "uncommon",
+				"entries": [
+					"使用这种弹药进行的远程武器攻击检定可以无视半掩蔽和三分之三掩蔽。此外，使用这种弹药进行的远程武器攻击在远距离时也不会对检定造成劣势。"
+				]
+			}
+		},
+		{
+			"name": "Zephyr Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "LA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Zephyr ",
+				"source": "BGG",
+				"page": 117,
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"这套精美的白银盔甲胸前刻有风之符文。",
+					"穿上这套盔甲时，你在敏捷检定和敏捷豁免投掷中获得优势，因为你的动作受到了微风的支持。",
+					{
+						"type": "entries",
+						"name": "Invoking the Rune",
+						"entries": [
+							"作为一个动作，你可以激活盔甲上的符文，使用它施放{@spell wind wall}法术（豁免 DC 15）。一旦符文被激活，直到第二天黎明前都无法再次激活。"
+						]
+					}
+				],
+				"attachedSpells": [
+					"wind wall"
+				]
+			}
+		}
+	],
+	"linkedLootTables": {
+		"DMG": {
+			"Arrow of Slaying": [
+				"Magic Item Table E"
+			],
+			"Shield +1": [
+				"Magic Item Table F"
+			],
+			"Adamantine Chain Mail": [
+				"Magic Item Table F"
+			],
+			"Adamantine Chain Shirt": [
+				"Magic Item Table F"
+			],
+			"Adamantine Scale Mail": [
+				"Magic Item Table F"
+			],
+			"Adamantine Breastplate": [
+				"Magic Item Table G"
+			],
+			"Adamantine Splint Armor": [
+				"Magic Item Table G"
+			],
+			"Chain Mail +1": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Acid Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Cold Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Fire Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Force Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Lightning Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Necrotic Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Poison Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Psychic Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Radiant Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Mail of Thunder Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt +1": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Acid Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Cold Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Fire Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Force Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Lightning Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Necrotic Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Poison Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Psychic Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Radiant Resistance": [
+				"Magic Item Table G"
+			],
+			"Chain Shirt of Thunder Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor +1": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Acid Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Cold Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Fire Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Force Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Lightning Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Necrotic Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Poison Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Psychic Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Radiant Resistance": [
+				"Magic Item Table G"
+			],
+			"Leather Armor of Thunder Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail +1": [
+				"Magic Item Table G",
+				"Magic Item Table I"
+			],
+			"Scale Mail of Acid Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Cold Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Fire Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Force Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Lightning Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Necrotic Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Poison Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Psychic Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Radiant Resistance": [
+				"Magic Item Table G"
+			],
+			"Scale Mail of Thunder Resistance": [
+				"Magic Item Table G"
+			],
+			"Shield +2": [
+				"Magic Item Table G"
+			],
+			"Shield +3": [
+				"Magic Item Table H"
+			],
+			"Adamantine Half Plate Armor": [
+				"Magic Item Table H"
+			],
+			"Adamantine Plate Armor": [
+				"Magic Item Table H"
+			],
+			"Breastplate +1": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Acid Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Cold Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Fire Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Force Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Lightning Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Necrotic Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Poison Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Psychic Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Radiant Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate of Thunder Resistance": [
+				"Magic Item Table H"
+			],
+			"Chain Mail +2": [
+				"Magic Item Table H"
+			],
+			"Chain Shirt +2": [
+				"Magic Item Table H"
+			],
+			"Leather Armor +2": [
+				"Magic Item Table H"
+			],
+			"Scale Mail +2": [
+				"Magic Item Table H"
+			],
+			"Splint Armor +1": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Acid Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Cold Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Fire Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Force Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Lightning Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Necrotic Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Poison Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Psychic Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Radiant Resistance": [
+				"Magic Item Table H"
+			],
+			"Splint Armor of Thunder Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor +1": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Acid Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Cold Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Fire Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Force Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Lightning Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Necrotic Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Poison Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Psychic Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Radiant Resistance": [
+				"Magic Item Table H"
+			],
+			"Studded Leather Armor of Thunder Resistance": [
+				"Magic Item Table H"
+			],
+			"Breastplate +2": [
+				"Magic Item Table I"
+			],
+			"Chain Mail +3": [
+				"Magic Item Table I"
+			],
+			"Chain Shirt +3": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor +1": [
+				"Magic Item Table I"
+			],
+			"Leather Armor +3": [
+				"Magic Item Table I"
+			],
+			"Plate Armor +1": [
+				"Magic Item Table I"
+			],
+			"Splint Armor +2": [
+				"Magic Item Table I"
+			],
+			"Studded Leather Armor +2": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor +2": [
+				"Magic Item Table I"
+			],
+			"Plate Armor +2": [
+				"Magic Item Table I"
+			],
+			"Studded Leather Armor +3": [
+				"Magic Item Table I"
+			],
+			"Breastplate +3": [
+				"Magic Item Table I"
+			],
+			"Splint Armor +3": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor +3": [
+				"Magic Item Table I"
+			],
+			"Plate Armor +3": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Acid Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Cold Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Fire Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Force Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Lightning Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Necrotic Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Poison Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Psychic Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Radiant Resistance": [
+				"Magic Item Table I"
+			],
+			"Half Plate Armor of Thunder Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Acid Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Cold Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Fire Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Force Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Lightning Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Necrotic Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Poison Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Psychic Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Radiant Resistance": [
+				"Magic Item Table I"
+			],
+			"Plate Armor of Thunder Resistance": [
+				"Magic Item Table I"
+			]
+		}
+	}
+}

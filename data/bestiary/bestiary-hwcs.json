@@ -56,7 +56,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"阿德温是一名5级法术施展者。她的法术施展能力是智力（法术豁免{@dc 14}，用法术攻击命中时为{@hit 6}）。阿德温已准备了以下牧师法术："
+						"Ardwyn is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Ardwyn has the following cleric spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -96,25 +96,25 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，阿德温可以花费一次反应，在下降时向一个方向飞行，飞行距离为她的速度。她在移动结束时降落在一个未被占据的空间，并不会受到摔落伤害。她无法在携带重物、重武器或盾牌时滑翔（尽管她可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, Ardwyn can spend a reaction to fly up to her speed in one direction as she descends. She lands in an unoccupied space at the end of her movement, and takes no falling damage. She cannot glide while carrying heavy objects, heavy weapons, or shields (though she can drop any held items as part of her reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，阿德温可以利用她强大的羽毛翅膀向上推进，距离等于她移动速度的一半。她可以在普通跳跃时使用它，但不能在滑翔时使用。"
+						"As a bonus action, Ardwyn can use her powerful feathered arms to propel herself upward a distance equal to half her movement speed. She can use it in conjunction with a regular jump, but not while gliding. "
 					]
 				},
 				{
 					"name": "Seedspeech",
 					"entries": [
-						"Ardwyn可以向活植物传达简单的想法，并能够用简单的语言解释它们的回应。"
+						"Ardwyn can communicate simple ideas to living plants, and is able to interpret their responses in simple language."
 					]
 				},
 				{
 					"name": "Divine Eminence",
 					"entries": [
-						"作为一个奖励动作，阿德温可以消耗一个法术位，使她的近战武器攻击在命中时在目标身上额外造成10 ({@damage 3d6}) 点辐射伤害。这个效果持续到回合结束。如果阿德温消耗了2级或更高级别的法术位，额外伤害将每超过1级增加 {@dice 1d6} 点。"
+						"As a bonus action, Ardwyn can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Ardwyn expends a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each level above 1st."
 					]
 				}
 			],
@@ -122,7 +122,7 @@
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，目标一个。造成{@h}3 ({@damage 1d6}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
 					]
 				}
 			],
@@ -215,13 +215,13 @@
 				{
 					"name": "Ash Cover",
 					"entries": [
-						"灰蛇在埋在灰烬中时，对敏捷度检定有优势({@skill Stealth})，并且其护甲等级增加4点。"
+						"The ashsnake has advantage on Dexterity ({@skill Stealth}) checks made when it is burrowing in ash, as well as a +4 bonus to its armor class."
 					]
 				},
 				{
 					"name": "Eruption",
 					"entries": [
-						"当灰蛇从洞穴中钻出时，任何在其5英尺范围内且至少比灰蛇小一个尺寸的生物必须进行一次{@dc 14}敏捷豁免才能避免被击倒{@condition prone}。"
+						"When the ashsnake emerges from burrowing, any creature within 5 feet of it that is at least one size smaller than the ashsnake must make a {@dc 14} Dexterity saving throw or be knocked {@condition prone}."
 					]
 				}
 			],
@@ -229,31 +229,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"灰蛇(Ashsnake)每轮可以进行一次咬击攻击，以及一次缠绕(Constrict)或压碎(Crush)攻击。"
+						"The Ashsnake can make one bite attack and either one Constrict or Crush attack each round."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5}进行攻击，射程10英尺，一个目标。造成{@h}8 ({@damage 1d10 + 3})点穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} 使用近战攻击，达到10英尺，一个目标。造成{@h}8 ({@damage 2d8 + 3}) 钝击伤害，目标被{@condition grappled} (逃脱 {@dc 14})。直到角斗结束，目标被{@condition restrained}，灰蛇不能再缠绕或压碎另一个目标。灰蛇可以在其回合任何时候释放目标。"
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 2d8 + 3}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 14}). Until the grapple ends the target is {@condition restrained} and the ashsnake cannot constrict or crush another target. The ashsnake can release the target at any time during its turn."
 					]
 				},
 				{
 					"name": "Crush",
 					"entries": [
-						"灰蛇压碎了它的{@condition grappled}目标，造成11({@damage 2d8 + 3})点钝击伤害。"
+						"The ashsnake crushes its {@condition grappled} target, dealing 11 ({@damage 2d8 + 3}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Ashen Breath {@recharge 5}",
 					"entries": [
-						"灰蛇在一个15英尺的锥形区域内呼出一团超热灰烬。该区域内的每个生物必须进行一次{@dc 14}敏捷豁免检定，未通过则受到11点({@damage 2d10})火焰伤害，通过则减半。"
+						"The ashsnake breathes out a cloud of superheated ash in a 15-foot cone. Each creature in the area must make a {@dc 14} Dexterity saving throw, taking 11 ({@damage 2d10}) fire damage on a failed save, or half as much on a success."
 					]
 				}
 			],
@@ -356,31 +356,31 @@
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"entries": [
-						"如果火焰之(Aspect of Fire)失败了豁免投掷，它可以选择成功。"
+						"If the Aspect of Fire fails a saving throw, it can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Molten Skin",
 					"entries": [
-						"任何生物接触到、在与(Aspect)相距5英尺内进行近战攻击，或在(Aspect)相距5英尺内结束他们的回合，都会受到11({@damage 2d10})点火焰伤害。在(Aspect)附近5英尺内的易燃物会突然燃烧起来。"
+						"Any creature who touches, makes a melee attack within 5 feet of, or ends their turn within 5 feet of the aspect takes 11 ({@damage 2d10}) fire damage. Flammable objects within 5 feet of the aspect burst into flames."
 					]
 				},
 				{
 					"name": "Natural Light",
 					"entries": [
-						"这个方面在60英尺半径内散发出明亮的光，另外60英尺范围内则是昏暗的光。"
+						"The aspect gives off bright light in a 60-foot-radius and dim light for an additional 60 feet."
 					]
 				},
 				{
 					"name": "Cooling",
 					"entries": [
-						"如果火元素受到一轮50点或更多的冷伤害，它的速度将降为0，直到下一回合结束。"
+						"If the aspect of fire takes 50 or more cold damage in one round, its speed is reduced to 0 until the end of its next turn."
 					]
 				},
 				{
 					"name": "Fuel for the Fire",
 					"entries": [
-						"火焰之力不会将植物视为艰难地形。每当火焰之力在提供掩护的植物生长空间开始其回合时，它会将其当前所占据的所有空间的植物燃烧殆尽，每消耗一个5英尺的植物生长空间，治疗{@dice 1d4}点生命值。如果以这种方式治疗了17点或更多伤害，它会熊熊燃烧起来，重新充能其岩浆投掷动作。"
+						"The aspect of fire doesn't treat plant life as difficult terrain. Whenever the aspect begins its turn in a space of plant life that provides cover, it burns the plant life away from all spaces it is currently occupying, healing {@dice 1d4} hit points for each 5-foot square of such plant life it has consumed. If it heals for 17 or more damage in this way, it flares up, recharging its magma throw action."
 					]
 				}
 			],
@@ -388,25 +388,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"该方面进行两次熔岩拳攻击。"
+						"The aspect makes two molten fist attacks."
 					]
 				},
 				{
 					"name": "Molten Fist",
 					"entries": [
-						"{@atk mw}进行攻击，射程15英尺，目标一个。造成{@h}16({@damage 2d10 + 5})点火焰伤害。"
+						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d10 + 5}) fire damage."
 					]
 				},
 				{
 					"name": "Stomp",
 					"entries": [
-						"{@atk mw} {@hit 9}攻击，射程5英尺，一个目标。造成{@h}20 ({@damage 3d10 + 5})火焰伤害。目标必须成功进行一次{@dc 17}体质豁免才能不被击倒。"
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}20 ({@damage 3d10 + 5}) fire damage. The target must succeed on a {@dc 17} Constitution saving throw or be knocked {@condition prone}."
 					]
 				},
 				{
 					"name": "Magma Throw {@recharge 5}",
 					"entries": [
-						"该元素投掷一团熔岩球。选择距离该元素不超过60英尺的位置。距目标位置15英尺内的所有生物必须进行一次{@dc 17}敏捷豁免投。未通过豁免的生物会受到22({@damage 4d10})火焰伤害。通过豁免的生物只会受到一半伤害。"
+						"The aspect hurls a ball of molten rock. Choose a location within 60 feet of the aspect. All creatures within 15 feet of the target location must make a {@dc 17} Dexterity saving throw. On a failure, a creature takes 22 ({@damage 4d10}) fire damage. On a success, the creature takes half as much damage."
 					]
 				}
 			],
@@ -417,19 +417,19 @@
 				{
 					"name": "Detect",
 					"entries": [
-						"该方面进行一次感知（Wisdom）检定。"
+						"The aspect makes a Wisdom ({@skill Perception}) check."
 					]
 				},
 				{
 					"name": "Molten Fist",
 					"entries": [
-						"这个方面进行了一次熔岩拳击。"
+						"The aspect makes a molten fist attack."
 					]
 				},
 				{
 					"name": "Magma Barrage (Costs 2 Actions)",
 					"entries": [
-						"火焰元素使用其岩浆投掷动作。如果它还没有通过对自己造成17点冰冷伤害来重新充能，它可以使用这项能力。"
+						"The aspect of fire uses its magma throw action. It may use this ability if it has not yet been recharged by dealing 17 points of cold damage to itself. "
 					]
 				}
 			],
@@ -522,13 +522,13 @@
 				{
 					"name": "Surge of Vigor (Recharges after a Long Rest)",
 					"entries": [
-						"如果一次攻击造成了班娜·塞里丹(Benna Seridan)剩余生命值的一半以上的伤害（即使她的生命值被攻击降低到0），她立即恢复8点生命值（{@dice 1d12 + 2}）。"
+						"If an attack deals over half of Benna Seridan's current remaining hit points in damage (even if her hit points are reduced to 0 by the attack), she immediately regains 8 ({@dice 1d12 + 2}) hit points."
 					]
 				},
 				{
 					"name": "Standing Leap",
 					"entries": [
-						"贝娜·塞里丹(Benna Seridan)的跳远距离为30英尺，她的基础跳高为15英尺，无论是否有起跑助跑。"
+						"Benna Seridan's long jump is 30 feet, and her base high jump is 15 feet, with or without a running start."
 					]
 				}
 			],
@@ -536,19 +536,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"贝娜·塞里丹 (Benna Seridan) 进行三次近战攻击，其中两次使用她的弯刀，一次使用匕首。或者，贝娜·塞里丹可以用她的匕首进行两次远程攻击。"
+						"Benna Seridan makes three melee attacks, two with her scimitar and one with her dagger. Alternatively, Benna Seridan can make two ranged attack with her daggers."
 					]
 				},
 				{
 					"name": "Scimitar of the Wood",
 					"entries": [
-						"{@atk mw} 攻击命中，射程5英尺，目标一个。造成{@h}7 ({@damage 1d6 + 4}) 点割伤伤害。这把剑有2个充能。贝娜·塞里丹可以消耗一个充能并说出口令来施放{@spell spike growth} (豁免 {@dc 16})，以自己为中心。她可以毫发无损地穿过这个地形。这把剑每天黎明时恢复一次充能。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage. The sword has 2 charges. Benna Seridan can expend a charge and speak the command word to cast {@spell spike growth} (save {@dc 16}) centered on herself. She can pass through this terrain unaffected. The sword regains one charge each day at dawn."
 					]
 				},
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} 使用 {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}6 ({@damage 1d6 + 3}) 穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
 					]
 				}
 			],
@@ -556,7 +556,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"Benna Seridan在看到攻击者并持有近战武器时，对一次将击中她的近战攻击，她的AC增加2。"
+						"Benna Seridan adds 2 to her AC against one melee attack that would hit her. Benna Seridan must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
@@ -632,19 +632,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，码头管理员可以花费一个反应，在下降时向一个方向飞行，飞行距离为他们的速度。他们在移动结束时降落在一个空位上，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, the dockmaster can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Confidence",
 					"entries": [
-						"码头管理员在他们的先攻投掷中加上他们的魅力调整值。"
+						"The dockmaster adds their Charisma modifier to their initiative rolls."
 					]
 				},
 				{
 					"name": "Sneak Attack",
 					"entries": [
-						"每回合一次，码头管理员在用武器攻击命中目标并且拥有优势攻击骰时，会额外造成3点伤害({@dice 1d6})，或者当目标在距离码头管理员的盟友不是{@condition incapacitated}且码头管理员没有劣势攻击骰的情况下，也会造成额外伤害。"
+						"Once per turn, the dockmaster deals an extra 3 ({@dice 1d6}) damage when they hit a target with a weapon attack and they have advantage on the attack roll, or when the target is within 5 ft. of an ally of the dockmaster that isn't {@condition incapacitated} and the dockmaster doesn't have disadvantage on the attack roll."
 					]
 				}
 			],
@@ -652,19 +652,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"码头管理员进行两次军刀攻击和一次匕首攻击。"
+						"The dockmaster makes two saber attacks and one dagger attack."
 					]
 				},
 				{
 					"name": "Saber",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}6({@damage 1d6 + 3})点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw}进行攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}5 ({@damage 1d4 + 3})点穿刺伤害。"
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
 					]
 				}
 			],
@@ -746,7 +746,7 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，农民可以花费一个反应，在下降时向一个方向飞行，飞行距离为他们的速度。他们在移动结束时降落在一个空位，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, the farmer can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				}
 			],
@@ -754,7 +754,7 @@
 				{
 					"name": "Pitchfork",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标一个。造成{@h}2 ({@damage 1d4})点割伤伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) slashing damage."
 					]
 				}
 			],
@@ -827,7 +827,7 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，(the guard)可以花费一次反应，在下降时向一个方向飞行，飞行距离为他们的速度。他们在移动结束时降落在一个空位，并不会受到摔落伤害。他们无法在携带重物品或重武器时滑翔，(尽管他们可以在反应的一部分中放下任何手持物品)。"
+						"When falling at least 10 feet, the guard can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects or heavy weapons, (though they can drop any held items as part of their reaction)."
 					]
 				}
 			],
@@ -835,7 +835,7 @@
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 3}攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4 ({@damage 1d6 + 1})穿刺伤害，或者如果用双手进行近战攻击，则造成5 ({@damage 1d8 + 1})穿刺伤害。"
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
 					]
 				}
 			],
@@ -907,8 +907,8 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，民兵可以花费一次反应，在下降时向一个方向飞行，飞行距离等同于他们的速度。他们会在移动结束时降落在一个空位上，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以放下任何手持物品）。",
-						"他们的反应的一部分)。"
+						"When falling at least 10 feet, the militia can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as ",
+						"part of their reaction)."
 					]
 				}
 			],
@@ -916,7 +916,7 @@
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} 近战攻击，达到5英尺，一个目标。造成{@h}4 ({@damage 1d6 + 1}) 钝击伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
 					]
 				}
 			],
@@ -989,7 +989,7 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，水手可以花费一个反应，在下降时向一个方向飞行，飞行距离为他们的速度。他们在移动结束时降落在一个空位，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, the sailor can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				}
 			],
@@ -997,13 +997,13 @@
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 3} 进行攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Light Crossbow",
 					"entries": [
-						"{@atk rw} 进行攻击，射程80/320尺，目标为一名敌人。造成{@h}5 ({@damage 1d8 + 2}) 穿刺伤害。"
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d8 + 2}) piercing damage."
 					]
 				}
 			],
@@ -1084,7 +1084,7 @@
 				{
 					"name": "Talons",
 					"entries": [
-						"鸟人骷髅在爪子可以合理抓握的任何表面上攀爬时，对力量检定有优势（{@skill Athletics}）。"
+						"The birdfolk skeleton has advantage on Strength ({@skill Athletics}) checks made to climb any surface its talons could reasonably grip."
 					]
 				}
 			],
@@ -1092,13 +1092,13 @@
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}4 ({@damage 1d4 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				}
 			],
@@ -1177,13 +1177,13 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方掉落时，游击者可以花费一次反应，在下降时向一个方向飞行，飞行距离为他们的速度。他们在移动结束时降落在一个空位上，并不会受到掉落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, the skirmisher can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Drop Attack",
 					"entries": [
-						"游击者在滑翔过程中可以发动一次攻击。如果这样做，他们造成额外4({@dice 1d8})点伤害。"
+						"The skirmisher can make an attack during their glide. If they do so they deal an extra 4 ({@dice 1d8}) points of damage."
 					]
 				}
 			],
@@ -1191,7 +1191,7 @@
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 4}命中，射程5英尺或射程20/60英尺，目标一个。造成{@h}5 ({@damage 1d6 + 2})穿刺伤害，或者如果用双手进行近战攻击，则造成6 ({@damage 1d8 + 2})穿刺伤害。"
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
 					]
 				}
 			],
@@ -1271,19 +1271,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，比塔可以花费一个反应，在下降时向一个方向飞行，飞行距离为她的速度。她在移动结束时降落在一个空位，并不会受到摔落伤害。她无法在携带重物、重武器或盾牌时滑翔（尽管她可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Bita can spend a reaction to fly up to her speed in one direction as she descends. She lands in an unoccupied space at the end of her movement, and takes no falling damage. She cannot glide while carrying heavy objects, heavy weapons, or shields (though she can drop any held items as part of her reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，毕塔(Bita)可以利用她强大的羽毛臂膀向上推进，距离等同于她移动速度的一半。她可以在普通跳跃时使用这个动作，但不能在滑翔时使用。"
+						"As a bonus action, Bita can use her powerful feathered arms to propel herself upward a distance equal to half her movement speed. She can use it in conjunction with a regular jump, but not while gliding. "
 					]
 				},
 				{
 					"name": "Inspiring",
 					"entries": [
-						"作为一个动作，比塔激励一个能看见和听见她的盟友。盟友可以投掷一个{@dice d4}，并将投掷的数字加到他们接下来的技能检定、攻击检定或豁免检定中。"
+						"As an action, Bita inspires an ally that can see and hear her. The ally can roll a {@dice d4} and add the number rolled to their next ability check, attack roll, or saving throw."
 					]
 				}
 			],
@@ -1291,7 +1291,7 @@
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} {@hit 3} 进行攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d8 + 1}) 穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
 					]
 				}
 			],
@@ -1299,7 +1299,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"Bita在看见攻击者并持有一把近战武器时，可以将她的AC提高2点，以抵御一次即将命中她的近战攻击。"
+						"Bita adds 2 to her AC against one melee attack that would hit her. To do so, Bita must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
@@ -1377,19 +1377,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，卡拉风暴歌者可以花费一个反应，在下降时向一个方向飞行，飞行距离等于她的速度。她会在移动结束时降落在一个空位上，并且不会受到摔落伤害。她无法在携带重物、重武器或盾牌时滑翔（尽管她可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Cara Stormsinger can spend a reaction to fly up to her speed in one direction as she descends. She lands in an unoccupied space at the end of her movement, and takes no falling damage. She cannot glide while carrying heavy objects, heavy weapons, or shields (though she can drop any held items as part of her reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"卡拉风暴歌者在攀爬任何她的爪子能够合理抓握的表面时，对力量检定有优势（{@skill Athletics}）。"
+						"Cara Stormsinger has advantage on Strength ({@skill Athletics}) checks made to climb any surface her talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Patterned Feathers",
 					"entries": [
-						"卡拉·风歌者在尝试在森林中隐藏时，对敏捷度检定有优势（{@skill Stealth}）。"
+						"Cara Stormsinger has advantage on Dexterity ({@skill Stealth}) checks when she attempts to hide in a forest."
 					]
 				}
 			],
@@ -1397,13 +1397,13 @@
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}4 ({@damage 1d4 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} {@hit 4}攻击，达到5英尺，一个目标。造成{@h}5 ({@damage 1d6 + 2}) 钝击伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
 					]
 				}
 			],
@@ -1474,19 +1474,19 @@
 				{
 					"name": "Amorphous",
 					"entries": [
-						"腐蚀粘液(Caustic Slime)可以在不挤压的情况下穿过宽度仅为1英寸的空间。"
+						"The Caustic Slime can move through a space as narrow as 1 inch wide without squeezing."
 					]
 				},
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"腐蚀粘液(Caustic Slime)可以攀爬困难的表面，包括在天花板上倒挂，而无需进行能力检定。"
+						"The Caustic Slime can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
 					]
 				},
 				{
 					"name": "Caustic",
 					"entries": [
-						"任何生物如果触碰到这种粘液，或者在它附近5英尺内进行近战攻击，必须进行一次成功度敏捷豁免检定，否则会受到2点酸性伤害。"
+						"Any creature that touches the slime or hits it with a melee attack while within 5 feet of it must succeed on a {@dc 12} Dexterity saving throw or take 2 ({@dice 1d4}) points of acid damage."
 					]
 				}
 			],
@@ -1494,7 +1494,7 @@
 				{
 					"name": "Psuedopod",
 					"entries": [
-						"{@atk mw} {@hit 4} 进行攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d6 + 2})点酸性伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) acid damage."
 					]
 				}
 			],
@@ -1502,7 +1502,7 @@
 				{
 					"name": "Split",
 					"entries": [
-						"当一个中型或更大体型，且有10个或更多生命值的史莱姆受到斩击伤害时，它会分裂成两个新的史莱姆。每个新史莱姜的生命值等于原史莱姜的一半，向下取整。新史莱姆的体型比之前的要小一级。"
+						"When a slime that is Medium or larger and has 10 or more hit points is hit with slashing damage, it splits into two new slimes. Each new slime has hit points equal to half the original slime's, rounded down. New slimes are one size smaller than the previous size."
 					]
 				}
 			],
@@ -1583,13 +1583,13 @@
 				{
 					"name": "Surge of Vigor (Recharges after a Long Rest)",
 					"entries": [
-						"如果一次攻击造成的伤害超过将军当前剩余生命值的一半（即使他们的生命值被攻击降至0），他们立即恢复8（{@dice 1d12 + 2}）生命值。"
+						"If an attack deals over half of the general's current remaining hit points in damage (even if their hit points are reduced to 0 by the attack), they immediately regain 8 ({@dice 1d12 + 2}) hit points."
 					]
 				},
 				{
 					"name": "Standing Leap",
 					"entries": [
-						"将军的跳跃距离为30英尺，基础高跳为15英尺，无论是否有起跑助跑。"
+						"The general's long jump is 30 feet, and their base high jump is 15 feet, with or without a running start."
 					]
 				}
 			],
@@ -1597,19 +1597,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"将军进行三次近战攻击，其中两次使用他们的弯刀，一次使用他们的匕首。或者，将军可以用他们的匕首进行两次远程攻击。"
+						"The general makes three melee attacks, two with their scimitar and one with their dagger. Alternatively, the general can make two ranged attack with their daggers."
 					]
 				},
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}6({@damage 1d6 + 3})点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw}进行攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}5 ({@damage 1d4 + 3})点穿刺伤害。"
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
 					]
 				}
 			],
@@ -1617,7 +1617,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"将军在面对一次近战攻击时，可以将其护甲等级（AC）提高2点。将军必须能看到攻击者并且持有一把近战武器。"
+						"The general adds 2 to their AC against one melee attack that would hit them. The general must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
@@ -1694,7 +1694,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"这位牧师是一个3级法术施展者。他们的法术施展能力是智力（法术豁免 {@dc 12}，法术攻击命中加值+4）。这位牧师已经准备好以下牧师法术："
+						"The priest is a 3rd-level spellcaster. Their spellcasting ability is Wisdom (spell save {@dc 12}, +4 to hit with spell attacks). The priest has the following cleric spells prepared: "
 					],
 					"spells": {
 						"0": {
@@ -1728,13 +1728,13 @@
 				{
 					"name": "Surge of Vigor (Recharges after a Long Rest)",
 					"entries": [
-						"如果牧师受到的伤害等于其当前剩余生命值的一半或更多（即使他们的生命值被攻击降至0），他们立即恢复8（{@dice 1d12 + 2}）点生命值。"
+						"If the priest is dealt damage equal to half or more of their current remaining hit points (even if their HP is reduced to 0 by the attack), they immediately regain 8 ({@dice 1d12 + 2}) hit points."
 					]
 				},
 				{
 					"name": "Charge",
 					"entries": [
-						"如果牧师向敌人直线移动至少20英尺，他们的鹿角攻击额外造成3({@dice 1d6})点穿刺伤害。如果冲锋目标为大型或更小，则必须进行一次{@dc 11}力量豁免才能避免被推离牧师10英尺。"
+						"If the priest moves at least 20 feet in a straight line towards an enemy, their antler attack deals an extra 3 ({@dice 1d6}) points of piercing damage. If the target of the charge is Large or smaller, they must make a {@dc 11} Strength saving throw or be pushed 10 feet away from the priest."
 					]
 				}
 			],
@@ -1742,13 +1742,13 @@
 				{
 					"name": "Antlers",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标一个。造成{@h}4({@damage 1d6 + 1})点穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
 					]
 				},
 				{
 					"name": "Quarterstaff",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，一目标。造成{@h}4 ({@damage 1d6 + 1}) 钝击伤害，或者如果双手持握则造成5 ({@damage 1d8 + 1}) 钝击伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, or 5 ({@damage 1d8 + 1}) bludgeoning damage if being held in both hands."
 					]
 				}
 			],
@@ -1843,7 +1843,7 @@
 				{
 					"name": "Berserk",
 					"entries": [
-						"每当石魔(Cobblefright)在其回合开始时拥有40点生命值或更少时，投掷一个{@dice d6}。在掷出6时，石魔会变得狂暴。在狂暴状态下的每个回合，石魔会攻击它能看到的最近的生物。如果没有足够接近的生物可以移动并攻击，石魔会攻击一个物体，优先选择比自己小的物体。一旦石魔变得狂暴，它会持续这样直到被摧毁或恢复所有生命值。"
+						"Whenever the cobblefright starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the cobblefright goes berserk. On each of its turns while berserk, the cobblefright attacks the nearest creature it can see. If no creature is near enough to move to and attack, the cobblefright attacks an object, with preference for an object smaller than itself. Once the cobblefright goes berserk, it continues to do so until it is destroyed or regains all its hit points."
 					]
 				}
 			],
@@ -1851,25 +1851,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"鹅卵石恐怖兽进行三次爪击攻击。其中一次攻击可以被抓取攻击所取代。"
+						"The cobblefright makes three claw attacks. One of those attacks can be replaced by a grab attack."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 1d4 + 4})点穿刺伤害。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d4 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Grab",
 					"entries": [
-						"{@atk mw} {@hit 7} 进行攻击，射程5英尺，一个目标。{@h} 目标被 {@condition grappled} (逃脱 {@dc 15})。 石怪可以同时拥有最多2个目标。在每个目标的回合开始时，如果它拥有 {@condition grappled}，石怪可以挤压它的受害者。目标必须进行 {@dc 15} 力量豁免，如果豁免失败则受到13 ({@damage 2d8 + 4}) 钝击伤害。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}The target is {@condition grappled} (escape {@dc 15}). The cobblefright can grapple up to 2 targets at once. Once at the start of its turn for each target it has {@condition grappled} the cobblefright can squeeze its victim. The target must make a {@dc 15} Strength saving throw, taking 13 ({@damage 2d8 + 4}) bludgeoning damage on a failed save."
 					]
 				},
 				{
 					"name": "Soul Siphon",
 					"entries": [
-						"一只名为石块恐怖（Cobblefright）的生物必须进行 {@condition grappled} 一次 {@dc 14} 体质豁免才能，如果豁免失败则受到 11 点 {@damage 2d10} 死灵伤害，豁免成功则减半。目标的最大生命值将减少所受死灵伤害的数量，而石块恐怖则回复等量的生命值。这种减少持续到目标完成一次短休或长休。"
+						"One creature the cobblefright has {@condition grappled} must make a {@dc 14} Constitution saving throw, taking 11 ({@damage 2d10}) necrotic damage on a failed save, or half that amount on a success. The target's hit point maximum is reduced by the amount of necrotic damage taken, and the cobblefright regains hit points equal to that amount. The reduction lasts until the target finishes a short or long rest."
 					]
 				}
 			],
@@ -1964,7 +1964,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Corvax Revayne是一名9级法术施法者。他的法术施放能力是智力（法术豁免 {@dc 14}，法术攻击命中加值+6）。Corvax准备了以下法术："
+						"Corvax Revayne is a 9th level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 14}, +6 to hit with spell attacks). Corvax has the following spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -2020,19 +2020,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，科瓦克斯·雷文 (Corvax Revayne) 可以花费一次反应，在下降时向一个方向飞行，飞行距离不超过他的速度。科瓦克斯最终降落在一个空位上，并不会受到摔落伤害。科瓦克斯无法在携带重物、重武器或盾牌时滑翔（尽管他可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, Corvax Revayne can spend a reaction to fly up to his speed in one direction as he descends. Corvax lands in an unoccupied space at the end of his movement, and takes no falling damage. Corvax cannot glide while carrying heavy objects, heavy weapons, or shields (though he can drop any held items as part of his reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"Corvax Revayne在用他的爪子攀爬任何可以合理抓握的表面时，对力量检定有优势（{@skill Athletics}）。"
+						"Corvax Revayne has advantage on Strength ({@skill Athletics}) checks made to climb any surface his talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Skulker",
 					"entries": [
-						"Corvax Revayne在昏暗或黑暗环境中进行敏捷度检定时具有优势。"
+						"Corvax Revayne has advantage on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
 					]
 				}
 			],
@@ -2040,7 +2040,7 @@
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，射程5英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
 					]
 				}
 			],
@@ -2126,31 +2126,31 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，刺客可以花费一次反应，在下降时向一个方向飞行，飞行距离等于他们的速度。他们会在移动结束时降落在一个空位，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, the assassin can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"刺客在攀爬任何它们的爪子能够合理抓握的表面时，对力量检定获得优势（{@skill Athletics}）。"
+						"The assassin has advantage on Strength ({@skill Athletics}) checks made to climb any surface their talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Assassinate",
 					"entries": [
-						"在他们的第一个回合中，刺客对任何还没有行动的生物的攻击投掷获得优势。刺客对一个被偷袭的生物造成的任何命中都是暴击。"
+						"During their first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
 					]
 				},
 				{
 					"name": "Sneak Attack",
 					"entries": [
-						"每个回合，刺客在用武器攻击命中目标并且具有优势攻击检定时，或者目标在刺客的盟友（不是{@condition incapacitated}）的5英尺内且刺客没有劣势攻击检定时，刺客可以额外造成10（{@dice 3d6}）点伤害。"
+						"Once per turn, the assassin deals an extra 10 ({@dice 3d6}) damage when they hit a target with a weapon attack and have advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't {@condition incapacitated} and the assassin doesn't have disadvantage on the attack roll."
 					]
 				},
 				{
 					"name": "Skulker",
 					"entries": [
-						"刺客在昏暗或黑暗环境中进行敏捷检定时具有优势。"
+						"The assassin has advantage on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
 					]
 				}
 			],
@@ -2158,25 +2158,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"刺客进行两次近战攻击：一次使用他们的短剑，一次使用匕首。或者刺客用匕首进行两次远程攻击。"
+						"The assassin makes two melee attacks: one with their shortsword and one with their dagger. Or the assassin makes two ranged attacks with their daggers."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d4 + 3}) 点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} 近战攻击命中，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 3}) 穿刺伤害，并且目标必须进行一次 {@dc 13} 体质豁免，未通过则受到10 ({@damage 3d6}) 毒素伤害，通过则减半。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 3}) piercing damage, and the target must make a {@dc 13} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. "
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} 进行攻击，射程5英尺或射程20/60英尺，一个目标。造成{@h}5 ({@damage 1d4 + 3}) 穿刺伤害，并且目标必须进行一次{@dc 13} 体质豁免才能，未通过则受到10 ({@damage 3d6}) 毒素伤害，通过则减半。"
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage, and the target must make a {@dc 13} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. "
 					]
 				}
 			],
@@ -2274,7 +2274,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"占卜者是一名9级法术施展者。他们的法术施展能力是智力（法术豁免 {@dc 14}，法术攻击命中加值+6）。占卜者已准备了以下法术："
+						"The diviner is a 9th level spellcaster. Their spellcasting ability is Intelligence (spell save {@dc 14}, +6 to hit with spell attacks). The diviner has the following spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -2330,19 +2330,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，占卜师可以花费一个反应，在下降时向一个方向飞行，飞行距离为他们的速度。占卜师在移动结束时降落在一个空位，并不会受到摔落伤害。占卜师在携带重物、重武器或盾牌时无法滑翔（尽管他们可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, the diviner can spend a reaction to fly up to their speed in one direction as they descend. The diviner lands in an unoccupied space at the end of their movement, and takes no falling damage. The diviner cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"占卜者在爬升任何它们的爪子可以合理抓握的表面时，进行的力量检定获得优势。"
+						"The diviner has advantage on Strength ({@skill Athletics}) checks made to climb any surface their talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Skulker",
 					"entries": [
-						"占卜师在昏暗或黑暗环境中进行敏捷检定时具有优势。"
+						"The diviner has advantage on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
 					]
 				}
 			],
@@ -2350,7 +2350,7 @@
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，射程5英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
 					]
 				}
 			],
@@ -2437,7 +2437,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"这位死灵法师是一名9级法术施法者。他们的法术能力是智力（法术豁免{@dc 15}，法术攻击命中加值+7）。这位死灵法师已经准备了以下巫师法术："
+						"The necromancer is a 9th-level spellcaster. Their spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -2497,25 +2497,25 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，(the necromancer)可以花费一个反应，在下降时向一个方向飞行，飞行距离等于他们的速度。他们在移动结束时降落在一个空位，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, the necromancer can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"这位死灵法师在攀爬任何它们的爪子能够合理抓握的表面时，对力量检定有优势（{@skill Athletics}）。"
+						"The necromancer has advantage on Strength ({@skill Athletics}) checks made to climb any surface their talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Convincing",
 					"entries": [
-						"这位死灵法师在用于说服他人相信自己对于奥秘技能相关主题的知识的所有魅力检定中获得优势。"
+						"The necromancer has advantage on all Charisma checks used to convince someone of their knowledge of subject matter pertaining to the Arcana skill."
 					]
 				},
 				{
 					"name": "Life Leech",
 					"entries": [
-						"每回合一次，当(死灵法师)使用1级或更高级别的法术杀死一个或多个生物时，他们可以恢复等于法术等级两倍的生命值，如果是(死灵术)法术则为三倍。"
+						"Once per turn, when the necromancer kills one or more creatures with a spell of 1st level or higher, they can regain hit points equal to twice the level of the spell, or three times the level if it is a necromancy spell."
 					]
 				}
 			],
@@ -2523,13 +2523,13 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 2}攻击，达到5英尺，一个目标。造成{@h}2 ({@damage 1d6 - 1}) 钝击伤害，或者如果双手握持则造成3 ({@damage 1d8 - 1}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if wielded with both hands."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，射程5英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
 					]
 				}
 			],
@@ -2606,7 +2606,7 @@
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，一个目标。造成{@h}2 ({@damage 1d4}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
 					]
 				}
 			],
@@ -2661,19 +2661,19 @@
 				{
 					"name": "Echolocation",
 					"entries": [
-						"燃火蝙蝠在{@condition deafened}时无法使用其致盲视觉。"
+						"The Emberbat can't use its blindsight while {@condition deafened}."
 					]
 				},
 				{
 					"name": "Keen Hearing",
 					"entries": [
-						"灰烬蝙蝠在依赖听觉的感知（{@skill Perception}）检查中有优势。"
+						"The Emberbat has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
 					]
 				},
 				{
 					"name": "Ember Flame",
 					"entries": [
-						"火焰蝙蝠(Emberbat)可以随意从鼻子中创造火焰。它在半径5英尺内散发出明亮的光芒，在另外5英尺范围内散发微弱的光芒。这种效果会持续直到被解除，火焰蝙蝠可以随时解除。点燃时，火焰还会为火焰蝙蝠的咬击提供一定的伤害加成(已包含在属性块中)。"
+						"The emberbat can create a flame from its nose at will. It sheds bright light in a 5-foot-radius and dim light in another 5 feet beyond this. This effect lasts until it is dismissed, which the emberbat can do at anytime. When lit, the flame also provides a small damage boost to the emberbat's bite (already included in stat block)."
 					]
 				}
 			],
@@ -2681,7 +2681,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 0}命中，达到5英尺，一个目标。造成{@h}1穿刺伤害加上1火焰伤害。"
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage plus 1 fire damage."
 					]
 				}
 			],
@@ -2748,13 +2748,13 @@
 				{
 					"name": "Standing Leap",
 					"entries": [
-						"一只杰尔宾(Jerbeen)的长跳是30英尺，无论是否有起跑距离，它们的基础跳高是15英尺。"
+						"A jerbeen's long jump is 30 feet, and their base high jump is 15 feet, with or without a running start."
 					]
 				},
 				{
 					"name": "Team Tactics",
 					"entries": [
-						"Jerbeens可以将{@action Help}动作作为一个奖励动作。"
+						"Jerbeens can take the {@action Help} action as a bonus action."
 					]
 				}
 			],
@@ -2762,7 +2762,7 @@
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，一个目标。造成{@h}2 ({@damage 1d4}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
 					]
 				}
 			],
@@ -2824,19 +2824,19 @@
 				{
 					"name": "Natural Camouflage",
 					"entries": [
-						"潜行者在森林中进行的敏捷检定时具有优势。攻击目标无法看到自己的生物在进行攻击投掷时具有优势。"
+						"The prowler has advantage on Dexterity ({@skill Stealth}) checks made in the forest. Creatures who attack a target that cannot see them have advantage on their attack roll."
 					]
 				},
 				{
 					"name": "Pounce",
 					"entries": [
-						"如果森林潜行者向一个生物直线移动至少10英尺，然后在同一回合用爪击中它，那个目标必须成功进行一次{@dc 14}力量豁免才能不被击倒{@condition prone}。潜行者可以使用其奖励动作对这个目标再进行一次爪击。"
+						"If the Forest Prowler moves at least 10 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. The prowler can use its bonus action to make another claw attack against this target."
 					]
 				},
 				{
 					"name": "Ambuscade",
 					"entries": [
-						"潜行者可以将冲刺或躲藏动作作为一个额外动作。"
+						"The prowler can use the dash or hide action as a bonus action."
 					]
 				}
 			],
@@ -2844,19 +2844,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"潜行者进行两次爪击和一次咬击攻击。"
+						"The prowler makes two claw attacks and one bite attack."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6}攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 1d8 + 4})点割伤伤害。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage,."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。{@h}13 ({@damage 2d8 + 4}) 穿刺伤害。如果被咬攻击的目标是{@condition prone}，则额外受到4 ({@damage 1d8}) 穿刺伤害。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage. If the target of the bite attack is {@condition prone}, it takes an additional 4 ({@damage 1d8}) piercing damage. "
 					]
 				}
 			],
@@ -2944,7 +2944,7 @@
 				{
 					"name": "Evasive",
 					"entries": [
-						"Fray在敏捷豁免投掷中获得她的智力调整值作为奖励。"
+						"Fray includes her Intelligence modifier as a bonus to her Dexterity saving throws."
 					]
 				}
 			],
@@ -2952,25 +2952,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Fray 进行两次攻击。"
+						"Fray makes two attacks."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Short sword",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Short bow",
 					"entries": [
-						"{@atk mw} 近战攻击，射程80/320尺，目标一个。造成{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				}
 			],
@@ -2978,7 +2978,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"Fray每轮可以对她的AC增加2，以抵御一次即将命中她的近战攻击。Fray必须看到攻击者并且握持一把近战武器。"
+						"Fray adds 2 to their AC against one melee attack that would hit her per round. Fray must see the attacker and be wielding a melee weapon. "
 					]
 				}
 			],
@@ -3063,7 +3063,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"盖伯是一个10级的法术施展者。他的法术施展能力是智力（法术豁免 {@dc 15}，使用法术攻击命中加值+7）。盖伯已经准备好以下法术："
+						"Gabe is a 10th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). Gabe has the following spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -3123,25 +3123,25 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方掉落时，加白可以花费一个反应，在下降时向一个方向飞行，飞行距离等于他的速度。他会在移动结束时降落在一个空位上，并不会受到掉落伤害。他无法在携带重物、重武器或盾牌时滑翔（尽管他可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, Gabe can spend a reaction to fly up to his speed in one direction as he descends. He lands in an unoccupied space at the end of his movement, and takes no falling damage. He cannot glide while carrying heavy objects, heavy weapons, or shields (though he can drop any held items as part of his reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，盖布(Gabe)可以利用他强大的羽毛翅膀向上推进，最多达到他移动速度的一半。盖布可以与普通跳跃结合使用，但不能在滑翔时使用。"
+						"As a bonus action, Gabe can use his powerful feathered arms to propel himself upward up to half his movement speed. Gabe can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Fated (Recharges after a Long Rest)",
 					"entries": [
-						"盖伯可以选择重新投掷任何攻击、技能检定或豁免投掷。"
+						"Gabe can choose to reroll any attack, skill check, or saving throw."
 					]
 				},
 				{
 					"name": "Resilience",
 					"entries": [
-						"盖伯在拯救投掷中对毒素有优势。(Gabe)"
+						"Gabe has advantage on saving throws against poison."
 					]
 				}
 			],
@@ -3149,7 +3149,7 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}2({@damage 1d6 - 1})点钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
 					]
 				}
 			],
@@ -3157,7 +3157,7 @@
 				{
 					"name": "Charming (3/Day)",
 					"entries": [
-						"当一个生物对加百列（Gabe）进行攻击时，该生物必须成功通过一次{@dc 14}感知豁免检定，否则将攻击范围内下一个最近的生物。如果有多个生物距离相同，攻击者可以选择目标。如果范围内没有其他生物，则此特性不起作用。"
+						"When a creature makes an attack against Gabe, the creature must succeed on a {@dc 14} Wisdom saving throw or target the next closest creature within range. If multiple creatures are closest, the attacker chooses. This feature does not work if there are no other creatures within range"
 					]
 				}
 			],
@@ -3248,7 +3248,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"德鲁伊是一名6级法术施展者。他们的法术能力是智力（法术豁免 {@dc 14}，法术攻击命中加值+6）。德鲁伊已准备了以下法术："
+						"The druid is a 6th-level spellcaster. Their spellcasting ability is Wisdom (spell save {@dc 14}, +6 to hit with spell attacks). The druid has the following spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -3291,43 +3291,43 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当德鲁伊从至少10英尺高的地方摔落时，他们可以花费一个反应，在下降时向一个方向飞行，飞行距离等于他们的速度。他们在移动结束时降落在一个空位，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, the druid can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，德鲁伊可以利用他们强大的羽翼手臂向上推动自己，最多达到他们移动速度的一半。德鲁伊可以与普通跳跃结合使用，但不能在滑翔时使用。"
+						"As a bonus action, the druid can use their powerful feathered arms to propel themselves upward up to half their movement speed. The druid can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Seedspeech",
 					"entries": [
-						"德鲁伊可以向活植物传达简单的想法，并能用简单的语言解释它们的回应。"
+						"The druid can communicate simple ideas to living plants, and is able to interpret their responses in simple language."
 					]
 				},
 				{
 					"name": "Spirit Totem (Recharges after a Short or Long Rest)",
 					"entries": [
-						"作为一个奖励动作，德鲁伊召唤自然之灵。这个灵体会出现在德鲁伊能看到的60英尺范围内。这个灵体会创造一个半径为30英尺的光环。这个灵体既不是物体也不是生物，而是一个幻影野兽。作为一个奖励动作，德鲁伊可以将这个灵体移动到60英尺内的另一个位置。这个灵体持续1分钟。",
+						"As a bonus action, the druid calls forth a nature spirit. The spirit appears at a point the druid can see within 60 feet. The spirit creates a 30-foot-radius aura. The spirit is neither an object nor a creature, but is a spectral beast. As a bonus action, the druid can move the spirit to another location within 60 feet. The spirit lasts for 1 minute.",
 						{
 							"name": "Bear Spirit",
 							"entries": [
-								"德鲁伊和光环内的盟友获得9点临时生命值，并在力量检定和豁免 throws上获得优势。"
+								"The druid and allies within the aura gain 9 temporary hit points and have advantage on Strength checks and saving throws."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Hawk Spirit",
 							"entries": [
-								"德鲁伊可以使用他们的反应来为盟友的攻击卷轴对抗光环内的目标提供优势。德鲁伊和光环内的盟友在感知检定上获得优势。"
+								"The druid can use their reaction to grant advantage to an ally's attack roll against a target in the aura. The druid and allies within the aura have advantage on Wisdom ({@skill Perception}) checks."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Unicorn Spirit",
 							"entries": [
-								"如果一个需要法术位的法术治疗了德鲁伊或光环中的盟友，德鲁伊选择的每个生物也会额外获得4点生命值。"
+								"If a spell that requires a spell slot heals the druid or allies in the aura, each creature of the druid's choice also gains 4 hit points"
 							],
 							"type": "entries"
 						}
@@ -3338,7 +3338,7 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} 近战攻击，达到5英尺，一个目标。造成{@h}4 ({@damage 1d6 + 1}) 钝击伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
 					]
 				}
 			],
@@ -3429,19 +3429,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，武僧可以花费一次反应，在下降时向一个方向飞行，飞行距离等于他们的速度。他们会在移动结束时降落在一个空位上，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, the monk can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，武僧可以利用他们强大的羽毛状臂膀向上推动自己，最多达到他们移动速度的一半。武僧可以在普通跳跃时使用它，但不能在滑翔时使用。"
+						"As a bonus action, the monk can use their powerful feathered arms to propel themselves upward up to half their movement speed. The monk can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Wind's Grace",
 					"entries": [
-						"移动时，这位武僧可以沿着垂直表面移动，也可以在液体上移动而不会掉落。"
+						"While moving, the monk can move along vertical surfaces and across liquids without falling."
 					]
 				}
 			],
@@ -3449,31 +3449,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"这位武僧进行四次攻击，每次可以是徒手攻击或飞镖攻击。他们还可以在其中一次攻击前后使用一次他们的(Graceful Step)。"
+						"The monk makes four attacks, each of which can be an unarmed strike or a dart attack. They can also use their Graceful Step once, either before or after one of the attacks."
 					]
 				},
 				{
 					"name": "Unarmed Attack",
 					"entries": [
-						"{@atk mw} {@hit 7}攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 1d6 + 4}) 钝击伤害。"
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Dart",
 					"entries": [
-						"{@atk rw}进行攻击，射程20/60尺，目标为一个。造成{@h}6 ({@damage 1d4 + 4})点穿刺伤害。"
+						"{@atk rw} {@hit 7} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Graceful Step",
 					"entries": [
-						"这位僧侣移动40英尺。这次移动不会引发{@action opportunity attack|phb|opportunity attacks}。"
+						"The monk moves 40 feet. This movement does not provoke {@action opportunity attack|phb|opportunity attacks}."
 					]
 				},
 				{
 					"name": "Inspiring",
 					"entries": [
-						"这位僧侣激励一个能看到和听到他们的盟友。盟友可以投掷一个{@dice d4}，并将投掷的数字加到他们接下来的技能检定、攻击骰或豁免骰上。"
+						"The monk inspires an ally that can see and hear them. The ally can roll a {@dice d4} and add the number rolled to their next ability check, attack roll, or saving throw."
 					]
 				}
 			],
@@ -3564,7 +3564,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"这位死灵法师是一名9级法术施展者。他的法术施展能力是智力（法术豁免{@dc 15}，法术攻击命中加值+7）。这位死灵法师准备了以下巫师法术："
+						"The necromancer is a 9th level spellcaster. Their spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -3621,19 +3621,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，(死灵法师) can spend a reaction to fly up to their speed in one direction as they descend. (死灵法师) lands in an unoccupied space at the end of their movement, and takes no falling damage. (死灵法师) cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
+						"When falling at least 10 feet, the necromancer can spend a reaction to fly up to their speed in one direction as they descend. The necromancer lands in an unoccupied space at the end of their movement, and takes no falling damage. The necromancer cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，(the necromancer) 可以利用他们强大的羽毛状手臂向上推进，最多达到他们移动速度的一半。(the necromancer) 可以与普通跳跃结合使用，但不能在滑翔时使用。"
+						"As a bonus action, the necromancer can use their powerful feathered arms to propel themselves upward up to half their movement speed. The necromancer can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Seedspeech",
 					"entries": [
-						"这位死灵法师可以向活植物传达简单的想法，并能用简单的语言解释它们的回应。"
+						"The necromancer can communicate simple ideas to living plants, and is able to interpret their responses in simple language."
 					]
 				}
 			],
@@ -3641,7 +3641,7 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，目标一个。造成{@h}2 ({@damage 1d6 - 1}) 钝击伤害，或者如果双手使用则造成3 ({@damage 1d8 - 1}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if used with both hands."
 					]
 				}
 			],
@@ -3737,7 +3737,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"格林达是一名9级法术施展者。她的法术施展能力是智力（法术豁免 {@dc 15}，法术攻击命中加值+7）。格林达已准备了以下巫师法术："
+						"Glinda is a 9th level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). Glinda has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -3794,19 +3794,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，格林达可以花费一个反应，在下降时向一个方向飞行，飞行距离等于她的速度。格林达在移动结束时降落在一个空位，并不会受到摔落伤害。格林达无法在携带重物、重武器或盾牌时滑翔（尽管她可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Glinda can spend a reaction to fly up to her speed in one direction as she descends. Glinda lands in an unoccupied space at the end of her movement, and takes no falling damage. Glinda cannot glide while carrying heavy objects, heavy weapons, or shields (though she can drop any held items as part of her reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，格琳达可以利用她强大的羽翼手臂向上推进，最多达到她移动速度的一半。格琳达可以在普通跳跃时使用它，但不能在滑翔时使用。"
+						"As a bonus action, Glinda can use her powerful feathered arms to propel herself upward up to half her movement speed. Glinda can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Seedspeech",
 					"entries": [
-						"Glinda能够与活植物交流简单的想法，并能用简单的语言解释它们的回应。"
+						"Glinda can communicate simple ideas to living plants, and is able to interpret their responses in simple language."
 					]
 				}
 			],
@@ -3814,7 +3814,7 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，目标一个。造成{@h}2 ({@damage 1d6 - 1}) 钝击伤害，或者如果双手使用则造成3 ({@damage 1d8 - 1}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if used with both hands."
 					]
 				}
 			],
@@ -3906,31 +3906,31 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当格雷戈(Gregor)从至少10英尺高的地方摔落时，他可以花费一次反应，在下降时向一个方向飞行，飞行距离为他的速度。他在移动结束时降落在一个空位上，并不会受到摔落伤害。他无法在携带重物、重武器或盾牌时滑翔（尽管他可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Gregor can spend a reaction to fly up to his speed in one direction as he descends. He lands in an unoccupied space at the end of his movement, and takes no falling damage. He cannot glide while carrying heavy objects, heavy weapons, or shields (though he can drop any held items as part of his reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，格雷戈尔可以利用他强大的羽毛翅膀向上推进，距离等于他移动速度的一半。他可以与普通跳跃结合使用，但不能在滑翔时使用。"
+						"As a bonus action, Gregor can use his powerful feathered arms to propel himself upward a distance equal to half his movement speed. He can use it in conjunction with a regular jump, but not while gliding. "
 					]
 				},
 				{
 					"name": "Fated (Recharges after a Long Rest)",
 					"entries": [
-						"Gregor可以选择重新投掷任何攻击骰、技能检定或豁免检定。"
+						"Gregor can choose to reroll any attack roll, skill check, or saving throw."
 					]
 				},
 				{
 					"name": "Damage Resistance",
 					"entries": [
-						"Gregor对毒素伤害具有抗性。(Gregor)"
+						"Gregor is resistant to poison damage."
 					]
 				},
 				{
 					"name": "Resilience",
 					"entries": [
-						"Gregor在豁免投掷中对抗被{@condition poisoned}的情况有优势。"
+						"Gregor has advantage on saving throws against being {@condition poisoned}."
 					]
 				}
 			],
@@ -3938,7 +3938,7 @@
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} {@hit 3} 进行攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d8 + 1}) 穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
 					]
 				}
 			],
@@ -3946,7 +3946,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"Gregor在面对一次即将命中他的近战攻击时，可以将自己的AC提高2点。为此，Gregor必须看到攻击者并握持一把近战武器。"
+						"Gregor adds 2 to his AC against one melee attack that would hit him. To do so, Gregor must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
@@ -4032,7 +4032,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"Havel是一名4级法术施展者。他的法术施展能力是智力（法术豁免{@dc 13}，法术攻击命中加值+5）。他已经准备了以下法术："
+						"Havel is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 13}, +5 to hit with spell attacks). He has the following spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -4066,19 +4066,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，哈维尔可以花费一次反应，在下降时向一个方向飞行，飞行距离为他的速度。他在移动结束时降落在一个空位，并不会受到摔落伤害。哈维尔在携带重物、重武器或盾牌时无法滑翔（尽管他可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Havel can spend a reaction to fly up to his speed in one direction as he descends. He lands in an unoccupied space at the end of his movement, and takes no falling damage. Havel cannot glide while carrying heavy objects, heavy weapons, or shields (though he can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，Havel可以利用他强大的羽毛翅膀向上推动自己，最多达到他移动速度的一半。他可以与普通跳跃结合使用，但不能在滑翔时使用。"
+						"As a bonus action, Havel can use his powerful feathered arms to propel himself upward up to half his movement speed. He can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Seedspeech",
 					"entries": [
-						"Havel可以向活植物传达简单的想法，并能够用简单的语言解释它们的回应。"
+						"Havel can communicate simple ideas to living plants, and is able to interpret their responses in simple language."
 					]
 				}
 			],
@@ -4160,7 +4160,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"诗人是一名4级法术施展者。他们的法术施展能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值+5）。他们已准备了以下诗人法术："
+						"The bard is a 4th-level spellcaster. Their spellcasting ability is Charisma (spell save {@dc 13}, +5 to hit with spell attacks). They have the following bard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -4195,7 +4195,7 @@
 				{
 					"name": "Taunt (2/Day)",
 					"entries": [
-						"吟游诗人可以在他们的回合使用一个奖励动作，以瞄准距离30英尺内的一个生物。如果目标能听到吟游诗人，目标必须成功通过一个{@dc 13}的魅力豁免才能在吟游诗人的下一个回合开始前，对能力检定、攻击骰和豁免骰有劣势。"
+						"The bard can use a bonus action on their turn to target one creature within 30 feet of them. If the target can hear the bard, the target must succeed on a {@dc 13} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn"
 					]
 				}
 			],
@@ -4203,25 +4203,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"诗人使用他们的西洋剑进行一次攻击，然后用匕首进行一次攻击。"
+						"he bard makes two weapon attacks, one with their rapier and one with their dagger."
 					]
 				},
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw}进行攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点穿刺伤害。"
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Curl Up",
 					"entries": [
-						"吟游诗人蜷缩成一个带刺的球。在这种蜷缩状态下，他们无法移动、攻击或施放需要手势的法术，基础护甲等级变为19。任何未能击中这位篱笆吟游诗人的生物在其蜷缩状态下用近战攻击时，会受到{@dice 2d4}点穿刺伤害，来自于他们尖锐的刺。然而，如果一只生物在吟游诗人蜷缩状态下击中了他们，吟游诗人会在回合结束时被击退{@condition prone}。吟游诗人可以在他们的回合中的任何时候解开蜷缩状态。"
+						"The bard curls up into a spiny ball. While curled up in this way they cannot move, attack, or cast spells with somatic components, and their base armor class becomes 19. Any creature that misses the hedge bard with a melee attack while they are curled up takes {@dice 2d4} points of piercing damage from their sharp quills. If a creature hits the bard while they are curled up, however, the bard is knocked {@condition prone} in their space at the end of the turn. The bard may uncurl themselves at any point during their turn."
 					]
 				}
 			],
@@ -4327,7 +4327,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"这位女巫是一名2级法术施展者。她的法术施展能力是魅力（法术豁免{@dc 13}，法术攻击命中加值+5）。这位女巫已经准备好以下的术士法术："
+						"The witch is a 2nd-level spellcaster. Their spellcasting ability is Charisma (spell save {@dc 13}, +5 to hit with spell attacks). The witch has the following warlock spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -4353,13 +4353,13 @@
 				{
 					"name": "Dark One's Blessing",
 					"entries": [
-						"当女巫将一个敌对生物的生命值降低到0点时，女巫会获得5点临时生命值。"
+						"When the witch reduces a hostile creature to 0 hit points, the witch gains 5 temporary hit points."
 					]
 				},
 				{
 					"name": "Repelling Blast",
 					"entries": [
-						"当女巫用奥术射线击中生物时，她可以将该生物向直线方向推动多达10英尺远。"
+						"When the witch hits a creature with eldritch blast, they can push the creature up to 10 feet away in a straight line."
 					]
 				}
 			],
@@ -4367,25 +4367,25 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 1}攻击，达到5英尺，一个目标。造成{@h}2 ({@damage 1d6 - 1}) 钝击伤害。"
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw}进行攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点穿刺伤害。"
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Fiendish Vigor",
 					"entries": [
-						"这位女巫可以随意施放{@spell false life}，作为一个1级法术。"
+						"The witch can cast {@spell false life} at will as a 1st-level spell."
 					]
 				},
 				{
 					"name": "Curl Up",
 					"entries": [
-						"这位女巫蜷缩成一个刺球。在这种蜷缩状态下，她无法移动、攻击或施放需要手势的法术，她的基础护甲等级变为19。任何在女巫蜷缩状态下未能击中她的近战攻击生物，都会受到{@dice 2d4}点来自她尖刺的穿刺伤害。然而，如果有生物在女巫蜷缩状态下击中她，女巫会在回合结束时被击退{@condition prone}。女巫可以在她的回合任何时候解开蜷缩状态。"
+						"The witch curls up into a spiny ball. While curled up in this way they cannot move, attack, or cast spells with somatic components, and their base armor class becomes 19. Any creature that misses the witch with a melee attack while they are curled up takes {@dice 2d4} points of piercing damage from their sharp quills. If a creature hits the witch while they are curled up, however, the witch is knocked {@condition prone} in their space at the end of the turn. The witch may uncurl themselves at any point during their turn."
 					]
 				}
 			],
@@ -4471,13 +4471,13 @@
 				{
 					"name": "Fated (Recharges after a Long Rest)",
 					"entries": [
-						"杰尔(Jell)可以选择重新投掷任何攻击骰、技能检定或豁免检定。"
+						"Jell can choose to reroll any attack roll, skill check, or saving throw."
 					]
 				},
 				{
 					"name": "Songbird (Recharges after a Long Rest)",
 					"entries": [
-						"杰尔可以施放{@spell charm person}。魅力是她的施法能力，这个法术施放时不需要任何手势成分。"
+						"Jell can cast {@spell charm person}. Charisma is her spellcasting ability and the spell does not require any somatic components to cast."
 					]
 				}
 			],
@@ -4485,7 +4485,7 @@
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，一个目标。造成{@h}2 ({@damage 1d4}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
 					]
 				}
 			],
@@ -4562,19 +4562,19 @@
 				{
 					"name": "Standing Leap",
 					"entries": [
-						"冒险家的基础长跳距离为30英尺，基础高跳为15英尺，无论是否有起跑助跑。"
+						"The swashbuckler's base long jump is 30 feet, and their base high jump is 15 feet, with or without a running start."
 					]
 				},
 				{
 					"name": "Team Tactics",
 					"entries": [
-						"冒险家可以将{@action Help}动作作为一个奖励动作。"
+						"The swashbuckler can take the {@action Help} action as a bonus action."
 					]
 				},
 				{
 					"name": "Sharp Witted Defense",
 					"entries": [
-						"当冒险家穿着轻甲或无甲并且不使用盾牌时，他们的AC包括他们的魅力调整值。"
+						"While the swashbuckler is wearing light or no armor and wielding no shield, their AC includes their Charisma modifier."
 					]
 				}
 			],
@@ -4582,19 +4582,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"这位冒险家进行三次攻击，一次使用匕首，两次使用他们的西洋剑（rapier）。"
+						"The swashbuckler makes three attacks, one with a dagger and two with their rapier."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 6}攻击，达到5英尺或射程20/60英尺，一个目标。造成{@h}6 ({@damage 1d4 + 4})穿刺伤害。"
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} 使用 {@hit 6} 进行攻击，达到5英尺，一个目标。造成{@h}8 ({@damage 1d8 + 4}) 穿刺伤害。"
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
 					]
 				}
 			],
@@ -4602,7 +4602,7 @@
 				{
 					"name": "Riposte",
 					"entries": [
-						"冒险家减少了对其造成的一次近战攻击的伤害，伤害减少了4 ({@dice 1d8})，并对攻击者造成同等的穿刺伤害。冒险家必须看到攻击者并持有一把近战武器。"
+						"The swashbuckler reduces the damage dealt by one melee attack that would hit them by 4 ({@dice 1d8}), and deals that much piercing damage to their attacker. The swashbuckler must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
@@ -4679,13 +4679,13 @@
 				{
 					"name": "Standing Leap",
 					"entries": [
-						"盗贼的长跳可达30英尺，高跳可达15英尺，无论是否有起跑助跑。"
+						"The thief's long jump is up to 30 feet and their high jump is up to 15 feet, with or without a running start."
 					]
 				},
 				{
 					"name": "Team Tactics",
 					"entries": [
-						"小偷可以将{@action Help}动作作为一个奖励动作。"
+						"The thief can take the {@action Help} action as a bonus action."
 					]
 				}
 			],
@@ -4693,13 +4693,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"小偷进行两次匕首攻击。"
+						"The thief makes two dagger attacks."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw}进行攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点穿刺伤害。"
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				}
 			],
@@ -4707,7 +4707,7 @@
 				{
 					"name": "Opportunist",
 					"entries": [
-						"当一个生物对盗贼进行近战攻击并未命中时，盗贼可以进行一个敏捷度检定（{@skill Sleight of Hand}）对抗一个DC，这个DC等于10加上目标生物的敏捷度调整值。如果成功，盗贼可以从目标身上偷取一件由GM选择的物品。这个物品不能是目标当前持有或穿戴的物品。"
+						"When a creature fails a melee attack roll against the thief, the thief can make a Dexterity ({@skill Sleight of Hand}) check against a DC equal to 10 + the target creature's Dexterity modifier. On a success, the thief steals one item of the GMs choosing from the target. It cannot be an item actively held or worn by the target."
 					]
 				}
 			],
@@ -4775,25 +4775,25 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当跌落至少10英尺时，肯娜可以花费一次反应，在下降时向一个方向飞行，飞行距离为她的速度。肯娜在移动结束时降落在一个空位，并不会受到坠落伤害。肯娜无法在携带重物、重武器或盾牌时滑翔（尽管她可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Kenna can spend a reaction to fly up to her speed in one direction as she descends. Kenna lands in an unoccupied space at the end of her movement, and takes no falling damage. Kenna cannot glide while carrying heavy objects, heavy weapons, or shields (though she can drop any held items as part of her reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"Kenna在攀爬任何她的爪子能够合理抓握的表面时，对力量检定有优势（{@skill Athletics}）。"
+						"Kenna has advantage on Strength ({@skill Athletics}) checks made to climb any surface her talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Learned",
 					"entries": [
-						"Kenna 在以下技能中获得熟练：{@skill Arcana}，{@skill History}，{@skill Nature}，或{@skill Religion}。"
+						"Kenna gains proficiency in one of the following skills: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}."
 					]
 				},
 				{
 					"name": "Skulker",
 					"entries": [
-						"Kenna在昏暗或黑暗环境中进行敏捷检定时具有优势。"
+						"Kenna has advantage on Dexterity ({@skill Stealth}) checks made in dim light or darkness."
 					]
 				}
 			],
@@ -4801,13 +4801,13 @@
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，一个目标。造成{@h}2 ({@damage 1d4}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标一个。造成{@h}2 ({@damage 1d4})点割伤伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) slashing damage."
 					]
 				}
 			],
@@ -4894,13 +4894,13 @@
 				{
 					"name": "Resilience",
 					"entries": [
-						"Krall在豁免投掷中对被{@condition poisoned}影响具有优势。"
+						"Krall has advantage on saving throws against being {@condition poisoned}."
 					]
 				},
 				{
 					"name": "Skulker",
 					"entries": [
-						"Krall在昏暗或完全黑暗环境中进行{@skill Stealth}检定时具有优势。"
+						"Krall has advantage on {@skill Stealth} checks made in dim light or total darkness."
 					]
 				}
 			],
@@ -4908,19 +4908,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"克拉尔进行三次近战攻击，其中两次使用他的西洋剑，一次使用他的挡格匕首。"
+						"Krall makes three melee attacks, two with his rapier and one with his parrying dagger."
 					]
 				},
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 1d8 + 3}) 穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Parrying Dagger",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标为一名敌人。造成{@h}6({@damage 1d6 + 3})点穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, range 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
 					]
 				}
 			],
@@ -4928,7 +4928,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"Krall在对他造成命中的一次近战攻击中，可以将自己的AC增加2。Krall必须看到攻击者并且握持一把近战武器。"
+						"Krall adds 2 to his AC against one melee attack that would hit him. Krall must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
@@ -5014,7 +5014,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"恶魔进行两次攻击，一次用咬(%num%)，一次用爪(%num%)。"
+						"The demon makes two attacks, one with its bite and one with its claws."
 					]
 				}
 			],
@@ -5022,19 +5022,19 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 2d4 + 2})点割伤伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage."
 					]
 				},
 				{
 					"name": "Foul Odor (1/day)",
 					"entries": [
-						"恶魔散发出一团有毒气体，填满一个直径为20英尺的球体，并持续1分钟，直到散入周围的空气中。这团气体会在拐角处扩散，影响区域被严重遮蔽。任何在回合开始时完全处于云中的生物必须进行一次{@dc 11} 体质豁免才能抵抗毒素。未通过豁免的生物在那个回合必须将动作用于干呕和摇晃。对毒素免疫的生物对此效果免疫。中等风力（至少10英里/小时）会在4回合后驱散云团。强风（至少20英里/小时）会在1回合后驱散它。"
+						"The demon emits a cloud of poisonous gas that fills a 20-foot sphere and persists for 1 minute until it disperses into the surrounding air. The cloud spreads around corners, and the affected area is heavily obscured. Any creature that is completely within the cloud at the start of its turn must make a {@dc 11} Constitution saving throw against the poison. On a failed save, the creature spends its action on that turn retching and reeling. Creatures immune to poison are immune to this effect. A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) will disperse it after 1 round."
 					]
 				}
 			],
@@ -5117,7 +5117,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"这位（cleric）是一名5级施法者。他们的施法能力是智力（法术豁免{@dc 13}，法术攻击命中加值+5）。这位（cleric）已经准备了以下圣职法术："
+						"The cleric is a 5th-level spellcaster. Their spellcasting ability is Wisdom (spell save {@dc 13}, +5 to hit with spell attacks). The cleric has the following cleric spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -5157,19 +5157,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，牧师可以花费一个反应，在下降时向一个方向飞行，飞行距离等于他们的速度。他们会在移动结束时降落在一个空位，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, the cleric can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, or heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，牧师可以利用他们强大的羽翼手臂向上推进，最多达到他们移动速度的一半。牧师可以在普通跳跃时使用这个能力，但不能在滑翔时使用。"
+						"As a bonus action, the cleric can use their powerful feathered arms to propel themselves upward up to half their movement speed. The cleric can use this in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Fated (Recharges after a Long Rest)",
 					"entries": [
-						"光明（Luma）（cleric）可以选择重新投掷任何攻击骰、技能检定或豁免检定。"
+						"The luma cleric can choose to reroll any attack roll, skill check, or saving throw."
 					]
 				}
 			],
@@ -5177,19 +5177,19 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，一个目标。造成{@h}3 ({@damage 1d6}) 钝击伤害，或者如果双手使用则造成4 ({@damage 1d8}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d8}) bludgeoning damage if used with both hands."
 					]
 				},
 				{
 					"name": "Ardea's Vigor (1/Day)",
 					"entries": [
-						"牧师祈求阿尔迪亚的力量，赋予他们的盟友她的保护生命力。光明牧师和30英尺内的最多3名盟友获得5 ({@dice 2d4}) 临时生命值。在一分钟内，受此效果影响的任何人在他们的回合开始时获得5临时生命值。"
+						"The cleric calls on the powers of Ardea to imbue their allies with her protective life force. The luma cleric and up to 3 allies within 30 feet gain 5 ({@dice 2d4}) temporary hit points. For one minute, anyone under this effect gains 5 temporary hit points at the start of each of their turns."
 					]
 				},
 				{
 					"name": "Songbird (Recharges after a Long Rest)",
 					"entries": [
-						"这位（cleric）可以施放{@spell charm person}。他们的法术能力是魅力（法术豁免{@dc 12}），并且该法术施放时不需要任何手势成分。"
+						"The cleric can cast {@spell charm person}. Charisma is their spellcasting ability (spell save {@dc 12}) and the spell does not require any somatic components to cast."
 					]
 				}
 			],
@@ -5279,7 +5279,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"这位巫师是一名10级法术施法者。他们的法术施法能力是智力（法术豁免 {@dc 15}，法术攻击命中加值+7）。这位巫师已经准备好以下法术："
+						"The wizard is a 10th-level spellcaster. Their spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). The wizard has the following spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -5339,25 +5339,25 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当向下跌落至少10英尺时，(wizard)巫师可以花费一次反应，在下降时向一个方向飞行，飞行距离为他们的速度。他们会在移动结束时降落在一个空位上，并不会受到坠落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, the wizard can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，巫师可以利用他们强大的羽翼手臂将自己向上推动，最多达到他们移动速度的一半。巫师可以与普通跳跃结合使用，但不能在滑翔时使用。"
+						"As a bonus action, the wizard can use their powerful feathered arms to propel themselves upward up to half their movement speed. The wizard can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Fated (Recharges after a Long Rest)",
 					"entries": [
-						"巫师可以选择重新投掷任何攻击、技能检定或豁免投掷。"
+						"The wizard can choose to reroll any attack, skill check, or saving throw."
 					]
 				},
 				{
 					"name": "Resilience",
 					"entries": [
-						"这位法师在对抗毒素的豁免 throws 时具有优势。"
+						"The wizard has advantage on saving throws against poison."
 					]
 				}
 			],
@@ -5365,7 +5365,7 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}2({@damage 1d6 - 1})点钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
 					]
 				}
 			],
@@ -5373,7 +5373,7 @@
 				{
 					"name": "Charming (3/Day)",
 					"entries": [
-						"当一个生物对巫师进行攻击时，该生物必须成功进行一次 {@dc 14} 智力豁免检定，否则将攻击范围内下一个最近的生物。如果有多个最近的生物，攻击者可以选择目标。如果范围内没有其他生物，则此特性不起作用。"
+						"When a creature makes an attack against the wizard, the creature must succeed on a {@dc 14} Wisdom saving throw or target the next closest creature within range. If multiple creatures are closest, the attacker chooses. This feature does not work if there are no other creatures within range"
 					]
 				}
 			],
@@ -5464,13 +5464,13 @@
 				{
 					"name": "Resilience",
 					"entries": [
-						"这个土匪在豁免投掷中对被 {@condition poisoned} 影响具有优势。"
+						"The bandit has advantage on saving throws against being {@condition poisoned}."
 					]
 				},
 				{
 					"name": "Skulker",
 					"entries": [
-						"土匪在昏暗或完全黑暗中进行的{@skill Stealth}检定中获得优势。(The bandit)"
+						"The bandit has advantage on {@skill Stealth} checks made in dim light or total darkness."
 					]
 				}
 			],
@@ -5478,13 +5478,13 @@
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标一个。造成{@h}4({@damage 1d6 + 1})点穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} 近战攻击，射程80/320尺，目标一个。造成{@h}4 ({@damage 1d6 + 1}) 穿刺伤害。"
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
 					]
 				}
 			],
@@ -5572,13 +5572,13 @@
 				{
 					"name": "Resilience",
 					"entries": [
-						"这个蛮力角色在豁免扑克中对抗被 {@condition poisoned} 时具有优势。"
+						"The brute has advantage on saving throws against being {@condition poisoned}."
 					]
 				},
 				{
 					"name": "Skulker",
 					"entries": [
-						"蛮力角色在昏暗或完全黑暗中进行{@skill Stealth}检定时具有优势。"
+						"The brute has advantage on {@skill Stealth} checks made in dim light or total darkness."
 					]
 				}
 			],
@@ -5586,19 +5586,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"蛮人使用他们的西洋剑进行两次近战攻击，再用他们的挡格匕首进行一次攻击。"
+						"The brute makes three melee attacks, two with their rapier and one with their parrying dagger."
 					]
 				},
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 1d8 + 3}) 穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Parrying Dagger",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标为一名敌人。造成{@h}6({@damage 1d6 + 3})点穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, range 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
 					]
 				}
 			],
@@ -5606,7 +5606,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"蛮力战士在面对一次即将命中他的近战攻击时，可以将自己的护甲类别提高2点。蛮力战士必须看到攻击者并持有一把近战武器。"
+						"The brute adds 2 to his AC against one melee attack that would hit them. The brute must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],
@@ -5681,13 +5681,13 @@
 				{
 					"name": "Resilience",
 					"entries": [
-						"这位修补匠在豁免投掷中对被{@condition poisoned}的情况具有优势。"
+						"The tinkerer has advantage on saving throws against being {@condition poisoned}."
 					]
 				},
 				{
 					"name": "Skulker",
 					"entries": [
-						"在昏暗或完全黑暗的环境中，修补工{@skill Stealth}检定获得优势。"
+						"The tinkerer has advantage on {@skill Stealth} checks made in dim light or total darkness."
 					]
 				}
 			],
@@ -5695,39 +5695,39 @@
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标为一个。造成{@h}4 ({@damage 1d4 + 2})点穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, range 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Tinker's Toys",
 					"entries": [
-						"工匠使用以下选项之一（掷骰子{@dice d4}或选择一个）；工匠每天只能使用一次：",
+						"The tinkerer uses one of the following options (roll a {@dice d4} or choose one); the tinkerer can use each one no more than once per day:",
 						{
 							"type": "entries",
 							"name": "1. Cogwork Bird",
 							"entries": [
-								"这位修补匠转动并释放一只小型机械鸟，它飞向30英尺内的目标生物并分散其注意力。对该生物的下一次攻击获得优势。"
+								"The tinkerer winds and releases a small mechanical bird that flies to a target creature within 30 feet and distracts it. The next attack against that creature is made with advantage."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "2. Flash-bangs",
 							"entries": [
-								"工匠瞄准距离最多10英尺的空间，投掷一些小型爆炸弹壳，闪耀出刺眼的光芒。距离目标空间10英尺内的所有生物必须进行一次{@dc 11}宪法豁免才能避免在工匠下一回合开始前变为{@condition blinded}。"
+								"The tinkerer targets a space up to 10 ft. away, and throws some small explosive shells that flare up in a blinding light. All creatures within 10 ft. of the target space must make a {@dc 11} Constitution saving throw or be {@condition blinded} until the start of the tinkerer's next turn."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "3. Nettle Gun",
 							"entries": [
-								"这位修补工转动小装置上的曲柄，向目标喷射荨麻。命中加值为{@atk rw}，射程10/20英尺，单一目标。造成{@h}4({@damage 1d4 + 2})点穿刺伤害。目标周围5英尺范围内的所有生物必须进行一次{@dc 11}敏捷豁免检定，否则受到5({@damage 1d10})点穿刺伤害。"
+								"The tinkerer turns the crank on a small gadget that sprays nettles at a target. {@atk rw} {@hit 4} to hit, range 10/20 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. All creatures within 5 ft. of the target must make a {@dc 11} Dexterity saving throw or take 5 ({@damage 1d10}) piercing damage."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "4. Grease Balloon",
 							"entries": [
-								"这位工匠瞄准距离15英尺的一个10英尺乘10英尺的区域，用油使其变得滑溜。该区域被视为艰难地形，站在该区域的每个生物必须成功进行一次{@dc 11}敏捷豁免才能不摔倒{@condition prone}。进入该区域或在其中结束回合的生物也必须成功进行一次{@dc 11}敏捷豁免才能不摔倒{@condition prone}。"
+								"The tinkerer targets a 10-foot by 10-foot area up to 15 feet away, and makes it slick with grease. The area is considered difficult terrain, and each creature standing in the area must succeed on a {@dc 11} Dexterity saving throw or fall {@condition prone}. A creature that enters the area or ends its turn there must also succeed on a {@dc 11} Dexterity saving throw or fall {@condition prone}."
 							]
 						}
 					]
@@ -5806,13 +5806,13 @@
 				{
 					"name": "Patterned Feathers",
 					"entries": [
-						"莫丹在尝试在森林中隐藏时，对敏捷度检定有优势（{@skill Stealth}）。"
+						"Mordane has advantage on Dexterity ({@skill Stealth}) checks when he attempts to hide in a forest."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"莫丹在攀爬任何他的爪子可以合理抓握的表面时，对力量检定有优势({@skill Athletics})。"
+						"Mordane has advantage on Strength ({@skill Athletics}) checks made to climb any surface his talons could reasonably grip."
 					]
 				}
 			],
@@ -5820,13 +5820,13 @@
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}3({@damage 1d4 + 1})点钝击伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} 使用 {@hit 3} 命中，达到5英尺，一个目标。造成{@h}3 ({@damage 1d4 + 1}) 点割伤伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
 					]
 				}
 			],
@@ -5895,13 +5895,13 @@
 				{
 					"name": "Keen Smell",
 					"entries": [
-						"山狮在依赖嗅觉的感知检定中拥有优势。"
+						"The Mountain Lion has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
 					]
 				},
 				{
 					"name": "Pounce (Lion)",
 					"entries": [
-						"如果山狮向一个生物移动至少20英尺，然后在同一回合用爪击中它，那个目标必须成功进行一次{@dc 13}力量豁免才能不被击倒{@condition prone}。山狮可以作为奖励动作对一个{@condition prone}目标进行一次咬击攻击。"
+						"If the Mountain Lion moves at least 20 feet toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. The mountain lion can make a bite attack against a {@condition prone} target as a bonus action."
 					]
 				}
 			],
@@ -5909,19 +5909,19 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}8({@damage 1d10 + 3})点穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}7 ({@damage 1d8 + 3}) 点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Call Avalanche (Recharges after a Short or Long Rest)",
 					"entries": [
-						"随着神秘的咆哮，山狮可以召唤下来巨石。只要它在山地地形中，它可以使用动作使一个它能看到的距离60英尺内的15英尺半径范围内发生山体滑坡。在这个区域内的生物必须进行一次{@dc 12}敏捷豁免，失败则受到13点（{@damage 3d8}）钝击伤害，成功则减半。"
+						"With a mystic roar, the mountain lion can call down the very rocks. So long as it is in mountainous terrain, it can use its action to cause a rockslide to fall within a 15-foot-radius of a space it can see within 60 feet. Creatures in this area must make a {@dc 12} Dexterity saving throw, taking 13 ({@damage 3d8}) bludgeoning damage on a failure and half as much on a success."
 					]
 				}
 			],
@@ -5999,13 +5999,13 @@
 				{
 					"name": "False Appearance (Treant)",
 					"entries": [
-						"当橡心 (Oakheart) 保持静止时，他看起来像一棵巨大的橡树，树皮烧焦，有些地方冒烟，叶子的位置上是火焰。"
+						"While Oakheart remains motionless, he appears as a great oak with charred bark that smolders in places and flames in place of leaves."
 					]
 				},
 				{
 					"name": "Siege Monster",
 					"entries": [
-						"橡心((Oakheart))对物体和结构造成双倍伤害。"
+						"The Oakheart deals double damage to objects and structures."
 					]
 				}
 			],
@@ -6013,25 +6013,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Oakheart 进行两次猛击攻击。"
+						"Oakheart makes two slam attacks."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} 使用 {@hit 8} 命中，达到5英尺，一个目标。造成 {@h}16 ({@damage 3d6 + 5}) 火焰伤害。"
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d6 + 5}) fire damage."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit 8} 命中，射程60/180英尺，目标为一名生物。造成{@h}28 ({@damage 4d10 + 5}) 钝击伤害。"
+						"{@atk rw} {@hit 8} to hit, range 60/180 ft., one target. {@h}28 ({@damage 4d10 + 5}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Animate Trees (1/Day)",
 					"entries": [
-						"Oakheart（橡木之心）在他能看到的60英尺内魔法地激活一到两棵树木。这些树木的统计数据与Oakheart相同，但智力和魅力分数为1，它们不能说话，只能执行“猛击”动作选项。被激活的树木将作为Oakheart的盟友。树木保持活跃状态1天，或者直到它死亡；直到Oakheart死亡或离树木超过120英尺；或者直到Oakheart采取一个奖励动作将其变回非活跃状态。然后树木会尽可能扎根。"
+						"Oakheart magically animates one or two trees he can see within 60 feet of him. These trees have the same statistics as Oakheart, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of Oakheart. The tree remains animate for 1 day or until it dies; until Oakheart dies or is more than 120 feet from the tree; or until Oakheart takes a bonus action to turn him back into an inanimate tree. The tree then takes root if possible."
 					]
 				}
 			],
@@ -6120,7 +6120,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"奥德瓦尔德是一名9级法术施展者。他的法术施展能力是智力（法术豁免 {@dc 15}，法术攻击命中加值+7）。奥德瓦尔德已准备了以下巫师法术："
+						"Odwald is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 15}, +7 to hit with spell attacks). Odwald has the following wizard spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -6180,25 +6180,25 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方掉落时，奥德瓦尔德可以花费一次反应，在下降时向一个方向飞行，飞行距离为他的速度。奥德瓦尔德在移动结束时降落在一个空位，并不会受到坠落伤害。奥德瓦尔德在携带重物、重型武器或盾牌时无法滑翔（尽管他可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Odwald can spend a reaction to fly up to his speed in one direction as he descends. Odwald lands in an unoccupied space at the end of his movement, and takes no falling damage. Odwald cannot glide while carrying heavy objects, heavy weapons, or shields (though he can drop any held items as part of his reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"奥德瓦尔德在爪子可以合理抓握的任何表面上攀爬时，进行的力量检定获得优势。"
+						"Odwald has advantage on Strength ({@skill Athletics}) checks made to climb any surface his talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Convincing",
 					"entries": [
-						"Odwald在用于说服他对(Arcana)技能相关主题的知识时，所有魅力检定获得优势。"
+						"Odwald has advantage on all Charisma checks used to convince someone of his knowledge of subject matter pertaining to the Arcana skill."
 					]
 				},
 				{
 					"name": "Life Leech",
 					"entries": [
-						"每回合一次，当奥德瓦尔德用1级或更高级别的法术杀死一个或多个生物时，他可以恢复等于法术等级两倍的生命值，如果是一项(死灵法术)，则为法术等级的三倍。"
+						"Once per turn, when Odwald kills one or more creatures with a spell of 1st level or higher, he can regain hit points equal to twice the level of the spell, or three times the level if it is a necromancy spell."
 					]
 				}
 			],
@@ -6206,13 +6206,13 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 2}攻击，达到5英尺，一个目标。造成{@h}2 ({@damage 1d6 - 1}) 钝击伤害，或者如果双手握持则造成3 ({@damage 1d8 - 1}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if wielded with both hands."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，射程5英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
 					]
 				}
 			],
@@ -6301,31 +6301,31 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方掉落时，探险者可以花费一个反应，在下降时向一个方向飞行，飞行距离为他们的速度。他们会在移动结束时降落在一个空位，并不会受到坠落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, the explorer can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"探险者在爪子可以合理抓握的任何表面攀爬时，进行力量检定时获得优势({@skill Athletics})。"
+						"The explorer rolls advantage on Strength ({@skill Athletics}) checks made to climb any surface their talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Patient",
 					"entries": [
-						"当探险者做出准备动作时，他们在作为该动作一部分的第一次攻击骰、技能检定或能力检定中获得优势。"
+						"When the explorer reacts with a readied action, they have advantage on the first attack roll, skill check, or ability check they make as a part of that action."
 					]
 				},
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"探险者在依赖听觉或视觉的感知检定中获得优势（Wisdom {@skill Perception}）。"
+						"The explorer has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
 					]
 				},
 				{
 					"name": "Sure Footing",
 					"entries": [
-						"探险者无视非魔法的艰难地形。"
+						"The explorer ignores non-magical difficult terrain."
 					]
 				}
 			],
@@ -6333,25 +6333,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"探险者进行两次近战攻击或两次使用手弩进行攻击。"
+						"The explorer makes two melee attacks or two attacks with their hand crossbow."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}4 ({@damage 1d4 + 2})点穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. "
 					]
 				},
 				{
 					"name": "Saber",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}5 ({@damage 1d6 + 2})点割伤伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. "
 					]
 				},
 				{
 					"name": "Hand Crossbow",
 					"entries": [
-						"{@atk rw} 使用命中，射程30/120英尺，一个目标。造成{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				}
 			],
@@ -6438,8 +6438,8 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"游侠是一个3级法术施法者。他们的法术施法能力是 (%num%)。",
-						"智慧（法术豁免{@dc 13}，法术攻击命中加值+5）。游侠已准备了以下法术："
+						"The ranger is a 3rd-level spellcaster. Their spellcasting ability is ",
+						"Wisdom (spell save {@dc 13}, + 5 to hit with spell attacks). The ranger has the following spells prepared:"
 					],
 					"spells": {
 						"1": {
@@ -6459,38 +6459,38 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方跌落时，游侠可以花费(%num%)",
-						"作为他们下降时的反应，他们可以飞向一个方向，速度为他们的速度。他们会在移动结束时降落在一个空地，并且不会受到坠落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以将任何手持物品丢弃作为他们的反应的一部分）。"
+						"When falling at least 10 feet, the ranger can spend ",
+						"a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"游侠在攀爬任何它们的爪子能够合理抓握的表面时，进行力量检定时获得优势({@skill Athletics})。"
+						"The ranger rolls advantage on Strength ({@skill Athletics}) checks made to climb any surface their talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Aerial Defense",
 					"entries": [
-						"当游侠在下落、滑翔或跳跃时被袭击的生物，在进行攻击检定时有劣势。"
+						"Creatures who attack the ranger while the ranger is falling, gliding, or jumping have disadvantage on their attack roll."
 					]
 				},
 				{
 					"name": "Keen Hearing and Sight",
 					"entries": [
-						"探险者在依赖听觉或视觉的感知检定中获得优势（Wisdom {@skill Perception}）。"
+						"The explorer has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
 					]
 				},
 				{
 					"name": "Arrow Sight (3/Day)",
 					"entries": [
-						"当游侠使用他们的红羽弓进行攻击时，他们可以利用额外动作从箭击中的点视角观察，就好像他们就在那里一样。如果箭击中生物，游侠可以从该生物的视角观察。这个效果持续1分钟。"
+						"When the ranger attacks with their red-feather bow, they can use their bonus action to see from the point the arrow struck as if they were there. If the arrow strikes a creature, the ranger can see from the creature's perspective. This effect lasts for 1 minute."
 					]
 				},
 				{
 					"name": "Hunter (3/Day)",
 					"entries": [
-						"作为一个奖励动作，游侠可以在下一次使用短弓或长弓进行的攻击中额外造成{@dice 1d10}伤害。"
+						"As a bonus action, the ranger can deal an extra {@dice 1d10} damage on their next attack made with a shortbow or longbow."
 					]
 				}
 			],
@@ -6498,25 +6498,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"游侠进行两次红羽弓攻击。"
+						"The ranger makes two red-feather bow attacks."
 					]
 				},
 				{
 					"name": "Red-Feather Bow",
 					"entries": [
-						"{@atk rw} {@hit 6} 命中，射程80/320英尺，目标为一名生物。造成{@h}6 ({@damage 1d6 + 4}) 穿刺伤害。"
+						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw, rw} {@hit 5}攻击，射程5英尺，射程20/60英尺，目标一个。造成{@h}5 ({@damage 1d4 + 3})穿刺伤害。"
+						"{@atk mw, rw} {@hit 5} to hit, reach 5 ft., range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage. "
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d4 + 3}) 穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage. "
 					]
 				}
 			],
@@ -6592,19 +6592,19 @@
 				{
 					"name": "Hunter's Training",
 					"entries": [
-						"莱斯(Rhys)精通{@item longbow|phb}、{@item shortbow|phb}和{@item spear|phb}。此外，她对长弓的熟悉程度意味着长弓对她来说不被视为重型武器。"
+						"Rhys has proficiency with the {@item longbow|phb}, {@item shortbow|phb}, and {@item spear|phb}. Additionally, her familiarity with the longbow means that it is not considered a heavy weapon for her."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"莱斯在爪能合理抓握的任何表面攀爬时，对力量检定有优势({@skill Athletics})。"
+						"Rhys has advantage on Strength ({@skill Athletics}) checks made to climb any surface her talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Aerial Defense",
 					"entries": [
-						"当Rhys（流浪者）在下落、滑翔或跳跃时，攻击她的生物的攻击检定有劣势。"
+						"Creatures who attack Rhys while she ranger is falling, gliding, or jumping have disadvantage on their attack roll."
 					]
 				}
 			],
@@ -6612,13 +6612,13 @@
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，一个目标。造成{@h}2 ({@damage 1d4}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} 使用 {@hit 3} 命中，达到5英尺，一个目标。造成{@h}3 ({@damage 1d4 + 1}) 点割伤伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
 					]
 				}
 			],
@@ -6698,19 +6698,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，瑞芬(Riffin)可以花费一次反应，在下降时向一个方向飞行，飞行距离为他的速度。他在移动结束时降落在一个未被占据的空间，并不会受到坠落伤害。他无法在携带重物、重武器或盾牌时滑翔（尽管他可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, Riffin can spend a reaction to fly up to his speed in one direction as he descends. He lands in an unoccupied space at the end of his movement, and takes no falling damage. He cannot glide while carrying heavy objects, heavy weapons, or shields (though he can drop any held items as part of his reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"Riffin在爪子可以合理抓握的表面上攀爬时，对力量检定获得优势({@skill Athletics})。"
+						"Riffin rolls advantage on Strength ({@skill Athletics}) checks made to climb any surface his talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Maneuver (2/Day)",
 					"entries": [
-						"当瑞芬(Riffin)发动攻击时，他可以选择操纵敌人的位置，使得目标周围5英尺范围内的盟友有机会利用自己的反应力量，以半速移动远离这个敌人，而不会招致{@action opportunity attack|phb|attack of opportunity}。"
+						"When Riffin hits with an attack, he can choose to maneuver the enemy out of position, granting an ally within 5 feet of the target the opportunity to use their reaction to move away from this enemy at half their movement speed without provoking an {@action opportunity attack|phb|attack of opportunity}."
 					]
 				}
 			],
@@ -6718,25 +6718,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"瑞芬(Riffin)进行两次短剑攻击。"
+						"Riffin makes two short sword attacks."
 					]
 				},
 				{
 					"name": "Short Sword",
 					"entries": [
-						"{@atk mw} 使用 {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}6 ({@damage 1d6 + 3}) 穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d4 + 3}) 穿刺伤害。骑士可以选择在作为奖励动作的情况下抓住被这次攻击击中的目标。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage. The knight can choose to grapple a target hit by this attack as a bonus action."
 					]
 				},
 				{
 					"name": "Wing Crest Shield (1/Day)",
 					"entries": [
-						"瑞芬施放{@spell gust of wind}咒语（豁免{@dc 15}）。"
+						"Riffin casts the {@spell gust of wind} spell (save {@dc 15})."
 					]
 				}
 			],
@@ -6810,13 +6810,13 @@
 				{
 					"name": "Amorphous",
 					"entries": [
-						"腐蚀粘液(Caustic Slime)可以在不挤压的情况下穿过宽度仅为1英寸的空间。"
+						"The Caustic Slime can move through a space as narrow as 1 inch wide without squeezing."
 					]
 				},
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"腐蚀粘液(Caustic Slime)可以攀爬困难的表面，包括在天花板上倒挂，而无需进行能力检定。"
+						"The Caustic Slime can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
 					]
 				}
 			],
@@ -6824,14 +6824,14 @@
 				{
 					"name": "Psuedopod",
 					"entries": [
-						"{@atk mw} 使用近战攻击命中，达到5英尺，一个目标。受到{@h}5 ({@damage 1d6 + 2}) 点酸性伤害。目标被{@condition grappled} (逃脱 {@dc 13})。直到这次搏斗结束，目标被{@condition restrained}，并且移动的黏液不能对另一个目标发动伪足攻击。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) acid damage. The target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained} and the shifting slime can't make a pseudopod attack against another target."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"这种变幻的粘液对一个被其抓取的比自身至少小一个尺寸的目标进行一次伪足攻击。如果攻击命中，目标被吞噬，抓取结束。被吞噬的目标是{@condition restrained}，在变幻的粘液外部对攻击和其他效果具有完全掩盖，并且它必须在每个回合开始时进行一次{@dc 13}体质豁免才能，失败则受到3({@damage 1d6})点酸性伤害。如果变幻的粘液使用其适应能力来免疫某种伤害类型，那么在豁免失败时对目标造成的伤害将变为该类型。变幻的粘液一次只能吞噬一个目标。",
-						"如果移动的软泥怪死亡，被吞噬的生物不再受其影响，可以自由移动，当软泥怪的身体颤抖并中和成一滩惰性的黏液时。"
+						"The shifting slime makes one pseudopod attack against a target it is grappling that is at least one size smaller than itself. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition restrained}, it has total cover against attacks and other effects outside the shifting slime, and it must make a {@dc 13} Constitution saving throw at the start of each of its turns taking 3 ({@damage 1d6}) acid damage on a failure. If the shifting slime used its adaptive ability to become immune to a damage type, the damage dealt to the target on a failed save becomes that type instead. The shifting slime can have only one target swallowed at a time.",
+						"If the shifting slime dies, a swallowed creature is no longer {@condition restrained} by it, and may move freely as the body of the slime quivers and neutralizes into an inert puddle of goo."
 					]
 				}
 			],
@@ -6839,13 +6839,13 @@
 				{
 					"name": "Split",
 					"entries": [
-						"当一个中型或更大体型且拥有10点或更多生命值的史莱姆受到斩击伤害时，它会分裂成两个新的史莱姆。每个新史莱姆的生命值等于原始史莱姆的一半，向下取整。新的史莱姆比之前的尺寸小一个尺寸。新的移形史莱姆每个都具有与其父母史莱姆相同的伤害类型免疫，并保留适应能力。"
+						"When a slime that is Medium or larger and has 10 or more hit points is hit with slashing damage, it splits into two new slimes. Each new slime has hit points equal to half the original slime's, rounded down. New slimes are one size smaller than the previous size. New shifting slimes each have the same damage type immunity as their parent slime and retain the Adaptive ability."
 					]
 				},
 				{
 					"name": "Adaptive",
 					"entries": [
-						"每次史莱姆被造成伤害的法术击中时，它可以对该伤害类型获得免疫，持续1小时。当史莱姆改变它对免疫的伤害类型时，它的颜色会根据下表变化。史莱姆一次只能对一种伤害类型免疫。通常情况下，变幻的史莱姆是虹彩般闪烁着所有颜色的。",
+						"Each time the slime is hit by a spell that deals damage, it can become immune to that damage type for 1 hour. When the slime changes the damage type it's immune to, its color changes based on the table on the below. The slime can only be immune to one damage type at a time. Normally, shifting slimes are iridescent, shimmering with all the colors of the rainbow.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -6859,43 +6859,43 @@
 							"rows": [
 								[
 									"Acid",
-									"青柠绿 (Lime Green)"
+									"Lime Green"
 								],
 								[
 									"Cold",
-									"冰蓝 (Ice Blue)"
+									"Ice Blue"
 								],
 								[
 									"Fire",
-									"鲜艳的深红色 (Bright Crimson)"
+									"Bright Crimson"
 								],
 								[
-									"力量 (Force)",
-									"清晰"
+									"Force",
+									"Clear"
 								],
 								[
-									"闪电",
-									"活力黄 (Vibrant Yellow)"
+									"Lightning",
+									"Vibrant Yellow"
 								],
 								[
-									"死灵",
-									"黑暗黑（Dark Black）"
+									"Necrotic",
+									"Dark Black"
 								],
 								[
-									"毒药",
-									"深绿色 (Dark Green)"
+									"Poison",
+									"Dark Green"
 								],
 								[
-									"通灵师 (Psychic)",
-									"明亮紫色"
+									"Psychic",
+									"Bright Violet"
 								],
 								[
-									"光辉 (Radiant)",
-									"温暖的橙色"
+									"Radiant",
+									"Warm Orange"
 								],
 								[
-									"雷霆",
-									"明亮白色"
+									"Thunder",
+									"Bright White"
 								]
 							]
 						}
@@ -6990,7 +6990,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"莎拉是一名5级咒术师，她的咒术能力是智力（法术豁免 {@dc 13}，法术攻击命中加值+5）。莎拉已经准备好以下牧师法术："
+						"Shyla is a 5th level spellcaster, her spellcasting ability is Wisdom (spell save {@dc 13}, +5 to hit with spell attacks). Shyla has the following cleric spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -7031,13 +7031,13 @@
 				{
 					"name": "Evasive",
 					"entries": [
-						"Shyla在所有敏捷豁免投掷中将她的智力调整值作为奖励加入。"
+						"Shyla includes her Intelligence modifier as a bonus on all Dexterity saving throws."
 					]
 				},
 				{
 					"name": "Divine Eminence",
 					"entries": [
-						"作为一个奖励动作，莎拉可以消耗一个法术位，使她的近战武器攻击在命中目标时额外造成10({@damage 3d6})点毒素伤害。这个效果持续到回合结束。如果莎拉消耗了2级或更高级别的法术位，额外伤害将每超过1级增加{@dice 1d6}点。"
+						"As a bonus action, Shyla can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) poison damage to a target on a hit. This benefit lasts until the end of the turn. If Shyla expends a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each level above 1st."
 					]
 				}
 			],
@@ -7045,13 +7045,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，目标一个。造成{@h}3 ({@damage 1d6}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
 					]
 				}
 			],
@@ -7139,19 +7139,19 @@
 				{
 					"name": "Amorphous",
 					"entries": [
-						"腐蚀粘液(Caustic Slime)可以在不挤压的情况下穿过宽度仅为1英寸的空间。"
+						"The Caustic Slime can move through a space as narrow as 1 inch wide without squeezing."
 					]
 				},
 				{
 					"name": "Slime Trail",
 					"entries": [
-						"这种史莱姆在身后留下一道黏糊糊的痕迹，持续时间长达15分钟。踩在痕迹中的生物必须通过一个{@dc 12}的力量豁免才能避免成为{@condition restrained}。生物可以在每个回合结束时再次尝试豁免才能，成功则效果消失。"
+						"The slime leaves a trail of ooze behind it that remains tacky for up to 15 minutes. A creature that steps in the ooze must succeed a {@dc 12} Strength saving throw or become {@condition restrained}. A creature may attempt the saving throw again at the end of each of its turns, ending the effect on a success."
 					]
 				},
 				{
 					"name": "Mucus",
 					"entries": [
-						"当史莱姆受到近战攻击时，攻击者必须成功进行一次 {@dc 12} 力量豁免检定，否则他们的武器会被粘在史莱姆上。可以通过使用一个动作进行一次与相同豁免 DC 的力量检定来拔出武器，成功则解放武器。所有被粘在史莱姆上的武器可以在史莱姆被击败后取回。"
+						"When the slime is hit by a melee attack, the attacker must succeed on a {@dc 12} Strength saving throw or their weapon becomes stuck in the slime. The weapon can be wrenched out by using an action to make a Strength ({@skill Athletics}) check against the same DC, freeing the weapon on a success. All weapons stuck in the slime can be retrieved once the slime is slain."
 					]
 				}
 			],
@@ -7159,7 +7159,7 @@
 				{
 					"name": "Psuedopod",
 					"entries": [
-						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}3({@damage 1d4 + 1})点钝击伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
 					]
 				}
 			],
@@ -7244,19 +7244,19 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当骑士从至少10英尺高的地方摔落时，可以花费一次反应，在下降时向一个方向飞行，飞行距离等同于他们的速度。他们在移动结束时降落在一个空位上，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管可以在反应的一部分中放下任何手持物品）。"
+						"When falling at least 10 feet, the knight can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"骑士在进行任何其爪子能够合理抓握的表面攀爬时，进行力量检定时获得优势({@skill Athletics})。"
+						"The knight rolls advantage on Strength ({@skill Athletics}) checks made to climb any surface their talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Maneuver (2/Day)",
 					"entries": [
-						"当骑士用攻击命中时，他们可以选择操纵敌人的位置，使得目标周围5英尺范围内的盟友有机会使用自己的反应以半速移动离开这个敌人，而不会招致{@action opportunity attack|phb|attack of opportunity}。"
+						"When the knight hits with an attack, they can choose to maneuver the enemy out of position, granting an ally within 5 feet of the target the opportunity to use their reaction to move away from this enemy at half their movement speed without provoking an {@action opportunity attack|phb|attack of opportunity}."
 					]
 				}
 			],
@@ -7264,25 +7264,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"这名骑士进行两次短剑攻击。"
+						"The knight makes two short sword attacks."
 					]
 				},
 				{
 					"name": "Short Sword",
 					"entries": [
-						"{@atk mw} 使用 {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}6 ({@damage 1d6 + 3}) 穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d4 + 3}) 穿刺伤害。骑士可以选择在作为奖励动作的情况下抓住被这次攻击击中的目标。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage. The knight can choose to grapple a target hit by this attack as a bonus action."
 					]
 				},
 				{
 					"name": "Wing Crest Shield (1/Day)",
 					"entries": [
-						"骑士施放 {@spell gust of wind} 法术（豁免 {@dc 15}）。"
+						"The knight casts the {@spell gust of wind} spell (save {@dc 15})."
 					]
 				}
 			],
@@ -7364,7 +7364,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"追踪者是一名3级法术施展者。他们的法术施展能力是智力（法术豁免{@dc 12}，法术攻击命中加值+4）。这位strig追踪者已准备了以下游侠法术："
+						"The tracker is a 3rd-level spellcaster. Their spellcasting ability is Wisdom (spell save {@dc 12}, +4 to hit with spell attacks). The strig tracker has the following ranger spells prepared:"
 					],
 					"spells": {
 						"1": {
@@ -7384,25 +7384,25 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，追踪者可以花费一次反应，在下降时向一个方向飞行，飞行距离为他们的速度。他们在移动结束时降落在一个空位上，并不会受到摔落伤害。他们无法在携带重物、重武器或盾牌时滑翔（尽管他们可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, the tracker can spend a reaction to fly up to their speed in one direction as they descend. They land in an unoccupied space at the end of their movement, and take no falling damage. They cannot glide while carrying heavy objects, heavy weapons, or shields (though they can drop any held items as part of their reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"追踪者在进行攀爬任何它们的爪子能够合理抓握的表面时，进行力量检定时获得优势（{@skill Athletics}）。"
+						"The tracker rolls advantage on Strength ({@skill Athletics}) checks made to climb any surface their talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Patterned Feathers",
 					"entries": [
-						"追踪者在尝试在森林中隐藏时，对敏捷检定有优势（{@skill Stealth}）。"
+						"The tracker has advantage on Dexterity ({@skill Stealth}) checks when they attempt to hide in a forest."
 					]
 				},
 				{
 					"name": "Reya's Keen Eye",
 					"entries": [
-						"追踪者可以将感知（{@skill Perception}）检定作为一个奖励动作，试图找到隐藏的生物。"
+						"The tracker can make Wisdom ({@skill Perception}) checks as a bonus action to try and find hidden creatures."
 					]
 				}
 			],
@@ -7410,25 +7410,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"追踪者进行两次近战攻击，一次使用他们的长剑，一次使用他们的手斧。或者他们用手斧进行两次远程攻击。"
+						"The tracker makes two melee attacks, one with their longsword and one with their hand axe. Or they make two ranged attacks with their hand axe."
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 5}攻击，射程5英尺，一个目标。造成{@h}7 ({@damage 1d8 + 3})点割伤伤害，如果双手持有则为8 ({@damage 1d10 + 3})点割伤伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage or 8 ({@damage 1d10 + 3}) slashing damage if wielding with both hands."
 					]
 				},
 				{
 					"name": "Hand Axe",
 					"entries": [
-						"{@atk mw,rw} 使用 {@hit 5} 进行攻击，达到5英尺或射程20/60英尺，一个目标。造成{@h}6({@damage 1d6 + 3})点割伤伤害。"
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d4 + 3}) 穿刺伤害。"
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
 					]
 				}
 			],
@@ -7520,7 +7520,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"苏珊是一名2级咒术师。她的施法能力是魅力（法术豁免{@dc 13}，法术攻击命中加值+5）。苏珊已准备了以下术士法术："
+						"Susan is a 2nd-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 13}, +5 to hit with spell attacks). Susan has the following warlock spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -7546,13 +7546,13 @@
 				{
 					"name": "Dark One's Blessing",
 					"entries": [
-						"当苏珊将一个敌对生物的生命值降至0时，她获得5点临时生命值。"
+						"When Susan reduces a hostile creature to 0 hit points, she gains 5 temporary hit points."
 					]
 				},
 				{
 					"name": "Repelling Blast",
 					"entries": [
-						"当苏珊用奥术射线击中一只生物时，她可以将该生物向直线上最多10英尺的距离推开。"
+						"When Susan hits a creature with eldritch blast, she can push the creature up to 10 feet away in a straight line."
 					]
 				}
 			],
@@ -7560,25 +7560,25 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 1}攻击，达到5英尺，一个目标。造成{@h}2 ({@damage 1d6 - 1}) 钝击伤害。"
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw}进行攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点穿刺伤害。"
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Fiendish Vigor",
 					"entries": [
-						"苏珊可以将{@spell false life}作为1级法术随意施放。"
+						"Susan can cast {@spell false life} at will as a 1st-level spell."
 					]
 				},
 				{
 					"name": "Curl Up",
 					"entries": [
-						"苏珊蜷缩成一个带刺的球。在这种蜷缩状态下，她无法移动、攻击或施放需要手势的法术，她的基础盔甲等级变为19。任何未能击中苏珊的生物在她蜷缩状态下用近战攻击时，会受到{@dice 2d4}点穿刺伤害，来自她尖锐的刺。然而，如果一个生物在苏珊蜷缩状态下击中了她，苏珊会在回合结束时被击退{@condition prone}。苏珊可以在自己的回合任何时候解开蜷缩状态。"
+						"Susan curls up into a spiny ball. While curled up in this way she cannot move, attack, or cast spells with somatic components, and her base armor class becomes 19. Any creature that misses Susan with a melee attack while she is curled up takes {@dice 2d4} points of piercing damage from her sharp quills. If a creature hits Susan while she is curled up, however, Susan is knocked {@condition prone} in her space at the end of the turn. Susan may uncurl herself at any point during her turn."
 					]
 				}
 			],
@@ -7674,25 +7674,25 @@
 				{
 					"name": "Echolocation",
 					"entries": [
-						"这个群体在{@condition deafened}时无法使用其盲视能力。"
+						"The swarm can't use its blindsight while {@condition deafened}."
 					]
 				},
 				{
 					"name": "Keen Hearing",
 					"entries": [
-						"这群蜂群在依赖听觉的感知({@skill Perception})检查中拥有优势。"
+						"The swarm has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
 					]
 				},
 				{
 					"name": "Flame Essence",
 					"entries": [
-						"任何在5英尺内开始他们的回合的生物都必须进行一次{@dc 10}体质豁免检定，失败则受到2({@dice 1d4})点火焰伤害。"
+						"Any creature that starts their turn within 5 feet of the emberbat swarm must make a {@dc 10} Constitution saving throw, taking 2 ({@dice 1d4}) points of fire damage on a failure."
 					]
 				},
 				{
 					"name": "Swarm",
 					"entries": [
-						"燃蝠群可以占据另一个生物的空间，反之亦然，且该群可以穿过足够容纳一只微型蝙蝠的任何开口。该群无法恢复生命值或获得临时生命值。"
+						"The Swarm of Emberbats can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points."
 					]
 				}
 			],
@@ -7700,7 +7700,7 @@
 				{
 					"name": "Bites",
 					"entries": [
-						"{@atk mw}进行攻击，达到0英尺，攻击范围内的一个生物。造成{@h}5 ({@damage 2d4})点穿刺伤害，或者如果虫群生命值为一半或更少，则造成2 ({@damage 1d4})点穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 0 ft., one creature in the swarm's space. {@h}5 ({@damage 2d4}) piercing damage, or 2 ({@damage 1d4}) piercing damage if the swarm has half of its hit points or fewer."
 					]
 				}
 			],
@@ -7781,31 +7781,31 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，特沃尔(Tevor)可以花费一个反应，在下降时向一个方向飞行，飞行距离为他的速度。他会在移动结束时降落在一个空位上，并不会受到摔落伤害。他无法在携带重物、重武器或盾牌时滑翔（尽管他可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Tevor can spend a reaction to fly up to his speed in one direction as he descends. He lands in an unoccupied space at the end of his movement, and takes no falling damage. He cannot glide while carrying heavy objects, heavy weapons, or shields (though he can drop any held items as part of his reaction)."
 					]
 				},
 				{
 					"name": "Wing Flap",
 					"entries": [
-						"作为一个奖励动作，泰沃(Tevor)可以利用他强大的羽毛翅膀向上推进，最多达到他移动速度的一半。他可以与普通跳跃结合使用，但不能在滑翔时使用。"
+						"As a bonus action, Tevor can use his powerful feathered arms to propel himself upward up to half his movement speed. He can use it in conjunction with a regular jump, but not while gliding."
 					]
 				},
 				{
 					"name": "Fated (Recharges after a Long Rest)",
 					"entries": [
-						"Tevor可以选择重新投掷任何攻击骰、技能检定或豁免骰。"
+						"Tevor can choose to reroll any attack roll, skill check, or saving throw."
 					]
 				},
 				{
 					"name": "Resilience",
 					"entries": [
-						"Tevor在豁免投掷中获得优势，免疫被{@condition poisoned}。"
+						"Tevor rolls with advantage on saving throws against being {@condition poisoned}."
 					]
 				},
 				{
 					"name": "Drop Attack",
 					"entries": [
-						"Tevor在滑翔时可以发动攻击。如果他这样做，他会额外造成4({@dice 1d8})点伤害。"
+						"Tevor can make an attack during his glide. If he does, he deals an extra 4 ({@dice 1d8}) points of damage."
 					]
 				}
 			],
@@ -7813,13 +7813,13 @@
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 4}攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}5 ({@damage 1d6 + 2})穿刺伤害，或者如果双手使用则造成6 ({@damage 1d8 + 2})穿刺伤害。"
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage or 6 ({@damage 1d8 + 2}) piercing damage if used with both hands."
 					]
 				},
 				{
 					"name": "Tender Healing (Recharges after a Long Rest)",
 					"entries": [
-						"Tevor以1级施放{@spell cure wounds}法术。智慧是他施法这个法术的能力。"
+						"Tevor casts the {@spell cure wounds} spell at 1st level. Wisdom is his spellcasting ability for this spell."
 					]
 				}
 			],
@@ -7900,7 +7900,7 @@
 				{
 					"name": "Evasive",
 					"entries": [
-						"队长将他们的智力调整值作为奖励加到他们的敏捷豁免 throws 中。"
+						"The captain includes their Intelligence modifier as a bonus to their Dexterity saving throws."
 					]
 				}
 			],
@@ -7908,25 +7908,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"队长进行两次攻击。"
+						"The captain makes two attacks."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Short sword",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Short bow",
 					"entries": [
-						"{@atk mw} 近战攻击，射程80/320尺，目标一个。造成{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				}
 			],
@@ -7934,7 +7934,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"船长每轮可以对即将击中自己的一次近战攻击，AC值增加2。船长必须看到攻击者并且握持一把近战武器。"
+						"The captain adds 2 to their AC against one melee attack that would hit them per round. The captain must see the attacker and be wielding a melee weapon. "
 					]
 				}
 			],
@@ -8012,7 +8012,7 @@
 				{
 					"name": "Evasive",
 					"entries": [
-						"贵族将他们的智力调整值作为加值加到他们的敏捷豁免投掷中。"
+						"The noble includes their Intelligence modifier as a bonus to their Dexterity saving throws."
 					]
 				}
 			],
@@ -8020,13 +8020,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标一个。造成{@h}4({@damage 1d6 + 1})点穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
 					]
 				},
 				{
 					"name": "Short sword",
 					"entries": [
-						"{@atk mw}进行攻击，射程5英尺，目标一个。造成{@h}4({@damage 1d6 + 1})点穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
 					]
 				}
 			],
@@ -8034,7 +8034,7 @@
 				{
 					"name": "Disparaging Remark",
 					"entries": [
-						"当一个生物，贵族能看到的，对盟友进行攻击检定时，贵族可以使用他们的反应来让那次检定有劣势。这个效果的目标必须能够听到并理解贵族。"
+						"When a creature the noble can see makes an attack roll against an ally, the noble can use their reaction to impose disadvantage on that roll. The target of this effect must be able to hear and understand the noble."
 					]
 				}
 			],
@@ -8110,7 +8110,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"这位牧师是一名5级法术施展者，他们的法术施展能力是智力（法术豁免 {@dc 13}，法术攻击命中加值+5）。这位牧师已经准备好以下的牧师法术："
+						"The priest is a 5th level spellcaster, their spellcasting ability is Wisdom (spell save {@dc 13}, +5 to hit with spell attacks). The priest has the following cleric spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -8151,13 +8151,13 @@
 				{
 					"name": "Evasive",
 					"entries": [
-						"牧师在所有敏捷豁免投掷中都将他们的智力调整值作为奖励。"
+						"The priest includes their Intelligence modifier as a bonus on all Dexterity saving throws."
 					]
 				},
 				{
 					"name": "Divine Eminence",
 					"entries": [
-						"作为一个奖励动作，牧师可以消耗一个法术位，使他们的近战武器攻击在命中目标时额外造成10({@damage 3d6})点毒素伤害。这个效果持续到回合结束。如果牧师消耗了2级或更高级别的法术位，额外伤害将每超过1级增加{@dice 1d6}点。"
+						"As a bonus action, the priest can expend a spell slot to cause their melee weapon attacks to magically deal an extra 10 ({@damage 3d6}) poison damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each level above 1st."
 					]
 				}
 			],
@@ -8165,13 +8165,13 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}5 ({@damage 1d6 + 2}) 穿刺伤害。"
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} {@hit 2} 进行攻击，射程5英尺，目标一个。造成{@h}3 ({@damage 1d6}) 钝击伤害。"
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
 					]
 				}
 			],
@@ -8248,7 +8248,7 @@
 				{
 					"name": "Hold Breath",
 					"entries": [
-						"觉醒蛟龙(Wakewyrm)可以屏住呼吸1小时。"
+						"The Wakewyrm can hold its breath for 1 hour."
 					]
 				}
 			],
@@ -8256,25 +8256,25 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"梦醒龙进行两次攻击，一次用咬和一次用尾巴，或者两次咬攻击。"
+						"The wakewyrm makes two attacks, one with its bite and one with its tail, or two bite attacks."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} 使用近战攻击，射程20英尺，目标为一只生物。{@h}15 ({@damage 3d6 + 5}) 穿刺伤害。目标必须通过一次 {@dc 16} 力量豁免检定，否则被 {@condition grappled} (逃脱 {@dc 16})。觉醒巨蟒一次只能缠绕住一个生物，而且在它缠绕住生物时无法对其他生物进行咬击攻击。"
+						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}15 ({@damage 3d6 + 5}) piercing damage. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} (escape {@dc 16}). The wakewyrm can only grapple one creature at a time, and cannot make bite attacks against other creatures while it has a creature {@condition grappled}."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 8}攻击，射程25英尺，目标一个。造成{@h}18 ({@damage 3d8 + 5})点钝击伤害。"
+						"{@atk mw} {@hit 8} to hit, reach 25 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Swallow",
 					"entries": [
-						"梦醒蛟对其所控制的大型或更小体型的生物发动一次咬击攻击，如果攻击命中目标，则目标被吞噬，控制结束。被吞噬的目标是{@condition blinded}和{@condition restrained}，在梦醒蛟外部的攻击和其他效果对其造成完全掩盖，并且在梦醒蛟的每个回合开始时受到11({@damage 3d6})点酸性伤害。如果梦醒蛟从其内部的生物处受到18点或更多伤害，梦醒蛟必须在该回合结束时成功进行一次{@dc 15}体质豁免才能将所有被吞噬的生物吐出，它们掉落在梦醒蛟的周围10英尺范围内的一个空间内。如果梦醒蛟死亡，被吞噬的生物不再受其影响，并且可以利用20英尺的移动来逃离尸体。死后，内部气体会使梦醒蛟的身体在数小时内浮在水面上，然后逐渐开始沉入水底坟墓。"
+						"The wakewyrm makes a bite attack against a Large or smaller creature it is grappling, and if the attack hits the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the wakewyrm, and it takes 11 ({@damage 3d6}) acid damage at the start of each of the wakewyrm's turns. If the wakewyrm takes 18 or more points of damage from a creature inside of it, the wakewyrm must succeed on a {@dc 15} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the wakewyrm. If the wakewyrm dies, a swallowed creature is no longer {@condition restrained} by it, and it can escape from the corpse using 20 feet of movement. After death, internal gasses keep the wakewyrm's body afloat for several hours, before it begins to sink gradually to a watery grave."
 					]
 				}
 			],
@@ -8363,25 +8363,25 @@
 				{
 					"name": "Glide",
 					"entries": [
-						"当从至少10英尺高的地方摔落时，比塔可以花费一个反应，在下降时向一个方向飞行，飞行距离为她的速度。她在移动结束时降落在一个空位，并不会受到摔落伤害。她无法在携带重物、重武器或盾牌时滑翔（尽管她可以在反应中放下任何手持物品）。"
+						"When falling at least 10 feet, Bita can spend a reaction to fly up to her speed in one direction as she descends. She lands in an unoccupied space at the end of her movement, and takes no falling damage. She cannot glide while carrying heavy objects, heavy weapons, or shields (though she can drop any held items as part of her reaction)."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"瓦尔登（Walden）在爪能够合理抓握的任何表面攀爬时，对力量检定获得优势（{@skill Athletics}）。"
+						"Walden rolls advantage on Strength ({@skill Athletics}) checks made to climb any surface his talons could reasonably grip."
 					]
 				},
 				{
 					"name": "Learned",
 					"entries": [
-						"瓦尔登(Walden)在以下技能中选择一项熟练度：{@skill Arcana}，{@skill History}，{@skill Nature}，或者{@skill Religion}。"
+						"Walden gains proficiency in one of the following skills: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}."
 					]
 				},
 				{
 					"name": "Convincing",
 					"entries": [
-						"瓦尔登在他选择的{@skill Deception}或{@skill Persuasion}技能上获得熟练加值。此外，他在使用魅力检定说服某人相信他对与他从学识能力中获得熟练加值的技能相关的任何事物的了解时具有优势。"
+						"Walden gains proficiency in his choice of the {@skill Deception} or {@skill Persuasion} skill. Additionally, he has advantage on all Charisma checks used to convince someone of their knowledge of anything pertaining to the skill he gained proficiency in from his Learned ability."
 					]
 				}
 			],
@@ -8389,13 +8389,13 @@
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} {@hit 3} 进行攻击，射程5英尺，目标一个。造成{@h}5 ({@damage 1d8 + 1}) 穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
 					]
 				},
 				{
 					"name": "Talons",
 					"entries": [
-						"{@atk mw} 近战攻击，达到5英尺，一个目标。{@h}3 ({@damage 1d4 + 1}) 穿刺伤害。"
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
 					]
 				}
 			],
@@ -8403,7 +8403,7 @@
 				{
 					"name": "Parry",
 					"entries": [
-						"Walden在对准他的一次近战攻击中增加2点AC。为此，Walden必须看到攻击者并握持一把近战武器。"
+						"Walden adds 2 to his AC against one melee attack that would hit him. To do so, Walden must see the attacker and be wielding a melee weapon."
 					]
 				}
 			],

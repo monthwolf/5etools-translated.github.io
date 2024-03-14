@@ -1,0 +1,6255 @@
+{
+	"_meta": {
+		"dependencies": {
+			"monster": [
+				"MM"
+			]
+		},
+		"otherSources": {
+			"monster": {
+				"MM": "DoDk",
+				"MOT": "DoDk"
+			}
+		}
+	},
+	"monster": [
+		{
+			"name": "Amalgamation",
+			"source": "DoDk",
+			"page": 206,
+			"size": [
+				"G"
+			],
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 525,
+				"formula": "30d20 + 210"
+			},
+			"speed": {
+				"walk": 5
+			},
+			"str": 30,
+			"dex": 11,
+			"con": 27,
+			"int": 22,
+			"wis": 18,
+			"cha": 20,
+			"save": {
+				"str": "+17",
+				"dex": "+7",
+				"con": "+15",
+				"int": "+13",
+				"wis": "+11"
+			},
+			"skill": {
+				"arcana": "+13",
+				"deception": "+12",
+				"insight": "+11",
+				"perception": "+11"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 21,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned"
+			],
+			"languages": [
+				"all",
+				"telepathy 1 mile"
+			],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"这个混合体的天生施法能力是魅力（法术豁免{@dc 20}）。它可以天生施放以下法术，无需任何材料："
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell dispel magic}"
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果混合体未通过豁免投骰，它可以选择改为成功。"
+					]
+				},
+				{
+					"name": "Malignancy",
+					"entries": [
+						"这个合并体无法被传送或迫使其前往另一个位面。"
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"这个合并体对于任何会改变它形态的法术或效果都免疫。"
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"合并体的武器攻击是魔法的。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"这个混合体使用它的污染存在。然后它进行三次触手攻击，每次攻击可以用一次投掷(`Fling`)来替代。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} 近战攻击，射程5英尺，目标一个。{@h}23 ({@damage 3d8 + 10}) 穿刺伤害。如果目标是一个大型或更小的生物{@condition grappled}，被混合物吞噬，那个生物被吞噬，抓取结束。",
+						"被吞噬后，生物处于{@condition blinded}和{@condition restrained}状态，对于来自融合体外部的攻击和其他效果具有完全掩盖，并在每个融合体回合开始时受到42({@damage 12d6})点酸性伤害，并获得一个{@adventure level of contamination|DoDk|12}。",
+						"如果混合体在一回合内受到50点或更多伤害，来自其中的生物，混合体必须在回合结束时成功通过一次{@dc 25}体质豁免才能将所有吞食的生物吐出，它们会落在离混合体不超过10英尺的空间内。如果混合体死亡，被吞食的生物不再受其影响，并可以使用15英尺的移动从尸体中逃脱，离开{@condition prone}。"
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 17}攻击，射程50英尺，一名目标。造成{@h}20 ({@damage 3d6 + 10}) 钝击伤害，并且目标被{@condition grappled} (逃脱 {@dc 18})。直到这次搏斗结束，目标被{@condition restrained}。这个混合体有十二根触手，每根触手可以搏击一个目标。"
+					]
+				},
+				{
+					"name": "Fling",
+					"entries": [
+						"被混合体抓住的一个大型或较小物体或生物{@condition grappled}被投掷到混合体选择的方向，最远可达60英尺，并被撞击{@condition prone}。如果被投掷的目标撞击坚固表面，目标每被投掷10英尺就会受到3({@damage 1d6})点钝击伤害。如果目标被投向另一个生物，那个生物必须成功进行一次{@dc 18}敏捷豁免才能避免受到相同伤害并被撞击{@condition prone}。"
+					]
+				},
+				{
+					"name": "Mind-breaking Whispers",
+					"entries": [
+						"混合体在其120英尺内的一只生物的心灵中说出了一个可怕的真相。那个生物必须成功通过一个{@dc 20}智力豁免才行。如果失败，它会受到35({@damage 10d6})点心灵伤害，并且会在完成一次长休之前陷入疯狂状态。在疯狂状态下，它无法采取行动，无法理解其他生物说的话，无法阅读，只能胡言乱语。对该生物施放的{@spell greater restoration}法术会结束这种效果。"
+					]
+				},
+				{
+					"name": "Contaminating Presence",
+					"entries": [
+						"在合并体的120英尺范围内的人形生物必须成功进行一次 {@dc 20} 体质豁免才能避免受到10点 ({@damage 3d6}) 死灵伤害，并获得一个 {@adventure level of contamination|DoDk|12}。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Tentacle Attack or Fling",
+					"entries": [
+						"这个混合体进行一次触手攻击或使用其投掷（Fling）能力。"
+					]
+				},
+				{
+					"name": "Mind-breaking Whispers (Costs 2 Actions)",
+					"entries": [
+						"这个合并体使用了心灵崩溃的低语(Mind-breaking Whispers)。"
+					]
+				},
+				{
+					"name": "Piper at the Gate (Costs 3 Actions)",
+					"entries": [
+						"在距离混合体不超过30英尺的未占用空间中，最多出现五只嘟囔者，直到被摧毁。这些生物在相同的先攻顺序后行动，并由混合体控制。混合体可以通过这种能力召唤最多十只嘟囔者。"
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Legendary Resistances",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow",
+				"Tentacles"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"N",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Animated Delerium Sludge",
+			"source": "DoDk",
+			"page": 203,
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 114,
+				"formula": "12d10 + 48"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 90
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 18,
+			"int": 5,
+			"wis": 10,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Sludge Form",
+					"entries": [
+						"这团动画淤泥可以进入一个敌对生物的空间并停留在那里。它可以在不挤压的情况下穿过宽度仅为1英寸的空间。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Contaminated Touch",
+					"entries": [
+						"{@atk mw} 近战攻击，射程5英尺，目标一个。造成{@h}10 ({@damage 3d6}) 点死灵伤害。此外，被此攻击击中的目标必须成功进行一次{@dc 15} 体质豁免才能避免获得一次{@adventure level of contamination|DoDk|12}。"
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"动画淤泥空间中的每个生物必须成功通过一个{@dc 15}的力量豁免检定。如果一个生物是大型或更小，并且未能通过检定，它将被淤泥所{@condition grappled}（逃脱{@dc 14}）。直到这个角斗结束，目标将会被{@condition restrained}。如果豁免检定成功，目标将被推出淤泥的空间。",
+						"这种淤泥可以同时缠住一个大型生物或最多两个中型或更小的生物。在每个淤泥的回合开始时，每个被它缠住的目标{@condition grappled}会受到28({@damage 8d6})点死灵伤害，并必须成功通过一次{@dc 15}体质豁免检定，否则会获得一个{@adventure level of contamination|DoDk|12}。",
+						"距离淤泥5英尺以内的生物可以尝试将另一个生物或物体从中拉出来。这需要一个动作，并需要成功的{@dc 14}力量检定。"
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Arcane Wraith",
+			"source": "DoDk",
+			"page": 197,
+			"_copy": {
+				"name": "Wraith",
+				"source": "MM"
+			},
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"这个幽灵是一个8级法术施法者。它的法术施法能力是魅力（法术豁免 {@dc 13}，用法术攻击命中为 {@hit 5}）。这个幽灵知道以下巫师法术："
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell magic missile}",
+						"{@spell minor illusion}"
+					],
+					"daily": {
+						"1": [
+							"{@spell hypnotic pattern}"
+						],
+						"3": [
+							"{@spell lightning bolt}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"tokenCredit": "Jeff Balch",
+			"damageTagsSpell": [
+				"L",
+				"O"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Big Linda",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DoDk",
+			"page": 163,
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 136,
+				"formula": "13d12 + 52"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 25,
+			"dex": 10,
+			"con": 19,
+			"int": 2,
+			"wis": 12,
+			"cha": 9,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"acid"
+			],
+			"cr": "9",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"大琳达（Big Linda）进行两次攻击：一次使用咬和一次使用尾部攻击。它不能对同一目标进行两次攻击。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} 使用近战攻击，达到10英尺，一个目标。造成{@h}33({@damage 4d12 + 7})点穿刺伤害。如果目标是中型或更小的生物，它将被{@condition grappled}(逃脱{@dc 17})。直到这次擒抱结束，目标将被{@condition restrained}，且大琳达无法咬另一个目标。"
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 10}攻击，射程10英尺，一个目标。造成{@h}20 ({@damage 3d8 + 7}) 钝击伤害。"
+					]
+				},
+				{
+					"name": "Acid Spew {@recharge 5}",
+					"entries": [
+						"大琳达在一个30英尺的锥形范围内喷射酸液。在火线上的每个生物必须成功通过一个{@dc 15}的敏捷豁免才能避免，在未通过豁免时受到49点({@damage 11d8})酸性伤害，通过豁免则只受到一半伤害。"
+					]
+				}
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Cavalier",
+			"source": "DoDk",
+			"page": 218,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item splint armor|PHB|splint}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"save": {
+				"wis": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"animal handling": "+4",
+				"athletics": "+7",
+				"perception": "+4",
+				"persuasion": "+5"
+			},
+			"passive": 14,
+			"languages": [
+				"Any two"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"骑士是一名8级法术施展者，使用魅力作为施法能力（法术豁免 {@dc 13}; 施法攻击命中 {@hit 5}）。他们准备了以下圣骑士法术："
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell cure wounds}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell find steed}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Bravery",
+					"entries": [
+						"骑士在豁免抗性检定中对被 {@condition frightened} 的情况具有优势。"
+					]
+				},
+				{
+					"name": "Light's Fury",
+					"entries": [
+						"骑士在命中武器攻击时额外造成 9 ({@damage 2d8}) 点辐射伤害。"
+					]
+				},
+				{
+					"name": "Skilled Rider",
+					"entries": [
+						"骑士在骑乘时，可以强制将针对他们坐骑的攻击转为针对自己。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"骑士进行两次近战攻击。"
+					]
+				},
+				{
+					"name": "Lance",
+					"entries": [
+						"{@atk mw} {@hit 7}攻击（对5英尺内目标有劣势攻击），射程10英尺，目标一个。造成{@h}10 ({@damage 1d12 + 4})穿刺伤害加上9 ({@damage 2d8})辐射伤害。"
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} 命中，达到5英尺或射程30/120英尺，一个目标 {@h}7 ({@damage 1d6 + 4}) 穿刺伤害加上9 ({@damage 2d8}) 辐射伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"javelin|phb",
+				"lance|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"R"
+			],
+			"damageTagsSpell": [
+				"R"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"prone"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Chaplain",
+			"source": "DoDk",
+			"page": 218,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 10,
+			"con": 14,
+			"int": 11,
+			"wis": 17,
+			"cha": 13,
+			"save": {
+				"wis": "+6",
+				"cha": "+4"
+			},
+			"skill": {
+				"insight": "+6",
+				"persuasion": "+4",
+				"religion": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Any two"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"牧师是一名9级法术施展者，使用智力作为施法能力（法术豁免 {@dc 12}; 用法术攻击命中 {@hit 4}）。他们准备了以下牧师法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light}",
+								"{@spell mending}",
+								"{@spell sacred flame}",
+								"{@spell spare the dying}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bless}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell lesser restoration}",
+								"{@spell prayer of healing}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell purge contamination|DoDk}",
+								"{@spell spirit guardians}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell divination}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell flame strike}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Devotion",
+					"entries": [
+						"牧师在豁免投掷中对于被 {@condition charmed} 或 {@condition frightened} 有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 3}攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4 ({@damage 1d6 + 1})穿刺伤害，或者在双手使用进行近战攻击时造成5 ({@damage 1d8 + 1}) 伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"exhaustion",
+				"incapacitated"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Crater Wurm",
+			"source": "DoDk",
+			"page": 197,
+			"_copy": {
+				"name": "Purple Worm",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "worm",
+						"with": "wurm"
+					},
+					"action": [
+						{
+							"mode": "replaceArr",
+							"replace": "Multiattack",
+							"items": {
+								"name": "Breach",
+								"entries": [
+									"岩洞蠕虫利用其全部移动。在这个过程中，它可以进入大型或更小生物的空间。每当蠕虫进入一个生物的空间时，该生物必须成功进行一次 {@dc 19} 力量豁免检定。在豁免成功的情况下，生物可以选择被推到蠕虫空间的一侧。选择不被推的生物会遭受豁免检定失败的后果。在豁免失败的情况下，生物会受到35 ({@damage 10d6}) 钝击伤害，并被推10英尺并击倒 {@condition prone}。完成移动后，蠕虫可以作为奖励动作对一个 {@condition prone} 目标进行一次咬击攻击。"
+								]
+							}
+						},
+						{
+							"mode": "replaceArr",
+							"replace": "Tail Stinger",
+							"items": {
+								"name": "Contaminated Gullet",
+								"entries": [
+									"被坑洞蠕虫吞噬的生物每次在蠕虫体内受到酸性伤害时，会获得一个{@adventure level of contamination|DoDk|12}。"
+								]
+							}
+						}
+					]
+				}
+			},
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Crimson Countess",
+			"source": "DoDk",
+			"page": 208,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 130,
+				"formula": "20d8 + 40"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 60
+			},
+			"str": 10,
+			"dex": 21,
+			"con": 15,
+			"int": 13,
+			"wis": 14,
+			"cha": 19,
+			"save": {
+				"con": "+5",
+				"wis": "+5"
+			},
+			"skill": {
+				"acrobatics": "+11",
+				"deception": "+7",
+				"perception": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"lightning",
+				"thunder"
+			],
+			"languages": [
+				"Abyssal"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Aerial Acrobat",
+					"entries": [
+						"每一轮她的回合，血红女伯爵可以使用一个奖励动作来执行冲刺（Dash）、脱离战斗（Disengage）或闪避（Dodge）动作。"
+					]
+				},
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"血红女伯爵在依赖视觉的感知检定上拥有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"血红女伯爵可以使用她的恐吓尖叫。然后她可以用她的爪子进行两次攻击，或者用她的标枪进行一次攻击。"
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 8}攻击，达到5英尺，一个目标。{@h}11 ({@damage 1d10 + 5}) 切割伤害。"
+					]
+				},
+				{
+					"name": "Frightful Screech",
+					"entries": [
+						"每个选择的血红女伯爵的生物，距离她在120英尺内且不是{@condition deafened}，必须成功进行{@dc 15}的感知豁免才能免疫1分钟的{@condition frightened}。如果生物的豁免成功或效果结束，该生物在接下来的24小时内免疫血红女伯爵的惊吓尖叫效果。",
+						"在受到{@condition frightened}效果时，生物必须采取冲刺动作，并沿着每个回合可用的最安全路径远离(`Crimson Countess`)，除非没有地方可移动。如果生物结束回合时处于一个看不见(`Crimson Countess`)的位置，那么它可以重复豁免投骰。豁免成功后，该生物的效果结束。"
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 8}攻击，射程5英尺或远程20/60英尺，目标一个。造成{@h}9 ({@damage 1d6 + 5})穿刺伤害，加上14 ({@damage 4d6})闪电伤害。"
+					]
+				},
+				{
+					"name": "Thunder Blast {@recharge 5}",
+					"entries": [
+						"血色女伯爵在一个15英尺的立方体中发出一声雷鸣般的呼喊。立方体中的每个生物必须成功通过一次{@dc 15}体质豁免才能避免受到14({@damage 4d6})点雷属性伤害，如果豁免失败则受到全部伤害，如果豁免成功则只受到一半伤害。未通过豁免的生物将被推开10英尺并被{@condition prone}。"
+					]
+				}
+			],
+			"attachedItems": [
+				"javelin|phb"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"S",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Delerium Dreg",
+			"source": "DoDk",
+			"page": 199,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 11,
+			"int": 7,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Misty Camouflage",
+					"entries": [
+						"一名精神错乱渣滓在任何被薄雾或雾气遮蔽的区域中隐藏时，对敏捷（{@skill Stealth}）检定具有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4}攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}5 ({@damage 1d6 + 2})穿刺伤害，或者如果用双手进行近战攻击，则造成6 ({@damage 1d8 + 2})穿刺伤害。"
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Aquatic (Deep One or \"Fishfolk\")",
+					"entries": [
+						"这些变异生物有鱼类的面孔、鳃、鳍和鱼鳞。它们身穿湿布，手持长矛和盾牌，居住在城市下方的下水道和地下洞穴中。",
+						{
+							"type": "entries",
+							"name": "Amphibious",
+							"entries": [
+								"水底渣渣可以在空气和水中呼吸。它的游泳速度为30英尺。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Blindsight",
+							"entries": [
+								"一个水生废物获得半径为30英尺的{@sense blindsight}。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Bloated",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Death Burst",
+							"entries": [
+								"当一个膨胀的狂乱渣滓死亡时，它会爆炸，释放出腐败的内脏。每个距离它5英尺内的生物必须通过一次 DC 11 的体质豁免检定，未通过则受到 7 ({@dice 2d6}) 点死灵伤害，通过则只受到一半伤害。未通过豁免检定的生物如果失败值超过5，会获得一个 {@adventure level of contamination|DoDk|12}。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bile Spray {@recharge 5}",
+							"entries": [
+								"膨胀的错觉渣滓呼出一个15英尺锥形的酸喷射。该区域内的每个生物必须通过一次DC 11的敏捷豁免检定，否则在未通过检定时受到7 ({@dice 2d6}) 点酸性伤害，通过检定则受到一半伤害。未通过豁免检定的生物中，如果失败值超过5，则获得一个 {@adventure level of contamination|DoDk|12}。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Chitinous",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Armoured Shell",
+							"entries": [
+								"一个外骨骼残渣具有AC 18。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Cyclopean",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spectral Vision",
+							"entries": [
+								"一个单眼渣滓获得 {@sense truesight} 60英尺的移动速度。它在依赖视觉的感知智力检定中拥有优势。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mad Certainty",
+							"entries": [
+								"一个单眼渣滓对{@condition frightened}状态和心灵伤害免疫。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Psychic Shriek {@recharge 6}",
+							"entries": [
+								"距离单眼渣滓 20 英尺范围内的生物必须通过一次 DC 10 的感知豁免检定，否则会受到 7 ({@dice 2d6}) 精神伤害，并在 1 分钟内成为 {@condition frightened}。目标可以在自己的回合结束时重复进行豁免检定，若成功则结束自身的影响。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Displaced",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Displacement",
+							"entries": [
+								"对一个错位的小怪兽进行的攻击检定有劣势。如果它被攻击击中，这个特性会被打断，直到它的下一个回合结束。这个特性也会在错位的小怪兽处于{@condition incapacitated}状态或速度为0时被打断。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Teleport {@recharge 4}",
+							"entries": [
+								"被驱逐的废物怪使用魔法传送，连同其穿戴或携带的任何装备，最多可传送60英尺到它能看到的一个未被占据的空间。在传送之前或之后，废物怪可以进行一次近战攻击。如果这次攻击命中，它会额外造成7 ({@dice 2d6}) 精神伤害。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Frenzied",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Reckless",
+							"entries": [
+								"在其回合开始时，一只狂暴的小怪兽可以在该回合内获得所有近战武器攻击投掷的优势，但对它的攻击投掷在其下一个回合开始之前具有优势。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Brute",
+							"entries": [
+								"当狂乱的卑贱者用近战武器击中目标时，该武器的伤害额外增加一颗骰子。"
+							]
+						}
+					],
+					"_version": {
+						"name": "Delerium Dreg (Frenzied)",
+						"addHeadersAs": "trait"
+					}
+				},
+				{
+					"type": "variant",
+					"name": "Lambent",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Illumination",
+							"entries": [
+								"一个微光狂喜渣滓在一个半径为15英尺的范围内散发明亮光芒，并在额外的15英尺范围内散发微弱光芒。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Octarine Beam",
+							"entries": [
+								"这只闪耀残渣选择一个在它能看见的60英尺内的生物作为目标。目标必须通过一次DC 10的体质豁免才能避免受到10({@dice 3d6})辐射伤害，如果豁免失败则受到全部伤害，如果豁免成功则只受到一半伤害。未能通过豁免的生物中，如果豁免失败的值超过5，它们会获得一个{@adventure level of contamination|DoDk|12}。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Leeching",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Bounding Leap",
+							"entries": [
+								"吸血渣浆怪的长跳达到30英尺，高跳达到15英尺，无论有没有起跑助跑。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Blood Drain",
+							"entries": [
+								"近战武器攻击：命中加值 +4，射程5英尺，一名生物。命中：4 ({@dice 1d4 + 2}) 穿刺伤害，并且残渣附着在目标身上。被附着时，残渣无法进行攻击。相反，在每个残渣的回合开始时，目标会受到7 ({@dice 2d6}) 瘟疫伤害。",
+								"附着的(德瑞格)随目标移动，不需要(德瑞格)的任何移动。在其回合上，(德瑞格)可以通过花费5英尺的移动来分离自己。生物，包括目标在内，可以使用动作来分离(德瑞格)。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Lurking",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Normal Semblance",
+							"entries": [
+								"潜伏的渣滓在魅力检定中具有优势，可以将自己伪装成普通人形生物。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sneak Attack (1/Turn)",
+							"entries": [
+								"当dreg使用武器攻击命中目标并具有攻击优势时，或者目标在dreg的非{@condition incapacitated}盟友5英尺范围内且dreg没有攻击劣势时，dreg造成额外7({@dice 2d6})点伤害。"
+							]
+						}
+					],
+					"_version": {
+						"name": "Delerium Dreg (Lurking)",
+						"addHeadersAs": "trait"
+					}
+				},
+				{
+					"type": "variant",
+					"name": "Spined",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spider Climb",
+							"entries": [
+								"刺脊鬼( spined dreg)的攀爬速度等同于其步行速度。它可以在困难的表面攀爬，甚至可以倒挂在天花板上，而无需进行能力检定。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Multiattack",
+							"entries": [
+								"这个废物进行了三次尖刺攻击。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spike",
+							"entries": [
+								"远程武器攻击：+3命中，射程20/60尺，目标一个。命中：3 ({@dice 1d4 + 1}) 穿刺伤害。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Tentacled",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Amorphous",
+							"entries": [
+								"触须废物可以在不挤压的情况下穿过宽度仅为6英寸的空间。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tentacles",
+							"entries": [
+								"近战武器攻击：命中加值 +4，射程15英尺，目标一个。命中：9 ({@dice 2d6 + 2}) 钝击伤害。如果目标是生物，它被 {@condition grappled} (逃脱 DC 12)。直到这个角力结束，目标被 {@condition restrained}，并且触手怪无法对另一个目标使用其触手。"
+							]
+						}
+					]
+				}
+			],
+			"attachedItems": [
+				"spear|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Delerium Dreg (Aquatic)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Amphibious",
+									"entries": [
+										"An aquatic dreg can breathe air and water."
+									]
+								}
+							]
+						}
+					},
+					"alias": [
+						"Deep One",
+						"Fishfolk"
+					],
+					"speed": {
+						"swim": 30
+					},
+					"senses": [
+						"darkvision 60 ft.",
+						"blindsight 30 ft."
+					],
+					"variant": null
+				},
+				{
+					"name": "Delerium Dreg (Bloated)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Death Burst",
+									"entries": [
+										"When a bloated delerium dreg dies, it explodes in a burst of corrupt offal. Each creature within 5 feet of it must succeed on a {@dc 11} Constitution saving throw, taking 7 ({@damage 2d6}) necrotic damage on a failed save, or half as much damage on a successful one. Creatures who fail their saving throw by 5 or more gain one {@adventure level of contamination|DoDk|12}."
+									]
+								}
+							]
+						},
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Bile Spray {@recharge 5}",
+									"entries": [
+										"The bloated delerium dreg exhales a 15-foot cone of acid. Each creature in that area must succeed on a {@dc 11} Dexterity saving throw, taking 7 ({@damage 2d6}) acid damage on a failed save, or half as much damage on a successful one. Creatures who fail their saving throw by 5 or more gain one {@adventure level of contamination|DoDk|12}."
+									]
+								}
+							]
+						}
+					},
+					"variant": null
+				},
+				{
+					"name": "Delerium Dreg (Chitinous)",
+					"source": "DoDk",
+					"ac": [
+						18
+					],
+					"variant": null
+				},
+				{
+					"name": "Delerium Dreg (Cyclopean)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Spectral Vision",
+									"entries": [
+										"A cyclopean dreg gains truesight 60 feet. It has advantage on Wisdom (Perception) checks that rely on sight."
+									]
+								},
+								{
+									"name": "Mad Certainty",
+									"entries": [
+										"A cyclopean dreg is immune to the {@condition frightened} condition and psychic damage."
+									]
+								}
+							]
+						},
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Psychic Shriek {@recharge}",
+									"entries": [
+										"Creatures within 20 feet of the cyclopean dreg must succeed on a {@dc 10} Wisdom saving throw or take 7 ({@damage 2d6}) psychic damage and be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									]
+								}
+							]
+						}
+					},
+					"variant": null
+				},
+				{
+					"name": "Delerium Dreg (Displaced)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Displacement",
+									"entries": [
+										"Attack rolls against a displaced dreg have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displaced dreg is {@condition incapacitated} or has a speed of 0."
+									]
+								}
+							]
+						},
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Teleport {@recharge 4}",
+									"entries": [
+										"The displaced dreg magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see. Before or after teleporting, the dreg can make one melee attack. If this attack hits, it deals an extra 7 ({@damage 2d6}) psychic damage."
+									]
+								}
+							]
+						}
+					},
+					"variant": null
+				},
+				{
+					"name": "Delerium Dreg (Lambent)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Illumination",
+									"entries": [
+										"A lambent delerium dreg sheds bright light in a 15-foot radius and dim light for an additional 15 feet."
+									]
+								}
+							]
+						},
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Octarine Beam",
+									"entries": [
+										"The lambent dreg targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 10} Constitution saving throw, taking 10 ({@damage 3d6}) radiant damage on a failed save, or half as much damage on a successful one. Creatures who fail their saving throw by 5 or more gain one {@adventure level of contamination|DoDk|12}."
+									]
+								}
+							]
+						}
+					},
+					"variant": null
+				},
+				{
+					"name": "Delerium Dreg (Leeching)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Bounding Leap",
+									"entries": [
+										"The leeching dreg's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+									]
+								}
+							]
+						},
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Blood Drain",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the dreg attaches to the target. While attached, the dreg can't attack. Instead, at the start of each of the dreg's turns, the target takes 7 ({@damage 2d6}) necrotic damage.",
+										"The attached dreg moves with the target whenever the target moves, requiring none of the dreg's movement. The dreg can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach the dreg."
+									]
+								}
+							]
+						}
+					},
+					"variant": null
+				},
+				{
+					"name": "Delerium Dreg (Spined)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Spider Climb",
+									"entries": [
+										"The spined dreg has a climb speed equal to its walking speed. It can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+									]
+								}
+							]
+						},
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Multiattack",
+									"entries": [
+										"The dreg makes three spike attacks."
+									]
+								},
+								{
+									"name": "Spike",
+									"entries": [
+										"{@atk rw} {@hit 3} to hit, range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+									]
+								}
+							]
+						}
+					},
+					"speed": {
+						"walk": 30,
+						"climb": 30
+					},
+					"variant": null
+				},
+				{
+					"name": "Delerium Dreg (Tentacled)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Amorphous",
+									"entries": [
+										"The dreg can move through a space as narrow as 6 inches wide without squeezing."
+									]
+								}
+							]
+						},
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Tentacles",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 15 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, and the tentacled dreg can't use its tentacles on another target."
+									]
+								}
+							]
+						}
+					},
+					"variant": null
+				}
+			]
+		},
+		{
+			"name": "Eldrick Runeweaver",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DoDk",
+			"page": 215,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item robe of the archmagi}",
+						"{@item staff of power}"
+					]
+				}
+			],
+			"hp": {
+				"average": 150,
+				"formula": "20d8 + 60"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 10,
+			"con": 16,
+			"int": 22,
+			"wis": 19,
+			"cha": 15,
+			"save": {
+				"str": "+5",
+				"dex": "+6",
+				"con": "+9",
+				"int": "+12",
+				"wis": "+10",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+16",
+				"history": "+16",
+				"perception": "+16",
+				"persuasion": "+14"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 26,
+			"resist": [
+				{
+					"special": "damage from spells"
+				}
+			],
+			"languages": [
+				"all"
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"埃尔德里克符文编织者是一名20级法术施展者。他的法术施展能力是智力（法术豁免 {@dc 19}，用法术攻击命中时为 {@hit 11}）。他可以随意施展护盾和隐形术，并且准备了以下巫师法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell levitate}",
+								"{@spell shatter}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell dimension door}",
+								"{@spell ice storm}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell scrying}",
+								"{@spell wall of force}"
+							]
+						},
+						"6": {
+							"slots": 2,
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell globe of invulnerability}"
+							]
+						},
+						"7": {
+							"slots": 2,
+							"spells": [
+								"{@spell forcecage}",
+								"{@spell teleport}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell maze}"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell prismatic wall}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"埃尔德里克·符文编织者穿着一件{@item robe of the archmagi}，携带一把{@item staff of power}，并戴着一顶{@item ring of spell storing}。他携带着{@dice 2d6} {@filter very rare spell scrolls and potions|items|type=potion;scroll|rarity=very rare}。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果埃尔德里克符文编织者(Eldrick Runeweaver)未能通过豁免投骰，他可以选择成功。"
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"埃尔德里克·符文编织者(Eldrick Runeweaver)在面对法术和其他魔法效果的豁免投掷中拥有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff of Power",
+					"entries": [
+						"{@atk mw} {@hit 6}攻击，达到5英尺，一个生物。造成{@h}10 ({@damage 1d6 + 1})点钝击伤害。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"埃尔德里克·符文编织者施放了一个cantrip。"
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries": [
+						"埃尔德里克符文编织者(Eldrick Runeweaver)传送到他可以看到的一个未被占据的空间，距离为60英尺。"
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 3 actions)",
+					"entries": [
+						"艾尔德里克·符文编织者(Eldrick Runeweaver) 使用一个法术位施放了一个法术。"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"T"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"incapacitated",
+				"petrified",
+				"restrained"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Entropic Flame",
+			"source": "DoDk",
+			"page": 204,
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d10 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 13,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Fire Form",
+					"entries": [
+						"熵火可以在宽度仅为1英寸的空间中移动，而不会被挤压。当有生物触碰到这团火焰或在其5英尺内用近战攻击击中它时，会受到5({@damage 1d10})点火焰伤害。此外，火焰可以进入敌对生物的空间并停留在那里。当火焰首次进入生物的空间时，该生物会受到5({@damage 1d10})点火焰伤害并着火；直到有人采取行动扑灭火焰，该生物每个回合开始时会受到5({@damage 1d10})点火焰伤害。"
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"熵火在30英尺半径范围内散发出明亮的光芒，并在额外30英尺范围内散发微弱的光芒。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"熵火进行三次投掷火焰攻击。在进行每次攻击之前或之后，熵火可以传送至它能看到的空间内的任何位置，最远距离为10英尺。它可以传送至被其他生物占据的空间内。"
+					]
+				},
+				{
+					"name": "Hurl Flame",
+					"entries": [
+						"{@atk rw} {@hit 6} 命中，射程120英尺，目标一个。{@h}10 ({@damage 3d6}) 火焰伤害。"
+					]
+				},
+				{
+					"name": "Touch",
+					"entries": [
+						"{@atk mw} 近战攻击，射程5英尺，一个目标。{@h}10 ({@damage 2d6 + 3}) 火焰伤害。如果目标是生物或易燃物体，则着火。直到有生物采取行动扑灭火焰，目标在其每个回合开始时受到5 ({@damage 1d10}) 火焰伤害。"
+					]
+				}
+			],
+			"traitTags": [
+				"Illumination"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"damageTags": [
+				"F"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Eoghan Ghostweaver",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DoDk",
+			"page": 105,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 99,
+				"formula": "18d8 + 18"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 15,
+			"wis": 20,
+			"cha": 16,
+			"save": {
+				"int": "+6",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+13",
+				"history": "+13",
+				"medicine": "+9",
+				"nature": "+6",
+				"perception": "+9",
+				"survival": "+9"
+			},
+			"passive": 12,
+			"resist": [
+				{
+					"special": "damage from spells"
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "nonmagical",
+					"note": "(from stoneskin)",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Druidic",
+				"Elvish"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Eoghan是一名18级法术施法者。他的法术能力是智力（法术豁免{@dc 17}，使用法术攻击命中加值{@hit 9}）。他准备了以下德鲁伊法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell mending}",
+								"{@spell poison spray}",
+								"{@spell produce flame}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell entangle}",
+								"{@spell faerie fire}",
+								"{@spell speak with animals}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell beast sense}",
+								"{@spell hold person}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell conjure animals}",
+								"{@spell purge contamination|DoDk}*",
+								"{@spell sleet storm}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell ice storm}",
+								"{@spell polymorph}",
+								"{@spell wall of fire}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell cone of cold}",
+								"{@spell greater restoration}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell conjure fey}",
+								"{@spell heal}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell resurrection}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell feeblemind}"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell foresight}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*spells found in Appendix D of Dungeons of Drakkenheim."
+					],
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Eoghan对于法术和其他魔法效果的豁免投掷有优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw}进行攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4({@damage 1d4 + 2})点穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"DU",
+				"E"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"I",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"exhaustion",
+				"paralyzed",
+				"prone",
+				"restrained"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"strength",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Executioner",
+			"source": "DoDk",
+			"page": 209,
+			"size": [
+				"H"
+			],
+			"type": "construct",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 405,
+				"formula": "30d12 + 210"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 29,
+			"dex": 11,
+			"con": 25,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"str": "+15",
+				"con": "+13",
+				"wis": "+6"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison",
+				"psychic",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands common but does not speak"
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果刽子手失败了一次豁免投掷，它可以选择成功。"
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"刽子手 (The Executioner) 对任何试图改变其形态的法术或效果都具有免疫能力。"
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"刽子手在拯救投掷中对咒语和其他魔法效果具有优势。"
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"刽子手的武器攻击是魔法的。"
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"如果刽子手被摧毁，它会在24小时内以所有生命值返回，除非对其残骸施放了{@spell disintegrate}法术。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Guillotine Blade",
+					"entries": [
+						"{@atk mw,rw} 攻击命中，射程10英尺，或射程30/120英尺，目标一个。造成{@h}30 ({@damage 6d6 + 9}) 斩击伤害加上14 ({@damage 4d6}) 死灵伤害。目标必须成功通过一次{@dc 21} 体质豁免才能避免生命值上限减少等同于所受死灵伤害的数值。这种减少持续到生物完成一次长休。如果这个效果将目标的生命值上限减少到0，目标将死亡。在进行远程攻击后，这个武器会立即飞回刽子手的手中。"
+					]
+				},
+				{
+					"name": "Necrotic Vents {@recharge 5}",
+					"entries": [
+						"刽子手在一个半径为30英尺的范围内释放了死灵毒气。该区域内的每个生物必须成功通过一个{@dc 21}的体质豁免才能避免受到45({@damage 10d8})点死灵伤害，豁免失败则受到一半伤害。如果一名生物的豁免失败值超过5，那么它会获得一个{@adventure level of contamination|DoDk|12}。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Lumber Forward",
+					"entries": [
+						"刽子手移动其速度的一半。"
+					]
+				},
+				{
+					"name": "Attack (Costs 2 actions)",
+					"entries": [
+						"刽子手使用其断头台刀进行近战或远程攻击。"
+					]
+				},
+				{
+					"name": "Summon Shadows. (Costs 3 actions)",
+					"entries": [
+						"刽子手 (The Executioner) 瞄准在其周围60英尺内可以看到的最多六具死于暴力的人形尸体。每个目标的灵魂以影子的形式升起，出现在其尸体所在的空间或最近的未占用空间中。这些影子在刽子手之后按相同的先攻顺序行动，受其控制，持续1分钟或直到被摧毁。如果刽子手被摧毁，它们会消失。"
+					]
+				}
+			],
+			"traitTags": [
+				"Immutable Form",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"HPR",
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Garmyr",
+			"source": "DoDk",
+			"page": 197,
+			"_copy": {
+				"name": "Gnoll",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "gnoll",
+						"with": "garmyr"
+					}
+				}
+			},
+			"type": "monstrosity",
+			"tokenCredit": "Powerscorerpg",
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Gravekeeper",
+			"source": "DoDk",
+			"page": 210,
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d10 + 100"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 18,
+			"dex": 7,
+			"con": 21,
+			"int": 19,
+			"wis": 17,
+			"cha": 21,
+			"save": {
+				"con": "+10",
+				"wis": "+8",
+				"cha": "+10"
+			},
+			"skill": {
+				"perception": "+13"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 23,
+			"languages": [
+				"all but does not speak"
+			],
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Dazzling Illumination",
+					"entries": [
+						"守墓人投射出一道耀眼的光环，照亮60英尺范围内的明亮光线，并使对它的攻击投掷具有劣势。如果被攻击击中，这个特性会在它的下一个回合结束前被打断。当守墓人处于{@condition incapacitated}状态或速度为0时，这个特性也会被打断。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果坟墓守护者失败了一次豁免投掷，它可以选择成功。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} 近战攻击，射程10英尺，目标一个。造成{@h}22 ({@damage 4d8 + 4}) 钝击伤害加上10 ({@damage 3d6}) 死灵伤害。"
+					]
+				},
+				{
+					"name": "Lantern Blast",
+					"entries": [
+						"墓守者的许多灯笼发出神奇的紫色光束。每束光具有不同的力量。每个在距离墓守者120英尺内且没有完全掩盖的生物投掷一个{@dice d6}，以确定受到哪种颜色的光束影响。所有豁免检定的难度等级为18：",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "1. Dispelling Blast",
+									"entries": [
+										"目标生物必须成功进行一次智力豁免才能免受35 ({@damage 10d6}) 精神伤害，并且目标身上的任何法术或魔法效果都会结束。未能通过此豁免检定的生物会在他们正在维持的任何法术上失去 {@status concentration}。"
+									]
+								},
+								{
+									"type": "item",
+									"name": "2. Forceful Blast",
+									"entries": [
+										"目标生物必须成功进行一次力量豁免才能避免受到35 ({@damage 10d6}) 点力量伤害，被推开20英尺，并且被击倒 {@condition prone}。"
+									]
+								},
+								{
+									"type": "item",
+									"name": "3. Blinding Blast",
+									"entries": [
+										"目标生物必须成功进行一次体质豁免才能免受35({@damage 10d6})点辐射伤害，并在1分钟内被{@condition blinded}。一只{@condition blinded}生物可以在自己的每个回合重复进行豁免才能，成功则结束自身的效果。"
+									]
+								},
+								{
+									"type": "item",
+									"name": "4. Contamining Blast",
+									"entries": [
+										"目标生物必须成功进行一次体质豁免才能避免受到35点死灵伤害，并获得一个{@adventure level of contamination|DoDk|12}。"
+									]
+								},
+								{
+									"type": "item",
+									"name": "5. Igniting Blast",
+									"entries": [
+										"目标生物必须成功进行一次敏捷豁免才能避免受到35 ({@damage 10d6}) 火焰伤害，并着火；直到有人采取行动扑灭火焰，目标在每个回合开始时都会受到35 ({@damage 10d6}) 火焰伤害。"
+									]
+								},
+								{
+									"type": "item",
+									"name": "6. Freezing Blast",
+									"entries": [
+										"目标生物必须成功通过一次体质豁免才能免受35 ({@damage 10d6}) 点冰冷伤害，并且直到其下一个回合结束前不能做出反应。此外，在其下一个回合，它必须选择是移动、行动还是奖励行动中的一种；它只能选择其中一种。如果豁免成功，目标将只受到一半伤害，并且不会遭受爆炸的其他影响。"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Slam",
+					"entries": [
+						"墓地守护者进行一次猛击攻击。"
+					]
+				},
+				{
+					"name": "Glide",
+					"entries": [
+						"墓守者移动其速度，而不会引发机会攻击。"
+					]
+				},
+				{
+					"name": "Lantern Blast (Costs 3 actions)",
+					"entries": [
+						"守墓人使用了它的灯笼冲击(Lantern Blast)。"
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Gravekeeper",
+				"source": "DoDk"
+			},
+			"tokenCredit": "Louis Wood",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"F",
+				"N",
+				"O",
+				"R",
+				"Y"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"prone"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Grotesque Gargant",
+			"source": "DoDk",
+			"page": 197,
+			"_copy": {
+				"name": "Stone Giant",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "giant",
+						"with": "grotesque gargant"
+					},
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"name": "Contaminating Beam",
+							"entries": [
+								"这只怪诞的巨兽使用魔法迫使它能看到的距离60英尺内的生物进行一次 {@dc 15} 体质豁免投。在豁免失败时，生物会受到27点 ({@damage 6d8}) 死灵伤害，并获得一个 {@adventure level of contamination|DoDk|12}。"
+							]
+						}
+					}
+				}
+			},
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Regeneration",
+					"entries": [
+						"一个怪诞的巨兽在其回合开始时，只要在深雾中，就会恢复10点生命值。只有当这个巨兽在回合开始时生命值为0且无法再生时才会死亡。"
+					]
+				},
+				{
+					"name": "Misty Camouflage",
+					"entries": [
+						"怪诞的加甘特在任何被薄雾或雾气遮蔽的区域中，对敏捷度检定有优势({@skill Stealth})。"
+					]
+				}
+			],
+			"tokenCredit": "Erebus88",
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Haze Hulk",
+			"source": "DoDk",
+			"page": 200,
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d10 + 40"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 21,
+			"dex": 10,
+			"con": 18,
+			"int": 7,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common"
+			],
+			"cr": "4",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"烟雾巨怪进行两次猛击攻击。"
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} 进行攻击，射程5英尺，一个目标。造成{@h}14 ({@damage 2d8 + 5}) 钝击伤害。"
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Gutbuster",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Hurl Foetid Flesh {@recharge 5}",
+							"entries": [
+								"肠搏击者撕下一块变异肉并将其朝着其能看到的距离不超过120英尺的空间投掷。该点周围10英尺内的每个生物必须通过一次DC 14的体质豁免才能成功，未通过则受到28({@dice 8d6})点死灵伤害，通过则只受一半伤害。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Hunter",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Invisibility",
+							"entries": [
+								"猎人在攻击前或专注结束（如专注于一个法术）之前，可以魔法地变得隐形{@condition invisible}。猎人穿戴或携带的任何装备也会与其一起隐形。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lashing Tendrils",
+							"entries": [
+								"近战武器攻击：+7命中，射程60英尺，目标一个。命中：14 ({@dice 2d8 + 5}) 穿刺伤害，并且目标是 {@condition grappled} (逃脱 DC 15)，如果它是一个大型或更小的生物。猎人有两根鞭击触手，可以同时拘禁最多两个生物。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Reel",
+							"entries": [
+								"作为一个奖励动作，猎人可以将每个生物{@condition grappled}朝它拉动，最多25英尺。"
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Juggernaut",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Mutant Fortitude",
+							"entries": [
+								"如果伤害将战斗机降至0点生命值，它必须进行一次体质豁免检定，DC为伤害值加5，除非伤害是辐射伤害或来自重击。如果成功，战斗机的生命值降至1点。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Trampling Charge",
+							"entries": [
+								"如果战争机甲朝着一个生物直线移动至少20英尺，然后在同一回合用猛击攻击命中它，那个目标必须成功通过一次DC 16的力量豁免才能不被击倒{@condition prone}。如果目标是{@condition prone}，战争机甲可以作为一个奖励动作对它进行另一次猛击攻击。"
+							]
+						}
+					],
+					"_version": {
+						"name": "Haze Hulk (Juggernaut)",
+						"addHeadersAs": "trait"
+					}
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Haze Hulk (Gutbuster)",
+					"source": "DoDk",
+					"_mod": {
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Hurl Foetid Flesh {@recharge 5}",
+									"entries": [
+										"The gutbuster rips off a chunk of its mutated flesh and hurls it towards a space it can see within 120 feet of it. Each creature within 10 feet of that point must succeed on a {@dc 14} Constitution saving throw, taking 28 ({@damage 8d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+									]
+								}
+							]
+						}
+					},
+					"variant": null
+				},
+				{
+					"name": "Haze Hulk (Hunter)",
+					"source": "DoDk",
+					"_mod": {
+						"trait": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Invisibility",
+									"entries": [
+										"The hunter magically turns {@condition invisible} until it attacks or until its {@status concentration} ends (as if {@status concentration||concentrating} on a spell). Any equipment the hunter wears or carries is {@condition invisible} with it."
+									]
+								}
+							]
+						},
+						"action": {
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Lashing Tendrils",
+									"entries": [
+										"{@atk mw} {@hit 7} to hit, reach 60 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage, and the target is {@condition grappled} (escape {@dc 15}) if it is a Large or smaller creature. The hunter has two lashing tendrils and can grapple up to two creatures at once."
+									]
+								}
+							]
+						}
+					},
+					"bonus": [
+						{
+							"name": "Reel",
+							"entries": [
+								"作为一个奖励动作，猎人可以将每个生物{@condition grappled}朝它拉动，最多25英尺。"
+							]
+						}
+					],
+					"variant": null
+				}
+			]
+		},
+		{
+			"name": "Haze Husk",
+			"source": "DoDk",
+			"page": 197,
+			"_copy": {
+				"name": "Zombie",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "zombie",
+						"with": "haze husk"
+					}
+				}
+			},
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"如果伤害将迷雾外壳的生命值降至0点，其体内的狂乱碎片会爆炸，释放出一股被污染的能量波，除非伤害是辐射伤害或来自重击。每个距离它5英尺范围内的生物必须通过一次{@dc 10}体质豁免才能免受7({@damage 2d6})点死灵伤害。未能通过豁免检定的生物会受到额外伤害。如果未能通过豁免检定的生物的豁免检定结果低于5，它们会获得一个{@adventure level of contamination|DoDk|12}。"
+					]
+				}
+			],
+			"tokenCredit": "Joshua Culp",
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Haze Wight",
+			"source": "DoDk",
+			"page": 198,
+			"_copy": {
+				"name": "Wight",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "wight",
+						"with": "haze wight"
+					},
+					"action": [
+						{
+							"mode": "replaceArr",
+							"replace": "Multiattack",
+							"items": [
+								{
+									"name": "Multiattack",
+									"entries": [
+										"The haze wight makes two longsword attacks or two longbow attacks. It can use its Contaminated Touch or Create Haze Husk in place of one longsword attack."
+									]
+								}
+							]
+						},
+						{
+							"mode": "replaceArr",
+							"replace": "Life Drain",
+							"items": [
+								{
+									"name": "Contaminated Touch",
+									"entries": [
+										"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}10 ({@damage 3d6}) necrotic damage. The target must succeed on a {@dc 13} Constitution saving throw or gain one {@adventure level of contamination|DoDk|12}."
+									]
+								},
+								{
+									"name": "Create Haze Husk",
+									"entries": [
+										"The wight targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. It rises as a haze husk in an unoccupied space within 5 feet. The haze husk is under the wight's control. The wight can have no more than 12 haze husks under its control at one time."
+									]
+								}
+							]
+						}
+					]
+				}
+			},
+			"tokenCredit": "Igor Krstic",
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Hedge Mage",
+			"source": "DoDk",
+			"page": 219,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 15,
+			"wis": 11,
+			"cha": 11,
+			"skill": {
+				"arcana": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"Any two"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"这位篱笆法师是一名4级法术施展者，使用智力作为施法能力（法术豁免{@dc 12}；用法术攻击命中{@hit 4}）。这位篱笆法师准备了以下巫师法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell mage hand}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell false life}",
+								"{@spell mage armor}",
+								"{@spell magic missile}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell Melf's acid arrow}",
+								"{@spell web}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4}攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4({@damage 1d4 + 2})点穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"A",
+				"F",
+				"L",
+				"N",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"restrained"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hypnotic Eldritch Blossom",
+			"source": "DoDk",
+			"page": 205,
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				5
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 5
+			},
+			"str": 3,
+			"dex": 1,
+			"con": 10,
+			"int": 1,
+			"wis": 3,
+			"cha": 5,
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 6,
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"frightened"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"当催眠奥术之花保持静止时，它和一朵普通的花无异。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Contaminated Nectar",
+					"entries": [
+						"催眠的邪花朵目标是在它能看到的10英尺内的一名生物。目标必须成功通过一次{@dc 10}体质豁免才能获得一个{@adventure level of contamination|DoDk|12}。"
+					]
+				},
+				{
+					"name": "Hypnotic Pollen (recharges on a short or long rest)",
+					"entries": [
+						"催眠的邪花释放出一团闪闪发光的花粉，覆盖范围为30英尺。区域内的生物必须通过一次{@dc 10}感知豁免才能抵抗催眠的邪花，否则会被其控制，持续1分钟。在受到影响期间，生物会被迷惑，并且必须在自己的回合中使用全部移动力尽可能靠近催眠的邪花。",
+						"如果受影响的生物受到任何伤害，或者有其他人使用一个动作来摇醒这个生物，效果就会结束。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spell Reflection",
+					"entries": [
+						"如果催眠的eldritch花朵成功通过一个只针对它的并且没有范围效果的法术的豁免检定，或者一个法术攻击未命中它，花朵可以选择另一个它能看到的距离30英尺内的生物（包括施法者）。法术将以选择的生物为目标，而不是催眠的eldritch花朵。如果法术需要进行豁免检定，选择的生物进行自己的检定。如果法术是一个攻击，攻击骰重新对选择的生物进行投掷。"
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"senseTags": [
+				"B"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Knight-Captain Theodore Marshal",
+			"source": "DoDk",
+			"page": 215,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|PHB|plate}",
+						"{@item shield|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 255,
+				"formula": "30d8 + 120"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 18,
+			"int": 13,
+			"wis": 15,
+			"cha": 19,
+			"save": {
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"animal handling": "+7",
+				"athletics": "+10",
+				"insight": "+7",
+				"persuasion": "+9"
+			},
+			"passive": 12,
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Celestial",
+				"Common"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"西奥多·马歇尔是一名20级法术施法者。他的法术施放能力是魅力（法术豁免 {@dc 17}，使用法术攻击命中加值 {@hit 9}）。他准备了以下圣骑士法术："
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell cure wounds}",
+								"{@spell guiding bolt}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell aid}",
+								"{@spell branding smite}",
+								"{@spell lesser restoration}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell beacon of hope}",
+								"{@spell dispel magic}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell flame strike}",
+								"{@spell hallow}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Divine Strikes",
+					"entries": [
+						"西奥多·马歇尔的武器攻击是魔法的。当他用任何武器命中时，武器会额外造成{@damage 4d8}辐射伤害（包含在攻击中）。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果西奥多·马歇尔（Theodore Marshal）未能通过豁免投骰，他可以选择成功。"
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"西奥多·马歇尔拿着一把{@item holy avenger longsword}。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"西奥多·马歇尔进行两次近战攻击。"
+					]
+				},
+				{
+					"name": "Holy Avenger",
+					"entries": [
+						"{@atk mw} 攻击命中，达到5英尺，一个目标。造成{@h}12 ({@damage 1d8 + 8}) 斩击伤害加上18 ({@damage 4d8}) 光辉伤害。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"西奥多·马歇尔进行一次武器攻击。"
+					]
+				},
+				{
+					"name": "Holy Bolt (Costs 2 actions)",
+					"entries": [
+						"西奥多·马歇尔施放{@spell guiding bolt}，而不消耗法术位。"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CE"
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F",
+				"R"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"incapacitated",
+				"prone"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lenore von Kessel",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DoDk",
+			"page": 134,
+			"_copy": {
+				"name": "Medusa",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the medusa",
+						"with": "Lenore",
+						"flags": "i"
+					}
+				}
+			},
+			"trait": [
+				{
+					"name": "Radiant Gaze",
+					"entries": [
+						"当一个能看到莱诺尔的眼睛的生物在她的30英尺内开始它的回合时，如果她不是无形的并且能看到这个生物，莱诺尔可以强迫它进行一次 {@dc 14} 体质豁免检定。在豁免失败时，该生物会受到22 ({@damage 4d10}) 辐射伤害，豁免成功时伤害减半。此外，未能通过这次豁免检定的生物会获得一个 {@adventure level of contamination|DoDk|12}。",
+						"除非受到惊吓，生物可以转移目光，避免在其回合开始时进行豁免投掷。如果生物这样做，它在下一个回合开始前都看不见莱诺尔，届时它可以再次转移目光。如果生物在此期间看向莱诺尔，必须立即进行豁免投掷。",
+						"如果莱诺尔（Lenore）在距离她30英尺以内的明亮光线区域内看到自己在一个抛光表面上的倒影，她会变成{@condition blinded}和{@condition incapacitated}，持续{@dice 1d6}小时。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tentacle Hair",
+					"entries": [
+						"{@atk mw} {@hit 5}攻击，射程5英尺，一名生物。造成{@h}4 ({@damage 1d4 + 2}) 穿刺伤害加上14 ({@damage 4d6}) 瘟疫伤害。目标必须成功进行一次{@dc 14} 体质豁免才能避免获得一种{@adventure level of contamination|DoDk|12}。"
+					]
+				}
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Living Deep Haze",
+			"source": "DoDk",
+			"page": 204,
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d10 + 24"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 90,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 14,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Fog Form",
+					"entries": [
+						"活体深雾可以进入一个敌对生物的空间并停留在那里。它可以在宽度仅为1英寸的狭窄空间中移动而无需挤压。"
+					]
+				},
+				{
+					"name": "Deep Haze",
+					"entries": [
+						"一个生物如果进入或者在与深渊之雾(Living Deep Haze)相同的空间开始它的回合，必须成功通过一次{@dc 15}体质豁免才能避免受到10点({@damage 3d6})死灵伤害，并获得一个{@adventure level of contamination|DoDk|12}。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"活体深雾进行两次猛击攻击。"
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8}攻击，射程5英尺，一个目标。造成{@h}14 ({@damage 2d8 + 5}) 钝击伤害。"
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lord Commander Elias Drexel",
+			"source": "DoDk",
+			"page": 214,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item +3 breastplate}"
+					]
+				}
+			],
+			"hp": {
+				"average": 255,
+				"formula": "30d8 + 120"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 18,
+			"int": 15,
+			"wis": 16,
+			"cha": 11,
+			"save": {
+				"str": "+9",
+				"dex": "+7",
+				"wis": "+8"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+13",
+				"stealth": "+12",
+				"survival": "+8"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 23,
+			"languages": [
+				"Common"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Elias Drexel是一名20级法术施法者。他的法术施法能力是智力（法术豁免{@dc 16}，用法术攻击命中时为{@hit 8}）。他会以下游侠法术："
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell fog cloud}",
+								"{@spell hunter's mark}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell pass without trace}",
+								"{@spell protection from poison}",
+								"{@spell spike growth}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell conjure animals}",
+								"{@spell nondetection}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell freedom of movement}",
+								"{@spell stoneskin}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell tree stride} (works on buildings instead of trees)"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Survivor",
+					"entries": [
+						"在Elias Drexel（伊莱亚斯·德雷克塞尔）的每个回合开始时，如果他的生命值不超过一半，他会恢复10点生命值。如果他的生命值为0，他将不会获得这个效益。"
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"当Elias Drexel用近战武器击中目标时，该武器的伤害额外增加一颗骰子（包含在攻击中）。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果Elias Drexel失败了一次豁免投掷，他可以选择成功。"
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Elias Drexel 拿着一个{@item +3 Longsword}，穿着一个{@item +3 breastplate}和{@item Lord Commander's Badge|DoDk}。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"埃利亚斯·德雷克塞尔(Elias Drexel)使用领导力。然后他可以用他的长剑或长弓进行四次攻击。"
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw}进行攻击，达到5英尺，一个目标。造成{@h}16 ({@damage 2d8 + 7})点割伤伤害。"
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 7} 进行攻击，射程150/600英尺，目标为一名敌人。造成{@h}7 ({@damage 1d8 + 2}) 穿刺伤害。"
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"在1分钟内，埃利亚斯·德雷克斯尔(Elias Drexel)可以在他能看到的距离120英尺内的非敌对生物进行攻击检定或豁免检定时发出特殊指令或警告。只要生物能听到并理解埃利亚斯·德雷克斯尔，它可以在检定中添加{@dice d4}。生物一次只能从一个领导骰中受益。如果埃利亚斯·德雷克斯尔被{@condition incapacitated}，这个效果就会结束。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Elias Drexel（Elias Drexel）在面对一次即将击中他的近战攻击时，可以将自己的AC提高5点。为此，Elias Drexel必须看到攻击者并且握持一把近战武器。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Elias Drexel 进行一次武器攻击。"
+					]
+				},
+				{
+					"name": "Command",
+					"entries": [
+						"Elias Drexel选择一个他能看到的盟友。如果那个盟友能看到和听到他，那个盟友可以作为一次反应进行一次武器攻击，并获得攻击骰的优势。这次攻击在命中时额外造成10{@damage 3d6}点伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"longsword|phb"
+			],
+			"traitTags": [
+				"Brute",
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CR"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lord of the Feast",
+			"source": "DoDk",
+			"page": 211,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 228,
+				"formula": "24d10 + 96"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 18,
+			"int": 11,
+			"wis": 18,
+			"cha": 13,
+			"save": {
+				"dex": "+9",
+				"con": "+9",
+				"wis": "+9",
+				"cha": "+6"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+14",
+				"stealth": "+14",
+				"survival": "+9"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 24,
+			"languages": [
+				"Abyssal"
+			],
+			"cr": "15",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果盛宴之主未能通过豁免投掷，他可以选择成功。"
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"宴会之主在回合开始时，如果剩余至少1点生命值，将恢复20点生命值。"
+					]
+				},
+				{
+					"name": "Close-Quarters Hunter",
+					"entries": [
+						"与敌对生物保持在5英尺范围内不会对盛宴之主（Lord of the Feast）的远程攻击投掷造成劣势。"
+					]
+				},
+				{
+					"name": "Predatory Senses",
+					"entries": [
+						"盛宴之主在感知检定中获得优势({@skill Perception})。他可以准确找出距离他120英尺以内的任何生物的位置，只要它们是{@condition invisible}。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"盛宴之主进行三次攻击：可以选择分别使用其不同的箭攻击进行一次攻击，或者用咬和两次爪攻击各进行一次攻击。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9}攻击，达到5英尺，一个目标。造成{@h}15 ({@damage 2d10 + 4})穿刺伤害加上18 ({@damage 4d8})死灵伤害。被此攻击击中的目标必须成功进行一次{@dc 17}体质豁免才能避免获得一个{@adventure level of contamination|DoDk|12}。"
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} 使用攻击命中，达到10英尺，一个目标。造成{@h}11 ({@damage 2d6 + 4}) 切割伤害。"
+					]
+				},
+				{
+					"name": "Contaminating Arrow",
+					"entries": [
+						"{@atk rw} 近战 {@hit 9}，射程150/600英尺，目标为一名生物。造成{@h}13 ({@damage 2d8 + 4}) 穿刺伤害加上18 ({@damage 4d8}) 死灵伤害。被此攻击命中的目标必须通过一次 {@dc 17} 体质豁免才能免受一次 {@adventure level of contamination|DoDk|12}。"
+					]
+				},
+				{
+					"name": "Ensnaring Arrow",
+					"entries": [
+						"{@atk rw}进行攻击，射程150/600英尺，目标为一个。造成{@h}13({@damage 2d8 + 4})点穿刺伤害。如果目标为大型或更小，则必须成功进行{@dc 17}敏捷豁免才能在1分钟内被魔法陷阱困住。一个{@condition restrained}目标可以使用其动作重复豁免扔骰，成功则结束自身效果。"
+					]
+				},
+				{
+					"name": "Harpoon Arrow",
+					"entries": [
+						"{@atk rw}使用{@hit 9}命中，射程150/600英尺，目标为一个。造成{@h}13({@damage 2d8 + 4})点穿刺伤害。如果目标是一个巨大或更小的生物，它必须成功通过{@dc 17}力量豁免才能被朝着盛宴之主拉动最多20英尺。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Dash",
+					"entries": [
+						"盛宴之主在不引发机会攻击的情况下移动他的速度。"
+					]
+				},
+				{
+					"name": "Arrow (Costs 2 actions)",
+					"entries": [
+						"盛宴之主进行一次他选择的箭攻击。"
+					]
+				},
+				{
+					"name": "Call of the Hunt (costs 3 actions)",
+					"entries": [
+						"盛宴之主释放出一声令人毛骨悚然的嚎叫，整个德拉肯海姆都能听到。在60尺范围内能看见和听到盛宴之主的加米尔(%num%)可以使用自己的反应移动自己速度的一半，并且带有优势进行一次近战或远程攻击。"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Regeneration"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB"
+			],
+			"damageTags": [
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lucretia Mathias",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DoDk",
+			"page": 216,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "20d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 10,
+			"con": 10,
+			"int": 19,
+			"wis": 24,
+			"cha": 19,
+			"save": {
+				"wis": "+12",
+				"cha": "+9"
+			},
+			"skill": {
+				"insight": "+17",
+				"perception": "+17",
+				"persuasion": "+14",
+				"religion": "+14"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 26,
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"all"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"卢克莱西亚·马西亚斯是一名20级法术施展者。她的法术施展能力是智力（法术豁免 {@dc 20}，用法术攻击命中时为 {@hit 12}）。她准备了以下牧师法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell guidance}",
+								"{@spell light}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell aid}",
+								"{@spell hold person}",
+								"{@spell lesser restoration}",
+								"{@spell spiritual weapon}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell sending}",
+								"{@spell speak with dead}",
+								"{@spell spirit guardians}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell death ward}",
+								"{@spell divination}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell commune}",
+								"{@spell flame strike}",
+								"{@spell greater restoration}",
+								"{@spell scrying}"
+							]
+						},
+						"6": {
+							"slots": 2,
+							"spells": [
+								"{@spell heal}",
+								"{@spell word of recall}"
+							]
+						},
+						"7": {
+							"slots": 2,
+							"spells": [
+								"{@spell divine word}",
+								"{@spell resurrection}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell holy aura}"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell gate}",
+								"{@spell sacrament of the falling fire|DoDk}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Prescient",
+					"entries": [
+						"当Lucretia Mathias意识清醒时，她不会被惊讶。"
+					]
+				},
+				{
+					"name": "Unarmoured Defense",
+					"entries": [
+						"当Lucretia Mathias没有穿戴盔甲和持盾牌时，她的AC包括她的智力修正值。"
+					]
+				},
+				{
+					"name": "Undeniable Faith",
+					"entries": [
+						"Lucretia Mathias（Lucretia Mathias）在维持她的法术{@status concentration}时，对体质豁免检定自动成功。她施放的任何法术都被视为使用了第9级法术位来施放，无论实际使用的法术位为何。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果卢克莱西亚·马西亚斯（Lucretia Mathias）未能通过豁免投骰，她可以选择成功。"
+					]
+				},
+				{
+					"name": "Divine Grace",
+					"entries": [
+						"任何对鲁克莎·马西亚斯（Lucretia Mathias）使用攻击或有害法术的生物必须首先进行一次{@dc 20}感知豁免投骰。如果未通过豁免，该生物必须选择一个新目标或取消攻击或法术。此效果不会保护鲁克莎·马西亚斯免受区域效果的影响，比如火球的爆炸。",
+						"如果卢克莱蒂亚·马西亚斯(Lucretia Mathias)发动攻击，施放对敌人有效的法术，或对另一个生物造成伤害，这个效果会一直持续直到她的下一个回合开始。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pacifying Touch",
+					"entries": [
+						"{@atk ms}进行攻击，射程5英尺，一名生物。受到10({@damage 3d6})点心灵伤害。受到此伤害降至0点生命值的生物将稳定在0点生命值。目标必须成功通过一次{@dc 20}感知豁免才能免疫1分钟。如果受影响的生物受到任何伤害，此效果将结束。"
+					]
+				},
+				{
+					"name": "Divine Intervention (1/ week)",
+					"entries": [
+						"卢克雷西亚·马西亚斯呼唤神圣之焰寻求援助。(%num%)位GM选择干预的性质；任何牧师法术或牧师领域法术的效果都是合适的。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"卢克莱蒂亚·马西亚斯施放了一个零级法术。"
+					]
+				},
+				{
+					"name": "Pacifying Touch (Costs 2 Actions)",
+					"entries": [
+						"Lucretia Mathias 使用她的安抚之触(Pacifying Touch)。"
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 3 Actions)",
+					"entries": [
+						"卢克雷蒂亚·马西亚斯(Lucretia Mathias) 使用一个法术位施放了一个法术。"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"incapacitated",
+				"paralyzed",
+				"prone",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Minazorond",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DoDk",
+			"page": 183,
+			"size": [
+				"G"
+			],
+			"type": "dragon",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 444,
+				"formula": "24d20 + 192"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80,
+				"swim": 40
+			},
+			"str": 29,
+			"dex": 10,
+			"con": 27,
+			"int": 18,
+			"wis": 17,
+			"cha": 21,
+			"save": {
+				"dex": "+7",
+				"con": "+15",
+				"wis": "+10",
+				"cha": "+12"
+			},
+			"skill": {
+				"insight": "+10",
+				"perception": "+17",
+				"stealth": "+7"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 27,
+			"resist": [
+				"poison",
+				"psychic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "22",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Minazorond可以呼吸空气和水。"
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries": [
+						"Minazorond不需要空气、食物、饮料或睡眠。"
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"当米纳佐隆 (Minazorond) 保持静止时，他和一尊青铜雕像无法区分。"
+					]
+				},
+				{
+					"name": "Faultless Tracker",
+					"entries": [
+						"导致Minazorond复活的生物成为他的猎物。只要猎物仍然在德拉肯海姆内，或者直到Minazorond被摧毁，Minazorond就知道他的猎物的方向和距离。"
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"Minazorond对任何试图改变其形态的法术或效果都免疫。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果米纳佐龙(Minazorond)未能通过豁免检定，他可以选择成功。"
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Minazorond对法术和其他魔法效果的豁免 throws 有优势。"
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Minazorond的武器攻击是魔法的。"
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"如果Minazorond被摧毁，他会在1小时内恢复所有生命值，除非在他的残骸上施放{@spell disintegrate}法术。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Minazorond可以使用他的恐怖存在(`Frightful Presence`)。然后他进行三次攻击：一次咬击攻击和两次利爪攻击。"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} 使用 {@hit 16} 进行攻击，射程15英尺，目标一个。造成{@h}20 ({@damage 2d10 + 9}) 穿刺伤害。"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw}进行攻击，射程10英尺，目标一个。造成{@h}16 ({@damage 2d6 + 9})点割伤伤害。"
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} 使用 {@hit 16} 命中，射程20英尺，一个目标。造成{@h}18 ({@damage 2d8 + 9}) 钝击伤害。"
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"每个在距离Minazorond 120英尺范围内并且意识到他的Minazorond选择的生物必须成功通过一个{@dc 20}的感知豁免才能在1分钟内变为{@condition frightened}。生物可以在自己的回合结束时重复进行豁免才能，成功则结束自身的效果。如果生物的豁免成功或效果结束，该生物对Minazorond的Frightful Presence在接下来的24小时内免疫。"
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"Minazorond使用以下其中一种吐息武器。"
+					]
+				},
+				{
+					"name": "Lightning Breath",
+					"entries": [
+						"Minazorond在一条长120英尺、宽10英尺的线上呼出闪电。该线上的每个生物必须进行一次{@dc 23}敏捷豁免检定，未通过检定的生物会受到88({@damage 16d10})点闪电伤害，通过检定的生物则只受到一半伤害。"
+					]
+				},
+				{
+					"name": "Repulsion Breath",
+					"entries": [
+						"Minazorond从一个30英尺的锥形区域中呼出排斥能量。该区域内的每个生物必须成功通过一个{@dc 23}力量豁免检定。未能通过豁免检定的生物将被推开60英尺远离Minazorond。"
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"Minazorond可以通过魔法变形成一个具有与自己相同或更低挑战等级的人形或野兽，或者变回真实形态。如果他死亡，他将恢复到真实形态。他穿戴或携带的任何装备都会被新形态吸收或承载（由Minazorond决定）。",
+						"在新形态中，米纳佐隆德(Minazorond) 保留他的属性、生命值、命中骰、说话能力、熟练加值、传奇抗性、巢穴行动，以及智力、感知和魅力分数，以及这个动作。除了该形态的任何职业特性或传奇动作之外，他的统计数据和能力将被新形态的统计数据和能力替代。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"Minazorond 进行了一次感知 ({@skill Perception}) 检定。"
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"米纳佐隆德进行了一次尾部攻击。"
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"米纳佐隆德(Minazorond)拍打着他的翅膀。每个在米纳佐隆德(Minazorond)15英尺范围内的生物必须成功通过一个{@dc 24}敏捷豁免才能免受16({@damage 2d6 + 9}) 钝击伤害，并被击倒{@condition prone}。米纳佐隆德(Minazorond)随后可以飞行达到他飞行速度的一半。"
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"False Appearance",
+				"Immutable Form",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"B",
+				"SD",
+				"U"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"L",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Oscar Yoren",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DoDk",
+			"page": 99,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 72,
+				"formula": "9d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 11,
+			"int": 17,
+			"wis": 12,
+			"cha": 11,
+			"save": {
+				"int": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+6",
+				"history": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"languages": [
+				"Any four languages"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"奥斯卡·约伦是一名9级咒术师。他的咒术能力是智力（法术豁免 {@dc 14}，施法命中加值 {@hit 6}）。奥斯卡·约伦准备了以下巫师法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell mage hand}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell false life}",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell invisibility}",
+								"{@spell misty step}",
+								"{@spell web}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell counterspell}",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight}",
+								"{@spell polymorph}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell cloudkill}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw}进行攻击，射程5英尺或射程20/60英尺，目标一个。造成{@h}4 ({@damage 1d4 + 2})点穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"I",
+				"L",
+				"N",
+				"O"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"invisible",
+				"restrained"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pale Man",
+			"source": "DoDk",
+			"page": 212,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d8 + 48"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 17,
+			"int": 20,
+			"wis": 15,
+			"cha": 12,
+			"save": {
+				"con": "+8",
+				"int": "+10",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+10",
+				"history": "+10",
+				"perception": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"restrained"
+			],
+			"languages": [
+				"Common and any 5 other languages"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"苍白人(Pale Man)是一名16级法术施法者。它的法术施放能力是智力（法术豁免{@dc 18}，法术攻击命中加值{@hit 10}）。苍白人(Pale Man)准备了以下巫师法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell delerium orb|DoDk}*",
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person}",
+								"{@spell invisibility}",
+								"{@spell warp bolt|DoDk}*"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell lightning bolt}",
+								"{@spell purge contamination|DoDk}*"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell delerium blast|DoDk}*",
+								"{@spell forced evolution|DoDk}*"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell conjure the deep haze|DoDk}*"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell siphon contamination|DoDk}*"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell octarine spray|DoDk}*"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell antimagic field}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*These spells are from Appendix D of Dungeons of Drakkenheim."
+					],
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果苍白人(Pale Man)未能通过豁免投骰(Saving Throw)，它可以选择成功。"
+					]
+				},
+				{
+					"name": "Insect Body",
+					"entries": [
+						"苍白人(Pale Man)可以占据另一个生物的空间，反之亦然，而苍白人可以穿过任何足够容纳一只微小昆虫的开口。"
+					]
+				},
+				{
+					"name": "Crawling Flesh",
+					"entries": [
+						"当苍白人(Pale Man)的生命值降至0点时，它会在原地分裂成一群昆虫。除非这群昆虫被摧毁，否则苍白人昆虫会返回到它的茧中，并在{@dice 1d6}天后重新形成。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Contaminating Touch",
+					"entries": [
+						"{@atk ms} 近战攻击，射程10英尺，目标一个。造成{@h}10 ({@damage 3d6}) 点死灵伤害，并且目标必须在一次{@dc 16} 体质豁免检定中成功，否则受到一个{@adventure level of contamination|DoDk|12}。"
+					]
+				},
+				{
+					"name": "Infest the Flesh {@recharge}",
+					"entries": [
+						"每个在苍白人(Pale Man)30英尺范围内的生物必须成功进行一次{@dc 16}的敏捷豁免才能避免受到22({@damage 5d8})点死灵伤害，并被一群蠕动的肉虫所缠绕。受影响的生物在每个苍白人的回合开始时会受到22({@damage 5d8})点死灵伤害。生物可以在自己的回合结束时重复进行豁免才能，成功则结束自身的效果。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cantrip (Costs 1 Action)",
+					"entries": [
+						"苍白男人施放一个戏法。"
+					]
+				},
+				{
+					"name": "Slither (Costs 2 Actions)",
+					"entries": [
+						"苍白人(巨怪)移动时不会引发机会攻击。"
+					]
+				},
+				{
+					"name": "Contaminate (Costs 3 Actions)",
+					"entries": [
+						"每个被苍白男人的“感染肉体”影响的生物{@condition restrained}必须进行一次{@dc 16}体质豁免才能避免获得一个{@adventure level of contamination|DoDk|12}。"
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"N"
+			],
+			"damageTagsSpell": [
+				"L",
+				"N",
+				"O",
+				"R",
+				"T",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"AOE",
+				"RCH"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"exhaustion",
+				"incapacitated",
+				"invisible",
+				"paralyzed"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Protean Abomination",
+			"source": "DoDk",
+			"page": 201,
+			"size": [
+				"H"
+			],
+			"type": "aberration",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 168,
+				"formula": "16d12 + 64"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 10
+			},
+			"str": 21,
+			"dex": 8,
+			"con": 18,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"prone"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Absorption",
+					"entries": [
+						"当多变憎恶生物杀死一个既不是构装体也不是不死生物的生物时，它会吸收尸体进入自己的身体，并恢复20点生命值。"
+					]
+				},
+				{
+					"name": "Amorphous",
+					"entries": [
+						"多变的憎恶(abomination)可以在不挤压的情况下穿过宽度仅为1英寸的空间。"
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"多变的憎恶物可以攀爬困难的表面，甚至可以在天花板上倒挂，而无需进行能力检定。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"多变的憎恶进行两次猛击攻击。如果两次攻击都命中了一个大型或更小的目标，目标被 {@condition grappled} (逃脱 {@dc 15})，并且多变的憎恶对其使用吞噬。"
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 8}攻击，达到5英尺，一个目标。造成{@h}19 ({@damage 3d8 + 5}) 钝击伤害。"
+					]
+				},
+				{
+					"name": "Engulf",
+					"entries": [
+						"多变的憎恶生物吞噬了一个大型或更小的生物{@condition grappled}。直到角斗结束，目标被{@condition blinded}，{@condition restrained}，并且无法呼吸，它必须在每个憎恶生物回合开始时成功进行一次{@dc 15}体质豁免才能免受19（{@damage 3d8 + 5}）点的殴打伤害。如果憎恶生物移动，被吞噬的目标也会随之移动。憎恶生物一次只能吞噬一个生物。"
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Queen of Thieves",
+			"source": "DoDk",
+			"page": 217,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 23,
+					"from": [
+						"canny defense",
+						"{@spell mage armor}"
+					]
+				}
+			],
+			"hp": {
+				"average": 120,
+				"formula": "20d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 20,
+			"con": 13,
+			"int": 20,
+			"wis": 16,
+			"cha": 19,
+			"save": {
+				"dex": "+10",
+				"int": "+10"
+			},
+			"skill": {
+				"acrobatics": "+10",
+				"arcana": "+10",
+				"deception": "+14",
+				"insight": "+8",
+				"perception": "+8",
+				"persuasion": "+9",
+				"sleight of hand": "+10",
+				"stealth": "+15"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"盗贼女王的天生法术能力是智力。她可以天生施展以下法术，无需材料、手势或语言组件："
+					],
+					"will": [
+						"{@spell detect thoughts}",
+						"{@spell disguise self}",
+						"{@spell suggestion}"
+					],
+					"ability": "int"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"盗贼女王是一名20级的法术施展者。她的法术能力是智力（法术豁免 {@dc 18}，法术攻击命中加值 {@hit 10}）。她已准备了以下巫师法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell feather fall}",
+								"{@spell mage armor}",
+								"{@spell shield}",
+								"{@spell sleep}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell mirror image}",
+								"{@spell misty step}",
+								"{@spell see invisibility}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell gaseous form}",
+								"{@spell hypnotic pattern}",
+								"{@spell major image}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell greater invisibility}",
+								"{@spell polymorph}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell dominate person}",
+								"{@spell scrying}",
+								"{@spell seeming}"
+							]
+						},
+						"6": {
+							"slots": 2,
+							"spells": [
+								"{@spell eyebite}",
+								"{@spell mass suggestion}"
+							]
+						},
+						"7": {
+							"slots": 2,
+							"spells": [
+								"{@spell forcecage}",
+								"{@spell project image}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell feeblemind}"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell foresight}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"盗贼女王穿着一件{@item amulet of proof against detection and location}和一条{@item spymaster's signet|DoDK}。她挥舞着一把{@item +3 rapier}。"
+					]
+				},
+				{
+					"name": "Canny Defense",
+					"entries": [
+						"当盗贼女王(Queen of Thieves)穿着轻甲或不穿甲并且不使用盾牌时，她的AC包括她的智力修正值。"
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"盗贼女王在使用武器攻击命中目标并且具有优势攻击检定时，或者目标在离盗贼女王的盟友不超过5英尺的范围内且盗贼女王没有劣势攻击检定时，会额外造成18 {@damage 5d6} 伤害。"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"如果盗贼女王失败了一次豁免投掷，她可以选择成功。"
+					]
+				},
+				{
+					"name": "Memory Thief",
+					"entries": [
+						"当盗贼女王(Queen of Thieves)阅读他们的思绪或者对他们施加魅惑时，生物并不会意识到。此外，当盗贼女王施放的一个使生物变成{@condition charmed}的咒语结束时，她可以让受影响的生物失去他们的记忆。他们必须通过一个{@dc 18}的智力豁免才能避免遗忘她所花费的时间长达8小时。这些记忆可以通过{@spell heal}法术或类似魔法来恢复。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "+3 Rapier",
+					"entries": [
+						"{@atk mw} {@hit 13} 命中，达到5英尺，一个目标 {@h}13 ({@damage 1d8 + 8}) 穿刺伤害。"
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk rw} {@hit 10} 命中，射程20/60尺，一个目标。造成{@h}7 ({@damage 1d4 + 7}) 穿刺伤害。"
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Misdirection",
+					"entries": [
+						"当女盗王(Queen of Thieves)受到伤害时，她会变成{@condition invisible}，并传送到她能看到的一个空位60英尺远的地方。与此同时，她原本站立的位置会出现一个持续1分钟的幻象。如果女盗王(Queen of Thieves)进行攻击或施放法术，或者1分钟后，隐形效果会结束。"
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"盗贼女王进行一次近战或远程攻击。"
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"盗贼女王移动自己的速度，而不会引发机会攻击。"
+					]
+				}
+			],
+			"attachedItems": [
+				"+3 rapier|dmg",
+				"dagger|phb"
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CW",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"incapacitated",
+				"invisible",
+				"unconscious"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"intelligence",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Rat Prince",
+			"source": "DoDk",
+			"page": 213,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|PHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30,
+				"climb": 30
+			},
+			"str": 12,
+			"dex": 19,
+			"con": 13,
+			"int": 9,
+			"wis": 15,
+			"cha": 9,
+			"skill": {
+				"acrobatics": "+6",
+				"athletics": "+3",
+				"perception": "+6",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"老鼠王子可以在每个回合的奖励动作中采取冲刺、脱离战斗或隐藏动作。"
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"老鼠王子在依赖嗅觉的感知检定中获得优势 ({@skill Perception})。"
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"如果至少有一个盟友与敌人在5英尺内且该盟友不是{@condition incapacitated}，则鼠王对该敌人的攻击投掷获得优势。"
+					]
+				},
+				{
+					"name": "Contaminated Ammunition",
+					"entries": [
+						"老鼠王子携带着{@dice 2d6}发装有狂乱碎片的弹药。这些弹丸在命中时造成额外{@damage 1d6}伤害，目标必须通过{@dc 10}体质豁免检定，否则会获得一个{@adventure level of contamination|DoDk|12}。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"鼠王进行三次攻击：两次使用他的短剑，一次使用他的污染咬伤。"
+					]
+				},
+				{
+					"name": "Short Sword",
+					"entries": [
+						"{@atk mw} {@hit 6}攻击，射程5英尺，一个目标。造成{@h}7 ({@damage 1d6 + 4})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Contaminated Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} 进行攻击，射程5英尺，目标为一名敌人。造成{@h}4 ({@damage 1d4 + 4}) 穿刺伤害，额外再加上10 ({@damage 3d6}) 黑暗伤害，目标必须通过一次{@dc 11} 体质豁免检定，否则获得一次{@adventure level of contamination|DoDk|12}。"
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw}进行攻击，射程30/120尺，目标为一个。造成{@h}7({@damage 1d6 + 4})点穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"hand crossbow|phb"
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ratling",
+			"source": "DoDk",
+			"page": 202,
+			"size": [
+				"S"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 5,
+				"formula": "2d6 - 2"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30,
+				"climb": 30
+			},
+			"str": 7,
+			"dex": 15,
+			"con": 8,
+			"int": 8,
+			"wis": 10,
+			"cha": 5,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Skulker",
+					"entries": [
+						"鼠灵可以在每个回合的奖励动作中采取躲藏动作。"
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"老鼠人在依赖嗅觉的智力检定中获得优势。"
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"如果至少有一名鼠人的盟友在离生物5英尺范围内且该盟友不是{@condition incapacitated}，则鼠人对该生物的攻击投掷获得优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4}攻击，射程5英尺，目标一个。{@h}4 ({@damage 1d4 + 2})穿刺伤害。"
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 4} 进行攻击，射程30/120尺，目标一个。造成{@h}4 ({@damage 1d4 + 2}) 钝击伤害。"
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Guttersnipe",
+					"entries": [
+						"一个鼠人贱民使用{@creature spy}的游戏统计数据。它的生物类型是畸变生物(monstrosity)。它获得敏锐嗅觉(Keen Smell)和群体战术(Pack Tactics)特性，以及30英尺的游泳和攀爬速度，以及咬击攻击，就像鼠人的属性块中描述的那样。"
+					]
+				}
+			],
+			"attachedItems": [
+				"sling|phb"
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Saint Gresha",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DoDk",
+			"page": 124,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 15,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"The languages it knew in life"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"圣格莎是一名8级法术施展者。它的法术施展能力是魅力（法术豁免 {@dc 13}，法术攻击命中加值 {@hit 5}）。圣格莎了解以下巫师法术："
+					],
+					"will": [
+						"{@spell guidance}",
+						"{@spell light}",
+						"{@spell sacred flame}",
+						"{@spell thaumaturgy}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell bless}",
+							"{@spell flame strike}",
+							"{@spell guiding bolt}",
+							"{@spell healing word}",
+							"{@spell prayer of healing}",
+							"{@spell spirit guardians}"
+						],
+						"1e": [
+							"{@spell divine word}",
+							"{@spell harm}",
+							"{@spell heal}",
+							"{@spell holy aura}",
+							"{@spell sacrament of the falling fire|DoDk}*"
+						]
+					},
+					"footerEntries": [
+						"*new spell described in Appendix D of Dungeons of Drakkenheim."
+					],
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"圣格雷莎能够像穿越艰难地形一样穿过其他生物和物体。如果它在物体内结束回合，将受到5({@damage 1d10})点力场伤害。"
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"在阳光下，圣者格莱莎(Saint Gresha)在进行攻击检定时，以及依赖视觉的感知({@skill Perception})检定时都会有劣势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 6}攻击，射程5英尺，一名生物。{@h}21 ({@damage 4d8 + 3})点死灵伤害。目标必须成功通过一次{@dc 14}体质豁免才能避免其生命值上限减少与所受伤害相等的数值。这个减少效果持续到目标完成一次长休。如果这个效果将目标的生命值上限降低到0，目标将死亡。"
+					]
+				},
+				{
+					"name": "Create Specter",
+					"entries": [
+						"圣格莎（Saint Gresha）选择一个距离它不超过10英尺的人形生物，该生物死亡时间不超过1分钟且死状凄惨。目标的灵魂将化为一个幽灵，出现在其尸体所在位置或最近的空地上。这个幽灵受圣格莎的控制。圣格莎一次最多控制七个幽灵。"
+					]
+				}
+			],
+			"tokenCredit": "Andrew Sonea",
+			"traitTags": [
+				"Incorporeal Movement",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"R"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"HPR",
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"deafened",
+				"stunned"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Scoundrel",
+			"source": "DoDk",
+			"page": 219,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|PHB|leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 44,
+				"formula": "8d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 12,
+			"int": 14,
+			"wis": 10,
+			"cha": 15,
+			"skill": {
+				"acrobatics": "+5",
+				"deception": "+6",
+				"sleight of hand": "+5",
+				"stealth": "+7"
+			},
+			"passive": 10,
+			"languages": [
+				"Thieves' cant plus any two languages"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"这个恶棍是一个3级法术施展者，使用智力作为施法能力（法术豁免 {@dc 12}; 用法术攻击命中 {@hit 4}）。它从巫师法术列表中知道以下法术："
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mage hand} (the hand is invisible)",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell charm person}",
+								"{@spell disguise self}",
+								"{@spell sleep}"
+							]
+						},
+						"2": {
+							"slots": 2,
+							"spells": [
+								"{@spell invisibility}",
+								"{@spell suggestion}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"在每个回合中，流氓可以使用一个额外动作来执行冲刺（Dash）、脱离战斗（Disengage）或者隐藏（Hide）动作。"
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"当无赖（scoundrel）用武器攻击命中目标并具有攻击优势时，或者目标在无赖的盟友（ally）身边且距离不超过5英尺且无赖没有攻击劣势时，无赖会额外造成14{@damage 4d6}点伤害。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}6 ({@damage 1d6 + 3}) 穿刺伤害。"
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 5} 命中，射程30/120尺，一个目标。造成{@h}6 ({@damage 1d6 + 3}) 穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"hand crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"languageTags": [
+				"TC",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"unconscious"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tower Dragon",
+			"source": "DoDk",
+			"page": 198,
+			"_copy": {
+				"name": "Young Bronze Dragon",
+				"source": "MM",
+				"_mod": {
+					"trait": {
+						"mode": "appendArr",
+						"items": [
+							{
+								"name": "Constructed Nature",
+								"entries": [
+									"The dragon doesn't require air, food, drink, or sleep."
+								]
+							},
+							{
+								"name": "False Appearance",
+								"entries": [
+									"While the dragon remains motionless, it is indistinguishable from an inanimate bronze statue."
+								]
+							},
+							{
+								"name": "Faultless Tracker",
+								"entries": [
+									"The creature(s) that caused the dragon to animate becomes its quarry. The dragon knows the direction and distance to its quarry as long the quarry remains within Drakkenheim or until the dragon is destroyed."
+								]
+							},
+							{
+								"name": "Immutable Form",
+								"entries": [
+									"The dragon is immune to any spell or effect that would alter its form."
+								]
+							},
+							{
+								"name": "Magic Resistance",
+								"entries": [
+									"The dragon has advantage on saving throws against spells and other magical effects."
+								]
+							},
+							{
+								"name": "Magic Weapons",
+								"entries": [
+									"The dragon's weapon attacks are magical."
+								]
+							},
+							{
+								"name": "Rejuvenation",
+								"entries": [
+									"If the tower dragon is destroyed, it regains all its hit points in 1 hour unless a {@spell disintegrate} spell is cast on its remains."
+								]
+							}
+						]
+					}
+				}
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft.",
+				"truesight 120 ft."
+			],
+			"resist": [
+				"poison",
+				"psychic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"cr": "10",
+			"traitTags": [
+				"Amphibious",
+				"False Appearance",
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"B",
+				"SD",
+				"U"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Urban Ranger",
+			"source": "DoDk",
+			"page": 220,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|PHB|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 12,
+			"dex": 17,
+			"con": 14,
+			"int": 11,
+			"wis": 15,
+			"cha": 11,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+6",
+				"stealth": "+7",
+				"survival": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"Any two"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"城市游侠是一名8级法术施展者，使用智力作为其施法能力（法术豁免 {@dc 12}; 用法术攻击命中 {@hit 4}）。它从游侠法术列表中知道以下法术："
+					],
+					"spells": {
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell fog cloud}",
+								"{@spell hunter's mark}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell pass without trace}",
+								"{@spell spike growth}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"城市游侠进行两次近战攻击或两次远程攻击。"
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} 进行攻击，达到5英尺，一个目标。造成{@h}6 ({@damage 1d6 + 3}) 穿刺伤害。"
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} 命中，射程150/600英尺，目标为一名敌人。造成{@h}7 ({@damage 1d8 + 3}) 穿刺伤害。"
+					]
+				}
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CR"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Walking Delerium Geode",
+			"source": "DoDk",
+			"page": 205,
+			"size": [
+				"L"
+			],
+			"type": "elemental",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "12d10 + 60"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 30
+			},
+			"str": 20,
+			"dex": 8,
+			"con": 20,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft.",
+				"tremorsense 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"vulnerable": [
+				"radiant",
+				"thunder"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"如果伤害将行走狂乱晶石体降至0点生命值，其体内的狂乱水晶会爆炸，释放出污染能量波，除非伤害是力量、光辉或雷电属性。每个在其周围30英尺范围内的生物必须通过一次{@dc 15}体质豁免才能免受42({@damage 12d6})点死灵伤害，并获得一个{@adventure level of contamination|DoDk|12}。此外，这次爆炸会触发一个随机的奇术异常（见《德拉肯海姆的地牢》）。"
+					]
+				},
+				{
+					"name": "Earth Glide",
+					"entries": [
+						"行走的幻觉晶石可以在非魔法、未加工的土地和石头中钻行。在这个过程中，晶石不会干扰它穿过的材料。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shard Slam",
+					"entries": [
+						"{@atk mw} 近战 {@hit 8} 攻击，射程10英尺，目标一个。造成{@h}14 ({@damage 2d8 + 5}) 钝击伤害。被这次攻击击中的目标必须成功进行一次 {@dc 15} 体质豁免才能免受10 ({@damage 3d6}) 死灵伤害并获得一个 {@adventure level of contamination|DoDk|12}。"
+					]
+				}
+			],
+			"tokenCredit": "Anna Yaroslavova",
+			"traitTags": [
+				"Death Burst"
+			],
+			"senseTags": [
+				"D",
+				"T"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"savingThrowForced": [
+				"constitution"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Wall Gargoyle",
+			"source": "DoDk",
+			"page": 198,
+			"_copy": {
+				"name": "Gargoyle",
+				"source": "MM",
+				"_mod": {
+					"trait": {
+						"mode": "appendArr",
+						"items": [
+							{
+								"name": "Faultless Tracker",
+								"entries": [
+									"The creature that caused the gargoyle to animate becomes its quarry. The gargoyle knows the direction and distance to its quarry as long the quarry remains within Drakkenheim or until the gargoyle is destroyed."
+								]
+							},
+							{
+								"name": "Keen Sight",
+								"entries": [
+									"The gargoyle has advantage on Wisdom (Perception) checks that rely on sight."
+								]
+							},
+							{
+								"name": "Magic Weapons",
+								"entries": [
+									"The gargoyle's weapon attacks are magical."
+								]
+							},
+							{
+								"name": "Rejuvenation",
+								"entries": [
+									"If the wall gargoyle is destroyed, it regains all its hit points in 1 hour unless a {@spell disintegrate} spell is cast on its remains."
+								]
+							}
+						]
+					}
+				}
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"truesight 120 ft."
+			],
+			"tokenCredit": "Karolina Łyżwa",
+			"traitTags": [
+				"False Appearance",
+				"Keen Senses",
+				"Magic Weapons",
+				"Rejuvenation"
+			],
+			"senseTags": [
+				"D",
+				"U"
+			],
+			"languageTags": [
+				"T"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Warlock of the Rat God",
+			"source": "DoDk",
+			"page": 202,
+			"size": [
+				"S"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d6 + 6"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30,
+				"climb": 30
+			},
+			"str": 7,
+			"dex": 14,
+			"con": 13,
+			"int": 13,
+			"wis": 11,
+			"cha": 15,
+			"skill": {
+				"deception": "+4",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"术士的天生施法能力是魅力。它可以天生施放以下咒语（咒语豁免 {@dc 12}，用咒语攻击命中 {@hit 4}），无需任何材料组件："
+					],
+					"will": [
+						"{@spell eldritch blast} (2 beams)",
+						"{@spell mage armor} (self only)",
+						"{@spell minor illusion}",
+						"{@spell thaumaturgy}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell augury}",
+							"{@spell burning hands}",
+							"{@spell conjure animals} (giant rats only)",
+							"{@spell faerie fire}",
+							"{@spell invisibility}",
+							"{@spell misty step}"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Skulker",
+					"entries": [
+						"鼠灵可以在每个回合的奖励动作中采取躲藏动作。"
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"老鼠人在依赖嗅觉的智力检定中获得优势。"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4}攻击，射程5英尺，目标一个。{@h}4 ({@damage 1d4 + 2})穿刺伤害。"
+					]
+				}
+			],
+			"tokenCredit": "Tygodym",
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Warp Witch",
+			"source": "DoDk",
+			"page": 198,
+			"_copy": {
+				"name": "Ghost",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "ghost",
+						"with": "warp witch"
+					},
+					"action": {
+						"mode": "replaceArr",
+						"replace": "Horrifying Visage",
+						"items": [
+							{
+								"name": "Psychic Wail {@recharge 5}",
+								"entries": [
+									"Every creature within 30 feet of the warp witch must succeed on a {@dc 13} Intelligence saving throw or take 10 ({@damage 3d6}) psychic damage and become {@condition incapacitated} until the end of the warp witches next turn."
+								]
+							},
+							{
+								"name": "Mutate Host",
+								"entries": [
+									"The warp witch can use a bonus action while it is possessing a creature to force mutations upon its host. The possessed creature must succeed on a {@dc 13} Charisma saving throw or gain one {@adventure level of contamination|DoDk|12}. Rather than rolling to determine if a mutation occurs, the warp witch automatically causes a random mutation."
+								]
+							}
+						]
+					}
+				}
+			},
+			"tokenCredit": "Sidharth Chaturvedi",
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	]
+}

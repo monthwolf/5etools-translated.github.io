@@ -11,36 +11,36 @@
 				{
 					"type": "inset",
 					"entries": [
-						"一根狭窄的木梁横跨这个长100英尺，宽50英尺的房间。木梁横跨一个深25英尺的坑，里面装满了缓慢转动的染血齿轮。房间的侧墙距离平衡木25英尺，由光滑的金属板构成。"
+						"A narrow wooden beam spans the length of this hundred-foot-long, fifty-foot-wide chamber. The beam crosses a twenty-five-foot-deep pit filled with slowly turning, bloodstained gears. The chamber's side walls, each 25 feet from the balance beam, are made of smooth metal sheeting."
 					]
 				},
-				"穿过房间最明显的方法是沿着梁走。但是有一个隐藏的危险：梁最近的一端下面有一个压力板，会导致金属墙发出强磁场。",
+				"The most obvious way to cross the room is to walk along the beam. But there's a hidden danger: a pressure plate beneath the beam's closest end causes the metal walls to emit a strong magnetic field.",
 				{
 					"type": "entries",
 					"name": "Fulcrum",
 					"entries": [
-						"石柱间隔整齐地支撑着横梁。但是在横梁中心下方的柱子是一个支点（就像跷跷板的中心），这使得横梁有一个几乎察觉不到的倾斜。检查横梁并在一次DC 15智力检定中成功的生物会注意到这种倾斜。当角色进入房间时，横梁的重量压在远端。当在角色和支点之间的横梁上施加任何重量时，除非在对面放置一个平衡重物，否则横梁的末端会下沉几英寸并压在一个隐藏的压力板上。如果一次性从横梁上移除所有重量，横梁将保持在上次的位置。"
+						"Stone pillars set at regular intervals appear to hold up the beam. But the pillar beneath the beam's center is a fulcrum (like the center of a seesaw), which gives the beam a nearly indiscernible tilt. A creature that examines the beam and succeeds on a DC 15 Intelligence ({@skill Investigation}) check notices the tilt. When the characters enter the room, the beam's weight rests on the far end. When any amount of weight is placed on the stretch of beam between the characters and the fulcrum, unless a counterweight is placed on the opposite side, the end of the beam sinks a few inches and presses on a hidden pressure plate. If all the weight is removed from the beam at once, the beam remains in whatever position it was last in."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Balance Beam",
 					"entries": [
-						"平衡木是{@book difficult terrain|PHB|8|Difficult Terrain}。一个生物如果在平衡木上结束其回合，或者当平衡木倾斜时在上面，必须进行一次 DC 12 的敏捷豁免才能保持平衡。如果墙壁被磁化（见下文），并且生物穿着金属盔甲或持有金属装备，则在此豁免中生物有劣势。如果生物的豁免失败值在4或更少时滑倒，落在平衡木上，并获得{@condition prone}状态。如果生物的豁免失败值在5或更多时则掉入齿轮坑（见下文\"齿轮坑\"）。"
+						"The balance beam is {@book difficult terrain|PHB|8|Difficult Terrain}. A creature that ends its turn on the beam or that is on the beam when it tilts must make a DC 12 Dexterity saving throw to keep its balance. If the walls are magnetized (see below) and the creature is wearing metal armor or holding metal equipment, the creature has disadvantage on this save. A creature that fails the save by 4 or less slips, landing on the beam, and has the {@condition prone} condition. A creature that fails this save by 5 or more falls into the gear pit (see \"Gear Pit\" below)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Magnetic Walls",
 					"entries": [
-						"当平衡木的重量压在压力板上时，金属墙会发出磁场。任何穿着金属盔甲或拿着金属装备的生物如果不在平衡木上，会被吸向最近的金属墙并粘在上面，受到11 ({@dice 2d10}) 钝击伤害。任何被墙粘住的生物会持续处于 {@condition restrained} 状态，直到磁场停止。解除压力板上的重量——比如在平衡木的另一端增加更多重量——会停止磁场效应。如果整个队伍都能飞行，你可以通过移除压力板，并让磁场在1分钟间隔内切换开启或关闭，或者在生物结束回合时从坑的一侧移动到另一侧时切换磁场，使陷阱变得具有挑战性。一名穿着金属盔甲或拿着金属装备的角色在墙壁被磁化时飞越大厅时，会被吸向墙壁并粘在上面。"
+						"When the balance beam's weight is on the pressure plate, the metal walls emit a magnetic field. Any creature wearing metal armor or holding metal equipment who isn't on the beam is pulled to the nearest metal wall and sticks to it, taking 11 ({@dice 2d10}) bludgeoning damage. Any creature stuck to the wall has the {@condition restrained} condition until the magnetic field deactivates. Removing pressure from the plate\u2014such as by putting more weight on the opposite end of the beam\u2014deactivates the magnetic field. If the whole party has access to flight, you can make the trap suitably challenging by removing the pressure plate and having the magnetic field toggle on or off in 1-minute intervals or whenever a creature ends its turn on a different side of the pit from where it started. A character wearing metal armor or holding metal equipment who flies across the hall while the walls are magnetized is pulled to the wall and stuck to it."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Gear Pit",
 					"entries": [
-						"每当一个生物掉入陷阱或在那里结束其回合时，该生物必须成功通过一次 DC 17 的敏捷豁免才能避免受到 55 ({@dice 10d10}) 钝击伤害并获得 {@condition prone} 状态。一个被困在齿轮上的生物不能简单地使用移动动作站起，而必须首先使用一个动作和一个微型物体来卡住其下方的齿轮。这些齿轮会一直被卡住，直到角色的回合结束，此时微型物体会松动，穿过齿轮掉落并消失。"
+						"Whenever a creature falls into the pit or ends its turn there, that creature must succeed on a DC 17 Dexterity saving throw or take 55 ({@dice 10d10}) bludgeoning damage and have the {@condition prone} condition. A creature that is {@condition prone} on the gears can't use movement to stand up without first using an action and a Tiny object to jam the gears below it. Those gears remain jammed until the end of the character's turn, whereupon the Tiny object tumbles loose, falls through the gears, and is lost."
 					]
 				}
 			],
@@ -63,7 +63,7 @@
 				"A successful DC 10 Wisdom ({@skill Perception}) check reveals the trap. A successful DC 10 Dexterity check using {@item thieves' tools|phb} disables it."
 			],
 			"entries": [
-				"捕熊器类似于一组铁钳，当被踩到时，铁钳会自动关闭，夹住动物的腿。陷阱被钉在地上，让受害者无法动弹。"
+				"A bear trap resembles a set of iron jaws that springs shut when stepped on, clamping down on a creature's leg. The trap is spiked in the ground, leaving the victim immobilized."
 			]
 		},
 		{
@@ -73,11 +73,11 @@
 			"srd": true,
 			"trapHazType": "MECH",
 			"entries": [
-				"这种陷阱使用绊线使天花板的不稳定部分的支撑物倒塌。",
-				"跳闸线离地3英寸，在两根支撑梁之间延伸。发现绊马索的DC是10。使用{@item thieves' tools|phb}的灵巧检查，成功地使绊马索无害地失效。没有{@item thieves' tools|phb}的角色可以使用任何带刃的武器或带刃的工具尝试这个检定，但处于劣势。如果检查失败，陷阱会被触发。",
-				"任何检查这些横梁的人都可以很容易地确定，它们只是被楔入了位置。作为一个行动，一个角色可以撞倒一根横梁，导致陷阱的触发。",
-				"绊脚石上方的天花板修得很差，任何能看到它的人都能看出它有倒塌的危险。",
-				"当陷阱被触发时，不稳定的天花板会坍塌。在不稳定部分下方区域内的任何生物必须成功通过一次DC 15的敏捷豁免检定，否则在未通过检定时会受到22({@dice 4d10})点钝击伤害，通过检定则只受到一半伤害。一旦陷阱被触发，该区域的地面将被填满瓦砾，变成{@quickref difficult terrain||3}(floor of the area is filled with rubble)。"
+				"This trap uses a trip wire to collapse the supports keeping an unstable section of a ceiling in place.",
+				"The trip wire is 3 inches off the ground and stretches between two support beams. The DC to spot the trip wire is 10. A successful DC 15 Dexterity check using {@item thieves' tools|phb} disables the trip wire harmlessly. A character without {@item thieves' tools|phb} can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.",
+				"Anyone who inspects the beams can easily determine that they are merely wedged in place. As an action, a character can knock over a beam, causing the trap to trigger.",
+				"The ceiling above the trip wire is in bad repair, and anyone who can see it can tell that it's in danger of collapse.",
+				"When the trap is triggered, the unstable ceiling collapses. Any creature in the area beneath the unstable section must succeed on a DC 15 Dexterity saving throw, taking 22 ({@dice 4d10}) bludgeoning damage on a failed save, or half as much damage on a successful one. Once the trap is triggered, the floor of the area is filled with rubble and becomes {@quickref difficult terrain||3}."
 			]
 		},
 		{
@@ -97,7 +97,7 @@
 				"A successful DC 15 Wisdom ({@skill Perception}) check reveals the trip wire. A successful DC 15 Dexterity check using {@item thieves' tools|phb} disables the trip wire, and a check with a total of 5 or lower triggers the trap."
 			],
 			"entries": [
-				"弩箭陷阱是哥布林和其他依靠陷阱来保卫巢穴的生物的最爱。它由一根横跨走廊的绊马索组成，并与一对隐藏的重型弩炮相连。弩炮的目标是在走廊上向任何干扰绊马索的人射击。"
+				"The crossbow trap is a favorite of kobolds and other creatures that rely on traps to defend their lairs. It consists of a trip wire strung across a hallway and connected to a pair of hidden heavy crossbows. The crossbows are aimed to fire down the hallway at anyone who disturbs the trip wire."
 			]
 		},
 		{
@@ -117,7 +117,7 @@
 				"A successful DC 15 Wisdom ({@skill Perception}) check notes arcane runes on the back of the doors and in the burial niches. A successful DC 15 Intelligence ({@skill Arcana}) check realizes that they are tied to a conjuration ward. The runes can be destroyed with dispel magic (DC 15 or cast at 5th level), which disperses the cloud."
 			],
 			"entries": [
-				"死者的骨头被看守起来，以消除任何盗贼。"
+				"The bones of the dead are warded to eliminate any thieves."
 			]
 		},
 		{
@@ -127,11 +127,11 @@
 			"srd": true,
 			"trapHazType": "MECH",
 			"entries": [
-				"这种陷阱使用绊线来释放悬挂在天花板上的网。",
-				"绊网离地3英寸，在两根柱子或树之间延伸。网被蜘蛛网或树叶遮住。发现绊马索和网的DC是10。使用盗贼的工具，成功地进行DC15灵巧检查，就可以无害地打破绊网。没有盗贼工具的角色可以用任何带刃的武器或带刃的工具尝试这个检定，但处于劣势。如果检查失败，陷阱会被触发。",
-				"当陷阱被触发时，网会释放出来，覆盖一个10英尺的正方形区域。处于该区域内的人会被困在网下，并且{@condition restrained}，那些未能通过DC 10的力量豁免检定的人也会被击倒{@condition prone}。",
-				"一个生物可以用它的行动来进行DC10力量检查，如果成功，就可以释放自己或在其范围内的其他生物。这张网有AC10和20点攻击力。",
-				"对网造成5次砍击伤害（AC10），摧毁其5英尺见方的部分，释放被困在该部分的任何生物。"
+				"This trap uses a trip wire to release a net suspended from the ceiling.",
+				"The trip wire is 3 inches off the ground and stretches between two columns or trees. The net is hidden by cobwebs or foliage. The DC to spot the trip wire and net is 10. A successful DC 15 Dexterity check using thieves' tools breaks the trip wire harmlessly. A character without thieves' tools can attempt this check with disadvantage using any edged weapon or edged tool. On a failed check, the trap triggers.",
+				"When the trap is triggered, the net is released, covering a 10-foot-square area. Those in the area are trapped under the net and {@condition restrained}, and those that fail a DC 10 Strength saving throw are also knocked {@condition prone}.",
+				"A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. The net has AC 10 and 20 hit points.",
+				"Dealing 5 slashing damage to the net (AC 10) destroys a 5-foot-square section of it, freeing any creature trapped in that section."
 			]
 		},
 		{
@@ -151,7 +151,7 @@
 				"A successful DC 20 Wisdom ({@skill Perception}) check reveals the pressure plate. A successful DC 20 Dexterity check using {@item thieves' tools|phb} disables it, and a check with a total of 5 or lower triggers the trap."
 			],
 			"entries": [
-				"一些建造地牢的人，比如寻找新的受害者的疯狂巫师，并不打算让他们的访客轻松逃脱。如果使舷窗下降到离启动陷阱的压力板有一段距离的地方，那么坠落的舷窗陷阱就会显得特别狡猾。虽然陷阱在地牢深处，但舷窗关闭了数百英尺外的地牢入口，这意味着冒险者在决定前往出口之前并不知道自己被困住了。"
+				"Some folk who build dungeons, such as mad wizards in search of new victims, have no intention of allowing their visitors to make an easy escape. A falling portcullis trap can be especially devious if it causes a portcullis to drop some distance away from the pressure plate that activates the trap. Although the trap is deep in the dungeon, the portcullis closes off the dungeon entrance, which is hundreds of feet away, meaning that adventurers don't know they are trapped until they decide to head for the exit."
 			]
 		},
 		{
@@ -171,7 +171,7 @@
 				"A successful DC 15 Wisdom ({@skill Perception}) check reveals the presence of ash and faint burn marks in the area affected by this trap. A successful DC 15 Intelligence ({@skill Religion}) check enables a creature to destroy the trap by defacing a key rune on the perimeter of the mosaic that is within reach; failing this check causes the trap to activate. A successful {@spell dispel magic} (DC 15) cast on the runes destroys the trap."
 			],
 			"entries": [
-				"任何踩到马赛克的人都会导致火从上面喷发出来。那些公开佩戴皮瑞米斯的神圣标志的人不会触发这个陷阱。"
+				"Anyone who steps on the mosaic causes fire to erupt from it. Those who openly wear holy symbols of Pyremius don't trigger this trap."
 			]
 		},
 		{
@@ -181,10 +181,10 @@
 			"srd": true,
 			"trapHazType": "MAG",
 			"entries": [
-				"当入侵者踩到一个隐藏的压力板时，这个陷阱就会被激活，从附近的雕像中释放出一股神奇的火焰。雕像可以是任何东西，包括一条龙或一个施法的巫师。",
-				"发现压力板的DC是15，以及地板和墙壁上微弱的烧焦痕迹。一个可以感应到魔法存在的法术或其他效果，例如侦测魔法，会发现雕像周围有一个唤起魔法的光环。",
-				"当超过20磅的重量被放在压板上时，陷阱就会启动，导致雕像释放出一个30英尺的火锥。每个在火中的生物必须做一个DC13的灵巧救赎，救赎失败会受到22({@dice 4d10})的火焰伤害，救赎成功则受到一半的伤害。",
-				"将铁钉或其他物体楔入压板下可以防止陷阱启动。对雕像成功施放{@spell dispel magic}(DC13)可以摧毁陷阱。"
+				"This trap is activated when an intruder steps on a hidden pressure plate, releasing a magical gout of flame from a nearby statue. The statue can be of anything, including a dragon or a wizard casting a spell.",
+				"The DC is 15 to spot the pressure plate, as well as faint scorch marks on the floor and walls. A spell or other effect that can sense the presence of magic, such as detect magic, reveals an aura of evocation magic around the statue.",
+				"The trap activates when more than 20 pounds of weight is placed on the pressure plate, causing the statue to release a 30-foot cone of fire. Each creature in the fire must make a DC 13 Dexterity saving throw, taking 22 ({@dice 4d10}) fire damage on a failed save, or half as much damage on a successful one.",
+				"Wedging an iron spike or other object under the pressure plate prevents the trap from activating. A successful {@spell dispel magic} (DC 13) cast on the statue destroys the trap."
 			]
 		},
 		{
@@ -207,12 +207,12 @@
 						{
 							"type": "item",
 							"name": "Phase Beam (Initiative 20)",
-							"entry": "相位光束射向房间内的一个随机生物。光束对攻击卷有一个{@hit +5}的奖励。一旦命中，目标和它的所有装备都会变成{@condition invisible}和无体状态，持续一分钟。目标的唯一移动方式是飞行速度为10英尺。目标对非魔法伤害有抵抗力，并且在力量、灵巧和体质方面有优势。目标可以穿过固体表面和液体。目标不会坠落，即使在{@condition stunned}或其他情况下{@condition incapacitated}，仍会在空中盘旋。在受相位光束影响时，目标不能操纵、物理攻击或与未受相位光束影响的物体和生物互动。目标仍然可以说话和施放法术。"
+							"entry": "The phase beam shoots at a random creature within the room. The beam has a {@hit +5} bonus to the attack roll. On a hit, the target and all its gear become both {@condition invisible} and incorporeal for one minute. The target's only method of movement is a fly speed of 10 feet. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through solid surfaces and liquids. The target can't fall and remains hovering in the air even when {@condition stunned} or otherwise {@condition incapacitated}. While affected by the phase beam, the target can't manipulate, physically attack, or interact with objects and creatures not affected by the phase beam. The target can still talk and cast spells."
 						},
 						{
 							"type": "item",
 							"name": "Coil Discharge (Initiative 10)",
-							"entry": "弧形电流从矩阵中闪出。在能量矩阵30英尺范围内的每个生物都必须做一个DC 11的灵巧救赎动作，否则会受到10{@damage 3d6}的雷电伤害。"
+							"entry": "Arc bolts of electricity flash out of the matrix. Each creature within 30 feet of the power matrix must make a DC 11 Dexterity saving throw or take 10 ({@damage 3d6}) lightning damage."
 						}
 					]
 				}
@@ -226,17 +226,17 @@
 						{
 							"type": "item",
 							"name": "Phase Beam Fires More Often",
-							"entry": "从第四个回合开始，相位光束在主动权10以及主动权20上进行攻击。"
+							"entry": "Starting on its fourth turn, the phase beam attacks on initiative 10 as well as initiative 20."
 						},
 						{
 							"type": "item",
 							"name": "Room Heats Up",
-							"entry": "发射器散发的热量让房间的温度变得难以忍受。在陷阱的第三轮开始时，房间的温度明显升高。在倡议20上陷阱的第六轮开始时，所有生物必须成功通过一次DC 10的体质豁免才能免受{@condition exhaustion}的影响。穿着中重甲的生物在豁免检定时有劣势，而具有火焰免疫或抗性的生物不需要进行此豁免检定。在倡议20上陷阱的第九轮开始时，此豁免检定的DC将增加至13。"
+							"entry": "The heat from the emitter brings the room to unbearable temperatures. At the beginning of the trap's third turn, the room's temperature is noticeably hotter. At the beginning of the trap's sixth turn on initiative 20, all creatures must succeed on a DC 10 Constitution saving throw or gain one level of {@condition exhaustion}. Creatures wearing medium or heavy armor have disadvantage on the saving throw, and creatures with fire immunity or resistance do not need to make this saving throw. This saving throw is repeated at DC 13 at the beginning of the trap's ninth turn on initiative 20."
 						},
 						{
 							"type": "item",
 							"name": "Explosion",
-							"entry": "在陷阱的第十个回合开始时，整个系统过载，电源矩阵爆炸，对房间里的每个人造成35({@damage 10d6})的火灾伤害，使整个设施的电源短路，并导致Azorius反应小组被派出去调查发生了什么。陷阱被摧毁了，德林从棱镜大学毕业的前景也被摧毁了。"
+							"entry": "At the beginning of the trap's tenth turn, the entire system overloads and the power matrix explodes, dealing 35 ({@damage 10d6}) fire damage to everyone in the room, shorting out the power for the whole facility, and causing an Azorius response team to be sent out to find out what happened. The trap is destroyed, along with Delrim's prospects of ever graduating from Prism University."
 						}
 					]
 				}
@@ -250,12 +250,12 @@
 						{
 							"type": "item",
 							"name": "Coil Discharge",
-							"entry": "任何在距离能量矩阵5英尺内结束回合的生物必须进行一次DC 11的敏捷豁免检定，否则会受到7 ({@damage 2d6}) 点闪电伤害。穿着金属盔甲的生物在豁免检定时有劣势。"
+							"entry": "Any creature that ends its turn within 5 feet of the power matrix must make a DC 11 Dexterity saving throw or take 7 ({@damage 2d6}) lightning damage. Creatures wearing metal armor have disadvantage on the saving throw."
 						},
 						{
 							"type": "item",
 							"name": "Emitter Heat",
-							"entry": "发射器触摸起来很热。任何接触到发射器的生物都会受到3({@damage 1d6})的火焰伤害。"
+							"entry": "The emitter is hot to the touch. Any creature touching the emitter takes 3 ({@damage 1d6}) fire damage."
 						}
 					]
 				}
@@ -269,43 +269,43 @@
 						{
 							"type": "item",
 							"name": "Phase Beam",
-							"entry": "角色可以预测光束的发射顺序，锁定旋转装置，或切断连接发射器和电源矩阵的电源线。"
+							"entry": "Characters can anticipate the beam's firing sequence, lock the swivel, or sever the power cables connecting the emitter to the power matrix."
 						},
 						{
 							"type": "itemSub",
 							"name": "Intelligence (Investigation), DC 15",
-							"entry": "作为一个动作，一个能看到发射器的生物可以尝试进行一个智力检定（{@skill Investigation}）。成功的检定意味着该生物现在可以预料到发射器的发射顺序。对该生物发动的位相光束攻击会有劣势。"
+							"entry": "As an action, a creature that can see the emitter can attempt an Intelligence ({@skill Investigation}) check. A successful check means that the creature now can anticipate the emitter's firing sequence. Phase beam attacks that target that creature have disadvantage."
 						},
 						{
 							"type": "itemSub",
 							"name": "Dexterity check using thieves' tools or Strength check, DC 15",
-							"entry": "生物可以尝试锁定发射器上的旋转装置，使光束只指向一个地方，从而使光束容易被避开。检查成功意味着相位光束攻击被认为是无效的。试图这样做的生物必须接触发射器，承受发射器的热伤害。"
+							"entry": "Creatures can attempt to lock the swivel on the emitter to keep the beam pointed at only one spot, thus making the beam easily avoidable. A successful check means the phase beam attack is considered disabled. Creatures that attempt this must touch the emitter, taking the emitter heat damage."
 						},
 						{
 							"type": "itemSub",
 							"name": "Attack",
-							"entry": "作为一个动作，一个生物可以切断连接到发射器的十条电源线中的一条。每条电源线有AC5和3个打击点。每切断两条电源线（四舍五入），相位光束的攻击力就会减少1。一旦第十条电源线被切断，发射器就会停止工作，相位光束攻击以及发射器的热恒定元素也会失效。"
+							"entry": "As an action, a creature can sever one of the ten power cables connected to the emitter. Each power cable has AC 5 and 3 hit points. For every two power cables severed (round down), the phase beam attack bonus is reduced by 1. Once the tenth power cable is severed, the emitter ceases to function and the phase beam attack as well as the emitter heat constant element are disabled."
 						},
 						{
 							"type": "item",
 							"name": "Coil Discharge",
-							"entry": "线圈可以通过驱散或禁用放大其能量的魔法或关闭电源来关闭。"
+							"entry": "The coils can be shut down by dispelling or disabling the magic that amplifies their energy or by shutting off the power source."
 						},
 						{
 							"type": "itemSub",
 							"name": "Intelligence (Arcana), DC 15",
-							"entry": "通过三次成功的检查可以禁用增强力量矩阵的魔法。另外，也可以通过一次针对线圈的{@spell dispel magic}(DC13)的成功施法来禁用它。如果线圈被禁用，它将禁用线圈的放电元件以及爆炸动态元件。发射器仍处于活动状态，从矩阵接收一些能量。试图这样做的生物，如果他们在能量矩阵旁边结束他们的回合，就会受到线圈放电常量元素的影响。"
+							"entry": "The magic augmenting the power matrix can be disabled with three successful checks. Alternatively, it can be disabled with one successful casting of {@spell dispel magic} (DC 13) targeting the coils. If the coils are disabled, it disables the coil discharge elements as well as the explosion dynamic element. The emitter is still active, receiving some power from the matrix. Creatures that attempt this are subject to the coil discharge constant element if they end their turn next to the power matrix."
 						},
 						{
 							"type": "itemSub",
 							"name": "Shut off the main power cable",
-							"entry": "在电力矩阵附近的墙上，有一个用密尼姆强化的金属外壳，里面装着矩阵的主电源断路器。如果有人在实验室里寻找其他值得注意的东西，通过成功的DC 10感知({@skill Perception})检定就能发现它。这个外壳被安全地锁住，需要通过两次成功的DC 20敏捷({@item thieves' tools|phb})检定、两次成功的DC 16智力({@skill Arcana})检定，或者用魔法武器造成20点伤害来打开。一旦打开，可以拨动开关关闭矩阵，从而使陷阱的所有元素失效。"
+							"entry": "On the wall near the power matrix is a mizzium-reinforced metal casing that holds the main power breaker for the matrix. It can be spotted with a successful DC 10 Wisdom ({@skill Perception}) check if someone is looking for something else notable in the lab. This is securely locked, requiring two successful DC 20 Dexterity checks with {@item thieves' tools|phb}, two successful DC 16 Intelligence ({@skill Arcana}) checks, or 20 points of damage with a magic weapon to break open. Once opened, a switch can be thrown to shut down the matrix, disabling all elements of the trap."
 						}
 					]
 				}
 			],
 			"entries": [
-				"故障的相位转移发射器由两个主要部件组成。动力电池是一个10英尺长的圆形传导线圈矩阵，通过一根安全的电源线直接连接到发电机上。线圈有十个节点，连接到一个大的八英尺高的圆柱形钢制发射器，安装在一个旋转装置上。"
+				"The malfunctioning Phase Transference Emitter consists of two primary components. The power battery is a 10-foot circular matrix of conduction coils wired directly to a generator via a secure power cable. The coils have ten nodes that connect to a large eight-foot tall cylindrical steel emitter rigged on a swivel."
 			]
 		},
 		{
@@ -325,7 +325,7 @@
 				"A successful DC 15 Wisdom ({@skill Perception}) check reveals the trip wire and the net. A successful DC 15 Dexterity check using {@item thieves' tools|phb} disables the trip wire without causing the net to drop or the bell to ring; failing the check causes the trap to activate."
 			],
 			"entries": [
-				"妖精有奴役敌人的倾向，他们更喜欢让入侵者完好无损的陷阱，这样受害者就可以在矿场或其他地方工作了。"
+				"Goblins, with their propensity to enslave their enemies, prefer traps that leave intruders intact so the victims can be put to work in the mines or elsewhere."
 			]
 		},
 		{
@@ -348,17 +348,17 @@
 						{
 							"type": "item",
 							"name": "Whirling Blades (Initiative 20)",
-							"entry": "刀片攻击走廊前80英尺内的每个生物，攻击卷轴有+5的加成，击中后造成11({@dice 2d10})的砍击伤害。"
+							"entry": "The blades attack each creature in the first 80 feet of the hallway, with a +5 bonus to the attack roll and dealing 11 ({@dice 2d10}) slashing damage on a hit."
 						},
 						{
 							"type": "item",
 							"name": "Crushing Pillars (Initiative 10)",
-							"entry": "在走廊前80英尺之外的50英尺长区域内的每个生物必须进行一次DC 15的敏捷豁免检定。未通过豁免检定的生物会受到11点打击伤害，并被击倒{@condition prone}{@dice 2d10}。通过豁免检定的生物会受到一半伤害，并且不会被击倒{@condition prone}。"
+							"entry": "Each creature in the 50-foot-long area beyond the first 80 feet of the hallway must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 11 ({@dice 2d10}) bludgeoning damage and is knocked {@condition prone}. On a successful save, the creature takes half as much damage and isn't knocked {@condition prone}."
 						},
 						{
 							"type": "item",
 							"name": "Rune of Fear (Initiative 10)",
-							"entry": "碎石柱外30英尺长的区域内的每个生物都必须做一个DC15的智慧救赎动作。如果救赎失败，该生物就会被符文变成{@condition frightened}，它必须立即使用它的反应，向柱子的方向移动它的速度。这个{@condition frightened}的生物不能靠近走廊的远端，直到它用它的行动做出DC15智慧救赎，如果成功的话，它就会结束自己身上的{@condition frightened}条件。"
+							"entry": "Each creature in the 30-foot-long area beyond the Crushing Pillars must make a DC 15 Wisdom saving throw. On a failed saving throw, the creature becomes {@condition frightened} by the rune, and it must immediately use its reaction to move its speed in the direction of the pillars. The {@condition frightened} creature can't move closer to the far end of the hallway until it uses its action to make a DC 15 Wisdom saving throw, which ends the {@condition frightened} condition on itself on a success."
 						}
 					]
 				}
@@ -372,12 +372,12 @@
 						{
 							"type": "item",
 							"name": "Blades Accelerate",
-							"entry": "刀片随着速度增加而移动，只有在击中目标时才会减速。每次刀片攻击未命中时，它们的下一次攻击变得更难躲避。每次未命中后，刀片的攻击加值增加2，伤害增加3（{@dice 1d6}）。这些效益持续到刀片击中目标为止，之后数值恢复正常。"
+							"entry": "The blades move with increasing speed, slowing only when they hit a target. Each time the blades miss with an attack, their next attack becomes harder to avoid. After each miss, the blades' attack bonus increases by 2, and their damage increases by 3 ({@dice 1d6}). These benefits apply until the blades hit a target, after which the values return to normal."
 						},
 						{
 							"type": "item",
 							"name": "Rune's Defense",
-							"entry": "篡改恐惧符文会增加陷阱的力量。每当试图解除符文的检查成功后，刀片和破碎柱的伤害就会增加5({@dice 1d10})，并使符文的蓄力DC增加1。"
+							"entry": "Tampering with the Rune of Fear increases the trap's power. Each successful check on an attempt to disable the rune increases the damage of the blades and the crushing pillars by 5 ({@dice 1d10}) and increases the rune's saving throw DC by 1."
 						}
 					]
 				}
@@ -391,12 +391,12 @@
 						{
 							"type": "item",
 							"name": "Whirling Blades",
-							"entry": "任何在刀片区域内结束其回合的生物都是攻击目标。攻击加成+5；命中时造成5（1d10）次砍伤。"
+							"entry": "Any creature that ends its turn in the blades' area is targeted by an attack: +5 attack bonus; 5 (1d10) slashing damage on a hit."
 						},
 						{
 							"type": "item",
 							"name": "Rune of Fear",
-							"entry": "任何在走廊远端30英尺范围内结束其回合的生物都必须对恐惧符文的效果做一个蓄力动作。"
+							"entry": "Any creature that ends its turn within 30 feet of the far end of the corridor must make a saving throw against the Rune of Fear effect."
 						}
 					]
 				}
@@ -410,38 +410,38 @@
 						{
 							"type": "item",
 							"name": "Whirling Blades",
-							"entry": "角色可以打碎刀片，损坏它们的部件，或者辨别如何避开它们。如果刀片的攻击力被降低到-8，它们就会失效。降低它的方法在下面描述。"
+							"entry": "Characters can smash the blades, damage their components, or discern how to avoid them. The blades are disabled if their attack bonus is reduced to -8. Ways to reduce it are described below."
 						},
 						{
 							"type": "itemSub",
 							"name": "Intelligence (Investigation), DC 15",
-							"entry": "作为一个动作，能看到这些刀片的生物可以尝试进行一个智力检定（{@skill Investigation}）。成功的检定意味着角色学会了如何预测刀片的移动，使得刀片在生物不处于{@condition incapacitated}时对其的攻击带有劣势。"
+							"entry": "As an action, a creature that can see the blades can attempt an Intelligence ({@skill Investigation}) check. A successful check means that the character has learned how to anticipate the blades' movement, imposing disadvantage on the blades' attacks against the creature while it isn't {@condition incapacitated}."
 						},
 						{
 							"type": "itemSub",
 							"name": "Attack",
-							"entry": "区域内的生物可以在刀锋经过时准备好攻击，以打击其中一把刀。刀片在对该生物的攻击中获得优势。该生物随后进行攻击。每把刀都有15点攻击力和15点命中率。摧毁一个刀片会使旋风之刃的攻击力降低2。"
+							"entry": "A creature in the area can ready an attack to strike at one of the blades as it goes by. The blade gains advantage on its attack against the creature. The creature then attacks. Each blade has AC 15 and 15 hit points. Destroying a blade reduces the Whirling Blades attack bonus by 2."
 						},
 						{
 							"type": "itemSub",
 							"name": "Dexterity check using thieves' tools, DC 15",
-							"entry": "生物可以在被飞刀攻击的区域使用{@item thieves' tools|phb}来破坏它们的机制。成功的检定会将旋刃攻击加值减少2点。"
+							"entry": "Creatures can use {@item thieves' tools|phb} in the area attacked by the blades to foil their mechanism. A successful check reduces the Whirling Blades attack bonus by 2."
 						},
 						{
 							"type": "item",
 							"name": "Crushing Pillars",
-							"entry": "支柱不容易受到反措施的影响。"
+							"entry": "The pillars are not susceptible to countermeasures."
 						},
 						{
 							"type": "item",
 							"name": "Rune of Fear",
-							"entry": "符文可以通过三次成功的DC 15智力检定来禁用({@skill Arcana})。每次检定需要一个动作。生物必须在走廊的尽头才能尝试检定，而且一次只能有一个生物来完成这个任务。一旦一个生物尝试了这个目的的检定，其他角色要等到那个生物的下一个回合结束才能进行。或者，符文可以通过三次成功施放{@spell dispel magic}（DC 13）对准符文来禁用。"
+							"entry": "The rune can be disabled with three successful DC 15 Intelligence ({@skill Arcana}) checks. Each check requires an action. A creature must be at the end of the hallway to attempt the check, and only one creature can work on this task at once. Once a creature attempts a check for this purpose, no other character can do so until the end of that creature's next turn. Alternatively, the rune can be disabled with three successful castings of {@spell dispel magic} (DC 13) targeting the rune."
 						}
 					]
 				}
 			],
 			"entries": [
-				"在标志着辛尼狄西亚失落之城位置的埋藏金字塔内，隐藏着亚历山大国王和泽诺比亚王后的陵墓。他们的陵墓入口是一条长长的走廊，布满陷阱，只能通过狡猾隐藏的秘密门进入。这条走廊宽20英尺，长160英尺。大部分区域都很清晰。在80英尺处，地板破裂开来，变得{@quickref difficult terrain||3}，直到130英尺处。"
+				"Hidden within a buried pyramid that marks the location of the Lost City of Cynidicea is the tomb of King Alexander and Queen Zenobia. The entrance to their tomb is a long hallway riddled with traps, accessible only by cunningly hidden secret doors. The hallway is 20 feet wide and 160 feet long. It is mostly clear. After 80 feet, the floor is broken and cracked, becoming {@quickref difficult terrain||3} until the 130-foot mark."
 			]
 		},
 		{
@@ -461,7 +461,7 @@
 				"A successful DC 10 Wisdom ({@skill Perception}) check reveals the presence of the canvas and the 1-foot-wide ledge around the edges of the pit where it is safe to travel."
 			],
 			"entries": [
-				"最简单的坑道陷阱是在地上开一个10英尺深的洞，用破旧的帆布掩盖，上面覆盖着树叶和泥土，看起来就像坚实的地面。这种类型的陷阱对于封锁怪物巢穴的入口很有用，通常沿其两侧有狭窄的壁架，以便在其周围移动。"
+				"The simplest of pit traps consists of a 10-foot-deep hole in the floor, concealed by tattered canvas that's covered with leaves and dirt to look like solid ground. This type of trap is useful for blocking off the entrance to a monster lair, and usually has narrow ledges along its sides to allow for movement around it."
 			]
 		},
 		{
@@ -475,33 +475,33 @@
 					"type": "entries",
 					"name": "Simple Pit",
 					"entries": [
-						"一个简单的坑式陷阱是在地上挖一个洞。洞口用一块大布覆盖，固定在坑的边缘，用泥土和碎屑进行伪装。",
-						"发现这个坑的DC是10。任何踩到布的人都会掉下去，并把布拉到坑里，根据坑的深度（通常是10英尺，但有些坑更深）受到伤害。"
+						"A simple pit trap is a hole dug in the ground. The hole is covered by a large cloth anchored on the pit's edge and camouflaged with dirt and debris.",
+						"The DC to spot the pit is 10. Anyone stepping on the cloth falls through and pulls the cloth down into the pit, taking damage based on the pit's depth (usually 10 feet, but some pits are deeper)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Hidden Pit",
 					"entries": [
-						"一次成功的DC 15感知({@skill Perception})检定可以辨别出覆盖坑洞的地板部分上没有脚印。一次成功的DC 15智力({@skill Investigation})检定是必要的，以确认被困的地板部分实际上是一个坑洞的盖板。",
-						"当一个生物踩到盖子时，它就会像活板门一样打开，导致入侵者溢出到下面的坑里。这个坑通常有10或20英尺深，但也可能更深。",
-						"一旦探测到坑道陷阱，可以在坑道的盖子和周围的地板之间楔入一个铁钉或类似的物体，以防止盖子打开，从而使其安全通过。也可以用{@spell arcane lock}咒语或类似的魔法将盖子神奇地关闭。"
+						"A successful DC 15 Wisdom ({@skill Perception}) check discerns an absence of foot traffic over the section of floor that forms the pit's cover. A successful DC 15 Intelligence ({@skill Investigation}) check is necessary to confirm that the trapped section of floor is actually the cover of a pit.",
+						"When a creature steps on the cover, it swings open like a trapdoor, causing the intruder to spill into the pit below. The pit is usually 10 or 20 feet deep but can be deeper.",
+						"Once the pit trap is detected, an iron spike or similar object can be wedged between the pit's cover and the surrounding floor in such a way as to prevent the cover from opening, thereby making it safe to cross. The cover can also be magically held shut using the {@spell arcane lock} spell or similar magic."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Locking Pit",
 					"entries": [
-						"这种坑道陷阱与隐藏的坑道陷阱相同，但有一个关键的例外：覆盖坑道的陷阱门是弹簧式的。当一个生物掉进坑里后，盖子就会扣上，把它的受害者困在里面。",
-						"撬开盖子需要成功的DC20力量检查。盖子也可以被砸开（用第8章的准则确定盖子的统计数据）。坑中的人物也可以尝试用盗贼的工具，通过DC15的灵巧检查，从里面解除弹簧装置，前提是装置可以被触及，而且人物可以看到。",
-						"在某些情况下，一个机制（通常隐藏在附近的一个秘密门后面）可以打开坑。"
+						"This pit trap is identical to a hidden pit trap, with one key exception: the trap door that covers the pit is spring-loaded. After a creature falls into the pit, the cover snaps shut to trap its victim inside.",
+						"A successful DC 20 Strength check is necessary to pry the cover open. The cover can also be smashed open (determine the cover's statistics using the guidelines in chapter 8). A character in the pit can also attempt to disable the spring mechanism from the inside with a DC 15 Dexterity check using thieves' tools, provided that the mechanism can be reached and the character can see.",
+						"In some cases, a mechanism (usually hidden behind a secret door nearby) opens the pit."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spiked Pit",
 					"entries": [
-						"这个坑陷阱是一个简单、隐藏或带锁的坑陷阱，在底部有尖锐的木制或铁制尖刺。掉入陷阱的生物会受到11 ({@dice 2d10}) 穿刺伤害，除了任何坠落伤害。更糟糕的版本上还涂抹了毒液在尖刺上。在这种情况下，任何受到尖刺穿刺伤害的人还必须进行一次 DC 13 体质豁免检定，未通过检定的人会受到22 ({@dice 4d10}) 毒素伤害，通过检定的人则只受到一半伤害。"
+						"This pit trap is a simple, hidden, or locking pit trap with sharpened wooden or iron spikes at the bottom. A creature falling into the pit takes 11 ({@dice 2d10}) piercing damage from the spikes, in addition to any falling damage. Even nastier versions have poison smeared on the spikes. In that case, anyone taking piercing damage from the spikes must also make a DC 13 Constitution saving throw, taking an 22 ({@dice 4d10}) poison damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			]
@@ -513,9 +513,9 @@
 			"srd": true,
 			"trapHazType": "MECH",
 			"entries": [
-				"当一个生物踩到一个隐藏的压力板时，带毒的飞镖就会从巧妙地嵌入周围墙壁的弹簧或加压管中射出。一个区域可能包括多个压力板，每个压力板上都有自己的飞镖装置。",
-				"墙壁上的微小孔洞被灰尘和蜘蛛网遮挡，或者巧妙地隐藏在装饰墙壁的浮雕、壁画或壁画中。发现它们的DC为15。通过成功的DC 15智力检定，角色可以从与周围地板不同的灰泥和石材的变化中推断出压力板的存在。将铁钉或其他物体楔入压力板下可以防止陷阱触发。用布或蜡塞住孔洞可以防止其中的飞镖发射。",
-				"当超过20磅的重量放在压力板上时，陷阱就会激活，释放出四个飞镖。每个飞镖对压力板10英尺范围内的随机目标进行+8的范围攻击（视觉与这个攻击卷无关）。(如果该区域没有目标，飞镖不会击中任何东西。）被击中的目标受到2({@dice 1d4}的穿刺伤害，并且必须在DC15宪法救赎中成功，在救赎失败时受到11({@dice 2d10}的毒药伤害，或者在成功时受到一半的伤害。"
+				"When a creature steps on a hidden pressure plate, poison-tipped darts shoot from spring-loaded or pressurized tubes cleverly embedded in the surrounding walls. An area might include multiple pressure plates, each one rigged to its own set of darts.",
+				"The tiny holes in the walls are obscured by dust and cobwebs, or cleverly hidden amid bas-reliefs, murals, or frescoes that adorn the walls. The DC to spot them is 15. With a successful DC 15 Intelligence ({@skill Investigation}) check, a character can deduce the presence of the pressure plate from variations in the mortar and stone used to create it, compared to the surrounding floor. Wedging an iron spike or other object under the pressure plate prevents the trap from activating. Stuffing the holes with cloth or wax prevents the darts contained within from launching.",
+				"The trap activates when more than 20 pounds of weight is placed on the pressure plate, releasing four darts. Each dart makes a ranged attack with a +8 bonus against a random target within 10 feet of the pressure plate (vision is irrelevant to this attack roll). (If there are no targets in the area, the darts don't hit anything.) A target that is hit takes 2 ({@dice 1d4}) piercing damage and must succeed on a DC 15 Constitution saving throw, taking 11 ({@dice 2d10}) poison damage on a failed save, or half as much damage on a successful one."
 			]
 		},
 		{
@@ -525,10 +525,10 @@
 			"srd": true,
 			"trapHazType": "MECH",
 			"entries": [
-				"一根毒针藏在宝箱的锁里，或者藏在生物可能打开的其他东西里。在没有合适的钥匙的情况下打开宝箱，就会使针头弹出，释放出一剂毒药。",
-				"当陷阱被触发时，针会从锁上直接伸出3英寸。范围内的生物会受到1次穿刺伤害和11次({@dice 2d10})毒药伤害，并且必须在DC15宪法救赎中成功，否则会被{@condition poisoned}，持续1小时。",
-				"一次成功的智力检定 DC 20 ({@skill Investigation}) 允许角色从锁上为了容纳针而做出的改动中推断出陷阱的存在。",
-				"使用{@item thieves' tools|phb}的DC15灵巧检查成功，就能解除陷阱，从锁中取出针。试图撬开锁而不成功，则会触发陷阱。"
+				"A poisoned needle is hidden within a treasure chest's lock, or in something else that a creature might open. Opening the chest without the proper key causes the needle to spring out, delivering a dose of poison.",
+				"When the trap is triggered, the needle extends 3 inches straight out from the lock. A creature within range takes 1 piercing damage and 11 ({@dice 2d10}) poison damage, and must succeed on a DC 15 Constitution saving throw or be {@condition poisoned} for 1 hour.",
+				"A successful DC 20 Intelligence ({@skill Investigation}) check allows a character to deduce the trap's presence from alterations made to the lock to accommodate the needle.",
+				"A successful DC 15 Dexterity check using {@item thieves' tools|phb} disarms the trap, removing the needle from the lock. Unsuccessfully attempting to pick the lock triggers the trap."
 			]
 		},
 		{
@@ -548,7 +548,7 @@
 				"A successful DC 20 Wisdom ({@skill Perception}) check reveals the needle, but only if a character inspects the lock. A successful DC 20 Dexterity check using {@item thieves' tools|phb} disables the needle, and a check with a total of 10 or lower triggers the trap."
 			],
 			"entries": [
-				"在锁里藏一根小小的毒针，是阻止盗贼掠夺囤积物的好办法。这样的陷阱通常被放在箱子里或藏宝室的门里。"
+				"A tiny, poisoned needle hidden in a lock is a good way to discourage thieves from plundering a hoard. Such a trap is usually put in a chest or in the door to a treasure chamber."
 			]
 		},
 		{
@@ -571,18 +571,18 @@
 						{
 							"type": "item",
 							"name": "Locked Doors (Initiative 20)",
-							"entry": "这个房间的四扇门砰然关闭，并被魔法锁住。这个效果只激活一次，在陷阱第一次被触发的时候。"
+							"entry": "The four doors to this room slam shut and are locked in place by magic. This effect activates only once, the first time the trap is triggered."
 						},
 						{
 							"type": "item",
 							"name": "Poison Gas (Initiative 20)",
-							"entry": "毒气充斥整个房间。里面的每个生物都必须做一个DC20的宪法救赎，救赎失败会受到33({@dice 6d10})的毒伤害，救赎成功会受到一半的伤害。"
+							"entry": "Poison gas floods the room. Each creature inside must make a DC 20 Constitution saving throw, taking 33 ({@dice 6d10}) poison damage on a failed save, or half as much damage on a successful one."
 						},
 						{
 							"type": "item",
 							"name": "Tempest (Initiative 10)",
 							"entries": [
-								"空气和气体从疏水阀中沸腾出来。掷一个D6，并参考以下表格。",
+								"Air and gas boils from the trap. Roll a d6, and consult the following table.",
 								{
 									"type": "table",
 									"caption": "Tempest Effects",
@@ -597,27 +597,27 @@
 									"rows": [
 										[
 											"1",
-											"幻觉性气体使人的头脑和感官混乱。在房间里进行的所有智力和智慧检查都处于劣势，直到暴风元素再次激活。"
+											"Hallucinatory gas scrambles the mind and senses. All Intelligence and Wisdom checks made in the room have disadvantage until the Tempest element activates again."
 										],
 										[
 											"2",
-											"爆炸性气体充满了这个区域。如果有人手持明火，就会引起爆炸。该区域内的所有生物都必须做一个DC20的灵巧救赎，救赎失败会受到22({@dice 4d10})的火灾伤害，救赎成功会受到一半的伤害。然后火焰就会熄灭。"
+											"Explosive gas fills the area. If anyone holds an open flame, it causes an explosion. All creatures in the area must make a DC 20 Dexterity saving throw, taking 22 ({@dice 4d10}) fire damage on a failed save, or half as much damage on a successful one. The flame is then extinguished."
 										],
 										[
 											"3",
-											"衰弱的气体充满整个房间。在房间里进行的所有力量和灵巧检查都是不利的，直到暴风元素再次激活。"
+											"Weakening gas fills the room. All Strength and Dexterity checks made in the room have disadvantage until the Tempest element activates again."
 										],
 										[
 											"4",
-											"狂风肆虐，迫使房间里的每个生物进行一次 DC 20 的力量豁免检定，否则被击倒 {@condition prone}。"
+											"Buffeting winds force each creature in the room to succeed on a DC 20 Strength saving throw or be knocked {@condition prone}."
 										],
 										[
 											"5",
-											"烟雾弥漫整个房间。能见度降低到1英尺，直到下一次暴风元素激活。"
+											"Smoke fills the room. Visibility is reduced to 1 foot until the next time the Tempest element activates."
 										],
 										[
 											"6",
-											"毒液充斥着房间，迫使生物做出与毒气元素一样的拯救动作。"
+											"Poison floods the room, forcing creatures to make saving throws as for the Poison Gas element."
 										]
 									]
 								}
@@ -635,7 +635,7 @@
 						{
 							"type": "item",
 							"name": "Increased Potency",
-							"entry": "毒气元素的伤害在它激活后每回合增加11({@dice 2d10})，最大为55({@dice 10d10})。"
+							"entry": "The damage from the Poison Gas element increases by 11 ({@dice 2d10}) each round after it activates, to a maximum of 55 ({@dice 10d10})."
 						}
 					]
 				}
@@ -649,18 +649,18 @@
 						{
 							"type": "item",
 							"name": "Open the Doors",
-							"entry": "打开门是规避陷阱的最快方式，但它们被魔法保护着。要打开门，角色必须首先成功进行一次DC 20的感知({@skill Perception})检定，找到锁定机制。然后需要成功进行一次DC 20的智力({@skill Arcana})检定，以解除围绕锁的力场({@spell dispel magic} 对其无效)。成功进行一次使用盗贼工具的敏捷DC 20检定可以打开锁。最后，需要成功进行一次DC 20的力量({@skill Athletics})检定来推开门。每次检定都需要一个行动。"
+							"entry": "Opening the doors is the quickest way to circumvent the trap, but they are warded with magic. To open the doors, a character must first succeed on a DC 20 Wisdom ({@skill Perception}) check to find the locking mechanism. A successful DC 20 Intelligence ({@skill Arcana}) check is then required to disable the sphere of force that surrounds the lock ({@spell dispel magic} is ineffective against it). Success on a DC 20 Dexterity check using thieves' tools picks the lock. Finally, a successful DC 20 Strength ({@skill Athletics}) check is needed to push the door open. Each check requires an action."
 						},
 						{
 							"type": "item",
 							"name": "Disable the Statues",
-							"entry": "一个雕像可以通过堵住它的嘴巴的气流来使其失效。严重损坏雕像是一个坏主意，因为这样做会使气体通风口敞开。将雕像的生命值降至0点（AC 17；20 hp；对火焰、刺击和挥砍伤害具有抗性；免疫毒素和精神伤害）或者进行成功的DC 20力量检定来打碎它，会使雕像开裂并增加毒气伤害5（{@dice 1d10}）。使用盗贼工具进行成功的DC 20敏捷检定，或者进行成功的DC 15力量检定用斗篷或类似物品堵住雕像，会减少毒气伤害5（{@dice 1d10}）。一旦角色通过检定成功，就必须有人留在雕像旁边继续堵住它。当所有四座雕像都以这种方式被堵住时，陷阱就会停止。"
+							"entry": "A statue can be disabled by blocking the flow of gas from its mouth. Heavily damaging a statue is a bad idea, for doing so leaves the gas vents open. Reducing a statue to 0 hit points (AC 17; 20 hp; resistance to fire, piercing, and slashing damage; immune to poison and psychic damage) or making a successful DC 20 Strength check to break it cracks the statue and increases the Poison Gas damage by 5 ({@dice 1d10}). A successful DC 20 Dexterity check using thieves' tools, or a successful DC 15 Strength check made to block up the statue with a cloak or similar object, decreases the poison damage by 5 ({@dice 1d10}). Once a character succeeds on the check, someone must remain next to the statue to keep it blocked up. When all four statues are blocked in this manner, the trap deactivates."
 						}
 					]
 				}
 			],
 			"entries": [
-				"这个可怕的陷阱是为了消灭潜入元朝寺庙的入侵者而建造的。这个陷阱是一个房间，边长60英尺，每面墙的中间有5英尺宽的石门。房间的每个角落都矗立着一尊10英尺高的大蛇雕像，盘绕着，准备攻击。每个雕像的眼睛都是红宝石，每颗价值200金币。"
+				"This fiendish trap was built to eliminate intruders who infiltrate a yuan-ti temple. The trap is a room, 60 feet on a side, with 5-foot-wide stone doors in the middle of each wall. In each corner of the room stands a 10-foot-tall statue of a great serpent, coiled and ready to strike. The eyes in each statue are rubies worth 200 gp apiece."
 			]
 		},
 		{
@@ -670,13 +670,13 @@
 			"srd": true,
 			"trapHazType": "MECH",
 			"entries": [
-				"当20磅或更多的压力放在这个陷阱的压力板上时，天花板上一个隐藏的陷阱门就会打开，释放出一个直径10英尺的固体石头滚动球。",
-				"通过成功的DC 15感知({@skill Perception})检定，角色可以发现这个活板门和压力板。",
-				"在进行一次成功的 DC 15 智力检定时，搜索地板，可以发现砂浆和石头上的变化，暴露出压力板的存在。在检查天花板时进行相同的检定，可以注意到石工上的变化，暴露出活动门。将铁钉或其他物体塞入压力板下，可以防止陷阱触发。",
-				"激活这个球体需要所有在场生物进行先攻骰。球体的先攻骰带有{@hit +8}的加值。在它的回合里，它会沿直线移动60英尺。",
-				"这个球体可以穿过生物的空间，生物也可以穿过它的空间，将其视为{@quickref difficult terrain||3}。每当球体进入一个生物的空间或者一个生物在它滚动时进入它的空间，那个生物必须成功通过一次 DC 15 敏捷豁免才能避免受到 55 ({@dice 10d10}) 钝击伤害并被击倒 {@condition prone}。",
-				"球体碰到墙壁或类似的障碍物就会停止。它不能拐弯，但聪明的地牢建造者会在附近的通道中加入温和的、弯曲的转弯，让球体继续移动。",
-				"作为一项行动，球体周围5英尺内的生物可以尝试用DC20力量检查来减缓它的速度。如果检定成功，球体的速度会降低15英尺。如果球体的速度下降到0，它就会停止移动，不再是一个威胁。"
+				"When 20 or more pounds of pressure are placed on this trap's pressure plate, a hidden trapdoor in the ceiling opens, releasing a 10-foot-diameter rolling sphere of solid stone.",
+				"With a successful DC 15 Wisdom ({@skill Perception}) check, a character can spot the trapdoor and pressure plate.",
+				"A search of the floor accompanied by a successful DC 15 Intelligence ({@skill Investigation}) check reveals variations in the mortar and stone that betray the pressure plate's presence. The same check made while inspecting the ceiling notes variations in the stonework that reveal the trapdoor. Wedging an iron spike or other object under the pressure plate prevents the trap from activating.",
+				"Activation of the sphere requires all creatures present to roll initiative. The sphere rolls initiative with a {@hit +8} bonus. On its turn, it moves 60 feet in a straight line.",
+				"The sphere can move through creatures' spaces, and creatures can move through its space, treating it as {@quickref difficult terrain||3}. Whenever the sphere enters a creature's space or a creature enters its space while it's rolling, that creature must succeed on a DC 15 Dexterity saving throw or take 55 ({@dice 10d10}) bludgeoning damage and be knocked {@condition prone}.",
+				"The sphere stops when it hits a wall or similar barrier. It can't go around corners, but smart dungeon builders incorporate gentle, curving turns into nearby passages that allow the sphere to keep moving.",
+				"As an action, a creature within 5 feet of the sphere can attempt to slow it down with a DC 20 Strength check. On a successful check, the sphere's speed is reduced by 15 feet. If the sphere's speed drops to 0, it stops moving and is no longer a threat."
 			]
 		},
 		{
@@ -696,7 +696,7 @@
 				"The lever isn't hidden. A successful DC 15 Wisdom ({@skill Perception}) check involving the surfaces in the trap's area of effect reveals scrape marks and bloodstains on the walls and floor. A successful DC 15 Dexterity check using {@item thieves' tools|phb} disables the lever."
 			],
 			"entries": [
-				"这种陷阱使用移动的刀片，扫过一个房间，威胁附近的任何人。通常，镰刀陷阱是通过操纵一个杠杆或其他一些简单的装置来启动的。哥布林特别喜欢这种陷阱，因为它可以击倒更大的生物。"
+				"This trap uses moving blades that sweep down through a chamber, threatening anyone nearby. Typically, a scything blade trap is activated by manipulating a lever or some other simple device. Kobolds especially like this kind of trap, since it can take down bigger creatures."
 			]
 		},
 		{
@@ -716,7 +716,7 @@
 				"A successful DC 20 Wisdom ({@skill Perception}) check reveals the pressure plate. A successful DC 20 Intelligence ({@skill Arcana}) check made within 5 feet of the pressure plate disables the trap, and a check with a total of 10 or lower triggers it. A successful {@spell dispel magic} (DC 19) cast on the pressure plate destroys the trap."
 			],
 			"entries": [
-				"当 \"岁月沉睡 \"陷阱启动时，一个压力板会释放出一个咒语，威胁到入侵者进入深度沉睡。然后，地牢的守护者可以更容易地处理这些沉睡者。"
+				"When a sleep of ages trap activates, a pressure plate unleashes a spell that threatens to send intruders into a deep slumber. The dungeon's guardians can then more easily dispose of the sleepers."
 			]
 		},
 		{
@@ -726,9 +726,9 @@
 			"srd": true,
 			"trapHazType": "MAG",
 			"entries": [
-				"神奇的、无法穿透的黑暗充满了刻在墙上的石脸的缺口。这张嘴的直径为2英尺，大致呈圆形。没有声音从它发出，没有光可以照亮它的内部，任何进入它的物质都会被瞬间抹去。",
-				"成功通过DC20智力({@skill Arcana})检查，可以发现嘴里有一个无法控制或移动的湮灭之球。在其他方面，它与普通的{@item sphere of annihilation}相同，如第七章 \"宝藏 \"中所述。有些版本的陷阱包括在石面上放置一个魔法，使特定的生物感到有一种压倒性的冲动去接近它并爬进它的嘴里。这种效果与{@spell antipathy/sympathy}法术的同情方面一样。",
-				"一个成功的{@spell dispel magic}(DC18)可以移除这个魔法。"
+				"Magical, impenetrable darkness fills the gaping mouth of a stone face carved into a wall. The mouth is 2 feet in diameter and roughly circular. No sound issues from it, no light can illuminate the inside of it, and any matter that enters it is instantly obliterated.",
+				"A successful DC 20 Intelligence ({@skill Arcana}) check reveals that the mouth contains a sphere of annihilation that can't be controlled or moved. It is otherwise identical to a normal {@item sphere of annihilation}, as described in chapter 7, \"Treasure.\" Some versions of the trap include an enchantment placed on the stone face, such that specified creatures feel an overwhelming urge to approach it and crawl inside its mouth. This effect is otherwise like the sympathy aspect of the {@spell antipathy/sympathy} spell.",
+				"A successful {@spell dispel magic} (DC 18) removes this enchantment."
 			]
 		},
 		{
@@ -752,7 +752,7 @@
 						{
 							"type": "item",
 							"name": "Sphere of Crushing Doom (Initiative 10)",
-							"entry": "陷阱的活动元素是一颗钢球，几乎填满了走廊的10英尺宽度，并在轮到它时滚到斜坡底部。球道上的每个生物必须进行一次DC 20的力量豁免检定。未通过豁免检定的生物会受到22({@dice 4d10}) 钝击伤害并被击倒{@condition prone}。通过豁免检定的生物会受到一半伤害且不会被击倒{@condition prone}。阻挡球的物体，比如召唤的墙壁，会受到来自冲击的最大伤害。"
+							"entry": "The trap's active element is a sphere of steel that almost fills the 10-foot width of the hallway and rolls to the bottom of the slope on its turn. Each creature in the sphere's path must make a DC 20 Strength saving throw. On a failed save, a creature takes 22 ({@dice 4d10}) bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. Objects that block the sphere, such as a conjured wall, take maximum damage from the impact."
 						}
 					]
 				}
@@ -766,7 +766,7 @@
 						{
 							"type": "item",
 							"name": "Speed Kills",
-							"entry": "在它的回合结束后，这个球体会增加速度，其伤害增加了11 ({@dice 2d10})。当它的伤害达到55 ({@dice 10d10}) 或更高时，它会在20和10的先攻值上行动。"
+							"entry": "After its turn, the sphere gains speed, represented by its damage increasing by 11 ({@dice 2d10}). While its damage is 55 ({@dice 10d10}) or greater, it acts on initiative count 20 and 10."
 						}
 					]
 				}
@@ -780,22 +780,22 @@
 						{
 							"type": "item",
 							"name": "Stop the Sphere",
-							"entry": "阻止球体是破坏陷阱的最简单方法。一道力墙可以轻易做到这一点，任何放置在其路径上的物体，只要有足够的命中率来吸收球体的伤害而不被摧毁，也可以做到这一点。"
+							"entry": "Stopping the sphere is the easiest way to disrupt the trap. A wall of force can do so easily, as can any object placed in its path that has enough hit points to absorb damage from the sphere without being destroyed."
 						},
 						{
 							"type": "item",
 							"name": "Disrupt the Portals",
 							"entries": [
-								"通过三次成功的DC20智力({@skill Arcana})检查，这两个传送门都可以被中和，但分析传送门以破坏它的过程需要时间。走廊两端的天花板和地板上的微弱符文参与了传送门的运作。一个生物必须先用一个行动来检查一组符文，然后用一个后续行动来试图破坏符文。每一次成功的检查都会使球体的伤害减少11({@dice 2d10})，因为被破坏的球体会失去在失效的传送门中移动的速度。",
-								"另外，一套符文可以通过三次成功施放{@spell dispel magic}(DC19)来禁用，目标是这套符文中的任何一个。",
-								"如果南边的入口被毁，球体就会撞上南墙并停住。它挡住了通往坟墓的门，但人物可以逃脱。"
+								"Either portal can be neutralized with three successful DC 20 Intelligence ({@skill Arcana}) checks, but the process of analyzing a portal to disrupt it takes time. Faint runes in the ceiling and floor at both ends of the hallway are involved in the functioning of the portals. A creature must first use an action to examine a set of runes, then use a subsequent action to attempt to vandalize the runes. Each successful check reduces the sphere's damage by 11 ({@dice 2d10}), as the disrupted sphere loses speed moving through the failing portal.",
+								"Alternatively, a set of runes can be disabled with three successful castings of {@spell dispel magic} (DC 19) targeting any of the runes in the set.",
+								"If the southern portal is destroyed, the sphere slams into the south wall and comes to a halt. It blocks the door to the tomb, but the characters can escape."
 							]
 						}
 					]
 				}
 			],
 			"entries": [
-				"宫廷小丑设计了一个致命的陷阱，以挫败任何试图偷他的魔法傻瓜帽的人。戏子的坟墓位于一条10英尺宽、150英尺长的走廊的尽头，该走廊从北向南急剧下降。坟墓的入口是坡底东边墙上的一扇门，位于大厅的南端。"
+				"The court jester devised a deadly trap to foil anyone who sought to steal his magic fool's cap. The jester's tomb is located at the end of a 10-foot-wide, 150-foot-long hallway that descends sharply from north to south. The entrance to the tomb is a door on the eastern wall at the bottom of the slope, at the south end of the hall."
 			]
 		},
 		{
@@ -809,47 +809,47 @@
 				{
 					"type": "inset",
 					"entries": [
-						"这个高天花板的房间墙壁上长满了厚厚的藤蔓。房间分成三条长长的并行走廊，由砖墙分隔，但墙壁并没有完全延伸到天花板。天花板散发着灼热的火光。",
-						"在最右边走廊的尽头，有一个大金色钥匙被安装在一个剑架上。在中间走廊的尽头是一个像鸟抓举起的爪子形状的基座，上面握着一个银色的球体。在最左边走廊的尽头，墙壁被塑造成一个大头骨的形状，鼻腔看起来像一个钥匙孔。"
+						"Thick vines cover the walls of this high-ceilinged chamber. The chamber splits into three long, parallel hallways separated by brick walls that don't quite reach the ceiling. The ceiling emits a scorching, fiery light.",
+						"At the far end of the rightmost hall, a large golden key is mounted on a sword rack. At the end of the middle hall is a pedestal shaped like a bird's upraised talon holding a silver orb. The wall at the end of the leftmost hall is molded into the shape of a large skull whose nose cavity looks like a keyhole."
 					]
 				},
-				"角色必须使用大钥匙来打开头骨门。银色宝珠是一个诱人的宝藏，但它离得很远，每一秒的延迟意味着在天花板的热气下度过更多时间。",
-				"每个走廊宽15英尺，长100英尺。天花板高50英尺，砖墙高40英尺。",
+				"Characters must use the large key to unlock the skull door. The silver orb is an enticing treasure, but it's out of the way, and every second of delay means more time spent under the ceiling's heat.",
+				"Each hallway is 15 feet wide and 100 feet long. The ceiling is 50 feet high, and the brick walls are 40 feet tall.",
 				{
 					"type": "entries",
 					"name": "Sun Damage",
 					"entries": [
-						"这个陷阱房间充斥着灼热的光线，对该区域内的每个生物造成伤害。在20（失去平局）的先攻次序上，该区域内的每个生物会受到5 ({@dice 1d10}) 点辐射伤害。"
+						"The blazing light that fills this trap room deals damage to every creature in the area. On initiative count 20 (losing ties), each creature in the area takes 5 ({@dice 1d10}) radiant damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Talons Pedestal",
 					"entries": [
-						"这个银色的球有1英尺直径，当爪子抓住它时无法移动。底座被设下陷阱。触摸银色的球会导致爪子紧闭。任何尝试拿走这个球的生物会受到11点({@dice 2d10})的割伤伤害，并且会陷入{@condition grappled}状态（逃脱 DC 15），因为爪子抓住了它，释放了球。这些爪子的防御等级为19，有10点生命值，并且免疫毒素和精神伤害。",
-						"通过成功的DC 12感知({@skill Perception})检定，角色可以通过底座东侧的狭缝看到激活爪子的压力板。角色可以使用盗贼工具进行成功的DC 13敏捷检定来禁用压力板，这会导致爪子打开。中型或小型生物{@condition grappled}无法到达这个压力板。",
-						"未受损坏的，这个银色的球体是一件价值500 gp 的宝贵艺术品。"
+						"The silver orb, which is 1 foot in diameter, can't be removed while the talons clutch it. The pedestal is trapped. Touching the silver orb causes the talons to snap closed. A creature that tries to take the orb takes 11 ({@dice 2d10}) slashing damage and has the {@condition grappled} condition (escape DC 15) as the talons grab hold of it, releasing the orb. The talons have an AC of 19, 10 hit points, and immunity to poison and psychic damage.",
+						"With a successful DC 12 Wisdom ({@skill Perception}) check, a character can spot the pressure plate that activates the talons through a narrow slit on the east side of the pedestal. A character can disable the pressure plate with a successful DC 13 Dexterity check using thieves' tools, which causes the talons to open. A Medium or Small creature {@condition grappled} by the talons can't reach this pressure plate.",
+						"Undamaged, the silver orb is a valuable art object worth 500 gp."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Oversized Key",
 					"entries": [
-						"这把金钥匙长4英尺，重100磅。从剑架上取下后的一个回合，它会活过来，展现出自己是一个有生命的物体（使用{@creature flying sword}的属性块）。这把钥匙会尽一切努力回到它的支架上，攻击任何试图阻止它的人。如果这把钥匙被减至0点生命值摧毁，必须修复它（比如用{@spell Mending}法术），才能用于骷髅门。"
+						"This gold key is 4 feet long and weighs 100 pounds. One round after it is removed from the sword stand, it comes to life, revealing itself to be a living object (use the {@creature flying sword} stat block). The key does everything it can to return to its stand, attacking anyone who tries to stop it. If the key is destroyed by reducing it to 0 hit points, it must be repaired (such as with the {@spell Mending} spell) before it can be used in the skull door."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Skull Door",
 					"entries": [
-						"超大的钥匙适合插入头骨雕塑的鼻子。将钥匙插入并顺时针旋转会解开门闩，门向内摆动。"
+						"The oversized key fits the skull sculpture's nose. Inserting the key and turning it clockwise unlatches the door, which swings inward."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Vines",
 					"entries": [
-						"覆盖墙壁的植物因灼热的光线而变得脆弱，对攀爬毫无帮助。角色必须在攀爬墙壁时成功通过一次DC 12力量检定({@skill Athletics})。"
+						"The plants that cover the walls are fragile from the scorching light and not helpful for climbing. A character must succeed on a DC 12 Strength ({@skill Athletics}) check to climb the walls."
 					]
 				}
 			],
@@ -866,29 +866,29 @@
 				{
 					"type": "inset",
 					"entries": [
-						"在这个方形地牢房间的中心，地板向下倾斜成一个巨大的银色碗。地板上有浅浅的石渠斜向碗中。每个石渠上方的天花板上都有下水管伸出。",
-						"北墙上的落闸门挡住了前进的道路。在落闸门上方，一个大型符文描绘了一个渐圆的月亮，它的右边缘被微弱的一线光芒照亮。一个大铁制杠杆从落闸门右侧的地板上突出。"
+						"In the center of this square dungeon chamber, the floor drops into a massive silver bowl. Shallow stone channels in the floor slope toward the bowl. Sewer pipes jut from the ceiling over each channel.",
+						"A portcullis in the north wall blocks the way forward. Above the portcullis, a large glyph depicts a waxing crescent moon, its right edge illuminated by the faintest sliver of light. A large iron lever juts from the floor to the right of the portcullis."
 					]
 				},
-				"在碗底下的隐藏天平上加足够的重量会打开升降门。",
+				"Adding sufficient weight to a hidden scale beneath the bowl opens the portcullis.",
 				{
 					"type": "entries",
 					"name": "Metal Bowl",
 					"entries": [
-						"这个碗宽30英尺，深20英尺，重2,000磅。它光滑的质地和形状使其成为困难地形。进入碗中或在其中结束回合的生物必须成功通过一次DC 15的敏捷豁免才能避免被{@condition prone}状态影响。没有绳索或魔法等帮助，碗是无法爬出的。碗的边缘与地板齐平，但如果被推动，碗会稍微晃动。"
+						"The bowl is 30 feet wide and 20 feet deep and weighs 2,000 pounds. Its smooth texture and shape make it difficult terrain. A creature that enters the bowl or ends its turn inside it must succeed on a DC 15 Dexterity saving throw or have the {@condition prone} condition. The bowl is impossible to climb out of without assistance such as rope or magic. The bowl's lip is flush with the floor, but the bowl wobbles slightly if pushed."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Weight Scale and Moon Glyph",
 					"entries": [
-						"在碗底下隐藏着一个{@item Immovable Rod}，它将碗与正下方的一个大砝码秤分开。可以用{@spell Detect Magic}法术检测到这根杆。停用这根杆（见下方的“杠杆”）会导致它脱落，将碗掉落到秤上。这根杆无法从这个房间中找回。",
-						"转化魔法将天秤与吊闸上方的月亮符文连接在一起。当在天秤上施加更多重量时，吊闸上方的月亮符文会变得更圆更明亮。当总共施加了4000磅的压力在天秤上时，符文会完全照亮，如同满月一般，吊闸就会打开。只要月亮符文保持圆满，吊闸就会保持打开状态。",
+						"Hidden beneath the bowl is an {@item Immovable Rod} that separates the bowl from a large weight scale just below it. The rod can be detected with the {@spell Detect Magic} spell. Deactivating the rod (see \"Lever\" below) causes it to fall away, dropping the bowl onto the scale. The rod can't be recovered from this room.",
+						"Transmutation magic connects the scale to the moon glyph above the portcullis. As more weight is placed on the scale, the moon glyph above the portcullis gets fuller and glows brighter. When a total of 4,000 pounds of pressure is applied to the scale, the glyph is fully illuminated, like a full moon, and the portcullis opens. The portcullis remains open as long as the moon glyph remains full.",
 						{
 							"type": "inset",
 							"entries": [
-								"压力之下 (Under Pressure)",
-								"精明的角色可能会意识到，将敌人推入碗中是解决陷阱的快速方法。像{@spell Telekinesis}或{@spell Levitate}这样的法术也可以在碗下增加压力。"
+								"Under Pressure",
+								"Canny characters might realize that shoving enemies into the bowl is a quick way to resolve the trap. Spells such as {@spell Telekinesis} or {@spell Levitate} could also feasibly add pressure to the scale beneath the bowl."
 							]
 						}
 					]
@@ -897,14 +897,14 @@
 					"type": "entries",
 					"name": "Lever",
 					"entries": [
-						"当拉动杠杆时，地板上的一个机制会推动按钮，从而使{@item Immovable Rod}停止。碗的重量会导致月亮符文发光，就像半个月亮一样。同时，下水道管道内的阀门打开，释放出四只软泥怪物(见下方\"怪物\")和大量水流，水从每个管道中涌出，顺着地板上的水道流入碗中。每分钟释放1000磅的水。2分钟后，碗满了。4分钟后，地板上覆盖了几英寸的水，足够的水已经倾泻进入房间，照亮了月亮符文；此时，洪水停止，升降门打开。"
+						"When the lever is pulled, a mechanism in the floor pushes the button that deactivates the {@item Immovable Rod}. The weight of the bowl causes the moon glyph to glow like a half moon. Simultaneously, valves open within the sewer pipes, releasing four oozes (see \"Monsters\" below) and a flood of water that pours from each pipe, down the channels on the floor, and into the bowl. The pipes release 1,000 pounds of water every minute. After 2 minutes, the bowl is full. After 4 minutes, several inches of water cover the floor, and enough water has poured into the room to illuminate the moon glyph; at this point, the flooding stops and the portcullis opens."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Monsters",
 					"entries": [
-						"当杠杆被拉动时，四个{@creature Ochre Jelly||ochre jellies}被释放，每个从一个管道中滑出，沿着天花板爬行，然后落在角色身上。每个赭色果冻重500磅。"
+						"When the lever is pulled, four {@creature Ochre Jelly||ochre jellies} are released, one slithering from each pipe and crawling along the ceiling to drop on the characters. Each ochre jelly weighs 500 pounds."
 					]
 				}
 			],
@@ -918,11 +918,11 @@
 			"page": 10,
 			"trapHazType": "WLD",
 			"entries": [
-				"以下规则可用于岩石滑坡以及雪崩。",
-				"雪崩是大量的雪和碎石从山坡上迅速坠落。一个典型的雪崩有300英尺宽，150英尺长，30英尺厚。处于雪崩路径上的生物如果靠近雪崩的边缘，可以避开它或逃离它，但超越它几乎是不可能的。",
-				"当雪崩发生时，所有附近生物必须进行先攻骰。每轮两次，在先攻数为10和0时，雪崩移动300英尺，直到无法再移动为止。当雪崩移动时，任何位于其空间内的生物也会随之移动并摔倒{@condition prone}，生物必须进行一次DC 15的力量豁免才能避免受到{@dice 1d10}的钝击伤害，未通过豁免则受到全部伤害，通过则只受到一半伤害。",
-				"当雪崩停止时，雪会平静下来，将生物埋在其中。以这种方式被埋在雪中的生物被称为{@condition blinded}和{@condition restrained}，并且完全被覆盖。生物每在雪中被埋5分钟，就会获得一个等级的{@condition exhaustion}。它可以尝试作为一个动作挣脱出来，通过成功的 DC 15 力量检定({@skill Athletics}) 打破表面，结束自身的盲目和束缚状态。如果一个生物在这个检定中失败三次，就不能再尝试挣脱。",
-				"一个没有被束缚或{@condition incapacitated}的生物可以花费1分钟的时间来解救另一个被雪掩埋的生物。一旦被解救，那个生物就不再被雪崩所致的盲目或束缚所困扰。"
+				"The following rules can be used for rockslides as well as avalanches.",
+				"An avalanche is a mass of snow and debris falling rapidly down a mountainside. A typical avalanche is 300 feet wide, 150 feet long, and 30 feet thick. Creatures in the path of an avalanche can avoid it or escape it if they're close to its edge, but outrunning one is almost impossible.",
+				"When an avalanche occurs, all nearby creatures must roll initiative. Twice each round, on initiative counts 10 and 0, the avalanche travels 300 feet until it can travel no more. When an avalanche moves, any creature in its space moves along with it and falls {@condition prone}, and the creature must make a DC 15 Strength saving throw, taking {@dice 1d10} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+				"When an avalanche stops, the snow settles and buries creatures in it. A creature buried in this way is {@condition blinded} and {@condition restrained} and has total cover. The creature gains one level of {@condition exhaustion} for every 5 minutes it spends buried in the snow. It can try to dig itself free as an action, breaking the surface and ending the blinded and restrained conditions on itself with a successful DC 15 Strength ({@skill Athletics}) check. A creature that fails this check three times can't attempt to dig itself out again.",
+				"A creature that is not restrained or {@condition incapacitated} can spend 1 minute freeing another creature buried in the snow. Once free, that creature is no longer blinded or restrained by the avalanche."
 			]
 		},
 		{
@@ -931,10 +931,10 @@
 			"page": 169,
 			"trapHazType": "WLD",
 			"entries": [
-				"一个典型的雪崩（或岩石滑坡）有300英尺宽，150英尺长，30英尺厚。处于雪崩路径上的生物如果靠近雪崩的边缘，可以避开它或逃离它，但超越它几乎是不可能的。",
-				"当雪崩发生时，所有附近生物必须进行先攻骰。每轮两次，在先攻数为10和0时，雪崩移动300英尺，直到无法再移动为止。当雪崩移动时，任何位于其空间内的生物也会随之移动并摔倒{@condition prone}，生物必须进行一次DC 15的力量豁免才能避免受到{@dice 1d10}的钝击伤害，未通过豁免则受到全部伤害，通过则只受到一半伤害。",
-				"当雪崩停止时，雪和其他碎片会沉淀下来，埋葬生物。以这种方式被埋葬的生物被称为{@condition blinded}和{@condition restrained}，并且它完全被覆盖。每5分钟被埋葬的生物会获得1级{@condition exhaustion}。它可以尝试作为一个动作挣脱出来，通过成功的DC 15力量检定({@skill Athletics})打破表面，结束自身的{@condition blinded}和{@condition restrained}状态。失败三次的生物不能再尝试挣脱。",
-				"一个不是{@condition restrained}或{@condition incapacitated}的生物可以花费1分钟的时间来解救被埋的生物。一旦被解救，那个生物就不再受到雪崩的影响。"
+				"A typical avalanche (or rockslide) is 300 feet wide, 150 feet long, and 30 feet thick. Creatures in the path of an avalanche can avoid it or escape it if they're close to its edge, but outrunning one is almost impossible.",
+				"When an avalanche occurs, all nearby creatures must roll initiative. Twice each round, on initiative counts 10 and 0, the avalanche travels 300 feet until it can travel no more. When an avalanche moves, any creature in its space moves along with it and falls {@condition prone}, and the creature must make a DC 15 Strength saving throw, taking {@dice 1d10} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+				"When an avalanche stops, the snow and other debris settle and bury creatures. A creature buried in this way is {@condition blinded} and {@condition restrained}, and it has total cover. The creature gains 1 level of {@condition exhaustion} for every 5 minutes it spends buried. It can try to dig itself free as an action, breaking the surface and ending the {@condition blinded} and {@condition restrained} conditions on itself with a successful DC 15 Strength ({@skill Athletics}) check. A creature that fails this check three times can't attempt to dig itself out again.",
+				"A creature that is not {@condition restrained} or {@condition incapacitated} can spend 1 minute freeing a buried creature. Once free, that creature is no longer {@condition blinded} or {@condition restrained} by the avalanche."
 			]
 		},
 		{
@@ -943,16 +943,16 @@
 			"page": 10,
 			"trapHazType": "WTH",
 			"entries": [
-				"肆虐冰风谷、骚扰山路上的旅行者的暴风雪是奥里尔自我封闭的反映。冰风谷的暴风雪通常会持续{@dice 2d4}个小时，只要人物陷入其中，以下规则就会适用，直到它结束。",
-				"暴风雪呼啸的风限制了听觉范围在100英尺内，并对远程武器攻击投掷造成劣势。它还对依赖听觉的感知{@skill Perception}检定造成劣势。风会吹灭明火，驱散雾气，在雪地上抹去足迹，并使非魔法手段飞行几乎不可能。如果一只生物正在通过非魔法手段飞行且无法悬停，那么在其回合结束时会坠落。",
-				"在暴风雪中能见度降低到30英尺。没有护目镜或其他眼部保护的生物，在依赖视觉的感知（智慧{@skill Perception}）检查中处于劣势，因为有风吹起的雪。",
-				"任何在暴风雪中施展法术的生物必须在其回合结束时在DC 10宪法救赎中成功，否则就会失去该法术的{@status concentration}，除非该生物被庇护以抵御元素（例如，在冰屋中）。",
+				"The blizzards that ravage Icewind Dale and harry travelers on the mountain pass are reflections of Auril's self-imposed isolation. A blizzard in Icewind Dale typically lasts {@dice 2d4} hours, and whenever the characters are caught in one, the following rules apply until it ends.",
+				"A blizzard's howling wind limits hearing to a range of 100 feet and imposes disadvantage on ranged weapon attack rolls. It also imposes disadvantage on Wisdom ({@skill Perception}) checks that rely on hearing. The wind extinguishes open flames, disperses fog, erases tracks in the snow, and makes flying by nonmagical means nearly impossible. A creature falls at the end of its turn if it is flying by nonmagical means and can't hover.",
+				"Visibility in a blizzard is reduced to 30 feet. Creatures without goggles or other eye protection have disadvantage on Wisdom ({@skill Perception}) checks that rely on sight due to blowing snow.",
+				"Any creature that is {@status concentration||concentrating} on a spell in a blizzard must succeed on a DC 10 Constitution saving throw at the end of its turn or lose its {@status concentration} on the spell unless the creature is sheltered against the elements (for example, in an igloo).",
 				{
 					"type": "entries",
 					"name": "Veering Off Course",
 					"entries": [
-						"在暴风雪中旅行很容易偏离方向，党员之间也很容易走散，这就是为什么最明智的做法是留在原地，等待暴风雪过去。",
-						"如果人物在暴风雪中旅行，让玩家指定一名党员作为导航员。在穿越暴风雪的每个小时结束时，DM代表领航员进行DC 15智慧（{@skill Survival}）检查。如果检查成功，队伍就能保持航向。如果检定失败，队伍就会偏离航线，使其成员不会比在该小时开始时更接近目的地。如果检查失败5次或更多，并且党员没有被绑在一起，那么随机决定的一名党员就会在暴风雪中迷路，与其他人分离。如果团队试图与失踪的成员团聚，让团队成员（包括失踪的成员）在每小时结束时进行DC 15智慧（{@skill Survival}）团体检查。如果这个团体检定成功，失踪的党员就会被找到，但在到达该小时的团体预定目的地方面没有进展。在寻找失踪党员的每一个小时之后，可以重复进行团体检查。"
+						"It's easy to veer off course while traveling through a blizzard, and it's also easy for party members to become separated from one another, which is why the wisest course of action is to stay put and wait for the blizzard to pass.",
+						"If the characters travel during a blizzard, have the players designate one party member as the navigator. At the end of each hour of travel through the blizzard, the DM makes a DC 15 Wisdom ({@skill Survival}) check on behalf of the navigator. On a successful check, the party stays on course. On a failed check, the party wanders off course, putting its members no closer to their destination than they were at the start of that hour. If the check fails by 5 or more and the party members aren't tied together, one randomly determined party member becomes lost in the blizzard and separated from the others. If the group tries to reunite with its missing member, have the party members (including the missing one) make a DC 15 Wisdom ({@skill Survival}) group check at the end of each hour. If this group check succeeds, the missing party member is found, but no progress is made toward reaching the group's intended destination that hour. The group check can be repeated after each hour spent searching for the missing party member."
 					]
 				}
 			]
@@ -962,9 +962,9 @@
 			"source": "DMG",
 			"page": 105,
 			"entries": [
-				"褐霉病以温暖为生，从它周围的任何东西中吸取热量。一片褐霉菌通常覆盖一个10英尺见方的地方，而它周围30英尺内的温度总是很低。",
-				"当一个生物在一个回合中第一次移动到模具的5英尺范围内，或者在那里开始它的回合，它必须做一个DC 12的宪法救赎，如果救赎失败会受到22({@dice 4d10})的寒冷伤害，如果救赎成功会受到一半的伤害。",
-				"褐霉菌对火免疫，任何火源进入斑块的5英尺范围内，都会使它立即向火的方向扩展，覆盖10英尺见方的区域（火源位于该区域的中心）。一块褐霉菌暴露在造成冷伤害的效果下会被立即摧毁。"
+				"Brown mold feeds on warmth, drawing heat from anything around it. A patch of brown mold typically covers a 10-foot square, and the temperature within 30 feet of it is always frigid.",
+				"When a creature moves to within 5 feet of the mold for the first time on a turn or starts its turn there, it must make a DC 12 Constitution saving throw, taking 22 ({@dice 4d10}) cold damage on a failed save, or half as much damage on a successful one.",
+				"Brown mold is immune to fire, and any source of fire brought within 5 feet of a patch causes it to instantly expand outward in the direction of the fire, covering a 10-foot-square area (with the source of the fire at the center of that area). A patch of brown mold exposed to an effect that deals cold damage is instantly destroyed."
 			]
 		},
 		{
@@ -972,14 +972,14 @@
 			"source": "BGDIA",
 			"page": 78,
 			"entries": [
-				"恶魔胆汁是恶魔死后留下的东西。它是恶魔的血液、内脏和体液的还原，具有胆汁的浓度和气味。",
-				"足够多的恶魔死在Avernus，他们的血清形成了水池和小湖。虽然这种血清在大多数存在的星球上是无害的，但它可以扭曲低等星球上的生物。魔鬼和其他生物已经找到了在仪式中使用恶魔血清的方法，并改善地狱战争机器的性能（如{@adventure appendix B|BGDIA|11}中所述）。",
-				"当一个生物直接接触到Avernus的恶魔血清时，它必须做一个DC10的宪法救赎动作。妖怪、渗出物、植物和不死生物的蓄力动作自动成功。如果救赎失败，该生物就会被魔力扭曲，这由肉体扭曲表的滚动来决定。解除诅咒的咒语会结束生物身上所有与血清有关的扭曲效果。",
+				"Demon ichor is what remains behind after a demon dies. It's a reduction of demonic blood, viscera, and bodily fluids with the consistency and odor of bile.",
+				"Enough demons die in Avernus that their ichor forms pools and small lakes. Although the ichor is harmless on most planes of existence, it can warp creatures on the Lower Planes. Devils and other creatures have found ways to use demon ichor in rituals and to improve the performance of infernal war machines (as described in {@adventure appendix B|BGDIA|11}).",
+				"When a creature comes in direct contact with demon ichor in Avernus, it must make a DC 10 Constitution saving throw. Fiends, oozes, plants, and undead automatically succeed on the saving throw. On a failed save, the creature is magically warped by the ichor, as determined by rolling on the Flesh Warping table. A spell that removes a curse ends all ichor-related warping effects on a creature.",
 				{
 					"type": "entries",
 					"name": "Ichor-Coated Weapons",
 					"entries": [
-						"恶魔之液具有足够的粘性，可以粘附在大多数武器上。Avernus的生物如果受到涂有恶魔之液的武器的伤害，如果它的蓄力动作失败（如上所述），就会遭受肉体扭曲的变化。在击中目标后，武器不再涂有恶魔之液。"
+						"Demon ichor is sticky enough to adhere to most weapons. A creature in Avernus that takes damage from a weapon coated with demon ichor suffers a flesh-warping transformation if it fails its saving throw (as described above). After hitting its target, the weapon is no longer coated with demon ichor."
 					]
 				},
 				{
@@ -995,84 +995,84 @@
 					],
 					"rows": [
 						[
-							"01–05",
-							"目标的头发、眼睛和皮肤的颜色变成蓝色、红色、黄色或有图案。"
+							"01\u201305",
+							"The color of the target's hair, eyes, and skin becomes blue, red, yellow, or patterned."
 						],
 						[
-							"06–10",
-							"目标的眼睛从它的头顶上推到了茎秆的末端。"
+							"06\u201310",
+							"The target's eyes push out of its head on the end of stalks."
 						],
 						[
-							"11–15",
-							"目标的双手长出爪子，可以作为匕首使用。"
+							"11\u201315",
+							"The target's hands grow claws, which can be used as daggers."
 						],
 						[
-							"16–20",
-							"目标的一条腿比另一条腿长，使其行走速度降低10英尺。"
+							"16\u201320",
+							"One of the target's legs grows longer than the other, reducing its walking speed by 10 feet."
 						],
 						[
-							"21–25",
-							"目标的眼睛会变成灯塔，在睁开时用昏暗的光线充满15英尺的圆锥体。"
+							"21\u201325",
+							"The target's eyes become beacons, filling a 15-foot cone with dim light when they are open."
 						],
 						[
-							"26–30",
-							"一对翅膀，无论是羽毛还是皮革，从目标的背上长出，赋予它30英尺的飞行速度。"
+							"26\u201330",
+							"A pair of wings, either feathered or leathery, sprout from the target's back, granting it a flying speed of 30 feet."
 						],
 						[
-							"31–35",
-							"目标的耳朵从头部撕裂开来，然后匆匆逃走；目标处于{@condition deafened}状态。"
+							"31\u201335",
+							"The target's ears tear free from its head and scurry away; the target is {@condition deafened}."
 						],
 						[
-							"36–40",
-							"目标的两颗牙齿变成了獠牙。"
+							"36\u201340",
+							"Two of the target's teeth turn into tusks."
 						],
 						[
-							"41–45",
-							"目标的皮肤会结痂，给它一个+1的交流奖励，但使它的魅力减少2（最小为1）。"
+							"41\u201345",
+							"The target's skin becomes scabby, granting it a +1 bonus to AC but reducing its Charisma by 2 (to a minimum of 1)."
 						],
 						[
-							"46–50",
-							"目标的胳膊和腿交换位置，防止目标移动，除非它爬行。"
+							"46\u201350",
+							"The target's arms and legs switch places, preventing the target from moving unless it crawls."
 						],
 						[
-							"51–55",
-							"目标的手臂变成触角，末端有手指，使其伸长5英尺。"
+							"51\u201355",
+							"The target's arms become tentacles with fingers on the ends, increasing its reach by 5 feet."
 						],
 						[
-							"56–60",
-							"目标的腿长得惊人地长且有弹性，使其行走速度增加10英尺。"
+							"56\u201360",
+							"The target's legs grow incredibly long and springy, increasing its walking speed by 10 feet."
 						],
 						[
-							"61–65",
-							"目标长出一条鞭子一样的尾巴，可以作为鞭子使用。"
+							"61\u201365",
+							"The target grows a whiplike tail, which it can use as a whip."
 						],
 						[
-							"66–70",
-							"目标的眼睛变成黑色，在120英尺范围内获得{@sense darkvision}。"
+							"66\u201370",
+							"The target's eyes turn black, and it gains {@sense darkvision} out to a range of 120 feet."
 						],
 						[
-							"71–75",
-							"目标膨胀，重量增加三倍。"
+							"71\u201375",
+							"The target swells, tripling its weight."
 						],
 						[
-							"76–80",
-							"目标变得瘦弱和骨骼，重量减半。"
+							"76\u201380",
+							"The target becomes thin and skeletal, halving its weight."
 						],
 						[
-							"81–85",
-							"目标人物的头部增大了一倍。"
+							"81\u201385",
+							"The target's head doubles in size."
 						],
 						[
-							"86–90",
-							"目标的耳朵变成翅膀，使其拥有5英尺的飞行速度。"
+							"86\u201390",
+							"The target's ears become wings, giving it a flying speed of 5 feet."
 						],
 						[
-							"91–95",
-							"目标的身体变得异常脆弱，导致目标对重击、穿刺和砍击伤害的脆弱性。"
+							"91\u201395",
+							"The target's body becomes unusually brittle, causing the target to gain vulnerability to bludgeoning, piercing, and slashing damage."
 						],
 						[
-							"96–00",
-							"目标长出另一个头，使其在对抗{@condition charmed}、{@condition frightened}或{@condition stunned}的蓄力攻击时具有优势。"
+							"96\u201300",
+							"The target grows another head, causing it to have advantage on saving throws against being {@condition charmed}, {@condition frightened}, or {@condition stunned}."
 						]
 					]
 				}
@@ -1084,9 +1084,9 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"一些墓地和地下墓穴被古代邪恶的看不见的痕迹所浸染。被亵渎的地面可以是任何大小，在范围内施放的{@spell detect evil and good}法术会显示它的存在。",
-				"站在被亵渎的地面上的亡灵在所有拯救动作上都有优势。",
-				"一个{@item holy water (flask)|phb|holy water}的小瓶洒在被亵渎的地面上时，可以净化10英尺见方的区域，而一个{@spell hallow}的法术可以净化其区域内被亵渎的地面。"
+				"Some cemeteries and catacombs are imbued with the unseen traces of ancient evil. An area of desecrated ground can be any size, and a {@spell detect evil and good} spell cast within range reveals its presence.",
+				"Undead standing on desecrated ground have advantage on all saving throws.",
+				"A vial of {@item holy water (flask)|phb|holy water} purifies a 10-foot-square area of desecrated ground when sprinkled on it, and a {@spell hallow} spell purifies desecrated ground within its area."
 			]
 		},
 		{
@@ -1095,7 +1095,7 @@
 			"page": 110,
 			"trapHazType": "WTH",
 			"entries": [
-				"每当温度达到或低于0华氏度时，暴露在寒冷中的生物必须在每个小时结束时成功通过一次DC 10的体质豁免检定，否则会获得{@condition exhaustion}的一级。对于对寒冷伤害具有抗性或免疫力的生物，以及穿着抗寒装备（厚外套、手套等）和天生适应寒冷气候的生物，均自动通过豁免检定。"
+				"Whenever the temperature is at or below 0 degrees Fahrenheit, a creature exposed to the cold must succeed on a DC 10 Constitution saving throw at the end of each hour or gain one level of {@condition exhaustion}. Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures wearing cold weather gear (thick coats, gloves, and the like) and creatures naturally adapted to cold climates."
 			]
 		},
 		{
@@ -1104,8 +1104,8 @@
 			"page": 110,
 			"trapHazType": "WTH",
 			"entries": [
-				"当温度达到或超过100华氏度时，暴露在高温下且无法获得饮用水的生物必须在每个小时结束时成功进行一次体质豁免检定，否则将获得{@condition exhaustion}的一级。对于第一个小时，豁免 DC 为5，并且每额外一个小时增加1。",
-				"穿着中型或重型盔甲的生物，或者穿着厚重衣服的生物，在救赎动作上有劣势。对火灾伤害有抵抗力或免疫力的生物会自动成功，自然适应炎热气候的生物也是如此。"
+				"When the temperature is at or above 100 degrees Fahrenheit, a creature exposed to the heat and without access to drinkable water must succeed on a Constitution saving throw at the end of each hour or gain one level of {@condition exhaustion}. The DC is 5 for the first hour and increases by 1 for each additional hour.",
+				"Creatures wearing medium or heavy armor, or who are clad in heavy clothing, have disadvantage on the saving throw. Creatures with resistance or immunity to fire damage automatically succeed on the saving throw, as do creatures naturally adapted to hot climates."
 			]
 		},
 		{
@@ -1114,7 +1114,7 @@
 			"page": 170,
 			"trapHazType": "WLD",
 			"entries": [
-				"一个掉入水中或其他液体中的生物可以使用其反应来进行一次 DC 15 的力量检定 ({@skill Athletics}) 或敏捷检定 ({@skill Acrobatics})，以头部或脚部先着地。若检定成功，从跌落中产生的任何伤害减半。"
+				"A creature that falls into water or another liquid can use its reaction to make a DC 15 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check to hit the surface head or feet first. On a successful check, any damage resulting from the fall is halved."
 			]
 		},
 		{
@@ -1123,7 +1123,7 @@
 			"page": 170,
 			"trapHazType": "WLD",
 			"entries": [
-				"如果一个生物掉落到另一个生物的空间里，且两者都不是微型生物，第二个生物必须成功通过一次DC 15的敏捷豁免才能避免受到掉落生物的影响，掉落造成的任何伤害均平均分配给它们。受到影响的生物也会被撞倒{@condition prone}，除非它比掉落生物大两个或更多尺寸。"
+				"If a creature falls into the space of a second creature and neither of them is Tiny, the second creature must succeed on a DC 15 Dexterity saving throw or be impacted by the falling creature, and any damage resulting from the fall is divided evenly between them. The impacted creature is also knocked {@condition prone}, unless it is two or more sizes larger than the falling creature."
 			]
 		},
 		{
@@ -1132,8 +1132,8 @@
 			"page": 163,
 			"trapHazType": "EST",
 			"entries": [
-				"被布满红色和橙色闪电的乌云所覆盖，释放出一阵火焰雨。任何被困在燃烧雨中的生物，在其回合开始时受到{@dice 2d6}火焰伤害。这些火焰雨会点燃任何未被穿戴或携带的易燃物品；否则，火焰雨会立即熄灭。这场风暴的烟雾、煤灰、爆裂声和低沉的吼声会让感知({@skill Perception})检定和远程攻击投掷承受劣势。",
-				"一场火焰风暴通常持续{@dice 2d4}分钟，尽管起源的风暴云可以持续数天，形成多个火焰风暴。"
+				"Sooty thunderclouds shot through with red and orange lightning release a deluge of fiery droplets. Any creature caught in the burning rain takes {@dice 2d6} fire damage at the start of each of its turns. The droplets ignite any flammable objects that aren't being worn or carried; otherwise, the droplets burn out immediately. The smoke, soot, crackle, and low roar of the storm impose disadvantage on Wisdom ({@skill Perception}) checks and ranged attack rolls.",
+				"A flame storm usually lasts {@dice 2d4} minutes, though the originating storm clouds can persist for days, creating multiple flame storms."
 			]
 		},
 		{
@@ -1142,8 +1142,8 @@
 			"page": 163,
 			"trapHazType": "EST",
 			"entries": [
-				"超自然强大的风——就像来自诸如混乱地狱飞机或卡塞里的第三层迷涂斯的风——可能会产生剥风。剥风是一场强烈的沙尘暴，除了沙子或砂砾外，还会携带大块岩石和其他碎片。风暴内的区域被严重遮蔽，暴露在风暴中的生物在每个回合开始时会受到{@dice 1d4}的割伤伤害。只有实质性的掩护或庇护可以保护免受磨皮砂砾的伤害。",
-				"剥皮风会在它身后留下{@dice 4d6}英尺的沙子或碎片。成功通过DC15智力({@skill Arcana})或({@skill Nature})检查或智慧({@skill Survival})检查，可以让角色在剥皮风袭击前1分钟识别它，从而有时间寻求庇护。剥皮风通常会持续{@dice 1d4 × 10}小时。"
+				"Supernaturally powerful winds\u2014like those from planes such as Pandemonium or Minethys, the third layer of Carceri\u2014can spawn flaywinds. A flaywind is an intense sandstorm, gathering large rocks and other debris in addition to sand or grit. The area within the storm is heavily obscured, and a creature exposed to the storm takes {@dice 1d4} slashing damage at the start of each of its turns. Only substantial cover or shelter offers protection against the flensing grit.",
+				"A flaywind leaves {@dice 4d6} feet of sand or debris in its wake. A successful DC 15 Intelligence ({@skill Arcana}) or ({@skill Nature}) check or Wisdom ({@skill Survival}) check allows a character to recognize a flaywind 1 minute before it strikes, allowing time to seek shelter. A flaywind typically lasts {@dice 1d4 × 10} hours."
 			]
 		},
 		{
@@ -1152,7 +1152,7 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"一个生物可以在寒冷水中浸泡的时间长度等于其体质分数，而不会遭受任何不良影响。在寒冷水中每额外度过的一分钟，生物需要成功进行一次 DC 10 的体质豁免检定，否则会获得一个{@condition exhaustion}等级。对于对抗或免疫寒冷伤害的生物，它们会自动通过豁免检定，同样适应生活在冰冷水域的生物也是如此。"
+				"A creature can be immersed in frigid water for a number of minutes equal to its Constitution score before suffering any ill effects. Each additional minute spent in frigid water requires the creature to succeed on a DC 10 Constitution saving throw or gain one level of {@condition exhaustion}. Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures that are naturally adapted to living in ice-cold water."
 			]
 		},
 		{
@@ -1160,10 +1160,10 @@
 			"source": "DMG",
 			"page": 105,
 			"entries": [
-				"这种酸性粘液一接触就吞噬肉体、有机材料和金属。鲜绿色、湿润、粘稠，它成片地粘附在墙壁、地板和天花板上。",
-				"一团绿色黏液覆盖着一个5英尺的正方形区域，具有{@sense blindsight}，范围达30英尺，当它检测到下方有移动时，会从墙壁和天花板上掉落。除此之外，它没有移动的能力。意识到黏液存在的生物可以通过成功的DC 10敏捷豁免才能避免被击中。否则，黏液掉落时无法避免。",
-				"接触到绿色粘液的生物会受到5({@dice 1d10})的酸性伤害。该生物在其每个回合开始时都会再次受到伤害，直到粘液被刮掉或被摧毁。对付木材或金属，绿色粘液每回合会造成11({@dice 2d10})的酸性伤害，任何用于刮除粘液的非魔法木材或金属武器或工具都会被有效破坏。",
-				"阳光，任何治疗疾病的效果，以及任何造成冷、火或辐射伤害的效果都会破坏一片绿色粘液。"
+				"This acidic slime devours flesh, organic material, and metal on contact. Bright green, wet, and sticky, it clings to walls, floors, and ceilings in patches.",
+				"A patch of green slime covers a 5-foot square, has {@sense blindsight} out to a range of 30 feet, and drops from walls and ceilings when it detects movement below it. Beyond that, it has no ability to move. A creature aware of the slime's presence can avoid being struck by it with a successful DC 10 Dexterity saving throw. Otherwise, the slime can't be avoided as it drops.",
+				"A creature that comes into contact with green slime takes 5 ({@dice 1d10}) acid damage. The creature takes the damage again at the start of each of its turns until the slime is scraped off or destroyed. Against wood or metal, green slime deals 11 ({@dice 2d10}) acid damage each round, and any nonmagical wood or metal weapon or tool used to scrape off the slime is effectively destroyed.",
+				"Sunlight, any effect that cures disease, and any effect that deals cold, fire, or radiant damage destroys a patch of green slime."
 			]
 		},
 		{
@@ -1172,7 +1172,7 @@
 			"page": 110,
 			"trapHazType": "WTH",
 			"entries": [
-				"在大雨或大雪区域内，一切都被轻度遮蔽，该区域内的生物在依赖视觉的感知智力检定上有劣势({@skill Perception})。大雨还会熄灭明火并对依赖听觉的感知智力检定造成劣势({@skill Perception})。"
+				"Everything within an area of heavy rain or heavy snowfall is lightly obscured, and creatures in the area have disadvantage on Wisdom ({@skill Perception}) checks that rely on sight. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom ({@skill Perception}) checks that rely on hearing."
 			]
 		},
 		{
@@ -1181,8 +1181,8 @@
 			"page": 110,
 			"trapHazType": "ENV",
 			"entries": [
-				"在海拔10,000英尺或更高的地方旅行，对需要呼吸的生物来说是一种负担，因为空气中的氧气量减少了。这种生物在高海拔地区旅行的每一小时都算作2小时，以确定该生物可以旅行多长时间。",
-				"会呼吸的生物可以通过在高海拔地区停留30天或更长时间来适应这个高度。会呼吸的生物不能适应20000英尺以上的海拔，除非它们是这种环境的原住民。"
+				"Traveling at altitudes of 10,000 feet or higher above sea level is taxing for a creature that needs to breathe, because of the reduced amount of oxygen in the air. Each hour such a creature spends traveling at high altitude counts as 2 hours for the purpose of determining how long that creature can travel.",
+				"Breathing creatures can become acclimated to a high altitude by spending 30 days or more at this elevation. Breathing creatures can't become acclimated to elevations above 20,000 feet unless they are native to such environments."
 			]
 		},
 		{
@@ -1191,7 +1191,7 @@
 			"page": 249,
 			"trapHazType": "GEN",
 			"entries": [
-				"在某些情况下，你需要临时决定伤害。即兴伤害表为你提供了这样做的建议。",
+				"In some cases you need to determine damage on the fly. The Improvising Damage table gives you suggestions for when you do so.",
 				{
 					"type": "table",
 					"caption": "Improvising Damage",
@@ -1206,31 +1206,31 @@
 					"rows": [
 						[
 							"{@dice 1d10}",
-							"被炭火烧伤，被掉落的书架砸伤，被毒针刺伤"
+							"Burned by coals, hit by a falling bookcase, pricked by a poison needle"
 						],
 						[
 							"{@dice 2d10}",
-							"被雷电击中，绊倒在火坑里"
+							"Being struck by lightning, stumbling into a fire pit"
 						],
 						[
 							"{@dice 4d10}",
-							"在坍塌的隧道中被落下的瓦砾击中，跌入一大桶酸液中"
+							"Hit by falling rubble in a collapsing tunnel, stumbling into a vat of acid"
 						],
 						[
 							"{@dice 10d10}",
-							"被压实的墙壁压碎，被呼啸的钢刀击中，在熔岩流中涉水而行"
+							"Crushed by compacting walls, hit by whirling steel blades, wading through a lava stream"
 						],
 						[
 							"{@dice 18d10}",
-							"被淹没在岩浆中，被坠落的飞行堡垒击中"
+							"Being submerged in lava, being hit by a crashing flying fortress"
 						],
 						[
 							"{@dice 24d10}",
-							"跌入火元素界的火焰漩涡中，被神一样的生物或月球大小的怪物压在颌下。"
+							"Tumbling into a vortex of fire on the Elemental Plane of Fire, being crushed in the jaws of a godlike creature or a moon-sized monster"
 						]
 					]
 				},
-				"伤害严重程度和等级表是一个指南，说明这些伤害数字对不同等级的角色有多大的杀伤力。将角色的等级与所受的伤害相互参照，以衡量伤害的严重程度。",
+				"The Damage Severity and Level table is a guide to how deadly these damage numbers are for characters of various levels. Cross-reference a character's level with the damage being dealt to gauge the severity of the damage.",
 				{
 					"type": "table",
 					"caption": "Damage Severity and Level",
@@ -1273,9 +1273,9 @@
 						]
 					]
 				},
-				"足以造成{@b setback}的伤害很少会对所示级别的人物造成死亡的危险，但严重虚弱的人物可能会被这种伤害打倒。",
-				"相比之下，{@b dangerous}的伤害值对较弱的角色构成重大威胁，如果该角色缺少许多命中率，则有可能杀死该级别的角色。",
-				"顾名思义，{@b deadly}的伤害足以使一个显示等级的角色下降到0点。如果他们已经受伤，这种程度的伤害甚至可以直接杀死强大的角色。"
+				"Damage sufficient to cause a {@b setback} rarely poses a risk of death to characters of the level shown, but a severely weakened character might be laid low by this damage.",
+				"In contrast, {@b dangerous} damage values pose a significant threat to weaker characters and could potentially kill a character of the level shown if that character is missing many hit points.",
+				"As the name suggests, {@b deadly} damage is enough to drop a character of the level shown to 0 hit points. This level of damage can kill even powerful characters outright if they are already wounded."
 			]
 		},
 		{
@@ -1284,9 +1284,9 @@
 			"page": 163,
 			"trapHazType": "EST",
 			"entries": [
-				"注入死亡精髓的风暴中，乌云翻滚，显现出狰狞的骷髅头和骨白的闪电。任何暴露在风暴中的生物，如果不是结构体或不死生物，必须在每分钟结束时用DC13宪法救赎成功，否则会受到{@dice 3d6}坏死的伤害。",
-				"在尸毒风暴中死亡的生物在几分钟后会以{@creature skeleton}或{@creature zombie}(你选择){@dice 1d10}的方式复活。",
-				" 一场坏死的暴风雨持续了{@dice 1d4}个小时，在它过去后的{@dice 1d4}天内，庄稼会枯萎，水井无法饮用。"
+				"Storms infused with the essence of death roil with dark clouds that manifest leering skulls and bone-white lightning. Any creature exposed to the storm that isn't a construct or an undead must succeed on a DC 13 Constitution saving throw at the end of each minute or take {@dice 3d6} necrotic damage.",
+				"A creature that dies in a necrotic tempest rises as a {@creature skeleton} or {@creature zombie} (your choice) {@dice 1d10} minutes later.",
+				" A necrotic tempest lasts for {@dice 1d4} hours and leaves crops withered and wells undrinkable for {@dice 1d4} days after its passing."
 			]
 		},
 		{
@@ -1295,8 +1295,8 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"一个大约10英尺见方的区域覆盖着流沙坑，通常深度为10英尺。当生物进入该区域时，它会沉入流沙{@dice 1d4+1}英尺并变为{@condition restrained}。在生物的每个回合开始时，它会再沉入{@dice 1d4}英尺。只要生物没有完全被淹没在流沙中，它可以通过使用动作并成功进行力量检定来逃脱。检定 DC 为10加上生物沉入流沙的英尺数。完全被淹没在流沙中的生物无法呼吸（参见{@i Player's Handbook}中的{@book suffocation|phb|8|suffocating}规则）。",
-				"一个生物可以通过使用它的行动和成功的力量检查将它所能触及的另一个生物从流沙坑中拉出来。力量值是5加上目标生物沉入流沙的英尺数。"
+				"A quicksand pit covers the ground in roughly a 10-foot square area and is usually 10 feet deep. When a creature enters the area, it sinks {@dice 1d4+1} feet into the quicksand and becomes {@condition restrained}. At the start of each of the creature's turns, it sinks another {@dice 1d4} feet. As long as the creature isn't completely submerged in quicksand, it can escape by using its action and succeeding on a Strength check. The DC is 10 plus the number of feet the creature has sunk into the quicksand. A creature that is completely submerged in quicksand can't breathe (see the {@book suffocation|phb|8|suffocating} rules in the {@i Player's Handbook}).",
+				"A creature can pull another creature within its reach out of a quicksand pit by using its action and succeeding on a Strength check. The DC is 5 plus the number of feet the target creature has sunk into the quicksand."
 			]
 		},
 		{
@@ -1305,8 +1305,8 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"剃刀藤是一种生长在野外树丛和树篱中的植物。它也像常春藤一样依附在建筑物的侧面和其他表面。一堵10英尺高、10英尺宽、5英尺厚的剃刀藤墙或树篱有11点攻击力，25点命中率，并对打击、穿刺和精神伤害免疫。",
-				"当生物在一个回合内第一次与剃刀藤直接接触时，该生物必须成功通过一次DC 10的敏捷豁免才能避免受到剃刀藤的刀刃般的荆棘造成的5({@dice 1d10})点割伤伤害。"
+				"Razorvine is a plant that grows in wild tangles and hedges. It also clings to the sides of buildings and other surfaces as ivy does. A 10-foot-high, 10-foot-wide, 5-foot-thick wall or hedge of razorvine has AC 11, 25 hit points, and immunity to bludgeoning, piercing, and psychic damage.",
+				"When a creature comes into direct contact with razorvine for the first time on a turn, the creature must succeed on a DC 10 Dexterity saving throw or take 5 ({@dice 1d10}) slashing damage from the razorvine's bladelike thorns."
 			]
 		},
 		{
@@ -1320,15 +1320,15 @@
 				}
 			],
 			"entries": [
-				"腐烂的蛴螬是手指大小的蛆虫，吃活的和死的生物，尽管它们可以在植物上生存。它们侵扰尸体和成堆的腐烂物质，并攻击任何干扰它们的人。腐烂的蛴螬钻进生物后，会本能地朝重要部位啃咬。",
-				"腐烂性蛴螬对火焰有反感，一旦腐烂性蛴螬进入身体，火是对付它们的主要武器。中和毒物的魔法也可以在它们杀死宿主之前阻止它们。",
+				"Rot grubs are finger-sized maggots that eat living and dead creatures, although they can survive on vegetation. They infest corpses and piles of decaying matter and attack anyone that disturbs them. After burrowing into a creature, rot grubs instinctively chew their way toward vital parts.",
+				"Rot grubs recoil from flames, and fire is the main weapon against rot grubs once they're inside a body. Magic that neutralizes poison can also stop them before they kill their host.",
 				{
 					"type": "entries",
 					"name": "Single Rot Grub",
 					"page": 237,
 					"entries": [
-						"腐烂性蛴螬无论是单独还是成群结队都会构成威胁。关于腐尸群的机制，请参见{@creature swarm of rot grubs|MPMM|stat block}。单一的腐烂蛴螬没有状态阻断。",
-						"任何接触到一只腐烂的蛴螬的生物，必须成功地进行一次{@dc 10}宪法救赎，否则就会被{@condition poisoned}，因为腐烂的蛴螬会钻入该生物。该{@condition poisoned}生物在其每个回合结束时受到3({@damage 1d6})的毒药伤害。每当{@condition poisoned}生物受到火灾伤害时，该生物可以重复蓄力，如果成功，则结束对自己的影响。如果{@condition poisoned}的生物在回合结束时生命值为0，它就会死亡，因为腐烂的蛴螬会杀死它。"
+						"Rot grubs pose a threat both singly and as a swarm. See the {@creature swarm of rot grubs|MPMM|stat block} for the mechanics of a swarm of rot grubs. A single rot grub has no stat block.",
+						"Any creature that comes into contact with a single rot grub must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned}, as the rot grub burrows into the creature. The {@condition poisoned} creature takes 3 ({@damage 1d6}) poison damage at the end of each of its turns. Whenever the {@condition poisoned} creature takes fire damage, the creature can repeat the saving throw, ending the effect on itself on a success. If the {@condition poisoned} creature ends its turn with 0 hit points, it dies, as the rot grub kills it."
 					]
 				}
 			]
@@ -1344,20 +1344,20 @@
 				}
 			],
 			"entries": [
-				"很少有人确切知道赤褐色霉菌是从哪里来的。一个历史记载讲述了在一座山脉中的冒险家发现了赤褐色霉菌和{@filter vegepygmies|bestiary|search=vegepygmy}，它们位于一个充满奇怪生物的奇特金属地牢中。另一个故事说，探险家在一颗陨星留下的火山口中发现了赤褐色霉菌，附近的森林里有{@creature Vegepygmy|MPMM|vegepygmies}。",
-				"这种霉菌只出现在黑暗、温暖和潮湿的地方。遍布金属物体的紫红色霉菌会被误认为是铁锈，需要成功地进行{@dc 15}智力({@skill Nature})或智慧({@skill Survival})检查来识别它。",
+				"Few know for sure where russet mold came from. One historical account tells of adventurers in a mountain range discovering russet mold and {@filter vegepygmies|bestiary|search=vegepygmy} in a peculiar metal dungeon full of strange life. Another story says that explorers found russet mold in a crater left by a falling star, with {@creature Vegepygmy|MPMM|vegepygmies} infesting the forest nearby.",
+				"The mold is found only in places that are dark, warm, and wet. Russet mold that spreads out across a metal object can be mistaken for rust, and a successful {@dc 15} Intelligence ({@skill Nature}) or Wisdom ({@skill Survival}) check is required to identify it.",
 				{
 					"type": "entries",
 					"name": "Effects of the Mold",
 					"entries": [
-						"任何靠近红褐色黏菌的生物必须进行一次{@dc 13} 体质豁免才能通过，因为黏菌会散发出一团孢子。未通过豁免的生物将被{@condition poisoned}。在这种状态下，生物在每个回合开始时受到7({@damage 2d6})点毒性伤害。生物可以在自己的回合结束时重复进行豁免才能，成功则结束效果。任何中和毒素或治愈疾病的魔法都会杀死这种寄生。被黏菌降至0点生命值的生物会死亡。如果死去的生物是一个野兽、一个巨人或一个人形生物，24小时后会有一个或多个蔬菌人从它的尸体中出现：从一个小尸体中出现一个，从一个中等尸体中出现两个，从一个大尸体中出现四个，从一个巨大尸体中出现八个，或从一个庞大尸体中出现十六个。"
+						"Any creature that comes within 5 feet of russet mold must make a {@dc 13} Constitution saving throw as the mold emits a puff of spores. On a failed save, the creature is {@condition poisoned}. While {@condition poisoned} in this way, the creature takes 7 ({@damage 2d6}) poison damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Any magic that neutralizes poison or cures disease kills the infestation. A creature reduced to 0 hit points by the mold dies. If the dead creature is a Beast, a Giant, or a Humanoid, one or more vegepygmies emerge from its body 24 hours later: one from a Small corpse, two from a Medium corpse, four from a Large corpse, eight from a Huge corpse, or sixteen from a Gargantuan corpse."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Destroying the Mold",
 					"entries": [
-						"赤霉病是很难杀死的，因为武器和大多数类型的伤害对它没有任何伤害。造成酸、坏死或辐射伤害的效果，每造成1次伤害就会杀死1平方英尺的赤霉菌。一磅盐、一加仑酒精或治疗疾病的魔法可以杀死边长为10英尺的方形区域内的赤霉菌。阳光可以杀死光照范围内的任何赤霉菌。"
+						"Russet mold can be hard to kill, since weapons and most types of damage do it no harm. Effects that deal acid, necrotic, or radiant damage kill 1 square foot of russet mold per 1 damage dealt. A pound of salt, a gallon of alcohol, or magic that cures disease kills russet mold in a square area that is 10 feet on a side. Sunlight kills any russet mold in the light's area."
 					]
 				}
 			]
@@ -1368,7 +1368,7 @@
 			"page": 110,
 			"trapHazType": "WLD",
 			"entries": [
-				"冰面是{@quickref difficult terrain||3}。当生物在一个回合内第一次移动到冰面时，它必须成功通过一次DC 10的敏捷检定({@skill Acrobatics})，否则会摔倒{@condition prone}。"
+				"Slippery ice is {@quickref difficult terrain||3}. When a creature moves onto slippery ice for the first time on a turn, it must succeed on a DC 10 Dexterity ({@skill Acrobatics}) check or fall {@condition prone}."
 			]
 		},
 		{
@@ -1377,8 +1377,8 @@
 			"page": 110,
 			"trapHazType": "WTH",
 			"entries": [
-				"强风对远程武器攻击骰和依赖听觉的感知智力检定（{@skill Perception}）造成劣势。强风还会吹灭明火，驱散雾气，并几乎让非魔法手段飞行变得不可能。在强风中飞行的生物必须在回合结束时着陆，否则会坠落。",
-				"沙漠中的强风可能会引发沙尘暴，对依赖视觉的感知检定造成智力({@skill Perception})检定的劣势。"
+				"A strong wind imposes disadvantage on ranged weapon attack rolls and Wisdom ({@skill Perception}) checks that rely on hearing. A strong wind also extinguishes open flames, disperses fog, and makes flying by nonmagical means nearly impossible. A flying creature in a strong wind must land at the end of its turn or fall.",
+				"A strong wind in a desert can create a sandstorm that imposes disadvantage on Wisdom ({@skill Perception}) checks that rely on sight."
 			]
 		},
 		{
@@ -1387,7 +1387,7 @@
 			"page": 111,
 			"trapHazType": "WLD",
 			"entries": [
-				"薄冰的容重为3d10×10磅/10平方英尺的面积。每当薄冰上的总重量超过其耐受力时，该区域的冰就会破裂。所有在碎冰上的生物都会掉下来。"
+				"Thin ice has a weight tolerance of 3d10 × 10 pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through."
 			]
 		},
 		{
@@ -1396,9 +1396,9 @@
 			"page": 163,
 			"trapHazType": "EST",
 			"entries": [
-				"这些刺骨的暴风雪带着一堵风雪之墙像一座活冰川。暴风雪会产生 {@hazard extreme cold}（见 {@book Dungeon Master's Guide|DMG}）效果。由于呼啸的风和密集的蓝白色冰粒，暴风雪区域视野受到严重遮挡，范围攻击检定和智慧检定（{@skill Perception}）在其中进行时都具有劣势。",
-				"任何在其回合开始时暴露在风暴中的生物都会受到{@dice 2d6}的寒冷伤害，并且在温暖的环境中度过至少1小时后才能恢复生命值。在风暴中死亡的生物会被冻成固体。对寒冷伤害免疫的生物对风暴的影响免疫，并能在风暴中正常看到。",
-				"Thrym的嚎叫通常会持续{@dice 2d10}小时。"
+				"These bone-chilling blizzards drive a wall of wind and snow like a living glacier. The storm projects {@hazard extreme cold} (see the {@book Dungeon Master's Guide|DMG}). Due to the howling wind and dense blue-white ice particles, the area in the storm is heavily obscured, and ranged attack rolls and Wisdom ({@skill Perception}) checks made within it have disadvantage.",
+				"Any creature exposed to the storm at the start of its turn takes {@dice 2d6} cold damage and can't regain hit points until it spends at least 1 hour in a warm environment. A creature that dies in the storm freezes solid. Creatures that are immune to cold damage are immune to the effects of the storm and can see normally within it.",
+				"Thrym's howl typically lasts {@dice 2d10} hours."
 			]
 		},
 		{
@@ -1406,8 +1406,8 @@
 			"source": "DMG",
 			"page": 105,
 			"entries": [
-				"巨大蜘蛛在通道和坑洞底部编织厚厚的、粘稠的蜘蛛网，以捕捉猎物。这些充满蜘蛛网的区域是{@quickref difficult terrain||3}。此外，一个生物在一个充满蜘蛛网的区域第一次转动时或在那里开始它的回合时，必须成功通过一次 DC 12 的敏捷豁免才能避免被蜘蛛网所{@condition restrained}。一个{@condition restrained}的生物可以使用其动作尝试逃脱，通过成功的 DC 12 力量({@skill Athletics}) 或敏捷({@skill Acrobatics}) 检定来做到这一点。",
-				"每个10英尺长的巨网方块有10点攻击力，15点命中率，易受火灾影响，对重击、穿刺和精神伤害免疫。"
+				"Giant spiders weave thick, sticky webs across passages and at the bottom of pits to snare prey. These web-filled areas are {@quickref difficult terrain||3}. Moreover, a creature entering a webbed area for the first time on a turn or starting its turn there must succeed on a DC 12 Dexterity saving throw or become {@condition restrained} by the webs. A {@condition restrained} creature can use its action to try to escape, doing so with a successful DC 12 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check.",
+				"Each 10-foot cube of giant webs has AC 10, 15 hit points, vulnerability to fire, and immunity to bludgeoning, piercing, and psychic damage."
 			]
 		},
 		{
@@ -1415,8 +1415,8 @@
 			"source": "DMG",
 			"page": 105,
 			"entries": [
-				"黄色霉菌生长在黑暗的地方，一块霉菌覆盖了一个5英尺的正方形。如果被触碰，霉菌会喷射出一团孢子云，填满以霉菌为起点的一个10英尺立方体。在该区域内的任何生物必须成功通过一次DC 15的体质豁免才能免疫，否则将受到11 ({@dice 2d10}) 点毒性伤害并成为{@condition poisoned}，持续1分钟。在这种状态下，生物在每个回合开始时会受到5 ({@dice 1d10}) 点毒性伤害。生物可以在自己的回合结束时重复进行豁免才能，成功豁免则结束自身的效果。",
-				"阳光或任何程度的火害都会瞬间摧毁一片片黄霉。"
+				"Yellow mold grows in dark places, and one patch covers a 5-foot square. If touched, the mold ejects a cloud of spores that fills a 10-foot cube originating from the mold. Any creature in the area must succeed on a DC 15 Constitution saving throw or take 11 ({@dice 2d10}) poison damage and become {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the creature takes 5 ({@dice 1d10}) poison damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.",
+				"Sunlight or any amount of fire damage instantly destroys one patch of yellow mold."
 			]
 		}
 	]
