@@ -56,7 +56,7 @@ jobs:
            #sudo apt-get install -y firefox
            pip3 install selenium webdriver_manager openai
     - name: Generate translations
-      continue-on-error: true
+      continue-on-error: false
       run: |
            cd $GITHUB_WORKSPACE
            mv data data.zh
