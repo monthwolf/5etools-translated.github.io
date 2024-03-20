@@ -19,7 +19,8 @@
 <img width="1069" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/cfcb00ad-bbb7-434f-b8d7-ac796ddbfa3e">
 
 </br></br>
-<img width="805" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/044668f0-7f84-47eb-80ee-4b02d930be4c">   
+<img width="1069" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/418e5a73-c819-4b59-bbb0-f1350a6e944c"> 
+
 根据上图，在Data Sources设置中  
 开启`Avoid Loading Local Data`选项  
 将`Base Site Url`改为: https://monthwolf.github.io/5etools-zh.github.io/   
