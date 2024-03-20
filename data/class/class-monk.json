@@ -1,0 +1,3029 @@
+{
+	"class": [
+		{
+			"name": "Monk",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"simple",
+					"{@item shortsword|phb|shortswords}"
+				],
+				"tools": [
+					"any one type of {@item artisan's tools|PHB} or any one {@item musical instrument|PHB} of your choice"
+				],
+				"toolProficiencies": [
+					{
+						"anyArtisansTool": 1
+					},
+					{
+						"anyMusicalInstrument": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"history",
+								"insight",
+								"religion",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"10 {@item dart|phb|darts}"
+				],
+				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"shortsword|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							{
+								"item": "dart|phb",
+								"quantity": 10
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"simple",
+						"{@item shortsword|phb|shortswords}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts",
+						"Ki Points",
+						"Unarmored Movement"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							},
+							0,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							},
+							2,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							},
+							3,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								],
+								"rollable": true
+							},
+							4,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							5,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							6,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							7,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							8,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							9,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							10,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							11,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							12,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							13,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							14,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							15,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							16,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							17,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							18,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							19,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							20,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Unarmored Defense|Monk||1",
+				"Martial Arts|Monk||1",
+				"Ki|Monk||2",
+				"Dedicated Weapon|Monk||2|TCE",
+				"Unarmored Movement|Monk||2",
+				"Deflect Missiles|Monk||3",
+				{
+					"classFeature": "Monastic Tradition|Monk||3",
+					"gainSubclassFeature": true
+				},
+				"Ki-Fueled Attack|Monk||3|TCE",
+				"Ability Score Improvement|Monk||4",
+				"Slow Fall|Monk||4",
+				"Quickened Healing|Monk||4|TCE",
+				"Extra Attack|Monk||5",
+				"Stunning Strike|Monk||5",
+				"Focused Aim|Monk||5|TCE",
+				"Ki-Empowered Strikes|Monk||6",
+				{
+					"classFeature": "Monastic Tradition feature|Monk||6",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Monk||7",
+				"Stillness of Mind|Monk||7",
+				"Ability Score Improvement|Monk||8",
+				"Unarmored Movement improvement|Monk||9",
+				"Purity of Body|Monk||10",
+				{
+					"classFeature": "Monastic Tradition feature|Monk||11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Monk||12",
+				"Tongue of the Sun and Moon|Monk||13",
+				"Diamond Soul|Monk||14",
+				"Timeless Body|Monk||15",
+				"Ability Score Improvement|Monk||16",
+				{
+					"classFeature": "Monastic Tradition feature|Monk||17",
+					"gainSubclassFeature": true
+				},
+				"Empty Body|Monk||18",
+				"Ability Score Improvement|Monk||19",
+				"Perfect Self|Monk||20"
+			],
+			"subclassTitle": "Monastic Tradition",
+			"fluff": [
+				{
+					"name": "Monk",
+					"type": "section",
+					"entries": [
+						"她的拳头在挡住射来的箭雨时变得模糊不清，一个半精灵跳过路障，把自己扔进另一边的地精群中。她在他们中间打转，把他们的打击打到一边，使他们陷入困境，直到最后她独自站起来。",
+						"深吸一口气，一个满身纹身的人类摆好了战斗姿态。当第一个冲锋的兽人到达他面前时，他呼出一口气，一股火焰从他口中咆哮而出，吞噬了他的敌人。",
+						"伴随着夜的寂静，一个黑衣半身人步入拱门下的阴影中，从一箭之遥的阳台上的另一个墨色阴影中走出来。她把刀从包着布的刀鞘里滑出来，透过打开的窗户看向暴君王子，他在睡眠的控制下如此脆弱。",
+						"无论他们的学科是什么，僧侣们都有一个共同点，那就是他们能够神奇地驾驭他们体内流动的能量。无论是以引人注目的战斗力展示，还是以防御能力和速度的微妙焦点来引导，这种能量都渗透到了僧侣所做的一切。",
+						{
+							"type": "entries",
+							"name": "The Magic of Ki",
+							"entries": [
+								"僧侣们对一种神奇的能量进行仔细研究，大多数僧侣的传统称之为 \"气\"。这种能量是弥漫在多元宇宙中的魔法的一种元素--具体地说，是流经活体的元素。僧侣们利用自己体内的这种力量来创造神奇的效果，并超越他们身体的物理能力，他们的一些特殊攻击可以阻碍对手体内的气的流动。利用这种能量，僧侣们将不可思议的速度和力量引入他们的徒手打击。随着他们经验的增加，他们的武术训练和对气的掌握使他们对自己的身体和敌人的身体有更多的力量。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Training and Asceticism",
+							"entries": [
+								"在D&D的世界中，小型有围墙的回廊点缀着风景，是普通生活的小避难所，时间仿佛停滞了。居住在那里的僧侣通过沉思和严格的训练追求个人完美。许多人在儿童时期进入修道院，当他们的父母去世、找不到食物来养活他们时，或者为了回报僧侣为他们的家人所做的善事而被送去那里。",
+								"有些僧侣完全与周围的人分开居住，与任何可能阻碍他们精神进步的东西隔离。其他人则发誓要与世隔绝，只在他们的领袖、贵族赞助人或其他一些凡人或神灵的命令下出现，充当间谍或刺客。",
+								"大多数僧侣并不回避他们的邻居，他们经常访问附近的城镇或村庄，用他们的服务换取食物和其他物品。作为多才多艺的战士，僧侣们最终往往会保护他们的邻居免受怪物或暴君的侵害。",
+								"对于僧侣来说，成为一名冒险家意味着离开结构化的公共生活方式，成为一名流浪者。这可能是一个严酷的转变，僧侣们不会轻易地进行这种转变。那些离开修道院的人认真对待他们的工作，把他们的冒险当作对他们身体和精神成长的个人考验。通常，僧侣们对物质财富不屑一顾，他们渴望完成一项更伟大的使命，而不仅仅是杀死怪物和掠夺他们的财宝。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Monk",
+							"entries": [
+								"当你塑造你的僧侣角色时，想一想你与你学习技能和度过成长岁月的寺院的关系。你是一个孤儿，还是一个被留在寺院门槛上的孩子？你的父母是否为了感谢僧侣们的服务而将你许配给寺院？你进入这种隐居生活是为了躲避你犯下的罪行吗？还是你为自己选择了寺院生活？",
+								"考虑一下你为什么离开。你的寺院负责人是否选择你去执行一个超越回廊的特别重要的任务？也许你是因为违反了社区的某些规则而被赶出来的。你是害怕离开，还是乐意离开？你是否有希望在修道院之外完成的事情？你是否渴望回到你的家？",
+								"由于僧侣社区的结构化生活和驾驭基业所需的纪律，僧侣们几乎都是合法的排列。",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"您可以通过以下建议快速创建一名武僧。首先，将敏捷作为您最高的能力值，其次是智慧。其次，选择{@background hermit}背景。"
+									]
+								}
+							]
+						}
+					],
+					"source": "PHB",
+					"page": 76
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"不要把我的沉默误认为是对你的恶行的接受。当你虚张声势和威胁的时候，我已经计划了四种不同的方式，徒手拧断你的脖子。"
+							],
+							"by": "Ember, grand master of flowers"
+						},
+						"僧侣走的是一条矛盾的道路。他们像巫师一样研究他们的艺术，像巫师一样，他们不穿盔甲，通常避开武器。然而，他们是致命的战斗员，他们的能力与那些狂暴的野蛮人或训练有素的战士不相上下。僧侣们接受这种看似矛盾的现象，因为它道出了所有僧侣研究的核心。通过完全了解自己，人们可以了解到更广阔的世界。",
+						"僧侣专注于内心的掌握，导致许多这样的人脱离社会，更关心他们的个人经历而不是其他地方发生的事情。冒险的僧侣是一种罕见的人物类型，他们把对完美的追求从寺院的围墙中带到了整个世界。",
+						"扮演僧侣角色提供了许多耐人寻味的机会来尝试不同的东西。为了使你的僧侣角色更加与众不同，请考虑下面几节中的选项。",
+						{
+							"type": "entries",
+							"name": "Monastery",
+							"entries": [
+								"僧侣在寺院中学习，准备过苦行僧的生活。除了冒险家和其他有理由离开的人之外，大多数进入寺院的人都把它作为自己余生的家。对于这些人来说，寺院可以作为他们游历世界之间的一个避难所，或者在需要时作为支持的来源。",
+								"你的寺院是一个什么样的地方，它位于哪里？参加它是否以不寻常或独特的方式对你的经历有所贡献？",
+								{
+									"type": "table",
+									"caption": "Monastery",
+									"colLabels": [
+										"{@dice d6}",
+										"Monastery"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"你的寺院是在山坡上雕刻出来的，在那里它俯瞰着一个险峻的山口。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"你的寺院高高在上，位于仙境中一棵巨大的树的树枝上。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你的寺院是很久以前由一个云端巨人建立的，在一个只有通过飞行才能到达的云端城堡内。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"你们的寺院建在一个由温泉、间歇泉和硫磺池组成的火山系统旁边。你们定期接待阿泽尔商人的来访。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你的寺院是由地精建立的，是一个由隧道和房间组成的地下迷宫。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你的寺院是在世界冰封的地方用冰山雕刻而成的。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Icon",
+							"entries": [
+								"即使在摒弃物质主义和个人财产的修道院生活方式中，象征主义也在确定一个教团的身份方面发挥着重要作用。一些修道会特别重视某些生物，因为这些生物与修道会的历史有关，或者因为它是僧侣们寻求效仿的品质的典范。",
+								"如果你的角色所在的寺院有一个特殊的圣像，你可以在衣服上某个不显眼的地方佩戴一个粗糙的生物形象，作为一个识别标志。或者，你的教团的圣像没有实体形式，而是通过你的一个手势或姿势来表达，其他僧侣可能知道如何解释。",
+								{
+									"type": "table",
+									"caption": "Icon",
+									"colLabels": [
+										"{@dice d6}",
+										"Icon"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"猴子。迅速的反应和穿越树梢的能力是你的命令欣赏猴子的两个原因。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"龙龟。你们海边寺院的僧侣们敬仰龙龟，诵读古老的祈祷文，献上花环，以纪念这个活着的海洋之灵。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"麒麟。你的寺院认为其主要目的是以麒麟的方式看守和保护土地。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"猫头鹰熊。你们寺院的僧侣们崇尚一个猫头鹰家族，并与它们世代共存。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"九头蛇。你们的命令将九头蛇单列出来，因为它有能力同时释放几种攻击。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"龙。一条龙曾在你的寺院里栖息。它的影响在它离开后仍然存在。"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Master",
+							"entries": [
+								"在学习期间，你很可能受到一位大师的指导，他向你传授了教团的戒律。你的师父是最有责任塑造你对武术的理解和你对世界的态度的人。你的师父是个什么样的人，你与师父的关系对你有什么影响？",
+								{
+									"type": "table",
+									"caption": "Master",
+									"colLabels": [
+										"{@dice d6}",
+										"Master"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1
+												}
+											},
+											"你的主人是一个暴君，你必须在单挑中击败他，以完成你的教学。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2
+												}
+											},
+											"你的主人很慈祥，教你追求和平的事业。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3
+												}
+											},
+											"你的主人毫不留情地把你推到了极限。在一次特别残酷的练习中，你几乎失去了一只眼睛。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4
+												}
+											},
+											"你的师父在辅导你时似乎心地善良，但最后却背叛了你的寺院。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5
+												}
+											},
+											"你的主人很冷漠，很疏远。你怀疑你们两个人可能有关系。"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6
+												}
+											},
+											"你的师父亲切而慷慨，从未对你的进步提出批评。尽管如此，你觉得自己从未完全达到对你的期望。"
+										]
+									]
+								}
+							]
+						}
+					],
+					"source": "XGE",
+					"page": 32
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Way of Shadow",
+			"shortName": "Shadow",
+			"source": "PHB",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 80,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"minor illusion#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"resource": {
+								"2": [
+									"darkness",
+									"darkvision",
+									"pass without trace",
+									"silence"
+								]
+							}
+						}
+					},
+					"resourceName": "Ki",
+					"ability": "wis"
+				}
+			],
+			"subclassFeatures": [
+				"Way of Shadow|Monk||Shadow||3",
+				"Shadow Step|Monk||Shadow||6",
+				"Cloak of Shadows|Monk||Shadow||11",
+				"Opportunist|Monk||Shadow||17"
+			]
+		},
+		{
+			"name": "Way of the Four Elements",
+			"shortName": "Four Elements",
+			"source": "PHB",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 80,
+			"spellcastingAbility": "wis",
+			"optionalfeatureProgression": [
+				{
+					"name": "Elemental Disciplines",
+					"featureType": [
+						"ED"
+					],
+					"progression": {
+						"3": 2,
+						"6": 3,
+						"11": 4,
+						"17": 5
+					},
+					"required": {
+						"3": [
+							"Elemental Attunement|PHB"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Way of the Four Elements|Monk||Four Elements||3",
+				"Extra Elemental Discipline|Monk||Four Elements||6",
+				"Extra Elemental Discipline|Monk||Four Elements||11",
+				"Extra Elemental Discipline|Monk||Four Elements||17"
+			]
+		},
+		{
+			"name": "Way of the Open Hand",
+			"shortName": "Open Hand",
+			"source": "PHB",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 79,
+			"srd": true,
+			"additionalSpells": [
+				{
+					"innate": {
+						"11": {
+							"daily": {
+								"1": [
+									"sanctuary"
+								]
+							}
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"subclassFeatures": [
+				"Way of the Open Hand|Monk||Open Hand||3",
+				"Wholeness of Body|Monk||Open Hand||6",
+				"Tranquility|Monk||Open Hand||11",
+				"Quivering Palm|Monk||Open Hand||17"
+			]
+		},
+		{
+			"name": "Way of the Long Death",
+			"shortName": "Long Death",
+			"source": "SCAG",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 130,
+			"subclassFeatures": [
+				"Way of the Long Death|Monk||Long Death|SCAG|3",
+				"Hour of Reaping|Monk||Long Death|SCAG|6",
+				"Mastery of Death|Monk||Long Death|SCAG|11",
+				"Touch of the Long Death|Monk||Long Death|SCAG|17"
+			]
+		},
+		{
+			"name": "Way of the Drunken Master",
+			"shortName": "Drunken Master",
+			"source": "XGE",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 33,
+			"subclassFeatures": [
+				"Way of the Drunken Master|Monk||Drunken Master|XGE|3",
+				"Tipsy Sway|Monk||Drunken Master|XGE|6",
+				"Drunkard's Luck|Monk||Drunken Master|XGE|11",
+				"Intoxicated Frenzy|Monk||Drunken Master|XGE|17"
+			]
+		},
+		{
+			"name": "Way of the Kensei",
+			"shortName": "Kensei",
+			"source": "XGE",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 34,
+			"subclassFeatures": [
+				"Way of the Kensei|Monk||Kensei|XGE|3",
+				"One with the Blade|Monk||Kensei|XGE|6",
+				"Sharpen the Blade|Monk||Kensei|XGE|11",
+				"Unerring Accuracy|Monk||Kensei|XGE|17"
+			]
+		},
+		{
+			"name": "Way of the Sun Soul",
+			"shortName": "Sun Soul",
+			"source": "XGE",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 35,
+			"otherSources": [
+				{
+					"source": "SCAG",
+					"page": 131
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"6": {
+							"resource": {
+								"2": [
+									"burning hands"
+								]
+							}
+						}
+					},
+					"resourceName": "Ki",
+					"ability": "wis"
+				}
+			],
+			"subclassFeatures": [
+				"Way of the Sun Soul|Monk||Sun Soul|XGE|3",
+				"Searing Arc Strike|Monk||Sun Soul|XGE|6",
+				"Searing Sunburst|Monk||Sun Soul|XGE|11",
+				"Sun Shield|Monk||Sun Soul|XGE|17"
+			]
+		},
+		{
+			"name": "Way of Mercy",
+			"shortName": "Mercy",
+			"source": "TCE",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 49,
+			"subclassFeatures": [
+				"Way of Mercy|Monk||Mercy|TCE|3",
+				"Physician's Touch|Monk||Mercy|TCE|6",
+				"Flurry of Healing and Harm|Monk||Mercy|TCE|11",
+				"Hand of Ultimate Mercy|Monk||Mercy|TCE|17"
+			]
+		},
+		{
+			"name": "Way of the Astral Self",
+			"shortName": "Astral Self",
+			"source": "TCE",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 50,
+			"subclassFeatures": [
+				"Way of the Astral Self|Monk||Astral Self|TCE|3",
+				"Visage of the Astral Self|Monk||Astral Self|TCE|6",
+				"Body of the Astral Self|Monk||Astral Self|TCE|11",
+				"Awakened Astral Self|Monk||Astral Self|TCE|17"
+			]
+		},
+		{
+			"name": "Way of the Ascendant Dragon",
+			"shortName": "Ascendant Dragon",
+			"source": "FTD",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 13,
+			"subclassFeatures": [
+				"Way of the Ascendant Dragon|Monk||Ascendant Dragon|FTD|3",
+				"Wings Unfurled|Monk||Ascendant Dragon|FTD|6",
+				"Aspect of the Wyrm|Monk||Ascendant Dragon|FTD|11",
+				"Ascendant Aspect|Monk||Ascendant Dragon|FTD|17"
+			]
+		},
+		{
+			"name": "Way of the Cobalt Soul",
+			"shortName": "Cobalt Soul",
+			"source": "TDCSR",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 173,
+			"subclassFeatures": [
+				"Way of the Cobalt Soul|Monk|PHB|Cobalt Soul|TDCSR|3",
+				"Extort Truth|Monk|PHB|Cobalt Soul|TDCSR|6",
+				"Mystical Erudition|Monk|PHB|Cobalt Soul|TDCSR|6",
+				"Mystical Erudition (11th Level)|Monk|PHB|Cobalt Soul|TDCSR|11",
+				"Mystical Erudition (17th Level)|Monk|PHB|Cobalt Soul|TDCSR|17",
+				"Mind of Mercury|Monk|PHB|Cobalt Soul|TDCSR|11",
+				"Debilitating Barrage|Monk|PHB|Cobalt Soul|TDCSR|17"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Martial Arts",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"你练习武术使你精通使用徒手攻击和武僧武器的战斗风格，其中武僧武器包括{@item shortsword|phb|shortswords}和任何{@filter simple melee weapons that don't have the two-handed or heavy property|items|source=phb|category=basic|type=simple weapon;melee weapon=u~u~sand|property=!heavy;!two-handed}。",
+				"当你徒手或者只使用武僧武器，并且没有穿戴盔甲或者使用{@item shield|phb}时，你获得以下好处。",
+				{
+					"type": "list",
+					"items": [
+						"你可以用灵巧代替力量来进行你的徒手打击和僧侣武器的攻击和伤害卷。",
+						"你可以使用{@dice d4}来替代你的徒手攻击或武僧武器的普通伤害。这个骰子会随着你获得的武僧等级而改变，如武僧表格中的武术栏所示。",
+						"当你在你的回合使用{@action Attack}动作时，你可以额外进行一次徒手攻击或者使用武僧武器进行一次攻击。例如，如果你使用{@action Attack}动作并用一根短棍进行攻击，你也可以额外进行一次徒手攻击，前提是你在这个回合还没有进行过额外动作。"
+					]
+				},
+				"某些寺院使用专门形式的僧侣武器。例如，你可能会使用一根由短链连接的两段木头组成的棍子（称为双节棍），或者使用带有较短、较直刀刃的镰刀（称为卡马）。"
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 1,
+			"entries": [
+				"从1级开始，当你没有穿戴盔甲并且没有挥舞盾牌时，你的攻击力等于10+你的灵巧修改器+你的智慧修改器。"
+			]
+		},
+		{
+			"name": "Dedicated Weapon",
+			"source": "TCE",
+			"page": 48,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2nd-level monk {@variantrule optional class features|tce|optional feature}}",
+				"你训练自己使用各种武器作为僧侣武器，而不仅仅是简单的近战武器和短剑。每当你完成一个短期或长期的休息，你可以接触一件武器，将你的气力集中在它身上，然后将该武器算作僧侣武器，直到你再次使用这个功能。",
+				"所选择的武器必须符合这些标准。",
+				{
+					"type": "list",
+					"items": [
+						"武器必须是一个{@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon|property=!heavy;!special}。",
+						"你必须熟练掌握它。",
+						"它必须缺乏沉重和特殊的属性。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Flurry of Blows",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"在你的回合上，立即在你执行{@action Attack}动作后，你可以花费1点气点作为奖励动作进行两次徒手攻击。"
+			]
+		},
+		{
+			"name": "Ki",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"从2级开始，你的训练使你能够利用气的神秘能量。你对这种能量的访问由一定数量的气点表示。你的武僧等级决定了你拥有的点数，如在武僧表格的气点列中所示。",
+				"你可以用这些点数来激活各种气特性。你初始就会了解三种这样的特性：(Flurry of Blows), (Patient Defense), 和 (Step of the Wind)。随着在这个职业中的等级提升，你会学到更多气特性。",
+				"当你花费了一个气力点，它就无法使用，直到你完成一个短期或长期的休息，在休息结束时，你会把所有消耗的气力抽回给自己。你必须用至少30分钟的休息时间进行冥想，以恢复你的气力点。",
+				"你的一些奇异功能需要你的目标做出一个自救动作来抵抗该功能的效果。蓄力动作的计算方法如下。",
+				{
+					"type": "abilityDc",
+					"name": "Ki",
+					"attributes": [
+						"wis"
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Flurry of Blows|Monk||2"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Patient Defense|Monk||2"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Step of the Wind|Monk||2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Patient Defense",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"你可以花费1点气点，在你的回合中将{@action Dodge}动作作为一个奖励动作。"
+			]
+		},
+		{
+			"name": "Step of the Wind",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"你可以花费1点气点，在你的回合中将{@action Disengage}或{@action Dash}动作作为一个奖励动作，并且你的跳跃距离在这回合内翻倍。"
+			]
+		},
+		{
+			"name": "Unarmored Movement",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 2,
+			"entries": [
+				"从2级开始，当你没有穿戴盔甲或挥舞盾牌时，你的速度增加10英尺。当你达到一定的僧侣等级时，这个奖励会增加，如僧侣表所示。",
+				"在第9级时，你获得了沿着垂直表面移动和穿越液体的能力，在移动过程中不会摔倒。"
+			]
+		},
+		{
+			"name": "Deflect Missiles",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 3,
+			"entries": [
+				"从3级开始，当你被远程武器攻击击中时，你可以使用你的反应来偏转或接住这个飞射物。当你这样做时，你受到的攻击伤害会减少 {@dice 1d10} + 你的敏捷调整值 + 你的武僧等级。",
+				"如果你将伤害降低到0，如果导弹足够小，你可以用一只手握住它，并且你至少有一只手是空闲的。如果你以这种方式抓住一枚导弹，你可以花费1个基点用你刚刚抓住的武器或弹药进行一次范围攻击（范围20/60英尺），作为同一反应的一部分。你以熟练度进行这次攻击，而不考虑你的武器熟练度，并且导弹在攻击中被算作僧侣武器。"
+			]
+		},
+		{
+			"name": "Ki-Fueled Attack",
+			"source": "TCE",
+			"page": 48,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 3,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 3rd-level monk {@variantrule optional class features|tce|optional feature}}",
+				"如果你在你的回合中花费1个基点或更多作为你行动的一部分，你可以在回合结束前用徒手攻击或僧侣武器进行一次攻击作为额外行动。"
+			]
+		},
+		{
+			"name": "Monastic Tradition",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 3,
+			"entries": [
+				"当你达到3级时，你将自己投入到一个僧侣传统中，从可用的传统列表中选择。你的传统在3级时赋予你特性，在6级、11级和17级时再次赋予你特性。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 4,
+			"entries": [
+				"当你达到四级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的主持人允许使用专长，你可以选择取得一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Quickened Healing",
+			"source": "TCE",
+			"page": 48,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 4,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"{@i 4th-level monk {@variantrule optional class features|tce|optional feature}}",
+				"作为一个行动，你可以花费2点气力，掷一个武术骰子。你恢复的命中率等于掷出的数字加上你的熟练度奖励。"
+			]
+		},
+		{
+			"name": "Slow Fall",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 4,
+			"entries": [
+				"从四级开始，你可以在跌倒时使用你的反应，减少你受到的任何跌倒伤害，其数量等于你的僧侣等级的五倍。"
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 5,
+			"entries": [
+				"从5级开始，每当你在你的回合上采取{@action Attack}动作时，你可以攻击两次，而不是一次。"
+			]
+		},
+		{
+			"name": "Focused Aim",
+			"source": "TCE",
+			"page": 48,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 5,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 5th-level monk {@variantrule optional class features|tce|optional feature}}",
+				"当你的攻击卷失误时，你可以花费1到3个基点，使你的攻击卷增加2个基点，有可能将失误变成命中。"
+			]
+		},
+		{
+			"name": "Stunning Strike",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 5,
+			"consumes": {
+				"name": "Ki",
+				"amount": 1
+			},
+			"entries": [
+				"从5级开始，你可以干扰对手体内的气流。当你用近战武器攻击命中另一个生物时，你可以花费1点气来尝试震慑打击。目标必须通过一次体质豁免才能在你的下一个回合结束前变为{@condition stunned}。"
+			]
+		},
+		{
+			"name": "Ki-Empowered Strikes",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"从第6级开始，你的徒手攻击被算作魔法攻击，以克服对非魔法攻击和伤害的抵抗和免疫。"
+			]
+		},
+		{
+			"name": "Monastic Tradition feature",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 6,
+			"entries": [
+				"在6级时，你获得一个由你的僧侣传统赋予的特性。"
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 7,
+			"entries": [
+				"在第7级时，你的本能敏捷让你能够躲避某些范围效果，比如蓝龙的闪电吐息或者{@spell fireball}法术。当你受到一个效果影响，让你进行敏捷豁免来减少伤害时，如果你成功通过豁免，你将不会受到伤害，如果你未通过豁免，你只会受到一半伤害。"
+			]
+		},
+		{
+			"name": "Stillness of Mind",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 7,
+			"entries": [
+				"从7级开始，你可以使用你的动作来结束一个让你处于{@condition charmed}或{@condition frightened}状态的效果。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 8,
+			"entries": [
+				"当你达到8级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的主持人允许使用专长，你可以选择取得一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Unarmored Movement improvement",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 9,
+			"entries": [
+				"在第9级时，你获得了沿着垂直表面移动和穿越液体的能力，在移动过程中不会摔倒。"
+			]
+		},
+		{
+			"name": "Purity of Body",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 10,
+			"entries": [
+				"10级时，你对流经你体内的气的掌握使你对疾病和毒药免疫。"
+			]
+		},
+		{
+			"name": "Monastic Tradition feature",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 11,
+			"entries": [
+				"在11级时，你获得一个由你的修道士传统赋予的特性。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 12,
+			"entries": [
+				"当你达到12级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的主持人允许使用专长，你可以选择取得一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Tongue of the Sun and Moon",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 13,
+			"entries": [
+				"从13级开始，你学会了触及他人思维的气，使你能够理解所有口语。此外，任何能够理解语言的生物都能听懂你说的话。"
+			]
+		},
+		{
+			"name": "Diamond Soul",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 14,
+			"consumes": {
+				"name": "Ki",
+				"amount": 1
+			},
+			"entries": [
+				"从14级开始，你的 \"气 \"的掌握使你对所有的救赎动作都很熟练。",
+				"此外，每当你做拯救动作而失败时，你可以花费1个基点来重做，并接受第二个结果。"
+			]
+		},
+		{
+			"name": "Timeless Body",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 15,
+			"entries": [
+				"在15级的时候，你的气力支撑着你，所以你不会受到年老体弱的影响，而且你也不会因为魔法而变老。然而，你仍然可以因年老而死亡。此外，你不再需要食物和水。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 16,
+			"entries": [
+				"当你达到16级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的主持人允许使用专长，你可以选择取得一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Monastic Tradition feature",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 17,
+			"entries": [
+				"在17级时，你获得一个由你的修道士传统授予的特性。"
+			]
+		},
+		{
+			"name": "Empty Body",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 18,
+			"consumes": {
+				"name": "Ki",
+				"amount": 4
+			},
+			"entries": [
+				"从18级开始，你可以使用一个动作，花费4点气来变成{@condition invisible}，持续1分钟。在此期间，你对所有伤害具有抗性，但不包括力量伤害。",
+				"此外，你可以花费8点气来施放{@spell astral projection}法术，无需材料组件。这样做时，你不能带任何其他生物与你同行。"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 19,
+			"entries": [
+				"当你达到19级时，你可以将你选择的一项能力得分提高2分，或者将你选择的两项能力得分提高1分。",
+				"如果你的主持人允许使用专长，你可以选择取得一个{@5etools feat|feats.html}。"
+			]
+		},
+		{
+			"name": "Perfect Self",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"level": 20,
+			"entries": [
+				"在20级时，当你掷出主动权并没有剩余的气力值时，你会重新获得4个气力值。"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Way of the Ascendant Dragon",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"entries": [
+				"龙神巴哈姆特以年轻僧侣的形象在物质位面上行走，传说他在这种形象下创建了第一个《升龙之道》（Way of the Ascendant Dragon）的寺庙。这一传统的基本教导是，通过模仿龙的行为，僧侣可以成为世界及其魔法的更完整一部分。通过改变他们的精神以共鸣龙之力量，遵循这一传统的僧侣们增强了他们在战斗中的能力，支持他们的盟友，甚至可以在龙翼上翱翔。但所有这些力量都是为了更伟大的目标：与物质位面的本质实现精神上的统一。",
+				"作为上升星座龙之道的追随者，你决定如何在自己体内释放龙的力量。上升龙起源表提供了一些可能性。",
+				{
+					"type": "table",
+					"caption": "Ascendant Dragon Origin",
+					"colLabels": [
+						"d6",
+						"Origin"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"你通过将你的精神与龙的改变世界的力量结合起来，磨练你的能力。"
+						],
+						[
+							"2",
+							"一条龙亲自在塑造你的内在能量方面发挥了积极作用。"
+						],
+						[
+							"3",
+							"你在一个可以追溯到几个世纪前或更久前的龙的教导的寺院学习，或者一个致力于龙神的寺院。"
+						],
+						[
+							"4",
+							"你在一个古龙巢穴周围的区域长时间冥想，吸收巢穴的环境魔法。"
+						],
+						[
+							"5",
+							"你发现了一个用德拉科尼亚语写的卷轴，里面有鼓舞人心的新技术。"
+						],
+						[
+							"6",
+							"在做了一个以五手龙族为主角的梦后，你带着龙的神秘气息醒来。"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Disciple|Monk||Ascendant Dragon|FTD|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Breath of the Dragon|Monk||Ascendant Dragon|FTD|3"
+				}
+			]
+		},
+		{
+			"name": "Breath of the Dragon",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of the Ascendant Dragon feature}",
+				"你可以引导毁灭性的能量波，就像你模仿的龙所创造的那样。当你在你的回合内进行{@action Attack}动作时，你可以用龙族能量的呼吸替换其中一个攻击，以20英尺锥形或30英尺长、5英尺宽的直线形式释放。选择一个伤害类型：酸、冰、火、闪电或毒。在该区域内的每个生物必须根据你的气值豁免 DC 进行敏捷豁免检定，未通过检定的生物将受到所选类型的伤害，伤害值为你的武术骰子的两次掷骰结果，通过检定的生物则受到一半伤害。",
+				"在11级时，这个功能的伤害增加到你的武术模子的三卷。",
+				"你可以使用这个功能的次数等于你的熟练度加成，当你完成一个长时间的休息时，你会恢复所有消耗的使用。当你没有可用的使用次数时，你可以花费2个基点来再次使用这个功能。"
+			]
+		},
+		{
+			"name": "Draconic Disciple",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of the Ascendant Dragon feature}",
+				"你可以引导龙族的力量来放大你的存在，并使你的徒手打击充满了龙的气息的精华。你会获得以下好处。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Draconic Presence",
+							"entry": "如果你在魅力检定({@skill Intimidation})或魅力检定({@skill Persuasion})中失败，你可以利用你的反应重新投掷检定，因为你调动了龙族强大的存在。一旦这个特性将一个失败变成成功，你必须完成一次长休才能再次使用它。"
+						},
+						{
+							"type": "item",
+							"name": "Draconic Strike",
+							"entry": "当你用徒手攻击伤害一个目标时，你可以将伤害类型改为酸、冷、火、雷电或毒。"
+						},
+						{
+							"type": "item",
+							"name": "Tongue of Dragons",
+							"entry": "你学会说、读、写{@language Draconic}或者另一种语言。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Wings Unfurled",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Way of the Ascendant Dragon feature}",
+				"当你使用 \"风之步 \"时，你可以从你的背后展开幽灵龙翼，并在你的回合结束时消失。当翅膀存在时，你的飞行速度与你的步行速度相等。",
+				"你可以使用这个功能的次数与你的熟练度加成相等，当你完成一个长时间的休息时，你会恢复所有消耗的使用。"
+			]
+		},
+		{
+			"name": "Aspect of the Wyrm",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of the Ascendant Dragon feature}",
+				"你的龙族精神的力量现在从你身上散发出来，保护你的盟友或激发敌人的恐惧。作为一个额外的行动，你可以创造一个龙族力量的光环，从你身上辐射出10英尺，持续1分钟。在持续时间内，你会获得你所选择的下列效果之一。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Frightful Presence",
+							"entry": "当你创造这个光环时，以及在随后的回合中作为一个奖励动作，你可以选择光环内的一个生物。目标必须成功通过一次以你的气存豁免 DC 为依据的感知豁免才能成为你的 {@condition frightened} 1 分钟。目标可以在每个回合结束时重复进行豁免才，如果成功则结束自身的效果。"
+						},
+						{
+							"type": "item",
+							"name": "Resistance",
+							"entry": "激活此光环时选择一个伤害类型：酸性、冰冷、火焰、闪电或毒素。你和光环内的盟友对该伤害具有抗性。"
+						}
+					]
+				},
+				"一旦你创造了这个光环，你就不能再创造它，直到你完成一个长时间的休息，除非你耗费3个基点来再次创造它。"
+			]
+		},
+		{
+			"name": "Ascendant Aspect",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Way of the Ascendant Dragon feature}",
+				"你的龙族精神达到巅峰。你获得以下好处。",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Augment Breath",
+							"entry": "当你使用你的龙息时，你可以花费1个气点来增强其形状和力量。吐出的龙气会变成一个60英尺的圆锥体或一条90英尺宽的线（由你选择），该区域内的每个生物在救赎失败的情况下会受到相当于你的武术模子四卷的伤害，或在救赎成功的情况下受到一半的伤害。"
+						},
+						{
+							"type": "item",
+							"name": "Blindsight",
+							"entry": "你获得 {@sense blindsight} 的视野，延伸至10英尺。在这个范围内，你可以有效地看到任何没有被完全掩盖的东西，即使你是{@condition blinded}或者在黑暗中。此外，你可以看到这个范围内的一个{@condition invisible}生物，除非这个生物成功地躲藏起来。"
+						},
+						{
+							"type": "item",
+							"name": "Explosive Fury",
+							"entry": "当你激活你的龙之本质时，龙之怒火会从你身上爆发出来。选择你的光环中所能看到的任意数量生物。这些生物中的每一个必须通过一个敏捷豁免检定，检定 DC 为你的气值豁免 DC，否则受到 {@damage 3d10} 酸性、冰冷、火焰、闪电或毒素伤害（你选择）。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of the Four Elements",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"你遵循一个教导你驾驭元素的修道传统。当你集中你的气力时，你可以使自己与创造的力量保持一致，并按照你的意愿弯曲四种元素，将它们作为你身体的延伸。这个传统的一些成员将自己奉献给一个单一的元素，但其他人将各种元素编织在一起。",
+				"这一传统的许多僧侣在身上纹上代表其气功的图案，通常想象为盘龙，也有想象为凤凰、鱼、植物、山和波浪。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Disciple of the Elements|Monk||Four Elements||3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elemental Disciplines|Monk||Four Elements||3"
+				}
+			]
+		},
+		{
+			"name": "Disciple of the Elements",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"你学习利用四种元素的力量的魔法学科。一项修行需要你在每次使用它时花费基点。",
+				"你知道元素修炼和一个你选择的其他元素修炼。在6级、11级和17级时，你会额外学习一种你选择的元素修行。",
+				"每当你学习一种新的元素修炼，你也可以用一种不同的修炼替换你已经知道的一种元素修炼。",
+				{
+					"type": "entries",
+					"name": "Casting Elemental Spells",
+					"entries": [
+						"一些元素学派允许你施放法术。请参考《玩家手册》{@book chapter 10|PHB|10}中有关施法的一般规则。要施放这些法术之一，你需要遵循其施法时间和其他规则，但不需要提供材料组件。",
+						"一旦你在这个职业中达到5级，你可以花费额外的气点来增加你施放的元素技能法术的等级，前提是这个法术在更高等级时有增强效果，就像{@spell burning hands}一样。每额外花费一个气点，法术的等级就增加1。例如，如果你是一名5级的武僧，并使用扫帚灰烬打击来施放{@spell burning hands}，你可以花费3个气点将其施放为2级法术（该技能的基础成本为2气点加1）。",
+						"你以这种方式施展法术所能花费的最大基点（包括其基本基点成本和你为提高其等级所花费的任何额外基点）由你的僧侣等级决定，如法术和基点表所示。在5级时，你最多可以花费3个基点；9级时增加到4个基点，13级时增加到5个，17级时增加到6个。",
+						{
+							"type": "table",
+							"caption": "Spells and Ki Points",
+							"colLabels": [
+								"Monk Levels",
+								"Maximum Ki Points for a Spell"
+							],
+							"colStyles": [
+								"col-5 text-center",
+								"col-7 text-center"
+							],
+							"rows": [
+								[
+									"5th-8th",
+									3
+								],
+								[
+									"9th-12th",
+									4
+								],
+								[
+									"13th-16th",
+									5
+								],
+								[
+									"17th-20th",
+									6
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Disciplines",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"元素学科是按字母顺序排列的。如果一个学科需要一个等级，你必须达到这个等级才能学习这个学科。",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Breath of Winter",
+							"name": "Breath of Winter (17th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Clench of the North Wind",
+							"name": "Clench of the North Wind (6th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elemental Attunement",
+							"data": {
+								"isRequiredOption": true
+							}
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Eternal Mountain Defense",
+							"name": "Eternal Mountain Defense (17th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Fangs of the Fire Snake"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Fist of Four Thunders"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Unbroken Air"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Flames of the Phoenix",
+							"name": "Flames of the Phoenix (11th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Gong of the Summit",
+							"name": "Gong of the Summit (6th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Mist Stance",
+							"name": "Mist Stance (11th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Ride the Wind",
+							"name": "Ride the Wind (11th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "River of Hungry Flame",
+							"name": "River of Hungry Flame (17th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Rush of the Gale Spirits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Shape the Flowing River"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sweeping Cinder Strike"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Water Whip"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Wave of Rolling Earth",
+							"name": "Wave of Rolling Earth (17th Level Required)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Extra Elemental Discipline",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你额外学习一个你选择的元素修行。你应该知道2种元素修炼，以及元素调和。",
+				"每当你学习一种新的元素修炼，你也可以用一种不同的修炼替换你已经知道的一种元素修炼。"
+			]
+		},
+		{
+			"name": "Extra Elemental Discipline",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"你额外学习一种你选择的元素修炼。你应该知道3种元素修炼，以及元素调和。",
+				"每当你学习一种新的元素修炼，你也可以用一种不同的修炼替换你已经知道的一种元素修炼。"
+			]
+		},
+		{
+			"name": "Extra Elemental Discipline",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"你额外学习一种你选择的元素修炼。你应该知道4种元素修炼，以及元素调和。",
+				"每当你学习一种新的元素修炼，你也可以用一种不同的修炼替换你已经知道的一种元素修炼。"
+			]
+		},
+		{
+			"name": "Way of the Open Hand",
+			"source": "PHB",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"张手道的僧侣是武术战斗的终极大师，无论是武装还是非武装。他们学习推搡和绊倒对手的技巧，操纵气力来治疗身体的损伤，并练习可以保护他们免受伤害的高级冥想。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Open Hand Technique|Monk||Open Hand||3"
+				}
+			]
+		},
+		{
+			"name": "Open Hand Technique",
+			"source": "PHB",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你驾驭自己的气时，你可以操纵敌人的气。每当你用你的 \"连击 \"所赋予的攻击击中一个生物时，你可以对该目标施加下列效果之一。",
+				{
+					"type": "list",
+					"items": [
+						"它必须成功进行一次敏捷豁免才能避免被击倒{@condition prone}。",
+						"它必须做一个力量救赎的动作。如果它失败了，你可以把它推到离你15英尺远的地方。",
+						"在你下一回合结束之前，它不能采取反应。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Wholeness of Body",
+			"source": "PHB",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你获得自我治疗的能力。作为一个动作，你可以恢复相当于你的僧侣等级三倍的攻击点数。你必须在完成一次长时间的休息后才能再次使用这个功能。"
+			]
+		},
+		{
+			"name": "Tranquility",
+			"source": "PHB",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "PHB",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"从11级开始，你可以进入一种特殊的冥想状态，让你周围笼罩着一种平静的光环。在完成一次长休后，你获得一个持续到下次长休开始前的{@spell sanctuary}法术效果（法术可以像平常一样提前结束）。该法术的豁免 DC 等于 8 + 你的智力修正值 + 你的熟练加值。"
+			]
+		},
+		{
+			"name": "Quivering Palm",
+			"source": "PHB",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"你获得了在某人体内设置致命振动的能力。当你用徒手攻击击中一只生物时，你可以花费3点气点来开始这些难以察觉的振动，持续时间为你的武僧等级。这些振动是无害的，除非你使用动作来结束它们。要这样做，你和目标必须在同一存在平面上。当你使用这个动作时，生物必须进行一次体质豁免才能。如果失败，它的生命值降为0。如果成功，它会受到{@damage 10d10}点死灵伤害。",
+				"你一次只能让一个生物受到这个特性的影响。你可以选择在不消耗行动的情况下无害地结束这种振动。"
+			]
+		},
+		{
+			"name": "Way of Shadow",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"影之道门的僧侣遵循一种重视隐秘和诡计的传统。这些僧侣可能被称为忍者或影舞者，他们充当间谍和刺客。有时候，忍者寺院的成员是家庭成员，组成一个誓言保守他们的艺术和任务秘密的家族。其他寺院更像是盗贼行会，向贵族、富商或任何能支付费用的人提供服务。无论采用何种方法，这些寺院的首领都期望他们的学生绝对服从。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shadow Arts|Monk||Shadow||3"
+				}
+			]
+		},
+		{
+			"name": "Shadow Arts",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"你可以使用你的气来复制某些法术的效果。作为一个动作，你可以花费2点气来施放{@spell darkness}，{@spell darkvision}，{@spell pass without trace}，或{@spell silence}，而无需提供材料组件。此外，如果你还不知道，你将获得{@spell minor illusion}这个零级法术。"
+			]
+		},
+		{
+			"name": "Shadow Step",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"你获得了从一个阴影跃至另一个的能力。当你处于微弱光线或黑暗中时，作为一个奖励动作，你可以传送到一个你能看见且也处于微弱光线或黑暗中的未占据空间，最远距离为60英尺。然后在回合结束前进行的第一次近战攻击获得优势。"
+			]
+		},
+		{
+			"name": "Cloak of Shadows",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"到了11级，你已经学会了与阴影融为一体。当你处于昏暗或黑暗区域时，你可以使用你的动作变成{@condition invisible}。你会保持{@condition invisible}，直到你进行攻击、施放法术，或者处于明亮光线的区域。"
+			]
+		},
+		{
+			"name": "Opportunist",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，当一个生物被攻击命中时，你可以利用它瞬间的分心。每当一个在你5英尺范围内的生物被非你造成的生物攻击命中时，你可以使用你的反应对那个生物进行一次近战攻击。"
+			]
+		},
+		{
+			"name": "Way of the Long Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"长死之道(Monks of the Way of the Long Death)的僧侣们着迷于死亡的含义和机理。他们捕捉生物，并准备精心设计的实验来捕捉、记录和理解它们临终的瞬间。他们利用这些知识来指导他们对武术的理解，形成一种致命的战斗风格。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Touch of Death|Monk||Long Death|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Touch of Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从3级开始选择这个传统时，你对死亡的研究使你能够从另一个生物身上提取活力，当它接近死亡时。当你将一个生物的生命值降至0时，且该生物在你5英尺范围内，你会获得临时生命值，数值等同于你的感知调整值加上你的武僧等级（最少1点临时生命值）。"
+			]
+		},
+		{
+			"name": "Hour of Reaping",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在第6级时，你获得了一项能力，可以在行动中使周围的人感到不安或恐惧，因为你的灵魂被死亡之影触摸过。当你采取这个行动时，你周围30英尺内能看到你的每个生物必须进行一次感知豁免才能成功，否则会对你感到 {@condition frightened} 直到你的下一个回合结束。"
+			]
+		},
+		{
+			"name": "Mastery of Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"从11级开始，你利用对死亡的熟悉来摆脱它的控制。当你的生命值降至0时，你可以消耗1点气点（无需行动）来使自己的生命值变为1点。"
+			]
+		},
+		{
+			"name": "Touch of the Long Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"从17级开始，你的接触可以将死亡能量引导到一个生物身上。作为一个动作，你触摸你身边5英尺内的一个生物，并消耗1到10点气点。目标必须进行一次体质豁免才能，如果未能通过则受到{@damage 2d10}点死灵伤害，每点气点花费增加一次，如果通过则受到一半伤害。"
+			]
+		},
+		{
+			"name": "Way of the Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 3,
+			"entries": [
+				"一个追随星体自我之道的僧侣相信他们的身体是一个幻觉。他们将自己的气视为真正形态的表现，一种星体自我。这种星体自我有能力成为秩序或混乱的力量，一些修道院训练学生利用他们的力量保护弱者，而其他一些则指导初学者如何在为强者服务中显现他们真正的自我。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Forms of Your Astral Self|Monk||Astral Self|TCE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arms of the Astral Self|Monk||Astral Self|TCE|3"
+				}
+			]
+		},
+		{
+			"name": "Arms of the Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 3rd-level Way of the Astral Self feature}",
+				"你对气的掌握使你能召唤你的星体本质的一部分。作为一个奖励动作，你可以花费1点气来召唤你星体本质的双臂。当你这样做时，你可以看到的每个你选择的生物，在你周围10英尺范围内，必须成功进行一次敏捷豁免检定，否则受到等同于你武术骰子的两次掷骰的力量伤害。",
+				"在接下来的10分钟里，这些幻影手臂会在你的肩膀附近悬浮，或者环绕在你的手臂周围（由你选择）。你可以决定这些手臂的外观，如果你是{@condition incapacitated}或死亡，它们会提前消失。",
+				"当幽灵手臂出现时，你获得以下好处：",
+				{
+					"type": "list",
+					"items": [
+						"当进行力量检定和力量豁免时，你可以使用你的感知调整值来代替力量调整值。",
+						"你可以使用光谱武器进行徒手攻击。",
+						"当你在自己的回合用手臂进行徒手攻击时，你的攻击距离比正常情况下多5英尺。",
+						"你用手臂进行的徒手攻击可以使用你的感知调整值代替力量或敏捷调整值进行攻击和伤害骰，并且它们的伤害类型为力量。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Forms of Your Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"type": "inset",
+			"entries": [
+				"星体自我是僧侣灵魂的一种半透明体现。因此，星体自我可以反映出僧侣的背景、理想、缺陷和羁绊，而且星体自我不一定看起来像僧侣本人。例如，一个瘦长的人类的星体自我可能让人联想到一个牛头人\u2014\u2014这个力量让僧侣感受到内在的力量。同样，半兽人僧侣可能会显现出纤细的手臂和精致的面容，代表着半兽人灵魂中的温柔之美。每个星体自我都是独一无二的，这个修道传统中的一些僧侣更因为他们星体自我的外观而闻名，而不是因为他们的外貌。",
+				"在选择这条道路时，请考虑定义你的武僧的怪癖。你是否对某件事情着迷？你是被正义驱使还是被自私欲望驱使？这些动机中的任何一个都可能表现为你的星体自我。"
+			]
+		},
+		{
+			"name": "Visage of the Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 6th-level Way of the Astral Self feature}",
+				"你可以召唤你的星体自我的面容。作为一个奖励动作，或者作为你用来激活星体武装的奖励动作的一部分，你可以花费1点气点召唤这个面容，持续10分钟。如果你处于 {@condition incapacitated} 状态或死亡，它会提前消失。",
+				"幽灵面罩覆盖着你的脸，就像头盔或面具。你决定它的外观。",
+				"当幽灵面容存在时，你获得以下好处。",
+				{
+					"type": "entries",
+					"name": "Astral Sight",
+					"entries": [
+						"你可以在黑暗中正常看到，无论是魔法还是非魔法的，最远可以达到120英尺。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wisdom of the Spirit",
+					"entries": [
+						"你在感知检定和魅力检定上有优势。{@skill Insight}和{@skill Intimidation}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Word of the Spirit",
+					"entries": [
+						"当你说话时，你可以将你的话直接传达给你能看到的60英尺内的一只生物，使只有那个生物能听到你。或者，你可以放大你的声音，让所有600英尺内的生物都能听到你。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Body of the Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of the Astral Self feature}",
+				"当你同时召唤你的星体双臂和面容时，你可以使星体自身的身体显现（无需行动）。这个幻影身体覆盖在你的物质形态上，就像一套盔甲，与双臂和面容相连接。你可以决定它的外观。",
+				"当幽灵体存在时，你获得以下好处。",
+				{
+					"type": "entries",
+					"name": "Deflect Energy",
+					"entries": [
+						"当你受到酸性、寒冷、火焰、力量、闪电或雷电伤害时，你可以使用你的反应来化解伤害。当你这样做时，你受到的伤害减少 {@dice 1d10} + 你的智力调整值（最少减少1点）。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Empowered Arms",
+					"entries": [
+						"每当你用(星体自我之臂)(Arms of the Astral Self)击中目标时，你可以对目标造成额外伤害，伤害值等同于你的(武术骰)(Martial Arts die)。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Awakened Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 5
+			},
+			"entries": [
+				"{@i 17th-level Way of the Astral Self feature}",
+				"你与你的星体自我连接完整，使你能够释放其全部潜力。作为一个奖励动作，你可以花费5点气来召唤你的星体自我的手臂、面容和身体，并唤醒它10分钟。如果你是{@condition incapacitated}或死亡，这种唤醒会提前结束。",
+				"当你的星体自我觉醒时，你获得以下好处。",
+				{
+					"type": "entries",
+					"name": "Armor of the Spirit",
+					"entries": [
+						"你的护甲等级提高了 +2 点。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Barrage",
+					"entries": [
+						"每当你使用额外攻击特性进行两次攻击时，如果所有攻击都是用你的(astral arms)进行的，你可以选择攻击三次。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Way of Mercy",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 3,
+			"entries": [
+				"(慈悲之道)的僧侣学会操纵他人的生命力，为有需要的人提供帮助。他们是穷人和受伤者的流浪医师。然而，对于那些超出他们帮助范围的人，他们会以慈悲的行为给予他们一个迅速的结局。",
+				"追随(Kindness之道)的人可能是宗教团体的成员，为有需要的人提供帮助，并做出根植于现实而非理想主义的严峻选择。有些人可能是温和善良的治疗者，深受社区爱戴，而另一些人可能是戴着面具的带来怪诞仁慈的使者。",
+				"这条道路上的行者通常穿着深褶的长袍，他们经常用面具遮掩面容，将自己呈现为无面的生死使者。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Implements of Mercy|Monk||Mercy|TCE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hand of Healing|Monk||Mercy|TCE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hand of Harm|Monk||Mercy|TCE|3"
+				}
+			]
+		},
+		{
+			"name": "Hand of Harm",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 3rd-level Way of Mercy feature}",
+				"你可以利用你的气来造成伤害。当你用徒手攻击命中一只生物时，你可以花费1点气来造成额外的死灵伤害，伤害值等于你的武术骰子的一次掷骰结果加上你的感知调整值。你每回合只能使用这个特性一次。"
+			]
+		},
+		{
+			"name": "Hand of Healing",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 3rd-level Way of Mercy feature}",
+				"你神秘的触摸可以治愈伤口。作为一个动作，你可以花费1点气点触摸一个生物，并恢复相当于你的武术骰子点数加上你的智力调整值的生命值。",
+				"当你使用你的连击风暴(Flurry of Blows)时，你可以用这个特性的使用来替换其中一次徒手攻击，而无需花费气点进行治疗。"
+			]
+		},
+		{
+			"name": "Implements of Mercy",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of Mercy feature}",
+				"你获得{@skill Insight}和{@skill Medicine}技能的熟练加值，并且你获得{@item herbalism kit|PHB}的熟练加值。",
+				"你还会获得一张特殊的面具，在使用这个子职业的特性时经常会戴上它。你可以决定它的外观，或者通过在（Merciful Mask）表上掷骰来随机生成它。",
+				{
+					"type": "table",
+					"caption": "Merciful Mask",
+					"colLabels": [
+						"d6",
+						"Mask Appearance"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"乌鸦 (Raven)"
+						],
+						[
+							"2",
+							"黑白（Blank and White）"
+						],
+						[
+							"3",
+							"哭泣的面容"
+						],
+						[
+							"4",
+							"欢笑面容 (Laughing visage)"
+						],
+						[
+							"5",
+							"头骨 (Skull)"
+						],
+						[
+							"6",
+							"蝴蝶"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Physician's Touch",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Way of Mercy feature}",
+				"你可以通过触摸施行更强大的治疗，如果必要的话，你也可以运用你的知识造成伤害。",
+				"当你对一个生物使用治愈之手时，你也可以结束影响该生物的以下疾病或以下状态之一：{@condition blinded}，{@condition deafened}，{@condition paralyzed}，{@condition poisoned}，或{@condition stunned}。",
+				"当你对一个生物使用伤害之手时，你可以使该生物受到{@condition poisoned}状态的影响，直到你的下一个回合结束。"
+			]
+		},
+		{
+			"name": "Flurry of Healing and Harm",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of Mercy feature}",
+				"你现在可以施展一连串的安慰和伤害。当你使用(风火连击)时，你可以用你的(治愈之手)取代每一个徒手攻击，而无需花费气点进行治疗。",
+				"此外，当你使用《风火连击》进行徒手攻击时，你可以在该攻击中使用《伤害之手》，而无需消耗《伤害之手》的气点。你仍然每回合只能使用《伤害之手》一次。"
+			]
+		},
+		{
+			"name": "Hand of Ultimate Mercy",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 5
+			},
+			"entries": [
+				"{@i 17th-level Way of Mercy feature}",
+				"你对生命能量的掌握打开了通往终极慈悲的大门。作为一个动作，你可以触摸在过去24小时内死亡的生物的尸体，并消耗5点气点。那个生物随后复活，恢复生命值，数值等于{@dice 4d10} + 你的感知调整值。如果生物死亡时受到以下任何状态的影响，它将在复活时移除这些状态：{@condition blinded}，{@condition deafened}，{@condition paralyzed}，{@condition poisoned}，和{@condition stunned}。",
+				"一旦你使用这个特性，直到你完成一次长休之前都无法再次使用。"
+			]
+		},
+		{
+			"name": "Way of the Cobalt Soul",
+			"source": "TDCSR",
+			"page": 173,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Cobalt Soul",
+			"subclassSource": "TDCSR",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在对知识的追求和其学者对{@deity The Knowing Mentor|Exandria|TDCSR}的崇拜驱使下，{@book Library of the Cobalt Soul|TDCSR|2|Library of the Cobalt Soul}是艾克桑德里亚最受尊敬和守护最严密的文献、历史和信息库之一。来自各地的人们前来图书馆寻求知识，那些特别致力于真理美德的人常常会向{@book Cobalt Soul's|TDCSR|2|Library of the Cobalt Soul}事业效忠。成为{@book Cobalt Soul|TDCSR|2|Library of the Cobalt Soul}的一员意味着将自己奉献于揭示生命奥秘、揭露隐藏邪恶的秘密，并保护最强大和危险的真相，以防那些对知识有不健康渴望的人给他人带来死亡和苦难。",
+				"{@book Cobalt Soul|TDCSR|2|Library of the Cobalt Soul}的僧侣体现了这样一句格言：\"知己知彼，百战不殆。\" 通过不懈的研究，他们使自己能够抵御邪恶的不断袭击。通过严格的训练，他们学会了如何突破敌人的心理和身体防御。然后，一旦战斗结束，他们会记录下自己的发现，供未来的僧侣世代研究。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extract Aspects|Monk|PHB|Cobalt Soul|TDCSR|3"
+				}
+			]
+		},
+		{
+			"name": "Extract Aspects",
+			"source": "TDCSR",
+			"page": 173,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Cobalt Soul",
+			"subclassSource": "TDCSR",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"从3级开始，你可以打击敌人的穴位，直觉地获取关键信息。当你用你的连击之风所授予的攻击之一击中一只生物时，你可以分析它。每当一只被分析的生物用攻击未击中你时，你可以立即使用你的反应对该生物进行一次徒手攻击，如果它在你的攻击范围内。这个效益持续直到你完成一个{@quickref resting|PHB|2|0|short or long rest}。",
+				"另外，当你分析一个生物时，你会了解到它的所有伤害易感性、伤害抗性、伤害免疫和状态免疫。"
+			]
+		},
+		{
+			"name": "Extort Truth",
+			"source": "TDCSR",
+			"page": 174,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Cobalt Soul",
+			"subclassSource": "TDCSR",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"从6级开始，你可以精确地打击生物身上隐藏的一组神经，暂时阻止它掩饰真实的想法和意图。当你用徒手攻击命中一只生物时，你可以花费1点气来迫使它进行一次魅力豁免检定{@quickref saving throws|PHB|2|1|saving throw}。如果未能通过豁免检定，该生物将无法说出蓄意的谎言，并且所有对该生物进行的魅力检定都以{@quickref Advantage and Disadvantage|PHB|2|0|advantage}进行，持续时间最长为10分钟。你会知道它在其魅力检定中是成功还是失败{@quickref saving throws|PHB|2|1|saving throw}。",
+				"受影响的生物意识到了这种影响，因此可以避免回答通常会用谎言回应的问题。只要效果持续，这样的生物可以在回答问题时回避直接回答。",
+				"如果你希望对一个生物施加这种效果而不伤害它，你可以攻击这个生物，只是简单地触碰它，击中时不造成伤害。"
+			]
+		},
+		{
+			"name": "Mystical Erudition",
+			"source": "TDCSR",
+			"page": 174,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Cobalt Soul",
+			"subclassSource": "TDCSR",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"到了6级时，你已经在{@book Cobalt Soul|TDCSR|2|Library of the Cobalt Soul}的档案中广泛研究了历史和传说。你可以选择学习一门语言，并且选择获得以下技能中的一个熟练：{@skill Arcana}，{@skill History}，{@skill Investigation}，{@skill Nature}，或{@skill Religion}。如果你已经熟练掌握了其中一个技能，你可以选择在使用该技能进行的任何能力检定中将你的熟练加值翻倍。"
+			]
+		},
+		{
+			"name": "Mind of Mercury",
+			"source": "TDCSR",
+			"page": 174,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Cobalt Soul",
+			"subclassSource": "TDCSR",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"从11级开始，通过心智能力和模式识别，你已经磨练了自己的意识和反应能力。每回合一次，如果你已经使用了你的反应，你可以花费1点气来进行额外的反应。你每次触发效果只能使用一次反应。"
+			]
+		},
+		{
+			"name": "Mystical Erudition (11th Level)",
+			"source": "TDCSR",
+			"page": 174,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Cobalt Soul",
+			"subclassSource": "TDCSR",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"在第11级时，你可以从列表中选择一个额外的语言和一个额外的技能熟练项：{@skill Arcana}，{@skill History}，{@skill Investigation}，{@skill Nature}，或{@skill Religion}\u2014（或者你可以加倍已有的熟练项奖励）。"
+			]
+		},
+		{
+			"name": "Debilitating Barrage",
+			"source": "TDCSR",
+			"page": 174,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Cobalt Soul",
+			"subclassSource": "TDCSR",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"达到17级时，你获得了操纵生物气的知识，削弱它们的体魄。当你用徒手攻击命中一名生物时，你可以花费3点气来使该生物对你选择的一种伤害类型获得虚弱状态，持续1分钟，或者直到其在受到该类型伤害的回合结束。",
+				"如果一个生物对你选择的伤害类型具有抗性，那么这种抗性会被抑制1分钟，而不是获得易受伤害。对你选择的伤害类型免疫的生物不受影响。受到这个特性影响的生物在24小时内无法再次受到影响。"
+			]
+		},
+		{
+			"name": "Mystical Erudition (17th Level)",
+			"source": "TDCSR",
+			"page": 174,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Cobalt Soul",
+			"subclassSource": "TDCSR",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在第17级时，你可以从列表中选择一个额外的语言和一个额外的技能熟练度：{@skill Arcana}，{@skill History}，{@skill Investigation}，{@skill Nature}，或{@skill Religion}\u2014（或者你可以将列表中现有的熟练度奖励加倍）。"
+			]
+		},
+		{
+			"name": "Way of the Drunken Master",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"醉拳大师之道教导学生以醉汉般颠簸不定的动作移动。一位醉拳大师摇摇晃晃，摇摇欲坠地站在不稳定的脚上，看起来像一个无能的战斗者，却证明是一个令人沮丧的对手。醉拳大师的不规则踉跄掩盖了一场精心设计的防御、招架、前进、进攻和撤退的舞蹈。",
+				"一个醉拳师经常喜欢扮演傻子，给沮丧的人带来快乐，或者向傲慢的人展示谦卑，但一旦战斗开始，醉拳师可以成为一个令人发狂、精湛的敌人。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Monk||Drunken Master|XGE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drunken Technique|Monk||Drunken Master|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级时选择这个传统时，如果你还没有，你会获得{@skill Performance}技能的熟练。你的武术技巧将战斗训练与舞者的精准和小丑的滑稽相结合。如果你还没有，你也会获得{@item brewer's supplies|phb}的熟练。"
+			]
+		},
+		{
+			"name": "Drunken Technique",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"在3级时，你学会了如何在你的连击风暴中迅速转身。每当你使用连击风暴时，你获得{@action Disengage}动作的效果，并且你的移动速度增加10英尺，直到当前回合结束。"
+			]
+		},
+		{
+			"name": "Tipsy Sway",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"从6级开始，你可以以突然而摇摆的方式移动。你获得以下好处。",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Leap to Your Feet|Monk|XGE|Drunken Master|XGE|6"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Redirect Attack|Monk|XGE|Drunken Master|XGE|6"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drunkard's Luck",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"从11级开始，你似乎总是在合适的时刻得到幸运的机会。当你进行能力检定、攻击检定或豁免检定，并且有劣势时，你可以花费2点气来取消该次检定的劣势。"
+			]
+		},
+		{
+			"name": "Intoxicated Frenzy",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你获得了一项能力，可以对一群敌人发动压倒性的攻击。当你使用你的连击风暴时，你可以额外进行三次攻击（最多总共五次连击风暴攻击），前提是每次连击风暴攻击必须瞄准本回合的不同生物。"
+			]
+		},
+		{
+			"name": "Way of the Kensei",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"剑圣之道(Way of the Kensei)的僧侣们通过对武器的不懈训练，使武器成为身体的延伸。这一传统建立在对剑术的精通基础上，如今已扩展到包括许多不同的武器。",
+				"一位剑圣将武器视为书法家或画家看待笔或刷子的方式。无论是什么武器，剑圣都将其视为表达武术之美和精准的工具。这种精湛的技艺使剑圣成为无与伦比的战士，这只是对强烈奉献、实践和学习的副产品。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Path of the Kensei|Monk||Kensei|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Path of the Kensei",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"当你在3级选择这个传统时，你特殊的武术训练使你精通使用特定武器。这条道路还包括书法或绘画的娴熟技巧指导。你获得以下好处。",
+				{
+					"type": "entries",
+					"name": "Kensei Weapons",
+					"entries": [
+						"选择两种武器作为你的剑圣武器：一种近战武器和一种远程武器。这些武器可以是任何{@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon}，但不能有沉重和特殊属性。长弓也是一个有效的选择。如果你还没有这些武器的熟练度，你将获得这些武器的熟练度。对于你来说，选择类型的武器是武僧武器。这个传统的许多特性只适用于你的剑圣武器。当你在这个职业中达到第6、11和17级时，你可以选择另一种类型的武器\u2014\u2014近战或远程\u2014\u2014作为你的剑圣武器，遵循上述标准。"
+					]
+				},
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Agile Parry|Monk|XGE|Kensei|XGE|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Kensei's Shot|Monk|XGE|Kensei|XGE|3"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Way of the Brush",
+					"entries": [
+						"你可以选择获得{@item calligrapher's supplies|phb}或{@item painter's supplies|phb}的熟练。"
+					]
+				}
+			]
+		},
+		{
+			"name": "One with the Blade",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"在6级时，你将你的气运到你的剑圣武器中，使你获得以下好处。",
+				{
+					"type": "entries",
+					"name": "Magic Kensei Weapons",
+					"entries": [
+						"你使用剑圣武器进行的攻击被视为魔法攻击，可以克服对非魔法攻击和伤害的抗性和免疫。(Kensei)。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deft Strike",
+					"entries": [
+						"当你用(剑圣武器)击中目标时，你可以花费1点气来使武器对目标造成额外伤害，伤害值等于你的(武术骰)。你每个回合只能使用这个特性一次。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Sharpen the Blade",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"在11级时，你获得了用气来进一步增强武器的能力。作为一个奖励动作，你可以消耗多达3点气来为你触摸的一把剑圣武器提供攻击和伤害骰加值，当你用它进行攻击时。这个加值等于你消耗的气点数。这个加值持续1分钟，或直到你再次使用这个特性。这个特性对已经有攻击和伤害骰加值的魔法武器没有影响。"
+			]
+		},
+		{
+			"name": "Unerring Accuracy",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你对武器的精通赋予了你非凡的准确性。如果你在你的回合使用一次武僧武器攻击未命中，你可以重新投掷。你每个回合只能使用这个特性一次。"
+			]
+		},
+		{
+			"name": "Way of the Sun Soul",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"太阳之魂之道的僧侣学会将他们的生命能量转化为灼热的光束。他们教导冥想可以解锁释放每个生物灵魂所散发的不可征服之光的能力。",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radiant Sun Bolt|Monk||Sun Soul|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Radiant Sun Bolt",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"从你在3级选择这个传统开始，你可以投掷灼热的魔法辐射之光。",
+				"你获得了一种新的攻击选项，可以在{@action Attack}行动中使用。这个特殊攻击是一个射程为30英尺的远程法术攻击。你擅长于它，并且你可以将你的敏捷调整值加到它的攻击和伤害骰中。它造成的伤害是辐射伤害，伤害骰为{@dice d4}。这个骰子会随着你获得的武僧等级而改变，如武僧表中的武术栏所示。",
+				"当你在你的回合内进行{@action Attack}动作并将这个特殊攻击作为其中的一部分时，你可以花费1点气点将这个特殊攻击作为一个奖励动作使用两次。当你获得额外攻击特性时，这个特殊攻击可以用于你进行{@action Attack}动作的任何一次攻击。"
+			]
+		},
+		{
+			"name": "Searing Arc Strike",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"在6级时，你获得了将你的气聚集成灼热能量波的能力。在你的回合上，当你执行{@action Attack}动作后，你可以花费2点气来将{@spell burning hands}法术作为一个奖励动作施放。",
+				"你可以花费额外的气点将{@spell burning hands}作为更高级别的法术施放。每额外花费一个气点，法术的等级就增加1。你可以在这个法术上花费的最大气点数为（2加上任何额外的点数），等于你的武僧等级的一半。"
+			]
+		},
+		{
+			"name": "Searing Sunburst",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"在11级时，你获得了创造一个光球并引爆成毁灭性爆炸的能力。作为一个动作，你可以魔法地创造一个光球并投掷到你选择的150英尺内的一个点，它会在短暂但致命的瞬间爆炸成一个辐射光的球体。",
+				"在那个直径20英尺的球体内的每个生物必须成功进行一次体质豁免才能避免受到{@damage 2d6}辐射伤害。如果生物身后有不透明的完全掩体，那么该生物就无需进行豁免检定。",
+				"你可以通过花费气点来增加球体的伤害。每花费一个气点，最多可增加3个，伤害增加{@dice 2d6}。"
+			]
+		},
+		{
+			"name": "Sun Shield",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"在17级时，你被一道明亮的魔法光环所笼罩。你在30英尺半径内散发出明亮的光芒，另外30英尺内为微弱光线。你可以将光线熄灭或恢复为一个奖励动作。",
+				"如果一个生物在这束光线照射下用近战攻击击中你，你可以使用你的反应对该生物造成辐射伤害。辐射伤害等于5 + 你的智力调整值。"
+			]
+		},
+		{
+			"name": "Leap to Your Feet",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "XGE",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 6,
+			"entries": [
+				"当你处于{@condition prone}状态时，你可以通过消耗5英尺的移动来站起来，而不是消耗一半的速度。"
+			]
+		},
+		{
+			"name": "Redirect Attack",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "XGE",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 6,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"当一个生物用近战攻击未命中你时，你可以花费1点气点作为反应，使该攻击命中你以外、你能看见且在你5英尺范围内的另一个生物。"
+			]
+		},
+		{
+			"name": "Agile Parry",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "XGE",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"如果你在你的回合中作为{@action Attack}动作的一部分进行徒手攻击，并且持有一把剑圣武器，你可以用它来自卫，如果它是一把近战武器的话。在你的手中持有武器且你没有{@condition incapacitated}的情况下，你的AC获得+2的加值，直到你的下一个回合开始。"
+			]
+		},
+		{
+			"name": "Kensei's Shot",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "XGE",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"你可以在你的回合使用一个奖励动作，使你用剑圣武器进行的远程攻击更加致命。当你这样做时，任何被你用剑圣武器进行远程攻击击中的目标会额外受到武器类型伤害的{@damage 1d4}。你将保留这个效果直到当前回合结束。"
+			]
+		}
+	]
+}

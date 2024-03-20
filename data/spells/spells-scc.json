@@ -1,0 +1,229 @@
+{
+	"spell": [
+		{
+			"name": "Borrowed Knowledge",
+			"source": "SCC",
+			"page": 37,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a book worth at least 25 gp",
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你从过去的神灵那里汲取知识。选择一项你缺乏熟练度的技能。在咒语的持续时间内，你对所选择的技能拥有熟练度。如果你再次施法，咒语会提前结束。"
+			]
+		},
+		{
+			"name": "Kinetic Jaunt",
+			"source": "SCC",
+			"page": 37,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你用舞蹈般的步伐神奇地赋予你的运动，在这期间给自己带来以下好处。",
+				{
+					"type": "list",
+					"items": [
+						"你的行走速度增加10英尺。",
+						"你不会挑起机会攻击。",
+						"您可以在其他生物的空间内移动，但不计入 {@quickref difficult terrain||3}。如果你在另一个生物的空间中结束回合，你会被分流到你占据的最后一个未被占用的空间，并受到{@damage 1d8}的力量伤害。"
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			]
+		},
+		{
+			"name": "Silvery Barbs",
+			"source": "SCC",
+			"page": 38,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你用魔法分散了触发生物的注意力，并将其短暂的不确定性转化为另一生物的鼓励。触发生物必须重新投掷{@dice d20}，并使用较低的点数。",
+				"然后你可以选择一个你能看到的范围内的不同生物（你可以选择自己）。被选择的生物在1分钟内进行的下一次攻击卷、能力检查或蓄力投掷时具有优势。一个生物每次只能通过使用这个法术来获得力量。"
+			],
+			"miscTags": [
+				"ADV",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Vortex Warp",
+			"source": "SCC",
+			"page": 38,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你用魔法扭曲另一个你能看到的范围内的生物周围的空间。目标必须在宪法规定的投掷中成功（目标可以选择失败），或者目标被传送到一个你可以看到的范围内无人的空间。所选择的空间必须是在一个表面或液体中，能够支持目标而不需要目标挤压。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用3级或更高等级的法术槽施展此法术时，法术槽等级每超过2级，其范围就会增加30英尺。"
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT",
+				"TP"
+			]
+		},
+		{
+			"name": "Wither and Bloom",
+			"source": "SCC",
+			"page": 38,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a withered vine twisted into a loop"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你在范围内的一个点中心召唤出一个半径为10英尺的球体，同时施加死亡和生命的力量。该区域内你选择的每个生物必须进行一次体质豁免才能，未通过豁免的生物会受到{@damage 2d6}点死灵伤害，通过豁免的生物则只受到一半伤害。该区域内的非魔法植被会凋零。",
+				"此外，你在该区域选择的一个生物可以花费并掷出它的一个未使用的命中率，并重新获得与掷出的命中率加你的法术能力修改值相等的命中率。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用3级或更高级别的法术位施放此法术时，伤害增加{@scaledamage 2d6|2-9|1d6}，每个高出2级的法术位增加1个可用于治疗骰投掷的骰子数量。"
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"HL"
+			]
+		}
+	]
+}

@@ -1,0 +1,1215 @@
+{
+	"spell": [
+		{
+			"name": "Blade of Disaster",
+			"source": "TCE",
+			"page": 106,
+			"otherSources": [
+				{
+					"source": "IDRotF",
+					"page": 318
+				}
+			],
+			"level": 9,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你可以在范围内看到的无人空间中制造一个长约 3 英尺的叶片状平面裂缝。刀刃会持续一段时间。当你施放这个法术时，你最多可以用刀刃进行两次近战法术攻击，每次攻击刀刃周围 5 英尺内的生物、松散物体或建筑。命中时，目标会受到 {@damage 4d12} 力量伤害。如果 {@dice d20} 上的数字为 18 或更高，这次攻击将获得重击。如果命中要害，剑刃会造成额外的 {@damage 8d12} 力量伤害（总计 {@damage 12d12} 力量伤害）。",
+				"作为你回合的额外行动，你可以将这把刀移动到你能看到的无人空间，最多可以移动30英尺，然后用它再次进行两次近身法术攻击。",
+				"这把刀可以无害地穿过任何屏障，包括{@spell wall of force}。"
+			],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			],
+			"areaTags": [
+				"MT"
+			]
+		},
+		{
+			"name": "Booming Blade",
+			"source": "TCE",
+			"page": 106,
+			"otherSources": [
+				{
+					"source": "SCAG",
+					"page": 142
+				}
+			],
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon worth at least 1 sp",
+					"cost": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你挥舞着施法时使用的武器，对距离你5英尺内的一个生物进行近战攻击。命中后，目标遭受武器攻击的正常效果，然后被雷鸣能量包裹，直到你下个回合开始。如果目标在那之前自愿移动5英尺或更多，目标会受到{@damage 1d8} 雷霆伤害，并且法术结束。",
+				"这个法术的伤害会随着你达到一定等级而增加。在5级时，近战攻击对目标造成额外 {@damage 1d8} 的雷属性伤害，并且目标因移动而受到的伤害增加到 {@damage 2d8}。在11级时，这两次伤害骰都会增加1d8 ({@damage 2d8} 和 {@damage 3d8})，而在17级时再次增加 ({@damage 3d8} 和 {@damage 4d8})。"
+			],
+			"scalingLevelDice": [
+				{
+					"label": "thunder damage on moving",
+					"scaling": {
+						"1": "1d8",
+						"5": "2d8",
+						"11": "3d8",
+						"17": "4d8"
+					}
+				},
+				{
+					"label": "thunder damage on hit",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Dream of the Blue Veil",
+			"source": "TCE",
+			"page": 106,
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a magic item or a willing creature from the destination world"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 6
+					}
+				}
+			],
+			"entries": [
+				"在施法范围内，你和最多八个愿意的生物在法术持续时间内陷入 {@condition unconscious}，并体验另一个世界的幻象，比如奥斯(Oerth)、托瑞尔(Toril)、克瑞恩(Krynn)或伊布隆(Eberron)。如果法术达到完整持续时间，幻象会以每个人遇到并拉开神秘的蓝色帷幕而结束。然后，法术会让你们在精神和身体上被传送到幻象中的那个世界。",
+				"要施展这个法术，你必须有一个源自你想要到达的世界的魔法物品，而且你必须知道这个世界的存在，即使你不知道这个世界的名字。你在另一个世界的目的地是距离魔法物品创造地1英里内的一个安全地点。另外，如果有一个受影响的生物出生在另一个世界，你也可以施展这个法术，这将使你的目的地成为该生物出生地1英里内的安全地点。",
+				"如果一个生物受到任何伤害，该咒语就会在该生物身上提前结束，而且该生物不会被传送。如果你受到任何伤害，则你和所有其他生物的咒语都会结束，而你们都不会被传送。"
+			],
+			"conditionInflict": [
+				"unconscious"
+			],
+			"miscTags": [
+				"PS",
+				"TP"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Green-Flame Blade",
+			"source": "TCE",
+			"page": 107,
+			"otherSources": [
+				{
+					"source": "SCAG",
+					"page": 143
+				}
+			],
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a melee weapon worth at least 1 sp",
+					"cost": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你挥舞着施法时使用的武器，用它对你周围5英尺内的一个生物进行近身攻击。一旦命中，目标将受到武器攻击的正常效果，并且你可以使绿色火焰从目标处跃迁到你所选择的5英尺范围内的另一个生物身上，你可以看到它。第二个生物受到的火焰伤害等于你的法术能力修改器。",
+				"这个法术的伤害会随着你达到一定等级而增加。在5级时，近战攻击对目标造成额外 {@damage 1d8} 的火焰伤害，并且对第二个生物的火焰伤害增加到 {@damage 1d8} + 你的法术属性调整值。在11级时，这两次伤害骰都会增加 {@damage 1d8} ({@damage 2d8} 和 {@damage 2d8})，而在17级时，它们分别增加到 {@damage 3d8} 和 {@damage 3d8}。"
+			],
+			"scalingLevelDice": [
+				{
+					"label": "fire damage to secondary creature",
+					"scaling": {
+						"1": "{{spellcasting_mod}}",
+						"5": "1d8 + {{spellcasting_mod}}",
+						"11": "2d8 + {{spellcasting_mod}}",
+						"17": "3d8 + {{spellcasting_mod}}"
+					}
+				},
+				{
+					"label": "fire damage on hit",
+					"scaling": {
+						"5": "1d8",
+						"11": "2d8",
+						"17": "3d8"
+					}
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"miscTags": [
+				"AAD",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"MT",
+				"ST"
+			]
+		},
+		{
+			"name": "Intellect Fortress",
+			"source": "TCE",
+			"page": 107,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"在持续时间内，你或你能看到的范围内的一个自愿的生物对精神伤害有抵抗力，以及在智力、智慧和魅力方面有优势。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用四级或更高等级的法术槽施放此法术时，你可以针对三级以上的每一个法术槽的一个额外生物。当你瞄准它们时，这些生物必须在30英尺范围内。"
+					]
+				}
+			],
+			"damageResist": [
+				"psychic"
+			],
+			"miscTags": [
+				"ADV",
+				"SGT"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lightning Lure",
+			"source": "TCE",
+			"page": 107,
+			"otherSources": [
+				{
+					"source": "SCAG",
+					"page": 143
+				}
+			],
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你创造一道闪电能量，打击你能看到的距离15英尺内的一个生物。目标必须成功进行一次力量豁免才能抵抗，否则将被拉向你10英尺的直线距离，然后如果目标在你5英尺内，则受到{@damage 1d8} 闪电伤害。",
+				"这个法术的伤害在你达到5级（{@damage 2d8}），11级（{@damage 3d8}），和17级（{@damage 4d8}）时增加了{@dice 1d8}。"
+			],
+			"scalingLevelDice": {
+				"label": "lightning damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Mind Sliver",
+			"source": "TCE",
+			"page": 108,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你向你能看到的一只生物的大脑中注入了一股令人迷惑的精神能量。目标必须成功通过一个智力豁免才能避免受到{@damage 1d6}点的精神伤害，并在你的下一个回合结束前的下一个豁免检定中减去{@dice 1d4}点。",
+				"这个法术的伤害会在你达到特定等级时增加 {@dice 1d6}: 第5级 ({@dice 2d6}), 第11级 ({@dice 3d6}), 和第17级 ({@dice 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "psychic damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Spirit Shroud",
+			"source": "TCE",
+			"page": 108,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出亡灵，它们在咒语的持续时间内围绕着你飞舞。亡灵是无形的，也是无坚不摧的。",
+				"在这个咒语持续期间，当你击中距离你10英尺内的生物时，你发动的任何攻击都会额外造成{@damage 1d8}伤害。这个伤害可以是光耀、死灵或寒冷属性（在施放咒语时选择）。受到这种伤害的生物直到你下一个回合开始前都无法恢复生命值。",
+				"此外，你所选择的任何你能看到的、在你10英尺范围内开始其回合的生物，其速度降低10英尺，直到你下一个回合开始。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用4级或更高级别的法术位施放这个法术时，伤害会每超过3级增加{@scaledamage 1d8|3,5,7,9|1d8}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant",
+				"necrotic",
+				"cold"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Summon Aberration",
+			"source": "TCE",
+			"page": 109,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pickled tentacle and an eyeball in a platinum-inlaid vial worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个畸变灵魂。它会显现在你能看到的范围内的一个未被占据的空间。这个实体形态使用{@creature Aberrant Spirit|TCE}的属性块。当你施放这个法术时，选择眼魔亲属（Beholderkin）、斯拉德（Slaad）或星界孵化物（Star Spawn）。这个生物类似于那种畸变生物，这决定了其属性块中的某些特征。当它的生命值降至0或法术结束时，这个生物会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用5级或更高等级的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Beast",
+			"source": "TCE",
+			"page": 109,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 gp",
+					"cost": 20000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一只野兽精灵。它会出现在你能看到的射程内的一个未被占据的空间中。这个有形的形态使用{@creature Bestial Spirit|TCE}的属性块。当你施放这个咒语时，选择一个环境：空气、陆地或水。这个生物类似于你选择的生物，该生物是选择环境中的本地动物，这决定了其属性块中的某些特征。当生物的生命值降至0或咒语结束时，生物会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用3级或更高等级的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Celestial",
+			"source": "TCE",
+			"page": 110,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a golden reliquary worth at least 500 gp",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个天界精灵。它以天使形态出现在你能看到的范围内的一个空地。这个有形的形态使用{@creature Celestial Spirit|TCE}的属性块。当你施放这个法术时，选择复仇者或守护者。你的选择决定了生物在属性块中的攻击方式。当生物的生命值降至0或法术结束时，它会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用6级或更高等级的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Summon Construct",
+			"source": "TCE",
+			"page": 111,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an ornate stone and metal lockbox worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个构装灵体。它会显现在你能看到的范围内的一个空地。这个有形的形态使用{@creature Construct Spirit|TCE}的属性块。当你施放这个法术时，选择一个材料：黏土、金属或石头。这个生物类似于一个由选定材料制成的傀儡或模德龙（你的选择），这决定了其属性块中的某些特征。当这个生物的生命值降至0或法术结束时，它会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用四级或更高的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Elemental",
+			"source": "TCE",
+			"page": 111,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "air, a pebble, ash, and water inside a gold-inlaid vial worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个元素精灵。它会显现在你能看到的范围内一个未被占据的空间。这个有形的形态使用{@creature Elemental Spirit|TCE}的属性块。当你施放这个法术时，选择一个元素：空气(Air)、土地(Earth)、火(Fire)或水(Water)。这个生物看起来像一个双足生物，被你选择的元素所环绕，这会影响它属性块中的某些特征。当这个生物的生命值降至0或法术结束时，它会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用5级或更高等级的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Fey",
+			"source": "TCE",
+			"page": 112,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded flower worth at least 300 gp",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个精灵灵魂。它显现在你能看到的范围内的一个未被占据的空间。这个有形的形态使用{@creature Fey Spirit|TCE}的属性块。当你施放这个咒语时，选择一种心情：愤怒、欢乐或诡计。这个生物类似于你选择的带有所选心情标记的精灵生物，这决定了其属性块中的一个特征。当它的生命值降至0或咒语结束时，这个生物会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用四级或更高的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Fiend",
+			"source": "TCE",
+			"page": 112,
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "humanoid blood inside a ruby vial worth at least 600 gp",
+					"cost": 60000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个邪恶的灵魂。它会显现在你能看到的范围内的一个未被占据的空间。这个有形的形态使用{@creature Fiendish Spirit|TCE}的属性块。当你施放这个法术时，选择恶魔、恶魔或犹格洛斯。这个生物类似于所选择类型的邪恶生物，在其属性块中确定了某些特征。当这个生物的生命值降至0或法术结束时，它会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用7级或更高等级的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Shadowspawn",
+			"source": "TCE",
+			"page": 113,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "tears inside a gem worth at least 300 gp",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个阴影精灵。它显现在你能看到的范围内的一个未被占据的空间。这个有形的形态使用{@creature Shadow Spirit|TCE}的属性块。当你施放这个法术时，选择一种情感：愤怒，绝望或恐惧。这个生物类似于一个被选定情感标记的畸形两足动物，在其属性块中确定了某些特征。当它的生命值降至0或法术结束时，这个生物会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用四级或更高的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Summon Undead",
+			"source": "TCE",
+			"page": 114,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded skull worth at least 300 gp",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"你召唤出一个不死灵魂。它会显现在你能看到的范围内的一个未被占据的空间。这个有形的形态使用{@creature Undead Spirit|TCE}的属性块。当你施放这个法术时，选择生物的形态：幽灵状、腐臭状或骷髅状。这个灵魂看起来像一个具有所选形态的不死生物，这决定了其属性块中的某些特征。当生物的生命值降至0或法术结束时，它会消失。",
+				"这个生物是你和你的同伴的盟友。在战斗中，这个生物与你共享先攻顺序，但它会在你之后立刻行动。它会听从你的口头指令（你不需要使用动作）。如果你没有下达任何指令，它会执行{@action Dodge}动作并利用移动来避开危险。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用四级或更高的法术槽施放此法术时，在状态块中法术等级出现的地方使用更高的等级。"
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Sword Burst",
+			"source": "TCE",
+			"page": 115,
+			"otherSources": [
+				{
+					"source": "SCAG",
+					"page": 143
+				}
+			],
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"你制造出一个瞬时的幻影刀圈，围绕着你旋转。所有距离你5英尺以内的其他生物必须进行一次敏捷豁免检定，否则将受到{@damage 1d6}的力量伤害。",
+				"这个法术的伤害在你达到5级（{@damage 2d6}），11级（{@damage 3d6}）和17级（{@damage 4d6}）时增加了{@dice 1d6}。"
+			],
+			"scalingLevelDice": {
+				"label": "force damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Tasha's Caustic Brew",
+			"source": "TCE",
+			"page": 115,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of rotten food"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"酸性物质从你身上喷射出来，形成一个长30英尺、宽5英尺的直线，方向由你选择。直线上的每个生物必须进行一次敏捷豁免才能避免被酸液覆盖，直到咒语持续时间结束或有生物使用动作清除酸液。被酸液覆盖的生物在其回合开始时会受到{@damage 2d4}酸性伤害。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用2级或更高级别的法术位施放这个法术时，伤害会每超过1级的法术位等级增加{@scaledamage 2d4|1-9|2d4}。"
+					]
+				}
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Tasha's Mind Whip",
+			"source": "TCE",
+			"page": 115,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"你对着你能看到的一个生物进行精神攻击。目标必须进行一次智力豁免才能。如果豁免失败，目标会受到{@damage 3d6}点精神伤害，并且直到其下一个回合结束前无法作出反应。此外，在它的下一个回合，它必须选择是移动、行动还是奖励行动中的一个；它只能选择其中一个。如果豁免成功，目标受到一半伤害且不受法术的其他影响。"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"当你使用3级或更高等级的法术槽施放此法术时，你可以针对2级以上的每一个法术槽的一个额外生物。当你瞄准它们时，这些生物必须在30英尺范围内。"
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tasha's Otherworldly Guise",
+			"source": "TCE",
+			"page": 116,
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"通过念咒语，你利用下层世界或上层世界的魔法（由你选择）来改造自己。在咒语结束之前，你会获得以下好处。",
+				{
+					"type": "list",
+					"items": [
+						"你对火和毒的伤害（下层世界）或辐射和坏死的伤害（上层世界）免疫。",
+						"你对{@condition poisoned}状态（下位位面）或{@condition charmed}状态（上位位面）免疫。",
+						"幽灵之翼出现在你的背上，使你的飞行速度达到40英尺。",
+						"你有一个+2的交流奖励。",
+						"你所有的武器攻击都具有魔力，当你进行武器攻击时，你可以使用你的法术能力修饰，而不是力量或灵巧，来进行攻击和伤害卷。",
+						"当你在你的回合上执行{@action Attack}动作时，你可以攻击两次，而不是一次。如果你已经拥有类似额外攻击(Extra Attack)的特性，让你在你的回合上执行攻击动作时可以攻击多次，你将忽略这个效果。"
+					]
+				}
+			],
+			"damageImmune": [
+				"fire",
+				"poison",
+				"radiant",
+				"necrotic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"miscTags": [
+				"MAC"
+			]
+		}
+	]
+}

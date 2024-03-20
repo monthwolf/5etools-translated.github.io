@@ -1,0 +1,957 @@
+{
+	"data": [
+		{
+			"type": "section",
+			"name": "Krenko's Way",
+			"page": 160,
+			"id": "000",
+			"entries": [
+				"\"{@creature Krenko|KKW}之路 \"是一个简短的冒险，适合4至6名1级冒险者，他们在冒险结束时可能会提升到2级。它的背景是拉夫尼卡的第十区，可以作为该设定的入门冒险。角色等级的平衡是有帮助的，因为冒险者们将面临各种挑战。冒险者可以隶属于任何一个行会。",
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "adventure/KKW/109-429.webp"
+					},
+					"width": 1001,
+					"height": 668,
+					"credit": "Karl Kopinski"
+				},
+				{
+					"type": "section",
+					"name": "Story Overview",
+					"page": 160,
+					"id": "001",
+					"entries": [
+						"{@creature Krenko|KKW}是臭名昭著的地精团伙的头目，他通过大多数时间避开了行会的势力范围，积累了财富并建立了声誉。他成功地给第十区的市民带来了无尽的麻烦，但也吸引了行会的注意。作为一个狡猾的机会主义者，{@creature Krenko|KKW}花了多年时间将地精街头无赖整合成了他那忠诚的团伙。他在残酷而强大的人群中建立了联系，专门从事高价值的盗窃和混乱行为。在他影响力的顶峰，他与Shattergang兄弟展开了一场激烈的地盘争夺战，后者是另一个经常从事非法武器交易的地精团伙。传言四起，称{@creature Krenko|KKW}在一次武器交易失败后杀死了三兄弟中最年轻的Dargig。",
+						"剩下的两兄弟，瑞基格 (Rikkig) 和加达基格 (Gardagig)，试图为他们亲人的死报仇而杀死{@creature Krenko|KKW}。在他们行凶之前，{@creature Krenko|KKW} 被波洛斯军团逮捕并关押在锯齿监狱\u2014\u2014位于军团总部圣殿阳光之家附近\u2014\u2014度过余生。但像{@creature Krenko|KKW} 这样地位显赫的人有办法缩短自己的刑期。",
+						"在监狱里煽动暴乱，使他被转移到乌泽克，一个位于第十区第二选区的最高安全设施，由阿佐里乌斯参议院管理。在转移过程中，{@creature Krenko|KKW}的一个前同伙的特工制造了一个分心，他得以溜走，与他的团伙会合。现在他正在策划下一步行动，因为他要重新建立对其犯罪企业的权力。",
+						"{@creature Krenko|KKW}的逃脱绝非小事。《(\\Guildpact\\)公会议室》介入此事，对另一场可能威胁公会间脆弱和平的地精帮派战争感到担忧。在冒险过程中，《(\\Shattergang Brothers\\)粉碎帮兄弟》得知{@creature Krenko|KKW}的逃脱消息，急于让他付出代价。",
+						{
+							"type": "inset",
+							"name": "Guildless Villains",
+							"page": 160,
+							"id": "002",
+							"entries": [
+								"在拉夫尼卡的战役中，并非每个反派都是公会成员，也并非每个计划都源自公会。当你在拉夫尼卡建立自己的冒险时，你可以使用{@book Dungeon Master's Guide|DMG}中关于创建反派的建议来制作一个无公会的反派，一个喜欢在公会结构之外独立行动，甚至试图完全破坏这种结构的人。不过，更多时候，公会会被证明参与了甚至是小反派的计划。"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Running the Adventure",
+					"page": 161,
+					"id": "003",
+					"entries": [
+						"这个冒险需要第五版D&D规则书({@book Player's Handbook|PHB}, {@book Dungeon Master's Guide|DMG}, 和 {@book Monster Manual|MM})。在尝试主持之前，你应该阅读整个冒险。如果你更喜欢玩游戏，你就不应该再往下读了。",
+						{
+							"type": "insetReadaloud",
+							"id": "004",
+							"entries": [
+								"出现在这样的方框中的文字是为了让玩家在他们的角色第一次到达某个地点或在某个特定情况下大声朗读或转述，如文中所述。"
+							]
+						},
+						"{@book Monster Manual|MM}包含了这个冒险中发现的许多生物的统计数据。当一个生物的名字以{@b bold}的字体出现时，那是一个视觉提示，告诉你在{@book Monster Manual|MM}中该生物的统计块。如果状态块出现在其他地方，冒险故事的文字会告诉你。",
+						{
+							"type": "entries",
+							"name": "Adventure Summary",
+							"page": 161,
+							"id": "005",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/KKW/110-430.webp"
+									},
+									"width": 1989,
+									"height": 1455,
+									"credit": "Kev Walker"
+								},
+								"冒险开始于锯齿监狱，一行人被公会商会的官员Nassius Ven召见。他解释说，{@creature Krenko|KKW}在一次监狱转移过程中逃跑了，当务之急是人物要找到他，并尽快谨慎地将他带回法庭。",
+								"角色可以沿着转移路线进行回溯，采访卫兵以获取更多信息，并利用他们在城市中的联系了解更多关于{@creature Krenko|KKW}的情况。如果他们在调查中不谨慎，可能会引起Shattergang Brothers的注意，这是一个意图谋杀{@creature Krenko|KKW}的对手团伙。该团伙的成员将在整个城市跟踪小精灵头目的位置。",
+								"最终，冒险者们找到了{@creature Krenko|KKW}的藏身之处：一个靠近运河的仓库。与地精头目、他的随从以及可能的Shattergang干涉者进行最后的决战随之而来。然后只需将{@creature Krenko|KKW}送回给纳西斯，以免更多麻烦爆发。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Krenko's Patron",
+							"page": 161,
+							"id": "006",
+							"entries": [
+								"{@creature Krenko|KKW}在狱中与一个派别达成了协议。在他转狱期间，该派系的成员打倒了他的护卫队并释放了他。",
+								"在冒险开始时，你可以从下表中掷出一个赞助人，或者你可以选择一个（最好是党内没有冒险者代表的公会）。这个赞助人会以特定的方式影响{@creature Krenko|KKW}的逃亡故事（如下表所示），如果你选择的话，可能会影响未来的冒险。",
+								{
+									"type": "table",
+									"caption": "Krenko's Patron",
+									"colLabels": [
+										"d6",
+										"Guild"
+									],
+									"colStyles": [
+										"text-center col-2",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"{@b Dimir}. 一场无法穿透的大雾出现了，迷惑了护卫队，遮蔽了他们的视线。{@creature Krenko|KKW}滑落了他的束缚，在雾中窜了出去。"
+										],
+										[
+											"2",
+											"{@b Golgari}. 一群蜈蚣从附近的下水道里冲了出来，压倒了卫兵们，用毒牙咬伤他们，将他们打倒。当卫兵们苏醒过来时，{@creature Krenko|KKW} 已经消失了。"
+										],
+										[
+											"3",
+											"{@b Gruul}. 一支葛鲁尔战队在街上呐喊着冲过，摧毁一切阻挡在路上的东西。卫兵们与葛鲁尔发生冲突；在战斗中，其中一名卫兵解开了{@creature Krenko|KKW}的绳索，让这只地精逃离了现场。"
+										],
+										[
+											"4",
+											"{@b Izzet}. 一对装甲法师乘着盘旋的圆盘从天而降。他们把连接在手臂上的装置对准守卫，用震荡波把他们轰回去。当守卫正在恢复的时候，法师们用魔法溶解了{@creature Krenko|KKW}的束缚，他逃了出来。"
+										],
+										[
+											"5",
+											"{@b Rakdos}. 一群表演者与卫兵相遇，被一场火爆的杂耍街头表演吸引住了。当表演结束时，{@creature Krenko|KKW} 不见了。"
+										],
+										[
+											"6",
+											"{@b Simic}. 一条天鲸拦截并攻击了{@creature Krenko|KKW}的护卫队。它释放了强大的闪电，击倒了所有的卫兵。当他们醒来的时候，{@creature Krenko|KKW}已经消失了。"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Starting the Adventure",
+					"page": 162,
+					"id": "007",
+					"entries": [
+						"一旦玩家准备好开始，请阅读或转述以下介绍性文字。",
+						{
+							"type": "insetReadaloud",
+							"id": "008",
+							"entries": [
+								"第十区的生活从不乏味。作为一个不断活动的中心，它总是提供一个新的机会，一个新的挑战，一个新的阴谋。在这里，像你这样有前途的冒险家可以通过对公会的忠诚找到通往荣耀、财富或权力的道路。但首先你需要一份能帮助你证明自己价值的工作。",
+								"今天是你的幸运日。今天下午，你收到了你的一个联系人的简短说明。\"我今天听说有人在寻找帮助，寻找一些东西。看上去很严肃。对你来说可能是个好机会。黄昏时在锯齿监狱外见面。\"",
+								"在约定的时间，你发现自己和其他志同道合的人聚集在功能齐全、毫不起眼的锯齿监狱的大门外。"
+							]
+						},
+						"如果他们还不熟悉的话，让玩家们互相介绍自己的角色。这也可能是一个让角色确定或发现可能将他们联系起来的个人联系的时机，例如共同的熟人或联系人、共同的背景，或住在同一个社区。一旦这些人物有机会相互认识，就读。",
+						{
+							"type": "insetReadaloud",
+							"id": "009",
+							"entries": [
+								"当太阳从城市的尖顶和塔楼后面落下时，鹅卵石上开始下起了小雨。你看到一个穿戴整齐的男性维达尔肯人从监狱的一侧走过来。他深蓝色的脸上带着温和而关切的表情。他举起手来招呼你们，并以低沉的语气说话，他的眼睛打量着你们一行人和附近的环境。\"你是来帮我们找东西的吗？\""
+							]
+						},
+						"这是纳西斯·文(Nassius Ven)，一名维达肯{@creature noble}，也是公约办公室的代理人。虽然阿佐瑞斯(Azorius)和波洛斯(Boros)帮助维持法律和维护和平，但公约办公室试图在活动公约不在时帮助平息各行会之间的争端。纳西斯要雇佣角色们追踪{@creature Krenko|KKW}，因为他怀疑一个或多个行会参与了这位地精头目的逃脱，但不知道具体是谁参与其中。",
+						{
+							"type": "entries",
+							"name": "Roleplaying Nassius Ven",
+							"page": 162,
+							"id": "00a",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/KKW/111-431.webp"
+									},
+									"width": 1000,
+									"height": 888,
+									"credit": "Richard Wright"
+								},
+								"在得到当事人的肯定回答后，纳西乌斯交给人物一份来自锯齿监狱的档案，上面有一个自鸣得意、面目狰狞的男性妖精形象。纳修斯提供了以下信息，可以通过与他的对话来传达。",
+								{
+									"type": "list",
+									"items": [
+										"\"我们需要你的特殊技能来协助找回一名今天早上日出前脱逃的罪犯。他在转移到乌泽克的过程中逃跑了，乌泽克是一座最高安全级别的监狱，他将在那里度过余下的日子。\"",
+										"\"他的名字是{@creature Krenko|KKW}。他是一个在锻造街附近活动的一大群地精的头目。他被逮捕以回答一长串罪行，包括谋杀。据称他煽动了一场骚乱，导致一周前这所监狱里一名警卫和两名囚犯丧生。监狱长决定事情够了，于是安排了他的转移。\"",
+										"\"{@creature Krenko|KKW}招惹了许多敌人，但是Shattergang兄弟是他最大的威胁。他们是一伙专门从事非法武器交易的对手地精团伙，他们想要报复性地杀死{@creature Krenko|KKW}，以报复他们一名中尉的谋杀。这名死去的中尉恰好是这伙团伙的三兄弟中最年轻的一个。一旦他们知道他已经逃脱，他们会毁掉整个街区来找到他。\"",
+										"\"通常情况下，我们会让阿佐里斯(Azorius)来处理这个情况，但我们怀疑{@creature Krenko|KKW}在逃跑时可能得到了其他公会的帮助。我们正在邀请其他人来调查这种联系，因为这可能指向一个更大的问题。\"",
+										"\"我们需要你追踪{@creature Krenko|KKW}并将他活捉。然后我们可以审讯他，确保他永远离开街头。\"",
+										"\"我准备立即给你十个齐诺{@creature Krenko|KKW}，以支付你在调查过程中可能发生的任何费用。在交付罪犯后，你将获得一百个齐诺{@creature Krenko|KKW}，以及我的感激之情，我会转达给你们的公会领导。在任何情况下，你们都不应该尝试自行询问{@creature Krenko|KKW}。\""
+									]
+								},
+								"如果有人问他，纳西欧斯会提供守卫对他逃跑情况的描述（见\"{@creature Krenko|KKW}的赞助人\"）。守卫已经被彻底审问过了，{@creature Krenko|KKW}的线索已经中断了。纳西乌斯急于让这些人物尽快开始行动，以防止碎石帮兄弟知道{@creature Krenko|KKW}的逃跑。",
+								"纳西欧斯要求大家把{@creature Krenko|KKW}带到一个古老的塞勒斯尼亚粮仓，这个粮仓在该区边缘的格鲁尔突袭中被损坏。在那里，他将把{@creature Krenko|KKW}拘留。",
+								"Nassius在被问及为什么不应该审问{@creature Krenko|KKW}或为什么角色们应该把他带到谷仓时，总是含糊其辞。当面对这类问题时，他的眼睛来回闪烁。如果角色在一次DC 15的智力检定中成功({@skill Insight})，就会知道Nassius并不完全坦诚。即使被迫，Nassius也不会提供任何除了任务目标以外的信息。"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Search for Krenko",
+					"page": 163,
+					"id": "00b",
+					"entries": [
+						"一旦纳修斯离开，人物就可以开始工作了。他们可以随心所欲地进行调查，但时间是最重要的，因为街上的消息最终会传到碎石帮兄弟那里，他们又开始了一场地盘争夺战，要把{@creature Krenko|KKW}冲出去。",
+						{
+							"type": "entries",
+							"name": "Timeline of Events",
+							"page": 163,
+							"id": "00c",
+							"entries": [
+								"下面是一条时间线，说明自从{@creature Krenko|KKW}逃跑后所发生的事情，以及在没有干扰的情况下，未来会发生什么。只要冒险者参与进来，事件可能会发生巨大的变化，但下面的时间线仍然可以帮助你确定参与故事的各个NPC对玩家角色的行动会有什么反应。",
+								{
+									"type": "inset",
+									"id": "00d",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												"{@b Early Morning, Day 1}: {@creature Krenko|KKW}逃逸。",
+												"{@b Late Morning, Day 1}: {@creature Krenko|KKW}与他的团伙会面，并为自己准备好伪装。",
+												"{@b Noon, Day 1}: {@creature Krenko|KKW}和他的团伙在当地找到了一个废弃的仓库，作为暂时的老板藏身之所。",
+												"{@b Sunset, Day 1}: 冒险者们接到任务。",
+												"{@b Late Evening, Day 1}: {@creature Krenko|KKW}向法利什(Falish)\u2014\u2014一位人类武器交易商\u2014\u2014订购武器。",
+												"{@b Noon, Day 2}: {@creature Krenko|KKW}帮派的额外执法者抵达{@creature Krenko|KKW}的藏身处。",
+												"{@b Sunset, Day 2}: 碎石帮兄弟听说{@creature Krenko|KKW}逃跑了，于是动员起来去找他。法利什在铸造厂街的投放点留下了一批武器，一个地精把这些武器带回了{@creature Krenko|KKW}的藏身处。",
+												"{@b Late Evening, Day 2}: 爆炸声在铸造街上响起，Shattergang兄弟开始强制那些与{@creature Krenko|KKW}有往来的市民。Lyev柱 (Azorius执法部门) 被派往铸造街调查骚乱。",
+												"{@b Predawn, Day 3}: 碎石帮兄弟发现了{@creature Krenko|KKW}的位置，那里发生了巨大的爆炸，炸平了建筑物，杀死了许多地精（{@creature Krenko|KKW}幸存）。",
+												"{@b Noon, Day 3}: 铸造街区正遭受可怕的地精帮派暴力。波洛斯军团被召集前来平息这一地区。"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Dossier",
+							"page": 163,
+							"id": "00e",
+							"entries": [
+								"冒险家们可以在锯齿监狱的档案中找到以下信息。",
+								{
+									"type": "list",
+									"items": [
+										"{@creature Krenko|KKW}当了几年的地精黑帮老大。他的地盘在铸造厂街附近。他一直是众多与黑帮老大相称的犯罪行为的嫌疑人，但却设法逃避法律的制裁--直到最近。",
+										"{@creature Krenko|KKW} 被Boros军团的自由雇佣兵Gideon Jura拘留。{@creature Krenko|KKW} 被判犯有谋杀Shattergang兄弟之一Dargig的罪行，以及袭击Gideon Jura并使用致命武器。",
+										"被捕时，他身上的武器是一把神奇的shiv（一把监狱刀）。据报道，它可以冲破武力障碍。不知道{@creature Krenko|KKW}如何获得该武器。",
+										"{@creature Krenko|KKW}值得注意的同伙包括神秘的塔兹先生（没有提供其他信息）和一个叛逆的伊泽特武器发明家，名叫法利什（女性人类，在锡街附近见过）。这两个人也是阿佐里乌斯感兴趣的人。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hitting the Streets",
+							"page": 163,
+							"id": "00f",
+							"entries": [
+								"人物可以采取几种方法来调查{@creature Krenko|KKW}的行踪：与联系人会面，打探传闻，或访问重要地点。",
+								{
+									"type": "entries",
+									"name": "Meet with Contacts",
+									"page": 163,
+									"id": "010",
+									"entries": [
+										"如果一个角色有合适的联系人可以向其索取信息，他们可以向该联系人寻求帮助。安排与联系人会面需要1小时，而联系人找到一个以前不知道的信息需要{@dice 1d6}小时，除非该联系人手上会有信息。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Gather Rumors",
+									"page": 163,
+									"id": "011",
+									"entries": [
+										"角色可以去公共集会场所试图获得信息。在{@dice 1d6}小时后，筛选谣言的角色进行DC15魅力（{@skill Persuasion}）检查。如果成功，他们会从下面的信息中找出一个以前未知的信息。",
+										{
+											"type": "list",
+											"items": [
+												"{@creature Krenko|KKW}的缺席损害了他的帮派的声誉。其他帮派一直在侵占他的地盘，而在街头上演另一场权力斗争只是时间问题。",
+												"锡街是一个繁华的贸易中心，也是Shattergang兄弟的领地。自从{@creature Krenko|KKW}被关起来后，他们变得有恃无恐，正准备开战，以一劳永逸地解决他的团伙。",
+												"铸造街是第十区生产设施的所在地，也是{@creature Krenko|KKW}团伙的地盘。他的执法者们还在为谁来领导而争论不休。目前，他们彼此之间都有一个不安的休战协议。",
+												"一些地精在很早的时候就在广场西边拉起了一个下水道栅栏。他们看起来不像是维修工人，并威胁任何太靠近的人。获得了这一事件的大致地点。"
+											]
+										},
+										"上面的信息中提到了三个对冒险很重要的地点：下水道、铸造厂街和铁皮街。下面将对每个地点进行详细描述。其中任何两个地点之间的旅行时间（步行）为30分钟至1小时。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Sewers at Plaza West",
+							"page": 164,
+							"id": "012",
+							"entries": [
+								"在广场西边前行的角色们，可以根据之前得到的线索寻找一个位置不对的下水道格栅。需要花费1小时时间，并成功通过一个DC 10的感知检定({@skill Perception})才能找到一个有撬棍划痕的格栅。另外，角色们也可以采访附近居民，这样只需要半小时时间，并成功通过一个DC 10的魅力检定({@skill Persuasion})就能找到格栅的位置。",
+								"只要成功地进行DC15力量检查，就可以拉起铁栅栏。一旦栅栏被打开，请阅读。",
+								{
+									"type": "insetReadaloud",
+									"id": "013",
+									"entries": [
+										"一个圆形的维修井直插黑暗之中。一个铁梯子用螺栓固定在井的一侧。下水道的刺鼻气味飘到你的鼻子前。在底部可以看到一盏微弱的灯，照亮了充满垃圾的水。"
+									]
+								},
+								"竖井中没有光源，一直向下走了50英尺，直到尽头是一个带有悬绳的折叠梯子。展开后，梯子又达到20英尺，到达下水道隧道的地面。当人物下降到地面时，请阅读。",
+								{
+									"type": "insetReadaloud",
+									"id": "014",
+									"entries": [
+										"你站在一个光线昏暗的隧道里，站在齐膝深的下水道里。两侧有一条凸起的走道，可以让你离开恶臭、充满淤泥的水。装有魔法火焰的小灯散发出昏暗的光。墙壁上布满了苔藓和地衣。"
+									]
+								},
+								"隧道由每隔30英尺左右交替设置的小型{@spell continual flame}信标昏暗地照亮。污水隧道宽30英尺，向两个方向延伸。隧道两侧各有一条宽5英尺、高5英尺的高起步道。主通道中流淌着深1英尺的水和臭气熏天的废物。",
+								"{@creature Krenko|KKW} 和其他三只地精朝这个方向走去，前往他们的新藏身处。角色们可以通过在一条人行道上成功进行 DC 10 的感知 ({@skill Perception}) 检定来发现由小型生物留下的脏靴印。在找到这些印记后，他们可以通过在 DC 15 的感知 ({@skill Survival}) 检定上成功来继续跟踪它们穿过下水道隧道。自从地精们经过这里以来的每一天，检定的 DC 值增加 5。以正常步行速度穿越这些蜿蜒隧道需要 2 小时。这些隧道靠近 Golgari 领地，但在地下城之上。",
+								"每当队伍在下水道中度过一个小时，投掷一个{@dice d20}。如果投掷结果为15或更高，队伍将遇到一个事件，根据下水道遭遇表进行决定。",
+								{
+									"type": "table",
+									"caption": "Sewer Encounters",
+									"colLabels": [
+										"d20",
+										"Encounter"
+									],
+									"colStyles": [
+										"text-center col-2",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1\u20134",
+											"拉克多的{@dice 1d4}{@creature cultist||cultists}"
+										],
+										[
+											"5\u20139",
+											"{@dice 2d4} {@creature Giant Rat||giant rats}"
+										],
+										[
+											"10\u201311",
+											"1 {@creature gray ooze}"
+										],
+										[
+											"12\u201314",
+											"1 {@creature kraul warrior|GGR}"
+										],
+										[
+											"15\u201318",
+											"1 {@creature swarm of centipedes||swarm of insects (centipedes)}"
+										],
+										[
+											"19\u201320",
+											"{@dice 1d4} {@creature zombie||zombies}被真菌覆盖"
+										]
+									]
+								},
+								"轨道的终点是隧道天花板上的另一个维修井。一根绳索从井口垂下；拉动它可以释放出一个折叠梯子，很容易就能爬上去。竖井的尽头是一个栅栏，只要成功地进行DC15力量测试，就可以把它推到一边。",
+								"人物出现在第十区第六区铸造街附近运河码头上的一个旧仓库旁的小巷里。轨道一直延伸到仓库。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tin Street",
+							"page": 164,
+							"id": "015",
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"id": "016",
+									"entries": [
+										"这个繁华的市场区域因商人、艺人、购物者和狂欢者的流动而繁忙。白天，锡街是购物和餐饮的主要目的地。到了晚上，剧院和酒馆就会热闹起来。"
+									]
+								},
+								"锡街是贯穿整个第十区的两条大道之一(见{@book chapter 3|GGR|3|Major Trade Ways})。当它穿过第六区时，碎裂帮兄弟们已经宣称了其中大部分为他们的地盘。他们时刻警惕着阿佐里斯逮捕者、敌对帮派成员和任何问太多问题的人。",
+								"铁皮街也是法利什的家，法利什是一个叛逆的伊扎特军火商，只要价格合适，就会向罪犯提供武器和炸药。",
+								{
+									"type": "entries",
+									"name": "Shattergang Eavesdropping",
+									"page": 164,
+									"id": "017",
+									"entries": [
+										"如果一次收集谣言的检查失败了5点或更多，或者角色在铁街周围调查时显得不慎重，那么沙特刚兄弟会得知有人在打听{@creature Krenko|KKW}的事情。他们派遣一位穿着普通、眼珠发亮的{@creature goblin}名叫厄科的人跟踪角色（大约60英尺），并偷偷靠近窃听对话。如果角色的被动感知力（{@skill Perception}）得分等于或超过地精的敏捷（{@skill Stealth}）检查，那么角色会注意到自己被跟踪或观察。",
+										"如果埃尔科注意到党看到了他，他就会试图逃跑，回到他的一个团伙的藏身之处。当他在天街的繁华市场上前进时，你可以把这个场景当作追逐战来进行，使用追逐战规则和{@book Dungeon Master's Guide|DMG}中的城市追逐战并发症表。",
+										"除了他的武器，Erko还带着一壶炼金术士之火，他把它扔向第一个威胁他的生物。关于使用炼金术士之火的规则，请参见{@book chapter 5|PHB|5|Adventuring Gear}的{@book Player's Handbook|PHB}。",
+										"如果一个角色审问埃尔科，并在DC10魅力({@skill Intimidation})检查中获得成功，这个地精就会透露他为破碎岗兄弟工作，而他们有兴趣知道在他们的地盘上发生了什么。他在任何情况下都不会透露他们的藏身之处。",
+										"如果埃尔科尾随冒险者足够长的时间来发现{@creature Krenko|KKW}的位置，那么碎石帮兄弟将在2小时后大举抵达{@creature Krenko|KKW}的藏身处。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Finding Falish",
+									"page": 165,
+									"id": "018",
+									"entries": [
+										{
+											"type": "image",
+											"href": {
+												"type": "internal",
+												"path": "adventure/KKW/112-432.webp"
+											},
+											"width": 1000,
+											"height": 1024,
+											"credit": "Noah Bradley"
+										},
+										"叛逆的Izzet军火商Falish在Tin街生活和工作。角色们可以在附近询问，以发现她的秘密商店的位置，但这些信息并不容易得到。",
+										{
+											"type": "entries",
+											"name": "Taverns",
+											"page": 165,
+											"id": "019",
+											"entries": [
+												"法利什是 \"磨刀石 \"的常客，这是一家肮脏的酒馆，专为粗暴的人服务。这家酒馆的老板兼酒吧老板是怀罗恩，一个长着裂纹的牛头人，性情暴躁。几年前，他因为不服从命令而被赶出了波洛军团。他一开始的态度是冷漠的，但是如果一个角色在DC10魅力（{@skill Persuasion}）检查中获得成功，他就会告诉角色，法利什有些时候会来这里喝上一两杯。第二天傍晚时分，Falish来了，她没有带喷火器。"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Merchants",
+											"page": 165,
+											"id": "01a",
+											"entries": [
+												"锡街上很少有商贩懂得法利希语，除了一位名叫诺格拉(Noggra)的女哥布林炼金术士，她经营一家名为诺格拉疗法(Noggra's Remedies)的药店。诺格拉经常为打架受伤的团伙成员包扎伤口，有时还会帮他们躲避法律的追捕。她有时会出售法利希炼金物质来增强武器。她对队伍的初始态度是中立的。如果角色询问她关于法利希的事情，并在一次 DC 20 魅力检定中成功({@skill Intimidation}或{@skill Persuasion})，她会告诉他们法利希的位置。如果角色向诺格拉提供了10金币或更多，可以获得优势进行这次检定。"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Street Talk",
+											"page": 165,
+											"id": "01b",
+											"entries": [
+												"角色可以简单地在附近询问，试图找到Falish。如果是这样，请使用 \"上街 \"中收集谣言的规则。"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Falish's Workshop",
+									"page": 165,
+									"id": "01c",
+									"entries": [
+										"一旦人物确定了Falish的位置并前往那里，请阅读。",
+										{
+											"type": "insetReadaloud",
+											"id": "01d",
+											"entries": [
+												"按照法利什商店的指示，你发现自己在一家餐馆后面的小巷里。在餐馆的后门附近有一扇较小的挂锁铁门，看起来像是来自金库。"
+											]
+										},
+										"这扇门有一个挂锁，需要通过DC15灵巧检查才能用盗贼的工具撬开，或者通过DC20力量检查才能强行打开。一旦它被打开，请阅读。",
+										{
+											"type": "insetReadaloud",
+											"id": "01e",
+											"entries": [
+												"在门外，你看到一个狭窄的楼梯，通向二十英尺以下的绿色铜门，门的中央有一个封闭的滑动窥视孔。"
+											]
+										},
+										"这扇铜门被锁住，需要使用盗贼工具成功通过一次DC 15的敏捷检定才能打开。也可以通过一次DC 20的力量检定来强行打开。门上设置了一个陷阱，当角色试图撬锁或强行打开门时会触发一个{@spell glyph of warding}法术。触发的符文会以3级施放{@spell sleep}，影响{@dice 9d8}生物的生命值。搜索门附近的角色可以通过一次DC 15的智力检定({@skill Investigation})来发现符文。",
+										"当人物进入房间时，读。",
+										{
+											"type": "insetReadaloud",
+											"id": "01f",
+											"entries": [
+												"灯笼闪烁的光亮显示出一个杂乱无章的房间，长三十英尺，宽二十英尺，挤满了设备、工具和材料。墙上挂着各种各样的武器。桌子下面塞满了箱子和小板条，上面堆满了烧瓶。一个工作台上堆满了工具。房间后面有一个小的生活区，有一张床和一个大铁炉子。"
+											]
+										},
+										"这个房间兼作Falish，一位人类{@creature scorchbringer guard|GGR}的实验室、展示厅和起居区。她经营经过炼金术处理的武器和爆炸物。作为被伊捷特同盟驱逐的叛逆者，Falish与公会内部保持联系，他们为她提供升级武器所需的材料。她将货物出售给第十区的许多帮派。",
+										"如果人物触发了门上的石刻陷阱，法利什就会抓起她的装备，尽快从她住处后面的一个秘密门出去，并关上身后的门。秘密门打开后是一条通往下水道的隧道。关上后，只要成功地进行DC15智慧({@skill Perception})检查，就能找到这扇秘密门。",
+										"如果人物让法利什感到惊讶或设法潜入，她就会意识到自己没有快速逃跑的能力，并愿意在一定程度上合作，让人物离开她的家。为了换取自由，她会透露以下信息。",
+										{
+											"type": "list",
+											"items": [
+												"{@creature Krenko|KKW}联系了她，让她把一些武器、炸药和任何魔法物品送到烟馆旅馆外的铸造街的一个投放点。她应该在(%%1)逃跑后的第二天日落时分进行投递。",
+												"{@creature Krenko|KKW}正计划利用这些武器对碎尸帮兄弟发动先发制人的攻击，以重新证明他重新掌权。",
+												"{@creature Krenko|KKW} 可能就藏在降落点附近。Falish 知道 {@creature Krenko|KKW} 和他的营救者被发现进入广场西边的下水道格栅。"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Treasure",
+											"page": 166,
+											"id": "020",
+											"entries": [
+												"法丽丝（Falish）的房间墙上挂着一个{@book Player's Handbook|PHB}内的每种武器，价格不超过25 gp。她的工作桌上放着三瓶炼金火，一瓶酸，炼金工具，修补工具，一套盗贼工具，以及组装两颗炸弹所需的大部分材料。在桌子下面有一个小巧的锁着的保险箱，需要盗贼工具和成功的DC 15敏捷检定才能打开。保险箱里有200枚zinos（gp），3条密榴（一种耐用的魔法金属），以及一个{@item eversmoking bottle}。"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Foundry Street",
+							"page": 166,
+							"id": "021",
+							"entries": [
+								"铸造街是第十区很多制造业发生的地方。工人们日以继夜地工作，制造拉夫尼科人在市场上购买的商品，并为博罗军团提供盔甲和武器。",
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/KKW/113-433.webp"
+									},
+									"width": 1000,
+									"height": 735,
+									"credit": "Kirsten Zirngibl"
+								},
+								"哥布林在这个城市的这一部分很常见，这是{@creature Krenko|KKW}的帮派地盘。现在大部分帮派成员都知道{@creature Krenko|KKW}已经逃走了，而随着{@creature Krenko|KKW}重新出现在街头，他的执行者之间的争吵也平息了。",
+								"住在铸造街附近的大多数人都知道向担任街区队长的地精帮派成员报告任何阿索瑞斯的存在或多管闲事的外来者。如果人物在这里进行调查，{@creature Krenko|KKW}的帮派会在半小时内得知此事，并派人去处理这个情况。",
+								{
+									"type": "entries",
+									"name": "Welcoming Party",
+									"page": 166,
+									"id": "022",
+									"entries": [
+										"{@creature Krenko|KKW}的哥布林团伙接近人物。他们开始的态度是敌对的，他们谩骂并试图让人物离开他们的地盘。如果冒险者不服从，地精们就会和他们战斗。如果超过一半的地精被打败了，剩下的团伙成员就会试图逃跑。",
+										"接近这些团队的团伙由六名{@creature Goblin gang member|kkw|goblin gang members}组成。一个审问被俘哥布林并在一次DC 20魅力检定中成功（{@skill Intimidation}）的角色会得知{@creature Krenko|KKW}的位置。或者，一个向哥布林提供10金币或更多贿赂并在一次DC 20魅力检定中成功（{@skill Persuasion}）的角色也可以得到相同的信息。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Shattergang's Response",
+									"page": 166,
+									"id": "023",
+									"entries": [
+										"第二天傍晚时分，Shattergang兄弟炸毁了Foundry街的三个{@creature Krenko|KKW}的安全屋。爆炸吸引了阿索里乌斯元老院，元老院派了20名{@creature soldier|GGR|soldiers}来保护该地区并询问旁观者。",
+										"在这段时间里，在铸造街附近给当地人带来麻烦的角色可能会被拘留在铸造街的逮捕站进行审问。角色会被拘留{@dice 1d4}小时，除非其中一人成功通过DC20的魅力({@skill Persuasion})检查，这样时间会缩短到10分钟。"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Krenko's Hideout",
+					"page": 167,
+					"id": "024",
+					"entries": [
+						"角色们可以通过审讯他的团伙成员、跟踪下水道的痕迹，或者跟随一个地精从 Falish 离开 {@creature Krenko|KKW} 的武器的交接点返回来找到 {@creature Krenko|KKW} 的藏身之处。一旦他们找到了仓库，阅读：",
+						{
+							"type": "insetReadaloud",
+							"id": "025",
+							"entries": [
+								"一座有着褪色的波罗斯军团标志的大型烟熏木质建筑坐落在运河边上，它的木头已经开裂和烧焦。一扇紧闭的门朝北朝向水面，一条木制轨道从建筑物一直延伸到码头的边缘。一扇类似的窗台门朝南朝向主街道。在建筑的巷子两侧有两扇门--西侧是双门，东侧是单门。"
+							]
+						},
+						"这个旧仓库曾经用来储存从附近的铸造厂完成的设备，供波洛军团使用。它在几年前的一场帮派战争中被严重烧毁，此后就被波洛军团抛弃了。{@creature Krenko|KKW}的帮派偶尔会把它作为一个秘密的会面地点，现在{@creature Krenko|KKW}正把它作为他的藏身之处。",
+						"该仓库高40英尺，宽60英尺，长120英尺。它没有窗户，但外墙很脆，而且被火烧坏了；在不同的地方开了一些小洞，直径为1或2英尺。对墙的某一部分造成5点伤害，就会产生一个开口，一个中等或较小的生物可以走过去。",
+						{
+							"type": "entries",
+							"name": "Krenko's Gang",
+							"page": 167,
+							"id": "026",
+							"entries": [
+								"所有{@creature Krenko|KKW}的团伙成员都是{@creature Goblin gang member|kkw|goblin gang members}。每个地精都携带一个哨子（戴在脖子上的绳子上），它可以作为一个动作吹响警报。一个地精可能会携带另一件从其他地方获得的物品，如果有机会的话，可以在战斗中使用它。你可以在哥布林团伙财产表上的物品中滚动或选择。关于这些物品的更多信息可以在{@book chapter 5|PHB|5|Adventuring Gear}的{@book Player's Handbook|PHB}中找到。",
+								{
+									"type": "table",
+									"caption": "Goblin Gang Possessions",
+									"colLabels": [
+										"d20",
+										"Item"
+									],
+									"colStyles": [
+										"text-center col-2",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1\u201310",
+											"无额外项目"
+										],
+										[
+											"11\u201312",
+											"酸的小瓶"
+										],
+										[
+											"13\u201314",
+											"炼金术士的火瓶"
+										],
+										[
+											"15\u201316",
+											"滚珠轴承"
+										],
+										[
+											"17\u201318",
+											"卡特罗普斯"
+										],
+										[
+											"19\u201320",
+											"基本毒药小瓶"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lookouts",
+							"page": 167,
+							"id": "027",
+							"entries": [
+								"每扇门外都贴着一个{@creature goblin gang member|kkw}。如果一名守卫看到一个或多个角色靠近仓库，它会通过脖子上的哨子向其他守卫发出信号。它保持警惕，但如果这些角色只是在街上可见，而没有朝仓库走去，它就不会向其他人发出信号。妖精们在夜间不使用光源，依靠他们的{@sense darkvision}。",
+								"人物可能会花时间从远处观察瞭望台。附近建筑物的屋顶是很好的瞭望点。大街对面的建筑是50英尺远；小巷里的建筑是20英尺远。",
+								{
+									"type": "entries",
+									"name": "Changing of the Guard",
+									"page": 167,
+									"id": "028",
+									"entries": [
+										"每隔4小时，{@creature Krenko|KKW}的帮派会有新的地精到来替换岗哨。在此期间，他们通常会分神地互相聊天，持续{@dice 1d10}分钟。在他们分心的时候，角色在该区域进行任何敏捷检定时获得优势，比如潜藏或悄悄移动。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Day 2 Arrivals",
+							"page": 167,
+							"id": "029",
+							"entries": [
+								"第二天中午，又有四个妖精到来。两个人在里面的猫道上定位，两个人在仓库的地板上行走。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Day 3 Chaos",
+							"page": 167,
+							"id": "02a",
+							"entries": [
+								"在第三天的凌晨，Shattergang兄弟终于设法发现了{@creature Krenko|KKW}的行踪，并派出一个由10人组成的小组{@creature goblin||goblins}，向仓库和里面的人扔了炸弹。",
+								"除了他们的正常装备外，这些地精每人还携带一个炸弹。作为一个动作，地精可以点燃一个炸弹，并将它扔到60英尺以外的地方。在该点5英尺范围内的每个生物都必须在DC12灵巧救赎中成功，否则会受到10({@dice 3d6})火灾伤害。",
+								"任何{@creature Krenko|KKW}团伙的幸存者在这次袭击后都逃离了仓库，并分散到城市中。"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Warehouse Locations",
+					"page": 168,
+					"id": "02b",
+					"entries": [
+						"以下位置是以地图4.11为关键，该地图显示了仓库的内部。",
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/KKW/114-434.webp"
+							},
+							"width": 2513,
+							"height": 3338,
+							"credit": "Dyson Logos",
+							"imageType": "map",
+							"title": "Map 4.11: Krenko's Hideout",
+							"grid": {
+								"type": "square",
+								"size": 239,
+								"offsetX": 54,
+								"offsetY": 98,
+								"scale": 3
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Office",
+							"page": 168,
+							"id": "02c",
+							"entries": [
+								"这个房间是没有灯光的。如果人物有{@sense darkvision}或有光源，请对房间进行如下描述。",
+								{
+									"type": "insetReadaloud",
+									"id": "02d",
+									"entries": [
+										"这个房间有二十英尺见方，有十英尺高的天花板。它似乎是一个办公室和临时的生活区。房间中央摆放着一张沉重的木桌，周围摆放着六把椅子。桌子下面是一个铁盒子。南边是一张铺着毯子的小床。旁边是一个装满衣服的麻袋，以及用精美餐具盛放的几份饭菜的残骸。东边的墙中间有一扇门，旁边有一个大窗户，可以看到外面的仓库。"
+									]
+								},
+								"{@b Krenko}（见下文）和两个{@creature Goblin Boss||goblin bosses}作为他的执行者躲在这里，计划对破碎岗兄弟进行先发制人的打击。除了武器之外，{@creature Krenko|KKW}还携带了一小瓶酸液、一壶炼金术士之火、一袋卡尔特罗普、一小瓶基本毒药，以及铁制保险箱的钥匙（见下文 \"宝藏\"）。",
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"page": 168,
+									"id": "02e",
+									"entries": [
+										"桌子下的铁质保险箱里装着用来支付法利什的资金{@creature Krenko|KKW}。它被锁上了，可以用{@creature Krenko|KKW}手中的钥匙打开，或者用盗贼工具并通过一次成功的DC 15敏捷检定来打开。在箱子里有350枚锡诺斯（gp），两枚镶有小红宝石的金戒指（每枚价值50 gp），以及一个{@i potion of giant strength}（山）."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Catwalk",
+							"page": 168,
+							"id": "02f",
+							"entries": [
+								"一条3英尺宽的木制猫道连接在仓库的内墙，离地面20英尺高。靠近东墙中央的一个吱吱作响的、烧焦的、狭窄的、环绕式的木制楼梯通向它。",
+								"两名{@creature Goblin gang member|kkw|goblin gang members}始终在天桥上巡逻，以类似于外面的瞭望台的方式进行轮换。",
+								{
+									"type": "entries",
+									"name": "Weakened Staircase",
+									"page": 168,
+									"id": "030",
+									"entries": [
+										"猫步楼梯的一级台阶即将坍塌。这块脆弱的木板位于离地10英尺的地方，任何在楼梯上拥有13或更高被动感知力（{@skill Perception}）的生物都可以发现它。重量超过100磅的生物踩在这块木板上时，必须通过一次DC 10的敏捷豁免才能避免从10英尺高的地方摔到下面的地面上。其他生物上楼时可以轻松避开这块坍塌的木板所造成的缝隙。",
+										"如果天桥的一边受到10或更多的伤害，那一边就会倒塌。发生这种情况时，走道上的生物会跌落20英尺到下面的仓库楼层。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Main Floor",
+							"page": 168,
+							"id": "031",
+							"entries": [
+								"仓库内部由挂在墙上每隔30英尺高处的钩子上的灯笼照亮，位于猫道下方，高度为5英尺。地精们保持这个区域明亮，因为他们的{@sense darkvision}只能延伸60英尺。当角色进入时，请阅读：",
+								{
+									"type": "insetReadaloud",
+									"id": "032",
+									"entries": [
+										"炽热的灯笼光显示了一个被大火烧焦的仓库。北面和南面是大的、铁制的海湾门，通过链条和滑轮从地面操作。西面的墙中间有一个方形的房间，占据了仓库地板的20英尺乘20英尺的部分。该房间在面向仓库地板中心的一侧有一个门和窗户。",
+										"一条猫道环绕着内部，离地面20英尺高。楼梯通向东墙中心附近。几十个大箱子和板条箱散落在仓库周围，由于火灾损坏，它们的完整性受到了质疑。一对木制轨道穿过房间的中心。栏杆上坐着一辆巨大的木制轮子车。车上耸立着一个10英尺高、沾满烟灰的铁质雕像。它看起来有点像人，手臂的末端有爪子一样的附属物。在它的头的地方有一个空洞，里面有一个座位，周围有一系列的杠杆。"
+									]
+								},
+								"对舱门造成20次以上的伤害会产生一个中等或更小的生物可以穿过的洞。一个角色可以使用一个动作，用它的滑轮系统来打开一扇门。",
+								"烧焦和破裂的木制容器散落在房间里。其中没有任何有价值的东西留下。",
+								"在贯穿房间中央的栏杆上，有一辆大车。小车的北墙和南墙可以降下来，形成通往小车床的坡道。",
+								"车边停着一个被煤烟覆盖的{@creature loading rig|kkw}，目前处于未激活状态。车顶上有一个座椅凹槽，里面装有一系列小板和杠杆。坐在座位上的生物可以尝试进行一次 DC 10 的智力检定({@skill Arcana})，以找出如何按正确顺序按下板来激活或停止车辆。按下板需要一个动作。一旦车辆被激活，坐在座位上的生物可以使用杠杆驾驶它。车辆会按照控制者的指示移动，控制者可以使用一个动作指挥车辆执行冲刺、脱离战斗或{@action Dodge}动作，或者根据其属性块中给出的多重攻击或猛击动作。",
+								"一个拥有修补工具的生物可以尝试修复装置上的损坏。花费1小时进行修复后，生物需要进行一次DC 15的智力检定。如果检定成功，该装置将恢复{@dice 1d6}点生命值。",
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/KKW/115-435.webp"
+									},
+									"width": 1000,
+									"height": 668,
+									"credit": "Mathias Kollros"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Confronting Krenko",
+					"page": 171,
+					"id": "033",
+					"entries": [
+						"当{@creature Krenko|KKW}的生命值降至一半或更低时，他会试图逃跑，命令他的地精执法者们掩护他逃跑。他跑向仓库地板上的{@creature loading rig|KKW}，并启动它，试图用它来冲出重围逃跑。如果他成功走出去，他会前往码头，跳进运河中游走逃离。",
+						"如果{@creature Krenko|KKW}被抓，他试图说服冒险者，将他绳之以法并不符合城市的最佳利益。他可能会在辩护中提出以下任何或所有论点。",
+						{
+							"type": "list",
+							"items": [
+								"没有他的领导，地精帮派已经陷入混乱，唯一能使碎石帮兄弟不被炸死的就是他的帮派--由他领导的帮派。",
+								"他坚称他杀死达吉格是出于自卫，并且他被波洛斯军团陷害，他怀疑波洛斯军团与沙特冈兄弟勾结。成功通过 DC 16 智力检定的角色感觉到他在撒谎，因为他在恳求时会微妙地看过他们的肩膀。",
+								"{@creature Krenko|KKW}愿意为该党提供一个交易。如果他们告诉纳西乌斯他们没有找到他，他就把他办公室保险箱里的东西都给他们。",
+								"{@creature Krenko|KKW}警告队伍，纳西斯并不是表面上看起来的样子。{@creature Krenko|KKW}怀疑纳西斯受某人控制，但不知道这个人是谁。"
+							]
+						},
+						"{@creature Krenko|KKW}没有提供任何关于协助他逃跑的盟友的信息，但如果被追问，他就会指认他们。他对塔兹先生的问题也讳莫如深，只在人物成功进行DC20魅力({@skill Persuasion})检查时提供以下信息。\"塔兹先生曾经给了我一把漂亮的小刀作为工作的礼物，我很想有一天能再得到一把小刀。"
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Handoff",
+					"page": 171,
+					"id": "034",
+					"entries": [
+						"当人物到达纳西乌斯指定的会面地点时，请阅读以下内容。",
+						{
+							"type": "insetReadaloud",
+							"id": "035",
+							"entries": [
+								"当雨势加剧为倾盆大雨时，你前往第十区的郊区。你被指引到纳西乌斯挑选的旧粮仓作为集合点。这座湿漉漉、摇摇欲坠的粘土建筑坐落在一片无人问津的田野上，长满了各种植被，几乎完全被野地开垦。纳西欧斯从入口处走出来，走进田野，手里拿着一个小钱包，身旁是两个全副武装的卫兵。"
+							]
+						},
+						"Nassius请求了Azorius的帮助，但他还带来了两名没有明显公会标识的人类{@creature veteran||veterans}，帮助将{@creature Krenko|KKW}拘捕。六名Azorius{@creature Soldier|GGR|soldiers}分别隐藏在离谷仓前50到100英尺的各个地方，随时准备制服那些做出错误举动的角色，或者在{@creature Krenko|KKW}试图逃跑时将其击倒。",
+						"纳西欧斯希望角色们能不慌不忙地完成交换，然后回家。他问他们是否询问过{@creature Krenko|KKW}，并复述妖精对他们说的话。{@creature Krenko|KKW}试图指责纳西乌斯是个骗子，是个贪官，但纳西乌斯的老兵们采取了堵住{@creature Krenko|KKW}的嘴，阻止他说话。",
+						"纳西乌斯没有回答任何关于他要把{@creature Krenko|KKW}带到哪里去的问题，也没有回答任何关于腐败的说法的真实性。他说，他是为公会的办公室服务的，他是为了这个城市的利益而收留{@creature Krenko|KKW}。碎石帮兄弟可能仍然会接管{@creature Krenko|KKW}的帮派的地盘，但可能不会发生破坏性的帮派战争。",
+						{
+							"type": "entries",
+							"name": "Nassius's Patron",
+							"page": 171,
+							"id": "036",
+							"entries": [
+								"{@creature Krenko|KKW}有一件事是对的：纳西乌斯-文一直在利用他的地位来保持自己的财富和保护。一个赞助人找到纳西乌斯，并做了一笔交易，将{@creature Krenko|KKW}送到他们那里，而不是送到他在乌泽克的新牢房里的合法位置。纳西乌斯得到保证，{@creature Krenko|KKW}最终会活着回到监狱，但这位赞助人想先和他说几句话。",
+								"为了确定纳西乌斯·文(Nassius Ven)与谁达成了交易，您可以掷骰以从下表中确定一个赞助人，或者您也可以自行选择一个。如果赞助人是一个行会，您应该选择一个在队伍中没有冒险者代表的行会。这位赞助人可能会影响未来与纳西乌斯·文和{@creature Krenko|KKW}的交易。",
+								{
+									"type": "table",
+									"caption": "Nassius's Patron",
+									"colLabels": [
+										"d6",
+										"Patron"
+									],
+									"colStyles": [
+										"text-center col-2",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"阿佐里乌斯参议院"
+										],
+										[
+											"2",
+											"博罗军团"
+										],
+										[
+											"3",
+											"塔兹先生"
+										],
+										[
+											"4",
+											"欧佐夫（Orzhov）集团"
+										],
+										[
+											"5",
+											"碎石帮兄弟"
+										],
+										[
+											"6",
+											"塞勒斯尼亚协进会"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "The End?",
+					"page": 171,
+					"id": "037",
+					"entries": [
+						"角色如果向纳西乌斯交付{@creature Krenko|KKW}，就会在他们的公会中获得1个名声。",
+						"除了本章第一部分的冒险种子之外，你还可以在这次冒险的事件基础上，为聚会的下一次冒险制定路线。考虑一下这些问题。",
+						{
+							"type": "list",
+							"items": [
+								"谁是{@creature Krenko|KKW}的和Nassius的盟友？他们可能会对人物的行为做出怎样的反应？",
+								"{@creature Krenko|KKW}的帮派和Shattergang兄弟之间的权力平衡是怎样的？任何一个帮派都有可能为他们的所作所为向人物进行报复吗？或者说，这些人物是否赢得了任何一个帮派的感激之情？",
+								"纳西欧斯、{@creature Krenko|KKW}、法利什和其他NPC在未来会如何与冒险者互动？他们中的某个人是否会在新的危机中请求人物的帮助，或者变成一个危险的对立面？",
+								"人物是否利用他们的任何联系人来收集信息？这些人的参与可能会给他们带来麻烦，使冒险家们卷入其中吗？"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Credits",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"columns": 2,
+					"items": [
+						{
+							"type": "item",
+							"name": "Lead Designers",
+							"entries": [
+								"詹姆斯·怀亚特（James Wyatt），杰里米·克劳福德（Jeremy Crawford）"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Adventure Writer",
+							"entries": [
+								"克里斯·图拉赫 (Chris Tulach)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Designers",
+							"entries": [
+								"阿里·莱维奇（Ari Levitch）, 本·佩特里索尔（Ben Petrisor）, 迈克·米尔斯（Mike Mearls）, 罗伯特·J·施沃布（Robert J. Schwalb）"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Managing Editor",
+							"entries": [
+								"杰里米·克劳福德 (Jeremy Crawford)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Editors",
+							"entries": [
+								"Christopher Perkins（克里斯托弗·帕金斯）, Kim Mohan（金·莫汉）, Michele Carter（米歇尔·卡特）, Phil Athans（菲尔·阿森斯）, Kate Welch（凯特·韦尔奇）"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Art Direction",
+							"entries": [
+								"肖娜·纳西索 (Shauna Narciso), 阿里·莱维奇 (Ari Levitch)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Graphic Designer",
+							"entries": [
+								"Trish Yochum (特里什·约赫姆), Emi Tanji (艾米·丹治)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Additional Art Direction",
+							"entries": [
+								"杰里米·贾维斯, 杰里米·克兰福德, 帕梅拉·安斯曼-沃尔夫, 泰勒·英瓦尔松, 朵恩·穆林, 辛西娅·谢帕德, 安德鲁·瓦拉斯, 马克·温特斯"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Cartography",
+							"entries": [
+								"戴森·洛戈斯 (Dyson Logos)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Interior Illustrators",
+							"entries": [
+								"Noah Bradley（诺亚·布拉德利）, Mathias Kollros（马蒂亚斯·科罗斯）, Karl Kopinski（卡尔·科平斯基）, Svetlin Velinov（斯维特林·维利诺夫）, Kev Walker（凯夫·沃克）, Richard Wright（理查德·赖特）, Kristen Zirngibl（克里斯汀·齐恩吉布尔）"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ravnica World Design",
+							"entries": [
+								"道格·拜尔 (Doug Beyer), 萨姆·伯利 (Sam Burley), 杰里米·克兰福德 (Jeremy Cranford), 凯利·迪格斯 (Kelly Digges), 布雷迪·多默穆斯 (Brady Dommermuth), 珍娜·海兰德 (Jenna Helland), 科里·H·赫尔登 (Cory H. Herndon), 杰里米·贾维斯 (Jeremy Jarvis), 金伯利·克莱恩斯 (Kimberly Kreines), 克里斯·莱托尔 (Chris L'etoile), 亚当·李 (Adam Lee), 阿里·莱维奇 (Ari Levitch), 艾莉森·吕尔斯 (Alison Lührs), 肖恩·梅恩 (Shawn Main), 朵恩·穆林 (Dawn Murin), 理查德·惠特斯 (Richard Whitters), 马克·温特斯 (Mark Winters), 詹姆斯·怀亚特 (James Wyatt)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Producer",
+							"entries": [
+								"马特·沃伦 (Matt Warren)，丹·托瓦尔 (Dan Tovar)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Imaging Technicians",
+							"entries": [
+								"余凯文 (Kevin Yee)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Art Administration",
+							"entries": [
+								"大卫·格什曼 (David Gershman)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Other D&D Team Members",
+							"entries": [
+								"巴特·卡罗尔 (Bart Carroll), 凯特·欧文 (Kate Irwin), 克里斯托弗·林赛 (Christopher Lindsay), 谢莉·马扎诺布尔 (Shelly Mazzanoble), 希拉里·罗斯 (Hilary Ross), 利兹·舒 (Liz Schuh), 内森·斯图尔特 (Nathan Stewart), 格雷格·蒂托 (Greg Tito)"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

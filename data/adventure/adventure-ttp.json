@@ -1,0 +1,3213 @@
+{
+	"data": [
+		{
+			"type": "section",
+			"name": "Introduction",
+			"id": "000",
+			"page": 2,
+			"entries": [
+				"奥格尔的鼻孔是{@adventure Tomb of Annihilation|ToA}的一个地理区域{@adventure described briefly|ToA|2|Snout of Omgar}。然而，在那次冒险中，关于这个地方和它的居民并没有透露多少信息。Tortle包是为那些想了解奥格尔之鼻的地下城主编写的。这个补充文件还介绍了一个新的可玩角色种族--{@race tortle|ttp}，以及一个新的冒险地点。{@adventure Dangwaru, the Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}.",
+				"龟甲人是一种聪明的、类似乌龟的人形生物，有在野外生存的本领。该种族首次出现在D&D游戏的早期版本中，其中最突出的是X9模块 \"野蛮海岸\"，该模块设定在Mystara世界。托尔人，像其他大多数冒险种族一样，可以出现在任何D&D世界。在被遗忘的世界里，{@adventure peninsula of Chult|ToA|2}和奥格尔的鼻孔是它们的好家。",
+				"这个补充内容假设你有D&D第五版核心规则书（%0%、%1%和%2%），以及%3%和%4%。",
+				{
+					"type": "insetReadaloud",
+					"entries": [
+						"出现在这样的方框中的文字是为了让玩家在他们的角色第一次到达某个地点或在某个特定情况下大声朗读或转述，如文中所述。"
+					],
+					"id": "070"
+				},
+				"{@book Monster Manual|mm}、{@book Volo's Guide to Monsters|vgm}和{@adventure Tomb of Annihilation|ToA}包含了这里发现的大多数生物的状态块，还有一些新的怪物出现在本补编的最后。当一个生物的名字以{@bold bold}的字体出现时，那是一个视觉提示，指向{@book Monster Manual|mm}中的状态块。如果一个状态块出现在其他地方，文字会告诉你。",
+				"冒险中提到的法术和装备在{@book Player's Handbook|phb}中描述。魔法物品在{@book Dungeon Master's Guide|dmg}中描述。",
+				{
+					"type": "section",
+					"name": "The Snout of Omgar",
+					"id": "001",
+					"page": 2,
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Snout of Omgar DM.webp"
+							},
+							"title": "Snout of Omgar - DM",
+							"width": 1988,
+							"height": 2681,
+							"mapRegions": [
+								{
+									"area": "01f",
+									"points": [
+										[
+											510,
+											920
+										],
+										[
+											262,
+											918
+										],
+										[
+											267,
+											1039
+										],
+										[
+											529,
+											1032
+										]
+									]
+								},
+								{
+									"area": "029",
+									"points": [
+										[
+											522,
+											1390
+										],
+										[
+											466,
+											1483
+										],
+										[
+											537,
+											1622
+										],
+										[
+											889,
+											1625
+										],
+										[
+											853,
+											1536
+										],
+										[
+											768,
+											1501
+										],
+										[
+											674,
+											1476
+										],
+										[
+											619,
+											1382
+										]
+									]
+								},
+								{
+									"area": "056",
+									"points": [
+										[
+											801,
+											1694
+										],
+										[
+											532,
+											1815
+										],
+										[
+											545,
+											1900
+										],
+										[
+											890,
+											1949
+										],
+										[
+											887,
+											1862
+										]
+									]
+								},
+								{
+									"area": "056",
+									"points": [
+										[
+											1474,
+											1492
+										],
+										[
+											1372,
+											1699
+										],
+										[
+											1410,
+											1764
+										],
+										[
+											1795,
+											1701
+										],
+										[
+											1771,
+											1635
+										]
+									]
+								},
+								{
+									"area": "056",
+									"points": [
+										[
+											1185,
+											1971
+										],
+										[
+											1376,
+											1971
+										],
+										[
+											1382,
+											2045
+										],
+										[
+											1282,
+											2124
+										],
+										[
+											1183,
+											2042
+										]
+									]
+								},
+								{
+									"area": "056",
+									"points": [
+										[
+											948,
+											1100
+										],
+										[
+											1173,
+											1109
+										],
+										[
+											1337,
+											1161
+										],
+										[
+											1308,
+											1226
+										],
+										[
+											1224,
+											1292
+										],
+										[
+											1045,
+											1288
+										],
+										[
+											943,
+											1232
+										]
+									]
+								},
+								{
+									"area": "058",
+									"points": [
+										[
+											465,
+											233
+										],
+										[
+											713,
+											232
+										],
+										[
+											803,
+											419
+										],
+										[
+											739,
+											530
+										],
+										[
+											450,
+											468
+										]
+									]
+								},
+								{
+									"area": "062",
+									"points": [
+										[
+											505,
+											691
+										],
+										[
+											815,
+											690
+										],
+										[
+											814,
+											752
+										],
+										[
+											644,
+											870
+										],
+										[
+											537,
+											830
+										]
+									]
+								},
+								{
+									"area": "065",
+									"points": [
+										[
+											979,
+											957
+										],
+										[
+											695,
+											966
+										],
+										[
+											704,
+											1089
+										],
+										[
+											791,
+											1088
+										],
+										[
+											998,
+											1019
+										],
+										[
+											996,
+											957
+										]
+									]
+								}
+							],
+							"imageType": "map",
+							"grid": {
+								"type": "hexColsOdd",
+								"size": 189,
+								"offsetX": -37,
+								"offsetY": 59,
+								"units": "miles"
+							},
+							"id": "08a",
+							"hrefThumbnail": {
+								"type": "internal",
+								"path": "adventure/TTP/thumbnail/Snout of Omgar DM.webp"
+							}
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Snout of Omgar Player.webp"
+							},
+							"title": "Snout of Omgar - Player",
+							"width": 2080,
+							"height": 2850,
+							"imageType": "mapPlayer",
+							"grid": {
+								"type": "hexColsOdd",
+								"size": 199,
+								"offsetX": -45,
+								"offsetY": 64,
+								"units": "miles"
+							},
+							"mapParent": {
+								"id": "08a",
+								"scaleX": 0.956,
+								"scaleY": 0.946,
+								"autoScale": true
+							}
+						},
+						"奥格尔之鼻曾经是一个半岛，但咒语瘟疫造成的动荡使半岛的顶端断裂，形成了一个与丘特大陆隔着一条狭窄海峡的岛屿。当分离发生时，生活在附近的托尔人声称该岛是他们的领地。海峡提供了一个天然的防御手段，以抵御大陆上的侵略性掠食者。",
+						"{@deity Umberlee|Faerûnian|SCAG}海神的牧师带领的海盗船在一场台风中被卷上了海滩。{@deity Umberlee|Faerûnian|SCAG}的海龟救起了这些遇难的幸存者并照顾他们。船长用她的魔法给海龟留下了深刻印象，并讲述了一些美化{@deity Umberlee|Faerûnian|SCAG}的故事。最终，她说服他们为她的神建造一座宫殿。这位牧师选择了一个俯瞰大海的山坡，海龟们花了十年时间建造了{@adventure Dangwaru, the Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}，这实际上是{@deity Umberlee|Faerûnian|SCAG}的一个神庙。作为回报，这位牧师和她的追随者们让海龟们独自生活，并成为了安静的邻居。",
+						"随着时间的推移，岛上的{@deity Umberlee|Faerûnian|SCAG}崇拜者逐渐死去，宫殿也陷入废墟。建造{@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}的托尔人的后代很快发现里面潜伏着邪恶的生物。年长的托特人明智地避开了废墟宫殿，但年轻的托特人偶尔会尝试探索它，作为一种成年仪式。他们中很少有人走远了，就被奇怪的怪物吓跑了。"
+					]
+				},
+				{
+					"type": "section",
+					"name": "Using This Supplement",
+					"id": "002",
+					"page": 2,
+					"entries": [
+						"以下是与{@adventure Tomb of Annihilation|ToA}配合使用这种补充剂的方法。",
+						{
+							"type": "list",
+							"items": [
+								"经您同意，一个或多个玩家可以使用\"(Tortle Package)\"部分的规则创建{@race tortle|ttp}个角色。这些龟人已经远离了奥姆加尔之鼻，寻找冒险和伙伴。他们可以在{@adventure Port Nyanzaru|ToA|1}或其他某个地方加入队伍。",
+								"队伍可能会遇到一位愿意担任荒野向导的龟裂人NPC。这个补充描述了三位新的龟裂人向导（见\"{@adventure Tortle Guides|ttp|1|Tortle Guides}\"）。",
+								"党派可能会访问奥格尔之鼻，探索其位置，并遇到其居民。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Adventure Hooks",
+							"id": "003",
+							"page": 2,
+							"entries": [
+								"这里有一些钩子，你可以用来引诱人物到奥格尔的鼻孔。",
+								{
+									"type": "list",
+									"items": [
+										"当角色们乘船环绕楚尔坦半岛旅行时，他们遇到了一场风暴，并被冲到了奥姆加尔之角，离高角不远（见\"{@adventure High Horn|ttp|3|High Horn}\"）。",
+										"{@adventure Fort Beluarian|ToA|2|Fort Beluarian}的指挥官{@creature Liara Portyr|ToA}雇佣冒险者探索{@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}的废墟，并向她汇报。她安排了一艘船将他们运送到{@adventure Ahoyhoy|ttp|3|Ahoyhoy}。",
+										"人物在{@adventure Port Nyanzaru|ToA|1}或{@adventure Fort Beluarian|ToA|2|Fort Beluarian}的地方雇佣了一个tortle向导。托尔告诉他们关于{@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}的故事，并要求他们帮助清除宫殿里的怪物，作为服务的报酬。",
+										"{@adventure Port Nyanzaru|ToA|1}的商人王子们对他们城市里越来越多的{@filter yuan-ti|bestiary|tag=yuan-ti}间谍感到担忧，担心蛇人族正计划暗杀他们。在一个试图潜入{@adventure Merchant Prince Zhanthi's|ToA|1|Zhanthi}家庭的被杀{@creature yuan-ti pureblood|mm}间谍的尸体上发现了一张奥格尔之鼻的地图。湛西为那些愿意访问岛上每个地标并向她报告发现的消息的冒险者提供了1000金币的奖励。{@adventure Zhanthi|ToA|1|Zhanthi}给他们地图，并安排一艘快船({@adventure the Brazen Pegasus|ToA|1|Harbor Ward})运送他们到岛上。",
+										"一艘载有著名探险家{@creature Volothamp \"Volo\" Geddarm|ToA}的船失踪了。它启程前往楚尔特的南部海岸，但从未抵达。沃罗的计划是参观美丽的（%%1），然后在（%%2）的托尔特堡垒呆上一个星期。(\"据说Tortle的热情是首屈一指的!\")关于这艘船成为海盗的猎物的传言是错误的；事实上，这艘船在一场风暴中翻了，沃罗被冲到了Omgar的鼻孔上。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Tortle",
+			"id": "004",
+			"page": 3,
+			"entries": [
+				"有关可玩种族的详细信息，请参阅种族页面中的{@race tortle|ttp}条目。",
+				{
+					"type": "entries",
+					"name": "Tortle Guides",
+					"id": "005",
+					"page": 4,
+					"entries": [
+						"以下的托尔人NPC可以加入到楚尔特的{@adventure list of guides|toa|1|Finding a Guide}可供雇佣的队伍中。其中一个托尔人向导，Kwilgok，在{@adventure Port Nyanzaru|ToA|1}为{@adventure merchant prince Jobal|ToA|1|Jobal}工作。其他的Eeyal和Mudgraw则是自由职业者，分别在{@adventure Fort Beluarian|ToA|2|Fort Beluarian}和{@adventure Ahoyhoy|ttp|3|Ahoyhoy}工作。",
+						{
+							"type": "optfeature",
+							"name": "Eeyal",
+							"page": 4,
+							"entries": [
+								"当角色们遇到伊亚尔时，给予他们{@adventure handout A|ttp|4|Handout A: Eeyal}。",
+								"Eeyal是一个{@creature tortle|mtf}，她自己制作了护目镜，用来保护自己的眼睛免受火山灰的侵害。她花了将近一年的时间，但她徒步从奥姆加尔之鼻到{@adventure Fort Beluarian|ToA|2|Fort Beluarian}，穿越了楚尔特的崎岖山脉、茂密丛林和充斥不死生物的领土。她看到了{@adventure Lake Luo|ToA|2|Lake luo}，{@adventure Nangalore|ToA|2|Nangalore}的花园宫殿，{@adventure Ataaz Muhahah|ToA|2|Ataaz Muhahah}的峡谷，以及{@adventure Mezro|ToA|2|Mezro}的废墟。她甚至在丛林中发现了一艘沉船({@adventure the Wreck of the Narwhal|ToA|2|Wreck of the Narwhal})，并结识了那里生活的一个{@creature weretiger}。",
+								"一位熟练的工匠，伊亚尔携带着一套{@item smith's tools|phb}和一套{@item tinker's tools|phb}。她还拥有一个{@item climber's kit|phb}，一个{@item healer's kit|phb}和一个{@item dungeoneer's pack|phb}。这些装备都挂在一个特制的皮革挽具上，固定在伊亚尔的壳上。伊亚尔声称对每种情况都有合适的工具，并且对自己的装备非常保护，坚持自己亲自携带。",
+								"Eeyal身高5英尺8英寸，体重420磅。",
+								"虽然她只有17岁，但她的举止堪比一个年长得多、聪明得多的托儿。她谨慎地选择自己的言语，不冒不必要的风险。当她在丛林中行走时，她用她的{@item quarterstaff|phb}在前面戳来戳去，充分意识到陷阱和圈套有多种形式。",
+								"如果角色雇佣了伊亚尔，她建议他们在离开前也购买一份探险特许证{@adventure Fort Beluarian|ToA|2|Fort Beluarian}。伊亚尔预计会遇到{@adventure Flaming Fist|ToA|1|Flaming Fist}巡逻队，如果没有携带必要的文件，这样的会面很快就会变得糟糕。",
+								"对地下的地方感到恐惧，除非没有其他选择，Eeyal不会主动到地下去。",
+								"Eeyal是值得信赖的，每天收费5金普。她还提供40戈比的优惠价格，但必须预先付款，而且不能退款。"
+							],
+							"prerequisite": "tortle guide (Fort Beluarian)",
+							"id": "06b"
+						},
+						{
+							"type": "optfeature",
+							"name": "Kwilgok",
+							"entries": [
+								"当角色们遇到克威尔戈克(Kwilgok)时，给予他们{@adventure handout B|ttp|4|Handout B: Kwilgok}。",
+								"三年前，一艘贸易船访问了{@adventure Ahoyhoy|ttp|3|Ahoyhoy}的托尔堡，Kwilgok得以在上面预订了船票。在{@adventure Port Nyanzaru|ToA|1}，他发现了一个与众不同的世界。他找到了修理码头的工作，并在一年内有足够的钱买了一辆二手的{@creature ankylosaurus}，他骑着它参加了几次高赌注的{@adventure dinosaur races|ToA|1|Dinosaur Racing}。他输的比赢的多，但引起了{@adventure Merchant Prince Jobal|ToA|1|Jobal}的注意，他相信在野外探险会有更多的利润。Kwilgok the {@creature tortle|mtf}成为一名导游，并且像所有合法的导游一样，在{@adventure Port Nyanzaru|ToA|1}，将他的收入的一部分给{@adventure Jobal|ToA|1|Jobal}。",
+								"克威尔戈克（Kwilgok）与一只名为致命宝藏（Deadly Treasure）的倔强{@creature ankylosaurus}一起旅行。这只龟人骑在甲龙的背上的鞍座上，用一根{@item Pole (10-foot)|phb|10-foot pole}上系着多汁的树叶来引导这头野兽。虽然他不允许其他人骑这头野兽，但许多有意探险的人对这只恐龙印象深刻，愿意支付克威尔戈克每天6金币的费用，需要提前支付30天的费用。",
+								"虽然他是一个能干诚实的向导，克维尔戈克(Kwilgok)不会为雇主冒风险。他因为随和的性格和愿意领导探险队前往乔尔特(Chult)的任何角落而得到稳定的工作。他已经多次沿着{@adventure River Soshenstar|ToA|2|River Soshenstar}旅行，对{@adventure Aldani Basin|ToA|2|Aldani Basin}和周边地区非常熟悉。他还带领过前往{@adventure Orolunga|ToA|2|Orolunga}的探险队，尽管他从未遇到据说居住在那里的神秘神谕。他不愿再次前往的地方之一是{@adventure Dangwaru, the Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}。年轻时，克维尔戈克决定去探索废墟，遇到了那里的邪恶阴影。那些阴影几乎让他丧命，但他设法在虚弱状态下逃离了宫殿。那些阴影仍然萦绕在克维尔戈克的梦中，他不愿再次面对它们。",
+								"奎尔戈克现年26岁，身高不到6英尺，体重450磅。"
+							],
+							"prerequisite": "tortle guide (Port Nyanzaru)",
+							"id": "06c"
+						},
+						{
+							"type": "optfeature",
+							"name": "Mudgraw",
+							"entries": [
+								"当角色们遇到泥爪时，给予他们{@adventure handout C|ttp|4|Handout C: Mudgraw}。那些造访{@adventure Ahoyhoy|ttp|3|Ahoyhoy}的龟裔堡垒的角色可以确保泥爪作为向导。泥爪深信自己是一个天生的领袖，喜欢咆哮让人听到，并且从不承认自己错误，即使他根本不知道自己在说什么。{@creature tortle druid|mtf}无法错过一次精彩的冒险，并且愿意离开这座岛屿旅行。他之前曾领导过前往{@adventure Omu|ToA|3|Omu}、{@adventure Shilku|ToA|2|Shilku}和{@adventure Heart of Ubtao|ToA|2|Heart of Ubtao}的探险。距他上次访问心脏已经五年了，因此，他对当前居民一无所知。",
+								"Mudgraw在三年前唯一一次访问{@adventure Omu|ToA|3|Omu}，以灾难告终。他和一群来自Athkatla城的人类寻宝者被{@filter yuan-ti|bestiary|tag=yuan-ti}伏击，Mudgraw被迫抛弃同伴。他藏身于一座曾经供奉神祇乌巴托的废墟中，被墙上迷宫般的图像所吸引，并发现了庙宇前任居民留下的一个木{@item holy symbol|phb}。他相信乌巴托帮助他逃离了城市，现在将{@item holy symbol|phb}挂在脖子上。他后悔抛弃了探险队，并不愿提及此事。他最喜欢的新说法之一是，\"生活就像迷宫。\"Mudgraw在感到恼火或不愿透露信息时会使用这句话。",
+								"Mudgraw 今年44岁，身高6英尺，体重480磅。他每天收费5金币，但如果有机会再次领导前往{@adventure Omu|ToA|3|Omu}的探险，他会免除费用。Mudgraw将任何这样的探险视为赎罪的机会。"
+							],
+							"prerequisite": "tortle druid guide (Ahoyhoy)",
+							"id": "06d"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Exploring the Island",
+			"id": "006",
+			"page": 5,
+			"entries": [
+				"一片雨林覆盖了该岛相对平坦的西北角。这片雨林的北边是长满草的山丘，东边和西边是沙滩，南边是山脉。{@adventure Ahoyhoy|ttp|3|Ahoyhoy}的托尔堡矗立在西海岸，雨林的边缘和山脉的交界处。",
+				{
+					"type": "entries",
+					"name": "Random Encounters",
+					"id": "007",
+					"page": 5,
+					"entries": [
+						"在每天的游戏时间内掷出{@dice d20}三次，每天上午、下午和晚上或夜间检查是否有遭遇。掷出18或更高的分数，就会发生随机遭遇。掷一个{@dice d100}，并检查Omgar的Snout遭遇表，看是否有相应的地形。在确定了角色遇到的情况后，你可以使用下面介绍的信息，将遭遇的情况生动化。让玩家通过叙述来避免简单的遭遇，或者增加简单遭遇的难度以保持其刺激性。",
+						"随机遭遇并不针对特定等级的角色。如果角色遇到超出他们能力范围的敌对生物，给予他们逃跑、隐藏、谈判或以其他方式避免死亡的机会。你也可以让其他生物出现并提供一个分散注意力的机会，让角色可以利用这个机会逃脱。例如，如果一个角色需要进行关键的能力检定或豁免才能，一个{@creature chwinga|toa} (见{@adventure Tomb of Annihilation|ToA}) 可能会出现，对该角色施放{@spell guidance} 或 {@spell resistance}，然后在下一个回合消失。",
+						{
+							"type": "table",
+							"page": 5,
+							"caption": "Snout of Omgar Encounters",
+							"colLabels": [
+								"Encounter",
+								"Land",
+								"Water"
+							],
+							"colStyles": [
+								"col-6",
+								"col-3 text-center",
+								"col-3 text-center"
+							],
+							"rows": [
+								[
+									"{@area Almiraj|008|x}",
+									"01-05",
+									"\u2014"
+								],
+								[
+									"{@area Axe beaks|009|x}",
+									"06-10",
+									"\u2014"
+								],
+								[
+									"{@area Baboons|00a|x}",
+									"11-15",
+									"\u2014"
+								],
+								[
+									"{@area Blood hawks|00b|x}",
+									"16-20",
+									"\u2014"
+								],
+								[
+									"{@area Cannibals|00c|x}",
+									"21-25",
+									"01-15"
+								],
+								[
+									"{@area Chwinga|00d|x}",
+									"26-30",
+									"\u2014"
+								],
+								[
+									"{@area Dimetrodons|00e|x}",
+									"31-35",
+									"\u2014"
+								],
+								[
+									"{@area Dolphins|00f|x}",
+									"\u2014",
+									"16-30"
+								],
+								[
+									"{@area Eblis|010|x}",
+									"36-40",
+									"\u2014"
+								],
+								[
+									"{@area Flail snail|011|x}",
+									"41-45",
+									"\u2014"
+								],
+								[
+									"{@area Flying snakes|012|x}",
+									"46-50",
+									"31-40"
+								],
+								[
+									"{@area Geonids|013|x}",
+									"51-55",
+									"\u2014"
+								],
+								[
+									"{@area Giant lizards|014|x}",
+									"56-60",
+									"\u2014"
+								],
+								[
+									"{@area Giant snapping turtle|015|x}",
+									"61-65",
+									"41-50"
+								],
+								[
+									"{@area Jaculis|016|x}",
+									"66-70",
+									"\u2014"
+								],
+								[
+									"{@area Marine Decapus|017|x}",
+									"\u2014",
+									"51-60"
+								],
+								[
+									"{@area Plesiosaurus|018|x}",
+									"\u2014",
+									"61-75"
+								],
+								[
+									"{@area Pteranodons|019|x}",
+									"71-75",
+									"76-85"
+								],
+								[
+									"{@area Reef sharks|01a|x}",
+									"\u2014",
+									"86-00"
+								],
+								[
+									"{@area Stirges|01b|x}",
+									"76-80",
+									"\u2014"
+								],
+								[
+									"{@area Topis|01c|x}",
+									"81-85",
+									"\u2014"
+								],
+								[
+									"{@area Tortle|01d|x}",
+									"86-00",
+									"\u2014"
+								]
+							],
+							"data": {
+								"tableInclude": true
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Almiraj",
+							"id": "008",
+							"page": 5,
+							"entries": [
+								"角色们发现一只{@creature almiraj|toa}（见{@adventure Tomb of Annihilation|ToA}）大约60英尺远的位置。角兔会逃离任何靠近它30英尺范围内的生物。任何成功困住角兔的角色可以使用一个动作进行一次DC 14的智力检定。如果检定成功，角兔会变得平静，不会攻击角色或逃跑，除非它感到受到威胁或受到伤害。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Axe Beaks",
+							"id": "009",
+							"page": 5,
+							"entries": [
+								"一群{@dice 1d6+3}{@creature axe beak||axe beaks}踩着脚步向人物走去，向它们能触及的人砍去。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Baboons",
+							"id": "00a",
+							"page": 5,
+							"entries": [
+								"一群{@dice 3d6}{@creature baboon||baboons}的狒狒已经适应了生活在小山洞里，但为了寻找食物而窜到了树线上。狒狒可以通过向它们每个人扔一天的食物来安抚它们的情绪。否则，它们会发动攻击，一旦数量减少一半就会逃走。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Blood Hawks",
+							"id": "00b",
+							"page": 6,
+							"entries": [
+								"这些鲜红的鸟是岛上常见的景象。它们以{@creature flying snake|MM|flying snakes}为食，而海龟则以猎杀它们为乐。{@creature blood hawk||Blood hawks}只在白天出现，典型的遭遇战包括{@dice 2d6}{@creature blood hawk||blood hawks}的攻击，直到它们中的一半被杀死。如果这个遭遇是在晚上发生的，就当做没有遭遇。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cannibals",
+							"id": "00c",
+							"page": 6,
+							"entries": [
+								"来自大陆的人类食人族使用{@item canoe|toa|canoes}抵达这个岛屿。他们前来寻找船难幸存者以便猎杀和食用。角色们遭遇{@dice 3d6}敌对的食人族（CE 雄性和雌性丛林人类{@creature tribal warrior||tribal warriors}），他们拼命战斗直至死亡。他们戴着用剥下的人脸制成的皮革面具，身上佩戴着用人骨和牙齿制成的粗糙珠宝。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Chwinga",
+							"id": "00d",
+							"page": 6,
+							"entries": [
+								"一个{@creature chwinga|toa}（见{@adventure Tomb of Annihilation|ToA}）对这些角色产生了兴趣。它试图从一个无人看守的包裹中偷走一些有价值的东西，但任何一名感知属性（{@skill Perception}）达到17或更高的角色都会注意到它。这只小精灵总会留下其他东西作为交换：一个漂亮的贝壳，一把坚果，或者一颗未加工的宝石（10 gp）。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dimetrodons",
+							"id": "00e",
+							"page": 6,
+							"entries": [
+								"如果角色们在海岸附近旅行，他们会看到{@dice 1d4} {@creature dimetrodon|vgm|dimetrodons}（看到{@adventure Tomb of Annihilation|ToA}或{@book Volo's Guide to Monsters|vgm}）在浅水池中打滚。这些生物如果被打扰会变得敌对。如果角色们远离水域或在夜间扎营，那些二型龙会开始移动并攻击途中的任何东西。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dolphins",
+							"id": "00f",
+							"page": 6,
+							"entries": [
+								"当队伍遭遇到{@dice 2d4} {@creature dolphin|vgm|dolphins} (见{@book Volo's Guide to Monsters|vgm})或者1个{@creature killer whale}，如果你更喜欢的话。如果角色们使用魔法与这些生物交谈，他们可以得到通往最近海岸定居点的指引。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Eblis",
+							"id": "010",
+							"page": 6,
+							"entries": [
+								"如果角色在移动时遭遇到这个事件，他们会偶然发现{@dice 1d4+2} {@creature eblis|toa} (见{@adventure Tomb of Annihilation|ToA})正在寻找{@creature lizard|MM|lizards}或{@creature flying snake|MM|flying snakes}来吃。艾布利斯（Eblis）会礼貌地提出用宝藏交换信息。以价值50 gp的宝藏，他们会指引冒险者前往附近地标的方向。如果角色拒绝交换并且处于劣势，艾布利斯会发动攻击。如果有一半的艾布利斯被杀死或无法行动，它们会逃走。如果这个事件发生时队伍正在扎营，艾布利斯会潜入营地并试图拖走一名角色。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Flail Snail",
+							"id": "011",
+							"page": 6,
+							"entries": [
+								"角色们发现了一条{@creature flail snail|vgm}（见{@adventure Tomb of Annihilation|ToA}或{@book Volo's Guide to Monsters|vgm}）的黏滑痕迹。如果他们决定跟踪它，成功通过DC 10的感知({@skill Survival})检定可以正确推断蜗牛的移动方向。蜗牛只想被放过，只会攻击那些挑衅它的人。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Flying Snakes",
+							"id": "012",
+							"page": 6,
+							"entries": [
+								"队伍遭遇{@dice 1d6}只有在受到威胁时才会攻击的{@creature flying snake||flying snakes}。成功制服的飞蛇可以被塞进袋子或其他软容器中。囚禁1小时后，蛇会安静下来。成功通过DC 13的感知({@skill Animal Handling})检定的角色可以在不引起蛇攻击或飞走的情况下将安静的蛇从容器中取出。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Geonids",
+							"id": "013",
+							"page": 6,
+							"entries": [
+								"地元(Geonids)生活在山洞中，但在岛上任何地方都可能遇到它们。如果遭遇发生在白天，角色们会被伏击，{@dice 2d4} {@creature geonid|ttp|geonids} 伪装成小石头。它们会要求至少价值25 gp的财宝，以换取在它们领地内的安全通行。如果遭遇发生在夜晚，{@dice 3d6} {@creature geonid|ttp|geonids} 会试图潜入队伍的营地偷食物。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Giant Lizards",
+							"id": "014",
+							"page": 6,
+							"entries": [
+								"角色们遭遇{@dice 1d6} {@creature giant lizard||giant lizards}。白天，蜥蜴们吃饱了就会逃跑，如果受到攻击的话；晚上，它们会变得攻击性，攻击那些靠近它们30英尺范围内的角色。奥姆加尔之吻是数百只巨型蜥蜴的家园。龟人为了它们的皮革和肉而猎杀它们，他们还用蜥蜴的骨头和牙齿制作粗糙的珠宝。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Giant Snapping Turtle",
+							"id": "015",
+							"page": 6,
+							"entries": [
+								"这些侵略性的怪物喜欢晒在岛上温暖的岩石和海岸上，但偶尔会有一只冒险进入内陆寻找食物。角色们遇到了一只孤独的{@creature giant snapping turtle|toa}（见{@adventure Tomb of Annihilation|ToA}），他们可以通过保持距离来避开它。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Jaculis",
+							"id": "016",
+							"page": 6,
+							"entries": [
+								"毫无预警，{@dice 1d6} {@creature jaculi|toa|jaculis} (看见{@adventure Tomb of Annihilation|ToA}) 从树上或山崖上向队伍扑来。任何被动感知力({@skill Perception})分数达到14或更高的角色在袭击前就能发现这些角蛇，但其他人都会被袭击。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Marine Decapus",
+							"id": "017",
+							"page": 6,
+							"entries": [
+								"这种海洋生物{@creature decapus|ttp}捕食游泳者，甚至会从{@item canoe|toa}的船上抢走一个划船者（不过它必须用一半的触手抓住船只才行）。如果它失去一半以上的命中率，就会撤回到深海中。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Plesiosaurus",
+							"id": "018",
+							"page": 6,
+							"entries": [
+								"角色们误入了一个饥饿的{@creature plesiosaurus}的狩猎领地，它会袭击经过的{@item canoe|toa|canoes}或者任何它能咬住的东西。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Pteranodons",
+							"id": "019",
+							"page": 6,
+							"entries": [
+								"{@creature pteranodon||Pteranodons}在山顶上栖息，成群结队地在岛上的海岸边捕鱼。角色们在附近发现了（1%）（2%）。翼龙会保持距离，只有在受到威胁时才会攻击。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Reef Sharks",
+							"id": "01a",
+							"page": 8,
+							"entries": [
+								"这个岛周围的水域是成千上万只{@creature reef shark||reef sharks}的家园，它们被水中的血腥气味所吸引。一个有着开放性出血伤口的游泳者如果在水中停留超过1分钟，将会遭到{@dice 1d6} {@creature reef shark||reef sharks}的袭击。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Stirges",
+							"id": "01b",
+							"page": 8,
+							"entries": [
+								"奥姆加尔之鼻有许多洞穴、废墟和树木，{@creature stirge||stirges} 可以躲藏其中。白天，角色们在丛林中行进时会惊扰 {@dice 2d6} {@creature stirge||stirges}。夜晚，同样数量的吸血蝙蝠会降临到队伍的营地上。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Topis",
+							"id": "01c",
+							"page": 8,
+							"entries": [
+								"这些角色被从{@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}逃脱的{@dice 1d4+2} {@creature topi|ttp|topis} (见\"(%)\") 攻击了。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tortle",
+							"id": "01d",
+							"page": 8,
+							"entries": [
+								"角色们遇到了一个{@creature tortle|mtf} (见\"{@race tortle|ttp|Tortles}\")。有关推荐的龟名，请参见\"{@race tortle|ttp|Tortle Names}\"。如果这次遭遇发生在海岸附近，那么这只龟是一名捕鱼者，带着一个{@item fishing tackle|phb|fishing pole}、一个{@item net|phb}和一个鱼篮。如果遭遇发生在内陆，那么这只龟正在狩猎蛇、{@creature lizard|MM|lizards}、{@creature axe beak||axe beaks}或{@creature blood hawk||blood hawks}。这只龟试图提供帮助。如果角色们正在寻找一个可以休息和交易的定居点，那么这只龟会指引他们前往{@adventure Ahoyhoy|ttp|3|Ahoyhoy}的方向。如果他们正在寻找冒险，它会指引他们前往{@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}的方向。如果他们正在寻找谜团，它会指引他们前往{@adventure Shrine of Fangs|ttp|3|Shrine of Fangs}的方向。如果他们正在寻找沉船来掠夺，它会指引他们前往{@adventure High Horn|ttp|3|High Horn}的方向。如果他们想玩得开心，这只龟会告诉他们去{@adventure Mud Pits of Florrb|ttp|3|Mud Pits of Florrb}的方向。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Island Locations",
+			"id": "01e",
+			"page": 8,
+			"entries": [
+				"以下位置与{@area map 1|001|x}对应。",
+				{
+					"type": "entries",
+					"name": "Ahoyhoy",
+					"id": "01f",
+					"page": 8,
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Ahoyhoy DM.webp"
+							},
+							"title": "Ahoyhoy - DM",
+							"width": 1988,
+							"height": 1373,
+							"mapRegions": [
+								{
+									"area": "020",
+									"points": [
+										[
+											856,
+											977
+										],
+										[
+											983,
+											980
+										],
+										[
+											991,
+											706
+										],
+										[
+											856,
+											707
+										]
+									]
+								},
+								{
+									"area": "021",
+									"points": [
+										[
+											728,
+											260
+										],
+										[
+											859,
+											207
+										],
+										[
+											1023,
+											208
+										],
+										[
+											1173,
+											271
+										],
+										[
+											1125,
+											412
+										],
+										[
+											1091,
+											455
+										],
+										[
+											1125,
+											534
+										],
+										[
+											1043,
+											618
+										],
+										[
+											869,
+											655
+										],
+										[
+											826,
+											547
+										],
+										[
+											749,
+											488
+										],
+										[
+											774,
+											459
+										],
+										[
+											776,
+											351
+										]
+									]
+								},
+								{
+									"area": "022",
+									"points": [
+										[
+											469,
+											775
+										],
+										[
+											446,
+											688
+										],
+										[
+											471,
+											563
+										],
+										[
+											603,
+											484
+										],
+										[
+											723,
+											488
+										],
+										[
+											852,
+											653
+										],
+										[
+											845,
+											777
+										],
+										[
+											658,
+											870
+										]
+									]
+								},
+								{
+									"area": "023",
+									"points": [
+										[
+											422,
+											698
+										],
+										[
+											290,
+											619
+										],
+										[
+											195,
+											634
+										],
+										[
+											109,
+											718
+										],
+										[
+											102,
+											878
+										],
+										[
+											248,
+											957
+										],
+										[
+											449,
+											873
+										],
+										[
+											457,
+											784
+										]
+									]
+								},
+								{
+									"area": "024",
+									"points": [
+										[
+											251,
+											269
+										],
+										[
+											409,
+											270
+										],
+										[
+											507,
+											350
+										],
+										[
+											508,
+											446
+										],
+										[
+											381,
+											542
+										],
+										[
+											235,
+											531
+										],
+										[
+											209,
+											379
+										]
+									]
+								},
+								{
+									"area": "025",
+									"points": [
+										[
+											644,
+											230
+										],
+										[
+											491,
+											294
+										],
+										[
+											513,
+											352
+										],
+										[
+											510,
+											444
+										],
+										[
+											568,
+											487
+										],
+										[
+											606,
+											472
+										],
+										[
+											739,
+											477
+										],
+										[
+											764,
+											455
+										],
+										[
+											763,
+											353
+										],
+										[
+											712,
+											263
+										]
+									]
+								},
+								{
+									"area": "026",
+									"points": [
+										[
+											1180,
+											496
+										],
+										[
+											1277,
+											497
+										],
+										[
+											1278,
+											618
+										],
+										[
+											1180,
+											614
+										]
+									]
+								},
+								{
+									"area": "027",
+									"points": [
+										[
+											1508,
+											514
+										],
+										[
+											1575,
+											363
+										],
+										[
+											1707,
+											325
+										],
+										[
+											1809,
+											342
+										],
+										[
+											1892,
+											519
+										],
+										[
+											1819,
+											686
+										],
+										[
+											1596,
+											696
+										],
+										[
+											1512,
+											633
+										]
+									]
+								},
+								{
+									"area": "028",
+									"points": [
+										[
+											1104,
+											657
+										],
+										[
+											1347,
+											653
+										],
+										[
+											1476,
+											774
+										],
+										[
+											1480,
+											983
+										],
+										[
+											1294,
+											1111
+										],
+										[
+											1093,
+											1103
+										],
+										[
+											1005,
+											970
+										],
+										[
+											1010,
+											741
+										]
+									]
+								},
+								{
+									"area": "025",
+									"points": [
+										[
+											1196,
+											247
+										],
+										[
+											1142,
+											410
+										],
+										[
+											1190,
+											483
+										],
+										[
+											1348,
+											498
+										],
+										[
+											1430,
+											441
+										],
+										[
+											1456,
+											310
+										],
+										[
+											1374,
+											236
+										],
+										[
+											1290,
+											223
+										]
+									]
+								}
+							],
+							"imageType": "map",
+							"grid": {
+								"type": "square",
+								"size": 82,
+								"offsetX": 19,
+								"offsetY": -11,
+								"scale": 3
+							},
+							"id": "08b",
+							"hrefThumbnail": {
+								"type": "internal",
+								"path": "adventure/TTP/thumbnail/Ahoyhoy DM.webp"
+							}
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Ahoyhoy Player.webp"
+							},
+							"title": "Ahoyhoy - Player",
+							"width": 1459,
+							"height": 978,
+							"imageType": "mapPlayer",
+							"grid": {
+								"type": "square",
+								"size": 60,
+								"offsetX": -36,
+								"offsetY": -46,
+								"scale": 3
+							},
+							"mapParent": {
+								"id": "08b",
+								"offsetY": 20,
+								"scaleX": 1.365,
+								"scaleY": 1.34,
+								"autoScale": true
+							}
+						},
+						"Ahoyhoy的海龟堡垒（见{@area map 2|01f|x}）位于该岛的西北部海岸。托尔人来到这里交际，产卵，并与商人会面。这个地方没有政府。托尔人和客人都应该表现得最好，那些成为讨厌鬼的人被要求离开，或者在必要时被强迫离开。",
+						"在任何时候，Ahoyhoy 有 {@dice 4d6} 位成年 {@creature tortle|mtf|tortles} (见\"龟人族(Tortles)\")，{@dice 2d6} 位年幼的龟人（非战斗单位，每个AC为14，2点生命值），以及一位名叫 Mudgraw 的老龟人（有关角色扮演笔记，请参见\"{@area Tortle Guides,|005|x}\"；有关统计数据，请参见\"{@filter Tortles,|bestiary|tag=tortle}\"）。四位成年龟人在城墙上站岗（两人在{@area 3|022}，两人在{@area 9|028}）。其余的龟人在编织的垫子上睡觉或忙于手工艺品和项目（制作{@item crossbow bolt|phb|crossbow bolts}，剖鱼，修复堡垒的天气损坏等）。龟人们更喜欢在没有屋顶的情况下睡觉。他们把蛋放在特殊区域，覆盖着绳网，以保护蛋不受大型飞行掠食者的伤害。",
+						"如果角色向Ahoyhoy的托尔人询问关于这个岛和它的居民的传说，他们与之交谈的每个托尔人都会分享一条有用的信息。掷出{@dice d8}并查阅Ahoyhoy传说表以决定分享哪些信息。",
+						{
+							"type": "table",
+							"caption": "Ahoyhoy Lore",
+							"page": 8,
+							"colLabels": [
+								"d8",
+								"Lore"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"在该岛的北端有几艘沉船。大多数沉船已经被掠夺，但退去的沙子和水可能会发现一些珍贵的东西还没有被人认领。在退潮时探索这些沉船是最安全的。涨潮时，一只双头恐龙在浅滩上出没。"
+								],
+								[
+									"2",
+									"从Ahoyhoy通往{@adventure Dangwaru|ttp|3|Dangwaru (The Typhoon Palace)}的山腰上有一条古老的小径。一百年前，海龟族为一艘遇难船只的幸存者建造了{@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}，但多年来一直被遗弃。据说邪恶的灵魂现在守护着这座宫殿，里面据说埋藏着宝藏。 (如果角色想要更多信息，可以在\"{@adventure Dangwaru|ttp|3|Dangwaru (The Typhoon Palace)}\"部分分享额外的传说片段。)"
+								],
+								[
+									"3",
+									"前段时间，在丛林里狩猎{@creature flying snake|mm|flying snakes}的时候，我被一群不到人类孩童大小的缩头僵尸袭击了。我消灭了其中一些，其余的逃走了。从那以后我就再也没见过它们。"
+								],
+								[
+									"4",
+									"一条小径从Ahoyhoy通往丛林中心的{@adventure some mud pits|ttp|3|Mud Pits of Florrb}。如果你在泥坑中沐浴至少一个小时，它会增强你的体力。"
+								],
+								[
+									"5",
+									"在阿霍伊东面的山脚下，刻着一个古老的神殿，属于某种蛇的崇拜。这是一个充满神秘和秘密的地方。"
+								],
+								[
+									"6",
+									"龟类在年老时交配并产卵。父母守护着蛋，直到它们孵化，然后与新生的后代分享他们的生活经验。在学会用两条腿走路后不久，年轻的龙卷风就成为一个孤儿，准备在这个世界上留下自己的痕迹。"
+								],
+								[
+									"7",
+									"一艘名为 \"Stirge \"的船经常访问Ahoyhoy。船长拉斯基拉尔是一个不折不扣的海盗，但他总是有有用的货物可以交易。在离开奥格尔的鼻孔后，\"Stirge \"号通常会前往一个叫贾哈卡锚地的地方。我从来没有听说过它，所以它一定很远。(关于{@adventure Captain Laskilar and Jahaka Anchorage|toa|2|Jahaka Anchorage}的更多信息，见{@adventure Tomb of Annihilation|ToA}。)"
+								],
+								[
+									"8",
+									"这个岛屿是微小、无害的元素精灵{@creature chwinga|toa|chwingas}的家园。如果它们喜欢你，它们会送给你礼物。"
+								]
+							]
+						},
+						"这座堡垒建在一个俯瞰沙滩的岩石平台上。游客可以在沙滩上搭起帐篷，并在堡垒进行贸易。每隔几个月，一艘船会在离岸几百码的地方停下锚，然后派船员乘小艇与海龟人进行贸易。有关与海龟人贸易的更多信息，请参见{@area 9|028}。",
+						"从Ahoyhoy出发有两条小径。北边的小径穿过丛林，最终到达{@adventure Mud Pits of Florrb|ttp|3|Mud Pits of Florrb}。南边的小径沿着山坡通往{@adventure Dangwaru|ttp|3|Dangwaru (The Typhoon Palace)}。",
+						{
+							"type": "entries",
+							"name": "1. South Gate",
+							"id": "020",
+							"page": 9,
+							"entries": [
+								"如果人物从南边接近要塞，请读。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"一个多层的堡垒矗立在水边，坚固的石墙上装饰着大龟壳。通往堡垒的小路在一扇木制双门前结束。两个守卫站在门东面的墙顶上放哨。他们看起来像长得过高的双足海龟，手持弩箭。门外是一片海滩，几艘宽底渔船被拴在码头上。"
+									],
+									"id": "071"
+								},
+								"请参阅{@area 9|028}，了解更多关于托尔护卫的信息。他们对没有表现出敌意的游客很友好。",
+								"南门的双扇门没有锁，但需要时可以用横木栓住。强行打开被栓住的门需要成功通过 DC 27 力量检定 ({@skill Athletics})。这扇被栓住的门也可以被砸开；它的防御等级为 15，破坏阈值为 10，拥有 120 点生命值，并且免疫毒素和精神伤害。这扇门高 10 英尺，宽 12 英尺，嵌入一堵 15 英尺高的石墙中。周围的墙壁也是 15 英尺高。",
+								"木质楼梯通向海滩。玉米饼渔船在功能上与{@item rowboat|dmg|rowboats}相同（关于{@item rowboat|dmg|rowboats}的更多信息见{@book chapter 5 of the Dungeon Master's Guide|dmg|5}）。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "2. North Gate and Courtyard",
+							"id": "021",
+							"page": 9,
+							"entries": [
+								"如果人物从北面接近要塞，请读。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"一个多层的堡垒矗立在水边，坚固的石墙上装饰着大龟壳。通往堡垒的小路在一扇木制双门前结束。两名守卫被派驻，在大门两侧的城墙上各有一名。他们看起来像长得过高的双足乌龟，手持弩箭。"
+									],
+									"id": "072"
+								},
+								"大门与{@area 1|020}的大门完全相同。两个{@creature tortle|mtf|tortles}(见\"{@filter Tortles,|bestiary|tag=tortle}\")站在10英尺高的木制城墙上，紧贴着城墙的内部。院子里的梯子可以方便地进入城墙。",
+								"托尔人经常在院子里修理渔网，院子里铺着一层薄薄的沙子。短短的石阶可以上升到相邻的区域。一个有屋顶的马厩里有{@dice 1d4}{@creature boar||boars}和{@dice 1d4}{@creature mule||mules}的畜栏，还有{@dice 2d8}{@item chicken|phb|chickens}的畜圈。动物的食物储存在一个阁楼里。这些动物不是奥格尔斯诺特的本地动物；托尔人从来访的商人那里购买了它们。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "3. Living Area",
+							"id": "022",
+							"page": 9,
+							"entries": [
+								"这里的地面被沙子覆盖。龟兹人来到这里，睡在编织的垫子上，坐在阴凉的遮阳棚下，把鱼和肉挂起来晾晒，用小火做饭，并从一个收集雨水的中央盆里喝水。他们也来这里相互交往。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "4. Fishing Space and Storage",
+							"id": "023",
+							"page": 9,
+							"entries": [
+								"渔具和其他用品都存放在这里的板条箱和木桶里。从墙上延伸出来的是几根长长的木棒，是托尔人用来在浅滩捕鱼的。一颗附着在木柱上的抛光金属星被用来捕捉和反射太阳光和月光。托特尔人用这颗星作为警报器，警告西部水域的渔船对堡垒的攻击。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "5. Amphitheater",
+							"id": "024",
+							"page": 9,
+							"entries": [
+								"Ahoyhoy最高的地方是一个有墙的圆形剧场，在那里，托特人聚集在一起讨论社区事务和分享故事。故事时间是Ahoyhoy的托塔人所期待的场合，讲故事的人要尽可能地以娱乐的方式编织他们的故事。游客可以自由参加，无论是作为听众还是讲故事的人。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "6. Egg Hatcheries",
+							"id": "025",
+							"page": 9,
+							"entries": [
+								"Ahoyhoy有两个大的、填满沙子的区域被留作托儿所孵化。绳索从墙顶穿过这些区域，形成网状，防止{@creature pteranodon||pteranodons}和类似的飞行掠食者偷窃鸡蛋。",
+								"有一个{@chance 20}的机会，孵化室里有{@dice 1d12}托儿所的卵。如果有卵，{@dice 1d2}老人{@creature tortle|mtf|tortles}（见\"{@filter Tortles,|bestiary|tag=tortle}\"）要看管好它们。每个托拉蛋重达5磅。新生的托拉虫通常被限制在孵化室里几个月，直到它学会用两条腿走路。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "7. Gong",
+							"id": "026",
+							"page": 9,
+							"entries": [
+								"一面用蜥蜴皮缝制的青铜打制的铜锣矗立在堡垒的中央。它所连接的柱子上挂着一个木槌。Ahoyhoy的炮台使用一套简单的锣鼓信号。",
+								{
+									"type": "list",
+									"items": [
+										"一个烟斗表示陆路游客的到来。",
+										"两个烟斗表示游客乘船抵达。",
+										"三支烟是呼吁大家到露天剧场集合。",
+										"四个烟斗表明攻击迫在眉睫。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "8. Smithy",
+							"id": "027",
+							"page": 9,
+							"entries": [
+								"乌龟人在堡垒的最东边区域用于制作工具，{@item shield|phb|shields}，和{@table weapons|phb}。这里有一个石头熔炉，以及用于金属加工、石雕和兽皮鞣制的设备。在这个区域的中间是一个原始的木制傀儡，乌龟人用来测试武器。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "9. Market",
+							"id": "028",
+							"page": 9,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这个有围墙的区域包含了市场的特征。地面上铺着沙子，上面放着编织的垫子、木制的摊位和陈列的桌子。一个石制日晷矗立在市场的中央，楼梯通向南墙的木制壁垒。"
+									],
+									"id": "073"
+								},
+								"托尔人聚集在这里，与友好的游客进行交易。两个{@creature tortle|mtf|tortles}(见\"{@filter Tortles,|bestiary|tag=tortle}\")在城墙上站岗，留意从南方来的游客或麻烦。",
+								"海龟人经常从游客那里获取他们不需要的物品，然后将它们卖给其他游客。如果一个角色想要在{@book chapter 5 of the Player's Handbook|phb|5}的{@table weapons|phb|Weapons table}、{@table adventuring gear|phb|Adventuring Gear table}、{@table tools|phb|Tools table}或{@table trade goods|phb|Trade Goods table}购买物品，那么海龟人有{@chance 25}的几率拥有这样的物品出售，或者用同等价值的物品交换。海龟人买卖{@item shield|phb|shields}，但不买卖{@table Armor and Shields; Armor|phb|armor}。",
+								"Ahoyhoy物品表包含了可以在托勒密定居点采购的不寻常生物和物品。如果角色想获得超过一个特定的生物或物品，请掷出{@dice d4}来决定托尔人有多少可以出售或交易。",
+								{
+									"type": "table",
+									"caption": "Ahoyhoy Goods",
+									"page": 9,
+									"colLabels": [
+										"Cost",
+										"Goods"
+									],
+									"colStyles": [
+										"col-2 text-right",
+										"col-10"
+									],
+									"rows": [
+										[
+											"2 sp",
+											"1 磅 红色 {@creature blood hawk} 羽毛的蓝桶"
+										],
+										[
+											"1 gp",
+											"2磅有盖的篮子里有4个{@creature poisonous snake||poisonous snakes}或{@creature scorpion|mm|scorpions}的东西"
+										],
+										[
+											"2 gp",
+											"2磅篮子里的观赏贝壳或珊瑚"
+										],
+										[
+											"3 gp",
+											"70磅的桶装80磅的椰子"
+										],
+										[
+											"5 gp",
+											"5磅的木制笼子里装着一个未受过训练的{@creature almiraj|toa}（见{@adventure Tomb of Annihilation|ToA}）或一个{@creature baboon}。"
+										],
+										[
+											"10 gp",
+											"一个重5磅的木笼，里面关着一只训练有素的{@creature blood hawk}或{@creature flying snake}。"
+										],
+										[
+											"25 gp",
+											"{@creature Dimetrodon|vgm}鸡蛋或{@creature pteranodon}鸡蛋"
+										],
+										[
+											"50 gp",
+											"驯化的 {@creature giant lizard} (群居动物)"
+										],
+										[
+											"50 gp",
+											"绳索拴着头戴兜帽的未训练者{@creature axe beak}"
+										],
+										[
+											"500 gp",
+											"500 gp 钻石"
+										],
+										[
+											"500 gp",
+											"25磅的{@creature flail snail|vgm}炮弹碎片堆栈"
+										],
+										[
+											"1,000 gp",
+											"装有10颗100gp珍珠的小袋"
+										],
+										[
+											"5,000 gp",
+											"250磅{@creature flail snail|vgm}外壳(完整的)"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dangwaru (The Typhoon Palace)",
+					"id": "029",
+					"page": 9,
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Dangwaru DM.webp"
+							},
+							"title": "Dangwaru - DM",
+							"width": 1988,
+							"height": 2656,
+							"mapRegions": [
+								{
+									"area": "02a",
+									"points": [
+										[
+											871,
+											248
+										],
+										[
+											873,
+											613
+										],
+										[
+											1198,
+											611
+										],
+										[
+											1198,
+											246
+										]
+									]
+								},
+								{
+									"area": "02b",
+									"points": [
+										[
+											1298,
+											249
+										],
+										[
+											1449,
+											249
+										],
+										[
+											1450,
+											401
+										],
+										[
+											1295,
+											400
+										]
+									]
+								},
+								{
+									"area": "02c",
+									"points": [
+										[
+											608,
+											144
+										],
+										[
+											308,
+											265
+										],
+										[
+											253,
+											485
+										],
+										[
+											340,
+											709
+										],
+										[
+											585,
+											744
+										],
+										[
+											600,
+											607
+										],
+										[
+											693,
+											555
+										],
+										[
+											726,
+											347
+										]
+									]
+								},
+								{
+									"area": "02d",
+									"points": [
+										[
+											978,
+											718
+										],
+										[
+											1100,
+											718
+										],
+										[
+											1094,
+											618
+										],
+										[
+											976,
+											622
+										]
+									]
+								},
+								{
+									"area": "02e",
+									"points": [
+										[
+											873,
+											625
+										],
+										[
+											875,
+											974
+										],
+										[
+											1196,
+											976
+										],
+										[
+											1197,
+											623
+										],
+										[
+											1109,
+											623
+										],
+										[
+											1113,
+											730
+										],
+										[
+											965,
+											732
+										],
+										[
+											963,
+											623
+										]
+									]
+								},
+								{
+									"area": "02f",
+									"points": [
+										[
+											860,
+											615
+										],
+										[
+											734,
+											616
+										],
+										[
+											678,
+											662
+										],
+										[
+											680,
+											812
+										],
+										[
+											861,
+											809
+										]
+									]
+								},
+								{
+									"area": "030",
+									"points": [
+										[
+											1209,
+											616
+										],
+										[
+											1408,
+											612
+										],
+										[
+											1404,
+											813
+										],
+										[
+											1209,
+											815
+										]
+									]
+								},
+								{
+									"area": "032",
+									"points": [
+										[
+											681,
+											824
+										],
+										[
+											682,
+											978
+										],
+										[
+											865,
+											974
+										],
+										[
+											864,
+											817
+										]
+									]
+								},
+								{
+									"area": "034",
+									"points": [
+										[
+											1206,
+											822
+										],
+										[
+											1408,
+											820
+										],
+										[
+											1404,
+											980
+										],
+										[
+											1205,
+											979
+										]
+									]
+								},
+								{
+									"area": "036",
+									"points": [
+										[
+											666,
+											1099
+										],
+										[
+											602,
+											1097
+										],
+										[
+											610,
+											616
+										],
+										[
+											695,
+											559
+										],
+										[
+											727,
+											605
+										],
+										[
+											669,
+											654
+										]
+									]
+								},
+								{
+									"area": "038",
+									"points": [
+										[
+											1033,
+											985
+										],
+										[
+											679,
+											986
+										],
+										[
+											676,
+											1328
+										],
+										[
+											1029,
+											1333
+										]
+									]
+								},
+								{
+									"area": "03b",
+									"points": [
+										[
+											1410,
+											990
+										],
+										[
+											1042,
+											989
+										],
+										[
+											1040,
+											1335
+										],
+										[
+											1301,
+											1334
+										],
+										[
+											1528,
+											1275
+										],
+										[
+											1655,
+											1241
+										],
+										[
+											1798,
+											1122
+										],
+										[
+											1782,
+											1045
+										],
+										[
+											1627,
+											992
+										]
+									]
+								},
+								{
+									"area": "03f",
+									"points": [
+										[
+											675,
+											1330
+										],
+										[
+											822,
+											1330
+										],
+										[
+											824,
+											1622
+										],
+										[
+											675,
+											1547
+										]
+									]
+								},
+								{
+									"area": "040",
+									"points": [
+										[
+											663,
+											1389
+										],
+										[
+											311,
+											1439
+										],
+										[
+											146,
+											1727
+										],
+										[
+											160,
+											1965
+										],
+										[
+											359,
+											2223
+										],
+										[
+											667,
+											2220
+										],
+										[
+											670,
+											1980
+										],
+										[
+											822,
+											1865
+										],
+										[
+											823,
+											1636
+										],
+										[
+											663,
+											1556
+										]
+									]
+								},
+								{
+									"area": "042",
+									"points": [
+										[
+											888,
+											1331
+										],
+										[
+											887,
+											1693
+										],
+										[
+											1193,
+											1701
+										],
+										[
+											1194,
+											1333
+										]
+									]
+								},
+								{
+									"area": "045",
+									"points": [
+										[
+											1205,
+											1341
+										],
+										[
+											1306,
+											1344
+										],
+										[
+											1305,
+											1431
+										],
+										[
+											1405,
+											1433
+										],
+										[
+											1401,
+											1699
+										],
+										[
+											1205,
+											1699
+										]
+									]
+								},
+								{
+									"area": "046",
+									"points": [
+										[
+											1400,
+											1711
+										],
+										[
+											832,
+											1706
+										],
+										[
+											833,
+											1807
+										],
+										[
+											1405,
+											1809
+										]
+									]
+								},
+								{
+									"area": "047",
+									"points": [
+										[
+											886,
+											1818
+										],
+										[
+											888,
+											1915
+										],
+										[
+											976,
+											1915
+										],
+										[
+											981,
+											2276
+										],
+										[
+											1307,
+											2277
+										],
+										[
+											1296,
+											2075
+										],
+										[
+											1358,
+											2079
+										],
+										[
+											1356,
+											1914
+										],
+										[
+											1409,
+											1914
+										],
+										[
+											1404,
+											1818
+										]
+									]
+								},
+								{
+									"area": "04b",
+									"points": [
+										[
+											904,
+											2323
+										],
+										[
+											1044,
+											2323
+										],
+										[
+											1044,
+											2490
+										],
+										[
+											908,
+											2486
+										]
+									]
+								},
+								{
+									"area": "04c",
+									"points": [
+										[
+											1189,
+											2326
+										],
+										[
+											1187,
+											2492
+										],
+										[
+											1405,
+											2489
+										],
+										[
+											1402,
+											2318
+										]
+									]
+								},
+								{
+									"area": "04e",
+									"points": [
+										[
+											885,
+											2335
+										],
+										[
+											771,
+											2334
+										],
+										[
+											681,
+											2170
+										],
+										[
+											683,
+											1993
+										],
+										[
+											839,
+											1862
+										],
+										[
+											877,
+											1858
+										]
+									]
+								},
+								{
+									"area": "04f",
+									"points": [
+										[
+											1837,
+											2293
+										],
+										[
+											1753,
+											2482
+										],
+										[
+											1517,
+											2509
+										],
+										[
+											1373,
+											2077
+										],
+										[
+											1374,
+											1933
+										],
+										[
+											1432,
+											1930
+										],
+										[
+											1517,
+											1654
+										],
+										[
+											1659,
+											1570
+										],
+										[
+											1486,
+											1538
+										],
+										[
+											1496,
+											1309
+										],
+										[
+											1624,
+											1263
+										],
+										[
+											1716,
+											1305
+										],
+										[
+											1818,
+											1504
+										],
+										[
+											1891,
+											1792
+										]
+									]
+								},
+								{
+									"area": "050",
+									"points": [
+										[
+											1884,
+											936
+										],
+										[
+											1912,
+											1224
+										],
+										[
+											1836,
+											1372
+										],
+										[
+											1771,
+											1380
+										],
+										[
+											1705,
+											1276
+										],
+										[
+											1816,
+											1139
+										],
+										[
+											1780,
+											979
+										],
+										[
+											1826,
+											931
+										]
+									]
+								},
+								{
+									"area": "051",
+									"points": [
+										[
+											1572,
+											688
+										],
+										[
+											1461,
+											821
+										],
+										[
+											1459,
+											981
+										],
+										[
+											1689,
+											988
+										],
+										[
+											1777,
+											960
+										],
+										[
+											1815,
+											915
+										],
+										[
+											1813,
+											689
+										]
+									]
+								}
+							],
+							"imageType": "map",
+							"grid": {
+								"type": "square",
+								"size": 52,
+								"offsetX": -3,
+								"offsetY": -13,
+								"distance": 10
+							},
+							"id": "08c",
+							"hrefThumbnail": {
+								"type": "internal",
+								"path": "adventure/TTP/thumbnail/Dangwaru DM.webp"
+							}
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Dangwaru Player.webp"
+							},
+							"title": "Dangwaru - Player",
+							"width": 2149,
+							"height": 2909,
+							"imageType": "mapPlayer",
+							"grid": {
+								"type": "square",
+								"size": 56,
+								"offsetY": -15,
+								"distance": 10
+							},
+							"mapParent": {
+								"id": "08c",
+								"scaleX": 0.926,
+								"scaleY": 0.928,
+								"autoScale": true
+							}
+						},
+						"台风宫殿（见{@area map 3|029|x}）已经矗立了近一个世纪。如果角色是3级或更低级别，他们在宫殿遭遇之间需要休息和恢复。他们甚至可能需要撤退和重新集结几次。4级或更高级别的角色应该能够在很少（如果有的话）休息的情况下清理宫殿。",
+						"由龟裔建造，这座宫殿是一座坚固的、多层的石制建筑，带有从山腰上雕刻出来的露台。它的名字，Dangwaru，在{@language primordial|phb|Aquan}中大致翻译为\"高处之家\"。没有人记得这座宫殿是为哪位牧师建造的，但岛上的龟裔知道关于Dangwaru及其最初居民的以下传说：",
+						{
+							"type": "list",
+							"items": [
+								"几乎一个世纪前，一场风暴导致一艘船在{@adventure High Horn|ttp|3|High Horn}附近坠毁。在把人类幸存者从残骸和水中拉出来后，托特人试图让人类感到宾至如归。",
+								"船长是一个有魅力的女人，托尔特人都很崇拜她。她崇拜一位海神，并讲述了关于可怕的海怪、伟大的船战和宏伟的岛屿宫殿的故事。托特尔人为她建造了台风宫，使她在岛上有家的感觉。",
+								"船长和她的船员们在宫殿里生活了一辈子。他们中的最后一个人在50多年前去世了。",
+								"这座宫殿已经破旧不堪，而且闹鬼。年轻的托尔人偶尔会到废墟中寻找宝藏。大多数人没走多远就被奇怪的声音和朦胧的形式吓跑了。"
+							]
+						},
+						"托尔人建造台风宫是为了抵御风暴、地震和时间的流逝。它所遭受的损害大多是由于疏忽造成的，而且损害大多是表面的。",
+						"宫殿内的天花板有15英尺高，除非另有说明。墙壁是由石膏覆盖的石头制成的。石膏上嵌有装饰性的石头、牡蛎壳、海星和珊瑚枝。门是用厚木头做成的，没有锁。",
+						"有几个区域设有魔法结界，只要佩戴着{@deity Umberlee|Faerûnian|SCAG}的圣徽就能绕过。角色们可以在{@adventure Bitch Queen|ttp|3|Bitch Queen}的残骸中找到这样的装置（见\"{@adventure High Horn|ttp|3|High Horn}\"）。",
+						{
+							"type": "entries",
+							"name": "1. Ruined Portico",
+							"id": "02a",
+							"page": 11,
+							"entries": [
+								"如果人物沿着小路从{@adventure Ahoyhoy|ttp|3|Ahoyhoy}向南走到Dangwaru，阅读或转述以下内容。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这条小路紧贴着山坡，沿着岛上的岩石海岸蜿蜒数英里，最后到达一座建在海平面以上30英尺的石头宫殿。海浪冲击着宫殿墙壁下的岩石。",
+										"宫殿的宏伟入口设有一排缠绕着藤蔓的柱廊，通向一扇由泡沫般的波浪雕刻而成、中间分开的石双门。门廊的屋顶部分已经坍塌，棕榈树和蕨类从裂开的石板间长出。许多无害的{@creature lizard|MM|lizards}利用门廊阴凉处作为巢穴。门廊东侧是一座被藤蔓缠绕的十英尺高的雕像。它有一个女人的头部和躯干，腿部应该在的地方是一条扭曲的水浪。门廊西侧远处，一个长满植物的花园露台俯瞰着雷鸣般的大海。"
+									],
+									"id": "074"
+								},
+								"斜斜的阳光或月光透过门廊屋顶的洞口照射下来，取决于白天或晚上的时间。虽然微小的{@creature lizard|MM|lizards}是无害的，但一个敌对的{@creature giant lizard}潜伏在门廊东南角的植物中。进入门廊的角色可以通过成功的DC 15感知({@skill Perception})检定发现这个{@creature giant lizard}。任何靠近它或者护城栅栏（见{@area 4|02d}）20英尺以内的人都会遭受攻击。这个{@creature giant lizard}很饥饿，会战斗直到被杀死。",
+								"双层门没有上锁，用生锈的、尖叫的铁铰链推开。如果人物在High Horn（见\"{@adventure High Horn|ttp|3|High Horn},\"）或其他地方的残骸中找到了{@deity Umberlee|Faerûnian|SCAG}的神圣符号，他们就会发现刻在双扇门上的分裂的波浪与这个符号非常吻合。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "2. Statue of Umberlee",
+							"id": "02b",
+							"page": 11,
+							"entries": [
+								"宫殿门廊东侧矗立着一尊海神{@deity Umberlee|Faerûnian|SCAG}高达10英尺的雕像。这座雕像在{@area 1|02a}的朗读文本中被描述为无害。",
+								"地面向南倾斜，上升5英尺，直到遇到宫殿墙上一个5英尺宽、8英尺高的裂缝，提供通往{@area 7|030}的通道。这个裂缝对于进入这个区域的任何人都是清晰可见的。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "3. Overgrown Garden",
+							"id": "02c",
+							"page": 11,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"野生蕨类植物和棕榈树在这个杂草丛生的花园中占主导地位。三座雕像，两座描写鲨鱼，一座描写章鱼，安装在三英尺高的石墙上，俯瞰大海。这里的一切都被海浪拍打的水花弄得湿漉漉的。一条石阶爬上十英尺高，通向一个摇摇欲坠的石质阳台，阳台紧贴着宫墙向南延伸。"
+									],
+									"id": "075"
+								},
+								"从花园到海边有20英尺的距离。白天，花园是无害的{@creature lizard|MM|lizards}、蛇和{@creature spider|mm|spiders}的家园，但没有危险的生物。夜晚，七{@creature Topi|ttp|Topis}潜伏在植物和其他野生动物中。它们试图突袭任何闯入花园的角色。这里没有隐藏宝藏。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "4. Antechamber and Portcullis",
+							"id": "02d",
+							"page": 11,
+							"entries": [
+								"宫殿的大门打开，通向一个前厅，西墙上有一个火炬架。镶嵌在南墙上的是一扇沉重的铁栅栏，可以使用{@area 5|02e}上的绞盘升起和放下。尽管这个铁栅栏坚固到无法被武器破坏，但对其施放{@spell knock}法术可以将其升起。角色也可以通过成功的DC 25力量检定({@skill Athletics})来举起这个铁栅栏，而一个小型角色可以通过成功的DC 20敏捷检定({@skill Acrobatics})来在铁栅栏间挤过。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "5. Feast Hall",
+							"id": "02e",
+							"page": 11,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"一盏生锈的铁制吊灯用链条悬挂在位于一个大房间中间的曾经的大餐桌上。光线透过屋顶上的小孔，斑驳地照在桌子上，几只无害的热带鸟儿飞来飞去。瓷砖地板上堆满了碎盘子、鸟粪和其他残渣。南面有一个宽大的楼梯，爬上五英尺高的长廊，环绕着房间。画廊的墙壁上挂着老式的、有框的帆船图片。三组封闭的门从上部区域通向宫殿的其他部分。东南角的第四个门洞几乎被瓦砾完全挡住了。"
+									],
+									"id": "076"
+								},
+								"这个破败的宴会厅里没有任何有价值的东西。然而，搜查墙壁的人物发现了一把小铁钥匙，藏在一幅有框的画后面。这把钥匙的头像是一只船锚，可以解开{@area 18|047}的彩绘箱子的锁。",
+								"提升和降低护城栅门({@area 4|02d})的绞盘机构位于画廊西北部的东墙上。",
+								"东南角的碎片是屋顶部分坍塌的结果。一个角色可以在4小时内清理干净，或者两个或更多角色一起工作的时间会相应缩短。一旦清理完碎片，门口通往{@area 9|028}。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "6. Abandoned Quarters",
+							"id": "02f",
+							"page": 13,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这个房间里有一些床、沙发和其他家具，所有这些都已经过了好日子。天花板和墙壁上的石膏已经掉落，增加了垃圾和混乱。在双扇门的对面，有一扇狭窄的窗户向海面望去。"
+									],
+									"id": "077"
+								},
+								"对房间进行搜索后，没有发现任何有意义或有价值的东西。窗户很宽，足以让一个小型或中型人物爬过去。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "7. Ruined Bath",
+							"id": "030",
+							"page": 13,
+							"entries": [
+								"角色可以通过西墙的门或北墙的5英尺宽的裂缝进入这个房间。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"一个被植物窒息的下沉式浴池主宰着这个房间，其石膏墙上镶嵌着五颜六色的珊瑚枝和贝壳。更多的植物从石板间的缝隙中喷涌而出，在这里形成了一个名副其实的丛林。一只{@creature bat}飞来飞去，对你的出现表示警惕。"
+									],
+									"id": "078"
+								},
+								"除了无害的{@creature bat}，废墟浴场里还有一些无害的{@creature lizard|MM|lizards}、蜗牛和{@creature spider|mm|spiders}。",
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "031",
+									"entries": [
+										"一个角色在搜索3英尺深的沉浸式浴缸并成功通过DC 13的感知({@skill Perception})检定后，在灌木丛中找到了一个{@deity Umberlee|Faerûnian|SCAG}（25 gp）的圣徽。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "8. Shrine",
+							"id": "032",
+							"page": 13,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这个房间中央有一个圆形的台座，上面放着一个木制的女性雕像，高十英寸，她手持着一个{@item trident|phb}，腿部却是鲨鱼的尾巴，面向东边的双门。四个铁制火炬架固定在潮湿的墙壁上，墙壁上覆盖着剥落的灰泥，点缀着色彩斑斓的珊瑚枝和海星。双门对面有一个狭窄的窗户，可以看到大海。"
+									],
+									"id": "079"
+								},
+								"窗户的宽度足以让一个小型或中型角色爬过去。",
+								{
+									"type": "entries",
+									"name": "Trapped Relic",
+									"id": "033",
+									"entries": [
+										"基座上的小雕像代表{@deity Umberlee|Faerûnian|SCAG}。一只龟人用漂浮木雕刻并上色，送给了宫殿的{@deity Umberlee|Faerûnian|SCAG}信徒作为礼物。它被放置在这里，以便访客可以在海神面前叩拜。",
+										"当一个没有佩戴{@deity Umberlee|Faerûnian|SCAG}神圣标志的生物第一次将雕像从基座上取下时，就会触发{@spell glyph of warding}法术。研究雕像并成功通过DC15智力({@skill Investigation})检查的角色会发现几乎看不见的石刻，它被刻在{@item trident|phb}上。触发后，石刻会在以它为中心的20英尺半径的范围内爆发出魔法能量。该区域内的每个生物都必须做一个DC15的灵巧救赎，救赎失败会受到22{@damage 5d8}的雷霆伤害，救赎成功则受到一半的伤害。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "9. Crab Pool",
+							"id": "034",
+							"page": 13,
+							"entries": [
+								"屋顶的部分坍塌使西边的门洞充满了瓦砾。在瓦砾被清理掉之前，人物不能使用这个门洞（详情见{@area 5|02e}）。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这间黑暗房间的石膏墙因潮湿而光滑，并镶嵌着彩色的石头、海星、贝壳和珊瑚枝。从东墙伸出的是一个{@creature giant crab}的石雕，它的钳状手臂抱着一个10英尺宽的石盆。一股涓涓细流从螃蟹的嘴里流进盆里。盆地边缘的孔作为排水口，防止水池溢出。通过南墙的一个狭窄的窗口，传来潮汐海水流入和流出洞穴的撞击声。"
+									],
+									"id": "07a"
+								},
+								"托尔人在屋顶上建了一个蓄水池，用来收集雨水，并将其通过螃蟹雕塑引入池中。如果有生物在池子里洗澡，就会有十几只（0%）从巨大的石蟹雕塑上的孔中窜出，为洗澡者清洗。这个过程需要10分钟。这些{@creature crab||crabs}是无害的，可以被正常杀死。",
+								"一个{@spell detect magic}的法术显示出从水池中散发出来的转化魔法的光环。这个池子有以下的力量，一个{@spell identify}的法术可以确定。",
+								{
+									"type": "list",
+									"items": [
+										"一只生物在向{@deity Umberlee|Faerûnian|SCAG}祈祷的同时，将价值10 gp或更多的财宝投入池中，便会获得魔法能力，在保留正常呼吸方式的同时，可以在水下呼吸24小时。随着祝福的赐予，财宝会消失。",
+										"任何破坏盆地的生物都必须在DC15体质测试中成功，否则就会被转化为{@creature crab}，持续24小时。其他效果与(1%)法术的效果相同。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Window",
+									"id": "035",
+									"entries": [
+										"南墙的窗户很宽，足以让一个小型或中型角色爬过去。它向外看是一个被淹没的海洞（{@area 12|03b}），离水面有25英尺。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "10. Crumbling Walkway",
+							"id": "036",
+							"page": 13,
+							"entries": [
+								"水边的一条石板人行道部分坍塌到激荡的海中，留下了宽大的缺口。人行道的剩余部分结构稳固。为了安全地步行穿过受损区域，生物必须成功进行一次 DC 15 力量检定（{@skill Athletics}）。如果检定失败，生物将从一个岩石坡滑落30英尺，摔落时受到10点（{@damage 3d6}）钝击伤害，并落入10英尺深的水中。从北边攀登人行道的角色可以通过爬进{@area 6|02f}的窗户，穿过宫殿，然后从{@area 8|032}西墙的窗户出去，继续向南前行，避开受损区域。",
+								{
+									"type": "entries",
+									"name": "Seaside Entrance",
+									"id": "037",
+									"entries": [
+										"在走廊的南端是一扇石制的双开门。门上雕刻着分开的泡沫波浪，中间分开，门是用生锈的铁铰链悬挂着，向内打开。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "11. Throne Room",
+							"id": "038",
+							"page": 14,
+							"entries": [
+								"白天，阳光从天花板的缝隙和西墙的窗户中溜走，昏暗地照亮了这个地方。在晴朗的夜晚，月光也会如此。海浪拍打的声音不分昼夜地响起。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"剥落的壁画装饰着这间王室的石膏墙，描绘着触手可及的海怪拖着被暴风雨掀翻的船只走向灭亡。镶嵌在石膏上的是白色的珊瑚枝和用装饰石和贝壳制成的鲨鱼形式的马赛克。雕刻成厚厚的海带丝的柱子支撑着裂开的、30英尺高的圆顶天花板。两对木制的海龟状人形雕像站在房间的两边。在南边的一对雕像之间，延伸出一条黑暗的走廊。靠东墙的一个台子支撑着一个花岗岩的宝座，上面雕刻着一只章鱼。宝座后面是一扇双扇门，门旁边站着一个高大的泥土瓮。宝座对面的墙壁上有一个9英尺高的拱形窗户，可以看到大海。"
+									],
+									"id": "07b"
+								},
+								"这里潜伏着四个{@creature shadow||shadows}。这些长已逝去的{@deity Umberlee|Faerûnian|SCAG}崇拜者的不死残骸尽最大努力惊吓并杀死入侵者。它们的手臂看起来像触手，它们的力量吸取攻击范围为10英尺，而不是5英尺。除此之外，它们的统计数据保持不变。这些{@creature shadow||shadows}不能离开室内，也无法交流。它们会战斗直到被转化或摧毁。",
+								"房间里还有一个{@creature mimic}, 假扮成东墙上的黏土瓮。这个{@creature mimic}猎食那些被{@creature shadow||shadows}分散注意力的生物，或者等待攻击那些检查东门的人。如果{@creature mimic}的生命值减少到一半或更少，它会试图撤退。{@creature shadow||shadows}和{@creature mimic}互相忽略。",
+								{
+									"type": "entries",
+									"name": "Statues",
+									"id": "039",
+									"entries": [
+										"这四座木制雕像经过雕刻和彩绘，看起来像托塔。他们有6英尺高，每个人有200磅重。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Throne",
+									"id": "03a",
+									"entries": [
+										"花岗岩王座重达3000磅，在{@spell detect magic}法术或类似效果的监视下，散发着强烈的转化魔法光环。一个{@spell identify}的法术会显示出它的魔法属性。",
+										{
+											"type": "list",
+											"items": [
+												"坐在宝座上的人形生物可以用它来施展{@spell control weather}的法术，而不需要组件。只要该生物一直坐在宝座上，它就不需要集中精力来维持该咒语。离开王座后，效果就会结束，此时天气会逐渐恢复正常。",
+												"一个坐在宝座上的人形生物可以将自己变成一只海鸥（使用{@creature raven}的统计数据，不包括模仿特性），或者一个{@creature octopus}。效果与{@spell polymorph}法术相同，但持续时间为8小时，生物可以随时结束效果（无需动作）。"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "12. Sea Cave",
+							"id": "03b",
+							"page": 14,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"海水在这个潮湿的洞穴中冲进冲出，撞击着墙壁，使洞穴中充满了冰冷的水雾。紧贴着门外的墙壁是一个半圆形的石制阳台。靠近洞的后面挂着一座由磨损的绳索和木板组成的下垂的桥，在它们之间，在阳台和桥中间的北墙上刻着一个狭窄的开窗。"
+									],
+									"id": "07c"
+								},
+								"这里的水有20英尺深，波涛汹涌。任何在水中开始的生物都必须在DC10的力量投掷中获得成功，否则就会被冲到墙上，受到{@damage 2d6}重击伤害，并在水冲入洞穴或退去时被水流向西或向东拖动{@dice 1d6*5|1d6 × 5 feet}。",
+								{
+									"type": "entries",
+									"name": "Balcony",
+									"id": "03c",
+									"entries": [
+										"石头阳台离水面有30英尺高，通过一个石头双门与王室（{@area 11|038}）相连。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bridge",
+									"id": "03d",
+									"entries": [
+										"这座桥悬挂在水面上30英尺，连接着{@area 22|04f|x}和{@area 24|051|x}地区。它的许多木板都不见了，剩下的也都腐烂了，不安全。当一个角色使用这座桥时，要掷出{@dice d6}。当掷出1时，一块木板就会在脚下折断，迫使角色在DC10的灵巧救赎中成功，否则就会掉入下面的水中。每个角色每次过桥只能掷一次。每当桥上失去一块木板，以后的救赎动作的DC就会增加1。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Window",
+									"id": "03e",
+									"entries": [
+										"北墙的窗户很宽，足以让一个小型或中型角色爬过去。窗户口离水面有25英尺高。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "13. Ruined Guard Room",
+							"id": "03f",
+							"page": 14,
+							"entries": [
+								"角色可以通过西墙的开放式门洞或东面的石头双门进入这个房间。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这个房间的外门已经倒塌，植被已经爬到里面。藤蔓和植物在残破的家具中生长，热带鸟类在架子和壁龛中筑巢。西边的楼梯一直延伸到一个巨大的、多层次的花园露台。"
+									],
+									"id": "07d"
+								},
+								"如果受到干扰，家具就会散架。对房间进行搜查后，没有发现任何有价值的东西。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "14. Terrace Garden",
+							"id": "040",
+							"page": 14,
+							"entries": [
+								"白天，六只{@creature blood hawk||blood hawks}在花园的60英尺高处环绕。这些好斗的红羽毛鸟类捕食{@creature lizard|MM|lizards}和其他小动物，它们群起而攻之，对付独自探索梯田花园的人物。血鹰在晚上并不出现。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"海浪拍打着岩石岬角，岬角上建有一个壮观的多层花园，其梯田上长满了植物，被石墙包围，墙角有鲨鱼的雕像。石头台阶连接着低处的梯田和高处的梯田。在最高的梯田上建有一个华丽的葡萄架凉亭，两边是棕榈树。凉亭东面的裂缝台阶上升到一组门前的平台，这组门被雕刻成一个巨大的波浪，在中间分开。"
+									],
+									"id": "07e"
+								},
+								"{@area map 3|029|x}上的高程标记表示各种梯田高于海平面的高度。",
+								"在凉亭里潜伏着一个饥饿的{@creature decapus|ttp} (见\"{@creature decapus|ttp|Decapus,}\")，它会袭击第一个靠近的生物。这个{@creature decapus|ttp}在试图躲藏在凉亭屋顶下时，对敏捷({@skill Stealth})检定获得优势。",
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "041",
+									"entries": [
+										"凉亭的地板上堆满了过去的食物残骸，包括蜥蜴的骨头、血鹰的羽毛和两枚玉米饼的壳。在这些垃圾中，有一枚由青金石制成的戒指（25GP）。这枚戒指有一个神奇的怪癖，它能使佩戴者在戴着戒指睡觉超过1小时后经历一个反复出现的噩梦。这个噩梦很生动：佩戴者在暴风雨的海面上紧紧抓住一个漂浮的木桶，被抹香鲸吞噬。在噩梦中被整个吞噬后，戴戒指的人醒来时并无大碍。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "15. Cleric's Chambers",
+							"id": "042",
+							"page": 15,
+							"entries": [
+								"{@deity Umberlee|Faerûnian|SCAG}的台风宫殿居住的牧师声称这些房间属于她。这个套房的双门上方刻有一个{@spell glyph of warding}法术，当生物穿过打开的门之间时会触发。只有戴着{@deity Umberlee|Faerûnian|SCAG}的圣徽的生物不会触发符文，可以安全地穿过门。研究门框并在DC 15智力检定中成功的角色会发现几乎看不见的符文。当触发时，符文会在以其为中心的20英尺半径球体中爆发出魔法能量。区域内的每个生物必须进行一次DC 15的敏捷豁免检定，未通过检定的生物会受到22({@damage 5d8})点冰冷伤害，通过检定的生物则只受到一半伤害。",
+								"当人物第一次看到教士的寝室时，请阅读。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这座宫殿式的寝宫安静得可怕，静得可怕。蓝色的石膏墙上出现了裂缝，里面镶嵌着五颜六色的珊瑚枝和贝壳。雕刻成触角状的柱子支撑着拱形的天花板，天花板上有一个画得像夜空的大圆顶。在穹顶之下和柱子之间，一张大床矗立在一个宽大的圆形台子上。床的木质框架被雕刻成波涛汹涌的样子。北墙有两扇门。灰尘覆盖了一切。"
+									],
+									"id": "07f"
+								},
+								"寝室里没有任何有价值的东西。北面的门通向下面描述的小房间。",
+								{
+									"type": "entries",
+									"name": "Bathroom",
+									"id": "043",
+									"entries": [
+										"教士寝室外的东侧门通向一个铺有瓷砖的浴室。浴缸是一个长条形的石盆，镶嵌在地板上。管道将盆地与屋顶上的集雨箱相连。脸盆旁边有一个石塞，可以用来防止水从脸盆底部的孔中排出去。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Vestibule",
+									"id": "044",
+									"entries": [
+										"牧师卧室的西门通往一个门厅，那里是{@deity Umberlee|Faerûnian|SCAG}的牧师个人物品的存放处。石质货架靠在光秃秃的石墙上，地板中央放着两个木箱。",
+										"这些货架上放着一些毫无价值的木质海洋生物雕像，是龟人崇拜者送给{@deity Umberlee|Faerûnian|SCAG}牧师的，还有四本发霉的书，是她担任{@adventure Bitch Queen|ttp|3|Bitch Queen}船长时的航行日志。这些古老的航海日志记录了船只的航行，对于任何港口城市的感兴趣的买家来说，每本价值25金币。这些箱子上锁，它们的钥匙可以在{@area 24|051}找到。撬锁需要{@item thieves' tools|phb}和一次成功的DC 15敏捷检定。一个箱子里装有五套{@item traveler's clothes|phb}尺寸适合大号女性的服装。另一个箱子里装有适合{@deity Umberlee|Faerûnian|SCAG}牧师的神职服装，以及八把形状和大小各异的铁钥匙。这些钥匙可以打开{@area 18|047}中的九个箱子中的八个。（第九把钥匙被拿走并藏在{@area 5|02e}中。）"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "16. Kitchen and Storage",
+							"id": "045",
+							"page": 15,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这个厨房已经多年未被打理，里面的东西都被灰尘和蜘蛛网覆盖。一面墙上建有一个石炉，狭窄的门通向储藏室和茶水间。"
+									],
+									"id": "080"
+								},
+								"搜索房间的角色可以找到足够的材料来组装五个{@item mess kit|phb|mess kits}。任何曾经存放在这里的食物早已腐烂。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "17. Hallway",
+							"id": "046",
+							"page": 15,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这条拱形走廊用石块支撑加固，在石块之间有描绘阴暗的水下场景的绘画壁画。一扇大的双门矗立在西边，一个闪烁的球体嵌在大厅东端的墙上。沿着大厅的长度，还有两组双门，一扇单门，以及两个布满灰尘和蜘蛛网的泥瓮。"
+									],
+									"id": "081"
+								},
+								"大厅东端的水晶球散发着附魔魔法的光环，在受到{@spell detect magic}法术或类似效果的审视下。 这个直径1英尺的水晶球在30英尺半径内散发出明亮的光芒，额外的30英尺内则是昏暗的光芒。 每当有生物触碰到这个水晶球时，投掷一个{@dice d6}。 在掷出2或更高点数时，水晶球会将生物传送到{@area 24|051}。 在掷出1时，水晶球会发生故障，并在整个大厅范围内释放出一道100英尺长的闪电。 在效果范围内的每个生物必须进行一次DC 15的敏捷豁免检定，未通过检定的生物会受到14({@damage 4d6})点闪电伤害，通过检定的生物则只受到一半伤害。 水晶球无法从墙上的支架上移动。 它的护甲等级为10，生命值为1，对毒素和精神伤害免疫。 摧毁水晶球会熄灭其光芒并使其碎片失去魔法效果。",
+								"沿着北墙的门通向后面的房间。西面和南面的门在这一侧有铰链，并开到走廊上。",
+								"泥瓮是纯粹的装饰品，里面没有任何有价值的东西。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "18. Treasury",
+							"id": "047",
+							"page": 16,
+							"entries": [
+								"当人物从{@area 17|046}处窥视这一区域时，请阅读。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"双层门外是一条二十英尺宽、二十英尺长的走廊，通往一个黑暗的、有柱子的房间，里面散落着箱子、板条箱和其他容器。一切都被灰尘覆盖，但不足以掩盖躺在走廊地板上的碎骨和武器。"
+									],
+									"id": "082"
+								},
+								"地板上的残骸属于一对早已死去的盗贼。拂去灰尘的人物还发现地板上有血迹和深深的抓痕。这些线索表明，这里有一个陷阱。",
+								{
+									"type": "entries",
+									"name": "Crusher Trap",
+									"id": "048",
+									"page": 16,
+									"entries": [
+										"双层门南面20英尺见方的区域包含一个带有魔法传感器的机械陷阱。当一个生物进入这个区域时，隐藏在墙壁中的巨大弹簧齿轮会使大厅两侧的石块撞在一起。只有戴着{@deity Umberlee|Faerûnian|SCAG}神圣标志的生物才能在不触发陷阱的情况下通过这个区域。站在陷阱区域北面或南面的人物可以通过观察地板上的划痕来辨别墙壁是可移动的石块，但是如果不进行实验或使用占卜魔法，就无法确定陷阱的触发方式或绕过它的方法。在碰撞的石块之间的生物必须做一个DC13的灵巧救赎动作。如果成功，该生物就会从它喜欢的任何方向跃出，不管是南还是北。如果救赎失败，该生物会受到44({@damage 8d10})的重击伤害。被这种伤害降低到0命中率的生物会被压成肉酱。在它们被关上之后，木块需要1分钟才能缩回到墙里，这时陷阱就会重新设置。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sculpted Visage",
+									"id": "049",
+									"entries": [
+										"从北边的入口处看不到东墙的一个宽阔的凹槽。当人物第一次看到这个凹槽时，请读。",
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"在东墙的一个凹槽后面，有一个浮雕的巨大石像。这张脸是一个非常漂亮的女人，头发是海带，眼皮像贝壳，还有一个隐约的半笑。"
+											],
+											"id": "083"
+										},
+										"这张脸高12英尺，宽10英尺，代表着海神{@deity Umberlee|Faerûnian|SCAG}。在受到{@spell detect magic}法术或类似效果的审视下，它散发出一种变化魔法的光环。当一个明目张胆地佩戴或挥舞着{@deity Umberlee|Faerûnian|SCAG}的圣徽的生物靠近这张脸时，它的嘴巴张开，形成一个直径5英尺的开口，让人可以进入后面的洞穴({@area 22|04f})。这个开口的内壁有一排三角形的牙齿，类似于巨鲨的牙齿，但很容易避开。嘴巴在1分钟后关闭，但可以从任一侧重新打开。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "04a",
+									"entries": [
+										"这个房间里有从沉船中抢劫来的战利品，存放在两个密封的桶里，九个上锁的木箱子，四个陶罐和四个密封的板条箱。财宝容器表描述了每个容器及其内容。解锁1至8号箱子的钥匙可以在{@area 15|042}找到；解锁第9号箱子的钥匙藏在{@area 5|02e}中。使用{@item thieves' tools|phb}的角色可以通过成功的DC 15敏捷检定来打开一个箱子。"
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Treasury Containers",
+									"page": 16,
+									"colLabels": [
+										"Container",
+										"Contents"
+									],
+									"colStyles": [
+										"col-4",
+										"col-8"
+									],
+									"rows": [
+										[
+											"桶1",
+											"40加仑的普通葡萄酒"
+										],
+										[
+											"桶2",
+											"80磅的盐"
+										],
+										[
+											"胸部 1",
+											"150戈比的Maztican mintage"
+										],
+										[
+											"胸部2 (被火烧焦)",
+											"三本空白咒语书（每本50 gp）和一个装有二十{@item candle|phb|candles}的小木盒"
+										],
+										[
+											"胸部3（布满爪子的痕迹）",
+											"一件折叠整齐的婚纱礼服和面纱（25戈比）"
+										],
+										[
+											"胸部 4",
+											"一套{@item alchemist's supplies|phb}和四个烧瓶{@item alchemist's fire (flask)|phb|alchemist's fire}"
+										],
+										[
+											"胸部5（已腐烂）",
+											"一套{@item scale mail|phb}的衣服(50GP)和一个安装有电子鱼的钢制头盔(50GP)"
+										],
+										[
+											"胸部6（沾有血迹）",
+											"A {@item diplomat's pack|phb}（见{@book Player's Handbook|phb}中的 \"设备包\"）。"
+										],
+										[
+											"胸部7（印有博德之门的纹章）",
+											"镶嵌着珍珠母贝的{@item spyglass|phb}(1,000 gp)，放在紫色天鹅绒枕头上"
+										],
+										[
+											"胸部 8",
+											"五十瓶扎哈兰香水（每瓶5戈比）"
+										],
+										[
+											"胸部9（绘有一艘停泊的船只的图像）",
+											"A {@item Quaal's Feather Token, Anchor} 埋在200gp之下"
+										],
+										[
+											"箱子1",
+											"A {@item Exotic saddle|phb|griffon saddle} (60 gp)"
+										],
+										[
+											"箱子2（印有Waterdeep的徽章）。",
+											"一个拆开的300磅重的木制{@item sled|phb}(20gp)，其组装说明在{@language Common|phb}。"
+										],
+										[
+											"3号板条箱",
+											"一个{@item lute|phb}(35 gp)，一个{@item lyre|phb}(35 gp)，一个{@item viol|phb}(30 gp)用稻草包装。"
+										],
+										[
+											"4号木箱",
+											"5个{@item heavy crossbow|phb|heavy crossbows}和100个{@item crossbow bolt|phb|crossbow bolts}包装在稻草中"
+										],
+										[
+											"泥瓮1",
+											"空的"
+										],
+										[
+											"泥瓮2",
+											"空的"
+										],
+										[
+											"粘土瓮3（绘有佩加西图像）。",
+											"十个50英尺长的{@item hempen rope (50 feet)|phb|hempen rope}线圈(每个1戈比)"
+										],
+										[
+											"粘土瓮4（绘有鱿鱼图像）。",
+											"10加仑的深紫色墨水"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "19. Glass Statue",
+							"id": "04b",
+							"page": 17,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"这个黑暗的长方形房间里有一个七英尺高的玻璃雕像，雕像上有一个皱眉的女人，她的手臂是章鱼触角，从黑暗的海浪中浮现出来。雕像的底部躺着三块布满灰尘的地毯。"
+									],
+									"id": "084"
+								},
+								"仔细检查发现雕像是空心的，里面装满了旋转的水。雕像的防御等级为10，有10点生命值，并且免疫毒素和精神伤害。如果雕像被打碎，水会溢出并化为一个{@creature water elemental}，听从释放者的命令。这个元素只能听懂{@language primordial|phb|Aquan}，不会听从它听不懂的命令。它在被释放后1小时消失。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "20. Haunted Cage",
+							"id": "04c",
+							"page": 17,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"在这个黑暗的长方形房间的天花板上用铁链吊着一个旧的潜水员的笼子，上面粘着藤壶。笼子有八英尺高，直径五英尺，离地两英尺。破烂的地毯在它面前铺开。其他家具包括光秃秃的架子和涂有颜色的泥瓮，都被灰尘和蜘蛛网覆盖。"
+									],
+									"id": "085"
+								},
+								"最大的地毯是一个{@creature rug of smothering}。它会攻击第一个打扰它的生物。这些瓮里装着六个死去{@deity Umberlee|Faerûnian|SCAG}信徒的头骨和骨骼。",
+								"这个笼子是从{@adventure Bitch Queen|ttp|3|Bitch Queen}(见\"(1%)\")打捞出来的，在那里它被用于在充满鲨鱼的水域进行深海打捞。这个笼子也被船长用来折磨和淹死囚犯。如果有生物触碰了这个笼子，一个中立的人鱼{@creature ghost}会在里面显现出来。这个幽灵就是西布拉斯(Siburrath)，一个一个世纪前被{@adventure Bitch Queen's|ttp|3|Bitch Queen}船长抓住并折磨的男性的遗魂。西布拉斯的幽灵除非附身于某人，否则无法离开笼子，而且只有在它的折磨者被杀死之后才能得到安息。",
+								"这个幽灵试图占据首个靠近它5英尺范围内的角色，目的是利用宿主找到并杀死折磨它的人。如果幽灵未能占据某人，它会试图说服角色（在{@language primordial|phb|Aquan}或{@language Common|phb}）帮助它找到安宁。幽灵能感知到折磨者附近的存在，但无法确定确切位置。如果角色们在{@area 24|051}击败了那只蛞蝓生物，幽灵就会得到安息，角色们将获得经验点，就好像他们在战斗中击败了幽灵一样。",
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "04d",
+									"entries": [
+										"当幽灵安息时，它会留下一个重量为2磅的{@item Conch of Safe Rest|ttp|pearlescent conch shell}。在受到{@spell detect magic}法术或类似效果的审视下，海螺会散发出唤醒魔法的光环。一次{@spell identify}法术揭示了海螺是一个单次使用的魔法物品，具有以下属性：生物可以使用一个动作吹响海螺，产生与{@spell Leomund's tiny hut}法术相同的效果。一旦法术生效，海螺就会消失。如果吹响号角的生物离开了法术区域，效果也会结束。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "21. Lounge",
+							"id": "04e",
+							"page": 17,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"两组双扇门通向这个房间，它们之间的一个狭窄的窗户可以看到一个杂草丛生的花园露台。这里的陈设已经随着时间的推移而变质。石膏墙已经剥落，热带鸟类在开裂的天花板上筑起了巢。大理石柱子两边的楼梯爬到一个高高的石台上，上面装饰着破烂的地毯、坐垫和挂毯。房间里有三个绘有鲨鱼和章鱼图像的泥瓮，以及两个腐烂的沙发。"
+									],
+									"id": "086"
+								},
+								"六个{@creature Topi|ttp|Topis}藏在粘土瓮中，每个瓮有两个。如果任何一个瓮被扰动或西边的双门被打开，这六个人都会出现并攻击。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "22. Caves of Worship",
+							"id": "04f",
+							"page": 17,
+							"entries": [
+								"这个区域由三个天然洞穴组成，由隧道连接。海雾从北面喷出，海浪拍打的声音回荡在整个房间。每个洞穴内都有一个5英尺深的水潭。无害的{@creature crab||crabs}东西在地上乱窜，闪闪发光的蜗牛依附在墙壁上。一些被打碎的木桶和箱子散落一地。",
+								"当角色们穿过洞穴时，一个饥饿的{@creature xorn}从墙后面出现，并要求用{@language primordial|phb|Terran}给它食物。如果角色们不迅速给这个{@creature xorn}至少价值50gp的宝石或硬币，它会攻击他们。如果这个{@creature xorn}被适当喂饱或生命值减少到一半以下，它会消失回到石头里。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "23. Blow Holes",
+							"id": "050",
+							"page": 17,
+							"entries": [
+								"在无法预测的时间间隔内，海水从这条80英尺长的隧道地板上的四个洞中喷涌而出，然后冲回{@area 12|03b}，将隧道中的生物拖入其中。在任何一个有一个或多个生物在隧道内的回合结束时，掷出{@dice d6}。在掷出1或2时，水从吹气孔中喷出并迅速退去，迫使隧道中所有中等或较小的生物进行DC10强度的救赎。任何拯救失败的生物都会被冲入{@area 12|03b}，在跌入最近的吹气孔时受到5({@damage 2d4})的重击伤害。如果该生物被绳索固定住，它被冲走的距离只有绳索允许的范围，但仍会受到伤害。被冲进(4%)的角色可以做一个DC 15的灵巧检查，以乘着波浪从其中一个吹气孔回到上面。如果检定成功，该角色会受到5({@damage 2d4})的重击伤害，并落在隧道里{@condition prone}。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "24. Shrine of Umberlee",
+							"id": "051",
+							"page": 17,
+							"entries": [
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"在这个潮湿、黑暗的洞穴中，有一个怪异的、十英尺高的海怪雕像，它的眼睛和触手闪闪发光。附近有一个凸起的石盆，其底部被雕刻成一个汹涌的波浪。靠墙的地方有两个被砸碎的箱子，两个泥瓮，和三个腐烂的木箱。"
+									],
+									"id": "087"
+								},
+								"这座雕像描绘的是海怪--{@deity Umberlee|Faerûnian|SCAG}的众多形态之一。走近雕像的人看到一个生物紧贴在雕像后面的天花板上。",
+								{
+									"type": "insetReadaloud",
+									"entries": [
+										"雕像后面的天花板上挂着一个九英尺长的鼻涕虫，黑色的皮肤闪闪发光，触角从头上冒出来。它张开嘴，露出锋利的牙齿。"
+									],
+									"id": "088"
+								},
+								"这个{@creature giant slug|ttp}曾经是{@deity Umberlee|Faerûnian|SCAG}的教士，{@adventure Typhoon Palace|ttp|3|Dangwaru (The Typhoon Palace)}是为他建造的。海神改造了这个教士，作为对某种未知罪行的惩罚。巨型鼻涕虫对它以前的生活没有任何记忆，具有{@creature carrion crawler}的统计数据，并有以下变化。",
+								{
+									"type": "list",
+									"items": [
+										"{@creature giant slug|ttp}有66个打击点。",
+										"它的行走速度和攀爬速度为10英尺。它可以爬上困难的表面，包括倒立在天花板上，而不需要进行能力检查。",
+										"它每天可以先天性地施放以下每种法术一次，不需要任何组件。{@spell guiding bolt}, {@spell sanctuary}, 和 {@spell spiritual weapon}。它的法术能力是智慧（法术救赎DC11；用法术攻击命中率+3）。",
+										"当这只蛞蝓在这个洞穴中受到伤害时，它可以使用其反应来激活海妖雕像的触手之一，并使其对蛞蝓能看到的距离20英尺内的一名生物发动一次近战武器攻击({@hit +3|+3 to hit})。触手击中时造成8({@damage 1d8 + 4}) 钝击伤害。",
+										"它的暗视范围为60英尺。",
+										"它能理解{@language Abyssal|phb}、{@language primordial|phb|Aquan}和{@language Common|phb}，但无法说话。",
+										"它的挑战等级为3（700XP）。"
+									]
+								},
+								"在场的还有两只与{@area 11|038}中发现的类似的{@creature shadow||shadows}。它们从海怪雕像后面出现并攻击，如果{@creature giant slug|ttp}受到伤害。如果这只蛞蝓的生命值降至11点或更少，它会对自己施放{@spell sanctuary}，并躲在海怪雕像后面。",
+								{
+									"type": "entries",
+									"name": "Statue and Holy Symbol",
+									"id": "052",
+									"entries": [
+										"雕像重达5,000磅，上面覆盖着粘稠的霉菌。躺在雕像后面的地板上的是一个{@deity Umberlee|Faerûnian|SCAG}的神圣符号(25GP)，它有一个小小的魔法怪癖：当不是{@deity Umberlee|Faerûnian|SCAG}的崇拜者的人携带或佩戴这个神圣符号时，它的主人会充满恐惧感。这个圣物曾经属于Umberlee教士，但她现在的形态对它没有用处。请看{@area handout D|06e|x}的神圣标志的图示。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Stone Basin",
+									"id": "053",
+									"entries": [
+										"{@deity Umberlee|Faerûnian|SCAG}的教士把这个盆地当作一个窥探池。建在盆底的管子将海水灌入盆中，直到溢出。在盆地的底部，在10加仑的海水下，有两把生锈的铁钥匙。这把钥匙可以打开{@area 15|042}的箱子。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "054",
+									"entries": [
+										"砸碎的箱子、泥瓮和两个腐烂的箱子都是空的。第三个箱子被解锁了，在一个发霉的袋子里有120个sp和70cp（向{@deity Umberlee|Faerûnian|SCAG}致敬），在用挖空的海胆做成的烧瓶里有两个{@item potion of healing|dmg|potions of healing}，一个{@item driftglobe}，和一个珊瑚冠（250gp）。"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Development",
+									"id": "055",
+									"entries": [
+										"杀死{@creature giant slug|ttp}后，西伯拉罕的灵魂(见{@area 20|04c})就会安息。"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Geonid Caves",
+					"id": "056",
+					"page": 18,
+					"entries": [
+						"山上布满了天然洞穴，已经被{@creature geonid|ttp|geonids}占领并扩建。每个巢穴都是一个扭曲隧道和房间的小迷宫，由{@dice 2d6} {@creature geonid|ttp|geonids} 居住着（见\"{@creature Geonid|ttp}\"）。",
+						"每个洞穴系统都散布着过去餐食的{@creature geonid|ttp|geonids'}骨骼({@creature bat|mm|bats}，{@creature rat|mm|rats}，和{@creature lizard|MM|lizards}，大多数是)。有{@chance 30}的机会，{@creature geonid|ttp|geonids}会与一个{@creature Flail Snail|vgm}(见{@adventure Tomb of Annihilation|ToA}或{@book Volo's Guide to Monsters|vgm})分享它们的巢穴，这个生物对入侵者反应不友好，或者是一个贪吃的{@creature xorn}，要求用宝石换取安全通过。",
+						{
+							"type": "entries",
+							"name": "Treasure",
+							"id": "057",
+							"entries": [
+								"{@creature geonid|ttp|Geonids} 在他们的巢穴后面隐藏他们的宝藏。对最深的洞穴进行彻底搜索，发现价值 {@dice 2d10} gp 的石首饰和艺术品（雕刻的小雕像、护身符等），以及 {@dice 1d4} 颗价值 10 gp 每颗的未加工宝石。每当角色发现这样的宝藏时，有一个累积的 {@chance 20} 几率，宝藏中包括一个 6 英寸高的黑曜石蛇神小雕像（25 gp）。只能找到一个这样的遗物。有一个 {@creature geonid|ttp} 从 {@adventure Shrine of Fangs|ttp|3|Shrine of Fangs} 偷走了它，归还它将完成一个任务（见\"{@adventure Shrine of Fangs|ttp|3|Shrine of Fangs}\"）。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "High Horn",
+					"id": "058",
+					"page": 18,
+					"entries": [
+						{
+							"type": "insetReadaloud",
+							"entries": [
+								"矗立在岛屿最北端的岩石峭壁上，面向西北，是一座三十英尺高的石雕，雕像是一个类似乌龟的人形，嘴上举着一个大石角。纪念碑下面是一片铺满贝壳的沙滩。黑色的、布满青苔的岩石从水中伸出来，就像被时间磨损的牙齿。就在这些 \"牙齿 \"的后面，是几艘被藤壶覆盖的沉船。"
+							],
+							"id": "089"
+						},
+						"这座雕像描绘的是一个早已死去的名叫古姆达尔的托尔人，他听到一艘船撞在岩石上，于是站在峭壁上想看个究竟。他吹响了{@item horn|phb}，引诱其他的托特鱼来到海滩，他们一起捞出了沉船的幸存者。",
+						"在过去一百年里，这里已经发生了六起船只失事事件，其中包括将{@deity Umberlee|Faerûnian|SCAG}的牧师和她的船员带到这个岛屿的船只。在涨潮时，三艘沉船（{@adventure Bitch Queen|ttp|3|Bitch Queen}、{@adventure Carcerius|ttp|3|Carcerius}和{@adventure Sea Mare|ttp|3|Sea Mare}）被淹没，而其他三艘沉船（{@adventure Dawn Avenger|ttp|3|Dawn Avenger}、{@adventure Dirty Dastard|ttp|3|Dirty Dastard}和{@adventure Virago|ttp|3|Virago}）至少部分露出水面。在低潮时，所有六艘沉船都在一定程度上可见。下面描述了每艘沉船。",
+						"在高潮时，一只{@creature two-headed plesiosaurus|ttp}在沉船周围徘徊水域。潮水退去时，这个生物会撤退到北部海峡。它具有{@creature plesiosaurus}的统计数据，但有以下变化：",
+						{
+							"type": "list",
+							"items": [
+								"{@creature two-headed plesiosaurus|ttp}有100点命中率。",
+								"在感知({@skill Perception})检定和豁免投掷中具有优势，对抗被{@condition blinded}、{@condition charmed}、{@condition deafened}、{@condition frightened}、{@condition stunned}或被击倒{@condition unconscious}也有优势。",
+								"它可以用它的行动来进行两次咬合攻击，每个头都有一个。",
+								"它的挑战等级为4（1,100 XP）。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bitch Queen",
+							"id": "059",
+							"page": 19,
+							"entries": [
+								"这位母狗女王是女神{@deity Umberlee|Faerûnian|SCAG}的漂浮神庙。将近一个世纪前，当这艘船在风暴中翻船并被抛到礁石上时，许多船员被困在被淹没的舱室中。拯救他们并将他们拖上岸的龟人们被这位母狗女王的人类船长所倾心，他比她应得的更美好地描绘了{@deity Umberlee|Faerûnian|SCAG}。龟人们急于取悦船长和她的神明，照料幸存者并在海边山坡上为他们建造了一座宫殿。",
+								"除了船首的桅杆和木制的头像外，这艘船几乎没有留下什么，头像上雕刻着一个尖叫的女人，她的头发是长长的海带，周围有海浪在拍打。船尾城堡的一部分就在附近，侧卧在岩石中。涨潮时，沉船完全被淹没；退潮时，可以看到船首斜桅和半个船头，以及船尾城堡的一个被太阳晒过的小角。",
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "05a",
+									"entries": [
+										"在船头的一截裂开的栏杆上，挂着一个{@deity Umberlee|Faerûnian|SCAG}(25 gp)的玷污银质圣徽。角色必须潜入水中才能找到它，但它在光线下闪闪发光，很容易被发现。请参见{@area handout D|06e|x}，了解圣徽的插图。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Carcerius",
+							"id": "05b",
+							"page": 19,
+							"entries": [
+								"75年前，caravel carcerius在Chult附近运送奴隶时遭遇了一场风暴。船员们被冲下甲板，留下奴隶们被锁在下面。当船最终撞上岩石并沉没时，所有的奴隶都淹死了。",
+								"三段破碎的船体形成了一个三角形，大部分的船体被埋在沙子里。涨潮时，沉船完全被淹没，退潮时有两部分半露在外面。清道夫们已经把残骸清理干净了，但人们仍然可以发现锈迹斑斑的手铐栓在腐烂的横梁上，旁边还有骷髅的残骸。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dawn Avenger",
+							"id": "05c",
+							"page": 19,
+							"entries": [
+								"黎明复仇者号的船长是一个{@race aasimar|dmg}的教士{@deity Lathander|Faerûnian|SCAG}。一年多前，她带着猎杀海盗的租约来到楚尔特的南岸，结果却使她的船搁浅了。北部火山喷出的厚重烟云阻碍了能见度，这也是罪魁祸首。包括船长在内的七名幸存者到达了斯诺特号，但他们并没有停留太久。他们用打捞上来的划艇穿过北部海峡，在大陆上登陆，然后消失在楚尔特的荒野中。岛上没有人见到这些幸存者，所以没有人知道他们的结局。",
+								"黎明复仇者号断成了两半。它的船尾部分被水流拖到了海里，但它的前半部分却卡在了岩石之间，向一侧倾斜，断裂的桅杆指向南方。残骸在退潮时完全可以看到，而右舷部分在涨潮时则被淹没。海龟把它挑得干干净净，没有留下任何有价值的东西。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dirty Dastard",
+							"id": "05d",
+							"page": 19,
+							"entries": [
+								"这艘海盗船九年前沉没了。它倒立在岩床上，桅杆和上层甲板被剪掉了，露出的腹部被藤壶和蜗牛结成了壳。退潮时，船身完全露出水面。它的右舷有一个裂口，可以作为一个适当的门洞。涨潮时，除了船的龙骨外，所有东西都被淹没了。",
+								"Dirty Dastard号在沉没后不久就被跗骨之蛆掠夺，最近成为一个名为Myldryd Urchinspine的{@creature sea hag}的巢穴。这个卑鄙的巫婆潜伏在船的黑暗内部，准备吞噬任何不请自来的人。她的巢穴的沙地上布满了吃了一半的生鱼、海草和碎贝壳。在沙子和残骸下藏着两只听从女巫命令的（1%）。",
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "05e",
+									"entries": [
+										"巫婆带来了一个没有上锁的旧海箱，里面有她的财产。这个箱子被埋在沙子和岩石下面。花费至少15分钟搜索女巫巢穴的角色，通过成功的DC15智慧（{@skill Perception}）检查，就能发现这个腐烂的箱子。如果残骸在水下，则该检定是不利的。",
+										"Myldryd的箱子里有三件小玩意（通过在{@book chapter 5 of the Player's Handbook|phb|5}的{@item Trinket|phb}表上随机掷骰子确定），200个铜币，一把鲸骨梳子（5个银币），以及一个装有红玉石的鹦鹉玩偶（50金币）。箱盖上有一个秘密隔层，通过成功的DC 16智力检定（{@skill Perception}）可以找到并打开；里面有一个{@item medallion of thoughts|DMG}。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sea Mare",
+							"id": "05f",
+							"page": 19,
+							"entries": [
+								"海马号是一艘商船，24年前沦为海盗的猎物。海盗们杀死了船上的船员，洗劫了船舱，在弃船之前，他们试图放火烧掉这艘船。一场暴雨在火焰造成巨大破坏之前将其扑灭，但强风将这艘废弃的船吹向了它的命运。在所有在好望角发现的失事船只中，海马号是离海岸最远的一艘，它依偎在一个洞里，靠着一个珊瑚礁。它基本完好无损，但在涨潮时完全处于水下。即使在退潮时，也只能在水面上看到乌巢的残骸。",
+								"托尔人曾无数次试图掠夺这艘沉船，但都无济于事。船长在临死前将自己的灵魂献给了奥库斯，并化身为潜伏在船舱中的{@creature wight}。虽然她没有携带武器，但她守护着剩下的货物（见下文\"{@area Treasure|060|x}\"）。",
+								"在被水淹没的船舱里，在被鱼儿捞起的骸骨中，人物可以找到一个密不透风的石棺，上面雕刻着一个折翼的恶魔的模样。石棺重达2000磅，它的盖子上有一个{@spell arcane lock}的咒语。打开石棺需要一个{@spell knock}的咒语或成功的DC28力量({@skill Athletics})检查。里面有一具大法师的木乃伊，他在没能成为巫师后死亡。尸体被包裹在一个黑色的裹尸布中。脚下放着一个带塞的青铜卷轴管，旁边放着一根由淡白色木头（见下文\"{@area Treasure|060|x}\"）制成的法杖。",
+								"卷轴筒内装有一张干燥的羊皮纸，上面写着以下信息{@language Abyssal|phb}：\"奥库斯（Orcus），来领取你的奖品！巫妖之秘仍属于你，但我的事迹和魔法将永存，我的灵魂也将在深渊中永生。\"",
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "060",
+									"entries": [
+										"大法师的法杖顶部的形状像一个恶魔的爪子。这根法杖没有魔法，但在{@spell detect magic}法术或类似的魔法下研究时，它会放射出一种虚假的魔法光环。在法杖上施放（1%）可以消除假光环。这根法杖价值25金币，可以作为一个{@item arcane focus|phb}使用。"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Virago",
+							"id": "061",
+							"page": 20,
+							"entries": [
+								"这艘女海盗号是来自扎泽斯普尔(Zazesspur)的一艘商船。三十多年前，它遭遇了海盗的袭击，在楚尔特半岛周围被追逐。女海盗号本可以逃脱，但它却驶入了一个火山灰云并起火了。着火的船漂流了几天，最终被洋流带到了{@adventure High Horn|ttp|3|High Horn}。在那里沉没了。曾经是桅杆的烧焦残端是潮汐高潮时唯一可见的船体部分；在低潮时，女海盗号的烧焦上层甲板露出水面；腐烂的下层甲板和龙骨深埋在沙子下面。这艘沉船中没有任何值得打捞的财物。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mud Pits of Florrb",
+					"id": "062",
+					"page": 20,
+					"entries": [
+						"在该岛的丛林中心有三个由地热喷口加热的泥浆池。每个池子都在其他两个池子的视线范围内，深5英尺，宽50英尺，大致是圆形。({@area map 1|001|x}上显示的池子不是按比例的。) 一个{@spell detect magic}的咒语显示出每个水池周围有一个微弱的禁忌魔法光环。岛上的托尔人喜欢在泥浆池中洗澡和放松，每次都是几个小时，唱歌和吼叫来打发时间。一条蜿蜒的步道将泥潭与{@adventure Ahoyhoy|ttp|3|Ahoyhoy}的托尔堡连接起来。",
+						"泥坑的\"领主\"是弗洛布(Florrb)，一只{@creature mud mephit}，拥有{@dice 1d10}临时生命值（通过在泥坑中游泳获得）。小恶魔和龟人共用一种语言((Common))。弗洛布通过语言和手势，鼓励访客在泥浴中享受。它不要求付款，但坚持要加入那些沐浴的人。弗洛布喜欢待在自己的天然环境中，但小恶魔在泥浴中停留的时间越长，心情就会变得越糟。成功的DC 10感知（洞察）检查揭示了泥小恶魔似乎在等待某件事发生。弗洛布不希望其他人知道真相，只有在被魔法迫使时才会透露其焦虑的原因。",
+						{
+							"type": "entries",
+							"name": "Florrb's Problem",
+							"id": "063",
+							"page": 20,
+							"entries": [
+								"当泥坑在一百年前形成时，弗洛尔布和另外两个{@creature mud mephit|mm|mud mephits}被从地球元素位面传送到其中。其他两个梅菲特找到了回到他们的母体的方法，但弗洛尔布被留在了后面。它想回家，但不知道怎么回去。其他梅菲特消失时正在泥坑里游泳。在那之后的几年里，其他生物在泥坑里洗澡时也消失了，但弗洛尔布还没有弄清楚激活它们的诀窍。在成功通过DC15魅力（{@skill Persuasion}）检查后，一个角色可以帮助Florrb回忆起其他每只梅菲特都是在火山爆发时消失的，当时灰烬和余烬从天空中落下。",
+								"一个{@spell legend lore}的法术显示，这三个泥坑都是通往地球元素界的门户，需要一把特殊的 \"门钥匙 \"才能从这一边打开它们。这把门钥匙是任何开放的火焰。(火焰和泥坑象征着四种元素的结合：泥中的土和水，火焰中的火和空气）。每当明火在泥坑的10英尺范围内燃烧时，泥坑就会变成一个门户，与地球元素界上一个类似但更大的泥坑相连。在这种时候，任何完全浸泡在一个坑里的生物都会出现在另一个坑里。从地球元素界的一个泥坑到岛上相应的泥坑，不需要明火。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mud Pit Effect",
+							"id": "064",
+							"page": 20,
+							"entries": [
+								"任何在泥坑中沐浴至少1小时的生物都会获得{@dice 1d10}的临时打击点数。从泥坑中取出的泥浆会失去这个属性。"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shrine of Fangs",
+					"id": "065",
+					"page": 20,
+					"entries": [
+						"坐落在山脚下的是一座古老的元帝神庙，供奉着梅尔绍尔克。{@creature Yuan-ti Abomination|MM|Yuan-ti Abominations}曾经在这里献祭，希望能唤醒他们沉睡的神灵，或获得闪烁的神性洞察力。",
+						"靠近山脚的地方有一个巨大的蛇头雕刻，其分叉的舌头形成了一个十英尺宽、二十英尺高的石制斜坡。石质獠牙从蛇口的顶上落下，形成一个天幕，罩在一条黑暗的、十英尺宽的隧道上，通往山里。",
+						"蛇头后面的隧道有200英尺长，呈螺旋状缓缓向山下延伸，在一个没有灯光的椭圆形房间前结束。有光源或能在黑暗中看到的人物可以分辨出房间的特征。",
+						"隧道的尽头是一个圆顶的椭圆形房间，深三十英尺，宽二十英尺，高二十英尺。墙壁上刻有壁画，描绘着成群的蛇。在房间的远端是一个破裂的碗状祭坛，高三英尺，直径六英尺，上面结满了干涸的血液。镶嵌在碗底的是一个空的壁龛，在祭坛上方的天花板上挂着一个血迹斑斑的铁钩，铁钩的末端是一条生锈的链条。",
+						"对墙上的壁画进行搜索后发现，蛇的眼窝里曾经装着珍贵的宝石。住在山里的Xorn把所有的宝石都拔出来吃掉了，留下了空洞的、刻面的凹痕。",
+						"元帝喜欢把他们的祭品刺在祭坛上方的钩子上。受害者的血会积聚在祭坛的石碗里，{@filter yuan-ti|bestiary|tag=yuan-ti}的人在呼唤梅尔绍克的名字时，会用血清洗自己，希望能把神从沉睡中唤醒。",
+						{
+							"type": "entries",
+							"name": "Talking Snakes",
+							"id": "066",
+							"page": 21,
+							"entries": [
+								"潜藏在祭坛后面的是两只觉醒的{@creature poisonous snake||poisonous snakes}，名为Ssura和Y'zleth（发音为SOO-rah和EEZ-leth）。它们从隐藏处滑出来，准备面对任何靠近祭坛5英尺内的人。每只觉醒的蛇都是中立的，智力得分为10，并会说{@language Common|phb}。这些蛇声称如果角色愿意为它们完成一个任务，它们将分享有用的信息。",
+								"六个月前，一个长有类似巨石般壳的生物（{@creature geonid|ttp}）闯入了神龛，并偷走了一尊由黑曜石雕刻而成的代表Merrshaulk的图标。Ssura和Y'zleth希望找到并将这尊图标归还到祭坛底座的壁龛中。小偷及其同类居住在布满山洞的山脉中（见\"{@area Geonid Caves,|056|x}\"）。蛇们警告角色们可能需要搜索多个山洞才能找到这尊小雕像。",
+								"作为梅尔沙克的仆人，苏拉和伊兹莱思反对其他元神。特别是，他们试图挫败那些献给夜蛇丹达的元神的阴谋。如果人物完成了任务，斯苏拉和Y'zleth会透露以下信息作为他们的奖励。",
+								{
+									"type": "list",
+									"items": [
+										"火焰之峰下有一扇上锁的大门，通往一个被称为 \"夜蛇丹达 \"的世界末日之神的领域。如果夜蛇出现，她将吞噬世界。她的{@filter yuan-ti|bestiary|tag=yuan-ti}追随者正在寻找一个叫做黑蛋白冠的遗物，据说它有能力打开通往丹达境界的大门。",
+										"长久以来，一位名叫乌布陶的神秘神灵一直在楚尔特站岗放哨，并建造迷宫，防止丹达的崇拜者找到并释放她。此后，乌布托退出了这个世界，没有人再去防范丹达的释放。",
+										"{@creature Ras Nsi|ToA}，乌布托的一个堕落的冠军，已经与{@filter yuan-ti|bestiary|tag=yuan-ti}联合起来，成为他们中的一员。{@creature Ras Nsi|ToA}和他的同伴{@filter yuan-ti|bestiary|tag=yuan-ti}在火焰之峰以西的废墟城市{@adventure Omu|ToA|3|Omu}下建造了一座神庙。",
+										"其中一个{@creature Ras Nsi|ToA|Ras Nsi's}最大的敌人是一个名为Saja N'baza的{@creature Guardian Naga}。这个娜迦住在一个叫{@adventure Orolunga|ToA|2|Orolunga}的堕落王国里。Ssura和Y'zleth都不知道如何去那里。"
+									]
+								},
+								"Ssura和Y'zleth从{@filter yuan-ti|bestiary|tag=yuan-ti}到神社的游客那里了解到他们所知道的一切。他们也可能知道其他事实，由你决定。被唤醒的蛇不会自愿离开神社，它们会攻击任何试图捕捉或杀死它们的人。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "New Monsters",
+			"id": "06f",
+			"page": 21,
+			"entries": [
+				"在奥格尔之鼻的众多居民中，有以下生物",
+				{
+					"type": "list",
+					"columns": 4,
+					"items": [
+						"{@creature Decapus|ttp}",
+						"{@creature Geonid|ttp}",
+						"{@creature Giant Slug|ttp}",
+						"{@creature Topi|ttp}",
+						"{@creature Tortle|mtf}",
+						"{@creature Tortle Druid|mtf}",
+						"{@creature Two-Headed Plesiosaurus|ttp}"
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Credits",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Designer:",
+							"entry": "克里斯托弗·帕金斯 (Christopher Perkins)"
+						},
+						{
+							"type": "item",
+							"name": "Developer and Managing Editor:",
+							"entry": "杰里米·克劳福德 (Jeremy Crawford)"
+						},
+						{
+							"type": "item",
+							"name": "Editor:",
+							"entry": "金莫汉 (Kim Mohan)"
+						},
+						{
+							"type": "item",
+							"name": "Illustrators:",
+							"entry": "理查德·惠特斯（Richard Whitters），肖恩·伍德（Shawn Wood）"
+						},
+						{
+							"type": "item",
+							"name": "Graphic Designer:",
+							"entry": "谷地良美 (Emi Tanji)"
+						},
+						{
+							"type": "item",
+							"name": "Cartographer:",
+							"entry": "威尔·道尔 (Will Doyle)"
+						},
+						"{@i Creature Catalog}, 一款由TSR公司于1986年出版的D&D游戏配件，为本补充内容提供了灵感和文本。"
+					]
+				}
+			],
+			"id": "08d"
+		},
+		{
+			"type": "section",
+			"name": "Handouts",
+			"id": "067",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Handout A: Eeyal",
+					"id": "068",
+					"entries": [
+						"我的名字叫Eeyal。我从OMGAR的鼻孔到{@adventure fort beluarian|ToA|2|Fort Beluarian}，对Chult的危险了如指掌。在我的旅行中，我看到了许多令人震惊的景象，参观了奇妙的地方。我的费用是每天5个金币。我也接受40个金币的预付款，不退不换。我强烈建议你在进入丛林之前，在{@adventure fort beluarian|ToA|2|Fort Beluarian}购买一份勘探特许证。",
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Eeyal.webp"
+							},
+							"width": 699,
+							"height": 700
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Handout B: Kwilgok",
+					"id": "069",
+					"entries": [
+						"见面了，陌生人！我是Kwilgok--曾经的恐龙赛车手，现在是{@adventure port nyanzaru|ToA|1}最好的导游。我从{@adventure river soshenstar|ToA|2|River Soshenstar}到{@adventure aldani basin|ToA|2|Aldani Basin}再到{@adventure aldani basin|ToA|2|Aldani Basin}。我去过楚尔特的许多角落，可以告诉你：没有比这更美丽和危险的土地了。这是我的{@creature ankylosaurus}，致命的宝藏。她是个很好的战利品，不是吗？ 我们每天花费6个金币，提前30天付款。非常昂贵，是的，但值得，我向你保证。",
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Kwilgok.webp"
+							},
+							"width": 683,
+							"height": 700
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Handout C: Mudgraw",
+					"id": "06a",
+					"entries": [
+						"伟大的Ubtao把你引向了我，我明白了。我是Mudgraw，在这些地方是个传奇人物。我缺少的是年轻，我用经验来弥补。我曾多次带领探险队进入楚尔特的邪恶中心，看到的东西会让你在你的壳里颤抖。",
+						"一个致命的迷宫在等着我们，勇敢的人们。在Ubtao的祝福下，我将引导你们安全地通过它。这是我最擅长的事情! 我轻装上阵，背负着我的家园。",
+						"我每天收取5个金币，但在某些情况下，我可能会免除我的费用。有时候，穿越生活的迷宫的旅程就已经是足够的奖励了",
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/Mudgraw.webp"
+							},
+							"width": 631,
+							"height": 700
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Handout D: Holy Symbol of Umberlee",
+					"id": "06e",
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/TTP/HolySymbolOfUmberlee.webp"
+							},
+							"width": 770,
+							"height": 739
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,728 @@
+{
+	"condition": [
+		{
+			"name": "Blinded",
+			"source": "PHB",
+			"page": 290,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"一个被蒙蔽的生物不能看见，并且自动不能通过任何需要视觉的能力检查。",
+						"对该生物的攻击卷有优势，而该生物的攻击卷有劣势。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Charmed",
+			"source": "PHB",
+			"page": 290,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"被魅惑的生物不能攻击魅惑者，也不能用有害的能力或魔法效果针对魅惑者。",
+						"魅力者在任何与生物进行社交互动的能力检查中都有优势。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Deafened",
+			"source": "PHB",
+			"page": 290,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"失聪的生物无法听到，并且自动无法通过任何需要听觉的能力检查。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Exhaustion",
+			"source": "PHB",
+			"page": 291,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				}
+			],
+			"entries": [
+				"一些特殊的能力和环境危害，如饥饿和冰冷或炙热温度的长期影响，可以导致一种特殊的状况，即疲惫。精疲力竭是以六个等级来衡量的。一个效果可以给一个生物带来一个或多个级别的衰竭，如效果描述中所规定。",
+				{
+					"type": "table",
+					"colLabels": [
+						"Level",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"在能力检查中处于劣势"
+						],
+						[
+							"2",
+							"速度减半"
+						],
+						[
+							"3",
+							"攻击卷和蓄力攻击的劣势"
+						],
+						[
+							"4",
+							"最大命中率减半"
+						],
+						[
+							"5",
+							"速度降至0"
+						],
+						[
+							"6",
+							"死亡"
+						]
+					]
+				},
+				"如果一个已经筋疲力尽的生物遭受到另一个导致筋疲力尽的效果，它当前的筋疲力尽程度会增加该效果描述中指定的数量。",
+				"一个生物会受到它当前等级的疲惫以及所有更低等级的影响。例如，一个遭受2级疲惫的生物，其速度减半，并且在能力检查中处于劣势。",
+				"一个消除疲惫的效果会按照效果描述中的规定降低其等级，如果一个生物的疲惫等级被降低到1以下，所有的疲惫效果都会结束。",
+				"完成长时间的休息可以使生物的疲惫等级降低1，前提是该生物也摄入了一些食物和饮料。另外，从死里复活可以使生物的疲惫程度降低1。"
+			]
+		},
+		{
+			"name": "Frightened",
+			"source": "PHB",
+			"page": 290,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"受到惊吓的生物在其恐惧源在视线范围内时，在能力检查和攻击卷中处于不利地位。",
+						"该生物不能心甘情愿地靠近其恐惧的来源。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Grappled",
+			"source": "PHB",
+			"page": 290,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"被抓捕的生物的速度变为0，并且不能从其速度的任何奖励中获益。",
+						"如果制服者被 {@condition incapacitated}，条件结束。",
+						"如果某个效果将被控制的生物从控制者或控制效果的控制范围内移开，比如被{@spell thunderwave}法术抛掷开去，那么这个状态也会结束。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Incapacitated",
+			"source": "PHB",
+			"page": 290,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"一个无行为能力的生物不能采取行动或反应。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Invisible",
+			"source": "PHB",
+			"page": 291,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"隐形生物如果没有魔法或特殊感应的帮助，是不可能看到的。为了隐藏，该生物被严重遮蔽。该生物的位置可以通过它发出的任何声音或它留下的任何痕迹来探测。",
+						"对该生物的攻击卷有劣势，而该生物的攻击卷有优势。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Paralyzed",
+			"source": "PHB",
+			"page": 291,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"一个瘫痪的生物是 {@condition incapacitated}，无法移动或说话。",
+						"该生物会自动失去力量和灵巧的拯救动作。",
+						"对该生物的攻击卷有优势。",
+						"如果攻击者在该生物的5英尺范围内，任何击中该生物的攻击都是关键打击。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Petrified",
+			"source": "PHB",
+			"page": 291,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"被石化的生物连同它所穿戴或携带的任何非魔法物品都会被转化为一种坚固的无生命物质（通常是石头）。它的重量增加了10倍，并且停止衰老。",
+						"这个生物是{@condition incapacitated}，无法移动或说话，并且对周围一无所知。",
+						"对该生物的攻击卷有优势。",
+						"该生物会自动失去力量和灵巧的拯救动作。",
+						"该生物对所有伤害都有抵抗力。",
+						"该生物对毒药和疾病免疫，尽管已经在其体内的毒药或疾病会被暂停，而不是被中和。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Poisoned",
+			"source": "PHB",
+			"page": 292,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"中毒的生物在攻击卷和能力检查上有劣势。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Prone",
+			"source": "PHB",
+			"page": 292,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"俯卧的生物唯一的移动选择是爬行，除非它站起来，从而结束这个状态。",
+						"该生物在攻击卷上有劣势。",
+						"如果攻击者在该生物的5英尺范围内，对该生物的攻击卷有优势。否则，攻击卷有劣势。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Restrained",
+			"source": "PHB",
+			"page": 292,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"被限制的生物的速度变为0，并且不能从其速度的任何奖励中获益。",
+						"对该生物的攻击卷有优势，而该生物的攻击卷有劣势。",
+						"该生物在灵巧的救赎动作中处于劣势。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Stunned",
+			"source": "PHB",
+			"page": 292,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"一个受惊的生物被{@condition incapacitated}，无法移动，只能支支吾吾地说话。",
+						"该生物会自动失去力量和灵巧的拯救动作。",
+						"对该生物的攻击卷有优势。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Unconscious",
+			"source": "PHB",
+			"page": 292,
+			"srd": true,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 62
+				},
+				{
+					"source": "HftT",
+					"page": 48
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"一个无意识的生物是{@condition incapacitated}，无法移动或说话，并且对周围环境一无所知。",
+						"这个生物会放下它手中的东西，然后倒地{@condition prone}。",
+						"该生物会自动失去力量和灵巧的拯救动作。",
+						"对该生物的攻击卷有优势。",
+						"如果攻击者在该生物的5英尺范围内，任何击中该生物的攻击都是关键打击。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		}
+	],
+	"disease": [
+		{
+			"name": "Arcane Blight",
+			"source": "IDRotF",
+			"page": 233,
+			"entries": [
+				"在陵墓中停留12小时的任何人形生物必须通过一次 DC 15 的体质豁免检定，否则会感染一种奥术枯萎病。这种魔法疾病会将人形生物转变为一个{@creature nothic}，但只有在受害者经历幻觉、孤立感和偏执情绪后才会发生。其他症状包括湿冷的皮肤、脱发和近视。",
+				"一名感染了奥术枯萎的玩家角色会获得以下缺点：\"我不信任任何人.\" 这个缺点会取代任何其他相冲突的缺点，玩家会被难以与现实区分的妄想所困扰。常见的妄想包括相信盟友正在密谋窃取受害者的财富或者背叛受害者。",
+				"每当一个被感染的人形生物完成一次长休，都必须重复进行豁免投骰。在成功通过豁免后，未来对奥术枯萎的豁免 DC 会降低 {@dice 1d6}。如果豁免 DC 降至 0，生物将克服奥术枯萎并对进一步暴露的效果免疫。未能通过三次这些豁免投骰的生物会转变成 {@creature nothic}，由DM控制。只有 {@spell wish} 法术或神圣干预才能解除这种转变。",
+				"一个{@spell greater restoration}法术或类似的魔法会结束目标身上的感染，消除缺陷和所有其他症状，但这种魔法不能保护目标免受进一步暴露的影响。"
+			]
+		},
+		{
+			"name": "Blinding Sickness",
+			"source": "PHB",
+			"page": 227,
+			"entries": [
+				"痛苦笼罩着生物的思维，它的眼睛变成乳白色。该生物在感知检定和感知豁免 throws 上有劣势，并且是{@condition blinded}。",
+				"{@note This disease can be inflicted with the {@spell contagion} 法术}"
+			]
+		},
+		{
+			"name": "Blue Mist Fever",
+			"source": "ToA",
+			"page": 40,
+			"entries": [
+				"在丛林中弥漫着一股神奇的薄雾。接触这种薄蓝色无味的薄雾会让巨人和人形生物感染上蓝雾热病。一个{@spell dispel magic}法术可以摧毁20英尺正方形范围内的薄雾，施法者可以在法术范围内选择一个点开始。与这种薄雾相遇通常覆盖{@dice 1d6}这样的区域（400-2,400平方英尺）。",
+				"当巨人或类人生物接触到雾气时，必须通过一次13点的体质豁免检定，否则将被感染上蓝雾热病。一旦被感染，生物在未通过检定后{@dice 1d6}小时开始看到蓝色猴子的生动幻觉，这些幻觉会持续直到疾病在生物身上结束。生物可以每24小时重复进行豁免检定，若成功则结束自身的影响。"
+			]
+		},
+		{
+			"name": "Bluerot",
+			"source": "GoS",
+			"page": 234,
+			"entries": [
+				"这种疾病以人形生物为目标。患上蓝疮病的受害者会在脸和背上长出丑陋的蓝色疖子。这种疾病由不死生物（包括塔默劳特命运中的溺亡者）传播，受害者通常是通过被感染生物造成的伤口获得的。疾病的疖子在{@dice 1d4}小时内显现，导致受害者的体质和魅力属性每个减少{@dice 1d4}，最低降至3。随之而来的是发热和四肢发麻。感染生物对辐射伤害易感，并获得在水下呼吸的能力。",
+				"在每次长休结束时，被感染的生物需要进行一次 DC 12 的体质豁免检定。若成功，受害者将恢复因该疾病而损失的1点体质和1点魅力。如果被感染的生物恢复了所有因该疾病而损失的点数，那么它就被治愈了。其他提升受害者属性分数的效果并不能治愈该疾病。若豁免检定失败，受害者会受到 18 ({@dice 4d8}) 点死灵伤害，因为脓疱爆裂并蔓延。被这种伤害降至 0 点生命值的生物在该疾病被治愈前无法恢复生命值，尽管可以像正常情况下那样稳定下来。"
+			]
+		},
+		{
+			"name": "Cackle Fever",
+			"source": "DMG",
+			"page": 257,
+			"srd": true,
+			"entries": [
+				"这种疾病以人形生物为目标，尽管侏儒们奇怪地对其免疫。在患上这种疾病时，受害者经常会陷入疯狂的笑声中，这也是这种疾病常见名称和恐怖绰号\"尖叫病\"的由来。",
+				"感染后{@dice 1d4}小时症状开始显现，包括发热和失去方向感。受感染生物获得一级{@condition exhaustion}，直到疾病被治愈前都无法移除。",
+				"任何导致被感染生物极度紧张的事件，包括进入战斗、受到伤害、经历恐惧或做噩梦，都会迫使该生物进行一次 DC 13 的体质豁免检定。",
+				"在未通过豁免检定时，生物会受到5点心灵伤害，并在接下来的1分钟内陷入{@condition incapacitated}(Madness)状态，发出疯狂的笑声。生物可以在自己的回合结束时重复豁免检定，若成功则结束疯狂的笑声和{@condition incapacitated}(Madness)状态。若任何人形生物在距离正在发疯笑声的感染生物10英尺内开始回合，必须通过一次DC 10的体质豁免检定，否则也会被感染。一旦生物通过了这次豁免检定，对于那个特定感染生物的疯狂笑声将免疫24小时。",
+				"在每次长休结束时，被感染的生物可以进行一次 DC 13 的体质豁免检定。成功豁免后，此豁免检定的 DC 以及避免疯狂大笑攻击的豁免检定的 DC 降低 {@dice 1d6}。当豁免检定 DC 降至 0 时，生物会从疾病中康复。未能通过三次这些豁免检定的生物会获得一个随机确定的 {@variantrule Madness|DMG|indefinite madness} 形态。"
+			]
+		},
+		{
+			"name": "Filth Fever",
+			"source": "PHB",
+			"page": 227,
+			"entries": [
+				"汹涌的热浪席卷了这个生物的身体。该生物在力量检查、力量救赎和使用力量的攻击卷中都处于劣势。",
+				"{@note This disease can be inflicted with the {@spell contagion} 法术}"
+			]
+		},
+		{
+			"name": "Flesh Rot",
+			"source": "PHB",
+			"page": 227,
+			"entries": [
+				"该生物的肉体会腐烂。该生物在魅力检查中处于劣势，对所有的伤害都很脆弱。",
+				"{@note This disease can be inflicted with the {@spell contagion} 法术}"
+			]
+		},
+		{
+			"name": "Frigid Woe",
+			"source": "EGW",
+			"page": 125,
+			"entries": [
+				"冰冷苦痛是由埃奥尔(Aeor)的法师们开发的一种特殊疾病，无法通过常规治疗或魔法治愈。感染了这种疾病的生物唯一的治愈方法是找到并饮用制造的解药，一种储存在艾塞尔克劳斯(Eiselcross)废墟中金瓶中的乳白色液体。这种疾病是为了减缓神灵的力量并规避他们的牧师和天使的治愈能力而创造的。",
+				"这种疾病通过吸入Aeor的法师们很久以前创造的蓝色孢子传播。当生物接触到这些孢子时，必须通过一次11号难度的体质豁免才能免疫寒冷哀伤。感染生物需要{@dice 1d4}天才会出现症状。这些症状包括疲劳、发冷，以及生物体表现出的可见蓝色血管。感染生物的速度会减少5英尺，只要它保持感染状态。在症状出现后的每10天，感染生物必须通过一次11号难度的体质豁免，否则其速度再减少5英尺。如果一个生物的速度因这种疾病减少到0，那么这个生物就会死亡，它的身体会变成冰雕。",
+				"生物可以将解毒剂作为一项行动喝下，瞬间结束疾病的所有症状和影响。"
+			]
+		},
+		{
+			"name": "Ghoul Gut",
+			"source": "OoW",
+			"page": 111,
+			"entries": [
+				"被食尸鬼部分污染的水携带着食尸鬼肠胃。饮用这种被污染的水的生物必须成功通过一次 DC 12 的体质豁免才能避免感染这种疾病。症状会在受害者开始长休息或下一次兴奋时出现，比如在战斗中。受害者会遭受严重的腹痛，他们的肠道发出像两只食尸鬼在打架的声音。当症状首次出现时，受害者会受到 5 ({@dice 2d4}) 点死灵伤害。此外，患病的受害者无法从非魔法来源，包括休息或消耗掷骰的方式，恢复生命值或掷骰。完成长休息的受害者可以尝试进行一次 DC 12 的体质豁免。在成功豁免时，受害者会摆脱疾病。失败会让角色再受到 5 ({@dice 2d4}) 点死灵伤害。",
+				"一个角色如果在一次DC 15感知检定中成功，也可以为另一个生物清除疾病。这样做需要角色在一次长休期间照顾这位生病的个体。照顾者在那次休息中不会获得任何好处。"
+			]
+		},
+		{
+			"name": "Grackle-Lung",
+			"source": "OotA",
+			"page": 54,
+			"entries": [
+				"在格拉克斯图（Gracklstugh）持续存在的烟雾导致生物患上格拉克肺（grackle-lung），引起持续的剧烈咳嗽和喷出浓稠的黑色痰液。每当一个生物在格拉克斯图完成一次长休息时，它必须进行一次DC 11的体质豁免检定。每次豁免失败，生物就会获得一个等级的{@condition exhaustion}，因为它的呼吸道变得越来越堵塞。当一个生物达到6级{@condition exhaustion}时，就会像正常情况一样死亡。",
+				"一只患有由{@condition exhaustion}引起的鹂肺病的生物必须成功进行一次体质检定才能进行{@action Dash}动作。如果检定失败，该动作将无法尝试。如果生物试图施放一个需要口头组成部分的法术，它必须成功进行一次体质检定，否则无法完成法术，导致法术失败且没有任何效果。每次检定的 DC 为 10 + 生物当前的{@condition exhaustion}等级。",
+				"如果一个生物的等级降到1以下，它将不再受到鹂鸟肺的影响，并在接下来的一周内对其免疫。矮人和德尔罗对鹂鸟肺有免疫力，对其进行体质豁免检定时具有优势。任何治疗疾病的法术或效果也会治愈鹂鸟肺，有效地消除由这种疾病带来的所有{@condition exhaustion}等级。"
+			]
+		},
+		{
+			"name": "Mindfire",
+			"source": "PHB",
+			"page": 227,
+			"entries": [
+				"生物的思维变得发热。生物在智力检定和智力豁免上有劣势，并且在战斗中表现得好像受到{@spell confusion}法术影响一样。",
+				"{@note This disease can be inflicted with the {@spell contagion} 法术}"
+			]
+		},
+		{
+			"name": "Redface",
+			"source": "GoS",
+			"page": 168,
+			"entries": [
+				"红脸的影响与{@disease sight rot}的影响相同（见{@book Diseases|DMG|8|Diseases}在{@book Dungeon Master's Guide|DMG}的第8章），但是它是由空气中的污染物引起的，而不是受污染的饮用水所致，因此很难避免。"
+			]
+		},
+		{
+			"name": "Saprophytic Plague",
+			"source": "CM",
+			"page": 253,
+			"entries": [
+				"Xanthoria（赞索瑞亚）对巫妖术的研究以及她创造出的活体魂器导致了在剑海岸蔓延的瘟疫的出现。任何接近受寄生性瘟疫感染的生物的野兽或人形生物，必须通过一次20点的体质豁免检定，否则也会被感染。成功豁免的生物对该瘟疫免疫24小时，而任何对疾病免疫的生物则自动成功豁免。",
+				"在一次失败的豁免检定后，生物会在{@dice 1d4}小时后出现第一批症状\u2014\u2014身体疼痛、恶心、口齿不清和无法控制的流口水，并获得1级{@condition exhaustion}。此后每24小时，生物会自动获得另一个级别的{@condition exhaustion}。任何被腐生瘟疫杀死的生物都会变成一团无生命的洋红色软泥。",
+				"一种被寄生性瘟疫感染至少24小时的生物会表现得像僵尸一样，似乎对周围的环境几乎没有意识，头部、身体和四肢长出真菌生长物。它会有一种压倒性的冲动，想要靠近未感染生物的群体，以便传播瘟疫。这是被感染的人形生物开始一遍又一遍地说出\"Xanthoria\"这个词，却不明白这个词的含义的时候。这种行为是由一种菌丝网络形成的，它在Xanthoria和被瘟疫感染的人形生物之间建立了一种脆弱的联系。",
+				"暴露在瘟疫孢子中的食物在{@dice 2d12}小时内会腐烂或变酸，留下一团深红色的滴水蘑菇。食用受感染的食物需要进行上述豁免投掷。",
+				"任何能够治愈疾病的魔法都可以清除生物体上的腐生瘟疫。施放{@spell purify food and drink}可以摧毁食物中的感染。"
+			]
+		},
+		{
+			"name": "Seizure",
+			"source": "PHB",
+			"page": 227,
+			"entries": [
+				"该生物被颤抖所征服。该生物在灵巧性检查、灵巧性救赎和使用灵巧性的攻击卷上有劣势。",
+				"{@note This disease can be inflicted with the {@spell contagion} 法术}"
+			]
+		},
+		{
+			"name": "Sewer Plague",
+			"source": "DMG",
+			"page": 257,
+			"srd": true,
+			"entries": [
+				"下水道鼠疫是一类广泛的疾病的总称，这些疾病在下水道、垃圾堆和死水沼泽中潜伏，有时由居住在这些地方的生物，如老鼠和奥特亚斯传播。",
+				"当一个人形生物被携带疾病的生物咬伤，或者接触到被疾病污染的污秽物或粪便时，该生物必须成功通过一次11点的体质豁免检定，否则会被感染。",
+				"感染生物的下水道瘟疫症状需要{@dice 1d4}天才会显现出来。症状包括疲劳和抽筋。受感染的生物受到{@condition exhaustion}的伤害，并且通过消耗生命骰只能回复正常数量的一半生命值，长休息也无法回复生命值。",
+				"在每次长休结束时，被感染的生物必须进行一次DC 11的体质豁免检定。如果未通过检定，角色将获得一个{@condition exhaustion}等级。",
+				"成功豁免后，角色的等级减少一级。如果成功豁免将被感染生物的等级降至{@condition exhaustion}以下，该生物将从疾病中恢复。"
+			]
+		},
+		{
+			"name": "Shivering Sickness",
+			"source": "ToA",
+			"page": 40,
+			"entries": [
+				"在丛林和沼泽地带的本地昆虫携带这种疾病，颤栗病。最简单的预防方法是在所有暴露的皮肤上涂抹驱虫膏（有关驱虫剂的成本，请参见{@adventure \"Buying a Special Item\"|ToA|1|Buying a Special Item}）。",
+				"在遭受{@creature Swarm of Insects||insect swarms}或{@creature giant centipede||giant centipedes}、{@creature giant scorpion||giant scorpions}或{@creature giant wasp||giant wasps}的伤害的巨人或类人生物在遭遇结束时会暴露于这种疾病。那些自上次长休以来没有使用防虫剂的人在完成一次长休后也会暴露于这种疾病。",
+				"一个巨人或类人生物暴露于这种疾病中时，必须通过一次 DC 11 的体质豁免检定才能免疫。具有天然护甲的生物在豁免检定中获得优势。感染生物需要 {@dice 2d6} 小时才会出现症状。症状包括视力模糊、失去方向感，以及体温骤降导致无法控制的颤抖和牙齿打颤。",
+				"一旦症状开始，受感染的生物只能从消耗命中率中恢复一半的正常命中率，而从长时间休息中则没有命中率。被感染的生物在能力检查和攻击卷上也有劣势。在长期休息结束时，受感染的生物会重复拯救动作，如果拯救成功，就可以摆脱疾病。"
+			]
+		},
+		{
+			"name": "Sight Rot",
+			"source": "DMG",
+			"page": 257,
+			"srd": true,
+			"entries": [
+				"这种痛苦的感染导致眼睛出血，最终使受害者失明。",
+				"饮用被视力腐蚀的水的野兽或类人生物必须成功通过一次 DC 15 的体质豁免才能免疫。感染后的第一天，生物的视力开始变得模糊。该生物在依赖视力的攻击检定和能力检定上受到 -1 的惩罚。在出现症状后的每次长休息结束时，惩罚值会增加 1。当惩罚值达到 -5 时，受害者将成为{@condition blinded}，直到其视力被如{@spell lesser restoration}或{@spell heal}等魔法恢复为止。",
+				"视力腐烂可以通过一种稀有的名为明目草的花来治愈，这种花生长在一些沼泽地中。在一个小时内，一个具有{@item herbalism kit|phb}熟练加点的角色可以将这种花制成一剂药膏。在进行长时间休息前涂抹在眼睛上，一剂药膏可以防止疾病在休息后恶化。使用三剂药膏后，疾病将完全被治愈。"
+			]
+		},
+		{
+			"name": "Slimy Doom",
+			"source": "PHB",
+			"page": 227,
+			"entries": [
+				"这个生物开始不受控制地流血。这个生物在体质检定和体质豁免 throws 时都有劣势。此外，每当这个生物受到伤害时，它在接下来的回合结束前都是 {@condition stunned}。",
+				"{@note This disease can be inflicted with the {@spell contagion} 法术}"
+			]
+		},
+		{
+			"name": "Spider Eggs",
+			"source": "WDMM",
+			"page": 47,
+			"entries": [
+				"如果队伍被击败，稳定的角色在{@dice 1d4}小时后醒来，发现自己被裹在黏黏的蛛网中，悬挂在离地10英尺的地方，身体里植入了蜘蛛卵。被裹的角色是{@condition restrained}，可以使用动作尝试逃脱，需要进行一次成功的DC 15力量检定。",
+				"蜘蛛卵植入宿主后，将在{@dice 2d12}小时内孵化，幼蜘蛛会啃食宿主而出。这种寄生现象类似疾病。对宿主施放{@spell lesser restoration}法术或类似魔法可以杀死蜘蛛卵，终止威胁。"
+			]
+		},
+		{
+			"name": "Super-Tetanus",
+			"source": "TftYP",
+			"page": 104,
+			"entries": [
+				"一种感染了超级破伤风疾病的生物会在剧痛中挣扎，心脏狂跳，肌肉痉挛到足以断裂骨骼。该生物在每个回合开始时受到11点伤害({@dice 2d10})。如果受害者没有通过其他方式被治愈，它可以在暴露后的每分钟末重复豁免投掷，成功豁免将结束自身的效果。"
+			]
+		},
+		{
+			"name": "The Gnawing Plague",
+			"source": "VRGR",
+			"page": 153,
+			"entries": [
+				"啃食瘟疫，也被称为 \"啃食\"，在里希姆洛特的每个角落都很出名。",
+				{
+					"type": "entries",
+					"name": "Transmission",
+					"page": 153,
+					"entries": [
+						"当一个生物被携带疾病的{@creature rat}、{@creature giant rat}、{@creature swarm of rats}或{@creature wererat}咬伤，或与感染生物接触时，便会传播\"噬咬病\"（The Gnaws）。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infection",
+					"page": 153,
+					"entries": [
+						"暴露于这种疾病的生物必须成功通过一次 DC 10 的体质豁免才能避免感染。这次豁免的 DC 可能会根据瘟疫传播的严重程度而增加（参见下方的\"{@book Cycle of the Plague|VRGR|3|Cycle of the Plague}\"）。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Symptoms",
+					"page": 153,
+					"entries": [
+						"感染生物体表现出噬齿瘟疫的症状需要{@dice 1d2}天。然后，受感染的生物体获得1级{@condition exhaustion}，从消耗生命骰子中恢复的生命值仅为正常数量的一半，并且无法从完成长休中恢复生命值。",
+						"鼠疫的症状包括气泡、疲劳、斑点状皮疹、出汗和颤抖，特别是面部颤抖。当地人将这些抽搐比作老鼠的嗅觉。患病者常常在嘴里放上皮屑，以防止牙齿咬碎，尽管他们不可避免地咬碎了这些皮屑。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recovery",
+					"page": 154,
+					"entries": [
+						"在每次长休结束时，受感染的生物必须进行一次 DC 10 的体质豁免检定。如果未通过豁免检定，该生物的 {@condition exhaustion} 等级增加 1 级。如果通过了豁免检定，该生物的 {@condition exhaustion} 等级减少 1 级。如果通过的豁免检定将受感染生物的 {@condition exhaustion} 等级降至 1 以下，该生物将从疾病中恢复。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Immunity",
+					"page": 154,
+					"entries": [
+						"所有形式的老鼠和狼人都对啃咬性瘟疫免疫。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Throat Leeches",
+			"source": "ToA",
+			"page": 40,
+			"entries": [
+				"在丘尔特（Chult）的森林、沼泽和河流中，有一种被称为喉蛭（throat leeches）的微小寄生虫。任何吞下被感染的水的巨人或类人生物必须通过一次 DC 12 的体质豁免才能免受喉蛭寄生。立即出现的症状包括喉咙发炎和呼吸急促。在{@dice 1d6}小时后，被感染的角色获得1级{@condition exhaustion}，这个级别在治愈疾病之前无法移除（除非如下所述）。在每次长休结束时，被感染的生物必须重新进行豁免检定。豁免失败时，生物的{@condition exhaustion}级别增加1级；豁免成功时，生物的{@condition exhaustion}级别减少1级。如果成功的豁免检定将被感染生物的{@condition exhaustion}级别降至1以下，则生物从疾病中康复。",
+				"探险者可以通过只喝雨水或经过煮沸或魔法净化的水来避免感染喉蛭。"
+			]
+		}
+	],
+	"status": [
+		{
+			"name": "Concentration",
+			"source": "PHB",
+			"page": 203,
+			"srd": true,
+			"basicRules": true,
+			"entries": [
+				"一些法术需要你保持{@status concentration}以保持它们的魔法有效。如果你失去{@status concentration}，这样的法术就会结束。",
+				"如果一个法术必须用{@status concentration}来维持，这一事实将出现在其持续时间条目中，并且法术会指定你可以集中维持的时间长度。你可以随时结束{@status concentration}(无需行动)。",
+				"正常活动，比如移动和攻击，不会干扰{@status concentration}。以下因素可能会打断{@status concentration}：",
+				{
+					"type": "list",
+					"items": [
+						"{@b Casting another spell that requires concentration.} 如果你施放另一个需要{@status concentration}的法术，你会失去{@status concentration}。你不能同时集中于两个法术。",
+						"{@b Taking damage.}每当你在施放{@status concentration||concentrating}时受到伤害，你必须进行一次体质豁免才能保持你的{@status concentration}。豁免 DC 为 10 或你受到伤害的一半，取两者中较高的数字。如果你受到来自多个来源的伤害，比如箭和龙的吐息，你需要为每个伤害来源分别进行一次豁免检定。",
+						"{@b Being incapacitated or killed.} 如果你被打断或死亡，你会失去{@status concentration}。"
+					]
+				},
+				"DM也可能决定，某些环境现象，比如在暴风雨中被海浪淹没时，需要你成功通过一次DC 10的体质豁免才能保持法术{@status concentration}。"
+			]
+		}
+	]
+}

@@ -1,0 +1,4957 @@
+{
+	"monsterFluff": [
+		{
+			"name": "Ancient Corpse Walker",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"他们从坟墓中站起来，有些是被魔法力量所驱使，有些则是因为一生的恶行而受到诅咒。无论原因是什么，我们不能让他们在活人中间行走。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有炼金工具熟练的人可以将尸行者皮肤上的霉菌与价值500金币的其他材料混合，制造一种药水，能让服用者在10分钟内获得所有尸行者的伤害抗性。一具古代尸行者的皮肤可以制造两剂这种药水。在服用这种药水的情况下死亡的人型生物会在24小时后变成尸行者。制造这种稀有药水需要成功进行一次DC 15的智力检定，并需要8小时的酿造时间。",
+								"有熟练使用铁匠工具的人可以将一名古代尸行者的股骨打造成一把单手近战武器。两根股骨可以制成一把双手武器。制造这把武器需要10天时间和价值500 gp 的额外材料，完成后它将成为一把魔法武器。使用这把武器攻击的目标在你的下一个回合开始前无法恢复生命值。如果有人在制作过程中每天对这把武器施放吸血之触和造成伤害法术，并额外添加价值1,000 gp 的材料，那么这把武器还会具有吸取生命之剑的属性，但不一定是一把剑。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "活人看到行尸走肉是个不祥之兆。被它注视会带来诅咒。行尸走肉像僵尸一样，可以承受重伤仍然屹立不倒。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "尸体行者对阳光有严重的脆弱性，阳光会灼伤并使其分心。辐射伤害是确保尸体行者被击倒后保持倒地的有效方法。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "一个古老的尸体行者可以释放孢子，召唤忠诚的不死生物前来，尽管风可以驱散这些孢子。这个古老的行者也可以变成一团致命的孢子云，可以使尸体复活。如果受到严重伤害，古老的尸体行者会变成这种雾气，有2小时的时间返回到它的巢穴，否则将永远消亡。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"一个古老的尸体行者可以在废墟中建立巢穴，并创造一支由人形和野兽僵尸以及尸体行者组成的军团。更强大的不死生物和死灵法师也可能将这些生物用作副手。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Angel of Empyreus",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我是能够净化大地上的诱惑，并将其恢复为神性的存在。你这个脆弱的肉体生物，被赋予了自由意志和善变的幻想。我将揭示你的软弱，可怜的凡人。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"Empyreus（恩佩瑞斯）的天使挥舞着一把神圣的复仇者。在它死后，它的智慧寄居在剑中。要调谐它，圣骑士角色必须同意继续执行天使的使命，净化土地上的不道德行为。",
+								"一杯它的血可以被制成一个 DC 10 智力检定（{@skill Religion}）的 {@item potion of supreme healing}，需要有炼金术工具熟练技能的人来完成。可以从 Empyreus 天使身上取得六杯血。",
+								"它的骨骼可以用来替代钻石，用于复活死者和类似魔法，相当于价值10,000 gp。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "大天使长由强大的天使担任侍从，充当他们的副官并执行神圣残留物的命令。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "Empyreus（Empyreus）带着经过无数神圣战争磨练的可怕天神荣誉卫队进入战斗。在四位神明之战结束时，许多天神仍然站在Empyreus（Empyreus）身边，但并非所有人都保持忠诚。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill History}):",
+											"entry": "在阿尔滕海姆腹地，农民起义和宗教狂热情绪正在上升。大多数人说这是通常的不满，但也有人低声说，一位天堂之主的指挥官领导了这场起义，而且其队伍日益壮大。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Angel of Empyreus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Avarice Seraph",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"不要去寺庙。有不祥之物出现了。请到别处避难。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个贪婪的天使(Seraph)的金属尖羽毛可以出售。较低级天使(Lesser Seraph)的羽毛价值250金币，而天使(Seraph)的羽毛价值1,000金币。",
+								"有炼金工具熟练度的人可以融化贪婪炽天使羽翼上的金属，并使用一些羽毛作为羽翼，制作一支用于对付次级炽天使的天界杀箭，或者从炽天使身上制作四支这样的箭。制作一支箭需要7天的工作时间，价值1,000 gp 的材料，以及一次成功的 DC 17 智力或感知检定。",
+								"贪食天使的唾液作为解毒剂\u2014\u2014可以从次级天使身上收集到三剂，而从天使身上可以收集到十剂。拥有炼金术工具或草药工具的熟练者可以将两剂这种唾液与价值50 gp的试剂混合，然后酿造4小时。制成的药剂会使饮用者受到毒素保护法术的影响，治愈饮用者体内的一种随机毒素。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "被放逐者是堕入邪恶的炽天使。每个人仍然保留着一部分天界力量。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "由于他们的天界血统，被放逐的（disavowed）保留了对魔法的抵抗力和对非魔法攻击的抵抗力，以及免疫被魅惑、精疲力竭和恐惧。即使在堕落状态下，天使（seraph）的攻击仍会带有魔法和光辉伤害。贪食天使（Gluttony seraphs）也对毒素免疫。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "贪婪炽天使可以唤起任何生物的贪婪。巨大的暴食炽天使可以吞下并消化人类，尽管它们的较小同类不能。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Avarice Seraph.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Awakened Chapped Brute",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"商人庞大的保镖的老茧皮肤波动着，仿佛有什么东西在试图挣脱。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"粗糙的野蛮人很少携带财宝或装备，除非受主人指示这样做。 一位技艺高超的皮匠可以将粗糙的野蛮人皮肤制成+1护甲\u2014\u2014皮甲、铆钉皮甲或兽皮甲\u2014\u2014赋予穿戴者对死灵伤害的抗性，且无需须要调谐。 制作这件护甲需要额外花费10天的时间，并且必须消耗价值100gp的魔法材料。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "这些野兽经过的神奇炼金过程使它们对死灵伤害具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "这些生物如此不稳定，是因为它们的创造过程，当它们被杀死时，有机会转变成更大、更致命的形态。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Wisdom ({@skill Medicine}):",
+											"entry": "这个龟裂野蛮人的最终形态有一个波动的生命力，因此它会在每几秒钟内随机获得和失去生命力。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"你可以在遭遇中使用任何裂缝蛮族的形态。你也可以构建遭遇，其中一个裂缝蛮族可以变形成它的一个或两个更大的形态。为此，将每个形态视为一个单独的怪物。变形可能需要最多1分钟，让你可以分阶段进行遭遇，但也可以根据游戏需要迅速发生。"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Awakened Chapped Brute.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Beast Gnoll",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我从来不相信有关野兽以及它如何改变人的传言。直到我看到伐木营地的每个人都发生了变化。这肯定是比神更强大的力量。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一只有毒的豺狼人的脊椎尖刺可以制成四支箭矢、弩箭或飞镖。擅长铁匠工具或修补工具的人可以在4小时内制作这些抛射物。每当这些抛射物击中目标时，目标会额外受到{@dice 1d4}毒素伤害，但如果攻击骰中的{@dice d20}是1或除20外的偶数，则抛射物将不再具有毒性。",
+								"有炼金工具熟练的人可以使用两只豺狼蛮兵或一只暴怒豺狼的唾液腺来制作一瓶增长药水。这些腺体必须由擅长医术技能的人收集，这需要成功进行一次 DC 13的感知（{@skill Medicine}）检定。这些腺体必须在3天内使用，否则会变质，尽管对这些腺体施放的《柔和安息》咒语可以让它们在咒语持续时间内保存新鲜。制作这瓶药水需要1天的工作时间和价值25金币的炼金材料。",
+								"狂暴豺獴的翅膀可以用来制作飞行蝙蝠翅膀。具有皮革工具熟练技能的人可以在5天内制作出这件披风，需要价值500金币的材料。在制作过程中的五天里，必须有人在其中三天对披风施放飞行术。这些翅膀让你的飞行速度只有40英尺，但每隔{@dice 1d8}小时可以使用一次。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "豺狼人曾经是普通的人形生物，但它们已经被野兽之力变异。"
+										},
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "一些豺狼人从骨头上生长的尖刺，通常是脊椎，作为抛射物。然而，不同的豺狼人有不同的变异，其中一些尖刺是有毒的。最强大的变异体会长出翅膀，并且会用血腥的狂怒感染附近的人的心智。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "豺狼人与其他变异生物结成团伙，在他们的地区肆虐。豺狼人吃掉他们杀死的任何生物的肉，喝他们的血。他们用嗥叫、咆哮和呼噜声相互交流。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Beast Gnoll.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Bloodbonded",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"那些背弃了天使军团和恶魔的人？这条路只会导致疯狂。(Seraphs)和(Daemons)"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"血缘仍然拥有他们过去奉献的受损和疤痕。当一名血缘死去时，它的血液仍然会像它活着时那样跳动并发光。通过成功的DC 10智力检定，可以从一名血缘身上收集到一瓶这种血液。在一天之内饮用它会使使用者受到祝福法术的影响。当法术结束时，使用者会受到一级疲劳的影响。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "血缘契约者是他们自己愚蠢选择的受害者，崇拜虚假神祇，然后被骗而发狂。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "血缔者将他们的追随者当作武器，甚至让他们在一波炽热的鲜血中爆炸，对附近的生物造成伤害。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Bloodbonded.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Bone Trader",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"\"你真的需要所有的骨头吗？你确定我不能吃一些零嘴吗？我愿意付钱给你。\""
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"骨头交易者巢穴中有许多许多骨头。取决于骨头交易者的成功和实力，它可能还拥有它杀死的人或雇佣的手下的装备和物品。它的骨甲充满了一种奇特的魔法。",
+								"将盔甲砸成泥状物，并与草药工具包中适量的凝固剂混合，然后涂抹在盾牌或武器上。这种泥状物称为{@item ready gunk|GHLoE}（见{@adventure Lairs of Etharis|GHLoE|21}附录A），需要一个擅长使用草药工具包的人成功进行一次感知检定（DC 10）来制作。整个过程需要10分钟。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "骨头交易者在其巢穴中最为危险，它可以利用自己的骨头收藏来自卫。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "一个骨头交易者可以迷惑他的对手，并经常受到一小群被恐吓或迷惑的生物的保护。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Nature}):",
+											"entry": "与其他精灵一样，骨贸易者可能会被一笔交易所吸引，愿意进行谈判而非战斗，即使看起来占据上风或正在赢得战斗。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Bone Trader.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Candlelight Daemon",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"一支蜡烛灵魂会在被诅咒蜡烛燃烧的时间内存在。这足够长的时间进行一系列邪恶的行为。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"熔化的蜡烛恶魔蜡烛的残留物作为对抗异常、天神、精灵和恶魔的锋利油，同时也对创造蜡烛的生物以及这个生物本身有效。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "蜡烛守护者如果蜡烛熄灭会回到幽冥界。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "烛光恶魔具有典型的恶魔免疫和抗性，包括对毒素的免疫和对冰冷、火焰、闪电以及非魔法武器攻击的抗性。该恶魔还对魔法具有抗性，并能够反制法术。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "蜡烛灵魂在阴影或黑暗中最有效，这让邪恶者可以轻松隐藏并发挥其杀戮天赋。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Candlelight Daemon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Caprathorn",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"当出现刺羊兽时，应该控制住帮助迷失小羊的诱惑。一个出现，多个就会出现。而所有的线索都指向一个比任何大灰狼更可怕的生物。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"卡普拉索恩留下的湮灭领域可以被控制和带走。每天开始时，有2%的几率湮灭领域永远消失。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "一只卡普拉索恩 (Caprathorn) 可以分离出一只索恩莱姆 (Thornlamm) 作为其盟友战斗，或者消耗一只索恩莱姆来治疗。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "卡普拉索恩（Caprathorn）可以将倒下的敌人封印起来，并释放出一个灭绝力场。如果卡普拉索恩封印的生物死亡，这个毁灭力场就会重新充能。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "当一只卡普拉索恩(Caprathorn)死亡时，它会坍缩成一个湮灭球，将附近的生物吸引过去。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Caprathorn.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Chapped Brute",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"商人庞大的保镖的老茧皮肤波动着，仿佛有什么东西在试图挣脱。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"粗糙的野蛮人很少携带财宝或装备，除非受主人指示这样做。 一位技艺高超的皮匠可以将粗糙的野蛮人皮肤制成+1护甲\u2014\u2014皮甲、铆钉皮甲或兽皮甲\u2014\u2014赋予穿戴者对死灵伤害的抗性，且无需须要调谐。 制作这件护甲需要额外花费10天的时间，并且必须消耗价值100gp的魔法材料。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "这些野兽经过的神奇炼金过程使它们对死灵伤害具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "这些生物如此不稳定，是因为它们的创造过程，当它们被杀死时，有机会转变成更大、更致命的形态。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Wisdom ({@skill Medicine}):",
+											"entry": "这个龟裂野蛮人的最终形态有一个波动的生命力，因此它会在每几秒钟内随机获得和失去生命力。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"你可以在遭遇中使用任何裂缝蛮族的形态。你也可以构建遭遇，其中一个裂缝蛮族可以变形成它的一个或两个更大的形态。为此，将每个形态视为一个单独的怪物。变形可能需要最多1分钟，让你可以分阶段进行遭遇，但也可以根据游戏需要迅速发生。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Chapped Brute Abomination",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"商人庞大的保镖的老茧皮肤波动着，仿佛有什么东西在试图挣脱。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"粗糙的野蛮人很少携带财宝或装备，除非受主人指示这样做。 一位技艺高超的皮匠可以将粗糙的野蛮人皮肤制成+1护甲\u2014\u2014皮甲、铆钉皮甲或兽皮甲\u2014\u2014赋予穿戴者对死灵伤害的抗性，且无需须要调谐。 制作这件护甲需要额外花费10天的时间，并且必须消耗价值100gp的魔法材料。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "这些野兽经过的神奇炼金过程使它们对死灵伤害具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "这些生物如此不稳定，是因为它们的创造过程，当它们被杀死时，有机会转变成更大、更致命的形态。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Wisdom ({@skill Medicine}):",
+											"entry": "这个龟裂野蛮人的最终形态有一个波动的生命力，因此它会在每几秒钟内随机获得和失去生命力。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"你可以在遭遇中使用任何裂缝蛮族的形态。你也可以构建遭遇，其中一个裂缝蛮族可以变形成它的一个或两个更大的形态。为此，将每个形态视为一个单独的怪物。变形可能需要最多1分钟，让你可以分阶段进行遭遇，但也可以根据游戏需要迅速发生。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Corpse Walker",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"他们从坟墓中站起来，有些是被魔法力量所驱使，有些则是因为一生的恶行而受到诅咒。无论原因是什么，我们不能让他们在活人中间行走。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有炼金工具熟练的人可以将尸行者皮肤上的霉菌与价值500金币的其他材料混合，制造一种药水，能让服用者在10分钟内获得所有尸行者的伤害抗性。一具古代尸行者的皮肤可以制造两剂这种药水。在服用这种药水的情况下死亡的人型生物会在24小时后变成尸行者。制造这种稀有药水需要成功进行一次DC 15的智力检定，并需要8小时的酿造时间。",
+								"有熟练使用铁匠工具的人可以将一名古代尸行者的股骨打造成一把单手近战武器。两根股骨可以制成一把双手武器。制造这把武器需要10天时间和价值500 gp 的额外材料，完成后它将成为一把魔法武器。使用这把武器攻击的目标在你的下一个回合开始前无法恢复生命值。如果有人在制作过程中每天对这把武器施放吸血之触和造成伤害法术，并额外添加价值1,000 gp 的材料，那么这把武器还会具有吸取生命之剑的属性，但不一定是一把剑。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "活人看到行尸走肉是个不祥之兆。被它注视会带来诅咒。行尸走肉像僵尸一样，可以承受重伤仍然屹立不倒。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "尸体行者对阳光有严重的脆弱性，阳光会灼伤并使其分心。辐射伤害是确保尸体行者被击倒后保持倒地的有效方法。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "一个古老的尸体行者可以释放孢子，召唤忠诚的不死生物前来，尽管风可以驱散这些孢子。这个古老的行者也可以变成一团致命的孢子云，可以使尸体复活。如果受到严重伤害，古老的尸体行者会变成这种雾气，有2小时的时间返回到它的巢穴，否则将永远消亡。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Corpse Walker.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Corpsejaw",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"尸颚兽是山狮的近亲，是战场上的清道夫。它们强大的下颚可以撕裂大多数盔甲，因此它们可以吃掉其他清道夫留下的腐肉。像自由剑这样的军事组织会悬赏捕杀尸颚兽，以防止对有价值的战利品造成损害。"
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Corpsejaw.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Dawndrinker",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"黎明之后常常是最黑暗的时刻。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"晨饮者(Dawndrinkers)有一个特殊的器官，类似其他生物消化食物的方式，它储存并处理光线。大部分生物死后身体会分解，但这个光之胃会保留下来。拥有炼金工具、厨师用具或草药工具熟练技能的人可以用价值25 gp的其他配料准备这个器官。如果准备者在一次DC 13的智力或感知检定中成功，这个器官可以为最多四个生物制作一顿美味的甜点。食用后，这些生物的暗视距离增加60英尺，持续24小时，没有暗视的生物也会获得60英尺的暗视范围。所有食用者还会在同样的持续时间内获得10英尺的致盲视觉。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "黎明饮者是一个狡猾的捕食者，可以轻松隐藏并在阴影中移动。它可以大大减弱甚至熄灭光源。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "一位黎明饮者可以在很远的距离内感知光线，它的食物。这种怪物还对火焰具有抗性，吸收其中的一些能量，并且对光辉伤害免疫，这是黎明饮者快速获取营养的来源。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "黎明饮者的攻击可以暂时剥夺受害者感知光线的能力。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Dawndrinker.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Doomcaller",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"绝望，末日将至！"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"当一个末日召唤者被杀死时，其眼睛会变成价值每颗2000 gp 的宝石。",
+								"当一个生物持有这些宝石之一进行攻击检定、能力检定或豁免检定时，他们可以消耗宝石来改善自己的运气。在进行检定后，但在GM宣布检定结果之前，玩家可以消耗一个宝石并重新投掷骰子。一旦完成，玩家必须使用新的结果，宝石会碎裂并变得毫无价值。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "末日召唤者是强大的法术恶魔。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "末日召唤者可以召唤魅魔或带刺恶魔。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "末日召唤者对冰冷、火焰、闪电和非魔法武器具有抗性。它们对酸和毒素免疫。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Doomcaller.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Downcast Apostate",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"假设那些沮丧的人心地善良是愚蠢的。许多人仍然固守着自己的妄想，不惜一切来维持它们。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"最近去世的(downcast)的尸体可以用于一个仪式，以解锁魔法力量。这个仪式需要16小时才能完成，需要蜡烛、粉笔、香、银子和其他价值2000 gp的炼金材料。完成这个仪式后，downcast的尸体会消失，仪式者可以选择一个好处。",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Life Force:",
+											"entry": "仪式师的最大生命值每级（或命中骰）增加2点。每次仪式师升级（或命中骰），其生命值上限增加2点。此外，仪式师的自然寿命增加250年。"
+										},
+										{
+											"type": "item",
+											"name": "Magic Power:",
+											"entries": [
+												"降灵师学会了咒术法术，并根据所牺牲的被压制生物的类型获得额外的好处，具体如下。",
+												"{@i Aurelian}: 仪式师的魅力分数增加1点，最高为20。每天一次，仪式师可以施展治疗伤口（cure wounds）作为1级法术。",
+												"{@i Galiant}: 仪式师的体质分数增加1点，最高为20。每天一次，仪式师可以施展信仰之盾(Shield of Faith)作为1级法术。",
+												"{@i Maliganti}: 仪式师的力量属性提高1点，最高为20。每天一次，仪式师可以施放品牌神圣一击(branding smite)作为1级法术。",
+												"{@i Ulmyrite}: 仪式师的智力分数增加1点，最高为20。每天一次，仪式师可以施展探测魔法。"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Resurrection:",
+											"entry": "完成仪式后，仪式师可以施放(`resurrection`)复活术，无需消耗法术位或提供任何其他组件。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "那些沮丧的人曾经是神的不朽天界仆人。每个人都有基于他们曾经侍奉的神的倾向和才能。"
+										},
+										{
+											"type": "item",
+											"name": "DC 13 Intelligence ({@skill Religion}):",
+											"entry": "由于他们神性的本质，尽管已经堕落，但(`downcast`)仍然对死灵伤害具有抵抗力，并且具有有限的天生魔法能力。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "一个被贬谪者的肉体形态中蕴含着他们堕落前的巨大力量。一个需要牺牲或使用被贬谪者尸体的仪式可以唤起这种力量。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Downcast Mercenary",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"假设那些沮丧的人心地善良是愚蠢的。许多人仍然固守着自己的妄想，不惜一切来维持它们。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"最近去世的(downcast)的尸体可以用于一个仪式，以解锁魔法力量。这个仪式需要16小时才能完成，需要蜡烛、粉笔、香、银子和其他价值2000 gp的炼金材料。完成这个仪式后，downcast的尸体会消失，仪式者可以选择一个好处。",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Life Force:",
+											"entry": "仪式师的最大生命值每级（或命中骰）增加2点。每次仪式师升级（或命中骰），其生命值上限增加2点。此外，仪式师的自然寿命增加250年。"
+										},
+										{
+											"type": "item",
+											"name": "Magic Power:",
+											"entries": [
+												"降灵师学会了咒术法术，并根据所牺牲的被压制生物的类型获得额外的好处，具体如下。",
+												"{@i Aurelian}: 仪式师的魅力分数增加1点，最高为20。每天一次，仪式师可以施展治疗伤口（cure wounds）作为1级法术。",
+												"{@i Galiant}: 仪式师的体质分数增加1点，最高为20。每天一次，仪式师可以施展信仰之盾(Shield of Faith)作为1级法术。",
+												"{@i Maliganti}: 仪式师的力量属性提高1点，最高为20。每天一次，仪式师可以施放品牌神圣一击(branding smite)作为1级法术。",
+												"{@i Ulmyrite}: 仪式师的智力分数增加1点，最高为20。每天一次，仪式师可以施展探测魔法。"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Resurrection:",
+											"entry": "完成仪式后，仪式师可以施放(`resurrection`)复活术，无需消耗法术位或提供任何其他组件。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "那些沮丧的人曾经是神的不朽天界仆人。每个人都有基于他们曾经侍奉的神的倾向和才能。"
+										},
+										{
+											"type": "item",
+											"name": "DC 13 Intelligence ({@skill Religion}):",
+											"entry": "由于他们神性的本质，尽管已经堕落，但(`downcast`)仍然对死灵伤害具有抵抗力，并且具有有限的天生魔法能力。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "一个被贬谪者的肉体形态中蕴含着他们堕落前的巨大力量。一个需要牺牲或使用被贬谪者尸体的仪式可以唤起这种力量。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Downcast Mercenary.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Eldritch Herald",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"她先是谈到了比众神更强大的力量。然后我的耳朵里响起了一阵声音。之后发生了什么我不记得了，但噩梦是可怕的。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一位以太亲族的梦境之触可以使物体带有不稳定的特性，尤其是药水。在这些生物的仆从身上发现的任何药水有50%的机会被污染，使药水的效果变得不可预测。检查这样一瓶药水的人必须在一次DC 17智力检定中成功，才能识别出这种不稳定性。否则，这瓶药水看起来就像是其类型的普通药水。",
+								"当一个不稳定的药剂被消耗时，根据《奥术效应》表格进行骰点，以确定不稳定性的效果，这个效果是在药剂的正常效果之外的，并且可以持续到药剂结束或1分钟，以较长者为准。然而，生物可以在每个回合结束时尝试一次DC 13的感知豁免检定，成功则结束自身的不稳定效果。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "在众神消失之后，一些人转向其他古代实体寻求力量。那些成功的人被称为邪术祭司。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "这些祭司从被称为以太亲族的疯狂实体中汲取力量，一些奥术学者指出这可能是造成神祗消失的原因。这些生物赋予的力量可能产生奇异而不可预测的效果。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Religion}):",
+											"entry": "一些神秘的祭司试图通过传播以太瑞斯（Etharis）诸神成员的陨落故事来唤醒他们的新\"神\"。随着越来越多的人进入沉睡的亲族（Kindred）的梦境，这些生物开始苏醒。如果它们苏醒，世界将会毁灭。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Eldritch Effects",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"d8",
+										"Effect"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"这个生物无法说话。"
+										],
+										[
+											"2",
+											"这个生物在每个回合开始时受到 4 ({@dice 1d8}) 精神伤害。"
+										],
+										[
+											"3",
+											"这个生物感到迷失方向。它倒地并且在每次移动5英尺或更多后，每个回合结束时再次倒地。"
+										],
+										[
+											"4",
+											"这个生物被幻觉和声音所分散注意力，对攻击骰和感知（{@skill Perception}）检定有劣势。"
+										],
+										[
+											"5",
+											"这个生物对自己感到不确定。它可以在自己的回合内移动或采取行动，但不能两者兼顾，并且不能使用反应。"
+										],
+										[
+											"6",
+											"这个生物很鲁莽。它在攻击检定上获得优势，并且对它的攻击检定也具有优势。"
+										],
+										[
+											"7",
+											"这个生物被耳聋了，而且看不到超过30英尺以外的东西。"
+										],
+										[
+											"8",
+											"这个生物害怕这种效应的来源。如果那个来源无法被感知，那么这个生物会害怕另一个它能感知到的随机生物。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Eldritch Herald.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Eldritch Priest",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"她先是谈到了比众神更强大的力量。然后我的耳朵里响起了一阵声音。之后发生了什么我不记得了，但噩梦是可怕的。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一位以太亲族的梦境之触可以使物体带有不稳定的特性，尤其是药水。在这些生物的仆从身上发现的任何药水有50%的机会被污染，使药水的效果变得不可预测。检查这样一瓶药水的人必须在一次DC 17智力检定中成功，才能识别出这种不稳定性。否则，这瓶药水看起来就像是其类型的普通药水。",
+								"当一个不稳定的药剂被消耗时，根据《奥术效应》表格进行骰点，以确定不稳定性的效果，这个效果是在药剂的正常效果之外的，并且可以持续到药剂结束或1分钟，以较长者为准。然而，生物可以在每个回合结束时尝试一次DC 13的感知豁免检定，成功则结束自身的不稳定效果。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "在众神消失之后，一些人转向其他古代实体寻求力量。那些成功的人被称为邪术祭司。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "这些祭司从被称为以太亲族的疯狂实体中汲取力量，一些奥术学者指出这可能是造成神祗消失的原因。这些生物赋予的力量可能产生奇异而不可预测的效果。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Religion}):",
+											"entry": "一些神秘的祭司试图通过传播以太瑞斯（Etharis）诸神成员的陨落故事来唤醒他们的新\"神\"。随着越来越多的人进入沉睡的亲族（Kindred）的梦境，这些生物开始苏醒。如果它们苏醒，世界将会毁灭。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Eldritch Effects",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"d8",
+										"Effect"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"这个生物无法说话。"
+										],
+										[
+											"2",
+											"这个生物在每个回合开始时受到 4 ({@dice 1d8}) 精神伤害。"
+										],
+										[
+											"3",
+											"这个生物感到迷失方向。它倒地并且在每次移动5英尺或更多后，每个回合结束时再次倒地。"
+										],
+										[
+											"4",
+											"这个生物被幻觉和声音所分散注意力，对攻击骰和感知（{@skill Perception}）检定有劣势。"
+										],
+										[
+											"5",
+											"这个生物对自己感到不确定。它可以在自己的回合内移动或采取行动，但不能两者兼顾，并且不能使用反应。"
+										],
+										[
+											"6",
+											"这个生物很鲁莽。它在攻击检定上获得优势，并且对它的攻击检定也具有优势。"
+										],
+										[
+											"7",
+											"这个生物被耳聋了，而且看不到超过30英尺以外的东西。"
+										],
+										[
+											"8",
+											"这个生物害怕这种效应的来源。如果那个来源无法被感知，那么这个生物会害怕另一个它能感知到的随机生物。"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Eldritch Priest.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elf Vampire (Ancient)",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"她古老、高大、消瘦，威严而凶猛。她的皮肤透明，微微发光，深红色的液体在皮肤下流动，使它带有一种奇异而震动的红晕。她的愤怒和悲伤传达出来，分享着一种在我的族人砍伐和烧毁森林之前的时光。我哭了。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Elf Vampire Customization",
+							"entries": [
+								"如下所示的统计数据显示，年轻和年长的(elf)精灵吸血鬼获得了转化抗性，免疫被魅惑或昏迷。尽管一些木精灵是例外，但大多数(elf)精灵吸血鬼不会变成动物形态，因此缺乏野兽形态动作。年轻和年长的(elf)精灵吸血鬼还获得了(精灵威严)动作，但直到吸血鬼变得古老，就像统计数据中的那个一样，他们只能用这种力量影响人形生物和野兽。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"当一名精灵吸血鬼死亡时，其肉体会变成闪闪发光的粉末。这种粉末仍然可以用来制作吸血鬼肉制成的药膏。然而，这种粉末也可以作为任何附魔法术或造成死灵伤害的法术的材料组成部分。如果一个法师以这种方式使用了这种粉末，该法术的豁免 DC 值将增加 2 点。如果该法术需要进行攻击骰投掷，则施法者在投掷 19 或 20 时获得暴击，而任何死灵伤害的伤害骰掷出 1 点时将视为 2 点。一名吸血鬼产生的粉末足够用于两次使用，再加上吸血鬼生成后每个年龄阶段额外的一次使用。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "精灵吸血鬼不需要睡眠，因此他们时刻保持警觉。他们也不会被魅惑或使昏迷。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "精灵血统与吸血鬼特质相结合，使得精灵吸血鬼对于能够使不死生物转化的效果具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "精灵吸血鬼可以操控野兽和人类的思维。传说古代精灵吸血鬼可以左右其他生物的思维。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Elf Vampire (Ancient).webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Empyrean Brazen Bull",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"烟雾和香烛的气味弥漫在城堡墙上，我们听到了我们见过的最巨大公牛的愤怒和欢乐的吼叫声。当我们的城墙被烧毁和倒塌时，我们知道一切都已经失去了。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"Empyrean铜牛的爆炸金属外皮可以被收集，用来制作闪闪发光的 {@item brazen armor|GHLoE} (见《Etharis巢穴》附录A)。一个熟练的铠甲铁匠可以通过在DC 20力量检定 ({@skill Athletics}) 中成功，并使用2500 gp的材料来制作一套 {@item brazen armor|GHLoE}。这个过程需要20天才能完成。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "在旱季，有时会发现似乎是由蹄印引发的森林大火在农田中蔓延，与此同时，还经常有人报告在地平线上看到像一头巨大牛的明亮光点。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "天国青铜公牛是天使的负担，用于围攻敌人。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "当天国铜牛死亡时会爆炸，幸运将伴随着爆炸的余波。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Empyrean Brazen Bull.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Eye Crawler",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"眼球爬行者是一只行走的眼睛，观察着一切。它可能在为其他事物进行监视。眼球爬行者没有有效的攻击手段。法师们推测眼球爬行者从光线或环境中的魔法能量中获取营养。"
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Eye Crawler.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Eye Crow",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"眼乌鸦是在以太瑞斯遍布的大型鸦科鸟类。它们会模仿各种声音和声音，极其聪明，能记住面孔、地点以及其他生物对它们的态度。人们将眼乌鸦驯养为宠物，经常利用它们那闪烁着深绿色光泽的黑色羽毛进行装饰。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一只眼睛乌鸦的巢穴中包含着价值至少5 gp的闪闪发光的小玩意儿、硬币、宝石或珠宝。一只眼睛乌鸦的羽毛可以卖到类似金额的钱。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Wisdom ({@skill Nature}):",
+											"entry": "眼睛乌鸦可以被驯化和训练来完成简单任务。不道德的训练师教会乌鸦攻击他人，瞄准眼睛。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Eye Crow.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Faevlin",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"永远不要与精灵做交易。永远不要与地精做交易。如果你遇到了一只法夏林((faevlin))，你就会明白为什么。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"Faevlins（费夫林）喜欢收集能增加个人声望和力量的物品。每个Faevlin（费夫林）可能都会有一些个人小玩意，还会偶尔拥有一些真正有价值的物品。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "一名费芬精灵可以从攻击者身边传送离开，但这种传送方式连费芬精灵自己也无法预测。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "Faevlins(费夫林)是被强大精灵魔法所诅咒的地精。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Nature}):",
+											"entry": "一只费夫林不能被非精灵所魅惑，但它们有时会假装被魅惑，以欺骗附魔师。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Faevlin.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Fzeg",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我们一直被认为吸血鬼和狼人是天敌。两种可怕的生物如此对立，真是太方便了。我们从未想象过，也从未为他们可能联合的时刻做好准备。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有炼金工具熟练的人可以使用来自一只费泽格的1品脱血液，与价值50 gp的银子和其他试剂混合，制作出一个{@item lycanthropy antidote|GHLoE}（见《以萨瑞斯巢穴》附录A）。一只被杀死的费泽格有10个({@dice 1d4 + 2})可用的品脱血液。费泽格莱希的血液也可以使用，但需要五倍的血液和两倍的时间来酿造。制作解药需要4小时的工作和一次成功的DC 15智力({@skill Religion})检定。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "一只(fzeg)是狼人和吸血鬼的混合体，但它的弱点较少。这种生物对非魔法攻击具有抵抗力。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "通过它的咬击，一只(fzeg)可以吸取生命力并用狼人狼疮诅咒一个人。死于(fzeg)咬伤的人会变成(fzeglaich)，一种类似(fzeg)并忠诚于它的生物。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "一只(fzeg)可以变成人形。然而，它的自然形态是狼人混合体。这种吸血鬼怪物不会受到阳光的伤害，但辐射伤害会阻止它再生。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"一个雄心勃勃的DM可以想象，在一支由其他狼人-不死混血组成的部队中，有一只(%num%)fzeg(%num%)在带头。与食尸鬼或恶食尸鬼结合，这种生物可以麻痹目标，或者与尸妖结合，它会吸取目标的生命并降低最大生命值。同样，其他种类的狼人也可以变成不死生物，并拥有混血能力。"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Fzeg.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Fzeglaich",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我们一直被认为吸血鬼和狼人是天敌。两种可怕的生物如此对立，真是太方便了。我们从未想象过，也从未为他们可能联合的时刻做好准备。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有炼金工具熟练度的人可以使用一品脱来自一只fzeg的血液，并将其与价值50 gp的银和其他试剂混合，制作出一个{@item lycanthropy antidote|GHLoE}（见{@adventure Lairs of Etharis|GHLoE|21}的附录A）。一只被杀死的fzeg有10个（{@dice 1d4 + 2}）可用的品脱血液。也可以使用fzeglaich的血液，但需要五倍的血液和两倍的时间来酿造。制作解药需要4小时的工作和一次成功的DC 15智力（{@skill Religion}）检定。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "一只(fzeg)是狼人和吸血鬼的混合体，但它的弱点较少。这种生物对非魔法攻击具有抵抗力。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "通过它的咬击，一只(fzeg)可以吸取生命力并用狼人狼疮诅咒一个人。死于(fzeg)咬伤的人会变成(fzeglaich)，一种类似(fzeg)并忠诚于它的生物。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "一只(fzeg)可以变成人形。然而，它的自然形态是狼人混合体。这种吸血鬼怪物不会受到阳光的伤害，但辐射伤害会阻止它再生。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"一个雄心勃勃的DM可以想象，在一支由其他狼人-不死混血组成的部队中，有一只(%num%)fzeg(%num%)在带头。与食尸鬼或恶食尸鬼结合，这种生物可以麻痹目标，或者与尸妖结合，它会吸取目标的生命并降低最大生命值。同样，其他种类的狼人也可以变成不死生物，并拥有混血能力。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gegazol",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"北方的灾祸是一条名为盖加佐尔(Gegazol)的不死龙。如果我听到她的名字，我会立刻离开那里。她强大、狡猾、阴险。而且她很少独自一人\u2014\u2014她总是有一支军队或另一支军队跟随在她身后。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"Gegazol（Gegazol）的巢穴中聚集了几个世纪的财宝。她已经将这些战利品分散在各个金库和房间中，她的不朽者们守护着这些宝藏。她的财务官\u2014\u2014一组强迫性吸血鬼\u2014\u2014在巢穴内部的金库中的图书馆里仔细记录着这些财宝。每份记录都包含了关于各种物品命运的大量知识，有时吸血鬼们会追踪一件失落财宝的下落，并偶尔展开任务以夺回失去的贵重物品。图书馆中的每一本历史典籍对于合适的收藏者至少价值100 gp。有进取精神的冒险者可以使用这些书籍中的任何一本作为寻找失落宝藏的指南。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "北方之灾(Gegazol)，是一条在数千年前转变为不死恐怖的古代巨龙。自创世以来的古老传说讲述了她偶尔但暴力地袭击她巢穴以南的土地，而以塞瑞斯(Etharis)的所有土地都在她的巢穴以南。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "不仅拥有强大的肉体力量、对抗魔法的防御和一支不死军团，Gegazol，就像一位巫妖一样，拥有一个灵魂容器，其中寄托着她的不死之魂，可以在Gegazol被摧毁时恢复她的身体。据说这个容器是一颗巨大的恶魔头骨，而这条龙将其隐藏在她的巢穴中。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill History}):",
+											"entry": "Gegazol称她的不死族为\"不朽者\"。其中包括吸血鬼、食尸鬼，以及更强大的不死族。考虑到许多这些不死族在她的战争和权力斗争中倒下，称号\"不朽者\"是一种愿望。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Daemon Skull Soul Vessel",
+									"entries": [
+										"古代恶魔头骨作为盖加佐尔(Gegazol)的灵魂容器，拥有地狱力量，赋予它制造混乱和自我保护的手段。它的护甲等级为6，但对来自非魔法攻击的钝击、穿刺和斩击伤害免疫，也免疫寒冷、火焰、死灵和精神伤害。它对所有状态免疫，并且所有豁免投掷获得+7的加值，使其对咒语和魔法效果的豁免带有优势。这颗头骨有200点生命值。",
+										"当受到伤害时，头骨会发出一种心灵警报。Gegazol和她的不朽者可以感知到这个警报，前提是它们在同一存在平面上。此外，当一个生物对头骨造成伤害时，该生物必须通过一次DC 21的感知豁免检定，否则将受到心灵伤害，伤害值等于该生物造成伤害的一半。",
+										"如果她的灵魂容器被摧毁，格加佐尔 (Gegazol) 就无法再恢复。当她的身体再次被摧毁时，她就会死去。"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Gegazol's Lair",
+							"entries": [
+								"鞭笞者的巢穴位于以太瑞斯(Etharis)最北岸的一个岛屿上的深坑洞穴中，甚至比狂怒的冷火还要北。在这个洞穴里，恶魔的头骨坐落其中。它休息在一个深湿的洞穴底部，立在一个雕刻在地面上的基座上。魔法结界保护着头骨上方的裂缝。格加佐尔的不朽者(Gegazol's Immortals)，一支残暴的不死战士队伍，是龙创造或征服的，守卫着神龛周围扩展的地下墓穴。格加佐尔不需要休息，但在战役之间，她会蜷缩在神龛内，环绕着头骨的基座。整个地方散发着腐朽的气味，使这个地点令人作呕。在她的巢穴中，格加佐尔的恶臭半径增加到120英尺。"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Gegazol.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Gluttony Seraph",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"不要去寺庙。有不祥之物出现了。请到别处避难。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个贪婪的天使(Seraph)的金属尖羽毛可以出售。较低级天使(Lesser Seraph)的羽毛价值250金币，而天使(Seraph)的羽毛价值1,000金币。",
+								"有炼金工具熟练度的人可以融化贪婪炽天使羽翼上的金属，并使用一些羽毛作为羽翼，制作一支用于对付次级炽天使的天界杀箭，或者从炽天使身上制作四支这样的箭。制作一支箭需要7天的工作时间，价值1,000 gp 的材料，以及一次成功的 DC 17 智力或感知检定。",
+								"贪食天使的唾液作为解毒剂\u2014\u2014可以从次级天使身上收集到三剂，而从天使身上可以收集到十剂。拥有炼金术工具或草药工具的熟练者可以将两剂这种唾液与价值50 gp的试剂混合，然后酿造4小时。制成的药剂会使饮用者受到毒素保护法术的影响，治愈饮用者体内的一种随机毒素。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "被放逐者是堕入邪恶的炽天使。每个人仍然保留着一部分天界力量。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "由于他们的天界血统，被放逐的（disavowed）保留了对魔法的抵抗力和对非魔法攻击的抵抗力，以及免疫被魅惑、精疲力竭和恐惧。即使在堕落状态下，天使（seraph）的攻击仍会带有魔法和光辉伤害。贪食天使（Gluttony seraphs）也对毒素免疫。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "贪婪炽天使可以唤起任何生物的贪婪。巨大的暴食炽天使可以吞下并消化人类，尽管它们的较小同类不能。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Gluttony Seraph.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Gnoll Brute",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我从来不相信有关野兽以及它如何改变人的传言。直到我看到伐木营地的每个人都发生了变化。这肯定是比神更强大的力量。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一只有毒的豺狼人的脊椎尖刺可以制成四支箭矢、弩箭或飞镖。擅长铁匠工具或修补工具的人可以在4小时内制作这些抛射物。每当这些抛射物击中目标时，目标会额外受到{@dice 1d4}毒素伤害，但如果攻击骰中的{@dice d20}是1或除20外的偶数，则抛射物将不再具有毒性。",
+								"有炼金工具熟练的人可以使用两只豺狼蛮兵或一只暴怒豺狼的唾液腺来制作一瓶增长药水。这些腺体必须由擅长医术技能的人收集，这需要成功进行一次 DC 13的感知（{@skill Medicine}）检定。这些腺体必须在3天内使用，否则会变质，尽管对这些腺体施放的《柔和安息》咒语可以让它们在咒语持续时间内保存新鲜。制作这瓶药水需要1天的工作时间和价值25金币的炼金材料。",
+								"狂暴豺獴的翅膀可以用来制作飞行蝙蝠翅膀。具有皮革工具熟练技能的人可以在5天内制作出这件披风，需要价值500金币的材料。在制作过程中的五天里，必须有人在其中三天对披风施放飞行术。这些翅膀让你的飞行速度只有40英尺，但每隔{@dice 1d8}小时可以使用一次。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "豺狼人曾经是普通的人形生物，但它们已经被野兽之力变异。"
+										},
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "一些豺狼人从骨头上生长的尖刺，通常是脊椎，作为抛射物。然而，不同的豺狼人有不同的变异，其中一些尖刺是有毒的。最强大的变异体会长出翅膀，并且会用血腥的狂怒感染附近的人的心智。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "豺狼人与其他变异生物结成团伙，在他们的地区肆虐。豺狼人吃掉他们杀死的任何生物的肉，喝他们的血。他们用嗥叫、咆哮和呼噜声相互交流。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Harvester of Lies",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"不要对我撒谎，否则收割者会偷走你的舌头！"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"如果被打败，可以获得收割者的{@item coat of lies|GHLoE}（见{@adventure Lairs of Etharis|GHLoE|21}附录A）。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "谎言收割者可以在1英里之外侦测到谎言的说出。他们被谎言吸引，谎言说得越频繁、越离谱，吸引力就越大。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "收割者对非魔法武器和死灵伤害具有抗性，并且对毒素免疫。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "收割者穿着一件由其受害者的切断舌头制成的外套，使它能够施放几个法术。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Harvester of Lies.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Horror Flit Hunter",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果你看到树木中有快速的移动，请逃跑。这可能不够，但这可能是你能做的一切。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"大多数遇到恐怖飞蛾的人的反应是：\"用火烧掉它！\"但少数自然学家为了各种目的而寻找这些生物，愿意慷慨支付样本的费用。在城市地区，对这些生物的赏金范围从10到100 gp不等。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "一只恐怖飞虫没有眼睛，但它们通过空气或水中的振动来感知猎物。它们通过寄生在猎物的肉体繁殖。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "这些生物中最大的一种，大多数人称之为\"繁殖者\"，当繁殖者本能地感觉自己可能会死时，它们可以喷出大群幼体。这种生物通常繁殖速度较慢，每隔几天就会呕吐出一波新的幼体。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Horror Flit Hunter.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hourglass Widow",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"当时钟停止时，你的时间已经用完。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"当寡妇沙漏中的沙子与葡萄酒混合时，会产生一种灵丹，食用后可使生物在{@dice 2d6 + 10}年内不会变老。沙漏中的沙子足够为两个生物制造灵丹。生物不能从同一个寡妇沙漏中的沙子中获益超过一次。这些沙子可以卖出5,000金币。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "沙漏寡妇是不死生物，可以控制时间，使其在一回合内可以多次行动。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "沙漏寡妇对寒冷、力量、闪电和死灵有抗性。他们对毒素和非魔法攻击免疫。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "莫名其妙地，沙漏寡妇可以影响那些被困在时间停滞、监禁或其他静止效果中的人。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Hourglass Widow.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hraptnon",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我们的法师使用的魔法反弹在这只巨大生物身上，我们的战士用剑砍向它时，这生物的血液竟然产生了更多的怪物。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个从hraptnon中央尖刺生长出来的可以被熟练的武器铁匠打造成一支矛或长矛，成功通过一次DC 20智力检定({@skill Arcana})。这需要10天的工作时间和1000 gp的材料。这支矛或长矛作为一把+3武器，在成功命中时额外造成7({@dice 2d6})力量伤害。这把魔法武器可以影响hraptnon，不同于其他魔法武器。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "hraptnon（哈普特农）生活在死寂森林（Stillborn Forest），从未被看到离开森林边界。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "没有任何魔法咒语或武器能伤害到hraptnon，它的血液可以孵化出被称为xakalonus的生物。"
+										},
+										{
+											"type": "item",
+											"name": "DC 25 Intelligence ({@skill History}):",
+											"entry": "除非在位于(Stillborn Forest)中心的一片神奇树林中的一个魔法池中找到并摧毁它的心脏，否则(hraptnon)无法被永久杀死。这颗心脏被称为(Stillborn Heart)，可以卖给一个贤者换取一大笔黄金。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"hraptnon是一个很好的\"拼图怪物\"例子，这种怪物直到揭示了它的秘密才能被打败。拼图怪物可以带来很多乐趣，尤其是对极强大的队伍来说。就在玩家们以为他们已经取得了一个潜在的轻松胜利时，他们发现威胁仍然存在。",
+										"要最大化像哈普特农（hraptnon）这样的谜题怪物的影响力，关键在于确保不要过早透露太多信息。让角色们自己去解开怪物背后的真相，利用资源并花时间去做。当他们最终能够完全击败这个生物时，他们的胜利将会更加甜蜜。"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Hraptnon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Infernal Tormentor",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"当她拿出一支散发着硫磺味道的金色钢笔时，我就知道我犯了一个错误。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"渴望成为恶魔的人经常拥有用于起草地狱契约的特殊材料。这些材料包括价值高达200 gp 的特殊墨水和羊皮纸。这些材料也可以用于将新法术写入法术书或制作魔法卷轴。恶魔身上的任何现有契约在其死亡时会突然燃烧起来，这可能会损坏其他物品。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "在以塞瑞斯(Etharis)的每个角落都可以找到恶魔，或者是带有恶魔特质的凡人，他们利用自己的诡计诱使那些愚蠢到签署他们合同的人。他们狡猾、欺诈，内心邪恶至极。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "一个恶魔的力量和地位直接取决于通过契约与其绑定的凡人灵魂的数量和质量。有时，这种协议的条款涉及凡人变成恶魔本身，因此一个强大的恶魔可能通过合同拥有任意数量的次等恶魔为其服务。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "恶魔是地狱世界的本地居民，任何被杀死的恶魔都会返回那个位面重新组合自己。只有强大的神圣魔法才能永久放逐恶魔。然而，说出恶魔的真名会赋予说话者对其的控制力。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Infernal Tormentor.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ithjar",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"仅需片刻时间，一个伊萨尔（ithjar）就能从远处的灰色和红色风筝般的漩涡转变为一只咬牙切齿的威胁。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"在更大的市场上，伊斯贾尔（Ithjar）的牙齿和皮革可以卖个好价钱。牙齿可以制成项链和其他装饰品，皮革和鳞片可以制成服装。流行的迷信认为佩戴伊斯贾尔的牙齿或皮革可以赋予佩戴者一些灵巧的特质。这种信念并非完全正确，但擅长制革工具的人可以用伊斯贾尔的皮革制作皮甲，基础护甲等级为13，并允许佩戴者将完整的敏捷加值应用于护甲等级。制作这种护甲需要10天时间。从一只风暴之生伊斯贾尔制成的皮甲是抗性护甲（闪电和雷鸣）。这种护甲制作时间不会更长，但需要价值2000金币的其他材料。",
+								"一只风暴之子伊萨尔的中心尖牙可以制成一支闪电标枪，造成{@dice 2d8} 闪电伤害和{@dice 2d8} 雷霆伤害，而不仅仅是{@dice 4d6} 闪电伤害。被这支标枪击中的生物还必须成功通过 DC 13 的力量豁免才能不倒地。拥有铁匠工具熟练加成的人可以在10天的工作时间内制作这件武器，其他材料价值250 gp。在制作过程中，还必须有人对这件武器施放三次雷波术。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "伊斯亚尔(Ithjars)是快速移动的凶猛飞行者，但其中更强大的飞行蛇被赋予了风暴之力，可以喷出闪电和雷鸣。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "要捕捉一个ithjar是很困难的。它们很快地从敌人的控制和其他限制中滑脱出来。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "风暴之子伊萨尔(Ithjar)对闪电和雷电免疫，使其能够在风暴云中穿行。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Ithjar.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Knifewing",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"一只刀翼（Knifewing）是一种滑翔蜥蜴，大约有一只小狗那么大。当蜥蜴滑翔时，它的滑翔膜有硬边缘，拉紧时锋利。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"刀翼的皮被视为制作{@item knifewing cape|GHLoE}的珍贵材料（见{@adventure Lairs of Etharis|GHLoE|21}附录A）。"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Knifewing.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lenchtahg",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"烟雾缭绕、火焰形态的生物发出怒火和困惑交织的嘶嘶声和尖叫声。这种声音中似乎蕴含着一种近乎神圣的感觉。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一只(lenchtahg)的断头是一件强大的魔法物品。对于合适的买家\u2014\u2014比如通灵师、恶魔教徒、邪恶炼金术士等，一只(lenchtahg)的头价值750 gp。大恶魔玛利基尔的仆从守护着将(lenchtahg)绑定的秘密，但巫婆和其他拥有魔法技能的邪恶生物拥有将(lenchtahg)头部转化为具有类似邪恶力量的构造物的知识。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "辐光伤害会治愈一只(lenchtahg)，它仍然拥有炽天使(Seraph)的肉体。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "用大量水或任何圣水来探测一只蓝恰格(Lenchtahg)可以暂时削弱它。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "(lenchtahg)的头部必须在一场神圣仪式中被祝圣，或者以其他方式摆脱其中的邪恶，以避免(lenchtahg)的再生。但那些拥有正确知识的人可以利用这个头部来制作一个魔法仆从。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"在战斗中使用(lenchtahg)作为部队的人将利用辐射魔法来伤害敌人，同时治愈(lenchtahg)。这极大地增强了这些怪物的力量。"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Lenchtahg.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lesser Avarice Seraph",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"不要去寺庙。有不祥之物出现了。请到别处避难。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个贪婪的天使(Seraph)的金属尖羽毛可以出售。较低级天使(Lesser Seraph)的羽毛价值250金币，而天使(Seraph)的羽毛价值1,000金币。",
+								"有炼金工具熟练度的人可以融化贪婪炽天使羽翼上的金属，并使用一些羽毛作为羽翼，制作一支用于对付次级炽天使的天界杀箭，或者从炽天使身上制作四支这样的箭。制作一支箭需要7天的工作时间，价值1,000 gp 的材料，以及一次成功的 DC 17 智力或感知检定。",
+								"贪食天使的唾液作为解毒剂\u2014\u2014可以从次级天使身上收集到三剂，而从天使身上可以收集到十剂。拥有炼金术工具或草药工具的熟练者可以将两剂这种唾液与价值50 gp的试剂混合，然后酿造4小时。制成的药剂会使饮用者受到毒素保护法术的影响，治愈饮用者体内的一种随机毒素。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "被放逐者是堕入邪恶的炽天使。每个人仍然保留着一部分天界力量。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "由于他们的天界血统，被放逐的（disavowed）保留了对魔法的抵抗力和对非魔法攻击的抵抗力，以及免疫被魅惑、精疲力竭和恐惧。即使在堕落状态下，天使（seraph）的攻击仍会带有魔法和光辉伤害。贪食天使（Gluttony seraphs）也对毒素免疫。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "贪婪炽天使可以唤起任何生物的贪婪。巨大的暴食炽天使可以吞下并消化人类，尽管它们的较小同类不能。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lesser Gluttony Seraph",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"不要去寺庙。有不祥之物出现了。请到别处避难。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个贪婪的天使(Seraph)的金属尖羽毛可以出售。较低级天使(Lesser Seraph)的羽毛价值250金币，而天使(Seraph)的羽毛价值1,000金币。",
+								"有炼金工具熟练度的人可以融化贪婪炽天使羽翼上的金属，并使用一些羽毛作为羽翼，制作一支用于对付次级炽天使的天界杀箭，或者从炽天使身上制作四支这样的箭。制作一支箭需要7天的工作时间，价值1,000 gp 的材料，以及一次成功的 DC 17 智力或感知检定。",
+								"贪食天使的唾液作为解毒剂\u2014\u2014可以从次级天使身上收集到三剂，而从天使身上可以收集到十剂。拥有炼金术工具或草药工具的熟练者可以将两剂这种唾液与价值50 gp的试剂混合，然后酿造4小时。制成的药剂会使饮用者受到毒素保护法术的影响，治愈饮用者体内的一种随机毒素。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "被放逐者是堕入邪恶的炽天使。每个人仍然保留着一部分天界力量。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "由于他们的天界血统，被放逐的（disavowed）保留了对魔法的抵抗力和对非魔法攻击的抵抗力，以及免疫被魅惑、精疲力竭和恐惧。即使在堕落状态下，天使（seraph）的攻击仍会带有魔法和光辉伤害。贪食天使（Gluttony seraphs）也对毒素免疫。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "贪婪炽天使可以唤起任何生物的贪婪。巨大的暴食炽天使可以吞下并消化人类，尽管它们的较小同类不能。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lich Troll",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"逃离巨魔是明智的。逃离施法的巨魔是一厢情愿的。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有熟练使用珠宝工具或木雕工具的人可以将巫妖巨魔的头骨打造成一枚再生戒指。这需要价值5,000 gp的材料，10天的工作时间，以及一次成功的DC 15智力或感知检定。在整个过程中，必须有人每天为戒指施放强效恢复术。如果戴戒指的人死亡，巫妖的灵魂有25%的几率接管尸体，将其用作新的身体。但如果戒指完全是在一个具有永恒安息效果的神圣领域法术区域内制造的，那么与巫妖灵魂的联系将会被切断。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "巫妖巨魔是早期强大法师试图将他们的灵魂转移到巨魔身上的残余产物。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "巫妖巨魔免疫毒素伤害，对死灵伤害有抗性。它具有再生能力，只能被酸性、火焰或辐射伤害杀死。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Lich Troll.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lindwyrm",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我的曾祖父讲述过林德沃姆(Lindwyrm)恐吓乡间，吞噬整座村庄的故事。但自从有人看到这只怪兽已经很久了，很可能这个生物早已死去。感谢米克拉斯(Miklas)！"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个剂量为{@item lindwyrm venom|GHLoE}的毒药（见{@adventure Lairs of Etharis|GHLoE|21}的附录A）可以由熟练使用毒药工具包的人在成功通过DC 18的敏捷检定（{@skill Sleight of Hand}）后收集，但必须在林德蛟死亡后的1小时内完成。如果检定失败超过5点，收集者将被自己毒害。这种伤害性毒药价值1,000金币。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "蛟龙们睡眠100年，苏醒后对其狩猎区域的社区造成毁灭性影响。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "林德蛇(Lindwyrms)具有剧毒咬伤并可能吞食它们咬伤的生物。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Nature}):",
+											"entry": "蛟龙能够感知地面上长达120尺远处的振动。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"一个令人兴奋的冒险种子可能是找到冒险者的强大敌人，他想唤醒并控制一只林德蛇((lindwyrm))。无论这个情节是否成功，但一场涉及林德蛇和其他敌人的三方战斗应该是难忘的，战斗的激烈程度起伏不定。"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Lindwyrm.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lupilisk",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果你在野外发现一个雕像张着嘴尖叫，赶紧逃跑。最好的情况是，那只是一个艺术家在表达他们扭曲的想法。最坏的情况是，很快你也会变成一座雕像。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有炼金工具熟练的人可以取四只狼蜥毒牙，或者只取一只狼蜥长者的两只毒牙，并用价值每颗250 gp的试剂处理它们3天。成功的处理需要炼金师在一次DC 15的智力或感知检定中成功。在处理期间，还必须有人对这些毒牙施放次级恢复术。处理成功后，有珠宝工具熟练的人可以将这些现在变黑的毒牙制成项链，制造出一枚抗毒护符。如果佩戴者对这枚护符进行调谐，护身符还会使佩戴者免疫石化。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "一只狼蜥的咬伤会向猎物注入一种石化毒液。这种魔法毒素会随着狼蜥的年龄增长而变得更加强大。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "卢皮利斯克(Lupilisks)生活在由一对年长夫妇领导的群体中。这对夫妇是大多数其他群体成员的父母。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Lupilisk.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Lupilisk Elder",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果你在野外发现一个雕像张着嘴尖叫，赶紧逃跑。最好的情况是，那只是一个艺术家在表达他们扭曲的想法。最坏的情况是，很快你也会变成一座雕像。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有炼金工具熟练的人可以取四只狼蜥毒牙，或者只取一只狼蜥长者的两只毒牙，并用价值每颗250 gp的试剂处理它们3天。成功的处理需要炼金师在一次DC 15的智力或感知检定中成功。在处理期间，还必须有人对这些毒牙施放次级恢复术。处理成功后，有珠宝工具熟练的人可以将这些现在变黑的毒牙制成项链，制造出一枚抗毒护符。如果佩戴者对这枚护符进行调谐，护身符还会使佩戴者免疫石化。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "一只狼蜥的咬伤会向猎物注入一种石化毒液。这种魔法毒素会随着狼蜥的年龄增长而变得更加强大。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "卢皮利斯克(Lupilisks)生活在由一对年长夫妇领导的群体中。这对夫妇是大多数其他群体成员的父母。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lupilisk Whelp",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果你在野外发现一个雕像张着嘴尖叫，赶紧逃跑。最好的情况是，那只是一个艺术家在表达他们扭曲的想法。最坏的情况是，很快你也会变成一座雕像。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有炼金工具熟练的人可以取四只狼蜥毒牙，或者只取一只狼蜥长者的两只毒牙，并用价值每颗250 gp的试剂处理它们3天。成功的处理需要炼金师在一次DC 15的智力或感知检定中成功。在处理期间，还必须有人对这些毒牙施放次级恢复术。处理成功后，有珠宝工具熟练的人可以将这些现在变黑的毒牙制成项链，制造出一枚抗毒护符。如果佩戴者对这枚护符进行调谐，护身符还会使佩戴者免疫石化。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "一只狼蜥的咬伤会向猎物注入一种石化毒液。这种魔法毒素会随着狼蜥的年龄增长而变得更加强大。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "卢皮利斯克(Lupilisks)生活在由一对年长夫妇领导的群体中。这对夫妇是大多数其他群体成员的父母。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Lupilisk Whelp.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Malikirian Imp",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我可以给你任何东西，凡人。财富？荣誉？有一次成为重要人物？向我低语你的秘密。我会告诉你你的对手的秘密。他们都与我共舞。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"如果被单独发现与敌对敌人在一起，小恶魔会乞求保命，并承诺为新主人服务。它会告诉它的名字，施法者可以在施放寻找伙伴时使用这个名字来召唤并绑定这只小恶魔作为他们的伙伴。",
+								"小恶魔的鳞片和骨骼可以用来制作一瓶火焰抗性药水，需要一个熟练掌握炼金术工具的角色进行一次 DC 15 的智力检定({@skill Arcana})。制作过程需要2小时和10金币的材料。然而，服用这瓶药水的人有10% 的几率会对其他所有伤害变得脆弱。",
+								"吃下Malikirian小恶魔的心脏可以让你获得一次施放建议(suggestion)法术的能力，而且不消耗法术位。抵抗这个法术的难度等级为10。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "当心Malikir的后代众多的群体，因为他们甚至可以腐化最纯洁的心灵，促使他们做出罪恶和道德堕落的行为。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "许多愚蠢的术士认为他们占了上风，当他们收到一个如此可怜的生物作为他们的使魔时，但他们低估了他们的危险。(%num%)"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "尽管大法师们进行了占卜，但没有人确切知道天使(%Empyreus%)如何掌握了(%Malikirian%)小恶魔的锁链。这绝对不是个好消息。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Malikirian Imp.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mjork",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"是我感觉到了吗，还是黑暗变得更浓了？这里是不是突然变得很暖和？"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"每个(`mjork`)内都有一颗被硬化成烟状水晶的灰色心脏。这颗水晶可能已经在被杀死的(`mjork`)的残骸中被打碎，使其无用。完整的水晶可以被打破或投掷到60英尺以内的点作为一个动作。当水晶破裂时，如果被投掷，它会在着陆时破裂，水晶释放出一个以破碎者空间内的点或水晶着陆点为中心的半径20英尺的烟雾球。烟雾会绕过角落，其区域被严重遮蔽。它持续1分钟，但中等风（至少10英里/小时）会在4回合内将其驱散。强风（20英里/小时或更高）会在1回合内驱散烟雾。这些水晶每颗售价15金币或更高。",
+								"烟灰精灵或破碎的姆约克水晶产生的小晶体类似于烟晶。这些宝石的价值可能在每颗1银至1金之间，对于认为它们是姆约克水晶的收藏家来说，价值可能更高。使用珠宝工具打磨这些晶体可以增加它们作为半宝石的价值。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Mjorks是由土地和火焰相互碰撞而成的。这些元素生物经常栖息在火山附近。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "Mjorks（木约克）对雷电伤害很脆弱，会使它们岩石般的皮肤裂开。它们也能通过烟雾感知，就好像雾气为它们提供了致盲视觉。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mjork Asher",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"是我感觉到了吗，还是黑暗变得更浓了？这里是不是突然变得很暖和？"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"每个(`mjork`)内都有一颗被硬化成烟状水晶的灰色心脏。这颗水晶可能已经在被杀死的(`mjork`)的残骸中被打碎，使其无用。完整的水晶可以被打破或投掷到60英尺以内的点作为一个动作。当水晶破裂时，如果被投掷，它会在着陆时破裂，水晶释放出一个以破碎者空间内的点或水晶着陆点为中心的半径20英尺的烟雾球。烟雾会绕过角落，其区域被严重遮蔽。它持续1分钟，但中等风（至少10英里/小时）会在4回合内将其驱散。强风（20英里/小时或更高）会在1回合内驱散烟雾。这些水晶每颗售价15金币或更高。",
+								"烟灰精灵或破碎的姆约克水晶产生的小晶体类似于烟晶。这些宝石的价值可能在每颗1银至1金之间，对于认为它们是姆约克水晶的收藏家来说，价值可能更高。使用珠宝工具打磨这些晶体可以增加它们作为半宝石的价值。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Mjorks是由土地和火焰相互碰撞而成的。这些元素生物经常栖息在火山附近。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "Mjorks（木约克）对雷电伤害很脆弱，会使它们岩石般的皮肤裂开。它们也能通过烟雾感知，就好像雾气为它们提供了致盲视觉。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Mjork Asher.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mjork Burner",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"是我感觉到了吗，还是黑暗变得更浓了？这里是不是突然变得很暖和？"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"每个(`mjork`)内都有一颗被硬化成烟状水晶的灰色心脏。这颗水晶可能已经在被杀死的(`mjork`)的残骸中被打碎，使其无用。完整的水晶可以被打破或投掷到60英尺以内的点作为一个动作。当水晶破裂时，如果被投掷，它会在着陆时破裂，水晶释放出一个以破碎者空间内的点或水晶着陆点为中心的半径20英尺的烟雾球。烟雾会绕过角落，其区域被严重遮蔽。它持续1分钟，但中等风（至少10英里/小时）会在4回合内将其驱散。强风（20英里/小时或更高）会在1回合内驱散烟雾。这些水晶每颗售价15金币或更高。",
+								"烟灰精灵或破碎的姆约克水晶产生的小晶体类似于烟晶。这些宝石的价值可能在每颗1银至1金之间，对于认为它们是姆约克水晶的收藏家来说，价值可能更高。使用珠宝工具打磨这些晶体可以增加它们作为半宝石的价值。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Mjorks是由土地和火焰相互碰撞而成的。这些元素生物经常栖息在火山附近。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "Mjorks（木约克）对雷电伤害很脆弱，会使它们岩石般的皮肤裂开。它们也能通过烟雾感知，就好像雾气为它们提供了致盲视觉。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Mjork Burner.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mjork Charger",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"是我感觉到了吗，还是黑暗变得更浓了？这里是不是突然变得很暖和？"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"每个(`mjork`)内都有一颗被硬化成烟状水晶的灰色心脏。这颗水晶可能已经在被杀死的(`mjork`)的残骸中被打碎，使其无用。完整的水晶可以被打破或投掷到60英尺以内的点作为一个动作。当水晶破裂时，如果被投掷，它会在着陆时破裂，水晶释放出一个以破碎者空间内的点或水晶着陆点为中心的半径20英尺的烟雾球。烟雾会绕过角落，其区域被严重遮蔽。它持续1分钟，但中等风（至少10英里/小时）会在4回合内将其驱散。强风（20英里/小时或更高）会在1回合内驱散烟雾。这些水晶每颗售价15金币或更高。",
+								"烟灰精灵或破碎的姆约克水晶产生的小晶体类似于烟晶。这些宝石的价值可能在每颗1银至1金之间，对于认为它们是姆约克水晶的收藏家来说，价值可能更高。使用珠宝工具打磨这些晶体可以增加它们作为半宝石的价值。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Mjorks是由土地和火焰相互碰撞而成的。这些元素生物经常栖息在火山附近。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "Mjorks（木约克）对雷电伤害很脆弱，会使它们岩石般的皮肤裂开。它们也能通过烟雾感知，就好像雾气为它们提供了致盲视觉。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Mjork Charger.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mjork Sootling",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"是我感觉到了吗，还是黑暗变得更浓了？这里是不是突然变得很暖和？"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"每个(`mjork`)内都有一颗被硬化成烟状水晶的灰色心脏。这颗水晶可能已经在被杀死的(`mjork`)的残骸中被打碎，使其无用。完整的水晶可以被打破或投掷到60英尺以内的点作为一个动作。当水晶破裂时，如果被投掷，它会在着陆时破裂，水晶释放出一个以破碎者空间内的点或水晶着陆点为中心的半径20英尺的烟雾球。烟雾会绕过角落，其区域被严重遮蔽。它持续1分钟，但中等风（至少10英里/小时）会在4回合内将其驱散。强风（20英里/小时或更高）会在1回合内驱散烟雾。这些水晶每颗售价15金币或更高。",
+								"烟灰精灵或破碎的姆约克水晶产生的小晶体类似于烟晶。这些宝石的价值可能在每颗1银至1金之间，对于认为它们是姆约克水晶的收藏家来说，价值可能更高。使用珠宝工具打磨这些晶体可以增加它们作为半宝石的价值。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Mjorks是由土地和火焰相互碰撞而成的。这些元素生物经常栖息在火山附近。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "Mjorks（木约克）对雷电伤害很脆弱，会使它们岩石般的皮肤裂开。它们也能通过烟雾感知，就好像雾气为它们提供了致盲视觉。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mjork Sootling Swarm",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"是我感觉到了吗，还是黑暗变得更浓了？这里是不是突然变得很暖和？"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"每个(`mjork`)内都有一颗被硬化成烟状水晶的灰色心脏。这颗水晶可能已经在被杀死的(`mjork`)的残骸中被打碎，使其无用。完整的水晶可以被打破或投掷到60英尺以内的点作为一个动作。当水晶破裂时，如果被投掷，它会在着陆时破裂，水晶释放出一个以破碎者空间内的点或水晶着陆点为中心的半径20英尺的烟雾球。烟雾会绕过角落，其区域被严重遮蔽。它持续1分钟，但中等风（至少10英里/小时）会在4回合内将其驱散。强风（20英里/小时或更高）会在1回合内驱散烟雾。这些水晶每颗售价15金币或更高。",
+								"烟灰精灵或破碎的姆约克水晶产生的小晶体类似于烟晶。这些宝石的价值可能在每颗1银至1金之间，对于认为它们是姆约克水晶的收藏家来说，价值可能更高。使用珠宝工具打磨这些晶体可以增加它们作为半宝石的价值。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Mjorks是由土地和火焰相互碰撞而成的。这些元素生物经常栖息在火山附近。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "Mjorks（木约克）对雷电伤害很脆弱，会使它们岩石般的皮肤裂开。它们也能通过烟雾感知，就好像雾气为它们提供了致盲视觉。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Mjork Sootling Swarm.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mold Spider",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"霉菌蜘蛛是扭曲的植物碎片，在黑暗的洞穴和废墟中觅食腐烂物质并\"吞食\"。"
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Mold Spider.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Morbus Kobold",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果一群狮子被称为一群骄傲（pride），一群病垢龙人被称为一场感染（infection）。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有医学熟练的人可以尝试进行一次DC 13的感知检定，来从一只病态龙人长者身上提取最大的肿瘤。如果这次检定成功，有炼金工具或草药工具熟练的人可以用价值200金币的草药和试剂包裹这个肿瘤。包裹的肿瘤必须放在户外，每天接受阳光照射7天。在此期间，必须有人对肿瘤施放次级恢复术。在整个过程结束时，这个肿瘤可以被打磨并镶嵌在项链上，制成一枚健康护符。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 13 Intelligence ({@skill Nature}):",
+											"entry": "疾病狗头人(Morbus kobolds)以传播疾病而闻名。尽管他们在传播传染病方面发挥作用，但他们对所有已知疾病的影响都具有免疫力。"
+										},
+										{
+											"type": "item",
+											"name": "DC 13 Intelligence ({@skill History}):",
+											"entry": "在魔博斯狗头人(morbus kobold)的首次记录遭遇是在利塞赫(Liesech)城市，在哭泣痘(Weeping Pox)早期阶段。在这次遭遇后不久，哭泣痘开始在附近地区蔓延。"
+										},
+										{
+											"type": "item",
+											"name": "DC 16 Wisdom ({@skill Medicine}):",
+											"entry": "矮人病长者体内最大的肿瘤可以被治疗后晒干在阳光下，制成一种抗病的护符。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Morbus Kobold.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Oblivion Brute",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果你在黑暗中听到奇怪的低吹声，赶紧逃跑！它们在袭击前会吹口哨，从黑暗中走出来，渴望活着的灵魂。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"当一只湮灭追踪者被击败时，有25%的几率会留下一颗宝石。这些宝石的价值在10到500 gp之间，取决于生物的大小。有10%的几率，其中一颗宝石会像磁铁一样吸引更多的湮灭追踪者，它们会在新月的午夜出现并攻击持有者。解除诅咒可以让这颗宝石变得安全。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "白昼时分，遗忘追踪者处于劣势。(oblivion stalker)"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "一位遗忘追踪者对辐射伤害具有脆弱性，对非魔法武器具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Religion}):",
+											"entry": "如果一名遗忘潜行者杀死一个凡人，据信这个凡人会加入他们阴暗的行列。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Customizing Oblivion Stalkers",
+									"entries": [
+										"由于遗忘潜行者可以吸取几乎任何生物的能量，它们可以呈现几乎任何形态。一些遗忘潜行者保留了其原始形态的自然能力。例如，曾经是狼的遗忘潜行者可能保留了\"狼群战术\"特性。同样，一头野猪可能具有\"冲锋\"版本，吸取猎物的能量，同时增加割伤伤害并有可能让猎物摔倒。",
+										"保留一项对于追踪者原始形态的生物有意义的特殊能力，同时不影响追踪者的挑战等级。避免赋予遗忘追踪者任何魔法能力、给予追踪者远程攻击的能力，或者扩展其抗性或免疫力。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oblivion Juggernaut",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果你在黑暗中听到奇怪的低吹声，赶紧逃跑！它们在袭击前会吹口哨，从黑暗中走出来，渴望活着的灵魂。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"当一只湮灭追踪者被击败时，有25%的几率会留下一颗宝石。这些宝石的价值在10到500 gp之间，取决于生物的大小。有10%的几率，其中一颗宝石会像磁铁一样吸引更多的湮灭追踪者，它们会在新月的午夜出现并攻击持有者。解除诅咒可以让这颗宝石变得安全。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "白昼时分，遗忘追踪者处于劣势。(oblivion stalker)"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "一位遗忘追踪者对辐射伤害具有脆弱性，对非魔法武器具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Religion}):",
+											"entry": "如果一名遗忘潜行者杀死一个凡人，据信这个凡人会加入他们阴暗的行列。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Customizing Oblivion Stalkers",
+									"entries": [
+										"由于遗忘潜行者可以吸取几乎任何生物的能量，它们可以呈现几乎任何形态。一些遗忘潜行者保留了其原始形态的自然能力。例如，曾经是狼的遗忘潜行者可能保留了\"狼群战术\"特性。同样，一头野猪可能具有\"冲锋\"版本，吸取猎物的能量，同时增加割伤伤害并有可能让猎物摔倒。",
+										"保留一项对于追踪者原始形态的生物有意义的特殊能力，同时不影响追踪者的挑战等级。避免赋予遗忘追踪者任何魔法能力、给予追踪者远程攻击的能力，或者扩展其抗性或免疫力。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oblivion Leaper",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果你在黑暗中听到奇怪的低吹声，赶紧逃跑！它们在袭击前会吹口哨，从黑暗中走出来，渴望活着的灵魂。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"当一只湮灭追踪者被击败时，有25%的几率会留下一颗宝石。这些宝石的价值在10到500 gp之间，取决于生物的大小。有10%的几率，其中一颗宝石会像磁铁一样吸引更多的湮灭追踪者，它们会在新月的午夜出现并攻击持有者。解除诅咒可以让这颗宝石变得安全。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "白昼时分，遗忘追踪者处于劣势。(oblivion stalker)"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "一位遗忘追踪者对辐射伤害具有脆弱性，对非魔法武器具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Religion}):",
+											"entry": "如果一名遗忘潜行者杀死一个凡人，据信这个凡人会加入他们阴暗的行列。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Customizing Oblivion Stalkers",
+									"entries": [
+										"由于遗忘潜行者可以吸取几乎任何生物的能量，它们可以呈现几乎任何形态。一些遗忘潜行者保留了其原始形态的自然能力。例如，曾经是狼的遗忘潜行者可能保留了\"狼群战术\"特性。同样，一头野猪可能具有\"冲锋\"版本，吸取猎物的能量，同时增加割伤伤害并有可能让猎物摔倒。",
+										"保留一项对于追踪者原始形态的生物有意义的特殊能力，同时不影响追踪者的挑战等级。避免赋予遗忘追踪者任何魔法能力、给予追踪者远程攻击的能力，或者扩展其抗性或免疫力。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oblivion Whistler",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"如果你在黑暗中听到奇怪的低吹声，赶紧逃跑！它们在袭击前会吹口哨，从黑暗中走出来，渴望活着的灵魂。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"当一只湮灭追踪者被击败时，有25%的几率会留下一颗宝石。这些宝石的价值在10到500 gp之间，取决于生物的大小。有10%的几率，其中一颗宝石会像磁铁一样吸引更多的湮灭追踪者，它们会在新月的午夜出现并攻击持有者。解除诅咒可以让这颗宝石变得安全。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "白昼时分，遗忘追踪者处于劣势。(oblivion stalker)"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "一位遗忘追踪者对辐射伤害具有脆弱性，对非魔法武器具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Religion}):",
+											"entry": "如果一名遗忘潜行者杀死一个凡人，据信这个凡人会加入他们阴暗的行列。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Customizing Oblivion Stalkers",
+									"entries": [
+										"由于遗忘潜行者可以吸取几乎任何生物的能量，它们可以呈现几乎任何形态。一些遗忘潜行者保留了其原始形态的自然能力。例如，曾经是狼的遗忘潜行者可能保留了\"狼群战术\"特性。同样，一头野猪可能具有\"冲锋\"版本，吸取猎物的能量，同时增加割伤伤害并有可能让猎物摔倒。",
+										"保留一项对于追踪者原始形态的生物有意义的特殊能力，同时不影响追踪者的挑战等级。避免赋予遗忘追踪者任何魔法能力、给予追踪者远程攻击的能力，或者扩展其抗性或免疫力。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oozing Vulture",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"羽毛的嘎嘎声和拍打声并没有让我逃跑。但那滴血的羽毛和扭曲的喙？完全是另一回事。(D&D)。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一只渗出液体的秃鹫的羽毛被裁缝和秘术师们视为珍宝。角色可以在成功的DC 10敏捷检定中收集{@dice 2d10}根羽毛。每根羽毛价值3 gp。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "渗出的秃鹫具有凶猛的咬力，可以让受害者倒地。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "渗出的秃鹫可以追踪血腥味在很远的距离上。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "一只渗出液体的秃鹫被鲜血的气味激怒，对受伤的猎物攻击时获得优势。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Oozing Vulture.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Ordeal Tree",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"在原始森林中，耸立着审判树。如果你在这株苍老的时光支柱上挂上七个月，你将获得远古力量。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一颗磨难树的心材可以制成一种香，吸入后可以解除强大的诅咒。获得这种木材需要成功进行一次DC 15的敏捷检定({@skill Sleight of Hand})。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "绑缚自己于一棵严苛树上7天，可以赋予请愿者根据他们内心渴望的力量。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "磨难树的祝福往往伴随着诅咒。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "苦难之树只赐予那些心怀邪恶者的祝福。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Ordeal Tree.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Panjaian Ilharan",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"灌输了原初之力，潘加伊人是自然的真实力量。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有{@skill Medicine}熟练度的人可以尝试进行一次 DC 13 智慧检定({@skill Medicine})，以完整地移除潘加伊安的心脏。拥有炼金术工具熟练度的人可以用价值100 gp 的试剂处理这颗心脏，需要3天时间并且成功进行一次 DC 13 智力或智慧检定。如果成功，这个过程会将心脏硬化成元素宝石：伊尔哈兰的是蓝宝石，锡特罗拉奇的是黄钻石，莫拉克什的是红刚玉，阿伦敦的是翡翠。然而，对于潘加伊安戈玛德龙的心脏使用这个过程会创造出什么，目前尚不清楚。历史上没有记录过这样的行为。（不过，一颗光明宝石是一个不错的可能性。）"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 13 Intelligence ({@skill Religion}):",
+											"entry": "潘加人首次出现在原初神与（Primordial）之间的战争接近尾声时。一些学者认为，如果潘加人早些被创造出来，可能会改变冲突的结果。"
+										},
+										{
+											"type": "item",
+											"name": "DC 13 Intelligence ({@skill Nature}):",
+											"entry": "每位潘加人都对他们原初守护者的元素有亲和力。这种亲和力表现为对元素的抵抗力、控制能力以及能够将该元素作为武器运用的能力。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Panjaian Ilharan.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Psychic Fragment",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"从黑暗中出现了一个无面鬼魂：伸出的手臂试图抓住我的肉体。绝望之际，我向同伴求助，但我的声音却消失了。当它偷走了我的言语，我知道我的厄运已至。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个凡人的骨骼转化为尖叫窃贼后，仍然充满着其不死气息。一个熟练的魔法物品工匠使用200 gp的魔法材料，并花费至少5天的努力，如果他们在一次 DC 15的智力检定中成功，就可以制造一个{@item wand of silence|GHLoE}（见{@adventure Lairs of Etharis|GHLoE|21}的附录A）。\n",
+								"一个法术施展者可以在死亡后精神碎片消散之前捕获其精华。法术施展者需要一个价值至少100 gp 的容器。任何成功通过 DC 13 智力检定({@skill Arcana})的人都可以捕获被击败的精神碎片的一部分。容器可以在8小时内存储多达10个骰子的不死精华，然后它们会消散。",
+								"作为一个动作，一个容纳着这种精神精华的容器可以被投掷最多20英尺，撞击时会破裂。所有距离破碎容器5英尺内的生物必须进行一次DC 12的体质豁免检定。未通过豁免检定的生物会受到{@dice 1d4}储存的精华每个骰子的死亡伤害，而通过检定的生物会受到一半伤害。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "尖叫窃贼对死灵和毒素免疫。灵魂碎片的非实体特性使它们对非魔法武器具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "尖叫窃贼的触摸会吸取生命，这是魔法无法治愈的；只有时间和休息才能恢复。"
+										}
+									]
+								},
+								"一名尖叫窃贼被困在它死去的地方，通常伴随着它杀死的生物的灵魂碎片。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Fragment Swarm",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"从黑暗中出现了一个无面鬼魂：伸出的手臂试图抓住我的肉体。绝望之际，我向同伴求助，但我的声音却消失了。当它偷走了我的言语，我知道我的厄运已至。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个凡人的骨骼转化为尖叫窃贼后，仍然充满着其不死气息。一个熟练的魔法物品工匠使用200 gp的魔法材料，并花费至少5天的努力，如果他们在一次 DC 15的智力检定中成功，就可以制造一个{@item wand of silence|GHLoE}（见{@adventure Lairs of Etharis|GHLoE|21}的附录A）。\n",
+								"一个法术施展者可以在死亡后精神碎片消散之前捕获其精华。法术施展者需要一个价值至少100 gp 的容器。任何成功通过 DC 13 智力检定({@skill Arcana})的人都可以捕获被击败的精神碎片的一部分。容器可以在8小时内存储多达10个骰子的不死精华，然后它们会消散。",
+								"作为一个动作，一个容纳着这种精神精华的容器可以被投掷最多20英尺，撞击时会破裂。所有距离破碎容器5英尺内的生物必须进行一次DC 12的体质豁免检定。未通过豁免检定的生物会受到{@dice 1d4}储存的精华每个骰子的死亡伤害，而通过检定的生物会受到一半伤害。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "尖叫窃贼对死灵和毒素免疫。灵魂碎片的非实体特性使它们对非魔法武器具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "尖叫窃贼的触摸会吸取生命，这是魔法无法治愈的；只有时间和休息才能恢复。"
+										}
+									]
+								},
+								"一名尖叫窃贼被困在它死去的地方，通常伴随着它杀死的生物的灵魂碎片。"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Scream Thief",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"从黑暗中出现了一个无面鬼魂：伸出的手臂试图抓住我的肉体。绝望之际，我向同伴求助，但我的声音却消失了。当它偷走了我的言语，我知道我的厄运已至。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一个凡人的骨骼转化为尖叫窃贼后，仍然充满着其不死气息。一个熟练的魔法物品工匠使用200 gp的魔法材料，并花费至少5天的努力，如果他们在一次 DC 15的智力检定中成功，就可以制造一个{@item wand of silence|GHLoE}（见{@adventure Lairs of Etharis|GHLoE|21}的附录A）。\n",
+								"一个法术施展者可以在死亡后精神碎片消散之前捕获其精华。法术施展者需要一个价值至少100 gp 的容器。任何成功通过 DC 13 智力检定({@skill Arcana})的人都可以捕获被击败的精神碎片的一部分。容器可以在8小时内存储多达10个骰子的不死精华，然后它们会消散。",
+								"作为一个动作，一个容纳着这种精神精华的容器可以被投掷最多20英尺，撞击时会破裂。所有距离破碎容器5英尺内的生物必须进行一次DC 12的体质豁免检定。未通过豁免检定的生物会受到{@dice 1d4}储存的精华每个骰子的死亡伤害，而通过检定的生物会受到一半伤害。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "尖叫窃贼对死灵和毒素免疫。灵魂碎片的非实体特性使它们对非魔法武器具有抗性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "尖叫窃贼的触摸会吸取生命，这是魔法无法治愈的；只有时间和休息才能恢复。"
+										}
+									]
+								},
+								"一名尖叫窃贼被困在它死去的地方，通常伴随着它杀死的生物的灵魂碎片。"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Scream Thief.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sea Drake",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"神话时代伟大龙类的后代仍然漫游在埃塞瑞斯。他们已经失去了祖先的威严，但仍然令人恐惧。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"在以萨瑞斯（Etharis）上，龙类很罕见，因此它们尸体的材料价格很高。一条龙的尸体至少可以卖出挑战等级（Challenge）的100 gp倍的价格。",
+								"一个熟练使用炼金工具的人可以将一只五彩龙的脑袋制成一种可以用来制作一支屠龙箭的油。酿造这种油需要5天的工作时间，价值2,000 gp 的材料，以及一次成功的 DC 17 智力或感知检定。制作箭矢是一项微不足道的任务，但用油正确处理箭矢需要额外5天的工作时间。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "海龙是狡猾的格斗者，对寒冷有抵抗力，天空龙是熟练的飞行者，嘴里充满闪电，而枯萎龙搜集疾病，虽不致命，但使其咬人具有毒性。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "五彩龙（Prismatic Drake）是最稀有的龙，传说中是在他们愚蠢地将他们的思想与沉睡中的五彩龙（Gormadraug）连接后，被转化为龙的术士。这些龙能施放法术。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Sea Drake.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shadowsteel Ghast",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"黑暗金属碎片刺穿了那只邪恶生物的皮肤。这些金属碎片从那畸形生物的内部推出，而不是相反。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"从一个暗钢食尸鬼身上提取暗钢碎片需要1小时，可以收集价值250 gp的数量。一个暗钢食尸鬼则产出价值500 gp的数量。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "那些利用暗影钢来施放诅咒的人在死后可能会变成暗影钢食尸鬼。这些不死生物寻找更多的这种金属。随着生物的年龄增长，它可以恢复生前所拥有的奥术力量的影子，赋予类似生物力量，并诅咒附近的敌人。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Shadowsteel Ghast.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shadowsteel Ghoul",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"黑暗金属碎片刺穿了那只邪恶生物的皮肤。这些金属碎片从那畸形生物的内部推出，而不是相反。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"从一个暗钢食尸鬼身上提取暗钢碎片需要1小时，可以收集价值250 gp的数量。一个暗钢食尸鬼则产出价值500 gp的数量。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "那些利用暗影钢来施放诅咒的人在死后可能会变成暗影钢食尸鬼。这些不死生物寻找更多的这种金属。随着生物的年龄增长，它可以恢复生前所拥有的奥术力量的影子，赋予类似生物力量，并诅咒附近的敌人。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Shadowsteel Ghoul.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shatter Corpse",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"大多数人都会被玻璃破裂的声音吓到，但如果接着是呻吟声，要三思而后行去看是什么引起了这种声音。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"可以使用来自十具粉碎尸体的玻璃来制作一套{@item glass-studded armor|GHLoE} (见{@adventure Lairs of Etharis|GHLoE|21}附录A)。由擅长珠宝工具的人成功进行DC 10敏捷({@skill Sleight of Hand})检定即可制作此物品。制作此物品需要10天时间，成本为1000 gp。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "碎尸体是一种更强大的僵尸，当有人死于被玻璃碎片刺穿时会出现。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "那些试图对(shatter corpse)使用近战攻击的人，除非他们小心攻击，否则很可能会割伤自己。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "碎尸体可以发射一连串的碎玻璃。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Shatter Corpse.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shieldhead",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"一只盾头兽有着宽阔的骨头面板来保护自己并冲撞敌人。一个熟练的骑手也可以利用这块骨头像盾牌一样。人们已经驯养了盾头兽来作为骑乘坐骑。"
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Shieldhead.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sitri Cat",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"疾病对以太瑞斯（Etharis）的居民来说并不陌生。具有毒性的哭泣痘（Weeping Pox）已经摧毁了城镇和家庭，而饥饿者之泪（Tears of the Hungerer）被传言是由死灵法师设计的毒药。其他疾病，如西特里的七种阴影（Seven Shades of Sitri）和信仰咳嗽（Faith Cough），虽然不致命，但却可能阻碍甚至最强壮的身体。这些疾病可以通过动物传播，打破它们正常的传播方式。自然或邪恶魔法的扭曲创造了携带者，有些是有意的，有些是侵略性的，它们能迅速传播疾病。"
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Sitri Cat.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Skeleton Cannoneer",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"一排骷髅士兵以军事精度走进镇上的广场。他们举起步枪，齐刷刷地瞄准了神庙。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"从骷髅士兵身上回收的枪支是无法使用的，但其中的部件可能会有用。每回收一把枪支，可以将制造类似枪支的成本降低10%，最多可降低50%。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "经过高级训练和丰富资源支持的死灵法师可以制造出与他们的火器在死亡中相连的骷髅。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "一位指挥官领导着一些骷髅士兵的排。这个骷髅指挥着进攻，并增强了其不死手下的效率。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"骷髅士兵在作为更高级威胁的军队中的手下时非常有效。以围攻或大规模战斗为重点的电影式战斗非常适合士兵。在这些情况下，让士兵在他们强大的领袖被打败之前免疫转化，可以避免令人失望的对抗。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeleton Commander",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"一排骷髅士兵以军事精度走进镇上的广场。他们举起步枪，齐刷刷地瞄准了神庙。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"从骷髅士兵身上回收的枪支是无法使用的，但其中的部件可能会有用。每回收一把枪支，可以将制造类似枪支的成本降低10%，最多可降低50%。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "经过高级训练和丰富资源支持的死灵法师可以制造出与他们的火器在死亡中相连的骷髅。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "一位指挥官领导着一些骷髅士兵的排。这个骷髅指挥着进攻，并增强了其不死手下的效率。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"骷髅士兵在作为更高级威胁的军队中的手下时非常有效。以围攻或大规模战斗为重点的电影式战斗非常适合士兵。在这些情况下，让士兵在他们强大的领袖被打败之前免疫转化，可以避免令人失望的对抗。"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeleton Rifler",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"一排骷髅士兵以军事精度走进镇上的广场。他们举起步枪，齐刷刷地瞄准了神庙。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"从骷髅士兵身上回收的枪支是无法使用的，但其中的部件可能会有用。每回收一把枪支，可以将制造类似枪支的成本降低10%，最多可降低50%。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Religion}):",
+											"entry": "经过高级训练和丰富资源支持的死灵法师可以制造出与他们的火器在死亡中相连的骷髅。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Religion}):",
+											"entry": "一位指挥官领导着一些骷髅士兵的排。这个骷髅指挥着进攻，并增强了其不死手下的效率。"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "GM Advice",
+									"entries": [
+										"骷髅士兵在作为更高级威胁的军队中的手下时非常有效。以围攻或大规模战斗为重点的电影式战斗非常适合士兵。在这些情况下，让士兵在他们强大的领袖被打败之前免疫转化，可以避免令人失望的对抗。"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Skeleton Rifler.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Skinweaver",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我不再容忍制革工人了。如果你知道什么对你有好处，你就不会问我为什么。(tanners)"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"皮织者（Skinweavers）收集展示他们博学和精致品味的珍贵艺术品和其他物品。他们从不缺少定制的皮甲套装。这种皮革制品精湛无比，用皮织者自己的皮甲缝制的铠甲比几乎任何其他制革者的作品都要好。",
+								"如果一位熟练的铠甲匠或皮革工人使用皮编织者的套装来制作一个轻型铠甲的人形套装，并且在成功的DC 15敏捷检定中成功通过({@skill Nature})，那么这件铠甲将作为{@item +1 leather armor}，并且可以作为标准动作穿脱。这个过程需要24小时，并需要250 gp的其他材料。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "皮编织者因其皮肤和盔甲而对火焰伤害具有抵抗力。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "一位皮肤编织者(`skinweaver`)可在同一场战斗中多次吓到对手。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Skinweaver.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sky Drake",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"神话时代伟大龙类的后代仍然漫游在埃塞瑞斯。他们已经失去了祖先的威严，但仍然令人恐惧。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"在以萨瑞斯（Etharis）上，龙类很罕见，因此它们尸体的材料价格很高。一条龙的尸体至少可以卖出挑战等级（Challenge）的100 gp倍的价格。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "海龙是狡猾的格斗者，对寒冷有抵抗力，天空龙是熟练的飞行者，嘴里充满闪电，而枯萎龙搜集疾病，虽不致命，但使其咬人具有毒性。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Sky Drake.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sloth Galloper",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"一只懒惰飞奔者是一种混合了懒猴和猿类的动物，它是一个敏捷的攀爬者和快速的短跑者。这种野兽有四只类似猿类的手，非常敏感，因此在崎岖的地形上不愿意快速移动。"
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Sloth Galloper.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Spythronar Sac",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"洞穴中的装甲尸体静静躺在厚厚的蛛丝中，身上闪烁着闪电的火花。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"Spythronar silk（斯派斯罗纳丝）备受珍视，但如果酸液或火焰触及蛛网，则变得毫无价值。一张蛛网可以用来制作丝绳或精美的服装。一位熟练的炼金术士可以利用同样数量的丝绸来制造一瓶{@item potion of lightning resistance}或一剂油，让金属武器在1小时内额外造成{@dice 1d6}点闪电伤害。制作任一药剂都需要4小时的工作时间和一次成功的智力检定（DC 13）。",
+								"一位熟练的织工可以将三根斯派斯罗纳蛛网编织成一根纠缠之绳，或者将十根蛛网制成闪电抗性皮甲。无论哪种选择，都需要价值500金币的其他材料，5天的工作时间，并且需要成功进行一次DC 15的智力检定({@skill Arcana})。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Spythronar（斯派斯罗纳）蜘蛛群能够编织危险的蛛网，迅速制作卵囊。它们需要一些时间来编织出一张有感知力的蛛网。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "如果你触碰到了有意识的斯派斯罗纳（(spythronar)）蜘蛛网，它们会粘在你身上，并用闪电充电它们的丝线。压碎斯派斯罗纳蛋囊会引发一次闪电放电，但用闪电击中它们会释放出一群新的斯派斯罗纳蜘蛛。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spythronar Swarm",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"洞穴中的装甲尸体静静躺在厚厚的蛛丝中，身上闪烁着闪电的火花。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"Spythronar silk（斯派斯罗纳丝）备受珍视，但如果酸液或火焰触及蛛网，则变得毫无价值。一张蛛网可以用来制作丝绳或精美的服装。一位熟练的炼金术士可以利用同样数量的丝绸来制造一瓶{@item potion of lightning resistance}或一剂油，让金属武器在1小时内额外造成{@dice 1d6}点闪电伤害。制作任一药剂都需要4小时的工作时间和一次成功的智力检定（DC 13）。",
+								"一位熟练的织工可以将三根斯派斯罗纳蛛网编织成一根纠缠之绳，或者将十根蛛网制成闪电抗性皮甲。无论哪种选择，都需要价值500金币的其他材料，5天的工作时间，并且需要成功进行一次DC 15的智力检定({@skill Arcana})。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Spythronar（斯派斯罗纳）蜘蛛群能够编织危险的蛛网，迅速制作卵囊。它们需要一些时间来编织出一张有感知力的蛛网。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "如果你触碰到了有意识的斯派斯罗纳（(spythronar)）蜘蛛网，它们会粘在你身上，并用闪电充电它们的丝线。压碎斯派斯罗纳蛋囊会引发一次闪电放电，但用闪电击中它们会释放出一群新的斯派斯罗纳蜘蛛。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spythronar Web",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"洞穴中的装甲尸体静静躺在厚厚的蛛丝中，身上闪烁着闪电的火花。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"Spythronar silk（斯派斯罗纳丝）备受珍视，但如果酸液或火焰触及蛛网，则变得毫无价值。一张蛛网可以用来制作丝绳或精美的服装。一位熟练的炼金术士可以利用同样数量的丝绸来制造一瓶{@item potion of lightning resistance}或一剂油，让金属武器在1小时内额外造成{@dice 1d6}点闪电伤害。制作任一药剂都需要4小时的工作时间和一次成功的智力检定（DC 13）。",
+								"一位熟练的织工可以将三根斯派斯罗纳蛛网编织成一根纠缠之绳，或者将十根蛛网制成闪电抗性皮甲。无论哪种选择，都需要价值500金币的其他材料，5天的工作时间，并且需要成功进行一次DC 15的智力检定({@skill Arcana})。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "Spythronar（斯派斯罗纳）蜘蛛群能够编织危险的蛛网，迅速制作卵囊。它们需要一些时间来编织出一张有感知力的蛛网。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "如果你触碰到了有意识的斯派斯罗纳（(spythronar)）蜘蛛网，它们会粘在你身上，并用闪电充电它们的丝线。压碎斯派斯罗纳蛋囊会引发一次闪电放电，但用闪电击中它们会释放出一群新的斯派斯罗纳蜘蛛。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stormborn Ithjar",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"仅需片刻时间，一个伊萨尔（ithjar）就能从远处的灰色和红色风筝般的漩涡转变为一只咬牙切齿的威胁。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"在更大的市场上，伊斯贾尔（Ithjar）的牙齿和皮革可以卖个好价钱。牙齿可以制成项链和其他装饰品，皮革和鳞片可以制成服装。流行的迷信认为佩戴伊斯贾尔的牙齿或皮革可以赋予佩戴者一些灵巧的特质。这种信念并非完全正确，但擅长制革工具的人可以用伊斯贾尔的皮革制作皮甲，基础护甲等级为13，并允许佩戴者将完整的敏捷加值应用于护甲等级。制作这种护甲需要10天时间。从一只风暴之生伊斯贾尔制成的皮甲是抗性护甲（闪电和雷鸣）。这种护甲制作时间不会更长，但需要价值2000金币的其他材料。",
+								"一只风暴之子伊萨尔的中心尖牙可以制成一支闪电标枪，造成{@dice 2d8} 闪电伤害和{@dice 2d8} 雷霆伤害，而不仅仅是{@dice 4d6} 闪电伤害。被这支标枪击中的生物还必须成功通过 DC 13 的力量豁免才能不倒地。拥有铁匠工具熟练加成的人可以在10天的工作时间内制作这件武器，其他材料价值250 gp。在制作过程中，还必须有人对这件武器施放三次雷波术。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "伊斯亚尔(Ithjars)是快速移动的凶猛飞行者，但其中更强大的飞行蛇被赋予了风暴之力，可以喷出闪电和雷鸣。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "要捕捉一个ithjar是很困难的。它们很快地从敌人的控制和其他限制中滑脱出来。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "风暴之子伊萨尔(Ithjar)对闪电和雷电免疫，使其能够在风暴云中穿行。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Thornlamm",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"当出现刺羊兽时，应该控制住帮助迷失小羊的诱惑。一个出现，多个就会出现。而所有的线索都指向一个比任何大灰狼更可怕的生物。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"卡普拉索恩留下的湮灭领域可以被控制和带走。每天开始时，有2%的几率湮灭领域永远消失。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "一只卡普拉索恩 (Caprathorn) 可以分离出一只索恩莱姆 (Thornlamm) 作为其盟友战斗，或者消耗一只索恩莱姆来治疗。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "卡普拉索恩（Caprathorn）可以将倒下的敌人封印起来，并释放出一个灭绝力场。如果卡普拉索恩封印的生物死亡，这个毁灭力场就会重新充能。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "当一只卡普拉索恩(Caprathorn)死亡时，它会坍缩成一个湮灭球，将附近的生物吸引过去。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Torcheater",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"烛火蝙蝠是一种小型类似蝙蝠的生物，它们以火为食，会俯冲下来扑灭火炬和营火。"
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Torcheater.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Venomous Gnoll",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我从来不相信有关野兽以及它如何改变人的传言。直到我看到伐木营地的每个人都发生了变化。这肯定是比神更强大的力量。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一只有毒的豺狼人的脊椎尖刺可以制成四支箭矢、弩箭或飞镖。擅长铁匠工具或修补工具的人可以在4小时内制作这些抛射物。每当这些抛射物击中目标时，目标会额外受到{@dice 1d4}毒素伤害，但如果攻击骰中的{@dice d20}是1或除20外的偶数，则抛射物将不再具有毒性。",
+								"有炼金工具熟练的人可以使用两只豺狼蛮兵或一只暴怒豺狼的唾液腺来制作一瓶增长药水。这些腺体必须由擅长医术技能的人收集，这需要成功进行一次 DC 13的感知（{@skill Medicine}）检定。这些腺体必须在3天内使用，否则会变质，尽管对这些腺体施放的《柔和安息》咒语可以让它们在咒语持续时间内保存新鲜。制作这瓶药水需要1天的工作时间和价值25金币的炼金材料。",
+								"狂暴豺獴的翅膀可以用来制作飞行蝙蝠翅膀。具有皮革工具熟练技能的人可以在5天内制作出这件披风，需要价值500金币的材料。在制作过程中的五天里，必须有人在其中三天对披风施放飞行术。这些翅膀让你的飞行速度只有40英尺，但每隔{@dice 1d8}小时可以使用一次。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Arcana}):",
+											"entry": "豺狼人曾经是普通的人形生物，但它们已经被野兽之力变异。"
+										},
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "一些豺狼人从骨头上生长的尖刺，通常是脊椎，作为抛射物。然而，不同的豺狼人有不同的变异，其中一些尖刺是有毒的。最强大的变异体会长出翅膀，并且会用血腥的狂怒感染附近的人的心智。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "豺狼人与其他变异生物结成团伙，在他们的地区肆虐。豺狼人吃掉他们杀死的任何生物的肉，喝他们的血。他们用嗥叫、咆哮和呼噜声相互交流。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vitebriate",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"我发誓我以前见过那个孩子，好多年前，当时我自己也还是个孩子！但她一点都没变老。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"当一只(vertebrate)死去时，它会崩解成一群无害的爬行蟑螂。",
+								"如果这些蟑螂与海水混合，将产生一个{@i potion of false life}。只有熟练使用草药工具包的人成功通过一次DC 10的智力检定({@skill Arcana})才能完成这种药水的制作。这个过程需要1小时。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill History}):",
+											"entry": "一个(`Vitebriate`)在同一时间只能拥有一个(`thrall`)，并且可以将一些伤害转移给它的(`thrall`)。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Arcana}):",
+											"entry": "维特布利亚特族对毒药和疾病免疫，他们需要一个奴隶来维持生命。(Vitebriates)"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Vitebriate.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Werebear Ascetic",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"在满月期间，埃萨里斯（Etharis）的居民们都会呆在室内，门窗紧闭。即便如此，他们也会怀疑地注视着与他们一起在室内的人。谁也说不准。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"狼人在持续的心理困扰中存在，随着时间推移，他们的记忆会分裂。因此，许多人携带着过去生活的纪念品，以加强他们不想失去的记忆。某些法师珍视狼人的皮毛，用于制作魔法斗篷，尤其是那些可以让人改变形态的斗篷，比如蝙蝠斗篷或蝠鲼斗篷。",
+								"由已故狼人的獠牙或爪制成的武器具有特殊属性，被称为{@item lycan weapon|GHLoE|lycan weapons}（见{@adventure Lairs of Etharis|GHLoE|21}的附录A）。这些武器需要一个熟练的武器匠成功进行一次DC 15的智力检定({@skill Arcana})，消耗价值500 gp 的材料，并需要10天的工作时间。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "狼人病在伊萨瑞斯（Etharis）很常见。这种疾病的源头是一种诅咒，将心智和身体扭曲成野兽般的形态。尽管他们可以自主变身，但无论如何，满月的光会触发变身。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "除了通过狼人咬伤传播诅咒的常规方式外，某些德鲁伊派别还会进行仪式来创造新的狼人。这种仪式被称为月神圣礼，被用作保护德鲁伊树林免受入侵的工具。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Nature}):",
+											"entry": "尽管变身的本质往往会用野兽般的愤怒压倒感官，但有些人可以控制自己。通过在人类和野兽之间找到平衡，他们能更好地控制诅咒，获得变成完整动物并保留理智的能力。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Werebear Ascetic.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Werewolf Ravager",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"在满月期间，埃萨里斯（Etharis）的居民们都会呆在室内，门窗紧闭。即便如此，他们也会怀疑地注视着与他们一起在室内的人。谁也说不准。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"狼人在持续的心理困扰中存在，随着时间推移，他们的记忆会分裂。因此，许多人携带着过去生活的纪念品，以加强他们不想失去的记忆。某些法师珍视狼人的皮毛，用于制作魔法斗篷，尤其是那些可以让人改变形态的斗篷，比如蝙蝠斗篷或蝠鲼斗篷。",
+								"由已故狼人的獠牙或爪制成的武器具有特殊属性，被称为{@item lycan weapon|GHLoE|lycan weapons}（见{@adventure Lairs of Etharis|GHLoE|21}的附录A）。这些武器需要一个熟练的武器匠成功进行一次DC 15的智力检定({@skill Arcana})，消耗价值500 gp 的材料，并需要10天的工作时间。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 10 Intelligence ({@skill Nature}):",
+											"entry": "狼人病在伊萨瑞斯（Etharis）很常见。这种疾病的源头是一种诅咒，将心智和身体扭曲成野兽般的形态。尽管他们可以自主变身，但无论如何，满月的光会触发变身。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill Nature}):",
+											"entry": "除了通过狼人咬伤传播诅咒的常规方式外，某些德鲁伊派别还会进行仪式来创造新的狼人。这种仪式被称为月神圣礼，被用作保护德鲁伊树林免受入侵的工具。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Nature}):",
+											"entry": "尽管变身的本质往往会用野兽般的愤怒压倒感官，但有些人可以控制自己。通过在人类和野兽之间找到平衡，他们能更好地控制诅咒，获得变成完整动物并保留理智的能力。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Werewolf Ravager.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Xakalonus",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"这片死寂之森充斥着这些野兽，它们的嚎叫预示着更大的怪物正在接近。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一颗夏卡洛努斯脑被包裹在一种粘稠的果冻中，可以转化为一种叫做{@item arcane oil|GHLoE}的物质（见{@adventure Lairs of Etharis|GHLoE|21}的附录A）。这种油的制造需要一位熟练的炼金术士花费8小时和200gp的材料。他们必须在一个DC 15的智力检定（{@skill Arcana}）中成功制造出这种物质。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "Xakalonus（夏卡洛努斯）是从hraptnon（赫拉普特农）的伤口中诞生的。这些生物总是起源于Stillborn Forest（死胎森林），但可以在Etharis（伊萨里斯）的任何地方找到。它们以使用魔法的生物的大脑为食，然后将大脑献给hraptnon。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "如果魔法对(xakalonus)没有伤害，那么魔法可能会治愈它们或增强它们的攻击力。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Xakalonus.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Young Blightscale Dragon",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"龙很罕见，所以看到一只是令人恐惧的。看到一只正在腐烂并向你走来？让人心碎！"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"一根来自年轻或年长的枯鳞龙的爪子可以被制成毒液匕首。这需要熟练掌握铁匠工具或木工工具，5天的工作时间，以及价值1,000 gp 的其他材料。",
+								"可以收集并利用一只枯鳞龙的血液和其他体液来抵消诅咒之恶疾的影钢成分。 一只幼龙价值250 gp，一只年轻龙价值750 gp，一只成年龙价值1,500 gp，一只古代龙价值3,000 gp。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Wisdom ({@skill History}):",
+											"entry": "一只枯萎鳞龙是一只被施加了强大诅咒的龙。"
+										},
+										{
+											"type": "item",
+											"name": "DC 15 Wisdom ({@skill Medicine}):",
+											"entry": "一只凋萎鳞龙对死灵伤害和毒素免疫。它的吐息武器是一群有毒昆虫和毒气。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "当凶鳞龙(Blightscale Dragon)死亡时，身上的诅咒会使其散发出有毒的诅咒气体，有可能传播诅咒的一部分。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "A Blightscale Dragon's Lair",
+							"entries": [
+								"枯鳞龙在愤怒和绝望中创造临时巢穴，符合当地的语言习惯，文本中的(%num%)应在翻译中仍然输出为(%num%)。无论是洞穴还是建筑物，龙会将易于进入的入口拆除，以便没有人能看到它在痛苦中的状态。内部空气污浊，吸入一口气的人会感到恶心。这种诅咒会吸引昆虫，它们会建造类似黄色凝结块的群落。"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Young Blightscale Dragon.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Zombie Troll",
+			"source": "GHLoE",
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"逃离巨魔是明智的。逃离施法的巨魔是一厢情愿的。"
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Salvage",
+							"entries": [
+								"有熟练使用珠宝工具或木雕工具的人可以将巫妖巨魔的头骨打造成一枚再生戒指。这需要价值5,000 gp的材料，10天的工作时间，以及一次成功的DC 15智力或感知检定。在整个过程中，必须有人每天对戒指施放强效复原术。如果戒指的佩戴者在佩戴戒指时死亡，巫妖的灵魂有25%的几率接管尸体，并将其用作新的身体。但如果戒指完全是在一个具有永恒安息效果的神圣结界咒语区域内制造的，那么与巫妖灵魂的联系将被切断。"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lore",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "DC 15 Intelligence ({@skill History}):",
+											"entry": "巫妖巨魔是早期强大法师试图将他们的灵魂转移到巨魔身上的残余产物。"
+										},
+										{
+											"type": "item",
+											"name": "DC 20 Intelligence ({@skill Arcana}):",
+											"entry": "这只巫妖巨魔对毒素免疫，对死灵伤害有抗性。它有再生能力，只能被酸性、火焰或辐射伤害杀死。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/GHLoE/Zombie Troll.webp"
+					}
+				}
+			]
+		}
+	]
+}

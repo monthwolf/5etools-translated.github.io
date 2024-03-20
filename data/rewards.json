@@ -1,0 +1,2776 @@
+{
+	"reward": [
+		{
+			"name": "Athreos's Devotee",
+			"source": "MOT",
+			"page": 37,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Athreos trait}",
+				"你的生命与死者的命运交织在一起。你可以施放{@spell gentle repose}这个特性，不需要任何材料组件，次数等同于你的感知调整值（最少一次）。完成一次长休后，你恢复所有已用次数。智力是你施法这个法术的能力调整值。"
+			]
+		},
+		{
+			"name": "Athreos's Disciple",
+			"source": "MOT",
+			"page": 37,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Athreos trait}",
+				"你可以使用这个特性施放{@spell false life}，无需材料成分。当你这样做时，你会额外获得25点临时生命值。一旦你以这种方式施放了法术，你必须完成一次长休才能再次这样做。智力是你施法这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Athreos's Votary",
+			"source": "MOT",
+			"page": 37,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Athreos trait}",
+				"你可以使用这个特性施放{@spell speak with dead}，无需材料成分。一旦你以这种方式施放了法术，直到你完成一次长休才能再次这样做。智力是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Azorius Charm",
+			"source": "GGR",
+			"page": 173,
+			"type": "Charm",
+			"entries": [
+				"当你激活这个护符时，你可以施放{@spell hold person}（3级版本）、{@spell command}或{@spell counterspell}法术。护符在激活后消失。"
+			]
+		},
+		{
+			"name": "Blessing of Bloody Might",
+			"source": "BMT",
+			"page": 171,
+			"type": "Blessing",
+			"entries": [
+				"你的力量得分增加2点，最高为22分。",
+				{
+					"type": "entries",
+					"name": "Consequence",
+					"id": "304",
+					"entries": [
+						"该角色被狼人{@variantrule Player Characters as Lycanthropes|MM|lycanthropy} (见{@book Monster Manual|MM}) 诅咒，直到祝福结束。在月圆之夜，被诅咒的角色会陷入暴怒状态，持续到黎明；在这种状态下，角色将成为DM控制下的NPC。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessing of Dumathoin",
+			"source": "PaBTSO",
+			"page": 118,
+			"type": "Blessing",
+			"entries": [
+				"你的眼睛变得敏锐到可以发现隐藏的秘密。你获得{@sense darkvision}。如果你已经有{@sense darkvision}，你可以在黑暗中看到彩色。此外，你可以使用一个动作获得{@sense truesight}，持续1分钟。一旦你以这种方式获得了{@sense truesight}，你就不能再这样做，直到你完成一次长休。"
+			]
+		},
+		{
+			"name": "Blessing of Health",
+			"source": "DMG",
+			"page": 228,
+			"type": "Blessing",
+			"entries": [
+				"你的体质得分增加2分，最高可达22分。"
+			]
+		},
+		{
+			"name": "Blessing of Lonely Genius",
+			"source": "BMT",
+			"page": 171,
+			"type": "Blessing",
+			"entries": [
+				"你的智力分数增加 2 点，最高为 22 分。",
+				{
+					"type": "entries",
+					"name": "Consequence",
+					"id": "306",
+					"entries": [
+						"这个角色的智力让老朋友感到不舒服。根据DM的选择，三个NPC变得对这个角色漠不关心或者敌对，而且角色在试图改善他们态度的任何魅力检定中都自动失败。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessing of Magic Resistance",
+			"source": "DMG",
+			"page": 228,
+			"type": "Blessing",
+			"entries": [
+				"你对法术和其他魔法效果的救赎有优势。"
+			]
+		},
+		{
+			"name": "Blessing of Protection",
+			"source": "DMG",
+			"page": 228,
+			"type": "Blessing",
+			"entries": [
+				"你获得了一个+1的AC和拯救动作的奖励。"
+			]
+		},
+		{
+			"name": "Blessing of the Frostmaiden",
+			"source": "IDRotF",
+			"page": 213,
+			"type": "Blessing",
+			"entries": [
+				"你的眼睛变得像冰一样冷。你获得对寒冷伤害的免疫力。此外，你可以施展{@spell cone of cold}法术（保存{@dc 15}）一次。当你完成一次长时间的休息后，你会重新获得施放这个法术的能力。"
+			]
+		},
+		{
+			"name": "Blessing of the Morninglord",
+			"source": "IDRotF",
+			"page": 119,
+			"type": "Blessing",
+			"entries": [
+				"你每天在黎明时分获得10个临时命中率。"
+			]
+		},
+		{
+			"name": "Blessing of the Solipsistic Mind",
+			"source": "PaBTSO",
+			"page": 177,
+			"type": "Blessing",
+			"entries": [
+				"你通过深入专注于自己的思维，从一本古老的秘籍中获得晦涩的真理。你可以采取一个动作来聚焦你的内心思维。这种聚焦持续1小时。在你的内心思维集中时，你无法作出反应。在持续时间内，当你进行智力检定、感知检定、智力豁免检定或感知豁免检定时，你可以投掷一个{@dice d8}，并将投掷的数字加到属性检定或豁免检定上。当你完成一次长休后，你可以恢复聚焦你的内心思维的能力。"
+			]
+		},
+		{
+			"name": "Blessing of Understanding",
+			"source": "DMG",
+			"page": 228,
+			"type": "Blessing",
+			"entries": [
+				"你的智慧值增加2，最高可达22。"
+			]
+		},
+		{
+			"name": "Blessing of Unearned Riches",
+			"source": "BMT",
+			"page": 171,
+			"type": "Blessing",
+			"entries": [
+				"下次当你在你的物品中搜寻或取出东西时，你发现了一个未标记的{@item pouch|PHB}，里面装着五颗价值1,000 gp的宝石。",
+				{
+					"type": "entries",
+					"name": "Consequence",
+					"id": "308",
+					"entries": [
+						"这位角色的新财富引起了一群暴力雇佣兵公会的注意，他们声称在角色发现这笔意外之财的同一天被抢走了价值5000 gp 的宝石。接下来的7天晚上，角色会遭到{@dice 1d4} 中立邪恶 {@creature Veteran||veterans} 的袭击。当袭击结束时，这份祝福也会结束。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessing of Valhalla",
+			"source": "DMG",
+			"page": 228,
+			"type": "Blessing",
+			"entries": [
+				"这个祝福赋予你召唤灵魂战士的力量，就像你吹了一个{@item horn of valhalla, silver||silver horn of Valhalla}一样。一旦你使用了这个祝福，你必须等待7天才能再次使用它。"
+			]
+		},
+		{
+			"name": "Blessing of Weapon Enhancement",
+			"source": "DMG",
+			"page": 228,
+			"type": "Blessing",
+			"entries": [
+				"你拥有的一件非魔法武器在你挥动它的时候会变成一件+1的武器。"
+			]
+		},
+		{
+			"name": "Blessing of Wound Closure",
+			"source": "DMG",
+			"page": 228,
+			"type": "Blessing",
+			"entries": [
+				"这个祝福给予你{@item periapt of wound closure}的好处。"
+			]
+		},
+		{
+			"name": "Boon of Combat Prowess",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"当你用近战武器攻击失败时，你可以选择打中代替。一旦你使用这个恩赐，你就不能再使用它，直到你完成短暂的休息。"
+			]
+		},
+		{
+			"name": "Boon of Dimensional Travel",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"作为一个行动，你可以施展{@spell misty step}的法术，而无需使用法术槽或任何组件。一旦你这么做了，你就不能再使用这个恩赐，直到你完成短暂的休息。"
+			]
+		},
+		{
+			"name": "Boon of Fate",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"当另一个你能看到的在你60英尺范围内的生物进行能力检查、攻击卷或蓄力投掷时，你可以掷出一个{@dice d10}，并将结果作为奖励或惩罚应用于该卷。一旦你使用了这个恩赐，你就不能再使用它，直到你完成短暂的休息。"
+			]
+		},
+		{
+			"name": "Boon of Fortitude",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你的最大命中率增加40。"
+			]
+		},
+		{
+			"name": "Boon of High Magic",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你获得一个九级法术槽，只要你已经有一个。"
+			]
+		},
+		{
+			"name": "Boon of Immortality",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你停止衰老。你对任何会使你衰老的影响都有免疫力，而且你不会因年老而死亡。"
+			]
+		},
+		{
+			"name": "Boon of Invincibility",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"当你受到任何来源的伤害时，你可以将该伤害减少到0。一旦你使用这个恩赐，你就不能再使用它，直到你完成短暂的休息。"
+			]
+		},
+		{
+			"name": "Boon of Irresistible Offense",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你可以绕过任何生物的伤害抵抗力。"
+			]
+		},
+		{
+			"name": "Boon of Luck",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你可以在任何属性检定、攻击骰或豁免骰上添加一个{@dice d10}。一旦你使用了这个福利，你必须休息短时间后才能再次使用。"
+			]
+		},
+		{
+			"name": "Boon of Magic Resistance",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你对法术和其他魔法效果的救赎有优势。"
+			]
+		},
+		{
+			"name": "Boon of Peerless Aim",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你可以给自己的远程攻击卷带来+20的奖励。一旦你使用这个恩赐，你就不能再使用它，直到你完成短暂的休息。"
+			]
+		},
+		{
+			"name": "Boon of Perfect Health",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你对所有的疾病和毒药都有免疫力，而且你在体质测试中具有优势。"
+			]
+		},
+		{
+			"name": "Boon of Planar Travel",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"当你获得这个恩惠时，请选择一个位面，而非物质位面。你现在可以使用一个动作施放{@spell plane shift}法术（无需法术位或材料），只能以自己为目标，前往所选择的位面，或者从那个位面返回到物质位面。一旦你使用了这个恩惠，你必须完成一次短休才能再次使用它。"
+			]
+		},
+		{
+			"name": "Boon of Quick Casting",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"从你1到3级的法术中选择一个施法时间为1个行动的法术。该法术的施法时间现在是你的1个额外行动。"
+			]
+		},
+		{
+			"name": "Boon of Recovery",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你可以使用一个额外动作来恢复相当于你最大命中率一半的命中率。一旦你使用这个恩惠，你就不能再使用它，直到你完成一个长时间的休息。"
+			]
+		},
+		{
+			"name": "Boon of Resilience",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你对来自非魔法武器的击打、穿刺和砍击伤害有抵抗力。"
+			]
+		},
+		{
+			"name": "Boon of Skill Proficiency",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你获得所有技能的熟练度。"
+			]
+		},
+		{
+			"name": "Boon of Speed",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你的行走速度增加30英尺。此外，你可以使用一个奖励动作来进行{@action Dash}或{@action Disengage}动作。一旦你这样做了，你必须完成一次短休息后才能再次这样做。"
+			]
+		},
+		{
+			"name": "Boon of Spell Mastery",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"选择一个你可以施展的一级巫师、术士或魔法师的法术。你现在可以在其最低等级时施放该法术而不需要消耗一个法术槽。"
+			]
+		},
+		{
+			"name": "Boon of Spell Recall",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你可以在不消耗法术槽的情况下施放任何你知道的或已经准备好的法术。一旦你这样做了，你就不能再使用这个恩赐，直到你完成一个长时间的休息。"
+			]
+		},
+		{
+			"name": "Boon of the Fire Soul",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你对火焰伤害具有免疫力。你还可以随意施放{@spell burning hands}（豁免 DC 15），无需消耗法术位或任何材料。"
+			]
+		},
+		{
+			"name": "Boon of the Night Spirit",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"当完全处于昏暗或黑暗区域时，你可以作为一个动作变得{@condition invisible}。你保持{@condition invisible}，直到你采取一个动作或反应。"
+			]
+		},
+		{
+			"name": "Boon of the Stormborn",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你对闪电和雷电伤害具有免疫力。你还可以随意施放{@spell thunderwave}（豁免 DC 15），无需消耗法术位或任何材料。"
+			]
+		},
+		{
+			"name": "Boon of the Unfettered",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你在抵抗被 {@condition grappled} 的能力检定中拥有优势。此外，你可以使用一个动作来自动摆脱抓取或解除任何形式的约束。"
+			]
+		},
+		{
+			"name": "Boon of Truesight",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你有{@sense truesight}到60英尺的范围。"
+			]
+		},
+		{
+			"name": "Boon of Undetectability",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"你在敏捷度（{@skill Stealth}）检定上获得+10的加值，并且你无法被{@filter divination|spells|school=D}魔法侦测或瞄准，包括窥探传感器。"
+			]
+		},
+		{
+			"name": "Boros Charm",
+			"source": "GGR",
+			"page": 173,
+			"type": "Charm",
+			"entries": [
+				"当你激活此符咒时，你可以施放{@spell crusader's mantle}或{@spell haste}的法术。或者，你可以施放{@spell guiding bolt}的法术，如果它命中了，你会恢复与它造成的伤害相等的命中率。咒语在你激活它之后会消失。"
+			]
+		},
+		{
+			"name": "Champion of Affliction",
+			"source": "MOT",
+			"page": 70,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Pharika trait}",
+				"你可以将你的灵巧或智慧得分增加2分，也可以将该得分的最大值增加2分。"
+			]
+		},
+		{
+			"name": "Champion of Deception",
+			"source": "MOT",
+			"page": 73,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Phenax trait}",
+				"你可以使你的灵巧或魅力得分增加2，也可以使你的该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of Destiny",
+			"source": "MOT",
+			"page": 58,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Klothys trait}",
+				"你可以将你的力量或智慧得分增加2，也可以将你该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of Harvests",
+			"source": "MOT",
+			"page": 52,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Karametra trait}",
+				"你可以使你的体质或智慧得分增加2，也可以使你的该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of Horizons",
+			"source": "MOT",
+			"page": 61,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Kruphix trait}",
+				"你可以使你的体质或智力得分增加2，也可以使你的该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of Slaughter",
+			"source": "MOT",
+			"page": 64,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Mogis trait}",
+				"你可以使你的力量或体质得分增加2，也可以使你的该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of Storms",
+			"source": "MOT",
+			"page": 55,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Keranos trait}",
+				"你可以将你的智力或智慧分数提高2，也可以将该分数的最大值提高2。"
+			]
+		},
+		{
+			"name": "Champion of the Dead",
+			"source": "MOT",
+			"page": 43,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Erebos trait}",
+				"你可以使你的体质或智慧得分增加2，也可以使你的该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of the Forge",
+			"source": "MOT",
+			"page": 76,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Purphoros trait}",
+				"你可以将你的力量或智力得分增加2，也可以将你该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of the Hunt",
+			"source": "MOT",
+			"page": 67,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Nylea trait}",
+				"你可以将你的灵巧或智慧得分增加2分，也可以将该得分的最大值增加2分。"
+			]
+		},
+		{
+			"name": "Champion of the Passage",
+			"source": "MOT",
+			"page": 37,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Athreos trait}",
+				"你可以将你的智力或智慧分数提高2，也可以将该分数的最大值提高2。"
+			]
+		},
+		{
+			"name": "Champion of the Polis",
+			"source": "MOT",
+			"page": 40,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Ephara trait}",
+				"你可以使你的智力或魅力得分增加2，也可以使你的该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of the Sea",
+			"source": "MOT",
+			"page": 79,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Thassa trait}",
+				"你可以使你的灵巧或智力得分增加2，也可以使你的该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of the Sun",
+			"source": "MOT",
+			"page": 46,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Heliod trait}",
+				"你可以将你的力量或智慧得分增加2，也可以将你该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Champion of Victory",
+			"source": "MOT",
+			"page": 49,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Iroas trait}",
+				"你可以使你的力量或魅力得分增加2，也可以使你的该得分的最大值增加2。"
+			]
+		},
+		{
+			"name": "Charm of Agelessness",
+			"source": "BGDIA",
+			"page": 215,
+			"type": "Charm",
+			"entries": [
+				"当你拥有这种魅力时，你不会自然衰老，你的皮肤会获得像洋娃娃一样的蜡质肤色。然而，神奇的衰老仍然会影响你。当你死亡时，这个符咒会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Air Bubbles",
+			"source": "BAM",
+			"page": 17,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga astronaut|BAM}使用他们的神奇礼物行动。}",
+				"这个护身符允许你将{@spell Air Bubble|AAG}咒语（见《星界冒险者指南》）作为一个动作施放。使用三次后，这个护身符就会消失。"
+			]
+		},
+		{
+			"name": "Charm of Animal Conjuring",
+			"source": "DMG",
+			"page": 228,
+			"type": "Charm",
+			"entries": [
+				"这个护身符允许你将{@spell conjure animals}法术（3级版本）作为一个动作施放。使用三次后，护身符会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Balance",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"当你能看见的生物在你60英尺内对你造成伤害时，你可以使用你的反应对该生物造成等同于你受到伤害一半的力量伤害。使用三次后，这个护符会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Biting Cold",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA}生活在冰风谷或其他寒冷地区的人通过使用他们的魔法天赋行动}。",
+				"这个护符有3个充能。作为一个奖励动作，你可以消耗护符的1个充能，让你的武器攻击在接下来的1分钟内笼罩在刺骨的寒冷之中。在这个效果持续期间，当你用近战或远程武器攻击命中时，你会额外造成{@damage 1d6}点冷伤害。一旦所有充能用尽，这个护符将从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Bounty",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA}生活在冰风谷或其他寒冷地区的人通过使用他们的魔法天赋行动}。",
+				"这个护身符有3个充能。作为一个动作，你可以消耗1个护身符的充能来施放{@spell create food and water}法术，无需材料。一旦所有充能都用尽，这个护身符将从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Cold Resistance",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA}生活在冰风谷或其他寒冷地区的人通过使用他们的魔法天赋行动}。",
+				"这个符咒允许你以行动的方式让自己抵抗寒冷的伤害。这个好处持续24小时，之后这个符咒就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Darkvision",
+			"source": "DMG",
+			"page": 228,
+			"type": "Charm",
+			"entries": [
+				"这个符咒允许你以行动的方式施展{@spell darkvision}的法术，不需要任何组件。一旦使用三次，该符咒就会消失。"
+			]
+		},
+		{
+			"name": "Charm of Diabolical Inspiration",
+			"source": "BGDIA",
+			"page": 215,
+			"type": "Charm",
+			"entries": [
+				"当你收到这个符咒时，你会长出一条短小的残余尾巴，除非你已经有一条尾巴。当你进行能力检查、攻击卷或蓄力投掷时，你可以使用这个符咒来获得卷的优势。一旦使用九次，这个符咒就会从你身上消失，你的残余尾巴也会消失。"
+			]
+		},
+		{
+			"name": "Charm of Euryale",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个动作，你可以从眼睛中释放出一股石化的魔法波，形成一个30英尺的锥形区域。该区域内的每个生物必须进行一次 DC 15 的体质豁免才能。未通过豁免的生物将获得 {@condition petrified} 状态，持续1小时。通过豁免的生物将部分变成石头，获得 {@condition restrained} 状态。一个 {@condition restrained} 生物可以在自己的回合结束时重复豁免，成功则结束效果。",
+				"一旦你使用这个符咒，它就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Feather Falling",
+			"source": "DMG",
+			"page": 228,
+			"type": "Charm",
+			"entries": [
+				"这个符咒给予你{@item ring of feather falling}的好处。这些好处持续10天，之后符咒会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Greater Conscription",
+			"source": "BGDIA",
+			"page": 215,
+			"type": "Charm",
+			"entries": [
+				"当你拥有这个护身符时，你会吸引苍蝇。作为一个动作，你可以激活这个护身符来召唤一个{@creature horned devil}。这个恶魔会出现在你附近30英尺内的一个未被占据的空间中，勉强听从你的命令，并在9天内或死亡后（之后它会消失）以抗议的方式为你服务。当恶魔消失时，这个护身符也会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Hellish Rebuke",
+			"source": "BGDIA",
+			"page": 215,
+			"type": "Charm",
+			"entries": [
+				"当你获得这个护符时，你头顶会出现一个火焰光环。这个护符允许你将{@spell hellish rebuke}法术（9级版本）作为一次反应施放。使用九次后，护符和火焰光环都会消失。"
+			]
+		},
+		{
+			"name": "Charm of Heroism",
+			"source": "DMG",
+			"page": 228,
+			"type": "Charm",
+			"entries": [
+				"这个符咒允许你以行动的方式给自己带来{@item potion of heroism}的好处。一旦你这样做，这个符咒就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Instant Tools",
+			"source": "BAM",
+			"page": 17,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga astronaut|BAM}使用他们的神奇礼物行动。}",
+				"这个符咒允许你用魔法变出一套工匠的工具、航海家的工具或盗贼的工具。变出的工具要么出现在你的手中，要么出现在你空间的其他地方（由你选择）。一旦使用，这个符咒就会消失，但工具仍然存在。"
+			]
+		},
+		{
+			"name": "Charm of Lesser Conscription",
+			"source": "BGDIA",
+			"page": 215,
+			"type": "Charm",
+			"entries": [
+				"当你拥有这个护符时，你会吸引苍蝇。作为一个动作，你可以激活这个护符来召唤一个{@creature barbed devil}、两个{@creature Bearded Devil||bearded devils}或三个{@creature Spined Devil||spined devils}。所有恶魔会同时出现在你周围30英尺内的未被占据的空间中。每个恶魔都会服从你的命令，并热切地为你服务9天，或直到它死亡，之后恶魔会消失。一旦被这个护符召唤的所有恶魔消失，护符也会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Many Things",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你被{@item Deck of Many Things}注入了一股魔法能量。作为一个动作，你可以触摸一个愿意接受的生物，并将牌堆中随机确定的一张卡牌效果赋予目标。一旦你使用了这个魔法，它就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Many Tongues",
+			"source": "BGDIA",
+			"page": 215,
+			"type": "Charm",
+			"entries": [
+				"你可以说并理解所有的语言，你获得了{@skill Deception}和{@skill Persuasion}技能的熟练度，在使用这些技能时，你可以将你的正常熟练度奖励增加一倍。当你死亡时，这个符咒会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Nine Lives",
+			"source": "ToA",
+			"page": 167,
+			"type": "Charm",
+			"entries": [
+				"当你因为受到伤害而下降到0点生命值时，你可以选择下降到1点生命值。一旦使用九次，该符咒就会消失。"
+			]
+		},
+		{
+			"name": "Charm of Restoration",
+			"source": "DMG",
+			"page": 228,
+			"type": "Charm",
+			"entries": [
+				"这个符咒有6个电荷。你可以使用一个动作来消耗它的部分费用，以施展以下的法术之一。{@spell greater restoration} (4次充电) 或 {@spell lesser restoration} (2次充电)。一旦所有的费用用完，这个符咒就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Ruin",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个动作，你可以触摸一个非魔法物体，或者一个5英尺立方体内的一部分。目标会被化为尘埃。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Snowball Strike",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA}生活在冰风谷或其他寒冷地区的人通过使用他们的魔法天赋行动}。",
+				"这个符咒有5次充电。作为一个额外的动作，你可以消耗符咒的一个电荷，在你手中制造一个神奇的雪球并将它扔出去。你必须有一只手可以握住雪球，否则就会浪费掉这笔费用。雪球是一种你精通的魔法远程武器。它的正常射程为20英尺，远程射程为60英尺，击中后会造成{@damage 1d4}的寒冷伤害，并且在掷出19或20的情况下会获得关键打击。如果你用雪球打出关键一击，目标会被{@condition blinded}，直到其下一回合结束。雪球在你击中或未击中后立即消失，如果你不扔它，则在你的回合结束时消失。一旦它的所有费用用完，这个符咒就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Adamant",
+			"source": "BGDIA",
+			"page": 215,
+			"type": "Charm",
+			"entries": [
+				"这个护符有9个充能。你可以使用一个动作消耗1个充能来获得30点临时生命值。在接下来的一个小时内，你的双眼变成了一片完全黑暗，你无法被{@condition charmed}或{@condition frightened}。一旦所有充能都被消耗完，这个护符就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Comet",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个动作，你可以迫使你能看到的距离你60英尺的生物专注于你。在1分钟内，除了你和目标以外的生物对目标是{@condition invisible}。如果任何生物（除了你）对目标造成伤害或迫使目标进行豁免才能检定，效果就会结束。使用三次后，这个魅惑效果从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Crystal Heart",
+			"source": "ToA",
+			"page": 167,
+			"type": "Charm",
+			"entries": [
+				"这个符咒使你对来自非魔法攻击的穿刺和砍击伤害具有免疫力，但你对重击伤害有脆弱性。这些效果持续10天，之后符咒会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Donjon",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Otiluke's Resilient Sphere}，无需法术材料，使用你的智力、感知或魅力作为施法能力（由你选择）。使用三次后，这个魅力消失在你身上。"
+			]
+		},
+		{
+			"name": "Charm of the Fates",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以拉动命运的红线，调整情况使之对你有利。在你进行能力检定、攻击检定或豁免检定后，你可以投掷一个{@dice d10}，并将其加到总数上，有可能将失败变为成功。使用三次后，这个护符会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Flames",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个动作，你可以召唤两个{@creature Bearded Devil||bearded devils}。被召唤的恶魔出现在距离你60英尺内的未被占据的空间中，遵从你的命令，不能召唤其他恶魔。这些恶魔在你的回合后立即行动，根据先攻顺序。一个被召唤的恶魔会持续10分钟，直到它或你死亡，或者你将一个或两个被召唤的恶魔解散为止。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Fool",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Major Image}，无需法术材料，并可以使用你的智力、感知或魅力作为施法能力（你选择）。当以这种方式施放咒语时，它将在不需要集中注意力的情况下持续整个持续时间。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Gem",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个动作，你在以你为中心的30英尺锥形范围内创造出{@dice 4d10}颗宝石的喷射。该区域内的每个生物必须进行一次敏捷豁免，难度等级为15。未通过豁免的生物会受到等同于所创造宝石数量的钝击伤害。通过豁免的生物会受到一半伤害。宝石在效果结束后仍然存在，每颗宝石价值10金币。使用三次后，护符会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Ghoul",
+			"source": "ToA",
+			"page": 167,
+			"type": "Charm",
+			"entries": [
+				"这个符咒允许你使用一个动作来吃一口死了不超过1天的人形生物的肉。当你这样做时，你会恢复{@dice 3d8 + 3}的生命值。一旦使用三次，该符咒就会消失。"
+			]
+		},
+		{
+			"name": "Charm of the Ice Troll",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA}生活在冰风谷或其他寒冷地区的人通过使用他们的魔法天赋行动}。",
+				"这个符咒允许你在受到寒冷伤害时使用你的反应，将伤害减少到0。你恢复的命中率等于你会受到的寒冷伤害的一半。一旦你这样做，这个符咒就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Jester",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Tasha's Hideous Laughter}，无需法术材料，并可以选择你的智力、感知或魅力作为施法能力。使用三次后，这个魅力就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Key",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个奖励动作，你可以触摸一把非魔法近战武器，并赋予它魔法效果，持续1小时。在此期间，该武器在命中时额外造成{@dice 1d8}的力量伤害，并对物体和结构造成双倍伤害。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Knight",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个动作，你可以召唤两个中立善良的{@creature Knight||knights}，它们是天神而不是人形生物。这些骑士会出现在你周围60英尺内的空位上，并且会作为你的盟友行动。它们会在你的回合后立即行动，与你的倡议计数一致。这些骑士会持续10分钟，直到它们或者你死亡，或者你将它们中的一个或两个作为一个动作解散。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Maimed",
+			"source": "ToA",
+			"page": 167,
+			"type": "Charm",
+			"entries": [
+				"这个符咒可以让你重新长出失去的附属物或器官，比如一只手臂、一只脚或一只眼睛。使用一次后，该符咒就会消失。"
+			]
+		},
+		{
+			"name": "Charm of the Mirage",
+			"source": "CM",
+			"page": 212,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|CM}通过使用他们的神奇礼物行动，生活在沙漠中。}",
+				"这个护身符允许你在行动中施放{@spell hallucinatory terrain}法术（豁免 DC 15）。使用一次后，这个护身符就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Moon",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个行动，你可以许一个小小的愿望。当你这样做时，你创造一个5级或更低级别的法术效果。这个法术作为这个行动的一部分生效，不需要法术材料。你的智力、感知或魅力可以作为这个法术的施法能力（你可以选择）。一旦你使用了这个护符，它就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Puzzle",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Hypnotic Pattern}，无需法术材料，并可以选择使用你的智力、感知或魅力作为施法能力（自选）。使用三次后，这个魅力消失在你身上。"
+			]
+		},
+		{
+			"name": "Charm of the Rogue",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Mislead}，无需法术材料，并可以使用你的智力、感知或魅力作为施法能力（你选择）。当你以这种方式施放咒语时，它会持续完整的持续时间，无需集中精力。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Sage",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Divination}，无需材料成分，并使用你的智力作为施法能力。一旦你施放了这个法术三次，这个魅力就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Skull",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个额外动作，你可以变身为一个死亡幻影。你的游戏统计数据被替换为{@creature wraith}的数据，除了你的阵营和个性；你的智力、感知和魅力属性；以及你的被动感知({@skill Perception})属性和语言。你不具备幽灵的创造幽灵能力。当你变身时，你的装备消失，但在变身结束时会重新出现。变身持续1分钟，直到你的幽灵形态的生命值降至0，或者直到你使用一个额外动作来结束它。如果幽灵形态的生命值降至0并且仍有剩余伤害，剩余伤害会应用于你的普通生命值。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Slayer",
+			"source": "DMG",
+			"page": 228,
+			"type": "Charm",
+			"entries": [
+				"你持有的一把剑在接下来的9天内会变成{@item dragon slayer}或{@item giant slayer}（DM选择）。然后符咒从你身上消失，武器恢复正常。"
+			]
+		},
+		{
+			"name": "Charm of the Snow Walker",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA}生活在冰风谷或其他寒冷地区的人通过使用他们的魔法天赋行动}。",
+				"这个符咒有3次充电。作为一个行动，你可以消耗符咒的1次充电来获得以下好处，持续24小时。",
+				{
+					"type": "list",
+					"items": [
+						"你和你15英尺内的盟友无视由雪或冰造成的{@quickref difficult terrain||3}。",
+						"你可以透过被雪严重遮挡的区域，看到60英尺的距离。",
+						"你对极度寒冷的影响免疫，如{@book Dungeon Master's Guide|DMG}所述（尽管你没有获得对寒冷伤害的保护）。"
+					]
+				},
+				"一旦它的所有费用都用完了，这个符咒就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Star",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Enhance Ability}，无需法术材料，并可以使用你的智力、感知或魅力作为施法能力（你选择）。当你以这种方式施放法术时，它将持续整个持续时间，无需集中精力。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Storm",
+			"source": "DIP",
+			"page": 41,
+			"type": "Charm",
+			"entries": [
+				"你被赋予了风暴之力，以至于你的眼睛中闪烁着微小的火花。 你可以将{@spell lightning bolt}法术（3级版本）作为一个动作施放。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Stumblenoodle",
+			"source": "HFStCM",
+			"type": "Charm",
+			"entries": [
+				"当你能看见的生物在你30英尺内移动时，你可以使用你的反应使该生物获得{@condition prone}状态。目标的盟友们如果在30英尺内，必须通过一次DC 16的感知豁免检定，否则会因为无法控制地大笑而获得{@condition stunned}状态，持续到他们的下一个回合结束。一旦使用三次，这个魅力效果将从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Sun",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"如果你还不会，你学会{@spell Light}战斗法术。你可以施展{@spell Sunburst}，无需法术材料，使用你的智力、感知或魅力作为施法能力（你选择）。一旦使用，这个魅力从你身上消失，你也会忘记通过这个魅力获得的{@spell Light}战斗法术。"
+			]
+		},
+		{
+			"name": "Charm of the Swollen Hag",
+			"source": "ToA",
+			"page": 167,
+			"type": "Charm",
+			"entries": [
+				"这个符咒可以让你把青蛙吐出来作为一个动作。青蛙能听懂你的话，并听从你的命令。一旦使用三次，该符咒就会消失。"
+			]
+		},
+		{
+			"name": "Charm of the Talons",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"作为一个动作，你可以施放{@spell Dispel Magic}，不需要任何法术材料，并使用你的智力、感知或魅力作为施法能力（你选择）。如果你成功用它结束任何法术，你会获得{@dice 1d6}{@book temporary hit points|PHB|9|Temporary Hit Points}，每个结束的最高等级法术等级都会增加。一旦使用三次，护符会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Throne",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Mordenkainen's Magnificent Mansion}，无需法术材料，并可以使用你的智力、感知或魅力作为施法能力（由你选择）。使用三次后，这个魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Traveler's Haven",
+			"source": "IDRotF",
+			"page": 283,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|ToA}生活在冰风谷或其他寒冷地区的人通过使用他们的魔法天赋行动}。",
+				"这个护符有3个充能。作为一个动作，你可以消耗1个护符的充能来施放{@spell Leomund's tiny hut}法术，无需任何材料。一旦所有充能都被消耗完，这个护符将从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Void",
+			"source": "BMT",
+			"page": 62,
+			"type": "Charm",
+			"entries": [
+				"你可以施放{@spell Banishment}，无需材料组件，使用你的智力、感知或魅力作为施法能力（你选择）。使用三次后，魅力会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of the Water Bearer",
+			"source": "CM",
+			"page": 212,
+			"type": "Charm",
+			"entries": [
+				"{@note This charm can be bestowed by a {@creature chwinga|CM}通过使用他们的神奇礼物行动，生活在沙漠中。}",
+				"这个符咒可以让你创造最多1加仑的淡水，装满你手中的一个或多个空容器。你每天最多可以这样做三次，持续10天，之后这个符咒会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Treasure Sense",
+			"source": "ToA",
+			"page": 167,
+			"type": "Charm",
+			"entries": [
+				"在此符咒持续期间，你可以使用一个行动，通过气味来确定你周围30英尺内的贵重金属和石头的位置，例如硬币和宝石。该效果持续3天，之后该符咒会从你身上消失。"
+			]
+		},
+		{
+			"name": "Charm of Vitality",
+			"source": "DMG",
+			"page": 228,
+			"type": "Charm",
+			"entries": [
+				"这个符咒允许你以行动的方式给自己带来{@item potion of vitality}的好处。一旦你这样做，这个符咒就会从你身上消失。"
+			]
+		},
+		{
+			"name": "Clay No-Face's Charm",
+			"source": "ToA",
+			"page": 179,
+			"type": "Charm",
+			"entries": [
+				"当你拥有 \"无面黏土 \"时，你不需要吃、喝或呼吸。当娃娃在你身上时，这些好处持续30天，之后符咒就会从你身上消失。",
+				"这个娃娃是一个微型构造体。摧毁这个娃娃会导致其中的孩子灵魂被困在{@adventure the Soulmonger|ToA|5|The Soulmonger}中。",
+				{
+					"type": "statblockInline",
+					"dataType": "object",
+					"data": {
+						"name": "Clay No-Face",
+						"isNpc": true,
+						"source": "ToA",
+						"page": 179,
+						"size": [
+							"T"
+						],
+						"objectType": "U",
+						"creatureType": "construct",
+						"hp": 1,
+						"speed": {
+							"walk": 10
+						},
+						"immune": [
+							"poison"
+						],
+						"conditionImmune": [
+							"poisoned"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Curse of Ruin",
+			"source": "TDCSR",
+			"page": 39,
+			"type": "Curse",
+			"entries": [
+				"无数传说中都提到了毁灭诅咒{@i hgar'Gruum}。当狂暴的血性压倒理智时，伟大的兽人战士便会倒下。强大的法师因为愚蠢的野心而放弃谨慎，疯狂地深入了任何凡人眼睛不应观看的知识。据说毁灭诅咒是所有{@book orcs|TDCSR|4|orcs}的天赋\u2014\u2014一种致命的污染，潜藏在{@deity The Ruiner|Exandria|TDCSR|Ruiner}的血脉中，这是在{@book Calamity|TDCSR|1|The Calamity}时期锻造他们民族的祖先留下的。",
+				{
+					"type": "entries",
+					"name": "Truth of Ruin",
+					"page": 39,
+					"entries": [
+						"事实是毁灭诅咒是一个神话。{@deity The Ruiner|Exandria|TDCSR|Ruiner}的血液赋予了{@book orcs|TDCSR|4|orcs}肉体力量和超人耐力，但它并没有传递背叛者之神的邪恶。然而，这个神话的力量比任何魔法都更具毁灭性。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Consequences of the Myth",
+					"page": 39,
+					"entries": [
+						"在整个艾克桑德里亚，无数迷信的人，包括许多{@book orcs|TDCSR|4|orcs}本身，相信毁灭诅咒。这种信仰并不会让诅咒变得更真实。这个神话的存在是为了让任何一个兽人都可以忽视他们错误的真正后果，或者对任何一种轻率伤害行为\u2014\u2014诅咒承担了责任。更糟糕的是，当这种\"天赋\"被用来指责那些明智、心平气和的{@book orcs|TDCSR|4|orcs}，而这些人并没有做错任何事情时，他们沮丧的反应被视为诅咒存在的证据。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Curse of Strife",
+			"source": "TDCSR",
+			"page": 39,
+			"type": "Curse",
+			"entries": [
+				"{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor}的毒辣声音，既可憎又可诅咒，侵袭了塔尔多瑞无数受到争斗诅咒影响的人们的心灵。这种诅咒在{@book Rifenmist|TDCSR|3|Rifenmist Peninsula}尤为普遍，那里{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor's}忠诚的神职人员将其赋予他们的士兵，使他们变成完美的战争武器。这种诅咒表现出令人难以预测的方式，有些人变成了混乱的狂战士，有些人变成了顺从的军团士兵，还有些人变成了自私的、孤立的小偷。{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor}的异教徒也利用他们的力量秘密传播这种诅咒，席卷整个艾克桑德里亚的友好社区，旨在从内部摧毁它们，使其更易受征服。",
+				{
+					"type": "entries",
+					"name": "Origin of Strife",
+					"page": 39,
+					"entries": [
+						"这种转变是{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor's}折磨的结果，它在受害者的脑海中不断低语。塔尔多瑞的自由哥布林族对那些传播诅咒的人特别鄙视，对那些受害者则怀有极大的怜悯。",
+						"几个世纪以来，Tal'Dorei的狭隘之人一直害怕{@book goblins|TDCSR|4|goblinkin}，因为他们是{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor}的子民。但是，尽管最初的{@creature goblin|MM|goblins}、{@creature hobgoblin|MM|hobgoblins}和{@creature bugbear|MM|bugbears}是在{@book Calamity|TDCSR|1|The Calamity}中作为这位邪神的士兵而被创造出来的，但这个诅咒并不会停留在他们的血液中\u2014\u2014它通过那些向{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor}承诺灵魂的人传播。{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor}的牧师可以使用{@spell bestow curse}法术施加争斗之咒。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curing the Curse",
+					"page": 39,
+					"entries": [
+						"那些经历善意或濒临死亡的生物可能会有顿悟，让他们真正的自我冲破那血腥的谎言之幕。一个受到诅咒的生物，如果在一周内受到爱和同情的对待，而不是仇恨和恐惧，可以进行一次{@dc 20}感知{@quickref saving throws|PHB|2|1|saving throw}检定，成功的话就能解除诅咒。这个{@spell remove curse}法术也会立即结束诅咒，许多改邪归正的{@deity The Strife Emperor|Exandria|TDCSR|Strife Emperor}神职人员已经与其他信仰的神职人员联合起来，减轻那位血腥之神对他们家族的控制。"
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dark Gift of Dahlver-Nar, He of the Many Teeth",
+			"source": "CoS",
+			"page": 192,
+			"type": "Charm",
+			"entries": [
+				"达尔维-纳尔(Dahlver-Nar)的礼物是能够活多次的力量。在接受这份黑暗礼物后，受益者死亡时会立即转世，就像是被{@spell reincarnate}法术的目标一样。新的身体会出现在旧身体的10英尺内。在使用三次后，这份黑暗礼物会消失。",
+				"这个黑暗礼物的受益者会失去所有的牙齿，直到它第三次也是最后一次转世。"
+			]
+		},
+		{
+			"name": "Dark Gift of Delban, the Star of Ice and Hate",
+			"source": "CoS",
+			"page": 193,
+			"type": "Charm",
+			"entries": [
+				"Delban（Delban）的礼物是释放致命寒冷的力量。这份黑暗礼物使得受益者可以将{@spell cone of cold}咒语作为一个动作施放。在使用了七次之后，这份黑暗礼物就会消失。在它消失之前，受益者还会获得{@item ring of warmth}的好处。",
+				"这种黑暗天赋的受益者会获得以下缺陷：\"火让我感到恐惧\"。"
+			]
+		},
+		{
+			"name": "Dark Gift of Drizlash, the Nine-Eyed Spider",
+			"source": "CoS",
+			"page": 192,
+			"type": "Charm",
+			"entries": [
+				"德里兹拉什的天赋是在墙壁和天花板上行走的能力。这个黑暗的天赋允许它的受益者攀爬困难的表面，包括倒立在天花板上，而不需要进行能力检查。",
+				"这个黑暗礼物的受益者在身体的某个地方多长了一只眼睛。这只眼睛是盲目的，而且永远睁着。"
+			]
+		},
+		{
+			"name": "Dark Gift of Fekre, Queen of Poxes",
+			"source": "CoS",
+			"page": 191,
+			"type": "Charm",
+			"entries": [
+				"Fekre（Fekre）的礼物是传播疾病的力量。这个黑暗的礼物使得受益者可以在行动中施放{@spell contagion}法术。在使用三次后，这个黑暗的礼物就会消失。",
+				"这个黑暗礼物的受益者散发着污秽的气息。"
+			]
+		},
+		{
+			"name": "Dark Gift of Great Taar Haak, the Five-Headed Destroyer",
+			"source": "CoS",
+			"page": 193,
+			"type": "Charm",
+			"entries": [
+				"塔尔·哈克的礼物是巨大的力量。这份黑暗礼物赋予受益者{@item belt of fire giant strength}的好处。这个好处持续10天，之后黑暗礼物消失。",
+				"这个黑暗礼物的受益者有以下缺陷：\"我喜欢欺负别人，让他们感到软弱和自卑。\""
+			]
+		},
+		{
+			"name": "Dark Gift of Khirad, the Star of Secrets",
+			"source": "CoS",
+			"page": 193,
+			"type": "Charm",
+			"entries": [
+				"Khirad（基拉德）的礼物是占卜的力量。这份礼物使受益者能够在行动中施放{@spell scrying}法术。在使用三次后，这份黑暗的礼物就会消失。",
+				"受益人的声音变成了低沉的耳语，其笑容变得残忍而邪恶。"
+			]
+		},
+		{
+			"name": "Dark Gift of Norganas, the Finger of Oblivion",
+			"source": "CoS",
+			"page": 193,
+			"type": "Charm",
+			"entries": [
+				"诺加纳斯(Norganas)的礼物是将生命转化为不死之力。这份黑暗的礼物使得受益者可以在行动中施放{@spell finger of death}法术。在使用了三次之后，这份黑暗的礼物就会消失。当它消失时，受益者必须通过一次 DC 15 的体质豁免检定，否则会降至0点生命值。",
+				"这种黑暗的礼物使受益人的血液变得漆黑而粘稠，就像焦油。"
+			]
+		},
+		{
+			"name": "Dark Gift of Savnok the Inscrutible",
+			"source": "CoS",
+			"page": 192,
+			"type": "Charm",
+			"entries": [
+				"Savnok的礼物是保护心灵的力量。这个黑暗的礼物以对受益者施加的{@spell mind blank}法术的形式呈现。这个法术持续时间延长至1年，之后黑暗的礼物就会消失。",
+				"受益人的眼睛在收到这份黑暗的礼物后会融化，留下仍能看见的空眼眶。"
+			]
+		},
+		{
+			"name": "Dark Gift of Seriach, the Hell Hound Whisperer",
+			"source": "CoS",
+			"page": 193,
+			"type": "Charm",
+			"entries": [
+				"Seriach的礼物是召唤和控制地狱猎犬的能力。作为一个行动，这个黑暗礼物的受益者可以召唤和控制两只{@creature hell hound||hell hounds}。两只猎犬同时出现。受益者只能召唤一次猎犬，当它们死亡时，这个黑暗礼物就会消失。",
+				"如果受益人还不懂地狱语的话，他将获得说和理解地狱语的能力。(地狱猎犬不懂其他语言。）每当受益人说起地狱语时，他或她的毛孔中就会冒出硫磺味的烟雾。"
+			]
+		},
+		{
+			"name": "Dark Gift of Shami-Amourae, the Lady of Delights",
+			"source": "CoS",
+			"page": 192,
+			"type": "Charm",
+			"entries": [
+				"沙米-阿穆雷的礼物是说服的力量。这个黑暗的礼物使得受益者可以将{@spell suggestion}咒语作为一个动作施放，而且对该咒语的豁免抛掷有劣势。在使用三次后，这个黑暗的礼物就会消失。",
+				"这个黑暗礼物的受益者每只手都会多出一根手指，以及以下缺陷：\"我无法获得足够的快乐。我渴望别人在任何时候都能为我创造美。\""
+			]
+		},
+		{
+			"name": "Dark Gift of Sykane, the Soul Hungerer",
+			"source": "CoS",
+			"page": 192,
+			"type": "Charm",
+			"entries": [
+				"Sykane（Sykane）的礼物是能够唤起最近去世者的力量。这个黑暗的礼物使得受益者可以将{@spell raise dead}咒语作为一个动作施放。在使用三次之后，这个黑暗的礼物就会消失。",
+				"一旦收到这个黑暗礼物，受益人的眼睛就会发出病态的黄色光芒，直到黑暗礼物消失。受益人还获得以下缺陷：\"如果我帮助别人，我希望得到回报。\""
+			]
+		},
+		{
+			"name": "Dark Gift of Tarakamedes, the Grave Wyrm",
+			"source": "CoS",
+			"page": 192,
+			"type": "Charm",
+			"entries": [
+				"Tarakamedes的天赋是飞行的力量。这个黑暗天赋的受益者会长出骨骼般的翅膀，并获得50英尺的飞行速度。",
+				"这个黑暗天赋的受益者必须吃骨头或墓土才能生存。在黎明时分，如果该生物在过去24小时内没有吃到至少1磅的骨头或墓土，它就会死亡。"
+			]
+		},
+		{
+			"name": "Dark Gift of Vaund the Evasive",
+			"source": "CoS",
+			"page": 193,
+			"type": "Charm",
+			"entries": [
+				"Vaund的礼物是闪避之力。这份黑暗礼物赋予受益者{@item amulet of proof against detection and location}和{@item ring of evasion}的好处。这些好处持续10天，之后黑暗礼物消失。",
+				"这种黑暗天赋的受益者会变得抽搐和紧张，并且还获得以下缺陷：\"我不能对任何问题做出直接的回答。\""
+			]
+		},
+		{
+			"name": "Dark Gift of Yog the Invincible",
+			"source": "CoS",
+			"page": 193,
+			"type": "Charm",
+			"entries": [
+				"尤格的天赋是身体的复原力。这个黑暗天赋使受益者的最大命中率增加30。这个好处持续10天，之后黑暗天赋就会消失。",
+				"油黑的毛发覆盖了受益人的脸和身体。"
+			]
+		},
+		{
+			"name": "Dark Gift of Yrrga, the Eye of Shadows",
+			"source": "CoS",
+			"page": 193,
+			"type": "Charm",
+			"entries": [
+				"Yrrga的礼物是真实视力的力量。这个黑暗的礼物赋予受益者{@sense truesight}的益处，范围为60英尺。这些益处持续30天，之后黑暗的礼物消失。",
+				"受益人的眼睛会变成星星点点的空洞，直到黑暗礼物消失。这个黑暗礼物的受益人还获得了以下缺陷：\"我相信所有的生命都是无意义的，并期待着死亡最终到来。\""
+			]
+		},
+		{
+			"name": "Dark Gift of Zantras, the Kingmaker",
+			"source": "CoS",
+			"page": 192,
+			"type": "Charm",
+			"entries": [
+				"赞特拉斯的天赋是来自伟大的存在和人格力量的力量。这种黑暗的天赋使受益者的魅力增加4，最高可达22。",
+				"这个黑暗礼物的受益者获得了以下缺陷：\"我不会接受拒绝的答案\"。"
+			]
+		},
+		{
+			"name": "Dark Gift of Zrin-Hala, the Howling Storm",
+			"source": "CoS",
+			"page": 192,
+			"type": "Charm",
+			"entries": [
+				"Zrin-Hala（Zrin-Hala）的礼物是创造闪电的力量。这份黑暗的礼物让受益者可以将{@spell lightning bolt}法术作为一个动作施放。在使用三次后，这份黑暗的礼物就会消失。",
+				"一旦收到这份黑暗的礼物，受益人的一边脸就会下垂，失去所有的感觉。"
+			]
+		},
+		{
+			"name": "Dimir Charm",
+			"source": "GGR",
+			"page": 173,
+			"type": "Charm",
+			"entries": [
+				"当你激活这个护符时，你可以施放{@spell blink}或{@spell sleep}（3级版本）法术。或者，当你受到伤害时，你可以使用你的反应将{@condition invisible}并传送到你能看到的一个未被占据的空间，距离不超过30英尺。你保持{@condition invisible}，直到你的下一个回合开始，或者直到你进行攻击或施放法术。激活后，护符消失。"
+			]
+		},
+		{
+			"name": "Draconic Familiar",
+			"source": "FTD",
+			"page": 28,
+			"type": "Draconic Gift",
+			"rarity": "uncommon",
+			"entries": [
+				"你获得了一个龙族熟人的帮助，这可能是一个赋予你力量的龙的意识的碎片。",
+				"你可以将{@spell find familiar}法术作为仪式施放，而无需使用任何材料组件。当你以这种方式施放法术时，你的使魔总是采取{@creature pseudodragon}的形态。",
+				"此外，当你在你的回合中采取{@action Attack}行动时，你可以放弃你自己的一次攻击，让你的伪龙熟悉的人用它的反应进行一次自己的攻击。"
+			]
+		},
+		{
+			"name": "Draconic Rebirth",
+			"source": "FTD",
+			"page": 28,
+			"type": "Draconic Gift",
+			"rarity": "uncommon",
+			"entries": [
+				"你成为了一名龙裔。你用一个彩虹龙裔、宝石龙裔或金属龙裔的特性替换你原始种族的特性（详见此{@book book|FTD|1|Draconic Races}）。你成为的龙裔类型与赐予你这份礼物的龙的家族相匹配。你可以保留从之前种族获得的任何技能熟练加点，或者选择两项技能获得熟练加点。"
+			]
+		},
+		{
+			"name": "Draconic Senses",
+			"source": "FTD",
+			"page": 28,
+			"type": "Draconic Gift",
+			"rarity": "rare",
+			"entries": [
+				"你获得像龙一样的敏锐感觉。",
+				{
+					"type": "entries",
+					"name": "Blindsight",
+					"entries": [
+						"你有{@sense blindsight}的视野范围，达到10英尺。在这个范围内，你可以有效地看到任何不在{@quickref cover|PHB|3|0|total cover}后面的东西，即使你是{@condition blinded}或处于黑暗中。此外，你可以看到这个范围内的{@condition invisible}生物，除非这些生物成功地从你身边隐藏起来。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"你在智慧({@skill Perception})检查上有优势。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragon Queen's Will",
+			"source": "DSotDQ",
+			"page": 178,
+			"type": "Charm",
+			"entries": [
+				"你曾一瞥龙女王的野心。它在你的梦中萦绕，但坚定了你反对她的意志。这护符让你在感知豁免检定上获得+4的加值。使用三次后，护符消失。拥有这护符时，你会做关于贪婪龙的令人不安但无害的梦。如果你之前不会，你也永久获得说龙语的能力。"
+			]
+		},
+		{
+			"name": "Echo of Dragonsight",
+			"source": "FTD",
+			"page": 28,
+			"type": "Draconic Gift",
+			"rarity": "very rare",
+			"entries": [
+				"你已经开始将你的意识扩展到作为你家园的物质界的单一世界之外。",
+				"你可以把{@spell contact other plane}作为一个仪式来施展。你所接触的实体是物质界另一个世界的龙，所以它对你的世界的了解可能是有限的。另外，这条龙是天赋之源的龙的回声，这可能会影响它对你的态度和行为。"
+			]
+		},
+		{
+			"name": "Ephara's Devotee",
+			"source": "MOT",
+			"page": 40,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Ephara trait}",
+				"以法拉赐予你洞察人们如何交流的能力。你可以使用这个特性施放{@spell comprehend languages}，无需材料组件，次数等同于你的智力调整值（最少1次）。完成一次长休后，你恢复所有已使用的次数。智力是你施放此法术的法术属性。"
+			]
+		},
+		{
+			"name": "Ephara's Disciple",
+			"source": "MOT",
+			"page": 40,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Ephara trait}",
+				"你可以使用这个特性施放{@spell Mordenkainen's private sanctum}，无需材料成分。一旦你以这种方式施放了法术，就不能再这样做，直到你完成一次长休。智力是你施放这个法术的法术能力。"
+			]
+		},
+		{
+			"name": "Ephara's Votary",
+			"source": "MOT",
+			"page": 40,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Ephara trait}",
+				"当你在城市中时，进行魅力检定时获得优势({@skill Persuasion})。",
+				"此外，当你的智力检查或智力救赎失败时，你可以重新掷骰子，而且你必须使用新的骰子。一旦你使用这个重掷，你就不能再这样做了，直到你完成一个长时间的休息。"
+			]
+		},
+		{
+			"name": "Erebos's Devotee",
+			"source": "MOT",
+			"page": 43,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Erebos trait}",
+				"作为厄瑞玻斯的信徒，你已经证明自己是冥界严酷法律的执行者。你可以借助厄瑞玻斯的恩惠施放{@spell bane}，使用这个特性时不需要任何材料组件，次数等同于你的感知修正值（最少为1次）。完成一次长休后，你会恢复所有已使用的次数。智力是你施法这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Erebos's Disciple",
+			"source": "MOT",
+			"page": 43,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Erebos trait}",
+				"当一个灵魂被送去它应有的地方时，你可以汲取冥界的能量来赋予你力量。当一个生物在你10英尺范围内死亡时，你可以使用你的反应来获得与你等级相等的临时命中数。"
+			]
+		},
+		{
+			"name": "Erebos's Votary",
+			"source": "MOT",
+			"page": 43,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Erebos trait}",
+				"你可以用这个特性施放{@spell vampiric touch}。一旦你以这种方式施放了这个法术，你必须休息长时间后才能再次这样做。智力是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Eyes of the Impossible",
+			"source": "ToFW",
+			"page": 74,
+			"type": "Charm",
+			"entries": [
+				"你被你不应该知道的知识所伤害。你的眼睛变黑，除了你的瞳孔，它们变成白色。这个符咒让你在与邪恶生物互动时进行的魅力检定获得优势。此外，你可以将法术{@spell eyebite}作为一个动作施放。你施放这个法术的能力为智力、感知或魅力（在获得这个符咒时选择）。一旦你施放了这个法术，直到第二天黎明前你不能再次施放它。这个符咒在13天后消失，当你的外表恢复正常。"
+			]
+		},
+		{
+			"name": "Favor of the Heroic Steed",
+			"source": "DSotDQ",
+			"page": 101,
+			"type": "Charm",
+			"entries": [
+				"两匹英勇的坐骑认为你值得信任并同意为你服务。这个护符有2次使用机会。作为一个动作，你可以消耗1次使用机会召唤一匹穿着板甲护具（AC 18）的{@creature warhorse}。这匹战马会为你服务24小时，然后消失。"
+			]
+		},
+		{
+			"name": "Fortune's Grace",
+			"source": "TDCSR",
+			"page": 190,
+			"type": "Blessing",
+			"entries": [
+				"你那被命运触摸的本质可以让事件朝着你的有利方向转变。当你进行攻击检定、技能检定或者一个{@quickref saving throws|PHB|2|1|saving throw}时，你可以选择重新投掷{@dice d20}。你必须在初始投掷的结果确定之前重新投掷骰子。",
+				"或者，当你能看见的生物对你发动攻击，或者对你的法术或特性之一进行{@quickref saving throws|PHB|2|1|saving throw}时，你可以强迫那个生物重新投掷攻击骰或{@quickref saving throws|PHB|2|1|saving throw}。",
+				"如果触发重新投掷的点数为{@quickref Advantage and Disadvantage|PHB|2|0|advantage}或{@quickref Advantage and Disadvantage|PHB|2|0|disadvantage}，则重新投掷{@dice 2d20|both d20s}。使用此特性后，直到完成一次{@quickref resting|PHB|2|0|long rest}后才能再次使用。"
+			]
+		},
+		{
+			"name": "Fragment of Abhorrence",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"每当你的回合中用武器攻击命中生物时，你可以强迫目标朝你选择的方向移动多达10英尺。无法被{@condition frightened}的生物对此效果免疫。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"如果你的回合开始于{@condition frightened}，你会受到{@damage 2d6}点心灵伤害。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fragment of Attachment",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"当你在离盟友10英尺范围内时，你不能保持{@condition frightened}状态。如果你已经是{@condition frightened}状态，并且移动到盟友10英尺范围内，你身上的{@condition frightened}状态会结束。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"当你不在盟友的10英尺范围内时，你在智慧和魅力的救赎上有劣势。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fragment of Deception",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"当你受到伤害时，你可以使用你的反应来转变为{@condition invisible}，并传送到你能看到的一个未被占据的空间，最远60英尺。你保持{@condition invisible}，直到你的下一个回合开始，或者直到你进行伤害骰投掷或施放法术。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"你在智慧检查上有劣势。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fragment of Despondence",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"你对{@condition charmed}条件免疫。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"你不能进行 {@action Help} 动作。(action)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fragment of Intransigence",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"另一个生物不能强迫你移动到你不想去的地方。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"你不能进行{@action Disengage}或{@action Dodge}动作。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fragment of Loathing",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"当一个生物用武器攻击或法术伤害你时，你可以将你的憎恨集中在该生物身上。直到你的下一个回合结束，你在对该生物的攻击卷轴上有优势。你每次只能将你的憎恨集中在一个生物身上。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"你在魅力检查上有劣势。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fragment of Melancholy",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"当你的智慧或魅力投掷失败时，你可以以优势重新投掷，有可能将失败变成成功。在你使用这个好处后，你必须完成一个长时间的休息才能再次使用它。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"如果你使用这个碎片的好处，而它没有将失败的救赎转为成功，你就会被{@condition incapacitated}，直到你下一个回合结束，被绝望所征服。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fragment of Pity",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"每次你花一个命中率来恢复命中率时，你会恢复与你的熟练度加成相等的额外命中率。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"你在死神的救赎上有劣势。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Fragment of Rancor",
+			"source": "CRCotN",
+			"page": 214,
+			"type": "Fragment of Suffering",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Benefit",
+					"entries": [
+						"当你用攻击命中一只生物时，你可以选择对该生物造成额外 {@damage 2d6} 的精神伤害，或者对它周围5英尺范围内的每个其他生物造成 {@damage 4d6} 的精神伤害。在你使用这个效果后，你必须完成一次短暂或长时间休息，才能再次使用它。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawback",
+					"entries": [
+						"每当你不是{@condition unconscious}，且救赎失败时，你会受到{@damage 2d6}的精神伤害。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Frightful Presence",
+			"source": "FTD",
+			"page": 28,
+			"type": "Draconic Gift",
+			"rarity": "very rare",
+			"entries": [
+				"龙的力量的回声在你周围萦绕，你可以召唤它们来激发那些反对你的人的恐惧。",
+				"作为一个奖励动作，你可以显现出你的可怕存在。 你选择的每个生物，必须在你120英尺内并且察觉到你，必须进行一次感知豁免检定，难度等于8 + 你的熟练加值 + 你的魅力调整值。 未通过检定的生物在1分钟内成为你的 {@condition frightened}。 该生物可以在自己的回合结束时重复豁免检定，成功则结束对自己的影响。",
+				"一旦你使用这个能力的次数与你的熟练度加成相等，你就不能再使用它，直到你完成一个长时间的休息。"
+			]
+		},
+		{
+			"name": "Golgari Charm",
+			"source": "GGR",
+			"page": 173,
+			"type": "Charm",
+			"entries": [
+				"当你激活这个护符时，你可以施放{@spell dispel magic}、{@spell false life}（3级版本）或{@spell stinking cloud}法术。护符在你激活后消失。"
+			]
+		},
+		{
+			"name": "Gruul Charm",
+			"source": "GGR",
+			"page": 173,
+			"type": "Charm",
+			"entries": [
+				"当你激活这个符咒时，你可以施放{@spell heroism}或{@spell thunderwave}法术（3级版本）。或者，当你用武器攻击未命中时，你可以作出另一次攻击以攻击你未命中的目标。符咒在激活后消失。"
+			]
+		},
+		{
+			"name": "Habbakuk's Blessing",
+			"source": "DSotDQ",
+			"page": 116,
+			"type": "Charm",
+			"entries": [
+				"哈巴谷祝福你在北部荒地的旅行。这个护符让你在察觉沃什河水填满峡谷的智慧检定中获得优势（{@skill Survival}）。",
+				"另外，在旅行时，你和最多另外5个与你同行的生物在{@book difficult terrain|PHB|8|Difficult Terrain}的北部荒野中可以忽略，这使你们可以按照北部荒野陆地旅行表格上列出的速度的两倍移动（请参见本章前面的\"{@adventure Into the Wastes|DSotDQ|5|Into the Wastes}\"部分）。",
+				"这个护符在你离开北部荒地后的24小时消失。"
+			]
+		},
+		{
+			"name": "Heliod's Devotee",
+			"source": "MOT",
+			"page": 46,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Heliod trait}",
+				"作为Heliod的信徒，你已经证明自己是太阳神的值得的勇士。你可以祈求Heliod的恩宠，并使用这个特性施放{@spell bless}，无需任何材料组件。Heliod的祝福会在受影响的生物周围形成一个光环，使它们在法术结束前散发微弱光芒，照亮5英尺半径范围。你可以以这种方式施放这个法术的次数等于你的感知调整值（最少为一次）。当你完成一次长休后，你会恢复所有已用次数。感知是你施放这个法术的法术属性。"
+			]
+		},
+		{
+			"name": "Heliod's Disciple",
+			"source": "MOT",
+			"page": 46,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Heliod trait}",
+				"你逐渐习惯了炽热的阳光；你在对抗被{@condition blinded}时拥有优势，并且对火焰伤害具有抗性。"
+			]
+		},
+		{
+			"name": "Heliod's Votary",
+			"source": "MOT",
+			"page": 46,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Heliod trait}",
+				"你可以用这个特性施放{@spell daylight}。一旦你以这种方式施放了这个法术，你必须完成一次长休才能再次这样做。智力是你施法这个法术的能力值。"
+			]
+		},
+		{
+			"name": "I'jin",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "女性"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "CN"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "变幻无常，难以预测"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我从来没有坚持过计划。\""
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "奥博拉卡 (Obo'laka)"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "宿主的灵巧得分变为23，除非它已经更高。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Iroas's Devotee",
+			"source": "MOT",
+			"page": 49,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Iroas trait}",
+				"作为伊洛亚斯的信徒，你通过以他的名义取得的胜利赢得了他的青睐。你可以使用具有这个特质的{@spell compelled duel}的次数等同于你的魅力调整值（最少一次）。当你完成一次长休时，你会恢复所有已使用的次数。魅力是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Iroas's Disciple",
+			"source": "MOT",
+			"page": 49,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Iroas trait}",
+				"作为一个奖励动作，你可以祈求伊洛阿斯的祝福，在接下来的1分钟内或直到你是{@condition incapacitated}时获得以下好处：你周围30英尺范围内的生物无法在对你进行攻击检定时获得优势。一旦你使用了这个特性，你必须完成一次长休才能再次使用。"
+			]
+		},
+		{
+			"name": "Iroas's Votary",
+			"source": "MOT",
+			"page": 49,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Iroas trait}",
+				"你可以用这个特性施放{@spell crusader's mantle}。一旦你以这种方式施放了这个法术，你必须休息长时间后才能再次这样做。魅力是你施放这个法术的能力值。",
+				"此外，你对免疫{@condition frightened}的豁免投掷获得优势。"
+			]
+		},
+		{
+			"name": "Izzet Charm",
+			"source": "GGR",
+			"page": 174,
+			"type": "Charm",
+			"entries": [
+				"当你激活这个符咒时，你可以施放{@spell dispel magic}或{@spell lightning bolt}法术。或者，作为一个动作，你可以恢复一个已用掉的3级或更低级别的法术位。符咒在你激活后消失。"
+			]
+		},
+		{
+			"name": "Joho's Charm",
+			"source": "ToA",
+			"page": 179,
+			"type": "Charm",
+			"entries": [
+				"当你拥有(`Joho`)时，它为你提供{@item helm of comprehending languages}的好处。这个好处在你拥有这个玩偶的7天内持续，之后魅力从你身上消失。",
+				"这个娃娃是一个微型构造体。摧毁这个娃娃会导致其中的孩子灵魂被困在{@adventure the Soulmonger|ToA|5|The Soulmonger}中。",
+				{
+					"type": "statblockInline",
+					"dataType": "object",
+					"data": {
+						"name": "Joho",
+						"isNpc": true,
+						"source": "ToA",
+						"page": 179,
+						"size": [
+							"T"
+						],
+						"objectType": "U",
+						"creatureType": "construct",
+						"hp": 1,
+						"speed": {
+							"walk": 10
+						},
+						"immune": [
+							"poison"
+						],
+						"conditionImmune": [
+							"poisoned"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Karametra's Devotee",
+			"source": "MOT",
+			"page": 52,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Karametra trait}",
+				"作为卡拉米特拉的信徒，你已经证明自己是收获之神的潜在冠军。作为一个额外的动作，你可以唤起她的保护；幽灵般的植物覆盖你，为你提供1分钟内+1的交流奖励。一旦你使用这个特性，你就不能再使用它，直到你完成一个长时间的休息。"
+			]
+		},
+		{
+			"name": "Karametra's Disciple",
+			"source": "MOT",
+			"page": 52,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Karametra trait}",
+				"通过进行一个持续一个小时的仪式，你可以召唤出足够的葡萄来装满三个小瓶（每个小瓶4盎司）的葡萄酒。每个小瓶作为24小时的{@item potion of healing}，之后就会失去这个属性。一旦你使用了这个特性，你必须完成一次长休才能再次使用。"
+			]
+		},
+		{
+			"name": "Karametra's Votary",
+			"source": "MOT",
+			"page": 52,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Karametra trait}",
+				"你可以用这个特性施放{@spell create food and water}。一旦你以这种方式施放了法术，你必须完成一次长休才能再次这样做。智力是你施放这个法术的能力值。",
+				"此外，你在豁免骰中对抗被 {@condition poisoned} 的效果时具有优势。"
+			]
+		},
+		{
+			"name": "Keranos's Devotee",
+			"source": "MOT",
+			"page": 55,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Keranos trait}",
+				"作为凯拉诺斯的信徒，你已经证明了你的智慧和对风暴领主的效忠。每当你的回合中用武器攻击命中一名生物时，你可以对目标造成额外 {@dice 1d6} 的闪电伤害。你可以使用这个特性的次数等同于你的智力调整值（最少1次）。完成一次长休后，你恢复所有已用次数。"
+			]
+		},
+		{
+			"name": "Keranos's Disciple",
+			"source": "MOT",
+			"page": 55,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Keranos trait}",
+				"暴风雨的能量充满了你的身体，使你在主动性掷骰子时获得优势。"
+			]
+		},
+		{
+			"name": "Keranos's Votary",
+			"source": "MOT",
+			"page": 55,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Keranos trait}",
+				"当你的智力或智慧救赎失败时，你可以重新掷骰子，而且你必须使用新的骰子。一旦你使用了这个特性，你就不能再这样做，直到你完成一个长时间的休息。"
+			]
+		},
+		{
+			"name": "Klothys's Devotee",
+			"source": "MOT",
+			"page": 58,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Klothys trait}",
+				"作为克洛西斯的信徒，你可以操纵那些无形地纠缠着每一个生命的命运纽带。你可以施放{@spell command}这个特性的次数等同于你的感知修正值（最少一次）。完成一次长休后，你会恢复所有已用次数。智力是你施法这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Klothys's Disciple",
+			"source": "MOT",
+			"page": 58,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Klothys trait}",
+				"你发展出了第二感，让你能够直觉到命运的牵引和拉扯。只要你不是{@condition incapacitated}，你就不会感到惊讶。"
+			]
+		},
+		{
+			"name": "Klothys's Votary",
+			"source": "MOT",
+			"page": 58,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Klothys trait}",
+				"你可以使用这个特性施放{@spell clairvoyance}，无需任何材料组件。一旦你以这种方式施放了法术，你必须休息长时间后才能再次这样做。智慧是你施法这个法术的能力值。",
+				"此外，你在豁免抗性对抗被{@condition charmed}时拥有优势。"
+			]
+		},
+		{
+			"name": "Kruphix's Devotee",
+			"source": "MOT",
+			"page": 61,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Kruphix trait}",
+				"作为克鲁菲克斯的信徒，你已经证明了自己是现实奥秘和法则的信徒。你可以使用具有这个特征的{@spell detect magic}次数等同于你的智力调整值（最少1次）。当你完成一次长休时，你会恢复所有已用次数。",
+				"此外，你还知道{@spell mage hand}的咒语。智力是你对这些法术的施法能力。"
+			]
+		},
+		{
+			"name": "Kruphix's Disciple",
+			"source": "MOT",
+			"page": 61,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Kruphix trait}",
+				"作为克鲁菲克斯的真正冠军，你可以使用你的{@spell mage hand}法术来保护自己。当你的幻影之手在你身边5英尺内时，你对远程攻击获得+2的AC加值。"
+			]
+		},
+		{
+			"name": "Kruphix's Votary",
+			"source": "MOT",
+			"page": 61,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Kruphix trait}",
+				"你可以使用这个特性施放{@spell detect thoughts}，无需任何材料成分。一旦你以这种方式施放了咒语，你必须完成一次长休才能再次这样做。智力是你施放这个咒语的能力值。",
+				"此外，你在豁免抗性对抗被{@condition charmed}时拥有优势。"
+			]
+		},
+		{
+			"name": "Kubazan",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "Male"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "CG"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "野性和活力四射"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我无所畏惧，不惧怕承担巨大的风险\"。"
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "帕帕索特尔"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "宿主的力量得分变为23，除非它已经更高。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Moa",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "Male"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "LG"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "真诚而善良"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我必须永远说真话\"。"
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "旺哥"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "主持人可以使用一个动作来激活{@condition invisible}。只要{@condition invisible}在主持人身上，主持人穿戴或携带的任何物品都会被{@condition invisible}。如果主持人攻击、施放法术、强迫豁免检定或造成伤害，效果就会结束。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mogis's Devotee",
+			"source": "MOT",
+			"page": 64,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Mogis trait}",
+				"作为莫吉斯的信徒，你展现出了自己作为一名残酷的战士。你可以祈求莫吉斯的青睐，并以这个特性施放{@spell wrathful smite}。莫吉斯的祝福会显现为你武器周围的血红色光芒，在法术结束前使其散发微弱光芒，照亮5英尺半径范围。你可以以这种方式施放这个法术的次数等同于你的体质调整值（最少1次）。完成一次长休后，你会恢复所有已用次数。体质是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Mogis's Disciple",
+			"source": "MOT",
+			"page": 64,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Mogis trait}",
+				"无数次的战斗和恶毒的幻觉让你变得专注。你在对{@condition charmed}或{@condition frightened}的救赎中具有优势。"
+			]
+		},
+		{
+			"name": "Mogis's Votary",
+			"source": "MOT",
+			"page": 64,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Mogis trait}",
+				"你可以用这个特性施放{@spell blinding smite}。一旦你以这种方式施放了这个法术，你必须休息长达一次才能再次这样做。对于这个法术，你的法术能力是体质。"
+			]
+		},
+		{
+			"name": "Nangnang",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "女性"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "NE"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "自私和残忍"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我不会与他人分享。\""
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "沙甘比"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "宿主可以向上、向下和穿过垂直表面，并沿天花板倒立移动，同时使其双手保持自由。它获得的攀爬速度与它的行走速度相等。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Nylea's Devotee",
+			"source": "MOT",
+			"page": 67,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Nylea trait}",
+				"作为尼莉亚的信徒，你已经证明自己是荒野的守护者。你可以使用这个特性施放{@spell hunter's mark}的次数等同于你的感知调整值（最少一次）。完成一次长休后，你会恢复所有已用次数。感知是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Nylea's Disciple",
+			"source": "MOT",
+			"page": 67,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Nylea trait}",
+				"当一个野兽要攻击你时，它必须做一个DC15的智慧救赎动作。如果拯救失败，该生物必须选择一个不同的目标，否则攻击会自动错过你。拯救成功后，该生物将在24小时内对该特性免疫。"
+			]
+		},
+		{
+			"name": "Nylea's Votary",
+			"source": "MOT",
+			"page": 67,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Nylea trait}",
+				"你可以使用这个特性施放{@spell speak with animals}的次数等同于你的感知调整值（最少一次）。完成一次长休后，你会恢复所有已使用的次数。智力是你施放这个法术的能力调整值。(Wisdom)。",
+				"此外，你在豁免骰中对抗被 {@condition poisoned} 的效果时具有优势。"
+			]
+		},
+		{
+			"name": "Obo'laka",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "女性"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "LN"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "紧张和强迫症"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我规避风险，是例行公事的奴隶\"。"
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "伊金 (I'jin)"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "宿主可以与一个额外的魔法物品相适应。当Obo'laka离开宿主时，宿主所适应的所有魔法物品都不再与之相适应。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Orzhov Charm",
+			"source": "GGR",
+			"page": 174,
+			"type": "Charm",
+			"entries": [
+				"当你启动此符咒时，你可以施展{@spell bestow curse}或{@spell fear}的法术。另外，当你能看到的30英尺范围内的生物被降低到0命中率时，你可以用你的反应让它降低到1命中率。该符咒在你激活它之后会消失。"
+			]
+		},
+		{
+			"name": "Papazotl",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "Male"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "LE"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "精明而狡猾的人"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我在任何人面前都不低头，并期望别人听从我的命令。\""
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "库巴赞"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "宿主不能被{@quickref Surprise|PHB|3|0|surprised}，在所有智慧检查中获得优势，并且永远不会因坠落而受到伤害。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pharika's Devotee",
+			"source": "MOT",
+			"page": 70,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Pharika trait}",
+				"作为法瑞卡的信徒，你拥有对折磨的控制力。你可以施放{@spell ray of sickness}这种特性的次数等同于你的感知修正值（最少一次）。完成一次长休后，你会恢复所有已用次数。感知是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Pharika's Disciple",
+			"source": "MOT",
+			"page": 70,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Pharika trait}",
+				"法利卡用法利卡的药膏祝福你，这种效果可以治愈或削弱。作为一个行动，你可以接触一个生物并选择以下一项。",
+				{
+					"type": "list",
+					"items": [
+						"目标重新获得相当于{@dice 1d8}+你的智慧修改器的命中率，并且你可以治愈目标的一种疾病或中和影响它的一种毒。",
+						"目标必须在DC15宪法救赎中成功，否则在1分钟内，目标只能用武器攻击造成一半伤害。目标可以在其每个回合结束时重复蓄力，如果成功则结束该效果。"
+					]
+				},
+				"你可以使用这个动作的次数等于你的智慧修饰值（最少一次）。当你完成一个长时间的休息时，你会重新获得所有已消耗的使用次数。"
+			]
+		},
+		{
+			"name": "Pharika's Votary",
+			"source": "MOT",
+			"page": 70,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Pharika trait}",
+				"法瑞卡的祝福使你免受大多数疾病的侵害。你在豁免投掷中对{@condition poisoned}具有优势，并且对疾病免疫。(Pharika)"
+			]
+		},
+		{
+			"name": "Phenax's Devotee",
+			"source": "MOT",
+			"page": 73,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Phenax trait}",
+				"作为Phenax的信徒，你已经证明自己在欺骗方面很有造诣。你可以祈求Phenax的祝福，并施放{@spell disguise self}这个特性。当这个法术生效时，你的阴影仍然保持原始形态。你可以以这种方式施放这个法术的次数等于你的魅力调整值（最少一次）。当你完成一次长休时，你恢复所有已用次数。魅力是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "Phenax's Disciple",
+			"source": "MOT",
+			"page": 73,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Phenax trait}",
+				"当你躲避一个生物并以攻击错过它时，进行攻击并不会暴露你的位置。"
+			]
+		},
+		{
+			"name": "Phenax's Votary",
+			"source": "MOT",
+			"page": 73,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Phenax trait}",
+				"你的言辞受到了泰洛斯最伟大的说谎者的启发。你在魅力检定中获得优势（{@skill Deception}）。"
+			]
+		},
+		{
+			"name": "Psionic Reach",
+			"source": "FTD",
+			"page": 28,
+			"type": "Draconic Gift",
+			"rarity": "very rare",
+			"entries": [
+				"宝石龙的幻觉能量赋予你的思想。你获得对精神伤害的抵抗力。",
+				"此外，你学会了{@spell telekinesis}法术。你可以在不消耗法术位的情况下施放这个法术。一旦你以这种方式施放了这个法术，直到你完成一次长休息之前，你不能再这样做。你也可以使用你拥有的相应等级的法术位来施放这个法术。当你用这个天赋施放法术时，法术的施法能力为智力、感知或魅力（在获得这个天赋时选择）。"
+			]
+		},
+		{
+			"name": "Purphoros's Devotee",
+			"source": "MOT",
+			"page": 76,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Purphoros trait}",
+				"作为普尔福洛斯的信徒，你的技艺引起了锻造神的注意。你可以使用这个特性施放{@spell shield of faith}，无需材料组件，次数等同于你的智力调整值（最少一次）。完成一次长休后，你恢复所有已用次数。",
+				"此外，你还知道{@spell mending}的咒语。智力是你对这些法术的施法能力。"
+			]
+		},
+		{
+			"name": "Purphoros's Disciple",
+			"source": "MOT",
+			"page": 76,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Purphoros trait}",
+				"当你站立时，如果一个效果会把你推到1英尺或更远，你可以使用你的反应来不被推到。"
+			]
+		},
+		{
+			"name": "Purphoros's Votary",
+			"source": "MOT",
+			"page": 76,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Purphoros trait}",
+				"你可以用这个特性施放{@spell heat metal}，无需任何材料成分。一旦你以这种方式施放了法术，你必须完成一次长休才能再次这样做。智力是你施法这个法术的能力值。",
+				"此外，你对免疫被击倒的豁免 throws 有优势 {@condition prone}。"
+			]
+		},
+		{
+			"name": "Rakdos Charm",
+			"source": "GGR",
+			"page": 174,
+			"type": "Charm",
+			"entries": [
+				"当你激活这个符咒时，你可以施放{@spell crown of madness}，{@spell hellish rebuke}或{@spell shatter}咒语。符咒在激活后消失。"
+			]
+		},
+		{
+			"name": "Scaled Toughness",
+			"source": "FTD",
+			"page": 28,
+			"type": "Draconic Gift",
+			"rarity": "legendary",
+			"entries": [
+				"你的皮肤变得坚韧，使你能抵抗某些类型的物理伤害。你获得对穿刺和砍击伤害的抵抗。"
+			]
+		},
+		{
+			"name": "Selesnya Charm",
+			"source": "GGR",
+			"page": 174,
+			"type": "Charm",
+			"entries": [
+				"当你激活这个护符时，你可以施放{@spell aura of vitality}或{@spell conjure animals}法术。或者，作为一个动作，你可以选择你周围30英尺内的最多三个生物，使它们对钝击、刺击和斩击伤害获得抗性，直到你的下一个回合结束。护符在激活后消失。"
+			]
+		},
+		{
+			"name": "Shagambi",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "女性"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "NG"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "睿智而有德行"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我从不对恶人施以怜悯\"。"
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "南南网"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "宿主在其回合内采取{@action Attack}行动时，可以进行一次额外的攻击。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Simic Charm",
+			"source": "GGR",
+			"page": 174,
+			"type": "Charm",
+			"entries": [
+				"当你激活这个符咒时，你可以施放{@spell enhance ability}（3级版本）、{@spell enlarge/reduce}或{@spell gaseous form}法术。符咒在激活后消失。"
+			]
+		},
+		{
+			"name": "Strawbundle's Charm",
+			"source": "ToA",
+			"page": 179,
+			"type": "Charm",
+			"entries": [
+				"当你拥有稻草捆(Strawbundle)时，这个护符允许你将{@spell etherealness}咒语作为一个动作施放，无需任何材料。在使用三次后，护符会消失。",
+				"这个娃娃是一个微型构造体。摧毁这个娃娃会导致其中的孩子灵魂被困在{@adventure the Soulmonger|ToA|5|The Soulmonger}中。",
+				{
+					"type": "statblockInline",
+					"dataType": "object",
+					"data": {
+						"name": "Strawbundle",
+						"isNpc": true,
+						"source": "ToA",
+						"page": 179,
+						"size": [
+							"T"
+						],
+						"objectType": "U",
+						"creatureType": "construct",
+						"hp": 1,
+						"speed": {
+							"walk": 10
+						},
+						"immune": [
+							"poison"
+						],
+						"conditionImmune": [
+							"poisoned"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Thassa's Devotee",
+			"source": "MOT",
+			"page": 79,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ Thassa trait}",
+				"作为Thassa的信徒，你已经证明自己是海神的值得代表。你可以使用这个特性施放{@spell fog cloud}。用这种方式创造的雾气弥漫着浓郁的海洋气息。你可以以你的智力调整值的次数（最少一次）施放这个法术。当你完成一次长休后，你将恢复所有已使用次数。智力是你施放这个法术的法术属性。"
+			]
+		},
+		{
+			"name": "Thassa's Disciple",
+			"source": "MOT",
+			"page": 79,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Thassa trait}",
+				"你受到汹涌、无法控制的大海的启发；你对免疫{@condition charmed}或{@condition restrained}的豁免投掷获得优势。"
+			]
+		},
+		{
+			"name": "Thassa's Votary",
+			"source": "MOT",
+			"page": 79,
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Thassa trait}",
+				"你可以用这个特性施放{@spell blink}。一旦你以这种方式施放了这个法术，你必须休息长达一次才能再次这样做。智力是你施放这个法术的能力值。"
+			]
+		},
+		{
+			"name": "The Blessed of Corellon",
+			"source": "MTF",
+			"page": 45,
+			"type": "Other",
+			"entries": [
+				"不断变化、欢快、美丽，原始的精灵可以承担他们喜欢的任何性别。当他们屈服于洛尔思的影响，选择固定他们的身体形态时，精灵们就失去了以这种方式转变的能力。然而，偶尔也会诞生一些雌雄同体的精灵，他们被宣布为科瑞隆的受祝福者，是神的爱和原始精灵的原始流动状态的活生生的象征。许多科里隆的首席祭司都带有这种祝福。",
+				"其中最稀有的受祝福的精灵可以在完成长时间的休息后改变自己的性别--这是除乌鸦以外的各种精灵都在庆祝的奇迹。(黑暗精灵认为这种能力很可怕，并将其描述为一种诅咒，因为它可能会破坏他们整个社会的稳定。如果科瑞隆的祝福在一个乌鸦身上显现，这个精灵通常会逃到地表世界，在那些献给科瑞隆的人中间寻求庇护。"
+			]
+		},
+		{
+			"name": "Time of the Dragon",
+			"source": "ToFW",
+			"page": 68,
+			"type": "Charm",
+			"entries": [
+				"握着天平，你可以使用一个动作召唤雷内斯努普拉，一个{@creature adult time dragon|MPP}（见{@book Morte's Planar Parade|MPP}）。这条龙会出现在你能看到的距离60英尺内的一个未被占据的空间，并在接下来的10分钟内帮助你。之后，时间龙消失，天平也会崩溃。"
+			]
+		},
+		{
+			"name": "Tongue of the Dragon",
+			"source": "FTD",
+			"page": 28,
+			"type": "Draconic Gift",
+			"rarity": "uncommon",
+			"entries": [
+				"你获得了一些龙的威严的存在。",
+				{
+					"type": "entries",
+					"name": "Dragon's Speech",
+					"entries": [
+						"你可以说、读、写Draconic。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragon's Voice",
+					"entries": [
+						"作为一个额外的动作，你可以让你的声音在300英尺以外听得见，持续1分钟。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragon's Wiles",
+					"entries": [
+						"你在魅力检定中获得优势({@skill Persuasion})。"
+					]
+				}
+			]
+		},
+		{
+			"name": "Unkh",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "女性"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "N"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "自我陶醉和优柔寡断"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我没有能力做决定\"。"
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "None"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "宿主的体质得分变为23，除非它已经更高。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Vlagomir's Spark",
+			"source": "IDRotF",
+			"page": 227,
+			"type": "Charm",
+			"entries": [
+				"每小时身高增加1英尺，体重相应增加，直到身高达到21英尺，体重达到7,700磅。当你身高为9英尺时，你的力量值变为19，除非已经更高。每增加3英尺身高，你的力量值增加1，最高不超过23。你穿戴的盔甲、衣物和携带的武器会神奇地随着你的增长而增大。如果你成为{@spell greater restoration}法术或类似魔法的目标，这个魅力会从你身上消失，你会立即恢复到正常尺寸，你携带的盔甲、衣物和武器也会缩小回原来的尺寸。"
+			]
+		},
+		{
+			"name": "Wongo",
+			"source": "ToA",
+			"page": 129,
+			"type": "Inhabitation",
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gender:",
+							"entry": "Male"
+						},
+						{
+							"type": "item",
+							"name": "Alignment:",
+							"entry": "CE"
+						},
+						{
+							"type": "item",
+							"name": "Personality:",
+							"entry": "暴力和精神错乱"
+						},
+						{
+							"type": "item",
+							"name": "Inherited flaw:",
+							"entry": "\"我的行为不关心他人的福祉\"。"
+						},
+						{
+							"type": "item",
+							"name": "Enemy:",
+							"entry": "Moa"
+						},
+						{
+							"type": "item",
+							"name": "Power:",
+							"entry": "主持人可以使用一个动作对其能看到的距离60英尺内的生物发动一个灵能攻击。目标必须成功通过一次DC 16的感知豁免才能在目标的下一个回合结束前保持{@condition stunned}。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Yuan-Ti Pureblood Transformation",
+			"source": "ToA",
+			"page": 119,
+			"type": "Other",
+			"entries": [
+				"一个人可以被转化为元帝的纯血。只有通过{@spell wish}法术或神的干预才能解除这种转变。活下来的角色会获得一种随机的{@table indefinite madness}（见{@i Dungeon Master's Guide}第8章的\"{@book Madness|DMG|8|Madness}\"）。经过仪式并存活下来的人类保留其特征，并获得以下Yuan-ti种族特征。",
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"你能在60英尺内的昏暗光线下看东西，就像亮光一样，在黑暗中看东西，就像暗光一样。你在黑暗中不能辨别颜色，只能辨别灰色的深浅。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innate Spellcasting",
+					"entries": [
+						"你会施展{@spell poison spray}戏法。你可以使用这个特性无限次施展{@spell animal friendship}，但只能以蛇为目标。从3级开始，你也可以使用这个特性施展{@spell suggestion}。一旦你施展了它，你必须完成一次长休才能再次施展。魅力是你施法这些咒语的能力值。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magic Resistance",
+					"entries": [
+						"你对法术和其他魔法效果的救赎有优势。"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poison Immunity",
+					"entries": [
+						"你对毒药伤害和{@condition poisoned}条件免疫。"
+					]
+				}
+			]
+		}
+	]
+}
