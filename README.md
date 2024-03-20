@@ -10,14 +10,20 @@
 - 增加环境变量，更新了translate工作流
 - 将翻译数据源替换为了第二版的5etools
 
-# 项目进展
+# 项目进展  
 目前绝大部分内容都已经进行了汉化，基本导入fvtt使用都没有问题。   
 **注意：** 由于所有内容的名称关联很多，工作量过大，所以名称不在翻译的范围内，未来应该也不会考虑翻译
 
-# 导入FVTT
-在mod内修改资源来源  
-`Base Site Url`改为: https://monthwolf.github.io/5etools-zh.github.io/   
-`Base Homebrew Repository Url`改为: https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/
+# 使用方法  
+随机打开一个导入页，然后点击右下角设置图标进入设置
+<img width="1069" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/cfcb00ad-bbb7-434f-b8d7-ac796ddbfa3e">
+
+</br></br>
+<img width="805" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/044668f0-7f84-47eb-80ee-4b02d930be4c">   
+根据上图，在Data Sources设置中  
+开启`Avoid Loading Local Data`选项  
+将`Base Site Url`改为: https://monthwolf.github.io/5etools-zh.github.io/   
+将`Base Homebrew Repository Url`改为: https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/
 
 # 展示
 <img width="1280" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/6ddf1016-bd51-48f0-a8a3-9402e28bab03">
