@@ -19,16 +19,19 @@
 <img width="1069" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/cfcb00ad-bbb7-434f-b8d7-ac796ddbfa3e">
 
 </br></br>
-<img width="1069" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/418e5a73-c819-4b59-bbb0-f1350a6e944c"> 
+<img width="815" alt="image" src="https://github.com/monthwolf/5etools-zh.github.io/assets/52775320/09679b4c-c05d-4765-b6e0-14ca016e99be">
+
 
 根据上图，在Data Sources设置中  
 开启`Avoid Loading Local Data`选项  
 **【国内】**  
 将`Base Site Url`改为: https://raw.gitmirror.com/monthwolf/5etools-zh.github.io/main/  
 将`Base Homebrew Repository Url`改为: https://raw.gitmirror.com/monthwolf/homebrew-translated/zh/data.zh/  
+将`Base Prerelease Repository Url`改为: https://raw.gitmirror.com/TheGiddyLimit/unearthed-arcana/master/  
 备用链接：  
 将`Base Site Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/monthwolf/5etools-zh.github.io/main/     
 将`Base Homebrew Repository Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/  
+将`Base Prerelease Repository Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/  
 
 **【国外】**
 将`Base Site Url`改为: https://raw.githubusercontent.com/monthwolf/5etools-zh.github.io/main/   
