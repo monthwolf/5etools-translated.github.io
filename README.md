@@ -23,7 +23,15 @@
 
 根据上图，在Data Sources设置中  
 开启`Avoid Loading Local Data`选项  
-将`Base Site Url`改为: https://monthwolf.github.io/5etools-zh.github.io/   
+**【国内】**  
+将`Base Site Url`改为: https://raw.gitmirror.com/monthwolf/5etools-zh.github.io/main/  
+将`Base Homebrew Repository Url`改为: https://raw.gitmirror.com/monthwolf/homebrew-translated/zh/data.zh/  
+备用链接：  
+将`Base Site Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/monthwolf/5etools-zh.github.io/main/     
+将`Base Homebrew Repository Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/  
+
+**【国外】**
+将`Base Site Url`改为: https://raw.githubusercontent.com/monthwolf/5etools-zh.github.io/main/   
 将`Base Homebrew Repository Url`改为: https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/
 
 # 展示
