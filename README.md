@@ -28,13 +28,24 @@
 将`Base Site Url`改为: https://raw.gitmirror.com/monthwolf/5etools-zh.github.io/main/  
 将`Base Homebrew Repository Url`改为: https://raw.gitmirror.com/monthwolf/homebrew-translated/zh/data.zh/  
 将`Base Prerelease Repository Url`改为: https://raw.gitmirror.com/TheGiddyLimit/unearthed-arcana/master/  
-备用链接：  
+
+
+备用链接1：  
 将`Base Site Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/monthwolf/5etools-zh.github.io/main/     
 将`Base Homebrew Repository Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/  
 将`Base Prerelease Repository Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/  
+备用链接2:
+将`Base Site Url`改为: https://cdn.jsdelivr.net/gh/monthwolf/5etools-zh.github.io@main/    
+将`Base Homebrew Repository Url`改为: https://cdn.jsdelivr.net/gh/monthwolf/homebrew-translated@zh/data.zh/  
+将`Base Prerelease Repository Url`改为: https://cdn.jsdelivr.net/gh/TheGiddyLimit/unearthed-arcana@master/  
+
+**【无法使用】**
+对于以上两种链接都无法使用的情况，请直接打包data文件夹，然后覆盖替换mod文件夹中plutonium中的data文件夹（建议做好备份）   
+还原Data Sources设置，取消勾选`Avoid Loading Local Data`选项，留空`Base Site Url`、`Base Homebrew Repository Url`、`Base Prerelease Repository Url`  
+> data文件夹打包方式:可使用[DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/monthwolf/5etools-zh.github.io/tree/main/data.zh)打包
 
 **【国外】**
-将`Base Site Url`改为: https://raw.githubusercontent.com/monthwolf/5etools-zh.github.io/main/   
+将`Base Site Url`改为: https://raw.githubusercontent.com/monthwolf/5etools-zh.github.io/main/ 或 https://monthwolf.github.io/5etools-zh.github.io/ 
 将`Base Homebrew Repository Url`改为: https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/
 
 # 展示
