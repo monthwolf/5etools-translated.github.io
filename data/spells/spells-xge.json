@@ -254,7 +254,7 @@
 				}
 			],
 			"entries": [
-				"你可以让最多六根石柱从你能看到的范围内的地面上突然冒出。每根石柱都是直径5英尺、高度最多30英尺的圆柱体。石柱出现的地面必须足够宽以容纳其直径，如果目标是中等或更小的生物，你可以将石柱定位在该生物下方的地面上。每根石柱的防御等级为5，拥有30点生命值。当生命值降至0时，石柱会崩塌成碎石，形成一个半径为10英尺的区域，持续到碎石被清除。每个5英尺直径的区域至少需要1分钟的时间才能用手清理干净。",
+				"你可以让最多六根石柱从地面上你能看到的范围内爆裂开来。每根石柱都是直径 5 英尺、高 30 英尺的圆柱体。出现石柱的地面必须有足够的宽度来容纳石柱的直径，如果你的目标生物是中型或更小的生物，你就可以将目标放在该生物下方的地面上。每根石柱的 AC 值为 5，命中点数为 30。当命中率降为 0 时，石柱会碎成瓦砾，形成一个半径为 10 英尺的 {@quickref difficult terrain||3} 区域，持续到瓦砾被清除为止。该区域每 5 英尺直径的部分需要至少 1 分钟的人工清理时间。",
 				"如果一个柱子在一个生物的下面被创造出来，这个生物必须在一个灵巧的救赎上成功，否则就会被柱子抬起。生物可以选择不进行救赎。",
 				"如果柱子因为天花板或其他障碍物而无法达到完整高度，站在柱子上的生物会受到{@damage 6d6} 钝击伤害，并被夹在柱子和障碍物之间，被{@condition restrained}。这个{@condition restrained} 生物可以使用一个动作来进行一次力量或敏捷检定（生物自行选择），检定的目标值为法术豁免 DC。若成功，生物将不再{@condition restrained}，并必须要么离开柱子，要么从柱子上摔下来。"
 			],
@@ -512,7 +512,7 @@
 					"type": "entries",
 					"name": "Atonement",
 					"entries": [
-						"你触摸一个愿意的生物，其阵营已经改变，并进行一次 DC 20 的感知检定。在成功检定后，你可以将目标恢复到其原始阵营。"
+						"You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom ({@skill Insight}) check. On a successful check, you restore the target to its original alignment."
 					]
 				},
 				{
@@ -2450,7 +2450,7 @@
 			"entries": [
 				"念咒召唤一只来自九层地狱的恶魔。你可以选择恶魔的类型，如{@filter challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|tag=devil|miscellaneous=!swarm}中的一种，比如{@creature barbed devil}或者{@creature bearded devil}。恶魔会出现在你能看到的范围内的一个空地。恶魔在生命值降至0或法术结束时消失。",
 				"魔鬼对你和你的同伴不友好。为魔鬼投掷先攻，它有自己的回合。魔鬼由主宰地下城的人控制，并根据自己的本性在每个回合中行动，这可能导致它攻击你，如果它认为可以取胜，或者试图诱使你为了有限的服务而进行邪恶行为。主持人拥有该生物的统计数据。",
-				"在你的每个回合，你可以尝试向恶魔发出口头命令（你无需采取任何行动）。如果命令的结果符合恶魔的愿望，尤其是如果结果会使你走向邪恶，它会服从命令。否则，你必须进行一个以你的魅力（{@skill Deception}，{@skill Intimidation}，或{@skill Persuasion}）检定对抗它的感知（{@skill Insight}）检定。如果你说出恶魔的真名，你进行检定时会获得优势。如果你的检定失败，恶魔在咒语持续期间将免疫于你的口头命令，尽管它仍可以选择执行你的命令。如果你的检定成功，恶魔将执行你的命令，比如\"攻击我的敌人\"，\"探索前方的房间\"，或者\"将这个消息带给女王\"，直到完成活动为止，然后它会回到你这里报告已经完成。",
+				"在你的每个回合，你可以尝试向恶魔发出口头命令（你无需采取任何行动）。如果命令的结果符合恶魔的愿望，尤其是如果结果会使你走向邪恶，它会服从命令。否则，你必须进行一个以你的魅力（{@skill Deception}，{@skill Intimidation}，或{@skill Persuasion}）检定对抗它的感知（{@skill Insight}）检定。如果你说出恶魔的真名，你进行检定时会获得优势。如果你的检定失败，恶魔在咒语持续期间将免疫于你的口头命令，尽管它仍可以选择执行你的命令。如果你的检定成功，恶魔将执行你的命令，比如“攻击我的敌人”，“探索前方的房间”，或者“将这个消息带给女王”，直到完成活动为止，然后它会回到你这里报告已经完成。",
 				"如果你的{@status concentration}在法术达到完整持续时间之前结束，且恶魔已经对你的口头命令免疫，那么它不会消失。相反，它会在接下来的{@dice 3d6}分钟内按照自己选择的方式行动，然后才会消失。",
 				"如果你拥有一个个人的恶魔护身符，你可以召唤那个恶魔，如果它的挑战等级符合要求加1，并且它会服从你的所有命令，无需进行魅力检定。"
 			],
@@ -4144,9 +4144,9 @@
 			"entries": [
 				"当你施放这个法术时，你使用绳子在地面或地板上创建一个半径为5英尺的圆圈。当你完成施法时，绳子消失，圆圈变成一个魔法陷阱。",
 				"这个陷阱几乎看不见，需要成功进行一个智力检定（{@skill Investigation}）来辨认。",
-				"当一个小型、中型或大型生物进入法术半径内的地面或地板时，陷阱会触发。该生物必须成功进行一次敏捷豁免才能避免被魔法吊起，悬挂在离地面或地板3英尺的地方。该生物在那里悬挂，直到法术结束。",
+				"The trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell's radius. That creature must succeed on a Dexterity saving throw or be magically hoisted into the air, leaving it hanging upside down 3 feet above the ground or the floor. The creature is {@condition restrained} there until the spell ends.",
 				"一个{@condition restrained}生物可以在每个回合结束时进行一次敏捷豁免，若成功则结束效果。或者，该生物或其他能够接触到它的人可以使用一个动作，对你的法术豁免 DC 进行一次智力检定。若成功，{@condition restrained}效果结束。",
-				"陷阱被触发后，当没有任何生物被其影响时，法术结束。"
+				"After the trap is triggered, the spell ends when no creature is {@condition restrained} by it."
 			],
 			"conditionInflict": [
 				"restrained"
@@ -4994,7 +4994,7 @@
 			],
 			"entries": [
 				"你指向你能看到的一个生物，在它周围响起了一阵悲伤的钟声。目标必须成功进行一次感知豁免才能避免受到{@damage 1d8}死灵伤害。如果目标失去了任何生命值，它将受到{@damage 1d12}死灵伤害。",
-				"当你达到5级（%0%或%1%）时，法术的伤害将增加一个骰子；当你达到11级（%2%或%3%）时，伤害再次增加一个骰子；当你达到17级（%4%或%5%）时，伤害再次增加一个骰子。"
+				"The spell's damage increases by one die when you reach 5th level ({@damage 2d8} or {@damage 2d12}), 11th level ({@damage 3d8} or {@damage 3d12}), and 17th level ({@damage 4d8} or {@damage 4d12})."
 			],
 			"scalingLevelDice": [
 				{
@@ -5451,7 +5451,7 @@
 			"entries": [
 				"你在施法距离内能看见的点上召唤出一个半径为5英尺的水球。这个水球可以悬浮，但不能超过离地面10英尺的高度。水球会持续到法术结束。",
 				"在球体的空间内的任何生物必须进行一次力量豁免检定。豁免成功的生物会被从该空间中喷射出去，到离球体外最近的未被占据的空间。巨大或更大的生物会自动成功豁免检定，而大型或更小的生物可以选择失败。豁免失败的生物会被球体所{@condition restrained}，并被水所吞噬。在其每个回合结束时，被{@condition restrained}的目标可以重复进行豁免检定，成功时可以结束自身的影响。",
-				"这个球体可以限制多达四个中型或更小的生物，或一个大型生物。如果球体限制了一个生物，使其超过了这个容量，那么已经被球体限制的一个随机生物将从中掉出来，落到它附近5英尺范围内的一个空间中。",
+				"The sphere can restrain as many as four Medium or smaller creatures or one Large creature. If the sphere restrains a creature that causes it to exceed this capacity, a random creature that was already {@condition restrained} by the sphere falls out of it and lands {@condition prone} in a space within 5 feet of it.",
 				"作为一个动作，你可以沿直线将球移动最多30英尺。如果它移动经过一个坑、悬崖或其他悬崖，它会安全地下降，直到悬浮在离地面10英尺的位置。任何被球{@condition restrained}碰到的生物都会随着它移动。你可以把球撞向生物，迫使它们进行豁免扑。",
 				"当法术结束时，球体掉落到地面上，并熄灭其周围30英尺范围内的所有普通火焰。任何被球体影响到的生物{@condition restrained}会被击倒，并落在球体掉落的位置。然后水会消失。"
 			],
