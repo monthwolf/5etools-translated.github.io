@@ -34,7 +34,7 @@
 将`Base Site Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/monthwolf/5etools-zh.github.io/main/     
 将`Base Homebrew Repository Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/monthwolf/homebrew-translated/zh/data.zh/  
 将`Base Prerelease Repository Url`改为: https://mirror.ghproxy.com/https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/  
-备用链接2:
+备用链接2:  
 将`Base Site Url`改为: https://cdn.jsdelivr.net/gh/monthwolf/5etools-zh.github.io@main/    
 将`Base Homebrew Repository Url`改为: https://cdn.jsdelivr.net/gh/monthwolf/homebrew-translated@zh/data.zh/  
 将`Base Prerelease Repository Url`改为: https://cdn.jsdelivr.net/gh/TheGiddyLimit/unearthed-arcana@master/  
